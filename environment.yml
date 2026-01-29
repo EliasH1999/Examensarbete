@@ -11,7 +11,6 @@ dependencies:
   - pandas
   - matplotlib
   - scikit-learn
-  - pdfplumber
 
   # Jupyter
   - jupyterlab
@@ -20,7 +19,6 @@ dependencies:
   # ML (LayoutLM via transformers)
   - pytorch
   - torchvision
-  - torchaudio
   - transformers
   - pillow
 
@@ -28,3 +26,6 @@ dependencies:
   - pip:
       - pymupdf
       - protobuf==3.20.*
+      - pdfplumber
+      - torchaudio
+      - langchain
