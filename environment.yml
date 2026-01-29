@@ -27,5 +27,7 @@ dependencies:
       - pymupdf
       - protobuf==3.20.*
       - pdfplumber
-      - torchaudio
       - langchain
+      - langchain-community
+      - sentence-transformers
+      - chromadb
