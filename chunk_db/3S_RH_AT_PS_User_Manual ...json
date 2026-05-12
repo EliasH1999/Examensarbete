@@ -1,0 +1,182 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "USER MANUAL\nRH/AT/PS or MB"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n1\nUSER MANUAL TABLE OF CONTENTS\n1. Introduction\n2. Relative Humidity, Ambient Temperature and Pressure Sensor Installation\n     2.1.     Unpacking and Control\n     2.2.     Site Requirements and Considerations\n     2.3.     Preparation of Materials to be Used in Installation\n     2.4.     Installation\t\n     2.5      Mounting Structure\n3. Connections\t\n4. 3S-RH/AT/PS-MB Configuration and Communication\n     4.1.     3S Configuration Tool\n     4.2.     Modbus RTU Specifications\n     \t\n4.2.1.     Supported Bus Protocol\n\t\n4.2.2.     Supported Function Codes\n     \t\n   4.2.2.1.    Read Holding Registers (0x03)\n\t\n   4.2.2.2.    Read Input Registers (0x04)"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "4.1.     3S Configuration Tool\n     4.2.     Modbus RTU Specifications\n     \t\n4.2.1.     Supported Bus Protocol\n\t\n4.2.2.     Supported Function Codes\n     \t\n   4.2.2.1.    Read Holding Registers (0x03)\n\t\n   4.2.2.2.    Read Input Registers (0x04) \n  \t\n   4.2.2.3.    Read & Change Parameters (0x46)  \t\n\t\n\t\n\t\n   \n\t\n   4.2.2.4.    Diagnotics (0x08)\n5. Additional Documents and Software\n6. Contact Details\n2\n4\n3\n7\n2\n6\n4\n11\n12\n4\n8\n3\n7\n6\n6\n6\n4\n9\n12"
+  },
+  {
+    "chunk_id": 3,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n2\nRelative Humidity, Ambient Temperature and Pressure Sensor is a product from the SEVEN meteorological sensors \nrange of professional and intelligent measuring sensors with digital interface for environmental and industrial applications.\nFigure 1 – RH/AT/PS\nFigure 2 – 3S-RH/AT/PS- MB and 3S-RH-I\n1.  Introduction\nSensor & Output Types\n3S-RH/AT/PS\nDigital\n3S-RH/AT/PS -MB\nModBus – RS485\n3S-RH-I\nAnalog – 4-20mA"
+  },
+  {
+    "chunk_id": 4,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n3\nFigure 3 – Installation Process\nFigure 4 – 3S-RH/AT/PS\nFigure 5 – 3S-RH/AT/PS-MB and 3S-RH-I\n2.  Relative Humidity, Ambient Temperature and Pressure Sensor  Installation\nIt is suggested that the system be operated at ground level to make sure that all components are working properly prior \nto installation. A general diagram of the progress of the installation steps is given below.\nThe version with digital output has SDA, SCL pins which are I2C communication outputs. It is connected to the irradiance \nsensor box communicating with the I2C communication protocol via these pins. The user can easily connect it to the"
+  },
+  {
+    "chunk_id": 5,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "The version with digital output has SDA, SCL pins which are I2C communication outputs. It is connected to the irradiance \nsensor box communicating with the I2C communication protocol via these pins. The user can easily connect it to the \nirradiance box with only a 7-pin connector. In the version with 4-20mA output, data is transferred to data loggers and \nreceiving units capable of analogue measurement. In the version with ModBus output, all measured meteorological data \nis transferred to data loggers and receiving units via a 2-wire RS485 bus with Modbus RTU protocol.\nSEVEN products use reliable and high-quality instruments to provide accurate meteorological information in environmental \nand industrial applications.\nNote: : Quantity and content of the received material may be different based on customer confirmed order.\nNote: : SEVEN reserves the right to make changes in this entire document without prior notice.\n2.1.  Unpacking and Control\n2.2.  Site Requirements and Considerations"
+  },
+  {
+    "chunk_id": 6,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "Note: : Quantity and content of the received material may be different based on customer confirmed order.\nNote: : SEVEN reserves the right to make changes in this entire document without prior notice.\n2.1.  Unpacking and Control\n2.2.  Site Requirements and Considerations\nUpon receipt of the product, it must be carefully checked whether the package content is complete. SEVEN Sensor \nSolutions must be contacted if any of the components are missing, damaged or defective.\nEach site is different and has its own unique challenges. For this reason, the installation of the product may differ in \neach site. First of all, it should be decided where the product will be installed. Ambient temperature can be affected by \nobstructions, shading source and local topography.\nRelative Humidity, Ambient Temperature and Pressure Sensor should be placed away from any dark or reflective and \nheat-absorbing surfaces."
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "obstructions, shading source and local topography.\nRelative Humidity, Ambient Temperature and Pressure Sensor should be placed away from any dark or reflective and \nheat-absorbing surfaces.\nWhen the Relative Humidity, Ambient Temperature and Pressure Sensor is to be mounted on a rooftop, it should \npreferably be mounted on the prevailing wind side of the building. It should also be avoided to place the sensor near any \nheat source such as chimneys or ventilation."
+  },
+  {
+    "chunk_id": 8,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n4\n3S-RH/AT/PS Relative Humidity, Ambient Temperature and Pressure Sensor installation can be handled in 2 steps. \nFirstly, the Relative Humidity, Ambient Temperature and Pressure Sensor mounting structure must be installed. Then \nthe sensors must be fixed to the mounting structure. The installation can be easily completed by a qualified electrician \nby following SEVEN instructions.\nThe materials needed during installation are provided by SEVEN. The user should only prepare the following hand tools \nand personal protective equipment.\nRelative Humidity, Ambient Temperature and Pressure Sensor is not requiring any maintenance or changing of spare \nparts."
+  },
+  {
+    "chunk_id": 9,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "The materials needed during installation are provided by SEVEN. The user should only prepare the following hand tools \nand personal protective equipment.\nRelative Humidity, Ambient Temperature and Pressure Sensor is not requiring any maintenance or changing of spare \nparts. \nFastener tightness and cable conditions, looking for damage, deterioration, or disconnection of sensors and electrical \nenclosures, evidence of moisture or vermin in enclosures, loose wiring connections, embrittlement of attachments and \nother potential problems, should be checked periodically.\nAccording to IEC 61724-1:2021, the monitoring system should be inspected at least annually and preferably at more \nfrequent intervals.\n2.4. Installation\n2.3.  Preparation of Materials to be Used in Installation\n2.5. Mounting Structure\n Materials \nGloves\nMeter\n6 mm Concrete Screw Drill Bit\nDrill\nNote: To facilitate the maintenance of the Relative Humidity, Ambient Temperature and Pressure Sensor must"
+  },
+  {
+    "chunk_id": 10,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "frequent intervals.\n2.4. Installation\n2.3.  Preparation of Materials to be Used in Installation\n2.5. Mounting Structure\n Materials \nGloves\nMeter\n6 mm Concrete Screw Drill Bit\nDrill\nNote: To facilitate the maintenance of the Relative Humidity, Ambient Temperature and Pressure Sensor must \nbe installed in an easily accessible location, especially for rooftop projects.\nFigure 6 – Materials to be Used in Installation\nFigure 7 – Correct Installation\nFigure 8 – Incorrect Installation"
+  },
+  {
+    "chunk_id": 11,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n5\n3.  Connections\nThe sensor junction box has waterproof and UV-resistant connectors. All cable colours and their connection names are \nindicated in the cable connections section. The minimum bending radius of the cables is 5 mm.\nThe supply voltage for the Relative Humidity, Ambient Temperature and Pressure Sensor is 12 - 30 V DC. Operation \nwith a supply voltage of 24 V is recommended.\nThe Relative Humidity, Ambient Temperature and Pressure Sensor has an electrically isolated, half-duplex, 2 wire \nRS485 interface for configuration, communication and the firmware update.\nThe communication and power cable of Relative Humidity, Ambient Temperature and Pressure Sensor should be always"
+  },
+  {
+    "chunk_id": 12,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "RS485 interface for configuration, communication and the firmware update.\nThe communication and power cable of Relative Humidity, Ambient Temperature and Pressure Sensor should be always \nlaid separated from AC/DC cables.\nNote: The installation and electrical connections of SEVEN sensors should be carried out by a qualified \nelectrician.\n3S-RH/AT/PS-MB\nRS485 A / Data (+)\nGreen\nRS485 B / Data (-)\nYellow\nRS485 Data Ground\nPink\nPositive Supply Voltage\nBrown\nSupply Voltage Ground\nWhite\nEarth Ground\nBlack\n3S-RH-I\n4-20mA (+)\nGreen\n4-20mA (-)\nYellow\nPositive Supply Voltage\nBrown\nSupply Voltage Ground\nWhite\nFigure 9 – 3S-RH/AT/PS-MB\nDatalogger\nPower\nSupply\nV+\nV-\ngreen\nyellow\nblack\nEarth Ground\nbrown\nData - D-\nData - GND\nData + D+"
+  },
+  {
+    "chunk_id": 13,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n6\n4.  3S-RH/AT/PS-MB Configuration and Communication\n4.1.  3S Configuration Tool\nOnce the Relative Humidity, Ambient Temperature and Pressure Sensor(3S-RH/AT/PS-MB) has been installed and \nconnected correctly, the sensor begins autonomously to take measurements. \nAttention must be paid to the following points: \n   • A measurement request should be made to the Relative Humidity, Ambient Temperature and Pressure Sensor with \nthe 3S CWS Configuration Tool and it should be checked whether it correctly operation in the site.\n    • If several Modbus Devices are operated on a network, a unique device ID must be assigned to each device."
+  },
+  {
+    "chunk_id": 14,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "the 3S CWS Configuration Tool and it should be checked whether it correctly operation in the site.\n    • If several Modbus Devices are operated on a network, a unique device ID must be assigned to each device.\nFollow SEVEN instructions to configure the Relative Humidity, Ambient Temperature and Pressure Sensor on dataloggers\n3S-CWS Configuration Tool v3.0 is a software tool for testing communication and adjusting Modbus parameters on the \nRelative Humidity, Ambient Temperature and Pressure Sensor(3S-RH/AT/PS-MB). \nA Windows® PC with a serial bus interface set as a serial COM port, 3S-CWS Configuration Tool v3.0 software, and \nUSB to RS485 Converter are required for configuration and testing purposes.\nFollow the instructions in 3S-CWS Configuration Tool User Manual: \nhttps://www.sevensensor.com/files/d/en/3S-CWS_Configuration_Tool_v3.0.pdf\nFigure 11 – Connection of the 3S-RH&AT with Irradiance Sensor\n4.2. Modbus RTU Specifications\n4.2.1.\t Supported Bus Protocol"
+  },
+  {
+    "chunk_id": 15,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "Follow the instructions in 3S-CWS Configuration Tool User Manual: \nhttps://www.sevensensor.com/files/d/en/3S-CWS_Configuration_Tool_v3.0.pdf\nFigure 11 – Connection of the 3S-RH&AT with Irradiance Sensor\n4.2. Modbus RTU Specifications\n4.2.1.\t Supported Bus Protocol\nThe Relative Humidity, Ambient Temperature and Pressure Sensor is equipped with an RS-485 communication port \nthat supports Modbus RTU commands. The Relative Humidity, Ambient Temperature and Pressure Sensor can be \nconfigured to operate in different communication parameters. The table that follows describes each supported bus \nprotocol.\n7 pin connector\nFigure 10 – 3S-RH-I\nDatalogger\nPower\nSupply\nV+\nV-\ngreen\nyellow\nbrown\n4-20mA (+)\n4-20mA (-)"
+  },
+  {
+    "chunk_id": 16,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n7\nBaud Rate\n4800, 9600, 19200, 38400\nParity\nNone, Even, Odd\nStop Bit\n1, 2 (only at None parity)\nFactory Default\n9600, 8N1, address: 1\n4.2.2.\t Supported Function Codes\nThe Relative Humidity, Ambient Temperature and Pressure Sensor supports a specific subset of Modbus RTU commands. \nThe table that follows lists each supported function code.\nNote : All checksums of the Modbus protocol are omitted in this document. These checksums must always be \ncalculated and sent during communication.\n0x03\nRead Holding Registers\n0x04\nRead Input Registers\n0x46\nRead & Change Parameters\n0x08\nReset Communication Command\n4.2.2.1.  Read Holding Registers (0x03)\nHolding Register Map"
+  },
+  {
+    "chunk_id": 17,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "calculated and sent during communication.\n0x03\nRead Holding Registers\n0x04\nRead Input Registers\n0x46\nRead & Change Parameters\n0x08\nReset Communication Command\n4.2.2.1.  Read Holding Registers (0x03)\nHolding Register Map\nThe 3S-RH/AT/PS-MB holding register map is based on the “SunSpec Alliance” communication standards. There is \nno valid value for ambient temperature and relative humidity.\nMaster Request:\nSlave Response:\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x03\nStart Register\n2 Byte (Big Endian)\nsee the register table below\nNumber of Registers\n2 Byte (Big Endian)\nsee the register table below\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x03\nNumber of Bytes\n1 Byte\n0 to 255 (2xN) N = Number of Registers\nData\n2 Byte x N (Big Endian)\nsee the register table below\nStart\nEnd\nValue\nType\nUnits\nScale Factor\nConstant\n40000\n40001\nSunSpec ID\nuint32\nN/A\nN/A\n\"SunS\"\n40002\n40002\nSunSpec Device ID\nuint16\nN/A\nN/A\n0x0001\n40003\n40003\nSunSpec Length\nuint16\nRegisters\nN/A\n65\n40004\n40019\nManufacturer"
+  },
+  {
+    "chunk_id": 18,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "Data\n2 Byte x N (Big Endian)\nsee the register table below\nStart\nEnd\nValue\nType\nUnits\nScale Factor\nConstant\n40000\n40001\nSunSpec ID\nuint32\nN/A\nN/A\n\"SunS\"\n40002\n40002\nSunSpec Device ID\nuint16\nN/A\nN/A\n0x0001\n40003\n40003\nSunSpec Length\nuint16\nRegisters\nN/A\n65\n40004\n40019\nManufacturer\nString (32)\nN/A\nN/A\n\"SevenSensor\"\n40020\n40035\nModel\nString (32)\nN/A\nN/A\n\"3S-RH/AT/PS\"\n40036\n40043\nHardware Version\nString (16)\nN/A\nN/A\n\"1.1\"\n40044\n40051\nSoftware Version\nString (16)\nN/A\nN/A\n\"2.0\"\n40052\n40067\nSerial Number\nString (32)\nN/A\nN/A\n\"23.12.345.65.0013\"\n40068\n40068\nDevice ID\nuint16\nN/A\nN/A\n1"
+  },
+  {
+    "chunk_id": 19,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n8\nSunspec Device Model Measurement Registers\n40069\n40069\nBlock ID\nint16\nN/A\nN/A\n307\n40070\n40070\nLength\nint16\nRegisters\nN/A\n11\n40071\n40071\nAir Temperature\nint16\n°C\n0.1\nMeasured\n40072\n40072\nRelative Humidity\nint16\n%\n0\nMeasured\n40073\n40073\nBarometric Pressure\nint16\nhPa\n0\nMeasured\nIrradiance Model Registers\n40082\n40082\nBlock ID\nint16\nN/A\n0\n302\n40083\n40083\nLength\nint16\nRegisters\n0\n5\nBack of Module Temperature Registers\n40089\n40089\nBlock ID\nint16\nN/A\nN/A\n303\n40090\n40090\nLength\nint16\nRegisters\nN/A\n9\n40091\n40091\nModul Temp\nint16\n°C\n0.1\nMeasured\n40092\n40092\nModul Temp 1\nint16\n°C\n0.1\nN/A\n40093\n40093\nModul Temp 2\nint16\n°C\n0.1\nN/A\n40094\n40094\nModul Temp 3\nint16\n°C\n0.1\nN/A\n40095\n40095"
+  },
+  {
+    "chunk_id": 20,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "Back of Module Temperature Registers\n40089\n40089\nBlock ID\nint16\nN/A\nN/A\n303\n40090\n40090\nLength\nint16\nRegisters\nN/A\n9\n40091\n40091\nModul Temp\nint16\n°C\n0.1\nMeasured\n40092\n40092\nModul Temp 1\nint16\n°C\n0.1\nN/A\n40093\n40093\nModul Temp 2\nint16\n°C\n0.1\nN/A\n40094\n40094\nModul Temp 3\nint16\n°C\n0.1\nN/A\n40095\n40095\nModul Temp 4\nint16\n°C\n0.1\nN/A\n40096\n40096\nModul Temp 5\nint16\n°C\n0.1\nN/A\n40097\n40097\nModul Temp 6\nint16\n°C\n0.1\nN/A\n40098\n40098\nModul Temp 7\nint16\n°C\n0.1\nN/A\n40099\n40099\nAmbient Temp (SHT)\nint16\n°C\n0.1\nN/A\nDevice Model Measurement Registers\n40100\n40100\nBlock ID\nint16\nN/A\nN/A\n308\n40101\n40101\nLength\nint16\nRegisters\nN/A\n5\n40102\n40102\nPlane of Array\nint16\nW/m²\n0.1\nN/A\n40103\n40103\nModul Temp\nint16\n°C\n0.1\nMeasured\n40104\n40104\nAmbient Temp (SHT)\nint16\n°C\n0.1\nN/A\n40105\n40105\nWind Speed\nint16\nm/s\n0.1\nMeasured\n40106\n40106\nAir Temperature\nint16\n°C\n0.1\nMeasured\nEnd of Block Registers\n40107\n40107\nEnd of SunSpec Block\nuint16\nN/A\nN/A\n0xFFFF\n40108\n40108\nLength\nuint16\nRegisters\n0\n0"
+  },
+  {
+    "chunk_id": 21,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "Modul Temp\nint16\n°C\n0.1\nMeasured\n40104\n40104\nAmbient Temp (SHT)\nint16\n°C\n0.1\nN/A\n40105\n40105\nWind Speed\nint16\nm/s\n0.1\nMeasured\n40106\n40106\nAir Temperature\nint16\n°C\n0.1\nMeasured\nEnd of Block Registers\n40107\n40107\nEnd of SunSpec Block\nuint16\nN/A\nN/A\n0xFFFF\n40108\n40108\nLength\nuint16\nRegisters\n0\n0\nDevice Address Read/Write Register\n40109\n40109\nModbus ID – Write Register\nuint16\nN/A\nN/A\n1\n4.2.2.2.  Read Input Registers (0x04)\nMaster Request:\nSlave Response:\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x04\nStart Register\n2 Byte (Big Endian)\nsee the register table below\nNumber of Registers\n2 Byte (Big Endian)\nsee the register table below\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x04\nNumber of Bytes\n1 Byte\n0 to 255 (2xN) N = Number of Registers\nData\n2 Byte x N (Big Endian)\nsee the register table below"
+  },
+  {
+    "chunk_id": 22,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n9\n4.2.2.3.  Read & Change Parameters (0x46)\nSub Function (0x04): Write Device Address\nMaster Request:\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x46\nSub Function Code\n1 Byte\n0x04\nNew Address\n1 Byte\n1 to 247\nID-Dec\nID-Hex\nValue\nRange\nResolution\n30032\n0x20\nAmbient Temperature (SHT)\n-40…+85 °C\n0.1°C\n30033\n0x21\nRelative Humidity (SHT)\n0…100%\n0.1%\n30035\n0x23\nAir Pressure\n260 – 1260 hPa\n0.1%\nID-Dec\nID-Hex\nValue\nRange\n30301\n0x12D\nHardware Version\nManufacturer Parameters\nRead Only\n30302\n0x12E\nSoftware Version\n30342\n0x156\nSerial Number\nProduction Year\n30343\n0x157\nProduction Code\n30344\n0x158\nCell Serial Number\n30345\n0x159\nBoard Serial Number\n30346\n0x15A\nBox Serial Number\n30347\n0x15B"
+  },
+  {
+    "chunk_id": 23,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "0.1%\nID-Dec\nID-Hex\nValue\nRange\n30301\n0x12D\nHardware Version\nManufacturer Parameters\nRead Only\n30302\n0x12E\nSoftware Version\n30342\n0x156\nSerial Number\nProduction Year\n30343\n0x157\nProduction Code\n30344\n0x158\nCell Serial Number\n30345\n0x159\nBoard Serial Number\n30346\n0x15A\nBox Serial Number\n30347\n0x15B\nSensor Serial Number\n30348\n0x15C\nProduction Date\nProduction Day\n30349\n0x15D\nProduction Month\n30350\n0x15E\nProduction Year\nInput Register Map\nA standard input register map has been created for all SEVEN Modbus devices. The following Modbus data can be read \nindividually or in blocks.\nAdditionally, the following internal data can be read individually or in blocks."
+  },
+  {
+    "chunk_id": 24,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n10\nSub Function (0x06): Write Communication Parameters\nMaster Request:\nSlave Response:\nSlave Response:\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x46\nSub Function Code\n1 Byte\n0x06\nNew Baud Rate\n1 Byte\n0 to 3, see table below\nNew Parity / Stop Bit\n1 Byte\n0 to 3, see table below\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x46\nSub Function Code\n1 Byte\n0x06\nNew Baud Rate\n1 Byte\n0 to 3, see table below\nNew Parity / Stop Bit\n1 Byte\n0 to 3, see table below\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x46\nSub Function Code\n1 Byte\n0x04\nNew Address\n1 Byte\n1 to 247\nNote : When the “Write Communication Parameters” command is used, the “Write Device Address” command"
+  },
+  {
+    "chunk_id": 25,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "1 Byte\n0 to 3, see table below\nNew Parity / Stop Bit\n1 Byte\n0 to 3, see table below\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x46\nSub Function Code\n1 Byte\n0x04\nNew Address\n1 Byte\n1 to 247\nNote : When the “Write Communication Parameters” command is used, the “Write Device Address” command \nmust also be used before the restart communication command.\nCommunication Parameter Settings\nParameter changes will take effect after restarting of the sensor by power on reset or restarting the communication \ncommand.\nBaud Rate\nValue\nParity / Stop Bit\nValue\n4800\n0\nNone/1\n0\n9600\n1\nNone/2\n1\n19200\n2\nOdd\n2\n38400\n3\nEven\n3\nSub Function (0x07): Read Hardware & Software Versions\nMaster Request:\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x46\nRestart Code\n1 Byte\n0x07"
+  },
+  {
+    "chunk_id": 26,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n11\n4.2.2.4.  Diagnotics (0x08)\nMaster Request:\nSlave Response:\nSlave Response:\nSlave Response:\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x08\nRestart Code\n4 Byte\n0x00000000\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x08\nRestart Code\n4 Byte\n0x00000000\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x46\nSub Function Code\n1 Byte\n0x07\nHardware Version\n2 Byte (Little Endian)\n0 to 65535\nSoftware Version\n2 Byte (Little Endian)\n0 to 65535\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x46\nSub Function Code\n1 Byte\n0x08\nProduction Year\n1 Byte\n0 to 99\nProduction Code\n1 Byte\n0 to 99\nBox Serial Number\n1 Byte\n0 to 99\nSensor Serial Number\n2 Byte (Big Endian)\n0 to 9999\nProduction Day\n1 Byte"
+  },
+  {
+    "chunk_id": 27,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "Software Version\n2 Byte (Little Endian)\n0 to 65535\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x46\nSub Function Code\n1 Byte\n0x08\nProduction Year\n1 Byte\n0 to 99\nProduction Code\n1 Byte\n0 to 99\nBox Serial Number\n1 Byte\n0 to 99\nSensor Serial Number\n2 Byte (Big Endian)\n0 to 9999\nProduction Day\n1 Byte\n1 to 31\nProduction Month\n1 Byte\n1 to 12\nProduction Year\n1 Byte\n0 to 99\nSub Function (0x08): Read Serial Number - Production Date - Calibration Date\nMaster Request:\nAddress\n1 Byte\n1 to 247\nFunction Code\n1 Byte\n0x46\nSub Function Code\n1 Byte\n0x08"
+  },
+  {
+    "chunk_id": 28,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "3S-RH/AT/PS\nRelative Humidity, Ambient Temperature and Pressure Sensor\nPinarcay OSB Mahallesi Organize Sanayi Tesisleri Teknokent Idare Binasi No: 7, D:1, 19100 Merkez / Corum / Türkiye\n• Phone: +90 364 230 1233 • Website: www.sevensensor.com • Email: sales@sevensensor.com\nRevision 2.0 / Created 12/07/2024\n12\n5.  Additional Documents and Software \nPlease feel free to contact us if you face any difficulties during installation or configuration.\nUser Manual\t\n\t\n\t\nThis document\nDatasheet\t\n\t\n\t\n3S-RH/AT/PS brochure\n3S-CWS Configuration Tool\t\nWindows® software for testing, firmware updates and configuration of the device\nFirmware\t\n\t\n\t\nCurrent device firmware\nPlease feel free to contact us if you face any difficulties during installation or configuration.\n\t\nPhone Number\t\n\t\n\t\n\t\nSales Team\t\n\t\n\t\n\t\n+90 530 889 80 19\nTechical Support\t\n\t\n\t\n+90 553 892 26 70\nEmails\t\t\n\t\n\t\n\t\nSales Team\t\n\t\n\t\n\t\nsales@sevensensor.com\nTechical Support\t\n\t\n\t\nteknik@sevensensor.com\nWebsite\t\n\t\n\t\n\t\nwww.sevensensor.com"
+  },
+  {
+    "chunk_id": 29,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\3S_RH_AT_PS_User_Manual ...pdf",
+    "content": "Phone Number\t\n\t\n\t\n\t\nSales Team\t\n\t\n\t\n\t\n+90 530 889 80 19\nTechical Support\t\n\t\n\t\n+90 553 892 26 70\nEmails\t\t\n\t\n\t\n\t\nSales Team\t\n\t\n\t\n\t\nsales@sevensensor.com\nTechical Support\t\n\t\n\t\nteknik@sevensensor.com\nWebsite\t\n\t\n\t\n\t\nwww.sevensensor.com\n6.  Contact Details"
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "ORIGINAL INSTRUCTIONS  \n \nUSER MANUAL  \nZ-8NTC \n \n8-CHANNEL NTC TEMPERATURE SENSOR CONVERTER \nWITH USB/RS485 PORT AND MODBUS RTU PROTOCOL  \n \n \n \n \n \n \nSENECA S.r.l. \nVia Austria 26 – 35127 – Z.I. - PADOVA (PD) - ITALY  \nTel. +39.049.8705355 – 8705355  Fax +39 049.8706287 \nwww.seneca.it"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 2 \n \nCAUTION \n \nSENECA does not guarantee that all specifications and/or aspects of the product and firmware, included in them, \nwill meet the requirements of the actual final application even if the product referred to in this documentation is \nin compliance with the technological state of the art. \nThe user assumes full responsibility and/or risk with regard to the configuration of the product to achieve the \nintended results in relation to the specific installation and/or end application. \nSENECA may, with prior agreement, provide consultancy services for the successful completion of the final \napplication, but under no circumstances can it be held responsible for its proper functioning. \nThe SENECA product is an advanced product, the operation of which is specified in the technical documentation"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "application, but under no circumstances can it be held responsible for its proper functioning. \nThe SENECA product is an advanced product, the operation of which is specified in the technical documentation \nsupplied with the product itself and/or can be downloaded, if desired prior to purchase, from the www.seneca.it \nwebsite. \nSENECA has a policy of continuous development and accordingly reserves the right to make and/or introduce - \nwithout prior notice - changes and/or improvements to any product described in this documentation. \nThe product described in this documentation may solely and exclusively be used by personnel qualified for the \nspecific activity and in accordance with the relevant technical documentation, with particular attention being paid \nto the safety instructions. \nQualified personnel means personnel who, on the basis of their training, competence and experience, are able"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "specific activity and in accordance with the relevant technical documentation, with particular attention being paid \nto the safety instructions. \nQualified personnel means personnel who, on the basis of their training, competence and experience, are able \nto identify risks and avoid potential hazards that could occur during the use of this product. \nSENECA products may only be used for the applications and in the manner described in the technical \ndocumentation relating to the products themselves. \nTo ensure proper operation and prevent the occurrence of malfunctions, the transport, storage, installation, \nassembly, maintenance of SENECA products must comply with the safety instructions and environmental \nconditions specified in this documentation. \nSENECA's liability in relation to its products is governed by the general conditions of sale, which can be \ndownloaded from www.seneca.it."
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "assembly, maintenance of SENECA products must comply with the safety instructions and environmental \nconditions specified in this documentation. \nSENECA's liability in relation to its products is governed by the general conditions of sale, which can be \ndownloaded from www.seneca.it. \nNeither SENECA nor its employees, within the limits of applicable law, will in any case be liable for any lost \nprofits and/or sales, loss of data and/or information, higher costs incurred for goods and/or replacement services, \ndamage to property and/or persons, interruption of activities and/or provision of services, any direct, indirect, \nincidental, pecuniary and non-pecuniary, consequential damages in any way caused and/or caused, due to \nnegligence, carelessness, incompetence and/or other liabilities arising from the installation, use and/or inability \nto use the product. \n \nCONTACT INFORMATION \n \nTechnical support \nsupporto@seneca.it  \nProduct information \ncommerciale@seneca.it"
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "negligence, carelessness, incompetence and/or other liabilities arising from the installation, use and/or inability \nto use the product. \n \nCONTACT INFORMATION \n \nTechnical support \nsupporto@seneca.it  \nProduct information \ncommerciale@seneca.it \n \nThis document is the property of SENECA srl. Copies and reproductions are prohibited unless authorised."
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 3 \n \nDocument revisions \nDATE \nREVISION \nNOTE \nAUTHOR \n17/10/2017 \n1 \nFirst revision \nMM \n19/10/2017 \n2 \nImproved \nexplanation \nof \nregister 40071 \nMM \n20/10/2017 \n3 \nFixed integer registers with \nModbus table \nMM \n27/02/2018 \n4 \nAdded \nprecision \nrange \ninformation \nModified Z-8NTC image \nMM \n08/09/2025 \n5 \nValue correction Chapter 2.2 \nAC"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 4 \n \n \nCONTENTS \n \nDEVICE DESCRIPTION AND INTENDED USE ........................................................ 5 \n1.1. \nDescription ..............................................................................................................................................................................5 \n1.2. \nFunctions .................................................................................................................................................................................5 \n1.3. \nTechnical Specifications ........................................................................................................................................................6 \n \nCONFIGURATION BY DIP SWITCH ......................................................................... 7 \n2.1."
+  },
+  {
+    "chunk_id": 8,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "1.3. \nTechnical Specifications ........................................................................................................................................................6 \n \nCONFIGURATION BY DIP SWITCH ......................................................................... 7 \n2.1. \nLoading Modbus RTU configuration from flash ...................................................................................................................7 \n2.2. \nSetting the RS485 port Modbus RTU station address .........................................................................................................8 \n2.3. \nRS485 Baud rate setting .........................................................................................................................................................8 \n2.4. \nInserting the RS485 Terminator .............................................................................................................................................9"
+  },
+  {
+    "chunk_id": 9,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "2.4. \nInserting the RS485 Terminator .............................................................................................................................................9 \n \nFRONT USB CONNECTION ..................................................................................... 9 \n3.1. \nUSB virtual COM driver ..........................................................................................................................................................9 \n \nMODBUS RTU PROTOCOL ..................................................................................... 9 \n4.1. \nModbus RTU function code supported .................................................................................................................................9 \n \nMODBUS REGISTER TABLE ................................................................................. 11 \n \nCOMPLETE CONFIGURATION WITH EASY SETUP ............................................ 21 \n6.1."
+  },
+  {
+    "chunk_id": 10,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "MODBUS REGISTER TABLE ................................................................................. 11 \n \nCOMPLETE CONFIGURATION WITH EASY SETUP ............................................ 21 \n6.1. \nEasy Setup Menu ..................................................................................................................................................................21 \n6.2. \nCreating a project configuration ..........................................................................................................................................22 \n6.3. \nDevice test .............................................................................................................................................................................24 \n6.3.1. \nThe Data Logger ............................................................................................................................................................25"
+  },
+  {
+    "chunk_id": 11,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "6.3.1. \nThe Data Logger ............................................................................................................................................................25 \n \nSTEINHART-HART COEFFICIENT CALCULATOR ............................................... 26 \n7.1. \nCalculating Steinhart-Hart Coefficients from Beta ............................................................................................................26 \n7.2. \nCalculating Steinhart-Hart Coefficients from the Temperature/Resistance Table ..........................................................27"
+  },
+  {
+    "chunk_id": 12,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 5 \n \n DEVICE DESCRIPTION AND INTENDED USE \n \nATTENTION! \nThis user manual extends the information of the installation manual on the device configuration. For \nfurther information, use the installation manual. \n \nATTENTION! \nSENECA s.r.l. or its suppliers shall in no event be liable for loss of registration data/income or for \nindirect or incidental damages due to negligence or incorrect or improper use of the device, even if \nSENECA is well aware of such possible damages. \nSENECA, its subsidiaries and affiliates, group companies, suppliers and retailers do not guarantee \nthat the functions will be such as to fully meet customer expectations or that the device, firmware and \nsoftware will be error-free or will operate continuously. \n \n1.1. Description"
+  },
+  {
+    "chunk_id": 13,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "SENECA, its subsidiaries and affiliates, group companies, suppliers and retailers do not guarantee \nthat the functions will be such as to fully meet customer expectations or that the device, firmware and \nsoftware will be error-free or will operate continuously. \n \n1.1. Description \n \nThe Z-8NTC device is an 8-channel NTC temperature converter with Modbus RTU protocol. \nCommunication can be via USB or RS485. \n \nThe device can measure up to 8 NTCs (each channel can be configured individually). \nThe powerful Easy Setup software allows for easy access to NTC parameters. \n \n1.2. Functions \n \n▪ 16-bit A/D conversion on three selectable scales: 100 Ω – 10 kΩ, 1 kΩ – 100 kΩ, 5 kΩ – 500 kΩ. \n▪ Accuracy 0.5% of the resistance value. \n▪ Measurement available in the following types: Resistance (Ω) or Temperature (°C, °F, K) on 32-bit integer \nand 32-bit floating point, direct or swapped. \n▪ Resistance-to-temperature conversion with Steinhart-Hart equation for high accuracy."
+  },
+  {
+    "chunk_id": 14,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "▪ Accuracy 0.5% of the resistance value. \n▪ Measurement available in the following types: Resistance (Ω) or Temperature (°C, °F, K) on 32-bit integer \nand 32-bit floating point, direct or swapped. \n▪ Resistance-to-temperature conversion with Steinhart-Hart equation for high accuracy. \n▪ Individually switchable and configurable channels. \n▪ Programmable filter to stabilise readings. \n▪ Conversion time: 500 ms for all channels \n▪ Linearisation via configuration software for sensors: NTC, COSTER, KTY with measuring points, or Beta \n▪ Easy wiring of the power supply and serial bus via the Z-BUS bus housed on the DIN rail \n▪ Removable terminals for cables with a maximum cross-section of 2.5 mm. \n▪ Communication parameters configurable via DIP switches or software \n▪ RS485 serial communication with MODBUS-RTU protocol. \n▪ Front USB port for configuration and MODBUS-RTU communication."
+  },
+  {
+    "chunk_id": 15,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 6 \n \n1.3. Technical Specifications \n \nRS485 COMMUNICATION PORTS \n \nNumber \n1  \nProtocol \nModbus RTU Slave \nBaud Rate \nConfigurable from 1200 to 115200 \nParity, data bits and stop bits \nSoftware configurable \n \nUSB COMMUNICATION PORTS \n \nNumber \n1  \nProtocol \nModbus RTU Slave \nCommunication parameters \nFixed at 38400, 8 bits, no parity, 1 stop bit"
+  },
+  {
+    "chunk_id": 16,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 7 \n \n CONFIGURATION BY DIP SWITCH \n \nThe device is fully configurable with the free Seneca configuration tools: \n \n▪ Easy Setup \n▪ Z-NET4 \n \nModbus RTU configuration on the RS485 port can also be performed via dip switches. \n \nATTENTION! \nThe configuration via dip switch is active only after a restart! \n \nATTENTION! \nThe Dip Switch setting overlaps the Flash setting and consequently, in the event that it is necessary to \nuse the flash configuration, ALL the dip switches MUST be positioned in the “OFF” position. \n \nATTENTION! \nThe baud rate and Modbus station address are set to: \nBaud rate 38400, Modbus station address 1, 8-bit data, 1 stop bit \n \nThe DIP switch configuration can only change the Modbus RTU communication parameters. \n \n2.1. Loading Modbus RTU configuration from flash"
+  },
+  {
+    "chunk_id": 17,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "ATTENTION! \nThe baud rate and Modbus station address are set to: \nBaud rate 38400, Modbus station address 1, 8-bit data, 1 stop bit \n \nThe DIP switch configuration can only change the Modbus RTU communication parameters. \n \n2.1. Loading Modbus RTU configuration from flash \n \nIf ALL Dip Switches 1…8 are OFF, the device uses the Flash configuration (for the configuration, use the Easy \nSetup software or Z-NET4) \n \nLoading \nModbus RTU \nconfiguration \nFROM \nFLASH \nDIP1 \nDIP2 \nDIP3 \nDIP4 \nDIP5 \nDIP6 \nDIP7 \nDIP8 \nOFF \nOFF \nOFF \nOFF \nOFF \nOFF \nOFF \nOFF"
+  },
+  {
+    "chunk_id": 18,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 8 \n \n2.2. Setting the RS485 port Modbus RTU station address \n \nDip switches 3..8 are used to configure the Modbus RTU station address: \n \nModbus RTU \naddress \nDIP3 \nDIP4 \nDIP5 \nDIP6 \nDIP7 \nDIP8 \n1 \nOFF \nOFF \nOFF \nOFF \nOFF \nON \n2 \nOFF \nOFF \nOFF \nOFF \nON \nOFF \n3 \nOFF \nOFF \nOFF \nOFF \nON \nON \n4 \nOFF \nOFF \nOFF \nON \nOFF \nOFF \n5 \nOFF \nOFF \nOFF \nON \nOFF \nON \n6 \nOFF \nOFF \nOFF \nON \nON \nOFF \n7 \nOFF \nOFF \nOFF \nON \nON \nON \n8 \nOFF \nOFF \nON \nOFF \nOFF \nOFF \n9 \nOFF \nOFF \nON \nOFF \nOFF \nON \n10 \nOFF \nOFF \nON \nOFF \nON \nOFF \n11 \nOFF \nOFF \nON \nOFF \nON \nON \n…. \n \n \n \n \n \n \n63 \nON \nON \nON \nON \nON \nON \n \n2.3. RS485 Baud rate setting \n \nDip Switches 1 and 2 are used to set the Baud Rate. \n \nBaud Rate \nDIP1 \nDIP2 \n9600 \nOFF \nOFF \n19200 \nOFF \nON \n38400 \nON \nOFF \n57600 \nON \nON \n \nATTENTION!"
+  },
+  {
+    "chunk_id": 19,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "ON \n10 \nOFF \nOFF \nON \nOFF \nON \nOFF \n11 \nOFF \nOFF \nON \nOFF \nON \nON \n…. \n \n \n \n \n \n \n63 \nON \nON \nON \nON \nON \nON \n \n2.3. RS485 Baud rate setting \n \nDip Switches 1 and 2 are used to set the Baud Rate. \n \nBaud Rate \nDIP1 \nDIP2 \n9600 \nOFF \nOFF \n19200 \nOFF \nON \n38400 \nON \nOFF \n57600 \nON \nON \n \nATTENTION! \nThe parity and stop bits cannot be configured via dip switches but only via the Easy Setup software. \nWith the setting of the dip switches, the parity is always set to \"None\" and the stop bit is set to 1."
+  },
+  {
+    "chunk_id": 20,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 9 \n \n2.4. Inserting the RS485 Terminator \n \nDip 10 can insert an RS485 terminator if there are bus problems. \nThe terminator is inserted directly from A to B: in series, R = 120 Ohm with C = 100 nF. \n \n FRONT USB CONNECTION \n \nThe front USB connection allows for simple connection to a PC or Android™ device with USB OTG capability. \nThe communication protocol is Modbus RTU slave; the communication parameters for the USB port are set to: \n \nBaud rate: 38400 \nModbus RTU station address: 1 \nData bit: 8 \nStop bit: 1 \n \n3.1. USB virtual COM driver \n \nThe Virtual COM driver is installed with the Easy Setup software. \nThe Easy Setup software can be downloaded for free from: \n \nhttps://www.seneca.it/en/linee-di-prodotto/software/easy/easy-setup \n \n MODBUS RTU PROTOCOL \n \nThe Modbus protocol supported by Z-8NTC is:"
+  },
+  {
+    "chunk_id": 21,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "3.1. USB virtual COM driver \n \nThe Virtual COM driver is installed with the Easy Setup software. \nThe Easy Setup software can be downloaded for free from: \n \nhttps://www.seneca.it/en/linee-di-prodotto/software/easy/easy-setup \n \n MODBUS RTU PROTOCOL \n \nThe Modbus protocol supported by Z-8NTC is: \n \n▪ Modbus RTU Slave \n \nFor more information on these protocols, refer to the Modbus specification website: \n \nhttp://www.modbus.org/specs.php. \n \n4.1. Modbus RTU function code supported \nThe following Modbus RTU functions are supported: \n \n▪ Read Holding Register \n(function 3) Max 28 registers \n▪ Write Single Register \n(function 6) \n▪ Write Multiple registers \n(function 16) Max 28 registers"
+  },
+  {
+    "chunk_id": 22,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 10 \n \nATTENTION! \nAll 32-bit values are stored in 2 consecutive registers \n \n \nATTENTION! \nWith the Read Holding Register function (function 3) a maximum of 28 Modbus registers can be read. \n \n \nATTENTION! \nWith the Write Multiple Register function (function 16), a maximum of 28 Modbus registers can be \nwritten \n \nATTENTION! \nRegisters with RW* (stored in flash memory) can be written up to 10,000 times. \nThe PLC/Modbus Master programmer will ensure this limit is not exceeded!"
+  },
+  {
+    "chunk_id": 23,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 11 \n \n MODBUS REGISTER TABLE \nThe following abbreviations are used in the following table: \n \nMS = More significant \nLS = Less significant \nMSW = Most Significant Word (16 bits) \nLSW = Least Significant Word (16 bits) \nR = Read-Only Register \nRW = Read-Write Register \nRW* = Read-Write Register, stored in flash memory (writeable up to 10,000 times) \n16-Bit Unsigned = 16-Bit Unsigned Integer Register (0 to 65,535) \n16-Bit Signed = 16-Bit Signed Integer Register (-32,768 to +32,767) \nFloat 32 bit = 32-bit, single-precision floating-point register (IEEE 754) \nOx = hexadecimal value \nREGISTER \nNAME \nCOMMENT \nREGISTER \nTYPE \nR/W \nMODBUS ADDRESS \nREGISTER \nOFFSET \nMachine ID \nModule ID code \nUnsigned \n16 bits \nR \n40001 \n0 \nFirmware \nRevision \nFirmware Revision Code \nUnsigned \n16 bits \nR \n40002 \n1 \nCommand"
+  },
+  {
+    "chunk_id": 24,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "Ox = hexadecimal value \nREGISTER \nNAME \nCOMMENT \nREGISTER \nTYPE \nR/W \nMODBUS ADDRESS \nREGISTER \nOFFSET \nMachine ID \nModule ID code \nUnsigned \n16 bits \nR \n40001 \n0 \nFirmware \nRevision \nFirmware Revision Code \nUnsigned \n16 bits \nR \n40002 \n1 \nCommand \nThis register is used for \nsending commands to \nthe device. \nThe following commands \nare supported: \n \n \n49568 \nReset the Module \n \n \nAfter the command is \nexecuted the register will \nreturn to 0 value \nUnsigned \n16 bits \nR/W \n40007 \n6 \nChannel 1 \nCoefficient \n“A” \n \nCoefficient A for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40015 (MSW) \n40016 (LSW) \n14-15 \nChannel 1 \nCoefficient \n“B” \n \nCoefficient B for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40017 (MSW) \n40018 (LSW) \n16-17"
+  },
+  {
+    "chunk_id": 25,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 12 \n \nChannel 1 \nCoefficient \n“C” \n \nCoefficient C for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40019 (MSW) \n40020 (LSW) \n18-19 \nChannel 2 \nCoefficient \n“A” \n \nCoefficient A for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40021 (MSW) \n40022 (LSW) \n20-21 \nChannel 2 \nCoefficient \n“B” \n \nCoefficient B for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40023 (MSW) \n40024 (LSW) \n22-23 \nChannel 2 \nCoefficient \n“C” \n \nCoefficient C for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40025 (MSW) \n40026 (LSW) \n24-25 \nChannel 3 \nCoefficient \n“A” \n \nCoefficient A for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40027 (MSW) \n40028 (LSW) \n26-27 \nChannel 3 \nCoefficient \n“B” \n \nCoefficient B for the \nSteinhart-Hart equation \nFloating \nPoint 32"
+  },
+  {
+    "chunk_id": 26,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "Point 32 \nbits \nR/W* \n40025 (MSW) \n40026 (LSW) \n24-25 \nChannel 3 \nCoefficient \n“A” \n \nCoefficient A for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40027 (MSW) \n40028 (LSW) \n26-27 \nChannel 3 \nCoefficient \n“B” \n \nCoefficient B for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40029 (MSW) \n40030 (LSW) \n28-29 \nChannel 3 \nCoefficient \n“C” \n \nCoefficient C for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40031 (MSW) \n40032 (LSW) \n30-31 \nChannel 4 \nCoefficient \n“A” \n \nCoefficient A for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40033 (MSW) \n40034 (LSW) \n32-33 \nChannel 4 \nCoefficient \n“B” \n \nCoefficient B for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40035 (MSW) \n40036 (LSW) \n34-35 \nChannel 4 \nCoefficient \n“C” \n \nCoefficient C for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40037 (MSW) \n40038 (LSW) \n36-37 \nChannel 5 \nCoefficient \n“A” \n \nCoefficient A for the \nSteinhart-Hart equation"
+  },
+  {
+    "chunk_id": 27,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "Floating \nPoint 32 \nbits \nR/W* \n40035 (MSW) \n40036 (LSW) \n34-35 \nChannel 4 \nCoefficient \n“C” \n \nCoefficient C for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40037 (MSW) \n40038 (LSW) \n36-37 \nChannel 5 \nCoefficient \n“A” \n \nCoefficient A for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40039 (MSW) \n40040 (LSW) \n38-39 \nChannel 5 \nCoefficient \n“B” \n \nCoefficient B for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40041 (MSW) \n40042 (LSW) \n40-41 \nChannel 5 \nCoefficient \n“C” \n \nCoefficient C for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40043 (MSW) \n40044 (LSW) \n42-43 \nChannel 6 \nCoefficient \n“A” \n \nCoefficient A for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40045 (MSW) \n40046 (LSW) \n44-45 \nChannel 6 \nCoefficient \n“B” \n \nCoefficient B for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40047 (MSW) \n40048 (LSW) \n46-47 \nChannel 6 \nCoefficient \n“C” \n \nCoefficient C for the"
+  },
+  {
+    "chunk_id": 28,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "Steinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40045 (MSW) \n40046 (LSW) \n44-45 \nChannel 6 \nCoefficient \n“B” \n \nCoefficient B for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40047 (MSW) \n40048 (LSW) \n46-47 \nChannel 6 \nCoefficient \n“C” \n \nCoefficient C for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40049 (MSW) \n40050 (LSW) \n48-49"
+  },
+  {
+    "chunk_id": 29,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 13 \n \nChannel 7 \nCoefficient \n“A” \n \nCoefficient A for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40051 (MSW) \n40052 (LSW) \n50-51 \nChannel 7 \nCoefficient \n“B” \n \nCoefficient B for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40053 (MSW) \n40054 (LSW) \n52-53 \nChannel 7 \nCoefficient \n“C” \n \nCoefficient C for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40055 (MSW) \n40056 (LSW) \n54-55 \nChannel 8 \nCoefficient \n“A” \n \nCoefficient A for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40057 (MSW) \n40058 (LSW) \n56-57 \nChannel 8 \nCoefficient \n“B” \n \nCoefficient B for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40059 (MSW) \n40060 (LSW) \n58-59 \nChannel 8 \nCoefficient \n“C” \n \nCoefficient C for the \nSteinhart-Hart equation \nFloating \nPoint 32"
+  },
+  {
+    "chunk_id": 30,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "Point 32 \nbits \nR/W* \n40057 (MSW) \n40058 (LSW) \n56-57 \nChannel 8 \nCoefficient \n“B” \n \nCoefficient B for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40059 (MSW) \n40060 (LSW) \n58-59 \nChannel 8 \nCoefficient \n“C” \n \nCoefficient C for the \nSteinhart-Hart equation \nFloating \nPoint 32 \nbits \nR/W* \n40061 (MSW) \n40062 (LSW) \n60-61 \nChannel 1 \nRange \nConfiguration \nChannel Range \nConfiguration \n \n0 =  5 KOhm – 500 KOhm \n(*) \n1 = 1KOhm - 100 KOhm (*) \n2 = 100 Ohm – 10 KOhm \n(*) \n3 = Channel disabled \n \n(*)= Note that out of \nthese ranges, the 0.5% \naccuracy is not \nguaranteed \nUnsigned \n16 bits \nR/W* \n40063 \n62 \nChannel 2 \nRange \nConfiguration \nChannel Range \nConfiguration \n \n0 =  5 KOhm – 500 KOhm \n(*) \n1 = 1KOhm - 100 KOhm (*) \n2 = 100 Ohm – 10 KOhm \n(*) \n3 = Channel disabled \n \n(*)= Note that out of \nthese ranges, the 0.5% \naccuracy is not \nguaranteed  \nUnsigned \n16 bits \nR/W* \n40064 \n63 \nChannel 3 \nRange \nConfiguration \nChannel Range \nConfiguration \n \nUnsigned \n16 bits"
+  },
+  {
+    "chunk_id": 31,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "(*) \n1 = 1KOhm - 100 KOhm (*) \n2 = 100 Ohm – 10 KOhm \n(*) \n3 = Channel disabled \n \n(*)= Note that out of \nthese ranges, the 0.5% \naccuracy is not \nguaranteed  \nUnsigned \n16 bits \nR/W* \n40064 \n63 \nChannel 3 \nRange \nConfiguration \nChannel Range \nConfiguration \n \nUnsigned \n16 bits \nR/W* \n40065 \n64"
+  },
+  {
+    "chunk_id": 32,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 14 \n \n0 =  5 KOhm – 500 KOhm \n(*) \n1 = 1KOhm - 100 KOhm (*) \n2 = 100 Ohm – 10 KOhm \n(*) \n3 = Channel disabled \n \n(*)= Note that out of \nthese ranges, the 0.5% \naccuracy is not \nguaranteed  \nChannel 4 \nRange \nConfiguration \nChannel Range \nConfiguration \n \n0 =  5 KOhm – 500 KOhm \n(*) \n1 = 1KOhm - 100 KOhm (*) \n2 = 100 Ohm – 10 KOhm \n(*) \n3 = Channel disabled \n \n(*)= Note that out of \nthese ranges, the 0.5% \naccuracy is not \nguaranteed  \nUnsigned \n16 bits \nR/W* \n40066 \n65 \nChannel 5 \nRange \nConfiguration \nChannel Range \nConfiguration \n \n0 =  5 KOhm – 500 KOhm \n(*) \n1 = 1KOhm - 100 KOhm (*) \n2 = 100 Ohm – 10 KOhm \n(*) \n3 = Channel disabled \n \n(*)= Note that out of \nthese ranges, the 0.5% \naccuracy is not \nguaranteed  \nUnsigned \n16 bits \nR/W* \n40067 \n66 \nChannel 6 \nRange \nConfiguration \nChannel Range \nConfiguration"
+  },
+  {
+    "chunk_id": 33,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "0 =  5 KOhm – 500 KOhm \n(*) \n1 = 1KOhm - 100 KOhm (*) \n2 = 100 Ohm – 10 KOhm \n(*) \n3 = Channel disabled \n \n(*)= Note that out of \nthese ranges, the 0.5% \naccuracy is not \nguaranteed  \nUnsigned \n16 bits \nR/W* \n40067 \n66 \nChannel 6 \nRange \nConfiguration \nChannel Range \nConfiguration \n \n0 =  5 KOhm – 500 KOhm \n(*) \n1 = 1KOhm - 100 KOhm (*) \n2 = 100 Ohm – 10 KOhm \n(*) \n3 = Channel disabled \n \nUnsigned \n16 bits \nR/W* \n40068 \n67"
+  },
+  {
+    "chunk_id": 34,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 15 \n \n(*)= Note that out of \nthese ranges, the 0.5% \naccuracy is not \nguaranteed  \nChannel 7 \nRange \nConfiguration \nChannel Range \nConfiguration \n \n0 =  5 KOhm – 500 KOhm \n(*) \n1 = 1KOhm - 100 KOhm (*) \n2 = 100 Ohm – 10 KOhm \n(*) \n3 = Channel disabled \n \n(*)= Note that out of \nthese ranges, the 0.5% \naccuracy is not \nguaranteed  \nUnsigned \n16 bits \nR/W* \n40069 \n68 \nChannel 8 \nRange \nConfiguration \nChannel Range \nConfiguration \n \n0 =  5 KOhm – 500 KOhm \n(*) \n1 = 1KOhm - 100 KOhm (*) \n2 = 100 Ohm – 10 KOhm \n(*) \n3 = Channel disabled \n \n(*)= Note that out of \nthese ranges, the 0.5% \naccuracy is not \nguaranteed  \nUnsigned \n16 bits \nR/W* \n40070 \n69 \nGeneral \nConfiguration \n \nBit 0 = Not used \n \nBit 1 = 0 \nFloating Point  Registers  \nfrom 40075 to 40090 \nIn Big Endian (MSW \nFIRST) \nBit 1 = 1 \nFloating Point  Registers"
+  },
+  {
+    "chunk_id": 35,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "(*)= Note that out of \nthese ranges, the 0.5% \naccuracy is not \nguaranteed  \nUnsigned \n16 bits \nR/W* \n40070 \n69 \nGeneral \nConfiguration \n \nBit 0 = Not used \n \nBit 1 = 0 \nFloating Point  Registers  \nfrom 40075 to 40090 \nIn Big Endian (MSW \nFIRST) \nBit 1 = 1 \nFloating Point  Registers  \nfrom 40075 to 40090 \nIn Little Endian  (LSW \nFIRST) \n \nBit 2 = 0 AND Bit 3 = 0 \nMeasure Type Resistence \n(Ohm) \nBit 2 = 1 AND Bit 3 = 0 \nUnsigned \n16 bits \nR/W* \n40071 \n70"
+  },
+  {
+    "chunk_id": 36,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 16 \n \nMeasure Type Temperature \n(Kelvin) \nBit 2 = 0 AND Bit 3 = 1 \nMeasure Type Temperature \n(Celsius) \nBit 2 = 1 AND Bit 3 = 1 \nMeasure Type Temperature \n(Fahreneit) \n \nBit 4 = 0 AND Bit 5 = 0 \nFilter disabled \nBit 4 = 1 AND Bit 5 = 0 \nFilter Low enabled \nBit 4 = 0 AND Bit 5 = 1 \nFilter Middle enabled \nBit 4 = 1 AND Bit 5 = 1 \nFilter High enabled \n \nBit 5 = Not Used \n \nBit 6 = 0 \nRS485 Parity bit Disabled \nBit 6 = 1 \nRS485 Parity bit Enabled \nBit 7 = 0 \nRS485 Parity Bit Odd (if \nenabled) \nBit 7 = 1 \nRS485 Parity Bit Even (if \nenabled) \n \nBit 8 = 0 \nRS485 1 Stop Bit \nBit 8 = 1 \nRS485 2 Stop Bits (only if \nparity disabled) \n \nBit 9 = 0 \nDinamic Filter disabled \nBit 9 = 1 \nDinamic Filter enabled, the \nfilter is sensible to the input \nderived \nRS485 Baud \nRate \nconfiguration \n0 = 4800 baud \n1 = 9600 baud \n2 = 19200 baud"
+  },
+  {
+    "chunk_id": 37,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "enabled) \n \nBit 8 = 0 \nRS485 1 Stop Bit \nBit 8 = 1 \nRS485 2 Stop Bits (only if \nparity disabled) \n \nBit 9 = 0 \nDinamic Filter disabled \nBit 9 = 1 \nDinamic Filter enabled, the \nfilter is sensible to the input \nderived \nRS485 Baud \nRate \nconfiguration \n0 = 4800 baud \n1 = 9600 baud \n2 = 19200 baud \n3 = 38400 baud \n4 = 57600 baud \n5 = 115200 baud \n6 = 1200 baud \n7 = 2400 baud  \nUnsigned \n16 bits \nR/W* \n40072 \n71"
+  },
+  {
+    "chunk_id": 38,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 17 \n \nModbus RTU \nRS485 \nstation \nAddress  \nModbus RTU Station \naddress \n \nUnsigned \n16 bits \nR/W* \n40073 \n72 \nCHANNEL 1 \nFLOATING \nPOINT \nMEASURE \nMeasure channel in \nFloating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32 \nbits \nR \n40075 (MSW) \n40076 (LSW) \nIf selected Big Endian \nFloat \n74-75 \nCHANNEL 2 \nFLOATING \nPOINT \nMEASURE \nMeasure channel in \nFloating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32 \nbits \nR \n40077 (MSW) \n40078 (LSW) \nIf selected Big Endian \nFloat \n76-77 \nCHANNEL 3 \nFLOATING \nPOINT \nMEASURE \nMeasure channel in \nFloating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32 \nbits \nR \n40079 (MSW) \n40080 (LSW) \nIf selected Big Endian \nFloat \n78-79 \nCHANNEL 4 \nFLOATING \nPOINT \nMEASURE \nMeasure channel in \nFloating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32 \nbits \nR \n40081 (MSW) \n40082 (LSW)"
+  },
+  {
+    "chunk_id": 39,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "Floating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32 \nbits \nR \n40079 (MSW) \n40080 (LSW) \nIf selected Big Endian \nFloat \n78-79 \nCHANNEL 4 \nFLOATING \nPOINT \nMEASURE \nMeasure channel in \nFloating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32 \nbits \nR \n40081 (MSW) \n40082 (LSW) \nIf selected Big Endian \nFloat \n80-81 \nCHANNEL 5 \nFLOATING \nPOINT \nMEASURE \nMeasure channel in \nFloating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32 \nbits \nR \n40083 (MSW) \n40084 (LSW) \nIf selected Big Endian \nFloat \n82-83 \nCHANNEL 6 \nFLOATING \nPOINT \nMEASURE \nMeasure channel in \nFloating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32 \nbits \nR \n40085 (MSW) \n40086 (LSW) \nIf selected Big Endian \nFloat \n84-85 \nCHANNEL 7 \nFLOATING \nPOINT \nMEASURE \nMeasure channel in \nFloating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32 \nbits \nR \n40087 (MSW) \n40088 (LSW) \nIf selected Big Endian \nFloat \n86-87 \nCHANNEL 8 \nFLOATING \nPOINT \nMEASURE \nMeasure channel in \nFloating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32"
+  },
+  {
+    "chunk_id": 40,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "FLOATING \nPOINT \nMEASURE \nMeasure channel in \nFloating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32 \nbits \nR \n40087 (MSW) \n40088 (LSW) \nIf selected Big Endian \nFloat \n86-87 \nCHANNEL 8 \nFLOATING \nPOINT \nMEASURE \nMeasure channel in \nFloating Point in  \nOhm, K, °C or °F \nFloating \nPoint 32 \nbits \nR \n40089 (MSW) \n40090 (LSW) \nIf selected Big Endian \nFloat \n88-89 \nMEASURE \nLIMITS \nERRORS \nWhen at least one Bit is \nHigh the yellow FAIL led \nwill be switched ON \n \nBit 0 = 1 Channel 1 \nbelow the lower ADC \nlimit \nBit 1 = 1 Channel 2 \nbelow the lower ADC \nlimit \nUnsigned \n16 bits \nR \n40091 \n90"
+  },
+  {
+    "chunk_id": 41,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 18 \n \nBit 2 = 1 Channel 3 \nbelow the lower ADC \nlimit \n \nBit 3 = 1 Channel 4 \nbelow the lower ADC \nlimit \nBit 4 = 1 Channel 5 \nbelow the lower ADC \nlimit \nBit 5 = 1 Channel 6 \nbelow the lower ADC \nlimit \nBit 6 = 1 Channel 7 \nbelow the lower ADC \nlimit \nBit 7 = 1 Channel 8 \nbelow the lower ADC \nlimit \n \nBit 8 = 1 Channel 1 \nexceeds the high ADC \nlevel \nBit 9 = 1 Channel 2 \nexceeds the high ADC \nlevel \nBit 10 = 1 Channel 3 \nexceeds the high ADC \nlevel \nBit 11 = 1 Channel 4 \nexceeds the high ADC \nlevel \nBit 12 = 1 Channel 5 \nexceeds the high ADC \nlevel \nBit 13 = 1 Channel 6 \nexceeds the high ADC \nlevel \nBit 14 = 1 Channel 7 \nexceeds the high ADC \nlevel \nBit 15 = 1 Channel 8 \nexceeds the high ADC \nlevel \nCHANNEL 1 \nINTEGER \nMEASURE \nMeasure channel in \nInteger format  \nOhm*10, K*10, °C*10 or \n°F*10 \nSigned 32 \nbits \nR"
+  },
+  {
+    "chunk_id": 42,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "exceeds the high ADC \nlevel \nBit 13 = 1 Channel 6 \nexceeds the high ADC \nlevel \nBit 14 = 1 Channel 7 \nexceeds the high ADC \nlevel \nBit 15 = 1 Channel 8 \nexceeds the high ADC \nlevel \nCHANNEL 1 \nINTEGER \nMEASURE \nMeasure channel in \nInteger format  \nOhm*10, K*10, °C*10 or \n°F*10 \nSigned 32 \nbits \nR \n40092 (MSW) \n40093 (LSW) \n91-92"
+  },
+  {
+    "chunk_id": 43,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 19 \n \n \nFor example: \n250 means 25.0°C \nCHANNEL 2 \nINTEGER \nMEASURE \nMeasure channel in \nInteger format  \nOhm*10, K*10, °C*10 or \n°F*10 \n \nFor example: \n250 means 25.0°C \nSigned 32 \nbits \nR \n40094 (MSW) \n40095 (LSW) \n93-94 \nCHANNEL 3 \nINTEGER \nMEASURE \nMeasure channel in \nInteger format  \nOhm*10, K*10, °C*10 or \n°F*10 \n \nFor example: \n250 means 25.0°C \nSigned 32 \nbits \nR \n40096 (MSW) \n40097 (LSW) \n95-96 \nCHANNEL 4 \nINTEGER \nMEASURE \nMeasure channel in \nInteger format  \nOhm*10, K*10, °C*10 or \n°F*10 \n \nFor example: \n250 means 25.0°C \nSigned 32 \nbits \nR \n40098 (MSW) \n40099 (LSW) \n97-98 \nCHANNEL 5 \nINTEGER \nMEASURE \nMeasure channel in \nInteger format  \nOhm*10, K*10, °C*10 or \n°F*10 \n \nFor example: \n250 means 25.0°C \nSigned 32 \nbits \nR \n40100 (MSW) \n40101 (LSW) \n99-100 \nCHANNEL 6 \nINTEGER \nMEASURE \nMeasure channel in"
+  },
+  {
+    "chunk_id": 44,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "Signed 32 \nbits \nR \n40098 (MSW) \n40099 (LSW) \n97-98 \nCHANNEL 5 \nINTEGER \nMEASURE \nMeasure channel in \nInteger format  \nOhm*10, K*10, °C*10 or \n°F*10 \n \nFor example: \n250 means 25.0°C \nSigned 32 \nbits \nR \n40100 (MSW) \n40101 (LSW) \n99-100 \nCHANNEL 6 \nINTEGER \nMEASURE \nMeasure channel in \nInteger format  \nOhm*10, K*10, °C*10 or \n°F*10 \n \nFor example: \n250 means 25.0°C \nSigned 32 \nbits \nR \n40102 (MSW) \n40103 (LSW) \n101-102 \nCHANNEL 7 \nINTEGER \nMEASURE \nMeasure channel in \nInteger format  \nOhm*10, K*10, °C*10 or \n°F*10 \n \nFor example: \n250 means 25.0°C \nSigned 32 \nbits \nR \n40104 (MSW) \n40105 (LSW) \n103-104 \nCHANNEL 8 \nINTEGER \nMEASURE \nMeasure channel in \nInteger format  \nSigned 32 \nbits \nR \n40106 (MSW) \n40107 (LSW) \n105-106"
+  },
+  {
+    "chunk_id": 45,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 20 \n \n \n \n \nOhm*10, K*10, °C*10 or \n°F*10 \n \nFor example: \n250 means 25.0°C"
+  },
+  {
+    "chunk_id": 46,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 21 \n \n COMPLETE CONFIGURATION WITH EASY SETUP  \n \nTo configure all the device parameters, it is possible to use the USB or RS485 port and the Easy Z-8NTC \nsoftware included in the Easy Setup suite. \nThe Easy Setup software can be downloaded for free from: \n \nhttps://www.seneca.it/en/linee-di-prodotto/software/easy/easy-setup \n \n6.1. Easy Setup Menu \n \n \n \nConnect: Use the connect icon to connect your PC to the device. Please note that you must specify whether \nthe connection is via RS485 bus or front USB. To connect the device to a PC and configure it via the RS485 \nbus, you must use a converter such as the Seneca S117P1 or S107USB. \nNew: loads the default parameters into the actual project \nOpen: opens a stored project \nSave: saves the current project \nRead: Reads the actual configuration from the device"
+  },
+  {
+    "chunk_id": 47,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "bus, you must use a converter such as the Seneca S117P1 or S107USB. \nNew: loads the default parameters into the actual project \nOpen: opens a stored project \nSave: saves the current project \nRead: Reads the actual configuration from the device \nSend: Sends the project configuration (if DIP switches 1 through 8 are not ALL OFF, the device uses the DIP \nswitch configuration and NOT the configuration sent for the Modbus parameters) \nTest: Initiates a Register read and starts/stops a Data Logger"
+  },
+  {
+    "chunk_id": 48,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 22 \n \n6.2. Creating a project configuration \n \nATTENTION! \nYou must set all dip switches to OFF after sending the configuration to the device, otherwise the \nactual Modbus configuration will be overwritten by the configuration from dip switches! \n \nThe parameters to be configured are: \n \nGeneral TAB \n \n \n \nRegister Interpretation: Select between Most Significant First (Big Endian) or Least Significant First (Little \nEndian) for the Modbus floating-point measurement registers. This parameter only affects floating-point \nmeasurement registers. \nMeasurement Type/Unit: Select the type of measurement the device will perform, either Temperature or \nResistance, and, for temperature, the unit of measurement, either K, °C, or °F. This parameter affects all \nmeasurement registers (integer and floating-point)."
+  },
+  {
+    "chunk_id": 49,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "measurement registers. \nMeasurement Type/Unit: Select the type of measurement the device will perform, either Temperature or \nResistance, and, for temperature, the unit of measurement, either K, °C, or °F. This parameter affects all \nmeasurement registers (integer and floating-point). \nFilter: Select the filter type, either Disabled, Low, Medium, or High. \nSmart Filter: If filter is selected, the smart filter is sensitive to the input derivative. \n \nStation Address: Select the Modbus RTU station address for the RS485 port. \nBaud Rate: Select the baud rate, from 1200 to 115,200 baud, for the RS485 port. \nParity: Select NONE, EVEN, or ODD for the RS485 port \nStop Bits: Select the number of stop bits for the RS485 port"
+  },
+  {
+    "chunk_id": 50,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 23 \n \nChannel TAB \n \n \n \nn the channel tab, you can select the NTC parameters for each channel. \n \nActivate Channel / Resistance at 25°C: Select the resistance measurement range from the NTC value at \n25°C; note that accuracy of 0.5% is not guaranteed outside these ranges. \n \nSteinhart-Hart Coefficients: Select the A, B, and C coefficients for the NTC curve. \n1\n𝑇= 𝐴+ 𝐵∗ln(𝑅) + 𝐶∗(ln(𝑅))3 \nwhere: \nT = Temperature in K \nR = Resistance in Ohm \n \nOnce the NTC has been characterized, the parameters can be saved/imported to a file using \"Export NTC to \nfile\" or \"Import NTC from file.\" \nThe most commonly used NTC coefficients are available using “Import NTC from file.” \nThe first software revision includes parameters for the following NTCs/sensors: \n \n \nCAREL Beta = 3435K - 10kOhm at 25°C"
+  },
+  {
+    "chunk_id": 51,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "file\" or \"Import NTC from file.\" \nThe most commonly used NTC coefficients are available using “Import NTC from file.” \nThe first software revision includes parameters for the following NTCs/sensors: \n \n \nCAREL Beta = 3435K - 10kOhm at 25°C \nCAREL Beta = 3977K - 50kOhm at 25°C \nCOSTER SAB 010 \nCOSTER SAB 010V-G-L-LI-LG \nCOSTER SAB 020"
+  },
+  {
+    "chunk_id": 52,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 24 \n \nCOSTER SAI010 \nCOSTER SCB110-V-G-L-LI-LG \nELIWELL SN8DAC13002AV \nGENERIC with Beta=3435K 10KOhm at 25°C \nKTY81 110 \nKTY81 120 \nKTY84 130 \nKTY84 150 \nSEMITECH 102AT-2 1KOhm at 25°C \nSEMITECH 103AT-2 10KOhm at 25°C \nSEMITECH 202AT-2 2KOhm at 25°C \nSEMITECH 502AT-2 5KOhm at 25°C \n \nThe number of NTC/sensor files is constantly growing. \n \nYou can use the \"Coefficient Calculator\" button to obtain Steinhart-Hart coefficients for a custom NTC/sensor. \nFor more information on the coefficient calculator, see Chapter 7. \n \n6.3. Device test \n \nWhen the configuration is sent to the device, it is possible to test the actual configuration, through the icon \n. \n \nThe test setup will acquire the measurement from the Modbus registers."
+  },
+  {
+    "chunk_id": 53,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 25 \n \n6.3.1. The Data Logger \n \nThe data logger can be used to acquire data that can be used with external software (e.g. Microsoft Excel™). \nThe sample acquisition time can be set (minimum 1 second). \nThe data logger will create a standard .csv format file that you can open with external tools: \n \nAn example of a log data format is as follows: \n \n \n \nThe file can also be opened with a text editor: \n \nINDEX;TYPE;TIMESTAMP;I;IMAX;IMIN;VOUT \n1;LOG;18/07/2017 17:37:16;9,94182968139648;10,0166397094727;0;5,50153207778931 \n2;LOG;18/07/2017 17:37:17;9,98420906066895;10,0598001480103;0;5,50216913223267 \n3;LOG;18/07/2017 17:37:18;10,0491199493408;10,0602102279663;0;5,4690899848938 \n4;LOG;18/07/2017 17:37:19;9,99160003662109;10,0602102279663;0;5,50054502487183"
+  },
+  {
+    "chunk_id": 54,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "2;LOG;18/07/2017 17:37:17;9,98420906066895;10,0598001480103;0;5,50216913223267 \n3;LOG;18/07/2017 17:37:18;10,0491199493408;10,0602102279663;0;5,4690899848938 \n4;LOG;18/07/2017 17:37:19;9,99160003662109;10,0602102279663;0;5,50054502487183 \n5;LOG;18/07/2017 17:37:20;10,0064001083374;10,0602102279663;0;5,49996995925903 \n6;LOG;18/07/2017 17:37:21;10,0018796920776;10,0602102279663;0;5,50327777862549 \n7;LOG;18/07/2017 17:37:22;9,94471645355225;10,0778799057007;0;5,50132608413696 \n8;LOG;18/07/2017 17:37:23;9,97722816467285;10,0778799057007;0;5,50247716903687 \n9;LOG;18/07/2017 17:37:24;10,0623197555542;10,0778799057007;0;5,50186014175415 \n10;LOG;18/07/2017 17:37:25;9,99120616912842;10,0778799057007;0;5,50126504898071 \n11;LOG;18/07/2017 17:37:26;10,0330896377563;10,0778799057007;0;5,50066900253296 \n12;LOG;18/07/2017 17:37:27;10,0363702774048;10,0778799057007;0;5,50058698654175 \n13;LOG;18/07/2017 17:37:29;10,0059795379639;10,0778799057007;0;5,50120306015015"
+  },
+  {
+    "chunk_id": 55,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "11;LOG;18/07/2017 17:37:26;10,0330896377563;10,0778799057007;0;5,50066900253296 \n12;LOG;18/07/2017 17:37:27;10,0363702774048;10,0778799057007;0;5,50058698654175 \n13;LOG;18/07/2017 17:37:29;10,0059795379639;10,0778799057007;0;5,50120306015015 \n14;LOG;18/07/2017 17:37:30;9,97681522369385;10,0778799057007;0;5,50337982177734 \n15;LOG;18/07/2017 17:37:31;10,0129499435425;10,0778799057007;0;5,50225019454956 \n16;LOG;18/07/2017 17:37:32;10,0162401199341;10,0778799057007;0;5,50075101852417 \n17;LOG;18/07/2017 17:37:33;10,0614995956421;10,0778799057007;0;5,50206613540649"
+  },
+  {
+    "chunk_id": 56,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 26 \n \n STEINHART-HART COEFFICIENT CALCULATOR \n \n \n \nNTC sensor datasheets generally do not provide Steinhart-Hart coefficients directly. \nThe most commonly used is the Beta value; other times, datasheets directly provide a temperature/resistance \ntable. \n \nThe software can automatically calculate Steinhart-Hart coefficients from Beta or from the table. \n \n7.1. Calculating Steinhart-Hart Coefficients from Beta \n \nIf the sensor datasheet specifies a Beta value, use this “Calculation type.” You must know the temperature range \nin which the Beta value is declared (typically 25°C to 85°C with the symbol 𝐵𝑒𝑡𝑎25/85). \n \nEnter the required data: \nBeta, Resistance at 25°C, and the Beta temperature range, then click \"Calculate Steinhart-Hart coefficients.\""
+  },
+  {
+    "chunk_id": 57,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "in which the Beta value is declared (typically 25°C to 85°C with the symbol 𝐵𝑒𝑡𝑎25/85). \n \nEnter the required data: \nBeta, Resistance at 25°C, and the Beta temperature range, then click \"Calculate Steinhart-Hart coefficients.\" \nYou can then verify the coefficients by clicking \"Verify coefficients\": \nEnter a value for Resistance (R1), then click \"Calculate T1,\" and the software will use the coefficients to \ncalculate the T1 value for debugging purposes. \n \n \nThen, click \"Close and import coefficients\" to return to the configuration software with the new coefficient \ncopied directly without having to enter it manually."
+  },
+  {
+    "chunk_id": 58,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "User Manual \nZ-8NTC  \n \nALL RIGHTS RESERVED. REPRODUCTION, EVEN PARTIAL, OF \nTHIS PUBLICATION WITHOUT PRIOR CONSENT IS PROHIBITED. \nwww.seneca.it \nDoc. MI00485-5-EN \nPage 27 \n \n7.2. Calculating Steinhart-Hart Coefficients from the Temperature/Resistance Table \n \nIf the sensor datasheet includes a Temperature/Resistance table, you can enter three pairs of valuesto obtain \nthe Steinhart-Hart coefficients: \n \n \n \nIf possible, choose three evenly spaced points in the measurement field; for better accuracy, also enter the \nvalue at 25°C. \nEnter the required data: \nT1, T2, T3, R1, R2, R3, then press “Calculate Steinhart-Hart coefficients”. \nYou can then verify the coefficients by clicking \"Verify coefficients\": \nEnter a value for Resistance (R1), then click \"Calculate T1,\" and the software will use the coefficients to \ncalculate the T1 value for debugging purposes. \n \n \n \nThen, click \"Close and import coefficients\" to return to the configuration software with the new coefficient"
+  },
+  {
+    "chunk_id": 59,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mi00485-5-en ...pdf",
+    "content": "Enter a value for Resistance (R1), then click \"Calculate T1,\" and the software will use the coefficients to \ncalculate the T1 value for debugging purposes. \n \n \n \nThen, click \"Close and import coefficients\" to return to the configuration software with the new coefficient \ncopied directly without having to enter it manually."
+  }
+]

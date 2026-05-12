@@ -1,0 +1,17 @@
+subnetwork.properties.physicalStandard=1
+subnetwork.properties.baudRate=2400|4800|9600|1200
+subnetwork.properties.parity=0subnetwork.properties.parity=0
+subnetwork.properties.stopBits=1
+@combo:parity,stopBits=0,1|2,1|1,1|0,0
+subnetwork.properties.stopBits=0
+subnetwork.properties.dataBits=1
+subnetwork.nodes[0].properties.nodeAddress=1
+subnetwork.nodes[0].properties.name=Eastron SDM120Modbus Smart Meter
+subnetwork.nodes[0].properties.modbusAddressingMode=2
+subnetwork.nodes[0].transactions[0].properties.name=voltage
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=4
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=0
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=2
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=4
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=4
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=4

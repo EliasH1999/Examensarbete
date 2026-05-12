@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "APM-MAX\nModbus Communications\n18th September 2020  ǀ  Version 01\nCOPYRIGHT AND CONFIDENTIAL\n© ALL RIGHTS RESERVED. This Document and the intellectual property contained herein are the property of Trumeter. No part of this document \nmay be disclosed, reproduced, distributed or transmitted in any form or by any means without prior written permission.\nNOTICE\nPrinted documents and copies stored outside of Trumeter and are uncontrolled. For the latest version please to refer to the company’s document \nregister. This document may refer to documents whose ownership is outside that of Trumeter. The ownership and right to copyright of these docu-\nments are acknowledged. No part of these documents may be used without the prior written permission of the document owners."
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "APM-MAX - Modbus Communications \n  \n \n \nTable of Contents \n    \n1 \nAbout this document ....................................................................................................... 3 \n2 \nAPM Configuration: Modbus RTU. ................................................................................. 3 \n2.1 \nSlave ID ................................................................................................................................................... 3 \n2.2 \nBaud Rate ................................................................................................................................................ 3 \n2.3 \nStop Bits & Parity ..................................................................................................................................... 4 \n2.4 \nModbus RTU function Code Support ....................................................................................................... 4 \n3"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "2.4 \nModbus RTU function Code Support ....................................................................................................... 4 \n3 \nAPM Configuration: Modbus TCP. ................................................................................. 5 \n ............................................................................................................................................................................. 5 \n3.1 \nModBus Enable ....................................................................................................................................... 5 \n3.2 \nDHCP Client............................................................................................................................................. 5 \n3.3 \nConfigurable options ................................................................................................................................ 5 \n3.4"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "3.3 \nConfigurable options ................................................................................................................................ 5 \n3.4 \nModbus TCP function Code Support ....................................................................................................... 6 \n4 \nRegister Map for ModBus RTU & ModBus TCP ............................................................ 6 \n4.1 \nModbus sentence protocol....................................................................................................................... 6 \n5 \nModbus Communication Examples ............................................................................... 7 \n5.1 \nModbus RTU communication example .................................................................................................... 7 \n5.2 \nModbus TCP communication example .................................................................................................... 8"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "5.1 \nModbus RTU communication example .................................................................................................... 7 \n5.2 \nModbus TCP communication example .................................................................................................... 8 \n ............................................................................................................................................................................. 8 \n \nRevision: 1A \t\n\t\n\t\n\t\n\t\n        © Trumeter \t\n\t\n\t\n\t\n\t\n                  Page 2 of 8"
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "1 About this document \nThis document describes the use of ModBus in the APM-MAX.  \nModBus is implemented in the APM-MAX to enable the reading of the measured value and the status of the \nalarms.  Configuration of the APM-MAX measurements can be performed by using the APM-MAX configurator. \nThis document defines the configuration and usage of the ModBus features of the APM-MAX for both ModBus \nRTU and ModBus TCP. The readable registers are common to both ModBus communication methods.  \n \nBy default both the ModBus RTU and MobBus TCP/IP interfaced are enabled. To configure, please use the \nAPM-MAX configurator which is available from https://www.trumeter.com/apm-software-download/ \n \n  \n2 APM Configuration: Modbus RTU. \n \n2.1 Slave ID \nAny value between 0 and 255 can be entered.  \n2.2 Baud Rate \nThe following baud rates are supported. \n \nBaud Rate \n4800 \n9600 \n14400 \n19200 \n24000 \n28800 \n33600 \n38400 \n43200 \n48000 \n52800 \n57600 \n62400 \n67200 \n72000 \n76800 \n81600 \n86400 \n91200 \n96000"
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "2.1 Slave ID \nAny value between 0 and 255 can be entered.  \n2.2 Baud Rate \nThe following baud rates are supported. \n \nBaud Rate \n4800 \n9600 \n14400 \n19200 \n24000 \n28800 \n33600 \n38400 \n43200 \n48000 \n52800 \n57600 \n62400 \n67200 \n72000 \n76800 \n81600 \n86400 \n91200 \n96000 \n100800 \n105600 \n110400 \n115200 \n120000 \n124800 \n129600 \n134400 \n139200 \n144000 \n148800 \n153600 \n158400 \n163200 \n168000 \n172800 \n177600 \n182400 \n187200 \n192000 \n \n \nRevision: 1A \t\n\t\n\t\n\t\n\t\n        © Trumeter \t\n\t\n\t\n\t\n\t\n                  Page 3 of 8"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "APM-MAX - Modbus Communications \n  \n \n2.3 Stop Bits & Parity \nThe following combinations of Stop bits, and Parity bits are supported. \n• \n2 Stop bits and No Parity bits \n• \n1 Stop bit and an Even Parity bit. \n• \n1 Stop Bit and an Odd Parity bit. \n \n2.4 Modbus RTU function Code Support \nFunction Code 4 – “Read Input Register” is supported. \n \n \n \n \nRevision: 1A \t\n\t\n\t\n\t\n\t\n        © Trumeter \t\n\t\n\t\n\t\n\t\n                  Page 4 of 8"
+  },
+  {
+    "chunk_id": 8,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "3 APM Configuration: Modbus TCP. \n \n \n3.1 ModBus Enable \nEnable and disable are selectable. \n \n3.2 DHCP Client \nEnable and disable are selectable. \n \n3.3 Configurable options \nThe following parameters are adjustable. IP address and Subnet Mask are only adjustable if DHCP is disabled. \n \nParameter \nIP address \nSubnet mask \nGateway \nDNS 1 \nDNS 2 \nHostname \nInterface Name \nModbus port address \nModbus timeout period \n \n \n \nRevision: 1A \t\n\t\n\t\n\t\n\t\n        © Trumeter \t\n\t\n\t\n\t\n\t\n                  Page 5 of 8"
+  },
+  {
+    "chunk_id": 9,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "APM-MAX - Modbus Communications \n  \n3.4 Modbus TCP function Code Support \n \nFunction Code 4 – “Read Input Register” is supported. \n \n \n \n4 Register Map for ModBus RTU & ModBus TCP \nThere are 6 readable registers available from the APM-MAX: \n \nInput registers \nAddress \nType \nDetails \n1 - 2 \n32bit Float \nDisplayed Value \n3 - 4 \n32bit Float \nMeasured Value, before user offsets are applied \n5 \n16bit int \nAlarm 1 Status \n6 \n16bit int \nAlarm 2 Status \n \n \n4.1 Modbus sentence protocol \n \n \nHigh byte (Big Endian) and High word (Big Endian).  The most significant word is sent first. Each 16 bit word is \nsent as two 8 bit bytes, the most significant byte is sent first. \n \n \n \n \nRevision: 1A \t\n\t\n\t\n\t\n\t\n        © Trumeter \t\n\t\n\t\n\t\n\t\n                  Page 6 of 8"
+  },
+  {
+    "chunk_id": 10,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "5 Modbus Communication Examples \nIn the following example SimplyModbus (https://www.simplymodbus.ca) has been used to communicate with the \nAPM-MAX. \n \n \nSend:   \n \n \n \n0A 04 01 00 06   (request values in 6 - 16 BIT registers) \nDisplayed Value:  \n \n \n41 00 14 8E (Hex)  \n8.00501823 \nMeasured Value with no offset:  \n41 00 14 8E (Hex)  \n8.00501823 \nAlarm 1:   \n \n \n \nActive \nAlarm 2:   \n \n \n \nNot Active \n \n \n5.1 Modbus RTU communication example \n \n \n \nREQUEST \nRECEIVE \nREQUEST \nRECEIVE \nRevision: 1A \t\n\t\n\t\n\t\n\t\n        © Trumeter \t\n\t\n\t\n\t\n\t\n                  Page 7 of 8"
+  },
+  {
+    "chunk_id": 11,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\APM-MAX-Modbus-Communications.pdf",
+    "content": "APM-MAX - Modbus Communications \n  \n5.2 Modbus TCP communication example \n \nREQUEST \nRECEIVE \nREQUEST \nRECEIVE \nRevision: 1A \t\n\t\n\t\n\t\n\t\n        © Trumeter \t\n\t\n\t\n\t\n\t\n                  Page 8 of 8"
+  }
+]

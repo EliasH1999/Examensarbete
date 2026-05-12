@@ -1,0 +1,5 @@
+method_A,method_B,n_paired,both_correct,A_only_correct,B_only_correct,both_wrong,agreements,disagreements,p_value,more_wins
+engineered_prompt,modular_rag,664,543,50,24,47,590,74,0.00337223333414807,engineered_prompt
+modular_rag,naive_rag,664,525,42,32,65,590,74,0.29541328065567,modular_rag
+configurator_user,naive_user,664,412,134,26,92,504,160,9.91719663165173e-19,configurator_user
+engineered_prompt,configurator_user,664,517,76,29,42,559,105,5.051645602475529e-06,engineered_prompt

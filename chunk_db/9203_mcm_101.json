@@ -1,0 +1,164 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "PERFORMANCE\nMADE\nSMARTER\nConfiguration Manual  \n9203 / 4511\nModbus RTU configuration of  \n9203 Solenoid / alarm driver\nTEMPERATURE    |    I.S. INTERFACES    |    COMMUNICATION INTERFACES    |    MULTIFUNCTIONAL    |    ISOLATION    |    DISPLAY\nNo. 9203MCM101-UK\nFor 4511 devices from ser. no. 141590001"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "(2026)\n6 Product Pillars\nto meet your every need\nWith our innovative, patented technologies, we make signal conditioning smarter and simpler. Our portfolio is composed of six \nproduct areas, where we offer a wide range of analog and digital devices covering over a thousand applications in industrial \nand factory automation. All our products comply with or surpass the highest industry standards, ensuring reliability in even \nthe harshest of environments and have a 5-year warranty for greater peace of mind. \nIndividually outstanding, unrivalled in combination\nOur range of temperature transmitters and sensors provides the highest level of signal integrity from the \nmeasurement point to your control system. You can convert industrial process temperature signals to analog, bus or \ndigital communications using a highly reliable point-to-point solution with a fast response time, automatic self-\ncalibration, sensor error detection, low drift, and top EMC performance in any environment."
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "digital communications using a highly reliable point-to-point solution with a fast response time, automatic self-\ncalibration, sensor error detection, low drift, and top EMC performance in any environment. \nOur unique range of single devices covering multiple applications is easily deployable as your site standard. Having \none variant that applies to a broad range of applications can reduce your installation time and training, and greatly \nsimplify spare parts management at your facilities. Our devices are designed for long-term signal accuracy, low \npower consumption, immunity to electrical noise and simple programming. \nWe provide inexpensive, easy-to-use, future-ready communication interfaces that can access your PR installed base \nof products. All the interfaces are detachable, have a built-in display for readout of process values and diagnostics, \nand can be configured via push-buttons. Product specific functionality includes communication via Modbus and"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "of products. All the interfaces are detachable, have a built-in display for readout of process values and diagnostics, \nand can be configured via push-buttons. Product specific functionality includes communication via Modbus and \nBluetooth and remote access using our PR Process Supervisor (PPS) application, available for iOS and Android.\nOur display range is characterized by its flexibility and stability. The devices meet nearly every demand for display \nreadout of process signals and have universal input and power supply capabilities. They provide a real-time \nmeasurement of your process value no matter the industry and are engineered to provide a user-friendly and reliable \nrelay of information, even in demanding environments.\nWe deliver the safest signals by validating our products against the toughest safety standards. Through our \ncommitment to innovation, we have made pioneering achievements in developing I.S. interfaces with SIL 2 Full"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "relay of information, even in demanding environments.\nWe deliver the safest signals by validating our products against the toughest safety standards. Through our \ncommitment to innovation, we have made pioneering achievements in developing I.S. interfaces with SIL 2 Full \nAssessment that are both efficient and cost-effective. Our comprehensive range of analog and digital intrinsically \nsafe isolation barriers offers multifunctional inputs and outputs, making PR an easy-to-implement site standard. \nOur backplanes further simplify large installations and provide seamless integration to standard DCS systems.\nOur compact, fast, high-quality 6 mm isolators are based on microprocessor technology to provide exceptional \nperformance and EMC-immunity for dedicated applications at a very low total cost of ownership. They can be \nstacked both vertically and horizontally with no air gap separation between units required."
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "9203MCM101\t\n1\n \n \n \n \n \n \nContents\nIntroduction .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n2\nModbus RTU .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n2\n4511 Supported Modbus Function Codes .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n2\n4511 Modbus parameter settings .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n2"
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "2\n4511 Modbus parameter settings .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n2\nModbus RTU segment line termination  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n2\n9203 Configuration Parameter List .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n9203 Process Parameter List .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4"
+  },
+  {
+    "chunk_id": 7,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "3\n9203 Process Parameter List .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\n4511 Modbus Configuration Parameter List .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n5\n4511 Additional Parameter List .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n5\n4511 Modbus Status Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n5"
+  },
+  {
+    "chunk_id": 8,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "5\n4511 Modbus Status Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n5\n4511 Modbus Front Programming Parameter Menu . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n6"
+  },
+  {
+    "chunk_id": 9,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "2\t\n9203MCM101\nIntroduction\nThis configuration manual\ncontains the necessary information for configuring a PR 9203 device which is connected to a PR 4511 Modbus RTU enabler.\nModbus is a “master-slave” system, \nwhere the “master” communicates with one or multiple “slaves”. \nThe master typically is a PLC (Programmable Logic Controller), DCS (Distributed Control System), HMI (Human Machine \nInterface), RTU (Remote Terminal Unit) or PC.  \nThe three most common Modbus versions used are: MODBUS ASCII, MODBUS RTU and MODBUS/TCP.\nIn Modbus RTU, data is coded in binary, and requires only one communication byte per data byte. This is ideal for use over \nmulti-drop RS485 networks, at speeds up to 115,200 bps.  \nThe most common speeds are 9,600 bps and 19,200 bps. \nModbus RTU is the most widely used industrial protocol and is supported by the 4511.\nModbus RTU\nTo communicate with a slave device, the master sends a message containing:\n\t\nDevice Address - Function Code - Data - Error Check"
+  },
+  {
+    "chunk_id": 10,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "The most common speeds are 9,600 bps and 19,200 bps. \nModbus RTU is the most widely used industrial protocol and is supported by the 4511.\nModbus RTU\nTo communicate with a slave device, the master sends a message containing:\n\t\nDevice Address - Function Code - Data - Error Check\nThe Device Address is a number from 0 to 247.\nMessages sent to address 0 (broadcast messages) will be accepted by all slaves, but numbers 1-247 are addresses of specific \ndevices. With the exception of broadcast messages, a slave device always responds to a Modbus message so the master \nknows the message was received.\n4511 Supported Modbus Function Codes\nCommand\nFunction code\nRead Holding Registers*\n03\nRead Input Registers*\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\n*Holding Registers and Input Registers contain identical data in PR 4511.\nThe Function Code defines the command that the slave device is to execute, such as read data, accept data, report status."
+  },
+  {
+    "chunk_id": 11,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "03\nRead Input Registers*\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\n*Holding Registers and Input Registers contain identical data in PR 4511.\nThe Function Code defines the command that the slave device is to execute, such as read data, accept data, report status. \nSome function codes have sub-function codes.\nThe Data defines addresses in the device’s memory map for read functions, contains data values to be written into the \ndevice’s memory, or contains other information needed to carry out the function requested.\nThe Error Check is a 16-bit numeric value representing the Cyclic Redundancy Check (CRC).\nMaximum number of registers which can be read or written at once\nFor a read command, the limit is 8 registers at a baud rate up to 38,400 bps, \n16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings\n\t\nAutomatic Baudrate Detection:"
+  },
+  {
+    "chunk_id": 12,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "For a read command, the limit is 8 registers at a baud rate up to 38,400 bps, \n16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings\n\t\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\n\t\nSupported baudrates:\t\n2400, 4800, 9600, 19.2k, 38.4k, 57.6k, 115.2k bps\n\t\nParity Mode: \t\nEven, Odd or None parity\n\t\nStop Bits:\t\n1 or 2 stop bits\n\t\nResponse delay:\t\n0...1000 ms (0 ms = default)\n\t\nModbus slave addressing range: \t\n1 - 247 (247 = default address)\n\t\nModbus Parameter Storage:\t\nSaved in non-volatile memory in the 4511 device\n\t\n(Factory Default Values are marked in bold)\nModbus RTU segment line termination \nA 120 Ohm resistor should be installed on both ends of a RS485 Modbus RTU segment loop to prevent signal echoes from \ncorrupting data on the line."
+  },
+  {
+    "chunk_id": 13,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "9203MCM101\t\n3\n9203 Configuration Parameter List\nCategory\nParameter \nName\nModbus \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nGENERAL\nDEVICE \nNUMBER\n0\n1\nRO\nUNSIGNED \nINTEGER\nDefines the actual device \nnumber\n9203 = 37379 (0x9203)\nGENERAL\nDEVICE \nVERSION\n1\n1\nRO\nUNSIGNED \nINTEGER\nProduct version \n0\nGENERAL\nPASSWORD\n3\n1\nR/W\nUNSIGNED \nINTEGER\nPassword for entering \nconfiguration menu\nRange:\t 0...9999\nGENERAL\nPASSWORD \nTRY\n4\n1\nR/W\nUNSIGNED \nINTEGER\nPassword attempted for \nentering configuration menu\nRange:\t 0...9999\nDISPLAY\nDISPLAY \nCONTRAST\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD display\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n1\nR/W\nUNSIGNED \nINTEGER\nBacklight intensity in LCD\nRange:\t\n0...9\nDISPLAY\nLINE \nFUNCTION\n10\n1\nR/W\nINTEGER\nInformation shown in input \nline of display in monitor mode \n(normal mode). \nLOAD\t\n= 0\nTAG\t\n= 1\nD.OUT\t\n= 2\nALTERNATING\t\n= 3\nGENERAL\nENABLE \nPASSWORD\n11\n1\nR/W\nINTEGER\nPassword protect entry to \nconfiguration menu\nNO\t\n= 0\nYES\t\n= 1\nGENERAL"
+  },
+  {
+    "chunk_id": 14,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "Range:\t\n0...9\nDISPLAY\nLINE \nFUNCTION\n10\n1\nR/W\nINTEGER\nInformation shown in input \nline of display in monitor mode \n(normal mode). \nLOAD\t\n= 0\nTAG\t\n= 1\nD.OUT\t\n= 2\nALTERNATING\t\n= 3\nGENERAL\nENABLE \nPASSWORD\n11\n1\nR/W\nINTEGER\nPassword protect entry to \nconfiguration menu\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nHELP TEXT \nLANGUAGE\n12\n1\nR/W\nINTEGER\nLanguage for the help texts \nshown on display.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE \n*1)\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n17\n1\nRO\nINTEGER\nDefines the actual device type \ntogether with the device no.\ne.g. 9203B1A = 0x0B1A\nB1A = 2842 (0x0B1A)\nB1B = 2843 (0x0B1B)\nB2A = 2858 (0x0B2A\nINPUT\nCHANNEL 1 \nFUNCTION\n18\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type for \nchannel 1.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 1  \nTAG TEXT\n20\n3\nR/W\nASCII CHAR\nTag of the device channel 1  \n(5 characters).\nRange:\t\nASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nINPUT\nCHANNEL 2 \nFUNCTION\n23\n1\nR/W\nUNSIGNED \nINTEGER"
+  },
+  {
+    "chunk_id": 15,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "FUNCTION\n18\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type for \nchannel 1.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 1  \nTAG TEXT\n20\n3\nR/W\nASCII CHAR\nTag of the device channel 1  \n(5 characters).\nRange:\t\nASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nINPUT\nCHANNEL 2 \nFUNCTION\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type for \nchannel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2  \nTAG TEXT\n25\n3\nR/W\nASCII CHAR\nTag of the device channel 2  \n(5 characters).\nRange:\t\nASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nCHECKSUM\n100\n1\nRO\nUNSIGNED \nINTEGER\nCRC16 checksum of the \nconfiguration\nRange 0...65536\nGENERAL\nConfiguration \ncounter\n101\n1\nRO\nUNSIGNED \nINTEGER\nThis counter will count \nthe number of times the  \nconfiguration has been \nchanged. \nThe counter is reset on power-\nup\nRange 0...65536\n*1)\t\nIf SIL mode is set by an authorized SIL user (SIL ENABLE  = YES), all parameters become READ ONLY"
+  },
+  {
+    "chunk_id": 16,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "4\t\n9203MCM101\n9203 Process Parameter List\nParameter \nName\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nCONFIGU- \nRATION\nSTATUS\n1000\n2\nRO\nINTEGER\nShows the device configuration\naccording to the SIL setting\n“FAIL” No valid configuration has been \nreceived.\n“OPEN” Actual configuration is NOT locked \n(non-SIL).\n“LOCK” Actual configuration is locked (SIL).\n“INIT” Initial status after a powerup/reset \nuntil a configuration has been received.\nERROR \nSTATUS\n1002\n1\nRO\nINTEGER\nStatus of common errors for the device.\nCRC ERROR:\t\nbit 0 = 1\nCALIBRATION ERROR:\t\nbit 1 = 1\nCONFIGURATION ERROR:\t\nbit 2 = 1\nREAD ERROR:\t\nbit 3 = 1\nWRITE ERROR:\t\nbit 4 = 1\nSUPPLY ERROR:\t\nbit 5 = 1\nCPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE\nSTATUS\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 CONFIG DIRECT READBACK:\t bit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:"
+  },
+  {
+    "chunk_id": 17,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "bit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE\nSTATUS\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 CONFIG DIRECT READBACK:\t bit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:\t\nbit 5 = 1\nCH2 SHORT DETECT:\t\nbit 6 = 1\nCH2 CONFIG DIRECT READBACK:\t bit 7 = 1\nCHANNEL 1\nCURRENT\n1004\n1\nRO\nUNSIGNED \nINTEGER\nShows the measurement of\nchannel 1 in mA.\nRange:\t\n0...255\nCHANNEL 1\nSTATUS\n1005\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 1.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nCHANNEL 2\nCURRENT\n1006\n1\nRO\nUNSIGNED \nINTEGER\nShows the measurement of\nchannel 2 in mA.\nRange:\t\n0...255\nCHANNEL 2\nSTATUS\n1007\n1\nRO\nUNSIGNED \nINTEGER\nShows the status of channel 2.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nMEASURE\nCONTROL\n1008\n1\nR/W\nUNSIGNED \nINTEGER\nEnables simulation of Error and Rail signals. \nActual setting of the signals is controlled by \nOUTPUT STATE"
+  },
+  {
+    "chunk_id": 18,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "0...255\nCHANNEL 2\nSTATUS\n1007\n1\nRO\nUNSIGNED \nINTEGER\nShows the status of channel 2.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nMEASURE\nCONTROL\n1008\n1\nR/W\nUNSIGNED \nINTEGER\nEnables simulation of Error and Rail signals. \nActual setting of the signals is controlled by \nOUTPUT STATE\nRESERVED Must be set to 0\t\nbit 0\nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation,\nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0\t\nbit 4...7\nOUTPUT \nSTATE\n1009\n1\nR/W\nUNSIGNED \nINTEGER\nShows status of Used to set value of the \nsimulated process.\nRESERVED Must be set to 0\t\nbit 0...3\nError out simulation value\n(1=OFF, 2=ON)\t\nbit 4\nRail Signal simulation value\n(1=OFF, 2=ON)\t\nbit 5\nRESERVED Must be set to 0\t\nbit 6...7\nTIMEOUT\nCOUNTER\n1010\n1\nR/W\nUNSIGNED \nINTEGER\nTime-out counter which resets various bits \nin MEASURE CONTROL upon overflow and is \nautomatically set to 133.\nDecrements once every 0.075 s.\nRange:\t\n0...255"
+  },
+  {
+    "chunk_id": 19,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "9203MCM101\t\n5\n4511 Modbus Configuration Parameter List\nParameter \nName\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nENABLE \nMODBUS\n3000\n1\nR/W\nINTEGER\nEnable Modbus communication.\nIf disabled, 4511 ignores all frames sent  \nfrom the Modbus master and the only way \nto re-enable Modbus communication \nis by using the 4511 menu.\nNO\t\n= 0\nYES\t\n= 1\nBAUDRATE\n3001\n1\nR/W\nINTEGER\nThe baud value used for \nModbus communication\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nENABLE \nAUTOBAUD\n3002\n1\nR/W\nINTEGER\nEnable automatic baudrate detection. \nIf enabled, 4511 determines the baudrate \nautomatically by listening to frames sent on the \nModbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOP BITS\n3004\n1\nR/W\nINTEGER\nConfigures the number of stop bits \nin Modbus frames\nONE STOP BIT\t\n= 1\nTWO STOP BITS\t\n= 2\nADDRESS\n3005\n1\nR/W"
+  },
+  {
+    "chunk_id": 20,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOP BITS\n3004\n1\nR/W\nINTEGER\nConfigures the number of stop bits \nin Modbus frames\nONE STOP BIT\t\n= 1\nTWO STOP BITS\t\n= 2\nADDRESS\n3005\n1\nR/W\nINTEGER\nConfigures the Modbus \naddress of the 4511\n(Address 0 is broadcast address)\nRange: 1...247\nRESPONSE \nDELAY\n3006\n1\nR/W\nINTEGER\nConfigures minimum delay for  \nModbus response in ms\nRange: 0...1000\n4511 Modbus Status Parameter List\nParameter \nName\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nAUTOBAUD\nSTATUS\n4000\n1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR\t\n= 8\nIDENTIFY \nDEVICE\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD  \nbackground with approx. 4 Hz.\nValue will automatically return to NO if  \nnot written within 10 seconds!\nNO"
+  },
+  {
+    "chunk_id": 21,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR\t\n= 8\nIDENTIFY \nDEVICE\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD  \nbackground with approx. 4 Hz.\nValue will automatically return to NO if  \nnot written within 10 seconds!\nNO\t\n= 0\nYES\t\n= 1\nMAXIMUM \nREAD \nREGISTERS\n4002\n1\nRO\nINTEGER\nMaximum allowed number of registers  \nthat can be read in one command, with  \nthe given/detected baudrate\nRange:\t\n8...32\n4511 Additional Parameter List\nParameter \nName\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nROTATE DEVICE\n3100\n1\nR/W\nINTEGER\nEnables the display and key buttons to be used \nnormally when the host device is mounted \nupside down\nNO\t\n= 0\nYES\t\n= 1"
+  },
+  {
+    "chunk_id": 22,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "6\t\n9203MCM101\n4511 Modbus Front Programming Parameter Menu\n \n \n\n\"M\"\n\n \n\n\n\n\n\n\n\n\n or \n or \n\n\n\n\n\n\n(correct)\n(NO)\n or \n(YES)\n\n\n\n or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\"M\"\n\n\n or \n\n\n\n\n\n\n or \n\n\n\n\n\n\n or \n\n\n\n\n\n or \n\n\n\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n or \n\n\n\n\n\n\n\n\n\n\"M\"\n*1)\nRAIL\nMODB\nORIEN\n*1)\nORIEN\n\n\n\n or \n\n\nPlease note:\nIf no keys are activated for 1 minute, the 4511 display will return to the “Monitor” view without saving.\nThe display will aslo return to \"Monitor\" upon successful Modbus write command!"
+  },
+  {
+    "chunk_id": 23,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "\n\n\n\n\n\"M\"\n*1)\nRAIL\nMODB\nORIEN\n*1)\nORIEN\n\n\n\n or \n\n\nPlease note:\nIf no keys are activated for 1 minute, the 4511 display will return to the “Monitor” view without saving.\nThe display will aslo return to \"Monitor\" upon successful Modbus write command!\nThe grayed-out menus and texts are only shown for guidance and are not a part of the 4511 speciﬁc submenu.\nThe Modbus submenu is located in the Advanced Setting menu structure of any host device using the 4511. \nThe actual placement is deﬁned for each particular device.\nScrolling HELP TEXTS:\n[1] \nSet correct password\n[2] \nEnter advanced setup menu\n[3] \nPerform memory operations\n \nEnter display setup \n \nPerform process calibration\n \nEnter simulation setup\n \nEnter password setup\n \nEnter language setup\n \nEnter rail setup (System 9000)\n \nEnter Modbus setup\n[4] \nCheck automatic baudrate detection status\n \nEnable Modbus communication\n \nDisable Modbus communication\n[5] \nReset Modbus to default\n[6]"
+  },
+  {
+    "chunk_id": 24,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "Perform process calibration\n \nEnter simulation setup\n \nEnter password setup\n \nEnter language setup\n \nEnter rail setup (System 9000)\n \nEnter Modbus setup\n[4] \nCheck automatic baudrate detection status\n \nEnable Modbus communication\n \nDisable Modbus communication\n[5] \nReset Modbus to default\n[6] \nSelect Modbus slave address\n[7] \nSelect parity for Modbus\n[8] \nSelect number of stop bits\n[9] \nSelect response delay in ms\n[10] \nEnable automatic baudrate detection\n[11] \nSearching for Modbus baudrate\n \nModbus baudrate detected\n \nModbus baudrate not detected\n[12] \nSelect baudrate in bps\n[13] \nRotate device upside down? \n* 1) Only if automatic\n       baudrate detection\n       is enabled"
+  },
+  {
+    "chunk_id": 25,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "We are near you,\nall over the world\nAll our devices are backed by expert service and a 5-year \nwarranty. With each product you purchase, you receive \npersonal technical support and guidance, day-to-day delivery, \nrepair without charge within the warranty period and easily \naccessible documentation. \nWe are headquartered in Denmark, and have offices and \nauthorized partners the world over. We are a local business \nwith a global reach. This means that we are always nearby \nand know your local markets well.  \nWe are committed to your satisfaction and provide \nPERFORMANCE MADE SMARTER all around the world.\nFor more information on our warranty program, or to meet \nwith a sales representative in your region, visit \nprelectronics.com.\nOur trusted red boxes are supported wherever you are"
+  },
+  {
+    "chunk_id": 26,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9203_mcm_101.pdf",
+    "content": "www.prelectronics.com\nPR electronics is the leading technology company specialized in making industrial process \ncontrol safer, more reliable and more efficient. Since 1974, we have been dedicated to \nperfecting our core competence of innovating high precision technology with low power \nconsumption. This dedication continues to set new standards for products communicating, \nmonitoring and connecting our customers’ process measurement points to their process \ncontrol systems. \nOur innovative, patented technologies are derived from our extensive R&D facilities and \nfrom having a great understanding of our customers’ needs and processes. We are guided \nby principles of simplicity, focus, courage and excellence, enabling some of the world’s \ngreatest companies to achieve PERFORMANCE MADE SMARTER.\nBenefit today from \nPERFORMANCE MADE SMARTER"
+  }
+]

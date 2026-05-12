@@ -1,0 +1,1133 @@
+[
+  {
+    "pass_name": "communication",
+    "parameters": [
+      "physicalStandard",
+      "baudRate",
+      "dataBits",
+      "parity",
+      "stopBits"
+    ],
+    "raw_top_k_per_query": {
+      "physical_standard": [
+        {
+          "rank": 1,
+          "chunk_id": 5,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "The most common speeds are 9,600 bps and 19,200 bps. \nModbus RTU is the most widely used industrial protocol and is supported by the 4511.\nModbus RTU:\nTo communicate with a slave device, the master sends a message containing:\nDevice Address - Function Code - Data - Error Check\nThe Device Address is a number from 0 to 247.\nMessages sent to address 0 (broadcast messages) will be accepted by all slaves, but \nnumbers 1-247 are addresses of specific devices. With the exception of broadcast \nmessages, a slave device always responds to a Modbus message so the master knows the \nmessage was received.\n4511 Supported Modbus Function Codes:\nCommand\nFunction code\nRead Holding Registers\n03\nRead Input Registers\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\nThe Function Code defines the command that the slave device is to execute, such as\nread data, accept data, report status. Some function codes have sub-function codes."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:\t \t\n\t\n2400, 4800, 9600, 19.2k, 38.4k, 57.6k, 115.2k bps\nParity Mode: \t\n\t\n\t\n\t\nEven, Odd or None parity\nStop Bits:\t\n\t\n\t\n\t\n1 or 2 stop bits\nResponse delay:\t\n\t\n\t\n\t\n0...1000 ms (0 ms = default)\nModbus slave addressing range: \t\n1 - 247 (247 = default address)\nModbus Parameter Storage:\t\n\t\nSaved in non-volatile memory in the 4511 device\n(Factory Default Values are marked in bold)\nModbus RTU segment line termination: \nA 120 Ohm resistor should be installed on both ends of a RS485 Modbus RTU segment loop \nto prevent signal echoes from corrupting data on the line."
+        },
+        {
+          "rank": 3,
+          "chunk_id": 4,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "3\nINTRODUCTION\nThis configuration manual\ncontains the necessary information for configuring a PR 9202 device which is connected to \na PR 4511 Modbus RTU enabler.\nModbus is a “master-slave” system, \nwhere the “master” communicates with one or multiple “slaves”. \nThe master typically is a PLC (Programmable Logic Controller), DCS (Distributed Control \nSystem), HMI (Human Machine Interface), RTU (Remote Terminal Unit) or PC.  \nThe three most common Modbus versions used are: MODBUS ASCII, MODBUS RTU and \nMODBUS/TCP.\nIn Modbus RTU, data is coded in binary, and requires only one communication byte per data \nbyte. This is ideal for use over multi-drop RS485 networks, at speeds up to 115,200 bps. \nThe most common speeds are 9,600 bps and 19,200 bps. \nModbus RTU is the most widely used industrial protocol and is supported by the 4511.\nModbus RTU:\nTo communicate with a slave device, the master sends a message containing:\nDevice Address - Function Code - Data - Error Check"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 15,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "6\n4511 Modbus Front Programming Parameter Menu\n4511 Modbus Configuration Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nENABLE \nMODBUS\n1\n3000\n1\nR/W\nINTEGER\nEnable Modbus communication.\nIf disabled, 4511 ignores all frames sent\nfrom the Modbus master and the only way to \nre-enable Modbus communication is by using \nthe 4511 menu.\nNO\t\n= 0\nYES\t\n= 1\nBAUDRATE\n2\n3001\n1\nR/W\nINTEGER\nThe baud value used for\nModbus communication\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nENABLE \nAUTOBAUD\n3\n3002\n1\nR/W\nINTEGER\nEnable automatic baudrate detection.\nIf enabled, 4511 determines the baud \nautomatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 0,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "4511 MODBUS RTU\nConfiguration Manual\n9 2 0 2\nPulse isolator\nN o .  9 2 0 2 M C M 1 0 0 ( 1 3 2 8 )"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 16,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "automatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1\nTWO STOPBITS\t\n= 2\nADDRESS\n6\n3005\n1\nR/W\nINTEGER\nConfigures the Modbus address of the 4511\n(Address 0 is broadcast address)\nRange: \t\n1...247\nRESPONSE \nDELAY\n7\n3006\n1\nR/W\nINTEGER\nConfigures minimum delay for\nModbus response in ms\nRange: \t\n0...1000\n4511 Modbus Status Parameter List\nParameter \nName:\nNr.\nRegister \nAddress:\nRegister \nSize:\nRead/\nWrite:\nType:\nDescription:\nValues\nAUTOBAUD\nSTATUS\n1\n4000\n1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 3,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "4\nDisplay  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nOutput .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\n9202 Modbus Process Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . .  \n5\n4511 Modbus Configuration Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n6\n4511 Modbus Status Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . .  \n6\n4511 Modbus Front Programming Parameter Menu  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . .  \n6"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 1,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "2\nCONTENTS\nIntroduction .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus basics .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nSupported Function Codes  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus Parameters and factory default settings  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU segment line termination  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n3"
+        }
+      ],
+      "baud_rate": [
+        {
+          "rank": 1,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:\t \t\n\t\n2400, 4800, 9600, 19.2k, 38.4k, 57.6k, 115.2k bps\nParity Mode: \t\n\t\n\t\n\t\nEven, Odd or None parity\nStop Bits:\t\n\t\n\t\n\t\n1 or 2 stop bits\nResponse delay:\t\n\t\n\t\n\t\n0...1000 ms (0 ms = default)\nModbus slave addressing range: \t\n1 - 247 (247 = default address)\nModbus Parameter Storage:\t\n\t\nSaved in non-volatile memory in the 4511 device\n(Factory Default Values are marked in bold)\nModbus RTU segment line termination: \nA 120 Ohm resistor should be installed on both ends of a RS485 Modbus RTU segment loop \nto prevent signal echoes from corrupting data on the line."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 20,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "[6] \nSelect Modbus slave address\n[7] \nSelect parity for Modbus\n[8] \nSelect number of stop bits\n[9] \nSelect response delay in ms\n[10] \nEnable automatic baudrate detection\n[11] \nSearching for Modbus baudrate\n \nModbus baudrate detected\n \nModbus baudrate not detected\n[12] \nSelect baudrate in bps \n* 1) Only if automatic\n       baudrate detection\n       is enabled"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 16,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "automatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1\nTWO STOPBITS\t\n= 2\nADDRESS\n6\n3005\n1\nR/W\nINTEGER\nConfigures the Modbus address of the 4511\n(Address 0 is broadcast address)\nRange: \t\n1...247\nRESPONSE \nDELAY\n7\n3006\n1\nR/W\nINTEGER\nConfigures minimum delay for\nModbus response in ms\nRange: \t\n0...1000\n4511 Modbus Status Parameter List\nParameter \nName:\nNr.\nRegister \nAddress:\nRegister \nSize:\nRead/\nWrite:\nType:\nDescription:\nValues\nAUTOBAUD\nSTATUS\n1\n4000\n1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz."
+        },
+        {
+          "rank": 4,
+          "chunk_id": 17,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz.\nValue will automatically return to NO if \nnot written within 10 seconds!\nNO\t\n= 0\nYES\t\n= 1\nMAXIMUM READ \nREGISTERS\n3\n4002\n1\nRO\nINTEGER\nMaximum allowed number of registers \nthat can be read in one command, with \nthe given/detected baudrate\nRange:\t\n8...32\n \n \n\n\"M\"\n\n \n\n\n\n\n\n\n\n\n or \n or \n\n\n\n\n\n\n(correct)\n(NO)\n or \n(YES)\n\n\n\n or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or "
+        },
+        {
+          "rank": 5,
+          "chunk_id": 15,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "6\n4511 Modbus Front Programming Parameter Menu\n4511 Modbus Configuration Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nENABLE \nMODBUS\n1\n3000\n1\nR/W\nINTEGER\nEnable Modbus communication.\nIf disabled, 4511 ignores all frames sent\nfrom the Modbus master and the only way to \nre-enable Modbus communication is by using \nthe 4511 menu.\nNO\t\n= 0\nYES\t\n= 1\nBAUDRATE\n2\n3001\n1\nR/W\nINTEGER\nThe baud value used for\nModbus communication\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nENABLE \nAUTOBAUD\n3\n3002\n1\nR/W\nINTEGER\nEnable automatic baudrate detection.\nIf enabled, 4511 determines the baud \nautomatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 2,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "3\n\t\nModbus Parameters and factory default settings  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU segment line termination  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n3\n9202 Modbus Configuration Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n4\nGeneral .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nInput .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nDisplay  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "Function code\nRead Holding Registers\n03\nRead Input Registers\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\nThe Function Code defines the command that the slave device is to execute, such as\nread data, accept data, report status. Some function codes have sub-function codes.\nThe Data defines addresses in the device’s memory map for read functions, \ncontains data values to be written into the device’s memory, or contains other information \nneeded to carry out the function requested.\nThe Error Check is a 16-bit numeric value representing the Cyclic Redundancy Check (CRC). \nMaximum number of registers which can be read or written at once:\nFor a read command, the limit is 8 registers at a baud rate up to 38,400 bps,\n16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 5,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "The most common speeds are 9,600 bps and 19,200 bps. \nModbus RTU is the most widely used industrial protocol and is supported by the 4511.\nModbus RTU:\nTo communicate with a slave device, the master sends a message containing:\nDevice Address - Function Code - Data - Error Check\nThe Device Address is a number from 0 to 247.\nMessages sent to address 0 (broadcast messages) will be accepted by all slaves, but \nnumbers 1-247 are addresses of specific devices. With the exception of broadcast \nmessages, a slave device always responds to a Modbus message so the master knows the \nmessage was received.\n4511 Supported Modbus Function Codes:\nCommand\nFunction code\nRead Holding Registers\n03\nRead Input Registers\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\nThe Function Code defines the command that the slave device is to execute, such as\nread data, accept data, report status. Some function codes have sub-function codes."
+        }
+      ],
+      "data_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:\t \t\n\t\n2400, 4800, 9600, 19.2k, 38.4k, 57.6k, 115.2k bps\nParity Mode: \t\n\t\n\t\n\t\nEven, Odd or None parity\nStop Bits:\t\n\t\n\t\n\t\n1 or 2 stop bits\nResponse delay:\t\n\t\n\t\n\t\n0...1000 ms (0 ms = default)\nModbus slave addressing range: \t\n1 - 247 (247 = default address)\nModbus Parameter Storage:\t\n\t\nSaved in non-volatile memory in the 4511 device\n(Factory Default Values are marked in bold)\nModbus RTU segment line termination: \nA 120 Ohm resistor should be installed on both ends of a RS485 Modbus RTU segment loop \nto prevent signal echoes from corrupting data on the line."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "Function code\nRead Holding Registers\n03\nRead Input Registers\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\nThe Function Code defines the command that the slave device is to execute, such as\nread data, accept data, report status. Some function codes have sub-function codes.\nThe Data defines addresses in the device’s memory map for read functions, \ncontains data values to be written into the device’s memory, or contains other information \nneeded to carry out the function requested.\nThe Error Check is a 16-bit numeric value representing the Cyclic Redundancy Check (CRC). \nMaximum number of registers which can be read or written at once:\nFor a read command, the limit is 8 registers at a baud rate up to 38,400 bps,\n16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 17,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz.\nValue will automatically return to NO if \nnot written within 10 seconds!\nNO\t\n= 0\nYES\t\n= 1\nMAXIMUM READ \nREGISTERS\n3\n4002\n1\nRO\nINTEGER\nMaximum allowed number of registers \nthat can be read in one command, with \nthe given/detected baudrate\nRange:\t\n8...32\n \n \n\n\"M\"\n\n \n\n\n\n\n\n\n\n\n or \n or \n\n\n\n\n\n\n(correct)\n(NO)\n or \n(YES)\n\n\n\n or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or "
+        },
+        {
+          "rank": 4,
+          "chunk_id": 13,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "CPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:\t\nbit 5 = 1\nCH2 SHORT DETECT: \t\nbit 6 = 1\nCH2 DIRECTION:\t\nbit 7 = 1\nCHANNEL 1 \nSTATUS\n1004\n1005\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 1.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nCHANNEL 2 \nSTATUS\n1006\n1007\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 2.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nMEASURE \nCONTROL\n1007\n1008\n1\nR/W\nUNSIGNED \nINTEGER\nEnables simulation of Error and Rail \nsignals. Actual setting of the signals is \ncontrolled by OUTPUT STATE.\nRESERVED Must be set to 0\t\nbit 0 \nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation, \nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER\nThis counter will \ncount the number\nof times the \nconfiguration has \nbeen changed. \nThe counter is reset \non power-up\nRange 0...65536\n*1)\t\nIf SIL mode is set by an authorized SIL user (SIL ENABLE  = YES), all parameters become READ ONLY"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 9,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "R/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED \nINTEGER\nBacklight intensity \nin LCD\nRange:\t\n0...9\nDISPLAY\nLINE FUNCTION\n10\n10\n1\nR/W\nINTEGER\nInformation shown \nin input line of \ndisplay in monitor \nmode \n(normal mode). \nLOAD\t\n\t\n= 0\nTAG\t\n\t\n= 1\nD.OUT\t\n\t\n= 2\nALTERNATING\t\n= 3\nGENERAL\nENABLE \nPASSWORD\n11\n11\n1\nR/W\nINTEGER\nPassword protect \nentry to configura­\ntion menu)\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nHELP TEXT \nLANGUAGE\n12\n12\n1\nR/W\nINTEGER\nLanguage for the \nhelp texts shown on \ndisplay.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE *1)\n13\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n14\n17\n1\nRO\nINTEGER\nDefines the\nactual device type \ntogether with the \ndevice no.\n(e.g. 9202B1A = \n0x0B1A)"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 16,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "automatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1\nTWO STOPBITS\t\n= 2\nADDRESS\n6\n3005\n1\nR/W\nINTEGER\nConfigures the Modbus address of the 4511\n(Address 0 is broadcast address)\nRange: \t\n1...247\nRESPONSE \nDELAY\n7\n3006\n1\nR/W\nINTEGER\nConfigures minimum delay for\nModbus response in ms\nRange: \t\n0...1000\n4511 Modbus Status Parameter List\nParameter \nName:\nNr.\nRegister \nAddress:\nRegister \nSize:\nRead/\nWrite:\nType:\nDescription:\nValues\nAUTOBAUD\nSTATUS\n1\n4000\n1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz."
+        },
+        {
+          "rank": 8,
+          "chunk_id": 20,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "[6] \nSelect Modbus slave address\n[7] \nSelect parity for Modbus\n[8] \nSelect number of stop bits\n[9] \nSelect response delay in ms\n[10] \nEnable automatic baudrate detection\n[11] \nSearching for Modbus baudrate\n \nModbus baudrate detected\n \nModbus baudrate not detected\n[12] \nSelect baudrate in bps \n* 1) Only if automatic\n       baudrate detection\n       is enabled"
+        }
+      ],
+      "parity": [
+        {
+          "rank": 1,
+          "chunk_id": 15,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "6\n4511 Modbus Front Programming Parameter Menu\n4511 Modbus Configuration Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nENABLE \nMODBUS\n1\n3000\n1\nR/W\nINTEGER\nEnable Modbus communication.\nIf disabled, 4511 ignores all frames sent\nfrom the Modbus master and the only way to \nre-enable Modbus communication is by using \nthe 4511 menu.\nNO\t\n= 0\nYES\t\n= 1\nBAUDRATE\n2\n3001\n1\nR/W\nINTEGER\nThe baud value used for\nModbus communication\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nENABLE \nAUTOBAUD\n3\n3002\n1\nR/W\nINTEGER\nEnable automatic baudrate detection.\nIf enabled, 4511 determines the baud \nautomatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 16,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "automatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1\nTWO STOPBITS\t\n= 2\nADDRESS\n6\n3005\n1\nR/W\nINTEGER\nConfigures the Modbus address of the 4511\n(Address 0 is broadcast address)\nRange: \t\n1...247\nRESPONSE \nDELAY\n7\n3006\n1\nR/W\nINTEGER\nConfigures minimum delay for\nModbus response in ms\nRange: \t\n0...1000\n4511 Modbus Status Parameter List\nParameter \nName:\nNr.\nRegister \nAddress:\nRegister \nSize:\nRead/\nWrite:\nType:\nDescription:\nValues\nAUTOBAUD\nSTATUS\n1\n4000\n1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz."
+        },
+        {
+          "rank": 3,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:\t \t\n\t\n2400, 4800, 9600, 19.2k, 38.4k, 57.6k, 115.2k bps\nParity Mode: \t\n\t\n\t\n\t\nEven, Odd or None parity\nStop Bits:\t\n\t\n\t\n\t\n1 or 2 stop bits\nResponse delay:\t\n\t\n\t\n\t\n0...1000 ms (0 ms = default)\nModbus slave addressing range: \t\n1 - 247 (247 = default address)\nModbus Parameter Storage:\t\n\t\nSaved in non-volatile memory in the 4511 device\n(Factory Default Values are marked in bold)\nModbus RTU segment line termination: \nA 120 Ohm resistor should be installed on both ends of a RS485 Modbus RTU segment loop \nto prevent signal echoes from corrupting data on the line."
+        },
+        {
+          "rank": 4,
+          "chunk_id": 12,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "5\n9202 Modbus Process Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nCONFIGURA-\nTION STATUS\n1000\n1000\n1\nRO\nINTEGER\nShows the device configuration\naccording to the SIL setting.\n“FAIL”\t No valid configuration has been received\n“OPEN”\tActual configuration is NOT locked (non-\nSIL)\n“LOCK”\t\nActual configuration is locked (SIL)\n“INIT” Initial status after a powerup/reset until a \nconfiguration has been received\nERROR STATUS\n1001\n1002\n1\nRO\nINTEGER\nStatus of common errors for\nthe device.\nCRC ERROR:\t\nbit 0 = 1\nCALIBRATION ERROR:\t\nbit 1 = 1\nCONFIGURATION ERROR:\t\nbit 2 = 1\nREAD ERROR:\t\nbit 3 = 1\nWRITE ERROR:\t\nbit 4 = 1\nSUPPLY ERROR:\t\nbit 5 = 1\nCPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER\nThis counter will \ncount the number\nof times the \nconfiguration has \nbeen changed. \nThe counter is reset \non power-up\nRange 0...65536\n*1)\t\nIf SIL mode is set by an authorized SIL user (SIL ENABLE  = YES), all parameters become READ ONLY"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 17,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz.\nValue will automatically return to NO if \nnot written within 10 seconds!\nNO\t\n= 0\nYES\t\n= 1\nMAXIMUM READ \nREGISTERS\n3\n4002\n1\nRO\nINTEGER\nMaximum allowed number of registers \nthat can be read in one command, with \nthe given/detected baudrate\nRange:\t\n8...32\n \n \n\n\"M\"\n\n \n\n\n\n\n\n\n\n\n or \n or \n\n\n\n\n\n\n(correct)\n(NO)\n or \n(YES)\n\n\n\n or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or "
+        },
+        {
+          "rank": 7,
+          "chunk_id": 8,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "4\n9202 Modbus Configuration Parameter List\nCategory\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nGENERAL\nDEVICE \nNUMBER\n0\n0\n1\nRO\nUNSIGNED \nINTEGER\nDefines the actual \ndevice number\n9202 = 37378 (0x9202))\nGENERAL\nDEVICE \nVERSION\n1\n1\n1\nRO\nUNSIGNED \nINTEGER\nProduct version \n0\nGENERAL\nPASSWORD\n3\n3\n1\nR/W\nUNSIGNED \nINTEGER\nPassword \nfor entering \nconfiguration menu\nRange: 0...9999\nGENERAL\nPASSWORD TRY\n4\n4\n1\nR/W\nUNSIGNED \nINTEGER\nPassword attempt­\ned for entering \nconfiguration menu\nRange:\t 0...9999\nINPUT\nINDICATE \nSENSOR \nSHORTAGE\n5\n5\n1\nR/W\nINTEGER\nIndicate sensor \nshortage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nINDICATE \nSENSOR \nBREAKAGE\n6\n6\n1\nR/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 13,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "CPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:\t\nbit 5 = 1\nCH2 SHORT DETECT: \t\nbit 6 = 1\nCH2 DIRECTION:\t\nbit 7 = 1\nCHANNEL 1 \nSTATUS\n1004\n1005\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 1.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nCHANNEL 2 \nSTATUS\n1006\n1007\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 2.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nMEASURE \nCONTROL\n1007\n1008\n1\nR/W\nUNSIGNED \nINTEGER\nEnables simulation of Error and Rail \nsignals. Actual setting of the signals is \ncontrolled by OUTPUT STATE.\nRESERVED Must be set to 0\t\nbit 0 \nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation, \nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0"
+        }
+      ],
+      "stop_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 15,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "6\n4511 Modbus Front Programming Parameter Menu\n4511 Modbus Configuration Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nENABLE \nMODBUS\n1\n3000\n1\nR/W\nINTEGER\nEnable Modbus communication.\nIf disabled, 4511 ignores all frames sent\nfrom the Modbus master and the only way to \nre-enable Modbus communication is by using \nthe 4511 menu.\nNO\t\n= 0\nYES\t\n= 1\nBAUDRATE\n2\n3001\n1\nR/W\nINTEGER\nThe baud value used for\nModbus communication\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nENABLE \nAUTOBAUD\n3\n3002\n1\nR/W\nINTEGER\nEnable automatic baudrate detection.\nIf enabled, 4511 determines the baud \nautomatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:\t \t\n\t\n2400, 4800, 9600, 19.2k, 38.4k, 57.6k, 115.2k bps\nParity Mode: \t\n\t\n\t\n\t\nEven, Odd or None parity\nStop Bits:\t\n\t\n\t\n\t\n1 or 2 stop bits\nResponse delay:\t\n\t\n\t\n\t\n0...1000 ms (0 ms = default)\nModbus slave addressing range: \t\n1 - 247 (247 = default address)\nModbus Parameter Storage:\t\n\t\nSaved in non-volatile memory in the 4511 device\n(Factory Default Values are marked in bold)\nModbus RTU segment line termination: \nA 120 Ohm resistor should be installed on both ends of a RS485 Modbus RTU segment loop \nto prevent signal echoes from corrupting data on the line."
+        },
+        {
+          "rank": 3,
+          "chunk_id": 20,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "[6] \nSelect Modbus slave address\n[7] \nSelect parity for Modbus\n[8] \nSelect number of stop bits\n[9] \nSelect response delay in ms\n[10] \nEnable automatic baudrate detection\n[11] \nSearching for Modbus baudrate\n \nModbus baudrate detected\n \nModbus baudrate not detected\n[12] \nSelect baudrate in bps \n* 1) Only if automatic\n       baudrate detection\n       is enabled"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 16,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "automatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1\nTWO STOPBITS\t\n= 2\nADDRESS\n6\n3005\n1\nR/W\nINTEGER\nConfigures the Modbus address of the 4511\n(Address 0 is broadcast address)\nRange: \t\n1...247\nRESPONSE \nDELAY\n7\n3006\n1\nR/W\nINTEGER\nConfigures minimum delay for\nModbus response in ms\nRange: \t\n0...1000\n4511 Modbus Status Parameter List\nParameter \nName:\nNr.\nRegister \nAddress:\nRegister \nSize:\nRead/\nWrite:\nType:\nDescription:\nValues\nAUTOBAUD\nSTATUS\n1\n4000\n1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz."
+        },
+        {
+          "rank": 5,
+          "chunk_id": 17,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz.\nValue will automatically return to NO if \nnot written within 10 seconds!\nNO\t\n= 0\nYES\t\n= 1\nMAXIMUM READ \nREGISTERS\n3\n4002\n1\nRO\nINTEGER\nMaximum allowed number of registers \nthat can be read in one command, with \nthe given/detected baudrate\nRange:\t\n8...32\n \n \n\n\"M\"\n\n \n\n\n\n\n\n\n\n\n or \n or \n\n\n\n\n\n\n(correct)\n(NO)\n or \n(YES)\n\n\n\n or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or "
+        },
+        {
+          "rank": 6,
+          "chunk_id": 14,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "signals. Actual setting of the signals is \ncontrolled by OUTPUT STATE.\nRESERVED Must be set to 0\t\nbit 0 \nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation, \nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0\t\nbit 4...7\nOUTPUT STATE\n1008\n1009\n1\nR/W\nUNSIGNED \nINTEGER\nShows status of Used to set value of \nthe simulated process.\nRESERVED Must be set to 0\t\nbit 0...3\nError out simulation value\n(1=OFF, 2=ON)\t\nbit 4\nRail Signal simulation value\n(1=OFF, 2=ON)\t\nbit 5\nRESERVED Must be set to 0\t\nbit 6...7\nTIMEOUT \nCOUNTER\n1009\n1010\n1\nR/W\nUNSIGNED \nINTEGER\nTime-out counter which resets various \nbits in MEASURE CONTROL upon \noverflow and is automatically set to \n133. Decrements once every 0.075 s.\nRange:\t\n0...255"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 13,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "CPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:\t\nbit 5 = 1\nCH2 SHORT DETECT: \t\nbit 6 = 1\nCH2 DIRECTION:\t\nbit 7 = 1\nCHANNEL 1 \nSTATUS\n1004\n1005\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 1.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nCHANNEL 2 \nSTATUS\n1006\n1007\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 2.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nMEASURE \nCONTROL\n1007\n1008\n1\nR/W\nUNSIGNED \nINTEGER\nEnables simulation of Error and Rail \nsignals. Actual setting of the signals is \ncontrolled by OUTPUT STATE.\nRESERVED Must be set to 0\t\nbit 0 \nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation, \nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "Function code\nRead Holding Registers\n03\nRead Input Registers\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\nThe Function Code defines the command that the slave device is to execute, such as\nread data, accept data, report status. Some function codes have sub-function codes.\nThe Data defines addresses in the device’s memory map for read functions, \ncontains data values to be written into the device’s memory, or contains other information \nneeded to carry out the function requested.\nThe Error Check is a 16-bit numeric value representing the Cyclic Redundancy Check (CRC). \nMaximum number of registers which can be read or written at once:\nFor a read command, the limit is 8 registers at a baud rate up to 38,400 bps,\n16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:"
+        }
+      ]
+    },
+    "num_chunks_sent": 18,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 16,
+        "page": 5,
+        "score": 18,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "automatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1\nTWO STOPBITS\t\n= 2\nADDRESS\n6\n3005\n1\nR/W\nINTEGER\nConfigures the Modbus address of the 4511\n(Address 0 is broadcast address)\nRange: \t\n1...247\nRESPONSE \nDELAY\n7\n3006\n1\nR/W\nINTEGER\nConfigures minimum delay for\nModbus response in ms\nRange: \t\n0...1000\n4511 Modbus Status Parameter List\nParameter \nName:\nNr.\nRegister \nAddress:\nRegister \nSize:\nRead/\nWrite:\nType:\nDescription:\nValues\nAUTOBAUD\nSTATUS\n1\n4000\n1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz."
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 7,
+        "page": 2,
+        "score": 16,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:\t \t\n\t\n2400, 4800, 9600, 19.2k, 38.4k, 57.6k, 115.2k bps\nParity Mode: \t\n\t\n\t\n\t\nEven, Odd or None parity\nStop Bits:\t\n\t\n\t\n\t\n1 or 2 stop bits\nResponse delay:\t\n\t\n\t\n\t\n0...1000 ms (0 ms = default)\nModbus slave addressing range: \t\n1 - 247 (247 = default address)\nModbus Parameter Storage:\t\n\t\nSaved in non-volatile memory in the 4511 device\n(Factory Default Values are marked in bold)\nModbus RTU segment line termination: \nA 120 Ohm resistor should be installed on both ends of a RS485 Modbus RTU segment loop \nto prevent signal echoes from corrupting data on the line."
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 15,
+        "page": 5,
+        "score": 16,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "6\n4511 Modbus Front Programming Parameter Menu\n4511 Modbus Configuration Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nENABLE \nMODBUS\n1\n3000\n1\nR/W\nINTEGER\nEnable Modbus communication.\nIf disabled, 4511 ignores all frames sent\nfrom the Modbus master and the only way to \nre-enable Modbus communication is by using \nthe 4511 menu.\nNO\t\n= 0\nYES\t\n= 1\nBAUDRATE\n2\n3001\n1\nR/W\nINTEGER\nThe baud value used for\nModbus communication\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nENABLE \nAUTOBAUD\n3\n3002\n1\nR/W\nINTEGER\nEnable automatic baudrate detection.\nIf enabled, 4511 determines the baud \nautomatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 8,
+        "page": 3,
+        "score": 12,
+        "bucket": "register",
+        "retrieved_by": [
+          "parity"
+        ],
+        "content": "4\n9202 Modbus Configuration Parameter List\nCategory\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nGENERAL\nDEVICE \nNUMBER\n0\n0\n1\nRO\nUNSIGNED \nINTEGER\nDefines the actual \ndevice number\n9202 = 37378 (0x9202))\nGENERAL\nDEVICE \nVERSION\n1\n1\n1\nRO\nUNSIGNED \nINTEGER\nProduct version \n0\nGENERAL\nPASSWORD\n3\n3\n1\nR/W\nUNSIGNED \nINTEGER\nPassword \nfor entering \nconfiguration menu\nRange: 0...9999\nGENERAL\nPASSWORD TRY\n4\n4\n1\nR/W\nUNSIGNED \nINTEGER\nPassword attempt­\ned for entering \nconfiguration menu\nRange:\t 0...9999\nINPUT\nINDICATE \nSENSOR \nSHORTAGE\n5\n5\n1\nR/W\nINTEGER\nIndicate sensor \nshortage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nINDICATE \nSENSOR \nBREAKAGE\n6\n6\n1\nR/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 6,
+        "page": 2,
+        "score": 11,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits",
+          "stop_bits"
+        ],
+        "content": "Function code\nRead Holding Registers\n03\nRead Input Registers\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\nThe Function Code defines the command that the slave device is to execute, such as\nread data, accept data, report status. Some function codes have sub-function codes.\nThe Data defines addresses in the device’s memory map for read functions, \ncontains data values to be written into the device’s memory, or contains other information \nneeded to carry out the function requested.\nThe Error Check is a 16-bit numeric value representing the Cyclic Redundancy Check (CRC). \nMaximum number of registers which can be read or written at once:\nFor a read command, the limit is 8 registers at a baud rate up to 38,400 bps,\n16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 11,
+        "page": 3,
+        "score": 10,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits",
+          "parity"
+        ],
+        "content": "17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER\nThis counter will \ncount the number\nof times the \nconfiguration has \nbeen changed. \nThe counter is reset \non power-up\nRange 0...65536\n*1)\t\nIf SIL mode is set by an authorized SIL user (SIL ENABLE  = YES), all parameters become READ ONLY"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 17,
+        "page": 5,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz.\nValue will automatically return to NO if \nnot written within 10 seconds!\nNO\t\n= 0\nYES\t\n= 1\nMAXIMUM READ \nREGISTERS\n3\n4002\n1\nRO\nINTEGER\nMaximum allowed number of registers \nthat can be read in one command, with \nthe given/detected baudrate\nRange:\t\n8...32\n \n \n\n\"M\"\n\n \n\n\n\n\n\n\n\n\n or \n or \n\n\n\n\n\n\n(correct)\n(NO)\n or \n(YES)\n\n\n\n or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or "
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 12,
+        "page": 4,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "parity"
+        ],
+        "content": "5\n9202 Modbus Process Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nCONFIGURA-\nTION STATUS\n1000\n1000\n1\nRO\nINTEGER\nShows the device configuration\naccording to the SIL setting.\n“FAIL”\t No valid configuration has been received\n“OPEN”\tActual configuration is NOT locked (non-\nSIL)\n“LOCK”\t\nActual configuration is locked (SIL)\n“INIT” Initial status after a powerup/reset until a \nconfiguration has been received\nERROR STATUS\n1001\n1002\n1\nRO\nINTEGER\nStatus of common errors for\nthe device.\nCRC ERROR:\t\nbit 0 = 1\nCALIBRATION ERROR:\t\nbit 1 = 1\nCONFIGURATION ERROR:\t\nbit 2 = 1\nREAD ERROR:\t\nbit 3 = 1\nWRITE ERROR:\t\nbit 4 = 1\nSUPPLY ERROR:\t\nbit 5 = 1\nCPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 20,
+        "page": 5,
+        "score": 7,
+        "bucket": "communication",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits",
+          "stop_bits"
+        ],
+        "content": "[6] \nSelect Modbus slave address\n[7] \nSelect parity for Modbus\n[8] \nSelect number of stop bits\n[9] \nSelect response delay in ms\n[10] \nEnable automatic baudrate detection\n[11] \nSearching for Modbus baudrate\n \nModbus baudrate detected\n \nModbus baudrate not detected\n[12] \nSelect baudrate in bps \n* 1) Only if automatic\n       baudrate detection\n       is enabled"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 1,
+        "page": 1,
+        "score": 6,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "2\nCONTENTS\nIntroduction .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus basics .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nSupported Function Codes  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus Parameters and factory default settings  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU segment line termination  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n3"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 9,
+        "page": 3,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "R/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED \nINTEGER\nBacklight intensity \nin LCD\nRange:\t\n0...9\nDISPLAY\nLINE FUNCTION\n10\n10\n1\nR/W\nINTEGER\nInformation shown \nin input line of \ndisplay in monitor \nmode \n(normal mode). \nLOAD\t\n\t\n= 0\nTAG\t\n\t\n= 1\nD.OUT\t\n\t\n= 2\nALTERNATING\t\n= 3\nGENERAL\nENABLE \nPASSWORD\n11\n11\n1\nR/W\nINTEGER\nPassword protect \nentry to configura­\ntion menu)\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nHELP TEXT \nLANGUAGE\n12\n12\n1\nR/W\nINTEGER\nLanguage for the \nhelp texts shown on \ndisplay.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE *1)\n13\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n14\n17\n1\nRO\nINTEGER\nDefines the\nactual device type \ntogether with the \ndevice no.\n(e.g. 9202B1A = \n0x0B1A)"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 2,
+        "page": 1,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "3\n\t\nModbus Parameters and factory default settings  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU segment line termination  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n3\n9202 Modbus Configuration Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n4\nGeneral .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nInput .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nDisplay  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 13,
+        "page": 4,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "CPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:\t\nbit 5 = 1\nCH2 SHORT DETECT: \t\nbit 6 = 1\nCH2 DIRECTION:\t\nbit 7 = 1\nCHANNEL 1 \nSTATUS\n1004\n1005\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 1.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nCHANNEL 2 \nSTATUS\n1006\n1007\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 2.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nMEASURE \nCONTROL\n1007\n1008\n1\nR/W\nUNSIGNED \nINTEGER\nEnables simulation of Error and Rail \nsignals. Actual setting of the signals is \ncontrolled by OUTPUT STATE.\nRESERVED Must be set to 0\t\nbit 0 \nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation, \nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 5,
+        "page": 2,
+        "score": 4,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate"
+        ],
+        "content": "The most common speeds are 9,600 bps and 19,200 bps. \nModbus RTU is the most widely used industrial protocol and is supported by the 4511.\nModbus RTU:\nTo communicate with a slave device, the master sends a message containing:\nDevice Address - Function Code - Data - Error Check\nThe Device Address is a number from 0 to 247.\nMessages sent to address 0 (broadcast messages) will be accepted by all slaves, but \nnumbers 1-247 are addresses of specific devices. With the exception of broadcast \nmessages, a slave device always responds to a Modbus message so the master knows the \nmessage was received.\n4511 Supported Modbus Function Codes:\nCommand\nFunction code\nRead Holding Registers\n03\nRead Input Registers\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\nThe Function Code defines the command that the slave device is to execute, such as\nread data, accept data, report status. Some function codes have sub-function codes."
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 4,
+        "page": 2,
+        "score": 3,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "3\nINTRODUCTION\nThis configuration manual\ncontains the necessary information for configuring a PR 9202 device which is connected to \na PR 4511 Modbus RTU enabler.\nModbus is a “master-slave” system, \nwhere the “master” communicates with one or multiple “slaves”. \nThe master typically is a PLC (Programmable Logic Controller), DCS (Distributed Control \nSystem), HMI (Human Machine Interface), RTU (Remote Terminal Unit) or PC.  \nThe three most common Modbus versions used are: MODBUS ASCII, MODBUS RTU and \nMODBUS/TCP.\nIn Modbus RTU, data is coded in binary, and requires only one communication byte per data \nbyte. This is ideal for use over multi-drop RS485 networks, at speeds up to 115,200 bps. \nThe most common speeds are 9,600 bps and 19,200 bps. \nModbus RTU is the most widely used industrial protocol and is supported by the 4511.\nModbus RTU:\nTo communicate with a slave device, the master sends a message containing:\nDevice Address - Function Code - Data - Error Check"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 3,
+        "page": 1,
+        "score": 3,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "4\nDisplay  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nOutput .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\n9202 Modbus Process Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . .  \n5\n4511 Modbus Configuration Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n6\n4511 Modbus Status Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . .  \n6\n4511 Modbus Front Programming Parameter Menu  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . .  \n6"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 14,
+        "page": 4,
+        "score": 3,
+        "bucket": "register",
+        "retrieved_by": [
+          "stop_bits"
+        ],
+        "content": "signals. Actual setting of the signals is \ncontrolled by OUTPUT STATE.\nRESERVED Must be set to 0\t\nbit 0 \nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation, \nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0\t\nbit 4...7\nOUTPUT STATE\n1008\n1009\n1\nR/W\nUNSIGNED \nINTEGER\nShows status of Used to set value of \nthe simulated process.\nRESERVED Must be set to 0\t\nbit 0...3\nError out simulation value\n(1=OFF, 2=ON)\t\nbit 4\nRail Signal simulation value\n(1=OFF, 2=ON)\t\nbit 5\nRESERVED Must be set to 0\t\nbit 6...7\nTIMEOUT \nCOUNTER\n1009\n1010\n1\nR/W\nUNSIGNED \nINTEGER\nTime-out counter which resets various \nbits in MEASURE CONTROL upon \noverflow and is automatically set to \n133. Decrements once every 0.075 s.\nRange:\t\n0...255"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 0,
+        "page": 0,
+        "score": 1,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "4511 MODBUS RTU\nConfiguration Manual\n9 2 0 2\nPulse isolator\nN o .  9 2 0 2 M C M 1 0 0 ( 1 3 2 8 )"
+      }
+    ]
+  },
+  {
+    "pass_name": "transaction",
+    "parameters": [
+      "nodeAddress",
+      "name",
+      "modbusAddressingMode",
+      "transactionName",
+      "requestFC",
+      "startAddr",
+      "quantity",
+      "responseFC",
+      "byteCount",
+      "dataLength"
+    ],
+    "raw_top_k_per_query": {
+      "node_address": [
+        {
+          "rank": 1,
+          "chunk_id": 20,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "[6] \nSelect Modbus slave address\n[7] \nSelect parity for Modbus\n[8] \nSelect number of stop bits\n[9] \nSelect response delay in ms\n[10] \nEnable automatic baudrate detection\n[11] \nSearching for Modbus baudrate\n \nModbus baudrate detected\n \nModbus baudrate not detected\n[12] \nSelect baudrate in bps \n* 1) Only if automatic\n       baudrate detection\n       is enabled"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:\t \t\n\t\n2400, 4800, 9600, 19.2k, 38.4k, 57.6k, 115.2k bps\nParity Mode: \t\n\t\n\t\n\t\nEven, Odd or None parity\nStop Bits:\t\n\t\n\t\n\t\n1 or 2 stop bits\nResponse delay:\t\n\t\n\t\n\t\n0...1000 ms (0 ms = default)\nModbus slave addressing range: \t\n1 - 247 (247 = default address)\nModbus Parameter Storage:\t\n\t\nSaved in non-volatile memory in the 4511 device\n(Factory Default Values are marked in bold)\nModbus RTU segment line termination: \nA 120 Ohm resistor should be installed on both ends of a RS485 Modbus RTU segment loop \nto prevent signal echoes from corrupting data on the line."
+        },
+        {
+          "rank": 3,
+          "chunk_id": 2,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "3\n\t\nModbus Parameters and factory default settings  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU segment line termination  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n3\n9202 Modbus Configuration Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n4\nGeneral .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nInput .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nDisplay  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 15,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "6\n4511 Modbus Front Programming Parameter Menu\n4511 Modbus Configuration Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nENABLE \nMODBUS\n1\n3000\n1\nR/W\nINTEGER\nEnable Modbus communication.\nIf disabled, 4511 ignores all frames sent\nfrom the Modbus master and the only way to \nre-enable Modbus communication is by using \nthe 4511 menu.\nNO\t\n= 0\nYES\t\n= 1\nBAUDRATE\n2\n3001\n1\nR/W\nINTEGER\nThe baud value used for\nModbus communication\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nENABLE \nAUTOBAUD\n3\n3002\n1\nR/W\nINTEGER\nEnable automatic baudrate detection.\nIf enabled, 4511 determines the baud \nautomatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 16,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "automatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1\nTWO STOPBITS\t\n= 2\nADDRESS\n6\n3005\n1\nR/W\nINTEGER\nConfigures the Modbus address of the 4511\n(Address 0 is broadcast address)\nRange: \t\n1...247\nRESPONSE \nDELAY\n7\n3006\n1\nR/W\nINTEGER\nConfigures minimum delay for\nModbus response in ms\nRange: \t\n0...1000\n4511 Modbus Status Parameter List\nParameter \nName:\nNr.\nRegister \nAddress:\nRegister \nSize:\nRead/\nWrite:\nType:\nDescription:\nValues\nAUTOBAUD\nSTATUS\n1\n4000\n1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz."
+        },
+        {
+          "rank": 6,
+          "chunk_id": 19,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "The grayed-out menus and texts are only shown for guidance and are not a part of the 4511 speciﬁc submenu.\nThe Modbus submenu is located in the Advanced Setting menu structure of any host device using the 4511. \nThe actual placement is deﬁned for each particular device.\nScrolling HELP TEXTS:\n[1] \nSet correct password\n[2] \nEnter advanced setup menu\n[3] \nPerform memory operations\n \nEnter display setup \n \nPerform process calibration\n \nEnter simulation setup\n \nEnter password setup\n \nEnter language setup\n \nEnter rail setup (System 9000)\n \nEnter Modbus setup\n[4] \nCheck automatic baudrate detection status\n \nEnable Modbus communication\n \nDisable Modbus communication\n[5] \nReset Modbus to default\n[6] \nSelect Modbus slave address\n[7] \nSelect parity for Modbus\n[8] \nSelect number of stop bits\n[9] \nSelect response delay in ms\n[10] \nEnable automatic baudrate detection\n[11] \nSearching for Modbus baudrate\n \nModbus baudrate detected\n \nModbus baudrate not detected\n[12] \nSelect baudrate in bps"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 1,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "2\nCONTENTS\nIntroduction .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus basics .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nSupported Function Codes  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus Parameters and factory default settings  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU segment line termination  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n3"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 0,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "4511 MODBUS RTU\nConfiguration Manual\n9 2 0 2\nPulse isolator\nN o .  9 2 0 2 M C M 1 0 0 ( 1 3 2 8 )"
+        }
+      ],
+      "node_name": [
+        {
+          "rank": 1,
+          "chunk_id": 10,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "help texts shown on \ndisplay.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE *1)\n13\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n14\n17\n1\nRO\nINTEGER\nDefines the\nactual device type \ntogether with the \ndevice no.\n(e.g. 9202B1A = \n0x0B1A)\nB1A\t= 2842 (0x0B1A)\nB1B\t= 2843 (0x0B1B)\nB2A\t= 2858 (0x0B2A)\nB2B\t= 2859 (0x0B2B)\nB3A\t= 2874 (0x0B3A)\nB3B\t= 2875 (0x0B3B)\nINPUT\nCHANNEL 1 \nFUNCTION\n15\n18\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 1.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 1 \nTAG TEXT\n16\n20\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 1 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nINPUT\nCHANNEL 2 \nFUNCTION\n17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 9,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "R/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED \nINTEGER\nBacklight intensity \nin LCD\nRange:\t\n0...9\nDISPLAY\nLINE FUNCTION\n10\n10\n1\nR/W\nINTEGER\nInformation shown \nin input line of \ndisplay in monitor \nmode \n(normal mode). \nLOAD\t\n\t\n= 0\nTAG\t\n\t\n= 1\nD.OUT\t\n\t\n= 2\nALTERNATING\t\n= 3\nGENERAL\nENABLE \nPASSWORD\n11\n11\n1\nR/W\nINTEGER\nPassword protect \nentry to configura­\ntion menu)\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nHELP TEXT \nLANGUAGE\n12\n12\n1\nR/W\nINTEGER\nLanguage for the \nhelp texts shown on \ndisplay.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE *1)\n13\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n14\n17\n1\nRO\nINTEGER\nDefines the\nactual device type \ntogether with the \ndevice no.\n(e.g. 9202B1A = \n0x0B1A)"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER\nThis counter will \ncount the number\nof times the \nconfiguration has \nbeen changed. \nThe counter is reset \non power-up\nRange 0...65536\n*1)\t\nIf SIL mode is set by an authorized SIL user (SIL ENABLE  = YES), all parameters become READ ONLY"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 3,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "4\nDisplay  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nOutput .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\n9202 Modbus Process Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . .  \n5\n4511 Modbus Configuration Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n6\n4511 Modbus Status Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . .  \n6\n4511 Modbus Front Programming Parameter Menu  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . .  \n6"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 17,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz.\nValue will automatically return to NO if \nnot written within 10 seconds!\nNO\t\n= 0\nYES\t\n= 1\nMAXIMUM READ \nREGISTERS\n3\n4002\n1\nRO\nINTEGER\nMaximum allowed number of registers \nthat can be read in one command, with \nthe given/detected baudrate\nRange:\t\n8...32\n \n \n\n\"M\"\n\n \n\n\n\n\n\n\n\n\n or \n or \n\n\n\n\n\n\n(correct)\n(NO)\n or \n(YES)\n\n\n\n or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or "
+        },
+        {
+          "rank": 6,
+          "chunk_id": 18,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": " or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or \n\n\n\n\n\n\n or \n\n\n\n\n\n or \n\n\n\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n or \n\n\n\n\n\n\n\n\n\n\"M\"\n*1)\nRAIL\nMODB\n*1)\nPlease note:\nIf no keys are activated for 1 minute, the 4511 display will return to the “Monitor” view without saving.\nThe display will aslo return to \"Monitor\" upon successful Modbus write command!\nThe grayed-out menus and texts are only shown for guidance and are not a part of the 4511 speciﬁc submenu.\nThe Modbus submenu is located in the Advanced Setting menu structure of any host device using the 4511. \nThe actual placement is deﬁned for each particular device.\nScrolling HELP TEXTS:"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 8,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "4\n9202 Modbus Configuration Parameter List\nCategory\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nGENERAL\nDEVICE \nNUMBER\n0\n0\n1\nRO\nUNSIGNED \nINTEGER\nDefines the actual \ndevice number\n9202 = 37378 (0x9202))\nGENERAL\nDEVICE \nVERSION\n1\n1\n1\nRO\nUNSIGNED \nINTEGER\nProduct version \n0\nGENERAL\nPASSWORD\n3\n3\n1\nR/W\nUNSIGNED \nINTEGER\nPassword \nfor entering \nconfiguration menu\nRange: 0...9999\nGENERAL\nPASSWORD TRY\n4\n4\n1\nR/W\nUNSIGNED \nINTEGER\nPassword attempt­\ned for entering \nconfiguration menu\nRange:\t 0...9999\nINPUT\nINDICATE \nSENSOR \nSHORTAGE\n5\n5\n1\nR/W\nINTEGER\nIndicate sensor \nshortage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nINDICATE \nSENSOR \nBREAKAGE\n6\n6\n1\nR/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 12,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "5\n9202 Modbus Process Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nCONFIGURA-\nTION STATUS\n1000\n1000\n1\nRO\nINTEGER\nShows the device configuration\naccording to the SIL setting.\n“FAIL”\t No valid configuration has been received\n“OPEN”\tActual configuration is NOT locked (non-\nSIL)\n“LOCK”\t\nActual configuration is locked (SIL)\n“INIT” Initial status after a powerup/reset until a \nconfiguration has been received\nERROR STATUS\n1001\n1002\n1\nRO\nINTEGER\nStatus of common errors for\nthe device.\nCRC ERROR:\t\nbit 0 = 1\nCALIBRATION ERROR:\t\nbit 1 = 1\nCONFIGURATION ERROR:\t\nbit 2 = 1\nREAD ERROR:\t\nbit 3 = 1\nWRITE ERROR:\t\nbit 4 = 1\nSUPPLY ERROR:\t\nbit 5 = 1\nCPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:"
+        }
+      ],
+      "addressing_mode": [
+        {
+          "rank": 1,
+          "chunk_id": 3,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "4\nDisplay  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nOutput .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\n9202 Modbus Process Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . .  \n5\n4511 Modbus Configuration Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n6\n4511 Modbus Status Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . .  \n6\n4511 Modbus Front Programming Parameter Menu  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . .  \n6"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 1,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "2\nCONTENTS\nIntroduction .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus basics .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nSupported Function Codes  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus Parameters and factory default settings  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU segment line termination  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n3"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 15,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "6\n4511 Modbus Front Programming Parameter Menu\n4511 Modbus Configuration Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nENABLE \nMODBUS\n1\n3000\n1\nR/W\nINTEGER\nEnable Modbus communication.\nIf disabled, 4511 ignores all frames sent\nfrom the Modbus master and the only way to \nre-enable Modbus communication is by using \nthe 4511 menu.\nNO\t\n= 0\nYES\t\n= 1\nBAUDRATE\n2\n3001\n1\nR/W\nINTEGER\nThe baud value used for\nModbus communication\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nENABLE \nAUTOBAUD\n3\n3002\n1\nR/W\nINTEGER\nEnable automatic baudrate detection.\nIf enabled, 4511 determines the baud \nautomatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 2,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "3\n\t\nModbus Parameters and factory default settings  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU segment line termination  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n3\n9202 Modbus Configuration Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n4\nGeneral .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nInput .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nDisplay  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 20,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "[6] \nSelect Modbus slave address\n[7] \nSelect parity for Modbus\n[8] \nSelect number of stop bits\n[9] \nSelect response delay in ms\n[10] \nEnable automatic baudrate detection\n[11] \nSearching for Modbus baudrate\n \nModbus baudrate detected\n \nModbus baudrate not detected\n[12] \nSelect baudrate in bps \n* 1) Only if automatic\n       baudrate detection\n       is enabled"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 12,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "5\n9202 Modbus Process Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nCONFIGURA-\nTION STATUS\n1000\n1000\n1\nRO\nINTEGER\nShows the device configuration\naccording to the SIL setting.\n“FAIL”\t No valid configuration has been received\n“OPEN”\tActual configuration is NOT locked (non-\nSIL)\n“LOCK”\t\nActual configuration is locked (SIL)\n“INIT” Initial status after a powerup/reset until a \nconfiguration has been received\nERROR STATUS\n1001\n1002\n1\nRO\nINTEGER\nStatus of common errors for\nthe device.\nCRC ERROR:\t\nbit 0 = 1\nCALIBRATION ERROR:\t\nbit 1 = 1\nCONFIGURATION ERROR:\t\nbit 2 = 1\nREAD ERROR:\t\nbit 3 = 1\nWRITE ERROR:\t\nbit 4 = 1\nSUPPLY ERROR:\t\nbit 5 = 1\nCPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 8,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "4\n9202 Modbus Configuration Parameter List\nCategory\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nGENERAL\nDEVICE \nNUMBER\n0\n0\n1\nRO\nUNSIGNED \nINTEGER\nDefines the actual \ndevice number\n9202 = 37378 (0x9202))\nGENERAL\nDEVICE \nVERSION\n1\n1\n1\nRO\nUNSIGNED \nINTEGER\nProduct version \n0\nGENERAL\nPASSWORD\n3\n3\n1\nR/W\nUNSIGNED \nINTEGER\nPassword \nfor entering \nconfiguration menu\nRange: 0...9999\nGENERAL\nPASSWORD TRY\n4\n4\n1\nR/W\nUNSIGNED \nINTEGER\nPassword attempt­\ned for entering \nconfiguration menu\nRange:\t 0...9999\nINPUT\nINDICATE \nSENSOR \nSHORTAGE\n5\n5\n1\nR/W\nINTEGER\nIndicate sensor \nshortage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nINDICATE \nSENSOR \nBREAKAGE\n6\n6\n1\nR/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 16,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "automatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1\nTWO STOPBITS\t\n= 2\nADDRESS\n6\n3005\n1\nR/W\nINTEGER\nConfigures the Modbus address of the 4511\n(Address 0 is broadcast address)\nRange: \t\n1...247\nRESPONSE \nDELAY\n7\n3006\n1\nR/W\nINTEGER\nConfigures minimum delay for\nModbus response in ms\nRange: \t\n0...1000\n4511 Modbus Status Parameter List\nParameter \nName:\nNr.\nRegister \nAddress:\nRegister \nSize:\nRead/\nWrite:\nType:\nDescription:\nValues\nAUTOBAUD\nSTATUS\n1\n4000\n1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz."
+        }
+      ],
+      "register": [
+        {
+          "rank": 1,
+          "chunk_id": 8,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "4\n9202 Modbus Configuration Parameter List\nCategory\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nGENERAL\nDEVICE \nNUMBER\n0\n0\n1\nRO\nUNSIGNED \nINTEGER\nDefines the actual \ndevice number\n9202 = 37378 (0x9202))\nGENERAL\nDEVICE \nVERSION\n1\n1\n1\nRO\nUNSIGNED \nINTEGER\nProduct version \n0\nGENERAL\nPASSWORD\n3\n3\n1\nR/W\nUNSIGNED \nINTEGER\nPassword \nfor entering \nconfiguration menu\nRange: 0...9999\nGENERAL\nPASSWORD TRY\n4\n4\n1\nR/W\nUNSIGNED \nINTEGER\nPassword attempt­\ned for entering \nconfiguration menu\nRange:\t 0...9999\nINPUT\nINDICATE \nSENSOR \nSHORTAGE\n5\n5\n1\nR/W\nINTEGER\nIndicate sensor \nshortage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nINDICATE \nSENSOR \nBREAKAGE\n6\n6\n1\nR/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 12,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "5\n9202 Modbus Process Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nCONFIGURA-\nTION STATUS\n1000\n1000\n1\nRO\nINTEGER\nShows the device configuration\naccording to the SIL setting.\n“FAIL”\t No valid configuration has been received\n“OPEN”\tActual configuration is NOT locked (non-\nSIL)\n“LOCK”\t\nActual configuration is locked (SIL)\n“INIT” Initial status after a powerup/reset until a \nconfiguration has been received\nERROR STATUS\n1001\n1002\n1\nRO\nINTEGER\nStatus of common errors for\nthe device.\nCRC ERROR:\t\nbit 0 = 1\nCALIBRATION ERROR:\t\nbit 1 = 1\nCONFIGURATION ERROR:\t\nbit 2 = 1\nREAD ERROR:\t\nbit 3 = 1\nWRITE ERROR:\t\nbit 4 = 1\nSUPPLY ERROR:\t\nbit 5 = 1\nCPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 15,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "6\n4511 Modbus Front Programming Parameter Menu\n4511 Modbus Configuration Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nENABLE \nMODBUS\n1\n3000\n1\nR/W\nINTEGER\nEnable Modbus communication.\nIf disabled, 4511 ignores all frames sent\nfrom the Modbus master and the only way to \nre-enable Modbus communication is by using \nthe 4511 menu.\nNO\t\n= 0\nYES\t\n= 1\nBAUDRATE\n2\n3001\n1\nR/W\nINTEGER\nThe baud value used for\nModbus communication\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nENABLE \nAUTOBAUD\n3\n3002\n1\nR/W\nINTEGER\nEnable automatic baudrate detection.\nIf enabled, 4511 determines the baud \nautomatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER\nThis counter will \ncount the number\nof times the \nconfiguration has \nbeen changed. \nThe counter is reset \non power-up\nRange 0...65536\n*1)\t\nIf SIL mode is set by an authorized SIL user (SIL ENABLE  = YES), all parameters become READ ONLY"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 17,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz.\nValue will automatically return to NO if \nnot written within 10 seconds!\nNO\t\n= 0\nYES\t\n= 1\nMAXIMUM READ \nREGISTERS\n3\n4002\n1\nRO\nINTEGER\nMaximum allowed number of registers \nthat can be read in one command, with \nthe given/detected baudrate\nRange:\t\n8...32\n \n \n\n\"M\"\n\n \n\n\n\n\n\n\n\n\n or \n or \n\n\n\n\n\n\n(correct)\n(NO)\n or \n(YES)\n\n\n\n or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or "
+        },
+        {
+          "rank": 6,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:\t \t\n\t\n2400, 4800, 9600, 19.2k, 38.4k, 57.6k, 115.2k bps\nParity Mode: \t\n\t\n\t\n\t\nEven, Odd or None parity\nStop Bits:\t\n\t\n\t\n\t\n1 or 2 stop bits\nResponse delay:\t\n\t\n\t\n\t\n0...1000 ms (0 ms = default)\nModbus slave addressing range: \t\n1 - 247 (247 = default address)\nModbus Parameter Storage:\t\n\t\nSaved in non-volatile memory in the 4511 device\n(Factory Default Values are marked in bold)\nModbus RTU segment line termination: \nA 120 Ohm resistor should be installed on both ends of a RS485 Modbus RTU segment loop \nto prevent signal echoes from corrupting data on the line."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 9,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "R/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED \nINTEGER\nBacklight intensity \nin LCD\nRange:\t\n0...9\nDISPLAY\nLINE FUNCTION\n10\n10\n1\nR/W\nINTEGER\nInformation shown \nin input line of \ndisplay in monitor \nmode \n(normal mode). \nLOAD\t\n\t\n= 0\nTAG\t\n\t\n= 1\nD.OUT\t\n\t\n= 2\nALTERNATING\t\n= 3\nGENERAL\nENABLE \nPASSWORD\n11\n11\n1\nR/W\nINTEGER\nPassword protect \nentry to configura­\ntion menu)\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nHELP TEXT \nLANGUAGE\n12\n12\n1\nR/W\nINTEGER\nLanguage for the \nhelp texts shown on \ndisplay.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE *1)\n13\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n14\n17\n1\nRO\nINTEGER\nDefines the\nactual device type \ntogether with the \ndevice no.\n(e.g. 9202B1A = \n0x0B1A)"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 16,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "automatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1\nTWO STOPBITS\t\n= 2\nADDRESS\n6\n3005\n1\nR/W\nINTEGER\nConfigures the Modbus address of the 4511\n(Address 0 is broadcast address)\nRange: \t\n1...247\nRESPONSE \nDELAY\n7\n3006\n1\nR/W\nINTEGER\nConfigures minimum delay for\nModbus response in ms\nRange: \t\n0...1000\n4511 Modbus Status Parameter List\nParameter \nName:\nNr.\nRegister \nAddress:\nRegister \nSize:\nRead/\nWrite:\nType:\nDescription:\nValues\nAUTOBAUD\nSTATUS\n1\n4000\n1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz."
+        }
+      ],
+      "function_code": [
+        {
+          "rank": 1,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "Function code\nRead Holding Registers\n03\nRead Input Registers\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\nThe Function Code defines the command that the slave device is to execute, such as\nread data, accept data, report status. Some function codes have sub-function codes.\nThe Data defines addresses in the device’s memory map for read functions, \ncontains data values to be written into the device’s memory, or contains other information \nneeded to carry out the function requested.\nThe Error Check is a 16-bit numeric value representing the Cyclic Redundancy Check (CRC). \nMaximum number of registers which can be read or written at once:\nFor a read command, the limit is 8 registers at a baud rate up to 38,400 bps,\n16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 17,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz.\nValue will automatically return to NO if \nnot written within 10 seconds!\nNO\t\n= 0\nYES\t\n= 1\nMAXIMUM READ \nREGISTERS\n3\n4002\n1\nRO\nINTEGER\nMaximum allowed number of registers \nthat can be read in one command, with \nthe given/detected baudrate\nRange:\t\n8...32\n \n \n\n\"M\"\n\n \n\n\n\n\n\n\n\n\n or \n or \n\n\n\n\n\n\n(correct)\n(NO)\n or \n(YES)\n\n\n\n or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or "
+        },
+        {
+          "rank": 3,
+          "chunk_id": 13,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "CPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:\t\nbit 5 = 1\nCH2 SHORT DETECT: \t\nbit 6 = 1\nCH2 DIRECTION:\t\nbit 7 = 1\nCHANNEL 1 \nSTATUS\n1004\n1005\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 1.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nCHANNEL 2 \nSTATUS\n1006\n1007\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 2.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nMEASURE \nCONTROL\n1007\n1008\n1\nR/W\nUNSIGNED \nINTEGER\nEnables simulation of Error and Rail \nsignals. Actual setting of the signals is \ncontrolled by OUTPUT STATE.\nRESERVED Must be set to 0\t\nbit 0 \nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation, \nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 9,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "R/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED \nINTEGER\nBacklight intensity \nin LCD\nRange:\t\n0...9\nDISPLAY\nLINE FUNCTION\n10\n10\n1\nR/W\nINTEGER\nInformation shown \nin input line of \ndisplay in monitor \nmode \n(normal mode). \nLOAD\t\n\t\n= 0\nTAG\t\n\t\n= 1\nD.OUT\t\n\t\n= 2\nALTERNATING\t\n= 3\nGENERAL\nENABLE \nPASSWORD\n11\n11\n1\nR/W\nINTEGER\nPassword protect \nentry to configura­\ntion menu)\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nHELP TEXT \nLANGUAGE\n12\n12\n1\nR/W\nINTEGER\nLanguage for the \nhelp texts shown on \ndisplay.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE *1)\n13\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n14\n17\n1\nRO\nINTEGER\nDefines the\nactual device type \ntogether with the \ndevice no.\n(e.g. 9202B1A = \n0x0B1A)"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 10,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "help texts shown on \ndisplay.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE *1)\n13\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n14\n17\n1\nRO\nINTEGER\nDefines the\nactual device type \ntogether with the \ndevice no.\n(e.g. 9202B1A = \n0x0B1A)\nB1A\t= 2842 (0x0B1A)\nB1B\t= 2843 (0x0B1B)\nB2A\t= 2858 (0x0B2A)\nB2B\t= 2859 (0x0B2B)\nB3A\t= 2874 (0x0B3A)\nB3B\t= 2875 (0x0B3B)\nINPUT\nCHANNEL 1 \nFUNCTION\n15\n18\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 1.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 1 \nTAG TEXT\n16\n20\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 1 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nINPUT\nCHANNEL 2 \nFUNCTION\n17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 12,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "5\n9202 Modbus Process Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nCONFIGURA-\nTION STATUS\n1000\n1000\n1\nRO\nINTEGER\nShows the device configuration\naccording to the SIL setting.\n“FAIL”\t No valid configuration has been received\n“OPEN”\tActual configuration is NOT locked (non-\nSIL)\n“LOCK”\t\nActual configuration is locked (SIL)\n“INIT” Initial status after a powerup/reset until a \nconfiguration has been received\nERROR STATUS\n1001\n1002\n1\nRO\nINTEGER\nStatus of common errors for\nthe device.\nCRC ERROR:\t\nbit 0 = 1\nCALIBRATION ERROR:\t\nbit 1 = 1\nCONFIGURATION ERROR:\t\nbit 2 = 1\nREAD ERROR:\t\nbit 3 = 1\nWRITE ERROR:\t\nbit 4 = 1\nSUPPLY ERROR:\t\nbit 5 = 1\nCPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER\nThis counter will \ncount the number\nof times the \nconfiguration has \nbeen changed. \nThe counter is reset \non power-up\nRange 0...65536\n*1)\t\nIf SIL mode is set by an authorized SIL user (SIL ENABLE  = YES), all parameters become READ ONLY"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 8,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "4\n9202 Modbus Configuration Parameter List\nCategory\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nGENERAL\nDEVICE \nNUMBER\n0\n0\n1\nRO\nUNSIGNED \nINTEGER\nDefines the actual \ndevice number\n9202 = 37378 (0x9202))\nGENERAL\nDEVICE \nVERSION\n1\n1\n1\nRO\nUNSIGNED \nINTEGER\nProduct version \n0\nGENERAL\nPASSWORD\n3\n3\n1\nR/W\nUNSIGNED \nINTEGER\nPassword \nfor entering \nconfiguration menu\nRange: 0...9999\nGENERAL\nPASSWORD TRY\n4\n4\n1\nR/W\nUNSIGNED \nINTEGER\nPassword attempt­\ned for entering \nconfiguration menu\nRange:\t 0...9999\nINPUT\nINDICATE \nSENSOR \nSHORTAGE\n5\n5\n1\nR/W\nINTEGER\nIndicate sensor \nshortage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nINDICATE \nSENSOR \nBREAKAGE\n6\n6\n1\nR/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED"
+        }
+      ],
+      "coils_discrete": [
+        {
+          "rank": 1,
+          "chunk_id": 13,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "CPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:\t\nbit 5 = 1\nCH2 SHORT DETECT: \t\nbit 6 = 1\nCH2 DIRECTION:\t\nbit 7 = 1\nCHANNEL 1 \nSTATUS\n1004\n1005\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 1.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nCHANNEL 2 \nSTATUS\n1006\n1007\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 2.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nMEASURE \nCONTROL\n1007\n1008\n1\nR/W\nUNSIGNED \nINTEGER\nEnables simulation of Error and Rail \nsignals. Actual setting of the signals is \ncontrolled by OUTPUT STATE.\nRESERVED Must be set to 0\t\nbit 0 \nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation, \nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "Function code\nRead Holding Registers\n03\nRead Input Registers\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\nThe Function Code defines the command that the slave device is to execute, such as\nread data, accept data, report status. Some function codes have sub-function codes.\nThe Data defines addresses in the device’s memory map for read functions, \ncontains data values to be written into the device’s memory, or contains other information \nneeded to carry out the function requested.\nThe Error Check is a 16-bit numeric value representing the Cyclic Redundancy Check (CRC). \nMaximum number of registers which can be read or written at once:\nFor a read command, the limit is 8 registers at a baud rate up to 38,400 bps,\n16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER\nThis counter will \ncount the number\nof times the \nconfiguration has \nbeen changed. \nThe counter is reset \non power-up\nRange 0...65536\n*1)\t\nIf SIL mode is set by an authorized SIL user (SIL ENABLE  = YES), all parameters become READ ONLY"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 17,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz.\nValue will automatically return to NO if \nnot written within 10 seconds!\nNO\t\n= 0\nYES\t\n= 1\nMAXIMUM READ \nREGISTERS\n3\n4002\n1\nRO\nINTEGER\nMaximum allowed number of registers \nthat can be read in one command, with \nthe given/detected baudrate\nRange:\t\n8...32\n \n \n\n\"M\"\n\n \n\n\n\n\n\n\n\n\n or \n or \n\n\n\n\n\n\n(correct)\n(NO)\n or \n(YES)\n\n\n\n or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or "
+        },
+        {
+          "rank": 5,
+          "chunk_id": 14,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "signals. Actual setting of the signals is \ncontrolled by OUTPUT STATE.\nRESERVED Must be set to 0\t\nbit 0 \nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation, \nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0\t\nbit 4...7\nOUTPUT STATE\n1008\n1009\n1\nR/W\nUNSIGNED \nINTEGER\nShows status of Used to set value of \nthe simulated process.\nRESERVED Must be set to 0\t\nbit 0...3\nError out simulation value\n(1=OFF, 2=ON)\t\nbit 4\nRail Signal simulation value\n(1=OFF, 2=ON)\t\nbit 5\nRESERVED Must be set to 0\t\nbit 6...7\nTIMEOUT \nCOUNTER\n1009\n1010\n1\nR/W\nUNSIGNED \nINTEGER\nTime-out counter which resets various \nbits in MEASURE CONTROL upon \noverflow and is automatically set to \n133. Decrements once every 0.075 s.\nRange:\t\n0...255"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 9,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "R/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED \nINTEGER\nBacklight intensity \nin LCD\nRange:\t\n0...9\nDISPLAY\nLINE FUNCTION\n10\n10\n1\nR/W\nINTEGER\nInformation shown \nin input line of \ndisplay in monitor \nmode \n(normal mode). \nLOAD\t\n\t\n= 0\nTAG\t\n\t\n= 1\nD.OUT\t\n\t\n= 2\nALTERNATING\t\n= 3\nGENERAL\nENABLE \nPASSWORD\n11\n11\n1\nR/W\nINTEGER\nPassword protect \nentry to configura­\ntion menu)\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nHELP TEXT \nLANGUAGE\n12\n12\n1\nR/W\nINTEGER\nLanguage for the \nhelp texts shown on \ndisplay.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE *1)\n13\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n14\n17\n1\nRO\nINTEGER\nDefines the\nactual device type \ntogether with the \ndevice no.\n(e.g. 9202B1A = \n0x0B1A)"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 12,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "5\n9202 Modbus Process Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nCONFIGURA-\nTION STATUS\n1000\n1000\n1\nRO\nINTEGER\nShows the device configuration\naccording to the SIL setting.\n“FAIL”\t No valid configuration has been received\n“OPEN”\tActual configuration is NOT locked (non-\nSIL)\n“LOCK”\t\nActual configuration is locked (SIL)\n“INIT” Initial status after a powerup/reset until a \nconfiguration has been received\nERROR STATUS\n1001\n1002\n1\nRO\nINTEGER\nStatus of common errors for\nthe device.\nCRC ERROR:\t\nbit 0 = 1\nCALIBRATION ERROR:\t\nbit 1 = 1\nCONFIGURATION ERROR:\t\nbit 2 = 1\nREAD ERROR:\t\nbit 3 = 1\nWRITE ERROR:\t\nbit 4 = 1\nSUPPLY ERROR:\t\nbit 5 = 1\nCPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 10,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\9202_mcm_100.pdf",
+          "content": "help texts shown on \ndisplay.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE *1)\n13\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n14\n17\n1\nRO\nINTEGER\nDefines the\nactual device type \ntogether with the \ndevice no.\n(e.g. 9202B1A = \n0x0B1A)\nB1A\t= 2842 (0x0B1A)\nB1B\t= 2843 (0x0B1B)\nB2A\t= 2858 (0x0B2A)\nB2B\t= 2859 (0x0B2B)\nB3A\t= 2874 (0x0B3A)\nB3B\t= 2875 (0x0B3B)\nINPUT\nCHANNEL 1 \nFUNCTION\n15\n18\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 1.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 1 \nTAG TEXT\n16\n20\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 1 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nINPUT\nCHANNEL 2 \nFUNCTION\n17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER"
+        }
+      ]
+    },
+    "num_chunks_sent": 19,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 16,
+        "page": 5,
+        "score": 16,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode",
+          "register"
+        ],
+        "content": "automatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1\nTWO STOPBITS\t\n= 2\nADDRESS\n6\n3005\n1\nR/W\nINTEGER\nConfigures the Modbus address of the 4511\n(Address 0 is broadcast address)\nRange: \t\n1...247\nRESPONSE \nDELAY\n7\n3006\n1\nR/W\nINTEGER\nConfigures minimum delay for\nModbus response in ms\nRange: \t\n0...1000\n4511 Modbus Status Parameter List\nParameter \nName:\nNr.\nRegister \nAddress:\nRegister \nSize:\nRead/\nWrite:\nType:\nDescription:\nValues\nAUTOBAUD\nSTATUS\n1\n4000\n1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz."
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 15,
+        "page": 5,
+        "score": 15,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode",
+          "register"
+        ],
+        "content": "6\n4511 Modbus Front Programming Parameter Menu\n4511 Modbus Configuration Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nENABLE \nMODBUS\n1\n3000\n1\nR/W\nINTEGER\nEnable Modbus communication.\nIf disabled, 4511 ignores all frames sent\nfrom the Modbus master and the only way to \nre-enable Modbus communication is by using \nthe 4511 menu.\nNO\t\n= 0\nYES\t\n= 1\nBAUDRATE\n2\n3001\n1\nR/W\nINTEGER\nThe baud value used for\nModbus communication\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nENABLE \nAUTOBAUD\n3\n3002\n1\nR/W\nINTEGER\nEnable automatic baudrate detection.\nIf enabled, 4511 determines the baud \nautomatically by listening to frames sent\non the Modbus line.\nNO\t\n= 0\nYES\t\n= 1\nPARITY\n4\n3003\n1\nR/W\nINTEGER\nConfigures parity check on Modbus frames\nNONE\t\n= 0\nEVEN PARITY\t\n= 1\nODD PARITY\t\n= 2\nSTOPBITS\n5\n3004\n1\nR/W\nINTEGER\nConfigures the number of stopbits\nin Modbus frames\nONE STOPBIT\t\n= 1"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 8,
+        "page": 3,
+        "score": 15,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "addressing_mode",
+          "register",
+          "function_code"
+        ],
+        "content": "4\n9202 Modbus Configuration Parameter List\nCategory\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nGENERAL\nDEVICE \nNUMBER\n0\n0\n1\nRO\nUNSIGNED \nINTEGER\nDefines the actual \ndevice number\n9202 = 37378 (0x9202))\nGENERAL\nDEVICE \nVERSION\n1\n1\n1\nRO\nUNSIGNED \nINTEGER\nProduct version \n0\nGENERAL\nPASSWORD\n3\n3\n1\nR/W\nUNSIGNED \nINTEGER\nPassword \nfor entering \nconfiguration menu\nRange: 0...9999\nGENERAL\nPASSWORD TRY\n4\n4\n1\nR/W\nUNSIGNED \nINTEGER\nPassword attempt­\ned for entering \nconfiguration menu\nRange:\t 0...9999\nINPUT\nINDICATE \nSENSOR \nSHORTAGE\n5\n5\n1\nR/W\nINTEGER\nIndicate sensor \nshortage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nINDICATE \nSENSOR \nBREAKAGE\n6\n6\n1\nR/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 7,
+        "page": 2,
+        "score": 13,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address",
+          "register"
+        ],
+        "content": "16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:\t \t\n\t\n2400, 4800, 9600, 19.2k, 38.4k, 57.6k, 115.2k bps\nParity Mode: \t\n\t\n\t\n\t\nEven, Odd or None parity\nStop Bits:\t\n\t\n\t\n\t\n1 or 2 stop bits\nResponse delay:\t\n\t\n\t\n\t\n0...1000 ms (0 ms = default)\nModbus slave addressing range: \t\n1 - 247 (247 = default address)\nModbus Parameter Storage:\t\n\t\nSaved in non-volatile memory in the 4511 device\n(Factory Default Values are marked in bold)\nModbus RTU segment line termination: \nA 120 Ohm resistor should be installed on both ends of a RS485 Modbus RTU segment loop \nto prevent signal echoes from corrupting data on the line."
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 11,
+        "page": 3,
+        "score": 12,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "register",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER\nThis counter will \ncount the number\nof times the \nconfiguration has \nbeen changed. \nThe counter is reset \non power-up\nRange 0...65536\n*1)\t\nIf SIL mode is set by an authorized SIL user (SIL ENABLE  = YES), all parameters become READ ONLY"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 12,
+        "page": 4,
+        "score": 12,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "addressing_mode",
+          "register",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "5\n9202 Modbus Process Parameter List\nParameter \nName\nNo.\nRegister \nAddress\nRegister \nSize\nRead/\nWrite\nType\nDescription\nValues\nCONFIGURA-\nTION STATUS\n1000\n1000\n1\nRO\nINTEGER\nShows the device configuration\naccording to the SIL setting.\n“FAIL”\t No valid configuration has been received\n“OPEN”\tActual configuration is NOT locked (non-\nSIL)\n“LOCK”\t\nActual configuration is locked (SIL)\n“INIT” Initial status after a powerup/reset until a \nconfiguration has been received\nERROR STATUS\n1001\n1002\n1\nRO\nINTEGER\nStatus of common errors for\nthe device.\nCRC ERROR:\t\nbit 0 = 1\nCALIBRATION ERROR:\t\nbit 1 = 1\nCONFIGURATION ERROR:\t\nbit 2 = 1\nREAD ERROR:\t\nbit 3 = 1\nWRITE ERROR:\t\nbit 4 = 1\nSUPPLY ERROR:\t\nbit 5 = 1\nCPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 6,
+        "page": 2,
+        "score": 10,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "Function code\nRead Holding Registers\n03\nRead Input Registers\n04\nWrite Single Register\n06\nDiagnostics\n08\nWrite Multiple Registers\n16\nThe Function Code defines the command that the slave device is to execute, such as\nread data, accept data, report status. Some function codes have sub-function codes.\nThe Data defines addresses in the device’s memory map for read functions, \ncontains data values to be written into the device’s memory, or contains other information \nneeded to carry out the function requested.\nThe Error Check is a 16-bit numeric value representing the Cyclic Redundancy Check (CRC). \nMaximum number of registers which can be read or written at once:\nFor a read command, the limit is 8 registers at a baud rate up to 38,400 bps,\n16 registers @ 57,800 bps and 32 registers @ 115,200 bps.\nFor a write command, the limit is 123 registers at baud rates up to 115,200 bps.\n4511 Modbus parameter settings:\nAutomatic Baudrate Detection: \t\nCan be configured YES or NO\nSupported Baudrates:"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 10,
+        "page": 3,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "help texts shown on \ndisplay.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE *1)\n13\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n14\n17\n1\nRO\nINTEGER\nDefines the\nactual device type \ntogether with the \ndevice no.\n(e.g. 9202B1A = \n0x0B1A)\nB1A\t= 2842 (0x0B1A)\nB1B\t= 2843 (0x0B1B)\nB2A\t= 2858 (0x0B2A)\nB2B\t= 2859 (0x0B2B)\nB3A\t= 2874 (0x0B3A)\nB3B\t= 2875 (0x0B3B)\nINPUT\nCHANNEL 1 \nFUNCTION\n15\n18\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 1.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 1 \nTAG TEXT\n16\n20\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 1 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nINPUT\nCHANNEL 2 \nFUNCTION\n17\n23\n1\nR/W\nUNSIGNED \nINTEGER\nSelect function type \nfor channel 2.\nINVERT\t\n= 0\nDIRECT\t\n= 1\nDISPLAY\nCHANNEL 2 \nTAG TEXT\n18\n25\n3\nR/W\nASCII CHAR\nTag of the device \nchannel 2 \n(5 characters).\nRange:\t ASCII values from 32 to 90 (‘ ‘ to ‘Z’)\nGENERAL\nConfiguration \ncounter\n101\n101\n1\nRO\nUNSIGNED \nINTEGER"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 9,
+        "page": 3,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "register",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "R/W\nINTEGER\nIndicate sensor \nbreakage via relay \nand/or rail.\nNO\t\n= 0\nYES\t\n= 1\nINPUT\nRAIL ERROR\n7\n7\n1\nR/W\nINTEGER\nIndicate error on \nrail.\nNO\t\n= 0\nYES\t\n= 1\nDISPLAY\nDISPLAY \nCONTRAST\n8\n8\n1\nR/W\nUNSIGNED \nINTEGER\nContrast in the LCD \ndisplay\nRange:\t\n0...9\nDISPLAY\nDISPLAY \nBACKLIGHT\n9\n9\n1\nR/W\nUNSIGNED \nINTEGER\nBacklight intensity \nin LCD\nRange:\t\n0...9\nDISPLAY\nLINE FUNCTION\n10\n10\n1\nR/W\nINTEGER\nInformation shown \nin input line of \ndisplay in monitor \nmode \n(normal mode). \nLOAD\t\n\t\n= 0\nTAG\t\n\t\n= 1\nD.OUT\t\n\t\n= 2\nALTERNATING\t\n= 3\nGENERAL\nENABLE \nPASSWORD\n11\n11\n1\nR/W\nINTEGER\nPassword protect \nentry to configura­\ntion menu)\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nHELP TEXT \nLANGUAGE\n12\n12\n1\nR/W\nINTEGER\nLanguage for the \nhelp texts shown on \ndisplay.\nUK\t\n= 0\nDK\t\n= 1\nDE\t\n= 2\nFR\t\n= 3\nSE\t\n= 4\nIT\t\n= 5\nES\t\n= 6\nGENERAL\nSIL ENABLE *1)\n13\n13\n1\nRO\nINTEGER\nRead SIL mode.\nNO\t\n= 0\nYES\t\n= 1\nGENERAL\nDEVICE TYPE\n14\n17\n1\nRO\nINTEGER\nDefines the\nactual device type \ntogether with the \ndevice no.\n(e.g. 9202B1A = \n0x0B1A)"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 19,
+        "page": 5,
+        "score": 8,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "The grayed-out menus and texts are only shown for guidance and are not a part of the 4511 speciﬁc submenu.\nThe Modbus submenu is located in the Advanced Setting menu structure of any host device using the 4511. \nThe actual placement is deﬁned for each particular device.\nScrolling HELP TEXTS:\n[1] \nSet correct password\n[2] \nEnter advanced setup menu\n[3] \nPerform memory operations\n \nEnter display setup \n \nPerform process calibration\n \nEnter simulation setup\n \nEnter password setup\n \nEnter language setup\n \nEnter rail setup (System 9000)\n \nEnter Modbus setup\n[4] \nCheck automatic baudrate detection status\n \nEnable Modbus communication\n \nDisable Modbus communication\n[5] \nReset Modbus to default\n[6] \nSelect Modbus slave address\n[7] \nSelect parity for Modbus\n[8] \nSelect number of stop bits\n[9] \nSelect response delay in ms\n[10] \nEnable automatic baudrate detection\n[11] \nSearching for Modbus baudrate\n \nModbus baudrate detected\n \nModbus baudrate not detected\n[12] \nSelect baudrate in bps"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 17,
+        "page": 5,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "register",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "1\nRO\nINTEGER\nActual state of automatic baudrate detection\n2400 BAUD\t\n= 0\n4800 BAUD\t\n= 1\n9600 BAUD\t\n= 2\n19200 BAUD\t\n= 3\n38400 BAUD\t\n= 4\n57600 BAUD\t\n= 5\n115200 BAUD\t\n= 6\nSEARCHING\t\n= 7\nERROR  \t\n= 8\nIDENTIFY \nDEVICE\n2\n4001\n1\nR/W\nINTEGER\nEnables the device to flash the LCD \nbackground with appr. 4 Hz.\nValue will automatically return to NO if \nnot written within 10 seconds!\nNO\t\n= 0\nYES\t\n= 1\nMAXIMUM READ \nREGISTERS\n3\n4002\n1\nRO\nINTEGER\nMaximum allowed number of registers \nthat can be read in one command, with \nthe given/detected baudrate\nRange:\t\n8...32\n \n \n\n\"M\"\n\n \n\n\n\n\n\n\n\n\n or \n or \n\n\n\n\n\n\n(correct)\n(NO)\n or \n(YES)\n\n\n\n or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or "
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 1,
+        "page": 1,
+        "score": 7,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "2\nCONTENTS\nIntroduction .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus basics .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nSupported Function Codes  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . .  \n3\n\t\nModbus Parameters and factory default settings  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU segment line termination  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n3"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 20,
+        "page": 5,
+        "score": 6,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "[6] \nSelect Modbus slave address\n[7] \nSelect parity for Modbus\n[8] \nSelect number of stop bits\n[9] \nSelect response delay in ms\n[10] \nEnable automatic baudrate detection\n[11] \nSearching for Modbus baudrate\n \nModbus baudrate detected\n \nModbus baudrate not detected\n[12] \nSelect baudrate in bps \n* 1) Only if automatic\n       baudrate detection\n       is enabled"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 2,
+        "page": 1,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "3\n\t\nModbus Parameters and factory default settings  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . .  \n3\n\t\nModbus RTU segment line termination  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n3\n9202 Modbus Configuration Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n4\nGeneral .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nInput .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nDisplay  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 3,
+        "page": 1,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "addressing_mode"
+        ],
+        "content": "4\nDisplay  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\nOutput .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  \n4\n9202 Modbus Process Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . .  \n5\n4511 Modbus Configuration Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . .  \n6\n4511 Modbus Status Parameter List  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . .  \n6\n4511 Modbus Front Programming Parameter Menu  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . .  \n6"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 13,
+        "page": 4,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "CPU ERROR:\t\nbit 6 = 1\nFLASH/RAM/CRC ERROR:\t\nbit 7 = 1\nMEASURE \nSTATUS\n1002\n1003\n1\nRO\nUNSIGNED \nINTEGER\nShows the device measurement status.\nCH1 ENERGIZED:\t\nbit 0 = 1\nCH1 BREAK DETECT:\t\nbit 1 = 1\nCH1 SHORT DETECT:\t\nbit 2 = 1\nCH1 DIRECTION:\t\nbit 3 = 1\nCH2 ENERGIZED:\t\nbit 4 = 1\nCH2 BREAK DETECT:\t\nbit 5 = 1\nCH2 SHORT DETECT: \t\nbit 6 = 1\nCH2 DIRECTION:\t\nbit 7 = 1\nCHANNEL 1 \nSTATUS\n1004\n1005\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 1.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nCHANNEL 2 \nSTATUS\n1006\n1007\n1\nRO\nUNSIGNED \nINTEGER\nShows the status ofchannel 2.\nFREQ. ABOVE 1Hz:\t\nbit 0 = 1\nFREQ. ABOVE 5Hz:\t\nbit 1 = 1\nMEASURE \nCONTROL\n1007\n1008\n1\nR/W\nUNSIGNED \nINTEGER\nEnables simulation of Error and Rail \nsignals. Actual setting of the signals is \ncontrolled by OUTPUT STATE.\nRESERVED Must be set to 0\t\nbit 0 \nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation, \nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 14,
+        "page": 4,
+        "score": 3,
+        "bucket": "register",
+        "retrieved_by": [
+          "coils_discrete"
+        ],
+        "content": "signals. Actual setting of the signals is \ncontrolled by OUTPUT STATE.\nRESERVED Must be set to 0\t\nbit 0 \nRESERVED Must be set to 0\t\nbit 1\nError out simulation,\nset by OUTPUT STATE\t\nbit 2 = 1\nRail signal simulation, \nset by OUTPUT STATE\t\nbit 3 = 1\nRESERVED Must be set to 0\t\nbit 4...7\nOUTPUT STATE\n1008\n1009\n1\nR/W\nUNSIGNED \nINTEGER\nShows status of Used to set value of \nthe simulated process.\nRESERVED Must be set to 0\t\nbit 0...3\nError out simulation value\n(1=OFF, 2=ON)\t\nbit 4\nRail Signal simulation value\n(1=OFF, 2=ON)\t\nbit 5\nRESERVED Must be set to 0\t\nbit 6...7\nTIMEOUT \nCOUNTER\n1009\n1010\n1\nR/W\nUNSIGNED \nINTEGER\nTime-out counter which resets various \nbits in MEASURE CONTROL upon \noverflow and is automatically set to \n133. Decrements once every 0.075 s.\nRange:\t\n0...255"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 0,
+        "page": 0,
+        "score": 1,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "4511 MODBUS RTU\nConfiguration Manual\n9 2 0 2\nPulse isolator\nN o .  9 2 0 2 M C M 1 0 0 ( 1 3 2 8 )"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 18,
+        "page": 5,
+        "score": 1,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": " or \n\n\n\n\n\n\n\n\nMEM\nDISP\nCAL\nSIM\nPASS\nLANG\nMODB\n\n\n\n or \n\n\n\n(OFF)\n(ON)\nMODB\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n\n\n\n\n\n\n\n\n\n\n\n\"M\"\n\n\n or \n\n\n\n\n\n\n or \n\n\n\n\n\n\n or \n\n\n\n\n\n or \n\n\n\n\n\n\n or \n\n\n\n(YES)\n(NO)\n\n or \n\n\n\n\n\n\n\n\n\n\"M\"\n*1)\nRAIL\nMODB\n*1)\nPlease note:\nIf no keys are activated for 1 minute, the 4511 display will return to the “Monitor” view without saving.\nThe display will aslo return to \"Monitor\" upon successful Modbus write command!\nThe grayed-out menus and texts are only shown for guidance and are not a part of the 4511 speciﬁc submenu.\nThe Modbus submenu is located in the Advanced Setting menu structure of any host device using the 4511. \nThe actual placement is deﬁned for each particular device.\nScrolling HELP TEXTS:"
+      }
+    ]
+  }
+]

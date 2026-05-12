@@ -1,0 +1,18 @@
+manual,ai_model,accuracy,accuracy_percent
+silverc-modbus-other-en.pdf,gpt-5.1,11/13,84.62%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=0),Predicted: 0 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=54),Predicted: 54 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=4),Predicted: 4 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=5),Predicted: 5 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1),Predicted: 1 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=4),Predicted: 4 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2),Predicted: 2 [default]
+,,Correct: Baud Rate (subnetwork.properties.baudRate=38400),Predicted: 38400 [default]
+,,Correct: Parity (subnetwork.properties.parity=0),Predicted: 0 [default]
+,,Correct: Stop Bits (subnetwork.properties.stopBits=0),Predicted: 0 [default]
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Wrong: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=Intern Temp),Predicted: SILVER C [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Intern Temp),Predicted: Intern Temp [naming convention; not scored]
+AVERAGE,gpt-5.1,1 manuals,84.62%

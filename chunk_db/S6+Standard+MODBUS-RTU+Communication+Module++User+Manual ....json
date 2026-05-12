@@ -1,0 +1,140 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "1\nS6 Standard MODBUS-RTU Communication Module\nUser Manual\n1 Introduction\nS6 module supports standard MODBUS-RTU communication protocol. It can be installed into instrument’s\nCOM slot. The device’s AF parameter must be set to 0 (available for firmware version 8.x). S6 supports\nrange of 1~32. The reason to limit the range is the increasing of polling time. Communication settings are 8\ndata bits, 1 stop bit, no parity and baud rate from 9600 bps or 19200 bps. It supports 3 function codes 03H,\n06H and 10H. Function code 03H can read a maximum of 120 words. When the parameters of a device are\nwithin 120 words, it can be read at a time. Function code 10H has writing length of 8 words. In multi-channel\ndevices the parameter register is determined according to the Cn parameters (referring to the register table).\nOne device occupies only one address (even multi-channel devices). As a result, maximum 32 units of\n6-channel device can be connected in a communication line."
+  },
+  {
+    "chunk_id": 1,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "devices the parameter register is determined according to the Cn parameters (referring to the register table).\nOne device occupies only one address (even multi-channel devices). As a result, maximum 32 units of\n6-channel device can be connected in a communication line.\n2 Function Code Description\n2.1 Function Code 03H (Read Holding Register)\nStandard MODBUS-RTU response format:\nFor example, to read the 00H of device with 1,\nAddr\nFunction\nCode\nStarting\nNo. of registers to\nread\nCRC\n01H\n03H\n00H 00H\n00H 01H\n84H 0AH\nAddr.\nFunction\nCode\nStarting address of\nRead Registering\nLength of register\nto read\nCRC\nNo. of bytes\n1\n1\n2\n2\n2"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "2\nThe response format:\nAddr.\nFunction\nData Length\nData\nCRC\nNo. of bytes\n1\n1\n1\n2\n2\nExample of response:\nAddr.\nFunction\nData Length\nData\nCRC\n01H\n03H\n02H\n00H 64H\nB9H\nAFH\n2.2 Function Code 06H (Write a single Holding Register)\nWrite request format:\nAddr.\nFunction\nRegister\nValue\nCRC\nNo. of bytes\n1\n1\n2\n2\n2\nFor example, to write 1000 in 04H register of the device with 1, the write command is as follows\nAddr.\nFunction\nRegister Addr\nValue\nCRC\n01H\n06H\n00H 04H\n03H E8H\nC8H B5H\nResponse format:\nAddr.\nFunction\nRegister Addr\nData\nCRC\nNo. of bytes\n1\n1\n2\n2\n2\nResponse of the above example:\nAddr.\nFunction\nRegister Addr\nValue\nCRC\n01H\n06H\n00H 04H\n03H E8H\nC8H B5H\n2.3 Function Code 10H (Write multiple holding registers)\nRequest format：\nAddr.\nFunction\ncode\nStart\nregister\nNo of\nRegisters\nByte\ncount\nValues\nCRC\nNo.of Bytes\n1\n1\n2\n2\n1\nNo.of data * 2\n2\nFor example,to write 1000 to 04H register of device with 1,the write command is as below,\nAddr.\nFunction\ncode\nStart register\nNo of\nRegisters\nByte count\nValues\nCRC"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "Request format：\nAddr.\nFunction\ncode\nStart\nregister\nNo of\nRegisters\nByte\ncount\nValues\nCRC\nNo.of Bytes\n1\n1\n2\n2\n1\nNo.of data * 2\n2\nFor example,to write 1000 to 04H register of device with 1,the write command is as below,\nAddr.\nFunction\ncode\nStart register\nNo of\nRegisters\nByte count\nValues\nCRC\n01H\n10H\n00H 04H\n00H 01H\n02H\n03H E8H\nA7H 6AH\nResponse format:\nAddr.\nFunction\ncode\nStart register\nNo. of Registers\nCRC\nNo. of Bytes\n1\n1\n2\n2\n2\nExample of response for above request:\nAddr.\nFunction\nStart register\nNo. of Registers\nCRC\n01H\n10H\n00H 04H\n00H 01H\n40H 08H"
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "3\n3 List of Holding Registers\n3.1\nParameter list of\nAI-516/516P/518/518P/526/526P/716/716P/719/719PV8.x\nAI-516/516P/518/518P/526/526P/716/716P/719/719P\nRegister\nParameter\nRead/Write\nDescription\n0\nMV (% output)\nRead only\nRange -100% to 100%\n1\nALM (Alarm)\nRead only\nNote 1\n2\nPV (Process Value)\nRead only\n3\nSV (Set Value)\nRead /Write\nSame unit as measured value\n4\nHIAL (High alarm)\nRead /Write\nSame unit as measured value\n5\nLOAL (Low alarm)\nRead /Write\nSame unit as measured value\n6\nHDAL (High Deviation Alarm)\nRead /Write\nSame unit as measured value\n7\nLDAL (Low Deviation Alarm)\nRead /Write\nSame unit as measured value\n8\nAHYS (Alarm return difference)\nRead /Write\nSame unit as measured value\n9\nCTRL (Control)\nRead /Write\n0: ONOFF\n1: APID\n2: nPID\n3: PoP\n4: SoP\n10\nP (Proportional band)\nRead /Write\nSame unit as measured value\n11\nI (Integration band)\nRead /Write\nsecond(s)\n12\nD (Differentiation band)\nRead /Write\n0.1 second(s)\n13\nCtl (Output cycle)\nRead /Write\n0.1 second(s)\n14\nInp (Input)\nRead /Write"
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "Read /Write\n0: ONOFF\n1: APID\n2: nPID\n3: PoP\n4: SoP\n10\nP (Proportional band)\nRead /Write\nSame unit as measured value\n11\nI (Integration band)\nRead /Write\nsecond(s)\n12\nD (Differentiation band)\nRead /Write\n0.1 second(s)\n13\nCtl (Output cycle)\nRead /Write\n0.1 second(s)\n14\nInp (Input)\nRead /Write\nSee instruction manual\n15\ndPt (Decimal point)\nRead /Write\n0: 0\n1: 0.0\n2: 0.00\n3: 0.000\n16\nSCL (Lower input limit)\nRead /Write\nSame unit as measured value\n17\nSCH (Upper input limit)\nRead /Write\nSame unit as measured value\n18\nALP (Alarm Position)\nRead /Write\nSee instruction manual\n19\nSc (Input correction)\nRead /Write\nSame unit as measured value\n20\nOp1 (Output method)\nRead /Write\nSee instruction manual\n21\nOPL (Output lower limit)\nRead /Write\n%\n22\nOPH (Output upper limit)\nRead /Write\n%"
+  },
+  {
+    "chunk_id": 6,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "4\nRegister\nParameter\nRead /Write\nDescription\n23\nAF (Advanced Function)\nRead /Write\nSee instruction manual\n24\nMode charactersitics\nRead only\n25\nAddress\nRead /Write\nSee instruction manual\n26\nFilt (Input filter)\nRead /Write\n27\nAMAn (Auto/manual)\nRead /Write\n0: MAN\n1: Auto\n2: FMAn\n3: FAut\n28\nLOC (Parameter lock)\nRead /Write\n29\nMV (Manual output Value)\nRead /Write\n%\n30\nSRUN (Run/Stop)\nRead /Write\n0: run\n1: StoP\n2: HoLd\n31\nCHYS (control return diff.)\nRead /Write\nSame unit as measured value\n32\nAt (Auto tune)\nRead /Write\n0: OFF\n1: on\n2: FoFF\n33\nSPL (SV lower limit)\nRead /Write\nSame unit as measured value\n34\nSPH (SV upper limit)\nRead /Write\nSame unit as measured value\n35\nFru (Frequency)\nRead /Write\nSee instruction manual\n36\nOHEF (OPH Effective Range)\nRead /Write\nSee instruction manual\n37\nACT (Positive/Negative action selection) Read /Write\n0: rE\n1: dr\n2: rEbA\n3: drbA\n38\nADIS (alarm indication)\nRead /Write\n0: OFF\n1: on\n39\nAut (Output type)\nRead /Write\n0: SSR\n1: rELy\n2: 0-20\n3: 4-20\n40"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "See instruction manual\n36\nOHEF (OPH Effective Range)\nRead /Write\nSee instruction manual\n37\nACT (Positive/Negative action selection) Read /Write\n0: rE\n1: dr\n2: rEbA\n3: drbA\n38\nADIS (alarm indication)\nRead /Write\n0: OFF\n1: on\n39\nAut (Output type)\nRead /Write\n0: SSR\n1: rELy\n2: 0-20\n3: 4-20\n40\nP2 (Proportional band)\nRead /Write\nSame unit as measured value\n41\nI2 (Integration band)\nRead /Write\nsecond(s)\n42\nD2\n(Differentiation band)\nRead /Write\n0.1 second(s)"
+  },
+  {
+    "chunk_id": 8,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "5\n43\nCTI2 (Output cycle)\nRead /Write\n0.1 second(s)\n44\nEt (Event input type)\nRead /Write\n0: nonE\n1: ruSt\n2: SP1.2\n3: PId2\n45\nSPr (Heating rate limit)\nRead /Write\nMeasurement value unit/(minute)\n46\nPno (No. of blocks)\nRead /Write\n1~30/50\n47\nPonp (Power selection)\nRead /Write\n0: Cont\n1:StoP\n2: run\n3: dASt\n4：HoLd\n48\nPAF (Program parameter)\nRead /Write\nSee instruction manual\n49\nSTEP (Block no.)\nRead /Write\n1~30/50\n50\nProgram/current segment/elapsed time\nRead /Write\n0.1 minute or 0.1 hour, 1.6 minutes for\nAI-5 series programmable controller\n51\nEvent output status\nRead /Write\n0: No event output\n1: Event 1(AL1) activated\n2: AL2 activated\n3: AL1 and AL2 activated"
+  },
+  {
+    "chunk_id": 9,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "6\nRegister\nParameter\nRead/Write\nDescription\n52\nOprt (Soft start time)\nRead /Write\nsecond(s)\n53\nStrt (Valve turning time)\nRead /Write\n54\nSPSL (Given lower limit)\nRead /Write\nSame unit as measured value\n55\nSPSH (Given upper limit)\nRead /Write\nSame unit as measured value\n56\nEro (Fault output value)\nRead /Write\n%\n57\nAF2\nRead /Write\n58~66\nReserved\nRead only\n67~74\nEP1-EP8\nRead /Write\n75\nValve Position\nRead only\n76~82\nReserved\nRead only\n83\nSP1\nRead /Write\nSame unit as measured value\n84\nT1\nRead /Write\n0.1 Minute/0.1 hour\n85\nSP2\nRead /Write\nSame unit as measured value\n86\nT2\nRead /Write\n0.1 Minute/0.1 hour\n87~182\nSP3~T50\nRead /Write\n183~189\nReserved\nRead only\n3.2 Parameter list of AI-7028/7038/7048/702M/703M/704M/706M\nRegister\nAI-7028\nAI-7038\nAI-7048\nAI-702M\nAI-703M\nAI-704M\nAI-706M\n0\nMV1\nMV1\nMV1\nMV1\nMV1\nMV1\nMV1\n1\nMV2\nMV2\nMV2\nMV2\nMV2\nMV2\nMV2\n2\nALM1\nMV3\nMV3\nALM1\nMV3\nMV3\nMV3\n3\nALM2\nALM1\nMV4\nALM2\nALM1\nMV4\nMV4\n4\nPV1\nALM2\nALM1\nPV1\nALM2\nALM1\nMV5\n5\nPV2\nALM3\nALM2\nPV2\nALM3\nALM2\nMV6\n6\nSV1\nPV1\nALM3\nReserved"
+  },
+  {
+    "chunk_id": 10,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "Register\nAI-7028\nAI-7038\nAI-7048\nAI-702M\nAI-703M\nAI-704M\nAI-706M\n0\nMV1\nMV1\nMV1\nMV1\nMV1\nMV1\nMV1\n1\nMV2\nMV2\nMV2\nMV2\nMV2\nMV2\nMV2\n2\nALM1\nMV3\nMV3\nALM1\nMV3\nMV3\nMV3\n3\nALM2\nALM1\nMV4\nALM2\nALM1\nMV4\nMV4\n4\nPV1\nALM2\nALM1\nPV1\nALM2\nALM1\nMV5\n5\nPV2\nALM3\nALM2\nPV2\nALM3\nALM2\nMV6\n6\nSV1\nPV1\nALM3\nReserved\nPV1\nALM3\nALM1\n7\nSV2\nPV2\nALM4\nPV2\nALM4\nALM2\n8\nHIAL1\nPV3\nPV1\nHIAL1\nPV3\nPV1\nALM3\n9\nHIAL2\nSV1\nPV2\nHIAL2\nReserved\nPV2\nALM4\n10\nLOAL1\nSV2\nPV3\nLOAL1\nPV3\nALM5"
+  },
+  {
+    "chunk_id": 11,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "7\nRegister\nAI-7028\nAI-7038\nAI-7048\nAI-702M\nAI-703M\nAI-704M\nAI-706M\n11\nLOAL2\nSV3\nPV4\nLOAL2\nReserved\nPV4\nALM6\n12\nReserved\nHIAL1\nSV1\nReserved\nHIAL1\nReserved\nPV1\n13\nHIAL2\nSV2\nHIAL2\nPV2\n14\nHIAL3\nSV3\nHIAL3\nPV3\n15\nLOAL1\nSV4\nLOAL1\nPV4\n16\nCHYS1\nLOAL2\nHIAL1\nDF1\nLOAL2\nHIAL1\nPV5\n17\nCHYS2\nLOAL3\nHIAL2\nDF2\nLOAL3\nHIAL2\nPV6\n18\nAT1\nReserved\nHIAL3\nReserved\nReserved\nHIAL3\nReserved\n19\nAT2\nHIAL4\nHIAL4\n20\nP1\nLOAL1\nLOAL1\n21\nP2\nLOAL2\nLOAL2\n22\nI1\nLOAL3\nLOAL3\n23\nI2\nLOAL4\nLOAL4\n24\nD1\nCHYS1\nReserved\nDF1\nReserved\nHIAL1\n25\nD2\nCHYS2\nDF2\nHIAL2\n26\nCTI\nCHYS3\nCN\nDF3\nHIAL3\n27\nAT1\nReserved\nHIAL4\n28\nINP1\nAT2\nINP1\nHIAL5\n29\nINP2\nAT3\nINP2\nHIAL6\n30\nDIP1\nP1\nDIP1\nLOAL1\n31\nDIP2\nP2\nDIP2\nLOAL2\n32\nSCL1\nP3\nCHYS1\nSCL1\nDF1\nLOAL3\n33\nSCL2\nI1\nCHYS2\nSCL2\nDF2\nLOAL4\n34\nSCH1\nI2\nCHYS3\nSCH1\nDF3\nLOAL5\n35\nSCH2\nI3\nCHYS4\nSCH2\nDF4\nLOAL6\n36\nAOP1\nD1\nAT1\nAOP1\nReserved\nReserved\n37\nAOP2\nD2\nAT2\nAOP2"
+  },
+  {
+    "chunk_id": 12,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "8\nRegister\nAI-7028\nAI-7038\nAI-7048\nAI-702M\nAI-703M\nAI-704M\nAI-706M\n38\nSCB1\nD3\nAT3\nSCB1\nReserved\nReserved\nReserved\n39\nSCB2\nCN\nAT4\nSCB2\nCN\n40\nReserved\nP1\nOPN\n41\nP2\n42\nINP1\nP3\nOPL\nINP1\n43\nINP2\nP4\nINP2\n44\nOPH1\nINP3\nI1\nOPH\nINP3\n45\nOPH2\nDIP1\nI2\nDIP1\n46\nAF\nDIP2\nI3\nAF\nDIP2\n47\nDIP3\nI4\nDIP3\n48\nModel\nCharacteristics\nSCL1\nD1\nModel\nCharacteristics\nSCL1\nDF1\n49\nSCL2\nD2\nSCL2\nDF2\n50\nAddress\nSCL3\nD3\nAddress\nSCL3\nDF3\n51\nSCH1\nD4\nSCH1\nDF4\n52\nFILT1\nSCH2\nCTI\nFILT1\nSCH2\nCN\nDF5\n53\nFILT2\nSCH3\nFILT2\nSCH3\nDF6\n54\nNONC\nAOP1\nNONC\nAOP1\nReserved\n55\nAOP2\nAOP2\n56\nLOC\nAOP3\nINP1\nLOC\nAOP3\nINP1\n57\nSCB1\nINP2\nSCB1\nINP2\n58\nCN\nSCB2\nINP3\nCN\nSCB2\nINP3\n59\nSCB3\nINP4\nSCB3\nINP4\n60\nReserved\nDIP1\nReserved\nOPN\nDIP1\n61\nDIP2\nDIP2\n62\nDIP3\nDIP3\n63\nDIP4\nOPL\nDIP4\n64\nSCL1\nSCL1\n65\nSCL2\nSCL2"
+  },
+  {
+    "chunk_id": 13,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "9\nRegister\nAI-7028\nAI-7038\nAI-7048\nAI-702M\nAI-703M\nAI-704M\nAI-706M\n66\nOPH1\nSCL3\nReserved\nOPH\nSCL3\nReserved\n67\nOPH2\nSCL4\nSCL4\n68\nOPH3\nSCH1\nSCH1\n69\nAF\nSCH2\nAF\nSCH2\n70\nSCH3\nSCH3\n71\nSCH4\nSCH4\n72\nModel\nCharacteristics\nAOP1\nModel\nCharacteristics\nAOP1\n73\nAOP2\nAOP2\n74\nAOP3\nAOP3\n75\nAddress\nAOP4\nAddress\nAOP4\n76\nSCB1\nSCB1\n77\nSCB2\nSCB2\n78\nFILT1\nSCB3\nFILT1\nSCB3\nCN\n79\nFILT2\nSCB4\nFILT2\nSCB4\n80\nFILT3\nReserved\nFILT3\nOPN\n81\nNONC\nNONC\n82\n83\n84\nCN\nCN\nOPL\nINP1\n85\nINP2\n86\nINP3\n87\nReserved\nReserved\nINP4\n88\nOPH1\nOPH\nINP5\n89\nOPH2\nINP6\n90\nOPH3\nDIP1\n91\nOPH4\nDIP2\n92\nAF\nAF\nDIP3\n93\nDIP4"
+  },
+  {
+    "chunk_id": 14,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "10\nRegister\nAI-7028\nAI-7038\nAI-7048\nAI-702M\nAI-703M\nAI-704M\nAI-706M\n94\nReserved\nAF\nReserved\nReserved\nAF\nDIP5\n95\nDIP6\n96\nModel\nCharacteristics\nModel\nCharacteristics\nSCL1\n97\nSCL2\n98\nSCL3\n99\nSCL4\n100\nAddress\nAddress\nSCL5\n101\nSCL6\n102\nSCH1\n103\nSCH2\n104\nFILT1\nFILT1\nSCH3\n105\nFILT2\nFILT2\nSCH4\n106\nFILT3\nFILT3\nSCH5\n107\nFILT4\nFILT4\nSCH6\n108\nNONC\nNONC\nAOP1\n109\nAOP2\n110\nAOP3\n111\nAOP4\n112\nLOC\nLOC\nAOP5\n113\nAOP6\n114\nSCB1\n115\nSCB2\n116\nCN\nCN\nSCB3\n117\nSCB4\n118\nSCB5\n119\nSCB6\n120\nAddress\nOPN\n121"
+  },
+  {
+    "chunk_id": 15,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "11\nRegister\nAI-7028\nAI-7038\nAI-7048\nAI-702M\nAI-703M\nAI-704M\n122\nAddress\nOPN\n123\n124\n125\n126\nOPL\n127\n128\n129\n130\n131\n132\nOPH\n133\n134\n135\n136\n137\n138\nAF\n139\n140\n141\n142\n143\n144\nModel\nCharacteristics\n145\n146\n147\n148\n149"
+  },
+  {
+    "chunk_id": 16,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "12\nRegister\nAI-7028\nAI-7038\nAI-7048\nAI-702M\nAI-703M\nAI-704M\n150\nReserved\nADDR\n151\n152\n153\n154\n155\n156\nFILT1\n157\nFILT2\n158\nFILT3\n159\nFILT4\n160\nFILT5\n161\nFILT6\n162\nNONC\n163\n164\n165\n166\n167\n168\nLOC\n169\n170\n171\n172\n173\n174\nCN\n175\n176\n177"
+  },
+  {
+    "chunk_id": 17,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "13\nRegister\nAI-7028\nAI-7038\nAI-7048\nAI-702M\nAI-703M\nAI-704M\n178\nReserved\nCN\n179\n180~189\nReserved\nDescription：\nThe multi-channel devices have set number of measurement channels, and the parameters are not static.\nFor example, if in 706M Cn is set as 5 channels, then address 05 is the first channel's alarm status ALM, and\n10 is the first channel's measurement value, i.e. each parameter code will move forward. It is recommended\nnot to modify the number of channels. Parameters [MV], [ALM], [PV], and [Model Characteristics] attributes\nare Read only, and other parameters can be read and written.\n3.3 AI-518/518P/708/708P/808/808P/601/301M/708H/808H\nParameter list of AI-518/518P/708/708P/808/808PV7.x /AI601/AI301M/AI708H/AI808H:\nRegister\nAI518P\nAI708P\nAI808P\nAI518\nAI708\nAI808\nAI708H\nAI808H\nAI501\nAI701\nAI601\nAI301M\n0\nMV\nMV\nInstantaneous Flow\nMV\nMV\nMV\n1\nALM\nALM\nCumulative flow low\nALM\nALM\nALM\n2\nPV\nPV\nCumulative flow high\nPV\nPV\ndefined according\nto INP main input\nPV\n3\nSV\nSV\nTemperature\nSV"
+  },
+  {
+    "chunk_id": 18,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "Register\nAI518P\nAI708P\nAI808P\nAI518\nAI708\nAI808\nAI708H\nAI808H\nAI501\nAI701\nAI601\nAI301M\n0\nMV\nMV\nInstantaneous Flow\nMV\nMV\nMV\n1\nALM\nALM\nCumulative flow low\nALM\nALM\nALM\n2\nPV\nPV\nCumulative flow high\nPV\nPV\ndefined according\nto INP main input\nPV\n3\nSV\nSV\nTemperature\nSV\nI Current\nSV\n4\nSTEP\nHIAL\nPressure\nHIAL\nU Voltage\nHIAL\n5\nHIAL\nLOAL\nFlow before compensation\nLOAL\nHIAL\nLOAL\n6\nLOAL\nHDAL\nBatch control SV\nHDAL\nLOAL\nHDAL\n7\nHDAL\nLDAL\nFHIAL\nLDAL\nHDAL\nLDAL\n8\nLDAL\nDF\nFLOAL\nAHYS\nLDAL\nAHYS\n9\nDF\nCTRL\nSPE\nCTRL\nAHYS\nReserved\n10\nCTRL\nM5\nACT\nReserved\nReserved\n11\nM5\nP\nSN\n12\nP\nT\nFSc\n13\nT\nCTI\nPdIH\n14\nCTI\nINP\nCSc\nINP\nINP"
+  },
+  {
+    "chunk_id": 19,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "14\nRegister\nAI518P\nAI708P\nAI808P\nAI518\nAI708\nAI808\nAI708H\nAI808H\nAI501\nAI701\nAI601\nAI301M\n15\nINP\nDIP\nCdIH\nDIP\nINP\nDIP\n16\nDIP\nSCL\nCut\nSCL\nDIP\nSCL\n17\nSCL\nSCH\nFdIH\nSCH\nSCL\nSCH\n18\nSCH\nALP\nFdIP\nALP\nSCH\nALP\n19\nALP\nSC\nPA\nScb\nALP\nI/O status\n20\nSC\nOPT\nPo\nOPT\nSC\nOPT\n21\nOPT\nOPL\nCo\nReserved\nOPT\nReserved\n22\nOPL\nOPH\nFrd\nReserved\n23\nOPH\nCF\nCF\n24\nCF\nModel\nCharacteristics bC\nModel\nCharacteristics\nModel\nCharacteristics\n25\nProgram\nControl\nADDR\nReserved\nADDR\nModel\nCharacteristics\nADDR\n26\nADDR\nFILT\nFoH\nFILT\nADDR\nFILT\n27\nFILT\nRUN\nModel Characteristics SPL\nFILT\nNULL\n28\nRUN\nLOC\nADDR\nSPH\nNULL\nLOC\n29\nLOC\nReserved\nIoH\nReserved\nLOC\n30\nC01\nFdL\nReserved\n31\nT01\nLoc\n32\nC02\nReserved\n33\nT02\nFdF\n34\nC03\nCHIA\n35\nT03\nCLoA\n36\nC04\nPHIA\n37\nT04\nPLoA\n38\nC05\nALP\n39\nT05\nFSb\n40\nC06\nCdIP\n41\nT06\nPdIP"
+  },
+  {
+    "chunk_id": 20,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "15\nRegister\nAI518P\nAI708P\nAI808P\nAI518\nAI708\nAI808\nAI708H\nAI808H\nAI501\nAI701\nAI601\nAI301M\n42\nC07\nReserved\nPSc\nReserved\n43\nT07\nCLn\n44\nC08\nFLJH\n45\nT08\nFLJL\n46\nC09\nEJH\n47\nT09\nEJL\n48\nC10\nCumulative clear bit\n49\nT10\nReserved\n50\nC11\n51\nT11\n52\nC12\n53\nT12\n54\nC13\n55\nT13\n56\nC14\n57\nT14\n58\nC15\n59\nT15\n60\nC16\n61\nT16\n62\nC17\n63\nT17\n64\nC18\n65\nT18\n66\nC19"
+  },
+  {
+    "chunk_id": 21,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "16\nRegister\nAI518P\nAI708P\nAI808P\nAI518\nAI708\nAI808\nAI708H\nAI808H\nAI501\nAI701\nAI601\nAI301M\n67\nT19\nReserved\n68\nC20\n69\nT20\n70\nC21\n71\nT21\n72\nC22\n73\nT22\n74\nC23\n75\nT23\n76\nC24\n77\nT24\n78\nC25\n79\nT25\n80\nC26\n81\nT26\n82\nC27\n83\nT27\n84\nC28\n85\nT28\n86\nC29\n87\nT29\n88\nC30\n89\nT30\n90\nElapsed time\n91\n(Manual MV in AI808 only)\n92~189\nReserved"
+  },
+  {
+    "chunk_id": 22,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+    "content": "17\nwww.yudian.com\nYudian Copyright ©2020-2021\nDescription\nParameters [MV], [ALM], [PV], and [Model Characteristics] attributes are only Read only. [SV] and [Elapsed\ntime] attributes of AI518P, AI708P and AI808P are Read only. For AI601, [U voltage] and those parameters\nlisted above it are all Read only and all other parameters can be Read/Write.\nNote 1: Instrument alarm status\nALM\nDescription\nStatus 0\nHigh alarm（HIAL）\nOff 0，Active 1\nStatus 1\nLow alarm（LoAL）\nOff 0，Active 1\nStatus 2\nHigh deviation alarm（dHAL）Off 0，Active 1\nStatus 3\nLow deviation alarm（dLAL）Off 0，Active 1\nStatus 4\nHigh input alarm（orAL）\nOff 0，Active 1\nStatus 5\nAL1 Status，\nOff 1，Active 0\nStatus 6\nAL2 Status，\nOff 1，Active 0\nStatus 7\nEmpty\nS133-02"
+  }
+]

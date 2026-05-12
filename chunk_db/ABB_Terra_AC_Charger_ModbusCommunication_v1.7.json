@@ -1,0 +1,176 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "© Copyright ABB. All rights reserved \n—  \nTERRA AC WALLBOX \nTAC Modbus Communication \nModbus RTU – RS485 and TCP/IP"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "TAC MODBUS COMMUNICATION \n \n2/11 \n \nContents \n1. \nPurpose ................................................................................................................................... 3 \n2. \nModbus Topology with Charger .......................................................................................... 3 \n3. \nCharger as a Primary Device ............................................................................................... 4 \n3.1. \nModbus RTU (RS485) configuration ........................................................................................ 4 \n3.1.1. \nCompatible meters ......................................................................................................... 4 \n4. \nCharger as Secondary Device ............................................................................................... 5 \n4.1. \nModbus RTU (RS485) configuration .........................................................................................5"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "4. \nCharger as Secondary Device ............................................................................................... 5 \n4.1. \nModbus RTU (RS485) configuration .........................................................................................5 \n4.2. Modbus TCP/IP configuration ....................................................................................................5 \n5. \nModbus Map ........................................................................................................................... 5 \n5.1. \nSerial Number ............................................................................................................................... 6 \n5.2. \nFirmware version........................................................................................................................... 7 \n5.3. \nUser Settable Max Current.......................................................................................................... 7"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "5.2. \nFirmware version........................................................................................................................... 7 \n5.3. \nUser Settable Max Current.......................................................................................................... 7 \n5.4. Error Code ....................................................................................................................................... 7 \n5.5. Socket Lock State ......................................................................................................................... 7 \n5.6. Charging State .............................................................................................................................. 8 \n5.7. \nCharging Current Limit ............................................................................................................... 8"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "5.6. Charging State .............................................................................................................................. 8 \n5.7. \nCharging Current Limit ............................................................................................................... 8 \n5.8. Charging Current ......................................................................................................................... 8 \n5.9. Voltage ........................................................................................................................................... 8 \n5.10. \nActive Power ............................................................................................................................. 8 \n5.11. \nCommunication timeout ........................................................................................................ 8 \n5.12."
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "5.10. \nActive Power ............................................................................................................................. 8 \n5.11. \nCommunication timeout ........................................................................................................ 8 \n5.12. \nEnergy Delivered ...................................................................................................................... 8 \n5.13. \nSet Charging Current Limit ................................................................................................... 9 \n5.14. \nLock/Unlock Socket Cable ..................................................................................................... 9 \n5.15. \nStart/Stop Charging Session ............................................................................................... 9 \n5.16. \nCommunication timeout ........................................................................................................ 9 \n6."
+  },
+  {
+    "chunk_id": 6,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "5.15. \nStart/Stop Charging Session ............................................................................................... 9 \n5.16. \nCommunication timeout ........................................................................................................ 9 \n6. \nAdditional Information .........................................................................................................9 \n6.1. \nListing of related documents .................................................................................................... 9 \n7. \nAddendum ............................................................................................................................ 10 \n7.1. \nModbus protocol message format ......................................................................................... 10 \n7.1.1. \nCharger supported Function Code............................................................................. 11 \n7.1.2."
+  },
+  {
+    "chunk_id": 7,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "7.1. \nModbus protocol message format ......................................................................................... 10 \n7.1.1. \nCharger supported Function Code............................................................................. 11 \n7.1.2. \nException code ................................................................................................................ 11 \n8. \nRevisions .............................................................................................................................. 11"
+  },
+  {
+    "chunk_id": 8,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "TAC MODBUS COMMUNICATION \n \n3/11 \n \n1. \nPurpose \nThis document provides an overview of Modbus interface supported by Terra AC charger. And \ndescribes the Modbus registers details for anyone who is indented to establish communica-\ntion with charger and scope of the document is designed to focus only on communication \ndetails. \n2. \nModbus Topology with Charger \nModbus protocol enable to transmit information over serial lines between different sys-\ntems/devices. Modbus devices communication works on the principle of Primary-Secondary \n(in Modbus RTU terminology) or Client-Server (in Modbus TCP/IP terminology). \nThe system which is requesting information/action is called Modbus Primary/Client (referred \nin this document as Primary Device) and the external system which is connected via serial line \nand responding/performing the action is called Modbus Secondary/Server (referred in this \ndocument as Secondary Device)."
+  },
+  {
+    "chunk_id": 9,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "in this document as Primary Device) and the external system which is connected via serial line \nand responding/performing the action is called Modbus Secondary/Server (referred in this \ndocument as Secondary Device).  \nIn essence, chargers act as a primary device mode if Modbus interface is used for reading an \nexternal meter or as a secondary device mode charger is controlled by any external system \n(often called local controller) which is managing the chargers.  \nFor wiring/connection details with charger, refer “Electrical installation” section in the Terra \nAC Installation Manual. \nThere are different topology possible with charger and could be configured in the “Load Bal-\nance” option in the Terra Config app.  \n \n \n \n \n \n               \n \n \n \nFor more details refer to Load Management user manual."
+  },
+  {
+    "chunk_id": 10,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "TAC MODBUS COMMUNICATION \n \n4/11 \n \n3. \nCharger as a Primary Device \nAn external meter could be integrated with charger via Modbus RTU – RS485 where charger \nreads the external meter data via Modbus registers and uses for load management. \n3.1. \nModbus RTU (RS485) configuration \nTo establish successful communication, protocol related settings need to be matched be-\ntween meter and charger. For this purpose, Terra Config mobile app provides “communica-\ntion Settings” options for example speed/baud rate of Modbus.   \nAddress \nBaud rate \nData bits \nParity \nStop bit \nConfigurable to \nidentify meter in \nthe serial line, \nmust be a unique \naddress in the \nrange from 1 to \n247. \nConfigurable to se-\nlect below speed \n(in bits per second) \n• \n4800 \n• \n9600 \n• \n19200 \n• \n38400 \n• \n57600 \n• \n115200 \n8 \n• \nNone \n• \nOdd \n• \nEven \n1 or 2 \n3.1.1. \nCompatible meters \nHere is the list of meters compatible with charger to act as secondary device. \nMeter Manufacturer \nModel number \nConnection Type \nABB"
+  },
+  {
+    "chunk_id": 11,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "lect below speed \n(in bits per second) \n• \n4800 \n• \n9600 \n• \n19200 \n• \n38400 \n• \n57600 \n• \n115200 \n8 \n• \nNone \n• \nOdd \n• \nEven \n1 or 2 \n3.1.1. \nCompatible meters \nHere is the list of meters compatible with charger to act as secondary device. \nMeter Manufacturer \nModel number \nConnection Type \nABB \nB21 xx2-xxx \nEV1 xx2-xxx \nA41 xx2-xxx \nB23 xx2-xxx \nEV3 xx2-xxx \nA43-xx2-xxx \nDirect \nA42 xx2-xxx \nB24 xx2-xxx \nA44-xx2-xxx \nIndirect \nSiemens \nPAC3100 \nIndirect \nSchneider \niEM3000 Series     \nPM5300 series \nIndirect \n \nRemark: \nTerra Config also provides an option to configure phase related setting of a meter according \nto the installation."
+  },
+  {
+    "chunk_id": 12,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "TAC MODBUS COMMUNICATION \n \n5/11 \n \n4. \nCharger as Secondary Device \nCharger supports to establish a network with primary device by Modbus RTU or TCP/IP. When \ncharger is in secondary mode connected to local controller, recommended polling interval for \nreadable data is 30s~90s. Based on the polling operation (at least read a register) and config-\nurable timeout period, charger could understand whether Modbus communication is healthy \nor not. In case of unhealthy, charger could get into error state and stop the charging session. \n4.1. \nModbus RTU (RS485) configuration \nTerra Config mobile app provides below options to establish connection. \nAddress \nBaud rate \nData bits \nParity \nStop bit \nConfigurable to \nidentify charger in \nthe serial line, \nmust be a unique \naddress in the \nrange from 1 to \n247. \nConfigurable to se-\nlect below speed \n(in bits per second) \n• \n4800 \n• \n9600 \n• \n19200 \n• \n38400 \n• \n57600 \n• \n115200 \n8 \n• \nNone \n• \nOdd \n• \nEven \n1 or 2 \n \nRemark:"
+  },
+  {
+    "chunk_id": 13,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "Parity \nStop bit \nConfigurable to \nidentify charger in \nthe serial line, \nmust be a unique \naddress in the \nrange from 1 to \n247. \nConfigurable to se-\nlect below speed \n(in bits per second) \n• \n4800 \n• \n9600 \n• \n19200 \n• \n38400 \n• \n57600 \n• \n115200 \n8 \n• \nNone \n• \nOdd \n• \nEven \n1 or 2 \n \nRemark: \nMany chargers could be daisy chained by wiring as a serial line. In this case, cable electrical \ncharacteristics and length choice, and other, may influence the overall setup. In such case a \nrepeater may be helpful to improve the signal level. \n4.2. \nModbus TCP/IP configuration \nTerra Config mobile app provides the options below to establish connection. \nLAN IP setting \nServer Port \nNetwork IP settings for charger \nTCP port number to listen. \n \nRemark: \nNote that while configuring the Modbus TCP, the mobile app indicates to disable LAN for \nCharger Link to enforce dedicated purpose. In general, chargers could be connected as differ-"
+  },
+  {
+    "chunk_id": 14,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "LAN IP setting \nServer Port \nNetwork IP settings for charger \nTCP port number to listen. \n \nRemark: \nNote that while configuring the Modbus TCP, the mobile app indicates to disable LAN for \nCharger Link to enforce dedicated purpose. In general, chargers could be connected as differ-\nent topology with LAN/Ethernet port to form a network with the primary device. Also, note \nthat few variants of chargers come with “Daisy-chain”, refer brochure for more details.    \n5. \nModbus Map \nCharger supports below Modbus map (i.e.) where, what and how the data is stored."
+  },
+  {
+    "chunk_id": 15,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "TAC MODBUS COMMUNICATION \n \n6/11 \n \nRegister \nAddress \nRegister \nType \nName/Purpose \nRegister \nSize \nResolu-\ntion \nUnit \nData type \n4000h \nRead Only \nSerial Number \n4 \n- \n- \nUnsigned \n4004h \nRead Only \nFirmware version \n2 \n- \n- \nUnsigned \n4006h \nRead Only \nUser Settable Max Current  \n2 \n0.001 \nA \nUnsigned \n4008h \nRead Only \nError Code \n2 \n- \n- \nUnsigned \n400Ah \nRead Only \nSocket Lock State \n2 \n- \n- \nUnsigned \n400Ch \nRead Only \nCharging State \n2 \n- \n- \nUnsigned \n400Eh \nRead Only \nCharging Current Limit \n2 \n0.001 \nA \nUnsigned \n4010h \nRead Only \nCharging Current L1 \n2 \n0.001 \nA \nUnsigned \n4012h \nRead Only \nCharging Current L2 \n2 \n0.001 \nA \nUnsigned \n4014h \nRead Only \nCharging Current L3 \n2 \n0.001 \nA \nUnsigned \n4016h \nRead Only \nVoltage L1 \n2 \n0.1 \nV \nUnsigned \n4018h \nRead Only \nVoltage L2 \n2 \n0.1 \nV \nUnsigned \n401Ah \nRead Only \nVoltage L3 \n2 \n0.1 \nV \nUnsigned \n401Ch \nRead Only \nActive Power \n2 \n1 \nW \nUnsigned \n401Eh \nRead Only \nEnergy Delivered \n2 \n1 \nWh \nUnsigned \n4020h \nRead Only"
+  },
+  {
+    "chunk_id": 16,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "0.001 \nA \nUnsigned \n4016h \nRead Only \nVoltage L1 \n2 \n0.1 \nV \nUnsigned \n4018h \nRead Only \nVoltage L2 \n2 \n0.1 \nV \nUnsigned \n401Ah \nRead Only \nVoltage L3 \n2 \n0.1 \nV \nUnsigned \n401Ch \nRead Only \nActive Power \n2 \n1 \nW \nUnsigned \n401Eh \nRead Only \nEnergy Delivered \n2 \n1 \nWh \nUnsigned \n4020h \nRead Only \nCommunication timeout \n1 \n1 \nsecond Unsigned \n4100h \nWrite Only \nSet Charging Current Limit \n2 \n0.001 \nA \nUnsigned \n4103h \nWrite Only \nLock/Unlock Socket Cable \n1 \n- \n- \nUnsigned \n4105h \nWrite Only \nStart/Stop Charging Session \n1 \n- \n- \nUnsigned \n4106h \nWrite Only \nCommunication timeout \n1 \n1 \nsecond Unsigned \n5.1. \nSerial Number \nThis register provides information about serial number of the charger. \nNote that it’s an encoded/extracted information in the below format from actual serial num-\nber. \nByte \nField \nValue significance \nExample \n7 \nConnector Type \n• \n0x47 is Type 2 Cable repre-\nsented as G. \n• \n0x50 is Type 1 Cable repre-\nsented as P. \n• \n0x53 is Type 2 Socket with"
+  },
+  {
+    "chunk_id": 17,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "Note that it’s an encoded/extracted information in the below format from actual serial num-\nber. \nByte \nField \nValue significance \nExample \n7 \nConnector Type \n• \n0x47 is Type 2 Cable repre-\nsented as G. \n• \n0x50 is Type 1 Cable repre-\nsented as P. \n• \n0x53 is Type 2 Socket with \nShutter represented as S. \n• \n0x54 is Type 2 Socket rep-\nresented as T. \nValue 0x54 0x22 0x04 0x00 \n0x49 0x20 0x00 0x25 indi-\ncates the product serial num-\nber is TACW22-4-4920-T0025, \nthe prefix “TACW” is not part \nof this message \n6 \nRated Power \n• \n0x07 is 7kW \n• \n0x11 is 11kW \n• \n0x22 is 22 kW"
+  },
+  {
+    "chunk_id": 18,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "TAC MODBUS COMMUNICATION \n \n7/11 \n \nByte \nField \nValue significance \nExample \n5 \nPlant ID \n0x04 \n4 \nSpare \n0x00 \n3 \nProduction Week \nbuild week of the calendar year \n0x01~0x53 \n2 \nProduction Year \nlast 2 digits of the build calen-\ndar year \n0x00~0x99 \n1 \nUnique serial \nnumber high \n0x00~0x99 \n0 \nUnique serial \nnumber low \n0x00~0x99 \n5.2. \nFirmware version \nThis register provides the firmware version of the charger. \nFor example, value 0x01 0x02 0x13 0x00 indicates the firmware version is v1.2.13, the last byte \nis reserved. \n5.3. \nUser Settable Max Current \nThis register provides the maximum current value that can be supported by the hardware of \nthe charger which is settable by Terra Config app. \n5.4. \nError Code \nThis register provides the error code of the charger. Value 0 represents No error. For other er-\nror code refer section “Troubleshooting” in the Terra AC user manual. \n5.5. \nSocket Lock State"
+  },
+  {
+    "chunk_id": 19,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "the charger which is settable by Terra Config app. \n5.4. \nError Code \nThis register provides the error code of the charger. Value 0 represents No error. For other er-\nror code refer section “Troubleshooting” in the Terra AC user manual. \n5.5. \nSocket Lock State \nThis register provides the below possible state. ‘Connector Type’ in the Serial number pro-\nvides the information about whether the charging cable is socket version or not. Lock is pos-\nsible only with socket version. \nValue \nDescription \nSocket \nNon-socket \n0x0000 \nNo cable is plugged. \nApplicable \nNot applicable \n0x0001 \nCable is connected to the charging station \nunlocked. \nApplicable \nApplicable \n0x0011 \nCable is connected to the charging station \nlocked. \nApplicable \nNot applicable \n0x0101 \nCable is connected to the charging station \nand the electric vehicle, unlocked in charg-\ning station. \nApplicable \nApplicable \n0x0111 \nCable is connected to the charging station \nand the electric vehicle, locked in charging \nstation."
+  },
+  {
+    "chunk_id": 20,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "locked. \nApplicable \nNot applicable \n0x0101 \nCable is connected to the charging station \nand the electric vehicle, unlocked in charg-\ning station. \nApplicable \nApplicable \n0x0111 \nCable is connected to the charging station \nand the electric vehicle, locked in charging \nstation. \nApplicable \nNot applicable"
+  },
+  {
+    "chunk_id": 21,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "TAC MODBUS COMMUNICATION \n \n8/11 \n \n5.6. \nCharging State \nByte 3 Byte 2 \nByte 1 \nByte 0 \nSpare Spare \nBit 7  \nBit 6 to 0 \nSpare \n0 - charging at \nrated current. \n0 – State A (i.e.) Idle. \n1 –Below the com-\nmanded value by \n4100h. \n1 - State B1 (i.e.) EV Plug in, pending au-\nthorization. \n2 - State B2 (i.e.) EV Plug in, EVSE ready \nfor charging (PWM). \n3 - State C1 (i.e.) EV Ready for charge, \nS2 closed (no PWM). \n4 - State C2 (i.e.) Charging Contact \nclosed, energy delivering. \n5 - Others  \n \n• \nThe ‘State x’ above are represented from IEC 61851-1, however no intention to reflect \nall state in this register.  \n5.7. \nCharging Current Limit \nThis register provides the current limit chosen by the charger based on the various condition \nwhich include the 4100h register value. \n5.8. \nCharging Current \nThis register provides the measured current value on each phase. \n5.9. \nVoltage \nThis register provides the measured voltage value on each phase."
+  },
+  {
+    "chunk_id": 22,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "which include the 4100h register value. \n5.8. \nCharging Current \nThis register provides the measured current value on each phase. \n5.9. \nVoltage \nThis register provides the measured voltage value on each phase. \nAnd values are based on the “Electrical Grid Network Type” configuration settings via Terra \nConfig mobile app (i.e.) voltage value represents whether Line to Neutral or Line to Line.   \n5.10. Active Power \nThis register provides the active power.  \n5.11. Communication timeout \nThis register provides readback from 4106h. \n5.12. Energy Delivered \nThis register provides the transferred energy of the current charging session."
+  },
+  {
+    "chunk_id": 23,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "TAC MODBUS COMMUNICATION \n \n9/11 \n \n5.13. Set Charging Current Limit \nThis provides an option to set charging current limit of the charger.  \nSince the charger uses an internal algorithm for load management, the current limit which is \nset may not be same as charger’s load management decision. For this purpose, read back \n400E register provides knowledge to the user.  \nIn addition to that charging session will enter Pause state when the current limit is less than \n6A. After that when current limit is set above 6A, then charging session will be resumed. The \nchoice of 6A is derived from IEC 61851-1.  \n5.14. Lock/Unlock Socket Cable \nThis register provides an option only for Socket cable to lock or unlock on Charger side. \nValue \nDescription \n0 \nUnlock the cable/connector. Precaution is advised to make sure that \nno ongoing charging session prior to setting this state. \n1 \nCable will be locked irrespective of charging session until unlock is \nset or power cycle performed."
+  },
+  {
+    "chunk_id": 24,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "Value \nDescription \n0 \nUnlock the cable/connector. Precaution is advised to make sure that \nno ongoing charging session prior to setting this state. \n1 \nCable will be locked irrespective of charging session until unlock is \nset or power cycle performed. \n5.15. Start/Stop Charging Session \nThis register provides an option to start or stop a charge session.  \nValue \nDescription \n0 \nStart charging session \n1 \nStop charging session \n5.16. Communication timeout \nThis register provides an option to configure when the charger could decide whether charger \nlost communication with primary device as no operation (for example no read opera-\ntion/pooling) performed within this timeout period in seconds. \nThe default value is 60 seconds. The range possible Is from 10 to 65535. \n6. \nAdditional Information \n6.1. \nListing of related documents \nRef # \nDocument Kind, Title \nDocument No. \n1 \nModbus Specification http://www.modbus.org/ \n2 \nIEC 61851-1:2017 Electric vehicle conductive charging system –"
+  },
+  {
+    "chunk_id": 25,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "The default value is 60 seconds. The range possible Is from 10 to 65535. \n6. \nAdditional Information \n6.1. \nListing of related documents \nRef # \nDocument Kind, Title \nDocument No. \n1 \nModbus Specification http://www.modbus.org/ \n2 \nIEC 61851-1:2017 Electric vehicle conductive charging system – \nPart 1: General requirements \n3 \nTerra AC User Manual \n4 \nTerra AC installation Manual"
+  },
+  {
+    "chunk_id": 26,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "TAC MODBUS COMMUNICATION \n \n10/11 \n \nRef # \nDocument Kind, Title \nDocument No. \n5 \nTerra AC Load Management user manual \n7. \nAddendum \n7.1. \nModbus protocol message format \nThis section provides the supporting information from the Modbus specification. For de-\ntailed information, refer Modbus specification. \n \nModbus map is organized as table and each register is 1 word = 16 bits = 2 bytes. And Mod-\nbus uses a “big-Endian” representation for addresses and data items. This means that when \na numerical quantity larger than a single byte is transmitted, the most significant byte is sent \nfirst. \nBelow indicates the general Modbus frame structure which is used for Modbus message \ntransaction. \n \nThe Modbus data could be obtained in the below sequence during error free scenario. \n \n \nHere is the sequence during error scenario."
+  },
+  {
+    "chunk_id": 27,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "TAC MODBUS COMMUNICATION \n \n11/11 \n \n \n7.1.1. \nCharger supported Function Code \nCharger designed to support only the below Function Code. \nFunction Code \nAction \nTable Name \n3 \nRead \nHolding Registers \n6 \nWrite single \nHolding Register \n16 \nWrite multiple \nHolding Registers \n7.1.2. \nException code \nIf an error should occur while processing a request, then the charger gives an exception re-\nsponse that contains an exception code. In the exception response the function code is set to \nthe function code of the request plus 0x80. \nException code \nException \nDescription \n1 \nIllegal function \nA function code that is not supported has been used. \n2 \nIllegal data address \nThe requested register is outside the allowed range. \n3 \nIllegal data value \nThe structure of a received message is incorrect. \n4 \nSecondary device fail-\nure \nProcessing the request fail due to an internal error in \nthe meter. \n8. \nRevisions \nRev. \nPage (P) \nChapt. (C) \nDescription \nDate Dept./Init. \n1.7  \n•"
+  },
+  {
+    "chunk_id": 28,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+    "content": "3 \nIllegal data value \nThe structure of a received message is incorrect. \n4 \nSecondary device fail-\nure \nProcessing the request fail due to an internal error in \nthe meter. \n8. \nRevisions \nRev. \nPage (P) \nChapt. (C) \nDescription \nDate Dept./Init. \n1.7  \n• \nDocument restructure and cleanup from \nTACWB Modbus Communication-0129 \ndocument. \n• \nNew registers are added for ‘communica-\ntion timeout’.  \n• \n‘Set Charging Current Limit’ behavior im-\nprovement.  \nJuly 2022 PM/VJ"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\rtvs1-35l22-modbus-registerlista ....pdf",
+    "content": "Modbus register map\nRTVS1\nTRANSFORMER FAN SPEED CONTROLLERS \nWITH MODBUS RTU COMMUNICATION"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\rtvs1-35l22-modbus-registerlista ....pdf",
+    "content": "www.sentera.eu\nMBRM-RTVS1-EN-000 - 03 / 09 / 2021\n2 - 5\nRTVS1\nTRANSFORMER FAN SPEED CONTROLLERS WITH \nMODBUS RTU COMMUNICATION\nMODBUS REGISTER MAP\nINPUT REGISTERS\nData type\nDescription\nRaw data \nValues\n1\nActual output \nselected \nunsigned \ninteger\nActual step from the autotransformer\n0—5\n0\n1\n2\n3\n4\n5\n=\n=\n=\n=\n=\n=\nOFF\nFirst step\nSecond step\nThird step\nFourth step\nFifth step\n2\nDesired output \nunsigned \ninteger\nDesired output value received over Modbus or manually input\n0—5\n0\n1\n2\n3\n4\n5\n=\n=\n=\n=\n=\n=\nOFF\nFirst step\nSecond step\nThird step\nFourth step\nFifth step\n3\nStatus \nunregulated \noutput\nunsigned \ninteger\nStatus of the relay controlled by Modbus or device\n0—1\n 0\n1\n=\n=\nOFF\nON / 230 VAC\n4\nInput Current\nunsigned \ninteger\nCurrent drawn from the device\n0—100\n0 \n10 \n=\n= \n0 amperes\n1 ampere\n5­\nReserved, returns 0\n6\nDevice state\nunsigned \ninteger\nState of the device\n0—9\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9 \n=\n=\n=\n=\n=\n=\n=\n=\n=\n=\nDevice OK\nADC Error\nEEPROM error\nFrequency error\nTK detected\nRemote sensor lost\nOverload"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\rtvs1-35l22-modbus-registerlista ....pdf",
+    "content": "unsigned \ninteger\nCurrent drawn from the device\n0—100\n0 \n10 \n=\n= \n0 amperes\n1 ampere\n5­\nReserved, returns 0\n6\nDevice state\nunsigned \ninteger\nState of the device\n0—9\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9 \n=\n=\n=\n=\n=\n=\n=\n=\n=\n=\nDevice OK\nADC Error\nEEPROM error\nFrequency error\nTK detected\nRemote sensor lost\nOverload\nOvercurrent\nOverheating\nCurrent sensor fault\n7\nSensor value\nunsigned \ninteger\nSensor output in percentage, if automatic mode is selected\n0—1.000\n0 \n1000 \n=\n=\n   0 %\n100 %\n8\nSensor status\nunsigned \ninteger\nStatus of the sensor device\n0—1, 4\n 0 \n1 \n4\n=\n=\n=\nOK\nSensor fault\nHeating\n9\nTK detection\nunsigned \ninteger\nStatus of TK detection\n0—2\n 0 \n1 \n2\n=\n=\n=\nOK\nTK detected\nNot used\n10\nRelay Mode\nunsigned \ninteger\nRelay output functionality\n0—3\n0\n1\n2\n3\n=\n=\n=\n=\nManual\nAlarm indication\nOutput active\nOutput Inactive\nNote: The input registers can be read via the Modbus command: “Read input registers”."
+  },
+  {
+    "chunk_id": 3,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\rtvs1-35l22-modbus-registerlista ....pdf",
+    "content": "www.sentera.eu\nMBRM-RTVS1-EN-000 - 03 / 09 / 2021\n3 - 5\nRTVS1\nTRANSFORMER FAN SPEED CONTROLLERS WITH \nMODBUS RTU COMMUNICATION\nHOLDING REGISTERS\nData type\nDescription\nRaw data \nValues\nFactory \ndefault \nvalues\n1\nDevice slave address\nunsigned \ninteger\nModbus device address\n1—247\n1\n2\nModbus baud rate\nunsigned \ninteger\nModbus communication baud rate\n0—6\n0 =   4.800\n1 =   9.600\n2 = 19.200\n3 =   38.400\n4 =   57.600\n5 = 115.200\n6 = 230.400\n2\n3\nModbus parity\nunsigned \ninteger\nParity check mode\n0—2\n0 \n1 \n2 \n= \n= \n= \n8N1\n8E1\n8O1\n1\n4\nDevice type\nunsigned \ninteger\nDevice type. Read only\n4000—4004\n4000\n4001\n4002\n4003\n4004 \n=\n=\n=\n=\n=\nRTVS1-75L22\nRTVS1-50L22\nRTVS1-35L22\nRTVS1-25L22 \nRTVS1-15L22\n5\nHW version\nunsigned \ninteger\nHardware version of the device. Read only\nXXXX\n0x0100 =\nHW version 1.0\n6\nFW version\nunsigned \ninteger\nFirmware version of the device. Read only\nXXXX\n0x0200 =\nFW version 2.0\n7\nReserved, returns 0\n8\nModbus Time Out\nunsigned \ninteger"
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\rtvs1-35l22-modbus-registerlista ....pdf",
+    "content": "RTVS1-35L22\nRTVS1-25L22 \nRTVS1-15L22\n5\nHW version\nunsigned \ninteger\nHardware version of the device. Read only\nXXXX\n0x0100 =\nHW version 1.0\n6\nFW version\nunsigned \ninteger\nFirmware version of the device. Read only\nXXXX\n0x0200 =\nFW version 2.0\n7\nReserved, returns 0\n8\nModbus Time Out\nunsigned \ninteger\nTime Out Of Modbus, after which the output is set to OFF\n0—60\n0 \n1 \n60\n=\n=\n=\nTime Out OFF\n1min\n60min\n0\n9\nModbus network \nresistor termination \n(NBT)\nunsigned \ninteger\nSet device as end device of the line / or not by connecting NBT\n0, 1\n0 \n1 \n=\n=\nNBT disconnected\nNBT connected\n0\n10\nModbus registers \nreset\nunsigned \ninteger\nResets Modbus Holding registers to default values. When finished this register is \nautomatically reset to '0'\n0, 1\n0 \n1 \n=\n=\nIdle\nReset Modbus Registers\n0\n11\nControl Set\nunsigned \ninteger\nAutomatic – takes value from sensor. Manual Control – takes value from register 12\n0—2\n0\n1\n2\n=\n=\n=\nManual\nAuto forward\nAuto reverse\n1\n12\nManual output Step\nunsigned \ninteger"
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\rtvs1-35l22-modbus-registerlista ....pdf",
+    "content": "automatically reset to '0'\n0, 1\n0 \n1 \n=\n=\nIdle\nReset Modbus Registers\n0\n11\nControl Set\nunsigned \ninteger\nAutomatic – takes value from sensor. Manual Control – takes value from register 12\n0—2\n0\n1\n2\n=\n=\n=\nManual\nAuto forward\nAuto reverse\n1\n12\nManual output Step\nunsigned \ninteger\nDesired output Value manually set\n0—5\n0\n1\n...\n5\n=\n=\n...\n=\nOFF\nStep 1\n...\nStep 5\n0"
+  },
+  {
+    "chunk_id": 6,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\rtvs1-35l22-modbus-registerlista ....pdf",
+    "content": "www.sentera.eu\nMBRM-RTVS1-EN-000 - 03 / 09 / 2021\n4 - 5\nRTVS1\nTRANSFORMER FAN SPEED CONTROLLERS WITH \nMODBUS RTU COMMUNICATION\nHOLDING REGISTERS\nData type\nDescription\nRaw data \nValues\nFactory \ndefault \nvalues\n13\nOutput Update \nInterval\nunsigned \ninteger\nTime delay to update the output in automatic mode\n5 s—600 s\n5 \n60\n600 \n=\n=\n=\n 5 s\n 1 min\n10 min\n5 s \n14\nTK Detection Control\nunsigned \ninteger\nDefine whether TK is used for detection or not\n0, 1\n0\n1\n=\n=\nTK detection OFF\nTK detection ON\n0\n15\nManual Relay \nControl\nunsigned \ninteger\nRelay ON or OFF\n0, 1\n0\n1\n=\n=\nRelay OFF\nRelay ON\n0\n16\nHysteresis delta\nunsigned \ninteger\nThe difference between the upwards switching and downwards switching step percentage\n2—10\n2\n3\n...\n10\n=\n= \n...\n=\n2%\n3%\n...\n10%\n2\n17\nCommunication Lost \nOutput State\nunsigned \ninteger\nSet output when Modbus communication is lost\n0, 1\n0\n1\n=\n= \nOFF\nLast step selected\n18\nSensor output \nregister value \nnumber\nunsigned \ninteger"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\rtvs1-35l22-modbus-registerlista ....pdf",
+    "content": "2—10\n2\n3\n...\n10\n=\n= \n...\n=\n2%\n3%\n...\n10%\n2\n17\nCommunication Lost \nOutput State\nunsigned \ninteger\nSet output when Modbus communication is lost\n0, 1\n0\n1\n=\n= \nOFF\nLast step selected\n18\nSensor output \nregister value \nnumber\nunsigned \ninteger\nSelect which sensor output will be used as input to the device\n1, 2, 11, 22, 27, \n32\n1\n2\n11\n22\n27\n32\n=\n=\n=\n=\n=\n=\nDigital potentiometer\nTemperature/analogue input\nRelative Humidity\nCO2/CO2eq\nCO/TVOC\nNO2\n2\n19\nRelay output mode\nunsigned \ninteger\n0—3\n0\n1\n2\n3\n=\n=\n=\n=\nManual\nAlarm indication\nOutput active\nOutput Inactive\n1\n20\nReserved, returns 0\n21\nInput value step 1\nunsigned \ninteger\nInput value to switch to output step 1\n0—1.000\n170\n=\nSwitches to output step 1 at \n17 % input value and steps \ndown to output step 0 at 17 % - \nHysteresis delta (HR16) set\n170\n22\nInput value step 2\nunsigned \ninteger\nInput value to switch to output step 2\n0—1.000\n340\n=\nSwitches to output step 2 at \n34 % input value and steps \ndown to output step 1 at 34 % -"
+  },
+  {
+    "chunk_id": 8,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\rtvs1-35l22-modbus-registerlista ....pdf",
+    "content": "17 % input value and steps \ndown to output step 0 at 17 % - \nHysteresis delta (HR16) set\n170\n22\nInput value step 2\nunsigned \ninteger\nInput value to switch to output step 2\n0—1.000\n340\n=\nSwitches to output step 2 at \n34 % input value and steps \ndown to output step 1 at 34 % - \nHysteresis delta (HR16) set\n340\n23\nInput value step 3\nunsigned \ninteger\nInput value to switch to output step 3\n0—1.000\n510\n=\nSwitches to output step 3 at \n51 % input value and steps \ndown to output step 2 at 51 % - \nHysteresis delta (HR16) set\n510"
+  },
+  {
+    "chunk_id": 9,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\rtvs1-35l22-modbus-registerlista ....pdf",
+    "content": "www.sentera.eu\nMBRM-RTVS1-EN-000 - 03 / 09 / 2021\n5 - 5\nRTVS1\nTRANSFORMER FAN SPEED CONTROLLERS WITH \nMODBUS RTU COMMUNICATION\nHOLDING REGISTERS\nData type\nDescription\nRaw data \nValues\nFactory \ndefault \nvalues\n24\nInput value step 4\nunsigned \ninteger\nInput value to switch to output step 4\n0—1.000\n680\n=\nSwitches to output step 4 at \n68 % input value and steps \ndown to output step 3 at 68 % - \nHysteresis delta (HR16) set\n680\n25\nInput value step 5\nunsigned \ninteger\nInput value to switch to output step 5\n0—1.000\n850\n=\nSwitches to output step 5 at \n85 % input value and steps \ndown to output step 4 at 85% - \nHysteresis delta (HR16) set\n850\n26—30\nReserved, return 0\nNote: The holding registers can be managed via the following Modbus commands: “Read Holding Registers”, “Write Single Register” or “Write Multiple Registers”.\nThe free Sentera configuration and monitoring software 3SModbus can be downloaded via: https://www.sentera.eu/en/3SMCenter"
+  }
+]

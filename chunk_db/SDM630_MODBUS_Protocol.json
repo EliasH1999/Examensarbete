@@ -1,0 +1,410 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "1. Eastron SDM630Modbus Smart Meter Modbus Protocol Implementation V1.8 \n1.1 Modbus Protocol Overview \nThis section provides basic information for interfacing the Eastron Smart meter to a Modbus \nProtocol network. If background information or more details of the Eastron implementation is \nrequired please refer to section 2 and 3 of this document. \n \nEastron offers the option of an RS485 communication facility for direct connection to SCADA \nor other communications systems using the Modbus Protocol RTU salve protocol. The \nModbus Protocol establishes the format for the master’s query by placing into it the device \naddress, a function code defining the requested action, any data to be sent, and an error \nchecking field. The slave’s response message is also constructed using Modbus Protocol. It \ncontains fields confirming the action taken, any data to be returned, and an error-checking field. \nIf an error occurs in receipt of the message, SDM630Modbus will make no response. If the"
+  },
+  {
+    "chunk_id": 1,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "checking field. The slave’s response message is also constructed using Modbus Protocol. It \ncontains fields confirming the action taken, any data to be returned, and an error-checking field. \nIf an error occurs in receipt of the message, SDM630Modbus will make no response. If the \nSDM630Modbus is unable to perform the requested action, it will construct an error message \nand send it as the response. \n \nThe electrical interface is 2-wire RS485, via 2 screw terminals. Connection should be made \nusing twisted pair screened cable (Typically 22 gauge Belden 8761 or equivalent). All \"A\" and \n\"B\" connections are daisy chained together. Line topology may or may not require terminating \nloads depending on the type and length of cable used. Loop (ring) topology does not require \nany termination load. The impedance of the termination load should match the impedance of \nthe cable and be at both ends of the line. The cable should be terminated at each end with a"
+  },
+  {
+    "chunk_id": 2,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "loads depending on the type and length of cable used. Loop (ring) topology does not require \nany termination load. The impedance of the termination load should match the impedance of \nthe cable and be at both ends of the line. The cable should be terminated at each end with a \n120 ohm (0.25 Watt min.) resistor. A total maximum length of 3900 feet (1200 meters) is \nallowed for the RS485 network. A maximum of 32 electrical nodes can be connected, including \nthe controller. The address of each Eastron can be set to any value between 1 and 247. \nBroadcast mode (address 0) is supported. \n \nThe format for each byte in RTU mode is: \nCoding System:     8-bit per byte \nData Format:       4 bytes (2 registers) per parameter. \nFloating point format ( to IEEE 754) \nMost significant register first (Default). The default may be changed if \nrequired -See Holding Register \"Register Order\" parameter. \nError Check Field:   2 byte Cyclical Redundancy Check (CRC) \nFraming:           1 start bit"
+  },
+  {
+    "chunk_id": 3,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Floating point format ( to IEEE 754) \nMost significant register first (Default). The default may be changed if \nrequired -See Holding Register \"Register Order\" parameter. \nError Check Field:   2 byte Cyclical Redundancy Check (CRC) \nFraming:           1 start bit \n8 data bits, least significant bit sent first \n1 bit for even/odd parity (or no parity) \n1 stop bit if parity is used; 1 or 2 bits if no parity \nData Coding \nAll data values in the SDM630Modbus smart meter are transferred as 32 bit IEEE754 floating \npoint numbers, (input and output) therefore each SDM630Modbus meter value is transferred \nusing two Modbus Protocol registers. All register read requests and data write requests must \nspecify an even number of registers. Attempts to read/write an odd number of registers prompt \nthe SDM630Modbus smart meter to return a Modbus Protocol exception message. However,"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "for compatibility with some SCADA systems, SDM630Modbus Smart meter will response to \nany single input or holding register read with an instrument type specific value. \n \nThe SDM630Modbus can transfer a maximum of 40 values in a single transaction; therefore \nthe maximum number of registers requestable is 80. Exceeding this limit prompts the \nSDM630Modbus to generate an exception response.  \n \nData transmission speed is selectable between 2400, 4800, 9600, 19200, 38400 baud. \n \n1.2 Input register \nInput registers are used to indicate the present values of the measured and calculated \nelectrical quantities. Each parameter is held in two consecutive16 bit register.The following \ntable details the 3X register address, and the values of the address bytes within the message. \nA (*) in the column indicates that the parameter is valid for the particular wiring system. Any \nparameter with a cross(X) will return the value zero. Each parameter is held in the 3X registers."
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "table details the 3X register address, and the values of the address bytes within the message. \nA (*) in the column indicates that the parameter is valid for the particular wiring system. Any \nparameter with a cross(X) will return the value zero. Each parameter is held in the 3X registers. \nModbus Protocol function code 04 is used to access all parameters. \nFor example, to request:    Amps 1    Start address=0006 \n                                     No. of registers =0002 \n                          Amps 2    Start address=0008 \n                                     No. of registers=0002 \nEach request for data must be restricted to 40 parameters or less. Exceeding the 40 \nparameter limit will cause a Modbus Protocol exception code to be returned. \n \n1.2.1 SDM630Modbus Input Registers \n \n \nAddress \n(Register) \n \n \nParameter \n Number \nSDM630Modbus Input Register \nParameter       \n  Modbus \n Protocol \nStart \n  Address \nHex \n3 \nØ \n3 \nØ \n1 \nØ \n      Description \nUnits \nHi \nByte \nLo \nByte"
+  },
+  {
+    "chunk_id": 6,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "1.2.1 SDM630Modbus Input Registers \n \n \nAddress \n(Register) \n \n \nParameter \n Number \nSDM630Modbus Input Register \nParameter       \n  Modbus \n Protocol \nStart \n  Address \nHex \n3 \nØ \n3 \nØ \n1 \nØ \n      Description \nUnits \nHi \nByte \nLo \nByte \n4 \nW \n3 \nW \n2 \nW \n30001 \n1 \nPhase 1 line to neutral volts. \nVolts \n00 \n00 \n√ \nX \n√ \n30003 \n2 \nPhase 2 line to neutral volts. \nVolts \n00 \n02 \n√ \nX \nX \n30005 \n3 \nPhase 3 line to neutral volts. \nVolts \n00 \n04 \n√ \nX \nX \n30007 \n4 \nPhase 1 current. \nAmps \n00 \n06 \n√ \n√ \n√ \n30009 \n5 \nPhase 2 current. \nAmps \n00 \n08 \n√ \n√ \nX \n30011 \n6 \nPhase 3 current. \nAmps \n00 \n0A \n√ \n√ \nX \n30013 \n7 \nPhase 1 power. \nWatts \n00 \n0C \n√ \nX \n√ \n30015 \n8 \nPhase 2 power. \nWatts \n00 \n0E \n√ \nX \n√ \n30017 \n9 \nPhase 3 power. \nWatts \n00 \n10 \n√ \nX \nX \n30019 \n10 \nPhase 1 volt amps. \nVA \n00 \n12 \n√ \nX \n√ \n30021 \n11 \nPhase 2 volt amps. \nVA \n00 \n14 \n√ \nX \nX \n30023 \n12 \nPhase 3 volt amps. \nVA \n00 \n16 \n√ \nX \nX"
+  },
+  {
+    "chunk_id": 7,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "30025 \n13 \nPhase 1 reactive power. \nVAr \n00 \n18 \n√ \nX \n√ \n30027 \n14 \nPhase 2 reactive power. \nVAr \n00 \n1A \n√ \nX \nX \n30029 \n15 \nPhase 3 reactive power. \nVAr \n00 \n1C \n√ \nX \nX \n30031 \n16 \nPhase 1 power factor (1). \nNone \n00 \n1E \n√ \nX \n√ \n30033 \n17 \nPhase 2 power factor (1). \nNone \n00 \n20 \n√ \nX \nX \n30035 \n18 \nPhase 3 power factor (1). \nNone \n00 \n22 \n√ \nX \nX \n30037 \n19 \nPhase 1 phase angle. \nDegre\nes \n00 \n24 \n√ \nX \n√ \n30039 \n20 \nPhase 2 phase angle. \nDegre\nes \n00 \n26 \n√ \nX \nX \n30041 \n21 \nPhase 3 phase angle. \nDegre\nes \n00 \n28 \n√ \nX \nX \n30043 \n22 \nAverage line to neutral volts. \nVolts \n00 \n2A \n√ \nX \nX \n30047 \n24 \nAverage line current. \nAmps \n00 \n2E \n√ \n√ \n√ \n30049 \n25 \nSum of line currents. \nAmps \n00 \n30 \n√ \n√ \n√ \n30053 \n27 \nTotal system power. \nWatts \n00 \n34 \n√ \n√ \n√ \n30057 \n29 \nTotal system volt amps. \nVA \n00 \n38 \n√ \n√ \n√ \n30061 \n31 \nTotal system VAr. \nVAr \n00 \n3C \n√ \n√ \n√ \n30063 \n32 \nTotal system power factor (1). \nNone \n00 \n3E \n√ \n√ \n√ \n30067 \n34 \nTotal system phase angle. \nDegre\nes \n00"
+  },
+  {
+    "chunk_id": 8,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "00 \n30 \n√ \n√ \n√ \n30053 \n27 \nTotal system power. \nWatts \n00 \n34 \n√ \n√ \n√ \n30057 \n29 \nTotal system volt amps. \nVA \n00 \n38 \n√ \n√ \n√ \n30061 \n31 \nTotal system VAr. \nVAr \n00 \n3C \n√ \n√ \n√ \n30063 \n32 \nTotal system power factor (1). \nNone \n00 \n3E \n√ \n√ \n√ \n30067 \n34 \nTotal system phase angle. \nDegre\nes \n00 \n42 \n√ \n√ \n√ \n30071 \n36 \nFrequency of supply voltages. \nHz \n00 \n46 \n√ \n√ \n√ \n30073 \n37 \nTotal Import kWh \nkWh \n00 \n48 \n√ \n√ \n√ \n30075 \n38 \nTotal Export kWh. \nkWh \n00 \n4A \n√ \n√ \n√ \n30077 \n39 \nTotal Import kVArh . \nkVArh \n00 \n4C \n√ \n√ \n√ \n30079 \n40 \nTotal Export kVArh . \nkVArh \n00 \n4E \n√ \n√ \n√ \n30081 \n41 \nTotal VAh \nkVAh \n00 \n50 \n√ \n√ \n√ \n30083 \n42 \nAh  \nAh \n00 \n52 \n√ \n√ \n√ \n30085 \n43 \nTotal system power demand \n(2). \nW \n \n00 \n54 \n√ \n√ \n√ \n30087 \n44 \nMaximum total system power \ndemand \n(2). \nVA \n00 \n56 \n√ \n√ \n√ \n30101 \n51 \nTotal system VA demand. \nVA \n00 \n64 \n√ \n√ \n√ \n30103 \n52 \nMaximum total system VA \ndemand. \nVA \n00 \n66 \n√ \n√ \n√ \n30105 \n53 \nNeutral current demand. \nAmps \n00 \n68 \n√ \nX \nX"
+  },
+  {
+    "chunk_id": 9,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "(2). \nW \n \n00 \n54 \n√ \n√ \n√ \n30087 \n44 \nMaximum total system power \ndemand \n(2). \nVA \n00 \n56 \n√ \n√ \n√ \n30101 \n51 \nTotal system VA demand. \nVA \n00 \n64 \n√ \n√ \n√ \n30103 \n52 \nMaximum total system VA \ndemand. \nVA \n00 \n66 \n√ \n√ \n√ \n30105 \n53 \nNeutral current demand. \nAmps \n00 \n68 \n√ \nX \nX \n30107 \n54 \nMaximum \nneutral \ncurrent \ndemand. \nAmps \n \n00 \n6A \n√ \nX \nX \n30201 \n101 \nLine 1 to Line 2 volts. \nVolts \n00 \nC8 \n√ \n√ \nX \n30203 \n102 \nLine 2 to Line 3 volts. \nVolts \n00 \nCA \n√ \n√ \nX \n30205 \n103 \nLine 3 to Line 1 volts. \nVolts \n00 \nCC \n√ \n√ \nX \n30207 \n104 \nAverage line to line volts. \nVolts \n00 \nCE \n√ \n√ \nX"
+  },
+  {
+    "chunk_id": 10,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "30225 \n113 \nNeutral current. \nAmps \n00 \nE0 \n√ \nX \nX \n30235 \n118 \nPhase 1 L/N volts THD \n% \n00 \nEA \n√ \nX \n√ \n30237 \n119 \nPhase 2 L/N volts THD \n% \n00 \nEC \n√ \nX \nX \n30239 \n120 \nPhase 3 L/N volts THD \n% \n00 \nEE \n√ \nX \nX \n30241 \n121 \nPhase 1 Current THD \n% \n00 \nF0 \n√ \n√ \n√ \n30243 \n122 \nPhase 2 Current THD \n% \n00 \nF2 \n√ \n√ \nX \n30245 \n123 \nPhase 3 Current THD \n% \n00 \nF4 \n√ \n√ \nX \n30249 \n125 \nAverage line to neutral volts \nTHD. \n% \n00 \nF8 \n√ \nX \n√ \n30251 \n126 \nAverage line current THD. \n% \n00 \nFA \n√ \n√ \n√ \n30259 \n130 \nPhase 1 current demand. \nAmps \n01 \n02 \n√ \n√ \n√ \n30261 \n131 \nPhase 2 current demand. \nAmps \n01 \n04 \n√ \n√ \nX \n30263 \n132 \nPhase 3 current demand. \nAmps \n01 \n06 \n√ \n√ \nX \n30265 \n133 \nMaximum phase 1 current \ndemand. \nAmps \n01 \n08 \n√ \n√ \n√ \n30267 \n134 \nMaximum phase 2 current \ndemand. \nAmps \n01 \n0A \n√ \n√ \nX \n30269 \n135 \nMaximum phase 3 current \ndemand. \nAmps \n01 \n0C \n√ \n√ \nX \n30335 \n168 \nLine 1 to line 2 volts THD. \n％ \n01 \n4E \n√ \n√ \nX \n30337 \n169 \nLine 2 to line 3 volts THD. \n％ \n01"
+  },
+  {
+    "chunk_id": 11,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "demand. \nAmps \n01 \n08 \n√ \n√ \n√ \n30267 \n134 \nMaximum phase 2 current \ndemand. \nAmps \n01 \n0A \n√ \n√ \nX \n30269 \n135 \nMaximum phase 3 current \ndemand. \nAmps \n01 \n0C \n√ \n√ \nX \n30335 \n168 \nLine 1 to line 2 volts THD. \n％ \n01 \n4E \n√ \n√ \nX \n30337 \n169 \nLine 2 to line 3 volts THD. \n％ \n01 \n50 \n√ \n√ \nX \n30339 \n170 \nLine 3 to line 1 volts THD. \n％ \n01 \n52 \n√ \n√ \nX \n30341 \n171 \nAverage line to line volts \nTHD. \n％ \n01 \n54 \n√ \n√ \nX \n30343 \n172 \nTotal kwh(3) \nkwh \n01 \n56 \n√ \n√ \n√ \n30345 \n173 \nTotal kvarh(3) \nkvarh \n01 \n58 \n√ \n√ \n√ \n30347 \n174 \nL1 import kwh \nkwh \n01 \n5a \n√ \n√ \n√ \n30349 \n175 \nL2 import kwh \nkwh \n01 \n5c \n√ \n√ \n√ \n30351 \n176 \nL3 import kWh \nkwh \n01 \n5e \n√ \n√ \n√ \n30353 \n177 \nL1 export kWh \nkwh \n01 \n60 \n√ \n√ \n√ \n30355 \n178 \nL2 export kwh \nkwh \n01 \n62 \n√ \n√ \n√ \n30357 \n179 \nL3 export kWh \nkwh \n01 \n64 \n√ \n√ \n√ \n30359 \n180 \nL1 total kwh(3) \nkwh \n01 \n66 \n√ \n√ \n√ \n30361 \n181 \nL2 total kWh(3) \nkwh \n01 \n68 \n√ \n√ \n√ \n30363 \n182 \nL3 total kwh(3) \nkwh \n01 \n6a \n√ \n√ \n√ \n30365 \n183 \nL1 import kvarh"
+  },
+  {
+    "chunk_id": 12,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "01 \n60 \n√ \n√ \n√ \n30355 \n178 \nL2 export kwh \nkwh \n01 \n62 \n√ \n√ \n√ \n30357 \n179 \nL3 export kWh \nkwh \n01 \n64 \n√ \n√ \n√ \n30359 \n180 \nL1 total kwh(3) \nkwh \n01 \n66 \n√ \n√ \n√ \n30361 \n181 \nL2 total kWh(3) \nkwh \n01 \n68 \n√ \n√ \n√ \n30363 \n182 \nL3 total kwh(3) \nkwh \n01 \n6a \n√ \n√ \n√ \n30365 \n183 \nL1 import kvarh \nkvarh \n01 \n6c \n√ \n√ \n√ \n30367 \n184 \nL2 import kvarh \nkvarh \n01 \n6e \n√ \n√ \n√ \n30369 \n185 \nL3 import kvarh \nkvarh \n01 \n70 \n√ \n√ \n√ \n30371 \n186 \nL1 export kvarh \nkvarh \n01 \n72 \n√ \n√ \n√ \n30373 \n187 \nL2 export kvarh \nkvarh \n01 \n74 \n√ \n√ \n√ \n30375 \n188 \nL3 export kvarh \nkvarh \n01 \n76 \n√ \n√ \n√ \n30377 \n189 \nL1 total kvarh (3) \nkvarh \n01 \n78 \n√ \n√ \n√"
+  },
+  {
+    "chunk_id": 13,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "30379 \n190 \nL2 total kvarh (3) \nkvarh \n01 \n7a \n√ \n√ \n√ \n30381 \n191 \nL3 total kvarh (3) \nkvarh \n01 \n7c \n√ \n√ \n√ \n \nNotes: \n1. The power factor has its sign adjusted to indicate the direction of the current. Positive refers \nto forward current, negative refers to reverse current. \n2. The power sum demand calculation is for import – export. \n3. Total kWh / kVarh equals to Import + export.  \n \n1.3 Modbus Protocol Holding Registers and Digital meter set up \nHolding registers are used to store and display instrument configuration settings. All holding \nregisters not listed in the table below should be considered as reserved for manufacturer use \nand no attempt should be made to modify their values. \nThe holding register parameters may be viewed or changed using the Modbus Protocol. Each \nparameter is held in two consecutive 4X registers. Modbus Protocol Function Code 03 is used \nto read the parameter and Function Code 16 is used to write. Write to only one parameter per \nmessage."
+  },
+  {
+    "chunk_id": 14,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "The holding register parameters may be viewed or changed using the Modbus Protocol. Each \nparameter is held in two consecutive 4X registers. Modbus Protocol Function Code 03 is used \nto read the parameter and Function Code 16 is used to write. Write to only one parameter per \nmessage. \n \n1.3.1 SDM630Modbus MODBUS Protocol Holding Register Parameters \n  \n \nAddress \nRegister \n  \n \nParameter \nNumber \n \n \nParamet-\ner \n  Modbus  \nProtocol \n Start \nAddress \nHex \n \n           \n \n         Valid range \n   \n   \n \nMode \nHigh \nByte \nLow \nByte \n40003 \n2 \nDemand \nPeriod \n00 \n02 \nWrite demand period: 0, 5,8, 10,  \n15, 20, 30 or 60 minutes, default \n60. Setting the period to 0 will \ncause the demand to show the \ncurrent parameter value, and \ndemand max to show the \nmaximum parameter value since \nlast demand reset. \n \nLength : 4 byte \nData Format : Float \nr/w \n40011 \n6 \nSystem \nType \n00 \n0A \nWrite system type: 3p4w = 3, 3p3w \n= 2 & 1p2w= 1 \nRequires password, see parameter \n13 \n \nLength : 4 byte \nr/wp"
+  },
+  {
+    "chunk_id": 15,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Data Format : Float \n40013 \n7 \nPulse1 \nWidth \n00 \nOC \nWrite pulse1 on period in \nmilliseconds: 60, 100 or 200, \ndefault 100. \n \nLength : 4 byte \nData Format : Float \nr/w \n40015 \n8 \nPassword \nLock \n00 \nOE \nWrite any value to password lock \nprotected registers. \nRead password lock status: \n0 = locked. 1 = unlocked. \nReading will also reset the \npassword timeout back to one \nminute. \n \nLength : 4 byte \nData Format : Float \nr \n40019 \n10 \nNetwork \nParity Stop \n00 \n12 \nWrite the network port parity/stop \nbits for MODBUS Protocol, where: \n0 = One stop bit and no parity, \ndefault. 1 = One stop bit and even \nparity. 2 = One stop bit and odd \nparity.3 = Two stop bits and no \nparity.Requires a restart to become \neffective. \n \nLength : 4 byte \nData Format : Float \nr/w \n40021 \n11 \nNetwork \nNode \n00 \n14 \nWrite the network port node \naddress: 1 to 247 for MODBUS \nProtocol, default 1. Requires a \nrestart to become effective.  \n \nLength : 4 byte \nData Format : Float \nr/w \n40023 \n12 \nPulse1 \nDivisor1"
+  },
+  {
+    "chunk_id": 16,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "effective. \n \nLength : 4 byte \nData Format : Float \nr/w \n40021 \n11 \nNetwork \nNode \n00 \n14 \nWrite the network port node \naddress: 1 to 247 for MODBUS \nProtocol, default 1. Requires a \nrestart to become effective.  \n \nLength : 4 byte \nData Format : Float \nr/w \n40023 \n12 \nPulse1 \nDivisor1 \n00 \n16 \nWrite pulse divisor index: n \n= 0 to 5 \n0--0.0025 kWh(kVArh)/imp \n1--0.01 kWh(kVArh)/imp \n2--0.1 kWh(kVArh)/imp \n3—1 kWh(kVArh)/imp \n4-10 kWh(kVArh)/imp \n5-100 kWh(kVArh)/imp \n \nLength : 4 byte \nData Format : Float \nr/w \n40025 \n13 \nPassword \n00 \n18 \nWrite password for access to \nprotected registers.  \nr/w"
+  },
+  {
+    "chunk_id": 17,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Register Order controls the order in which the Eastron Digital meter receives or sends \nfloating-point numbers: - normal or reversed register order. In normal mode, the two registers \nthat make up a floating point number are sent most significant register first. In reversed \nregister mode, the two registers that make up a floating point number are sent least significant \nregister first. To set the mode, write the value '2141.0' into this register - the instrument will \ndetect the order used to send this value and set that order for all Modbus Protocol transactions \ninvolving floating point numbers. \nIt is perfectly feasible to change Eastron Digital meter set-up using a general purpose Modbus \nProtocol master, but often easier to use the Eastron Digital meter display or Eastron Digital \nmeter configurator software, especially for gaining password protected access. The Eastron \nDigital meter configurator software has facilities to store configurations to disk for later retrieval"
+  },
+  {
+    "chunk_id": 18,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Protocol master, but often easier to use the Eastron Digital meter display or Eastron Digital \nmeter configurator software, especially for gaining password protected access. The Eastron \nDigital meter configurator software has facilities to store configurations to disk for later retrieval \nand rapid set up of similarly configured products. \nPassword \nLength : 4 byte \nData Format : Float  \n40029 \n15 \nNetwork \nBaud Rate \n00 \n1C \nWrite the network port baud rate \nfor MODBUS Protocol, where: \n0 = 2400 baud. 1 = 4800 baud. \n2 = 9600 baud, default. \n3 = 19200 baud. 4 = 38400 baud. \nLength : 4 byte \nData Format : Float \nr/w \n40087 \n44 \nPulse 1 \nEnergy \nType \n00 \n56 \nWrite MODBUS Protocol \ninput parameter for pulse \noutput 1: \n1: import active energy  \n2: total active energy \n4: export active energy, default \n5: import reactive energy \n6: total reactive energy \n8: export reactive energy \nLength : 4 byte \nData Format : Float \nr/w \n461457 \n30729 \nReset \nF0 \n10 \n00 00: reset the Maximum demand"
+  },
+  {
+    "chunk_id": 19,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "output 1: \n1: import active energy  \n2: total active energy \n4: export active energy, default \n5: import reactive energy \n6: total reactive energy \n8: export reactive energy \nLength : 4 byte \nData Format : Float \nr/w \n461457 \n30729 \nReset \nF0 \n10 \n00 00: reset the Maximum demand \nLength: 2 byte \nData Format: Hex  \nwo \n464513 \n464513 \nSerial \nnumber \nFC \n00 \nSerial number \nLength: 4 byte \nData Format: unsigned int32 \nNote: Only read \nro"
+  },
+  {
+    "chunk_id": 20,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Some of the parameters described above are password protected and thus require the \npassword to be entered at the Password register before they can be changed. The default \npassword is 0000. When the password has been entered it will timeout in one minute unless \nthe Password or Password Lock register is read to reset the timeout timer. Once the required \nchanges have been made to the protected parameters the password lock should be reapplied \nby \na) allowing the password to timeout, or \nb) writing any value to the Password Lock register, or \nc) power cycling the instrument. \n \n2 RS485 General Information \nSome of the information in this section relates to other Eastron Digital meter product families, \nand is included to assist where a mixed network is implemented.RS485 or EIA (Electronic \nIndustries Association) RS485 is a balanced line, half-duplex transmission system allowing \ntransmission distances of up to 1.2 km. The following table summarizes the RS-485 Standard: \n \nPARAMETER"
+  },
+  {
+    "chunk_id": 21,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "and is included to assist where a mixed network is implemented.RS485 or EIA (Electronic \nIndustries Association) RS485 is a balanced line, half-duplex transmission system allowing \ntransmission distances of up to 1.2 km. The following table summarizes the RS-485 Standard: \n \nPARAMETER \n \nMode of Operation \nDifferential \nNumber of Drivers and Receivers \n32 Drivers, 32 Receivers \nMaximum Cable Length \n1200 m \nMaximum Data Rate \n10 M baud \nMaximum Common Mode Voltage \n12 V to –7 V \nMinimum Driver Output Levels (Loaded) \n+/– 1.5 V \nMinimum Driver Output Levels (Unloaded) \n+/– 6 V \nDrive Load \nMinimum 60 ohms \nDriver Output Short Circuit Current Limit \n150 mA to Gnd, \n250 mA to 12 V \n250 mA to –7 V \nMinimum Receiver Input Resistance \n12 kohms \nReceiver Sensitivity \n+/– 200 mV \n \nFurther information relating to RS485 may be obtained from either the EIA or the various \nRS485 device manufacturers, for example Texas Instruments or Maxim Semiconductors. This \nlist is not exhaustive."
+  },
+  {
+    "chunk_id": 22,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Minimum Receiver Input Resistance \n12 kohms \nReceiver Sensitivity \n+/– 200 mV \n \nFurther information relating to RS485 may be obtained from either the EIA or the various \nRS485 device manufacturers, for example Texas Instruments or Maxim Semiconductors. This \nlist is not exhaustive. \n \n2.1 Half Duplex \nHalf duplex is a system in which one or more transmitters (talkers) can communicate with one \nor more receivers (listeners) with only one transmitter being active at any one time. For \nexample, a “conversation” is started by asking a question, the person who has asked the \nquestion will then listen until he gets an answer or until he decides that the individual who was \nasked the question is not going to reply. \nIn a 485 network the “master” will start the “conversation” with a “query” addressed to a \nspecific “slave”, the “master” will then listen for the “slave’s” response. If the “slave” does not"
+  },
+  {
+    "chunk_id": 23,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "asked the question is not going to reply. \nIn a 485 network the “master” will start the “conversation” with a “query” addressed to a \nspecific “slave”, the “master” will then listen for the “slave’s” response. If the “slave” does not \nrespond within a pre-defined period, (set by control software in the “master”), the “master” will"
+  },
+  {
+    "chunk_id": 24,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "abandon the “conversation”. \n \n2.2 Connecting the Instruments \nIf connecting an RS485 network to a PC use caution if contemplating the use of an RS232 to \n485 converter together with a USB to RS485 adapter. Consider either an RS232 to RS485 \nconverter, connected directly to a suitable RS232 jack on the PC, or use a USB to RS485 \nconverter or, for desktop PCs a suitable plug in RS485 card. (Many 232:485 converters draw \npower from the RS232 socket. If using a USB to RS232 adapter, the adapter may not have \nenough power available to run the 232:485 converter.) \nScreened twisted pair cable should be used. For longer cable runs or noisier environments, \nuse of a cable specifically designed for RS485 may be necessary to achieve optimum \nperformance. All “A” terminals should be connected together using one conductor of the \ntwisted pair cable, all “B” terminals should be connected together using the other conductor in \nthe pair. The cable screen should be connected to the “Gnd” terminals."
+  },
+  {
+    "chunk_id": 25,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "performance. All “A” terminals should be connected together using one conductor of the \ntwisted pair cable, all “B” terminals should be connected together using the other conductor in \nthe pair. The cable screen should be connected to the “Gnd” terminals. \nA Belden 9841 (Single pair) or 9842 (Two pair) or similar cable with a characteristic impedance \nof 120 ohms is recommended. The cable should be terminated at each end with a 120 ohm, \nquarter watt (or greater) resistor. Note: Diagram shows wiring topology only. Always follow \nterminal identification on Eastron Digital meter product label. \n \nThere must be no more than two wires connected to each terminal, this ensures that a “Daisy \nChain or “straight line” configuration is used. A “Star” or a network with “Stubs (Tees)” is not \nrecommended as reflections within the cable may result in data corruption. \n \n2.3 A and B terminals"
+  },
+  {
+    "chunk_id": 26,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "The A and B connections to the Eastron Digital meter products can be identified by the signals \npresent on them whilst there is activity on the RS485 bus: \n \n2.4 Troubleshooting \n·Start with a simple network, one master and one slave. With Eastron Digital meter products this is easily \nachieved as the network can be left intact whilst individual instruments are disconnected by removing the \nRS485 connection from the rear of the instrument. \n·Check that the network is connected together correctly. That is all of the “A’s” are connected together, \nand all of the “B’s” are connected together, and also that all of the “Gnd’s” are connected together. \n·Confirm that the data “transmitted” onto the RS485 is not echoed back to the PC on the RS232 \nlines.(This facility is sometimes a link option within the converter). Many PC based packages seem to not \nperform well when they receive an echo of the message they are transmitting. SpecView and PCView"
+  },
+  {
+    "chunk_id": 27,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "·Confirm that the data “transmitted” onto the RS485 is not echoed back to the PC on the RS232 \nlines.(This facility is sometimes a link option within the converter). Many PC based packages seem to not \nperform well when they receive an echo of the message they are transmitting. SpecView and PCView \n(PC software) with a RS232 to RS485 converter are believed to include this feature. \n·Confirm that the Address of the instrument is the same as the “master” is expecting. \n·If the “network” operates with one instrument but not more than one check that each instrument has a \nunique address. \n· Each request for data must be restricted to 40 parameters or less. Violating this requirement will impact \nthe performance of the instrument and may result in a response time in excess of the specification. \n·Check that the MODBUS Protocol mode (RTU or ASCII) and serial parameters (baud rate, number of \ndata bits, number of stop bits and parity) are the same for all devices on the network."
+  },
+  {
+    "chunk_id": 28,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "the performance of the instrument and may result in a response time in excess of the specification. \n·Check that the MODBUS Protocol mode (RTU or ASCII) and serial parameters (baud rate, number of \ndata bits, number of stop bits and parity) are the same for all devices on the network. \n·Check that the “master” is requesting floating-point variables (pairs of registers placed on floating point \nboundaries) and is not “splitting” floating point variables. \n·Check that the floating-point byte order expected by the “master” is the same as that used by Eastron \nDigital meter products. (PCView and Citect packages can use a number of formats including that \nsupported by Eastron Digital meter). \n·If possible obtain a second RS232 to RS485 converter and connect it between the RS485 bus and an \nadditional PC equipped with a software package, which can display the data on the bus. Check for the \nexistence of valid requests. \n \n3 MODBUS Protocol General Information"
+  },
+  {
+    "chunk_id": 29,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "·If possible obtain a second RS232 to RS485 converter and connect it between the RS485 bus and an \nadditional PC equipped with a software package, which can display the data on the bus. Check for the \nexistence of valid requests. \n \n3 MODBUS Protocol General Information \nCommunication on a MODBUS Protocol Network is initiated (started) by a “Master” sending a \nquery to a “Slave”. The “Slave“, which is constantly monitoring the network for queries \naddressed to it, will respond by performing the requested action and sending a response back \nto the ”Master”. Only the “Master” can initiate a query."
+  },
+  {
+    "chunk_id": 30,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "In the MODBUS Protocol the master can address individual slaves, or, using a special \n“Broadcast” address, can initiate a broadcast message to all slaves. The Eastron Digital meter \ndo not support the broadcast address. \n \n3.1 MODBUS Protocol Message Format \nThe MODBUS Protocol defines the format for the master’s query and the slave’s response. \nThe query contains the device (or broadcast) address, a function code defining the requested \naction, any data to be sent, and an error-checking field. \nThe response contains fields confirming the action taken, any data to be returned, and an \nerror-checking field. If an error occurred in receipt of the message then the message is ignored, \nif the slave is unable to perform the requested action, then it will construct an error message \nand send it as its response. The MODBUS Protocol functions used by the Eastron Digital \nmeters copy 16 bit register values between master and slaves. However, the data used by the"
+  },
+  {
+    "chunk_id": 31,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "if the slave is unable to perform the requested action, then it will construct an error message \nand send it as its response. The MODBUS Protocol functions used by the Eastron Digital \nmeters copy 16 bit register values between master and slaves. However, the data used by the \nEastron Digital meter is in 32 bit IEEE 754 floating point format. Thus each instrument \nparameter is conceptually held in two adjacent MODBUS Protocol registers. Query \nThe following example illustrates a request for a single floating point parameter i.e. two 16-bit \nModbus Protocol Registers. \n \nFirst Byte                                                                  Last Byte \n Slave \nAddress \nFunction \nCode \nStart \nAddress \n(Hi) \nStart \nAddress \n(Lo) \nNumber \nof \nPoints \n(Hi) \nNumber \nof \nPoints \n(Lo) \nNumber \nof \nPoints \n(Lo) \nError \nCheck \n(Lo) \nError \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the slave being addressed (1 to 247), 0 is reserved for"
+  },
+  {
+    "chunk_id": 32,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Slave \nAddress \nFunction \nCode \nStart \nAddress \n(Hi) \nStart \nAddress \n(Lo) \nNumber \nof \nPoints \n(Hi) \nNumber \nof \nPoints \n(Lo) \nNumber \nof \nPoints \n(Lo) \nError \nCheck \n(Lo) \nError \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the slave being addressed (1 to 247), 0 is reserved for \nthe broadcast address. The Eastron Digital meters do not support the broadcast address. \nFunction Code: 8-bit value telling the addressed slave what action is to be performed. (3, 4, 8 \nor 16 are valid for Eastron Digital meter) \nStart Address (Hi): The top (most significant) eight bits of a 16-bit number specifying the start \naddress of the data being requested. \nStart Address (Lo): The bottom (least significant) eight bits of a 16-bit number specifying the \nstart address of the data being requested. As registers are used in pairs and start at \nzero, then this must be an even number. \nNumber of Points (Hi): The top (most significant) eight bits of a 16-bit number specifying the"
+  },
+  {
+    "chunk_id": 33,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "start address of the data being requested. As registers are used in pairs and start at \nzero, then this must be an even number. \nNumber of Points (Hi): The top (most significant) eight bits of a 16-bit number specifying the \nnumber of registers being requested. \nNumber of Points (Lo): The bottom (least significant) eight bits of a 16-bit number specifying"
+  },
+  {
+    "chunk_id": 34,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "the number of registers being requested. As registers are used in pairs, then this must be an \neven number. \nError Check (Lo): The bottom (least significant) eight bits of a 16-bit number representing the \nerror check value. \nError Check (Hi): The top (most significant) eight bits of a 16-bit number representing the error \ncheck value. \n \nResponse \nThe example illustrates the normal response to a request for a single floating point parameter \ni.e. two 16-bit Modbus Protocol Registers. \nFirst Byte                                                              Last Byte                  \nSlave \nAddress \nFunction \nCode \nByte \nCount \nFirst \nRegister \n(Hi) \nFirst \nRegister \n(Lo) \nSecond \nRegister \n(Hi) \nSecond \nRegister \n(Lo) \nError \nCheck \n(Lo) \nError \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the address of slave that is responding. \nFunction Code: 8-bit value which, when a copy of the function code in the query, indicates that"
+  },
+  {
+    "chunk_id": 35,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "(Hi) \nFirst \nRegister \n(Lo) \nSecond \nRegister \n(Hi) \nSecond \nRegister \n(Lo) \nError \nCheck \n(Lo) \nError \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the address of slave that is responding. \nFunction Code: 8-bit value which, when a copy of the function code in the query, indicates that \nthe slave recognised the query and has responded. (See also Exception Response). \nByte Count: 8-bit value indicating the number of data bytes contained within this response \nFirst Register (Hi)*: The top (most significant) eight bits of a 16-bit number representing the \nfirst register requested in the query. \nFirst Register (Lo)*: The bottom (least significant) eight bits of a 16-bit number representing \nthe first register requested in the query. \nSecond Register (Hi)*: The top (most significant) eight bits of a 16-bit number representing the \nsecond register requested in the query. \nSecond Register (Lo)*: The bottom (least significant) eight bits of a 16-bit number representing"
+  },
+  {
+    "chunk_id": 36,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "the first register requested in the query. \nSecond Register (Hi)*: The top (most significant) eight bits of a 16-bit number representing the \nsecond register requested in the query. \nSecond Register (Lo)*: The bottom (least significant) eight bits of a 16-bit number representing \nthe second register requested in the query. \nError Check (Lo): The bottom (least significant) eight bits of a 16-bit number representing the \nerror check value. \nError Check (Hi): The top (most significant) eight bits of a 16-bit number representing the error \ncheck value. \n*These four bytes together give the value of the floating point parameter requested. \n \nException Response \nIf an error is detected in the content of the query (excluding parity errors and Error Check \nmismatch), then an error response (called an exception response), will be sent to the master. \nThe exception response is identified by the function code being a copy of the query function"
+  },
+  {
+    "chunk_id": 37,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "If an error is detected in the content of the query (excluding parity errors and Error Check \nmismatch), then an error response (called an exception response), will be sent to the master. \nThe exception response is identified by the function code being a copy of the query function \ncode but with the most-significant bit set. The data contained in an exception response is a \nsingle byte error code. \n \nFirst Byte                                                             Last Byte \nSlave \nAddress \nFunction \nCode \nError \nCode \nError \nCheck \n(Lo) \nError \nCheck \n(Hi)"
+  },
+  {
+    "chunk_id": 38,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Slave Address: 8-bit value representing the address of slave that is responding. \nFunction Code: 8 bit value which is the function code in the query OR'ed with 80 hex, \nindicating that the slave either does not recognise the query or could not carry out the action \nrequested. \nError Code: 8-bit value indicating the nature of the exception detected. (See “Table Of \nException Codes“ later). \nError Check (Lo): The bottom (least significant) eight bits of a 16-bit number representing the \nerror check value. \nError Check (Hi): The top (most significant) eight bits of a 16-bit number representing the error \ncheck value. \n \n3.2 Serial Transmission Modes \nThere are two MODBUS Protocol serial transmission modes, ASCII and RTU. Eastron Digital \nmeters do not support the ASCII mode. \nIn RTU (Remote Terminal Unit) mode, each 8-bit byte is used in the full binary range and is not \nlimited to ASCII characters as in ASCII Mode. The greater data density allows better data"
+  },
+  {
+    "chunk_id": 39,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "meters do not support the ASCII mode. \nIn RTU (Remote Terminal Unit) mode, each 8-bit byte is used in the full binary range and is not \nlimited to ASCII characters as in ASCII Mode. The greater data density allows better data \nthroughput for the same baud rate, however each message must be transmitted in a \ncontinuous stream. This is very unlikely to be a problem for modern communications \nequipment. \n \nCoding System: Full 8-bit binary per byte. In this document, the value of each byte will be \nshown as two hexadecimal characters each in the range 0-9 or A-F. \nLine Protocol: 1 start bit, followed by the 8 data bits. The 8 data bits are sent with least \nsignificant bit first. \nUser Option Of Parity No Parity and 2 Stop Bits \nAnd Stop Bits: No Parity and 1 Stop Bit \nEven Parity and 1 Stop Bit \nOdd Parity and 1 Stop Bit. \nUser Option of Baud 2400; 4800 ; 9600 ; 19200 ; 38400  \n \nThe baud rate, parity and stop bits must be selected to match the master’s settings."
+  },
+  {
+    "chunk_id": 40,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "User Option Of Parity No Parity and 2 Stop Bits \nAnd Stop Bits: No Parity and 1 Stop Bit \nEven Parity and 1 Stop Bit \nOdd Parity and 1 Stop Bit. \nUser Option of Baud 2400; 4800 ; 9600 ; 19200 ; 38400  \n \nThe baud rate, parity and stop bits must be selected to match the master’s settings. \n \n3.3 MODBUS Protocol Message Timing (RTU Mode) \nA MODBUS Protocol message has defined beginning and ending points. The receiving \ndevices recognizes the start of the message, reads the “Slave Address” to determine if they \nare being addressed and knowing when the message is completed they can use the Error \nCheck bytes and parity bits to confirm the integrity of the message. If the Error Check or parity \nfails then the message is discarded. \nIn RTU mode, messages starts with a silent interval of at least 3.5 character times. \nThe first byte of a message is then transmitted, the device address. \nMaster and slave devices monitor the network continuously, including during the ‘silent’"
+  },
+  {
+    "chunk_id": 41,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "fails then the message is discarded. \nIn RTU mode, messages starts with a silent interval of at least 3.5 character times. \nThe first byte of a message is then transmitted, the device address. \nMaster and slave devices monitor the network continuously, including during the ‘silent’ \nintervals. When the first byte (the address byte) is received, each device checks it to find out if \nit is the addressed device. If the device determines that it is the one being addressed it records \nthe whole message and acts accordingly, if it is not being addressed it continues monitoring for"
+  },
+  {
+    "chunk_id": 42,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "the next message. \nFollowing the last transmitted byte, a silent interval of at least 3.5 character times marks the \nend of the message. A new message can begin after this interval. \nIn the Eastron 1000 and 2000, a silent interval of 60msec minimum is required in order to \nguarantee successful reception of the next request. \nThe entire message must be transmitted as a continuous stream. If a silent interval of more \nthan 1.5 character times occurs before completion of the message, the receiving device \nflushes the incomplete message and assumes that the next byte will be the address byte of a \nnew message. \nSimilarly, if a new message begins earlier than 3.5 character times following a previous \nmessage, the receiving device may consider it a continuation of the previous message. This \nwill result in an error, as the value in the final CRC field will not be valid for the combined \nmessages. \n \n3.4 How Characters are Transmitted Serially"
+  },
+  {
+    "chunk_id": 43,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "message, the receiving device may consider it a continuation of the previous message. This \nwill result in an error, as the value in the final CRC field will not be valid for the combined \nmessages. \n \n3.4 How Characters are Transmitted Serially \nWhen messages are transmitted on standard MODBUS Protocol serial networks each byte is \nsent in this order (left to right): \nTransmit Character = Start Bit + Data Byte + Parity Bit + 1 Stop Bit (11 bits total): \n       Least Significant Bit (LSB)                        Most Significant Bit (MSB) \n \n \nStart \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nParty \nStop \n \nTransmit Character = Start Bit + Data Byte + 2 Stop Bits (11 bits total): \nStart \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nStop \nStop \n \n \nEastron Digital meters additionally support No parity, One stop bit. \nTransmit Character = Start Bit + Data Byte + 1 Stop Bit (10 bits total): \nStart \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nStop \n \nThe master is configured by the user to wait for a predetermined timeout interval. The master"
+  },
+  {
+    "chunk_id": 44,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "7 \n8 \nStop \nStop \n \n \nEastron Digital meters additionally support No parity, One stop bit. \nTransmit Character = Start Bit + Data Byte + 1 Stop Bit (10 bits total): \nStart \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nStop \n \nThe master is configured by the user to wait for a predetermined timeout interval. The master \nwill wait for this period of time before deciding that the slave is not going to respond and that \nthe transaction should be aborted. Care must be taken when determining the timeout period \nfrom both the master and the slaves’ specifications. The slave may define the ‘response time’ \nas being the period from the receipt of the last bit of the query to the transmission of the first bit \nof the response. The master may define the ‘response time’ as period between transmitting the \nfirst bit of the query to the receipt of the last bit of the response. It can be seen that message \ntransmission time, which is a function of the baud rate, must be included in the timeout \ncalculation."
+  },
+  {
+    "chunk_id": 45,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "3.5 Error Checking Methods \nStandard MODBUS Protocol serial networks use two error checking processes, the error \ncheck bytes mentioned above check message integrity whilst Parity checking (even or odd) \ncan be applied to each byte in the message. \n \n3.5.1 Parity Checking \nIf parity checking is enabled – by selecting either Even or Odd Parity - the quantity of “1’s” will \nbe counted in the data portion of each transmit character. The parity bit will then be set to a 0 \nor 1 to result in an Even or Odd total of “1’s”. \nNote that parity checking can only detect an error if an odd number of bits are picked up or \ndropped in a transmit character during transmission, if for example two 1’s are corrupted to 0’s \nthe parity check will not find the error. \nIf No Parity checking is specified, no parity bit is transmitted and no parity check can be made. \nAlso, if No Parity checking is specified and one stop bit is selected the transmit character is \neffectively shortened by one bit."
+  },
+  {
+    "chunk_id": 46,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "the parity check will not find the error. \nIf No Parity checking is specified, no parity bit is transmitted and no parity check can be made. \nAlso, if No Parity checking is specified and one stop bit is selected the transmit character is \neffectively shortened by one bit. \n \n3.5.2 CRC Checking \nThe error check bytes of the MODBUS Protocol messages contain a Cyclical Redundancy \nCheck (CRC) value that is used to check the content of the entire message. The error check \nbytes must always be present to comply with the MODBUS Protocol, there is no option to \ndisable it. \nThe error check bytes represent a 16-bit binary value, calculated by the transmitting device. \nThe receiving device must recalculate the CRC during receipt of the message and compare \nthe calculated value to the value received in the error check bytes. If the two values are not \nequal, the message should be discarded. \nThe error check calculation is started by first pre-loading a 16-bit register to all 1’s (i.e. Hex"
+  },
+  {
+    "chunk_id": 47,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "the calculated value to the value received in the error check bytes. If the two values are not \nequal, the message should be discarded. \nThe error check calculation is started by first pre-loading a 16-bit register to all 1’s (i.e. Hex \n(FFFF)) each successive 8-bit byte of the message is applied to the current contents of the \nregister. Note: only the eight bits of data in each transmit character are used for generating the \nCRC, start bits, stop bits and the parity bit, if one is used, are not included in the error check \nbytes. \nDuring generation of the error check bytes, each 8-bit message byte is exclusive OR'ed with \nthe lower half of the 16 bit register. The register is then shifted eight times in the direction of \nthe least significant bit (LSB), with a zero filled into the most significant bit (MSB) position. After \neach shift the LSB prior to the shift is extracted and examined. If the LSB was a 1, the register"
+  },
+  {
+    "chunk_id": 48,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "the least significant bit (LSB), with a zero filled into the most significant bit (MSB) position. After \neach shift the LSB prior to the shift is extracted and examined. If the LSB was a 1, the register \nis then exclusive OR'ed with a pre-set, fixed value. If the LSB was a 0, no exclusive OR takes"
+  },
+  {
+    "chunk_id": 49,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "place. \nThis process is repeated until all eight shifts have been performed. After the last shift, the next \n8-bit message byte is exclusive OR'ed with the lower half of the 16 bit register, and the process \nrepeated. The final contents of the register, after all the bytes of the message have been \napplied, is the error check value. In the following pseudo code “Error Word” is a 16-bit value \nrepresenting the error check values. \n \nBEGIN \n      Error Word = Hex (FFFF) \n      FOR Each byte in message \n           Error Word = Error Word XOR byte in message \n           FOR Each bit in byte \n                 LSB = Error Word AND Hex (0001) \n                 IF LSB = 1 THEN Error Word = Error Word – 1 \n                 Error Word = Error Word / 2 \n                 IF LSB = 1 THEN Error Word = Error Word XOR Hex (A001) \n            NEXT bit in byte \nNEXT Byte in message \nEND \n \n3.6 Function Codes \nThe function code part of a MODBUS Protocol message defines the action to be taken by the"
+  },
+  {
+    "chunk_id": 50,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Error Word = Error Word / 2 \n                 IF LSB = 1 THEN Error Word = Error Word XOR Hex (A001) \n            NEXT bit in byte \nNEXT Byte in message \nEND \n \n3.6 Function Codes \nThe function code part of a MODBUS Protocol message defines the action to be taken by the \nslave. Eastron Digital meters support the following function codes: \nCode \nMODBUS Protocol \nname \nDescription \n03 \nRead Holding \nRegisters \nRead the contents of read/write \nlocation(4X references) \n04 \nRead Input Registers \nRead the contents of read only \nlocation(3X references) \n08 \nDiagnostics \nOnly sub-function zero is supported. \nThis returns the data element of the \nquery unchanged. \n15 \nPre-set Multiple \nRegisters \nSet the contents of read/write \nlocation (4X references) \n \n3.7 IEEE floating point format \nThe MODBUS Protocol defines 16 bit “Registers” for the data variables. A 16-bit number would \nprove too restrictive, for energy parameters for example, as the maximum range of a 16-bit"
+  },
+  {
+    "chunk_id": 51,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Registers \nSet the contents of read/write \nlocation (4X references) \n \n3.7 IEEE floating point format \nThe MODBUS Protocol defines 16 bit “Registers” for the data variables. A 16-bit number would \nprove too restrictive, for energy parameters for example, as the maximum range of a 16-bit \nnumber is 65535. \nHowever, there are a number of approaches that have been adopted to overcome this \nrestriction. Eastron Digital meters use two consecutive registers to represent a floating-point \nnumber, effectively expanding the range to +/- 1x1037. \nThe values produced by Eastron Digital meters can be used directly without any requirement \nto “scale” the values, for example, the units for the voltage parameters are volts, the units for"
+  },
+  {
+    "chunk_id": 52,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "the power parameters are watts etc. \nWhat is a floating point Number? \nA floating-point number is a number with two parts, a mantissa and an exponent and is written \nin the form 1.234 x 105. The mantissa (1.234 in this example) must have the decimal point \nmoved to the right with the number of places determined by the exponent (5 places in this \nexample) i.e. 1.234x 105 = 123400. If the exponent is negative the decimal point is moved to \nthe left. \nWhat is an IEEE 754 format floating-point number? \nAn IEEE 754 floating point number is the binary equivalent of the decimal floating-point \nnumber shown above. The major difference being that the most significant bit of the mantissa \nis always arranged to be 1 and is thus not needed in the representation of the number. The \nprocess by which the most significant bit is arranged to be 1 is called normalization, the \nmantissa is thus referred to as a “normal mantissa”. During normalization the bits in the"
+  },
+  {
+    "chunk_id": 53,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "is always arranged to be 1 and is thus not needed in the representation of the number. The \nprocess by which the most significant bit is arranged to be 1 is called normalization, the \nmantissa is thus referred to as a “normal mantissa”. During normalization the bits in the \nmantissa are shifted to the left whilst the exponent is decremented until the most significant bit \nof the mantissa is one. In the special case where the number is zero both mantissa and \nexponent are zero. \n \nThe bits in an IEEE 754 format have the following significance: \nData Hi Reg, \nHi Byte. \nData Hi Reg, \nLo Byte. \nData Lo Reg, \nHi Byte. \nData Lo Reg, \nLo Byte. \nSEEE \nEEEE \nEMMM \nMMMM \nMMMM \nMMMM \nMMMM \nMMMM \n \nWhere: \nS represents the sign bit where 1 is negative and 0 is positive \nE is the 8-bit exponent with an offset of 127 i.e. an exponent of zero is represented by 127, an \nexponent of 1 by 128 etc. \nM is the 23-bit normal mantissa. The 24th bit is always 1 and, therefore, is not stored."
+  },
+  {
+    "chunk_id": 54,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "MMMM \n \nWhere: \nS represents the sign bit where 1 is negative and 0 is positive \nE is the 8-bit exponent with an offset of 127 i.e. an exponent of zero is represented by 127, an \nexponent of 1 by 128 etc. \nM is the 23-bit normal mantissa. The 24th bit is always 1 and, therefore, is not stored. \n \nUsing the above format the floating point number 240.5 is represented as 43708000 hex: \nData Hi Reg, \nHi Byte \nData Hi Reg, \nLo Byte \nData Lo Reg, \nHi Byte \nData Lo Reg, \nLo Byte \n43 \n70 \n80 \n00 \n \nThe following example demonstrates how to convert IEEE 754 floating-point numbers from \ntheir hexadecimal form to decimal form. For this example, we will use the value for 240.5 \nshown above \nNote that the floating-point storage representation is not an intuitive format. To convert this \nvalue to decimal, the bits should be separated as specified in the floating-point number storage \nformat table shown above. \nFor example: \nData Hi Reg, \nHi Byte \nData Hi Reg, \nLo Byte \nData Lo Reg, \nHi Byte"
+  },
+  {
+    "chunk_id": 55,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "value to decimal, the bits should be separated as specified in the floating-point number storage \nformat table shown above. \nFor example: \nData Hi Reg, \nHi Byte \nData Hi Reg, \nLo Byte \nData Lo Reg, \nHi Byte \nData Lo Reg, \nLo Byte \n0100 0011 \n0111 0000 \n1000 0000 \n0000 0000"
+  },
+  {
+    "chunk_id": 56,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "From this you can determine the following information. \n·The sign bit is 0, indicating a positive number. \n·The exponent value is 10000110 binary or 134 decimal. Subtracting 127 from 134 leaves 7, \nwhich is the actual exponent. \n·The mantissa appears as the binary number 11100001000000000000000 \nThere is an implied binary point at the left of the mantissa that is always preceded by a 1. This \nbit is not stored in the hexadecimal representation of the floating-point number. Adding 1 and \nthe binary point to the beginning of the mantissa gives the following: \n1.11100001000000000000000 \nNow, we adjust the mantissa for the exponent. A negative exponent moves the binary point to \nthe left. A positive exponent moves the binary point to the right. Because the exponent is 7, the \nmantissa is adjusted as follows: \n11110000.1000000000000000 \nFinally, we have a binary floating-point number. Binary bits that are to the left of the binary \npoint represent"
+  },
+  {
+    "chunk_id": 57,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "the left. A positive exponent moves the binary point to the right. Because the exponent is 7, the \nmantissa is adjusted as follows: \n11110000.1000000000000000 \nFinally, we have a binary floating-point number. Binary bits that are to the left of the binary \npoint represent \nthe power of two corresponding to their position. For example, 11110000 represents (1 x 27) + \n(1 x 26) + (1x 25) + (1 x 24) + (0 x 23)+ (0 x 22) + (0 x 21)+ (0 x 20) = 240. \nBinary bits that are to the right of the binary point also represent a power of 2 corresponding to \ntheir position. As the digits are to the right of the binary point the powers are negative. For \nexample: .100 represents (1 x 2-1) + (0 x 2-2)+ (0 x 2-3) + … which equals 0.5. \nAdding these two numbers together and making reference to the sign bit produces the number \n+240.5. \n \nFor each floating point value requested two MODBUS Protocol registers (four bytes) must be"
+  },
+  {
+    "chunk_id": 58,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "example: .100 represents (1 x 2-1) + (0 x 2-2)+ (0 x 2-3) + … which equals 0.5. \nAdding these two numbers together and making reference to the sign bit produces the number \n+240.5. \n \nFor each floating point value requested two MODBUS Protocol registers (four bytes) must be \nrequested. The received order and significance of these four bytes for Eastron Digital meters is \nshown below: \nData Hi Reg, \nHi Byte \nData Hi Reg, \nLo Byte \nData Lo Reg, \nHi Byte \nData Lo Reg, \nLo Byte \n \n3.8 MODBUS Protocol Commands supported \nAll Eastron Digital meters support the “Read Input Register” (3X registers), the “Read Holding \nRegister” (4X registers) and the “Pre-set Multiple Registers” (write 4X registers) commands of \nthe MODBUS Protocol RTU protocol. All values stored and returned are in floating point format \nto IEEE 754 with the most significant register first. \n \n3.8.1 Read Input Registers \nMODBUS Protocol code 04 reads the contents of the 3X registers. \n \nExample"
+  },
+  {
+    "chunk_id": 59,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "the MODBUS Protocol RTU protocol. All values stored and returned are in floating point format \nto IEEE 754 with the most significant register first. \n \n3.8.1 Read Input Registers \nMODBUS Protocol code 04 reads the contents of the 3X registers. \n \nExample \nThe following query will request ‘Volts 1’ from an instrument with node address 1: \nField Name \nExample(Hex) \nSlave Address \n01 \nFunction \n04 \nStarting Address High \n00"
+  },
+  {
+    "chunk_id": 60,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Starting Address Low \n00 \nNumber of Points High \n00 \nNumber of Points Low \n02 \nError Check Low \n71 \nError Check High \nCB \n \nNote: Data must be requested in register pairs i.e. the “Starting Address“ and the “Number of \nPoints” must be even numbers to request a floating point variable. If the “Starting Address” or \nthe “Number of points” is odd then the query will fall in the middle of a floating point variable \nthe product will return an error message. \nThe following response returns the contents of Volts 1 as 230.2. But see also “Exception \nResponse” later. \n \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n04 \nByte Count \n04 \nData, High Reg, High Byte \n43 \nData, High Reg, Low Byte \n66 \nData, Low Reg, High Byte \n33 \nData, Low Reg, Low Byte \n34 \nError Check Low \n1B \nError Check High \n38 \n \n3.9 Holding Registers \n3.9.1 Read Holding Registers \nMODBUS Protocol code 03 reads the contents of the 4X registers. \nExample \nThe following query will request the prevailing ‘Demand Time’:"
+  },
+  {
+    "chunk_id": 61,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "66 \nData, Low Reg, High Byte \n33 \nData, Low Reg, Low Byte \n34 \nError Check Low \n1B \nError Check High \n38 \n \n3.9 Holding Registers \n3.9.1 Read Holding Registers \nMODBUS Protocol code 03 reads the contents of the 4X registers. \nExample \nThe following query will request the prevailing ‘Demand Time’: \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n03 \nStarting Address High \n00 \nStarting Address Low \n00 \nNumber of Points High \n00 \nNumber of Points Low \n02 \nError Check Low \nC4 \nError Check High \n0B \nNote: Data must be requested in register pairs i.e. the “Starting Address“ and the “Number of \nPoints” must be even numbers to request a floating point variable. If the “Starting Address” or \nthe “Number of points” is odd then the query will fall in the middle of a floating point variable \nthe product will return an error message."
+  },
+  {
+    "chunk_id": 62,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "The following response returns the contents of Demand Time as 1, But see also “Exception \nResponse” later. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n03 \nByte Count \n04 \nData, High Reg, High Byte \n3F \nData, High Reg, Low Byte \n80 \nData, Low Reg, High Byte \n00 \nData, Low Reg, Low Byte \n00 \nError Check Low \nF7 \nError Check High \nCF \n \n3.9.2 Write Holding Registers \nMODBUS Protocol code 10 (16 decimal) writes the contents of the 4X registers. \nExample \nThe following query will set the Demand Period to 60, which effectively resets the Demand \nTime: \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n10 \nStarting Address High \n00 \nStarting Address Low \n02 \nNumber of Registers High \n00 \nNumber of Registers Low \n02 \nByte Count \n04 \nData, High Reg, High Byte \n42 \nData, High Reg, Low Byte \n70 \nData, Low Reg, High Byte \n00 \nData, Low Reg, Low Byte \n00 \nError Check Low \n67 \nError Check High \nD5"
+  },
+  {
+    "chunk_id": 63,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "10 \nStarting Address High \n00 \nStarting Address Low \n02 \nNumber of Registers High \n00 \nNumber of Registers Low \n02 \nByte Count \n04 \nData, High Reg, High Byte \n42 \nData, High Reg, Low Byte \n70 \nData, Low Reg, High Byte \n00 \nData, Low Reg, Low Byte \n00 \nError Check Low \n67 \nError Check High \nD5 \n \nNote: Data must be written in register pairs i.e. the “Starting Address“ and the “Number of \nPoints” must be even numbers to write a floating point variable. If the “Starting Address” or the \n“Number of points” is odd then the query will fall in the middle of a floating point variable the \nproduct will return an error message. In general only one floating point value can be written per \nquery \n \nThe following response indicates that the write has been successful. But see also “Exception \nResponse”later. \nField Name \nExample (Hex) \nSlave Address \n01"
+  },
+  {
+    "chunk_id": 64,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Function \n10 \nStarting Address High \n00 \nStarting Address Low \n02 \nNumber of Registers High \n00 \nNumber of Registers Low \n02 \nError Check Low \nE0 \nError Check High \n08 \n \n3.10 Exception Response \nIf the slave in the “Write Holding Register” example above, did not support that function then it \nwould have replied with an Exception Response as shown below. The exception function code \nis the original function code from the query with the MSB set i.e. it has had 80 hex logically \nORed with it. The exception code indicates the reason for the exception. The slave will not \nrespond at all if there is an error with the parity or CRC of the query. However, if the slave can \nnot process the query then it will respond with an exception. In this case a code 01, the \nrequested function is not support by this slave. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n10 OR 80 = 90 \nException Code \n01 \nError Check Low \n8D \nError Check High \nC0 \n \n3.11 Exception Codes"
+  },
+  {
+    "chunk_id": 65,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "not process the query then it will respond with an exception. In this case a code 01, the \nrequested function is not support by this slave. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n10 OR 80 = 90 \nException Code \n01 \nError Check Low \n8D \nError Check High \nC0 \n \n3.11 Exception Codes \n3.11.1 Table of Exception Codes \nEastron Digital meters support the following function codes: \nException \nCode \nMODBUS \nProtocol name \nDescription \n01 \nIllegal Function \nThe function code is not supported by the \nproduct \n02 \nIllegal Data Address \nAttempt to access an invalid address or an \nattempt to read or write part of a floating point \nvalue \n03 \nIllegal Data Value \nAttempt to set a floating point variable to an \ninvalid value \n05 \nSlave Device Failure \nAn error occurred when the instrument \nattempted to store an update to it’s \nconfiguration \n \n3.12 Diagnostics \nMODBUS Protocol code 08 provides a number of diagnostic sub-functions. Only the “Return"
+  },
+  {
+    "chunk_id": 66,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "Attempt to set a floating point variable to an \ninvalid value \n05 \nSlave Device Failure \nAn error occurred when the instrument \nattempted to store an update to it’s \nconfiguration \n \n3.12 Diagnostics \nMODBUS Protocol code 08 provides a number of diagnostic sub-functions. Only the “Return \nQuery Data” sub-function (sub-function 0) is supported on Eastron Digital meters. \nExample"
+  },
+  {
+    "chunk_id": 67,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM630_MODBUS_Protocol.pdf",
+    "content": "The following query will send a diagnostic “return query data” query with the data elements set \nto Hex(AA) and Hex(55) and will expect these to be returned in the response: \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n08 \nSub-Function High \n00 \nSub-Function Low \n00 \nData Byte 1 \nAA \nData Byte 2 \n55 \nError Check Low \n5E \nError Check High \n94 \n \nNote: Exactly one register of data (two bytes) must be sent with this function. \nThe following response indicates the correct reply to the query, i.e. the same bytes as the \nquery. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n08 \nSub-Function High \n00 \nSub-Function Low \n00 \nData Byte 1 \nAA \nData Byte 2 \n55 \nError Check Low \n5E \nError Check High \n94"
+  }
+]

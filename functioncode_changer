@@ -1,0 +1,91 @@
+from pathlib import Path
+import json
+
+TXT_DIR = Path("golden_keyValues")   # mappen med txt-filer
+JSON_DIR = Path("golden_configs")    # mappen med json-filer
+
+REQ_KEY = "subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data"
+RESP_KEY = "subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data"
+
+
+def read_keyvalues(txt_path: Path):
+    values = {}
+
+    with txt_path.open("r", encoding="utf-8-sig") as f:
+        for line in f:
+            line = line.strip()
+            if not line or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            values[key.strip()] = value.strip()
+
+    return values
+
+
+def fix_json_using_txt(txt_path: Path, json_path: Path):
+    kv = read_keyvalues(txt_path)
+
+    req_should_be_3 = kv.get(REQ_KEY) == "3"
+    resp_should_be_3 = kv.get(RESP_KEY) == "3"
+
+    if not req_should_be_3 and not resp_should_be_3:
+        print(f"[INGEN ÄNDRING] {json_path.name} - txt säger inte 3")
+        return
+
+    with json_path.open("r", encoding="utf-8-sig") as f:
+        data = json.load(f)
+
+    changed = False
+
+    try:
+        req_obj = data["subnetwork"]["nodes"][0]["transactions"][0]["frames"][0]["frameObjects"][1]["properties"]
+        resp_obj = data["subnetwork"]["nodes"][0]["transactions"][0]["frames"][1]["frameObjects"][1]["properties"]
+
+        if req_should_be_3 and req_obj.get("name") == "function_code" and req_obj.get("data") != 3:
+            req_obj["data"] = 3
+            changed = True
+
+        if resp_should_be_3 and resp_obj.get("name") == "function_code" and resp_obj.get("data") != 3:
+            resp_obj["data"] = 3
+            changed = True
+
+    except (KeyError, IndexError, TypeError):
+        print(f"[SKIP] Fel struktur i {json_path.name}")
+        return
+
+    if changed:
+        with json_path.open("w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+        print(f"[OK] Fixade {json_path.name}")
+    else:
+        print(f"[INGEN ÄNDRING] {json_path.name}")
+
+
+def main():
+    txt_files = sorted(TXT_DIR.glob("*.txt"))
+
+    if not txt_files:
+        print("Inga txt-filer hittades.")
+        return
+
+    for txt_path in txt_files:
+        stem = txt_path.stem
+
+        # Exempel:
+        # abc_keyValues.txt -> abc.json
+        if stem.endswith("_keyValues"):
+            base_name = stem[:-10]
+        else:
+            base_name = stem
+
+        json_path = JSON_DIR / f"{base_name}.json"
+
+        if not json_path.exists():
+            print(f"[SKIP] Hittar ingen matchande json för {txt_path.name}")
+            continue
+
+        fix_json_using_txt(txt_path, json_path)
+
+
+if __name__ == "__main__":
+    main()

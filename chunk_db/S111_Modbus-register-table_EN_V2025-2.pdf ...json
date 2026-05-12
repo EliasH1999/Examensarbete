@@ -1,0 +1,416 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "English\nModbus Register Table \nS111 \nRevision: 2025-2 \nLast modifications: May, 2025"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "Table of Contents\n 1 Modbus Communication...............................................................4\n 1.1 Modbus Communication settings..............................................4\n 1.2 Modbus/RTU data frame.........................................................4\n 1.3 PDU Request data Format.......................................................5\n 1.4 Function code........................................................................5\n 1.5 Register list..........................................................................5\n 1.5.1 Data type list..................................................................6\n 1.5.2 Configure the device via the Modbus/RTU...........................7\n 1.6 Modbus/RTU Function code ....................................................7\n 1.6.1 Function code (0x10=16) Operation Instructions.................7\n 1.6.2 Function code (0x03=3) operation instructions .................10"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1.6 Modbus/RTU Function code ....................................................7\n 1.6.1 Function code (0x10=16) Operation Instructions.................7\n 1.6.2 Function code (0x03=3) operation instructions .................10\n 1.6.3 Error response ..............................................................11\n 1.7 List of configuration instructions............................................12\n 1.7.1 System parameter setting ..............................................12\n 1.7.2 Parameter setting of A, B, C current transformers..............12\n 1.7.3 Parameter setting of N-phase current transformer..............13\n 1.7.4 Direction setting of phase ABC current..............................13\n 1.7.5 Channel setting of phase ABC current...............................14\n 1.7.6 Zero drift suppression setting..........................................14\n 1.7.7 Demand parameter setting..............................................15"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1.7.5 Channel setting of phase ABC current...............................14\n 1.7.6 Zero drift suppression setting..........................................14\n 1.7.7 Demand parameter setting..............................................15\n 1.7.8 Tariff mode setting ........................................................15\n 1.7.9 Manual tariff setting.......................................................15\n 1.7.10 RTC tariff period setting................................................15\n 1.7.11 RTC tariff select setting ................................................16\n 1.7.12 Device time setting.......................................................16\n 1.7.13 Communication parameter setting..................................17\n 1.7.14 Reset setting...............................................................17\n 1.8 Register list.........................................................................18"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1.7.13 Communication parameter setting..................................17\n 1.7.14 Reset setting...............................................................17\n 1.8 Register list.........................................................................18\n 1.9 Modbus Register List............................................................19\n 1.9.1 Equipment parameters ...................................................19\n 1.9.2 Communication parameter..............................................19\n 1.9.3 Voltage and current phase sequence.................................20\n 1.9.4 Configure instruction register...........................................20\n 1.9.5 Power system ...............................................................21\n 1.9.6 Current direction setting.................................................22\n 1.9.7 Current channel selection................................................23\n 1.9.8 Zero drift suppression parameter  ...................................23"
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1.9.6 Current direction setting.................................................22\n 1.9.7 Current channel selection................................................23\n 1.9.8 Zero drift suppression parameter  ...................................23\n 1.9.9 Tariff parameter.............................................................24\n 1.9.10 Voltage, current, power, power factor  ............................25\n 1.9.11 Energy........................................................................27\n2\nS111"
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1.9.12 Tariff Energy................................................................29\n 1.9.13 Demand parameters.....................................................30\n 1.9.14 Voltage and current harmonic register ............................33\n 1.9.15 Max. value and Min. value ............................................35\n 1.9.16 Unbalancedness ..........................................................38\n 1.9.17 Current K-factor and crest factor register .......................38\n 1.9.18 Voltage and current angle register..................................38\nS111\n3"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1  Modbus Communication\nCommunication port\nRS-485\nCommunication protocol\nModbus/RTU\nThe S111 adopts the standard Modbus/RTU protocol.\n 1.1  Modbus Communication settings\nBefore performing the Modbus/RTU communication, the following \nparameters need to be set via the meter interface.\nParameter\n Effective value \nDefault value\nAddress\n1–247 \n1\nBaud rate \n-1200 \n-2400 \n-4800 \n-9600 \n-19200 \n-38400 \n-57600\n-115200 \n9600\nData bits\n8\n8\nParity check\n– None \n– Odd \n– Even \nNone\nStop bit\n1 – 2 \n1\n 1.2  Modbus/RTU data frame\nModbus/RTU data frame consists of 4 parts: Address field, Function \ncode, Data, and Error verification.\n4\nS111"
+  },
+  {
+    "chunk_id": 8,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.3  PDU Request data Format\nFunction code\nData\n8-Bits\nN×8-Bits\n 1.4  Function code\nFunction codes are used to indicate how the device processes the \ninstruction. The following table shows the available function codes and \ntheir descriptions.\nFunction code\nName of function\ncode\nFunction\nDecimal\nHexadecimal\n3\n03H\nRead holding register\nUsed to read meter’s \nparameters\n16\n10H\nWrite multiple \nregisters\nUsed to configure meter \nparameters\n 1.5  Register list\nThe register list has the following entries:\nRegister\nname\nRegister\naddress\nOperation\nRead/write\nRegister\nnumber\nType\nUnit\nDescription\n•\nRegister name: used to indicate the purpose of the register.\n•\nRegister address: the address of Modbus register in decimal.\n•\nOperation: used to indicate the operation that the register can \nperform. \n◦R: read only\n◦W: write\n◦WC: write by register instruction\n•\nNumber of registers: indicates how many int16 sizes the register \nhas.\n•\nType: describes the type of data.\n•"
+  },
+  {
+    "chunk_id": 9,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "•\nOperation: used to indicate the operation that the register can \nperform. \n◦R: read only\n◦W: write\n◦WC: write by register instruction\n•\nNumber of registers: indicates how many int16 sizes the register \nhas.\n•\nType: describes the type of data.\n•\nUnit: indicates the unit of the register value.\n•\nDescription: a description of the register.\nS111\n5"
+  },
+  {
+    "chunk_id": 10,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.5.1  Data type list\nThe following table lists the data types used in this document:\nType\nDescription\nRange\nUInt16\n16-bit unsigned integer\n0–65535\nInt16\n16-bit signed integer\n-32768–+32767\nUInt32\n32-bit unsigned integer\n0–4 294 967 295\nUInt64\n64-bit unsigned integer\n0–18 446 744 073 709 551 615\nUTF8\n8-bit UTF\nMulti-byte unicode coding\nFloat32\n32-bit floating point\nnumber\nStandard IEEE floating point \nnumbers (single precision)\nDate\nTime\nDate and Time types\n-\nTime\nTime type\n-\nData Time format\nByte\nPosition\n15\n14\n13\n12\n11\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\n1\nYear (2000–2099)\n2\nMonth (1–12)\nDay (1–31)\n3\nHour (0–23)\nSecond (0–59)\n4\nSecond (0–59)\nTime format \nByte\nPosition\n15\n14\n13\n12\n11\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\n1\nHour  (0–23)\n2\nSecond (0–59)\n3\nSecond (0–59)\n6\nS111"
+  },
+  {
+    "chunk_id": 11,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.5.2  Configure the device via the Modbus/RTU\nYou can use the function code 16 to write instructions to the device and \nconfigure the device parameters.\nThe device parameters can only be configured by writing the \ncorresponding data to the \"configuration instruction register\", that is, \nwriting the corresponding data to the address starting from 300 to \nconfigure the parameters.\nConfiguration results:\nThe configuration results can be obtained by reading registers 424 and \n425.\nRegister \naddress\nDescription\nSize\n(UInt16)\nData (example)\n424\nConfiguration\ninstruction code\n1\n1001 (set Date Time)\n425\nConfiguration\nresults\n1\n0 = configuration successful \n80 = invalid instruction code\n81 = invalid parameter value\n82 = number of invalid parameters\n83 = instruction not executed\n 1.6  Modbus/RTU Function code \n 1.6.1  Function code (0x10=16) Operation Instructions\nThe function code (0x10=16) is used to configure parameters of the"
+  },
+  {
+    "chunk_id": 12,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "80 = invalid instruction code\n81 = invalid parameter value\n82 = number of invalid parameters\n83 = instruction not executed\n 1.6  Modbus/RTU Function code \n 1.6.1  Function code (0x10=16) Operation Instructions\nThe function code (0x10=16) is used to configure parameters of the \ndevice, and its request and return instructions are defined as follows:\nData format of the request command:\nNo.\nName\nType\nRange\n(Decimal)\nDescription\n1\nDevice address\nUInt8\n1-247\n2\nFunction code\nUInt8\n16\n3\nRegister start address\nUInt16\n-\nHigh byte first (sending sequence)\n4\nNumber of \nconfiguration registers\nUInt16\n1-123\nHigh byte first (sending sequence)\n5\nData length\nUInt8\nNumber of configuration registers *\n2\n6\nFirst register \nconfiguration data\nUInt16\n-\nHigh byte first (sending sequence)\nS111\n7"
+  },
+  {
+    "chunk_id": 13,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n7\n…\nUInt16\n-\nHigh byte first (sending sequence)\n8\nNth register \nconfiguration data\nUInt16\n-\nHigh byte first (sending sequence)\n9\nCRC-16 parity code\nUInt16\n-\nLow byte first (sending sequence)\nData format of the reture command:\nNo.\nName\nType\nRange\n(Decimal)\nDescription\n1\nDevice address\nUInt8\n1-247\n2\nFunction code\nUInt8\n16\n3\nRegister start address\nUInt16\n300\nHigh byte first\n4\nNumber of configuration registers\nUInt16\n1-123\nHigh byte first\n5\nCRC-16 parity code\nUInt16\n-\nLow byte first\nAttention!\nThe function code (0x10=16) can only write data to the \"configuration \ninstruction register\", that is, it can only write data to the register \nstarting from the address 300.\nFor example: Configure the device time (command =1200, set to: \n2022-11-1 12:20:00)\nNo.\nName\nType\nValue\n(Decimal\n)\nValue\n(HEX)\nDescription\n1\nDevice address\nUInt8\n1\n01\n2\nFunction code\nUInt8\n16\n10\n3\nData byte \nlength\nUInt16\n300\n012C\nConfiguration register start \naddress\n4\nNumber of read\nregisters\nUInt16\n7"
+  },
+  {
+    "chunk_id": 14,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "2022-11-1 12:20:00)\nNo.\nName\nType\nValue\n(Decimal\n)\nValue\n(HEX)\nDescription\n1\nDevice address\nUInt8\n1\n01\n2\nFunction code\nUInt8\n16\n10\n3\nData byte \nlength\nUInt16\n300\n012C\nConfiguration register start \naddress\n4\nNumber of read\nregisters\nUInt16\n7\n0007\nConfigure Time.\nThe instruction and parameter \nuse a total of 7 registers.\n5\nData length\nUInt8\n14\n0E\nNumber of configuration \nregisters * 2\n6\nRegister 300 \nwrite value\nUInt16\n1200\n04B0\nInstruction code 1200 to \nconfigure time\n7\nRegister 301 \nwrite value\nUInt16\n2022\n07E6\nYear of configuration time = \n2022\n8\nRegister 302 \nUInt16\n11\n000B\nMonth of configuration time = 11\n8\nS111"
+  },
+  {
+    "chunk_id": 15,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nwrite value\n9\nRegister 303 \nwrite value\nUInt16\n1\n0001\nDay of configuration time = 1\n10\nRegister 304 \nwrite value\nUInt16\n12\n000C\nTime of configuration = 12\n11\nRegister 305 \nwrite value\nUInt16\n20\n0014\nMinutes  of  configuration  time\n=20\n12\nRegister 306 \nwrite value\nUInt16\n0\n0000\nSeconds of configuration time = \n0\n13\nCRC-16 parity \ncode\nUInt16\n35524\n8AC4\nlow byte first(sending sequence)\nThe order of sending bytes is as follows:\n01 10 01 2C 00 07 0E 04 B0 07 E6 00 0B 00 01 00 0C 00 14 00 00 C4 8A\nAfter the configuration is successful, the received data packets are as \nfollows:\n01 10 01 2C 00 07 41 FE \nNo.\nName\nType\nValue\n(Decimal)\nValue (HEX)\n1\nDevice address\nUInt8\n01\n1\n2\nFunction code\nUInt8\n10\n16\n3\nRegister start address\nUInt16\n012C\n300\n4\nNumber of configuration registers\nUInt16\n0007\n7\n5\nCRC-16 parity code\nUInt16\n41FE\nS111\n9"
+  },
+  {
+    "chunk_id": 16,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.6.2  Function code (0x03=3) operation instructions \nThe function code (0x03=3) is to read parameters of the device register.\nIts request data and return data format are as follows: \nRequest data format:\nNo.\nName\nType\nRange\n(Decimal)\nDescription\n1\nDevice address\nUInt8\n1-247\n2\nFunction code\nUInt8\n3\n3\nRegister start address\nUInt16\n-\nHigh byte first \n(sending sequence)\n4\nNumber of read\nregisters\nUInt16\n1 – 125\nHigh byte first\n(sending sequence)\n5\nCRC-16 parity code\nUInt16\n-\nLow byte first\n(sending sequence)\nReturn data format:\nNo.\nName\nType\nRange\n(Decimal)\nDescription\n1\nDevice address\nUInt8\n1-247\n2\nFunction code\nUInt8\n3\n3\nData byte length\nUInt8\n-\nNumber of read registers * 2\n4\n1st register data\n \n-\nHigh byte first\n5\n…\n \n-\nHigh byte first\n6\nThe nth register data\n \n-\nHigh byte first\n7\nCRC-16 parity code\nUInt16\n-\nLow byte first\nExample of reading device parameters:\nRead the voltage values of A, B and C (the starting address of the \nvoltage register is 1010): \nNo."
+  },
+  {
+    "chunk_id": 17,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "4\n1st register data\n \n-\nHigh byte first\n5\n…\n \n-\nHigh byte first\n6\nThe nth register data\n \n-\nHigh byte first\n7\nCRC-16 parity code\nUInt16\n-\nLow byte first\nExample of reading device parameters:\nRead the voltage values of A, B and C (the starting address of the \nvoltage register is 1010): \nNo.\nName\nType\nRange\n(Decimal)\nRange\n(HEX)\nDescription\n1\nDevice address\nUInt8\n1\n0x01\n2\nFunction code\nUInt8\n3\n0x03\n3\nRegister start address\nUInt16\n1010\n0x03F2\n4\nNumber of read registers\nUInt16\n6\n0x0006\n10\nS111"
+  },
+  {
+    "chunk_id": 18,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n5\nCRC-16 parity code\nUInt16\n32612\n0x7F64\nLow byte first \n(sending sequence)\nThe order of sending bytes is as follows:\n01 03 03 F2 00 06 64 7F \nThe received packets are as follows:\n01 03 0C 43 5C 00 00 43 5D 00 00 43 5E 00 00 14 AC\nNo.\nName\nType\nHex\nDecimal \n1\nDevice address\nUInt8\n01\n1\n2\nFunction code\nUInt8\n03\n3\n3\nNumber of bytes of reading register\nUInt8\n0C\n12\n4\nPhase A voltage\nfloat32\n435C0000\n220V\n5\nPhase B voltage\nfloat32\n435D0000\n221V\n6\nPphase C voltage\nfloat32\n435E0000\n222V\n7\nCRC-16 parity code\nUInt16\n14AC\n 1.6.3  Error response \nError response data format:\nNo.\nName\nType\nDecimal\nHexadecimal\nDescription\n1\nDevice address\nUInt8\n1-247\n0x01-0xF7\n2\nFunction code\nUInt8\n(128+3)\n(128+16)\n(0x80+0x03)\n(0x80+0x10)\n \n3\nError code\nUInt8\n \n \n4\nCRC-16 parity \ncode\nUInt16\nLow byte first \nModbus Error code: \nCode\n(HEX)\nName\nDescription\n0x01\nIllegal function code\nThe function codes 3 or 6 supported by the device is \nnot used.\n0x02\nIllegal data address"
+  },
+  {
+    "chunk_id": 19,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "2\nFunction code\nUInt8\n(128+3)\n(128+16)\n(0x80+0x03)\n(0x80+0x10)\n \n3\nError code\nUInt8\n \n \n4\nCRC-16 parity \ncode\nUInt16\nLow byte first \nModbus Error code: \nCode\n(HEX)\nName\nDescription\n0x01\nIllegal function code\nThe function codes 3 or 6 supported by the device is \nnot used.\n0x02\nIllegal data address\nThe register data written or read is not a supported \naddress range.\n0x03\nIllegal data value\nThe data value written to the register does not meet \nthe requirements.\n0x04\nDevice error\nAn unknown error occurred\nS111\n11"
+  },
+  {
+    "chunk_id": 20,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.7  List of configuration instructions\n 1.7.1  System parameter setting \nInstruction\ncode\nR/\nW\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n1001\nW\n1\nUInt16\n-\n0, 1, 2, 3, 4, 5\nWiring mode\n0=3P4W_4CT\n1=3P4W_3CT\n2=3P3W_3CT\n3=3P3W_2CT\n4=1P3W\n5=1P2W\nW\n1\nUInt16\nHz\n50, 60\nGrid frequency\nW\n1\nUInt16\nV\n1-65535\nNominal voltage (not \nincluding VT ratio)\nW\n2\nUInt32\n-\n1-99999999\nVT ratio, 10000 times \nmagnification\nW\n2\nUInt32\n-\n1-99999999\nCT ratio, 10000 times \nmagnification\n 1.7.2  Parameter setting of A, B, C current transformers\nInstruction\ncode\nR/\nW\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n0\nW\n1\nUInt16\n-\n0, 1\nPhase A, B, C current \naccess mode\n 0 = Rogowski coil access\n 1 = VCT access\nW\n2\nUInt32\nA\n1 - 999999\nPhase A, B, C Rogowski \ncoil input value\nW\n2\nUInt32\nmV@50Hz\nmV@60Hz\n1 - 99999\nPhase A, B, CRogowski \ncoil output\n=Actual value*100\nNote: The output should \nbe set according to the \nset power grid frequency.\nW\n2\nUInt32\nA\n1 - 999999\nNominal current of phase"
+  },
+  {
+    "chunk_id": 21,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 = VCT access\nW\n2\nUInt32\nA\n1 - 999999\nPhase A, B, C Rogowski \ncoil input value\nW\n2\nUInt32\nmV@50Hz\nmV@60Hz\n1 - 99999\nPhase A, B, CRogowski \ncoil output\n=Actual value*100\nNote: The output should \nbe set according to the \nset power grid frequency.\nW\n2\nUInt32\nA\n1 - 999999\nNominal current of phase \nA, B, C Rogowski coil\nW\n2\nUInt32\nA\n1 - 999999\nPhase A, B, C VCT input \nvalue\nW\n2\nUInt32\nmV\n1 - 99999\nPhase A, B, C VCT \n12\nS111"
+  },
+  {
+    "chunk_id": 22,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\noutput =Actual value*100\nW\n2\nUInt32\nA\n1-999999\nVCT nominal current of \nphase A, B, C \n 1.7.3  Parameter setting of N-phase current transformer\nInstruction\ncode\nR/\nW\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n1003\nW\n1\nUInt16\n-\n0, 1\nPhase N current access \nmode\n0 = Rogowski coil access\n1 = VCT access\nW\n2\nUInt32\nA\n1-999999\nPhase N Rogowski coil \ninput value\nW\n2\nUInt32\nMV@\n50 Hz\nmV@\n60 Hz\n1-99999\nPhase N Rogowski coil \noutput\n=Actual value*100\nNote: The output should \nbe set according to the \nset power grid frequency.\nW\n2\nUInt32\nA\n1-999999\nNominal current of phase \nN Rogowski coil\nW\n2\nUInt32\nA\n1-999999\nPhase N VCT input value\nW\n2\nUInt32\nmV\n1-99999\nPhase N VCT output\n=Actual value*100\nW\n2\nUInt32\nA\n1-999999\nVCT nominal current of \nphase N\n 1.7.4  Direction setting of phase ABC current\nWhen the coil direction is different from the actual one, you can use this\nconfiguration to change the current direction.\nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription"
+  },
+  {
+    "chunk_id": 23,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "W\n2\nUInt32\nA\n1-999999\nVCT nominal current of \nphase N\n 1.7.4  Direction setting of phase ABC current\nWhen the coil direction is different from the actual one, you can use this\nconfiguration to change the current direction.\nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n1010\nW\n1\nUInt16\n-\n0, 1\nCurrent direction of phase A\n0 = Forward (Default)\n1 = Reverse\nW\n1\nUInt16\n-\n0, 1\nCurrent direction of phase B\n0 = Forward (Default)\n1 = Reverse\nS111\n13"
+  },
+  {
+    "chunk_id": 24,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nW\n1\nUInt16\n-\n0, 1\nCurrent direction of phase C\n0 = Forward (Default)\n1 = Reverse\n 1.7.5  Channel setting of phase ABC current\nWhen the current and voltage do not match, you can use this \nconfiguration to modify the current channel selection to make the phase\nof current and voltage consistent.\nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n1011\nW\n1\nUInt16\n-\n0, 1, 2\nChannel selection of phase A\n0 = Current channel 1 (Default)\n1 = Current channel 2\n2 = Current channel 3\nW\n1\nUInt16\n-\n0, 1, 2\nChannel selection of phase B\n0 = Current channel 1 \n1 = Current channel 2 (Default)\n2 = Current channel 3\nW\n1\nUInt16\n-\n0, 1, 2\nChannel selection of phase C\n0 = Current channel 1 \n1 = Current channel 2\n2 = Current channel 3 (Default)\n 1.7.6  Zero drift suppression setting\nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n 1020\nW\n1\nUInt16\n%\n0~1000\nVoltage zero drift suppression\nTake (nominal voltage * VT \nvariable ratio) as a"
+  },
+  {
+    "chunk_id": 25,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "0 = Current channel 1 \n1 = Current channel 2\n2 = Current channel 3 (Default)\n 1.7.6  Zero drift suppression setting\nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n 1020\nW\n1\nUInt16\n%\n0~1000\nVoltage zero drift suppression\nTake (nominal voltage * VT \nvariable ratio) as a \nreference = Actual value * 100\nDefault: 10\nW\n1\nUInt16\n%\n0~1000\nCurrent zero drift suppression\nTake (nominal current * VT \nvariable ratio) as a \nreference = Actual value * 100\nDefault: 10\n14\nS111"
+  },
+  {
+    "chunk_id": 26,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.7.7  Demand parameter setting\nInstruction\ncode\nR/\nW\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n1060\nW\n1\nUInt16\n-\n0, 1\nDemand calculation method\n0= fixed, 1= sliding type\nW\n1\nUInt16\nminute\n01/01/60\nDemand calculation interval\n 1.7.8  Tariff mode setting \nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n1070\nW\n1\nUInt16\n-\n0, 1\nTariff switch mode\n 0 = Manual switch \n 1 = RTC switch\n 1.7.9  Manual tariff setting\nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n 1071\nW\n1\nUInt16\n-\n0 - 5\nManual tariff setting\n1 = Tariff select 1\n2 = Tariff select 2\n…\n5 = Tariff select 6\nNote: This setting is only \nvalid if the tariff mode is \nmanual switching.\n 1.7.10  RTC tariff period setting\nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n1072\nW\n3\nTime\n-\n-\nTa Start time\nW\n3\nTime\n-\n-\nTb Start time\nW\n3\nTime\n-\n-\nTc Start time\nW\n3\nTime\n-\n-\nTd Start time\nW\n3\nTime\n-\n-\nTe Start time\nS111\n15"
+  },
+  {
+    "chunk_id": 27,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nW\n3\nTime\n-\n-\nTf Start time\n 1.7.11  RTC tariff select setting \nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n1073\nW\n1\nUInt16\n-\n0 - 5\nTa Tariff select\n0 = Tariff 1\n1 = Tariff 2\n…\n5=Tariff 6\nW\n1\nUInt16\n-\n0 - 5\nTb Tariff select\nW\n1\nUInt16\n-\n0 - 5\nTc Tariff select\nW\n1\nUInt16\n-\n0 - 5\nTd Tariff select\nW\n1\nUInt16\n-\n0 - 5\nTe Tariff select\nW\n1\nUInt16\n-\n0 - 5\nTf Tariff select\n 1.7.12  Device time setting\nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n1200\nW\n1\nUInt16\n-\n2000-2099\nYear\nW\n1\nUInt16\n-\n1-12\nMonth\nW\n1\nUInt16\n-\n1-31\nDate\nW\n1\nUInt16\n-\n0-23\nHour\nW\n1\nUInt16\n-\n0-59\nMinute\nW\n1\nUInt16\n-\n0-59\nSecond\n16\nS111"
+  },
+  {
+    "chunk_id": 28,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.7.13  Communication parameter setting\nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n1210\nW\n1\nUInt16\n-\n1-247\nSlave address\nW\n1\nUInt16\n-\n0-6\nBaud rate\n 0 = 2400  \n 1 = 4800   \n 2 = 9600 \n 3 = 19200   \n 4 = 38400\n 5 = 57600\n 6 = 115200\nW\n1\nUInt16\n-\n0, 1, 2\nParity check\n 0 = none check \n 1 = odd check  \n 2 = even check\nW\n1\nUInt16\n-\n1, 2\nStop bit\n 1 = 1bit\n 2 = 2bit\n 1.7.14  Reset setting\nInstruction\ncode\nR/W\nSize\nType\nUnit\nRange\n(Decimal)\nDescription\n1301\nW\n1\nUInt16\n-\n1-5\n1: Reset Max. and Min.\n2: Reset Demand Max\n3: Reset Tariff Energy\n4: Reset Energy\n5: Reset ALL\nS111\n17"
+  },
+  {
+    "chunk_id": 29,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.8  Register list\nThe register list has the following headings:\nRegister\nalias\nRegister\naddress\nPperation\nRead/Write\nSize\nType\nUnit\nDescription\n•\nRegister alias: Used to refer to the meaning of registers\n•\nRegister address: The initial address of Modbus communication \nregister is in decimal format, and the address is the real address \nwithout offset.\n•\nOperation: Indicates the operation that the register can perform.\n◦R: readable\n◦W: It can be written directly through function code 16\n◦WC: the current register needs to be configured indirectly by \nwriting configuration data to the address starting from the \ninstruction register 300.\n•\nSize: Indicates how many Modbus registers are occupied. One \nModbus register is 16 bit.\n•\nType: For the type of data code, see the Data type table\n•\nUnit: Unit of register value\n•\nDescription: the function of this register.\nData type table\nType\nDescription\nRange\nUInt16\nUnsigned 16 bits integer\n0 ~ 65535\nInt16"
+  },
+  {
+    "chunk_id": 30,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "Modbus register is 16 bit.\n•\nType: For the type of data code, see the Data type table\n•\nUnit: Unit of register value\n•\nDescription: the function of this register.\nData type table\nType\nDescription\nRange\nUInt16\nUnsigned 16 bits integer\n0 ~ 65535\nInt16\nSigned 16 bits integer\n-32768 ~ +32767\nUInt32\nUnsigned 32-bit integer\n0 ~ 4294967295 \nUInt64\nUnsigned 64 bits integer\n0 ~ 18446744073709551615\nInt64\nSigned 64 bits integer\n-9223372036854775808 ~ \n9223372036854775808\nUTF8\n8-bit UTF code\nMultibyte Unicode encoding\nFloat32\n32-bit floating point\nStandard IEEE floating point data (single \nprecision)\nDate Time\nTime type\n-\n18\nS111"
+  },
+  {
+    "chunk_id": 31,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nData Time format\nByte\nPosition\n15\n14\n13\n12\n11\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n1\nYear(2000–2099)\n2\nMonth (1–12)\nDate (1 – 31)\n3\nHour (0–23)\nMinute (0 – 59)\n4\nSecond (0–59999)\n 1.9  Modbus Register List\n 1.9.1  Equipment parameters \nRegister alias\nRegister\naddress\n(decimal)\nR/\nW\nSize\nType\nUnit\nDescription\nDevice model\n60\nR\n10\nUTF8\n-\nSerial No.\n70\nR\n2\nUInt3 2\n-\nAPP Version\nNo.\n72\nR\n1\nUInt1 6\n-\nFormat: X.Y\nDate and time\n75\nR/\nWC\n4\nDate\ntime\n -\nReg.75: Year 2000-2099 \nReg.76: Month (b15:b8), \nDate (b7:b0) \nReg. 77: Hour (b15:b8) , \nMinute  (b7:b0)\nReg. 78: Second\n 1.9.2  Communication parameter\nRegister\nalias\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nSlave\naddress\n80\nR/WC\n1\nUInt16\n-\n1-247\nBaud rate\n81\nR/WC\n1\nUInt16\n-\n0=2400, 1=4800   \n2=9600, 3=19200   \n4=38400, 5=57600\n6=115200\nParity\n82\nR/WC\n1\nUInt16\n-\n0 = None \n1 =  Odd, 2 = Even\nStop bit\n83\nR/WC\n1\nUInt16\n-\n0 = 1 bit,  1 = 2 bit\nS111\n19"
+  },
+  {
+    "chunk_id": 32,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.9.3  Voltage and current phase sequence\nRegister\nalias\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nVoltage\ncurrent\nphase\nsequence\nstate\n220\nR\n1\nUInt16\n-\n1\n0 = voltage sequence is \ncorrect, current sequence is \ncorrect\n2\n1 = voltage sequence wrong,  \nccurrent sequence correct\n3\n2 = voltage sequence correct, \ncurrent sequence wrong\n4\n3 = voltage sequence wrong,  \ncurrent sequence wrong\nNote: Current phase sequence may be errors when the current is less than 1% of the \nnominal current\n 1.9.4  Configure instruction register\nRegister\nalias\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nInstruction\ncode\n300\nR/W\n1\nUInt16\n-\nInstruction\nparameters\n0 01\n301\nR/W\n1\nUInt16\n-\nInstruction\nparameters\n0 02\n302\nR/W\n1\nUInt16\n-\n…\n…\nR/W\n1\nUInt16\n-\nInstruction\nparameters\n1 23\n423\nR/W\n1\nUInt16\n-\nConfiguratio\nn instruction\ncode \n424\nR\n1\nUInt16\n-\nConfiguratio\nn results \n425\nR\n1\nUInt16\n-\n0 = valid operation\n80 = invalid instruction code"
+  },
+  {
+    "chunk_id": 33,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "parameters\n0 01\n301\nR/W\n1\nUInt16\n-\nInstruction\nparameters\n0 02\n302\nR/W\n1\nUInt16\n-\n…\n…\nR/W\n1\nUInt16\n-\nInstruction\nparameters\n1 23\n423\nR/W\n1\nUInt16\n-\nConfiguratio\nn instruction\ncode \n424\nR\n1\nUInt16\n-\nConfiguratio\nn results \n425\nR\n1\nUInt16\n-\n0 = valid operation\n80 = invalid instruction code\n81 = invalid instruction \nparameter\n82 = number of invalid \n20\nS111"
+  },
+  {
+    "chunk_id": 34,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\ninstruction parameters \n83 = operation not executed\n 1.9.5  Power system \nRegister alias\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nWiring mode\n500\nR/WC\n1\nUInt16\n-\n0=3P4W_4CT\n1=3P4W_3CT\n2=3P3W_3CT\n3=3P3W_2CT\n4=1P3W\n5=1P2W\nGrid frequency\n501\nR/WC\n1 \nUInt16\nHz\nNominal voltage\n502\nR/WC\n1 \nUInt16\nV\nThe VT ratio is not \nincluded.\nVT Ratio\n503\nR/WC\n2 \nUInt32\n-\nActual value = \nread value /10000\nCT Ratio\n505\nR/WC\n2 \nUInt32\n-\nActual value = \nread value /10000\nPhase ABC current transformer\nPhase ABC\ncurrent access\ntype\n510\nR/WC\n1 \nUInt16\n-\n 0 = Rogowski coil\n 1 = VCT\nPhase ABC\nRogowski Coil Pri\n511\nR/WC\n2\nUInt32\nA\nPhase ABC \nRogowski Coil\nSec\n513\nR/WC\n2\nUInt32\nMV\n@\n50H\nz\nmV\n@\n60H\nz\nActual value = \nread value /100\nNominal current of\nPhase ABC \nRogowski Coil \n515\nR/WC\n2\nUInt32\nA\nPhase ABC VCT\nPri\n517\nR/WC\n2\nUInt32\nA\nPhase ABC VCT\nSec\n519\nR/WC\n2\nUInt32\nmV\nActual value = \nread value /100\nNominal current of\n521\nR/WC\n2\nUInt32\nA\nS111\n21"
+  },
+  {
+    "chunk_id": 35,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nPhase ABC VCT\nPhase-N current transformer\nPhase N current\naccess  type\n530\nR/WC\n1 \nUInt16\n-\n0 = Rogowski coil\n1 = VCT\nPhase N\nRogowski \nCoil Pri\n531\nR/WC\n2\nUInt32\nA\nPhase N\nRogowski Coil\nSec\n533\nR/WC\n2\nUInt32\nmV\n@50\nHz\nmV\n@60\nHz\nActual value = \nread value /100\nNominal current of\nPhase N\nRogowski \nCoil \n535\nR/WC\n2\nUInt32\nA\nPhase N VCT Pri\n537\nR/WC\n2\nUInt32\nA\nPhase N VCT Sec\n539\nR/WC\n2\nUInt32\nmV\nActual value = \nread value /100\nNominal current of\nPhase N VCT\n541\nR/WC\n2\nUInt32\nA\n 1.9.6  Current direction setting\nRegister\nalias\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nCurrent\ndirection of\nphase A\n550\nR/WC\n1\nUInt16\n-\nCurrent direction of phase A\n0 = Forward (Default)\n1 = Reverse\nCurrent\ndirection of\nphase B\n551\nR/WC\n1\nUInt16\n-\nCurrent direction of phase B\n0 = Forward (Default)\n1 = Reverse\nCurrent\ndirection of\nphase C\n552\nR/WC\n1\nUInt16\n-\nCurrent direction of phase C\n0 = Forward (Default)\n1 = Reverse\n22\nS111"
+  },
+  {
+    "chunk_id": 36,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.9.7  Current channel selection\nWhen the current and voltage do not match, you can use this \nconfiguration to modify the current channel selection to make the phase\nof current and voltage consistent.\nRegister\nalias\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nCurrent\nchannel of\nphase A\n553\nR/W\nC\n1\nUInt16\n-\nCurrent channel of phase A\n0 = Channel 1 (Default)\n1 = Channel 2\n2 = Channel 3\nCurrent\nchannel of\nphase B\n554\nR/W\nC\n1\nUInt16\n-\nCurrent channel of phase B\n0 = Channel 1 \n1 = Channel 2 (Default)\n2 = Channel 3\nCurrent\nchannel of\nphase C\n555\nR/W\nC\n1\nUInt16\n-\nCurrent channel of phase C\n0 = Channel 1 \n1 = Channel 2\n2 = Channel 3 (Default)\n 1.9.8  Zero drift suppression parameter  \nRegister\nalias\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nVoltage zero\ndrift \nsuppression\n600\nR/WC\n1\nUInt16\n%\nVoltage zero drift \nsuppression\nTake (nominal voltage *VT\nratio) as a reference\nActual value = Read value\n/100\nCurrent zero\ndrift \nsuppression\n601\nR/WC"
+  },
+  {
+    "chunk_id": 37,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "Register\nalias\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nVoltage zero\ndrift \nsuppression\n600\nR/WC\n1\nUInt16\n%\nVoltage zero drift \nsuppression\nTake (nominal voltage *VT\nratio) as a reference\nActual value = Read value\n/100\nCurrent zero\ndrift \nsuppression\n601\nR/WC\n1\nUInt16\n%\nCurrent zero drift \nsuppression\nTake (nominal current *CT\nratio) as reference\nActual value = Read value\n/100\nS111\n23"
+  },
+  {
+    "chunk_id": 38,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.9.9  Tariff parameter\nRegister alias\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nCurrent tariff\n800\nR\n1\nUInt16\n-\nCurrent Tariff\n0-5 = Tariff 1- Tariff 6\nTariff switching \nmode\n801\nR/WC\n1\nUInt16\n-\nTariff switching mode\n0=Manual\n1=RTC\nManual tariff\nselection\n802\nR/WC\n1\nUInt16\n-\nManual Tariff \nselection\n0-5 = Tariff 1- Tariff 6\nRTC Ta Start\n803\nR/WC\n3\nTime\n-\nRTC Ta Start\nRTC Tb Start\n806\nR/WC\n3\nTime\n-\nRTC Tb Start\nRTC Tc Start\n809\nR/WC\n3\nTime\n-\nRTC Tc Start\nRTC Td Start\n812\nR/WC\n3\nTime\n-\nRTC Td Start\nRTC Te Start\n815\nR/WC\n3\nTime\nRTC Te Start\nRTC Tf Start\n818\nR/WC\n3\nTime\n-\nRTC Tf Start\nRTC Ta tariff\nselect\n821\nR/WC\n1\nUInt16\n-\nTa tariff select\n0-5 = Tariff 1- Tariff 6\nRTC Tb tariff\nselect\n822\nR/WC\n1\nUInt16\n-\nTb tariff select\n0-5 = Tariff 1- Tariff 6\nRTC Tc tariff\nselect\n823\nR/WC\n1\nUInt16\n-\nTc tariff select\n0-5 = Tariff 1- Tariff 6\nRTC Td tariff\nselect\n824\nR/WC\n1\nUInt16\n-\nTd tariff select\n0-5 = Tariff 1- Tariff 6\nRTC Te tariff\nselect\n825\nR/WC\n1\nUInt16"
+  },
+  {
+    "chunk_id": 39,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "RTC Tb tariff\nselect\n822\nR/WC\n1\nUInt16\n-\nTb tariff select\n0-5 = Tariff 1- Tariff 6\nRTC Tc tariff\nselect\n823\nR/WC\n1\nUInt16\n-\nTc tariff select\n0-5 = Tariff 1- Tariff 6\nRTC Td tariff\nselect\n824\nR/WC\n1\nUInt16\n-\nTd tariff select\n0-5 = Tariff 1- Tariff 6\nRTC Te tariff\nselect\n825\nR/WC\n1\nUInt16\n-\nTe tariff select\n0-5 = Tariff 1- Tariff 6\nRTC Tf tariff\nselect\n826\nR/WC\n1\nUInt16\n-\nTf tariff select\n0-5 = Tariff 1- Tariff 6\n24\nS111"
+  },
+  {
+    "chunk_id": 40,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.9.10  Voltage, current, power, power factor  \nRegister\nalias\nRegister\naddress\n(decimal)\nR/\nW\nSize\nType\nUnit\nDescription\nCurrent\nIA\n1000\nR\n2 \nFloat32\nA\nPhase A current\nIB\n1002\nR\n2 \nFloat32\nA\nPhase B current\nIC\n1004\nR\n2 \nFloat32\nA\nPhase C current\nCurrent\nAvg\n1006\nR\n2 \nFloat32\nA\nAverage value of ABC \nthree-phase current\nIN\n1008\nR\n2 \nFloat32\nA\nPhase N current\nPhase voltage\nUA\n1010\nR\n2 \nFloat32\nV\nUA-UN voltage\nUB\n1012\nR\n2 \nFloat32\nV\nUB-UN voltage\nUC\n1014\nR\n2 \nFloat32\nV\nUC-UN voltage\nPhase \nVoltage\nAvg\n1016\nR\n2 \nFloat32\nV\nAverage value of ABC \nthree-phase phase voltage\nU0\n1018\nR\n2 \nFloat32\nV\nZero sequence voltage\nLine voltage\nUAB\n1020\nR\n2 \nFloat32\nV\nUA-UB voltage\nUBC\n1022\nR\n2 \nFloat32\nV\nUB-UC voltage\nUCA\n1024\nR\n2 \nFloat32\nV\nUC-UA voltage\nLine\nVoltage\nAvg\n1026\nR\n2 \nFloat32\nV\nAverage value of three-\nphase line voltage\nActive power\nPA\n1028\nR\n2 \nFloat32\nkW\nPhase A Active power\nPB\n1030\nR\n2 \nFloat32\nkW\nPhase B Active power\nS111\n25"
+  },
+  {
+    "chunk_id": 41,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nPC\n1032\nR\n2 \nFloat32\nkW\nPhase C Active power\nPTotal\n1034\nR\n2 \nFloat32\nkW\nTotal Active power\nReactive power\nQA\n1036\nR\n2 \nFloat32\nkVAR\nPhase A Reactive power\nQB\n1038\nR\n2 \nFloat32\nkVAR\nPhase B Reactive power\nQC\n1040\nR\n2 \nFloat32\nkVAR\nPhase C Reactive power\nQTotal\n1042\nR\n2 \nFloat32\nkVAR\nTotal Reactive power\nApparent power\nSA\n1044\nR\n2 \nFloat32\nkVA\nPhase A Apparent power\nSB\n1046\nR\n2 \nFloat32\nkVA\nPhase B Apparent power\nSC\n1048\nR\n2 \nFloat32\nkVA\nPhase C Apparent power\nSTotal\n1050\nR\n2 \nFloat32\nkVA\nTotal Apparent power\nPower factor\nPFA\n1052\nR\n2\nFloat32\n-\nPhase A Power factor\nPFB\n1054\nR\n2\nFloat32\n-\nPhase B Power factor\nPFC\n1056\nR\n2\nFloat32\n-\nPhase C Power factor\nPFTotal\n1058\nR\n2\nFloat32\n-\nTotal Power factor\nFundamental harmonic power factor\nDPFA\n1060\nR\n2\nFloat32\n-\nPhase A Fundamental \nharmonic power factor\nDPFB\n1062\nR\n2\nFloat32\n-\nPhase B Fundamental \nharmonic power factor\nDPFC\n1064\nR\n2\nFloat32\n-\nPhase C Fundamental \nharmonic power factor\nDPFTotal\n1066\nR\n2\nFloat32\n-"
+  },
+  {
+    "chunk_id": 42,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "R\n2\nFloat32\n-\nTotal Power factor\nFundamental harmonic power factor\nDPFA\n1060\nR\n2\nFloat32\n-\nPhase A Fundamental \nharmonic power factor\nDPFB\n1062\nR\n2\nFloat32\n-\nPhase B Fundamental \nharmonic power factor\nDPFC\n1064\nR\n2\nFloat32\n-\nPhase C Fundamental \nharmonic power factor\nDPFTotal\n1066\nR\n2\nFloat32\n-\nTotal Fundamental harmonic \npower factor\nFrequency\nFreqA\n1068\nR\n2 \nFloat32\nHz\nPhase A Frequency\n26\nS111"
+  },
+  {
+    "chunk_id": 43,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nFreqB\n1070\nR\n2 \nFloat32\nHz\nPhase B Frequency\nFreqC\n1072\nR\n2 \nFloat32\nHz\nPhase C Frequency\nFreqTotal\n1074\nR\n2 \nFloat32\nHz\nTotal Frequency\n 1.9.11  Energy\nThe data types of electric energy are Int64 and UInt32. The units and \nsizes of the two types are different.\nWhen the total electric energy reaches 1.0 x kWh, 1.0 x kVarh, or 1.0 x \nkVah, the electric energy of each phase will be cleared automatically.\nRegister\nalias\nRegister\naddress\n(decimal)\nR/\nW\nSize\nType\nUnit\nDescription\nActive Energy-Int64\nEPAImp\n2500\nR\n4 \nInt64\nWh\nPhase A Positive active \nenergy\nEPBImp\n2504\nR\n4\nInt64\nWh\nPhase B Positive active \nenergy\nEPCImp\n2508\nR\n4\nInt64\nWh\nPhase C Positive active \nenergy\nEPImp\n2512\nR\n4\nInt64\nWh\nTotal Positive active energy\nEPAExp\n2516\nR\n4\nInt64\nWh\nPhase A Reverse active \nenergy\nEPBExp\n2520\nR\n4\nInt64\nWh\nPhase B Reverse active \nenergy\nEPCExp\n2524\nR\n4\nInt64\nWh\nPhase C Reverse active \nenergy\nEPExp\n2528\nR\n4\nInt64\nWh\nTotal Reverse active energy\nReactive energy-Int64\nEQAImp"
+  },
+  {
+    "chunk_id": 44,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "2512\nR\n4\nInt64\nWh\nTotal Positive active energy\nEPAExp\n2516\nR\n4\nInt64\nWh\nPhase A Reverse active \nenergy\nEPBExp\n2520\nR\n4\nInt64\nWh\nPhase B Reverse active \nenergy\nEPCExp\n2524\nR\n4\nInt64\nWh\nPhase C Reverse active \nenergy\nEPExp\n2528\nR\n4\nInt64\nWh\nTotal Reverse active energy\nReactive energy-Int64\nEQAImp\n2532\nR\n4 \nInt64\nVARh\nPhase A Positive reactive \nenergy\nEQBImp\n2536\nR\n4\nInt64\nVARh\nPhase B Positive reactive \nenergy\nEQCImp\n2540\nR\n4\nInt64\nVARh\nPhase C Positive reactive \nenergy\nS111\n27"
+  },
+  {
+    "chunk_id": 45,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nRegister\nalias\nRegister\naddress\n(decimal)\nR/\nW\nSize\nType\nUnit\nDescription\nEQImp\n2544\nR\n4\nInt64\nVARh\nTotal Positive reactive energy\nEQAExp\n2548\nR\n4\nInt64\nVARh\nPhase A Reverse reactive \nenergy\nEQBExp\n2552\nR\n4\nInt64\nVARh\nPhase B Reverse reactive \nenergy\nEQCExp\n2556\nR\n4\nInt64\nVARh\nPhase C Reverse reactive \nenergy\nEQExp\n2560\nR\n4\nInt64\nVARh\nTotal Reverse reactive energy\nApparent Energy-Int64\nESA\n2564\nR\n4\nInt64\nVAh\nPhase A Apparent Energy\nESB\n2568\nR\n4\nInt64\nVAh\nPhase B Apparent Energy\nESC\n2572\nR\n4\nInt64\nVAh\nPhase C Apparent Energy\nES\n2576\nR\n4\nInt64\nVAh\nTotal Apparent Energy\nUInt32 Energy\nActive Energy- UInt32\nEPAImp\n2600\nR\n2 \nUInt32\nkWh\nPhase A Positive active \nenergy\nEPBImp\n2602\nR\n2\nUInt32\nkWh\nPhase B Positive active \nenergy\nEPCImp\n2604\nR\n2\nUInt32\nkWh\nPhase C Positive active \nenergy\nEPImp\n2606\nR\n2\nUInt32\nkWh\nTotal Positive active energy\nEPAExp\n2608\nR\n2\nUInt32\nkWh\nPhase A Reverse active \nenergy\nEPBExp\n2610\nR\n2\nUInt32\nkWh\nPhase B Reverse active \nenergy\nEPCExp\n2612\nR\n2"
+  },
+  {
+    "chunk_id": 46,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "2602\nR\n2\nUInt32\nkWh\nPhase B Positive active \nenergy\nEPCImp\n2604\nR\n2\nUInt32\nkWh\nPhase C Positive active \nenergy\nEPImp\n2606\nR\n2\nUInt32\nkWh\nTotal Positive active energy\nEPAExp\n2608\nR\n2\nUInt32\nkWh\nPhase A Reverse active \nenergy\nEPBExp\n2610\nR\n2\nUInt32\nkWh\nPhase B Reverse active \nenergy\nEPCExp\n2612\nR\n2\nUInt32\nkWh\nPhase C Reverse active \nenergy\nEPExp\n2614\nR\n2\nUInt32\nkWh\nTotal Reverse active energy\nReactive energy- UInt32\nEQAImp\n2616\nR\n2\nUInt32\nkVARh\nPhase A Positive reactive \n28\nS111"
+  },
+  {
+    "chunk_id": 47,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nRegister\nalias\nRegister\naddress\n(decimal)\nR/\nW\nSize\nType\nUnit\nDescription\nenergy\nEQBImp\n2618\nR\n2\nUInt32\nkVARh\nPhase B Positive reactive \nenergy\nEQCImp\n2620\nR\n2\nUInt32\nkVARh\nPhase C Positive reactive \nenergy\nEQImp\n2622\nR\n2\nUInt32\nkVARh\nTotal Positive reactive energy\nEQAExp\n2624\nR\n2\nUInt32\nkVARh\nPhase A Reverse reactive \nenergy\nEQBExp\n2626\nR\n2\nUInt32\nkVARh\nPhase B Reverse reactive \nenergy\nEQCExp\n2628\nR\n2\nUInt32\nkVARh\nPhase C Reverse reactive \nenergy\nEQExp\n2630\nR\n2\nUInt32\nkVARh\nTotal Reverse reactive energy\nApparent Energy-UInt32\nESA\n2632\nR\n2\nUInt32\nkVAh\nPhase A Apparent Energy\nESB\n2634\nR\n2\nUInt32\nkVAh\nPhase B Apparent Energy\nESC\n2636\nR\n2\nUInt32\nkVAh\nPhase C Apparent Energy\nES\n2638\nR\n2\nUInt32\nkVAh\nTotal Apparent Energy\n 1.9.12  Tariff Energy\nTariff energy types are Int64 and UInt32, whose unit size is different.\nWhen the tariff of electricity energy reaches 1.0 x kWh, each tariff \nenergy will be automatically reset to zero.\nRegister\nalias\nRegister\naddress \n(decimal)"
+  },
+  {
+    "chunk_id": 48,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "ES\n2638\nR\n2\nUInt32\nkVAh\nTotal Apparent Energy\n 1.9.12  Tariff Energy\nTariff energy types are Int64 and UInt32, whose unit size is different.\nWhen the tariff of electricity energy reaches 1.0 x kWh, each tariff \nenergy will be automatically reset to zero.\nRegister\nalias\nRegister\naddress \n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nTariff Energy-Int64\nET1\n2700\nR\n4 \nInt64\nWh\nTariff 1 Active Energy\nET2\n2704\nR\n4\nInt64\nWh\nTariff 2 Active Energy\nET3\n2708\nR\n4\nInt64\nWh\nTariff 3 Active Energy\nS111\n29"
+  },
+  {
+    "chunk_id": 49,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nET4\n2712\nR\n4\nInt64\nWh\nTariff 4 Active Energy\nET5\n2716\nR\n4\nInt64\nWh\nTariff 5 Active Energy\nET6\n2720\nR\n4\nInt64\nWh\nTariff 6 Active Energy\nTariff Energy-UInt32\nET1\n2750\nR\n2 \nUInt32\nkWh\nTariff 1 Active Energy\nET2\n2752\nR\n2\nUInt32\nkWh\nTariff 2 Active Energy\nET3\n2754\nR\n2\nUInt32\nkWh\nTariff 3 Active Energy\nET4\n2756\nR\n2\nUInt32\nkWh\nTariff 4 Active Energy\nET5\n2758\nR\n2\nUInt32\nkWh\nTariff 5 Active Energy\nET6\n2760\nR\n2\nUInt32\nkWh\nTariff 6 Active Energy\n 1.9.13  Demand parameters\nRegister\nalias\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nBasic parameters of demand\nDMDMet\nhod\n3000\nR/WC\n1\nUInt16\n-\nDemand calculation \nmethod:\n0= sliding type\n1= fixed\nDMD\nblock\n3001\nR/RC\n1 \nUInt16\nMinute\nDemand interval\nPDMD\nReset\nTime\n3002\nR\n4 \nDate\ntime\n -\nPeak demand reset date \nand time\nPower demand \nPADema\nnd\n3020\nR\n2 \nFloat32\nkW\nCurrent active power \ndemand of phase A\nPAPeak\nDemand\n3022\nR\n2 \nFloat32\nkW\nPeak demand of phase A \nactive power\nPAPeak\nDemand\nDate\n3024\nR\n4 \nDate\ntime\n -"
+  },
+  {
+    "chunk_id": 50,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "Minute\nDemand interval\nPDMD\nReset\nTime\n3002\nR\n4 \nDate\ntime\n -\nPeak demand reset date \nand time\nPower demand \nPADema\nnd\n3020\nR\n2 \nFloat32\nkW\nCurrent active power \ndemand of phase A\nPAPeak\nDemand\n3022\nR\n2 \nFloat32\nkW\nPeak demand of phase A \nactive power\nPAPeak\nDemand\nDate\n3024\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of phase A active\npower\nPBDema\nnd\n3028\nR\n2 \nFloat32\nkW\nCurrent active power \ndemand of phase B\nPBPeak\n3030\nR\n2 \nFloat32\nkW\nPeak demand of phase B \n30\nS111"
+  },
+  {
+    "chunk_id": 51,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nDemand\nactive power\nPBPeak\nDemand\nDate\n3032\nR\n4\nDate\ntime\n -\nOccurrence time of peak \ndemand of phase B active\npower\nPCDema\nnd\n3036\nR\n2 \nFloat32\nkW\nCurrent active power \ndemand of phase C\nPCPeak\nDemand\n3038\nR\n2 \nFloat32\nkW\nPeak demand of phase 3 \nactive power\nPCPeak\nDemand\nDate\n3040\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of phase C \nactive power\nPSUMDe\nmand\n3044\nR\n2 \nFloat32\nkW\nCurrent total active power\ndemand\nPSUMPe\nakDem\nand\n3046\nR\n2 \nFloat32\nkW\nPeak demand of total \nactive power\nPSUMPe\nakDem\nandDate\n3048\nR\n4 \nDate\ntime\n-\nOccurrence time of peak \ndemand of total active \npower\nQADema\nnd\n3052\nR\n2 \nFloat32\nkVar\nCurrent reactive power \ndemand of phase A\nQAPeak\nDemand\n3054\nR\n2 \nFloat32\nkVar\nPeak demand of phase A \nreactive power\nQAPeak\nDemand\nDate\n3056\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of phase A \nreactive power\nQBDema\nnd\n3060\nR\n2 \nFloat32\nkVar\nCurrent reactive power \ndemand of phase B\nQBPeak\nDemand\n3062\nR\n2 \nFloat32\nkVar"
+  },
+  {
+    "chunk_id": 52,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "QAPeak\nDemand\n3054\nR\n2 \nFloat32\nkVar\nPeak demand of phase A \nreactive power\nQAPeak\nDemand\nDate\n3056\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of phase A \nreactive power\nQBDema\nnd\n3060\nR\n2 \nFloat32\nkVar\nCurrent reactive power \ndemand of phase B\nQBPeak\nDemand\n3062\nR\n2 \nFloat32\nkVar\nPeak demand of phase B \nreactive power\nQBPeak\nDemand\nDate\n3064\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of phase B \nreactive power\nQCDema\nnd\n3068\nR\n2 \nFloat32\nkVar\nCurrent reactive power \ndemand of phase C\nQCPeak\nDemand\n3070\nR\n2 \nFloat32\nkVar\nPeak demand of phase C \nreactive power\nQCPeak\nDemand\nDate\n3072\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of phase L3 \nreactive power\nS111\n31"
+  },
+  {
+    "chunk_id": 53,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nQSUMD\nemand\n3076\nR\n2 \nFloat32\nkVar\nCurrent total reactive \npower demand\nQSUMPe\nakDem\nand\n3078\nR\n2 \nFloat32\nkVar\nPeak demand of total \nreactive power\nQSUMPe\nakDem\nandDate\n3080\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of total reactive \npower\nSADema\nnd\n3084\nR\n2 \nFloat32\nkVa\nCurrent apparent power \ndemand of phase A\nSAPeak\nDemand\n3086\nR\n2 \nFloat32\nkVa\nPeak demand of phase A \napparent power\nSAPeak\nDemand\nDate\n3088\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of phase A \napparent power\nSBDema\nnd\n3092\nR\n2 \nFloat32\nkVa\nCurrent apparent power \ndemand of phase B\nSBPeak\nDemand\n3094\nR\n2 \nFloat32\nkVa\nPeak demand of phase \nL2 apparent power\nSBPeak\nDemand\nDate\n3096\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of phase B \napparent power\nSCDema\nnd\n3100\nR\n2 \nFloat32\nkVa\nCurrent apparent power \ndemand of phase C\nSCPeak\nDemand\n3102\nR\n2 \nFloat32\nkVa\nPeak demand of phase C\napparent power\nSCPeak\nDemand\nDate\n3104\nR\n4 \nDate\ntime\n -\nOccurrence time of peak"
+  },
+  {
+    "chunk_id": 54,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "3096\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of phase B \napparent power\nSCDema\nnd\n3100\nR\n2 \nFloat32\nkVa\nCurrent apparent power \ndemand of phase C\nSCPeak\nDemand\n3102\nR\n2 \nFloat32\nkVa\nPeak demand of phase C\napparent power\nSCPeak\nDemand\nDate\n3104\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of phase C \napparent power\nSSUMDe\nmand\n3108\nR\n2 \nFloat32\nkVa\nCurrent total apparent \npower demand\nSSUMPe\nakDem\nand\n3110\nR\n2 \nFloat32\nkVa\nPeak demand of total \napparent power\nSSUMPe\nakDem\nandDate\n3112\nR\n4 \nDate\ntime\n -\nOccurrence time of peak \ndemand of total apparent \npower\n32\nS111"
+  },
+  {
+    "chunk_id": 55,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\n 1.9.14  Voltage and current harmonic register \nRegister\nname\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nCurrent harmonic percentage\nIATHD\n4000\nR\n2 \nFloat32\n%\nPhase A current total harmonic\npercentage\nIBTHD\n4002\nR\n2 \nFloat32\n%\nPhase B current total harmonic\npercentage\nICTHD\n4004\nR\n2 \nFloat32\n%\nPhase C current total harmonic\npercentage\nIATOHD\n4006\nR\n2 \nFloat32\n%\nPhase A current odd total \nharmonic percentage\nIBTOHD\n4008\nR\n2 \nFloat32\n%\nPhaese B current odd total \nharmonic percentage\nICTOHD\n4010\nR\n2 \nFloat32\n%\nPhase C current odd total \nharmonic percentage\nIATEHD\n4012\nR\n2 \nFloat32\n%\nPhase A current even total \nharmonic percentage\nIBTEHD\n4014\nR\n2 \nFloat32\n%\nPhase B current even total \nharmonic percentage\nICTEHD\n4016\nR\n2 \nFloat32\n%\nPhsee C curremt even total \nharmonic percentage\nIAHD1\n4018\nR\n2 \nFloat32\n%\n1st harmonic percentage of \nphase A current\nIBHD1\n4020\nR\n2 \nFloat32\n%\n1st harmonic percentage of \nphase B current\nICHD1\n4022\nR\n2 \nFloat32\n%"
+  },
+  {
+    "chunk_id": 56,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "Float32\n%\nPhase B current even total \nharmonic percentage\nICTEHD\n4016\nR\n2 \nFloat32\n%\nPhsee C curremt even total \nharmonic percentage\nIAHD1\n4018\nR\n2 \nFloat32\n%\n1st harmonic percentage of \nphase A current\nIBHD1\n4020\nR\n2 \nFloat32\n%\n1st harmonic percentage of \nphase B current\nICHD1\n4022\nR\n2 \nFloat32\n%\n1st harmonic percentage of \nphase C current\n…\n4024-\n4311\n…\n…\n…\n…\nThe 2nd-49th harmonic \npercentage of ABC phase \ncurrent\nIAHD50 \n4312\nR\n2 \nFloat32\n%\nThe 50th harmonic percentage\nof phase A current\nIBHD50\n4314\nR\n2 \nFloat32\n%\nThe 50th harmonic percentage\nof phase B current\nICHD50\n4316\nR\n2 \nFloat32\n%\nThe 50th harmonic percentage\nS111\n33"
+  },
+  {
+    "chunk_id": 57,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nof phase C current\nCurrent harmonic value\nIAHDV1\n4400\nR\n2 \nFloat32\nA\nFundamental current value of \nphase A current\nIBHDV1\n4402\nR\n2 \nFloat32\nA\nFundamental current value of \nphase B current\nICHDV1\n4404\nR\n2 \nFloat32\nA\nFundamental current value of \nphase C current\n…\n4406-\n4693\n…\n…\n…\n…\nThe 2nd - 49th harmonic current \nvalue of ABC phase current\nIAHDV50\n4694\nR\n2 \nFloat32\nA\nThe 50th harmonic current \nvalue of phase A current\nIBHDV50\n4696\nR\n2 \nFloat32\nA\nThe 50th harmonic current \nvalue of phase B current\nICHDV50\n4698\nR\n2 \nFloat32\nA\nThe 50th harmonic current \nvalue of phase C current\nVoltage harmonic percentage\nUATHD\n5000\nR\n2 \nFloat32\n%\nPhase A volage total harmonic \npercentage\nUBTHD\n5002\nR\n2 \nFloat32\n%\nPhase B voltage total harmonic\npercentage\nUCTHD\n5004\nR\n2 \nFloat32\n%\nPhase C voltage total \nharmonic percentage\nUATOHD\n5006\nR\n2 \nFloat32\n%\nPhase A voltage odd total \nharmonic percentage\nUBTOHD\n5008\nR\n2 \nFloat32\n%\nPhase B voltage odd total \nharmonic percentage\nUCTOHD\n5010\nR"
+  },
+  {
+    "chunk_id": 58,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "UBTHD\n5002\nR\n2 \nFloat32\n%\nPhase B voltage total harmonic\npercentage\nUCTHD\n5004\nR\n2 \nFloat32\n%\nPhase C voltage total \nharmonic percentage\nUATOHD\n5006\nR\n2 \nFloat32\n%\nPhase A voltage odd total \nharmonic percentage\nUBTOHD\n5008\nR\n2 \nFloat32\n%\nPhase B voltage odd total \nharmonic percentage\nUCTOHD\n5010\nR\n2 \nFloat32\n%\nPhase C voltage odd total \nharmonic percentage\nUATEHD\n5012\nR\n2 \nFloat32\n%\nPhase A voltage even total \nharmonic percentage\nUBTEHD\n5014\nR\n2 \nFloat32\n%\nPhase B voltage even total \nharmonic percentage\nUCTEHD\n5016\nR\n2 \nFloat32\n%\nPhase C voltage even total \nharmonic percentage\nUAHDV1\n5018\nR\n2 \nFloat32\n%\nThe 1st harmonic percentage \nof phase A voltage\n34\nS111"
+  },
+  {
+    "chunk_id": 59,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nUBHDV1\n5020\nR\n2 \nFloat32\n%\nThe 1st harmonic percentage \nof phase B voltage\nUCHDV1\n5022\nR\n2 \nFloat32\n%\nThe 1st harmonic percentage \nof phase C voltage\n…\n5024-\n5311\n…\n…\n…\n…\nThe 2nd - 49th harmonic \npercentage of ABC phase \nvoltage\nUAHD50 \n5312\nR\n2 \nFloat32\n%\nThe 50th harmonic percentage\nof phase A voltage\nUBHD50\n5314\nR\n2 \nFloat32\n%\nThe 50th harmonic percentage\nof phase B voltage\nUCHD50\n5316\nR\n2 \nFloat32\n%\nThe 50th harmonic percentage\nof phase C voltage\nVoltage harmonic value\nUAHDV1\n5400\nR\n2\nFloat3\n2\nV\nThe 1st harmonic voltage \nvalue of phase A voltage\nUBHDV1\n5402\nR\n2 \nFloat3\n2\nV\nThe 1st harmonic voltage \nvalue of phase B voltage\nUCHDV1\n5404\nR\n2 \nFloat32\nV\nThe 1st harmonic voltage \nvalue of phase C voltage\n…\n5406-\n5693\n…\n…\n…\n…\nThe 2nd - 49th harmonic voltage \nvalue of ABC phase voltage\nUAHDV50\n5694\nR\n2 \nFloat32\nV\nThe 50th harmonic voltage \nvalue of phase A voltage\nUBHDV50\n5696\nR\n2 \nFloat32\nV\nThe 50th harmonic voltage \nvalue of phase B voltage\nUCHDV50\n5698\nR\n2"
+  },
+  {
+    "chunk_id": 60,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "value of phase C voltage\n…\n5406-\n5693\n…\n…\n…\n…\nThe 2nd - 49th harmonic voltage \nvalue of ABC phase voltage\nUAHDV50\n5694\nR\n2 \nFloat32\nV\nThe 50th harmonic voltage \nvalue of phase A voltage\nUBHDV50\n5696\nR\n2 \nFloat32\nV\nThe 50th harmonic voltage \nvalue of phase B voltage\nUCHDV50\n5698\nR\n2 \nFloat32\nV\nThe 50th harmonic voltage \nvalue of phase C voltage\n 1.9.15  Max. value and Min. value \nRegister\nname\nRegister\naddress\n(decimal)\nR/\nW\nSize\nType\nUnit\nDescription\nCurrent max / min\nIA Max\n6000\nR\n2 \nFloat32\nA\nPhase A Maximum current\nIB Max\n6002\nR\n2 \nFloat32\nA\nPhase B Maximum current\nIC Max\n6004\nR\n2 \nFloat32\nA\nPhase C Maximum current\nS111\n35"
+  },
+  {
+    "chunk_id": 61,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nIAVG Max\n6006\nR\n2 \nFloat32\nA\nMaximum three-phase average \ncurrent\nIN Max\n6008\nR\n2 \nFloat32\nA\nPhase N Maximum current\nIA Min \n6010\nR\n2 \nFloat32\nA\nPhase A Minimum current\nIB Min\n6012\nR\n2 \nFloat32\nA\nPhase B Minimum current\nIC Min\n6014\nR\n2 \nFloat32\nA\nPhase C Minimum current\nIAVGMin\n6016\nR\n2 \nFloat32\nA\nMinimum three-phase average \ncurrent\nIN Min\n6018\nR\n2 \nFloat32\nA\nPhase N Minimum current\nVoltage max / min\nUA Max\n6020\nR\n2 \nFloat32\nV\nUA-UN Maximum phase voltage\nUB Max\n6022\nR\n2 \nFloat32\nV\nUB-UN Maximum phase voltage\nUC Max\n6024\nR\n2 \nFloat32\nV\nUC-UN Maximum phase voltage\nPhase\nUAVGMax\n6026\nR\n2 \nFloat32\nV\nMaximum value of average value \nof three-phase phase voltage\nUA Min \n6030\nR\n2 \nFloat32\nV\nUA-UN Minimum phase voltage\nUB Min\n6032\nR\n2 \nFloat32\nV\nUB-UN Minimum phase voltage\nUC Min\n6034\nR\n2 \nFloat32\nV\nUC-UN Minimum phase voltage\nUAVGMin\n6036\nR\n2 \nFloat32\nV\nMinimum of average value of \nthree-phase phase voltage\nUAB Max\n6040\nR\n2 \nFloat32\nV\nUA-UB Maximum wire voltage\nUBC Max"
+  },
+  {
+    "chunk_id": 62,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "R\n2 \nFloat32\nV\nUA-UN Minimum phase voltage\nUB Min\n6032\nR\n2 \nFloat32\nV\nUB-UN Minimum phase voltage\nUC Min\n6034\nR\n2 \nFloat32\nV\nUC-UN Minimum phase voltage\nUAVGMin\n6036\nR\n2 \nFloat32\nV\nMinimum of average value of \nthree-phase phase voltage\nUAB Max\n6040\nR\n2 \nFloat32\nV\nUA-UB Maximum wire voltage\nUBC Max\n6042\nR\n2 \nFloat32\nV\nUB-UC Maximum wire voltage\nUCA Max\n6044\nR\n2 \nFloat32\nV\nUC-UA Maximum wire voltage\nLineUAVG\nMax\n6046\nR\n2 \nFloat32\nV\nMaximum value of average value \nof three-phase phase voltage\nUAB Min \n6050\nR\n2 \nFloat32\nV\nUA-UB Minimum phase voltage\nUBC Min\n6052\nR\n2 \nFloat32\nV\nUB-UC Minimum phase voltage\nUCA Min\n6054\nR\n2 \nFloat32\nV\nUC-UA Minimum phase voltage\nLineUAVG\nMin\n6056\nR\n2 \nFloat32\nV\nMinimum of average value of \nthree-phase phase voltage\nMaximum / minimum power\nPA Max\n6060\nR\n2 \nFloat32\nkW\nMaximum active power of phase A\nPB Max\n6062\nR\n2 \nFloat32\nkW\nMaximum active power of phase B\nPC Max\n6064\nR\n2 \nFloat32\nkW\nMaximum active power of phase C\n36\nS111"
+  },
+  {
+    "chunk_id": 63,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nPSUMMax\n6066\nR\n2 \nFloat32\nkW\nMaximum value of three-phase \ntotal active power\nPA Min \n6070\nR\n2 \nFloat32\nkW\nMinimum active power of phase A\nPB Min\n6072\nR\n2 \nFloat32\nkW\nMinimum active power of phase B\nPC Min\n6074\nR\n2 \nFloat32\nkW\nMinimum active power of phase C\nPSUMMin\n6076\nR\n2 \nFloat32\nkW\nMinimum value of three-phase \ntotal active power\nReactive Power Max / min\nQA Max\n6080\nR\n2 \nFloat32\nkVar\nMaximum value of phase A \nreactive power\nQB Max\n6082\nR\n2 \nFloat32\nkVar\nMaximum value of phase B \nreactive powe\nQC Max\n6084\nR\n2 \nFloat32\nkVar\nMaximum value of phase C \nreactive powe\nQSUMMax\n6086\nR\n2 \nFloat32\nkVar\nMaximum value of three-phase \ntotal reactive power\nQA Min \n6090\nR\n2 \nFloat32\nkVar\nMinimum value of phase A \nreactive power\nQB Min\n6092\nR\n2 \nFloat32\nkVar\nMinimum value of phase B \nreactive power\nQC Min\n6094\nR\n2 \nFloat32\nkVar\nMinimum value of phase C \nreactive power\nQSUMMin\n6096\nR\n2 \nFloat32\nkVar\nMinimum value of three-phase \ntotal reactive power\nApparent power max / min"
+  },
+  {
+    "chunk_id": 64,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "kVar\nMinimum value of phase A \nreactive power\nQB Min\n6092\nR\n2 \nFloat32\nkVar\nMinimum value of phase B \nreactive power\nQC Min\n6094\nR\n2 \nFloat32\nkVar\nMinimum value of phase C \nreactive power\nQSUMMin\n6096\nR\n2 \nFloat32\nkVar\nMinimum value of three-phase \ntotal reactive power\nApparent power max / min\nSA Max\n6100\nR\n2 \nFloat32\nkVa\nMaximum apparent power of \nphase A\nSB Max\n6102\nR\n2 \nFloat32\nkVa\nMaximum apparent power of \nphase B\nSC Max\n6104\nR\n2 \nFloat32\nkVa\nMaximum apparent power of \nphase C\nSSUMMax\n6106\nR\n2 \nFloat32\nkVa\nMaximum three-phase \ntotalapparent power\nSA Min \n6110\nR\n2 \nFloat32\nkVa\nMinimum apparent power of \nphase A\nSB Min\n6112\nR\n2 \nFloat32\nkVa\nMinimum apparent power of \nphase B\nS111\n37"
+  },
+  {
+    "chunk_id": 65,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nSC Min\n6114\nR\n2 \nFloat32\nkVa\nMinimum apparent power of \nphase C\nSSUMMin\n6116\nR\n2 \nFloat32\nkVa\nMinimum three-phase total \napparent power\n 1.9.16  Unbalancedness \nRegister \nname\nRegister\naddress\n(decimal)\nR/\nW\nSize\nType\nUnit\nDescription\nCurrent negative \nsequence \nunbalancedness \n7000\nR\n2 \nFloat32\n%\nCurrent negative \nsequence  \nunbalancedness\nCurrent zero \nsequence \nunbalancedness \n7002\nR\n2 \nFloat32\n%\nCurrent zero \nsequence \nunbalancedness \nVoltage negative \nsequence \nunbalancedness \n7004\nR\n2\nFloat32\n%\nVoltage negative \nsequence \nunbalancedness \nVoltage zero \nsequence \nunbalancedness \n7006\nR\n2 \nFloat32\n%\nVoltage zero \nsequence \nunbalancedness \n 1.9.17  Current K-factor and crest factor register \nRegister\nname\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nCurrent K factor\nKFIA\n8000\nR\n2 \nFloat32\n-\nCurrent K factor of phase A\nKFIB\n8002\nR\n2 \nFloat32\n-\nCurrent K factor of phase B\nKFIC\n8004\nR\n2 \nFloat32\n-\nCurrent K factor of phase C"
+  },
+  {
+    "chunk_id": 66,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "Register\nname\nRegister\naddress\n(decimal)\nR/W\nSize\nType\nUnit\nDescription\nCurrent K factor\nKFIA\n8000\nR\n2 \nFloat32\n-\nCurrent K factor of phase A\nKFIB\n8002\nR\n2 \nFloat32\n-\nCurrent K factor of phase B\nKFIC\n8004\nR\n2 \nFloat32\n-\nCurrent K factor of phase C\n 1.9.18  Voltage and current angle register\nRegister\nname\nRegister\naddress\n(decimal)\nR/\nW\nSize\nType\nUnit\nDescription\nAngle of voltages\nUA\n8100\nR\n2 \nFloat32\nAngle of phase A voltage\n38\nS111"
+  },
+  {
+    "chunk_id": 67,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "1 Modbus Communication\nUB\n8102\nR\n2 \nFloat32\nAngle of phase B voltage\nUC\n8104\nR\n2 \nFloat32\nAngle of phase C voltage\nAngle of currents\nIA\n8106\nR\n2 \nFloat32\nAngle of phase A current\nIB\n8108\nR\n2 \nFloat32\nAngle of phase B current\nIC\n8110\nR\n2 \nFloat32\nAngle of phase C current\nAngle between voltage and current\nUIA\n8112\nR\n2 \nFloat32\nAngle between voltage and \ncurrent of phase A\nUIB\n8114\nR\n2 \nFloat32\nAngle between voltage and \ncurrent of phase B\nUIC\n8116\nR\n2 \nFloat32\nAngle between voltage and \ncurrent of phase C\nS111\n39"
+  },
+  {
+    "chunk_id": 68,
+    "page": 39,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+    "content": "SUTO iTEC GmbH\nGrißheimer Weg 21\nD-79423 Heitersheim\nGermany\nSUTO iTEC (ASIA) Co., Ltd.\nRoom 10, 6/F, Block B, Cambridge  Plaza\n188 San Wan Road, Sheung Shui, N.T.\nHong Kong\nTel: +49 (0) 7634 50488 00\nEmail: sales@suto-itec.com\nWebsite: www.suto-itec.com \nTel: +852 2328 9782\nEmail: sales.asia@suto-itec.com\nWebsite: www.suto-itec.com\nSUTO iTEC Inc.\n5460 33rd St SE\nGrand Rapids, MI 49512\nUSA\nTel: +1 (616) 800-7886\nEmail: sales.us@suto-itec.com\nWebsite: www.suto-itec.com\nAll rights reserved ©\nModifications and errors reserved\nS111_Modbus register table_EN_V2025-2\n40\nS111"
+  }
+]

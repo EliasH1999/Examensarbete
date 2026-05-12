@@ -1,0 +1,248 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -1- \n2104/08/20098 \nList of Contents \n1. INTRODUCTION....................................................................................................................................................2\n1.1 DEFINITIONS AND ABBREVIATIONS......................................................................................................................2\n1.2 REFERENCES ........................................................................................................................................................2\n2. TECHNICAL DATA ...............................................................................................................................................3\n2.1 GENERAL MODBUS RTU...................................................................................................................................4"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "2.1 GENERAL MODBUS RTU...................................................................................................................................4\n3. COMMISSIONING.................................................................................................................................................5\n4. MODBUS ADDRESSING MODULE ....................................................................................................................6\n4.1 MODBUS FUNCTION CODES................................................................................................................................6\n5. MODBUS HOLDING REGISTERS ......................................................................................................................8\n5.1 PASSWORD ...........................................................................................................................................................9"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "5.1 PASSWORD ...........................................................................................................................................................9\n5.2 REAL-TIME MEASUREMENT................................................................................................................................10\n5.3 INFO ...................................................................................................................................................................11\n5.4 DISPLAY.............................................................................................................................................................12\n5.5 USER SETTINGS ..................................................................................................................................................13"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "5.5 USER SETTINGS ..................................................................................................................................................13\n5.6 SERVICE SETTINGS.............................................................................................................................................17\n5.7 FACTORY SETTINGS ...........................................................................................................................................18\n5.8 AUTHORIZE ........................................................................................................................................................19\n5.9 DATALOGER.......................................................................................................................................................20\n5.9.1 Monthly statistics only...............................................................................................................................22"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "5.9.1 Monthly statistics only...............................................................................................................................22\n5.9.2 Daily statistics only ...................................................................................................................................22\n5.9.3 Hourly statistics only.................................................................................................................................23\n5.9.4 Five minutes statistics only........................................................................................................................23"
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -2- \n2104/08/20098 \n1. Introduction \nThis manual describes the MAGX1 MODBUS-RTU communication protocol. \n1.1 Definitions and Abbreviations \nCRC \nCyclic Redundancy Check, Used for error-checking in MODBUS \nRTU. See appendix \nMODBUS master \nA MODBUS device, which is able to access data in one or more \nconnected MODBUS slaves \nMODBUS slave \nA MODBUS device, which is able to respond to requests from a \nsingle MODBUS master \nThroughout this document the following notation is used to \naddress MODBUS RTU registers: \nMODBUS address \n1234 - Holding register 1234 (addressed in messages by 1233) \nRS 232 \nRefers to the communication standard defined by EIA/TIA-232C. \n(Physical layer) EIA/TIA232C \nUSB \nRefers to the USB Specification usb.org \nRS 485 \nRefers to the 2-wire communication standard defined by \nEIA/TIA-485. (Physical layer) \nRTU \nRemote Terminal Unit - Standard MODBUS transmission mode \n1.2 References \nReference 1"
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "(Physical layer) EIA/TIA232C \nUSB \nRefers to the USB Specification usb.org \nRS 485 \nRefers to the 2-wire communication standard defined by \nEIA/TIA-485. (Physical layer) \nRTU \nRemote Terminal Unit - Standard MODBUS transmission mode \n1.2 References \nReference 1 \nMODBUS over Serial Line Specification & Implementation \nguide v. 1.0 modbus.org 12/02/02\nReference 2 \nMODBUS \nApplication \nProtocol \nSpecification\nv. \n1.1 \nmodbus.org 12/06/02\nReference 3 \nMagX1 manual"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -3- \n2104/08/20098 \n2. Technical data \nARKON Flowmeter MODBUS RTU specification \nDevice type \nSlave \nBaud rates \n4800, 9600, 19200, 38400 bits/sec. \nNumber of stations \nRecommended: \nmax. 31 per segment without repeaters \nDevice address range \n1-247 \nProtocol \nMODBUS RTU (Other MODBUS protocols like ASCII, Plus or \nTCP/IP are not supported) \nElectrical interface \nRS232, RS 485 - 2 wire, USB, Ethernet \n3 read holding registers \n16 write multiple registers \nSupported function code \n17 report slave ID \nBroadcast \nNo \nMaximum cable length \nReference 3 \nStandard MODBUS over \nserial line v1.0) \n  \nCertified \nNo"
+  },
+  {
+    "chunk_id": 8,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -4- \n2104/08/20098 \n2.1 General MODBUS RTU \nThe module complies with the MODBUS serial line protocol [Reference 1]. \nAmong other things, this implies a master-slave protocol at level 2 of the OSI model. \nOne node, (the master), issues explicit commands to one of the „slave“-nodes and processes \nresponses. Slave nodes will not transmit data without a request from the master node, and do \nnot communicate with other slaves. MODBUS is a mono master system, which means that \nonly one master can be connected at any single point in time. Two modes of communication \nare possible, Unicast and Broadcast. Unicast mode is where the master sends a request to \none slave device, and waits a specified time for a response. In Broadcast mode the master \nsends out a request to address „0“, which means that the information is for all slave devices \non the network. In Broadcast mode there is no response from the slave devices."
+  },
+  {
+    "chunk_id": 9,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "one slave device, and waits a specified time for a response. In Broadcast mode the master \nsends out a request to address „0“, which means that the information is for all slave devices \non the network. In Broadcast mode there is no response from the slave devices. \nThe MODBUS frame is shown below, and is valid for both requests and responses. \nFurther details of the MODBUS protocol can be found in Reference 1 and 2."
+  },
+  {
+    "chunk_id": 10,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -5- \n2104/08/20098 \n3. Commissioning \nBefore communicating with the master, Baud rate, node ID and update rate must be \nselected. This can be done from the display. Please look in to the MagX1 transmitter manual \nto locate the MODBUS RTU menu. (see Reference 3.) \nItem \nValue \nComments \nSlave address \n1-247 \nDevice address [Factory setting: 1] \nBaud rate \n4800, 9600, 19200, 38400 \nCommunication speed [Factory \nsetting: 9600] \nEven, 1 stopbit \nCommunication parameters [Factory \nsetting: Even, 1 stopbit] \nOdd, 1 stopbit  \n  \nNone, 2 stopbit \n  \nParity/framing \n   \n  \nNone, 1 stopbit \n  \nResponse delay \n0-255 msec. \nThe minimum time from when a \nslave receives a request and until it \nreturns a response. This makes it \npossible to send data to slow masters \nwithout overwhelming its receiver. \n[Factory setting: 0] \nInterframe spacing \n3.5-25 chars \nThe minimum interframe space \nbetween two MODBUS RTU \nmessages in sequence (specified as"
+  },
+  {
+    "chunk_id": 11,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "slave receives a request and until it \nreturns a response. This makes it \npossible to send data to slow masters \nwithout overwhelming its receiver. \n[Factory setting: 0] \nInterframe spacing \n3.5-25 chars \nThe minimum interframe space \nbetween two MODBUS RTU \nmessages in sequence (specified as \n3.5 characters) is configurable. \nRange: 3.5 - 25 character times. \n[Factory setting: 3,5]"
+  },
+  {
+    "chunk_id": 12,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -6- \n2104/08/20098 \n4. MODBUS addressing module \nThe module allows R/W access to the following standard MODBUS data register blocks: \n• Holding registers \nI.e. the module will not support the other standard data register blocks: \n• Coils \n• „Discrete input“ \n• „Input registers“ \n  \n4.1 MODBUS function codes \nThis device supports following function codes: 3, 16 and 17. \nFunction code 3 and 16 are used for accessing registers. Function code 17 (report slave \nID) will return a structure of identification information of the device. Below the different \nfunction code exceptions are described. \nFunction code 3 (Read holding registers) \nGeneral exceptions: \n• Requesting less than 1 or more than 125 registers => Exception 3 (Illegal data value) \n• Requesting more than max. message size => Exception 2 (Illegal data address) \n• Requesting data above/crossing limitation of max. register address (0xFFFF) => Exception 2 \n(Illegal data address)"
+  },
+  {
+    "chunk_id": 13,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "• Requesting less than 1 or more than 125 registers => Exception 3 (Illegal data value) \n• Requesting more than max. message size => Exception 2 (Illegal data address) \n• Requesting data above/crossing limitation of max. register address (0xFFFF) => Exception 2 \n(Illegal data address) \n• If the end address is only part of a mapped holding register item (e.g. one half of a longint \nvalue) => Exception 2 (Illegal data address) \nApplication exceptions: \n• Application errors => Exception 2 (Illegal data address) \nHoles/register alignment: \n• The read command always returns data if no exception is given. Bad start/end alignment will \nresult in only parts of the data item being read. \n• Holes in the holding register map return Exception 2 (Illegal data address) \nFunction code 16 (Write multiple registers) \nGeneral exceptions: \n• Exceeding max. message size => Exception 2 (Illegal data address) \n• Writing data above/crossing limitation of max. register address (0xFFFF) => Exception"
+  },
+  {
+    "chunk_id": 14,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "Function code 16 (Write multiple registers) \nGeneral exceptions: \n• Exceeding max. message size => Exception 2 (Illegal data address) \n• Writing data above/crossing limitation of max. register address (0xFFFF) => Exception \n2(Illegal data address) \nApplication exceptions: \n• Application errors => Exception 2 (Illegal data address) \n• Application errors include writing to ReadOnly holding registers \nHoles / register alignment: \n• If start-address is not the start of a mapped holding register => Exception 2 (Illegal data \naddress) \n• Writing to holes is not allowed => Exception 2 (Illegal data address)"
+  },
+  {
+    "chunk_id": 15,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -7- \n2104/08/20098 \n• If the end address is only part of a mapped holding register item (e.g. one half of a longint \nvalue), the action depends on the datatype. \n• If the end address is only part of a mapped holding register item (e.g. one half of a longint \nvalue) => Exception 2 (Illegal data address) \nFunction code 17 (Report Slave ID) \n• There are no exceptions for this function"
+  },
+  {
+    "chunk_id": 16,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -8- \n2104/08/20098 \n5. MODBUS holding registers \nIn the following the holding registers for the MAGX1 MODBUS RTU module are \ndescribed. \nMODBUS \nStart Register     Section \n2 \nPassword \n100 \nReal-time measurement \n1000 \nInfo \n1500 \nDisplay \n2000 \nUser settings \n3000 \nService settings \n4000 \nFactory settings \n5000 \nAuthorize \n49998 \nData-logger \nHolding registers memory map \nWhen writing to the Holding registers, data validity is not checked. Writing incorrect \nvalues can result in unexpected behaviour of the device. In any further explanations, the \nfollowing data types are used: \n• Longint – Number consisting of 32 bits, formed by 2 MODBUS registers. It is necessary to \nwrite both Low and High Word of this item, the register number always has to be an even \nnumber. Not meeting these requirements will cause an Exception 2 error (Illegal data \naddress). In case information about the number of decimals is available, then the final number"
+  },
+  {
+    "chunk_id": 17,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "write both Low and High Word of this item, the register number always has to be an even \nnumber. Not meeting these requirements will cause an Exception 2 error (Illegal data \naddress). In case information about the number of decimals is available, then the final number \nis given by the following formula: Y = X * 10^(-DEC), where Y is the final number, X the \nread number, and DEC the number of decimals. \n• Bool – this item can be read, but its value has no meaning. Writing value 1 to this item will \ncause an unspecified operation to be performed (erasing the Memory module, resetting the \nflow totalisers, etc. Reference 3). It is necessary to write both Low and High Word of this \nitem, the register number always has to be an even number. Not meeting these requirements \nwill cause an Exception 2 error (Illegal data address). \nMODBUS \nregister \nData \nType \nLow/High \nWord \n2 \nL \n3 \nLongint\nH \n4 \nL \n5 \nBool \nH \n6 \nWord \n- \nData type memory map"
+  },
+  {
+    "chunk_id": 18,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -9- \n2104/08/20098 \n5.1 Password \nTo enter the \"User settings, Service settings, Factory settings, and Authorize\" sections, \nit is necessary to enter a password the same way as for the MAGX1 flowmeter menu, see \nreference 3.  \nMODBUS \nregister  \nMODBUS \naddress  \nNo. of \nbytes Data type No. of \ndecimal\nMin \nValue \nMax \nValue Description \nRead/ \nWrite\n2 \n1 \n4 \nLongint \n0 \n0 \n9999 \nPassword (user) \nR*/W \n4 \n3 \n4 \nLongint \n0 \n0 \n9999 \nPassword (Service) \nR*/W \n6 \n5 \n4 \nLongint \n0 \n0 \n9999 \nPassword (Factory) \nR*/W \n8 \n7 \n4 \nLongint \n0 \n0 \n9999 \nPassword (Authorize) R*/W \n*) For safety purposes, it is not possible to read this item directly. In case a 0 is read from this \nregister, it means that no valid password was entered, and the given section is not accessible. \nIn case a 1 is read, a valid password was entered and hence the given section can be accessed \nfreely. To close the section, you write any possible invalid password to the password entry."
+  },
+  {
+    "chunk_id": 19,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -10- \n2104/08/20098 \n5.2 Real-time measurement \nMODBUS \nregister \nMODBUS \naddress \nNo. of \nbytes Data type\nNo. of \ndecimal\nMin \nValue \nMax \nValue \nDescription Read/ \nWrite\n100 \n99 \n4 \nLongint \n3 \n-10^7 \n10^7 \nFLOW \nR \n102 \n101 \n4 \nLongint \n0 \n0 \n2^32 \nTOTAL * \nR \n104 \n103 \n4 \nLongint \n6 \n0 \n2^32 \nTOTAL DEC \n* \nR \n106 \n105 \n4 \nLongint \n0 \n0 \n2^32 \nAUX * \nR \n108 \n107 \n4 \nLongint \n6 \n0 \n2^32 \nAUX DEC * \nR \n110 \n109 \n4 \nLongint \n0 \n0 \n2^32 \nTOTAL+ * \nR \n112 \n111 \n4 \nLongint \n6 \n0 \n2^32 \nTOTAL+ DEC \n* \nR \n114 \n113 \n4 \nLongint \n0 \n0 \n2^32 \nTOTAL- * \nR \n116 \n115 \n4 \nLongint \n6 \n0 \n2^32 \nTOTAL- DEC \n* \nR \n118 \n117 \n4 \nLongint \n1 \n0 \n2^32 \nTEMP \nR \n120 \n119 \n4 \nLongint \n- \n0 \n4 \nFLOW UNIT, \n0=UKG/min, \n1=USG/min, \n2=m3/h, \n3=l/min, 4=l/s \nR \n122 \n121 \n4 \nLongint \n- \n0 \n3 \nVOLUME \nUNIT, \n0=UKG, \n1=USG, 2=m3, \n3=l \nR \n124 \n123 \n4 \nLongint \n- \n0 \n1 \nTEMP UNIT, \n0=°C, 1=°F \nR \n*) The final number is given by the sum of the whole and the decimal. Example: Resulting"
+  },
+  {
+    "chunk_id": 20,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "- \n0 \n4 \nFLOW UNIT, \n0=UKG/min, \n1=USG/min, \n2=m3/h, \n3=l/min, 4=l/s \nR \n122 \n121 \n4 \nLongint \n- \n0 \n3 \nVOLUME \nUNIT, \n0=UKG, \n1=USG, 2=m3, \n3=l \nR \n124 \n123 \n4 \nLongint \n- \n0 \n1 \nTEMP UNIT, \n0=°C, 1=°F \nR \n*) The final number is given by the sum of the whole and the decimal. Example: Resulting \nTotal measurement = (TOTAL) + (TOTAL DEC*10^-6)."
+  },
+  {
+    "chunk_id": 21,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -11- \n2104/08/20098 \n5.3 Info \nMODBU\nS register \nMODB\nUS \naddress \nNo. of \nbytes Data type \nNo. of \ndecimal\nMin \nValue \nMax \nValue \nDescription \nRead/ \nWrite\n1000 \n999 \n4 \nLongint \n0 \n- \n- \nUnit No. \nR \n1002 \n1001 \n4 \nLongint \n0 \n- \n- \nSensor Unit No. \nR \n1004 \n1003 \n4 \nLongint \n0 \n- \n- \nError (min) \nR \n1006 \n1005 \n4 \nLongint \n0 \n- \n- \nOK (min) \nR \n1008 \n1007 \n4 \nLongint \n0 \n- \n- \nDiameter  \nR \n1010 \n1009 \n4 \nLongint \n3 \n- \n- \nFlow Range \nR \n1012 \n1011 \n4 \nLongint \n2 \n- \n- \nFirmWare No. \nR \n1014 \n1013 \n4 \nLongint \n0 \n- \n- \nError Info \nR \n1016 \n1015 \n4 \nLongint \n0 \n- \n- \nPower Frequency\nR \n1018 \n1017 \n4 \nLongint \n0 \n0 \n1 \nModule RTC \npressent, 0=No, \n1=Yes \nR \n1020 \n1019 \n4 \nLongint \n0 \n0 \n1 \nModule Memory \npressent, 0=No, \n1=Yes \nR"
+  },
+  {
+    "chunk_id": 22,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -12- \n2104/08/20098 \n5.4 Display \nMODBUS \nregister  \nMODBUS \naddress  \nNo. \nof \nbytes \nData type \nNo. of \ndecimal\nMin \nValue \nMax \nValue \nDescription\nRead/ \nWrite \n1500 \n1499 \n4 \nLongint \n- \n0 \n4 \nUnit Flow \n(+/-), \n0=UKG/min, \n1=USG/min, \n2=m3/h, \n3=l/min, \n4=l/s \nR/W \n1502 \n1501 \n4 \nLongint \n- \n0 \n3 \nUnit \nVolume, \n0=UKG, \n1=USG, \n2=m3, 3=l \nR/W \n1504 \n1503 \n4 \nLongint \n- \n0 \n1 \nUnit \nTemperature \n0=°C, 1=°F \nR/W \n1506 \n1505 \n4 \nLongint \n- \n0 \n1 \nLanguage, \n0=ENG, \n1=SPA \nR/W \n1508 \n1507 \n4 \nLongint \n- \n0 \n100 \nContrast [%]\nR/W"
+  },
+  {
+    "chunk_id": 23,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -13- \n2104/08/20098 \n5.5 User settings \nTo enter this section, please first read chapter 6.1. For an explanation of individual \nentries, please refer to reference 3. \nMODBUS \nregister \nMODBUS \naddress \nNo. of \nbytes Data type \nNo. of \ndecimal\nMin \nValue \nMax \nValue \nDescription Read/ \nWrite\n2000 \n1999 \n4 \nLongint \n- \n0 \n1 \nMeasurement, \n0=Run, 1=Stop R/W\n2002 \n2001 \n4 \nLongint \n- \n0 \n1 \nAir Detector, \n0=ON, 1=OFF\nR/W\n2004 \n2003 \n4 \nLongint \n3 \n0 \n999 \nAir Constant \nR/W\n2006 \n2005 \n4 \nBool \n- \n0 \n1 \nDatalogger \nDelete? \n!!Warning: \nMove to \nService setting,\nhere is not \navailable \nNA \n2008 \n2007 \n4 \nBool \n- \n0 \n1 \nDelete \nAuxiliary \nVolume ? \nR/W\n2010 \n2009 \n4 \nLongint \n0 \n0 \n25 \nStart Delay \nR/W\n2012 \n2011 \n4 \nLongint \n0 \n0 \n60 \nSamples per \nAvg. \nR/W\n2014 \n2013 \n4 \nLongint \n- \n0 \n5 \nLow Flow \nCutoff, \n0=0.5%, \n1=1%, 2=2%, \n3=5%, 4=10%, \n5=OFF  \nR/W\n2016 \n2015 \n4 \nLongint \n3 \n0 \n10 000 Flow Qn \nR/W\n2018 \n2017 \n4 \nLongint \n- \n0 \n1 \nInvert Flow,"
+  },
+  {
+    "chunk_id": 24,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "2009 \n4 \nLongint \n0 \n0 \n25 \nStart Delay \nR/W\n2012 \n2011 \n4 \nLongint \n0 \n0 \n60 \nSamples per \nAvg. \nR/W\n2014 \n2013 \n4 \nLongint \n- \n0 \n5 \nLow Flow \nCutoff, \n0=0.5%, \n1=1%, 2=2%, \n3=5%, 4=10%, \n5=OFF  \nR/W\n2016 \n2015 \n4 \nLongint \n3 \n0 \n10 000 Flow Qn \nR/W\n2018 \n2017 \n4 \nLongint \n- \n0 \n1 \nInvert Flow, \n0=No-invert, \n1=Invert \nR/W\n2020 \n2019 \n4 \nLongint \n- \n0 \n6 \nCurrent Loop \nSetting - \nSignal, \n0=Flow+, \n1=Flow-, \n2=Error, 3=Air \ndetector, \n4=Fixed, \n5=Direct \ndriving, \n6=OFF \nR/W\n2022 \n2021 \n4 \nLongint \n3 \n0 \n10 000 Flow min. \nR/W"
+  },
+  {
+    "chunk_id": 25,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -14- \n2104/08/20098 \n2024 \n2023 \n4 \nLongint \n3 \n0 \n10 000 Flow max. \nR/W\n2026 \n2025 \n4 \nLongint \n0 \n0 \n20 \nCurrent min. \nR/W\n2028 \n2027 \n4 \nLongint \n0 \n0 \n20 \nCurrent max. \nR/W\n2030 \n2029 \n4 \nLongint \n- \n0 \n6 \nVoltage Output \nSetting - \nSignal, \n0=Flow+, \n1=Flow-, \n2=Error, 3=Air \ndetector, \n4=Fixed, \n5=Direct \ndriving, \n6=OFF \nR/W\n2032 \n2031 \n4 \nLongint \n3 \n0 \n10 000 Flow min. \nR/W\n2034 \n2033 \n4 \nLongint \n3 \n0 \n10 000 Flow max. \nR/W\n2036 \n2035 \n4 \nLongint \n0 \n0 \n10 \nVoltage min. \nR/W\n2038 \n2037 \n4 \nLongint \n0 \n0 \n10 \nVoltage max. \nR/W\n2040 \n2039 \n4 \nLongint \n- \n0 \n6 \nRelay 1 Setting \n- Signal, \n0=Flow+, \n1=Flow-, \n2=Error, 3=Air \ndetector, \n4=Fixed, \n5=Comparator, \n6=OFF \nR/W\n2042 \n2041 \n4 \nLongint \n- \n0 \n4 \nRelay 1 \nComparator \nMode, 0=On \nIn, 1=On Out, \n2=On>F1, \n3=On<F1, \n4=OFF \nR/W\n2044 \n2043 \n4 \nLongint \n3 \n0 \n10 000 Flow 1 \nR/W\n2046 \n2045 \n4 \nLongint \n3 \n0 \n10 000 Flow 2 \nR/W\n2048 \n2047 \n4 \nLongint \n3 \n0 \n10 000 Hysteresis 1 \nR/W\n2050 \n2049 \n4"
+  },
+  {
+    "chunk_id": 26,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "6=OFF \nR/W\n2042 \n2041 \n4 \nLongint \n- \n0 \n4 \nRelay 1 \nComparator \nMode, 0=On \nIn, 1=On Out, \n2=On>F1, \n3=On<F1, \n4=OFF \nR/W\n2044 \n2043 \n4 \nLongint \n3 \n0 \n10 000 Flow 1 \nR/W\n2046 \n2045 \n4 \nLongint \n3 \n0 \n10 000 Flow 2 \nR/W\n2048 \n2047 \n4 \nLongint \n3 \n0 \n10 000 Hysteresis 1 \nR/W\n2050 \n2049 \n4 \nLongint \n3 \n0 \n10 000 Hysteresis 2 \nR/W\n2052 \n2051 \n4 \nLongint \n3 \n0 \n99 999 Relay 2 \nLitres/1 (Q+) \nR/W\n2054 \n2053 \n4 \nLongint \n3 \n0 \n99 999 Relay 2 \nLitres/1 (Q-) \nR/W\n2056 \n2055 \n4 \nLongint \n3 \n0 \n99 999 Relay 2 Dosing R/W"
+  },
+  {
+    "chunk_id": 27,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -15- \n2104/08/20098 \n2058 \n2057 \n4 \nLongint \n- \n0 \n6 \nF-out Setting - \nSignal, \n0=Flow+, \n1=Flow-, \n2=Error, 3=Air \ndetector, \n4=Fixed, \n5=Direct \ndriving, \n6=OFF \nR/W\n2060 \n2059 \n4 \nLongint \n3 \n0 \n10 000 Flow min. \nR/W\n2062 \n2061 \n4 \nLongint \n3 \n0 \n10 000 Flow max. \nR/W\n2064 \n2063 \n4 \nLongint \n0 \n0 \n10 000 F min. \nR/W\n2066 \n2065 \n4 \nLongint \n0 \n0 \n10 000 F max. \nR/W\n2068 \n2067 \n4 \nLongint \n- \n0 \n4 \nSpeaker \nSetting - \nSignal, \n0=Flow+-, \n1=Error, 2=Air \ndetector, \n3=Fixed, \n4=OFF \nR/W\n2070 \n2069 \n4 \nBool \n- \n0 \n1 \nLoad Default \nSettings? \nR/W\n2072 \n2071 \n4 \nLongint \n0 \n0 \n9 999 \nPassword \nSetup \nR/W\n2074 \n2073 \n4 \nLongint \n0 \n0 \n247 \nModbus Slave \nAddress \nR/W\n2076 \n2075 \n4 \nLongint \n- \n0 \n5 \nModbus \nBaudRate, \n0=1200, \n1=2400, \n2=4800, \n3=9600, \n4=19200, \n5=38400 \nR/W\n2078 \n2077 \n4 \nLongint \n- \n0 \n3 \nModbus Parity, \n0=Even 1 \nstopbit, 1=Odd \n1 stopbit, \n2=None 2 \nstopbit, \n3=None 1 \nstopbit \nR/W\n2080 \n2079 \n4 \nLongint \n1 \n0 \n250 \nModbus \nInterframe"
+  },
+  {
+    "chunk_id": 28,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "R/W\n2076 \n2075 \n4 \nLongint \n- \n0 \n5 \nModbus \nBaudRate, \n0=1200, \n1=2400, \n2=4800, \n3=9600, \n4=19200, \n5=38400 \nR/W\n2078 \n2077 \n4 \nLongint \n- \n0 \n3 \nModbus Parity, \n0=Even 1 \nstopbit, 1=Odd \n1 stopbit, \n2=None 2 \nstopbit, \n3=None 1 \nstopbit \nR/W\n2080 \n2079 \n4 \nLongint \n1 \n0 \n250 \nModbus \nInterframe \nspacing \nR/W"
+  },
+  {
+    "chunk_id": 29,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -16- \n2104/08/20098 \n2082 \n2081 \n4 \nLongint \n0 \n0 \n255 \nModbus \nResponse delay R/W\n2084 \n2083 \n4 \nLongint \n0 \n0 \n23 \nTime - hour \nR/W\n2086 \n2085 \n4 \nLongint \n0 \n0 \n59 \nTime - min \nR/W\n2088 \n2087 \n4 \nLongint \n0 \n1 \n31 \nDate - day \nR/W\n2090 \n2089 \n4 \nLongint \n0 \n1 \n12 \nDate - month \nR/W\n2092 \n2091 \n4 \nLongint \n0 \n0 \n99 \nDate - year, \nnumber of \nyears after \n2000 \nR/W\n2094 \n2093 \n4 \nLongint \n- \n0 \n2 \nElectrode clean \npower, 0=Off, \n1=On, 2=On \nStart \nR/W\n2096 \n2095 \n4 \nLongint \n0 \n1 \n9999 \nElectrode clean \ntime [sec.] \nR/W\n2098 \n2097 \n4 \nBool \n- \n0 \n1 \nElectrode clean \nstart now! \nR/W\n2100 \n2099 \n4 \nLongint \n0 \n1 \n99 \nF-out Duty \ncycle [%] \nR/W\n2102 \n2101 \n4 \nLongint \n0 \n0 \n1 \nTotalizer \ncycling, 0=On, \n1=Off \nR/W"
+  },
+  {
+    "chunk_id": 30,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -17- \n2104/08/20098 \n5.6 Service Settings \nTo enter this section, please first read chapter 6.1. For an explanation of individual \nentries, please refer to reference 3. \nMODBUS \nregister \nMODBUS \naddress \nNo. of \nbytes Data type \nNo. of \ndecimal\nMin \nValue \nMax \nValue \nDescription Read/ \nWrite\n3000 \n2999 \n4 \nBool \n- \n0 \n1 \nError Delete? \nR/W\n3002 \n3001 \n4 \nBool \n- \n0 \n1 \nOK Delete? \nR/W\n3004 \n3003 \n4 \nBool \n- \n0 \n1 \nDelete Volume \n(-)? \nR/W\n3006 \n3005 \n4 \nBool \n- \n0 \n1 \nDelete Volume \n(+)? \nR/W\n3008 \n3007 \n4 \nBool \n- \n0 \n1 \nDelete Volume \nTotal? \nR/W\n3010 \n3009 \n4 \nLongint \n0 \n0 \n1 \nFlow \nsimulation, \n0=ON, 1=OFF\nR/W\n3012 \n3011 \n4 \nLongint \n0 \n0 \n100 \nSimulated flow \n[%] \nR/W\n3014 \n3013 \n4 \nBool \n- \n0 \n1 \nDatalogger \nDelete ? \nR/W"
+  },
+  {
+    "chunk_id": 31,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -18- \n2104/08/20098 \n5.7 Factory Settings \nTo enter this section, please first read chapter 6.1. For an explanation of individual \nentries, please refer to reference 3. \nMODBUS \nregister \nMODBUS \naddress \nNo. of \nbytes Data type \nNo. of \ndecimal\nMin \nValue \nMax \nValue \nDescription Read/ \nWrite\n4000 \n3999 \n4 \nLongint \n0 \n0 \n999 \nL = Diameter \nR/W\n4002 \n4001 \n4 \nLongint \n0 \n0 \n< 10^7 Unit No. \nR/W\n4004 \n4003 \n4 \nBool \n- \n0 \n1 \nZero Flow? \nR/W\n4006 \n4005 \n4 \nLongint \n- \n0 \n1 \nService Mode, \n0=ON, 1=OFF\nR/W\n4008 \n4007 \n4 \nBool \n- \n0 \n1 \nSave Settings?\nR/W\n4010 \n4009 \n4 \nLongint \n3 \n0 \n10 000 L_Calibration \nData1 \nR/W\n4012 \n4011 \n4 \nLongint \n3 \n0 \n10 000 L_Calibration \nData2 \nR/W\n4014 \n4013 \n4 \nLongint \n3 \n0 \n10 000 L_Calibration \nData3 \nR/W\n4016 \n4015 \n4 \nLongint \n3 \n0 \n10 000 M_Calibration \nData1 \nR/W *\n4018 \n4017 \n4 \nLongint \n0 \n0 \n  \nMeasurment \nData1 \nR/W *\n4020 \n4019 \n4 \nLongint \n3 \n0 \n10 000 M_Calibration \nData2 \nR/W *\n4022 \n4021 \n4 \nLongint \n0 \n0"
+  },
+  {
+    "chunk_id": 32,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "Data2 \nR/W\n4014 \n4013 \n4 \nLongint \n3 \n0 \n10 000 L_Calibration \nData3 \nR/W\n4016 \n4015 \n4 \nLongint \n3 \n0 \n10 000 M_Calibration \nData1 \nR/W *\n4018 \n4017 \n4 \nLongint \n0 \n0 \n  \nMeasurment \nData1 \nR/W *\n4020 \n4019 \n4 \nLongint \n3 \n0 \n10 000 M_Calibration \nData2 \nR/W *\n4022 \n4021 \n4 \nLongint \n0 \n0 \n  \nMeasurment \nData2 \nR/W *\n4024 \n4023 \n4 \nLongint \n3 \n0 \n10 000 M_Calibration \nData3 \nR/W *\n4026 \n4025 \n4 \nLongint \n0 \n0 \n  \nMeasurment \nData3 \nR/W *\n4028 \n4027 \n4 \nLongint \n- \n0 \n1 \nExcitation \nfrequency, \n0=3.125Hz, \n1=6.250Hz \nR/W\n4030 \n4029 \n4 \nLongint \n- \n0 \n1 \nExcitation, \n0=ON, 1=OFF\nR/W\n4032 \n4031 \n4 \nBool \n- \n0 \n1 \nZero Flow \nErase? \nR/W"
+  },
+  {
+    "chunk_id": 33,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -19- \n2104/08/20098 \n5.8 Authorize \nFor access to this section, first read chapter 6.1. For a description of individual items, \nplease note reference 3. \nMODBUS \nregister \nMODBUS \naddress \nNo. of \nbytes Data type\nNo. of \ndecimal\nMin \nValue \nMax Value\nDescription Read/ \nWrite\n5000 \n4999 \n4 \nLongint \n0 \n0 \n9 999 \nPassword \nSetup \nR/W"
+  },
+  {
+    "chunk_id": 34,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -20- \n2104/08/20098 \n5.9 Dataloger \nMODBUS \nregister \nMODBUS \naddress \nNo. of \nbytes Data type\nNo. of \ndecimal\nMin \nValue \nMax \nValue \nDescription Read/ \nWrite\n49 998 \n49 997 \n4 \nLongint \n0 \n0 \n4095 \nPage address \nregister \nR/W \n50 000 \n49 999 \n2 \nWord \n- \n- \n- \n1.Word \nR \n50 001 \n50 000 \n2 \nWord \n- \n- \n- \n2.Word \nR \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n.. \n50 126 \n50 125 \n2 \nWord \n- \n- \n- \n127.Word \nR \nThe MEMORY module provides an address area with a size of 1MB. Addressing is \ndone through pages and offsets. The size of each page is 256 byte, the total number of pages \nis 4096. \nTo read data from the module, you should do the following the steps: \n• you save the page address to the holding register 49998 (page address register). \n• you read any number of data with a maximum size of 127 registers = 256 bytes from the \nholding registers 50000 to 50126. \n• you repeat the above steps until you have read the required data block."
+  },
+  {
+    "chunk_id": 35,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -21- \n2104/08/20098 \nData are saved to memory in the following way: \nMonth JanuaryFebruary\nMarch \nApril \nMay \nJune \nStart \npage \naddress\n300 \n600 \n900 \n1200 \n1500 \n1800 \nEnd \npage \naddress\n599 \n899 \n1199 \n1499 \n1799 \n2099 \nMonth\nJuly \nAugust September October NovemberDecember\nStart \npage \naddress\n2100 \n2400 \n2700 \n3000 \n3300 \n3600 \nEnd \npage \naddress\n2399 \n2699 \n2999 \n3299 \n3599 \n3899 \nSaving of individual months into the pages \nPage \naddress Description Page \naddress Description  \n \nPage \naddress Description \n300 \n5-minute \n600 \n5-minute \n \n. \n3600 \n5-minute \n248 pages \n248 pages \n \n. \n \n248 pages \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n547 \n  \n847 \n  \n \n. \n3847 \n  \n548 \nHourly \n848 \nhourly \n \n. \n3848 \nhourly \n31 pages \n31 pages \n \n. \n \n31 pages \n578 \n  \n878 \n  \n \n. \n3878 \n  \n579 \ndaily \n879 \ndaily \n \n. \n3879 \ndaily"
+  },
+  {
+    "chunk_id": 36,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": ". \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n  \n  \n \n. \n \n  \n547 \n  \n847 \n  \n \n. \n3847 \n  \n548 \nHourly \n848 \nhourly \n \n. \n3848 \nhourly \n31 pages \n31 pages \n \n. \n \n31 pages \n578 \n  \n878 \n  \n \n. \n3878 \n  \n579 \ndaily \n879 \ndaily \n \n. \n3879 \ndaily \n580 \n2 pages \n880 \n2 pages \n \n. \n3880 \n2 pages \n581 \nmonthly \n881 \nmonthly \n \n. \n3881 \nmonthly \n \nJanuary \n \nFebruary \n \n \n \nDecember \nSaving of individual statistics to pages"
+  },
+  {
+    "chunk_id": 37,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -22- \n2104/08/20098 \n5.9.1 Monthly statistics only \n \nEach 5 minutes, the 13B total monthly flow is updated at the beginning of the given \npage, the rest remains unused. To read the records for total flow for one month it is necessary \nto read 13byte data from pages 581, 881, 1181.... \nThe following table describes the \"monthly\" statistics for each month: \nDate \nTotal + \nTotal- \nMeasured \nwith error \nRecords size \n[B]  \nMonthly \nrecord \nUsed capacity \n[B] \nUsed memory \npages \nDDMMYYFFFFFFFFFFFFFFFFFFFF \n13 \n1 \n13 \n1 \n5.9.2 Daily statistics only \n \nEach 5 minutes, the total daily flow is updated at the correct location in memory. To \nread the total flow records, you need to load 2 pages for each month. On each page, there are \n15 or 16 data-records as per the following table: \nPage \naddress \nNumber \nof saved \ndays \n579 \n16 \n580 \n15 \n880 \n16 \n881 \n15 \n.. \n.. \nThe \"daily\" statistics format for each month is as per the following table: \nDate \nTotal +"
+  },
+  {
+    "chunk_id": 38,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "15 or 16 data-records as per the following table: \nPage \naddress \nNumber \nof saved \ndays \n579 \n16 \n580 \n15 \n880 \n16 \n881 \n15 \n.. \n.. \nThe \"daily\" statistics format for each month is as per the following table: \nDate \nTotal + \nTotal- \nMeasured \nwith error \nRecord \nsize[B]  \nData-\nrecords per \nmonth \nUsed \ncapacity \n[B] \nUsed \nmemory \npages \nDDMMYYFFFFFFFFFFFFFFFFFFFF \n13 \n31 \n403 \n2"
+  },
+  {
+    "chunk_id": 39,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "MAGX1 MODBUS-RTU Manual  \n      -23- \n2104/08/20098 \n5.9.3 Hourly statistics only \n \nEach 5 minutes, the total hourly flow is updated at the correct location in memory. To \nread the total flow records, you need to load 31 pages for each month. On each page, there are \n24 data-records = 1 day. Individual records are saved after each other. \nThe \"hourly” statistics format for each month is as per the following table:  \nDate \nTime \nTotal + \nTotal- \nMeasured \nwith error \nRecord \nsize[B]  \nData-records \nper month \nUsed capacity \n[B] \nUsed memory \npages  \nDDMMYYHHMM \nFFFF \nFFFF \nFF \n10 \n744 \n7440 \n30 \n5.9.4 Five minutes statistics only \n \nIn order to read the 5-minute average flow-records, it is necessary to read 31 pages for \neach month. On each page are 36 records = 3 hours. Individual records are saved after each \nother. \nThe \"5-minute” statistics format for each month is as per the following table: \nDate \nTime \n5-minute \naverage \nflow \nRecord \nsize[B] \nData-\nrecords per \nmonth \nUsed"
+  },
+  {
+    "chunk_id": 40,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx1-modbus-manual-eng ....pdf",
+    "content": "each month. On each page are 36 records = 3 hours. Individual records are saved after each \nother. \nThe \"5-minute” statistics format for each month is as per the following table: \nDate \nTime \n5-minute \naverage \nflow \nRecord \nsize[B] \nData-\nrecords per \nmonth \nUsed \ncapacity \n[B] \nUsed \nmemory \npages  \nDDMMYYHHMM \nFFFF \n7 \n8928 \n62496 \n248"
+  }
+]

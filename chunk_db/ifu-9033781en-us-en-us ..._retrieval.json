@@ -1,0 +1,1149 @@
+[
+  {
+    "pass_name": "communication",
+    "parameters": [
+      "physicalStandard",
+      "baudRate",
+      "dataBits",
+      "parity",
+      "stopBits"
+    ],
+    "raw_top_k_per_query": {
+      "physical_standard": [
+        {
+          "rank": 1,
+          "chunk_id": 87,
+          "page": 38,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "RS-232\nRS-232\nStandard for a common serial interface in \ncomputers\nRS-485\nRS-485\nAlso: EAI-485. Industry standard for a \nphysical interface for asynchronous data \ntransmission \nTCP\nTransmission Control \nProtocol\nTransmission control protocol.\nNetwork protocol which defines how data is \nexchanged between computers.\nUnicast\nThe master sends a request directly to a \nslave and expects a response. The slave is \naddressed directly based on its unique bus \naddress (1 to 247)."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 19,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "functional tools for establishing connections. These connections are activated, \ndeactivated, and used to transmit bits. These procedures serve to transmit, for \nexample, electrical signals, optical signals, electromagnetic waves, or sound. \nAmong others, the following devices and network components are assigned to the \nphysical layer:\n–\nAntenna\n–\nRepeaters\n–\nConnector\n–\nSocket for the network cable\n–\nHub\n–\nTransceiver\n–\nT-piece\n–\nTerminator\nData transmission via Modbus RTU is digital, purely electrical, based on voltage \nlevels. Normally, 9-pin connectors and sockets are used. The pin assignment is not \nstandardized. Therefore always observe the manufacturer's documentation when \nusing different devices.\nTransmission rates\nThe transmission rate defines the speed at which data is transmitted. The \ntransmission parameters have to be the same for all devices connected to a bus.\nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1200 m\nCommon-mode input voltage"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 20,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "using different devices.\nTransmission rates\nThe transmission rate defines the speed at which data is transmitted. The \ntransmission parameters have to be the same for all devices connected to a bus.\nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1200 m\nCommon-mode input voltage\n-7 to +12 V\nInput resistance of the receiver\n12 kOhm\nInput sensitivity of the receiver\n+/- 200 mV\nDifferential data transmission\nYes"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 33,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "determined by various factors. Different limitations apply for the cables and the \nindividual leads.\nUse shielded, twisted 2-wire cables and observe the maximum cable length. \nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1000 m\nCommon-mode input voltage\n-20 to +25 V\nInput resistance of the receiver\n12 kOhm\nInput sensitivity of the receiver\n+/- 200 mV\nDifferential data transmission\nYes\nTerminal\nTightening \ntorque in Nm\nCable cross-sec-\ntion in AWG\nCable cross-sec-\ntion in mm²\nPower supply\n(2-pin)\n0.5 to 0.8\n24 - 12\n0.2 to 2.5\nModbus RTU\n(2-pin)\n0.5 to 0.8\n24 - 12\n0.2 to 2.5\nParameter\nCondition\nMin. \nvalue\nMax. \nvalue\nUnit\nCommon-mode input voltage \nrange\n-20\n30\nV\nDifferential output voltage\nData signal A-B or B-A\nLoad R=54 ohms\n1.5\n-\nV\nDifferential input voltage\nData signal A-B or B-A\nCommon-mode \nvoltage range \n-20 V to +25 V\n200\n-\nmV"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 13,
+          "page": 6,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n7\nBasic principles of the Modbus technology\n2.2.2 \nTransmission technology\nRS-485\nRS-485 is the most common transmission technology. It uses a shielded, twisted 2-\nwire line. Transmission rates between 9600 bit/s and 115200 bit/s can be selected. \nIt is defined when commissioning the system and is the same for all devices \nconnected to the bus. Up to 32 bus participants can be connected per segment. \nThe maximum permissible line length depends on the transmission rate.\nSeveral different network topologies are possible: \n–\nBackbone\n–\nStar\n–\nRing\n–\nDaisy chain\nAccording to experience, a RS-485 network works best in a daisy chain topology. In \nthis topology, reflections on the network line are absorbed most effectively.\nCharacteristics of the bus connection\nThe most important characteristics of the bus connection with their physical and \nelectrical properties are: \n31082\nSerial RS-485 connection - not connected correctly\n31072"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 14,
+          "page": 6,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "this topology, reflections on the network line are absorbed most effectively.\nCharacteristics of the bus connection\nThe most important characteristics of the bus connection with their physical and \nelectrical properties are: \n31082\nSerial RS-485 connection - not connected correctly\n31072\nSerial RS-485 connection - connected correctly \nNetwork topology\nLinear bus; if required, with bus termination at \nboth ends\nTransmission medium\nShielded, twisted 2-wire copper cable\nLine lengths (without repeaters)\nMaximum line length: 1000 m\nPhysical interface\nRS-485 with bus connector in the top hat rail, \ncan be installed on site\nAddressing\n1 to 247\n(32 devices in one segment. Can be extended \nto 247 with repeater)\nDevice 1\nCOM\n+\n-\n+\n-\n+\n-\nCOM\nCOM\nDevice 2\nDevice 3\nDevice 1\nCOM\n+\n-\n+\n-\n+\n-\nCOM\nCOM\nDevice 2\nDevice 3"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 21,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "10 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\nThe following transmission rates are available for RS-485 applications:\nOperating principle\nCommunication in a Modbus network follows a simple request/response \nmechanism: the Master (1) sends a request (Telegram) (2) to the Slave (4). The \nfunction code contained in the telegram tells the Slave which function to execute. \nThe Modbus application protocol defines the format in which the request initiated by \nthe Master is sent.\nThere are 3 different communication cases:\nCommunication\nIf a cable pair is used, transmission takes place in half-duplex mode: data can flow \nalternately in both directions, but not simultaneously.\nIf two cable pairs are used, full-duplex mode is also possible: data is transmitted in \nboth directions at the same time.\n1200 bit/s\n2400 bit/s\n4800 bit/s\n9600 bit/s\n19200 bit/s\n38400 bit/s\n56000 bit/s\n115200 bit/s\n31033\n1\nMaster\n2\nRequest from Master to Slave\n3"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 10,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "247. \nModbus RTU (Remote Terminal Unit) is a binary transmission protocol for serial \ninterfaces (RS-232 or RS-485). The original system was developed with a RS-232 \ninterface. However, it was adapted for RS-485 interfaces for faster transmission \nrates. In addition, the RS-485 interface is bus-compatible: multiple devices can be \nconnected to the data cables.\nFor this product, only the RS-485 interface is described.\nFor further information on the Modbus technology, also see www.modbus.org.\nFor further information on RS-485, also see ANSI/TIA/EIA-485-A.\n2.2 \nSystem overview\nModbus RTU is based on a Master/Slave architecture. In a Master/Slave system, \nthe Master communicates with one or more slaves. It is a mono-Master system: \nonly one Master can be connected at any one time.\nThe slaves in a Modbus network cannot start communication. They can only \nrespond."
+        }
+      ],
+      "baud_rate": [
+        {
+          "rank": 1,
+          "chunk_id": 22,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "If two cable pairs are used, full-duplex mode is also possible: data is transmitted in \nboth directions at the same time.\n1200 bit/s\n2400 bit/s\n4800 bit/s\n9600 bit/s\n19200 bit/s\n38400 bit/s\n56000 bit/s\n115200 bit/s\n31033\n1\nMaster\n2\nRequest from Master to Slave\n3\nSlave response\n4\nSlave\nThe device (Slave) receives a \nvalid telegram with a valid \nrequest.\nIf it can answer this, it sends a response telegram \nwith the function code of this request.\nThe device (Slave) receives an \ninvalid telegram (e.g., CRC \nerror).\nIt does not answer. The application (Master) has \nto correct the error within a defined time (timeout).\nThe device (Slave) receives a \nvalid telegram with an invalid \nrequest.\nIt answers with a Modbus exception code (Excep-\ntion). The application (Master) has to correct the \nerror.\n1\n2\n3\n4"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 43,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "–\nPreconditions: Hardware address assignment is selected.\nIf the hardware address assignment is changed, the gas detector must be \nturned off and back on again (power cycle) for the change of address to take \neffect.\n–\nIf the software address assignment is changed, the new address becomes valid \nimmediately. The new address also remains valid if the hardware address \nassignment is activated and another address is set on the DIP switch. To \nvalidate the address set on the DIP switch, the gas detector must be turned off \nand back on again (power cycle).\nSetting\nFactory default \nsetting\nSelection\nAddress\n126\n1 to 126\nBaud rate/bps\n19200\n9600, 19200\nParity\nEven (1 stop bit)\nEven (1 stop bit), odd (1 stop bit), no parity \n(2 stop bits)"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 21,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "10 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\nThe following transmission rates are available for RS-485 applications:\nOperating principle\nCommunication in a Modbus network follows a simple request/response \nmechanism: the Master (1) sends a request (Telegram) (2) to the Slave (4). The \nfunction code contained in the telegram tells the Slave which function to execute. \nThe Modbus application protocol defines the format in which the request initiated by \nthe Master is sent.\nThere are 3 different communication cases:\nCommunication\nIf a cable pair is used, transmission takes place in half-duplex mode: data can flow \nalternately in both directions, but not simultaneously.\nIf two cable pairs are used, full-duplex mode is also possible: data is transmitted in \nboth directions at the same time.\n1200 bit/s\n2400 bit/s\n4800 bit/s\n9600 bit/s\n19200 bit/s\n38400 bit/s\n56000 bit/s\n115200 bit/s\n31033\n1\nMaster\n2\nRequest from Master to Slave\n3"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 85,
+          "page": 38,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n39\nAnnex\n7 \nAnnex\n7.1 \nGlossary\n7.2 \nAnnex 1 Polytron® 8000 parameter list\nAbbrevia-\ntion\nName\nMeaning\nASCII\nAmerican Standard \nCode for Information \nInterchange\n7-bit character encoding that corresponds \nto the US version of ISO 646.\nIt is the basis for later encodings for char-\nacter sets that are based on more bits.\nBaud rate\nSymbol rate.\nUnit: symbol/s\n1 baud is the speed if 1 symbol is transmit-\nted per second. The baud rate has to be \nthe same at the transmitting and receiving \nend.\nCRC\nCyclic redundancy \ncheck\nCyclic redundancy check. Procedure for \ndefining a check value for data to enable \nthe detection of errors during transmission \nor storage.\nDTM\nDevice Type Manager\nDevice-specific components in Field \nDevice Tools (FDT). \nDevice Type Managers enable information \nexchange via the defined interfaces. They \nread configuration data of the field devices \nand parameterize them.\nMulticast/Broadcast"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 19,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "functional tools for establishing connections. These connections are activated, \ndeactivated, and used to transmit bits. These procedures serve to transmit, for \nexample, electrical signals, optical signals, electromagnetic waves, or sound. \nAmong others, the following devices and network components are assigned to the \nphysical layer:\n–\nAntenna\n–\nRepeaters\n–\nConnector\n–\nSocket for the network cable\n–\nHub\n–\nTransceiver\n–\nT-piece\n–\nTerminator\nData transmission via Modbus RTU is digital, purely electrical, based on voltage \nlevels. Normally, 9-pin connectors and sockets are used. The pin assignment is not \nstandardized. Therefore always observe the manufacturer's documentation when \nusing different devices.\nTransmission rates\nThe transmission rate defines the speed at which data is transmitted. The \ntransmission parameters have to be the same for all devices connected to a bus.\nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1200 m\nCommon-mode input voltage"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 13,
+          "page": 6,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n7\nBasic principles of the Modbus technology\n2.2.2 \nTransmission technology\nRS-485\nRS-485 is the most common transmission technology. It uses a shielded, twisted 2-\nwire line. Transmission rates between 9600 bit/s and 115200 bit/s can be selected. \nIt is defined when commissioning the system and is the same for all devices \nconnected to the bus. Up to 32 bus participants can be connected per segment. \nThe maximum permissible line length depends on the transmission rate.\nSeveral different network topologies are possible: \n–\nBackbone\n–\nStar\n–\nRing\n–\nDaisy chain\nAccording to experience, a RS-485 network works best in a daisy chain topology. In \nthis topology, reflections on the network line are absorbed most effectively.\nCharacteristics of the bus connection\nThe most important characteristics of the bus connection with their physical and \nelectrical properties are: \n31082\nSerial RS-485 connection - not connected correctly\n31072"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 20,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "using different devices.\nTransmission rates\nThe transmission rate defines the speed at which data is transmitted. The \ntransmission parameters have to be the same for all devices connected to a bus.\nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1200 m\nCommon-mode input voltage\n-7 to +12 V\nInput resistance of the receiver\n12 kOhm\nInput sensitivity of the receiver\n+/- 200 mV\nDifferential data transmission\nYes"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 59,
+          "page": 27,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "40701 - 40704\nParameter values\nMeaning\n0000\nSuccessfully changed\n0x00\nError\n0x02\nIncorrect selection\n0x05\nToo few bytes\nRegister: 40507\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[3]\nMEASUREMENT_MODE.VALUE[2]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x42\n0x20\nRegister: 40508\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[1]\nMEASUREMENT_MODE.VALUE[0]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x00\n0x00\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x01\n0xFA\n0x00\n0x02\n0x24\n0xE4"
+        }
+      ],
+      "data_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 27,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "puts)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-\nisters\n231)\nRead/Write Multiple Registers\nSimultaneously read and write 1 to max. \n118 registers in one telegram\nxx\nUp to 255 function codes, \ndepending on the device\nFunction code\n1 byte\n0x03\nStarting address\n2 byte\n0x0000 to 0xFFFF\nNumber of registers\n2 byte\n1 to 125 (0x7D)\nFunction code\n1 byte\n0x03\nByte count\n1 byte\n2 * number of registers\nHolding register value (2 * number of \nregisters) bytes\n2 to 250"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 67,
+          "page": 30,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[04]=E4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40032\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[03]=E3\nDEVICE_STATUS_VALUE[02]=E2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40033\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[01]=E1\nDEVICE_STATUS_VALUE[00]=E0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40030\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x00\n0x17\n0x00\n0x0A\n0x74\n0x2B\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x14\n0x00 0x00 (register: 40024)\n0x00 0x21 (register: 40025)\n0x00 0x00 (register: 40026)\n0x00 0x21 (register: 40027)\n0x00 0x21 (register: 40028)\n0x00 0x21 (register: 40029)\n0x00 0x21 (register: 40030)\n0x00 0x21 (register: 40031)\n0x00 0x21 (register: 40032)\n0x00 0x21 (register: 40033)\n0x72\n0x44"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 25,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "device\nSet by the Mas-\nter\nCopied from the \nrequest into the \nresponse\nCRC16\n2 byte\nChecksum (CRC16)\nCalculated by \nthe Master\nCalculated by the \nSlave\nAddress\nFunction\ncode\nData\nCRC\nModbus telegram\nFrame 1\nFrame 1\nFrame 1\n8 bits\n8 bits\nN x 8 bits\n16 bits\n≥ 3.5 char\nStart\nAt least 3.5 char\nAt least 3.5 char\n3.5 char\n4.5 char\n≥ 3.5 char\nEnd"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 24,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "transmission break of more than 1.5 characters occurs during telegram \ntransmission, the transmission process is considered incomplete and should be \naborted. \nGeneral form of a Modbus telegram\nAddress\nThe address specifies which device is contacted (Master - Slave) or which device \nresponds. The address is a number between 1 and 126. The address 0 is used for \nmessages to all devices (Broadcast), provided that the selected function supports \nthis.\nThe configuration of the address depends on the respective device and the system \narchitecture.\nDevice address\nFunction code\nData\nCRC check\n8 bits\n8 bits\nn* 8 bits\n16 bits\n31032\nField\nLength\nDescription\nMaster\nSlave\nAddress\n1 byte\nIdentifies the target \ndevice\nSet by the Mas-\nter\nCopied from the \nrequest into the \nresponse\nCRC16\n2 byte\nChecksum (CRC16)\nCalculated by \nthe Master\nCalculated by the \nSlave\nAddress\nFunction\ncode\nData\nCRC\nModbus telegram\nFrame 1\nFrame 1\nFrame 1\n8 bits\n8 bits\nN x 8 bits\n16 bits\n≥ 3.5 char\nStart\nAt least 3.5 char"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 64,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[19]=W9\nDEVICE_STATUS_VALUE[19]=W8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40025\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[17]=W7\nDEVICE_STATUS_VALUE[16]=W6\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x21\nRegister: 40026\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[15]=W5\nDEVICE_STATUS_VALUE[14]=W4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40027\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[13]=W3\nDEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 22,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "If two cable pairs are used, full-duplex mode is also possible: data is transmitted in \nboth directions at the same time.\n1200 bit/s\n2400 bit/s\n4800 bit/s\n9600 bit/s\n19200 bit/s\n38400 bit/s\n56000 bit/s\n115200 bit/s\n31033\n1\nMaster\n2\nRequest from Master to Slave\n3\nSlave response\n4\nSlave\nThe device (Slave) receives a \nvalid telegram with a valid \nrequest.\nIf it can answer this, it sends a response telegram \nwith the function code of this request.\nThe device (Slave) receives an \ninvalid telegram (e.g., CRC \nerror).\nIt does not answer. The application (Master) has \nto correct the error within a defined time (timeout).\nThe device (Slave) receives a \nvalid telegram with an invalid \nrequest.\nIt answers with a Modbus exception code (Excep-\ntion). The application (Master) has to correct the \nerror.\n1\n2\n3\n4"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 142,
+          "page": 53,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Unsigned8 \nD / RW \n1 \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nA telegram with the value 0x00 will delete the data logger. \nA telegram with the value 0x01 will delete the event logger. \n \nLanguage (registers 40651 – 40662) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40651 LANGUAGE_INDEX \nUnsigned8 \nD / RW \n1 \n \n \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \n0x06 \nValid for sensor variant: EC, IR, CAT \nContains the index of the set display language.  \nThe parameter can be modified within a value range from 0 to 0x06 using a write process to set the \nrespective language. \nGERMAN \nENGLISH \nSPANISH \nFRENCH \nRUSSIAN \nCHINESE \nUSER \n40652 Internal resource \nString \n9 bytes \nD \n5 \n \nInternal resource – do not write into \n40657 LANGUAGE_STATUS \nBit field (7-bit) \nD / RO \n1 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nAvailable languages \n \nLanguage 0 is valid"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 85,
+          "page": 38,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n39\nAnnex\n7 \nAnnex\n7.1 \nGlossary\n7.2 \nAnnex 1 Polytron® 8000 parameter list\nAbbrevia-\ntion\nName\nMeaning\nASCII\nAmerican Standard \nCode for Information \nInterchange\n7-bit character encoding that corresponds \nto the US version of ISO 646.\nIt is the basis for later encodings for char-\nacter sets that are based on more bits.\nBaud rate\nSymbol rate.\nUnit: symbol/s\n1 baud is the speed if 1 symbol is transmit-\nted per second. The baud rate has to be \nthe same at the transmitting and receiving \nend.\nCRC\nCyclic redundancy \ncheck\nCyclic redundancy check. Procedure for \ndefining a check value for data to enable \nthe detection of errors during transmission \nor storage.\nDTM\nDevice Type Manager\nDevice-specific components in Field \nDevice Tools (FDT). \nDevice Type Managers enable information \nexchange via the defined interfaces. They \nread configuration data of the field devices \nand parameterize them.\nMulticast/Broadcast"
+        }
+      ],
+      "parity": [
+        {
+          "rank": 1,
+          "chunk_id": 43,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "–\nPreconditions: Hardware address assignment is selected.\nIf the hardware address assignment is changed, the gas detector must be \nturned off and back on again (power cycle) for the change of address to take \neffect.\n–\nIf the software address assignment is changed, the new address becomes valid \nimmediately. The new address also remains valid if the hardware address \nassignment is activated and another address is set on the DIP switch. To \nvalidate the address set on the DIP switch, the gas detector must be turned off \nand back on again (power cycle).\nSetting\nFactory default \nsetting\nSelection\nAddress\n126\n1 to 126\nBaud rate/bps\n19200\n9600, 19200\nParity\nEven (1 stop bit)\nEven (1 stop bit), odd (1 stop bit), no parity \n(2 stop bits)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 59,
+          "page": 27,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "40701 - 40704\nParameter values\nMeaning\n0000\nSuccessfully changed\n0x00\nError\n0x02\nIncorrect selection\n0x05\nToo few bytes\nRegister: 40507\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[3]\nMEASUREMENT_MODE.VALUE[2]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x42\n0x20\nRegister: 40508\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[1]\nMEASUREMENT_MODE.VALUE[0]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x00\n0x00\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x01\n0xFA\n0x00\n0x02\n0x24\n0xE4"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 67,
+          "page": 30,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[04]=E4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40032\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[03]=E3\nDEVICE_STATUS_VALUE[02]=E2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40033\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[01]=E1\nDEVICE_STATUS_VALUE[00]=E0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40030\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x00\n0x17\n0x00\n0x0A\n0x74\n0x2B\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x14\n0x00 0x00 (register: 40024)\n0x00 0x21 (register: 40025)\n0x00 0x00 (register: 40026)\n0x00 0x21 (register: 40027)\n0x00 0x21 (register: 40028)\n0x00 0x21 (register: 40029)\n0x00 0x21 (register: 40030)\n0x00 0x21 (register: 40031)\n0x00 0x21 (register: 40032)\n0x00 0x21 (register: 40033)\n0x72\n0x44"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 22,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "If two cable pairs are used, full-duplex mode is also possible: data is transmitted in \nboth directions at the same time.\n1200 bit/s\n2400 bit/s\n4800 bit/s\n9600 bit/s\n19200 bit/s\n38400 bit/s\n56000 bit/s\n115200 bit/s\n31033\n1\nMaster\n2\nRequest from Master to Slave\n3\nSlave response\n4\nSlave\nThe device (Slave) receives a \nvalid telegram with a valid \nrequest.\nIf it can answer this, it sends a response telegram \nwith the function code of this request.\nThe device (Slave) receives an \ninvalid telegram (e.g., CRC \nerror).\nIt does not answer. The application (Master) has \nto correct the error within a defined time (timeout).\nThe device (Slave) receives a \nvalid telegram with an invalid \nrequest.\nIt answers with a Modbus exception code (Excep-\ntion). The application (Master) has to correct the \nerror.\n1\n2\n3\n4"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 64,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[19]=W9\nDEVICE_STATUS_VALUE[19]=W8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40025\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[17]=W7\nDEVICE_STATUS_VALUE[16]=W6\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x21\nRegister: 40026\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[15]=W5\nDEVICE_STATUS_VALUE[14]=W4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40027\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[13]=W3\nDEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 25,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "device\nSet by the Mas-\nter\nCopied from the \nrequest into the \nresponse\nCRC16\n2 byte\nChecksum (CRC16)\nCalculated by \nthe Master\nCalculated by the \nSlave\nAddress\nFunction\ncode\nData\nCRC\nModbus telegram\nFrame 1\nFrame 1\nFrame 1\n8 bits\n8 bits\nN x 8 bits\n16 bits\n≥ 3.5 char\nStart\nAt least 3.5 char\nAt least 3.5 char\n3.5 char\n4.5 char\n≥ 3.5 char\nEnd"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 69,
+          "page": 31,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "18\nRegister: 40036\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.DAY\nDEVICE_DATE_TIME.MONTH\n23\n1\nRegister: 40037\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.YEAR\nDEVICE_DATE_TIME.[]\nn/a\n15\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 65,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[09]=E9\nDEVICE_STATUS_VALUE[08]=E8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x02\nRegister: 40030\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[07]=E7\nDEVICE_STATUS_VALUE[06]=E6\nE.g.: DEVICE_STATUS_VALUE=0x02"
+        }
+      ],
+      "stop_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 59,
+          "page": 27,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "40701 - 40704\nParameter values\nMeaning\n0000\nSuccessfully changed\n0x00\nError\n0x02\nIncorrect selection\n0x05\nToo few bytes\nRegister: 40507\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[3]\nMEASUREMENT_MODE.VALUE[2]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x42\n0x20\nRegister: 40508\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[1]\nMEASUREMENT_MODE.VALUE[0]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x00\n0x00\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x01\n0xFA\n0x00\n0x02\n0x24\n0xE4"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 43,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "–\nPreconditions: Hardware address assignment is selected.\nIf the hardware address assignment is changed, the gas detector must be \nturned off and back on again (power cycle) for the change of address to take \neffect.\n–\nIf the software address assignment is changed, the new address becomes valid \nimmediately. The new address also remains valid if the hardware address \nassignment is activated and another address is set on the DIP switch. To \nvalidate the address set on the DIP switch, the gas detector must be turned off \nand back on again (power cycle).\nSetting\nFactory default \nsetting\nSelection\nAddress\n126\n1 to 126\nBaud rate/bps\n19200\n9600, 19200\nParity\nEven (1 stop bit)\nEven (1 stop bit), odd (1 stop bit), no parity \n(2 stop bits)"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 22,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "If two cable pairs are used, full-duplex mode is also possible: data is transmitted in \nboth directions at the same time.\n1200 bit/s\n2400 bit/s\n4800 bit/s\n9600 bit/s\n19200 bit/s\n38400 bit/s\n56000 bit/s\n115200 bit/s\n31033\n1\nMaster\n2\nRequest from Master to Slave\n3\nSlave response\n4\nSlave\nThe device (Slave) receives a \nvalid telegram with a valid \nrequest.\nIf it can answer this, it sends a response telegram \nwith the function code of this request.\nThe device (Slave) receives an \ninvalid telegram (e.g., CRC \nerror).\nIt does not answer. The application (Master) has \nto correct the error within a defined time (timeout).\nThe device (Slave) receives a \nvalid telegram with an invalid \nrequest.\nIt answers with a Modbus exception code (Excep-\ntion). The application (Master) has to correct the \nerror.\n1\n2\n3\n4"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 24,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "transmission break of more than 1.5 characters occurs during telegram \ntransmission, the transmission process is considered incomplete and should be \naborted. \nGeneral form of a Modbus telegram\nAddress\nThe address specifies which device is contacted (Master - Slave) or which device \nresponds. The address is a number between 1 and 126. The address 0 is used for \nmessages to all devices (Broadcast), provided that the selected function supports \nthis.\nThe configuration of the address depends on the respective device and the system \narchitecture.\nDevice address\nFunction code\nData\nCRC check\n8 bits\n8 bits\nn* 8 bits\n16 bits\n31032\nField\nLength\nDescription\nMaster\nSlave\nAddress\n1 byte\nIdentifies the target \ndevice\nSet by the Mas-\nter\nCopied from the \nrequest into the \nresponse\nCRC16\n2 byte\nChecksum (CRC16)\nCalculated by \nthe Master\nCalculated by the \nSlave\nAddress\nFunction\ncode\nData\nCRC\nModbus telegram\nFrame 1\nFrame 1\nFrame 1\n8 bits\n8 bits\nN x 8 bits\n16 bits\n≥ 3.5 char\nStart\nAt least 3.5 char"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 67,
+          "page": 30,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[04]=E4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40032\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[03]=E3\nDEVICE_STATUS_VALUE[02]=E2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40033\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[01]=E1\nDEVICE_STATUS_VALUE[00]=E0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40030\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x00\n0x17\n0x00\n0x0A\n0x74\n0x2B\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x14\n0x00 0x00 (register: 40024)\n0x00 0x21 (register: 40025)\n0x00 0x00 (register: 40026)\n0x00 0x21 (register: 40027)\n0x00 0x21 (register: 40028)\n0x00 0x21 (register: 40029)\n0x00 0x21 (register: 40030)\n0x00 0x21 (register: 40031)\n0x00 0x21 (register: 40032)\n0x00 0x21 (register: 40033)\n0x72\n0x44"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 21,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "10 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\nThe following transmission rates are available for RS-485 applications:\nOperating principle\nCommunication in a Modbus network follows a simple request/response \nmechanism: the Master (1) sends a request (Telegram) (2) to the Slave (4). The \nfunction code contained in the telegram tells the Slave which function to execute. \nThe Modbus application protocol defines the format in which the request initiated by \nthe Master is sent.\nThere are 3 different communication cases:\nCommunication\nIf a cable pair is used, transmission takes place in half-duplex mode: data can flow \nalternately in both directions, but not simultaneously.\nIf two cable pairs are used, full-duplex mode is also possible: data is transmitted in \nboth directions at the same time.\n1200 bit/s\n2400 bit/s\n4800 bit/s\n9600 bit/s\n19200 bit/s\n38400 bit/s\n56000 bit/s\n115200 bit/s\n31033\n1\nMaster\n2\nRequest from Master to Slave\n3"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 27,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "puts)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-\nisters\n231)\nRead/Write Multiple Registers\nSimultaneously read and write 1 to max. \n118 registers in one telegram\nxx\nUp to 255 function codes, \ndepending on the device\nFunction code\n1 byte\n0x03\nStarting address\n2 byte\n0x0000 to 0xFFFF\nNumber of registers\n2 byte\n1 to 125 (0x7D)\nFunction code\n1 byte\n0x03\nByte count\n1 byte\n2 * number of registers\nHolding register value (2 * number of \nregisters) bytes\n2 to 250"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 84,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "38 \n Technical Manual  |  Digital Communication - Modbus RTU  \nTroubleshooting\nW9\n0x01\nError when writing to the sensor \ndata set\nByte\nValue\nError description\nRemedy"
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 59,
+        "page": 27,
+        "score": 12,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "40701 - 40704\nParameter values\nMeaning\n0000\nSuccessfully changed\n0x00\nError\n0x02\nIncorrect selection\n0x05\nToo few bytes\nRegister: 40507\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[3]\nMEASUREMENT_MODE.VALUE[2]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x42\n0x20\nRegister: 40508\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[1]\nMEASUREMENT_MODE.VALUE[0]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x00\n0x00\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x01\n0xFA\n0x00\n0x02\n0x24\n0xE4"
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 85,
+        "page": 38,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits"
+        ],
+        "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n39\nAnnex\n7 \nAnnex\n7.1 \nGlossary\n7.2 \nAnnex 1 Polytron® 8000 parameter list\nAbbrevia-\ntion\nName\nMeaning\nASCII\nAmerican Standard \nCode for Information \nInterchange\n7-bit character encoding that corresponds \nto the US version of ISO 646.\nIt is the basis for later encodings for char-\nacter sets that are based on more bits.\nBaud rate\nSymbol rate.\nUnit: symbol/s\n1 baud is the speed if 1 symbol is transmit-\nted per second. The baud rate has to be \nthe same at the transmitting and receiving \nend.\nCRC\nCyclic redundancy \ncheck\nCyclic redundancy check. Procedure for \ndefining a check value for data to enable \nthe detection of errors during transmission \nor storage.\nDTM\nDevice Type Manager\nDevice-specific components in Field \nDevice Tools (FDT). \nDevice Type Managers enable information \nexchange via the defined interfaces. They \nread configuration data of the field devices \nand parameterize them.\nMulticast/Broadcast"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 67,
+        "page": 30,
+        "score": 8,
+        "bucket": "communication",
+        "retrieved_by": [
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "DEVICE_STATUS_VALUE[04]=E4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40032\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[03]=E3\nDEVICE_STATUS_VALUE[02]=E2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40033\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[01]=E1\nDEVICE_STATUS_VALUE[00]=E0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40030\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x00\n0x17\n0x00\n0x0A\n0x74\n0x2B\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x14\n0x00 0x00 (register: 40024)\n0x00 0x21 (register: 40025)\n0x00 0x00 (register: 40026)\n0x00 0x21 (register: 40027)\n0x00 0x21 (register: 40028)\n0x00 0x21 (register: 40029)\n0x00 0x21 (register: 40030)\n0x00 0x21 (register: 40031)\n0x00 0x21 (register: 40032)\n0x00 0x21 (register: 40033)\n0x72\n0x44"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 43,
+        "page": 20,
+        "score": 7,
+        "bucket": "communication",
+        "retrieved_by": [
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "–\nPreconditions: Hardware address assignment is selected.\nIf the hardware address assignment is changed, the gas detector must be \nturned off and back on again (power cycle) for the change of address to take \neffect.\n–\nIf the software address assignment is changed, the new address becomes valid \nimmediately. The new address also remains valid if the hardware address \nassignment is activated and another address is set on the DIP switch. To \nvalidate the address set on the DIP switch, the gas detector must be turned off \nand back on again (power cycle).\nSetting\nFactory default \nsetting\nSelection\nAddress\n126\n1 to 126\nBaud rate/bps\n19200\n9600, 19200\nParity\nEven (1 stop bit)\nEven (1 stop bit), odd (1 stop bit), no parity \n(2 stop bits)"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 27,
+        "page": 11,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits",
+          "stop_bits"
+        ],
+        "content": "puts)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-\nisters\n231)\nRead/Write Multiple Registers\nSimultaneously read and write 1 to max. \n118 registers in one telegram\nxx\nUp to 255 function codes, \ndepending on the device\nFunction code\n1 byte\n0x03\nStarting address\n2 byte\n0x0000 to 0xFFFF\nNumber of registers\n2 byte\n1 to 125 (0x7D)\nFunction code\n1 byte\n0x03\nByte count\n1 byte\n2 * number of registers\nHolding register value (2 * number of \nregisters) bytes\n2 to 250"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 142,
+        "page": 53,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "Unsigned8 \nD / RW \n1 \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nA telegram with the value 0x00 will delete the data logger. \nA telegram with the value 0x01 will delete the event logger. \n \nLanguage (registers 40651 – 40662) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40651 LANGUAGE_INDEX \nUnsigned8 \nD / RW \n1 \n \n \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \n0x06 \nValid for sensor variant: EC, IR, CAT \nContains the index of the set display language.  \nThe parameter can be modified within a value range from 0 to 0x06 using a write process to set the \nrespective language. \nGERMAN \nENGLISH \nSPANISH \nFRENCH \nRUSSIAN \nCHINESE \nUSER \n40652 Internal resource \nString \n9 bytes \nD \n5 \n \nInternal resource – do not write into \n40657 LANGUAGE_STATUS \nBit field (7-bit) \nD / RO \n1 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nAvailable languages \n \nLanguage 0 is valid"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 21,
+        "page": 9,
+        "score": 6,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "stop_bits"
+        ],
+        "content": "10 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\nThe following transmission rates are available for RS-485 applications:\nOperating principle\nCommunication in a Modbus network follows a simple request/response \nmechanism: the Master (1) sends a request (Telegram) (2) to the Slave (4). The \nfunction code contained in the telegram tells the Slave which function to execute. \nThe Modbus application protocol defines the format in which the request initiated by \nthe Master is sent.\nThere are 3 different communication cases:\nCommunication\nIf a cable pair is used, transmission takes place in half-duplex mode: data can flow \nalternately in both directions, but not simultaneously.\nIf two cable pairs are used, full-duplex mode is also possible: data is transmitted in \nboth directions at the same time.\n1200 bit/s\n2400 bit/s\n4800 bit/s\n9600 bit/s\n19200 bit/s\n38400 bit/s\n56000 bit/s\n115200 bit/s\n31033\n1\nMaster\n2\nRequest from Master to Slave\n3"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 19,
+        "page": 8,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate"
+        ],
+        "content": "functional tools for establishing connections. These connections are activated, \ndeactivated, and used to transmit bits. These procedures serve to transmit, for \nexample, electrical signals, optical signals, electromagnetic waves, or sound. \nAmong others, the following devices and network components are assigned to the \nphysical layer:\n–\nAntenna\n–\nRepeaters\n–\nConnector\n–\nSocket for the network cable\n–\nHub\n–\nTransceiver\n–\nT-piece\n–\nTerminator\nData transmission via Modbus RTU is digital, purely electrical, based on voltage \nlevels. Normally, 9-pin connectors and sockets are used. The pin assignment is not \nstandardized. Therefore always observe the manufacturer's documentation when \nusing different devices.\nTransmission rates\nThe transmission rate defines the speed at which data is transmitted. The \ntransmission parameters have to be the same for all devices connected to a bus.\nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1200 m\nCommon-mode input voltage"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 20,
+        "page": 8,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate"
+        ],
+        "content": "using different devices.\nTransmission rates\nThe transmission rate defines the speed at which data is transmitted. The \ntransmission parameters have to be the same for all devices connected to a bus.\nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1200 m\nCommon-mode input voltage\n-7 to +12 V\nInput resistance of the receiver\n12 kOhm\nInput sensitivity of the receiver\n+/- 200 mV\nDifferential data transmission\nYes"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 22,
+        "page": 9,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "If two cable pairs are used, full-duplex mode is also possible: data is transmitted in \nboth directions at the same time.\n1200 bit/s\n2400 bit/s\n4800 bit/s\n9600 bit/s\n19200 bit/s\n38400 bit/s\n56000 bit/s\n115200 bit/s\n31033\n1\nMaster\n2\nRequest from Master to Slave\n3\nSlave response\n4\nSlave\nThe device (Slave) receives a \nvalid telegram with a valid \nrequest.\nIf it can answer this, it sends a response telegram \nwith the function code of this request.\nThe device (Slave) receives an \ninvalid telegram (e.g., CRC \nerror).\nIt does not answer. The application (Master) has \nto correct the error within a defined time (timeout).\nThe device (Slave) receives a \nvalid telegram with an invalid \nrequest.\nIt answers with a Modbus exception code (Excep-\ntion). The application (Master) has to correct the \nerror.\n1\n2\n3\n4"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 33,
+        "page": 14,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "determined by various factors. Different limitations apply for the cables and the \nindividual leads.\nUse shielded, twisted 2-wire cables and observe the maximum cable length. \nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1000 m\nCommon-mode input voltage\n-20 to +25 V\nInput resistance of the receiver\n12 kOhm\nInput sensitivity of the receiver\n+/- 200 mV\nDifferential data transmission\nYes\nTerminal\nTightening \ntorque in Nm\nCable cross-sec-\ntion in AWG\nCable cross-sec-\ntion in mm²\nPower supply\n(2-pin)\n0.5 to 0.8\n24 - 12\n0.2 to 2.5\nModbus RTU\n(2-pin)\n0.5 to 0.8\n24 - 12\n0.2 to 2.5\nParameter\nCondition\nMin. \nvalue\nMax. \nvalue\nUnit\nCommon-mode input voltage \nrange\n-20\n30\nV\nDifferential output voltage\nData signal A-B or B-A\nLoad R=54 ohms\n1.5\n-\nV\nDifferential input voltage\nData signal A-B or B-A\nCommon-mode \nvoltage range \n-20 V to +25 V\n200\n-\nmV"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 13,
+        "page": 6,
+        "score": 4,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate"
+        ],
+        "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n7\nBasic principles of the Modbus technology\n2.2.2 \nTransmission technology\nRS-485\nRS-485 is the most common transmission technology. It uses a shielded, twisted 2-\nwire line. Transmission rates between 9600 bit/s and 115200 bit/s can be selected. \nIt is defined when commissioning the system and is the same for all devices \nconnected to the bus. Up to 32 bus participants can be connected per segment. \nThe maximum permissible line length depends on the transmission rate.\nSeveral different network topologies are possible: \n–\nBackbone\n–\nStar\n–\nRing\n–\nDaisy chain\nAccording to experience, a RS-485 network works best in a daisy chain topology. In \nthis topology, reflections on the network line are absorbed most effectively.\nCharacteristics of the bus connection\nThe most important characteristics of the bus connection with their physical and \nelectrical properties are: \n31082\nSerial RS-485 connection - not connected correctly\n31072"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 10,
+        "page": 4,
+        "score": 4,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "247. \nModbus RTU (Remote Terminal Unit) is a binary transmission protocol for serial \ninterfaces (RS-232 or RS-485). The original system was developed with a RS-232 \ninterface. However, it was adapted for RS-485 interfaces for faster transmission \nrates. In addition, the RS-485 interface is bus-compatible: multiple devices can be \nconnected to the data cables.\nFor this product, only the RS-485 interface is described.\nFor further information on the Modbus technology, also see www.modbus.org.\nFor further information on RS-485, also see ANSI/TIA/EIA-485-A.\n2.2 \nSystem overview\nModbus RTU is based on a Master/Slave architecture. In a Master/Slave system, \nthe Master communicates with one or more slaves. It is a mono-Master system: \nonly one Master can be connected at any one time.\nThe slaves in a Modbus network cannot start communication. They can only \nrespond."
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 87,
+        "page": 38,
+        "score": 3,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "RS-232\nRS-232\nStandard for a common serial interface in \ncomputers\nRS-485\nRS-485\nAlso: EAI-485. Industry standard for a \nphysical interface for asynchronous data \ntransmission \nTCP\nTransmission Control \nProtocol\nTransmission control protocol.\nNetwork protocol which defines how data is \nexchanged between computers.\nUnicast\nThe master sends a request directly to a \nslave and expects a response. The slave is \naddressed directly based on its unique bus \naddress (1 to 247)."
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 24,
+        "page": 10,
+        "score": 3,
+        "bucket": "communication",
+        "retrieved_by": [
+          "data_bits",
+          "stop_bits"
+        ],
+        "content": "transmission break of more than 1.5 characters occurs during telegram \ntransmission, the transmission process is considered incomplete and should be \naborted. \nGeneral form of a Modbus telegram\nAddress\nThe address specifies which device is contacted (Master - Slave) or which device \nresponds. The address is a number between 1 and 126. The address 0 is used for \nmessages to all devices (Broadcast), provided that the selected function supports \nthis.\nThe configuration of the address depends on the respective device and the system \narchitecture.\nDevice address\nFunction code\nData\nCRC check\n8 bits\n8 bits\nn* 8 bits\n16 bits\n31032\nField\nLength\nDescription\nMaster\nSlave\nAddress\n1 byte\nIdentifies the target \ndevice\nSet by the Mas-\nter\nCopied from the \nrequest into the \nresponse\nCRC16\n2 byte\nChecksum (CRC16)\nCalculated by \nthe Master\nCalculated by the \nSlave\nAddress\nFunction\ncode\nData\nCRC\nModbus telegram\nFrame 1\nFrame 1\nFrame 1\n8 bits\n8 bits\nN x 8 bits\n16 bits\n≥ 3.5 char\nStart\nAt least 3.5 char"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 64,
+        "page": 29,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "data_bits",
+          "parity"
+        ],
+        "content": "DEVICE_STATUS_VALUE[19]=W9\nDEVICE_STATUS_VALUE[19]=W8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40025\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[17]=W7\nDEVICE_STATUS_VALUE[16]=W6\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x21\nRegister: 40026\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[15]=W5\nDEVICE_STATUS_VALUE[14]=W4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40027\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[13]=W3\nDEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 14,
+        "page": 6,
+        "score": 2,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "this topology, reflections on the network line are absorbed most effectively.\nCharacteristics of the bus connection\nThe most important characteristics of the bus connection with their physical and \nelectrical properties are: \n31082\nSerial RS-485 connection - not connected correctly\n31072\nSerial RS-485 connection - connected correctly \nNetwork topology\nLinear bus; if required, with bus termination at \nboth ends\nTransmission medium\nShielded, twisted 2-wire copper cable\nLine lengths (without repeaters)\nMaximum line length: 1000 m\nPhysical interface\nRS-485 with bus connector in the top hat rail, \ncan be installed on site\nAddressing\n1 to 247\n(32 devices in one segment. Can be extended \nto 247 with repeater)\nDevice 1\nCOM\n+\n-\n+\n-\n+\n-\nCOM\nCOM\nDevice 2\nDevice 3\nDevice 1\nCOM\n+\n-\n+\n-\n+\n-\nCOM\nCOM\nDevice 2\nDevice 3"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 25,
+        "page": 10,
+        "score": 2,
+        "bucket": "other",
+        "retrieved_by": [
+          "data_bits",
+          "parity"
+        ],
+        "content": "device\nSet by the Mas-\nter\nCopied from the \nrequest into the \nresponse\nCRC16\n2 byte\nChecksum (CRC16)\nCalculated by \nthe Master\nCalculated by the \nSlave\nAddress\nFunction\ncode\nData\nCRC\nModbus telegram\nFrame 1\nFrame 1\nFrame 1\n8 bits\n8 bits\nN x 8 bits\n16 bits\n≥ 3.5 char\nStart\nAt least 3.5 char\nAt least 3.5 char\n3.5 char\n4.5 char\n≥ 3.5 char\nEnd"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 69,
+        "page": 31,
+        "score": 2,
+        "bucket": "other",
+        "retrieved_by": [
+          "parity"
+        ],
+        "content": "18\nRegister: 40036\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.DAY\nDEVICE_DATE_TIME.MONTH\n23\n1\nRegister: 40037\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.YEAR\nDEVICE_DATE_TIME.[]\nn/a\n15\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a"
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 65,
+        "page": 29,
+        "score": 2,
+        "bucket": "other",
+        "retrieved_by": [
+          "parity"
+        ],
+        "content": "DEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[09]=E9\nDEVICE_STATUS_VALUE[08]=E8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x02\nRegister: 40030\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[07]=E7\nDEVICE_STATUS_VALUE[06]=E6\nE.g.: DEVICE_STATUS_VALUE=0x02"
+      }
+    ]
+  },
+  {
+    "pass_name": "transaction",
+    "parameters": [
+      "nodeAddress",
+      "name",
+      "modbusAddressingMode",
+      "transactionName",
+      "requestFC",
+      "startAddr",
+      "quantity",
+      "responseFC",
+      "byteCount",
+      "dataLength"
+    ],
+    "raw_top_k_per_query": {
+      "node_address": [
+        {
+          "rank": 1,
+          "chunk_id": 44,
+          "page": 21,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "22 \n Technical Manual  |  Digital Communication - Modbus RTU  \nCommissioning\n–\nIf the software address assignment is changed while the hardware address \nassignment is active, the software address assignment is saved. The saved \nchange only becomes valid when the software address assignment is selected.\n4.3 \nConfiguring the gas detector\n4.3.1 \nDefining communication settings at the gas detector\nTo define communication settings at the gas detector, proceed as follows:\n1. Log in to the gas detector (see instructions for use).\n2. Select Settings >Communication > Modbus.\n3. Set Modbus address using the arrow symbols.\n4. Select OK.\n5. Set Modbus baudrate using the arrow symbols.\n6. Select OK.\n7. Set Modbus parity using the arrow symbols.\n8. Select OK.\n4.3.2 \nAddress setting with DIP switch\nDIP switch no. 8 activates or disables the address assignment via the DIP switch. \nSetting the address with the DIP switch\n1. Open the gas detector (see \"Opening the gas detector\", page 19)."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 42,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "address 126.\nObserve the following when configuring the gas detector:\n1. Only assign each address once in a Modbus control system. \n2. Use the factory-set address 126 for the functional test of the gas detector and in \na Modbus control system that is in operation. To add further devices, \nsubsequently change the address.\nThe gas detector’s address can be set using the DIP switch (hardware address \nassignment) or the menu (software address assignment). DIP switch 8 is used to \nset whether the hardware or software address assignment is active.\n4.2.1.1 \nDependency between hardware and software address assignment\nThe following dependencies exist when changing the address on a gas detector.\n–\nPreconditions: Hardware address assignment is selected.\nIf the hardware address assignment is changed, the gas detector must be \nturned off and back on again (power cycle) for the change of address to take \neffect.\n–\nIf the software address assignment is changed, the new address becomes valid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 11,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "6 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\n2.2.1 \nTopology\nMinimum configuration\nA Modbus system consists of at least the following components:\n–\nA Modbus Master to control the data traffic.\n–\nOne or more slaves which are available upon request of the Master.\n–\nThe transmission medium, consisting of the bus cable and bus connector to \nconnect the individual participants.\nMaximum configuration\nA bus segment consists of a maximum of 32 field devices (active and passive). The \nhighest possible number of slaves that can be operated with one Modbus Master \nacross several segments is determined by the internal memory structure of the \nmaster.\nThe bus cable can be separated anywhere and a new participant added with a bus \nconnector. At the end of a segment, the bus cable can be extended until the \npredetermined segment length is reached. The length of a bus segment depends"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 30,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "14 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\n–\nFunction code\n–\nError code (Exception Code)\n–\nCRC (checksum)\nTo mark the error message, the leading bit of the returned function code is set. The \nerror code (Exception Code) is used to transmit the error cause to the Master.\nAddressing of the registers\n* The register address is transmitted as a 16-bit word. The first register is assigned \nthe address value 0.\nPlease note: another notation, where the register addresses are counted starting \nwith 1, is also common in Modbus applications. In that case, this address (register \naddress - 1) is transmitted in the Modbus telegram.\nExcep-\ntion code\nDescription\n01\nILLEGAL_FUNCTION\nThe function code sent by the Master is not supported by the Slave.\n02\nILLEGAL_DATA_ADDRESS\nThe register addressed by the Master is not assigned (does not exist) \nor the length of the requested data is too long.\n03\nILLEGAL_DATA_VALUE"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 43,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "–\nPreconditions: Hardware address assignment is selected.\nIf the hardware address assignment is changed, the gas detector must be \nturned off and back on again (power cycle) for the change of address to take \neffect.\n–\nIf the software address assignment is changed, the new address becomes valid \nimmediately. The new address also remains valid if the hardware address \nassignment is activated and another address is set on the DIP switch. To \nvalidate the address set on the DIP switch, the gas detector must be turned off \nand back on again (power cycle).\nSetting\nFactory default \nsetting\nSelection\nAddress\n126\n1 to 126\nBaud rate/bps\n19200\n9600, 19200\nParity\nEven (1 stop bit)\nEven (1 stop bit), odd (1 stop bit), no parity \n(2 stop bits)"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 47,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "1. Open the menu of the gas detector.\na. In measuring mode, press and hold down \n for approx. 3 seconds.\nb. Choose Kennw. eingeben.\nc. Enter the calibration password.\nThe factory setting for the calibration password is _ _ _ 2.\n2. Select Settings >Communication > Modbus.\n3. Select Modbus address.\n4. Using the arrow symbol, navigate down to Adresse.\n5. Set the address using the arrow symbols.\n6. Select OK.\nIf the address assignment is selected using the DIP switch, the address set on \nthe DIP switch is used when restarting the field device.\n31176\n1 2 3 4 5\n6 7 8\nON\n1 2 3 4 5 6 7 8\nON\nM"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 53,
+          "page": 25,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "26 \n Technical Manual  |  Digital Communication - Modbus RTU  \nCommissioning\nIf all settings are correct, the connection status (1) changes to \nverbunden/connected.\n31833\n1"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 45,
+          "page": 21,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "7. Set Modbus parity using the arrow symbols.\n8. Select OK.\n4.3.2 \nAddress setting with DIP switch\nDIP switch no. 8 activates or disables the address assignment via the DIP switch. \nSetting the address with the DIP switch\n1. Open the gas detector (see \"Opening the gas detector\", page 19).\n2. Set the address with the DIP switch.\na. Set DIP switch no. 8 to Off.\nb. Set the address as defined in the table with DIP switches no. 1 to 7.\n3. Close the gas detector (see \"Closing the gas detector\", page 20).\nOn\nAddress assignment via the DIP switch is disabled.\nOff\nAddress assignment via the DIP switch is activated.\n31176\nSwitch number \n1\n2\n3\n4\n5\n6\n7\nValue in \"On\" position\n0\n0\n0\n0\n0\n0\n0\nValue in \"Off\" position\n1\n2\n4\n8\n16\n32\n64\n1 2 3 4 5\n6 7 8\nON\n1 2 3 4 5 6 7 8\nON"
+        }
+      ],
+      "node_name": [
+        {
+          "rank": 1,
+          "chunk_id": 69,
+          "page": 31,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "18\nRegister: 40036\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.DAY\nDEVICE_DATE_TIME.MONTH\n23\n1\nRegister: 40037\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.YEAR\nDEVICE_DATE_TIME.[]\nn/a\n15\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 65,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[09]=E9\nDEVICE_STATUS_VALUE[08]=E8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x02\nRegister: 40030\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[07]=E7\nDEVICE_STATUS_VALUE[06]=E6\nE.g.: DEVICE_STATUS_VALUE=0x02"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 64,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[19]=W9\nDEVICE_STATUS_VALUE[19]=W8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40025\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[17]=W7\nDEVICE_STATUS_VALUE[16]=W6\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x21\nRegister: 40026\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[15]=W5\nDEVICE_STATUS_VALUE[14]=W4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40027\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[13]=W3\nDEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 137,
+          "page": 52,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "\"  \" \nValid for sensor variant: IR \nName of the category with the index 6. \n40521 NAME_CATEGORY_7 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 7. \n40524 NAME_CATEGORY_8 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 8. \n40527 NAME_CATEGORY_9 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 9. \n40530 NAME_CATEGORY_10 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 10. \n40533 NAME_CATEGORY_11 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 11. \n \nData logger (registers 40601 – 40607) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40601 DATA_LOGGER_MODULE \nUnsigned8 \nD / RO \n1 \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 90,
+          "page": 40,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "VisibleString \nS / RO \n2 \n \n0.01 \nValid for sensor variant: EC, IR, CAT  \nHardware version of the Fieldbus Foundation module. \n40006 FIELDBUS_MODULE_STATUS \nUnsigned8 \nD / RO \n1 \n \n \n0x01 \n0x02 \n0x04 \n0x08 \n0x20 \n0x21 \nValid for sensor variant: EC, IR, CAT  \nStatus of the fieldbus module. \nModule operates without failure. Gas detector works without errors. \nEEPROM failure \nRAM failure \nCRC failure \nCommunication error \nCRC failure and communication error \n40007 POLYTRON_SW_VERSION \n4 x \nUnsigned8 \nS / RO \n2 \n \n0.00 \nValid for sensor variant: EC, IR, CAT \nPolytron software version \n40009 SW_SUBVERSION \nUnsigned8 \nD / RO \n1 \n \n0 \nValid for sensor variant: EC, IR, CAT \nSoftware subversion \n40010 Internal resource \nVisibleString \nD \n4 \n1 \nInternal resource – do not change \n40014 MANUFACTURER \nVisibleString \nS / RO \n9 \nDraeger Safety \nAG \nValid for sensor variant: EC, IR, CAT \nManufacturer \n40023 DEVICE_STATUS_INDICATION \nBit string  \n(1 byte) \nD / RO \n1 \n \n \n \n \n \n0x01 \n0x02 \n0x04"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 92,
+          "page": 41,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Annex 1 – Device-specific functional blocks \n3 \n40038 TRANSMITTER_SPECIFIC_OPTIONS \nBit string \n(4 bytes) \nD / RO \n2 \n \n \n0x0004 \n0x0008 \n0x0010 \n0x0080 \n0x0400 \n0x0800 \n0x4000 \nValid for sensor variant: EC, IR, CAT \nList of installed hardware modules (e.g., pump, relay module) \nDATALOGGER DONGLE PRESENT \nSENSOR DIAGNOSTICS DONGLE PRESENT \nSENSOR TEST DONGLE PRESENT \nFIELDBUS PB-PA FFB PRESENT \nDOUBLE REMOTE PRESENT \nREMOTE PRESENT \nALARM MODULE PRESENT \n40040 FIELDBUS_MODULE_ERROR_CODE \nUnsigned8 \nD / RO \n1 \n \n0 \nValid for sensor variant: EC, IR, CAT \nError message of the fieldbus module if fieldbus mode indicates \"Fatal Software Error\" status. \n40041 MODULE_PART_NUMBER \nString \n(7 bytes) \nD / RO \n4 \n \n\"-----\" \nValid for sensor variant: EC, IR, CAT \nPart number of the gas detector \n40045 SENSOR_SW_VERSION \nUnsigned8 \nUnsigned8 \nD / RO \n1 \n \n0 \nValid for sensor variant: EC, IR \nSoftware version of the gas detector \n40046 INSTALL_DATE \nUnsigned8 \nUnsigned8 \nUnsigned16 \nD / RO \n2 \n \n0"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 96,
+          "page": 42,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Annex 1 – Device-specific functional blocks \n4 \n40114 SET_GASNAME_CAT \nVisibleString \n(10 bytes) \nD / RW \n5 \n \n\"  \" \nValid for sensor variant: CAT \nThis parameter enables editing of the target gas to be measured by analog sensors. Analog sensors \ninclude the family of catalytic sensors and do not provide any additional information. This parameter \ncan be used to name the analog sensor. \nE.g.: \n\"Power house 1\" \n\"Methane\" \n40119 UNIT_NAME \nVisibleString \n(5 bytes) \nD / RO \n3 \n \n- \nValid for sensor variant: EC, IR, CAT \nContains the name of the currently set target gas unit in ASCII format. \ne.g., \nUNIT_NAME for UNIT_NAME_INDEX=0x00  =\"VOL%\"  \nUNIT_NAME for UNIT_NAME_INDEX=0x01  = \"LEL\" \n40122 UNIT_NAME_INDEX \nUnsigned8 \nD / RW \n1 \n \n- \nValid for sensor variant: EC, IR, CAT \nContains the index of the currently set target gas unit. The parameter can be modified and the \nrespective target gas unit set by writing in the parameter. \ne.g., \nUNIT_NAME for UNIT_NAME_INDEX=0x00  =\"VOL%\""
+        },
+        {
+          "rank": 8,
+          "chunk_id": 67,
+          "page": 30,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[04]=E4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40032\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[03]=E3\nDEVICE_STATUS_VALUE[02]=E2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40033\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[01]=E1\nDEVICE_STATUS_VALUE[00]=E0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40030\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x00\n0x17\n0x00\n0x0A\n0x74\n0x2B\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x14\n0x00 0x00 (register: 40024)\n0x00 0x21 (register: 40025)\n0x00 0x00 (register: 40026)\n0x00 0x21 (register: 40027)\n0x00 0x21 (register: 40028)\n0x00 0x21 (register: 40029)\n0x00 0x21 (register: 40030)\n0x00 0x21 (register: 40031)\n0x00 0x21 (register: 40032)\n0x00 0x21 (register: 40033)\n0x72\n0x44"
+        }
+      ],
+      "addressing_mode": [
+        {
+          "rank": 1,
+          "chunk_id": 30,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "14 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\n–\nFunction code\n–\nError code (Exception Code)\n–\nCRC (checksum)\nTo mark the error message, the leading bit of the returned function code is set. The \nerror code (Exception Code) is used to transmit the error cause to the Master.\nAddressing of the registers\n* The register address is transmitted as a 16-bit word. The first register is assigned \nthe address value 0.\nPlease note: another notation, where the register addresses are counted starting \nwith 1, is also common in Modbus applications. In that case, this address (register \naddress - 1) is transmitted in the Modbus telegram.\nExcep-\ntion code\nDescription\n01\nILLEGAL_FUNCTION\nThe function code sent by the Master is not supported by the Slave.\n02\nILLEGAL_DATA_ADDRESS\nThe register addressed by the Master is not assigned (does not exist) \nor the length of the requested data is too long.\n03\nILLEGAL_DATA_VALUE"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 28,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n13\nBasic principles of the Modbus technology\nError\nFC16 Write Multiple Register\nRequest\nResponse\nError\nData\nThe Data field contains the information to be transmitted. It is subdivided into \nregisters, the number of registers to be transmitted, and, if necessary, information \nthat has been read or has to be saved. Data is normally transmitted as a multiple of \n16-bit registers.\nCyclic Redundancy Check – CRC (checksum)\nThe CRC is a 16-digit checksum calculated based on all bytes of a telegram. To be \nable to detect transmission errors, it is generated by the Master and also calculated \nby the receiver. If the CRC value does not match the transmitted sum, the device \nwill request the telegram to be transmitted again. \nIf the field device executes the requested function, it will send a response telegram \nto the Master. The telegram contains the following parameters:\n–\nAddress of the device that was contacted and is now replying\n–"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 3,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "4\n2\nBasic principles of the Modbus technology ..........................................\n5\n2.1\nDefinition of the Modbus protocol ...................................................\n5\n2.2\nSystem overview.............................................................................\n5\n2.3\nData transmission...........................................................................\n8\n3\nInstallation ................................................................................................\n15\n3.1\nTechnical data ................................................................................\n15\n3.2\nCables.............................................................................................\n15\n3.3\nPin assignment ...............................................................................\n16\n3.4\nTermination.....................................................................................\n18\n3.5"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 23,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n11\nBasic principles of the Modbus technology\nCommunication in the Modbus network occurs through so-called polling. The \nMaster sends a telegram (Request) to the Slave. It then receives the Response.\nData transmission in Modbus RTU is in binary format. A data telegram consists of \nseveral blocks (Frames):\n–\nOne address block (1 byte = 1 character)\n–\nOne function block (1 byte = 1 character) \n–\nOne data block (variable)\n–\nOne checksum block (CRC = Cyclic Redundancy Check)\nBetween 2 telegrams there has to be a break with a length of at least \n3.5 characters. The corresponding wait time depends on the transmission rate. If a \ntransmission break of more than 1.5 characters occurs during telegram \ntransmission, the transmission process is considered incomplete and should be \naborted. \nGeneral form of a Modbus telegram\nAddress\nThe address specifies which device is contacted (Master - Slave) or which device"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 44,
+          "page": 21,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "22 \n Technical Manual  |  Digital Communication - Modbus RTU  \nCommissioning\n–\nIf the software address assignment is changed while the hardware address \nassignment is active, the software address assignment is saved. The saved \nchange only becomes valid when the software address assignment is selected.\n4.3 \nConfiguring the gas detector\n4.3.1 \nDefining communication settings at the gas detector\nTo define communication settings at the gas detector, proceed as follows:\n1. Log in to the gas detector (see instructions for use).\n2. Select Settings >Communication > Modbus.\n3. Set Modbus address using the arrow symbols.\n4. Select OK.\n5. Set Modbus baudrate using the arrow symbols.\n6. Select OK.\n7. Set Modbus parity using the arrow symbols.\n8. Select OK.\n4.3.2 \nAddress setting with DIP switch\nDIP switch no. 8 activates or disables the address assignment via the DIP switch. \nSetting the address with the DIP switch\n1. Open the gas detector (see \"Opening the gas detector\", page 19)."
+        },
+        {
+          "rank": 6,
+          "chunk_id": 11,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "6 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\n2.2.1 \nTopology\nMinimum configuration\nA Modbus system consists of at least the following components:\n–\nA Modbus Master to control the data traffic.\n–\nOne or more slaves which are available upon request of the Master.\n–\nThe transmission medium, consisting of the bus cable and bus connector to \nconnect the individual participants.\nMaximum configuration\nA bus segment consists of a maximum of 32 field devices (active and passive). The \nhighest possible number of slaves that can be operated with one Modbus Master \nacross several segments is determined by the internal memory structure of the \nmaster.\nThe bus cable can be separated anywhere and a new participant added with a bus \nconnector. At the end of a segment, the bus cable can be extended until the \npredetermined segment length is reached. The length of a bus segment depends"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 15,
+          "page": 7,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "8 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\n2.3 \nData transmission\nThere are 3 different data transmission modes in a Modbus system: \n–\nModbus ASCII\n–\nModbus RTU\n–\nModbus TCP\nIn Modbus ASCII, data is not transmitted as a binary sequence, but as ASCII code. \nThe data is directly human-readable, but the data throughput is lower than in \nModbus RTU.\nData transmission in Modbus RTU is in binary format. The binary format enables \nfaster data transmission. However, the data needs to be converted to a readable \nformat as it is not human-readable.\nModbus TCP is very similar to Modbus RTU. However, the data is transmitted in \nTCP/IP packets.\n2.3.1 \nModbus protocol structure\nCommunication in a Modbus network is structured in several Layers according to \nthe ISO/OSI model. To enable communication across a variety of technical \nsystems, the individual layers have different tasks."
+        },
+        {
+          "rank": 8,
+          "chunk_id": 26,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "12 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\nFunction code\nThe function code specifies the purpose of the data transmission. It defines the \ncommand to be executed by the Slave.\nBroadcast messages are only permitted with function codes 03 and 16. Function \ncode 08 is only supported for RS-485.\nFC03 Read Holding Registers\nRequest\nResponse\nCom-\nmand\nFunction code\nDescription\n011)\n1) This command is not supported by Polytron® 8000.\nRead Coils\nRead back several digital outputs\n021)\nRead Discrete Inputs\nRead several digital inputs\n03\nRead Holding Registers\nRead several analog inputs (and out-\nputs)\n041)\nRead Input Registers\nRead several analog inputs (and out-\nputs)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-"
+        }
+      ],
+      "register": [
+        {
+          "rank": 1,
+          "chunk_id": 117,
+          "page": 47,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Unsigned8 \nD / RO \n1 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nThe A2_ALARM parameter consists of the following sub-parameters. \nContains the current status of the internal alarm module and its settings. \nA2 alarm is not activated \nA2 alarm is activated \nA2_ALARM.CONDITION \nUnsigned8 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether the current target gas concentration is above or below the A2 alarm \nthreshold (depending on the configuration of the A2 alarm). \nA2 alarm condition is currently not present. \nA2 alarm condition is currently present. \n40317 ALARM_ACKNOWLEDGE \nUnsigned8 \nD / RW \n1 \n \n \n \n0x00 \n0xFF \nValid for sensor variant: EC, IR, CAT \nThe data content 0xFF of a write process enables acknowledging active alarms if the alarm module \nhas been configured correspondingly. \nDefault value. After writing the value 0xFF, the default value is displayed again. \nActive alarms are acknowledged by writing the value 0xFF."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 113,
+          "page": 46,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Unsigned8 \n \n \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information on the triggering behavior of the A2 alarm. The following is possible: \nA2 alarm is triggered if the target gas concentration is below the A2 alarm threshold and exceeds it. \nA2 alarm is triggered if the target gas concentration is above the A2 alarm threshold and falls below \nit. \nA2_ALARM_CONFIGURATION.ACKNOWLEDGABL\nE \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm can be acknowledged while the alarm condition exists. \nThe A2 alarm cannot be acknowledged. \nThe A2 alarm can be acknowledged. \nA2_ALARM_CONFIGURATION.PREACKNOWLEDG\nEABLE \nUnsigned8 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A2 alarm cannot be pre-acknowledged. \nThe A2 alarm can be pre-acknowledged. \nA2_ALARM_CONFIGURATION.LATCHING \nUnsigned8"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 109,
+          "page": 45,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Unsigned8 \n \n \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information on the triggering behavior of the A1 alarm. The following is possible: \nA1 alarm is triggered if the target gas concentration is below the A1 alarm threshold and exceeds it. \nA1 alarm is triggered if the target gas concentration is above the A1 alarm threshold and falls below \nit. \nA1_ALARM_CONFIGURATION.ACKNOWLEDGABL\nE \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm can be acknowledged while the alarm condition exists. \nThe A1 alarm cannot be acknowledged. \nThe A1 alarm can be acknowledged. \nA1_ALARM_CONFIGURATION.PREACKNOWLEDG\nEABLE \nUnsigned8 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A1 alarm cannot be pre-acknowledged. \nThe A1 alarm can be pre-acknowledged. \nA1_ALARM_CONFIGURATION.LATCHING \nUnsigned8"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 110,
+          "page": 45,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A1 alarm cannot be pre-acknowledged. \nThe A1 alarm can be pre-acknowledged. \nA1_ALARM_CONFIGURATION.LATCHING \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm has to be acknowledged. \nThe A1 alarm is not latching. \nThe A1 alarm is latching."
+        },
+        {
+          "rank": 5,
+          "chunk_id": 114,
+          "page": 46,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A2 alarm cannot be pre-acknowledged. \nThe A2 alarm can be pre-acknowledged. \nA2_ALARM_CONFIGURATION.LATCHING \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm has to be acknowledged. \nThe A2 alarm is not latching. \nThe A2 alarm is latching. \n40314 A2_ALARM_PLAUSIBILITY \nBit string \nD / RO \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x04 \n0x08 \n0x10 \nValid for sensor variant: EC, IR, CAT \nPlausibility of the A2 alarm configuration:  \nNo error. \nThe value entered for the A2_ALARM_CONFIGURATION.VALUE is too low. \nThe value entered for the A2_ALARM_CONFIGURATION.VALUE is too high. \nThe value entered for the A2_ALARM_CONFIGURATION.HYSTERESE is too low. \nThe value entered for the A2_ALARM_CONFIGURATION.HYSTERESE is too low."
+        },
+        {
+          "rank": 6,
+          "chunk_id": 107,
+          "page": 45,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Annex 1 – Device-specific functional blocks \n7 \n40222 WAVELENGTH_TYPE \nUnsigned16 \nD / RO \n1 \n \nValid for sensor variant: IR \nWavelength of the PIR7X00 sensor. \n40223 SENSOR_WARM_UP_TIME_1 \nUnsigned16 \nD / RO \n1 \n \nValid for sensor variant: EC, IR, CAT \nRemaining warm-up time 1 (measured values are not shown) in minutes. \n40224 SENSOR_WARM_UP_TIME_2 \nUnsigned16 \nD / RO \n1 \n \nValid for sensor variant: EC, IR, CAT \nRemaining warm-up time 2 (measured values have an increased error) in minutes. \n \nAlarm configuration (registers 40301 – 40329) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40301 A1_ALARM_CONFIGURATION.VALUE \nFloat \nD / RW \n2 \n \nValid for sensor variant: EC, IR, CAT \nContains the currently set gas concentration for the A1 alarm. \n40303 A1_ALARM_CONFIGURATION.HYSTERESE \nFloat \n \nValid for sensor variant: EC, IR, CAT \nThe alarm hysteresis defines a range around the A1 alarm within which A1_ALARM remains set"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 62,
+          "page": 28,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "description table in the annex. This example refers to a current warning of the gas \ndetector.\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x04\n0x42 0x20 (register: 40507)\n0x00 0x00 (register: 40508)\n0xCC\n0x41\nRegister: 40023\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nn/a\nDEVICE_STATUS_INDICATION\nE.g.: DEVICE_STATUS_INDICATION = 0x02\n0x00\n0x02\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x00\n0x16\n0x00\n0x01\n0x64\n0x2C\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x02\n0x00 0x04 (register: 40023)\n0xC0\n0x47"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 118,
+          "page": 47,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "The data content 0xFF of a write process enables acknowledging active alarms if the alarm module \nhas been configured correspondingly. \nDefault value. After writing the value 0xFF, the default value is displayed again. \nActive alarms are acknowledged by writing the value 0xFF. \n40318 DD_SENSOR_LATCHING \nUnsigned8 \nD / RW \n1 \n \n \n \n0 \n1 \nValid for sensor variant: CAT \nDefines whether the measured value is latching after exceeding a concentration of 100% LEL. \nNon-Latching \nLatching \n40319 ALARM_FAULT_TEST \nBit string \nD / RW \n1 \n \n \n0 \n1 \n2 \n4 \nValid for sensor variant: EC, IR, CAT \nFunction for relay test. \n \nAlarm 1 State active \nAlarm 2 State active \nError State active \n40320 ALARM_MODULE_ACTIVE \nBit string \nD / RW \n1 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nA1 and A2 alarms are analyzed. \nInactive \nActive \n40321 A1_LEVEL_MIN \nFloat \nRO \n2 \n \n0.0 \nValid for sensor variant: EC, IR, CAT \nLowest value that can be set for the A1 alarm. \n40323 A1_LEVEL_MAX \nFloat \nRO \n2"
+        }
+      ],
+      "function_code": [
+        {
+          "rank": 1,
+          "chunk_id": 27,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "puts)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-\nisters\n231)\nRead/Write Multiple Registers\nSimultaneously read and write 1 to max. \n118 registers in one telegram\nxx\nUp to 255 function codes, \ndepending on the device\nFunction code\n1 byte\n0x03\nStarting address\n2 byte\n0x0000 to 0xFFFF\nNumber of registers\n2 byte\n1 to 125 (0x7D)\nFunction code\n1 byte\n0x03\nByte count\n1 byte\n2 * number of registers\nHolding register value (2 * number of \nregisters) bytes\n2 to 250"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 64,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[19]=W9\nDEVICE_STATUS_VALUE[19]=W8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40025\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[17]=W7\nDEVICE_STATUS_VALUE[16]=W6\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x21\nRegister: 40026\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[15]=W5\nDEVICE_STATUS_VALUE[14]=W4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40027\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[13]=W3\nDEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 31,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Excep-\ntion code\nDescription\n01\nILLEGAL_FUNCTION\nThe function code sent by the Master is not supported by the Slave.\n02\nILLEGAL_DATA_ADDRESS\nThe register addressed by the Master is not assigned (does not exist) \nor the length of the requested data is too long.\n03\nILLEGAL_DATA_VALUE\nThe Master is attempting to write to a register that allows only read \naccess. The value appearing in the data field is not permissible: e.g., \nrange limits exceeded or wrong data format. \n04\nSLAVE_DEVICE_FAILURE\nThe Slave did not respond to the request telegram from the Master or \nan error occurred when processing the request telegram. \nRegister\nData type\nAccess\nAddress \nrange*\nInformation\nDiscrete Input Bit\nRead only\n1XXXX\nNot used by the device\nCoils\nBit\nRead/write\n2XXXX\nNot used by the device\nInput Register 16-bit word Read only\n3XXXX\nThis data can only be \nread by the device\nHolding Reg-\nister\n16-bit word Read/write\n4XXXX\nThis data can be read \nby the device and \nchanged by the appli-\ncation"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 59,
+          "page": 27,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "40701 - 40704\nParameter values\nMeaning\n0000\nSuccessfully changed\n0x00\nError\n0x02\nIncorrect selection\n0x05\nToo few bytes\nRegister: 40507\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[3]\nMEASUREMENT_MODE.VALUE[2]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x42\n0x20\nRegister: 40508\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[1]\nMEASUREMENT_MODE.VALUE[0]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x00\n0x00\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x01\n0xFA\n0x00\n0x02\n0x24\n0xE4"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 67,
+          "page": 30,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[04]=E4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40032\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[03]=E3\nDEVICE_STATUS_VALUE[02]=E2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40033\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[01]=E1\nDEVICE_STATUS_VALUE[00]=E0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40030\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x00\n0x17\n0x00\n0x0A\n0x74\n0x2B\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x14\n0x00 0x00 (register: 40024)\n0x00 0x21 (register: 40025)\n0x00 0x00 (register: 40026)\n0x00 0x21 (register: 40027)\n0x00 0x21 (register: 40028)\n0x00 0x21 (register: 40029)\n0x00 0x21 (register: 40030)\n0x00 0x21 (register: 40031)\n0x00 0x21 (register: 40032)\n0x00 0x21 (register: 40033)\n0x72\n0x44"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 65,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[09]=E9\nDEVICE_STATUS_VALUE[08]=E8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x02\nRegister: 40030\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[07]=E7\nDEVICE_STATUS_VALUE[06]=E6\nE.g.: DEVICE_STATUS_VALUE=0x02"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 26,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "12 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\nFunction code\nThe function code specifies the purpose of the data transmission. It defines the \ncommand to be executed by the Slave.\nBroadcast messages are only permitted with function codes 03 and 16. Function \ncode 08 is only supported for RS-485.\nFC03 Read Holding Registers\nRequest\nResponse\nCom-\nmand\nFunction code\nDescription\n011)\n1) This command is not supported by Polytron® 8000.\nRead Coils\nRead back several digital outputs\n021)\nRead Discrete Inputs\nRead several digital inputs\n03\nRead Holding Registers\nRead several analog inputs (and out-\nputs)\n041)\nRead Input Registers\nRead several analog inputs (and out-\nputs)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 143,
+          "page": 54,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Annex 1 – Device-specific functional blocks \n16 \n0x02 \n0x04 \n0x08 \n0x10 \n0x20 \n0x40 \nLanguage 1 is valid \nLanguage 2 is valid \nLanguage 3 is valid \nLanguage 4 is valid \nLanguage 5 is valid \nLanguage 6 is valid \n40658 LCD_FUNCTION_KEY \nUnsigned8 \nD / RW \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \nValid for sensor variant: EC, IR, CAT \nFunction key assignment \nFCT_KEY_OFF \nFCT_KEY_GRAPH \nFCT_KEY_FAULT \nFCT_KEY_NOTICE \nFCT_KEY_FAULT_CODES \nFCT_KEY_VITALITY \n40659 LCD_FUNCTION_KEY_STATUS.SELECTION \nUnsigned8 \nD / RO \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \nValid for sensor variant: EC, IR, CAT \nReturns the current assignment of the function keys. \nFCT_KEY_OFF \nFCT_KEY_GRAPH \nFCT_KEY_FAULT \nFCT_KEY_NOTICE \nFCT_KEY_FAULT_CODES \nFCT_KEY_VITALITY \nLCD_FUNCTION_KEY_STATUS_ERROR_CODE \nUnsigned8 \n \n \n0x00 \n0x01 \n \n \n \n0x02 \nValid for sensor variant: EC, IR, CAT \nContains the status for the function key assignment. The following information is possible: \nNo error. \nFunction not supported."
+        }
+      ],
+      "coils_discrete": [
+        {
+          "rank": 1,
+          "chunk_id": 27,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "puts)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-\nisters\n231)\nRead/Write Multiple Registers\nSimultaneously read and write 1 to max. \n118 registers in one telegram\nxx\nUp to 255 function codes, \ndepending on the device\nFunction code\n1 byte\n0x03\nStarting address\n2 byte\n0x0000 to 0xFFFF\nNumber of registers\n2 byte\n1 to 125 (0x7D)\nFunction code\n1 byte\n0x03\nByte count\n1 byte\n2 * number of registers\nHolding register value (2 * number of \nregisters) bytes\n2 to 250"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 26,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "12 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\nFunction code\nThe function code specifies the purpose of the data transmission. It defines the \ncommand to be executed by the Slave.\nBroadcast messages are only permitted with function codes 03 and 16. Function \ncode 08 is only supported for RS-485.\nFC03 Read Holding Registers\nRequest\nResponse\nCom-\nmand\nFunction code\nDescription\n011)\n1) This command is not supported by Polytron® 8000.\nRead Coils\nRead back several digital outputs\n021)\nRead Discrete Inputs\nRead several digital inputs\n03\nRead Holding Registers\nRead several analog inputs (and out-\nputs)\n041)\nRead Input Registers\nRead several analog inputs (and out-\nputs)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 31,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "Excep-\ntion code\nDescription\n01\nILLEGAL_FUNCTION\nThe function code sent by the Master is not supported by the Slave.\n02\nILLEGAL_DATA_ADDRESS\nThe register addressed by the Master is not assigned (does not exist) \nor the length of the requested data is too long.\n03\nILLEGAL_DATA_VALUE\nThe Master is attempting to write to a register that allows only read \naccess. The value appearing in the data field is not permissible: e.g., \nrange limits exceeded or wrong data format. \n04\nSLAVE_DEVICE_FAILURE\nThe Slave did not respond to the request telegram from the Master or \nan error occurred when processing the request telegram. \nRegister\nData type\nAccess\nAddress \nrange*\nInformation\nDiscrete Input Bit\nRead only\n1XXXX\nNot used by the device\nCoils\nBit\nRead/write\n2XXXX\nNot used by the device\nInput Register 16-bit word Read only\n3XXXX\nThis data can only be \nread by the device\nHolding Reg-\nister\n16-bit word Read/write\n4XXXX\nThis data can be read \nby the device and \nchanged by the appli-\ncation"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 64,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[19]=W9\nDEVICE_STATUS_VALUE[19]=W8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40025\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[17]=W7\nDEVICE_STATUS_VALUE[16]=W6\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x21\nRegister: 40026\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[15]=W5\nDEVICE_STATUS_VALUE[14]=W4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40027\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[13]=W3\nDEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 65,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "DEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[09]=E9\nDEVICE_STATUS_VALUE[08]=E8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x02\nRegister: 40030\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[07]=E7\nDEVICE_STATUS_VALUE[06]=E6\nE.g.: DEVICE_STATUS_VALUE=0x02"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 110,
+          "page": 45,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A1 alarm cannot be pre-acknowledged. \nThe A1 alarm can be pre-acknowledged. \nA1_ALARM_CONFIGURATION.LATCHING \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm has to be acknowledged. \nThe A1 alarm is not latching. \nThe A1 alarm is latching."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 114,
+          "page": 46,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A2 alarm cannot be pre-acknowledged. \nThe A2 alarm can be pre-acknowledged. \nA2_ALARM_CONFIGURATION.LATCHING \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm has to be acknowledged. \nThe A2 alarm is not latching. \nThe A2 alarm is latching. \n40314 A2_ALARM_PLAUSIBILITY \nBit string \nD / RO \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x04 \n0x08 \n0x10 \nValid for sensor variant: EC, IR, CAT \nPlausibility of the A2 alarm configuration:  \nNo error. \nThe value entered for the A2_ALARM_CONFIGURATION.VALUE is too low. \nThe value entered for the A2_ALARM_CONFIGURATION.VALUE is too high. \nThe value entered for the A2_ALARM_CONFIGURATION.HYSTERESE is too low. \nThe value entered for the A2_ALARM_CONFIGURATION.HYSTERESE is too low."
+        },
+        {
+          "rank": 8,
+          "chunk_id": 118,
+          "page": 47,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+          "content": "The data content 0xFF of a write process enables acknowledging active alarms if the alarm module \nhas been configured correspondingly. \nDefault value. After writing the value 0xFF, the default value is displayed again. \nActive alarms are acknowledged by writing the value 0xFF. \n40318 DD_SENSOR_LATCHING \nUnsigned8 \nD / RW \n1 \n \n \n \n0 \n1 \nValid for sensor variant: CAT \nDefines whether the measured value is latching after exceeding a concentration of 100% LEL. \nNon-Latching \nLatching \n40319 ALARM_FAULT_TEST \nBit string \nD / RW \n1 \n \n \n0 \n1 \n2 \n4 \nValid for sensor variant: EC, IR, CAT \nFunction for relay test. \n \nAlarm 1 State active \nAlarm 2 State active \nError State active \n40320 ALARM_MODULE_ACTIVE \nBit string \nD / RW \n1 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nA1 and A2 alarms are analyzed. \nInactive \nActive \n40321 A1_LEVEL_MIN \nFloat \nRO \n2 \n \n0.0 \nValid for sensor variant: EC, IR, CAT \nLowest value that can be set for the A1 alarm. \n40323 A1_LEVEL_MAX \nFloat \nRO \n2"
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 107,
+        "page": 45,
+        "score": 10,
+        "bucket": "register",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "Annex 1 – Device-specific functional blocks \n7 \n40222 WAVELENGTH_TYPE \nUnsigned16 \nD / RO \n1 \n \nValid for sensor variant: IR \nWavelength of the PIR7X00 sensor. \n40223 SENSOR_WARM_UP_TIME_1 \nUnsigned16 \nD / RO \n1 \n \nValid for sensor variant: EC, IR, CAT \nRemaining warm-up time 1 (measured values are not shown) in minutes. \n40224 SENSOR_WARM_UP_TIME_2 \nUnsigned16 \nD / RO \n1 \n \nValid for sensor variant: EC, IR, CAT \nRemaining warm-up time 2 (measured values have an increased error) in minutes. \n \nAlarm configuration (registers 40301 – 40329) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40301 A1_ALARM_CONFIGURATION.VALUE \nFloat \nD / RW \n2 \n \nValid for sensor variant: EC, IR, CAT \nContains the currently set gas concentration for the A1 alarm. \n40303 A1_ALARM_CONFIGURATION.HYSTERESE \nFloat \n \nValid for sensor variant: EC, IR, CAT \nThe alarm hysteresis defines a range around the A1 alarm within which A1_ALARM remains set"
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 31,
+        "page": 13,
+        "score": 10,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "Excep-\ntion code\nDescription\n01\nILLEGAL_FUNCTION\nThe function code sent by the Master is not supported by the Slave.\n02\nILLEGAL_DATA_ADDRESS\nThe register addressed by the Master is not assigned (does not exist) \nor the length of the requested data is too long.\n03\nILLEGAL_DATA_VALUE\nThe Master is attempting to write to a register that allows only read \naccess. The value appearing in the data field is not permissible: e.g., \nrange limits exceeded or wrong data format. \n04\nSLAVE_DEVICE_FAILURE\nThe Slave did not respond to the request telegram from the Master or \nan error occurred when processing the request telegram. \nRegister\nData type\nAccess\nAddress \nrange*\nInformation\nDiscrete Input Bit\nRead only\n1XXXX\nNot used by the device\nCoils\nBit\nRead/write\n2XXXX\nNot used by the device\nInput Register 16-bit word Read only\n3XXXX\nThis data can only be \nread by the device\nHolding Reg-\nister\n16-bit word Read/write\n4XXXX\nThis data can be read \nby the device and \nchanged by the appli-\ncation"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 59,
+        "page": 27,
+        "score": 10,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code"
+        ],
+        "content": "40701 - 40704\nParameter values\nMeaning\n0000\nSuccessfully changed\n0x00\nError\n0x02\nIncorrect selection\n0x05\nToo few bytes\nRegister: 40507\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[3]\nMEASUREMENT_MODE.VALUE[2]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x42\n0x20\nRegister: 40508\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[1]\nMEASUREMENT_MODE.VALUE[0]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x00\n0x00\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x01\n0xFA\n0x00\n0x02\n0x24\n0xE4"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 44,
+        "page": 21,
+        "score": 8,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "22 \n Technical Manual  |  Digital Communication - Modbus RTU  \nCommissioning\n–\nIf the software address assignment is changed while the hardware address \nassignment is active, the software address assignment is saved. The saved \nchange only becomes valid when the software address assignment is selected.\n4.3 \nConfiguring the gas detector\n4.3.1 \nDefining communication settings at the gas detector\nTo define communication settings at the gas detector, proceed as follows:\n1. Log in to the gas detector (see instructions for use).\n2. Select Settings >Communication > Modbus.\n3. Set Modbus address using the arrow symbols.\n4. Select OK.\n5. Set Modbus baudrate using the arrow symbols.\n6. Select OK.\n7. Set Modbus parity using the arrow symbols.\n8. Select OK.\n4.3.2 \nAddress setting with DIP switch\nDIP switch no. 8 activates or disables the address assignment via the DIP switch. \nSetting the address with the DIP switch\n1. Open the gas detector (see \"Opening the gas detector\", page 19)."
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 30,
+        "page": 13,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "14 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\n–\nFunction code\n–\nError code (Exception Code)\n–\nCRC (checksum)\nTo mark the error message, the leading bit of the returned function code is set. The \nerror code (Exception Code) is used to transmit the error cause to the Master.\nAddressing of the registers\n* The register address is transmitted as a 16-bit word. The first register is assigned \nthe address value 0.\nPlease note: another notation, where the register addresses are counted starting \nwith 1, is also common in Modbus applications. In that case, this address (register \naddress - 1) is transmitted in the Modbus telegram.\nExcep-\ntion code\nDescription\n01\nILLEGAL_FUNCTION\nThe function code sent by the Master is not supported by the Slave.\n02\nILLEGAL_DATA_ADDRESS\nThe register addressed by the Master is not assigned (does not exist) \nor the length of the requested data is too long.\n03\nILLEGAL_DATA_VALUE"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 137,
+        "page": 52,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "\"  \" \nValid for sensor variant: IR \nName of the category with the index 6. \n40521 NAME_CATEGORY_7 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 7. \n40524 NAME_CATEGORY_8 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 8. \n40527 NAME_CATEGORY_9 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 9. \n40530 NAME_CATEGORY_10 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 10. \n40533 NAME_CATEGORY_11 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 11. \n \nData logger (registers 40601 – 40607) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40601 DATA_LOGGER_MODULE \nUnsigned8 \nD / RO \n1 \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 67,
+        "page": 30,
+        "score": 7,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_name",
+          "function_code"
+        ],
+        "content": "DEVICE_STATUS_VALUE[04]=E4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40032\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[03]=E3\nDEVICE_STATUS_VALUE[02]=E2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40033\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[01]=E1\nDEVICE_STATUS_VALUE[00]=E0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40030\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x00\n0x17\n0x00\n0x0A\n0x74\n0x2B\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x14\n0x00 0x00 (register: 40024)\n0x00 0x21 (register: 40025)\n0x00 0x00 (register: 40026)\n0x00 0x21 (register: 40027)\n0x00 0x21 (register: 40028)\n0x00 0x21 (register: 40029)\n0x00 0x21 (register: 40030)\n0x00 0x21 (register: 40031)\n0x00 0x21 (register: 40032)\n0x00 0x21 (register: 40033)\n0x72\n0x44"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 26,
+        "page": 11,
+        "score": 7,
+        "bucket": "communication",
+        "retrieved_by": [
+          "addressing_mode",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "12 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\nFunction code\nThe function code specifies the purpose of the data transmission. It defines the \ncommand to be executed by the Slave.\nBroadcast messages are only permitted with function codes 03 and 16. Function \ncode 08 is only supported for RS-485.\nFC03 Read Holding Registers\nRequest\nResponse\nCom-\nmand\nFunction code\nDescription\n011)\n1) This command is not supported by Polytron® 8000.\nRead Coils\nRead back several digital outputs\n021)\nRead Discrete Inputs\nRead several digital inputs\n03\nRead Holding Registers\nRead several analog inputs (and out-\nputs)\n041)\nRead Input Registers\nRead several analog inputs (and out-\nputs)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 117,
+        "page": 47,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "Unsigned8 \nD / RO \n1 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nThe A2_ALARM parameter consists of the following sub-parameters. \nContains the current status of the internal alarm module and its settings. \nA2 alarm is not activated \nA2 alarm is activated \nA2_ALARM.CONDITION \nUnsigned8 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether the current target gas concentration is above or below the A2 alarm \nthreshold (depending on the configuration of the A2 alarm). \nA2 alarm condition is currently not present. \nA2 alarm condition is currently present. \n40317 ALARM_ACKNOWLEDGE \nUnsigned8 \nD / RW \n1 \n \n \n \n0x00 \n0xFF \nValid for sensor variant: EC, IR, CAT \nThe data content 0xFF of a write process enables acknowledging active alarms if the alarm module \nhas been configured correspondingly. \nDefault value. After writing the value 0xFF, the default value is displayed again. \nActive alarms are acknowledged by writing the value 0xFF."
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 27,
+        "page": 11,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "puts)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-\nisters\n231)\nRead/Write Multiple Registers\nSimultaneously read and write 1 to max. \n118 registers in one telegram\nxx\nUp to 255 function codes, \ndepending on the device\nFunction code\n1 byte\n0x03\nStarting address\n2 byte\n0x0000 to 0xFFFF\nNumber of registers\n2 byte\n1 to 125 (0x7D)\nFunction code\n1 byte\n0x03\nByte count\n1 byte\n2 * number of registers\nHolding register value (2 * number of \nregisters) bytes\n2 to 250"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 62,
+        "page": 28,
+        "score": 6,
+        "bucket": "communication",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "description table in the annex. This example refers to a current warning of the gas \ndetector.\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x04\n0x42 0x20 (register: 40507)\n0x00 0x00 (register: 40508)\n0xCC\n0x41\nRegister: 40023\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nn/a\nDEVICE_STATUS_INDICATION\nE.g.: DEVICE_STATUS_INDICATION = 0x02\n0x00\n0x02\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x00\n0x16\n0x00\n0x01\n0x64\n0x2C\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x02\n0x00 0x04 (register: 40023)\n0xC0\n0x47"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 43,
+        "page": 20,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "–\nPreconditions: Hardware address assignment is selected.\nIf the hardware address assignment is changed, the gas detector must be \nturned off and back on again (power cycle) for the change of address to take \neffect.\n–\nIf the software address assignment is changed, the new address becomes valid \nimmediately. The new address also remains valid if the hardware address \nassignment is activated and another address is set on the DIP switch. To \nvalidate the address set on the DIP switch, the gas detector must be turned off \nand back on again (power cycle).\nSetting\nFactory default \nsetting\nSelection\nAddress\n126\n1 to 126\nBaud rate/bps\n19200\n9600, 19200\nParity\nEven (1 stop bit)\nEven (1 stop bit), odd (1 stop bit), no parity \n(2 stop bits)"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 47,
+        "page": 22,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "1. Open the menu of the gas detector.\na. In measuring mode, press and hold down \n for approx. 3 seconds.\nb. Choose Kennw. eingeben.\nc. Enter the calibration password.\nThe factory setting for the calibration password is _ _ _ 2.\n2. Select Settings >Communication > Modbus.\n3. Select Modbus address.\n4. Using the arrow symbol, navigate down to Adresse.\n5. Set the address using the arrow symbols.\n6. Select OK.\nIf the address assignment is selected using the DIP switch, the address set on \nthe DIP switch is used when restarting the field device.\n31176\n1 2 3 4 5\n6 7 8\nON\n1 2 3 4 5 6 7 8\nON\nM"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 28,
+        "page": 12,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "addressing_mode"
+        ],
+        "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n13\nBasic principles of the Modbus technology\nError\nFC16 Write Multiple Register\nRequest\nResponse\nError\nData\nThe Data field contains the information to be transmitted. It is subdivided into \nregisters, the number of registers to be transmitted, and, if necessary, information \nthat has been read or has to be saved. Data is normally transmitted as a multiple of \n16-bit registers.\nCyclic Redundancy Check – CRC (checksum)\nThe CRC is a 16-digit checksum calculated based on all bytes of a telegram. To be \nable to detect transmission errors, it is generated by the Master and also calculated \nby the receiver. If the CRC value does not match the transmitted sum, the device \nwill request the telegram to be transmitted again. \nIf the field device executes the requested function, it will send a response telegram \nto the Master. The telegram contains the following parameters:\n–\nAddress of the device that was contacted and is now replying\n–"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 118,
+        "page": 47,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "register",
+          "coils_discrete"
+        ],
+        "content": "The data content 0xFF of a write process enables acknowledging active alarms if the alarm module \nhas been configured correspondingly. \nDefault value. After writing the value 0xFF, the default value is displayed again. \nActive alarms are acknowledged by writing the value 0xFF. \n40318 DD_SENSOR_LATCHING \nUnsigned8 \nD / RW \n1 \n \n \n \n0 \n1 \nValid for sensor variant: CAT \nDefines whether the measured value is latching after exceeding a concentration of 100% LEL. \nNon-Latching \nLatching \n40319 ALARM_FAULT_TEST \nBit string \nD / RW \n1 \n \n \n0 \n1 \n2 \n4 \nValid for sensor variant: EC, IR, CAT \nFunction for relay test. \n \nAlarm 1 State active \nAlarm 2 State active \nError State active \n40320 ALARM_MODULE_ACTIVE \nBit string \nD / RW \n1 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nA1 and A2 alarms are analyzed. \nInactive \nActive \n40321 A1_LEVEL_MIN \nFloat \nRO \n2 \n \n0.0 \nValid for sensor variant: EC, IR, CAT \nLowest value that can be set for the A1 alarm. \n40323 A1_LEVEL_MAX \nFloat \nRO \n2"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 65,
+        "page": 29,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_name",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "DEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[09]=E9\nDEVICE_STATUS_VALUE[08]=E8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x02\nRegister: 40030\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[07]=E7\nDEVICE_STATUS_VALUE[06]=E6\nE.g.: DEVICE_STATUS_VALUE=0x02"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 64,
+        "page": 29,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_name",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "DEVICE_STATUS_VALUE[19]=W9\nDEVICE_STATUS_VALUE[19]=W8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40025\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[17]=W7\nDEVICE_STATUS_VALUE[16]=W6\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x21\nRegister: 40026\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[15]=W5\nDEVICE_STATUS_VALUE[14]=W4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40027\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[13]=W3\nDEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 110,
+        "page": 45,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "register",
+          "coils_discrete"
+        ],
+        "content": "0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A1 alarm cannot be pre-acknowledged. \nThe A1 alarm can be pre-acknowledged. \nA1_ALARM_CONFIGURATION.LATCHING \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm has to be acknowledged. \nThe A1 alarm is not latching. \nThe A1 alarm is latching."
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 114,
+        "page": 46,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "register",
+          "coils_discrete"
+        ],
+        "content": "0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A2 alarm cannot be pre-acknowledged. \nThe A2 alarm can be pre-acknowledged. \nA2_ALARM_CONFIGURATION.LATCHING \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm has to be acknowledged. \nThe A2 alarm is not latching. \nThe A2 alarm is latching. \n40314 A2_ALARM_PLAUSIBILITY \nBit string \nD / RO \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x04 \n0x08 \n0x10 \nValid for sensor variant: EC, IR, CAT \nPlausibility of the A2 alarm configuration:  \nNo error. \nThe value entered for the A2_ALARM_CONFIGURATION.VALUE is too low. \nThe value entered for the A2_ALARM_CONFIGURATION.VALUE is too high. \nThe value entered for the A2_ALARM_CONFIGURATION.HYSTERESE is too low. \nThe value entered for the A2_ALARM_CONFIGURATION.HYSTERESE is too low."
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 11,
+        "page": 5,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "6 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\n2.2.1 \nTopology\nMinimum configuration\nA Modbus system consists of at least the following components:\n–\nA Modbus Master to control the data traffic.\n–\nOne or more slaves which are available upon request of the Master.\n–\nThe transmission medium, consisting of the bus cable and bus connector to \nconnect the individual participants.\nMaximum configuration\nA bus segment consists of a maximum of 32 field devices (active and passive). The \nhighest possible number of slaves that can be operated with one Modbus Master \nacross several segments is determined by the internal memory structure of the \nmaster.\nThe bus cable can be separated anywhere and a new participant added with a bus \nconnector. At the end of a segment, the bus cable can be extended until the \npredetermined segment length is reached. The length of a bus segment depends"
+      }
+    ]
+  }
+]

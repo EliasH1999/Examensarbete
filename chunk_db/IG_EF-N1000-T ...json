@@ -1,0 +1,266 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\nEBTRON, Inc. 1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\nInstallation Guide\nEF-N1000 Series\nBACnet/Modbus Network Output\nElectronic Low Flow (ELF)\nAirflow/Temperature Measurement Station\nDocument: IG_EF-N1000-T_R1A\na measurable difference!\nEBTRON \n®\nThermal Dispersion Airflow Measurement Technology\nEF-N1000-T ELF\nQuick Installation Guide\nEB-Flow Electronic Low Flow ELF BACnet/Modbus Output Airflow Station\nPart Number: 930-0185"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\na measurable difference!\n®\nEB-FLOW EF-N1000 ELF\nINSTALLATION GUIDE - ELECTRONIC LOW FLOW ‘ELF’ BACNET/MODBUS OUTPUT\nEBTRON, Inc.  1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\n2\nIG_ELF-D_R1E\n1. INTRODUCTION AND SCOPE  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3\n2. EF-N1000 INSTALLATION  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3\n3. ELF PREPARATION FOR USE  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "3. ELF PREPARATION FOR USE  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5\n4. ELF INTERCONNECTIONS  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5\n4.1 ELF 24 VAC Power Connections  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .6\n4.2 S1 - ELF Configuration DIP Switch Settings  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .6\n4.3 Setting the MAC Address  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .6"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "4.3 Setting the MAC Address  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .6\n4.4 Setting the Baud Rate . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .9\n4.5 J4 - ELF RS-485 Network Termination Selection  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .9\n4.6 Restoring Factory Default Settings  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .9\n5. ELF BACnet CONFIGURATION  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .10"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "5. ELF BACnet CONFIGURATION  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .10\n5.1 Changing BACnet Device Object Instance Number  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .10\n5.1.1 Matching BACnet Device Object Instance Number to MAC Address  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .10\n5.1.2 Setting BACnet Device Object Instance Number to a value different than MAC Address  . . . . . . . . . . . . . . . .10\n6. ELF MODBUS CONFIGURATION  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .10\n7. ELF INITIAL START UP / NORMAL OPERATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11"
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "7. ELF INITIAL START UP / NORMAL OPERATION . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11\n8. FOR ADDITIONAL INFORMATION  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11\nAPPENDIX A - ELF BACnet Object Properties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .12\nAPPENDIX B - ELF Modbus Register Map  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .12\nTable of Contents\nFigure 1. ELF Installation Applications and Orientation  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .4"
+  },
+  {
+    "chunk_id": 6,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "Table of Contents\nFigure 1. ELF Installation Applications and Orientation  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .4\nFigure 2. ELF Installation Dimensions  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5\nFigure 3. ELF Circuit Board, Wiring and Configuration Switch Details . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .7\nFigure 4. ELF Power and Signal Wiring Interconnections  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .8\nFigure 5. ELF Baud Rate Selection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .9\nList of Tables"
+  },
+  {
+    "chunk_id": 7,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "Figure 5. ELF Baud Rate Selection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .9\nList of Tables\nTable 1. CONFIG Switch Settings  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .6\nList of Figures\nCopyright © EBTRON®, Inc.\nAll brand names, trademarks and registered trademarks are the property of their respective owners. Information contained within this document is subject to\nchange without notice. Visit EBTRON.com to view and/or download the most recent versions of this and other documents.\nAll rights reserved.\nLIST OF EFFECTIVE AND CHANGED PAGES\nInsert latest changed pages (in bold text); remove and dispose of superseded pages.\nTotal number of pages in this manual is 8."
+  },
+  {
+    "chunk_id": 8,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "All rights reserved.\nLIST OF EFFECTIVE AND CHANGED PAGES\nInsert latest changed pages (in bold text); remove and dispose of superseded pages.\nTotal number of pages in this manual is 8.\nPage No                           Revision *                  Description of Change                                                                                                 Date\n1 through 12  . . . . . . . . . . .R1A  . . . . . . . . . . . . .Initial document release.  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .1/25/2016\n* R1A indicates an original page without change"
+  },
+  {
+    "chunk_id": 9,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\na measurable difference!\n®\nEB-FLOW EF-N1000 ELF\nINSTALLATION GUIDE - ELECTRONIC LOW FLOW ‘ELF’ BACNET/MODBUS OUTPUT\nEBTRON, Inc.  1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\n3\n1. INTRODUCTION AND SCOPE\nThis Quick Installation Guide provides basic installation information for the instrument installer.  Information includes\nphysical instrument installation, power and output cable connections as well as initial setup of the instrument.  The self\ncontained electronic low flow instrument in this document is referred to as the ELF.  Model EF-N1000 provides a non-iso-\nlated RS-485 BACnet MS/TP or Modbus RTU output related to airflow (or equivalent velocity pressure) and temperature.  \nModels covered in this document are as follows:\nEF-N1110\nRS-485 BACnet Modbus Output (4\" Single Sensor Probe)\nEF-N1111\nRS-485 BACnet Modbus Output (>4\" Dual Sensor Probe)"
+  },
+  {
+    "chunk_id": 10,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "lated RS-485 BACnet MS/TP or Modbus RTU output related to airflow (or equivalent velocity pressure) and temperature.  \nModels covered in this document are as follows:\nEF-N1110\nRS-485 BACnet Modbus Output (4\" Single Sensor Probe)\nEF-N1111\nRS-485 BACnet Modbus Output (>4\" Dual Sensor Probe)\nFor complete and detailed specifications, operating instructions and technical information, refer to the separate\nInstallation, Operation and Maintenance Technical Manual TM_EF-x1000 under separate cover.\n2. EF-N1000 INSTALLATION\nThe ELF instruments are designed for use in small ducts and in VAV terminal box applications in an environment between\n-20°F to 120°F  (-28.9°C to 48.9°C) where it will not be exposed to rain or snow.  The ELF airflow measurement station\nsensor probes are designed for insertion mounting through one side of the duct or VAV box sidewall.  Mount the instru-\nment in an accessible location to permit set up.  Locate the instrument so that the customer provided power and net-"
+  },
+  {
+    "chunk_id": 11,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "sensor probes are designed for insertion mounting through one side of the duct or VAV box sidewall.  Mount the instru-\nment in an accessible location to permit set up.  Locate the instrument so that the customer provided power and net-\nwork cables will reach the instrument.\nCAUTION\nThe installed location of the ELF is critical for proper performance. Refer to the\nMinimum Placement Guidelines in Technical Manual TM_EF-x1000 to determine the\nexact location recommended for the instrument.\nThe installed accuracy of the ELF is ensured in applications where the maximum\ninside duct dimension is 16 inches or less.  Applications in larger duct sizes may\ndegrade accuracy.  Consult factory for these applications.\nEnsure that adequate clearance exists around the duct to permit insertion of the\nprobe, and to allow clearance for the instrument enclosure. \nInsulation that interferes with probe mounting should be temporarily removed prior to"
+  },
+  {
+    "chunk_id": 12,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "degrade accuracy.  Consult factory for these applications.\nEnsure that adequate clearance exists around the duct to permit insertion of the\nprobe, and to allow clearance for the instrument enclosure. \nInsulation that interferes with probe mounting should be temporarily removed prior to\ninstallation. Mounting requires a 0.875 inches (22.2 mm) hole on the insertion side of\nthe duct or VAV terminal box.\n1.\nDetermine where the ELF airflow measuring station is to be located as indicated on the engineer's plans.\n2.\nCarefully open the ELF package and inspect for damage.  If damage is noted, immediately file a claim with carrier.\n3.\nLocate and mark the point on the duct or VAV box where the probe will be inserted, using the Minimum Placement\nGuidelines section of Technical Manual TM_EF-x1000.  Figures 1 and 2 show ELF installation detail, probe orienta-\ntion and dimensions.\n4.\nUsing a 0.875 inches (22.2 mm) hole saw, drill the insertion side hole where marked.\n5."
+  },
+  {
+    "chunk_id": 13,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "Guidelines section of Technical Manual TM_EF-x1000.  Figures 1 and 2 show ELF installation detail, probe orienta-\ntion and dimensions.\n4.\nUsing a 0.875 inches (22.2 mm) hole saw, drill the insertion side hole where marked.\n5.\nPlace the probe through the mounting hole, making sure that the gasket is seated firmly against the integral mount-\ning bracket.  Ensure that the edge of the ELF mounting bracket is parallel to the edge of the duct or VAV terminal\nbox, and that the airflow arrow printed on it is oriented in the direction of actual airflow.  Ensure that the gasket is\nfirmly seated against the bracket, and then fasten the mounting bracket at the four mounting holes using appropri-\nate sheet metal screws.\n6.\nRefer to the following sections of this document for instrument wiring, set up and operation."
+  },
+  {
+    "chunk_id": 14,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\na measurable difference!\n®\nEB-FLOW EF-N1000 ELF\nINSTALLATION GUIDE - ELECTRONIC LOW FLOW ‘ELF’ BACNET/MODBUS OUTPUT\nEBTRON, Inc.  1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\n4\nFigure 1. ELF Installation Applications and Orientation\nINSTALLING THE ELF IN DUCTED APPLICATIONS\nROUND DUCT PLACEMENT\nAcross major axis\nAcross minor axis\n1/2 X         1/2 X\nRECTANGULAR DUCT PLACEMENT\n1/2 X          1/2 X\n1/2 X\n1/2 X\nFLAT-OVAL DUCT PLACEMENT\nBoxes with pneumatic flow rings:  \nRemove existing flow ring. Locate ELF \n3 inches (minimum) upstream of box, OR \n3 inches (minimum) upstream of flow ring.\nBoxes with no flow rings:  \nLocate ELF 3 inches (minimum) \nupstream of box.\nEBTRON ELF\nActuator\n(by others)\nVAV Box (by others)\nELF PROBE VAV BOX INSTALLATION\nAirflow\nELF DOWNSTREAM OF VAV BOX WITH H/W COILS\nAirflow\nAirflow\nVAV Terminal Box with H/W Reheat\nEBTRON\nELF\nDamper \nActuator\nNote:"
+  },
+  {
+    "chunk_id": 15,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "Boxes with no flow rings:  \nLocate ELF 3 inches (minimum) \nupstream of box.\nEBTRON ELF\nActuator\n(by others)\nVAV Box (by others)\nELF PROBE VAV BOX INSTALLATION\nAirflow\nELF DOWNSTREAM OF VAV BOX WITH H/W COILS\nAirflow\nAirflow\nVAV Terminal Box with H/W Reheat\nEBTRON\nELF\nDamper \nActuator\nNote:\nThis application is not recommended for VAV boxes with electric reheat.\nLocate ELF as close as \n1 duct diameter downstream\nOf VAV box transition\nHot Water \nReheat Coil\nTransition\n1D\nSUPPLY AIR \nFROM AHU\nSPACE AIR\nTerminal Unit \nDDC \nController\nHWR\nHWS\n2-Way or 3-Way \nHW Control Valve\nT\nFLO\nND\nBAS\n24VAC\n24 VAC PWR IN\nGND\nGROUND*\nNET -\nRS-485  -\nGND\nGROUND*\nNET +\nRS-485  +\nEbtron \nNetwork\nELF\nRS-485\nBACNET MS/TP\nOR\nMODBUS RTU"
+  },
+  {
+    "chunk_id": 16,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\na measurable difference!\n®\nEB-FLOW EF-N1000 ELF\nINSTALLATION GUIDE - ELECTRONIC LOW FLOW ‘ELF’ BACNET/MODBUS OUTPUT\nEBTRON, Inc.  1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\n5\nFigure 2. ELF Installation Dimensions\n3. ELF PREPARATION FOR USE\nELF model EF-N1000 provides a non isolated RS-485 BACnet MS/TP or Modbus RTU output for airflow (or equivalent\nvelocity pressure) and temperature measurement.\nPreparation for use consists of connecting 24VAC input power, connecting RS-485 network signal wires from the ELF to\nthe BAS interface, and if required, setting network options through CONFIG switch S1. \n4. ELF INTERCONNECTIONS\nThe ELF is equipped with removable push-on screw-terminal block connectors for power and network output connections\nwith customer equipment.  Connect 24 VAC power and RS-485 network cables as outlined in the following paragraphs.\nRefer to Figures 3 to 5.\nCAUTION"
+  },
+  {
+    "chunk_id": 17,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "4. ELF INTERCONNECTIONS\nThe ELF is equipped with removable push-on screw-terminal block connectors for power and network output connections\nwith customer equipment.  Connect 24 VAC power and RS-485 network cables as outlined in the following paragraphs.\nRefer to Figures 3 to 5.\nCAUTION\nDeactivate 24 VAC power source until all connections to the ELF are complete.\nWhen multiple devices are powered from a common 24VAC power source, ensure that\nall devices are wired in phase with power to the ELF 24VAC connector at J12 (24VAC\nto + terminal, and return at GND terminal).  Damage will occur to the ELF and/or other\ndevices if this caution is not observed.\nTo prevent damage to the ELF and/or other connected network devices, observe RS-\n485 network grounding and ELF 24VAC grounding precautions.\nThe ELF contains electrostatic discharge (ESD) sensitive components.  Observe ESD\nprecautions when handling the instrument to prevent damage.  Failure to comply can\nresult in equipment damage."
+  },
+  {
+    "chunk_id": 18,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "485 network grounding and ELF 24VAC grounding precautions.\nThe ELF contains electrostatic discharge (ESD) sensitive components.  Observe ESD\nprecautions when handling the instrument to prevent damage.  Failure to comply can\nresult in equipment damage.\nMounting Bracket Detail View\nELF Sensor Probe/Transmitter Detail Views"
+  },
+  {
+    "chunk_id": 19,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\na measurable difference!\n®\nEB-FLOW EF-N1000 ELF\nINSTALLATION GUIDE - ELECTRONIC LOW FLOW ‘ELF’ BACNET/MODBUS OUTPUT\nEBTRON, Inc.  1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\n6\n4.1 ELF 24 VAC Power Connections\nThe ELF requires a power source capable of providing 22.8 to 26.4 VAC at 5 VA. \nNOTE\nThe 24 VAC ground (GND) connection is shared with the RS-485 network GND\nconnection.  If an isolated output is needed, a dedicated transformer is required to\npower the ELF.\n1.\nRemove the two-terminal connector attached to the ELF at 24VAC connector J12.  \n2.\nConnect 24VAC power to the ELF at 24VAC terminal block J12 as shown in the detail of Figures 3 and 4.  When pow-\nering multiple network devices from a common source, observe 24VAC phasing on all devices (24VAC power to ter-\nminal 1(+), return at terminal 2(GND) - see Caution notes). The GND connection must only be connected to earth"
+  },
+  {
+    "chunk_id": 20,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "ering multiple network devices from a common source, observe 24VAC phasing on all devices (24VAC power to ter-\nminal 1(+), return at terminal 2(GND) - see Caution notes). The GND connection must only be connected to earth\nground according to the following guidelines:\nCAUTION\nDamage to network devices may occur if 24VAC GND terminal is connected to earth\nground and the RS485 network is not earth grounded.\na) If the RS485 network connection for the ELF is ground referenced to earth, the 24VAC GND terminal may also be\nconnected to a wire that is ground referenced to earth.\nb) If the RS485 network connection for the ELF is not ground referenced to earth, the 24VAC GND terminal must not\nbe connected to a wire ground referenced to earth, as damage to other network devices may occur.\n3.\nConnect RS-485 network connections at RS-485 terminal block J2 as shown in the detail of Figures 3 and 4, observ-"
+  },
+  {
+    "chunk_id": 21,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "be connected to a wire ground referenced to earth, as damage to other network devices may occur.\n3.\nConnect RS-485 network connections at RS-485 terminal block J2 as shown in the detail of Figures 3 and 4, observ-\ning the precautions in step 2.  The connection to the network must be made in a \"daisy chain\" configuration. \"T\" con-\nnections and stubs are NOT permitted.\n4.\nSet network configuration via S1 - ELF Configuration DIP Switch as detailed in the following paragraph.\n4.2 S1 - ELF Configuration DIP Switch Settings\nCONFIGURATION DIP switch S1 contains eight separate dual-position switches in a dual inline package (DIP) as shown\nin detail of Figure 3.  These switches allow for setting the following ELF network parameters: \n• Setting the MAC Address/Slave ID - using Switches 1 through 7\n• Setting BACnet® Device Object Instance Number (if the same as the MAC Address) - using Switch 8 \n• Setting BACnet Baud Rate - using Switches 1 through 4 \n• Restoring Defaults - using Switches 1-8"
+  },
+  {
+    "chunk_id": 22,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "• Setting the MAC Address/Slave ID - using Switches 1 through 7\n• Setting BACnet® Device Object Instance Number (if the same as the MAC Address) - using Switch 8 \n• Setting BACnet Baud Rate - using Switches 1 through 4 \n• Restoring Defaults - using Switches 1-8 \n• Enabling Modbus® network operation - using Switches 1 through 4\nNOTE:\nPrior to initializing the ELF, the MAC address and the baud rate parameters may\nneed to be assigned depending upon your specific network.  \n4.3 Setting the MAC Address\nThe ELF MAC Address is set at the factory for a value of 2.  If it is necessary to change the MAC address, set switches 1\nthrough 7 of CONFIGURATION SWITCH S1 to any address value between 0 and 127 as follows: \n1.\nDeactivate 24VAC power to the ELF.\n2.\nSet S1 switches 1-7 to the desired address as shown in the detail of Figure 3.  Record the new MAC address value\nfor future reference.\n3."
+  },
+  {
+    "chunk_id": 23,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "through 7 of CONFIGURATION SWITCH S1 to any address value between 0 and 127 as follows: \n1.\nDeactivate 24VAC power to the ELF.\n2.\nSet S1 switches 1-7 to the desired address as shown in the detail of Figure 3.  Record the new MAC address value\nfor future reference.\n3.\nReapply 24VAC power to the ELF.  After a short delay (approximately 20 seconds), the new MAC address is active.\nNOTE:\nThe default Object Instance is 2.\nWhen ELF configuration is complete, confirm that the new MAC address has been set\ncorrectly using appropriate BACnet software."
+  },
+  {
+    "chunk_id": 24,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\na measurable difference!\n®\nEB-FLOW EF-N1000 ELF\nINSTALLATION GUIDE - ELECTRONIC LOW FLOW ‘ELF’ BACNET/MODBUS OUTPUT\n7\nEBTRON, Inc.  1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\n7\nFigure 3. ELF Circuit Board, Wiring and Configuration Switch Details\nS1\nCONFIGURATION\nDIP SWITCH\n(See Detail below)\nELF SIDE ACCESS PORT\nFOR CONFIGURATION\nDIP SWITCH\nELF CONFIGURATION \nDIP SWITCH - SIDE ACCESS DETAIL\nELF CIRCUIT BOARD DETAIL\nELF WIRING TERMINAL CONNECTOR  DETAIL\nGREEN STATUS LED\nNormal= 1 second flash \nFault = 2 second flash\nYELLOW NETWORK LED\nIndicates\nRS-485 traffic\nJ12\n24VAC INPUT\nTERMINAL BLOCK\nCONNECTOR\nJ4\nNETWORK\nTERMINATION\nJUMPER\n(Install jumper only\nwhen ELF is located\nat either end of a\nnetwork/segment)\nJ2\nRS-485\nNETWORK\nTERMINAL BLOCK\nCONNECTOR\nNOTE: J2-GND (Network Ground) and J12-GND (24VAC Ground) are tied together on the ELF!\nOFF\n1         2 \n3 \n4         5        6 \n7         8"
+  },
+  {
+    "chunk_id": 25,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "J4\nNETWORK\nTERMINATION\nJUMPER\n(Install jumper only\nwhen ELF is located\nat either end of a\nnetwork/segment)\nJ2\nRS-485\nNETWORK\nTERMINAL BLOCK\nCONNECTOR\nNOTE: J2-GND (Network Ground) and J12-GND (24VAC Ground) are tied together on the ELF!\nOFF\n1         2 \n3 \n4         5        6 \n7         8\nSide View - (Top) \nJ2 - RS-485\nNET +\nNET -\nNET GROUND*\nJ12 - 24VAC INPUT\n24 VAC POWER \n24V GROUND*\n* CAUTION! - 24VAC POWER AND RS-485 NETWORK GROUNDING PRECAUTIONS\n1. When multiple devices are powered from a common 24VAC power source, ensure that all connected devices are wired in phase with 24VAC\npower!  Damage will occur to the ELF and/or other devices if this caution is not observed.\n2. On RS-485 networks that are ground referenced to earth, ELF 24V GND terminal may also be connected to a wire ground referenced to\nearth.  However, on RS-485 networks that are not ground referenced to earth, ELF 24V GND terminal must not be connected to a wire ground"
+  },
+  {
+    "chunk_id": 26,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "2. On RS-485 networks that are ground referenced to earth, ELF 24V GND terminal may also be connected to a wire ground referenced to\nearth.  However, on RS-485 networks that are not ground referenced to earth, ELF 24V GND terminal must not be connected to a wire ground\nreferenced to earth.  Damage may occur to the ELF or to other network devices if this caution is not observed.\nProbe\n1\n2\n3\n4\n5\n6\n7\n8\noff\noff\noff\noff\noff\noff\noff\noff\n0\non\noff\noff\noff\noff\noff\noff\noff\n1\noff\non\noff\noff\noff\noff\noff\noff\n2 \n(Default\non\non\noff\noff\noff\noff\noff\noff\n3\noff\non\non\non\non\non\non\non\noff\n127\nDIP Switch Number and Position\nNetwork\nAddress\nELF CONFIGURATION DIP SWITCH\nMAC ADDRESS SETTING DETAIL\nRS-485\n+    -    G\n24VAC\n+ GND"
+  },
+  {
+    "chunk_id": 27,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\na measurable difference!\n®\nEB-FLOW EF-N1000 ELF\nINSTALLATION GUIDE - ELECTRONIC LOW FLOW ‘ELF’ BACNET/MODBUS OUTPUT\nEBTRON, Inc.  1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\n8\nIG_ELF-D_R1E\nFigure 4. ELF Power and Signal Wiring Interconnections\nBAS\nCONTROL\nINTERFACE\n* CAUTION!\nRS-485  -\nCOMMON\nRS-485  +\n24 VAC\nTRANSFORMER\nEBTRON ELF\n* CAUTION!\nRS-485 BACNET MS/TP OR MODBUS RTU \nCONDUCTOR TWISTED PAIR\nSHIELDED CABLE\nSUPPLIED BY OTHERS\n* CAUTION:\n*1: THE ELF 24 VAC GND TERMINAL AND NETWORK GND TERMINAL ARE\nSHARED.  THEREFORE, ON MULTIPLE ELF INSTALLATIONS, ENSURE THAT ALL\nTRANSMITTERS ARE WIRED IN-PHASE TO THE SAME TERMINALS FROM THE \n24 VAC POWER SOURCE.\n*2: CONNECT CABLE DRAINS TO EARTH GROUND AT ONE END OF EACH CABLE ONLY.\n3:  THE CONNECTION TO THE NETWORK MUST BE MADE IN A “DAISY CHAIN” \nCONFIGURATION.  “T” CONNECTIONS AND STUBS ARE NOT PERMITTED.\n24VAC\n24 VAC POWER INPUT\nGND\nGROUND*\nNET -\nRS-485  -"
+  },
+  {
+    "chunk_id": 28,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "24 VAC POWER SOURCE.\n*2: CONNECT CABLE DRAINS TO EARTH GROUND AT ONE END OF EACH CABLE ONLY.\n3:  THE CONNECTION TO THE NETWORK MUST BE MADE IN A “DAISY CHAIN” \nCONFIGURATION.  “T” CONNECTIONS AND STUBS ARE NOT PERMITTED.\n24VAC\n24 VAC POWER INPUT\nGND\nGROUND*\nNET -\nRS-485  -\nGND\nGROUND*\nNET +\nRS-485  +"
+  },
+  {
+    "chunk_id": 29,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\na measurable difference!\n®\nEB-FLOW EF-N1000 ELF\nINSTALLATION GUIDE - ELECTRONIC LOW FLOW ‘ELF’ BACNET/MODBUS OUTPUT\nEBTRON, Inc.  1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\n9\n4.4 Setting the Baud Rate\nThe ELF is shipped from the factory for BACnet operation with a baud rate of 76,800bps. The baud rate can be\nchanged to 38,400, 19,200 or 9,600bps locally at the ELF by using internal DIP Switch SW1 as follows. Note that for\nBACnet operation, changes can also be accomplished remotely over the network using AV2, or through Modbus regis-\nter 30015 (see Appendices A and B). \n1.\nRecord the currently assigned MAC Address (S1 switches 1 through 7 - See Figure 3 detail).  \n2.\nSet the desired baud rate using Address Switches 1 through 4 as shown below in Figure 5.\n3.\nSet DIP Switch 8 to the ON position. Allow a short delay (approximately 20 seconds) for the new baud rate to be rec-\nognized.\n4."
+  },
+  {
+    "chunk_id": 30,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "2.\nSet the desired baud rate using Address Switches 1 through 4 as shown below in Figure 5.\n3.\nSet DIP Switch 8 to the ON position. Allow a short delay (approximately 20 seconds) for the new baud rate to be rec-\nognized.\n4.\nRestore DIP Switch 8 to the OFF position.\n5.\nRestore DIP switches 1-7 to the MAC address recorded in step 1.\n4.5 J4 - ELF RS-485 Network Termination Selection\nThe ELF includes a network termination selector jumper at J4 (shown in Figure 3 detail) for setting network termination\nof the ELF when it is installed at any point on an RS-485 network.  When the ELF is located at either end of an RS-485\nnetwork or segment, it is recommended that the jumper be installed across both pins of J4.  When the ELF is located at\nany other point on the RS-485 network, no termination is recommended, and the jumper at J4 should be removed.\n4.6 Restoring Factory Default Settings\nIf necessary, the following procedure can be used to restore the factory default settings to the ELF: \n1."
+  },
+  {
+    "chunk_id": 31,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "any other point on the RS-485 network, no termination is recommended, and the jumper at J4 should be removed.\n4.6 Restoring Factory Default Settings\nIf necessary, the following procedure can be used to restore the factory default settings to the ELF: \n1.\nIf the current MAC Address will be reused, record the currently assigned address (S1 switches 1 through 7 - see\nFigure 3 detail).\n2.\nDeactivate 24VAC power to the ELF. \n3.\nSet all 8 of the DIP switches (1-8) to the ON position. \n4.\nRestore 24VAC power to the ELF.  Allow a short delay (approximately 20 seconds) for the factory default settings to\nbe recognized.\n5.\nDeactivate 24VAC power to the ELF.  \n6.\nSet all 8 of the DIP switches (1-8) to the OFF position. \n7.\nRestore DIP switches 1-7 to the MAC address recorded in step 1. \n8.\nRestore 24VAC power to the ELF to return it to service with the factory default settings.\n1\n2\n3\n4\n5\n6\n7\n8\non\noff\noff\noff\nX\nX\nX\nX\n76,800\noff\non\noff\noff\nX\nX\nX\nX\n38,400\noff\noff\non\noff\nX\nX\nX\nX\n19,200\noff\noff\noff"
+  },
+  {
+    "chunk_id": 32,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "7.\nRestore DIP switches 1-7 to the MAC address recorded in step 1. \n8.\nRestore 24VAC power to the ELF to return it to service with the factory default settings.\n1\n2\n3\n4\n5\n6\n7\n8\non\noff\noff\noff\nX\nX\nX\nX\n76,800\noff\non\noff\noff\nX\nX\nX\nX\n38,400\noff\noff\non\noff\nX\nX\nX\nX\n19,200\noff\noff\noff\non\nX\nX\nX\nX\n9,600\nADDRESS DIP Switch Number/Position\nOnly SW1 Switches 1 through 4 are used to set the \nBaud Rate - See text for detail.\nMS/TP\nBaud Rate\nFigure 5. ELF Baud Rate Selection\nNOTE:\nBaud Rate changes can also be accom-\nplished remotely over the network using AV2\nfor BACnet® operation, or through Modbus\nregister 30015 (see Appendices A and B)."
+  },
+  {
+    "chunk_id": 33,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\na measurable difference!\n®\nEB-FLOW EF-N1000 ELF\nINSTALLATION GUIDE - ELECTRONIC LOW FLOW ‘ELF’ BACNET/MODBUS OUTPUT\nEBTRON, Inc.  1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\n10\n5. ELF BACnet CONFIGURATION\nThe following paragraphs detail the final set up instructions for the ELF when using BACnet device operation.  The ELF-\nN1000 is shipped from the factory for BACnet operation.  Default communication is set for 8 Data Bits, 1 Stop Bit and\nNo Parity.  \nFor Modbus operation, proceed to ELF MODBUS CONFIGURATION section 6 of this document.\nRefer to Appendix A - ELF BACnet Object properties for additional detail.  \n5.1 Changing BACnet Device Object Instance Number\n5.1.1 Matching BACnet Device Object Instance Number to MAC Address\nThe BACnet Device Object Instance Number is set at the factory to match the default MAC address of 2.  If necessary,"
+  },
+  {
+    "chunk_id": 34,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "5.1 Changing BACnet Device Object Instance Number\n5.1.1 Matching BACnet Device Object Instance Number to MAC Address\nThe BACnet Device Object Instance Number is set at the factory to match the default MAC address of 2.  If necessary,\nthe BACnet Device Object Instance Number can be set to match a different user assigned MAC address, as follows: \n1.\nSet the user assigned MAC address value as previously described in Setting the MAC Address procedure.\n2.\nDeactivate 24VAC power to the ELF. \n3.\nSlide DIP Switch 8 to the ON position. \n4.\nRestore 24VAC power to the ELF.  Allow a short delay (approximately 20 seconds) for the new BACnet Device Object\nInstance Number to be recognized.\n5.\nRestore DIP Switch 8 to the OFF position.\n5.1.2 Setting BACnet Device Object Instance Number to a value different than MAC Address\nThe BACnet Device Object Instance Number can be set to a value that does not match the MAC address by using suit-"
+  },
+  {
+    "chunk_id": 35,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "Instance Number to be recognized.\n5.\nRestore DIP Switch 8 to the OFF position.\n5.1.2 Setting BACnet Device Object Instance Number to a value different than MAC Address\nThe BACnet Device Object Instance Number can be set to a value that does not match the MAC address by using suit-\nable BACnet software to write to the ELF Device Object Identifier property of the Device Object.  Refer to Appendix A for\nadditional detail.\n6. ELF MODBUS CONFIGURATION\nThe ELF is preset at the factory for BACnet network operation.  Default communication is set for 8 Data Bits, 1 Stop Bit\nand No Parity. To set the ELF for Modbus network operation, perform the following steps.  Refer to Appendix B - ELF MOD-\nBUS Register Map for available register values and settings.\n1.\nThe default network address is set at the factory for a value of 2.  Any value between 1 and 127 can be assigned for\nthe ELF using Configuration DIP Switch S1 as outlined in the Setting the MAC Address paragraph of this document."
+  },
+  {
+    "chunk_id": 36,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "BUS Register Map for available register values and settings.\n1.\nThe default network address is set at the factory for a value of 2.  Any value between 1 and 127 can be assigned for\nthe ELF using Configuration DIP Switch S1 as outlined in the Setting the MAC Address paragraph of this document.\nIf the current network address will be reused, record the current settings of DIP switches 1 through 7.\n2.\nWith the ELF powered on, set Configuration DIP switches 1 through 4 to the ON position.\n3.\nToggle DIP switch 8 to the ON position for 5 seconds, and then back to OFF.\n4.\nRestore DIP switches 1-7 to the network address recorded in step 1.\n5.\nThe ELF is now set for Modbus operation with a baud rate of 19,200bps.  If necessary, the baud rate can be changed\nas outlined previously in the Setting the Baud Rate paragraph of this document.  \n6.\nConfigure the necessary Modbus register values as outlined in Appendix B."
+  },
+  {
+    "chunk_id": 37,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\na measurable difference!\n®\nEB-FLOW EF-N1000 ELF\nINSTALLATION GUIDE - ELECTRONIC LOW FLOW ‘ELF’ BACNET/MODBUS OUTPUT\nEBTRON, Inc.  1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\n11\n7. ELF INITIAL START UP / NORMAL OPERATION\nThe following procedure is intended for initial start up of the instrument.  Following the initial set up, no further user activ-\nity is required during normal operation.\n1.\nRemove the cover to the electronics enclosure by removing the four screws on the cover.\n2.\nMake sure that the 24VAC circuit breaker used to power the ELF is turned OFF until all wiring is complete!\n3.\nConfirm 24VAC connections to the ELF power connector J12.\n4.\nConfirm that the ELF’s common 24VAC ground and network ground connection are permitted.\n5.\nNote that the ground of the BAS must be at the same voltage reference as the ground of the ELF and the power\nsource.\n6."
+  },
+  {
+    "chunk_id": 38,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "3.\nConfirm 24VAC connections to the ELF power connector J12.\n4.\nConfirm that the ELF’s common 24VAC ground and network ground connection are permitted.\n5.\nNote that the ground of the BAS must be at the same voltage reference as the ground of the ELF and the power\nsource.\n6.\nConfirm the settings of CONFIG switches SW1 to SW7 as outlined in paragraphs 4.1 through 4.3 of this document.\n7.\nActivate the 24VAC power source to power on the ELF.\n8.\nFollowing a brief instrument initialization, the green Activity LED will continuously flash ON for 1 second, then OFF\nfor 1 second.  This indicates normal operation.  In the event of a sensor fault, the LED will produce longer continu-\nous flashes ON for 2 seconds, and OFF for 2 seconds.\n9.\nConfirm that the yellow RS-485 Network LED is blinking indicating traffic between the ELF and the BAS network.\nAlso, verify instrument airflow (or equivalent velocity pressure) and temperature at the BAS control interface."
+  },
+  {
+    "chunk_id": 39,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "ous flashes ON for 2 seconds, and OFF for 2 seconds.\n9.\nConfirm that the yellow RS-485 Network LED is blinking indicating traffic between the ELF and the BAS network.\nAlso, verify instrument airflow (or equivalent velocity pressure) and temperature at the BAS control interface.\n10. Replace the ELF electronics enclosure cover and secure with the four screws removed in step 1.\n8. FOR ADDITIONAL INFORMATION\nRefer to the separate Installation, Operation and Maintenance Technical Manual TM_EF-x1000-D for additional informa-\ntion, or contact your local EBTRON representative or our Technical Support Team at 800.2EBTRON (1.800.232.8766)."
+  },
+  {
+    "chunk_id": 40,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "IG_EF-N1000-T_R1A\na measurable difference!\n®\nEB-FLOW EF-N1000 ELF\nINSTALLATION GUIDE - ELECTRONIC LOW FLOW ‘ELF’ BACNET/MODBUS OUTPUT\nEBTRON, Inc.  1663 Hwy. 701 S., Loris SC 29569 • Toll Free: 800.2EBTRON (232.8766) • Fax: 843.756.1838 • Internet: EBTRON.com\n12\nELF /N Series Standard Object Types Supported \n \n \nObject  \nOptional  \nProperties Supported  \n \nWriteable  \nProperties  \n \nProprietary \nProperties  \n \nProperty Range \nRestrictions (NOTE 1) \nDevice \n\u0002 Description \n\u0002 Location \n\u0002 Max Master \n\u0002 Max Info Frames \n\u0002 Active COV Subscriptions \n\u0002 Object Name  \n\u0002 Description \n\u0002 Location \n\u0002 Object Identifier \n\u0002 APDU Timeout  \n\u0002 Max Info Frames \n\u0002 Max Master \nNone \nNone \nAnalog Input 1 – Airflow (NOTE 2) \n\u0002 Description  \n\u0002 Reliability \n\u0002 COV Increment  \n\u0002 Units \n\u0002 Out of Service \n\u0002 COV Increment \n\u0002 Present Value \nNone \nUnits: FPM, CFM, MPS, LPS \nAnalog Input 2 – Temperature \n\u0002 Description  \n\u0002 Reliability \n\u0002 COV Increment \n\u0002 Units \n\u0002 Out of Service \n\u0002 COV Increment \n\u0002 Present Value \nNone"
+  },
+  {
+    "chunk_id": 41,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "\u0002 Description  \n\u0002 Reliability \n\u0002 COV Increment  \n\u0002 Units \n\u0002 Out of Service \n\u0002 COV Increment \n\u0002 Present Value \nNone \nUnits: FPM, CFM, MPS, LPS \nAnalog Input 2 – Temperature \n\u0002 Description  \n\u0002 Reliability \n\u0002 COV Increment \n\u0002 Units \n\u0002 Out of Service \n\u0002 COV Increment \n\u0002 Present Value \nNone \nUnits:  °C or °F \nAnalog Value 1 – Free Area (NOTE 2) \n\u0002 Description \n\u0002 Reliability \nPresent Value \nNone \n>= 0 (NOTE 2) \nAnalog Value 2 – Baud Rate \n\u0002 Description \n\u0002 Reliability \nPresent Value \nNone \n9600, 19200, 38400, 78600 \nBinary Value 1 – Flow Integration \n\u0002 Inactive Text \n\u0002 Active Text \nPresent Value \nNone \nNone \n \nNOTES: \n1. Factory default values are shown in Bold text. \n \n2. Writing a non-zero value to Analog Input 1 object (AI1) will set the flow output to volumetric flow (CFM/LPS); writing a zero value will \nset the flow output to standard (FPM/MPS).  \n \nName \nAddress \nR/W \nLength \nType \nDescription \nAirflow \n30001 \nR \n2 \nFloat \nAvg Airflow (FPM, CFM, MPS, LPS) \nTemperature \n30003 \nR \n2"
+  },
+  {
+    "chunk_id": 42,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "set the flow output to standard (FPM/MPS).  \n \nName \nAddress \nR/W \nLength \nType \nDescription \nAirflow \n30001 \nR \n2 \nFloat \nAvg Airflow (FPM, CFM, MPS, LPS) \nTemperature \n30003 \nR \n2 \nFloat \nAvg Temperature (°F or °C) \nIns 1 Flow \n30005 \nR \n2 \nFloat \nFlow reading at the first insert \nIns 2 Flow \n30007 \nR \n2 \nFloat \nFlow reading at the second insert \nIns 1 Temp \n30009 \nR \n2 \nFloat \nTemperature at first insert \nIns 2 Temp \n30011 \nR \n2 \nFloat \nTemperature at second insert \nArea \n30013 \nR/W \n2 \nFloat \nDuct area.  Writing a non-zero value will set the flow \noutput to volumetric flow (CFM/LPS);  Writing a zero value \nwill set the flow output to standard (FPM/MPS) \nBaud \n30015 \nR/W \n2 \nFloat \nCommunication baud rate (76800, 38400, 19200, 9600) \nUnits \n30017 \nR/W \n1 \nEnum\n0 = IP Units, 1 = SI Units \nFlow Integration \n30018 \nR/W \n1 \nEnum\n0 = standard flow integration, 1 = no flow integration \nInvert float \n30019 \nR/W \n1 \nEnum\n0 = standard floating point format \n1 = inverted floating point"
+  },
+  {
+    "chunk_id": 43,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IG_EF-N1000-T ...pdf",
+    "content": "Units \n30017 \nR/W \n1 \nEnum\n0 = IP Units, 1 = SI Units \nFlow Integration \n30018 \nR/W \n1 \nEnum\n0 = standard flow integration, 1 = no flow integration \nInvert float \n30019 \nR/W \n1 \nEnum\n0 = standard floating point format \n1 = inverted floating point \nTrouble \n30020 \nR \n1 \nEnum\n0 = normal operation \n1 = fault detected \nAPPENDIX A - \nELF BACnet Object Properties\nAPPENDIX B - \nELF Modbus Register Map"
+  }
+]

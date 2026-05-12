@@ -1,0 +1,15 @@
+subnetwork.properties.physicalStandard=1
+subnetwork.properties.baudRate=9600
+subnetwork.properties.parity=0
+subnetwork.properties.stopBits=1
+subnetwork.properties.dataBits=1
+subnetwork.nodes[0].properties.nodeAddress=1
+subnetwork.nodes[0].properties.name=RTU_ELR
+subnetwork.nodes[0].properties.modbusAddressingMode=1
+subnetwork.nodes[0].transactions[0].properties.name=Reset Mode in Trip Setup
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=8447
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=2
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=4
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=4

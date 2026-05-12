@@ -1,0 +1,314 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "1\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \nInterface Description\nMODBUS\nKOSTAL Smart Energy Meter"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "2\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \nVersion\nRelease date: 03.09.2020\nRevision version: 1.1.2"
+  },
+  {
+    "chunk_id": 2,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "3\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \nInhalt\n1.\t\nIntroduction\t\n4\n1.1\t\nMODBUS Protocol........................................................................................................................4\n1.2\t\nModbus RTU via RS485 interface.................................................................................................4\n1.3\t\nModbus TCP via Ethernet interface...............................................................................................1\n1.4\t\nExtended Modbus configuration....................................................................................................2\n2.\t\nMODBUS protocol description\t\n3\n2.1\t\nRegister Specification...................................................................................................................3\n2.2\t\nReading out registers....................................................................................................................3\n2.3"
+  },
+  {
+    "chunk_id": 3,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "3\n2.1\t\nRegister Specification...................................................................................................................3\n2.2\t\nReading out registers....................................................................................................................3\n2.3\t\nOBIS key figures system...............................................................................................................4\n3.\t\nMODBUS Register table\t\n4\n3.1\t\nOverview Register Areas ..............................................................................................................5\n3.2\t\nOverview internal instantaneous register........................................................................................5\n3.3\t\nOverview internal Energy register...................................................................................................7\n3.4"
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "3.2\t\nOverview internal instantaneous register........................................................................................5\n3.3\t\nOverview internal Energy register...................................................................................................7\n3.4\t\nOverview KSEM/RM PnP register.................................................................................................8\n3.5\t\nOverview SunSpec register.........................................................................................................10\n3.6\t\nOverview group register..............................................................................................................15\n3.7\t\nOverview sensor register.............................................................................................................16"
+  },
+  {
+    "chunk_id": 5,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "4\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \n1.\tIntroduction\n1.1\tMODBUS Protocol\nThe following describes the functionality of the Modbus App in the form of possible configuration, ope­\nrating modes and the Modbus register specification. A detailed description of the Modbus protocol and \nits operation can be found in the Modbus specification (see www.modbus.org). Modbus TCP is part of \nthe IEC 61158 standard.\nThe Modbus data interface can be used in the following operating modes:\n\t\nn\nModbus RTU Slave\n\t\nn\nModbus RTU Master\n\t\nn\nModbus TCP Slave\n\t\nn\nModbus TCP Master \n1.2\tModbus RTU via RS485 interface\nIn Modbus RTU Slave mode, the KOSTAL Smart Energy Meter provides its Modbus registers via \nRS485. Both RS485 interfaces, RS485 A and RS485 B, can be individually configured for this purpose. \nDetails on the connection to the RS-485 socket and the polarity reversal of the interface can be found in \nthe KOSTAL Smart Energy Meter installation manual.\nTermination"
+  },
+  {
+    "chunk_id": 6,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "RS485. Both RS485 interfaces, RS485 A and RS485 B, can be individually configured for this purpose. \nDetails on the connection to the RS-485 socket and the polarity reversal of the interface can be found in \nthe KOSTAL Smart Energy Meter installation manual.\nTermination\nDepending on the cable length and the number of participants on the bus, it is recommended terminate \nthe bus at both ends with a 120 ohm resistor. By the termination will reduce reflections in the connec­\ntion. This may happen be absolutely necessary for the reliability of the application.\nSettings\nFirst, the slot of the bus and the associated interface must interface RS485 A or RS485 B interface \nmust be clarified. The settings for the respective RS-485 are activated via the interface Interface activa­\nted. To start communication via the interface, the Settings can still be saved with Save.\nConfiguration of the interface"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "must be clarified. The settings for the respective RS-485 are activated via the interface Interface activa­\nted. To start communication via the interface, the Settings can still be saved with Save.\nConfiguration of the interface\nThe specific configuration depends on the requirements of the remote site. In doubt the configuration of \nthe remote station should be consulted. \n\t\nn\nPresetting can contain a selection of preset parameters."
+  },
+  {
+    "chunk_id": 8,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "1\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \nAdvanced:\n\t\nn\nModus configures the interface to be either a Modbus master or slave function\n\t\nn\nSlave address (Modbus slave) sets the address of the Energy Manager in Modbus. This Value can \nbe a value between 1 and 255.\n\t\nn\nBaud rate sets the baud rate of the connection.\n\t\nn\nData bits sets the number of data bits.\n\t\nn\nParity sets the parity of the connection.\n\t\nn\nStop bits sets the number of stop bits.\n\t\nn\nSlave addresses (Modbus master) provides one or more addresses of Modbus slaves on. Each \naddress can have a value between 1 and 255 and may only be used once be used.\n1.3\tModbus TCP via Ethernet interface\nTCP Master\nIn Modbus TCP Master mode, the KOSTAL Smart Energy Meter writes in the registers of one or more \nconfigured slaves. The internal instantaneous value registers can be written and the internal energy \nvalue register (see register specification). The KOSTAL / RM PnP register and the SunSpec registers are"
+  },
+  {
+    "chunk_id": 9,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "configured slaves. The internal instantaneous value registers can be written and the internal energy \nvalue register (see register specification). The KOSTAL / RM PnP register and the SunSpec registers are \nnot transferred via Modbus masters. \n\t\nn\nSlave address sets the address of a TCP slave. This can be specified in the form of an IP address or \na URL.\n\t\nn\nPort sets the TCP port on which the slave expects Modbus communication. Up to 10 TCP slaves \ncan be configured.\nTCP - Slave\nIn Modbus TCP Slave mode, the KOSTAL Smart Energy Meter provides its Modbus registers over TCP/\nIP. Access to this interface requires network connection via Ethernet. The Modbus slave can be reached \nin accordance with the industry standard under port number 502.\n\t\nn\nActivate TCP slave activates and deactivates the Modbus slave functionality."
+  },
+  {
+    "chunk_id": 10,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "2\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \n1.4\tExtended Modbus configuration\nAdditional settings for Modbus masters can be made here. These settings are valid for all configured \nModbus masters.\nSend interval\nA push interval can be configured here. The Energy Manager normally sends its measurement data via \nModbus master as soon as it is available. If the push interval is activated, the data is instead sent at a \nregular interval, regardless of when they become available. Only the current measured values ​are shown \nhere transmitted at the time of transmission, no averages over the interval are formed.\nActivate fixed transmission interval switches the push interval on. There must then be a transmission \ninterval either selected from the selection list (from 1 second to 1 day) or user-defined in seconds in \nwhich the Energy Manager sends its data should.\nRegister configuration\nHere groups of registers can be selected that are written in master mode should be. This can reduce"
+  },
+  {
+    "chunk_id": 11,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "interval either selected from the selection list (from 1 second to 1 day) or user-defined in seconds in \nwhich the Energy Manager sends its data should.\nRegister configuration\nHere groups of registers can be selected that are written in master mode should be. This can reduce \nthe system load if not all registers are required become. The following can be selected:\n\t\nn\nTotal instantaneous values: The instantaneous values ​of the overall system (registers 0–27)\n\t\nn\nInstantaneous values ​phases: The instantaneous values ​broken down by phases (register 40-145)\n\t\nn\nTotal energy values: The energy values ​of the overall system (registers 512–551)\n\t\nn\nPhases energy values: The energy values ​broken down by phases (register 592–791)\nA detailed list of the tabs can be opened using the arrow on the right that are contained in the respec­\ntive groups."
+  },
+  {
+    "chunk_id": 12,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "3\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \n2.\tMODBUS protocol description\n2.1\tRegister Specification\nThe data registers can be divided into different areas. The data points of the KOSTAL Smart Energy \nMeter are coded according to the OBIS standard. In addition, in the register area 40000-40177, the \ndata points are encoded according to SunSpec Alliance standards:\n\t\nn\nSunSpec Alliance Interoperability Specification – Common Models\n\t\nn\nSunSpec Alliance Interoperability Specification – Meter Models \n2.2\tReading out registers\nMost data points of the KOSTAL Smart Energy Meter are distributed to several 16-bit registers. This \nmeans that an RTU master / TCP client should request all registers of a data point in one and the same \nrequest.\nInterpretation of data points with multiple registers: In the case of a multi-register data point, the regis­\nters with the lower address contain the „mustsignificant“ bits. The „least siginificant“ bits are contained"
+  },
+  {
+    "chunk_id": 13,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "request.\nInterpretation of data points with multiple registers: In the case of a multi-register data point, the regis­\nters with the lower address contain the „mustsignificant“ bits. The „least siginificant“ bits are contained \nin the registers with the higher address.\nExample Principle: A fictitious data point „TotalOperatingHours“ (uint32) is located at offset 0x1000. The \ndata point should contain 2293828 operating hours.\n\t\nn\nthe address 0x1000 contains 0x23\n\t\nn\nthe address 0x1001 contains 0x44\nDuring the request, both registers are transmitted in the network byte order (Big Endian) as specified by \nthe Modbus specification. A „Read Holding Register“ for both registers provides 0x00 0x23 0x00 0x44.\nExample conversion: \nIn order to read the referenced active power (+), the (integer) values of the „holding registers“ 0 and 1 \ncan be used:\nActive power+ [W] = ({register 0} · 2^16 + {register 1}) · 0.1 [W]"
+  },
+  {
+    "chunk_id": 14,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "Example conversion: \nIn order to read the referenced active power (+), the (integer) values of the „holding registers“ 0 and 1 \ncan be used:\nActive power+ [W] = ({register 0} · 2^16 + {register 1}) · 0.1 [W]\nIn order to read out the related active energy (+), that is to say the related active energy over all phases, \nthe (integer) registers 512 to 515 can use:\nActive energy+ [Wh] = ({register 512} · 2^48 + {register 513} · 2^32 + {register 514} · 2^16 + {register \n515}) · 0.1 [Wh]"
+  },
+  {
+    "chunk_id": 15,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "4\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \n2.3\tOBIS key figures system\nSo-called OBIS codes are used to transfer data and differentiate between the various measurement \ndata from a data source. OBIS stands for Object Identification System and is used for electronic data \ncommunication in the energy market.\nOBIS key figures consist of six value groups (A-F) from the combination of which the speci ﬁ cation of a \nvalue is derived. They are shown in the form A-B: C.D.E * F.\nThe specific OBIS codes used in the Energy Manager are described in the document attachment \ndepending on the data source. The OBIS key figure system in version 2.0 (status: 02.02.2009), which is \nbased on DIN EN 62056-61: 2007-06 and can be found at edi-energy.de, serves as the basis. The indi­\nvidual groups are explained below in the context of the KOSTAL Smart Energy Meter. Note: The values \nof groups A and F are ﬁ xed, those of the remaining groups are variable.\nGroup A (medium)\nA = 1 (electricity)"
+  },
+  {
+    "chunk_id": 16,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "vidual groups are explained below in the context of the KOSTAL Smart Energy Meter. Note: The values \nof groups A and F are ﬁ xed, those of the remaining groups are variable.\nGroup A (medium)\nA = 1 (electricity)\nGroup B (channel)\nUsed to differentiate the three possible data sources:\nfor „Smart Meter“ values: B = 0\nfor sensor values: B = sensor ID + 1\nfor group values: B = group ID + 100\nGroup C (measured variable)\nKey value of the resulting measured variable according to the OBIS key figure system\nGroup D (measurement type)\nKey value of the type of measurement used according to the OBIS key figure system\nGroup E (tariff level)\nKey value of the tariff, mostly E = 0 (total)\nGroup F (pre-value counter)\nF = 255\n3.\tMODBUS Register table"
+  },
+  {
+    "chunk_id": 17,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "5\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \n3.1\tOverview Register Areas \nStart address (dec)\nEnd address (dec)\nStart address (hex)\nEnd address (hex)\nSize\nDescription\n0\n147\n0x0000\n0x0093\n148\nInternal instantaneous registers\n512\n791\n0x0200\n0x0317\n280\nInternal Energy registers (counters)\n8192\n8248\n0x2000\n0x2038\n56\nKSEM/RM PnP registers\n40000\n40177\n0x9C40\n0x9CF1\n178\nSunSpec registers\n59392\n61311\n0xE00\n0xEF7F\n1920\nGroup register\n61440\n65279\n0xF000\n0xFED8\n3840\nSensor register\n3.2\tOverview internal instantaneous register\nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nStart \naddress \n(hex)\nEnd \naddress \n(hex)\nSize\nR/W\nFunc­\ntion \ncodes\nType\nUnits\nOBIS-Code\nDescription\n0\n1\n0x0000\n0x0001\n2\nRO\n0x03\nuint32\n0.1 W\n1-0:1.4.0*255\nActive power+\n2\n3\n0x0002\n0x0003\n2\nRO\n0x03\nuint32\n0.1 W\n1-0:2.4.0*255\nActive power-\n4\n5\n0x0004\n0x0005\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:3.4.0*255\nReactive power+\n6\n7\n0x0006\n0x0007\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:4.4.0*255\nReactive power-\n16\n17\n0x0010\n0x0011\n2\nRO\n0x03\nuint32\n0.1 VA"
+  },
+  {
+    "chunk_id": 18,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "uint32\n0.1 W\n1-0:1.4.0*255\nActive power+\n2\n3\n0x0002\n0x0003\n2\nRO\n0x03\nuint32\n0.1 W\n1-0:2.4.0*255\nActive power-\n4\n5\n0x0004\n0x0005\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:3.4.0*255\nReactive power+\n6\n7\n0x0006\n0x0007\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:4.4.0*255\nReactive power-\n16\n17\n0x0010\n0x0011\n2\nRO\n0x03\nuint32\n0.1 VA\n1-0:9.4.0*255\nApparent power+\n18\n19\n0x0012\n0x0013\n2\nRO\n0x03\nuint32\n0.1 VA\n1-0:10.4.0*255\nApparent power-\n24\n25\n0x0018\n0x0019\n2\nRO\n0x03\nint32\n0.001 \n(unitless)\n1-0:13.4.0*255\nPower factor\n26\n27\n0x001A\n0x001B\n2\nRO\n0x03\nuint32\n0.001Hz\n1-0:14.4.0*255\nSupply frequency\n40\n41\n0x0028\n0x0029\n2\nRO\n0x03\nuint32\n0.1 W\n1-0:21.4.0*255\nActive power+ (L1)\n42\n43\n0x002A\n0x002B\n2\nRO\n0x03\nuint32\n0.1 W\n1-0:22.4.0*255\nActive power- (L1)\n44\n45\n0x002C\n0x002D\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:23.4.0*255\nReactive power+ (L1)\n46\n47\n0x002E\n0x002F\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:24.4.0*255\nReactive power- (L1)\n56\n57\n0x0038\n0x0039\n2\nRO\n0x03\nuint32\n0.1 VA\n1-0:29.4.0*255\nApparent power+(L1)\n58\n59\n0x003A\n0x003B\n2\nRO\n0x03\nuint32"
+  },
+  {
+    "chunk_id": 19,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "Active power- (L1)\n44\n45\n0x002C\n0x002D\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:23.4.0*255\nReactive power+ (L1)\n46\n47\n0x002E\n0x002F\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:24.4.0*255\nReactive power- (L1)\n56\n57\n0x0038\n0x0039\n2\nRO\n0x03\nuint32\n0.1 VA\n1-0:29.4.0*255\nApparent power+(L1)\n58\n59\n0x003A\n0x003B\n2\nRO\n0x03\nuint32\n0.1 VA\n1-0:30.4.0*255\nApparent power-(L1)\n60\n61\n0x003C\n0x003D\n2\nRO\n0x03\nuint32\n0.001 A\n1-0:31.4.0*255\nCurrent (L1)\n62\n63\n0x003E\n0x003F\n2\nRO\n0x03\nuint32\n0.001 V\n1-0:32.4.0*255\nVoltage (L1)\n64\n65\n0x0040\n0x0041\n2\nRO\n0x03\nint32\n0.001 \n(unitless)\n1-0:33.4.0*255\nPower factor (L1)\n80\n81\n0x0050\n0x0051\n2\nRO\n0x03\nuint32\n0.1 W\n1-0:41.4.0*255\nActive power+ (L2)\n82\n83\n0x0052\n0x0053\n2\nRO\n0x03\nuint32\n0.1 W\n1-0:42.4.0*255\nActive power- (L2)\n84\n85\n0x0054\n0x0055\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:43.4.0*255\nReactive power+ (L2)\n86\n87\n0x0056\n0x0057\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:44.4.0*255\nReactive power- (L2)\n96\n97\n0x0060\n0x0061\n2\nRO\n0x03\nuint32\n0.1 VA\n1-0:49.4.0*255\nApparent power+ (L2)\n98\n99\n0x0062\n0x0063\n2\nRO\n0x03"
+  },
+  {
+    "chunk_id": 20,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "Active power- (L2)\n84\n85\n0x0054\n0x0055\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:43.4.0*255\nReactive power+ (L2)\n86\n87\n0x0056\n0x0057\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:44.4.0*255\nReactive power- (L2)\n96\n97\n0x0060\n0x0061\n2\nRO\n0x03\nuint32\n0.1 VA\n1-0:49.4.0*255\nApparent power+ (L2)\n98\n99\n0x0062\n0x0063\n2\nRO\n0x03\nuint32\n0.1 VA\n1-0:50.4.0*255\nApparent power-(L2)\n100\n101\n0x0064\n0x0065\n2\nRO\n0x03\nuint32\n0.001 A\n1-0:51.4.0*255\nCurrent (L2)\n102\n103\n0x0066\n0x0067\n2\nRO\n0x03\nuint32\n0.001 V\n1-0:52.4.0*255\nVoltage (L2)\n104\n105\n0x0068\n0x0069\n2\nRO\n0x03\nint32\n0.001 \n(unitless)\n1-0:53.4.0*255\nPower factor (L2)"
+  },
+  {
+    "chunk_id": 21,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "6\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nStart \naddress \n(hex)\nEnd \naddress \n(hex)\nSize\nR/W\nFunc­\ntion \ncodes\nType\nUnits\nOBIS-Code\nDescription\n120\n121\n0x0078\n0x0079\n2\nRO\n0x03\nuint32\n0.1 W\n1-0:61.4.0*255\nActive power+ (L3)\n122\n123\n0x007A\n0x007B\n2\nRO\n0x03\nuint32\n0.1 W\n1-0:62.4.0*255\nActive power- (L3)\n124\n125\n0x007C\n0x007D\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:63.4.0*255\nReactive power+(L3)\n126\n127\n0x007E\n0x007F\n2\nRO\n0x03\nuint32\n0.1 var\n1-0:64.4.0*255\nReactive power- (L3)\n136\n137\n0x0088\n0x0089\n2\nRO\n0x03\nuint32\n0.1 VA\n1-0:69.4.0*255\nApparent power+(L3)\n138\n139\n0x008A\n0x008B\n2\nRO\n0x03\nuint32\n0.1 VA\n1-0:70.4.0*255\nApparent power-(L3)\n140\n141\n0x008C\n0x008D\n2\nRO\n0x03\nuint32\n0.001 A\n1-0:71.4.0*255\nCurrent (L3)\n142\n143\n0x008E\n0x008F\n2\nRO\n0x03\nuint32\n0.001 V\n1-0:72.4.0*255\nVoltage (L3)\n144\n145\n0x0090\n0x0091\n2\nRO\n0x03\nint32\n0.001 \n(unitless)\n1-0:73.4.0*255\nPower factor (L3)\n146\n147\n0x0092\n0x0093\n2\nRO\n0x03\nuint32\n0.1 W\nMinimum active power+ \n* 3"
+  },
+  {
+    "chunk_id": 22,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "7\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \n3.3\tOverview internal Energy register\nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nStart \naddress \n(hex)\nEnd \naddress \n(hex)\nSize\nR/W\nFunc­\ntion \ncodes\nType\nUnits\nOBIS-Code\nDescription\n512\n515\n0x0200\n0x0203\n4\nRO\n0x03\nuint64\n0.1 Wh\n1-0:1.8.0*255\nActive energy+\n516\n519\n0x0204\n0x0207\n4\nRO\n0x03\nuint64\n0.1 Wh\n1-0:2.8.0*255\nActive energy-\n520\n523\n0x0208\n0x020B\n4\nRO\n0x03\nuint64\n0.1 varh\n1-0:3.8.0*255\nReactive energy+\n524\n527\n0x020C\n0x020F\n4\nRO\n0x03\nuint64\n0.1 varh\n1-0:4.8.0*255\nReactive energy-\n544\n547\n0x0220\n0x0223\n4\nRO\n0x03\nuint64\n0.1 VAh\n1-0:9.8.0*255\nApparent energy+\n548\n551\n0x0224\n0x0227\n4\nRO\n0x03\nuint64\n0.1 VAh\n1-0:10.8.0*255\nApparent energy-\n592\n595\n0x0250\n0x0253\n4\nRO\n0x03\nuint64\n0.1 Wh\n1-0:21.8.0*255\nActive energy+ (L1)\n596\n599\n0x0254\n0x0257\n4\nRO\n0x03\nuint64\n0.1 Wh\n1-0:22.8.0*255\nActive energy- (L1)\n600\n603\n0x0258\n0x025B\n4\nRO\n0x03\nuint64\n0.1 varh\n1-0:23.8.0*255\nReactive energy+(L1)\n604\n607\n0x025C\n0x025F\n4\nRO\n0x03\nuint64\n0.1 varh"
+  },
+  {
+    "chunk_id": 23,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "592\n595\n0x0250\n0x0253\n4\nRO\n0x03\nuint64\n0.1 Wh\n1-0:21.8.0*255\nActive energy+ (L1)\n596\n599\n0x0254\n0x0257\n4\nRO\n0x03\nuint64\n0.1 Wh\n1-0:22.8.0*255\nActive energy- (L1)\n600\n603\n0x0258\n0x025B\n4\nRO\n0x03\nuint64\n0.1 varh\n1-0:23.8.0*255\nReactive energy+(L1)\n604\n607\n0x025C\n0x025F\n4\nRO\n0x03\nuint64\n0.1 varh\n1-0:24.8.0*255\nReactive energy-(L1)\n624\n627\n0x0270\n0x0273\n4\nRO\n0x03\nuint64\n0.1 VAh\n1-0:29.8.0*255\nApparent energy+(L1)\n628\n631\n0x0274\n0x0277\n4\nRO\n0x03\nuint64\n0.1 VAh\n1-0:30.8.0*255\nApparent energy-(L1)\n672\n675\n0x02A0\n0x02A3\n4\nRO\n0x03\nuint64\n0.1 Wh\n1-0:41.8.0*255\nActive energy+ (L2)\n676\n679\n0x02A4\n0x02A7\n4\nRO\n0x03\nuint64\n0.1 Wh\n1-0:42.8.0*255\nActive energy- (L2)\n680\n683\n0x02A8\n0x02AB\n4\nRO\n0x03\nuint64\n0.1 varh\n1-0:43.8.0*255\nReactive energy+(L2)\n684\n687\n0x02AC\n0x02AF\n4\nRO\n0x03\nuint64\n0.1 varh\n1-0:44.8.0*255\nReactive energy-(L2)\n704\n707\n0x02C0\n0x02C3\n4\nRO\n0x03\nuint64\n0.1 VAh\n1-0:49.8.0*255\nApparent energy+(L2)\n708\n711\n0x02C4\n0x02C7\n4\nRO\n0x03\nuint64\n0.1 VAh\n1-0:50.8.0*255\nApparent energy-(L2)\n752\n755"
+  },
+  {
+    "chunk_id": 24,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "1-0:43.8.0*255\nReactive energy+(L2)\n684\n687\n0x02AC\n0x02AF\n4\nRO\n0x03\nuint64\n0.1 varh\n1-0:44.8.0*255\nReactive energy-(L2)\n704\n707\n0x02C0\n0x02C3\n4\nRO\n0x03\nuint64\n0.1 VAh\n1-0:49.8.0*255\nApparent energy+(L2)\n708\n711\n0x02C4\n0x02C7\n4\nRO\n0x03\nuint64\n0.1 VAh\n1-0:50.8.0*255\nApparent energy-(L2)\n752\n755\n0x02F0\n0x02F3\n4\nRO\n0x03\nuint64\n0.1 Wh\n1-0:61.8.0*255\nActive energy+ (L3)\n756\n759\n0x02F4\n0x02F7\n4\nRO\n0x03\nuint64\n0.1 Wh\n1-0:62.8.0*255\nActive energy- (L3)\n760\n763\n0x02F8\n0x02FB\n4\nRO\n0x03\nuint64\n0.1 varh\n1-0:63.8.0*255\nReactive energy+(L3)\n764\n767\n0x02FC\n0x02FF\n4\nRO\n0x03\nuint64\n0.1 varh\n1-0:64.8.0*255\nReactive energy-(L3)\n784\n787\n0x0310\n0x0313\n4\nRO\n0x03\nuint64\n0.1 VAh\n1-0:69.8.0*255\nApparent energy+(L3)\n788\n791\n0x0314\n0x0317\n4\nRO\n0x03\nuint64\n0.1 VAh\n1-0:70.8.0*255\nApparent energy-(L3)"
+  },
+  {
+    "chunk_id": 25,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "8\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \n3.4\tOverview KSEM/RM PnP register\nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nStart \naddress \n(hex)\nEnd \naddress \n(hex)\nSize\nR/W\nFunc­\ntion \ncodes\nType\nName\nDefault value /\nexample\nDescription\n8192\n8192\n0x2000\n0x2000\n1\nRO\n0x03\nuint16\nManufactu­\nrerID\n0x5233\nFixed value to identify \nevery device\n8193\n8193\n0x2001\n0x2001\n1\nRO\n0x03\nuint16\nProductID\n0x4842\nIndicates that this \ndevice is a KOSTAL \nSmart Energy Meter\n8194\n8194\n0x2002\n0x2002\n1\nRO\n0x03\nuint16\nProductVer­\nsion\nExample: 0x0000\n(Hardware) Revision \nof the KOSTAL Smart \nEnergy Meter proces­\nsor board\n8195\n8195\n0x2003\n0x2003\n1\nRO\n0x03\nuint16\nFirmwareVer­\nsion\nExample: \n0x0103 = 1.3.x\nFirmware Revision of \nthe KOSTAL Smart \nEnergy Meter\n8196\n8211\n0x2004\n0x2013\n16\nRO\n0x03\nstring \n(32)\nVendorName\nExample: KOSTAL \nSolar Electric \nGmbH\nContains the vendor \nname as a string, pad­\nded with NUL bytes\n8212\n8227\n0x2014\n0x2023\n16\nRO\n0x03\nstring \n(32)\nProductName\nExample: KSEM\nContains the product"
+  },
+  {
+    "chunk_id": 26,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "the KOSTAL Smart \nEnergy Meter\n8196\n8211\n0x2004\n0x2013\n16\nRO\n0x03\nstring \n(32)\nVendorName\nExample: KOSTAL \nSolar Electric \nGmbH\nContains the vendor \nname as a string, pad­\nded with NUL bytes\n8212\n8227\n0x2014\n0x2023\n16\nRO\n0x03\nstring \n(32)\nProductName\nExample: KSEM\nContains the product \nname as a string, pad­\nded with NUL bytes\n8228\n8243\n0x2024\n0x2033\n16\nRO\n0x03\nstring \n(32)\nSerialNumber\nExample: \n30380912332211\nContains the serial \nnumber of the device \nas a string, padded \nwith NUL bytes\n8244\n8244\n0x2034\n0x2034\n1\nRO\n0x03\nuint16\nMeasuringIn­\nterval\nExample: \n0x01F4 = 500 ms\nContains the measuring \ninterval for measure­\nment chip in ms\n8245\n8248\n0x2035\n0x2038\n4\nRO\n0x03\nuint64\nUNIXTimes­\ntamp\nExample: \n1552323559000 \n= 2019-03-11 \n16:59:19\nContains the current \nUNIX timestamp in ms"
+  },
+  {
+    "chunk_id": 27,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "9\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \nThe KSEM/RM PnP register contains information on the identity of the device.\n\t\nn\nManufacturerID is a static value that contains the ID of the manufacturer. An overriding SCADA sys­\ntem can differentiate between different devices on the RS-485.\n\t\nn\nProductID is also a static value that allows the identification of the specific product via this key.\n\t\nn\nProductVersion is the version of the hardware of the product.\n\t\nn\nFirmwareVersion is the version of the software of the product.\n\t\nn\nVendorName and product name include the name of the manufacturer and the name of the product \nas strings.\nAll strings are filled to their full length by NUL bytes and spaces (0x32). The Modbus RTU Master / TCP \nClient should auto-cut them before using the strings."
+  },
+  {
+    "chunk_id": 28,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "10\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \n3.5\tOverview SunSpec register\nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nSize\nR/W\nFunc­\ntion \ncodes\nName\nType\nUnits\nScale factor\nDescription\nValue range / \nOBIS mapping\n40000\n40001\n2\nRO\n0x03\nC_Sun­\nSpec_ID\nuint32\nN/A\nN/A\nIndicates that it is \na valid SunSpec \nModbus map.\n0x53756e53\n40002\n40002\n1\nRO\n0x03\nC_SunSpec_\nDID\nuint16\nN/A\nN/A\nIndicates that it is a \nvalid SunSpec Com­\nmon Model block.\n0x0001\n40003\n40003\n1\nRO\n0x03\nC_SunSpec_\nLength\nuint16\nregis­\nters\nN/A\nLength of Common \nModel\n65\n40004\n40019\n16\nRO\n0x03\nC_Manufac­\nturer\nString \n(32)\nN/A\nN/A\nManufacturer name2\nKOSTAL Solar \nElectric\n40020\n40035\n16\nRO\n0x03\nC_Model\nstring \n(32)\nN/A\nN/A\nModel name2\nKSEM\n40036\n40043\n16\nRO\n0x03\nC_Options\nString \n(16)\nN/A\nN/A\nManufacturer-\nspeciﬁc value2\n{empty}\n40044\n40051\n8\nRO\n0x03\nC_Version\nString \n(16)\nN/A\nN/A\nManufacturer-\nspeciﬁc value\n1.0\n40052\n40067\n16\nRO\n0x03\nC_SerialNum­\nber\nString \n(32)\nN/A\nN/A\nManufacturer-\nspeciﬁc value2\n1900221992\n40068\n40068"
+  },
+  {
+    "chunk_id": 29,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "KSEM\n40036\n40043\n16\nRO\n0x03\nC_Options\nString \n(16)\nN/A\nN/A\nManufacturer-\nspeciﬁc value2\n{empty}\n40044\n40051\n8\nRO\n0x03\nC_Version\nString \n(16)\nN/A\nN/A\nManufacturer-\nspeciﬁc value\n1.0\n40052\n40067\n16\nRO\n0x03\nC_SerialNum­\nber\nString \n(32)\nN/A\nN/A\nManufacturer-\nspeciﬁc value2\n1900221992\n40068\n40068\n1\nRO\n0x03\nC_DeviceAd­\ndress\nuint16\nN/A\nN/A\nModbus ID (Modbus \naddress)\n247\n40069\n40069\n1\nRO\n0x03\nC_SunSpec_\nDID\nuint16\nN/A\nN/A\nIndicates that it is \na valid Sun-Spec \nMeter Model block.\n203\n40070\n40070\n1\nRO\n0x03\nC_SunSpec_\nLength\nuint16\nregis­\nters\nN/A\nLength of Meter \nModel\n105\n40071\n40071\n1\nRO\n0x03\nM_AC_Current\nint16\nA\nM_AC_Cur­\nrent_SF\nAC Current (sum of \nactive phases)\n0x8000\n40072\n40072\n1\nRO\n0x03\nM_AC_Cur­\nrent_A\nint16\nA\nM_AC_Cur­\nrent_SF\nPhase A AC current\n1-0:31.4.0*255\n40073\n40073\n1\nRO\n0x03\nM_AC_Cur­\nrent_B\nint16\nA\nM_AC_Cur­\nrent_SF\nPhase B AC current\n1-0:51.4.0*255\n40074\n40074\n1\nRO\n0x03\nM_AC_Cur­\nrent_C\nint16\nA\nM_AC_Cur­\nrent_SF\nPhase C AC current\n1-0:71.4.0*255\n40075\n40075\n1\nRO\n0x03"
+  },
+  {
+    "chunk_id": 30,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "M_AC_Cur­\nrent_A\nint16\nA\nM_AC_Cur­\nrent_SF\nPhase A AC current\n1-0:31.4.0*255\n40073\n40073\n1\nRO\n0x03\nM_AC_Cur­\nrent_B\nint16\nA\nM_AC_Cur­\nrent_SF\nPhase B AC current\n1-0:51.4.0*255\n40074\n40074\n1\nRO\n0x03\nM_AC_Cur­\nrent_C\nint16\nA\nM_AC_Cur­\nrent_SF\nPhase C AC current\n1-0:71.4.0*255\n40075\n40075\n1\nRO\n0x03\nM_AC_Cur­\nrent_SF\nint16\nN/A\nN/A\nAC current Scale \nFactor3\n-2\n40076\n40076\n1\nRO\n0x03\nM_AC_Vol­\ntage_LN\nint16\nV\nM_AC_Vol­\ntage_SF\nLine to Neutral AC \nVoltage (average of \nactive phases)\n0x8000\n40077\n40077\n1\nRO\n0x03\nM_AC_Vol­\ntage_AN\nint16\nV\nM_AC_Vol­\ntage_SF\nPhase A to Neutral \nAC Voltage\n1-0:32.4.0*255\n40078\n40078\n1\nRO\n0x03\nM_AC_Vol­\ntage_BN\nint16\nV\nM_AC_Vol­\ntage_SF\nPhase B to Neutral \nAC Voltage\n1-0:52.4.0*255"
+  },
+  {
+    "chunk_id": 31,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "11\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nSize\nR/W\nFunc­\ntion \ncodes\nName\nType\nUnits\nScale factor\nDescription\nValue range / \nOBIS mapping\n40079\n40079\n1\nRO\n0x03\nM_AC_Vol­\ntage_CN\nint16\nV\nM_AC_Vol­\ntage_SF\nPhase C to Neutral \nAC Voltage\n1-0:72.4.0*255\n40080\n40080\n1\nRO\n0x03\nM_AC_Vol­\ntage_LL\nint16\nV\nM_AC_Vol­\ntage_SF\nLine to Line AC \nVoltage (average of \nactive phases)\n40081\n40081\n1\nRO\n0x03\nM_AC_Vol­\ntage_AB\nint16\nV\nM_AC_Vol­\ntage_SF\nPhase A to Phase B \nAC Voltage\n0x8000\n40082\n40082\n1\nRO\n0x03\nM_AC_Vol­\ntage_BC\nint16\nV\nM_AC_Vol­\ntage_SF\nPhase B to Phase C \nAC Voltage\n0x8000\n40083\n40083\n1\nRO\n0x03\nM_AC_Vol­\ntage_CA\nint16\nV\nM_AC_Vol­\ntage_SF\nPhase C to Phase A \nAC Voltage\n0x8000\n40084\n40084\n1\nRO\n0x03\nM_AC_Vol­\ntage_SF\nint16\nN/A\nN/A\nAC Voltage Scale \nFactor3\n-2\n40085\n40085\n1\nRO\n0x03\nM_AC_Freq\nint16\nHz\nM_AC_Freq_\nSF\nAC Frequency\n1-0:14.4.0*255\n40086\n40086\n1\nRO\n0x03\nM_AC_Freq_\nSF\nint16\nN/A\nN/A\nAC Frequency Scale \nFactor3\n-2\n40087\n40087\n1\nRO\n0x03"
+  },
+  {
+    "chunk_id": 32,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "AC Voltage\n0x8000\n40084\n40084\n1\nRO\n0x03\nM_AC_Vol­\ntage_SF\nint16\nN/A\nN/A\nAC Voltage Scale \nFactor3\n-2\n40085\n40085\n1\nRO\n0x03\nM_AC_Freq\nint16\nHz\nM_AC_Freq_\nSF\nAC Frequency\n1-0:14.4.0*255\n40086\n40086\n1\nRO\n0x03\nM_AC_Freq_\nSF\nint16\nN/A\nN/A\nAC Frequency Scale \nFactor3\n-2\n40087\n40087\n1\nRO\n0x03\nM_AC_Power\nint16\nW\nM_AC_\nPower_SF\nTotal Real Power \n(sum of active \nphases)\n>0: 1-0:1.4.0*255; \n<0: 1-0:2.4.0*255\n40088\n40088\n1\nRO\n0x03\nM_AC_Pow­\ner_A\nint16\nW\nM_AC_\nPower_SF\nPhase A AC Real \nPower\n>0: 1-0:21.4.0*255; \n<0: 1-0:22.4.0*255\n40089\n40089\n1\nRO\n0x03\nM_AC_Pow­\ner_B\nint16\nW\nM_AC_\nPower_SF\nPhase B AC Real \nPower\n>0: 1-0:41.4.0*255; \n<0: 1-0:42.4.0*255\n40090\n40090\n1\nRO\n0x03\nM_AC_Pow­\ner_C\nint16\nW\nM_AC_\nPower_SF\nPhase C AC Real \nPower\n>0: 1-0:61.4.0*255; \n<0: 1-0:62.4.0*255\n40091\n40091\n1\nRO\n0x03\nM_AC_\nPower_SF\nint16\nN/A\nN/A\nAC Real Power \nScale Factor3\n1\n40092\n40092\n1\nRO\n0x03\nM_AC_VA\nint16\nVA\nM_AC_VA_SF\nTotal AC Apparent \nPower (sum of \nactive phases)\n>0: 1-0:9.4.0*255; \n<0: 1-0:10.4.0*255\n40093"
+  },
+  {
+    "chunk_id": 33,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "Power_SF\nPhase C AC Real \nPower\n>0: 1-0:61.4.0*255; \n<0: 1-0:62.4.0*255\n40091\n40091\n1\nRO\n0x03\nM_AC_\nPower_SF\nint16\nN/A\nN/A\nAC Real Power \nScale Factor3\n1\n40092\n40092\n1\nRO\n0x03\nM_AC_VA\nint16\nVA\nM_AC_VA_SF\nTotal AC Apparent \nPower (sum of \nactive phases)\n>0: 1-0:9.4.0*255; \n<0: 1-0:10.4.0*255\n40093\n40093\n1\nRO\n0x03\nM_AC_VA_A\nint16\nVA\nM_AC_VA_SF\nPhase A AC Appa­\nrent Power\n>0: 1-0:29.4.0*255; \n<0: 1-0:30.4.0*255\n40094\n40094\n1\nRO\n0x03\nM_AC_VA_B\nint16\nVA\nM_AC_VA_SF\nPhase B AC Appa­\nrent Power\n>0: 1-0:49.4.0*255; \n<0: 1-0:50.4.0*255\n40095\n40095\n1\nRO\n0x03\nM_AC_VA_C\nint16\nVA\nM_AC_VA_SF\nPhase C AC Appa­\nrent Power\n>0: 1-0:69.4.0*255; \n<0: 1-0:70.4.0*255\n40096\n40096\n1\nRO\n0x03\nM_AC_VA_SF\nint16\nN/A\nN/A\nAC Apparent Power \nScale Factor3\n1\n40097\n40097\n1\nRO\n0x03\nM_AC_VAR\nint16\nvar\nM_AC_VAR_\nSF\nTotal AC Reactive \nPower (sum of \nactive phases)\n> 0: 1-0:3.4.0*255; \n< 0: 1-0:4.4.0*255"
+  },
+  {
+    "chunk_id": 34,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "12\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nSize\nR/W\nFunc­\ntion \ncodes\nName\nType\nUnits\nScale factor\nDescription\nValue range / \nOBIS mapping\n40098\n40098\n1\nRO\n0x03\nM_AC_VAR_A\nint16\nvar\nM_AC_VAR_\nSF\nPhase A AC Reac­\ntive Power\n>0: 1-0:23.4.0*255; \n<0: 1-0:24.4.0*255\n40099\n40099\n1\nRO\n0x03\nM_AC_VAR_B\nint16\nvar\nM_AC_VAR_\nSF\nPhase B AC Reac­\ntive Power\n>0: 1-0:43.4.0*255; \n<0: 1-0:44.4.0*255\n40100\n40100\n1\nRO\n0x03\nM_AC_VAR_C\nint16\nvar\nM_AC_VAR_\nSF\nPhase C AC Reac­\ntive Power\n>0: 1-0:63.4.0*255; \n<0: 1-0:64.4.0*255\n40101\n40101\n1\nRO\n0x03\nM_AC_VAR_\nSF\nint16\nN/A\nN/A\nAC Reactive Power \nScale Factor3\n1\n40102\n40102\n1\nRO\n0x03\nM_AC_PF\nint16\n%\nM_AC_PF_SF\nAverage Power \nFactor (average of \nactive phases)\n1-0:13.4.0*255 \n-1000...+1000\n40103\n40103\n1\nRO\n0x03\nM_AC_PF_A\nint16\n%\nM_AC_PF_SF\nPhase A Power \nFactor\n1-0:33.4.0*255 \n-1000...+1000\n40104\n40104\n1\nRO\n0x03\nM_AC_PF_B\nint16\n%\nM_AC_PF_SF\nPhase B Power \nFactor\n1-0:53.4.0*255 \n-1000...+1000\n40105\n40105\n1\nRO\n0x03"
+  },
+  {
+    "chunk_id": 35,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "Factor (average of \nactive phases)\n1-0:13.4.0*255 \n-1000...+1000\n40103\n40103\n1\nRO\n0x03\nM_AC_PF_A\nint16\n%\nM_AC_PF_SF\nPhase A Power \nFactor\n1-0:33.4.0*255 \n-1000...+1000\n40104\n40104\n1\nRO\n0x03\nM_AC_PF_B\nint16\n%\nM_AC_PF_SF\nPhase B Power \nFactor\n1-0:53.4.0*255 \n-1000...+1000\n40105\n40105\n1\nRO\n0x03\nM_AC_PF_C\nint16\n%\nM_AC_PF_SF\nPhase C Power \nFactor\n1-0:73.4.0*255 \n-1000...+1000\n40106\n40106\n1\nRO\n0x03\nM_AC_PF_SF\nint16\nN/A\nN/A\nAC Power Factor \nScale Factor3\n-3\n40107\n40108\n2\nRO\n0x03\nM_Exported\nuint32\nWh\nM_Ener­\ngy_W_SF\nTotal Exported Real \nEnergy\n1-0:2.8.0*255\n40109\n40110\n2\nRO\n0x03\nM_Expor­\nted_A\nuint32\nWh\nM_Ener­\ngy_W_SF\nPhase A Exported \nReal Energy\n1-0:22.8.0*255\n40111\n40112\n2\nRO\n0x03\nM_Expor­\nted_B\nuint32\nWh\nM_Ener­\ngy_W_SF\nPhase B Exported \nReal Energy\n1-0:42.8.0*255\n40113\n40114\n2\nRO\n0x03\nM_Expor­\nted_C\nuint32\nWh\nM_Ener­\ngy_W_SF\nPhase C Exported \nReal Energy\n1-0:62.8.0*255\n40115\n40116\n2\nRO\n0x03\nM_Imported\nuint32\nWh\nM_Ener­\ngy_W_SF\nTotal Imported Real \nEnergy\n1-0:1.8.0*255\n40117\n40118\n2\nRO"
+  },
+  {
+    "chunk_id": 36,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "uint32\nWh\nM_Ener­\ngy_W_SF\nPhase B Exported \nReal Energy\n1-0:42.8.0*255\n40113\n40114\n2\nRO\n0x03\nM_Expor­\nted_C\nuint32\nWh\nM_Ener­\ngy_W_SF\nPhase C Exported \nReal Energy\n1-0:62.8.0*255\n40115\n40116\n2\nRO\n0x03\nM_Imported\nuint32\nWh\nM_Ener­\ngy_W_SF\nTotal Imported Real \nEnergy\n1-0:1.8.0*255\n40117\n40118\n2\nRO\n0x03\nM_Imported_A\nuint32\nWh\nM_Ener­\ngy_W_SF\nPhase A Imported \nReal Energy\n1-0:21.8.0*255\n40119\n40120\n2\nRO\n0x03\nM_Impor­\nted_B\nuint32\nWh\nM_Ener­\ngy_W_SF\nPhase B Imported \nReal Energy\n1-0:41.8.0*255\n40121\n40122\n2\nRO\n0x03\nM_Impor­\nted_C\nuint32\nWh\nM_Ener­\ngy_W_SF\nPhase C Imported \nReal Energy\n1-0:61.8.0*255\n40123\n40123\n1\nRO\n0x03\nM_Ener­\ngy_W_SF\nint16\nN/A\nN/A\nReal Energy Scale \nFactor3\n0\n40124\n40125\n2\nRO\n0x03\nM_Expor­\nted_VA\nuint32\nVAh\nM_Energy_\nVA_SF\nTotal Exported \nApparent Energy\n1-0:10.8.0*255\n40126\n40127\n2\nRO\n0x03\nM_Expor­\nted_VA_A\nuint32\nVAh\nM_Energy_\nVA_SF\nPhase A Exported \nApparent Energy\n1-0:30.8.0*255"
+  },
+  {
+    "chunk_id": 37,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "13\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nSize\nR/W\nFunc­\ntion \ncodes\nName\nType\nUnits\nScale factor\nDescription\nValue range / \nOBIS mapping\n40128\n40129\n2\nRO\n0x03\nM_Expor­\nted_VA_B\nuint32\nVAh\nM_Energy_\nVA_SF\nPhase B Exported \nApparent Energy\n1-0:50.8.0*255\n40130\n40131\n2\nRO\n0x03\nM_Expor­\nted_VA_C\nuint32\nVAh\nM_Energy_\nVA_SF\nPhase C Exported \nApparent Energy\n1-0:70.8.0*255\n40132\n40133\n2\nRO\n0x03\nM_Impor­\nted_VA\nuint32\nVAh\nM_Energy_\nVA_SF\nTotal Imported \nApparent Energy\n1-0:9.8.0*255\n40134\n40135\n2\nRO\n0x03\nM_Impor­\nted_VA_A\nuint32\nVAh\nM_Energy_\nVA_SF\nPhase A Imported \nApparent Energy\n1-0:29.8.0*255\n40136\n40137\n2\nRO\n0x03\nM_Impor­\nted_VA_B\nuint32\nVAh\nM_Energy_\nVA_SF\nPhase B Imported \nApparent Energy\n1-0:49.8.0*255\n40138\n40139\n2\nRO\n0x03\nM_Impor­\nted_VA_C\nuint32\nVAh\nM_Energy_\nVA_SF\nPhase C Imported \nApparent Energy\n1-0:69.8.0*255\n40140\n40140\n1\nRO\n0x03\nM_Energy_\nVA_SF\nint16\nN/A\nN/A\nApparent Energy \nScale Factor3\n0\n40145\n40146\n2\nRO\n0x03\nM_Import_"
+  },
+  {
+    "chunk_id": 38,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "M_Energy_\nVA_SF\nPhase B Imported \nApparent Energy\n1-0:49.8.0*255\n40138\n40139\n2\nRO\n0x03\nM_Impor­\nted_VA_C\nuint32\nVAh\nM_Energy_\nVA_SF\nPhase C Imported \nApparent Energy\n1-0:69.8.0*255\n40140\n40140\n1\nRO\n0x03\nM_Energy_\nVA_SF\nint16\nN/A\nN/A\nApparent Energy \nScale Factor3\n0\n40145\n40146\n2\nRO\n0x03\nM_Import_\nVARh_Q1B\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase B – Quadrant \n1: Imported Reac­\ntive Energy\n0x80000000\n40147\n40148\n2\nRO\n0x03\nM_Import_\nVARh_Q1C\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase C – Quadrant \n1: Imported Reac­\ntive Energy\n0x80000000\n40149\n40150\n2\nRO\n0x03\nM_Import_\nVARh_Q2\nuint32\nVARh\nM_Energy_\nVAR_SF\nQuadrant 2: Total \nImported Reactive \nEnergy\n0x80000000\n40151\n40152\n2\nRO\n0x03\nM_Import_\nVARh_Q2A\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase A – Quadrant \n2: Imported Reac­\ntive Energy\n0x80000000\n40153\n40154\n2\nRO\n0x03\nM_Import_\nVARh_Q2B\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase B – Quadrant \n2: Imported Reac­\ntive Energy\n0x80000000\n40155\n40156\n2\nRO\n0x03\nM_Import_\nVARh_Q2C\nuint32\nVARh\nM_Energy_\nVAR_SF"
+  },
+  {
+    "chunk_id": 39,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "VARh_Q2A\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase A – Quadrant \n2: Imported Reac­\ntive Energy\n0x80000000\n40153\n40154\n2\nRO\n0x03\nM_Import_\nVARh_Q2B\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase B – Quadrant \n2: Imported Reac­\ntive Energy\n0x80000000\n40155\n40156\n2\nRO\n0x03\nM_Import_\nVARh_Q2C\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase C – Quadrant \n2: Imported Reac­\ntive Energy\n0x80000000\n40157\n40158\n2\nRO\n0x03\nM_Export_\nVARh_Q3\nuint32\nVARh\nM_Energy_\nVAR_SF\nQuadrant 3: Total \nImported Reactive \nEnergy\n0x80000000\n40159\n40160\n2\nRO\n0x03\nM_Export_\nVARh_Q3A\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase A – Quadrant \n3: Imported Reac­\ntive Energy\n0x80000000\n40161\n40162\n2\nRO\n0x03\nM_Export_\nVARh_Q3B\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase B – Quadrant \n3: Imported Reac­\ntive Energy\n0x80000000"
+  },
+  {
+    "chunk_id": 40,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "14\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nSize\nR/W\nFunc­\ntion \ncodes\nName\nType\nUnits\nScale factor\nDescription\nValue range / \nOBIS mapping\n40163\n40164\n2\nRO\n0x03\nM_Export_\nVARh_Q3C\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase C – Quadrant \n3: Imported Reac­\ntive Energy\n0x80000000\n40165\n40166\n2\nRO\n0x03\nM_Export_\nVARh_Q4\nuint32\nVARh\nM_Energy_\nVAR_SF\nQuadrant 4: Total \nImported Reactive \nEnergy\n0x80000000\n40167\n40168\n2\nRO\n0x03\nM_Export_\nVARh_Q4A\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase A – Quadrant \n4: Imported Reac­\ntive Energy\n0x80000000\n40169\n40170\n2\nRO\n0x03\nM_Export_\nVARh_Q4B\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase B – Quadrant \n4: Imported Reac­\ntive Energy\n0x80000000\n40171\n40172\n2\nRO\n0x03\nM_Export_\nVARh_Q4C\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase C – Quadrant \n4: Imported Reac­\ntive Energy\n0x80000000\n40173\n40173\n1\nRO\n0x03\nM_Energy_\nVAR_SF\nint16\nN/A\nN/A\nReactive Energy \nScale Factor3\n0\n40174\n40175\n2\nRO\n0x03\nM_Events\nuint32\nN/A\nN/A\nEvent ﬂags\n0\n40176\n40176\n1\nRO"
+  },
+  {
+    "chunk_id": 41,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "40171\n40172\n2\nRO\n0x03\nM_Export_\nVARh_Q4C\nuint32\nVARh\nM_Energy_\nVAR_SF\nPhase C – Quadrant \n4: Imported Reac­\ntive Energy\n0x80000000\n40173\n40173\n1\nRO\n0x03\nM_Energy_\nVAR_SF\nint16\nN/A\nN/A\nReactive Energy \nScale Factor3\n0\n40174\n40175\n2\nRO\n0x03\nM_Events\nuint32\nN/A\nN/A\nEvent ﬂags\n0\n40176\n40176\n1\nRO\n0x03\nC_SunSpec_\nDID\nuint16\nN/A\nN/A\nIndicates that it is a \nvalid SunSpec End \nModel block.\n0xﬀﬀ\n40177\n40177\n1\nRO\n0x03\nC_SunSpec_\nLength\nuint16\nregis­\nters\nN/A\nLength of End \nModel\n0\nNotes:\n1 Note to avoid off-by-one errors: The SunSpec specification (as found at www.sunspec.org) always refers to register numbers, whereas this docu­\nment always refers to register addresses. To access SunSpec register 40001, the register address 40000 must be used, i. Hexadecimal offset \n0x9C40.\n2 These fields may receive a customer fire request upon request\n3 Example: The register M_AC_Freq contains the value 4950 and M_AC_Freq_SF contains the value -2. Then the frequency can be calculated as:"
+  },
+  {
+    "chunk_id": 42,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "0x9C40.\n2 These fields may receive a customer fire request upon request\n3 Example: The register M_AC_Freq contains the value 4950 and M_AC_Freq_SF contains the value -2. Then the frequency can be calculated as: \n4950 Hz * 10 ^ {- 2} = 49.50 Hz\n4 Important Note: Although the scaling factors are given here as fixed values, they should not be considered fixed. The values can change dynami­\ncally to match the readings. Please always ask the scaling factors together with the associated values and include code to dynamically calculate \nthe values."
+  },
+  {
+    "chunk_id": 43,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "15\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \n3.6\tOverview group register\nThis register area contains group-specific information. There are a total of 48 blocks of group regis­\nters. Each register block has 40 registers and corresponds to a group that is con ﬁ gured in the Energy \nManager. The group registers are only available if groups have been activated and con ﬁ gured on the \ndevice.\nThe o ﬀ set of each group register block is calculated as follows:\noffset = 0xE800 + (Gruppen-ID) * 0x0028\nStart address (dec)\nEnd address (dec)\nStart address (hex)\nEnd address (hex)\nSize\nDescription\n59392\n59431\n0xE800\n0xE827\n40\nGroup 0\n59432\n59571\n0xE828\n0xE8B3\n40\nGroup 1\n…\n…\n…\n…\n…\n…\n61272\n61311\n0xEF58\n0xEF7F\n40\nGroup 47\nThe register block is the same for all groups. Therefore, only the register block for the first group is \ndescribed in the following table.\nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nStart \naddress \n(hex)\nEnd \naddress \n(hex)\nSize\nR/W\nFunc­\ntion \ncodes\nType\nName\nDefault value /"
+  },
+  {
+    "chunk_id": 44,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "0xEF7F\n40\nGroup 47\nThe register block is the same for all groups. Therefore, only the register block for the first group is \ndescribed in the following table.\nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nStart \naddress \n(hex)\nEnd \naddress \n(hex)\nSize\nR/W\nFunc­\ntion \ncodes\nType\nName\nDefault value /\nexample\nDescription\n59392\n59395\n0xE800\n0xE803\n4\nRO\n0x10\nuint64\nunitless\nGroup label\n59401\n59404\n0xE809\n0xE80C\n4\nRO\n0x10\nuint64\n1Wh\n1-x:1.8.0*255\nActive Energy +\n(group sum)\n59405\n59408\n0xE80D\n0xE810\n4\nRO\n0x10\nuint64\n1Wh\n1-x:2.8.0*255\nActive Energy -\n(group sum)\n59409\n59412\n0xE811\n0xE814\n4\nRO\n0x10\nuint64\n1VAh\n1-x:9.8.0*255\nApparent Energy +\n(group sum)\n59413\n59416\n0xE815\n0xE818\n4\nRO\n0x10\nuint64\n1VAh\n1-x:10.8.0*255\nApparent Energy -\n(group sum)\n59417\n59418\n0xE819\n0xE81A\n2\nRO\n0x10\nuint32\n0.001W\n1-x:1.4.0*255\nActive Power +\n(group sum)\n59419\n59429\n0xE81B\n0xE81C\n2\nRO\n0x10\nuint32\n0.001W\n1-x:2.4.0*255\nActive Power - \n(groupsum)\n59421\n59422\n0xE81D\n0xE81E\n2\nRO\n0x10\nuint32\n0.001VA\n1-x:9.4.0*255"
+  },
+  {
+    "chunk_id": 45,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "1VAh\n1-x:10.8.0*255\nApparent Energy -\n(group sum)\n59417\n59418\n0xE819\n0xE81A\n2\nRO\n0x10\nuint32\n0.001W\n1-x:1.4.0*255\nActive Power +\n(group sum)\n59419\n59429\n0xE81B\n0xE81C\n2\nRO\n0x10\nuint32\n0.001W\n1-x:2.4.0*255\nActive Power - \n(groupsum)\n59421\n59422\n0xE81D\n0xE81E\n2\nRO\n0x10\nuint32\n0.001VA\n1-x:9.4.0*255\nApparent Power +\n(group sum)\n59423\n59424\n0xE81F\n0xE820\n2\nRO\n0x10\nuint32\n0.001VA\n1-x:10.4.0*255\nApparent Power -\n(group sum)\n59425\n59426\n0xE821\n0xE822\n2\nRO\n0x10\nuint32\n0.001A\n1-x:11.4.0*255\nCurrent (group sum)"
+  },
+  {
+    "chunk_id": 46,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "16\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \n3.7\tOverview sensor register\nThis register area contains sensor-specific information. There are a total of 96 blocks of sensor regis­\nters. Each register block has a size of 40 registers and corresponds to a sensor that is connected to the \nEnergy Manager. The sensor registers are only available if sensors are activated and con ﬁ gured on the \ndevice.\nThe o ﬀ set of each sensor register block is calculated as follows:\noffset = 0xF000 + (Sensor-ID) * 0x0028\nStart address (dec)\nEnd address (dec)\nStart address (hex)\nEnd address (hex)\nSize\nDescription\n61440\n61479\n0xF000\n0xF027\n40\nSensor 0\n61480\n61519\n0xF028\n0xF04F\n40\nSensor 1\n…\n…\n…\n…\n…\n…\n65240\n65279\n0xFED8\n0xFEFF\n40\nSensor 95\nThe register block is the same for all groups. Therefore, only the register block for the first sensor is \ndescribed in the following table. The OBIS codes are used here for illustration purposes only, as the"
+  },
+  {
+    "chunk_id": 47,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "61480\n61519\n0xF028\n0xF04F\n40\nSensor 1\n…\n…\n…\n…\n…\n…\n65240\n65279\n0xFED8\n0xFEFF\n40\nSensor 95\nThe register block is the same for all groups. Therefore, only the register block for the first sensor is \ndescribed in the following table. The OBIS codes are used here for illustration purposes only, as the \nreal OBIS code depends on the con ﬁ gured phase of the sensor. If the phase of a sensor has not been \ncon ﬁ gured, its registers do not contain any values, since the phase is required to calculate the further \nvalues from the internal measured values with the help of the voltage and phase angle.\nStart \naddress \n(dec)\nEnd \naddress \n(dec)\nStart \naddress \n(hex)\nEnd \naddress \n(hex)\nSize\nR/W\nFunc­\ntion \ncodes\nType\nName\nDefault value /\nexample\nDescription\n61440\n61443\n0xF000\n0xF003\n4\nRO\n0x10\nuint64\nunitless\nLabel\n61444\n61447\n0xF004\n0xF007\n4\nRO\n0x10\nuint64\nunitless\nSerial num-ber+Index\n61448\n61448\n0xF008\n0xF008\n1\nRO\n0x10\nuint16\nunitless\nPhase (1,2,3)\n61449\n61452\n0xF009\n0xF00C\n4\nRO\n0x10\nuint64\n1Wh"
+  },
+  {
+    "chunk_id": 48,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "codes\nType\nName\nDefault value /\nexample\nDescription\n61440\n61443\n0xF000\n0xF003\n4\nRO\n0x10\nuint64\nunitless\nLabel\n61444\n61447\n0xF004\n0xF007\n4\nRO\n0x10\nuint64\nunitless\nSerial num-ber+Index\n61448\n61448\n0xF008\n0xF008\n1\nRO\n0x10\nuint16\nunitless\nPhase (1,2,3)\n61449\n61452\n0xF009\n0xF00C\n4\nRO\n0x10\nuint64\n1Wh\n1-x:1.8.0*255\nActive Energy +\n61453\n61456\n0xF00D\n0xF010\n4\nRO\n0x10\nuint64\n1Wh\n1-x:2.8.0*255\nActive Energy -\n61457\n61460\n0xF011\n0xF014\n4\nRO\n0x10\nuint64\n1Vah\n1-x:9.8.0*255\nApparent Energy +\n61461\n61464\n0xF015\n0xF018\n4\nRO\n0x10\nuint64\n1Vah\n1-x:10.8.0.*255\nApparent Energy -\n61465\n61466\n0xF019\n0xF01A\n2\nRO\n0x10\nuint32\n0.001W\n1-x:1.4.0*255\nActive Power +\n61467\n61468\n0xF01B\n0xF01C\n2\nRO\n0x10\nuint32\n0.001W\n1-x:2.4.0*255\nActive Power -\n61469\n61470\n0xF01D\n0xF01E\n2\nRO\n0x10\nuint32\n0.001VA\n1-x:9.4.0*255\nApparent Power +\n61471\n61472\n0xF01F\n0xF020\n2\nRO\n0x10\nuint32\n0.001VA\n1-x:10.4.0*255\nApparent Power -\n61473\n61474\n0xF021\n0xF022\n2\nRO\n0x10\nuint32\n0.001A\n1-x:11.4.0*255\nCurrent\n61475\n61476\n0xF023\n0xF024\n2\nRO\n0x10"
+  },
+  {
+    "chunk_id": 49,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "Active Power -\n61469\n61470\n0xF01D\n0xF01E\n2\nRO\n0x10\nuint32\n0.001VA\n1-x:9.4.0*255\nApparent Power +\n61471\n61472\n0xF01F\n0xF020\n2\nRO\n0x10\nuint32\n0.001VA\n1-x:10.4.0*255\nApparent Power -\n61473\n61474\n0xF021\n0xF022\n2\nRO\n0x10\nuint32\n0.001A\n1-x:11.4.0*255\nCurrent\n61475\n61476\n0xF023\n0xF024\n2\nRO\n0x10\nuint32\n0.001V\n1-x:12.4.0*255\nVoltage\n61477\n61478\n0xF025\n0xF026\n2\nRO\n0x10\nint32\n0.001\n1-x:13.4.0.*255\nPower factor"
+  },
+  {
+    "chunk_id": 50,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "17\n09 / 2020 © 2020 KOSTAL Solar Electric GmbH \nKOSTAL Solar Electric GmbH\nHanferstr. 6\n79108 Freiburg i. Br.\nDeutschland\nTelefon: +49 761 47744 - 100\nFax: +49 761 47744 - 111\nKOSTAL Solar Electric Ibérica S.L.\nEdificio abm\nRonda Narciso Monturiol y Estarriol, 3\nTorre B, despachos 2 y 3\nParque Tecnológico de Valencia\n46980 Valencia\nEspaña\nTeléfono: +34 961 824 - 934\nFax: +34 961 824 - 931\nKOSTAL Solar Electric France SARL\n11, rue Jacques Cartier\n78280 Guyancourt\nFrance\nTéléphone: +33 1 61 38 - 4117\nFax: +33 1 61 38 - 3940\nKOSTAL Solar Electric Hellas Ε.Π.Ε.\n47 Steliou Kazantzidi st., P.O. Box: 60080\n1st building – 2nd entrance\n55535, Pilea, Thessaloniki\nΕλλάδα\nΤηλέφωνο: +30 2310 477 - 550\nΦαξ: +30 2310 477 - 551\nKOSTAL Solar Electric Italia Srl\nVia Genova, 57\n10098 Rivoli (TO)\nItalia\nTelefono: +39 011 97 82 - 420\nFax: +39 011 97 82 - 432\nKOSTAL Solar Electric Turkey \nMahmutbey Mah. Taşocağı Yolu \nNo:3 (B Blok), Ağaoğlu My Office212, \nKat:16, Ofis No: 269\nBağcılar - İstanbul / Türkiye"
+  },
+  {
+    "chunk_id": 51,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\modbusprotokollkostalsmartenergymeter ....pdf",
+    "content": "KOSTAL Solar Electric Italia Srl\nVia Genova, 57\n10098 Rivoli (TO)\nItalia\nTelefono: +39 011 97 82 - 420\nFax: +39 011 97 82 - 432\nKOSTAL Solar Electric Turkey \nMahmutbey Mah. Taşocağı Yolu \nNo:3 (B Blok), Ağaoğlu My Office212, \nKat:16, Ofis No: 269\nBağcılar - İstanbul / Türkiye\nTelefon: +90 212 803 06 24\nFaks: +90 212 803 06 25\nwww.kostal-solar-electric.com\n09 / 2020 - EN - DOC02348405-0002 - Technische Änderungen und Irrtümer vorbehalten.\nAktuelle Informationen finden Sie unter www.kostal-solar-electric.com. Hersteller: KOSTAL Industrie Elektrik GmbH, Hagen, Deutschland"
+  }
+]

@@ -1,0 +1,33 @@
+manual,ai_model,accuracy,accuracy_percent
+1815243_C5.pdf,gpt-5.1,8/13,61.54%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=3),Predicted: 2 [wire-equivalent]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=153),Predicted: 153 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1),Predicted: 1 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2),Predicted: 2 [default]
+,,Correct: Parity (subnetwork.properties.parity=0),Predicted: 0 [default]
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Wrong: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3),Predicted: 4
+,,Wrong: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3),Predicted: 4
+,,Wrong: Baud Rate (subnetwork.properties.baudRate=9600),Predicted: not found
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Wrong: Stop Bits (subnetwork.properties.stopBits=0),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=Command Parameter 2),Predicted: C5 Series [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Scaled Temperature Input 2),Predicted: Scaled Temperature Input 2 [naming convention; not scored]
+1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf,gpt-5.1,11/13,84.62%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=0),Predicted: 0 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=511),Predicted: 511 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1),Predicted: 1 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2),Predicted: 2 [default]
+,,Correct: Baud Rate (subnetwork.properties.baudRate=115200),Predicted: 115200 [default]
+,,Correct: Parity (subnetwork.properties.parity=0),Predicted: 0 [default]
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Wrong: Stop Bits (subnetwork.properties.stopBits=0),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=Status word),Predicted: PSTX [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Status word),Predicted: Status word [naming convention; not scored]

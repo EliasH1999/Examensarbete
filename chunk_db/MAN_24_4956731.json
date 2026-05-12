@@ -1,0 +1,134 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "User Manual \nModbus RTU \nOption module for PolluStat \n \nM H 6143 INT, page 1 \n1. Use of the option module \nThe Modbus RTU option module are used to connect the PolluStat heat meter to Modbus RTU network \nusing EIA-485 channel. \n \nPicture 1: Modbus RTU module \n \nThe module bases on Modbus RTU Slave protocol which is realized according to newest specifications \npublished by Modbus Organization. The module EIA-485 network interface is compliant to TIA/EIA-485 \nstandard. \n1.1. Power supply \nThe Modbus RTU module should be powered by AC or DC (polarity insensitive) SELV power supply only. \nSELV Power Supply Voltage \n \n \n \n \n12-24 V AC/DC ±10% \nPower Consumption \n \n \n \n \n \nmax. 0.5 W \nTypical Supply Current  \n \n \n \n \n29 mA @12 V DC \n1.2. Communication interface \nConnection to Modbus RTU network is realized by using galvanic isolated EIA-485 network interface. \nCommunication Protocol \n \n \n \n \nModbus RTU \nNetwork Polarity \n \n \n \n \n \n90 (non-inverting, +) and 91 (inverting, -)"
+  },
+  {
+    "chunk_id": 1,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "Typical Supply Current  \n \n \n \n \n29 mA @12 V DC \n1.2. Communication interface \nConnection to Modbus RTU network is realized by using galvanic isolated EIA-485 network interface. \nCommunication Protocol \n \n \n \n \nModbus RTU \nNetwork Polarity \n \n \n \n \n \n90 (non-inverting, +) and 91 (inverting, -) \nTransmission Speed/Baud Rate (bits per second) \n 1200, 2400, 4800, 9600, 14400, 19200, \n38400, 56000, 57600, 115200 \nData Format \n \n \n \n \n \n \n8E1 (8 data bits, even parity bit, 1 stop bit), \n8O1 (8 data bits, odd parity bit, 1 stop bit), \n8N1 (8 data bits, none parity bit, 1 stop bit), \n8N2 (8 data bits, none parity bit, 2 stop bits) \nGalvanic Isolation between Network and Option Module  \n299 VRMS (0-60 Hz) \nNumber of Devices per EIA-485 Segment Channel \n \nUp to 256 (⅛ UL) \nEIA-485 Network Topology \n \n \n \n \nBus Topology \nEIA-485 Segment Channel Length \n \n \n \nmax. 1200 m \n \nThe default communication parameters are: 9600 bps baud rate, 8N1 data format, Modbus Slave ID – 1."
+  },
+  {
+    "chunk_id": 2,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "299 VRMS (0-60 Hz) \nNumber of Devices per EIA-485 Segment Channel \n \nUp to 256 (⅛ UL) \nEIA-485 Network Topology \n \n \n \n \nBus Topology \nEIA-485 Segment Channel Length \n \n \n \nmax. 1200 m \n \nThe default communication parameters are: 9600 bps baud rate, 8N1 data format, Modbus Slave ID – 1. \n \nUse only the dedicated two terminators on both ends of EIA-485 network channel segment. The maximum \nwire length values for channel could be increased by using the EIA-485 repeaters to connect two channel \nsegments. In case of any question, please contact technical support. \n1.3. Environmental requirements \nOperating Temperature (ambient) \n \n \n \n+5 to +50°C \nStorage Temperature \n \n \n \n \n \n-10 to +65°C \nOperating and Storage Humidity \n \n \n \n25 to 90 % RH @50°C, non-condensing"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "User Manual \nModbus RTU \nOption module for PolluStat \n \nM H 6143 INT, page 2 \n2. Safety instructions \n \nThe installation, electrical connection and commissioning the module should be made \nby qualified specialists only. \n \nThe Modbus RTU option modules may only be used for the PolluStat meter, otherwise \nthe modules or the heat meter could be damaged. \n \nThe included lithium battery and the meter battery must not be recharged,  \nshort-circuited, put in contact with water or exposed to temperatures of more than 80°C. \n \nBatteries and module waste may only be disposed at suitable collection centers \nfor professional waste disposal. \n \nThe communication modules are delivered in the form of circuit board. Is highly \nrecommended that normal static precautions be taken in handling and assembly of this \nmodule to prevent damage and/or degradation which may be induced by ESD. Failure \nto observe proper handling and installation procedures can cause damage. ESD"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "recommended that normal static precautions be taken in handling and assembly of this \nmodule to prevent damage and/or degradation which may be induced by ESD. Failure \nto observe proper handling and installation procedures can cause damage. ESD \ndamage can range from subtle performance degradation to complete device failure. \n3. Installation the option module in the Modbus RTU network \n3.1. Connection diagram \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                          Picture 2: electrical connection diagram \n \nBattery 3.6V \nModbus RTU \ncommunication \nmodule \nAdditional  \nBattery 3.6V \nto SELV power supply \nto Modbus RTU network (EIA-485 channel) \nT1 \nT2"
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "User Manual \nModbus RTU \nOption module for PolluStat \n \nM H 6143 INT, page 3 \nTable 1: Number markers on the screw connector clamps \n \nCalculator: \n \nclamp no. \ndescription \n5 \ntemperature sensor T1 (warmer pipe/supply pipe) \n6 \ntemperature sensor T1 (warmer pipe/supply pipe) \n7 \ntemperature sensor T2 (colder pipe/return pipe) \n8 \ntemperature sensor T2 (colder pipe/return pipe) \n50 \nGND for 2nd additional pulse input or output  \n51 \n2nd additional pulse input or output (In / Out2) (Volume output on TEST mode) \n52 \nGND for 1st additional pulse input or output \n53 \n1st additional pulse input or output (In / Out1) (Energy output on TEST mode) \n \nModbus RTU module: \nclamp no. \nDescription \n60 \n12-24 V AC/DC SELV power supply \n61 \n12-24 V AC/DC SELV power supply \n90 \nModbus RTU EIA-485 channel interface (non-inverting, +) \n91 \nModbus RTU EIA-485 channel interface (inverting, -) \n \nThe pair of clamps 60 and 61 (for connect SELV power supply) is polarity insensitive."
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "Description \n60 \n12-24 V AC/DC SELV power supply \n61 \n12-24 V AC/DC SELV power supply \n90 \nModbus RTU EIA-485 channel interface (non-inverting, +) \n91 \nModbus RTU EIA-485 channel interface (inverting, -) \n \nThe pair of clamps 60 and 61 (for connect SELV power supply) is polarity insensitive. \nThe pair of clamps 90 and 91 is polarity sensitive. Please look on the description in the table above. \n3.2. Status LED and Status Button functionality \nThe placement of the Status LED and Status Button is shown on the picture below. \n \n        Picture 3: Status Button and Status LED placement on the Modbus RTU option module \n \nStatus LED is signalizing every Modbus RTU communication event. Status LED is blinking on during request \nreceiving and response sending. \n \nPress the button, then power on the module and hold the button pushed longer than 15 seconds to reset \ndevice to factory settings (set Modbus Slave ID to default value 1, the Update Rate parameter to default"
+  },
+  {
+    "chunk_id": 7,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "receiving and response sending. \n \nPress the button, then power on the module and hold the button pushed longer than 15 seconds to reset \ndevice to factory settings (set Modbus Slave ID to default value 1, the Update Rate parameter to default \nvalue 10 min and the communication interface to the defaults parameters – 9600 bps baud rate and 8N1 \ndata format). \n3.3. Firmware Update \nThe option module firmware update can be done by user. Downloading the firmware to device is performed \nby dedicated USB dongle and software run on Microsoft Windows operating system. \nThe newest firmware image file for the option module is distributed on demand after request with the serial \nnumbers of devices to which they relate only. In case of any question, please contact technical support. \nStatus LED \nStatus Button"
+  },
+  {
+    "chunk_id": 8,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "User Manual \nModbus RTU \nOption module for PolluStat \n \nM H 6143 INT, page 4 \n4. Modbus data register list \nDesignation \nModbus \nRegister \nModbus \nRegister Type \nModbus \nAddress \nData Value \nRange \nUnit1 \nRead only (RO) \nRead/write (R/W) \nHeating Energy \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nkWh, MWh, \nMJ, GJ \nRO \nHeating Energy \n(Unit factor) \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \n- \nRO \nHeating Energy \n(Unit) \n30004 or 40004 \nInput or Holding \n3 \n4 char ASCII \n- \nRO \nHeating Energy \n(Float) \n30006 or 40006 \nInput or Holding \n5 \nIEEE754 \nkWh, GJ \nRO \nCooling Energy \n30008 or 40008 \nInput or Holding \n7 \nInt32 \nkWh, MWh, \nMJ, GJ \nRO \nCooling Energy \n(Unit factor) \n30010 or 40010 \nInput or Holding \n9 \nUInt16 \n- \nRO \nCooling Energy \n(Unit) \n30011 or 40011 \nInput or Holding \n10 \n4 char ASCII \n- \nRO \nCooling Energy \n(Float) \n30013 or 40013 \nInput or Holding \n12 \nIEEE754 \nkWh, GJ \nRO \nTariff Energy 1 \n30015 or 40015 \nInput or Holding \n14 \nInt32 \nkWh, MWh, \nMJ, GJ \nRO"
+  },
+  {
+    "chunk_id": 9,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "Input or Holding \n9 \nUInt16 \n- \nRO \nCooling Energy \n(Unit) \n30011 or 40011 \nInput or Holding \n10 \n4 char ASCII \n- \nRO \nCooling Energy \n(Float) \n30013 or 40013 \nInput or Holding \n12 \nIEEE754 \nkWh, GJ \nRO \nTariff Energy 1 \n30015 or 40015 \nInput or Holding \n14 \nInt32 \nkWh, MWh, \nMJ, GJ \nRO \nTariff Energy 1 \n(Unit factor) \n30017 or 40017 \nInput or Holding \n16 \nUInt16 \n- \nRO \nTariff Energy 1 \n(Unit) \n30018 or 40018 \nInput or Holding \n17 \n4 char ASCII \n- \nRO \nTariff Energy 1 \n(Float) \n30020 or 40020 \nInput or Holding \n19 \nIEEE754 \nkWh, GJ \nRO \nTariff Energy 2 \n30022 or 40022 \nInput or Holding \n21 \nInt32 \nkWh, MWh, \nMJ, GJ \nRO \nTariff Energy 2 \n(Unit factor) \n30024 or 40024 \nInput or Holding \n23 \nUInt16 \n- \nRO \nTariff Energy 2 \n(Unit) \n30025 or 40025 \nInput or Holding \n24 \n4 char ASCII \n- \nRO \nTariff Energy 2 \n(Float) \n30027 or 40027 \nInput or Holding \n26 \nIEEE754 \nkWh, GJ \nRO \nVolume \n30029 or 40029 \nInput or Holding \n28 \nInt32 \nl (dm3), m3 \nRO \nVolume \n(Unit factor) \n30031 or 40031"
+  },
+  {
+    "chunk_id": 10,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "23 \nUInt16 \n- \nRO \nTariff Energy 2 \n(Unit) \n30025 or 40025 \nInput or Holding \n24 \n4 char ASCII \n- \nRO \nTariff Energy 2 \n(Float) \n30027 or 40027 \nInput or Holding \n26 \nIEEE754 \nkWh, GJ \nRO \nVolume \n30029 or 40029 \nInput or Holding \n28 \nInt32 \nl (dm3), m3 \nRO \nVolume \n(Unit factor) \n30031 or 40031 \nInput or Holding \n30 \nUInt16 \n- \nRO \nVolume (Unit) \n30032 or 40032 \nInput or Holding \n31 \n4 char ASCII \n- \nRO \nVolume (Float) \n30034 or 40034 \nInput or Holding \n33 \nIEEE754 \nm3 \nRO \nPulse Input \nVolume 1 \n30036 or 40036 \nInput or Holding \n35 \nInt32 \nl (dm3), m3 \nRO \nPulse Input \nVolume 1 \n(Unit factor) \n30038 or 40038 \nInput or Holding \n37 \nUInt16 \n- \nRO \nPulse Input \nVolume 1 (Unit) \n30039 or 40039 \nInput or Holding \n38 \n4 char ASCII \n- \nRO \nPulse Input \nVolume 1 \n(Float) \n30041 or 40041 \nInput or Holding \n40 \nIEEE754 \nm3 \nRO \nPulse Input \nVolume 2 \n30043 or 40043 \nInput or Holding \n42 \nInt32 \nl (dm3), m3 \nRO \nPulse Input \nVolume 2 \n(Unit factor) \n30045 or 40045 \nInput or Holding \n44"
+  },
+  {
+    "chunk_id": 11,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "Input or Holding \n38 \n4 char ASCII \n- \nRO \nPulse Input \nVolume 1 \n(Float) \n30041 or 40041 \nInput or Holding \n40 \nIEEE754 \nm3 \nRO \nPulse Input \nVolume 2 \n30043 or 40043 \nInput or Holding \n42 \nInt32 \nl (dm3), m3 \nRO \nPulse Input \nVolume 2 \n(Unit factor) \n30045 or 40045 \nInput or Holding \n44 \nUInt16 \n- \nRO \nPulse Input \nVolume 2 (Unit) \n30046 or 40046 \nInput or Holding \n45 \n4 char ASCII \n- \nRO \nPulse Input \nVolume 2 \n(Float) \n30048 or 40048 \nInput or Holding \n47 \nIEEE754 \nm3 \nRO"
+  },
+  {
+    "chunk_id": 12,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "User Manual \nModbus RTU \nOption module for PolluStat \n \nM H 6143 INT, page 5 \n \nDesignation \nModbus \nRegister \nModbus \nRegister Type \nModbus \nAddress \nData Value \nRange \nUnit \nRead only (RO) \nRead/write (R/W) \nPower \n30050 or 40050 \nInput or Holding \n49 \nInt32 \nW \nRO \nPower (Unit \nfactor) \n30052 or 40052 \nInput or Holding \n51 \nUInt16 \n- \nRO \nPower (Unit) \n30053 or 40053 \nInput or Holding \n52 \n4 char ASCII \n- \nRO \nPower (Float) \n30055 or 40055 \nInput or Holding \n54 \nIEEE754 \nkW \nRO \nFlow \n30057 or 40057 \nInput or Holding \n56 \nInt32 \nl/h \nRO \nFlow (Unit \nfactor) \n30059 or 40059 \nInput or Holding \n58 \nUInt16 \n- \nRO \nFlow (Unit) \n30060 or 40060 \nInput or Holding \n59 \n4 char ASCII \n- \nRO \nFlow (Float) \n30062 or 40062 \nInput or Holding \n61 \nIEEE754 \nm3/h \nRO \nForward \ntemperature \n(Fixed) \n30065 or 40064 \nInput or Holding \n63 \nInt32 \n0.01°C \nRO \nForward \ntemperature \n(Float) \n30066 or 40066 \nInput or Holding \n65 \nIEEE754 \n°C \nRO \nReturn \ntemperature \n(Fixed) \n30068 or 40068"
+  },
+  {
+    "chunk_id": 13,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "- \nRO \nFlow (Float) \n30062 or 40062 \nInput or Holding \n61 \nIEEE754 \nm3/h \nRO \nForward \ntemperature \n(Fixed) \n30065 or 40064 \nInput or Holding \n63 \nInt32 \n0.01°C \nRO \nForward \ntemperature \n(Float) \n30066 or 40066 \nInput or Holding \n65 \nIEEE754 \n°C \nRO \nReturn \ntemperature \n(Fixed) \n30068 or 40068 \nInput or Holding \n67 \nInt32 \n0.01°C \nRO \nReturn \ntemperature \n(Float) \n30070 or 40070 \nInput or Holding \n69 \nIEEE754 \n°C \nRO \nTemperature \ndifference \n(Fixed) \n30072 or 40072 \nInput or Holding \n71 \nInt32 \n0.001°C \nRO \nTemperature \ndifference \n(Float) \n30074 or 40074 \nInput or Holding \n73 \nIEEE754 \n°C \nRO \nHeat Meter \nSerial Number \n(Fixed) \n30076 or 40076 \nInput or Holding \n75 \nUInt32 \n- \nRO \nHeat Meter \nSerial Number \n(ASCII) \n30078 or 40078 \nInput or Holding \n77 \n8 char ASCII \n- \nRO \nError Code \n30082 or 40082 \nInput or Holding \n81 \nUInt32 \n- \nRO \nModule Serial \nNumber \n32001 \nInput \n2000 \nUint32 \n- \nRO \nModule Model \nNumber \n32003 \nInput \n2002 \nUint32 \n- \nRO \nFirmware \nVersion2 \n32005"
+  },
+  {
+    "chunk_id": 14,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "Serial Number \n(ASCII) \n30078 or 40078 \nInput or Holding \n77 \n8 char ASCII \n- \nRO \nError Code \n30082 or 40082 \nInput or Holding \n81 \nUInt32 \n- \nRO \nModule Serial \nNumber \n32001 \nInput \n2000 \nUint32 \n- \nRO \nModule Model \nNumber \n32003 \nInput \n2002 \nUint32 \n- \nRO \nFirmware \nVersion2 \n32005 \nInput \n2004 \nUint16 \n- \nRO \nModbus Slave \nID3, 4 \n41001 \nHolding \n1000 \nUInt16 \n- \nR/W \nUpdate Rate \nData from \nMeter5 \n41002 \nHolding \n1001 \nUInt16 \n100 ms \nR/W \nBaud Rate \n41003 \nHolding \n1002 \nUInt32 \n- \nR/W \nData Bits6 \n41005 \nHolding \n1004 \nUInt16 \n- \nR/W \nParity6, 7 \n41006 \nHolding \n1005 \nUInt16 \n- \nR/W \nStop Bits6 \n41007 \nHolding \n1006 \nUInt16 \n- \nR/W \n1 Units for Energy, Volume, etc. are available in (Unit) registers and apply to (Float) values as well as \ninteger values multiplied by (Unit factor).  \n \nExample on Energy registers - assume Energy = 43, Energy (Unit factor) = 100, Energy (Unit) = “Wh”, \nEnergy (Float) = 4300, then:"
+  },
+  {
+    "chunk_id": 15,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "- \nR/W \n1 Units for Energy, Volume, etc. are available in (Unit) registers and apply to (Float) values as well as \ninteger values multiplied by (Unit factor).  \n \nExample on Energy registers - assume Energy = 43, Energy (Unit factor) = 100, Energy (Unit) = “Wh”, \nEnergy (Float) = 4300, then: \n \n \nEnergy register * Energy (Unit factor) register in Energy (Unit) register = 43 * 100 Wh = 4300 Wh \n \nEnergy (Float) register in Energy (Unit) register = 4300 Wh \n2 Higher byte of the register is major number of firmware version (0x##00). Lower byte of the register is \nminor number of firmware version (0x00##). \n3 Lower byte of this register is Modbus address of the module in the range 1-247 (01-F7 hex)."
+  },
+  {
+    "chunk_id": 16,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "User Manual \nModbus RTU \nOption module for PolluStat \n \nM H 6143 INT, page 6 \n4 If the higher byte is set to 1, the Modbus address will be updated to the heat meter M-Bus address.  \nIf the higher byte is set to 0, the Modbus address is static. \n5 Default Update Rate Data from Meter is 10 minutes. Value in Modbus register is 6000 because \n6000 * 100 ms gives 600 seconds (10 minutes). \n6 The registers should be set only to the values that represent data format on the EIA-485 serial interface \ndescribed in chapter Communication interface above. \n7 This register is set by the ASCII char value – ‘E’ for Even parity (69 dec, 45 hex), ‘O’ for Odd parity  \n(79 dec, 4F hex) and ‘N’ for None parity (78 dec, 4E hex). \n \nMore details about Modbus communication and data decoding you find in Modicon Modbus Protocol \nReference Guide and MODBUS over Serial Line - Specification and Implementation Guide documents. \n5. Error codes meaning \nDesignation \nError Code value in 30082 or 40082"
+  },
+  {
+    "chunk_id": 17,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "More details about Modbus communication and data decoding you find in Modicon Modbus Protocol \nReference Guide and MODBUS over Serial Line - Specification and Implementation Guide documents. \n5. Error codes meaning \nDesignation \nError Code value in 30082 or 40082 \nModbus Register is sum of following \nvalues of each error \nError code indicates \non the LCD \n<Er ####> \nNo error \n0x00000000 \n0000 \nHardware status flag Er02 \n0x00000004 \n8000 \nHardware status flag Er03 \n0x00000008 \n8000 \nEnd of battery life time \n0x00000010 \n1000 \nHardware status flag Er05 \n0x00000020 \n0008 \nHardware status flag Er06 \n0x00000040 \n0008 \nFlow sensor is empty \n> Air in the ultrasonic flow sensor \n0x00000400 \n0001 \nReverse direction of the flow \n0x00000800 \n0002 \nTemperature sensor 1 error \n> Short circuit or sensor not connected \n0x00010000 \n0080 \nTemperature 1 < 0ºC \n0x00040000 \n00C0 \nTemperature 1 > 180ºC \n0x00080000 \n0080 \nTemperature sensor 2 error \n> Short circuit or sensor not connected \n0x00100000"
+  },
+  {
+    "chunk_id": 18,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "Reverse direction of the flow \n0x00000800 \n0002 \nTemperature sensor 1 error \n> Short circuit or sensor not connected \n0x00010000 \n0080 \nTemperature 1 < 0ºC \n0x00040000 \n00C0 \nTemperature 1 > 180ºC \n0x00080000 \n0080 \nTemperature sensor 2 error \n> Short circuit or sensor not connected \n0x00100000 \n0800 \nTemperature 2 < 0ºC \n0x00400000 \n0C00 \nTemperature 2 > 180ºC \n0x00800000 \n0800 \nHardware status flag Er30 \n0x01000000 \n0880 \nTemperature difference < 3ºC \n0x04000000 \n4000 \nTemperature difference > 150ºC \n0x08000000 \n2000 \nFlow rate grater 1,2qs \n0x10000000 \n0004 \nHardware status flag Er35 \n0x20000000 \n8000 \nHardware status flag Er37 \n0x80000000 \n8000"
+  },
+  {
+    "chunk_id": 19,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "User Manual \nModbus RTU \nOption module for PolluStat \n \nM H 6143 INT, page 7 \n6. Installation the option module in the calculators \nThe option module would be installed on the right side in the opened meter. \n \n \n                 \n \n \nPicture 4: slot for option modules  \n \n \n \nPicture 5: installed option module \n \n \n \nRemove the user seal from the housing \n \nOpen the housing cover by opening the black housing latches on the right and left side \n \nPut the option module into the designated contact sockets \n \nThe contact pins must not be bent \n \nMount the fixing screws \n \nInstall the additional battery into the second battery holder and plug in the connector to the second \nbattery connector \n \nRoute the connecting cable through an available cable fitting and make a pull relief. Then connect \nthe wires to the respective terminals \n \nClose the lid and seal the housing with a user seal \n \n \n \n   \n \n \n \n            Picture 6: finally installed option module \n \nadditional \nbattery"
+  },
+  {
+    "chunk_id": 20,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": " \nRoute the connecting cable through an available cable fitting and make a pull relief. Then connect \nthe wires to the respective terminals \n \nClose the lid and seal the housing with a user seal \n \n \n \n   \n \n \n \n            Picture 6: finally installed option module \n \nadditional \nbattery \noption module \ninstalled \nadditional battery \nconnector \noption module \ninstalled \nmodule \nslot"
+  },
+  {
+    "chunk_id": 21,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAN_24_4956731.pdf",
+    "content": "User Manual \nModbus RTU \nOption module for PolluStat \n \nM H 6143 INT, page 8 \n7. Option module firmware changes list \n \nFirmware version \nDescription \n1.1 \nChanged the default EIA-485 interface data format to 8N1 (8 data bits, none parity bit, \n1 stop bit). \n1.0 \nInitial version. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nAll trademarks are the property of their respective owners. \n \nEdition: 001-1503 (030-0003-01A) \nSubject to changes without notice \n \nSensus GmbH Ludwigshafen \nIndustriestraße 16 \nD-67063 Ludwigshafen \n \nPhone:   + 49 (0) 621 6904-1000 \nCertified according to ISO 9001 \nFax:   + 49 (0) 621 6904-1409 \nQuality Management System Quality Austria Reg.no. 3496/0 \nE-Mail:    info.int@xyleminc.com \nwww.sensus.com"
+  }
+]

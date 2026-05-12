@@ -1,0 +1,1143 @@
+[
+  {
+    "pass_name": "communication",
+    "parameters": [
+      "physicalStandard",
+      "baudRate",
+      "dataBits",
+      "parity",
+      "stopBits"
+    ],
+    "raw_top_k_per_query": {
+      "physical_standard": [
+        {
+          "rank": 1,
+          "chunk_id": 14,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 6 of 60 \n \nRevision 03/2024 \n1 Communication options \nEach device is equipped with RS-485 or a local USB port and various other remote \ncommunication ports. The USB port can be used for data acquisition, configuration and \nstatus checks using the proprietary protocol supported by MIEZ software suite. With remote \nserial communication, Modbus RTU or TCP is supported respectively for easy and open \naccess to all measured actual values. \nWith serial lines, the protocol is automatically recognized between proprietary KMB \nmessages and the standard Modbus RTU. For this option, the device address, baud rate and \nparity must be specified (see user manual for more information). Spaces between bytes of \nmaximum 1.5 characters (bytes) are allowed when a command is received, or a response is \nsent. \nWith the Ethernet option, different applications access different ports at their assigned \naddresses. Modbus TCP, the proprietary KMB protocol and web servers are supported as"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 0,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Modbus TCP and \nModbus RTU protocol \nUser manual"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 26,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Ethernet-to-serial (ES) module converts the communication between Ethernet and serial \ninterface. It may often be necessary to read Modbus RTU data from slaves connected to the \nlocal serial line. The device configuration offers two different options: \n \nWithout conversion RTU <−> TCP: \nRTU − r e q u e s t  01  04  12  00  00  02  74  B3 \nTCP − r e q u e s t  00  00  00  00  00  06  01  04  12  00  00  02 \n \nWith conversion RTU <−> TCP: \nRTU − r e q u e s t  01  04  12  00  00  02  74  B3 \nTCP − r e q u e s t  01  04  12  00  00  02  74  B3 \n \nThe RTU request remains unchanged as received, regardless of whether the RTU<->TCP \nconversion is enabled or disabled. The TCP request is converted to RTU if RTU<->TCP \nconversion is enabled. The response is also translated accordingly."
+        },
+        {
+          "rank": 4,
+          "chunk_id": 25,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 10 of 60 \n \nRevision 03/2024 \n[ 5 3 0 ] : \n3 \n \n=> FW = 3.0.10.4478 \n[ 5 3 1 ] : \n0 \n[ 5 3 2 ] : \n10 \n[ 5 3 3 ] : \n4478 \n[ 5 3 4 ] : \n2 \n \n=> HW = 2.0.0.0 \n[ 5 3 5 ] : \n0 \n[ 5 3 6 ] : \n0 \n[ 5 3 7 ] : \n0 \n[ 5 3 8 ] : \n4 \n \n=> BL = 4.0.0.0 \n[ 5 3 9 ] : \n0 \n[ 5 4 0 ] : \n0 \n[ 5 4 1 ] : \n0 \n2.6 Modbus RTU encapsulated via Ethernet \nSince Fw. 3.0, the conversion between RTU and TCP takes place automatically on the \nModbus Ethernet port. If a Modbus TCP request arrives via Ethernet, it is treated as Modbus \nTCP. If correct Modbus RTU packet data arrives at the Modbus port via Ethernet, the \nresponse is also coded as Modbus RTU. \n2.7 Modbus TCP and Modbus RTU via ES module \nEthernet-to-serial (ES) module converts the communication between Ethernet and serial \ninterface. It may often be necessary to read Modbus RTU data from slaves connected to the \nlocal serial line. The device configuration offers two different options: \n \nWithout conversion RTU <−> TCP:"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 76,
+          "page": 30,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 31 of 60 \n \nRevision 03/2024 \nAssigned data \nDEZ \nHEX \nSize/Type \nU1h5 \n7936 \n0x1F00 \n32b, Float \nU1h7 \n7938 \n0x1F02 \n32b, Float \nU1h9 \n7940 \n0x1F04 \n32b, Float \nU1h11 \n7942 \n0x1F06 \n32b, Float \nU1h13 \n7944 \n0x1F08 \n32b, Float \nU2h5 \n7946 \n0x1F0A \n32b, Float \nU2h7 \n7948 \n0x1F0C \n32b, Float \nU2h9 \n7950 \n0x1F0E \n32b, Float \nU2h11 \n7952 \n0x1F10 \n32b, Float \nU2h13 \n7954 \n0x1F12 \n32b, Float \nU3h5 \n7956 \n0x1F14 \n32b, Float \nU3h7 \n7958 \n0x1F16 \n32b, Float \nU3h9 \n7960 \n0x1F18 \n32b, Float \nU3h11 \n7962 \n0x1F1A \n32b, Float \nU3h13 \n7964 \n0x1F1C \n32b, Float \nI1h5 \n7966 \n0x1F1E \n32b, Float \nI1h7 \n7968 \n0x1F20 \n32b, Float \nI1h9 \n7970 \n0x1F22 \n32b, Float \nI1h11 \n7972 \n0x1F24 \n32b, Float \nI1h13 \n7974 \n0x1F26 \n32b, Float \nI2h5 \n7976 \n0x1F28 \n32b, Float \nI2h7 \n7978 \n0x1F2A \n32b, Float \nI2h9 \n7980 \n0x1F2C \n32b, Float \nI2h11 \n7982 \n0x1F2E \n32b, Float \nI2h13 \n7984 \n0x1F30 \n32b, Float \nI3h5 \n7986 \n0x1F32 \n32b, Float \nI3h7 \n7988 \n0x1F34 \n32b, Float \nI3h9 \n7990 \n0x1F36 \n32b, Float \nI3h11"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 104,
+          "page": 40,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 41 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19760 \n0x4D30 \n32b, Float \nA \nlast I∆2 maximum \n19762 \n0x4D32 \n32b, Float \nA \nlast I∆3 maximum \n19764 \n0x4D34 \n32b, Float \nA \nlast I∆4 maximum \n19766 \n0x4D36 \n32b, Float \nA \nlast I∆5 maximum \n19768 \n0x4D38 \n32b, Float \nA \nlast I∆6 maximum \n19770 \n0x4D3A \n32b, Float \nA \nlast I∆7 maximum \n19770 \n0x4D3C \n32b, Float \nA \nlast I∆8 maximum \n19772 \n0x4D3E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19776 \n0x4D40 \n32b, Float \nA \nlast I∆2 maximum \n19778 \n0x4D42 \n32b, Float \nA \nlast I∆3 maximum \n19780 \n0x4D44 \n32b, Float \nA \nlast I∆4 maximum \n19782 \n0x4D46 \n32b, Float \nA \nlast I∆5 maximum \n19784 \n0x4D48 \n32b, Float \nA \nlast I∆6 maximum \n19786 \n0x4D4A \n32b, Float \nA \nlast I∆7 maximum \n19788 \n0x4D4C \n32b, Float \nA \nlast I∆8 maximum \n19790 \n0x4D4E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nI∆1"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 95,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 38 of 60 \n \nRevision 03/2024 \n3.15.4 0x4800-0x48FF Minimum since data reset \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nU1 \n18488 \n4838 \n32-Bit, Float \nV \nU2 \n18490 \n483A \n32-Bit, Float \nV \nU3 \n18492 \n483C \n32-Bit, Float \nV \nU12 \n18494 \n483E \n32-Bit, Float \nV \nU23 \n18496 \n4840 \n32-Bit, Float \nV \nU31 \n18498 \n4842 \n32-Bit, Float \nV \nI1 \n18500 \n4844 \n32-Bit, Float \nA \nI2 \n18502 \n4846 \n32-Bit, Float \nA \nI3 \n18504 \n4848 \n32-Bit, Float \nA \nIN=I1+I2+I3 \n18506 \n484A \n32-Bit, Float \nA \nP1 \n18508 \n484C \n32-Bit, Float \nW \nP2 \n18510 \n484E \n32-Bit, Float \nW \nP3 \n18512 \n4850 \n32-Bit, Float \nW \n3P \n18514 \n4852 \n32-Bit, Float \nW \nS1 \n18516 \n4854 \n32-Bit, Float \nVA \nS2 \n18518 \n4856 \n32-Bit, Float \nVA \nS3 \n18520 \n4858 \n32-Bit, Float \nVA \n3S \n18522 \n485A \n32-Bit, Float \nVA \nQ1 \n18524 \n485C \n32-Bit, Float \nvar \nQ2 \n18526 \n485E \n32-Bit, Float \nvar \nQ3 \n18528 \n4860 \n32-Bit, Float \nvar \n3Q \n18530 \n4862 \n32-Bit, Float \nvar \nCosPhi1 \n18532 \n4864 \n32-Bit, Float \n– \nCosPhi2"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 15,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "maximum 1.5 characters (bytes) are allowed when a command is received, or a response is \nsent. \nWith the Ethernet option, different applications access different ports at their assigned \naddresses. Modbus TCP, the proprietary KMB protocol and web servers are supported as \nstandard. Modbus Master (MM) and Ethernet-to-Serial Gateway (ES) can be optionally \nactivated. For Modbus TCP, the monitoring port can be configured together with other \nTCP/IP settings (default port: 502). The device responds within a time frame of 200 ms after \nreceiving each command. At least three parallel connections from different masters can be \nprocessed simultaneously by each device. Communication between each master and the \ndevice must follow the single request-response scheme. The master must wait for each \nresponse before sending a new request."
+        }
+      ],
+      "baud_rate": [
+        {
+          "rank": 1,
+          "chunk_id": 5,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "3.6 \n0x0600 Resetting values ........................................................................................17 \n3.7 \n0x0630 Reset to factory settings ............................................................................17 \n3.8 \n0x0700 Configurable settings .................................................................................18 \n3.9 \n0x0800 Read-only settings .....................................................................................18 \n3.9.1 \n0x0800 COM1 .................................................................................................18 \n3.9.2 \n0x0820 COM2 .................................................................................................19 \n3.9.3 \n0x0840 ETH1 ..................................................................................................20 \n3.10 \n0x0900 MMB system configuration - local bus ........................................................20 \n3.11"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 48,
+          "page": 18,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 19 of 60 \n \nRevision 03/2024 \n• \nDevice address: configurable address of the slave unit. 0 and 249..255 are reserved \naddresses. \n• \nBaud rate: Communication speed in baud. \n• \nParity: 0 = none, 1 = even, 2 = odd. \n• \nData bit + parity: 0 = 8 data bits + no parity, 1 = 8 data bits + 1 parity bit (odd or \neven). \n• \nStop bit: 0 = one stop bit, 1 = two stop bits. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nCOM Modbus Master \n2048 \n0x0800 \n16b \nDevice address \n2049 \n0x0801 \n16b \nBaud rate \n2050 \n0x0802 \n32b, uint \nParity \n2052 \n0x0804 \n16b \nData bits + parity \n2053 \n0x0805 \n16b \nStop bit \n2054 \n0x0806 \n16b \n \n3.9.2 0x0820 COM2 \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nDevice address \n2080 \n0x0820 \n16b \nBaud rate \n2081 \n0x0821 \n32b \nParity \n2083 \n0x0823 \n16b \nData bits + parity \n2084 \n0x0824 \n16b \nStop bit \n2085 \n0x0825 \n16b"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 45,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 18 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nFunction 16 \nDEZ \nHEX \nTime of the last \nconfiguration change \n1584 \n0x0630 \nu32, KMB time \nReset to factory settings: write \n0xFFFF0001 \n \n3.8 0x0700 Configurable settings \nThe configurable settings, as shown in the following table, can be changed using Modbus \nfunction 16 (write multiple registers). When the device receives a message with this function, \nall associated registers are saved. If necessary, the soft erase action is performed before \nsending a response to the request. The need for this action results from the change of \ncertain registers - see column \"Soft Erase\". The change is then also written to the device log \nso that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 15,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "maximum 1.5 characters (bytes) are allowed when a command is received, or a response is \nsent. \nWith the Ethernet option, different applications access different ports at their assigned \naddresses. Modbus TCP, the proprietary KMB protocol and web servers are supported as \nstandard. Modbus Master (MM) and Ethernet-to-Serial Gateway (ES) can be optionally \nactivated. For Modbus TCP, the monitoring port can be configured together with other \nTCP/IP settings (default port: 502). The device responds within a time frame of 200 ms after \nreceiving each command. At least three parallel connections from different masters can be \nprocessed simultaneously by each device. Communication between each master and the \ndevice must follow the single request-response scheme. The master must wait for each \nresponse before sending a new request."
+        },
+        {
+          "rank": 5,
+          "chunk_id": 35,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 14 of 60 \n \nRevision 03/2024 \nRequest evaluation interval \n349 \n0x015D \n16b \n0: day, 1: week, 2: month, 3: quarter, \n4: year \nRequest averaging time \n350 \n0x015E \n32b \nSecond \nRequirement limit value \n(3p) \n352 \n0x0160 \n32b, Float \nW \nIrcm averaging time \n354 \n0x0162 \n32b \n200 ms step \nIrcm min/max reset \n356 \n0x0164 \n32b \nsee 'Reset procedure' below... \n \nReset procedure: \n0xFFFFFFFFFF: manual, \n<60: seconds, \n<60*60: minutes, \n<86400: hours, \n=86400: every day, \n=86400*7: every week, \n=86400*30: every month, \n=86400*365: every year \n3.4 0x200 Device identification \nAssigned data \nBase address \nSize/Ty\npe \nEncoding \nDEZ \nHEX \nRuntime \n512 \n0x0200 \n64b \nKMB time \nGMT time \n516 \n0x0204 \n64b \nKMB time \nPROPS_TYP \n520 \n0x0208 \n16b \n \nDEVICE_TYPE \n521 \n0x0209 \n16b \n \nLOWER UNIT TYPE 1 \n522 \n0x020A \n16b \n \nLOWER UNIT TYPE 2 \n523 \n0x020B \n16b \n \nLOWER UNIT TYPE 3 \n524 \n0x020C \n16b \n \nLOWER UNIT TYPE 4 \n525 \n0x020D \n16b \n \nLOWER UNIT TYPE 5 \n526 \n0x020E \n16b"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 44,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Assigned data \nBase address \nSize/Type \nFunction 16 \nDEZ \nHEX \nLast energy meter deletion time \n1536 \n0x0600 \nu32, KMB time \nWrite something to reset \nLast AVG, min/max U/I deletion \ntime \n1538 \n0x0602 \nu32, KMB time \nWrite something to reset \nLast AVG, min/max P/Q \ndeletion time \n1540 \n0x0604 \nu32, KMB time \nWrite something to reset \nLast request deletion time \n1542 \n0x0606 \nu32, KMB time \nWrite something to reset \nLast RCM deletion time \n1544 \n0x0608 \nu32, KMB time \nWrite something to reset \nLast voltage event table \ndeletion time \n1546 \n0x060A \nu32, KMB time \nWrite something to reset \n \n3.7 0x0630 Reset to factory settings \nResets the device to the factory default configuration. All user-defined settings and \nrecordings except for the communication parameters are reset to the factory settings."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 148,
+          "page": 55,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 56 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Typ\ne \nR/W \nDEZ \nHEX \nBootloader version \n4633\n6\n0xB500 \n16b \nR \nFW main version (4. . . ) \n4633\n0xB501 \n16b \nR \nFW minor version ( .0. . ) \n4633\n8\n0xB502 \n16b \nR \nFW revision ( . .13. ) \n4633\n9\n0xB503 \n16b \nR \nFW build ( . . .4125) \n4634\n0\n0xB504 \n16b \nR \nFactory FW main version (4. . \n. ) \n4634\n1 \n0xB505 \n16b \nR \n \n3) Big endian byte sequence \n4) Checksum = sum of all bytes & 0xFFFF \n \nAssigned data \nBase address \nSize/Ty\npe \nR/W \nDEZ \nHEX \nFactory FW sub-version \n(\n0\n)\n46342 \n0xB50\n6\n16b \nR \nFactory FW revision (_._.13._) \n46343 \n0xB50\n16b \nR \nFactory FW build (_._._.4125) \n46344 \n0xB50\n8\n16b \nR \nBackup FW main version (4._._._) \n46345 \n0xB50\n9 \n16b \nR \nBackup-FW subversion (_0._._._) \n46346 \n0xB50\nA\n16b \nR \nBackup FW revision (_._.13._) \n46347 \n0xB50\nB\n16b \nR \nBackup-FW build \n(_._._.4125) \n46348 \n0xB50\nC \n16b \nR \nWrite date of factory firmware \n46349 \n0xB50\nD \n32b \nKMB \ntime"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 122,
+          "page": 46,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 47 of 60 \n \nRevision 03/2024 \n \n(2) The duration of the base interval for the power quality assessment can be changed by the user in the device configuration. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nfalways \n20995 \n0x5203 \n16b \nfbelow \n20996 \n0x5204 \n16b \nfabove \n20997 \n0x5205 \n16b \nU1 \n20998 \n0x5206 \n32b, Float \nU2 \n21000 \n0x5208 \n32b, Float \nU3 \n21002 \n0x520A \n32b, Float \nU4 \n21004 \n0x520C \n32b, Float \nTHDU 1 \n21006 \n0x520E \n32b, Float \nTHDU 2 \n21008 \n0x5210 \n32b, Float \nTHDU 3 \n21010 \n0x5212 \n32b, Float \nTHDU 4 \n21012 \n0x5214 \n32b, Float \nUharm1 \n21014 \n0x5216 \n64b \nUharm2 \n21018 \n0x521A \n64b \nUharm3 \n21022 \n0x521E \n64b \nUharm4 \n21026 \n0x5222 \n64b \nPST 1 \n21030 \n0x5226 \n32b, Float \nPST 2 \n21032 \n0x5228 \n32b, Float \nPST 3 \n21034 \n0x522A \n32b, Float \nPST 4 \n21036 \n0x522C \n32b, Float \nUNBU \n21038 \n0x522E \n32b, Float \nRCScount \n21040 \n0x522F \n16 Bit, uint \nRCSL1 \n21041 \n0x5230 \n16 Bit, uint \nRCSL2 \n21042 \n0x5231 \n16 Bit, uint \nRCSL3 \n21043 \n0x5232"
+        }
+      ],
+      "data_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 17,
+          "page": 6,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "register(s), as shown in the diagram in the following subsections. The Modbus protocol is \nbased on variable assignments in 16-bit registers. Single-byte quantities are stored in such a \nregister in the format 0x00 nn, where nn is a single-byte parameter. For multi-byte sets, the \nbyte order is a big-endian. 32-bit and 64-bit integers and floating-point numbers are sorted \nserially in subsequent 16-bit registers from MSB to LSB. Floating point numbers are encoded \nusing the IEEE 754 format for floating point numbers. See example below, the coded number \nin the example is 0.1875. \nbit \n31 \n30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 \nmeaning \nsign \nexponent (8 bits) \nfraction (23 bits) \nexample \n0 \n0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 \n \nThe number format with double precision has 64 bits and is coded like a floating point \nnumber with an exponent of 11 bits and a 52-bit fraction."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 148,
+          "page": 55,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 56 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Typ\ne \nR/W \nDEZ \nHEX \nBootloader version \n4633\n6\n0xB500 \n16b \nR \nFW main version (4. . . ) \n4633\n0xB501 \n16b \nR \nFW minor version ( .0. . ) \n4633\n8\n0xB502 \n16b \nR \nFW revision ( . .13. ) \n4633\n9\n0xB503 \n16b \nR \nFW build ( . . .4125) \n4634\n0\n0xB504 \n16b \nR \nFactory FW main version (4. . \n. ) \n4634\n1 \n0xB505 \n16b \nR \n \n3) Big endian byte sequence \n4) Checksum = sum of all bytes & 0xFFFF \n \nAssigned data \nBase address \nSize/Ty\npe \nR/W \nDEZ \nHEX \nFactory FW sub-version \n(\n0\n)\n46342 \n0xB50\n6\n16b \nR \nFactory FW revision (_._.13._) \n46343 \n0xB50\n16b \nR \nFactory FW build (_._._.4125) \n46344 \n0xB50\n8\n16b \nR \nBackup FW main version (4._._._) \n46345 \n0xB50\n9 \n16b \nR \nBackup-FW subversion (_0._._._) \n46346 \n0xB50\nA\n16b \nR \nBackup FW revision (_._.13._) \n46347 \n0xB50\nB\n16b \nR \nBackup-FW build \n(_._._.4125) \n46348 \n0xB50\nC \n16b \nR \nWrite date of factory firmware \n46349 \n0xB50\nD \n32b \nKMB \ntime"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 48,
+          "page": 18,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 19 of 60 \n \nRevision 03/2024 \n• \nDevice address: configurable address of the slave unit. 0 and 249..255 are reserved \naddresses. \n• \nBaud rate: Communication speed in baud. \n• \nParity: 0 = none, 1 = even, 2 = odd. \n• \nData bit + parity: 0 = 8 data bits + no parity, 1 = 8 data bits + 1 parity bit (odd or \neven). \n• \nStop bit: 0 = one stop bit, 1 = two stop bits. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nCOM Modbus Master \n2048 \n0x0800 \n16b \nDevice address \n2049 \n0x0801 \n16b \nBaud rate \n2050 \n0x0802 \n32b, uint \nParity \n2052 \n0x0804 \n16b \nData bits + parity \n2053 \n0x0805 \n16b \nStop bit \n2054 \n0x0806 \n16b \n \n3.9.2 0x0820 COM2 \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nDevice address \n2080 \n0x0820 \n16b \nBaud rate \n2081 \n0x0821 \n32b \nParity \n2083 \n0x0823 \n16b \nData bits + parity \n2084 \n0x0824 \n16b \nStop bit \n2085 \n0x0825 \n16b"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 18,
+          "page": 6,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "meaning \nsign \nexponent (8 bits) \nfraction (23 bits) \nexample \n0 \n0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 \n \nThe number format with double precision has 64 bits and is coded like a floating point \nnumber with an exponent of 11 bits and a 52-bit fraction. \nThe date and time are stored in 64-bit or 32-bit MBM time format. The value indicates the \nnumber of milliseconds (64-bit) or seconds (32-bit) since 1.1.2000 00:00 UTC. ANSI C, C++ \nand .NET C# functions (sample code) can be provided on request. \nEach logical block of values is stored within the array of registers starting at the base \naddress (organized like the chapters and sections in this document)."
+        },
+        {
+          "rank": 5,
+          "chunk_id": 46,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "so that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705 \n32b, Float \nYes \nNominal power Pnom (3P) \n1799 \n0x0707 \n32b, Float \nYes \nPrimary VT \n1801 \n0x0709 \n16b (Range 1 – 65535) \nYes \nSecondary VT \n1802 \n0x070A \n16b (Range 1 – 65535) \nYes \nMultiplier VT \n1803 \n0x070B \n32b, Float \nYes \nPrimary VTN \n1805 \n0x070D \n16b (Range 1 – 65535) \nYes \nSecondary VTN \n1806 \n0x070E \n16b (Range 1 – 65535) \nYes \nMultiplier VTN \n1807 \n0x070F \n32b, Float \nYes \nPrimary CT \n1809 \n0x0711 \n16b \nYes \nSecondary CT \n1810 \n0x0712 \n16b \nYes \nMultiplier CT \n1811 \n0x0713 \n32b, Float \nYes \nPrimary CTN \n1813 \n0x0715 \n16b \nYes \nSecondary CTN \n1814 \n0x0716 \n16b \nYes \nMultiplier CTN \n1815 \n0x0717 \n32b, Float \nYes \nNominal current Inom \n1817 \n0x0719 \n32b, Float \nYes \n \n3.9 0x0800 Read-only settings"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 51,
+          "page": 19,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "16b, R \nDeviceAdr \n2393 \n0x0959 \n16b, R \nBootloader version \n2394 \n0x095A \n16b, R \nSUBDEVICE TYPE 1 \n2395 \n0x095B \n16b, R \nSUBDEVICE TYPE 2 \n2396 \n0x095C \n16b, R \nSUBDEVICE TYPE 3 \n2397 \n0x095D \n16b, R \nSUBDEVICE TYPE 4 \n2398 \n0x095E \n16b, R \nSUBDEVICE TYPE 5 \n2399 \n0x095F \n16b, R \nSUB-UNIT TYPE 6 \n2400 \n0x0960 \n16b, R \nNumber of current inputs \n2401 \n0x0961 \n16b, R \nSn \n2402 \n0x0962 \n16b, R \nDEVICE_TYPE \n2403 \n0x0963 \n16b, R \nSUB UNIT TYPE \n2404 \n0x0964 \n16b, R"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 128,
+          "page": 48,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "64b \nUrc2AVG \n21262 \n0x530E \n32b, Float \nUrc2MIN \n21264 \n0x5310 \n32b, Float \nUrc2MAX \n21266 \n0x5312 \n32b, Float \nUrc3Time \n21268 \n0x5314 \n64b \nUrc3AVG \n21272 \n0x5318 \n32b, Float \nUrc3MIN \n21274 \n0x531A \n32b, Float \nUrc3MAX \n21276 \n0x531C \n32b, Float \n \nRCS-Meldung Startbit 1 und 2 (RMS-Wert) \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nUrc1 b1 \n21278 \n0x531E \n32b, Float \nUrc1 b2 \n21280 \n0x5320 \n32b, Float \nUrc2 b1 \n21282 \n0x5322 \n32b, Float \nUrc2 b2 \n21284 \n0x5324 \n32b, Float \nUrc3 b1 \n21286 \n0x5326 \n32b, Float \nUrc3 b2 \n21288 \n0x5328 \n32b, Float \nUrc150ms \n21290 \n0x532A \n32b, Float \nUrc250ms \n21292 \n0x532C \n32b, Float \nUrc350ms \n21294 \n0x532E \n32b, Float \n \n3.20 0x6000 Modbus master readout values (opt. MM module) \nThe Modbus master reads its own configured input data or from other devices (slaves) that \nare connected to its serial line. It converts all input data into a block of uniform values"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 149,
+          "page": 55,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "8\n16b \nR \nBackup FW main version (4._._._) \n46345 \n0xB50\n9 \n16b \nR \nBackup-FW subversion (_0._._._) \n46346 \n0xB50\nA\n16b \nR \nBackup FW revision (_._.13._) \n46347 \n0xB50\nB\n16b \nR \nBackup-FW build \n(_._._.4125) \n46348 \n0xB50\nC \n16b \nR \nWrite date of factory firmware \n46349 \n0xB50\nD \n32b \nKMB \ntime \nWrite date of backup firmware \n46351 \n0xB50\nF \n32b \nKMB \ntime \nTimeout for FW update \n46353 \n0xB51\n1\n32b \nR/W \nFirmware update step by step \n1. check whether the device is ready to receive data in 0xB202. \n2. set 0 to 0xB000 for the first 1 kB data block. (For the second block, set 1, etc.) \n3. write a 1 kB data block, divided into 512 chunks of 16 b, in 0xB001-0xB200. \n4. write the checksum of the 1 kB block to 0xB201. \n5. check the result of the checksum in 0xB202. If the result is 1, return to point 2 and \ncontinue with another 1 kB block. \n6. when all 1 kB blocks have been written: Write 110 after 0xB202 to start the CRC \ncheck."
+        }
+      ],
+      "parity": [
+        {
+          "rank": 1,
+          "chunk_id": 5,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "3.6 \n0x0600 Resetting values ........................................................................................17 \n3.7 \n0x0630 Reset to factory settings ............................................................................17 \n3.8 \n0x0700 Configurable settings .................................................................................18 \n3.9 \n0x0800 Read-only settings .....................................................................................18 \n3.9.1 \n0x0800 COM1 .................................................................................................18 \n3.9.2 \n0x0820 COM2 .................................................................................................19 \n3.9.3 \n0x0840 ETH1 ..................................................................................................20 \n3.10 \n0x0900 MMB system configuration - local bus ........................................................20 \n3.11"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 46,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "so that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705 \n32b, Float \nYes \nNominal power Pnom (3P) \n1799 \n0x0707 \n32b, Float \nYes \nPrimary VT \n1801 \n0x0709 \n16b (Range 1 – 65535) \nYes \nSecondary VT \n1802 \n0x070A \n16b (Range 1 – 65535) \nYes \nMultiplier VT \n1803 \n0x070B \n32b, Float \nYes \nPrimary VTN \n1805 \n0x070D \n16b (Range 1 – 65535) \nYes \nSecondary VTN \n1806 \n0x070E \n16b (Range 1 – 65535) \nYes \nMultiplier VTN \n1807 \n0x070F \n32b, Float \nYes \nPrimary CT \n1809 \n0x0711 \n16b \nYes \nSecondary CT \n1810 \n0x0712 \n16b \nYes \nMultiplier CT \n1811 \n0x0713 \n32b, Float \nYes \nPrimary CTN \n1813 \n0x0715 \n16b \nYes \nSecondary CTN \n1814 \n0x0716 \n16b \nYes \nMultiplier CTN \n1815 \n0x0717 \n32b, Float \nYes \nNominal current Inom \n1817 \n0x0719 \n32b, Float \nYes \n \n3.9 0x0800 Read-only settings"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 122,
+          "page": 46,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 47 of 60 \n \nRevision 03/2024 \n \n(2) The duration of the base interval for the power quality assessment can be changed by the user in the device configuration. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nfalways \n20995 \n0x5203 \n16b \nfbelow \n20996 \n0x5204 \n16b \nfabove \n20997 \n0x5205 \n16b \nU1 \n20998 \n0x5206 \n32b, Float \nU2 \n21000 \n0x5208 \n32b, Float \nU3 \n21002 \n0x520A \n32b, Float \nU4 \n21004 \n0x520C \n32b, Float \nTHDU 1 \n21006 \n0x520E \n32b, Float \nTHDU 2 \n21008 \n0x5210 \n32b, Float \nTHDU 3 \n21010 \n0x5212 \n32b, Float \nTHDU 4 \n21012 \n0x5214 \n32b, Float \nUharm1 \n21014 \n0x5216 \n64b \nUharm2 \n21018 \n0x521A \n64b \nUharm3 \n21022 \n0x521E \n64b \nUharm4 \n21026 \n0x5222 \n64b \nPST 1 \n21030 \n0x5226 \n32b, Float \nPST 2 \n21032 \n0x5228 \n32b, Float \nPST 3 \n21034 \n0x522A \n32b, Float \nPST 4 \n21036 \n0x522C \n32b, Float \nUNBU \n21038 \n0x522E \n32b, Float \nRCScount \n21040 \n0x522F \n16 Bit, uint \nRCSL1 \n21041 \n0x5230 \n16 Bit, uint \nRCSL2 \n21042 \n0x5231 \n16 Bit, uint \nRCSL3 \n21043 \n0x5232"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 48,
+          "page": 18,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 19 of 60 \n \nRevision 03/2024 \n• \nDevice address: configurable address of the slave unit. 0 and 249..255 are reserved \naddresses. \n• \nBaud rate: Communication speed in baud. \n• \nParity: 0 = none, 1 = even, 2 = odd. \n• \nData bit + parity: 0 = 8 data bits + no parity, 1 = 8 data bits + 1 parity bit (odd or \neven). \n• \nStop bit: 0 = one stop bit, 1 = two stop bits. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nCOM Modbus Master \n2048 \n0x0800 \n16b \nDevice address \n2049 \n0x0801 \n16b \nBaud rate \n2050 \n0x0802 \n32b, uint \nParity \n2052 \n0x0804 \n16b \nData bits + parity \n2053 \n0x0805 \n16b \nStop bit \n2054 \n0x0806 \n16b \n \n3.9.2 0x0820 COM2 \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nDevice address \n2080 \n0x0820 \n16b \nBaud rate \n2081 \n0x0821 \n32b \nParity \n2083 \n0x0823 \n16b \nData bits + parity \n2084 \n0x0824 \n16b \nStop bit \n2085 \n0x0825 \n16b"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "3.9.3 \n0x0840 ETH1 ..................................................................................................20 \n3.10 \n0x0900 MMB system configuration - local bus ........................................................20 \n3.11 \n0x0C00ELOG .........................................................................................................22 \n3.12 \n0x0D00 PQ configuration .......................................................................................22"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 47,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Yes \nSecondary CT \n1810 \n0x0712 \n16b \nYes \nMultiplier CT \n1811 \n0x0713 \n32b, Float \nYes \nPrimary CTN \n1813 \n0x0715 \n16b \nYes \nSecondary CTN \n1814 \n0x0716 \n16b \nYes \nMultiplier CTN \n1815 \n0x0717 \n32b, Float \nYes \nNominal current Inom \n1817 \n0x0719 \n32b, Float \nYes \n \n3.9 0x0800 Read-only settings \nIf the device does not have a specific interface, there is no access to the corresponding \naddresses. \n3.9.1 0x0800 COM1 \n• \nCOM Modbus Master specifies which port is used for the Modbus master module \nwhen it is used. Indexed from zero, COM1 = 0, COM2 = 1."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 45,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 18 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nFunction 16 \nDEZ \nHEX \nTime of the last \nconfiguration change \n1584 \n0x0630 \nu32, KMB time \nReset to factory settings: write \n0xFFFF0001 \n \n3.8 0x0700 Configurable settings \nThe configurable settings, as shown in the following table, can be changed using Modbus \nfunction 16 (write multiple registers). When the device receives a message with this function, \nall associated registers are saved. If necessary, the soft erase action is performed before \nsending a response to the request. The need for this action results from the change of \ncertain registers - see column \"Soft Erase\". The change is then also written to the device log \nso that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 58,
+          "page": 23,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 24 of 60 \n \nRevision 03/2024 \nLimit value for the 2nd \nharmonic \n3381 – \n3421 \n0x0D35-\n0x0D5D \n32b, Float, R/W \n \nLimit value for the 3rd \nharmonic \n3423 \n0x0D5F \n32b, Float, R/W \n \n \n3.13 0x1000 Actual data \n3.13.1 0x1000 Released actual data \nThe configuration change counter counts the number of configuration changes and can \ntherefore be used to recognise every change in the device configuration. \n \nError code - 32 bits indicates the current status of device operation - value 0 of a specified \nbit indicates correct operation, value 1 indicates a possible problem. \n0x01 RAM error \n0x02 Device configuration error \n0x04 Device calibration error \n0x08 Error in the remote communication module (Wifi/Zigbee) \n0x10 Clock error (RTC) \n0x80 Device archive error \n0x100 Flash memory error \n0x200 Display error \nPhase sequence recognises a current phase sequence. \n0 - Unknown \n1 - Correct phase sequence 1-2-3 \n-1 - Inverted phase sequence 1-3-2"
+        }
+      ],
+      "stop_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 5,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "3.6 \n0x0600 Resetting values ........................................................................................17 \n3.7 \n0x0630 Reset to factory settings ............................................................................17 \n3.8 \n0x0700 Configurable settings .................................................................................18 \n3.9 \n0x0800 Read-only settings .....................................................................................18 \n3.9.1 \n0x0800 COM1 .................................................................................................18 \n3.9.2 \n0x0820 COM2 .................................................................................................19 \n3.9.3 \n0x0840 ETH1 ..................................................................................................20 \n3.10 \n0x0900 MMB system configuration - local bus ........................................................20 \n3.11"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 48,
+          "page": 18,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 19 of 60 \n \nRevision 03/2024 \n• \nDevice address: configurable address of the slave unit. 0 and 249..255 are reserved \naddresses. \n• \nBaud rate: Communication speed in baud. \n• \nParity: 0 = none, 1 = even, 2 = odd. \n• \nData bit + parity: 0 = 8 data bits + no parity, 1 = 8 data bits + 1 parity bit (odd or \neven). \n• \nStop bit: 0 = one stop bit, 1 = two stop bits. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nCOM Modbus Master \n2048 \n0x0800 \n16b \nDevice address \n2049 \n0x0801 \n16b \nBaud rate \n2050 \n0x0802 \n32b, uint \nParity \n2052 \n0x0804 \n16b \nData bits + parity \n2053 \n0x0805 \n16b \nStop bit \n2054 \n0x0806 \n16b \n \n3.9.2 0x0820 COM2 \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nDevice address \n2080 \n0x0820 \n16b \nBaud rate \n2081 \n0x0821 \n32b \nParity \n2083 \n0x0823 \n16b \nData bits + parity \n2084 \n0x0824 \n16b \nStop bit \n2085 \n0x0825 \n16b"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 45,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 18 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nFunction 16 \nDEZ \nHEX \nTime of the last \nconfiguration change \n1584 \n0x0630 \nu32, KMB time \nReset to factory settings: write \n0xFFFF0001 \n \n3.8 0x0700 Configurable settings \nThe configurable settings, as shown in the following table, can be changed using Modbus \nfunction 16 (write multiple registers). When the device receives a message with this function, \nall associated registers are saved. If necessary, the soft erase action is performed before \nsending a response to the request. The need for this action results from the change of \ncertain registers - see column \"Soft Erase\". The change is then also written to the device log \nso that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 58,
+          "page": 23,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 24 of 60 \n \nRevision 03/2024 \nLimit value for the 2nd \nharmonic \n3381 – \n3421 \n0x0D35-\n0x0D5D \n32b, Float, R/W \n \nLimit value for the 3rd \nharmonic \n3423 \n0x0D5F \n32b, Float, R/W \n \n \n3.13 0x1000 Actual data \n3.13.1 0x1000 Released actual data \nThe configuration change counter counts the number of configuration changes and can \ntherefore be used to recognise every change in the device configuration. \n \nError code - 32 bits indicates the current status of device operation - value 0 of a specified \nbit indicates correct operation, value 1 indicates a possible problem. \n0x01 RAM error \n0x02 Device configuration error \n0x04 Device calibration error \n0x08 Error in the remote communication module (Wifi/Zigbee) \n0x10 Clock error (RTC) \n0x80 Device archive error \n0x100 Flash memory error \n0x200 Display error \nPhase sequence recognises a current phase sequence. \n0 - Unknown \n1 - Correct phase sequence 1-2-3 \n-1 - Inverted phase sequence 1-3-2"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 122,
+          "page": 46,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 47 of 60 \n \nRevision 03/2024 \n \n(2) The duration of the base interval for the power quality assessment can be changed by the user in the device configuration. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nfalways \n20995 \n0x5203 \n16b \nfbelow \n20996 \n0x5204 \n16b \nfabove \n20997 \n0x5205 \n16b \nU1 \n20998 \n0x5206 \n32b, Float \nU2 \n21000 \n0x5208 \n32b, Float \nU3 \n21002 \n0x520A \n32b, Float \nU4 \n21004 \n0x520C \n32b, Float \nTHDU 1 \n21006 \n0x520E \n32b, Float \nTHDU 2 \n21008 \n0x5210 \n32b, Float \nTHDU 3 \n21010 \n0x5212 \n32b, Float \nTHDU 4 \n21012 \n0x5214 \n32b, Float \nUharm1 \n21014 \n0x5216 \n64b \nUharm2 \n21018 \n0x521A \n64b \nUharm3 \n21022 \n0x521E \n64b \nUharm4 \n21026 \n0x5222 \n64b \nPST 1 \n21030 \n0x5226 \n32b, Float \nPST 2 \n21032 \n0x5228 \n32b, Float \nPST 3 \n21034 \n0x522A \n32b, Float \nPST 4 \n21036 \n0x522C \n32b, Float \nUNBU \n21038 \n0x522E \n32b, Float \nRCScount \n21040 \n0x522F \n16 Bit, uint \nRCSL1 \n21041 \n0x5230 \n16 Bit, uint \nRCSL2 \n21042 \n0x5231 \n16 Bit, uint \nRCSL3 \n21043 \n0x5232"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 15,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "maximum 1.5 characters (bytes) are allowed when a command is received, or a response is \nsent. \nWith the Ethernet option, different applications access different ports at their assigned \naddresses. Modbus TCP, the proprietary KMB protocol and web servers are supported as \nstandard. Modbus Master (MM) and Ethernet-to-Serial Gateway (ES) can be optionally \nactivated. For Modbus TCP, the monitoring port can be configured together with other \nTCP/IP settings (default port: 502). The device responds within a time frame of 200 ms after \nreceiving each command. At least three parallel connections from different masters can be \nprocessed simultaneously by each device. Communication between each master and the \ndevice must follow the single request-response scheme. The master must wait for each \nresponse before sending a new request."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 128,
+          "page": 48,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "64b \nUrc2AVG \n21262 \n0x530E \n32b, Float \nUrc2MIN \n21264 \n0x5310 \n32b, Float \nUrc2MAX \n21266 \n0x5312 \n32b, Float \nUrc3Time \n21268 \n0x5314 \n64b \nUrc3AVG \n21272 \n0x5318 \n32b, Float \nUrc3MIN \n21274 \n0x531A \n32b, Float \nUrc3MAX \n21276 \n0x531C \n32b, Float \n \nRCS-Meldung Startbit 1 und 2 (RMS-Wert) \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nUrc1 b1 \n21278 \n0x531E \n32b, Float \nUrc1 b2 \n21280 \n0x5320 \n32b, Float \nUrc2 b1 \n21282 \n0x5322 \n32b, Float \nUrc2 b2 \n21284 \n0x5324 \n32b, Float \nUrc3 b1 \n21286 \n0x5326 \n32b, Float \nUrc3 b2 \n21288 \n0x5328 \n32b, Float \nUrc150ms \n21290 \n0x532A \n32b, Float \nUrc250ms \n21292 \n0x532C \n32b, Float \nUrc350ms \n21294 \n0x532E \n32b, Float \n \n3.20 0x6000 Modbus master readout values (opt. MM module) \nThe Modbus master reads its own configured input data or from other devices (slaves) that \nare connected to its serial line. It converts all input data into a block of uniform values"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 30,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 12 of 60 \n \nRevision 03/2024 \n1. Write a user name and a PIN of the user with Modbus read or Modbus write \nauthorization in the register range 0 to 8, as shown in Tables 1 and 2. The PIN is \ncoded as a 32-bit unsigned number and written in two registers. The user name is \ncoded in the form of ASCII characters ending with 0 (NULL) and consisting of two \nletters per register. Both the PIN and the user name are expected to be in big-endian \nformat. The user name, the PIN or both together must be sent in a single Modbus \nmessage. \n2. Proceed as usual. \n3. Write 0x00000000 in the PIN register - this will immediately block any potentially \nillegal communication. This happens automatically one hour after entering the PIN. \n \nAll Modbus login registers are only enabled for writing. \n3.2 0x0100 Device real-time clock control (RTC) \nThe time can be read, set or adjusted using the following tabs and with correct \nauthentication."
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 45,
+        "page": 17,
+        "score": 14,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Manual Modbus \n \npage 18 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nFunction 16 \nDEZ \nHEX \nTime of the last \nconfiguration change \n1584 \n0x0630 \nu32, KMB time \nReset to factory settings: write \n0xFFFF0001 \n \n3.8 0x0700 Configurable settings \nThe configurable settings, as shown in the following table, can be changed using Modbus \nfunction 16 (write multiple registers). When the device receives a message with this function, \nall associated registers are saved. If necessary, the soft erase action is performed before \nsending a response to the request. The need for this action results from the change of \ncertain registers - see column \"Soft Erase\". The change is then also written to the device log \nso that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705"
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 48,
+        "page": 18,
+        "score": 12,
+        "bucket": "communication",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Manual Modbus \n \npage 19 of 60 \n \nRevision 03/2024 \n• \nDevice address: configurable address of the slave unit. 0 and 249..255 are reserved \naddresses. \n• \nBaud rate: Communication speed in baud. \n• \nParity: 0 = none, 1 = even, 2 = odd. \n• \nData bit + parity: 0 = 8 data bits + no parity, 1 = 8 data bits + 1 parity bit (odd or \neven). \n• \nStop bit: 0 = one stop bit, 1 = two stop bits. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nCOM Modbus Master \n2048 \n0x0800 \n16b \nDevice address \n2049 \n0x0801 \n16b \nBaud rate \n2050 \n0x0802 \n32b, uint \nParity \n2052 \n0x0804 \n16b \nData bits + parity \n2053 \n0x0805 \n16b \nStop bit \n2054 \n0x0806 \n16b \n \n3.9.2 0x0820 COM2 \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nDevice address \n2080 \n0x0820 \n16b \nBaud rate \n2081 \n0x0821 \n32b \nParity \n2083 \n0x0823 \n16b \nData bits + parity \n2084 \n0x0824 \n16b \nStop bit \n2085 \n0x0825 \n16b"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 46,
+        "page": 17,
+        "score": 12,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits",
+          "parity"
+        ],
+        "content": "so that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705 \n32b, Float \nYes \nNominal power Pnom (3P) \n1799 \n0x0707 \n32b, Float \nYes \nPrimary VT \n1801 \n0x0709 \n16b (Range 1 – 65535) \nYes \nSecondary VT \n1802 \n0x070A \n16b (Range 1 – 65535) \nYes \nMultiplier VT \n1803 \n0x070B \n32b, Float \nYes \nPrimary VTN \n1805 \n0x070D \n16b (Range 1 – 65535) \nYes \nSecondary VTN \n1806 \n0x070E \n16b (Range 1 – 65535) \nYes \nMultiplier VTN \n1807 \n0x070F \n32b, Float \nYes \nPrimary CT \n1809 \n0x0711 \n16b \nYes \nSecondary CT \n1810 \n0x0712 \n16b \nYes \nMultiplier CT \n1811 \n0x0713 \n32b, Float \nYes \nPrimary CTN \n1813 \n0x0715 \n16b \nYes \nSecondary CTN \n1814 \n0x0716 \n16b \nYes \nMultiplier CTN \n1815 \n0x0717 \n32b, Float \nYes \nNominal current Inom \n1817 \n0x0719 \n32b, Float \nYes \n \n3.9 0x0800 Read-only settings"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 44,
+        "page": 16,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "Assigned data \nBase address \nSize/Type \nFunction 16 \nDEZ \nHEX \nLast energy meter deletion time \n1536 \n0x0600 \nu32, KMB time \nWrite something to reset \nLast AVG, min/max U/I deletion \ntime \n1538 \n0x0602 \nu32, KMB time \nWrite something to reset \nLast AVG, min/max P/Q \ndeletion time \n1540 \n0x0604 \nu32, KMB time \nWrite something to reset \nLast request deletion time \n1542 \n0x0606 \nu32, KMB time \nWrite something to reset \nLast RCM deletion time \n1544 \n0x0608 \nu32, KMB time \nWrite something to reset \nLast voltage event table \ndeletion time \n1546 \n0x060A \nu32, KMB time \nWrite something to reset \n \n3.7 0x0630 Reset to factory settings \nResets the device to the factory default configuration. All user-defined settings and \nrecordings except for the communication parameters are reset to the factory settings."
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 14,
+        "page": 5,
+        "score": 7,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "Manual Modbus \n \npage 6 of 60 \n \nRevision 03/2024 \n1 Communication options \nEach device is equipped with RS-485 or a local USB port and various other remote \ncommunication ports. The USB port can be used for data acquisition, configuration and \nstatus checks using the proprietary protocol supported by MIEZ software suite. With remote \nserial communication, Modbus RTU or TCP is supported respectively for easy and open \naccess to all measured actual values. \nWith serial lines, the protocol is automatically recognized between proprietary KMB \nmessages and the standard Modbus RTU. For this option, the device address, baud rate and \nparity must be specified (see user manual for more information). Spaces between bytes of \nmaximum 1.5 characters (bytes) are allowed when a command is received, or a response is \nsent. \nWith the Ethernet option, different applications access different ports at their assigned \naddresses. Modbus TCP, the proprietary KMB protocol and web servers are supported as"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 15,
+        "page": 5,
+        "score": 7,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "stop_bits"
+        ],
+        "content": "maximum 1.5 characters (bytes) are allowed when a command is received, or a response is \nsent. \nWith the Ethernet option, different applications access different ports at their assigned \naddresses. Modbus TCP, the proprietary KMB protocol and web servers are supported as \nstandard. Modbus Master (MM) and Ethernet-to-Serial Gateway (ES) can be optionally \nactivated. For Modbus TCP, the monitoring port can be configured together with other \nTCP/IP settings (default port: 502). The device responds within a time frame of 200 ms after \nreceiving each command. At least three parallel connections from different masters can be \nprocessed simultaneously by each device. Communication between each master and the \ndevice must follow the single request-response scheme. The master must wait for each \nresponse before sending a new request."
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 128,
+        "page": 48,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits",
+          "stop_bits"
+        ],
+        "content": "64b \nUrc2AVG \n21262 \n0x530E \n32b, Float \nUrc2MIN \n21264 \n0x5310 \n32b, Float \nUrc2MAX \n21266 \n0x5312 \n32b, Float \nUrc3Time \n21268 \n0x5314 \n64b \nUrc3AVG \n21272 \n0x5318 \n32b, Float \nUrc3MIN \n21274 \n0x531A \n32b, Float \nUrc3MAX \n21276 \n0x531C \n32b, Float \n \nRCS-Meldung Startbit 1 und 2 (RMS-Wert) \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nUrc1 b1 \n21278 \n0x531E \n32b, Float \nUrc1 b2 \n21280 \n0x5320 \n32b, Float \nUrc2 b1 \n21282 \n0x5322 \n32b, Float \nUrc2 b2 \n21284 \n0x5324 \n32b, Float \nUrc3 b1 \n21286 \n0x5326 \n32b, Float \nUrc3 b2 \n21288 \n0x5328 \n32b, Float \nUrc150ms \n21290 \n0x532A \n32b, Float \nUrc250ms \n21292 \n0x532C \n32b, Float \nUrc350ms \n21294 \n0x532E \n32b, Float \n \n3.20 0x6000 Modbus master readout values (opt. MM module) \nThe Modbus master reads its own configured input data or from other devices (slaves) that \nare connected to its serial line. It converts all input data into a block of uniform values"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 5,
+        "page": 2,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "3.6 \n0x0600 Resetting values ........................................................................................17 \n3.7 \n0x0630 Reset to factory settings ............................................................................17 \n3.8 \n0x0700 Configurable settings .................................................................................18 \n3.9 \n0x0800 Read-only settings .....................................................................................18 \n3.9.1 \n0x0800 COM1 .................................................................................................18 \n3.9.2 \n0x0820 COM2 .................................................................................................19 \n3.9.3 \n0x0840 ETH1 ..................................................................................................20 \n3.10 \n0x0900 MMB system configuration - local bus ........................................................20 \n3.11"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 122,
+        "page": 46,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Manual Modbus \n \npage 47 of 60 \n \nRevision 03/2024 \n \n(2) The duration of the base interval for the power quality assessment can be changed by the user in the device configuration. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nfalways \n20995 \n0x5203 \n16b \nfbelow \n20996 \n0x5204 \n16b \nfabove \n20997 \n0x5205 \n16b \nU1 \n20998 \n0x5206 \n32b, Float \nU2 \n21000 \n0x5208 \n32b, Float \nU3 \n21002 \n0x520A \n32b, Float \nU4 \n21004 \n0x520C \n32b, Float \nTHDU 1 \n21006 \n0x520E \n32b, Float \nTHDU 2 \n21008 \n0x5210 \n32b, Float \nTHDU 3 \n21010 \n0x5212 \n32b, Float \nTHDU 4 \n21012 \n0x5214 \n32b, Float \nUharm1 \n21014 \n0x5216 \n64b \nUharm2 \n21018 \n0x521A \n64b \nUharm3 \n21022 \n0x521E \n64b \nUharm4 \n21026 \n0x5222 \n64b \nPST 1 \n21030 \n0x5226 \n32b, Float \nPST 2 \n21032 \n0x5228 \n32b, Float \nPST 3 \n21034 \n0x522A \n32b, Float \nPST 4 \n21036 \n0x522C \n32b, Float \nUNBU \n21038 \n0x522E \n32b, Float \nRCScount \n21040 \n0x522F \n16 Bit, uint \nRCSL1 \n21041 \n0x5230 \n16 Bit, uint \nRCSL2 \n21042 \n0x5231 \n16 Bit, uint \nRCSL3 \n21043 \n0x5232"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 58,
+        "page": 23,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Manual Modbus \n \npage 24 of 60 \n \nRevision 03/2024 \nLimit value for the 2nd \nharmonic \n3381 – \n3421 \n0x0D35-\n0x0D5D \n32b, Float, R/W \n \nLimit value for the 3rd \nharmonic \n3423 \n0x0D5F \n32b, Float, R/W \n \n \n3.13 0x1000 Actual data \n3.13.1 0x1000 Released actual data \nThe configuration change counter counts the number of configuration changes and can \ntherefore be used to recognise every change in the device configuration. \n \nError code - 32 bits indicates the current status of device operation - value 0 of a specified \nbit indicates correct operation, value 1 indicates a possible problem. \n0x01 RAM error \n0x02 Device configuration error \n0x04 Device calibration error \n0x08 Error in the remote communication module (Wifi/Zigbee) \n0x10 Clock error (RTC) \n0x80 Device archive error \n0x100 Flash memory error \n0x200 Display error \nPhase sequence recognises a current phase sequence. \n0 - Unknown \n1 - Correct phase sequence 1-2-3 \n-1 - Inverted phase sequence 1-3-2"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 76,
+        "page": 30,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "Manual Modbus \n \npage 31 of 60 \n \nRevision 03/2024 \nAssigned data \nDEZ \nHEX \nSize/Type \nU1h5 \n7936 \n0x1F00 \n32b, Float \nU1h7 \n7938 \n0x1F02 \n32b, Float \nU1h9 \n7940 \n0x1F04 \n32b, Float \nU1h11 \n7942 \n0x1F06 \n32b, Float \nU1h13 \n7944 \n0x1F08 \n32b, Float \nU2h5 \n7946 \n0x1F0A \n32b, Float \nU2h7 \n7948 \n0x1F0C \n32b, Float \nU2h9 \n7950 \n0x1F0E \n32b, Float \nU2h11 \n7952 \n0x1F10 \n32b, Float \nU2h13 \n7954 \n0x1F12 \n32b, Float \nU3h5 \n7956 \n0x1F14 \n32b, Float \nU3h7 \n7958 \n0x1F16 \n32b, Float \nU3h9 \n7960 \n0x1F18 \n32b, Float \nU3h11 \n7962 \n0x1F1A \n32b, Float \nU3h13 \n7964 \n0x1F1C \n32b, Float \nI1h5 \n7966 \n0x1F1E \n32b, Float \nI1h7 \n7968 \n0x1F20 \n32b, Float \nI1h9 \n7970 \n0x1F22 \n32b, Float \nI1h11 \n7972 \n0x1F24 \n32b, Float \nI1h13 \n7974 \n0x1F26 \n32b, Float \nI2h5 \n7976 \n0x1F28 \n32b, Float \nI2h7 \n7978 \n0x1F2A \n32b, Float \nI2h9 \n7980 \n0x1F2C \n32b, Float \nI2h11 \n7982 \n0x1F2E \n32b, Float \nI2h13 \n7984 \n0x1F30 \n32b, Float \nI3h5 \n7986 \n0x1F32 \n32b, Float \nI3h7 \n7988 \n0x1F34 \n32b, Float \nI3h9 \n7990 \n0x1F36 \n32b, Float \nI3h11"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 104,
+        "page": 40,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "Manual Modbus \n \npage 41 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19760 \n0x4D30 \n32b, Float \nA \nlast I∆2 maximum \n19762 \n0x4D32 \n32b, Float \nA \nlast I∆3 maximum \n19764 \n0x4D34 \n32b, Float \nA \nlast I∆4 maximum \n19766 \n0x4D36 \n32b, Float \nA \nlast I∆5 maximum \n19768 \n0x4D38 \n32b, Float \nA \nlast I∆6 maximum \n19770 \n0x4D3A \n32b, Float \nA \nlast I∆7 maximum \n19770 \n0x4D3C \n32b, Float \nA \nlast I∆8 maximum \n19772 \n0x4D3E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19776 \n0x4D40 \n32b, Float \nA \nlast I∆2 maximum \n19778 \n0x4D42 \n32b, Float \nA \nlast I∆3 maximum \n19780 \n0x4D44 \n32b, Float \nA \nlast I∆4 maximum \n19782 \n0x4D46 \n32b, Float \nA \nlast I∆5 maximum \n19784 \n0x4D48 \n32b, Float \nA \nlast I∆6 maximum \n19786 \n0x4D4A \n32b, Float \nA \nlast I∆7 maximum \n19788 \n0x4D4C \n32b, Float \nA \nlast I∆8 maximum \n19790 \n0x4D4E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nI∆1"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 95,
+        "page": 37,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "Manual Modbus \n \npage 38 of 60 \n \nRevision 03/2024 \n3.15.4 0x4800-0x48FF Minimum since data reset \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nU1 \n18488 \n4838 \n32-Bit, Float \nV \nU2 \n18490 \n483A \n32-Bit, Float \nV \nU3 \n18492 \n483C \n32-Bit, Float \nV \nU12 \n18494 \n483E \n32-Bit, Float \nV \nU23 \n18496 \n4840 \n32-Bit, Float \nV \nU31 \n18498 \n4842 \n32-Bit, Float \nV \nI1 \n18500 \n4844 \n32-Bit, Float \nA \nI2 \n18502 \n4846 \n32-Bit, Float \nA \nI3 \n18504 \n4848 \n32-Bit, Float \nA \nIN=I1+I2+I3 \n18506 \n484A \n32-Bit, Float \nA \nP1 \n18508 \n484C \n32-Bit, Float \nW \nP2 \n18510 \n484E \n32-Bit, Float \nW \nP3 \n18512 \n4850 \n32-Bit, Float \nW \n3P \n18514 \n4852 \n32-Bit, Float \nW \nS1 \n18516 \n4854 \n32-Bit, Float \nVA \nS2 \n18518 \n4856 \n32-Bit, Float \nVA \nS3 \n18520 \n4858 \n32-Bit, Float \nVA \n3S \n18522 \n485A \n32-Bit, Float \nVA \nQ1 \n18524 \n485C \n32-Bit, Float \nvar \nQ2 \n18526 \n485E \n32-Bit, Float \nvar \nQ3 \n18528 \n4860 \n32-Bit, Float \nvar \n3Q \n18530 \n4862 \n32-Bit, Float \nvar \nCosPhi1 \n18532 \n4864 \n32-Bit, Float \n– \nCosPhi2"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 35,
+        "page": 13,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "Manual Modbus \n \npage 14 of 60 \n \nRevision 03/2024 \nRequest evaluation interval \n349 \n0x015D \n16b \n0: day, 1: week, 2: month, 3: quarter, \n4: year \nRequest averaging time \n350 \n0x015E \n32b \nSecond \nRequirement limit value \n(3p) \n352 \n0x0160 \n32b, Float \nW \nIrcm averaging time \n354 \n0x0162 \n32b \n200 ms step \nIrcm min/max reset \n356 \n0x0164 \n32b \nsee 'Reset procedure' below... \n \nReset procedure: \n0xFFFFFFFFFF: manual, \n<60: seconds, \n<60*60: minutes, \n<86400: hours, \n=86400: every day, \n=86400*7: every week, \n=86400*30: every month, \n=86400*365: every year \n3.4 0x200 Device identification \nAssigned data \nBase address \nSize/Ty\npe \nEncoding \nDEZ \nHEX \nRuntime \n512 \n0x0200 \n64b \nKMB time \nGMT time \n516 \n0x0204 \n64b \nKMB time \nPROPS_TYP \n520 \n0x0208 \n16b \n \nDEVICE_TYPE \n521 \n0x0209 \n16b \n \nLOWER UNIT TYPE 1 \n522 \n0x020A \n16b \n \nLOWER UNIT TYPE 2 \n523 \n0x020B \n16b \n \nLOWER UNIT TYPE 3 \n524 \n0x020C \n16b \n \nLOWER UNIT TYPE 4 \n525 \n0x020D \n16b \n \nLOWER UNIT TYPE 5 \n526 \n0x020E \n16b"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 148,
+        "page": 55,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits"
+        ],
+        "content": "Manual Modbus \n \npage 56 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Typ\ne \nR/W \nDEZ \nHEX \nBootloader version \n4633\n6\n0xB500 \n16b \nR \nFW main version (4. . . ) \n4633\n0xB501 \n16b \nR \nFW minor version ( .0. . ) \n4633\n8\n0xB502 \n16b \nR \nFW revision ( . .13. ) \n4633\n9\n0xB503 \n16b \nR \nFW build ( . . .4125) \n4634\n0\n0xB504 \n16b \nR \nFactory FW main version (4. . \n. ) \n4634\n1 \n0xB505 \n16b \nR \n \n3) Big endian byte sequence \n4) Checksum = sum of all bytes & 0xFFFF \n \nAssigned data \nBase address \nSize/Ty\npe \nR/W \nDEZ \nHEX \nFactory FW sub-version \n(\n0\n)\n46342 \n0xB50\n6\n16b \nR \nFactory FW revision (_._.13._) \n46343 \n0xB50\n16b \nR \nFactory FW build (_._._.4125) \n46344 \n0xB50\n8\n16b \nR \nBackup FW main version (4._._._) \n46345 \n0xB50\n9 \n16b \nR \nBackup-FW subversion (_0._._._) \n46346 \n0xB50\nA\n16b \nR \nBackup FW revision (_._.13._) \n46347 \n0xB50\nB\n16b \nR \nBackup-FW build \n(_._._.4125) \n46348 \n0xB50\nC \n16b \nR \nWrite date of factory firmware \n46349 \n0xB50\nD \n32b \nKMB \ntime"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 17,
+        "page": 6,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "register(s), as shown in the diagram in the following subsections. The Modbus protocol is \nbased on variable assignments in 16-bit registers. Single-byte quantities are stored in such a \nregister in the format 0x00 nn, where nn is a single-byte parameter. For multi-byte sets, the \nbyte order is a big-endian. 32-bit and 64-bit integers and floating-point numbers are sorted \nserially in subsequent 16-bit registers from MSB to LSB. Floating point numbers are encoded \nusing the IEEE 754 format for floating point numbers. See example below, the coded number \nin the example is 0.1875. \nbit \n31 \n30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 \nmeaning \nsign \nexponent (8 bits) \nfraction (23 bits) \nexample \n0 \n0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 \n \nThe number format with double precision has 64 bits and is coded like a floating point \nnumber with an exponent of 11 bits and a 52-bit fraction."
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 18,
+        "page": 6,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "meaning \nsign \nexponent (8 bits) \nfraction (23 bits) \nexample \n0 \n0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 \n \nThe number format with double precision has 64 bits and is coded like a floating point \nnumber with an exponent of 11 bits and a 52-bit fraction. \nThe date and time are stored in 64-bit or 32-bit MBM time format. The value indicates the \nnumber of milliseconds (64-bit) or seconds (32-bit) since 1.1.2000 00:00 UTC. ANSI C, C++ \nand .NET C# functions (sample code) can be provided on request. \nEach logical block of values is stored within the array of registers starting at the base \naddress (organized like the chapters and sections in this document)."
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 51,
+        "page": 19,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "16b, R \nDeviceAdr \n2393 \n0x0959 \n16b, R \nBootloader version \n2394 \n0x095A \n16b, R \nSUBDEVICE TYPE 1 \n2395 \n0x095B \n16b, R \nSUBDEVICE TYPE 2 \n2396 \n0x095C \n16b, R \nSUBDEVICE TYPE 3 \n2397 \n0x095D \n16b, R \nSUBDEVICE TYPE 4 \n2398 \n0x095E \n16b, R \nSUBDEVICE TYPE 5 \n2399 \n0x095F \n16b, R \nSUB-UNIT TYPE 6 \n2400 \n0x0960 \n16b, R \nNumber of current inputs \n2401 \n0x0961 \n16b, R \nSn \n2402 \n0x0962 \n16b, R \nDEVICE_TYPE \n2403 \n0x0963 \n16b, R \nSUB UNIT TYPE \n2404 \n0x0964 \n16b, R"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 149,
+        "page": 55,
+        "score": 3,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "8\n16b \nR \nBackup FW main version (4._._._) \n46345 \n0xB50\n9 \n16b \nR \nBackup-FW subversion (_0._._._) \n46346 \n0xB50\nA\n16b \nR \nBackup FW revision (_._.13._) \n46347 \n0xB50\nB\n16b \nR \nBackup-FW build \n(_._._.4125) \n46348 \n0xB50\nC \n16b \nR \nWrite date of factory firmware \n46349 \n0xB50\nD \n32b \nKMB \ntime \nWrite date of backup firmware \n46351 \n0xB50\nF \n32b \nKMB \ntime \nTimeout for FW update \n46353 \n0xB51\n1\n32b \nR/W \nFirmware update step by step \n1. check whether the device is ready to receive data in 0xB202. \n2. set 0 to 0xB000 for the first 1 kB data block. (For the second block, set 1, etc.) \n3. write a 1 kB data block, divided into 512 chunks of 16 b, in 0xB001-0xB200. \n4. write the checksum of the 1 kB block to 0xB201. \n5. check the result of the checksum in 0xB202. If the result is 1, return to point 2 and \ncontinue with another 1 kB block. \n6. when all 1 kB blocks have been written: Write 110 after 0xB202 to start the CRC \ncheck."
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 30,
+        "page": 11,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "stop_bits"
+        ],
+        "content": "Manual Modbus \n \npage 12 of 60 \n \nRevision 03/2024 \n1. Write a user name and a PIN of the user with Modbus read or Modbus write \nauthorization in the register range 0 to 8, as shown in Tables 1 and 2. The PIN is \ncoded as a 32-bit unsigned number and written in two registers. The user name is \ncoded in the form of ASCII characters ending with 0 (NULL) and consisting of two \nletters per register. Both the PIN and the user name are expected to be in big-endian \nformat. The user name, the PIN or both together must be sent in a single Modbus \nmessage. \n2. Proceed as usual. \n3. Write 0x00000000 in the PIN register - this will immediately block any potentially \nillegal communication. This happens automatically one hour after entering the PIN. \n \nAll Modbus login registers are only enabled for writing. \n3.2 0x0100 Device real-time clock control (RTC) \nThe time can be read, set or adjusted using the following tabs and with correct \nauthentication."
+      }
+    ]
+  },
+  {
+    "pass_name": "transaction",
+    "parameters": [
+      "nodeAddress",
+      "name",
+      "modbusAddressingMode",
+      "transactionName",
+      "requestFC",
+      "startAddr",
+      "quantity",
+      "responseFC",
+      "byteCount",
+      "dataLength"
+    ],
+    "raw_top_k_per_query": {
+      "node_address": [
+        {
+          "rank": 1,
+          "chunk_id": 49,
+          "page": 19,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 20 of 60 \n \nRevision 03/2024 \n3.9.3 0x0840 ETH1 \n• \nDHCP: 0 = deactivated, 1 = activated \n \nAssigned data \nBase address address \nSize/Type \nDEZ \nHEX \nDHCP \n2112 \n0x0840 \n16b \nIP address \n2113 \n0x0841 \n32b \nNetmask \n2115 \n0x0843 \n32b \nGateway \n2117 \n0x0845 \n32b \nKMB port \n2119 \n0x0847 \n16b \nModbus port \n2120 \n0x0848 \n16b \nWeb server port \n2121 \n0x0849 \n16b \nMAC PORT \n2122 \n0x084A \n64b \n \n3.10 0x0900 MMB system configuration - local bus \n• \nThe registers 0x0982-0x0A18 are individual for each supply line and should be \naddressed via the Modbus address of the individual supply lines. \nAssigned data \nBase address address \nSize/Type \nDEZ \nHEX \nSN of the 1st configured (fce4)/non-configured \n(FCE3) module \n2304 \n \n0x0900 \n16b, R/W \nSN of the 2nd configured module on the local \nbus \n2312 \n0x0908 \n16b, R/W \nSN of the 3rd first configured module on the \nlocal bus \n2320 \n0x0910 \n16b, R/W \nSN of the 4th first configured module on the \nlocal bus \n2328 \n0x0918 \n16b, R/W"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 45,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 18 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nFunction 16 \nDEZ \nHEX \nTime of the last \nconfiguration change \n1584 \n0x0630 \nu32, KMB time \nReset to factory settings: write \n0xFFFF0001 \n \n3.8 0x0700 Configurable settings \nThe configurable settings, as shown in the following table, can be changed using Modbus \nfunction 16 (write multiple registers). When the device receives a message with this function, \nall associated registers are saved. If necessary, the soft erase action is performed before \nsending a response to the request. The need for this action results from the change of \ncertain registers - see column \"Soft Erase\". The change is then also written to the device log \nso that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 19,
+          "page": 7,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 8 of 60 \n \nRevision 03/2024 \n2.4 Addressing \nThe \"transmission mode\" (\"broadcast mode\") is not supported. Instead, address 0 in its \nconfiguration represents data from the master itself with the Modbus master module. \nStandard Modbus addressing applies to all three-phase single lead analyzers. \nDevices with multiple leads and some multi-channel single phase devices limit the allowable \nbase address range for a device from 1-20. The remaining Modbus address ranges 21-240 \nare reserved to reflect the tab for quantities from leads (channels) 2 to 12. The correct \nModbus address for channel X is determined by this formula: \nModbusAddressX = (X − 1) × 20 + ModbusAddressBasis \n2.5 Example \nModpoll is a free open source tool for Windows, Linux and Solaris that is available to \ndownload free of charge. We support this third-party tool for reference testing of our Modbus \nimplementation. The following examples can be used as a starting point for developing an"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 48,
+          "page": 18,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 19 of 60 \n \nRevision 03/2024 \n• \nDevice address: configurable address of the slave unit. 0 and 249..255 are reserved \naddresses. \n• \nBaud rate: Communication speed in baud. \n• \nParity: 0 = none, 1 = even, 2 = odd. \n• \nData bit + parity: 0 = 8 data bits + no parity, 1 = 8 data bits + 1 parity bit (odd or \neven). \n• \nStop bit: 0 = one stop bit, 1 = two stop bits. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nCOM Modbus Master \n2048 \n0x0800 \n16b \nDevice address \n2049 \n0x0801 \n16b \nBaud rate \n2050 \n0x0802 \n32b, uint \nParity \n2052 \n0x0804 \n16b \nData bits + parity \n2053 \n0x0805 \n16b \nStop bit \n2054 \n0x0806 \n16b \n \n3.9.2 0x0820 COM2 \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nDevice address \n2080 \n0x0820 \n16b \nBaud rate \n2081 \n0x0821 \n32b \nParity \n2083 \n0x0823 \n16b \nData bits + parity \n2084 \n0x0824 \n16b \nStop bit \n2085 \n0x0825 \n16b"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 104,
+          "page": 40,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 41 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19760 \n0x4D30 \n32b, Float \nA \nlast I∆2 maximum \n19762 \n0x4D32 \n32b, Float \nA \nlast I∆3 maximum \n19764 \n0x4D34 \n32b, Float \nA \nlast I∆4 maximum \n19766 \n0x4D36 \n32b, Float \nA \nlast I∆5 maximum \n19768 \n0x4D38 \n32b, Float \nA \nlast I∆6 maximum \n19770 \n0x4D3A \n32b, Float \nA \nlast I∆7 maximum \n19770 \n0x4D3C \n32b, Float \nA \nlast I∆8 maximum \n19772 \n0x4D3E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19776 \n0x4D40 \n32b, Float \nA \nlast I∆2 maximum \n19778 \n0x4D42 \n32b, Float \nA \nlast I∆3 maximum \n19780 \n0x4D44 \n32b, Float \nA \nlast I∆4 maximum \n19782 \n0x4D46 \n32b, Float \nA \nlast I∆5 maximum \n19784 \n0x4D48 \n32b, Float \nA \nlast I∆6 maximum \n19786 \n0x4D4A \n32b, Float \nA \nlast I∆7 maximum \n19788 \n0x4D4C \n32b, Float \nA \nlast I∆8 maximum \n19790 \n0x4D4E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nI∆1"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 95,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 38 of 60 \n \nRevision 03/2024 \n3.15.4 0x4800-0x48FF Minimum since data reset \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nU1 \n18488 \n4838 \n32-Bit, Float \nV \nU2 \n18490 \n483A \n32-Bit, Float \nV \nU3 \n18492 \n483C \n32-Bit, Float \nV \nU12 \n18494 \n483E \n32-Bit, Float \nV \nU23 \n18496 \n4840 \n32-Bit, Float \nV \nU31 \n18498 \n4842 \n32-Bit, Float \nV \nI1 \n18500 \n4844 \n32-Bit, Float \nA \nI2 \n18502 \n4846 \n32-Bit, Float \nA \nI3 \n18504 \n4848 \n32-Bit, Float \nA \nIN=I1+I2+I3 \n18506 \n484A \n32-Bit, Float \nA \nP1 \n18508 \n484C \n32-Bit, Float \nW \nP2 \n18510 \n484E \n32-Bit, Float \nW \nP3 \n18512 \n4850 \n32-Bit, Float \nW \n3P \n18514 \n4852 \n32-Bit, Float \nW \nS1 \n18516 \n4854 \n32-Bit, Float \nVA \nS2 \n18518 \n4856 \n32-Bit, Float \nVA \nS3 \n18520 \n4858 \n32-Bit, Float \nVA \n3S \n18522 \n485A \n32-Bit, Float \nVA \nQ1 \n18524 \n485C \n32-Bit, Float \nvar \nQ2 \n18526 \n485E \n32-Bit, Float \nvar \nQ3 \n18528 \n4860 \n32-Bit, Float \nvar \n3Q \n18530 \n4862 \n32-Bit, Float \nvar \nCosPhi1 \n18532 \n4864 \n32-Bit, Float \n– \nCosPhi2"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 142,
+          "page": 53,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 54 of 60 \n \nRevision 03/2024 \nwhereby m . . .  the mask bit, s . . .  the status bit, ya . . .  the current initial state and yn . . .  \nare the new output status. The specified output therefore only assumes the value \"Status\" if \nthe corresponding \"Mask\" bit has the value 1. Otherwise, the output does not change. \n3.22.3 0x9700 Hour meter (HM) \nDevices with more than 4 channels can have more than 4 hour counters configured in the I/O \nconfiguration. In this case, more than 4 hour meters are available in a virtual device area \nwhose Modbus address is the current device address incremented by 20. \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nHour counter HM1 active \n38656 \n0x9700 \n64b, int \nHour counter HM1 passive \n38660 \n0x9704 \n64b, int \nHour counter HM2 active \n38664 \n0x9708 \n64b, int \nHour counter HM2 passive \n38668 \n0x970C \n64b, int \nHour counter HM3 active \n38672 \n0x9710 \n64b, int \nHour counter HM3 passive \n38676 \n0x9714 \n64b, int"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 122,
+          "page": 46,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 47 of 60 \n \nRevision 03/2024 \n \n(2) The duration of the base interval for the power quality assessment can be changed by the user in the device configuration. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nfalways \n20995 \n0x5203 \n16b \nfbelow \n20996 \n0x5204 \n16b \nfabove \n20997 \n0x5205 \n16b \nU1 \n20998 \n0x5206 \n32b, Float \nU2 \n21000 \n0x5208 \n32b, Float \nU3 \n21002 \n0x520A \n32b, Float \nU4 \n21004 \n0x520C \n32b, Float \nTHDU 1 \n21006 \n0x520E \n32b, Float \nTHDU 2 \n21008 \n0x5210 \n32b, Float \nTHDU 3 \n21010 \n0x5212 \n32b, Float \nTHDU 4 \n21012 \n0x5214 \n32b, Float \nUharm1 \n21014 \n0x5216 \n64b \nUharm2 \n21018 \n0x521A \n64b \nUharm3 \n21022 \n0x521E \n64b \nUharm4 \n21026 \n0x5222 \n64b \nPST 1 \n21030 \n0x5226 \n32b, Float \nPST 2 \n21032 \n0x5228 \n32b, Float \nPST 3 \n21034 \n0x522A \n32b, Float \nPST 4 \n21036 \n0x522C \n32b, Float \nUNBU \n21038 \n0x522E \n32b, Float \nRCScount \n21040 \n0x522F \n16 Bit, uint \nRCSL1 \n21041 \n0x5230 \n16 Bit, uint \nRCSL2 \n21042 \n0x5231 \n16 Bit, uint \nRCSL3 \n21043 \n0x5232"
+        }
+      ],
+      "node_name": [
+        {
+          "rank": 1,
+          "chunk_id": 36,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "GMT time \n516 \n0x0204 \n64b \nKMB time \nPROPS_TYP \n520 \n0x0208 \n16b \n \nDEVICE_TYPE \n521 \n0x0209 \n16b \n \nLOWER UNIT TYPE 1 \n522 \n0x020A \n16b \n \nLOWER UNIT TYPE 2 \n523 \n0x020B \n16b \n \nLOWER UNIT TYPE 3 \n524 \n0x020C \n16b \n \nLOWER UNIT TYPE 4 \n525 \n0x020D \n16b \n \nLOWER UNIT TYPE 5 \n526 \n0x020E \n16b \n \nLOWER UNIT TYPE 6 \n527 \n0x020F \n16b \n \nDEVICE_NUMBER \n528 \n0x0210 \n32b \n \nFirmware version \n530 \n0x0212 \n64b \na.b.c.d \nHardware version \n534 \n0x0216 \n64b \na.b.0.0 \nBootloader version \n538 \n0x021A \n64b \na.b.0.0 \nActive firmware modules \n542 \n0x021E \n32b \n \nDate and time of \nmanufacture \n544 \n0x0220 \n64b \nKMB time \nDate and time of the last \ncalibration \n548 \n0x0224 \n64b \nKMB time \nGUID (8 highest bytes) \n552 \n0x0228 \n64b \nu64 \nGUID (8 lowest bytes) \n556 \n0x022C \n64b \nu64"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 51,
+          "page": 19,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "16b, R \nDeviceAdr \n2393 \n0x0959 \n16b, R \nBootloader version \n2394 \n0x095A \n16b, R \nSUBDEVICE TYPE 1 \n2395 \n0x095B \n16b, R \nSUBDEVICE TYPE 2 \n2396 \n0x095C \n16b, R \nSUBDEVICE TYPE 3 \n2397 \n0x095D \n16b, R \nSUBDEVICE TYPE 4 \n2398 \n0x095E \n16b, R \nSUBDEVICE TYPE 5 \n2399 \n0x095F \n16b, R \nSUB-UNIT TYPE 6 \n2400 \n0x0960 \n16b, R \nNumber of current inputs \n2401 \n0x0961 \n16b, R \nSn \n2402 \n0x0962 \n16b, R \nDEVICE_TYPE \n2403 \n0x0963 \n16b, R \nSUB UNIT TYPE \n2404 \n0x0964 \n16b, R"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 50,
+          "page": 19,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "(FCE3) module \n2304 \n \n0x0900 \n16b, R/W \nSN of the 2nd configured module on the local \nbus \n2312 \n0x0908 \n16b, R/W \nSN of the 3rd first configured module on the \nlocal bus \n2320 \n0x0910 \n16b, R/W \nSN of the 4th first configured module on the \nlocal bus \n2328 \n0x0918 \n16b, R/W \nSN of the 5th first configured module on the \nlocal bus \n2336 \n0x0920 \n16b, R/W \nReserve 5 \n2337 - 2383 \n0x0921 - \n0 094F\n \nDevice number \n2384 \n0x0950 \n16b, R \nDEVICE_TYPE \n2385 \n0x0951 \n16b, R \nPROPS_TYP \n2386 \n0x0952 \n16b, R \nPv0 \n2387 \n0x0953 \n16b, R \nPv1 \n2388 \n0x0954 \n16b, R \nPv2 \n2389 \n0x0955 \n16b, R \nSoftware version \n2390 \n0x0956 \n16b, R \nHardware version \n2391 \n0x0957 \n16b, R \nSoftware modules \n2392 \n0x0958 \n16b, R \nDeviceAdr \n2393 \n0x0959 \n16b, R \nBootloader version \n2394 \n0x095A \n16b, R \nSUBDEVICE TYPE 1 \n2395 \n0x095B \n16b, R \nSUBDEVICE TYPE 2 \n2396 \n0x095C \n16b, R \nSUBDEVICE TYPE 3 \n2397 \n0x095D \n16b, R \nSUBDEVICE TYPE 4 \n2398 \n0x095E \n16b, R \nSUBDEVICE TYPE 5 \n2399 \n0x095F \n16b, R \nSUB-UNIT TYPE 6"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 38,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Device type: 0x85xx MIEZ 37010 \nProps type 0x0050: MIEZ Poweranalyzer for DIN rail \nDevice type: 0x3xxx MIEZ 37020 \nDevice type: 0x5xxx MIEZ 37020 \n \nInformation about the version \nFW, HW and BOOTLOADER version: \na is a generation number, \nb is increased with each major update, \nc is incremented with each public release, \nd is an internal revision number. \nActive firmware modules: \n0x02 MIEZ Feature-Upgrade 21041 – Oscillogram+ \n0x20 MIEZ Feature-Upgrade 21040 – Power Quality"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 37,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 15 of 60 \n \nRevision 03/2024 \nDate and time of the last \nGUID generation \n560 \n0x0230 \n64b \nKMB time \n \nPROPS_TYPES and DEVICES_TYPE \nBelow you will find a list of the most common device types. There may be other options that \nare not listed here. In this case, please contact our support team for further information. The \nprops type defines a group (family) of similar instruments, the device type specifies the exact \ndevice, and the sub-device types 1 to 6 can specify detailed option information. \nProps type 0x2001: IO module family \nDevice type: 0x101x IO-M 544 \nDevice type: 0x102x IO-M 540 \nProps type 0x0030: MIEZ Poweranalyzer \nDevice type: 0x81xx MIEZ 3700x \nDevice type: 0x85xx MIEZ 37010 \nProps type 0x0050: MIEZ Poweranalyzer for DIN rail \nDevice type: 0x3xxx MIEZ 37020 \nDevice type: 0x5xxx MIEZ 37020 \n \nInformation about the version \nFW, HW and BOOTLOADER version: \na is a generation number, \nb is increased with each major update,"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 148,
+          "page": 55,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 56 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Typ\ne \nR/W \nDEZ \nHEX \nBootloader version \n4633\n6\n0xB500 \n16b \nR \nFW main version (4. . . ) \n4633\n0xB501 \n16b \nR \nFW minor version ( .0. . ) \n4633\n8\n0xB502 \n16b \nR \nFW revision ( . .13. ) \n4633\n9\n0xB503 \n16b \nR \nFW build ( . . .4125) \n4634\n0\n0xB504 \n16b \nR \nFactory FW main version (4. . \n. ) \n4634\n1 \n0xB505 \n16b \nR \n \n3) Big endian byte sequence \n4) Checksum = sum of all bytes & 0xFFFF \n \nAssigned data \nBase address \nSize/Ty\npe \nR/W \nDEZ \nHEX \nFactory FW sub-version \n(\n0\n)\n46342 \n0xB50\n6\n16b \nR \nFactory FW revision (_._.13._) \n46343 \n0xB50\n16b \nR \nFactory FW build (_._._.4125) \n46344 \n0xB50\n8\n16b \nR \nBackup FW main version (4._._._) \n46345 \n0xB50\n9 \n16b \nR \nBackup-FW subversion (_0._._._) \n46346 \n0xB50\nA\n16b \nR \nBackup FW revision (_._.13._) \n46347 \n0xB50\nB\n16b \nR \nBackup-FW build \n(_._._.4125) \n46348 \n0xB50\nC \n16b \nR \nWrite date of factory firmware \n46349 \n0xB50\nD \n32b \nKMB \ntime"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 46,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "so that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705 \n32b, Float \nYes \nNominal power Pnom (3P) \n1799 \n0x0707 \n32b, Float \nYes \nPrimary VT \n1801 \n0x0709 \n16b (Range 1 – 65535) \nYes \nSecondary VT \n1802 \n0x070A \n16b (Range 1 – 65535) \nYes \nMultiplier VT \n1803 \n0x070B \n32b, Float \nYes \nPrimary VTN \n1805 \n0x070D \n16b (Range 1 – 65535) \nYes \nSecondary VTN \n1806 \n0x070E \n16b (Range 1 – 65535) \nYes \nMultiplier VTN \n1807 \n0x070F \n32b, Float \nYes \nPrimary CT \n1809 \n0x0711 \n16b \nYes \nSecondary CT \n1810 \n0x0712 \n16b \nYes \nMultiplier CT \n1811 \n0x0713 \n32b, Float \nYes \nPrimary CTN \n1813 \n0x0715 \n16b \nYes \nSecondary CTN \n1814 \n0x0716 \n16b \nYes \nMultiplier CTN \n1815 \n0x0717 \n32b, Float \nYes \nNominal current Inom \n1817 \n0x0719 \n32b, Float \nYes \n \n3.9 0x0800 Read-only settings"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 53,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "2446 \n0x098E \n32b, Float, \nR/W\nSecondary CT - CH4 \n2448 \n0x0990 \n32b, Float, \nR/W\nMultiplier CT - CH1 \n2450 \n0x0992 \n32b, Float, \nR/W\nMultiplier CT - CH2 \n2452 \n0x0994 \n32b, Float, \nR/W\nMultiplier CT - CH3 \n2454 \n0x0996 \n32b, Float, \nR/W\nMultiplier CT - CH4 \n2456 \n0x0998 \n32b, Float, \nR/W\nNominal current Inom1 \n2458 \n0x099A \n32b, Float, \nR/W\nNominal current Inom2 \n2460 \n0x099C \n32b, Float, \nR/W\nNominal current Inom3 \n2462 \n0x099E \n32b, Float, \nR/W\nRated current Inom4 \n2464 \n0x09A0 \n32b, Float, \nR/W\nPolarity - CH1 \n2466 \n0x09A2 \n16b, R/W \nPolarity - CH2 \n2467 \n0x09A3 \n16b, R/W \nPolarity - CH3 \n2468 \n0x09A4 \n16b, R/W \nPolarity - CH4 \n2469 \n0x09A5 \n16b, R/W \nCurrent extension module name \n2470 - 2489 \n0x09A6 - \n0 09B9\n8b, R/W \nCH1 name \n2495 - 2514 \n0x09BF - \n0 09D2\n8b, R/W \nCH2 name \n2520 - 2539 \n0x09D8 - \n0 09EB\n8b, R/W \nCH3 name \n2545 - 2559 \n0x09F1 - \n0 09FF\n8b, R/W \nCH4 name \n2565 - 2584 \n0x0A0A - \n0 0A18\n8b, R/W"
+        }
+      ],
+      "addressing_mode": [
+        {
+          "rank": 1,
+          "chunk_id": 55,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 23 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \ndescription \nDEZ \nHEX \nConfiguration \n3328 \n0x0D00 \n32b, R/W \n0x00 = 3P voltage events \n0x01 = 1P voltage events \n0x02 = Floating reference \nvoltage \n0x04 = Create RVC events \n0x08 - Reserved \n0x10+0x20 == \n0=basic/1=extended/2=co\nmplete \n0x80000000=Support of \nthe floating reference \nvoltage \n0x40000000=Support-\nRVC \n0x20000000=Support \nbasic/extended/complete \nRecording interval \n3330 \n0x0D02 \n32b, R/W \n \nFrequency 100% upper limit \n3332 \n0x0D04 \n32b, Float, R/W \n \nFrequency 100% lower limit \n3334 \n0x0D06 \n32b, Float, R/W \n \nFrequency 95% upper limit \n3336 \n0x0D08 \n32b, Float, R/W \n \nFrequency 95% lower limit \n3338 \n0x0D0A \n32b, Float, R/W \n \nVoltage 100% upper limit \n3340 \n0x0D0C \n32b, Float, R/W \n \nVoltage 100% lower limit \n3342 \n0x0D0E \n32b, Float, R/W \n \nVoltage 95% upper limit \n3344 \n0x0D10 \n32b, Float, R/W \n \nVoltage 95% lower limit \n3346 \n0x0D12 \n32b, Float, R/W"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 104,
+          "page": 40,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 41 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19760 \n0x4D30 \n32b, Float \nA \nlast I∆2 maximum \n19762 \n0x4D32 \n32b, Float \nA \nlast I∆3 maximum \n19764 \n0x4D34 \n32b, Float \nA \nlast I∆4 maximum \n19766 \n0x4D36 \n32b, Float \nA \nlast I∆5 maximum \n19768 \n0x4D38 \n32b, Float \nA \nlast I∆6 maximum \n19770 \n0x4D3A \n32b, Float \nA \nlast I∆7 maximum \n19770 \n0x4D3C \n32b, Float \nA \nlast I∆8 maximum \n19772 \n0x4D3E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19776 \n0x4D40 \n32b, Float \nA \nlast I∆2 maximum \n19778 \n0x4D42 \n32b, Float \nA \nlast I∆3 maximum \n19780 \n0x4D44 \n32b, Float \nA \nlast I∆4 maximum \n19782 \n0x4D46 \n32b, Float \nA \nlast I∆5 maximum \n19784 \n0x4D48 \n32b, Float \nA \nlast I∆6 maximum \n19786 \n0x4D4A \n32b, Float \nA \nlast I∆7 maximum \n19788 \n0x4D4C \n32b, Float \nA \nlast I∆8 maximum \n19790 \n0x4D4E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nI∆1"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 95,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 38 of 60 \n \nRevision 03/2024 \n3.15.4 0x4800-0x48FF Minimum since data reset \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nU1 \n18488 \n4838 \n32-Bit, Float \nV \nU2 \n18490 \n483A \n32-Bit, Float \nV \nU3 \n18492 \n483C \n32-Bit, Float \nV \nU12 \n18494 \n483E \n32-Bit, Float \nV \nU23 \n18496 \n4840 \n32-Bit, Float \nV \nU31 \n18498 \n4842 \n32-Bit, Float \nV \nI1 \n18500 \n4844 \n32-Bit, Float \nA \nI2 \n18502 \n4846 \n32-Bit, Float \nA \nI3 \n18504 \n4848 \n32-Bit, Float \nA \nIN=I1+I2+I3 \n18506 \n484A \n32-Bit, Float \nA \nP1 \n18508 \n484C \n32-Bit, Float \nW \nP2 \n18510 \n484E \n32-Bit, Float \nW \nP3 \n18512 \n4850 \n32-Bit, Float \nW \n3P \n18514 \n4852 \n32-Bit, Float \nW \nS1 \n18516 \n4854 \n32-Bit, Float \nVA \nS2 \n18518 \n4856 \n32-Bit, Float \nVA \nS3 \n18520 \n4858 \n32-Bit, Float \nVA \n3S \n18522 \n485A \n32-Bit, Float \nVA \nQ1 \n18524 \n485C \n32-Bit, Float \nvar \nQ2 \n18526 \n485E \n32-Bit, Float \nvar \nQ3 \n18528 \n4860 \n32-Bit, Float \nvar \n3Q \n18530 \n4862 \n32-Bit, Float \nvar \nCosPhi1 \n18532 \n4864 \n32-Bit, Float \n– \nCosPhi2"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 148,
+          "page": 55,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 56 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Typ\ne \nR/W \nDEZ \nHEX \nBootloader version \n4633\n6\n0xB500 \n16b \nR \nFW main version (4. . . ) \n4633\n0xB501 \n16b \nR \nFW minor version ( .0. . ) \n4633\n8\n0xB502 \n16b \nR \nFW revision ( . .13. ) \n4633\n9\n0xB503 \n16b \nR \nFW build ( . . .4125) \n4634\n0\n0xB504 \n16b \nR \nFactory FW main version (4. . \n. ) \n4634\n1 \n0xB505 \n16b \nR \n \n3) Big endian byte sequence \n4) Checksum = sum of all bytes & 0xFFFF \n \nAssigned data \nBase address \nSize/Ty\npe \nR/W \nDEZ \nHEX \nFactory FW sub-version \n(\n0\n)\n46342 \n0xB50\n6\n16b \nR \nFactory FW revision (_._.13._) \n46343 \n0xB50\n16b \nR \nFactory FW build (_._._.4125) \n46344 \n0xB50\n8\n16b \nR \nBackup FW main version (4._._._) \n46345 \n0xB50\n9 \n16b \nR \nBackup-FW subversion (_0._._._) \n46346 \n0xB50\nA\n16b \nR \nBackup FW revision (_._.13._) \n46347 \n0xB50\nB\n16b \nR \nBackup-FW build \n(_._._.4125) \n46348 \n0xB50\nC \n16b \nR \nWrite date of factory firmware \n46349 \n0xB50\nD \n32b \nKMB \ntime"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 27,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 11 of 60 \n \nRevision 03/2024 \n3 Modbus register card \nShown register block \nBase address \nType \nDEZ \nHEX \nAuthentication \n0 \n0x0000 \nHolding register \nReal-time clock (RTC) \n256 \n0x0100 \nInput/holding register \nIdentification \n512 \n0x0200 \nInput register \nArchive control block \n768 \n0x0300 \nInput/holding register \nCounter control block \n1536 \n0x0600 \nInput/holding register \nConfigurable settings \n1792 \n0x0700 \nHolding register \nRead-only settings \n2048 \n0x0800 \nInput register \nActual data \n4096 \n0x1000 \nInput register \nElectricity meter \n8192 \n0x2000 \nInput register \nAggregated values \n16384 \n0x4000 \nInput register \nResidual current monitoring \n19712 \n0x4D00 \nInput register \nMax. requirement \n19968 \n0x4E00 \nInput register \nPower quality indices \n20480 \n0x5000 \nInput register \nRipple control signals \n21248 \n0x5300 \nInput register \nModbus master \n24576 \n0x6000 \nInput register \nActual data - direct current and alternating \ncurrent/direct current \n25088 \n0x6200"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 45,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 18 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nFunction 16 \nDEZ \nHEX \nTime of the last \nconfiguration change \n1584 \n0x0630 \nu32, KMB time \nReset to factory settings: write \n0xFFFF0001 \n \n3.8 0x0700 Configurable settings \nThe configurable settings, as shown in the following table, can be changed using Modbus \nfunction 16 (write multiple registers). When the device receives a message with this function, \nall associated registers are saved. If necessary, the soft erase action is performed before \nsending a response to the request. The need for this action results from the change of \ncertain registers - see column \"Soft Erase\". The change is then also written to the device log \nso that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 136,
+          "page": 51,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 52 of 60 \n \nRevision 03/2024 \n3.22 0x9000 Input and output values \n3.22.1 0x9000 Input values \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nDigital inputs (1-16) \n36864 \n0x9000 \n16b \nDigital inputs (17-32) \n36865 \n0x9001 \n16b \nFrequency counter 1 (FC1) \n36866 \n0x9002 \n32b, Float \nFrequency counter 2 (FC2) \n36868 \n0x9004 \n32b, Float \nFrequency counter 3 (FC3) \n36870 \n0x9006 \n32b, Float \nFrequency counter 4 (FC4) \n36872 \n0x9008 \n32b, Float \nFrequency counter 5 (FC5) \n36874 \n0x900A \n32b, Float \nFrequency counter 6 (FC6) \n36876 \n0x900C \n32b, Float \nFrequency counter 7 (FC7) \n36878 \n0x900D \n32b, Float \nFrequency counter 8 (FC8) \n36880 \n0x900F \n32b, Float \nPulse counter 1 (PC1) \n36882 \n0x9012 \n32b, Float \nPulse counter 2 (PC2) \n36884 \n0x9016 \n32b, Float \nPulse counter 3 (PC3) \n36886 \n0x901A \n32b, Float \nPulse counter 4 (PC4) \n36888 \n0x901E \n32b, Float \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nPulse counter 5 (PC5) \n36890 \n0x9022 \n32b, Float"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 71,
+          "page": 28,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 29 of 60 \n \nRevision 03/2024 \nP3iv \n5000 \n0x1388 \n32b, Float \nP4iv \n5002 \n0x138A \n32b, Float \n|3P| \n5004 \n0x138C \n32b, Float \n|P1| \n5006 \n0x138E \n32b, Float \n|P2| \n5008 \n0x1390 \n32b, Float \n|P3| \n5010 \n0x1392 \n32b, Float \n|P4| \n5012 \n0x1394 \n32b, Float \n \n0x1390 Reactive power import/export and inductive/capacitive \n \nThe device supplies different data depending on the Modbus function used. Details can be \nfound in chapter 3.13.4. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \n3QL \n5008 \n0x1390 \n32b, Float \n3QC \n5010 \n0x1392 \n32b, Float \n3Q+ \n5012 \n0x1394 \n32b, Float \n3Q- \n5014 \n0x1396 \n32b, Float \nQ1L \n5016 \n0x1398 \n32b, Float \nQ2L \n5018 \n0x139A \n32b, Float \nQ3L \n5020 \n0x139C \n32b, Float \nQ4L \n5022 \n0x139E \n32b, Float \nQ1C \n5024 \n0x13A0 \n32b, Float \nQ2C \n5026 \n0x13A2 \n32b, Float \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nQ3C \n5028 \n0x13A4 \n32b, Float \nQ4C \n5030 \n0x13A6 \n32b, Float \nQ1+ \n5032 \n0x13A8 \n32b, Float \nQ2+ \n5034 \n0x13AA \n32b, Float \nQ3+"
+        }
+      ],
+      "register": [
+        {
+          "rank": 1,
+          "chunk_id": 46,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "so that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705 \n32b, Float \nYes \nNominal power Pnom (3P) \n1799 \n0x0707 \n32b, Float \nYes \nPrimary VT \n1801 \n0x0709 \n16b (Range 1 – 65535) \nYes \nSecondary VT \n1802 \n0x070A \n16b (Range 1 – 65535) \nYes \nMultiplier VT \n1803 \n0x070B \n32b, Float \nYes \nPrimary VTN \n1805 \n0x070D \n16b (Range 1 – 65535) \nYes \nSecondary VTN \n1806 \n0x070E \n16b (Range 1 – 65535) \nYes \nMultiplier VTN \n1807 \n0x070F \n32b, Float \nYes \nPrimary CT \n1809 \n0x0711 \n16b \nYes \nSecondary CT \n1810 \n0x0712 \n16b \nYes \nMultiplier CT \n1811 \n0x0713 \n32b, Float \nYes \nPrimary CTN \n1813 \n0x0715 \n16b \nYes \nSecondary CTN \n1814 \n0x0716 \n16b \nYes \nMultiplier CTN \n1815 \n0x0717 \n32b, Float \nYes \nNominal current Inom \n1817 \n0x0719 \n32b, Float \nYes \n \n3.9 0x0800 Read-only settings"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 17,
+          "page": 6,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "register(s), as shown in the diagram in the following subsections. The Modbus protocol is \nbased on variable assignments in 16-bit registers. Single-byte quantities are stored in such a \nregister in the format 0x00 nn, where nn is a single-byte parameter. For multi-byte sets, the \nbyte order is a big-endian. 32-bit and 64-bit integers and floating-point numbers are sorted \nserially in subsequent 16-bit registers from MSB to LSB. Floating point numbers are encoded \nusing the IEEE 754 format for floating point numbers. See example below, the coded number \nin the example is 0.1875. \nbit \n31 \n30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 \nmeaning \nsign \nexponent (8 bits) \nfraction (23 bits) \nexample \n0 \n0 1 1 1 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 \n \nThe number format with double precision has 64 bits and is coded like a floating point \nnumber with an exponent of 11 bits and a 52-bit fraction."
+        },
+        {
+          "rank": 3,
+          "chunk_id": 27,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 11 of 60 \n \nRevision 03/2024 \n3 Modbus register card \nShown register block \nBase address \nType \nDEZ \nHEX \nAuthentication \n0 \n0x0000 \nHolding register \nReal-time clock (RTC) \n256 \n0x0100 \nInput/holding register \nIdentification \n512 \n0x0200 \nInput register \nArchive control block \n768 \n0x0300 \nInput/holding register \nCounter control block \n1536 \n0x0600 \nInput/holding register \nConfigurable settings \n1792 \n0x0700 \nHolding register \nRead-only settings \n2048 \n0x0800 \nInput register \nActual data \n4096 \n0x1000 \nInput register \nElectricity meter \n8192 \n0x2000 \nInput register \nAggregated values \n16384 \n0x4000 \nInput register \nResidual current monitoring \n19712 \n0x4D00 \nInput register \nMax. requirement \n19968 \n0x4E00 \nInput register \nPower quality indices \n20480 \n0x5000 \nInput register \nRipple control signals \n21248 \n0x5300 \nInput register \nModbus master \n24576 \n0x6000 \nInput register \nActual data - direct current and alternating \ncurrent/direct current \n25088 \n0x6200"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 4,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "3 \nModbus register card ....................................................................... 11 \n3.1 \n0x0000 Authentication ............................................................................................11 \n3.2 \n0x0100 Device real-time clock control (RTC) ..........................................................12 \n3.3 \n0x0150 Aggregation ...............................................................................................13 \n3.4 \n0x200 Device identification .....................................................................................14 \n3.5 \n0x0300 Archive control block ..................................................................................16 \n3.6 \n0x0600 Resetting values ........................................................................................17 \n3.7 \n0x0630 Reset to factory settings ............................................................................17 \n3.8"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 28,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Max. requirement \n19968 \n0x4E00 \nInput register \nPower quality indices \n20480 \n0x5000 \nInput register \nRipple control signals \n21248 \n0x5300 \nInput register \nModbus master \n24576 \n0x6000 \nInput register \nActual data - direct current and alternating \ncurrent/direct current \n25088 \n0x6200 \nInput register \nInputs and outputs \n36864 \n0x9000 \nInput register \nActual data - PFC \n40960 \n0xA000 \nInput register \n \n3.1 0x0000 Authentication \nIf the authentication function of the device is enabled, the Modbus client may need to write \nthe user name and PIN to a special Modbus register to unlock the communication. This \nfunction is disabled by default. Please refer to AppNote_0004, available online or via our \nsupport channels, for information on how to enable and control authentication options. \nAuthentication functions in instruments have been generally available since FW version 3.0. \n \nExample \nEncoding \nHexadecimal \nPIN \n123456789 \n32 bit unsigned \n0x075BCD15 \nUser name \nAlbert \nASCII string"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 3,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "2.5 \nExample .................................................................................................................. 8 \n2.5.1 \nModbus TCP example ...................................................................................... 8 \n2.5.2 \nModbus RTU example ...................................................................................... 9 \n2.5.3 \nFurther examples ............................................................................................. 9 \n2.6 \nModbus RTU encapsulated via Ethernet ................................................................10 \n2.7 \nModbus TCP and Modbus RTU via ES module ......................................................10 \n3 \nModbus register card ....................................................................... 11 \n3.1 \n0x0000 Authentication ............................................................................................11 \n3.2"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 104,
+          "page": 40,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 41 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19760 \n0x4D30 \n32b, Float \nA \nlast I∆2 maximum \n19762 \n0x4D32 \n32b, Float \nA \nlast I∆3 maximum \n19764 \n0x4D34 \n32b, Float \nA \nlast I∆4 maximum \n19766 \n0x4D36 \n32b, Float \nA \nlast I∆5 maximum \n19768 \n0x4D38 \n32b, Float \nA \nlast I∆6 maximum \n19770 \n0x4D3A \n32b, Float \nA \nlast I∆7 maximum \n19770 \n0x4D3C \n32b, Float \nA \nlast I∆8 maximum \n19772 \n0x4D3E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19776 \n0x4D40 \n32b, Float \nA \nlast I∆2 maximum \n19778 \n0x4D42 \n32b, Float \nA \nlast I∆3 maximum \n19780 \n0x4D44 \n32b, Float \nA \nlast I∆4 maximum \n19782 \n0x4D46 \n32b, Float \nA \nlast I∆5 maximum \n19784 \n0x4D48 \n32b, Float \nA \nlast I∆6 maximum \n19786 \n0x4D4A \n32b, Float \nA \nlast I∆7 maximum \n19788 \n0x4D4C \n32b, Float \nA \nlast I∆8 maximum \n19790 \n0x4D4E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nI∆1"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 40,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "0x0360 \nreserved \nx \n \n \nreserved \nx \n \n \nreserved \nx \n \n \nreserved \nx \n \n \nGeneral oscillograms \nx \n944 \n0x03B0 \nreserved \nx \n \n \nModbus \nx \n976 \n0x03D0 \nHistogram \nx \n992 \n0x03E0 \nVoltage collapse \nx \n1008 \n0x03F0 \nEvent log \nyes \n1024 \n0x0400 \nTrends \nx \n1040 \n0x0410 \nH2M (SP12 only) \nyes \n1056 \n0x0420 \n \nThe control registers are defined as follows for each archive. Modbus function 4 is supported \nto read the value and Modbus function 16 is supported to write the value. The following table \nshows an example of the main archive registers. \nArchive type \nA\nhi\nBase address \nSize \nType \nFunction 16 \nMain archive \nDEZ \nHEX \nValue \nAction \n \nRecording time \n \n768 \n \n0x030\n0 \n \nu64 \n \nKMB time \n(R/W) \n0x1 \n0x2 \n0x3-\n0xFF(..)FE \n0xFF(..)FF \nGo to the next data \nrecord \nGo to the previous \ndata record \nGo to the next data \nrecord after ... Go \nGo to the latest data \nrecord with auto-\nscroll \nFor the first time \n772 \n0x030\n4\nu64 \nKMB time \nN/V \nFor the last time \n776 \n0x030\n8\nu64 \nKMB time"
+        }
+      ],
+      "function_code": [
+        {
+          "rank": 1,
+          "chunk_id": 16,
+          "page": 6,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 7 of 60 \n \nRevision 03/2024 \n2 Description of the Modbus implementation \n2.1 Supported standard functions \n• \n3 (0x03) Read holding register \n• \n4 (0x04) Read input register \n• \n16 (0x10) Write multiple registers \n2.2 Supported user-defined functions \nSome devices with an activated UP-Fw. module also support a range of user-defined \nModbus functions that enable remote access to the various archives (see Chap. 4.5). \n• \n100 (0x64) Read archived average value \n• \n101 (0x65) Read archived minimum value \n• \n102 (0x66) Read archived maximum value \n2.3 Modbus quantity coding \nAccess to data structure components is made possible by reading/writing from/to relevant \nregister(s), as shown in the diagram in the following subsections. The Modbus protocol is \nbased on variable assignments in 16-bit registers. Single-byte quantities are stored in such a \nregister in the format 0x00 nn, where nn is a single-byte parameter. For multi-byte sets, the"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 137,
+          "page": 51,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "36882 \n0x9012 \n32b, Float \nPulse counter 2 (PC2) \n36884 \n0x9016 \n32b, Float \nPulse counter 3 (PC3) \n36886 \n0x901A \n32b, Float \nPulse counter 4 (PC4) \n36888 \n0x901E \n32b, Float \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nPulse counter 5 (PC5) \n36890 \n0x9022 \n32b, Float \nPulse counter 6 (PC6) \n36892 \n0x9026 \n32b, Float \nPulse counter 7 (PC7) \n36894 \n0x902A \n32b, Float \nPulse counter 8 (PC8) \n36896 \n0x902E \n32b, Float \nClear time of PC1 \n36914 \n0x9032 \n64b, KMB time \nClearing time of PC2 \n36918 \n0x9036 \n64b, KMB time \nClearing time of PC3 \n36922 \n0x903A \n64b, KMB time \nExtinguishing time of PC4 \n36926 \n0x903E \n64b, KMB time \nClearing time of PC5 \n36930 \n0x9042 \n64b, KMB time \nDeletion time of PC6 \n36934 \n0x9046 \n64b, KMB time \nDeletion time of PC7 \n36938 \n0x904A \n64b, KMB time \nDeletion time of PC8 \n36942 \n0x904E \n64b, KMB time \nAnalog input 1 \n36994 \n0x9082 \n32b, Float \nAnalog input 2 \n36996 \n0x9084 \n32b, Float \nAnalog input 3 \n36998 \n0x9086 \n32b, Float \nAnalog input 4 \n37000"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 136,
+          "page": 51,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 52 of 60 \n \nRevision 03/2024 \n3.22 0x9000 Input and output values \n3.22.1 0x9000 Input values \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nDigital inputs (1-16) \n36864 \n0x9000 \n16b \nDigital inputs (17-32) \n36865 \n0x9001 \n16b \nFrequency counter 1 (FC1) \n36866 \n0x9002 \n32b, Float \nFrequency counter 2 (FC2) \n36868 \n0x9004 \n32b, Float \nFrequency counter 3 (FC3) \n36870 \n0x9006 \n32b, Float \nFrequency counter 4 (FC4) \n36872 \n0x9008 \n32b, Float \nFrequency counter 5 (FC5) \n36874 \n0x900A \n32b, Float \nFrequency counter 6 (FC6) \n36876 \n0x900C \n32b, Float \nFrequency counter 7 (FC7) \n36878 \n0x900D \n32b, Float \nFrequency counter 8 (FC8) \n36880 \n0x900F \n32b, Float \nPulse counter 1 (PC1) \n36882 \n0x9012 \n32b, Float \nPulse counter 2 (PC2) \n36884 \n0x9016 \n32b, Float \nPulse counter 3 (PC3) \n36886 \n0x901A \n32b, Float \nPulse counter 4 (PC4) \n36888 \n0x901E \n32b, Float \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nPulse counter 5 (PC5) \n36890 \n0x9022 \n32b, Float"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 4,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "3 \nModbus register card ....................................................................... 11 \n3.1 \n0x0000 Authentication ............................................................................................11 \n3.2 \n0x0100 Device real-time clock control (RTC) ..........................................................12 \n3.3 \n0x0150 Aggregation ...............................................................................................13 \n3.4 \n0x200 Device identification .....................................................................................14 \n3.5 \n0x0300 Archive control block ..................................................................................16 \n3.6 \n0x0600 Resetting values ........................................................................................17 \n3.7 \n0x0630 Reset to factory settings ............................................................................17 \n3.8"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 40,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "0x0360 \nreserved \nx \n \n \nreserved \nx \n \n \nreserved \nx \n \n \nreserved \nx \n \n \nGeneral oscillograms \nx \n944 \n0x03B0 \nreserved \nx \n \n \nModbus \nx \n976 \n0x03D0 \nHistogram \nx \n992 \n0x03E0 \nVoltage collapse \nx \n1008 \n0x03F0 \nEvent log \nyes \n1024 \n0x0400 \nTrends \nx \n1040 \n0x0410 \nH2M (SP12 only) \nyes \n1056 \n0x0420 \n \nThe control registers are defined as follows for each archive. Modbus function 4 is supported \nto read the value and Modbus function 16 is supported to write the value. The following table \nshows an example of the main archive registers. \nArchive type \nA\nhi\nBase address \nSize \nType \nFunction 16 \nMain archive \nDEZ \nHEX \nValue \nAction \n \nRecording time \n \n768 \n \n0x030\n0 \n \nu64 \n \nKMB time \n(R/W) \n0x1 \n0x2 \n0x3-\n0xFF(..)FE \n0xFF(..)FF \nGo to the next data \nrecord \nGo to the previous \ndata record \nGo to the next data \nrecord after ... Go \nGo to the latest data \nrecord with auto-\nscroll \nFor the first time \n772 \n0x030\n4\nu64 \nKMB time \nN/V \nFor the last time \n776 \n0x030\n8\nu64 \nKMB time"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 51,
+          "page": 19,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "16b, R \nDeviceAdr \n2393 \n0x0959 \n16b, R \nBootloader version \n2394 \n0x095A \n16b, R \nSUBDEVICE TYPE 1 \n2395 \n0x095B \n16b, R \nSUBDEVICE TYPE 2 \n2396 \n0x095C \n16b, R \nSUBDEVICE TYPE 3 \n2397 \n0x095D \n16b, R \nSUBDEVICE TYPE 4 \n2398 \n0x095E \n16b, R \nSUBDEVICE TYPE 5 \n2399 \n0x095F \n16b, R \nSUB-UNIT TYPE 6 \n2400 \n0x0960 \n16b, R \nNumber of current inputs \n2401 \n0x0961 \n16b, R \nSn \n2402 \n0x0962 \n16b, R \nDEVICE_TYPE \n2403 \n0x0963 \n16b, R \nSUB UNIT TYPE \n2404 \n0x0964 \n16b, R"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 139,
+          "page": 52,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 53 of 60 \n \nRevision 03/2024 \nassigned is controlled by the mask (high byte of the register). Controlled outputs have the \ncorresponding mask bit set to 1. The other mask bits are set to 0. \n \nAssigned data \nBase address \nSize/Typ\ne \nEncoding \nDEZ \nHEX \nDigital outputs (1-8) \n3763\n2 \n0x930\n0 \n16b \nHigh byte mask, low byte \nstatus \nDigital outputs (9-16) \n3763\n3 \n0x930\n1 \n16b \nHigh byte mask, low byte \nstatus \nDigital outputs (17-24) \n3763\n4 \n0x930\n2 \n16b \nHigh byte mask, low byte \nstatus \nDigital outputs (25-32) \n3763\n5 \n0x930\n3 \n16b \nHigh byte mask, low byte \nstatus \nI/O variables (1-8) \n3763\n6 \n0x930\n4 \n16b \nHigh byte mask, low byte \nstatus \nI/O variables (9-16) \n3763\n8 \n0x930\n5 \n16b \nHigh byte mask, low byte \nstatus \nAnalog output 1 \n3769\n6\n0x934\n0\n32b, \nFl\n \nAnalog output 2 \n3769\n8\n0x934\n2\n32b, \nFl\n \nAnalog output 3 \n3770\n0\n0x934\n4\n32b, \nFl\n \nAnalog output 4 \n3770\n2\n0x934\n6\n32b, \nFl\n \n \nExample of digital output coding: \n \nMSB \n16b Registerwert \nLSB"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 13,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "3.22.2 \n0x9300 Output values .....................................................................................52 \n3.22.3 \n0x9700 Hour meter (HM) .................................................................................54 \n3.23 \n0xB000 Firmware update .......................................................................................55 \n3.24 \n0xC000 Supra-Harmonics (SH) ..............................................................................57 \n3.25 \nLocal Bus Register .................................................................................................58"
+        }
+      ],
+      "coils_discrete": [
+        {
+          "rank": 1,
+          "chunk_id": 140,
+          "page": 52,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "3763\n8 \n0x930\n5 \n16b \nHigh byte mask, low byte \nstatus \nAnalog output 1 \n3769\n6\n0x934\n0\n32b, \nFl\n \nAnalog output 2 \n3769\n8\n0x934\n2\n32b, \nFl\n \nAnalog output 3 \n3770\n0\n0x934\n4\n32b, \nFl\n \nAnalog output 4 \n3770\n2\n0x934\n6\n32b, \nFl\n \n \nExample of digital output coding: \n \nMSB \n16b Registerwert \nLSB \nMaske des Ausgangs \nStatus des Ausgangs \nAusgang \nNr. \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1 \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1 \nAbgerufener \nWert \n0 \n1 \n0 \n0 \n1 \n1 \n1 \n1 \n0 \n0 \n0 \n0 \n0 \n0 \n1 \n0 \nBeschreibu\nng \n0 \n= Ausgang ist nicht verfügbar \n1 \n= verfügbar für Steuerung \n0 \n= \nAusgang ist nicht aktiv \n1 \n= \nAusgang ist aktiv \n \n \nMS\n16b Registerwert \nLSB \nMaske des Ausgangs \nStatus des Ausgangs \nAusgang \nNr. \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1 \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1 \nAbgerufener \nWert \n0 \n0 \n1 \n0 \n1 \n1 \n0 \n1 \n0 \n0 \n1 \n0 \n1 \n0 \n0 \n1 \nBeschreibun\ng \n0 = Ausgang ändert sich nicht \n1 = Ausgang ändert sich \n0 = Ausgang deaktivieren \n1 = Ausgang aktivieren \nErgebnis \nX \nX \n1 \nX \n1 \n0 \nX \n1"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 137,
+          "page": 51,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "36882 \n0x9012 \n32b, Float \nPulse counter 2 (PC2) \n36884 \n0x9016 \n32b, Float \nPulse counter 3 (PC3) \n36886 \n0x901A \n32b, Float \nPulse counter 4 (PC4) \n36888 \n0x901E \n32b, Float \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nPulse counter 5 (PC5) \n36890 \n0x9022 \n32b, Float \nPulse counter 6 (PC6) \n36892 \n0x9026 \n32b, Float \nPulse counter 7 (PC7) \n36894 \n0x902A \n32b, Float \nPulse counter 8 (PC8) \n36896 \n0x902E \n32b, Float \nClear time of PC1 \n36914 \n0x9032 \n64b, KMB time \nClearing time of PC2 \n36918 \n0x9036 \n64b, KMB time \nClearing time of PC3 \n36922 \n0x903A \n64b, KMB time \nExtinguishing time of PC4 \n36926 \n0x903E \n64b, KMB time \nClearing time of PC5 \n36930 \n0x9042 \n64b, KMB time \nDeletion time of PC6 \n36934 \n0x9046 \n64b, KMB time \nDeletion time of PC7 \n36938 \n0x904A \n64b, KMB time \nDeletion time of PC8 \n36942 \n0x904E \n64b, KMB time \nAnalog input 1 \n36994 \n0x9082 \n32b, Float \nAnalog input 2 \n36996 \n0x9084 \n32b, Float \nAnalog input 3 \n36998 \n0x9086 \n32b, Float \nAnalog input 4 \n37000"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 53,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "2446 \n0x098E \n32b, Float, \nR/W\nSecondary CT - CH4 \n2448 \n0x0990 \n32b, Float, \nR/W\nMultiplier CT - CH1 \n2450 \n0x0992 \n32b, Float, \nR/W\nMultiplier CT - CH2 \n2452 \n0x0994 \n32b, Float, \nR/W\nMultiplier CT - CH3 \n2454 \n0x0996 \n32b, Float, \nR/W\nMultiplier CT - CH4 \n2456 \n0x0998 \n32b, Float, \nR/W\nNominal current Inom1 \n2458 \n0x099A \n32b, Float, \nR/W\nNominal current Inom2 \n2460 \n0x099C \n32b, Float, \nR/W\nNominal current Inom3 \n2462 \n0x099E \n32b, Float, \nR/W\nRated current Inom4 \n2464 \n0x09A0 \n32b, Float, \nR/W\nPolarity - CH1 \n2466 \n0x09A2 \n16b, R/W \nPolarity - CH2 \n2467 \n0x09A3 \n16b, R/W \nPolarity - CH3 \n2468 \n0x09A4 \n16b, R/W \nPolarity - CH4 \n2469 \n0x09A5 \n16b, R/W \nCurrent extension module name \n2470 - 2489 \n0x09A6 - \n0 09B9\n8b, R/W \nCH1 name \n2495 - 2514 \n0x09BF - \n0 09D2\n8b, R/W \nCH2 name \n2520 - 2539 \n0x09D8 - \n0 09EB\n8b, R/W \nCH3 name \n2545 - 2559 \n0x09F1 - \n0 09FF\n8b, R/W \nCH4 name \n2565 - 2584 \n0x0A0A - \n0 0A18\n8b, R/W"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 139,
+          "page": 52,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 53 of 60 \n \nRevision 03/2024 \nassigned is controlled by the mask (high byte of the register). Controlled outputs have the \ncorresponding mask bit set to 1. The other mask bits are set to 0. \n \nAssigned data \nBase address \nSize/Typ\ne \nEncoding \nDEZ \nHEX \nDigital outputs (1-8) \n3763\n2 \n0x930\n0 \n16b \nHigh byte mask, low byte \nstatus \nDigital outputs (9-16) \n3763\n3 \n0x930\n1 \n16b \nHigh byte mask, low byte \nstatus \nDigital outputs (17-24) \n3763\n4 \n0x930\n2 \n16b \nHigh byte mask, low byte \nstatus \nDigital outputs (25-32) \n3763\n5 \n0x930\n3 \n16b \nHigh byte mask, low byte \nstatus \nI/O variables (1-8) \n3763\n6 \n0x930\n4 \n16b \nHigh byte mask, low byte \nstatus \nI/O variables (9-16) \n3763\n8 \n0x930\n5 \n16b \nHigh byte mask, low byte \nstatus \nAnalog output 1 \n3769\n6\n0x934\n0\n32b, \nFl\n \nAnalog output 2 \n3769\n8\n0x934\n2\n32b, \nFl\n \nAnalog output 3 \n3770\n0\n0x934\n4\n32b, \nFl\n \nAnalog output 4 \n3770\n2\n0x934\n6\n32b, \nFl\n \n \nExample of digital output coding: \n \nMSB \n16b Registerwert \nLSB"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 138,
+          "page": 51,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "36934 \n0x9046 \n64b, KMB time \nDeletion time of PC7 \n36938 \n0x904A \n64b, KMB time \nDeletion time of PC8 \n36942 \n0x904E \n64b, KMB time \nAnalog input 1 \n36994 \n0x9082 \n32b, Float \nAnalog input 2 \n36996 \n0x9084 \n32b, Float \nAnalog input 3 \n36998 \n0x9086 \n32b, Float \nAnalog input 4 \n37000 \n0x9088 \n32b, Float \nTemperature 1 - Internal (Ti) \n37056 \n0x90C0 \n32b, Float \nTemperature 2 - External (Te) \n37058 \n0x90C2 \n32b, Float \nTemperature 3 \n37060 \n0x90C4 \n32b, Float \nTemperature 4 \n37062 \n0x90C6 \n32b, Float \n \n3.22.2 0x9300 Output values \n \nIt is possible to control real and virtual outputs and alarms. If an output is used in the I/O \nmanagement configuration, it is blocked in the Modbus and cannot be controlled remotely. \nThe value of the controlled output(s) can be set to 0 or 1. The selection of the outputs to be"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 65,
+          "page": 25,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "CFI1 \n4634 \n0x121A \n32b, Float \nCFI2 \n4636 \n0x121C \n32b, Float \nCFI3 \n4638 \n0x121E \n32b, Float \nCFIN \n4640 \n0x1220 \n32b, Float \nIfh1 \n4642 \n0x1222 \n32b, Float \nIfh2 \n4644 \n0x1224 \n32b, Float \nIfh3 \n4646 \n0x1226 \n32b, Float \nIfhN \n4648 \n0x1228 \n32b, Float \nφi1 \n4650 \n0x122A \n32b, Float \nφi2 \n4652 \n0x122C \n32b, Float \nφi3 \n4654 \n0x122E \n32b, Float \nφiN \n4656 \n0x1230 \n32b, Float \ni2 \n4658 \n0x1232 \n32b, Float \npositive sequence I1 \n4660 \n0x1234 \n32b, Float \nnegative sequence I2 \n4662 \n0x1236 \n32b, Float \nZero sequence I0 \n4664 \n0x1238 \n32b, Float \n3I \n4666 \n0x123A \n32b, Float \nTDDI1 \n4668 \n0x123C \n32b, Float \nTDDI2 \n4670 \n0x123E \n32b, Float \nTDDI3 \n4672 \n0x1240 \n32b, Float \nTDDI4 \n4674 \n0x1242 \n32b, Float \nI1 \n4676 \n0x1244 \n32b, Float"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 136,
+          "page": 51,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "Manual Modbus \n \npage 52 of 60 \n \nRevision 03/2024 \n3.22 0x9000 Input and output values \n3.22.1 0x9000 Input values \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nDigital inputs (1-16) \n36864 \n0x9000 \n16b \nDigital inputs (17-32) \n36865 \n0x9001 \n16b \nFrequency counter 1 (FC1) \n36866 \n0x9002 \n32b, Float \nFrequency counter 2 (FC2) \n36868 \n0x9004 \n32b, Float \nFrequency counter 3 (FC3) \n36870 \n0x9006 \n32b, Float \nFrequency counter 4 (FC4) \n36872 \n0x9008 \n32b, Float \nFrequency counter 5 (FC5) \n36874 \n0x900A \n32b, Float \nFrequency counter 6 (FC6) \n36876 \n0x900C \n32b, Float \nFrequency counter 7 (FC7) \n36878 \n0x900D \n32b, Float \nFrequency counter 8 (FC8) \n36880 \n0x900F \n32b, Float \nPulse counter 1 (PC1) \n36882 \n0x9012 \n32b, Float \nPulse counter 2 (PC2) \n36884 \n0x9016 \n32b, Float \nPulse counter 3 (PC3) \n36886 \n0x901A \n32b, Float \nPulse counter 4 (PC4) \n36888 \n0x901E \n32b, Float \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nPulse counter 5 (PC5) \n36890 \n0x9022 \n32b, Float"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 96,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\a_si370010--_en.pdf     .pdf",
+          "content": "4856 \n32-Bit, Float \nVA \nS3 \n18520 \n4858 \n32-Bit, Float \nVA \n3S \n18522 \n485A \n32-Bit, Float \nVA \nQ1 \n18524 \n485C \n32-Bit, Float \nvar \nQ2 \n18526 \n485E \n32-Bit, Float \nvar \nQ3 \n18528 \n4860 \n32-Bit, Float \nvar \n3Q \n18530 \n4862 \n32-Bit, Float \nvar \nCosPhi1 \n18532 \n4864 \n32-Bit, Float \n– \nCosPhi2 \n18534 \n4866 \n32-Bit, Float \n– \nCosPhi3 \n18536 \n4868 \n32-Bit, Float \n– \nFrequency (f) \n18538 \n486A \n32-Bit, Float \nHz \nRESERVED \nTHD U1 \n18598 \n48A6 \n32-Bit, Float \nProzent \nTHD U2 \n18600 \n48A8 \n32-Bit, Float \nProzent \nTHD U3 \n18602 \n48AA \n32-Bit, Float \nProzent \nTHD I1 \n18604 \n48AC \n32-Bit, Float \nProzent \nTHD I2 \n18606 \n48AE \n32-Bit, Float \nProzent \nTHD I3 \n18608 \n48B0 \n32-Bit, Float \nProzent \n \n3.15.5 0x4A00-0x4AFF Actual/average data (19000 DEZ) \n \nThis data block provides a simple collection method for the most frequently used actual and \naverage values in a simple block read request. \nModbus function 03 Read holding register returns average values for normal quantities."
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 45,
+        "page": 17,
+        "score": 13,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "Manual Modbus \n \npage 18 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nFunction 16 \nDEZ \nHEX \nTime of the last \nconfiguration change \n1584 \n0x0630 \nu32, KMB time \nReset to factory settings: write \n0xFFFF0001 \n \n3.8 0x0700 Configurable settings \nThe configurable settings, as shown in the following table, can be changed using Modbus \nfunction 16 (write multiple registers). When the device receives a message with this function, \nall associated registers are saved. If necessary, the soft erase action is performed before \nsending a response to the request. The need for this action results from the change of \ncertain registers - see column \"Soft Erase\". The change is then also written to the device log \nso that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705"
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 46,
+        "page": 17,
+        "score": 12,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "register"
+        ],
+        "content": "so that it can be accessed later. \nAssigned data \nBase address \nSize/Type \nSoft Erase \nDEZ \nHEX \n \n \nConnection type \n1792 \n0x0700 \n16b \nYes \nConnection mode \n1793 \n0x0701 \n32b \nYes \nNominal frequency \n1795 \n0x0703 \n32b, Float \nYes \nNominal voltage Unom \n1797 \n0x0705 \n32b, Float \nYes \nNominal power Pnom (3P) \n1799 \n0x0707 \n32b, Float \nYes \nPrimary VT \n1801 \n0x0709 \n16b (Range 1 – 65535) \nYes \nSecondary VT \n1802 \n0x070A \n16b (Range 1 – 65535) \nYes \nMultiplier VT \n1803 \n0x070B \n32b, Float \nYes \nPrimary VTN \n1805 \n0x070D \n16b (Range 1 – 65535) \nYes \nSecondary VTN \n1806 \n0x070E \n16b (Range 1 – 65535) \nYes \nMultiplier VTN \n1807 \n0x070F \n32b, Float \nYes \nPrimary CT \n1809 \n0x0711 \n16b \nYes \nSecondary CT \n1810 \n0x0712 \n16b \nYes \nMultiplier CT \n1811 \n0x0713 \n32b, Float \nYes \nPrimary CTN \n1813 \n0x0715 \n16b \nYes \nSecondary CTN \n1814 \n0x0716 \n16b \nYes \nMultiplier CTN \n1815 \n0x0717 \n32b, Float \nYes \nNominal current Inom \n1817 \n0x0719 \n32b, Float \nYes \n \n3.9 0x0800 Read-only settings"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 49,
+        "page": 19,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "Manual Modbus \n \npage 20 of 60 \n \nRevision 03/2024 \n3.9.3 0x0840 ETH1 \n• \nDHCP: 0 = deactivated, 1 = activated \n \nAssigned data \nBase address address \nSize/Type \nDEZ \nHEX \nDHCP \n2112 \n0x0840 \n16b \nIP address \n2113 \n0x0841 \n32b \nNetmask \n2115 \n0x0843 \n32b \nGateway \n2117 \n0x0845 \n32b \nKMB port \n2119 \n0x0847 \n16b \nModbus port \n2120 \n0x0848 \n16b \nWeb server port \n2121 \n0x0849 \n16b \nMAC PORT \n2122 \n0x084A \n64b \n \n3.10 0x0900 MMB system configuration - local bus \n• \nThe registers 0x0982-0x0A18 are individual for each supply line and should be \naddressed via the Modbus address of the individual supply lines. \nAssigned data \nBase address address \nSize/Type \nDEZ \nHEX \nSN of the 1st configured (fce4)/non-configured \n(FCE3) module \n2304 \n \n0x0900 \n16b, R/W \nSN of the 2nd configured module on the local \nbus \n2312 \n0x0908 \n16b, R/W \nSN of the 3rd first configured module on the \nlocal bus \n2320 \n0x0910 \n16b, R/W \nSN of the 4th first configured module on the \nlocal bus \n2328 \n0x0918 \n16b, R/W"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 48,
+        "page": 18,
+        "score": 9,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "Manual Modbus \n \npage 19 of 60 \n \nRevision 03/2024 \n• \nDevice address: configurable address of the slave unit. 0 and 249..255 are reserved \naddresses. \n• \nBaud rate: Communication speed in baud. \n• \nParity: 0 = none, 1 = even, 2 = odd. \n• \nData bit + parity: 0 = 8 data bits + no parity, 1 = 8 data bits + 1 parity bit (odd or \neven). \n• \nStop bit: 0 = one stop bit, 1 = two stop bits. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nCOM Modbus Master \n2048 \n0x0800 \n16b \nDevice address \n2049 \n0x0801 \n16b \nBaud rate \n2050 \n0x0802 \n32b, uint \nParity \n2052 \n0x0804 \n16b \nData bits + parity \n2053 \n0x0805 \n16b \nStop bit \n2054 \n0x0806 \n16b \n \n3.9.2 0x0820 COM2 \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nDevice address \n2080 \n0x0820 \n16b \nBaud rate \n2081 \n0x0821 \n32b \nParity \n2083 \n0x0823 \n16b \nData bits + parity \n2084 \n0x0824 \n16b \nStop bit \n2085 \n0x0825 \n16b"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 27,
+        "page": 10,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "addressing_mode",
+          "register"
+        ],
+        "content": "Manual Modbus \n \npage 11 of 60 \n \nRevision 03/2024 \n3 Modbus register card \nShown register block \nBase address \nType \nDEZ \nHEX \nAuthentication \n0 \n0x0000 \nHolding register \nReal-time clock (RTC) \n256 \n0x0100 \nInput/holding register \nIdentification \n512 \n0x0200 \nInput register \nArchive control block \n768 \n0x0300 \nInput/holding register \nCounter control block \n1536 \n0x0600 \nInput/holding register \nConfigurable settings \n1792 \n0x0700 \nHolding register \nRead-only settings \n2048 \n0x0800 \nInput register \nActual data \n4096 \n0x1000 \nInput register \nElectricity meter \n8192 \n0x2000 \nInput register \nAggregated values \n16384 \n0x4000 \nInput register \nResidual current monitoring \n19712 \n0x4D00 \nInput register \nMax. requirement \n19968 \n0x4E00 \nInput register \nPower quality indices \n20480 \n0x5000 \nInput register \nRipple control signals \n21248 \n0x5300 \nInput register \nModbus master \n24576 \n0x6000 \nInput register \nActual data - direct current and alternating \ncurrent/direct current \n25088 \n0x6200"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 136,
+        "page": 51,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "addressing_mode",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "Manual Modbus \n \npage 52 of 60 \n \nRevision 03/2024 \n3.22 0x9000 Input and output values \n3.22.1 0x9000 Input values \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nDigital inputs (1-16) \n36864 \n0x9000 \n16b \nDigital inputs (17-32) \n36865 \n0x9001 \n16b \nFrequency counter 1 (FC1) \n36866 \n0x9002 \n32b, Float \nFrequency counter 2 (FC2) \n36868 \n0x9004 \n32b, Float \nFrequency counter 3 (FC3) \n36870 \n0x9006 \n32b, Float \nFrequency counter 4 (FC4) \n36872 \n0x9008 \n32b, Float \nFrequency counter 5 (FC5) \n36874 \n0x900A \n32b, Float \nFrequency counter 6 (FC6) \n36876 \n0x900C \n32b, Float \nFrequency counter 7 (FC7) \n36878 \n0x900D \n32b, Float \nFrequency counter 8 (FC8) \n36880 \n0x900F \n32b, Float \nPulse counter 1 (PC1) \n36882 \n0x9012 \n32b, Float \nPulse counter 2 (PC2) \n36884 \n0x9016 \n32b, Float \nPulse counter 3 (PC3) \n36886 \n0x901A \n32b, Float \nPulse counter 4 (PC4) \n36888 \n0x901E \n32b, Float \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nPulse counter 5 (PC5) \n36890 \n0x9022 \n32b, Float"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 40,
+        "page": 15,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "register",
+          "function_code"
+        ],
+        "content": "0x0360 \nreserved \nx \n \n \nreserved \nx \n \n \nreserved \nx \n \n \nreserved \nx \n \n \nGeneral oscillograms \nx \n944 \n0x03B0 \nreserved \nx \n \n \nModbus \nx \n976 \n0x03D0 \nHistogram \nx \n992 \n0x03E0 \nVoltage collapse \nx \n1008 \n0x03F0 \nEvent log \nyes \n1024 \n0x0400 \nTrends \nx \n1040 \n0x0410 \nH2M (SP12 only) \nyes \n1056 \n0x0420 \n \nThe control registers are defined as follows for each archive. Modbus function 4 is supported \nto read the value and Modbus function 16 is supported to write the value. The following table \nshows an example of the main archive registers. \nArchive type \nA\nhi\nBase address \nSize \nType \nFunction 16 \nMain archive \nDEZ \nHEX \nValue \nAction \n \nRecording time \n \n768 \n \n0x030\n0 \n \nu64 \n \nKMB time \n(R/W) \n0x1 \n0x2 \n0x3-\n0xFF(..)FE \n0xFF(..)FF \nGo to the next data \nrecord \nGo to the previous \ndata record \nGo to the next data \nrecord after ... Go \nGo to the latest data \nrecord with auto-\nscroll \nFor the first time \n772 \n0x030\n4\nu64 \nKMB time \nN/V \nFor the last time \n776 \n0x030\n8\nu64 \nKMB time"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 104,
+        "page": 40,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode",
+          "register"
+        ],
+        "content": "Manual Modbus \n \npage 41 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19760 \n0x4D30 \n32b, Float \nA \nlast I∆2 maximum \n19762 \n0x4D32 \n32b, Float \nA \nlast I∆3 maximum \n19764 \n0x4D34 \n32b, Float \nA \nlast I∆4 maximum \n19766 \n0x4D36 \n32b, Float \nA \nlast I∆5 maximum \n19768 \n0x4D38 \n32b, Float \nA \nlast I∆6 maximum \n19770 \n0x4D3A \n32b, Float \nA \nlast I∆7 maximum \n19770 \n0x4D3C \n32b, Float \nA \nlast I∆8 maximum \n19772 \n0x4D3E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nlast I∆1 maximum \n19776 \n0x4D40 \n32b, Float \nA \nlast I∆2 maximum \n19778 \n0x4D42 \n32b, Float \nA \nlast I∆3 maximum \n19780 \n0x4D44 \n32b, Float \nA \nlast I∆4 maximum \n19782 \n0x4D46 \n32b, Float \nA \nlast I∆5 maximum \n19784 \n0x4D48 \n32b, Float \nA \nlast I∆6 maximum \n19786 \n0x4D4A \n32b, Float \nA \nlast I∆7 maximum \n19788 \n0x4D4C \n32b, Float \nA \nlast I∆8 maximum \n19790 \n0x4D4E \n32b, Float \nA \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nI∆1"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 142,
+        "page": 53,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "Manual Modbus \n \npage 54 of 60 \n \nRevision 03/2024 \nwhereby m . . .  the mask bit, s . . .  the status bit, ya . . .  the current initial state and yn . . .  \nare the new output status. The specified output therefore only assumes the value \"Status\" if \nthe corresponding \"Mask\" bit has the value 1. Otherwise, the output does not change. \n3.22.3 0x9700 Hour meter (HM) \nDevices with more than 4 channels can have more than 4 hour counters configured in the I/O \nconfiguration. In this case, more than 4 hour meters are available in a virtual device area \nwhose Modbus address is the current device address incremented by 20. \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nHour counter HM1 active \n38656 \n0x9700 \n64b, int \nHour counter HM1 passive \n38660 \n0x9704 \n64b, int \nHour counter HM2 active \n38664 \n0x9708 \n64b, int \nHour counter HM2 passive \n38668 \n0x970C \n64b, int \nHour counter HM3 active \n38672 \n0x9710 \n64b, int \nHour counter HM3 passive \n38676 \n0x9714 \n64b, int"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 50,
+        "page": 19,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "(FCE3) module \n2304 \n \n0x0900 \n16b, R/W \nSN of the 2nd configured module on the local \nbus \n2312 \n0x0908 \n16b, R/W \nSN of the 3rd first configured module on the \nlocal bus \n2320 \n0x0910 \n16b, R/W \nSN of the 4th first configured module on the \nlocal bus \n2328 \n0x0918 \n16b, R/W \nSN of the 5th first configured module on the \nlocal bus \n2336 \n0x0920 \n16b, R/W \nReserve 5 \n2337 - 2383 \n0x0921 - \n0 094F\n \nDevice number \n2384 \n0x0950 \n16b, R \nDEVICE_TYPE \n2385 \n0x0951 \n16b, R \nPROPS_TYP \n2386 \n0x0952 \n16b, R \nPv0 \n2387 \n0x0953 \n16b, R \nPv1 \n2388 \n0x0954 \n16b, R \nPv2 \n2389 \n0x0955 \n16b, R \nSoftware version \n2390 \n0x0956 \n16b, R \nHardware version \n2391 \n0x0957 \n16b, R \nSoftware modules \n2392 \n0x0958 \n16b, R \nDeviceAdr \n2393 \n0x0959 \n16b, R \nBootloader version \n2394 \n0x095A \n16b, R \nSUBDEVICE TYPE 1 \n2395 \n0x095B \n16b, R \nSUBDEVICE TYPE 2 \n2396 \n0x095C \n16b, R \nSUBDEVICE TYPE 3 \n2397 \n0x095D \n16b, R \nSUBDEVICE TYPE 4 \n2398 \n0x095E \n16b, R \nSUBDEVICE TYPE 5 \n2399 \n0x095F \n16b, R \nSUB-UNIT TYPE 6"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 55,
+        "page": 22,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "addressing_mode"
+        ],
+        "content": "Manual Modbus \n \npage 23 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Type \ndescription \nDEZ \nHEX \nConfiguration \n3328 \n0x0D00 \n32b, R/W \n0x00 = 3P voltage events \n0x01 = 1P voltage events \n0x02 = Floating reference \nvoltage \n0x04 = Create RVC events \n0x08 - Reserved \n0x10+0x20 == \n0=basic/1=extended/2=co\nmplete \n0x80000000=Support of \nthe floating reference \nvoltage \n0x40000000=Support-\nRVC \n0x20000000=Support \nbasic/extended/complete \nRecording interval \n3330 \n0x0D02 \n32b, R/W \n \nFrequency 100% upper limit \n3332 \n0x0D04 \n32b, Float, R/W \n \nFrequency 100% lower limit \n3334 \n0x0D06 \n32b, Float, R/W \n \nFrequency 95% upper limit \n3336 \n0x0D08 \n32b, Float, R/W \n \nFrequency 95% lower limit \n3338 \n0x0D0A \n32b, Float, R/W \n \nVoltage 100% upper limit \n3340 \n0x0D0C \n32b, Float, R/W \n \nVoltage 100% lower limit \n3342 \n0x0D0E \n32b, Float, R/W \n \nVoltage 95% upper limit \n3344 \n0x0D10 \n32b, Float, R/W \n \nVoltage 95% lower limit \n3346 \n0x0D12 \n32b, Float, R/W"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 4,
+        "page": 2,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "register",
+          "function_code"
+        ],
+        "content": "3 \nModbus register card ....................................................................... 11 \n3.1 \n0x0000 Authentication ............................................................................................11 \n3.2 \n0x0100 Device real-time clock control (RTC) ..........................................................12 \n3.3 \n0x0150 Aggregation ...............................................................................................13 \n3.4 \n0x200 Device identification .....................................................................................14 \n3.5 \n0x0300 Archive control block ..................................................................................16 \n3.6 \n0x0600 Resetting values ........................................................................................17 \n3.7 \n0x0630 Reset to factory settings ............................................................................17 \n3.8"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 95,
+        "page": 37,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "Manual Modbus \n \npage 38 of 60 \n \nRevision 03/2024 \n3.15.4 0x4800-0x48FF Minimum since data reset \n \nAssigned data \nBase address \nSize/Type \nUnit \nDEZ \nHEX \nU1 \n18488 \n4838 \n32-Bit, Float \nV \nU2 \n18490 \n483A \n32-Bit, Float \nV \nU3 \n18492 \n483C \n32-Bit, Float \nV \nU12 \n18494 \n483E \n32-Bit, Float \nV \nU23 \n18496 \n4840 \n32-Bit, Float \nV \nU31 \n18498 \n4842 \n32-Bit, Float \nV \nI1 \n18500 \n4844 \n32-Bit, Float \nA \nI2 \n18502 \n4846 \n32-Bit, Float \nA \nI3 \n18504 \n4848 \n32-Bit, Float \nA \nIN=I1+I2+I3 \n18506 \n484A \n32-Bit, Float \nA \nP1 \n18508 \n484C \n32-Bit, Float \nW \nP2 \n18510 \n484E \n32-Bit, Float \nW \nP3 \n18512 \n4850 \n32-Bit, Float \nW \n3P \n18514 \n4852 \n32-Bit, Float \nW \nS1 \n18516 \n4854 \n32-Bit, Float \nVA \nS2 \n18518 \n4856 \n32-Bit, Float \nVA \nS3 \n18520 \n4858 \n32-Bit, Float \nVA \n3S \n18522 \n485A \n32-Bit, Float \nVA \nQ1 \n18524 \n485C \n32-Bit, Float \nvar \nQ2 \n18526 \n485E \n32-Bit, Float \nvar \nQ3 \n18528 \n4860 \n32-Bit, Float \nvar \n3Q \n18530 \n4862 \n32-Bit, Float \nvar \nCosPhi1 \n18532 \n4864 \n32-Bit, Float \n– \nCosPhi2"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 51,
+        "page": 19,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "function_code"
+        ],
+        "content": "16b, R \nDeviceAdr \n2393 \n0x0959 \n16b, R \nBootloader version \n2394 \n0x095A \n16b, R \nSUBDEVICE TYPE 1 \n2395 \n0x095B \n16b, R \nSUBDEVICE TYPE 2 \n2396 \n0x095C \n16b, R \nSUBDEVICE TYPE 3 \n2397 \n0x095D \n16b, R \nSUBDEVICE TYPE 4 \n2398 \n0x095E \n16b, R \nSUBDEVICE TYPE 5 \n2399 \n0x095F \n16b, R \nSUB-UNIT TYPE 6 \n2400 \n0x0960 \n16b, R \nNumber of current inputs \n2401 \n0x0961 \n16b, R \nSn \n2402 \n0x0962 \n16b, R \nDEVICE_TYPE \n2403 \n0x0963 \n16b, R \nSUB UNIT TYPE \n2404 \n0x0964 \n16b, R"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 137,
+        "page": 51,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "36882 \n0x9012 \n32b, Float \nPulse counter 2 (PC2) \n36884 \n0x9016 \n32b, Float \nPulse counter 3 (PC3) \n36886 \n0x901A \n32b, Float \nPulse counter 4 (PC4) \n36888 \n0x901E \n32b, Float \n \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nPulse counter 5 (PC5) \n36890 \n0x9022 \n32b, Float \nPulse counter 6 (PC6) \n36892 \n0x9026 \n32b, Float \nPulse counter 7 (PC7) \n36894 \n0x902A \n32b, Float \nPulse counter 8 (PC8) \n36896 \n0x902E \n32b, Float \nClear time of PC1 \n36914 \n0x9032 \n64b, KMB time \nClearing time of PC2 \n36918 \n0x9036 \n64b, KMB time \nClearing time of PC3 \n36922 \n0x903A \n64b, KMB time \nExtinguishing time of PC4 \n36926 \n0x903E \n64b, KMB time \nClearing time of PC5 \n36930 \n0x9042 \n64b, KMB time \nDeletion time of PC6 \n36934 \n0x9046 \n64b, KMB time \nDeletion time of PC7 \n36938 \n0x904A \n64b, KMB time \nDeletion time of PC8 \n36942 \n0x904E \n64b, KMB time \nAnalog input 1 \n36994 \n0x9082 \n32b, Float \nAnalog input 2 \n36996 \n0x9084 \n32b, Float \nAnalog input 3 \n36998 \n0x9086 \n32b, Float \nAnalog input 4 \n37000"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 122,
+        "page": 46,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "Manual Modbus \n \npage 47 of 60 \n \nRevision 03/2024 \n \n(2) The duration of the base interval for the power quality assessment can be changed by the user in the device configuration. \nAssigned data \nBase address \nSize/Type \nDEZ \nHEX \nfalways \n20995 \n0x5203 \n16b \nfbelow \n20996 \n0x5204 \n16b \nfabove \n20997 \n0x5205 \n16b \nU1 \n20998 \n0x5206 \n32b, Float \nU2 \n21000 \n0x5208 \n32b, Float \nU3 \n21002 \n0x520A \n32b, Float \nU4 \n21004 \n0x520C \n32b, Float \nTHDU 1 \n21006 \n0x520E \n32b, Float \nTHDU 2 \n21008 \n0x5210 \n32b, Float \nTHDU 3 \n21010 \n0x5212 \n32b, Float \nTHDU 4 \n21012 \n0x5214 \n32b, Float \nUharm1 \n21014 \n0x5216 \n64b \nUharm2 \n21018 \n0x521A \n64b \nUharm3 \n21022 \n0x521E \n64b \nUharm4 \n21026 \n0x5222 \n64b \nPST 1 \n21030 \n0x5226 \n32b, Float \nPST 2 \n21032 \n0x5228 \n32b, Float \nPST 3 \n21034 \n0x522A \n32b, Float \nPST 4 \n21036 \n0x522C \n32b, Float \nUNBU \n21038 \n0x522E \n32b, Float \nRCScount \n21040 \n0x522F \n16 Bit, uint \nRCSL1 \n21041 \n0x5230 \n16 Bit, uint \nRCSL2 \n21042 \n0x5231 \n16 Bit, uint \nRCSL3 \n21043 \n0x5232"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 36,
+        "page": 13,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "GMT time \n516 \n0x0204 \n64b \nKMB time \nPROPS_TYP \n520 \n0x0208 \n16b \n \nDEVICE_TYPE \n521 \n0x0209 \n16b \n \nLOWER UNIT TYPE 1 \n522 \n0x020A \n16b \n \nLOWER UNIT TYPE 2 \n523 \n0x020B \n16b \n \nLOWER UNIT TYPE 3 \n524 \n0x020C \n16b \n \nLOWER UNIT TYPE 4 \n525 \n0x020D \n16b \n \nLOWER UNIT TYPE 5 \n526 \n0x020E \n16b \n \nLOWER UNIT TYPE 6 \n527 \n0x020F \n16b \n \nDEVICE_NUMBER \n528 \n0x0210 \n32b \n \nFirmware version \n530 \n0x0212 \n64b \na.b.c.d \nHardware version \n534 \n0x0216 \n64b \na.b.0.0 \nBootloader version \n538 \n0x021A \n64b \na.b.0.0 \nActive firmware modules \n542 \n0x021E \n32b \n \nDate and time of \nmanufacture \n544 \n0x0220 \n64b \nKMB time \nDate and time of the last \ncalibration \n548 \n0x0224 \n64b \nKMB time \nGUID (8 highest bytes) \n552 \n0x0228 \n64b \nu64 \nGUID (8 lowest bytes) \n556 \n0x022C \n64b \nu64"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 38,
+        "page": 14,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "Device type: 0x85xx MIEZ 37010 \nProps type 0x0050: MIEZ Poweranalyzer for DIN rail \nDevice type: 0x3xxx MIEZ 37020 \nDevice type: 0x5xxx MIEZ 37020 \n \nInformation about the version \nFW, HW and BOOTLOADER version: \na is a generation number, \nb is increased with each major update, \nc is incremented with each public release, \nd is an internal revision number. \nActive firmware modules: \n0x02 MIEZ Feature-Upgrade 21041 – Oscillogram+ \n0x20 MIEZ Feature-Upgrade 21040 – Power Quality"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 37,
+        "page": 14,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "Manual Modbus \n \npage 15 of 60 \n \nRevision 03/2024 \nDate and time of the last \nGUID generation \n560 \n0x0230 \n64b \nKMB time \n \nPROPS_TYPES and DEVICES_TYPE \nBelow you will find a list of the most common device types. There may be other options that \nare not listed here. In this case, please contact our support team for further information. The \nprops type defines a group (family) of similar instruments, the device type specifies the exact \ndevice, and the sub-device types 1 to 6 can specify detailed option information. \nProps type 0x2001: IO module family \nDevice type: 0x101x IO-M 544 \nDevice type: 0x102x IO-M 540 \nProps type 0x0030: MIEZ Poweranalyzer \nDevice type: 0x81xx MIEZ 3700x \nDevice type: 0x85xx MIEZ 37010 \nProps type 0x0050: MIEZ Poweranalyzer for DIN rail \nDevice type: 0x3xxx MIEZ 37020 \nDevice type: 0x5xxx MIEZ 37020 \n \nInformation about the version \nFW, HW and BOOTLOADER version: \na is a generation number, \nb is increased with each major update,"
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 148,
+        "page": 55,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "addressing_mode"
+        ],
+        "content": "Manual Modbus \n \npage 56 of 60 \n \nRevision 03/2024 \nAssigned data \nBase address \nSize/Typ\ne \nR/W \nDEZ \nHEX \nBootloader version \n4633\n6\n0xB500 \n16b \nR \nFW main version (4. . . ) \n4633\n0xB501 \n16b \nR \nFW minor version ( .0. . ) \n4633\n8\n0xB502 \n16b \nR \nFW revision ( . .13. ) \n4633\n9\n0xB503 \n16b \nR \nFW build ( . . .4125) \n4634\n0\n0xB504 \n16b \nR \nFactory FW main version (4. . \n. ) \n4634\n1 \n0xB505 \n16b \nR \n \n3) Big endian byte sequence \n4) Checksum = sum of all bytes & 0xFFFF \n \nAssigned data \nBase address \nSize/Ty\npe \nR/W \nDEZ \nHEX \nFactory FW sub-version \n(\n0\n)\n46342 \n0xB50\n6\n16b \nR \nFactory FW revision (_._.13._) \n46343 \n0xB50\n16b \nR \nFactory FW build (_._._.4125) \n46344 \n0xB50\n8\n16b \nR \nBackup FW main version (4._._._) \n46345 \n0xB50\n9 \n16b \nR \nBackup-FW subversion (_0._._._) \n46346 \n0xB50\nA\n16b \nR \nBackup FW revision (_._.13._) \n46347 \n0xB50\nB\n16b \nR \nBackup-FW build \n(_._._.4125) \n46348 \n0xB50\nC \n16b \nR \nWrite date of factory firmware \n46349 \n0xB50\nD \n32b \nKMB \ntime"
+      }
+    ]
+  }
+]

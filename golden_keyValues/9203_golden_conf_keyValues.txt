@@ -1,0 +1,15 @@
+subnetwork.properties.physicalStandard=1
+subnetwork.properties.baudRate=19200|2400|4800|9600|38400|57600|115200
+subnetwork.properties.parity=2|0|1
+subnetwork.properties.stopBits=0|1
+subnetwork.properties.dataBits=1
+subnetwork.nodes[0].properties.nodeAddress=247|1-246
+subnetwork.nodes[0].properties.name=4511
+subnetwork.nodes[0].properties.modbusAddressingMode=0
+subnetwork.nodes[0].transactions[0].properties.name=Password
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3|4
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=3
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3|4
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=2
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2

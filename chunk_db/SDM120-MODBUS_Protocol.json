@@ -1,0 +1,116 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "SDM120-Modbus RTU Protocol \nZhejiang Eastron Electronic Co.,Ltd.  Tel: 0086-573-83698881  Fax: 0086-573-83698883 \nAddress: No.1369 Chengnan Road, Jiaxing, Zhejiang, 314001, China.  Web: www.eastron.com.cn       \n- 1 -\nEastron SDM120Modbus Smart Meter Modbus Protocol Implementation V2.4 \n \n1 MODBUS Protocol Message Format \nThe MODBUS Protocol defines the format for the master’s query and the slave’s response. \nThe query contains the device (or broadcast) address, a function code defining the requested \naction, any data to be sent, and an error-checking field. \nThe response contains fields confirming the action taken, any data to be returned, and an \nerror-checking field. If an error occurred in receipt of the message then the message is ignored, \nif the slave is unable to perform the requested action, then it will construct an error message \nand send it as its response. The MODBUS Protocol functions used by the Eastron Digital"
+  },
+  {
+    "chunk_id": 1,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "error-checking field. If an error occurred in receipt of the message then the message is ignored, \nif the slave is unable to perform the requested action, then it will construct an error message \nand send it as its response. The MODBUS Protocol functions used by the Eastron Digital \nmeters copy 16 bit register values between master and slaves. However, the data used by the \nEastron Digital meter is in 32 bit IEEE 754 floating point format. Thus each instrument \nparameter is conceptually held in two adjacent MODBUS Protocol registers. Query \nThe following example illustrates a request for a single floating point parameter i.e. two 16-bit \nModbus Protocol Registers. \n \nFirst Byte                                                                  Last Byte \n Slave \nAddress \nFunction \nCode \nStart \nAddress \n(Hi) \nStart \nAddress \n(Lo) \nNumber \nof \nPoints \n(Hi) \nNumber \nof \nPoints \n(Lo) \nNumber \nof \nPoints \n(Lo) \nError \nCheck \n(Lo) \nError \nCheck \n(Hi)"
+  },
+  {
+    "chunk_id": 2,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "First Byte                                                                  Last Byte \n Slave \nAddress \nFunction \nCode \nStart \nAddress \n(Hi) \nStart \nAddress \n(Lo) \nNumber \nof \nPoints \n(Hi) \nNumber \nof \nPoints \n(Lo) \nNumber \nof \nPoints \n(Lo) \nError \nCheck \n(Lo) \nError \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the slave being addressed (1 to 247), 0 is reserved for \nthe broadcast address. The Eastron Digital meters do not support the broadcast address. \nFunction Code: 8-bit value telling the addressed slave what action is to be performed. (3, 4, 8 \nor 16 are valid for Eastron Digital meter) \nStart Address (Hi): The top (most significant) eight bits of a 16-bit number specifying the start \naddress of the data being requested. \nStart Address (Lo): The bottom (least significant) eight bits of a 16-bit number specifying the \nstart address of the data being requested. As registers are used in pairs and start at \nzero, then this must be an even number."
+  },
+  {
+    "chunk_id": 3,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "address of the data being requested. \nStart Address (Lo): The bottom (least significant) eight bits of a 16-bit number specifying the \nstart address of the data being requested. As registers are used in pairs and start at \nzero, then this must be an even number. \nNumber of Points (Hi): The top (most significant) eight bits of a 16-bit number specifying the \nnumber of registers being requested. \nNumber of Points (Lo): The bottom (least significant) eight bits of a 16-bit number specifying \nthe number of registers being requested. As registers are used in pairs, then this must be an \neven number. \nError Check (Lo): The bottom (least significant) eight bits of a 16-bit number representing the \nerror check value. \nError Check (Hi): The top (most significant) eight bits of a 16-bit number representing the error \ncheck value."
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "SDM120-Modbus RTU Protocol \nZhejiang Eastron Electronic Co.,Ltd.  Tel: 0086-573-83698881  Fax: 0086-573-83698883 \nAddress: No.1369 Chengnan Road, Jiaxing, Zhejiang, 314001, China.  Web: www.eastron.com.cn       \n- 2 -\nResponse \nThe example illustrates the normal response to a request for a single floating point parameter \ni.e. two 16-bit Modbus Protocol Registers. \n \nFirst Byte                                                              Last Byte                  \nSlave \nAddress \nFunction \nCode \nByte \nCount \nFirst \nRegister \n(Hi) \nFirst \nRegister \n(Lo) \nSecond \nRegister \n(Hi) \nSecond \nRegister \n(Lo) \nError \nCheck \n(Lo) \nError \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the address of slave that is responding. \nFunction Code: 8-bit value which, when a copy of the function code in the query, indicates that \nthe slave recognised the query and has responded. (See also Exception Response)."
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "Check \n(Lo) \nError \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the address of slave that is responding. \nFunction Code: 8-bit value which, when a copy of the function code in the query, indicates that \nthe slave recognised the query and has responded. (See also Exception Response). \nByte Count: 8-bit value indicating the number of data bytes contained within this response \nFirst Register (Hi)*: The top (most significant) eight bits of a 16-bit number representing the \nfirst register requested in the query. \nFirst Register (Lo)*: The bottom (least significant) eight bits of a 16-bit number representing \nthe first register requested in the query. \nSecond Register (Hi)*: The top (most significant) eight bits of a 16-bit number representing the \nsecond register requested in the query. \nSecond Register (Lo)*: The bottom (least significant) eight bits of a 16-bit number representing \nthe second register requested in the query."
+  },
+  {
+    "chunk_id": 6,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "Second Register (Hi)*: The top (most significant) eight bits of a 16-bit number representing the \nsecond register requested in the query. \nSecond Register (Lo)*: The bottom (least significant) eight bits of a 16-bit number representing \nthe second register requested in the query. \nError Check (Lo): The bottom (least significant) eight bits of a 16-bit number representing the \nerror check value. \nError Check (Hi): The top (most significant) eight bits of a 16-bit number representing the error \ncheck value. \n \nException Response \nIf an error is detected in the content of the query (excluding parity errors and Error Check \nmismatch), then an error response (called an exception response), will be sent to the master. \nThe exception response is identified by the function code being a copy of the query function \ncode but with the most-significant bit set. The data contained in an exception response is a \nsingle byte error code."
+  },
+  {
+    "chunk_id": 7,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "The exception response is identified by the function code being a copy of the query function \ncode but with the most-significant bit set. The data contained in an exception response is a \nsingle byte error code. \n \nFirst Byte                                                             Last Byte \nSlave \nAddress \nFunction \nCode \nError \nCode \nError \nCheck \n(Lo) \nError \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the address of slave that is responding. \nFunction Code: 8 bit value which is the function code in the query OR'ed with 80 hex, \nindicating that the slave either does not recognize the query or could not carry out the action \nrequested. \nError Code: 8-bit value indicating the nature of the exception detected.  \n(See “Table Of Exception Codes“ later)."
+  },
+  {
+    "chunk_id": 8,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "SDM120-Modbus RTU Protocol \nZhejiang Eastron Electronic Co.,Ltd.  Tel: 0086-573-83698881  Fax: 0086-573-83698883 \nAddress: No.1369 Chengnan Road, Jiaxing, Zhejiang, 314001, China.  Web: www.eastron.com.cn       \n- 3 -\nError Check (Lo): The bottom (least significant) eight bits of a 16-bit number representing the \nerror check value. \nError Check (Hi): The top (most significant) eight bits of a 16-bit number representing the error \ncheck value. \n \n2 Read Input Registers  \n2.1 MODBUS Protocol code 04 reads the contents of the 3X registers. \nExample \nThe following query will request ‘Volts 1’ from an instrument with node address 1: \nField Name \nExample(Hex) \nSlave Address \n01 \nFunction \n04 \nStarting Address High \n00 \nStarting Address Low \n00 \nNumber of Points High \n00 \nNumber of Points Low \n02 \nError Check Low \n71 \nError Check High \nCB \n \nNote: Data must be requested in register pairs i.e. the “Starting Address“ and the “Number of"
+  },
+  {
+    "chunk_id": 9,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "Example(Hex) \nSlave Address \n01 \nFunction \n04 \nStarting Address High \n00 \nStarting Address Low \n00 \nNumber of Points High \n00 \nNumber of Points Low \n02 \nError Check Low \n71 \nError Check High \nCB \n \nNote: Data must be requested in register pairs i.e. the “Starting Address“ and the “Number of \nPoints” must be even numbers to request a floating point variable. If the “Starting Address” or \nthe “Number of points” is odd then the query will fall in the middle of a floating point variable \nthe product will return an error message. \nThe following response returns the contents of Volts 1 as 230.2. But see also “Exception \nResponse” later. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n04 \nByte Count \n04 \nData, High Reg, High Byte \n43 \nData, High Reg, Low Byte \n66 \nData, Low Reg, High Byte \n33 \nData, Low Reg, Low Byte \n34 \nError Check Low \n1B \nError Check High \n38"
+  },
+  {
+    "chunk_id": 10,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "SDM120-Modbus RTU Protocol \nZhejiang Eastron Electronic Co.,Ltd.  Tel: 0086-573-83698881  Fax: 0086-573-83698883 \nAddress: No.1369 Chengnan Road, Jiaxing, Zhejiang, 314001, China.  Web: www.eastron.com.cn       \n- 4 -\n2.2 Read Holding Registers \nMODBUS Protocol code 03 reads the contents of the 4X registers. \nExample \nThe following query will request the prevailing ‘Network Node’: \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n03 \nStarting Address High \n00 \nStarting Address Low \n00 \nNumber of Points High \n00 \nNumber of Points Low \n14 \nError Check Low \nC4 \nError Check High \n0B \nNote: Data must be requested in register pairs i.e. the “Starting Address“ and the “Number of \nPoints” must be even numbers to request a floating point variable. If the “Starting Address” or \nthe “Number of points” is odd then the query will fall in the middle of a floating point variable \nthe product will return an error message."
+  },
+  {
+    "chunk_id": 11,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "Points” must be even numbers to request a floating point variable. If the “Starting Address” or \nthe “Number of points” is odd then the query will fall in the middle of a floating point variable \nthe product will return an error message. \n \nThe following response returns the contents of Demand Time as 1, but see also “Exception \nResponse” later. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n03 \nByte Count \n04 \nData, High Reg, High Byte \n3F \nData, High Reg, Low Byte \n80 \nData, Low Reg, High Byte \n00 \nData, Low Reg, Low Byte \n00 \nError Check Low \nF7 \nError Check High \nCF \n \n2.3 Write Holding Registers \nMODBUS Protocol code 10 (16 decimal) writes the contents of the 4X registers. \nExample \nThe following query will set the Network Node to 60: \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n10 \nStarting Address High \n00 \nStarting Address Low \n14 \nNumber of Registers High \n00 \nNumber of Registers Low \n02 \nByte Count \n04"
+  },
+  {
+    "chunk_id": 12,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "SDM120-Modbus RTU Protocol \nZhejiang Eastron Electronic Co.,Ltd.  Tel: 0086-573-83698881  Fax: 0086-573-83698883 \nAddress: No.1369 Chengnan Road, Jiaxing, Zhejiang, 314001, China.  Web: www.eastron.com.cn       \n- 5 -\nData, High Reg, High Byte \n42 \nData, High Reg, Low Byte \n70 \nData, Low Reg, High Byte \n00 \nData, Low Reg, Low Byte \n00 \nError Check Low \n67 \nError Check High \nD5 \n \nNote: Data must be written in register pairs i.e. the “Starting Address“ and the “Number of \nPoints” must be even numbers to write a floating point variable. If the “Starting Address” or the \n“Number of points” is odd then the query will fall in the middle of a floating point variable the \nproduct will return an error message. In general only one floating point value can be written per \nquery \n \nThe following response indicates that the write has been successful. But see also “Exception \nResponse “later. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n10 \nStarting Address High \n00"
+  },
+  {
+    "chunk_id": 13,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "query \n \nThe following response indicates that the write has been successful. But see also “Exception \nResponse “later. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n10 \nStarting Address High \n00 \nStarting Address Low \n14 \nNumber of Registers High \n00 \nNumber of Registers Low \n02 \nError Check Low \nE0 \nError Check High \n08 \n \nRegister Map: \nFunction code 04 to read input parameters: \nAddre\nss \nRegis\nter  \nInput Register Parameter  \nModbus Protocol Start \nAddress Hex  \nParameter  \nLength \n(bytes) \nUnits  \nFormat \nHi byte  \nLo byte  \n30001 \nVoltage \n4 \nVolts \nFloat \n00 \n00 \n30007 \nCurrent \n4 \nAmps \nFloat \n00 \n06 \n30013 \nActive power \n4 \nWatts \nFloat \n00 \n0C \n30019 \nApparent power \n4 \nVA \nFloat \n00 \n12 \n30025 \nReactive power \n4 \nVAr \nFloat \n00 \n18 \n30031 \nPower factor \n4 \nNone \nFloat \n00 \n1E \n30071 \nFrequency \n4 \nHz \nFloat \n00 \n46 \n30073 \nImport active energy \n4 \nkWh \nFloat \n00 \n48 \n30075 \nExport active energy \n4 \nkWh \nFloat \n00 \n4A \n30077 \nImport \nreactive \nenergy \n4 \nkvarh"
+  },
+  {
+    "chunk_id": 14,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "4 \nVA \nFloat \n00 \n12 \n30025 \nReactive power \n4 \nVAr \nFloat \n00 \n18 \n30031 \nPower factor \n4 \nNone \nFloat \n00 \n1E \n30071 \nFrequency \n4 \nHz \nFloat \n00 \n46 \n30073 \nImport active energy \n4 \nkWh \nFloat \n00 \n48 \n30075 \nExport active energy \n4 \nkWh \nFloat \n00 \n4A \n30077 \nImport \nreactive \nenergy \n4 \nkvarh \nFloat \n00 \n4C \n30079 \nExport \nreactive \n4 \nkvarh \nFloat \n00 \n4E"
+  },
+  {
+    "chunk_id": 15,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "SDM120-Modbus RTU Protocol \nZhejiang Eastron Electronic Co.,Ltd.  Tel: 0086-573-83698881  Fax: 0086-573-83698883 \nAddress: No.1369 Chengnan Road, Jiaxing, Zhejiang, 314001, China.  Web: www.eastron.com.cn       \n- 6 -\nenergy \n30085 \nTotal system power \ndemand \n4 \nFloat \nW \n00 \n54 \n30087 \nMaximum total \nsystem power \ndemand \n4 \nFloat \nW \n00 \n56 \n30089 \nImport system power \ndemand \n4 \nFloat \nW \n00 \n58 \n30091 \nMaximum Import \nsystem power \ndemand \n4 \nFloat \nW \n00 \n5A \n30093 \nExport system power \ndemand \n4 \nFloat \nW \n00 \n5C \n30095 \nMaximum Export \nsystem power \ndemand \n4 \nFloat \nW \n00 \n5E \n30259 \ncurrent demand. \n4 \nFloat \nAmps \n01 \n02 \n30265 \nMaximum \ncurrent \ndemand. \n4 \nFloat \nAmps \n01 \n08 \n30343 \nTotal active energy \n4 \nkWh \nFloat \n01 \n56 \n30345 \nTotal reactive energy \n4 \nKvarh \nFloat \n01 \n58"
+  },
+  {
+    "chunk_id": 16,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "SDM120-Modbus RTU Protocol \nZhejiang Eastron Electronic Co.,Ltd.  Tel: 0086-573-83698881  Fax: 0086-573-83698883 \nAddress: No.1369 Chengnan Road, Jiaxing, Zhejiang, 314001, China.  Web: www.eastron.com.cn       \n- 7 -\nFunction code 10 to set holding parameter ，function code 03 to read holding parameter \nAddress \nRegister  \nHolding \nRegister \nParameter  \nModbus Protocol Start \nAddress Hex  \nDescription  \nParameters \nHi byte \nLo byte \n40013 \nRelay Pulse Width \n00 \n0C \nWrite relay on period in \nmilliseconds: 60, 100 or 200, \ndefault 100ms.  \nLength : 4 byte \nData Format : Float \n40019 \nNetwork Parity Stop \n00 \n12 \nWrite the network port parity/stop \nbits for MODBUS Protocol, where: \n0 = One stop bit and no parity, \ndefault. 1 = One stop bit and even \nparity. 2 = One stop bit and odd \nparity.3 = Two stop bits and no \nparity. Requires a restart to \nbecome effective. \nLength : 4 byte \nData Format : Float \n40021 \nMeter ID \n00 \n14 \nRanges from 1 to 247, \n.Default ID is 1. \nLength : 4 byte"
+  },
+  {
+    "chunk_id": 17,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "default. 1 = One stop bit and even \nparity. 2 = One stop bit and odd \nparity.3 = Two stop bits and no \nparity. Requires a restart to \nbecome effective. \nLength : 4 byte \nData Format : Float \n40021 \nMeter ID \n00 \n14 \nRanges from 1 to 247, \n.Default ID is 1. \nLength : 4 byte \nData Format : Float \n40029 \nBaud rate \n00 \n1C \nWrite the network port baud rate \nfor MODBUS Protocol, where: \n0 = 2400 baud(default) \n1 = 4800 baud.  \n2 = 9600 baud \n5=1200 baud . \nLength : 4 byte \nData Format : Float \n40087 \nPulse 1 output mode \n00 \n56 \nWrite MODBUS Protocol input \nparameter for pulse out 1:   \n0001: Import active energy,  \n0002: Import + export active \nenergy,  \n0004: \nExport \nactive \nenergy, \n(default). \n0005: Import reactive energy, \n0006: Import + export reactive \nenergy, \n0008: Export reactive energy, \n Length : 4 byte \nData Format : Float"
+  },
+  {
+    "chunk_id": 18,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\SDM120-MODBUS_Protocol.pdf",
+    "content": "SDM120-Modbus RTU Protocol \nZhejiang Eastron Electronic Co.,Ltd.  Tel: 0086-573-83698881  Fax: 0086-573-83698883 \nAddress: No.1369 Chengnan Road, Jiaxing, Zhejiang, 314001, China.  Web: www.eastron.com.cn       \n- 8 -\n463745 \nTime of scroll display  \nF9 \n00 \nRange：0-30s \nDefault 0:does not display in turns \nLength : 2 byte \nData Format : HEX \n463761 \nPulse 1 output \nF9 \n10 \n0000:0.001kWh/imp(default) \n0001:0.01kWh/imp \n0002:0.1kWh/imp \n0003:1kWh/imp \nLength : 2 byte \nData Format : HEX \n463777 \nMeasurement mode \nF9 \n20 \n0001:mode 1(total = import) \n0002:mode 2 \n(total = import + export）(default) \n0003:mode 3  \n(total = import - export) \nLength : 2 byte \nData Format : HEX \n464513 \nSerial number \nFC \n00 \nSerial number \nLength: 4 bytes \nData Format: unsigned int32 \nNote: read only \n464515 \nMeter code \nFC  \n02 \nMeter code = 00 20 \nLength: 2 bytes \nData Format: Hex \nNote: read only \n464516 \nSoftware version \nFC \n03 \nSoftware version \nLength: 2 bytes \nData Format: Hex \nNote: read only"
+  }
+]

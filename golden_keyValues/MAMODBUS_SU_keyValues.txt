@@ -1,0 +1,15 @@
+subnetwork.properties.physicalStandard=1
+subnetwork.properties.baudRate=57600
+subnetwork.properties.parity=2
+subnetwork.properties.stopBits=1
+subnetwork.properties.dataBits=1
+subnetwork.nodes[0].properties.nodeAddress=1|1-247
+subnetwork.nodes[0].properties.name=Device Temperature
+subnetwork.nodes[0].properties.modbusAddressingMode=0|1
+subnetwork.nodes[0].transactions[0].properties.name=Device Temperature
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=4
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=31|42
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=2
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=4
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=4
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=4

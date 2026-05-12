@@ -1,0 +1,165 @@
+manual,ai_model,accuracy,accuracy_percent
+1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf,gpt-5.1,10/13,76.92%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=0),Predicted: 0 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=511),Predicted: 511 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1),Predicted: 1 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2),Predicted: 2 [default]
+,,Correct: Baud Rate (subnetwork.properties.baudRate=115200),Predicted: 115200 [default]
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Wrong: Parity (subnetwork.properties.parity=0),Predicted: not found
+,,Wrong: Stop Bits (subnetwork.properties.stopBits=0),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=Status word),Predicted: PSTX [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Status word),Predicted: Status word [naming convention; not scored]
+9203_mcm_101.pdf,gpt-5.1,12/13,92.31%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=0),Predicted: 0 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=3),Predicted: 3 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1),Predicted: 1 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2),Predicted: 2 [default]
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Correct: Stop Bits (subnetwork.properties.stopBits=0),Predicted: 0 [default]
+,,Non-default match: Node Address (subnetwork.nodes[0].properties.nodeAddress=247),Predicted: 1 [accepted alternate; default was 247]
+,,Non-default match: Baud Rate (subnetwork.properties.baudRate=19200),Predicted: 115200 [accepted alternate; default was 19200]
+,,Non-default match: Parity (subnetwork.properties.parity=2),Predicted: 0 [accepted alternate; default was 2]
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=4511),Predicted: 9203MCM101 [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Password),Predicted: PASSWORD [naming convention; not scored]
+APM-MAX-Modbus-Communications.pdf,gpt-5.1,11/13,84.62%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=0),Predicted: 0 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=4),Predicted: 4 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=1),Predicted: 1 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=4),Predicted: 4 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=4),Predicted: 4 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=4),Predicted: 4 [default]
+,,Correct: Baud Rate (subnetwork.properties.baudRate=115200),Predicted: 115200 [default]
+,,Correct: Parity (subnetwork.properties.parity=0),"Predicted: 0 [accepted combo (Stop Bits=1, Parity=0)]"
+,,Correct: Stop Bits (subnetwork.properties.stopBits=1),"Predicted: 1 [accepted combo (Stop Bits=1, Parity=0)]"
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Wrong: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=Displayed Value),Predicted: APM-MAX [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Displayed Value),Predicted: Displayed Value [naming convention; not scored]
+a_si370010--_en.pdf,gpt-5.1,12/14,85.71%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=0),Predicted: 0 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=16),Predicted: 16 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=1792),Predicted: 1792 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1),Predicted: 1 [default]
+,,Correct: subnetwork.nodes[0].transactions[0].frames[0].frameObjects[5].properties.dataLength=2,Predicted: 2 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=16),Predicted: 16 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=1792),Predicted: 1792 [default]
+,,Correct: subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.data=1,Predicted: 1 [default]
+,,Correct: Parity (subnetwork.properties.parity=0),Predicted: 0 [default]
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Correct: Stop Bits (subnetwork.properties.stopBits=0),Predicted: 0 [default]
+,,Wrong: Baud Rate (subnetwork.properties.baudRate=19200),Predicted: not found
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=si370010),Predicted: not found [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Connection type),Predicted: Connection type [naming convention; not scored]
+MN040018_EN.pdf,gpt-5.1,11/13,84.62%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=1),Predicted: 1 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1),Predicted: 1 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2),Predicted: 2 [default]
+,,Correct: Baud Rate (subnetwork.properties.baudRate=115200),Predicted: 115200 [default]
+,,Correct: Parity (subnetwork.properties.parity=0),"Predicted: 0 [accepted combo (Parity=0, Stop Bits=0)]"
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Correct: Stop Bits (subnetwork.properties.stopBits=0),"Predicted: 0 [accepted combo (Parity=0, Stop Bits=0)]"
+,,Wrong: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=19),Predicted: 26
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=Fan Runtime),Predicted: DA1 [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Fan Runtime),Predicted: Fan Runtime [naming convention; not scored]
+Modbus-RTU-ELR-3BN-IM190.5-U-M-v1.2.pdf,gpt-5.1,5/15,33.33%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=1),Predicted: 1 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=8447),Predicted: 8447 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=2),Predicted: 2 [default]
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Wrong: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=16),Predicted: 3
+,,Wrong: subnetwork.nodes[0].transactions[0].frames[0].frameObjects[4].properties.data=4,Predicted: NOT FOUND
+,,Wrong: subnetwork.nodes[0].transactions[0].frames[0].frameObjects[5].properties.dataLength=4,Predicted: NOT FOUND
+,,Wrong: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=16),Predicted: 3
+,,Wrong: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=8447),Predicted: 4
+,,Wrong: subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.data=2,Predicted: NOT FOUND
+,,Wrong: Baud Rate (subnetwork.properties.baudRate=9600),Predicted: not found
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Wrong: Parity (subnetwork.properties.parity=0),Predicted: not found
+,,Wrong: Stop Bits (subnetwork.properties.stopBits=1),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=RTU_ELR),Predicted: ELR-3BN [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Reset Mode),Predicted: RESET MODE [naming convention; not scored]
+Modbus-RTU-Manual.2022.pdf,gpt-5.1,13/13,100.00%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=1),Predicted: 1 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=35),Predicted: 35 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1),Predicted: 1 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2),Predicted: 2 [default]
+,,Correct: Baud Rate (subnetwork.properties.baudRate=9600),Predicted: 9600 [default]
+,,Correct: Data Bits (subnetwork.properties.dataBits=1),Predicted: 1 [default]
+,,Correct: Parity (subnetwork.properties.parity=0),Predicted: 0 [default]
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Correct: Stop Bits (subnetwork.properties.stopBits=0),Predicted: 0 [default]
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=Temperature),Predicted: not found [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Temperature),Predicted: Temperature [naming convention; not scored]
+rtvs1-35l22-modbus-registerlista.pdf,gpt-5.1,12/13,92.31%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=1),Predicted: 1 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=4),Predicted: 4 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=5),Predicted: 5 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1),Predicted: 1 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=4),Predicted: 4 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2),Predicted: 2 [default]
+,,Correct: Data Bits (subnetwork.properties.dataBits=1),Predicted: 1 [default]
+,,Correct: Parity (subnetwork.properties.parity=2),Predicted: 2 [default]
+,,Correct: Stop Bits (subnetwork.properties.stopBits=0),Predicted: 0 [default]
+,,Non-default match: Baud Rate (subnetwork.properties.baudRate=19200),Predicted: 38400 [accepted alternate; default was 19200]
+,,Wrong: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=RTVS1),Predicted: RTVS1 [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Device state),Predicted: Device state [naming convention; not scored]
+S111_Modbus-register-table_EN_V2025-2.pdf.pdf,gpt-5.1,9/13,69.23%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=0),Predicted: 0 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Baud Rate (subnetwork.properties.baudRate=9600),Predicted: 9600 [default]
+,,Correct: Data Bits (subnetwork.properties.dataBits=1),Predicted: 1 [default]
+,,Correct: Parity (subnetwork.properties.parity=0),Predicted: 0 [default]
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Correct: Stop Bits (subnetwork.properties.stopBits=0),Predicted: 0 [default]
+,,Wrong: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=1052),Predicted: not found
+,,Wrong: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=2),Predicted: 1
+,,Wrong: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=4),Predicted: 2
+,,Wrong: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=4),Predicted: 2
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=S111),Predicted: S111 [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Power_factor_A),Predicted: Power factor A [naming convention; not scored]
+SDM120-MODBUS_Protocol.pdf,gpt-5.1,11/13,84.62%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=2),Predicted: 2 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=4),Predicted: 4 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=0),Predicted: 0 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=4),Predicted: 4 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=4),Predicted: 4 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=4),Predicted: 4 [default]
+,,Correct: Baud Rate (subnetwork.properties.baudRate=2400),Predicted: 2400 [default]
+,,Correct: Parity (subnetwork.properties.parity=0subnetwork.properties.parity=0),"Predicted: 0 [accepted combo (Parity=0, Stop Bits=0)]"
+,,Correct: Stop Bits (subnetwork.properties.stopBits=0),"Predicted: 0 [accepted combo (Parity=0, Stop Bits=0)]"
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Wrong: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=Eastron SDM120Modbus Smart Meter),Predicted: SDM120 [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=voltage),Predicted: Voltage [naming convention; not scored]
+AVERAGE,gpt-5.1,10 manuals,80.37%

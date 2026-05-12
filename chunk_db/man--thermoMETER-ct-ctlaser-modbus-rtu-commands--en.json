@@ -1,0 +1,80 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "Operating Instructions\nModbus RTU"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "Supplementary description of the Modbus RTU interface for the thermoMETER CT and CTL system\nMICRO-EPSILON \nMESSTECHNIK \nGmbH & Co. KG \nKoenigbacher Str. 15\n94496 Ortenburg / Germany\nTel.  +49 (0) 8542 / 168-0\nFax  +49 (0) 8542 / 168-90 \neltrotec@micro-epsilon.com\nwww.micro-epsilon.com"
+  },
+  {
+    "chunk_id": 2,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "1 \n \nthermoMETER Modbus RTU communication interface  \nfor CT and CTlaser \n \nSerial Interface Parameters \n \nBaud rate: \n9600 or 19200, set by user (factory default: 9600) \n \nData bits: \n8 \n \nParity: \neven \n \nStop bits: \n2 \n \nFlow control: \noff \n \nProtocol \nThe protocol is a Modbus RTU protocol. \n \n \n \nInstallation Overview \nInsert the Modbus RTU interface on the CT electronic board and power it with 8-36 V. The RS422 mode has to be \nselected on the electronic box. \n \n \nModbus RTU interface \n \nUse a Modbus RTU program to \nread out the data. This is done via \nthe Read Holding Register and \nRead Input Register.  \n \nChanging the settings of the device \nis done over the Write Holding \nRegister."
+  },
+  {
+    "chunk_id": 3,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "2 \n \nConnection of more than one Device \n \n \n \nThe 120R-switch has to be turned to ON for the last connected CT unit. \n \nFor the assignment of the Modbus ID of the individual devices, the devices must be connected one after the \nother. By default the Modbus ID is for every device 1. In order to communicate, each device needs its own ID. \nThe numbers 1 to 247 can be selected."
+  },
+  {
+    "chunk_id": 4,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "3 \nTable of contents \n1 INPUT REGISTER \n4 \n2 HOLDING REGISTER \n5 \n3 CONTACT INFORMATION \n6"
+  },
+  {
+    "chunk_id": 5,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "4 \n1 Input Register \nDescription \nType \nRegister Address \nRegister-Size \nChecksum \nData-Format \nComment \nModbus CT \nFW Revision \nR - Input \nRegister \n1000 \n1 \nNo \n=Value/100 \nSet by \nFirmware \nError-FileID \nR - Input \nRegister \n1001 \n1 \n- \nFileID where error is \ntriggered \n  \nError-Line \nR - Input \nRegister \n1002 \n1 \n- \nLine in file where \nerror is triggered \n  \nError-Code \nR - Input \nRegister \n1003 \n1 \n- \nError code e.g. \nHAL_ERROR \n  \nError-Data \nR - Input \nRegister \n1004 \n1 \n- \nAdditional data e.g. \nstate \n  \nError-Count \nR - Input \nRegister \n1005 \n1 \n- \nCount how often this \nerror has occurred \n  \n \n \nDescription \nType \nRegister \nAddress \nRegister-\nSize \nRead-\nCommand \nCheck\nsum \nRX-Bytes \nData-Format \nSerial \nnumber \nR - Input \nRegister \n1010 \n2 \n0x0E \nNo \n3 \n=(ByteH(1)*65536 + ByteL(1) * \n256 + ByteL(2) \nCT FW \nRevision \nR - Input \nRegister \n1012 \n1 \n0x0F \nNo \n2 \n=(ByteH * 256 + Byte2) \nCT Sensor \nInformation \nR - Input \nRegister \n1013 \n3 \n0x45 \nNo \n6"
+  },
+  {
+    "chunk_id": 6,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "Command \nCheck\nsum \nRX-Bytes \nData-Format \nSerial \nnumber \nR - Input \nRegister \n1010 \n2 \n0x0E \nNo \n3 \n=(ByteH(1)*65536 + ByteL(1) * \n256 + ByteL(2) \nCT FW \nRevision \nR - Input \nRegister \n1012 \n1 \n0x0F \nNo \n2 \n=(ByteH * 256 + Byte2) \nCT Sensor \nInformation \nR - Input \nRegister \n1013 \n3 \n0x45 \nNo \n6 \nByteH(1), ByteL(1) = Sensor \ntype \nByteH(2), ByteL(2) = Lower \nTemperature \nByteH(3), ByteL(3) = Upper \nTemperature \n \n \nDescription \nType \nRegisterA\nddress \nRegister-\nSize \nRead-\nCommand \nCheck\nsum \nRX-Bytes \nData-Format \nTemp. - \nprocess \nR - Input \nRegister \n1020 \n1 \n0x01 \nNo \n2 \n=(ByteH * 256 + ByteL - 1000) / \n10 \nTemp. - \nHead \nR - Input \nRegister \n1021 \n1 \n0x02 \nNo \n2 \n=(ByteH * 256 + ByteL - 1000) / \n10 \nTemp. - Box \nR - Input \nRegister \n1022 \n1 \n0x03 \nNo \n2 \n=(ByteH * 256 + ByteL - 1000) / \n10 \nTemp. - Act \nR - Input \nRegister \n1023 \n1 \n0x81 \nNo \n2 \n=(ByteH * 256 + ByteL - 1000) / \n10"
+  },
+  {
+    "chunk_id": 7,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "5 \n2 Holding Register \nDescription \nType \nRegister Address \nRegister-Size \nData-Format \nComment \nMODBUS-ID \nR/W - Holding \nRegister \n10000 \n1 \nID: 1 - 247 \nMODBUS Setting \nMODBUS \nBaudrate \nR/W - Holding \nRegister \n10001 \n1 \n1: 9600 Baud \n2: 19200 Baud \nMODBUS Setting \nError-Count \nReset \nR/W - Holding \nRegister \n10002 \n1 \n0: Idle 1: Reset \nResets the error repetition \ncount to 0 \n \n \nDescription \nType \nRegister \nAddress \nRegister\n-Size \nRead-\nCommand \nWrite-\nCommand \nChecks\num \nRX-\nBytes \nData-Format \nEpsilon \nR/W - Holding \nRegister \n10010 \n1 \n0x04 \n0x84 byte1 \nbyte2 \nYes \n2 \n=(ByteH * 256 + \nByteL) / 1000 \nTransmission \nR/W - Holding \nRegister \n10011 \n1 \n0x05 \n0x85 byte1 \nbyte2 \nYes \n2 \n=(ByteH * 256 + \nByteL) / 1000 \nSpot \nIllumination \nLaser \nR/W - Holding \nRegister \n10012 \n1 \n0x25 \n0xA5 byte1 \nYes \n1 \n1 = On \n0 = Off \nAVG Time \nR/W - Holding \nRegister \n10013 \n1 \n0x06 \n0x86 byte1 \nbyte2 \nYes \n2 \n=(ByteH * 256 + \nByteL) / 10 \nAVG Mode \nR/W - Holding \nRegister \n10014 \n1 \n0x1C"
+  },
+  {
+    "chunk_id": 8,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "2 \n=(ByteH * 256 + \nByteL) / 1000 \nSpot \nIllumination \nLaser \nR/W - Holding \nRegister \n10012 \n1 \n0x25 \n0xA5 byte1 \nYes \n1 \n1 = On \n0 = Off \nAVG Time \nR/W - Holding \nRegister \n10013 \n1 \n0x06 \n0x86 byte1 \nbyte2 \nYes \n2 \n=(ByteH * 256 + \nByteL) / 10 \nAVG Mode \nR/W - Holding \nRegister \n10014 \n1 \n0x1C \n0x9C byte1 \nYes \n1 \n1 = Smart \nAveraging \n0 = Normal \nPeak Hold Time \nR/W - Holding \nRegister \n10015 \n1 \n0x08 \n0x88 byte1 \nbyte2 \nYes \n2 \n=(ByteH * 256 + \nByteL) / 10 \nValley Hold \nTime \nR/W - Holding \nRegister \n10016 \n1 \n0x07 \n0x87 byte1 \nbyte2 \nYes \n2 \n=(ByteH * 256 + \nByteL) / 10 \nAdvanced Hold \nMode \nR/W - Holding \nRegister \n10017 \n1 \n0x1D \n0x9D byte1 \nYes \n1 \n0 = Off \n1 = Peak \n2 = Valley \nAdvanced Hold \nThreshold \nR/W - Holding \nRegister \n10018 \n1 \n0x1E \n0x9E byte1 \nbyte2 \nYes \n2 \n=(ByteH * 256 - \nByteL - 1000) / 10 \nAdvanced Hold \nHysteresis \nR/W - Holding \nRegister \n10019 \n1 \n0x22 \n0xA2 byte1 \nbyte2 \nYes \n2 \n=(ByteH * 256 - \nByteL) / 10 \nALARMx Mode \nR/W - Holding \nRegister \n10021"
+  },
+  {
+    "chunk_id": 9,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "Threshold \nR/W - Holding \nRegister \n10018 \n1 \n0x1E \n0x9E byte1 \nbyte2 \nYes \n2 \n=(ByteH * 256 - \nByteL - 1000) / 10 \nAdvanced Hold \nHysteresis \nR/W - Holding \nRegister \n10019 \n1 \n0x22 \n0xA2 byte1 \nbyte2 \nYes \n2 \n=(ByteH * 256 - \nByteL) / 10 \nALARMx Mode \nR/W - Holding \nRegister \n10021 \n1 \n0x28 \n0xA8 byte1 \nbyte2 \nYes \n2 \nSee CT-CTlaser-\nCTvideo-\ncommands.pdf \nLow End for \noutputs \nR/W - Holding \nRegister \n10022 \n1 \n0x18 \n0x98 byte1 \nbyte2 \nYes \n2 \n'=(ByteH * 256 - \nByteL - 1000) / 10 \nHigh End for \noutputs \nR/W - Holding \nRegister \n10023 \n1 \n0x19 \n0x99 byte1 \nbyte2 \nYes \n2 \n'=(ByteH * 256 - \nByteL - 1000) / 10 \nSkal_Out_Min \nR/W - Holding \nRegister \n10024 \n1 \n0x11 \n0x91 byte1 \nbyte2 \nYes \n2 \nmV or µA \nSkal_Out_ \nMax \nR/W - Holding \nRegister \n10025 \n1 \n0x12 \n0x92 byte1 \nbyte2 \nYes \n2 \nmV or µA \nAL1 value \nR/W - Holding \nRegister \n10026 \n1 \n0x0A \n0x8A byte1 \nbyte2 \nYes \n2 \n= (ByteH*256 + \nByteL - 1000) / 10 \nAL2 value \nR/W - Holding \nRegister \n10027 \n1 \n0x0B \n0x8B byte1 \nbyte2 \nYes \n2"
+  },
+  {
+    "chunk_id": 10,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "mV or µA \nSkal_Out_ \nMax \nR/W - Holding \nRegister \n10025 \n1 \n0x12 \n0x92 byte1 \nbyte2 \nYes \n2 \nmV or µA \nAL1 value \nR/W - Holding \nRegister \n10026 \n1 \n0x0A \n0x8A byte1 \nbyte2 \nYes \n2 \n= (ByteH*256 + \nByteL - 1000) / 10 \nAL2 value \nR/W - Holding \nRegister \n10027 \n1 \n0x0B \n0x8B byte1 \nbyte2 \nYes \n2 \n= (ByteH*256 + \nByteL - 1000) / 10 \nAL3 value \nR/W - Holding \nRegister \n10028 \n1 \n0x0C \n0x8C byte1 \nbyte2 \nYes \n2 \n= (ByteH*256 + \nByteL - 1000) / 10 \nAL4 value \nR/W - Holding \nRegister \n10029 \n1 \n0x0D \n0x8D byte1 \nbyte2 \nYes \n2 \n= (ByteH*256 + \nByteL - 1000) / 10"
+  },
+  {
+    "chunk_id": 11,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "6 \n3 Contact information \nIf you have further questions please contact: \n \n \n \nMICRO-EPSILON MESSTECHNIK GmbH & Co. KG \nKönigbacher Str. 15 \n94496 Ortenburg / Germany \nTel.: +49 8542 168-0 \nFax: +49 8542 168-90  \ninfo@micro-epsilon.de  \nwww.micro-epsilon.de"
+  },
+  {
+    "chunk_id": 12,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+    "content": "MICRO-EPSILON MESSTECHNIK GmbH & Co. KG\nKoenigbacher Str. 15 · 94496 Ortenburg / Germany\nTel. +49 (0) 8542 / 168-0 · Fax +49 (0) 8542 / 168-90\neltrotec@micro-epsilon.com · www.micro-epsilon.com\nX9751190.01-A012030HDR\n*X9751190.01-A01*\nMICRO-EPSILON MESSTECHNIK"
+  }
+]

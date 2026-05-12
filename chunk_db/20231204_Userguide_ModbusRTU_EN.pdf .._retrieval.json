@@ -1,0 +1,1153 @@
+[
+  {
+    "pass_name": "communication",
+    "parameters": [
+      "physicalStandard",
+      "baudRate",
+      "dataBits",
+      "parity",
+      "stopBits"
+    ],
+    "raw_top_k_per_query": {
+      "physical_standard": [
+        {
+          "rank": 1,
+          "chunk_id": 19,
+          "page": 7,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Modbus RTU Communication Module contains two-wire terminal for connecting network cable to EIA-\n485 (formerly RS-485) channel. The module has galvanically isolated EIA-485 interface. The EIA-485 \ninterface is polarity dependent. Non-inverting signal shall be connected to terminal marked as 90 (+) \nand inverting signal shall be connected to terminal marked as 91 (−). The maximum EIA-485 channel \nlength is 1,200 m. \n5.3.1 \nEIA-485 CABLE \nTerminals are suitable for wires up to 2.5 mm2. To connect the module with EIA-485 bus use two-\nwire twisted-pair cable with nominal characteristic impedance 120 Ω without or with shield. If shielded \ncable is used, shield shall not be connected or grounded. \nRecommended cable is BELDEN 9841 1x2x24AWG shielded twisted-pair or similar.  \n \n \nFigure 5 Example of power supply wiring"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 3,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "5.3 \nEIA-485 NETWORK CHANNEL WIRING ................................................................................... 8 \n5.3.1 \nEIA-485 CABLE .................................................................................................................. 8 \n5.3.2 \nWIRING DIAGRAMS ........................................................................................................... 9 \n5.3.3 \nNETWORK TYPOLOGY ....................................................................................................... 9 \n5.4 \nFIRST POWER-UP ................................................................................................................ 11 \n5.5 \nCLOSING THE METER HOUSING .......................................................................................... 11 \n6 \nMODBUS RTU INTERFACE ................................................................................................... 11 \n6.1"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 20,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n9 \n12/2023 \n \n \n5.3.2 \nWIRING DIAGRAMS \nEIA-485 wiring is shown in the images below. \n \n \n \n \n \n \n \n \n \n \n \nFigure 6 Example of a correctly wired module \n \n \n \n   \n Connection steps:  \n1  \nGuide the EIA-485 cable through the wire protecting sleeve into the bottom part of \nthe meter. \n2  \nConnect the cable to the EIA-485 terminals on the module (see picture above).  \n \n5.3.3 \nNETWORK TYPOLOGY \nThe EIA-485 standard requires that nodes be connected only in a bus topology network. In bus \ntopology, devices can be connected to the EIA-485 transmission line via stubs. Stubs should be as \nshort as possible to limit signal reflections. \nThe transmission line must always be terminated at both ends of the bus to avoid reflections that \ncould cause data errors. \n \n \n \nBus topology in the EIA-485 network channel \n \nProper termination requires the matching of the terminating resistors to characteristic impedance of"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 18,
+          "page": 7,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n8 \n12/2023 \n \nThe connection of the module to the power supply is shown in the diagram below. \n \n \n \nFigure 4 Power supply connection \n  \nConnection steps :  \n1  \nPass the power supply cable through the wire protection sleeve on the underside of \nthe meter.  \n2. \nConnect the cable to the module's power terminals (see picture above).  \n \n \nWARNING:  \nDo not connect power supply wires to the EIA-485 interface connectors 90 and 91. It \ncan damage the module! \n \n \nNOTE :  \nIt is recommended to use 100 mA fuse between SELV power supply unit and the \nmodule. \n \n  \n5.3 EIA-485 NETWORK CHANNEL WIRING \nModbus RTU Communication Module contains two-wire terminal for connecting network cable to EIA-\n485 (formerly RS-485) channel. The module has galvanically isolated EIA-485 interface. The EIA-485 \ninterface is polarity dependent. Non-inverting signal shall be connected to terminal marked as 90 (+)"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 2,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "5 \nMODULE INSTALLATION........................................................................................................ 5 \n5.1 \nINSTALLATION IN THE METER .............................................................................................. 5 \n5.2 \nPOWER SUPPLY WIRING ....................................................................................................... 7 \n5.2.1 \nPOWER CABLE .................................................................................................................. 7 \n5.2.2 \nCONNECTION SCHELATIC .................................................................................................. 7 \n5.3 \nEIA-485 NETWORK CHANNEL WIRING ................................................................................... 8 \n5.3.1 \nEIA-485 CABLE .................................................................................................................. 8 \n5.3.2"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 27,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "6 MODBUS RTU INTERFACE  \nThe Modbus is the most widely used network protocol in industrial environment. It is often used to \nconnect a supervisory computer with a remote terminal unit (RTU) in supervisory control and data \nacquisition (SCADA) systems. Modbus RTU is the most common implementation available for Modbus \nusing EIA-485 (formerly RS-485) channel. \n \nModbus RTU is used to establish master-slave communication between electronic devices. That means \nthat it is based upon request/reply mechanism. Transmission is initialized by master and it sends the \nrequest message which contains address of slave (called Slave ID) - address of device requested to \nFigure 8 Closing the meter housing starting from left edge then closing the meter housing\nwith the side latches"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Communication protocol \nModbus RTU  \nCommunication parameters \nTransmission speed (bits per second):  \n1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 57600, \n115200 \nNumber of data bits: 8  \nParity bit: even, odd, none  \nNumber of stop bits: 1, 2 \nOperating temperature \n0 ... +55°C  \nStorage temperature  \n+5 ... +35°C  \nDimensions  \n37.2 mm x 44.8 mm x 16.2 mm  \nWeight \n13 g  \nWeight with bag  \n15 g  \nPackaging \nAntistatic bag \n  \nDANGER:  \nUse only a SELV power supply. \nRisk of serious injuries or death and/or at least product damage! The product is \ndesigned to use with one power supply module per one product for safety reason."
+        },
+        {
+          "rank": 8,
+          "chunk_id": 22,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "manufacturer. When network distance is below 100 m fail-safe biasing at one end of the bus is often \nsufficient. The other end of the of the bus shall be terminated with 120 Ω resistor. For network distance \nlonger than 100 m fail-safe biasing at both ends of the bus is necessary. \nFigure 7 Connecting the EIA-485 interface"
+        }
+      ],
+      "baud_rate": [
+        {
+          "rank": 1,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Communication protocol \nModbus RTU  \nCommunication parameters \nTransmission speed (bits per second):  \n1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 57600, \n115200 \nNumber of data bits: 8  \nParity bit: even, odd, none  \nNumber of stop bits: 1, 2 \nOperating temperature \n0 ... +55°C  \nStorage temperature  \n+5 ... +35°C  \nDimensions  \n37.2 mm x 44.8 mm x 16.2 mm  \nWeight \n13 g  \nWeight with bag  \n15 g  \nPackaging \nAntistatic bag \n  \nDANGER:  \nUse only a SELV power supply. \nRisk of serious injuries or death and/or at least product damage! The product is \ndesigned to use with one power supply module per one product for safety reason."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 64,
+          "page": 21,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "according to the meter's serial number. \n \n8 TROUBLESHOOTING GUIDE \nIf the Modbus RTU communication module does not seem to be working properly, please refer to the \nfollowing table. \nSymptom  \nPossible cause \nAction to solve the problem \nDevice does not \nrespond to \nModbus requests  \nThe module is not\npowered correctly \nCheck power supply connection \nIncorrect EIA-485 \nwiring \nCheck EIA-485 connection \nIncorrect Modbus \ncommunication \nparameters \nCheck communication parameters - slave ID, baud rate, \nnumber of parity bits and number of stop bits.  \nIf the module's current communication parameters are \nunknown, restore the module's default settings. \nFigure 11 Process of restoring to default settings"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 10,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n4 \n12/2023 \n \n2.1 DISPOSAL OF WAST EQUIPMENT \n \nWEEE CAUTION: \nThis product is electronic equipment and it must not be disposed of with other \ndomestic waste. It must be separately collected and recycled as waste electrical \nand electronic equipment (WEEE) according to currently valid legislation. \nThe separate collection and recycling of waste equipment will help to conserve \nnatural resources and ensure that it is recycled in a manner that protects human \nhealth and the environment. \n \n \n3 TECHNICAL INFORMATION \n \nParameter  \nValue  \nOperating voltage \n12 - 24 V AC/DC ± 10%  \nMaximum input power \n500 mW  \nCommunication type \nEIA-485 (galvanically isolated, ⅛ Unit Load) \nCommunication protocol \nModbus RTU  \nCommunication parameters \nTransmission speed (bits per second):  \n1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 57600, \n115200 \nNumber of data bits: 8  \nParity bit: even, odd, none  \nNumber of stop bits: 1, 2 \nOperating temperature \n0 ... +55°C"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 34,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n14 \n12/2023 \n \nAutomatic addressing table based on meter serial number :  \n Last 3 digits of \nmeter serial \nnumber  \nModule address \n(Slave ID)  \nLast 3 digits of \nmeter serial \nnumber \nModule address \n(Slave ID) \n#### #000  \n247  \n#### #296  \n96  \n#### #001  \n1  \n#### #297  \n97  \n#### #002  \n2  \n#### #298  \n98  \n...  \n...  \n#### #299  \n99  \n#### #240  \n240  \n#### #300  \n247  \n#### #246  \n246  \n#### #301  \n1  \n#### #247  \n247  \n#### #302  \n2  \n#### #248  \n247  \n...  \n...  \n#### #249  \n247  \n#### #398  \n98  \n#### #250  \n247  \n#### #399  \n99  \n#### #251  \n51  \n#### #400  \n247  \n#### #252  \n52  \n#### #401  \n1  \n...  \n...  \n...  \n...  \n  \n \n \n  \nNOTE:  \nThe automatic slave ID addressing option is enabled by default.  \n \n \nThe automatic slave ID addressing function is deactivated or activated via the data in Modbus register \n41001 (Modbus address 1000), as described in the table below. \n \nAutomatic \nSlave ID \nfunctionality  \nRegister \nvalue (high \nbyte)"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 63,
+          "page": 21,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n22 \n12/2023 \n \n6.7 MODBUS CONFIGURATOR SOFTWARE  \nThe Modbus RTU module can be configured using the dedicated Modbus Configurator software. Contact \nDiehl Metering to obtain it.  \n7 RESTORE TO DEFAULT SETTINGS  \nTo restore the Modbus RTU Communication Module to default settings, press the module's pushbutton \nfor at least 15 seconds. Restoration is confirmed by the status LED flashing. All configuration registers \nare reset to default values. \nThe restore default settings function is useful when the currently configured communication \nparameters are unknown.  \n  \nNOTE :  \nIf the Modbus RTU communication module is connected to the meter while the default \nsettings are being restored, its Modbus slave ID will be automatically updated \naccording to the meter's serial number. \n \n8 TROUBLESHOOTING GUIDE \nIf the Modbus RTU communication module does not seem to be working properly, please refer to the \nfollowing table. \nSymptom  \nPossible cause \nAction to solve the problem"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 50,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n18 \n12/2023 \n \nNumber of data bits \n41005 \nHolding \ncompany \n1004 \nUInt16 \n8 \n8 \nParity bit 5 \n41006 \nHolding \ncompany \n1005 \n1 char \nASCII \n78 ('N') \n110 ('n'), 111 ('o'), \n101 ('e'), 78 ('N'), 79 ('O'), \n69 ('E') \nNumber of stop bits \n41007 \nHolding \ncompany \n1006 \nUInt16 \n1 \n1, 2 \nEnable Periodical Log 06 \n41008 \nHolding \ncompany \n1007 \nUint16 \n0 \n0, 1 \n   \n  \n1  The lower byte of this register (LL) represents the module slave ID in the range 1 to 247 (0x01 \nto 0xF7 in hexadecimal). \n2  If Higher byte is set to 1, the slave ID will be updated with the heat meter serial number. If \nHigher byte is set to 0, the slave ID remains static. \n3  The default update rate is 60 seconds. When the update rate is set to 0, the module does not \nread heat meter data. \n4  This register contains a time value with an accuracy of one decimal place. Therefore, a Modbus \nregister value of 600 means 60.0 seconds."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 60,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n21 \n12/2023 \n \nPeriodical \nLog 0 \nfunctionality \nEnable \nPeriodical \nLog 0 data register \nvalue \nDescription  \nDisabled  \n0 (0x00 hex)  \nPeriodic Log 0 registers contain invalid values. \nEnabled \n1 (0x01 hex)  \nThe Modbus registers at addresses 171 to 192 contain \nthe values read from the counter's Periodic Log 0 data. \n  \nPlease note that enabling this option may change default readout from the meter by M-Bus protocol. \nBy default, the module reads data from the meter without defining the response (selecting Application \nReset-Subcode) – default telegram is sent to the meter (if not special telegram content is agreed). \nAfter enabling Periodical Log 0 functionality the module reads data from the meter with responses from \nApplication Reset-Subcodes: 0x00 (All) and 0x40 (Multi tariff billing). \nDisabling Periodical Log 0 functionality results in data readout with Application Reset-Subcode 0x00 (All) \nwithout returning to default telegram. \n6.6 ERROR CODES"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 68,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n25 \n12/2023"
+        }
+      ],
+      "data_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 50,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n18 \n12/2023 \n \nNumber of data bits \n41005 \nHolding \ncompany \n1004 \nUInt16 \n8 \n8 \nParity bit 5 \n41006 \nHolding \ncompany \n1005 \n1 char \nASCII \n78 ('N') \n110 ('n'), 111 ('o'), \n101 ('e'), 78 ('N'), 79 ('O'), \n69 ('E') \nNumber of stop bits \n41007 \nHolding \ncompany \n1006 \nUInt16 \n1 \n1, 2 \nEnable Periodical Log 06 \n41008 \nHolding \ncompany \n1007 \nUint16 \n0 \n0, 1 \n   \n  \n1  The lower byte of this register (LL) represents the module slave ID in the range 1 to 247 (0x01 \nto 0xF7 in hexadecimal). \n2  If Higher byte is set to 1, the slave ID will be updated with the heat meter serial number. If \nHigher byte is set to 0, the slave ID remains static. \n3  The default update rate is 60 seconds. When the update rate is set to 0, the module does not \nread heat meter data. \n4  This register contains a time value with an accuracy of one decimal place. Therefore, a Modbus \nregister value of 600 means 60.0 seconds."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 29,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "• \nRead Input Registers (0x04) \n• \nWrite Single Register (0x06) \n• \nWrite Multiple Registers (0x10) \n \nTo make communication with Modbus RTU Communication Module simple, measurement data from \nthe meter are stored by the module in both types of registers - holding registers and input registers. \nTherefore measurement data can be read by using function code 0x03 or 0x04. To modify module \nconfiguration, function code 0x06 or 0x10 should be used. \n \n  \nNOTE:  \nThe Communication Module sends data with the most significant register first and \nthe most significant byte first (\"byte swap\" or \"word swap\" are not used to decode \ndata). \n  \nThe development and update of Modbus protocols has been managed by the Modbus Organization. \nFor more information about Modbus standard please refer to following documents - Modicon Modbus \nProtocol Reference Guide and MODBUS over Serial Line - Specification and Implementation Guide. \n6.1 MODULE ADDRESSING"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Communication protocol \nModbus RTU  \nCommunication parameters \nTransmission speed (bits per second):  \n1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 57600, \n115200 \nNumber of data bits: 8  \nParity bit: even, odd, none  \nNumber of stop bits: 1, 2 \nOperating temperature \n0 ... +55°C  \nStorage temperature  \n+5 ... +35°C  \nDimensions  \n37.2 mm x 44.8 mm x 16.2 mm  \nWeight \n13 g  \nWeight with bag  \n15 g  \nPackaging \nAntistatic bag \n  \nDANGER:  \nUse only a SELV power supply. \nRisk of serious injuries or death and/or at least product damage! The product is \ndesigned to use with one power supply module per one product for safety reason."
+        },
+        {
+          "rank": 4,
+          "chunk_id": 52,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Modbus \nregister \nModbus \nregister type  \nModbus \naddress  \nData \ntype \nRead only \n(RO) \nRead/write \n(R/W) \nModule serial number  \n32001  \nInput  \n2000  \nUInt32  \nRO \nModule model number  \n32003  \nInput  \n2002  \nUInt32  \nRO \nModule firmware version1 32005  \nInput  \n2004  \nUInt16  \nRO \n  \n1 \n \nHigher byte of the register is major number of firmware version (0x##00 hex). Lower byte of \nthe register is minor number of firmware version (0x00## hex). \n \n6.3 UNIT ID TABLE \nEach group of measurement data registers contains information about the units. This information is \nstored in two registers:  \n• \nUnit name: unit in human-readable ASCII format, \n• \nUnit ID: unit identification number.  \nAll available Unit IDs with their appropriate names are listed in the table below:"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 36,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n15 \n12/2023 \n \n \nNOTE: \nThere are two conventions for addressing registers in Modbus. Be careful when \naccessing registers. The addressing method may depend on the application used. Some \napplications may use only the long format (Modbus Register), while others may use the \nshort format (Modbus Address). \nTo obtain the Modbus address, subtract offset 40001 (for holding registers) or 30001 \n(for input registers) from the Modbus register. \nFor example, to obtain the Modbus address for reading the volume value: 40011 \n(Modbus register) - 40001 (offset for holding registers) = 10 (Modbus address). \n \n  \n6.2.1 \nMEASUREMENT DATA REGISTER \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nEnergy \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nEnergy (Coefficient)  \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \nEnergy (Unit)  \n30004 or 40004 \nInput or Holding \n3 \n8 char ASCII \nEnergy (Unit code)  \n30008 or 40008 \nInput or Holding \n7 \nUInt16"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 49,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "the contents of this register must be multiplied by 0.1.  \n5  Available values are listed in the error code list.  \n6  The meter's identification number is its secondary address. By default, this number is equal to \nthe meter's serial number. This number can be modified by the user. Information on how to \nread the secondary address is provided in chapter 6.1.  \n \n6.2.2 \nCONFIGURATION REGISTERS \n \nDescription \nModbus \nregister \nRegiste\nr type \nModbus \naddress \nType of \ndata \nValue \nby default \nPossible values \nAddress Slave ID 1,2 \n41001 \nHolding \ncompany \n1000 \nUInt16 \n0x0101 \n0xHHLL \nfor which HH = 0x01 or \n0x00 LL = 0x01 - 0xF7 \nMeter data update period 3,4 41002 \nHolding \ncompany \n1001 \nUInt16 \n600 \n0 - 65535 \nTransmission speed \n41003 \nHolding \ncompany \n1002 \nUInt32 \n9600 \n1200, 2400, 4800, 9600, \n14400, 19200, 38400, \n56000, 57600, 115200"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 46,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n17 \n12/2023 \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nError code \n30165 or 40165 \nInput or Holding \n164 \nHex \nMeter ID no. \n30166 or 40166 \nInput or Holding \n165 \nUInt32 \nMeter ID (ASCII)  \n30168 or 40168 \nInput or Holding \n167 \n8 char ASCII \nPeriodical Log 0 - Date - Jour \n30172 or 40172 \nInput or Holding \n171 \nUInt16 \nPeriodical Log 0 - Date - Month \n30173 or 40173 \nInput or Holding \n172 \nUInt16 \nPeriodical Log 0 - Date - Year \n30174 or 40174 \nInput or Holding \n173 \nUInt16 \nPeriodical Log 0 - Energy \n30175 or 40175 \nInput or Holding \n174 \nInt32 \nPeriodical Log 0 - Energy \n(Coefficient)1 \n30177 or 40177 \nInput or Holding \n176 \nUInt16 \nPeriodical Log 0 - Energy (Unit)  \n30178 or 40178 \nInput or Holding \n177 \n8 char ASCII \nPeriodical Log 0 - Energy (Unit \ncode)  \n30182 or 40182 \nInput or Holding \n181 \nUInt16 \nPeriodical Log 0 - Energy (Float)  \n30183 or 40183 \nInput or Holding \n182 \nIEEE 754 \nPeriodical Log 0 - Volume"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 5,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "6.2.1 \nMEASUREMENT DATA REGISTER ...................................................................................... 15 \n6.2.2 \nCONFIGURATION REGISTERS .......................................................................................... 17 \n6.2.3 \nINFORMATION REGISTERS .............................................................................................. 18 \n6.3 \nUNIT ID TABLE ................................................................................................................... 18 \n6.4 \nCALCULATION EXAMPLE ...................................................................................................... 19 \n6.5 \nPERIODIC LOG FUNCTIONALITY 0 ....................................................................................... 20 \n6.6 \nERROR CODES .................................................................................................................... 21 \n6.7"
+        }
+      ],
+      "parity": [
+        {
+          "rank": 1,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Communication protocol \nModbus RTU  \nCommunication parameters \nTransmission speed (bits per second):  \n1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 57600, \n115200 \nNumber of data bits: 8  \nParity bit: even, odd, none  \nNumber of stop bits: 1, 2 \nOperating temperature \n0 ... +55°C  \nStorage temperature  \n+5 ... +35°C  \nDimensions  \n37.2 mm x 44.8 mm x 16.2 mm  \nWeight \n13 g  \nWeight with bag  \n15 g  \nPackaging \nAntistatic bag \n  \nDANGER:  \nUse only a SELV power supply. \nRisk of serious injuries or death and/or at least product damage! The product is \ndesigned to use with one power supply module per one product for safety reason."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 49,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "the contents of this register must be multiplied by 0.1.  \n5  Available values are listed in the error code list.  \n6  The meter's identification number is its secondary address. By default, this number is equal to \nthe meter's serial number. This number can be modified by the user. Information on how to \nread the secondary address is provided in chapter 6.1.  \n \n6.2.2 \nCONFIGURATION REGISTERS \n \nDescription \nModbus \nregister \nRegiste\nr type \nModbus \naddress \nType of \ndata \nValue \nby default \nPossible values \nAddress Slave ID 1,2 \n41001 \nHolding \ncompany \n1000 \nUInt16 \n0x0101 \n0xHHLL \nfor which HH = 0x01 or \n0x00 LL = 0x01 - 0xF7 \nMeter data update period 3,4 41002 \nHolding \ncompany \n1001 \nUInt16 \n600 \n0 - 65535 \nTransmission speed \n41003 \nHolding \ncompany \n1002 \nUInt32 \n9600 \n1200, 2400, 4800, 9600, \n14400, 19200, 38400, \n56000, 57600, 115200"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 51,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "3  The default update rate is 60 seconds. When the update rate is set to 0, the module does not \nread heat meter data. \n4  This register contains a time value with an accuracy of one decimal place. Therefore, a Modbus \nregister value of 600 means 60.0 seconds. \n5  This register is defined by the ASCII value of the character: 'E' for even parity (69 decimal, \n0x45 hexadecimal), 'O' for odd parity (79 decimal, 0x4F hexadecimal) and 'N' for no parity (78 \ndecimal, 0x4E hexadecimal).  \n6  For further information, see section 6.5 \"Periodic log 0 functionality\".  \n  \n6.2.3 \nINFORMATION REGISTERS \n \nDescription  \nModbus \nregister \nModbus \nregister type  \nModbus \naddress  \nData \ntype \nRead only \n(RO) \nRead/write \n(R/W) \nModule serial number  \n32001  \nInput  \n2000  \nUInt32  \nRO \nModule model number  \n32003  \nInput  \n2002  \nUInt32  \nRO \nModule firmware version1 32005  \nInput  \n2004  \nUInt16  \nRO \n  \n1"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 50,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n18 \n12/2023 \n \nNumber of data bits \n41005 \nHolding \ncompany \n1004 \nUInt16 \n8 \n8 \nParity bit 5 \n41006 \nHolding \ncompany \n1005 \n1 char \nASCII \n78 ('N') \n110 ('n'), 111 ('o'), \n101 ('e'), 78 ('N'), 79 ('O'), \n69 ('E') \nNumber of stop bits \n41007 \nHolding \ncompany \n1006 \nUInt16 \n1 \n1, 2 \nEnable Periodical Log 06 \n41008 \nHolding \ncompany \n1007 \nUint16 \n0 \n0, 1 \n   \n  \n1  The lower byte of this register (LL) represents the module slave ID in the range 1 to 247 (0x01 \nto 0xF7 in hexadecimal). \n2  If Higher byte is set to 1, the slave ID will be updated with the heat meter serial number. If \nHigher byte is set to 0, the slave ID remains static. \n3  The default update rate is 60 seconds. When the update rate is set to 0, the module does not \nread heat meter data. \n4  This register contains a time value with an accuracy of one decimal place. Therefore, a Modbus \nregister value of 600 means 60.0 seconds."
+        },
+        {
+          "rank": 5,
+          "chunk_id": 64,
+          "page": 21,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "according to the meter's serial number. \n \n8 TROUBLESHOOTING GUIDE \nIf the Modbus RTU communication module does not seem to be working properly, please refer to the \nfollowing table. \nSymptom  \nPossible cause \nAction to solve the problem \nDevice does not \nrespond to \nModbus requests  \nThe module is not\npowered correctly \nCheck power supply connection \nIncorrect EIA-485 \nwiring \nCheck EIA-485 connection \nIncorrect Modbus \ncommunication \nparameters \nCheck communication parameters - slave ID, baud rate, \nnumber of parity bits and number of stop bits.  \nIf the module's current communication parameters are \nunknown, restore the module's default settings. \nFigure 11 Process of restoring to default settings"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 29,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "• \nRead Input Registers (0x04) \n• \nWrite Single Register (0x06) \n• \nWrite Multiple Registers (0x10) \n \nTo make communication with Modbus RTU Communication Module simple, measurement data from \nthe meter are stored by the module in both types of registers - holding registers and input registers. \nTherefore measurement data can be read by using function code 0x03 or 0x04. To modify module \nconfiguration, function code 0x06 or 0x10 should be used. \n \n  \nNOTE:  \nThe Communication Module sends data with the most significant register first and \nthe most significant byte first (\"byte swap\" or \"word swap\" are not used to decode \ndata). \n  \nThe development and update of Modbus protocols has been managed by the Modbus Organization. \nFor more information about Modbus standard please refer to following documents - Modicon Modbus \nProtocol Reference Guide and MODBUS over Serial Line - Specification and Implementation Guide. \n6.1 MODULE ADDRESSING"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 60,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n21 \n12/2023 \n \nPeriodical \nLog 0 \nfunctionality \nEnable \nPeriodical \nLog 0 data register \nvalue \nDescription  \nDisabled  \n0 (0x00 hex)  \nPeriodic Log 0 registers contain invalid values. \nEnabled \n1 (0x01 hex)  \nThe Modbus registers at addresses 171 to 192 contain \nthe values read from the counter's Periodic Log 0 data. \n  \nPlease note that enabling this option may change default readout from the meter by M-Bus protocol. \nBy default, the module reads data from the meter without defining the response (selecting Application \nReset-Subcode) – default telegram is sent to the meter (if not special telegram content is agreed). \nAfter enabling Periodical Log 0 functionality the module reads data from the meter with responses from \nApplication Reset-Subcodes: 0x00 (All) and 0x40 (Multi tariff billing). \nDisabling Periodical Log 0 functionality results in data readout with Application Reset-Subcode 0x00 (All) \nwithout returning to default telegram. \n6.6 ERROR CODES"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 52,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Modbus \nregister \nModbus \nregister type  \nModbus \naddress  \nData \ntype \nRead only \n(RO) \nRead/write \n(R/W) \nModule serial number  \n32001  \nInput  \n2000  \nUInt32  \nRO \nModule model number  \n32003  \nInput  \n2002  \nUInt32  \nRO \nModule firmware version1 32005  \nInput  \n2004  \nUInt16  \nRO \n  \n1 \n \nHigher byte of the register is major number of firmware version (0x##00 hex). Lower byte of \nthe register is minor number of firmware version (0x00## hex). \n \n6.3 UNIT ID TABLE \nEach group of measurement data registers contains information about the units. This information is \nstored in two registers:  \n• \nUnit name: unit in human-readable ASCII format, \n• \nUnit ID: unit identification number.  \nAll available Unit IDs with their appropriate names are listed in the table below:"
+        }
+      ],
+      "stop_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Communication protocol \nModbus RTU  \nCommunication parameters \nTransmission speed (bits per second):  \n1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 57600, \n115200 \nNumber of data bits: 8  \nParity bit: even, odd, none  \nNumber of stop bits: 1, 2 \nOperating temperature \n0 ... +55°C  \nStorage temperature  \n+5 ... +35°C  \nDimensions  \n37.2 mm x 44.8 mm x 16.2 mm  \nWeight \n13 g  \nWeight with bag  \n15 g  \nPackaging \nAntistatic bag \n  \nDANGER:  \nUse only a SELV power supply. \nRisk of serious injuries or death and/or at least product damage! The product is \ndesigned to use with one power supply module per one product for safety reason."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 50,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n18 \n12/2023 \n \nNumber of data bits \n41005 \nHolding \ncompany \n1004 \nUInt16 \n8 \n8 \nParity bit 5 \n41006 \nHolding \ncompany \n1005 \n1 char \nASCII \n78 ('N') \n110 ('n'), 111 ('o'), \n101 ('e'), 78 ('N'), 79 ('O'), \n69 ('E') \nNumber of stop bits \n41007 \nHolding \ncompany \n1006 \nUInt16 \n1 \n1, 2 \nEnable Periodical Log 06 \n41008 \nHolding \ncompany \n1007 \nUint16 \n0 \n0, 1 \n   \n  \n1  The lower byte of this register (LL) represents the module slave ID in the range 1 to 247 (0x01 \nto 0xF7 in hexadecimal). \n2  If Higher byte is set to 1, the slave ID will be updated with the heat meter serial number. If \nHigher byte is set to 0, the slave ID remains static. \n3  The default update rate is 60 seconds. When the update rate is set to 0, the module does not \nread heat meter data. \n4  This register contains a time value with an accuracy of one decimal place. Therefore, a Modbus \nregister value of 600 means 60.0 seconds."
+        },
+        {
+          "rank": 3,
+          "chunk_id": 60,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n21 \n12/2023 \n \nPeriodical \nLog 0 \nfunctionality \nEnable \nPeriodical \nLog 0 data register \nvalue \nDescription  \nDisabled  \n0 (0x00 hex)  \nPeriodic Log 0 registers contain invalid values. \nEnabled \n1 (0x01 hex)  \nThe Modbus registers at addresses 171 to 192 contain \nthe values read from the counter's Periodic Log 0 data. \n  \nPlease note that enabling this option may change default readout from the meter by M-Bus protocol. \nBy default, the module reads data from the meter without defining the response (selecting Application \nReset-Subcode) – default telegram is sent to the meter (if not special telegram content is agreed). \nAfter enabling Periodical Log 0 functionality the module reads data from the meter with responses from \nApplication Reset-Subcodes: 0x00 (All) and 0x40 (Multi tariff billing). \nDisabling Periodical Log 0 functionality results in data readout with Application Reset-Subcode 0x00 (All) \nwithout returning to default telegram. \n6.6 ERROR CODES"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 29,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "• \nRead Input Registers (0x04) \n• \nWrite Single Register (0x06) \n• \nWrite Multiple Registers (0x10) \n \nTo make communication with Modbus RTU Communication Module simple, measurement data from \nthe meter are stored by the module in both types of registers - holding registers and input registers. \nTherefore measurement data can be read by using function code 0x03 or 0x04. To modify module \nconfiguration, function code 0x06 or 0x10 should be used. \n \n  \nNOTE:  \nThe Communication Module sends data with the most significant register first and \nthe most significant byte first (\"byte swap\" or \"word swap\" are not used to decode \ndata). \n  \nThe development and update of Modbus protocols has been managed by the Modbus Organization. \nFor more information about Modbus standard please refer to following documents - Modicon Modbus \nProtocol Reference Guide and MODBUS over Serial Line - Specification and Implementation Guide. \n6.1 MODULE ADDRESSING"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 10,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n4 \n12/2023 \n \n2.1 DISPOSAL OF WAST EQUIPMENT \n \nWEEE CAUTION: \nThis product is electronic equipment and it must not be disposed of with other \ndomestic waste. It must be separately collected and recycled as waste electrical \nand electronic equipment (WEEE) according to currently valid legislation. \nThe separate collection and recycling of waste equipment will help to conserve \nnatural resources and ensure that it is recycled in a manner that protects human \nhealth and the environment. \n \n \n3 TECHNICAL INFORMATION \n \nParameter  \nValue  \nOperating voltage \n12 - 24 V AC/DC ± 10%  \nMaximum input power \n500 mW  \nCommunication type \nEIA-485 (galvanically isolated, ⅛ Unit Load) \nCommunication protocol \nModbus RTU  \nCommunication parameters \nTransmission speed (bits per second):  \n1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 57600, \n115200 \nNumber of data bits: 8  \nParity bit: even, odd, none  \nNumber of stop bits: 1, 2 \nOperating temperature \n0 ... +55°C"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 49,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "the contents of this register must be multiplied by 0.1.  \n5  Available values are listed in the error code list.  \n6  The meter's identification number is its secondary address. By default, this number is equal to \nthe meter's serial number. This number can be modified by the user. Information on how to \nread the secondary address is provided in chapter 6.1.  \n \n6.2.2 \nCONFIGURATION REGISTERS \n \nDescription \nModbus \nregister \nRegiste\nr type \nModbus \naddress \nType of \ndata \nValue \nby default \nPossible values \nAddress Slave ID 1,2 \n41001 \nHolding \ncompany \n1000 \nUInt16 \n0x0101 \n0xHHLL \nfor which HH = 0x01 or \n0x00 LL = 0x01 - 0xF7 \nMeter data update period 3,4 41002 \nHolding \ncompany \n1001 \nUInt16 \n600 \n0 - 65535 \nTransmission speed \n41003 \nHolding \ncompany \n1002 \nUInt32 \n9600 \n1200, 2400, 4800, 9600, \n14400, 19200, 38400, \n56000, 57600, 115200"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 52,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Modbus \nregister \nModbus \nregister type  \nModbus \naddress  \nData \ntype \nRead only \n(RO) \nRead/write \n(R/W) \nModule serial number  \n32001  \nInput  \n2000  \nUInt32  \nRO \nModule model number  \n32003  \nInput  \n2002  \nUInt32  \nRO \nModule firmware version1 32005  \nInput  \n2004  \nUInt16  \nRO \n  \n1 \n \nHigher byte of the register is major number of firmware version (0x##00 hex). Lower byte of \nthe register is minor number of firmware version (0x00## hex). \n \n6.3 UNIT ID TABLE \nEach group of measurement data registers contains information about the units. This information is \nstored in two registers:  \n• \nUnit name: unit in human-readable ASCII format, \n• \nUnit ID: unit identification number.  \nAll available Unit IDs with their appropriate names are listed in the table below:"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 34,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n14 \n12/2023 \n \nAutomatic addressing table based on meter serial number :  \n Last 3 digits of \nmeter serial \nnumber  \nModule address \n(Slave ID)  \nLast 3 digits of \nmeter serial \nnumber \nModule address \n(Slave ID) \n#### #000  \n247  \n#### #296  \n96  \n#### #001  \n1  \n#### #297  \n97  \n#### #002  \n2  \n#### #298  \n98  \n...  \n...  \n#### #299  \n99  \n#### #240  \n240  \n#### #300  \n247  \n#### #246  \n246  \n#### #301  \n1  \n#### #247  \n247  \n#### #302  \n2  \n#### #248  \n247  \n...  \n...  \n#### #249  \n247  \n#### #398  \n98  \n#### #250  \n247  \n#### #399  \n99  \n#### #251  \n51  \n#### #400  \n247  \n#### #252  \n52  \n#### #401  \n1  \n...  \n...  \n...  \n...  \n  \n \n \n  \nNOTE:  \nThe automatic slave ID addressing option is enabled by default.  \n \n \nThe automatic slave ID addressing function is deactivated or activated via the data in Modbus register \n41001 (Modbus address 1000), as described in the table below. \n \nAutomatic \nSlave ID \nfunctionality  \nRegister \nvalue (high \nbyte)"
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 11,
+        "page": 3,
+        "score": 11,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Communication protocol \nModbus RTU  \nCommunication parameters \nTransmission speed (bits per second):  \n1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 57600, \n115200 \nNumber of data bits: 8  \nParity bit: even, odd, none  \nNumber of stop bits: 1, 2 \nOperating temperature \n0 ... +55°C  \nStorage temperature  \n+5 ... +35°C  \nDimensions  \n37.2 mm x 44.8 mm x 16.2 mm  \nWeight \n13 g  \nWeight with bag  \n15 g  \nPackaging \nAntistatic bag \n  \nDANGER:  \nUse only a SELV power supply. \nRisk of serious injuries or death and/or at least product damage! The product is \ndesigned to use with one power supply module per one product for safety reason."
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 64,
+        "page": 21,
+        "score": 10,
+        "bucket": "communication",
+        "retrieved_by": [
+          "baud_rate",
+          "parity"
+        ],
+        "content": "according to the meter's serial number. \n \n8 TROUBLESHOOTING GUIDE \nIf the Modbus RTU communication module does not seem to be working properly, please refer to the \nfollowing table. \nSymptom  \nPossible cause \nAction to solve the problem \nDevice does not \nrespond to \nModbus requests  \nThe module is not\npowered correctly \nCheck power supply connection \nIncorrect EIA-485 \nwiring \nCheck EIA-485 connection \nIncorrect Modbus \ncommunication \nparameters \nCheck communication parameters - slave ID, baud rate, \nnumber of parity bits and number of stop bits.  \nIf the module's current communication parameters are \nunknown, restore the module's default settings. \nFigure 11 Process of restoring to default settings"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 10,
+        "page": 3,
+        "score": 10,
+        "bucket": "communication",
+        "retrieved_by": [
+          "baud_rate",
+          "stop_bits"
+        ],
+        "content": "MODBUS RTU  \n \n   \n4 \n12/2023 \n \n2.1 DISPOSAL OF WAST EQUIPMENT \n \nWEEE CAUTION: \nThis product is electronic equipment and it must not be disposed of with other \ndomestic waste. It must be separately collected and recycled as waste electrical \nand electronic equipment (WEEE) according to currently valid legislation. \nThe separate collection and recycling of waste equipment will help to conserve \nnatural resources and ensure that it is recycled in a manner that protects human \nhealth and the environment. \n \n \n3 TECHNICAL INFORMATION \n \nParameter  \nValue  \nOperating voltage \n12 - 24 V AC/DC ± 10%  \nMaximum input power \n500 mW  \nCommunication type \nEIA-485 (galvanically isolated, ⅛ Unit Load) \nCommunication protocol \nModbus RTU  \nCommunication parameters \nTransmission speed (bits per second):  \n1200, 2400, 4800, 9600, 14400, 19200, 38400, 56000, 57600, \n115200 \nNumber of data bits: 8  \nParity bit: even, odd, none  \nNumber of stop bits: 1, 2 \nOperating temperature \n0 ... +55°C"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 52,
+        "page": 17,
+        "score": 10,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Modbus \nregister \nModbus \nregister type  \nModbus \naddress  \nData \ntype \nRead only \n(RO) \nRead/write \n(R/W) \nModule serial number  \n32001  \nInput  \n2000  \nUInt32  \nRO \nModule model number  \n32003  \nInput  \n2002  \nUInt32  \nRO \nModule firmware version1 32005  \nInput  \n2004  \nUInt16  \nRO \n  \n1 \n \nHigher byte of the register is major number of firmware version (0x##00 hex). Lower byte of \nthe register is minor number of firmware version (0x00## hex). \n \n6.3 UNIT ID TABLE \nEach group of measurement data registers contains information about the units. This information is \nstored in two registers:  \n• \nUnit name: unit in human-readable ASCII format, \n• \nUnit ID: unit identification number.  \nAll available Unit IDs with their appropriate names are listed in the table below:"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 51,
+        "page": 17,
+        "score": 10,
+        "bucket": "register",
+        "retrieved_by": [
+          "parity"
+        ],
+        "content": "3  The default update rate is 60 seconds. When the update rate is set to 0, the module does not \nread heat meter data. \n4  This register contains a time value with an accuracy of one decimal place. Therefore, a Modbus \nregister value of 600 means 60.0 seconds. \n5  This register is defined by the ASCII value of the character: 'E' for even parity (69 decimal, \n0x45 hexadecimal), 'O' for odd parity (79 decimal, 0x4F hexadecimal) and 'N' for no parity (78 \ndecimal, 0x4E hexadecimal).  \n6  For further information, see section 6.5 \"Periodic log 0 functionality\".  \n  \n6.2.3 \nINFORMATION REGISTERS \n \nDescription  \nModbus \nregister \nModbus \nregister type  \nModbus \naddress  \nData \ntype \nRead only \n(RO) \nRead/write \n(R/W) \nModule serial number  \n32001  \nInput  \n2000  \nUInt32  \nRO \nModule model number  \n32003  \nInput  \n2002  \nUInt32  \nRO \nModule firmware version1 32005  \nInput  \n2004  \nUInt16  \nRO \n  \n1"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 63,
+        "page": 21,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "MODBUS RTU  \n \n   \n22 \n12/2023 \n \n6.7 MODBUS CONFIGURATOR SOFTWARE  \nThe Modbus RTU module can be configured using the dedicated Modbus Configurator software. Contact \nDiehl Metering to obtain it.  \n7 RESTORE TO DEFAULT SETTINGS  \nTo restore the Modbus RTU Communication Module to default settings, press the module's pushbutton \nfor at least 15 seconds. Restoration is confirmed by the status LED flashing. All configuration registers \nare reset to default values. \nThe restore default settings function is useful when the currently configured communication \nparameters are unknown.  \n  \nNOTE :  \nIf the Modbus RTU communication module is connected to the meter while the default \nsettings are being restored, its Modbus slave ID will be automatically updated \naccording to the meter's serial number. \n \n8 TROUBLESHOOTING GUIDE \nIf the Modbus RTU communication module does not seem to be working properly, please refer to the \nfollowing table. \nSymptom  \nPossible cause \nAction to solve the problem"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 50,
+        "page": 17,
+        "score": 9,
+        "bucket": "communication",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "MODBUS RTU  \n \n   \n18 \n12/2023 \n \nNumber of data bits \n41005 \nHolding \ncompany \n1004 \nUInt16 \n8 \n8 \nParity bit 5 \n41006 \nHolding \ncompany \n1005 \n1 char \nASCII \n78 ('N') \n110 ('n'), 111 ('o'), \n101 ('e'), 78 ('N'), 79 ('O'), \n69 ('E') \nNumber of stop bits \n41007 \nHolding \ncompany \n1006 \nUInt16 \n1 \n1, 2 \nEnable Periodical Log 06 \n41008 \nHolding \ncompany \n1007 \nUint16 \n0 \n0, 1 \n   \n  \n1  The lower byte of this register (LL) represents the module slave ID in the range 1 to 247 (0x01 \nto 0xF7 in hexadecimal). \n2  If Higher byte is set to 1, the slave ID will be updated with the heat meter serial number. If \nHigher byte is set to 0, the slave ID remains static. \n3  The default update rate is 60 seconds. When the update rate is set to 0, the module does not \nread heat meter data. \n4  This register contains a time value with an accuracy of one decimal place. Therefore, a Modbus \nregister value of 600 means 60.0 seconds."
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 49,
+        "page": 16,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "the contents of this register must be multiplied by 0.1.  \n5  Available values are listed in the error code list.  \n6  The meter's identification number is its secondary address. By default, this number is equal to \nthe meter's serial number. This number can be modified by the user. Information on how to \nread the secondary address is provided in chapter 6.1.  \n \n6.2.2 \nCONFIGURATION REGISTERS \n \nDescription \nModbus \nregister \nRegiste\nr type \nModbus \naddress \nType of \ndata \nValue \nby default \nPossible values \nAddress Slave ID 1,2 \n41001 \nHolding \ncompany \n1000 \nUInt16 \n0x0101 \n0xHHLL \nfor which HH = 0x01 or \n0x00 LL = 0x01 - 0xF7 \nMeter data update period 3,4 41002 \nHolding \ncompany \n1001 \nUInt16 \n600 \n0 - 65535 \nTransmission speed \n41003 \nHolding \ncompany \n1002 \nUInt32 \n9600 \n1200, 2400, 4800, 9600, \n14400, 19200, 38400, \n56000, 57600, 115200"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 60,
+        "page": 20,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "MODBUS RTU  \n \n   \n21 \n12/2023 \n \nPeriodical \nLog 0 \nfunctionality \nEnable \nPeriodical \nLog 0 data register \nvalue \nDescription  \nDisabled  \n0 (0x00 hex)  \nPeriodic Log 0 registers contain invalid values. \nEnabled \n1 (0x01 hex)  \nThe Modbus registers at addresses 171 to 192 contain \nthe values read from the counter's Periodic Log 0 data. \n  \nPlease note that enabling this option may change default readout from the meter by M-Bus protocol. \nBy default, the module reads data from the meter without defining the response (selecting Application \nReset-Subcode) – default telegram is sent to the meter (if not special telegram content is agreed). \nAfter enabling Periodical Log 0 functionality the module reads data from the meter with responses from \nApplication Reset-Subcodes: 0x00 (All) and 0x40 (Multi tariff billing). \nDisabling Periodical Log 0 functionality results in data readout with Application Reset-Subcode 0x00 (All) \nwithout returning to default telegram. \n6.6 ERROR CODES"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 29,
+        "page": 11,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "• \nRead Input Registers (0x04) \n• \nWrite Single Register (0x06) \n• \nWrite Multiple Registers (0x10) \n \nTo make communication with Modbus RTU Communication Module simple, measurement data from \nthe meter are stored by the module in both types of registers - holding registers and input registers. \nTherefore measurement data can be read by using function code 0x03 or 0x04. To modify module \nconfiguration, function code 0x06 or 0x10 should be used. \n \n  \nNOTE:  \nThe Communication Module sends data with the most significant register first and \nthe most significant byte first (\"byte swap\" or \"word swap\" are not used to decode \ndata). \n  \nThe development and update of Modbus protocols has been managed by the Modbus Organization. \nFor more information about Modbus standard please refer to following documents - Modicon Modbus \nProtocol Reference Guide and MODBUS over Serial Line - Specification and Implementation Guide. \n6.1 MODULE ADDRESSING"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 36,
+        "page": 14,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "MODBUS RTU  \n \n   \n15 \n12/2023 \n \n \nNOTE: \nThere are two conventions for addressing registers in Modbus. Be careful when \naccessing registers. The addressing method may depend on the application used. Some \napplications may use only the long format (Modbus Register), while others may use the \nshort format (Modbus Address). \nTo obtain the Modbus address, subtract offset 40001 (for holding registers) or 30001 \n(for input registers) from the Modbus register. \nFor example, to obtain the Modbus address for reading the volume value: 40011 \n(Modbus register) - 40001 (offset for holding registers) = 10 (Modbus address). \n \n  \n6.2.1 \nMEASUREMENT DATA REGISTER \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nEnergy \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nEnergy (Coefficient)  \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \nEnergy (Unit)  \n30004 or 40004 \nInput or Holding \n3 \n8 char ASCII \nEnergy (Unit code)  \n30008 or 40008 \nInput or Holding \n7 \nUInt16"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 34,
+        "page": 13,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "stop_bits"
+        ],
+        "content": "MODBUS RTU  \n \n   \n14 \n12/2023 \n \nAutomatic addressing table based on meter serial number :  \n Last 3 digits of \nmeter serial \nnumber  \nModule address \n(Slave ID)  \nLast 3 digits of \nmeter serial \nnumber \nModule address \n(Slave ID) \n#### #000  \n247  \n#### #296  \n96  \n#### #001  \n1  \n#### #297  \n97  \n#### #002  \n2  \n#### #298  \n98  \n...  \n...  \n#### #299  \n99  \n#### #240  \n240  \n#### #300  \n247  \n#### #246  \n246  \n#### #301  \n1  \n#### #247  \n247  \n#### #302  \n2  \n#### #248  \n247  \n...  \n...  \n#### #249  \n247  \n#### #398  \n98  \n#### #250  \n247  \n#### #399  \n99  \n#### #251  \n51  \n#### #400  \n247  \n#### #252  \n52  \n#### #401  \n1  \n...  \n...  \n...  \n...  \n  \n \n \n  \nNOTE:  \nThe automatic slave ID addressing option is enabled by default.  \n \n \nThe automatic slave ID addressing function is deactivated or activated via the data in Modbus register \n41001 (Modbus address 1000), as described in the table below. \n \nAutomatic \nSlave ID \nfunctionality  \nRegister \nvalue (high \nbyte)"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 46,
+        "page": 16,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "MODBUS RTU  \n \n   \n17 \n12/2023 \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nError code \n30165 or 40165 \nInput or Holding \n164 \nHex \nMeter ID no. \n30166 or 40166 \nInput or Holding \n165 \nUInt32 \nMeter ID (ASCII)  \n30168 or 40168 \nInput or Holding \n167 \n8 char ASCII \nPeriodical Log 0 - Date - Jour \n30172 or 40172 \nInput or Holding \n171 \nUInt16 \nPeriodical Log 0 - Date - Month \n30173 or 40173 \nInput or Holding \n172 \nUInt16 \nPeriodical Log 0 - Date - Year \n30174 or 40174 \nInput or Holding \n173 \nUInt16 \nPeriodical Log 0 - Energy \n30175 or 40175 \nInput or Holding \n174 \nInt32 \nPeriodical Log 0 - Energy \n(Coefficient)1 \n30177 or 40177 \nInput or Holding \n176 \nUInt16 \nPeriodical Log 0 - Energy (Unit)  \n30178 or 40178 \nInput or Holding \n177 \n8 char ASCII \nPeriodical Log 0 - Energy (Unit \ncode)  \n30182 or 40182 \nInput or Holding \n181 \nUInt16 \nPeriodical Log 0 - Energy (Float)  \n30183 or 40183 \nInput or Holding \n182 \nIEEE 754 \nPeriodical Log 0 - Volume"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 19,
+        "page": 7,
+        "score": 3,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "Modbus RTU Communication Module contains two-wire terminal for connecting network cable to EIA-\n485 (formerly RS-485) channel. The module has galvanically isolated EIA-485 interface. The EIA-485 \ninterface is polarity dependent. Non-inverting signal shall be connected to terminal marked as 90 (+) \nand inverting signal shall be connected to terminal marked as 91 (−). The maximum EIA-485 channel \nlength is 1,200 m. \n5.3.1 \nEIA-485 CABLE \nTerminals are suitable for wires up to 2.5 mm2. To connect the module with EIA-485 bus use two-\nwire twisted-pair cable with nominal characteristic impedance 120 Ω without or with shield. If shielded \ncable is used, shield shall not be connected or grounded. \nRecommended cable is BELDEN 9841 1x2x24AWG shielded twisted-pair or similar.  \n \n \nFigure 5 Example of power supply wiring"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 18,
+        "page": 7,
+        "score": 3,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "MODBUS RTU  \n \n   \n8 \n12/2023 \n \nThe connection of the module to the power supply is shown in the diagram below. \n \n \n \nFigure 4 Power supply connection \n  \nConnection steps :  \n1  \nPass the power supply cable through the wire protection sleeve on the underside of \nthe meter.  \n2. \nConnect the cable to the module's power terminals (see picture above).  \n \n \nWARNING:  \nDo not connect power supply wires to the EIA-485 interface connectors 90 and 91. It \ncan damage the module! \n \n \nNOTE :  \nIt is recommended to use 100 mA fuse between SELV power supply unit and the \nmodule. \n \n  \n5.3 EIA-485 NETWORK CHANNEL WIRING \nModbus RTU Communication Module contains two-wire terminal for connecting network cable to EIA-\n485 (formerly RS-485) channel. The module has galvanically isolated EIA-485 interface. The EIA-485 \ninterface is polarity dependent. Non-inverting signal shall be connected to terminal marked as 90 (+)"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 27,
+        "page": 10,
+        "score": 3,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "6 MODBUS RTU INTERFACE  \nThe Modbus is the most widely used network protocol in industrial environment. It is often used to \nconnect a supervisory computer with a remote terminal unit (RTU) in supervisory control and data \nacquisition (SCADA) systems. Modbus RTU is the most common implementation available for Modbus \nusing EIA-485 (formerly RS-485) channel. \n \nModbus RTU is used to establish master-slave communication between electronic devices. That means \nthat it is based upon request/reply mechanism. Transmission is initialized by master and it sends the \nrequest message which contains address of slave (called Slave ID) - address of device requested to \nFigure 8 Closing the meter housing starting from left edge then closing the meter housing\nwith the side latches"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 5,
+        "page": 1,
+        "score": 2,
+        "bucket": "other",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "6.2.1 \nMEASUREMENT DATA REGISTER ...................................................................................... 15 \n6.2.2 \nCONFIGURATION REGISTERS .......................................................................................... 17 \n6.2.3 \nINFORMATION REGISTERS .............................................................................................. 18 \n6.3 \nUNIT ID TABLE ................................................................................................................... 18 \n6.4 \nCALCULATION EXAMPLE ...................................................................................................... 19 \n6.5 \nPERIODIC LOG FUNCTIONALITY 0 ....................................................................................... 20 \n6.6 \nERROR CODES .................................................................................................................... 21 \n6.7"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 3,
+        "page": 1,
+        "score": 1,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "5.3 \nEIA-485 NETWORK CHANNEL WIRING ................................................................................... 8 \n5.3.1 \nEIA-485 CABLE .................................................................................................................. 8 \n5.3.2 \nWIRING DIAGRAMS ........................................................................................................... 9 \n5.3.3 \nNETWORK TYPOLOGY ....................................................................................................... 9 \n5.4 \nFIRST POWER-UP ................................................................................................................ 11 \n5.5 \nCLOSING THE METER HOUSING .......................................................................................... 11 \n6 \nMODBUS RTU INTERFACE ................................................................................................... 11 \n6.1"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 20,
+        "page": 8,
+        "score": 1,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "MODBUS RTU  \n \n   \n9 \n12/2023 \n \n \n5.3.2 \nWIRING DIAGRAMS \nEIA-485 wiring is shown in the images below. \n \n \n \n \n \n \n \n \n \n \n \nFigure 6 Example of a correctly wired module \n \n \n \n   \n Connection steps:  \n1  \nGuide the EIA-485 cable through the wire protecting sleeve into the bottom part of \nthe meter. \n2  \nConnect the cable to the EIA-485 terminals on the module (see picture above).  \n \n5.3.3 \nNETWORK TYPOLOGY \nThe EIA-485 standard requires that nodes be connected only in a bus topology network. In bus \ntopology, devices can be connected to the EIA-485 transmission line via stubs. Stubs should be as \nshort as possible to limit signal reflections. \nThe transmission line must always be terminated at both ends of the bus to avoid reflections that \ncould cause data errors. \n \n \n \nBus topology in the EIA-485 network channel \n \nProper termination requires the matching of the terminating resistors to characteristic impedance of"
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 2,
+        "page": 1,
+        "score": 1,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "5 \nMODULE INSTALLATION........................................................................................................ 5 \n5.1 \nINSTALLATION IN THE METER .............................................................................................. 5 \n5.2 \nPOWER SUPPLY WIRING ....................................................................................................... 7 \n5.2.1 \nPOWER CABLE .................................................................................................................. 7 \n5.2.2 \nCONNECTION SCHELATIC .................................................................................................. 7 \n5.3 \nEIA-485 NETWORK CHANNEL WIRING ................................................................................... 8 \n5.3.1 \nEIA-485 CABLE .................................................................................................................. 8 \n5.3.2"
+      }
+    ]
+  },
+  {
+    "pass_name": "transaction",
+    "parameters": [
+      "nodeAddress",
+      "name",
+      "modbusAddressingMode",
+      "transactionName",
+      "requestFC",
+      "startAddr",
+      "quantity",
+      "responseFC",
+      "byteCount",
+      "dataLength"
+    ],
+    "raw_top_k_per_query": {
+      "node_address": [
+        {
+          "rank": 1,
+          "chunk_id": 34,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n14 \n12/2023 \n \nAutomatic addressing table based on meter serial number :  \n Last 3 digits of \nmeter serial \nnumber  \nModule address \n(Slave ID)  \nLast 3 digits of \nmeter serial \nnumber \nModule address \n(Slave ID) \n#### #000  \n247  \n#### #296  \n96  \n#### #001  \n1  \n#### #297  \n97  \n#### #002  \n2  \n#### #298  \n98  \n...  \n...  \n#### #299  \n99  \n#### #240  \n240  \n#### #300  \n247  \n#### #246  \n246  \n#### #301  \n1  \n#### #247  \n247  \n#### #302  \n2  \n#### #248  \n247  \n...  \n...  \n#### #249  \n247  \n#### #398  \n98  \n#### #250  \n247  \n#### #399  \n99  \n#### #251  \n51  \n#### #400  \n247  \n#### #252  \n52  \n#### #401  \n1  \n...  \n...  \n...  \n...  \n  \n \n \n  \nNOTE:  \nThe automatic slave ID addressing option is enabled by default.  \n \n \nThe automatic slave ID addressing function is deactivated or activated via the data in Modbus register \n41001 (Modbus address 1000), as described in the table below. \n \nAutomatic \nSlave ID \nfunctionality  \nRegister \nvalue (high \nbyte)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 30,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "For more information about Modbus standard please refer to following documents - Modicon Modbus \nProtocol Reference Guide and MODBUS over Serial Line - Specification and Implementation Guide. \n6.1 MODULE ADDRESSING  \nA single Modbus RTU network on an EIA-485 channel (called a Modbus bus) can contain a single \nmaster and up to 247 slaves. The master - usually a PC - has full control of communication and can \nmake read or write requests. The slave device can only respond to requests, and cannot actively poll \nother devices on the network. Each slave device on the network must have its own unique address, \nthe slave ID. The slave ID can be assigned in the range 1 to 247. Address 0 is reserved for broadcast \nmessages. The master node has no specific address assigned. \n  \n \n  \nNOTE:  \nPlease take care not to setup two slave devices with the same Slave ID, it will lead to \nframe collisions on Modbus bus."
+        },
+        {
+          "rank": 3,
+          "chunk_id": 31,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "messages. The master node has no specific address assigned. \n  \n \n  \nNOTE:  \nPlease take care not to setup two slave devices with the same Slave ID, it will lead to \nframe collisions on Modbus bus. \n  \nThe master uses the slave ID to correctly address a particular device on the Modbus network. Slave \nID 0 is used to issue a broadcast command to all devices on the bus. Note that slave nodes do not \nrespond to broadcast messages. \n  \nSlave address  \nFunction  \n0  \nBroadcast  \n1 ... 247  \nAvailable slave addresses  \n248 ... 255  \nReserved addresses"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 32,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n13 \n12/2023 \n \n6.1.1 \nAUTOMATIC SLAVE ID \nAutomatic Slave ID functionality is supported by Modbus RTU Communication Module. This option allows \nthe module to set Modbus Slave ID basing on secondary address set in connected meter. \n \n  \nNOTE:  \nSecondary address is default set to meter serial number which is presented on meter \nenclosure.  \n It is possible to read current setting of secondary address in meter by pressing button located on \nmeter enclosure in right sequence. From main loop of information window we must go to Info loop by \npressing the button two times for a long time (more than 3 seconds). Enter to Info loop will be \nsignalized by number 3 at bottom line of the display. Next, pressing the button for a short time (up to \n3 seconds), we enter to information screen called shortly SEC_Adr. After waiting 2 seconds, on the \ndisplay will be presented current value of secondary address. Display state with secondary address is \npresented below:"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 35,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "The automatic slave ID addressing function is deactivated or activated via the data in Modbus register \n41001 (Modbus address 1000), as described in the table below. \n \nAutomatic \nSlave ID \nfunctionality  \nRegister \nvalue (high \nbyte) \nRegister value (low byte) \nDescription  \nDisabled \n0 (0x00 hex)  \nAddress range 1 to 247 \n(0x01 to 0xF7 in hexadecimal) \nStatic Slave ID \nEnabled  \n1 (0x01 hex)  \nAddress range 1 to 247 \n(0x01 to 0xF7 in hexadecimal) \nSlave ID will be updated \nafter first readout of heat \nmeter data \n  \n6.2 MODBUS REGISTERS \nThe Modbus RTU communication module supports two types of registers  \n• \nHolding registers read and write (4####)  \n• \nInput registers write only (3####)  \n \nEach register has a size of 16 bits (2 bytes) and a unique address. Measurement data from the \ncounter is stored by the module in two types of register - Holding Registers and Input Registers."
+        },
+        {
+          "rank": 6,
+          "chunk_id": 50,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n18 \n12/2023 \n \nNumber of data bits \n41005 \nHolding \ncompany \n1004 \nUInt16 \n8 \n8 \nParity bit 5 \n41006 \nHolding \ncompany \n1005 \n1 char \nASCII \n78 ('N') \n110 ('n'), 111 ('o'), \n101 ('e'), 78 ('N'), 79 ('O'), \n69 ('E') \nNumber of stop bits \n41007 \nHolding \ncompany \n1006 \nUInt16 \n1 \n1, 2 \nEnable Periodical Log 06 \n41008 \nHolding \ncompany \n1007 \nUint16 \n0 \n0, 1 \n   \n  \n1  The lower byte of this register (LL) represents the module slave ID in the range 1 to 247 (0x01 \nto 0xF7 in hexadecimal). \n2  If Higher byte is set to 1, the slave ID will be updated with the heat meter serial number. If \nHigher byte is set to 0, the slave ID remains static. \n3  The default update rate is 60 seconds. When the update rate is set to 0, the module does not \nread heat meter data. \n4  This register contains a time value with an accuracy of one decimal place. Therefore, a Modbus \nregister value of 600 means 60.0 seconds."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 46,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n17 \n12/2023 \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nError code \n30165 or 40165 \nInput or Holding \n164 \nHex \nMeter ID no. \n30166 or 40166 \nInput or Holding \n165 \nUInt32 \nMeter ID (ASCII)  \n30168 or 40168 \nInput or Holding \n167 \n8 char ASCII \nPeriodical Log 0 - Date - Jour \n30172 or 40172 \nInput or Holding \n171 \nUInt16 \nPeriodical Log 0 - Date - Month \n30173 or 40173 \nInput or Holding \n172 \nUInt16 \nPeriodical Log 0 - Date - Year \n30174 or 40174 \nInput or Holding \n173 \nUInt16 \nPeriodical Log 0 - Energy \n30175 or 40175 \nInput or Holding \n174 \nInt32 \nPeriodical Log 0 - Energy \n(Coefficient)1 \n30177 or 40177 \nInput or Holding \n176 \nUInt16 \nPeriodical Log 0 - Energy (Unit)  \n30178 or 40178 \nInput or Holding \n177 \n8 char ASCII \nPeriodical Log 0 - Energy (Unit \ncode)  \n30182 or 40182 \nInput or Holding \n181 \nUInt16 \nPeriodical Log 0 - Energy (Float)  \n30183 or 40183 \nInput or Holding \n182 \nIEEE 754 \nPeriodical Log 0 - Volume"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 4,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "5.5 \nCLOSING THE METER HOUSING .......................................................................................... 11 \n6 \nMODBUS RTU INTERFACE ................................................................................................... 11 \n6.1 \nMODULE ADDRESSING ........................................................................................................ 12 \n6.1.1 \nAUTOMATIC SLAVE ID ..................................................................................................... 13 \n6.2 \nMODBUS REGISTERS ........................................................................................................... 14 \n6.2.1 \nMEASUREMENT DATA REGISTER ...................................................................................... 15 \n6.2.2 \nCONFIGURATION REGISTERS .......................................................................................... 17 \n6.2.3"
+        }
+      ],
+      "node_name": [
+        {
+          "rank": 1,
+          "chunk_id": 52,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Modbus \nregister \nModbus \nregister type  \nModbus \naddress  \nData \ntype \nRead only \n(RO) \nRead/write \n(R/W) \nModule serial number  \n32001  \nInput  \n2000  \nUInt32  \nRO \nModule model number  \n32003  \nInput  \n2002  \nUInt32  \nRO \nModule firmware version1 32005  \nInput  \n2004  \nUInt16  \nRO \n  \n1 \n \nHigher byte of the register is major number of firmware version (0x##00 hex). Lower byte of \nthe register is minor number of firmware version (0x00## hex). \n \n6.3 UNIT ID TABLE \nEach group of measurement data registers contains information about the units. This information is \nstored in two registers:  \n• \nUnit name: unit in human-readable ASCII format, \n• \nUnit ID: unit identification number.  \nAll available Unit IDs with their appropriate names are listed in the table below:"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 37,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "register \nModbus \naddress \nType \nof data \nEnergy \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nEnergy (Coefficient)  \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \nEnergy (Unit)  \n30004 or 40004 \nInput or Holding \n3 \n8 char ASCII \nEnergy (Unit code)  \n30008 or 40008 \nInput or Holding \n7 \nUInt16 \nEnergy (Float)  \n30009 or 40009 \nInput or Holding \n8 \nIEEE 754 \nVolume \n30011 or 40011 \nInput or Holding \n10 \nInt32 \nVolume (Coefficient) \n30013 or 40013 \nInput or Holding \n12 \nUInt16 \nVolume (Unit)  \n30014 or 40014 \nInput or Holding \n13 \n8 char ASCII \nVolume (Unit code)  \n30018 or 40018 \nInput or Holding \n17 \nUInt16 \nVolume (Float)  \n30019 or 40019 \nInput or Holding \n18 \nIEEE 754 \nPower \n30021 or 40021 \nInput or Holding \n20 \nInt32 \nPower (Coefficient)  \n30023 or 40023 \nInput or Holding \n22 \nUInt16 \nPower (Unit)  \n30024 or 40024 \nInput or Holding \n23 \n8 char ASCII \nPower (Unit code)  \n30028 or 40028 \nInput or Holding \n27 \nUInt16 \nPower (Float)  \n30029 or 40029 \nInput or Holding \n28 \nIEEE 754"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 39,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "30042 or 40042 \nInput or Holding \n41 \n8 char ASCII \nStart temperature \n(Unit code)  \n30046 or 40046 \nInput or Holding \n45 \nUInt16 \nFlow temperature (Float)  \n30047 or 40047 \nInput or Holding \n46 \nIEEE 754 \nReturn temperature \n30049 or 40049 \nInput or Holding \n48 \nInt16 \nReturn temperature (Unit)  \n30050 or 40050 \nInput or Holding \n49 \n8 char ASCII \nReturn temperature \n(Unit code)  \n30054 or 40054 \nInput or Holding \n53 \nUInt16 \nReturn temperature (Float)  \n30055 or 40055 \nInput or Holding \n54 \nIEEE 754 \nTemperature difference  \n30057 or 40057 \nInput or Holding \n56 \nInt16 \nTemperature difference (Unit)  \n30058 or 40058 \nInput or Holding \n57 \n8 char ASCII \nTemperature difference \n(Unit code)  \n30062 or 40062 \nInput or Holding \n61 \nUInt16 \nTemperature difference (Float)  \n30063 or 40063 \nInput or Holding \n62 \nIEEE 754 \nTariff 1 - Energy \n30065 or 40065 \nInput or Holding \n64 \nInt32"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 38,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Input or Holding \n20 \nInt32 \nPower (Coefficient)  \n30023 or 40023 \nInput or Holding \n22 \nUInt16 \nPower (Unit)  \n30024 or 40024 \nInput or Holding \n23 \n8 char ASCII \nPower (Unit code)  \n30028 or 40028 \nInput or Holding \n27 \nUInt16 \nPower (Float)  \n30029 or 40029 \nInput or Holding \n28 \nIEEE 754 \nFlow \n30031 or 40031 \nInput or Holding \n30 \nInt32 \nFlow (Coefficient)  \n30033 or 40033 \nInput or Holding \n32 \nUInt16 \nFlow (Unit)  \n30034 or 40034 \nInput or Holding \n33 \n8 char ASCII \nFlow (Unit code)  \n30038 or 40038 \nInput or Holding \n37 \nUInt16 \nFlow (Float)  \n30039 or 40039 \nInput or Holding \n38 \nIEEE 754 \nStart temperature \n30041 or 40041 \nInput or Holding \n40 \nInt16 \nFlow temperature (Unit)  \n30042 or 40042 \nInput or Holding \n41 \n8 char ASCII \nStart temperature \n(Unit code)  \n30046 or 40046 \nInput or Holding \n45 \nUInt16 \nFlow temperature (Float)  \n30047 or 40047 \nInput or Holding \n46 \nIEEE 754 \nReturn temperature \n30049 or 40049 \nInput or Holding \n48 \nInt16 \nReturn temperature (Unit)"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 48,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "30193 or 40193 \nInput or Holding \n192 \nIEEE 754 \nModule serial no. \n32001 \nInput \n2000 \nUInt32 \nModule product no. \n32003 \nInput \n2002 \nUnit32 \nSoftware version \n32005 \nInput \n2004 \nUnit16 \n \n      \n1  The integer value for the same group of registers (e.g. energy) must be multiplied by the \nunit factor to obtain the valid output value. Floating-point values do not need to be multiplied \nby the unit factor. \n2  The unit of the value is indicated in the appropriate registers containing the unit name or unit \nID. \n3  Available values for unit ID registers are listed in the unit ID lookup table.  \n4  This register contains the temperature to one decimal place. To obtain the value in degrees, \nthe contents of this register must be multiplied by 0.1.  \n5  Available values are listed in the error code list.  \n6  The meter's identification number is its secondary address. By default, this number is equal to"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 6,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "6.5 \nPERIODIC LOG FUNCTIONALITY 0 ....................................................................................... 20 \n6.6 \nERROR CODES .................................................................................................................... 21 \n6.7 \nMODBUS CONFIGURATOR SOFTWARE ................................................................................. 22 \n7 \nRESTORE TO DEFAULT SETTINGS ........................................................................................ 22 \n8 \nTROUBLESHOOTING GUIDE ................................................................................................ 22 \n9 \nDECLARATION OF CONFORMITY .......................................................................................... 24"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 55,
+          "page": 18,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "12,345  \n30002 or  \n40002 (1)  \n0x3039  \n30003 or \n40003 (2)  \n0x0001  \nEnergy (Unit) - \n30003 or  \n40003 (2)  \nUInt16  0x0001  \n1  \n30004 or \n40004 (3)  \n0x4D4A  \nEnergy (unit \nname) \n \n30004 or  \n8 char  \nASCII  \n0x4D4A0000 \n00000000  \nMJ  \n30005 or \n40005 (4)  \n0x0000  \nCode \nName \nCode \nName \nCode \nName \nCode \nName \nCode \nName \n0 \nNo \n10 \ncallus \n20 \nm3 \n30 \nkGal/min \n40 \nGBtu/h \n1 \nmWh \n11 \nkcal \n21 \nmGal \n31 \nMGal/min \n41 \n°C \n2 \nWh \n12 \nMcal \n22 \nGal \n32 \nmW \n42 \n°F \n3 \nkWh \n13 \nGcal \n23 \nkGal \n33 \nW \n \n \n4 \nMWh \n14 \nBtu \n24 \nMGal \n34 \nkW \n \n \n5 \nGWh \n15 \nkBtu \n25 \nml/h \n35 \nMW \n \n \n6 \nJ \n16 \nMBtu \n26 \nl/h \n36 \nGW \n \n \n7 \nkJ \n17 \nGBtu \n27 \nm3/h \n37 \nBtu/h \n \n \n8 \nMJ \n18 \nml \n28 \nmGal/min \n38 \nkBtu/h \n \n \n9 \nGJ \n19 \nl \n29 \nGal/min \n39 \nMBtu/h"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 67,
+          "page": 23,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n24 \n12/2023 \n \n9 DECLARATION OF CONFORMITY  \nThe module is complaint with European Union harmonization legislation and standards for Information \nTechnology Equipment as stated in the EU Declaration of Conformity below."
+        }
+      ],
+      "addressing_mode": [
+        {
+          "rank": 1,
+          "chunk_id": 36,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n15 \n12/2023 \n \n \nNOTE: \nThere are two conventions for addressing registers in Modbus. Be careful when \naccessing registers. The addressing method may depend on the application used. Some \napplications may use only the long format (Modbus Register), while others may use the \nshort format (Modbus Address). \nTo obtain the Modbus address, subtract offset 40001 (for holding registers) or 30001 \n(for input registers) from the Modbus register. \nFor example, to obtain the Modbus address for reading the volume value: 40011 \n(Modbus register) - 40001 (offset for holding registers) = 10 (Modbus address). \n \n  \n6.2.1 \nMEASUREMENT DATA REGISTER \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nEnergy \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nEnergy (Coefficient)  \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \nEnergy (Unit)  \n30004 or 40004 \nInput or Holding \n3 \n8 char ASCII \nEnergy (Unit code)  \n30008 or 40008 \nInput or Holding \n7 \nUInt16"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 46,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n17 \n12/2023 \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nError code \n30165 or 40165 \nInput or Holding \n164 \nHex \nMeter ID no. \n30166 or 40166 \nInput or Holding \n165 \nUInt32 \nMeter ID (ASCII)  \n30168 or 40168 \nInput or Holding \n167 \n8 char ASCII \nPeriodical Log 0 - Date - Jour \n30172 or 40172 \nInput or Holding \n171 \nUInt16 \nPeriodical Log 0 - Date - Month \n30173 or 40173 \nInput or Holding \n172 \nUInt16 \nPeriodical Log 0 - Date - Year \n30174 or 40174 \nInput or Holding \n173 \nUInt16 \nPeriodical Log 0 - Energy \n30175 or 40175 \nInput or Holding \n174 \nInt32 \nPeriodical Log 0 - Energy \n(Coefficient)1 \n30177 or 40177 \nInput or Holding \n176 \nUInt16 \nPeriodical Log 0 - Energy (Unit)  \n30178 or 40178 \nInput or Holding \n177 \n8 char ASCII \nPeriodical Log 0 - Energy (Unit \ncode)  \n30182 or 40182 \nInput or Holding \n181 \nUInt16 \nPeriodical Log 0 - Energy (Float)  \n30183 or 40183 \nInput or Holding \n182 \nIEEE 754 \nPeriodical Log 0 - Volume"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 52,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Modbus \nregister \nModbus \nregister type  \nModbus \naddress  \nData \ntype \nRead only \n(RO) \nRead/write \n(R/W) \nModule serial number  \n32001  \nInput  \n2000  \nUInt32  \nRO \nModule model number  \n32003  \nInput  \n2002  \nUInt32  \nRO \nModule firmware version1 32005  \nInput  \n2004  \nUInt16  \nRO \n  \n1 \n \nHigher byte of the register is major number of firmware version (0x##00 hex). Lower byte of \nthe register is minor number of firmware version (0x00## hex). \n \n6.3 UNIT ID TABLE \nEach group of measurement data registers contains information about the units. This information is \nstored in two registers:  \n• \nUnit name: unit in human-readable ASCII format, \n• \nUnit ID: unit identification number.  \nAll available Unit IDs with their appropriate names are listed in the table below:"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 40,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n16 \n12/2023 \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nTariff 1 - Energy (Coefficient)  \n30067 or 40067 \nInput or Holding \n66 \nUInt16 \nTariff 1 - Energy (Unit)  \n30068 or 40068 \nInput or Holding \n67 \n8 char ASCII \nTariff 1 - Energy (Unit code)  \n30072 or 40072 \nInput or Holding \n71 \nUInt16 \nTariff 1 - Energy (Float)  \n30073 or 40073 \nInput or Holding \n72 \nIEEE 754 \nTariff 1 - Volume \n30075 or 40075 \nInput or Holding \n74 \nInt32 \nTariff 1 - Volume (Coefficient)  \n30077 or 40077 \nInput or Holding \n76 \nUInt16 \nTariff 1 - Volume (Unit)  \n30078 or 40078 \nInput or Holding \n77 \n8 char ASCII \nTariff 1 - Volume (Unit code)  \n30082 or 40082 \nInput or Holding \n81 \nUInt16 \nTariff 1 - Volume (Float)  \n30083 or 40083 \nInput or Holding \n82 \nIEEE 754 \nTariff 2 - Energy \n30085 or 40085 \nInput or Holding \n84 \nInt32 \nTariff 2 - Energy (Coefficient)  \n30087 or 40087 \nInput or Holding \n86 \nUInt16 \nTariff 2 - Energy (Unit)  \n30088 or 40088"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 34,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n14 \n12/2023 \n \nAutomatic addressing table based on meter serial number :  \n Last 3 digits of \nmeter serial \nnumber  \nModule address \n(Slave ID)  \nLast 3 digits of \nmeter serial \nnumber \nModule address \n(Slave ID) \n#### #000  \n247  \n#### #296  \n96  \n#### #001  \n1  \n#### #297  \n97  \n#### #002  \n2  \n#### #298  \n98  \n...  \n...  \n#### #299  \n99  \n#### #240  \n240  \n#### #300  \n247  \n#### #246  \n246  \n#### #301  \n1  \n#### #247  \n247  \n#### #302  \n2  \n#### #248  \n247  \n...  \n...  \n#### #249  \n247  \n#### #398  \n98  \n#### #250  \n247  \n#### #399  \n99  \n#### #251  \n51  \n#### #400  \n247  \n#### #252  \n52  \n#### #401  \n1  \n...  \n...  \n...  \n...  \n  \n \n \n  \nNOTE:  \nThe automatic slave ID addressing option is enabled by default.  \n \n \nThe automatic slave ID addressing function is deactivated or activated via the data in Modbus register \n41001 (Modbus address 1000), as described in the table below. \n \nAutomatic \nSlave ID \nfunctionality  \nRegister \nvalue (high \nbyte)"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 37,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "register \nModbus \naddress \nType \nof data \nEnergy \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nEnergy (Coefficient)  \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \nEnergy (Unit)  \n30004 or 40004 \nInput or Holding \n3 \n8 char ASCII \nEnergy (Unit code)  \n30008 or 40008 \nInput or Holding \n7 \nUInt16 \nEnergy (Float)  \n30009 or 40009 \nInput or Holding \n8 \nIEEE 754 \nVolume \n30011 or 40011 \nInput or Holding \n10 \nInt32 \nVolume (Coefficient) \n30013 or 40013 \nInput or Holding \n12 \nUInt16 \nVolume (Unit)  \n30014 or 40014 \nInput or Holding \n13 \n8 char ASCII \nVolume (Unit code)  \n30018 or 40018 \nInput or Holding \n17 \nUInt16 \nVolume (Float)  \n30019 or 40019 \nInput or Holding \n18 \nIEEE 754 \nPower \n30021 or 40021 \nInput or Holding \n20 \nInt32 \nPower (Coefficient)  \n30023 or 40023 \nInput or Holding \n22 \nUInt16 \nPower (Unit)  \n30024 or 40024 \nInput or Holding \n23 \n8 char ASCII \nPower (Unit code)  \n30028 or 40028 \nInput or Holding \n27 \nUInt16 \nPower (Float)  \n30029 or 40029 \nInput or Holding \n28 \nIEEE 754"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 50,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n18 \n12/2023 \n \nNumber of data bits \n41005 \nHolding \ncompany \n1004 \nUInt16 \n8 \n8 \nParity bit 5 \n41006 \nHolding \ncompany \n1005 \n1 char \nASCII \n78 ('N') \n110 ('n'), 111 ('o'), \n101 ('e'), 78 ('N'), 79 ('O'), \n69 ('E') \nNumber of stop bits \n41007 \nHolding \ncompany \n1006 \nUInt16 \n1 \n1, 2 \nEnable Periodical Log 06 \n41008 \nHolding \ncompany \n1007 \nUint16 \n0 \n0, 1 \n   \n  \n1  The lower byte of this register (LL) represents the module slave ID in the range 1 to 247 (0x01 \nto 0xF7 in hexadecimal). \n2  If Higher byte is set to 1, the slave ID will be updated with the heat meter serial number. If \nHigher byte is set to 0, the slave ID remains static. \n3  The default update rate is 60 seconds. When the update rate is set to 0, the module does not \nread heat meter data. \n4  This register contains a time value with an accuracy of one decimal place. Therefore, a Modbus \nregister value of 600 means 60.0 seconds."
+        },
+        {
+          "rank": 8,
+          "chunk_id": 30,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "For more information about Modbus standard please refer to following documents - Modicon Modbus \nProtocol Reference Guide and MODBUS over Serial Line - Specification and Implementation Guide. \n6.1 MODULE ADDRESSING  \nA single Modbus RTU network on an EIA-485 channel (called a Modbus bus) can contain a single \nmaster and up to 247 slaves. The master - usually a PC - has full control of communication and can \nmake read or write requests. The slave device can only respond to requests, and cannot actively poll \nother devices on the network. Each slave device on the network must have its own unique address, \nthe slave ID. The slave ID can be assigned in the range 1 to 247. Address 0 is reserved for broadcast \nmessages. The master node has no specific address assigned. \n  \n \n  \nNOTE:  \nPlease take care not to setup two slave devices with the same Slave ID, it will lead to \nframe collisions on Modbus bus."
+        }
+      ],
+      "register": [
+        {
+          "rank": 1,
+          "chunk_id": 42,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Tariff 2 - Volume (Unit code)  \n30102 or 40102 \nInput or Holding \n101 \nUInt16 \nTariff 2 - Volume (Float)  \n30103 or 40103 \nInput or Holding \n102 \nIEEE 754 \nTariff 3 - Energy \n30105 or 40105 \nInput or Holding \n104 \nInt32 \nTariff 3 - Energy (Coefficient)  \n30107 or 40107 \nInput or Holding \n106 \nUInt16 \nTariff 3 - Energy (Unit)  \n30108 or 40108 \nInput or Holding \n107 \n8 char ASCII \nTariff 3 - Energy (Unit code)  \n30112 or 40112 \nInput or Holding \n111 \nUInt16 \nTariff 3 - Energy (Float)  \n30113 or 40113 \nInput or Holding \n112 \nIEEE 754 \nTariff 3 - Volume \n30115 or 40115 \nInput or Holding \n114 \nInt32 \nTariff 3 - Volume (Coefficient)  \n30117 or 40117 \nInput or Holding \n116 \nUInt16 \nTariff 3 - Volume (Unit)  \n30118 or 40118 \nInput or Holding \n117 \n8 char ASCII \nTariff 3 - Volume (Unit code)  \n30122 or 40122 \nInput or Holding \n121 \nUInt16 \nTariff 3 - Volume (Float)  \n30123 or 40123 \nInput or Holding \n122 \nIEEE 754 \nTariff 4 - Energy \n30125 or 40125 \nInput or Holding \n124 \nInt32"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 41,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Input or Holding \n81 \nUInt16 \nTariff 1 - Volume (Float)  \n30083 or 40083 \nInput or Holding \n82 \nIEEE 754 \nTariff 2 - Energy \n30085 or 40085 \nInput or Holding \n84 \nInt32 \nTariff 2 - Energy (Coefficient)  \n30087 or 40087 \nInput or Holding \n86 \nUInt16 \nTariff 2 - Energy (Unit)  \n30088 or 40088 \nInput or Holding \n87 \n8 char ASCII \nTariff 2 - Energy (Unit code)  \n30092 or 40092 \nInput or Holding \n91 \nUInt16 \nTariff 2 - Energy (Float)  \n30093 or 40093 \nInput or Holding \n92 \nIEEE 754 \nTariff 2 - Volume \n30095 or 40095 \nInput or Holding \n94 \nInt32 \nTariff 2 - Volume (Coefficient)  \n30097 or 40097 \nInput or Holding \n96 \nUInt16 \nTariff 2 - Volume (Unit)  \n30098 or 40098 \nInput or Holding \n97 \n8 char ASCII \nTariff 2 - Volume (Unit code)  \n30102 or 40102 \nInput or Holding \n101 \nUInt16 \nTariff 2 - Volume (Float)  \n30103 or 40103 \nInput or Holding \n102 \nIEEE 754 \nTariff 3 - Energy \n30105 or 40105 \nInput or Holding \n104 \nInt32 \nTariff 3 - Energy (Coefficient)  \n30107 or 40107 \nInput or Holding \n106"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 37,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "register \nModbus \naddress \nType \nof data \nEnergy \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nEnergy (Coefficient)  \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \nEnergy (Unit)  \n30004 or 40004 \nInput or Holding \n3 \n8 char ASCII \nEnergy (Unit code)  \n30008 or 40008 \nInput or Holding \n7 \nUInt16 \nEnergy (Float)  \n30009 or 40009 \nInput or Holding \n8 \nIEEE 754 \nVolume \n30011 or 40011 \nInput or Holding \n10 \nInt32 \nVolume (Coefficient) \n30013 or 40013 \nInput or Holding \n12 \nUInt16 \nVolume (Unit)  \n30014 or 40014 \nInput or Holding \n13 \n8 char ASCII \nVolume (Unit code)  \n30018 or 40018 \nInput or Holding \n17 \nUInt16 \nVolume (Float)  \n30019 or 40019 \nInput or Holding \n18 \nIEEE 754 \nPower \n30021 or 40021 \nInput or Holding \n20 \nInt32 \nPower (Coefficient)  \n30023 or 40023 \nInput or Holding \n22 \nUInt16 \nPower (Unit)  \n30024 or 40024 \nInput or Holding \n23 \n8 char ASCII \nPower (Unit code)  \n30028 or 40028 \nInput or Holding \n27 \nUInt16 \nPower (Float)  \n30029 or 40029 \nInput or Holding \n28 \nIEEE 754"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 40,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n16 \n12/2023 \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nTariff 1 - Energy (Coefficient)  \n30067 or 40067 \nInput or Holding \n66 \nUInt16 \nTariff 1 - Energy (Unit)  \n30068 or 40068 \nInput or Holding \n67 \n8 char ASCII \nTariff 1 - Energy (Unit code)  \n30072 or 40072 \nInput or Holding \n71 \nUInt16 \nTariff 1 - Energy (Float)  \n30073 or 40073 \nInput or Holding \n72 \nIEEE 754 \nTariff 1 - Volume \n30075 or 40075 \nInput or Holding \n74 \nInt32 \nTariff 1 - Volume (Coefficient)  \n30077 or 40077 \nInput or Holding \n76 \nUInt16 \nTariff 1 - Volume (Unit)  \n30078 or 40078 \nInput or Holding \n77 \n8 char ASCII \nTariff 1 - Volume (Unit code)  \n30082 or 40082 \nInput or Holding \n81 \nUInt16 \nTariff 1 - Volume (Float)  \n30083 or 40083 \nInput or Holding \n82 \nIEEE 754 \nTariff 2 - Energy \n30085 or 40085 \nInput or Holding \n84 \nInt32 \nTariff 2 - Energy (Coefficient)  \n30087 or 40087 \nInput or Holding \n86 \nUInt16 \nTariff 2 - Energy (Unit)  \n30088 or 40088"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 43,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "30118 or 40118 \nInput or Holding \n117 \n8 char ASCII \nTariff 3 - Volume (Unit code)  \n30122 or 40122 \nInput or Holding \n121 \nUInt16 \nTariff 3 - Volume (Float)  \n30123 or 40123 \nInput or Holding \n122 \nIEEE 754 \nTariff 4 - Energy \n30125 or 40125 \nInput or Holding \n124 \nInt32 \nTariff 4 - Energy (Coefficient)  \n30127 or 40127 \nInput or Holding \n126 \nUInt16 \nTariff 4 - Energy (Unit)  \n30128 or 40128 \nInput or Holding \n127 \n8 char ASCII \nTariff 4 - Energy (Unit code)  \n30132 or 40132 \nInput or Holding \n131 \nUInt16 \nTariff 4 - Energy (Float)  \n30133 or 40133 \nInput or Holding \n132 \nIEEE 754 \nTariff 4 - Volume \n30135 or 40135 \nInput or Holding \n134 \nInt32 \nTariff 4 - Volume (Coefficient)  \n30137 or 40137 \nInput or Holding \n136 \nUInt16 \nTariff 4 - Volume (Unit)  \n30138 or 40138 \nInput or Holding \n137 \n8 char ASCII \nTariff 4 - Volume (Unit code)  \n30142 or 40142 \nInput or Holding \n141 \nUInt16 \nTariff 4 - Volume (Float)  \n30143 or 40143 \nInput or Holding \n142 \nIEEE 754 \nPulse input 1 - Volume"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 56,
+          "page": 19,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n20 \n12/2023 \n \n \n30006 or \n40006 (5)  \n0x0000  \n40004  \n(3)  \n30007 or \n40007 (6)  \n0x0000  \n30008 or \n40008 (7)  \n0x0008  \nEnergy (Unit \nID) \n30008 or 40008 \n(7)  \nUInt16  0x0008  \n8  \n30009 or \n40009 (8)  \n0x4640  \nEnergy \n(Floating) -  \n30009 or  \n40009 (8)  \nIEEE \n754  \n0x4640E400  \n12,345  \n30010 or \n40010 (9)  \n0xE400  \nTo read the energy value in fixed-point data format, the following calculation must be performed \nEnergy value = Energy register * Unit factor register [Unit name register]. \nFor example, if the energy register contains the value 12 345 and the unit factor register contains the \nvalue 1 MJ, then : \nEnergy value = 12,345 * 1 MJ = 12,345 MJ = 12.345 GJ \nThe energy value in floating-point data format can be read directly: \nFloating energy value = 12,345 MJ = 12.345 GJ \nThe unit name is presented in human-readable ASCII format, or can be obtained from the unit ID look-"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 36,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n15 \n12/2023 \n \n \nNOTE: \nThere are two conventions for addressing registers in Modbus. Be careful when \naccessing registers. The addressing method may depend on the application used. Some \napplications may use only the long format (Modbus Register), while others may use the \nshort format (Modbus Address). \nTo obtain the Modbus address, subtract offset 40001 (for holding registers) or 30001 \n(for input registers) from the Modbus register. \nFor example, to obtain the Modbus address for reading the volume value: 40011 \n(Modbus register) - 40001 (offset for holding registers) = 10 (Modbus address). \n \n  \n6.2.1 \nMEASUREMENT DATA REGISTER \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nEnergy \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nEnergy (Coefficient)  \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \nEnergy (Unit)  \n30004 or 40004 \nInput or Holding \n3 \n8 char ASCII \nEnergy (Unit code)  \n30008 or 40008 \nInput or Holding \n7 \nUInt16"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 47,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "UInt16 \nPeriodical Log 0 - Energy (Unit)  \n30178 or 40178 \nInput or Holding \n177 \n8 char ASCII \nPeriodical Log 0 - Energy (Unit \ncode)  \n30182 or 40182 \nInput or Holding \n181 \nUInt16 \nPeriodical Log 0 - Energy (Float)  \n30183 or 40183 \nInput or Holding \n182 \nIEEE 754 \nPeriodical Log 0 - Volume \n30185 or 40185 \nInput or Holding \n184 \nInt32 \nPeriodical Log 0 - Volume \n(Coefficient) \n30187 or 40187 \nInput or Holding \n186 \nUInt16 \nPeriodical Log 0 - Volume (Unit)  \n30188 or 40188 \nInput or Holding \n187 \n8 char ASCII \nPeriodical Log 0 - Volume (Unit \ncode)  \n30192 or 40192 \nInput or Holding \n191 \nUInt16 \nPeriodical Log 0 - Volume (Float)  \n30193 or 40193 \nInput or Holding \n192 \nIEEE 754 \nModule serial no. \n32001 \nInput \n2000 \nUInt32 \nModule product no. \n32003 \nInput \n2002 \nUnit32 \nSoftware version \n32005 \nInput \n2004 \nUnit16 \n \n      \n1  The integer value for the same group of registers (e.g. energy) must be multiplied by the"
+        }
+      ],
+      "function_code": [
+        {
+          "rank": 1,
+          "chunk_id": 29,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "• \nRead Input Registers (0x04) \n• \nWrite Single Register (0x06) \n• \nWrite Multiple Registers (0x10) \n \nTo make communication with Modbus RTU Communication Module simple, measurement data from \nthe meter are stored by the module in both types of registers - holding registers and input registers. \nTherefore measurement data can be read by using function code 0x03 or 0x04. To modify module \nconfiguration, function code 0x06 or 0x10 should be used. \n \n  \nNOTE:  \nThe Communication Module sends data with the most significant register first and \nthe most significant byte first (\"byte swap\" or \"word swap\" are not used to decode \ndata). \n  \nThe development and update of Modbus protocols has been managed by the Modbus Organization. \nFor more information about Modbus standard please refer to following documents - Modicon Modbus \nProtocol Reference Guide and MODBUS over Serial Line - Specification and Implementation Guide. \n6.1 MODULE ADDRESSING"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 45,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Input or Holding \n154 \nInt32 \nPulse input 2 - Volume (Coefficient)  \n30157 or 40157 \nInput or Holding \n156 \nUInt16 \nPulse input 2 - Volume (Unit)  \n30158 or 40158 \nInput or Holding \n157 \n8 char ASCII \nPulse input 2 - Volume (Unit code)  \n30162 or 40162 \nInput or Holding \n161 \nUInt16 \nPulse input 2 - Volume (Float)  \n30163 or 40163 \nInput or Holding \n162 \nIEEE 754"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 28,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n12 \n12/2023 \n \nanswer and a function code - specific request for particular data. The slave in response sends the \nrequested data. Modbus RTU Communication Module is slave device. \n \nModbus RTU is used a compact, binary representation of the data for protocol communication. Modbus \nRTU Communication Module store the data in object types called registers - Input register and Holding \nRegisters which have 16 bits size. Registers provided by this device can be found in 6.2 Modbus \nregisters. \n \nModbus RTU Communication Module supports following functions (function codes): \n \n• \nRead Holding Registers (0x03) \n• \nRead Input Registers (0x04) \n• \nWrite Single Register (0x06) \n• \nWrite Multiple Registers (0x10) \n \nTo make communication with Modbus RTU Communication Module simple, measurement data from \nthe meter are stored by the module in both types of registers - holding registers and input registers."
+        },
+        {
+          "rank": 4,
+          "chunk_id": 48,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "30193 or 40193 \nInput or Holding \n192 \nIEEE 754 \nModule serial no. \n32001 \nInput \n2000 \nUInt32 \nModule product no. \n32003 \nInput \n2002 \nUnit32 \nSoftware version \n32005 \nInput \n2004 \nUnit16 \n \n      \n1  The integer value for the same group of registers (e.g. energy) must be multiplied by the \nunit factor to obtain the valid output value. Floating-point values do not need to be multiplied \nby the unit factor. \n2  The unit of the value is indicated in the appropriate registers containing the unit name or unit \nID. \n3  Available values for unit ID registers are listed in the unit ID lookup table.  \n4  This register contains the temperature to one decimal place. To obtain the value in degrees, \nthe contents of this register must be multiplied by 0.1.  \n5  Available values are listed in the error code list.  \n6  The meter's identification number is its secondary address. By default, this number is equal to"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 50,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "MODBUS RTU  \n \n   \n18 \n12/2023 \n \nNumber of data bits \n41005 \nHolding \ncompany \n1004 \nUInt16 \n8 \n8 \nParity bit 5 \n41006 \nHolding \ncompany \n1005 \n1 char \nASCII \n78 ('N') \n110 ('n'), 111 ('o'), \n101 ('e'), 78 ('N'), 79 ('O'), \n69 ('E') \nNumber of stop bits \n41007 \nHolding \ncompany \n1006 \nUInt16 \n1 \n1, 2 \nEnable Periodical Log 06 \n41008 \nHolding \ncompany \n1007 \nUint16 \n0 \n0, 1 \n   \n  \n1  The lower byte of this register (LL) represents the module slave ID in the range 1 to 247 (0x01 \nto 0xF7 in hexadecimal). \n2  If Higher byte is set to 1, the slave ID will be updated with the heat meter serial number. If \nHigher byte is set to 0, the slave ID remains static. \n3  The default update rate is 60 seconds. When the update rate is set to 0, the module does not \nread heat meter data. \n4  This register contains a time value with an accuracy of one decimal place. Therefore, a Modbus \nregister value of 600 means 60.0 seconds."
+        },
+        {
+          "rank": 6,
+          "chunk_id": 59,
+          "page": 19,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "1007). This feature allows you to read only a single block of data (data block 0) from the periodic log \nmemory into the counter. The permitted values for the Periodic Log 0 enable register are listed in the \ntable below."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 52,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Modbus \nregister \nModbus \nregister type  \nModbus \naddress  \nData \ntype \nRead only \n(RO) \nRead/write \n(R/W) \nModule serial number  \n32001  \nInput  \n2000  \nUInt32  \nRO \nModule model number  \n32003  \nInput  \n2002  \nUInt32  \nRO \nModule firmware version1 32005  \nInput  \n2004  \nUInt16  \nRO \n  \n1 \n \nHigher byte of the register is major number of firmware version (0x##00 hex). Lower byte of \nthe register is minor number of firmware version (0x00## hex). \n \n6.3 UNIT ID TABLE \nEach group of measurement data registers contains information about the units. This information is \nstored in two registers:  \n• \nUnit name: unit in human-readable ASCII format, \n• \nUnit ID: unit identification number.  \nAll available Unit IDs with their appropriate names are listed in the table below:"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 38,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Input or Holding \n20 \nInt32 \nPower (Coefficient)  \n30023 or 40023 \nInput or Holding \n22 \nUInt16 \nPower (Unit)  \n30024 or 40024 \nInput or Holding \n23 \n8 char ASCII \nPower (Unit code)  \n30028 or 40028 \nInput or Holding \n27 \nUInt16 \nPower (Float)  \n30029 or 40029 \nInput or Holding \n28 \nIEEE 754 \nFlow \n30031 or 40031 \nInput or Holding \n30 \nInt32 \nFlow (Coefficient)  \n30033 or 40033 \nInput or Holding \n32 \nUInt16 \nFlow (Unit)  \n30034 or 40034 \nInput or Holding \n33 \n8 char ASCII \nFlow (Unit code)  \n30038 or 40038 \nInput or Holding \n37 \nUInt16 \nFlow (Float)  \n30039 or 40039 \nInput or Holding \n38 \nIEEE 754 \nStart temperature \n30041 or 40041 \nInput or Holding \n40 \nInt16 \nFlow temperature (Unit)  \n30042 or 40042 \nInput or Holding \n41 \n8 char ASCII \nStart temperature \n(Unit code)  \n30046 or 40046 \nInput or Holding \n45 \nUInt16 \nFlow temperature (Float)  \n30047 or 40047 \nInput or Holding \n46 \nIEEE 754 \nReturn temperature \n30049 or 40049 \nInput or Holding \n48 \nInt16 \nReturn temperature (Unit)"
+        }
+      ],
+      "coils_discrete": [
+        {
+          "rank": 1,
+          "chunk_id": 45,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Input or Holding \n154 \nInt32 \nPulse input 2 - Volume (Coefficient)  \n30157 or 40157 \nInput or Holding \n156 \nUInt16 \nPulse input 2 - Volume (Unit)  \n30158 or 40158 \nInput or Holding \n157 \n8 char ASCII \nPulse input 2 - Volume (Unit code)  \n30162 or 40162 \nInput or Holding \n161 \nUInt16 \nPulse input 2 - Volume (Float)  \n30163 or 40163 \nInput or Holding \n162 \nIEEE 754"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 47,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "UInt16 \nPeriodical Log 0 - Energy (Unit)  \n30178 or 40178 \nInput or Holding \n177 \n8 char ASCII \nPeriodical Log 0 - Energy (Unit \ncode)  \n30182 or 40182 \nInput or Holding \n181 \nUInt16 \nPeriodical Log 0 - Energy (Float)  \n30183 or 40183 \nInput or Holding \n182 \nIEEE 754 \nPeriodical Log 0 - Volume \n30185 or 40185 \nInput or Holding \n184 \nInt32 \nPeriodical Log 0 - Volume \n(Coefficient) \n30187 or 40187 \nInput or Holding \n186 \nUInt16 \nPeriodical Log 0 - Volume (Unit)  \n30188 or 40188 \nInput or Holding \n187 \n8 char ASCII \nPeriodical Log 0 - Volume (Unit \ncode)  \n30192 or 40192 \nInput or Holding \n191 \nUInt16 \nPeriodical Log 0 - Volume (Float)  \n30193 or 40193 \nInput or Holding \n192 \nIEEE 754 \nModule serial no. \n32001 \nInput \n2000 \nUInt32 \nModule product no. \n32003 \nInput \n2002 \nUnit32 \nSoftware version \n32005 \nInput \n2004 \nUnit16 \n \n      \n1  The integer value for the same group of registers (e.g. energy) must be multiplied by the"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 52,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Modbus \nregister \nModbus \nregister type  \nModbus \naddress  \nData \ntype \nRead only \n(RO) \nRead/write \n(R/W) \nModule serial number  \n32001  \nInput  \n2000  \nUInt32  \nRO \nModule model number  \n32003  \nInput  \n2002  \nUInt32  \nRO \nModule firmware version1 32005  \nInput  \n2004  \nUInt16  \nRO \n  \n1 \n \nHigher byte of the register is major number of firmware version (0x##00 hex). Lower byte of \nthe register is minor number of firmware version (0x00## hex). \n \n6.3 UNIT ID TABLE \nEach group of measurement data registers contains information about the units. This information is \nstored in two registers:  \n• \nUnit name: unit in human-readable ASCII format, \n• \nUnit ID: unit identification number.  \nAll available Unit IDs with their appropriate names are listed in the table below:"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 29,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "• \nRead Input Registers (0x04) \n• \nWrite Single Register (0x06) \n• \nWrite Multiple Registers (0x10) \n \nTo make communication with Modbus RTU Communication Module simple, measurement data from \nthe meter are stored by the module in both types of registers - holding registers and input registers. \nTherefore measurement data can be read by using function code 0x03 or 0x04. To modify module \nconfiguration, function code 0x06 or 0x10 should be used. \n \n  \nNOTE:  \nThe Communication Module sends data with the most significant register first and \nthe most significant byte first (\"byte swap\" or \"word swap\" are not used to decode \ndata). \n  \nThe development and update of Modbus protocols has been managed by the Modbus Organization. \nFor more information about Modbus standard please refer to following documents - Modicon Modbus \nProtocol Reference Guide and MODBUS over Serial Line - Specification and Implementation Guide. \n6.1 MODULE ADDRESSING"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 48,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "30193 or 40193 \nInput or Holding \n192 \nIEEE 754 \nModule serial no. \n32001 \nInput \n2000 \nUInt32 \nModule product no. \n32003 \nInput \n2002 \nUnit32 \nSoftware version \n32005 \nInput \n2004 \nUnit16 \n \n      \n1  The integer value for the same group of registers (e.g. energy) must be multiplied by the \nunit factor to obtain the valid output value. Floating-point values do not need to be multiplied \nby the unit factor. \n2  The unit of the value is indicated in the appropriate registers containing the unit name or unit \nID. \n3  Available values for unit ID registers are listed in the unit ID lookup table.  \n4  This register contains the temperature to one decimal place. To obtain the value in degrees, \nthe contents of this register must be multiplied by 0.1.  \n5  Available values are listed in the error code list.  \n6  The meter's identification number is its secondary address. By default, this number is equal to"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 43,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "30118 or 40118 \nInput or Holding \n117 \n8 char ASCII \nTariff 3 - Volume (Unit code)  \n30122 or 40122 \nInput or Holding \n121 \nUInt16 \nTariff 3 - Volume (Float)  \n30123 or 40123 \nInput or Holding \n122 \nIEEE 754 \nTariff 4 - Energy \n30125 or 40125 \nInput or Holding \n124 \nInt32 \nTariff 4 - Energy (Coefficient)  \n30127 or 40127 \nInput or Holding \n126 \nUInt16 \nTariff 4 - Energy (Unit)  \n30128 or 40128 \nInput or Holding \n127 \n8 char ASCII \nTariff 4 - Energy (Unit code)  \n30132 or 40132 \nInput or Holding \n131 \nUInt16 \nTariff 4 - Energy (Float)  \n30133 or 40133 \nInput or Holding \n132 \nIEEE 754 \nTariff 4 - Volume \n30135 or 40135 \nInput or Holding \n134 \nInt32 \nTariff 4 - Volume (Coefficient)  \n30137 or 40137 \nInput or Holding \n136 \nUInt16 \nTariff 4 - Volume (Unit)  \n30138 or 40138 \nInput or Holding \n137 \n8 char ASCII \nTariff 4 - Volume (Unit code)  \n30142 or 40142 \nInput or Holding \n141 \nUInt16 \nTariff 4 - Volume (Float)  \n30143 or 40143 \nInput or Holding \n142 \nIEEE 754 \nPulse input 1 - Volume"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 37,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "register \nModbus \naddress \nType \nof data \nEnergy \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nEnergy (Coefficient)  \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \nEnergy (Unit)  \n30004 or 40004 \nInput or Holding \n3 \n8 char ASCII \nEnergy (Unit code)  \n30008 or 40008 \nInput or Holding \n7 \nUInt16 \nEnergy (Float)  \n30009 or 40009 \nInput or Holding \n8 \nIEEE 754 \nVolume \n30011 or 40011 \nInput or Holding \n10 \nInt32 \nVolume (Coefficient) \n30013 or 40013 \nInput or Holding \n12 \nUInt16 \nVolume (Unit)  \n30014 or 40014 \nInput or Holding \n13 \n8 char ASCII \nVolume (Unit code)  \n30018 or 40018 \nInput or Holding \n17 \nUInt16 \nVolume (Float)  \n30019 or 40019 \nInput or Holding \n18 \nIEEE 754 \nPower \n30021 or 40021 \nInput or Holding \n20 \nInt32 \nPower (Coefficient)  \n30023 or 40023 \nInput or Holding \n22 \nUInt16 \nPower (Unit)  \n30024 or 40024 \nInput or Holding \n23 \n8 char ASCII \nPower (Unit code)  \n30028 or 40028 \nInput or Holding \n27 \nUInt16 \nPower (Float)  \n30029 or 40029 \nInput or Holding \n28 \nIEEE 754"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 38,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+          "content": "Input or Holding \n20 \nInt32 \nPower (Coefficient)  \n30023 or 40023 \nInput or Holding \n22 \nUInt16 \nPower (Unit)  \n30024 or 40024 \nInput or Holding \n23 \n8 char ASCII \nPower (Unit code)  \n30028 or 40028 \nInput or Holding \n27 \nUInt16 \nPower (Float)  \n30029 or 40029 \nInput or Holding \n28 \nIEEE 754 \nFlow \n30031 or 40031 \nInput or Holding \n30 \nInt32 \nFlow (Coefficient)  \n30033 or 40033 \nInput or Holding \n32 \nUInt16 \nFlow (Unit)  \n30034 or 40034 \nInput or Holding \n33 \n8 char ASCII \nFlow (Unit code)  \n30038 or 40038 \nInput or Holding \n37 \nUInt16 \nFlow (Float)  \n30039 or 40039 \nInput or Holding \n38 \nIEEE 754 \nStart temperature \n30041 or 40041 \nInput or Holding \n40 \nInt16 \nFlow temperature (Unit)  \n30042 or 40042 \nInput or Holding \n41 \n8 char ASCII \nStart temperature \n(Unit code)  \n30046 or 40046 \nInput or Holding \n45 \nUInt16 \nFlow temperature (Float)  \n30047 or 40047 \nInput or Holding \n46 \nIEEE 754 \nReturn temperature \n30049 or 40049 \nInput or Holding \n48 \nInt16 \nReturn temperature (Unit)"
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 40,
+        "page": 15,
+        "score": 12,
+        "bucket": "register",
+        "retrieved_by": [
+          "addressing_mode",
+          "register"
+        ],
+        "content": "MODBUS RTU  \n \n   \n16 \n12/2023 \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nTariff 1 - Energy (Coefficient)  \n30067 or 40067 \nInput or Holding \n66 \nUInt16 \nTariff 1 - Energy (Unit)  \n30068 or 40068 \nInput or Holding \n67 \n8 char ASCII \nTariff 1 - Energy (Unit code)  \n30072 or 40072 \nInput or Holding \n71 \nUInt16 \nTariff 1 - Energy (Float)  \n30073 or 40073 \nInput or Holding \n72 \nIEEE 754 \nTariff 1 - Volume \n30075 or 40075 \nInput or Holding \n74 \nInt32 \nTariff 1 - Volume (Coefficient)  \n30077 or 40077 \nInput or Holding \n76 \nUInt16 \nTariff 1 - Volume (Unit)  \n30078 or 40078 \nInput or Holding \n77 \n8 char ASCII \nTariff 1 - Volume (Unit code)  \n30082 or 40082 \nInput or Holding \n81 \nUInt16 \nTariff 1 - Volume (Float)  \n30083 or 40083 \nInput or Holding \n82 \nIEEE 754 \nTariff 2 - Energy \n30085 or 40085 \nInput or Holding \n84 \nInt32 \nTariff 2 - Energy (Coefficient)  \n30087 or 40087 \nInput or Holding \n86 \nUInt16 \nTariff 2 - Energy (Unit)  \n30088 or 40088"
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 52,
+        "page": 17,
+        "score": 11,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "addressing_mode",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "Modbus \nregister \nModbus \nregister type  \nModbus \naddress  \nData \ntype \nRead only \n(RO) \nRead/write \n(R/W) \nModule serial number  \n32001  \nInput  \n2000  \nUInt32  \nRO \nModule model number  \n32003  \nInput  \n2002  \nUInt32  \nRO \nModule firmware version1 32005  \nInput  \n2004  \nUInt16  \nRO \n  \n1 \n \nHigher byte of the register is major number of firmware version (0x##00 hex). Lower byte of \nthe register is minor number of firmware version (0x00## hex). \n \n6.3 UNIT ID TABLE \nEach group of measurement data registers contains information about the units. This information is \nstored in two registers:  \n• \nUnit name: unit in human-readable ASCII format, \n• \nUnit ID: unit identification number.  \nAll available Unit IDs with their appropriate names are listed in the table below:"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 50,
+        "page": 17,
+        "score": 8,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode",
+          "function_code"
+        ],
+        "content": "MODBUS RTU  \n \n   \n18 \n12/2023 \n \nNumber of data bits \n41005 \nHolding \ncompany \n1004 \nUInt16 \n8 \n8 \nParity bit 5 \n41006 \nHolding \ncompany \n1005 \n1 char \nASCII \n78 ('N') \n110 ('n'), 111 ('o'), \n101 ('e'), 78 ('N'), 79 ('O'), \n69 ('E') \nNumber of stop bits \n41007 \nHolding \ncompany \n1006 \nUInt16 \n1 \n1, 2 \nEnable Periodical Log 06 \n41008 \nHolding \ncompany \n1007 \nUint16 \n0 \n0, 1 \n   \n  \n1  The lower byte of this register (LL) represents the module slave ID in the range 1 to 247 (0x01 \nto 0xF7 in hexadecimal). \n2  If Higher byte is set to 1, the slave ID will be updated with the heat meter serial number. If \nHigher byte is set to 0, the slave ID remains static. \n3  The default update rate is 60 seconds. When the update rate is set to 0, the module does not \nread heat meter data. \n4  This register contains a time value with an accuracy of one decimal place. Therefore, a Modbus \nregister value of 600 means 60.0 seconds."
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 37,
+        "page": 14,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "addressing_mode",
+          "register",
+          "coils_discrete"
+        ],
+        "content": "register \nModbus \naddress \nType \nof data \nEnergy \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nEnergy (Coefficient)  \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \nEnergy (Unit)  \n30004 or 40004 \nInput or Holding \n3 \n8 char ASCII \nEnergy (Unit code)  \n30008 or 40008 \nInput or Holding \n7 \nUInt16 \nEnergy (Float)  \n30009 or 40009 \nInput or Holding \n8 \nIEEE 754 \nVolume \n30011 or 40011 \nInput or Holding \n10 \nInt32 \nVolume (Coefficient) \n30013 or 40013 \nInput or Holding \n12 \nUInt16 \nVolume (Unit)  \n30014 or 40014 \nInput or Holding \n13 \n8 char ASCII \nVolume (Unit code)  \n30018 or 40018 \nInput or Holding \n17 \nUInt16 \nVolume (Float)  \n30019 or 40019 \nInput or Holding \n18 \nIEEE 754 \nPower \n30021 or 40021 \nInput or Holding \n20 \nInt32 \nPower (Coefficient)  \n30023 or 40023 \nInput or Holding \n22 \nUInt16 \nPower (Unit)  \n30024 or 40024 \nInput or Holding \n23 \n8 char ASCII \nPower (Unit code)  \n30028 or 40028 \nInput or Holding \n27 \nUInt16 \nPower (Float)  \n30029 or 40029 \nInput or Holding \n28 \nIEEE 754"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 39,
+        "page": 14,
+        "score": 8,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "30042 or 40042 \nInput or Holding \n41 \n8 char ASCII \nStart temperature \n(Unit code)  \n30046 or 40046 \nInput or Holding \n45 \nUInt16 \nFlow temperature (Float)  \n30047 or 40047 \nInput or Holding \n46 \nIEEE 754 \nReturn temperature \n30049 or 40049 \nInput or Holding \n48 \nInt16 \nReturn temperature (Unit)  \n30050 or 40050 \nInput or Holding \n49 \n8 char ASCII \nReturn temperature \n(Unit code)  \n30054 or 40054 \nInput or Holding \n53 \nUInt16 \nReturn temperature (Float)  \n30055 or 40055 \nInput or Holding \n54 \nIEEE 754 \nTemperature difference  \n30057 or 40057 \nInput or Holding \n56 \nInt16 \nTemperature difference (Unit)  \n30058 or 40058 \nInput or Holding \n57 \n8 char ASCII \nTemperature difference \n(Unit code)  \n30062 or 40062 \nInput or Holding \n61 \nUInt16 \nTemperature difference (Float)  \n30063 or 40063 \nInput or Holding \n62 \nIEEE 754 \nTariff 1 - Energy \n30065 or 40065 \nInput or Holding \n64 \nInt32"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 48,
+        "page": 16,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "30193 or 40193 \nInput or Holding \n192 \nIEEE 754 \nModule serial no. \n32001 \nInput \n2000 \nUInt32 \nModule product no. \n32003 \nInput \n2002 \nUnit32 \nSoftware version \n32005 \nInput \n2004 \nUnit16 \n \n      \n1  The integer value for the same group of registers (e.g. energy) must be multiplied by the \nunit factor to obtain the valid output value. Floating-point values do not need to be multiplied \nby the unit factor. \n2  The unit of the value is indicated in the appropriate registers containing the unit name or unit \nID. \n3  Available values for unit ID registers are listed in the unit ID lookup table.  \n4  This register contains the temperature to one decimal place. To obtain the value in degrees, \nthe contents of this register must be multiplied by 0.1.  \n5  Available values are listed in the error code list.  \n6  The meter's identification number is its secondary address. By default, this number is equal to"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 36,
+        "page": 14,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "addressing_mode",
+          "register"
+        ],
+        "content": "MODBUS RTU  \n \n   \n15 \n12/2023 \n \n \nNOTE: \nThere are two conventions for addressing registers in Modbus. Be careful when \naccessing registers. The addressing method may depend on the application used. Some \napplications may use only the long format (Modbus Register), while others may use the \nshort format (Modbus Address). \nTo obtain the Modbus address, subtract offset 40001 (for holding registers) or 30001 \n(for input registers) from the Modbus register. \nFor example, to obtain the Modbus address for reading the volume value: 40011 \n(Modbus register) - 40001 (offset for holding registers) = 10 (Modbus address). \n \n  \n6.2.1 \nMEASUREMENT DATA REGISTER \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nEnergy \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nEnergy (Coefficient)  \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \nEnergy (Unit)  \n30004 or 40004 \nInput or Holding \n3 \n8 char ASCII \nEnergy (Unit code)  \n30008 or 40008 \nInput or Holding \n7 \nUInt16"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 35,
+        "page": 13,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "The automatic slave ID addressing function is deactivated or activated via the data in Modbus register \n41001 (Modbus address 1000), as described in the table below. \n \nAutomatic \nSlave ID \nfunctionality  \nRegister \nvalue (high \nbyte) \nRegister value (low byte) \nDescription  \nDisabled \n0 (0x00 hex)  \nAddress range 1 to 247 \n(0x01 to 0xF7 in hexadecimal) \nStatic Slave ID \nEnabled  \n1 (0x01 hex)  \nAddress range 1 to 247 \n(0x01 to 0xF7 in hexadecimal) \nSlave ID will be updated \nafter first readout of heat \nmeter data \n  \n6.2 MODBUS REGISTERS \nThe Modbus RTU communication module supports two types of registers  \n• \nHolding registers read and write (4####)  \n• \nInput registers write only (3####)  \n \nEach register has a size of 16 bits (2 bytes) and a unique address. Measurement data from the \ncounter is stored by the module in two types of register - Holding Registers and Input Registers."
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 29,
+        "page": 11,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "• \nRead Input Registers (0x04) \n• \nWrite Single Register (0x06) \n• \nWrite Multiple Registers (0x10) \n \nTo make communication with Modbus RTU Communication Module simple, measurement data from \nthe meter are stored by the module in both types of registers - holding registers and input registers. \nTherefore measurement data can be read by using function code 0x03 or 0x04. To modify module \nconfiguration, function code 0x06 or 0x10 should be used. \n \n  \nNOTE:  \nThe Communication Module sends data with the most significant register first and \nthe most significant byte first (\"byte swap\" or \"word swap\" are not used to decode \ndata). \n  \nThe development and update of Modbus protocols has been managed by the Modbus Organization. \nFor more information about Modbus standard please refer to following documents - Modicon Modbus \nProtocol Reference Guide and MODBUS over Serial Line - Specification and Implementation Guide. \n6.1 MODULE ADDRESSING"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 34,
+        "page": 13,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "MODBUS RTU  \n \n   \n14 \n12/2023 \n \nAutomatic addressing table based on meter serial number :  \n Last 3 digits of \nmeter serial \nnumber  \nModule address \n(Slave ID)  \nLast 3 digits of \nmeter serial \nnumber \nModule address \n(Slave ID) \n#### #000  \n247  \n#### #296  \n96  \n#### #001  \n1  \n#### #297  \n97  \n#### #002  \n2  \n#### #298  \n98  \n...  \n...  \n#### #299  \n99  \n#### #240  \n240  \n#### #300  \n247  \n#### #246  \n246  \n#### #301  \n1  \n#### #247  \n247  \n#### #302  \n2  \n#### #248  \n247  \n...  \n...  \n#### #249  \n247  \n#### #398  \n98  \n#### #250  \n247  \n#### #399  \n99  \n#### #251  \n51  \n#### #400  \n247  \n#### #252  \n52  \n#### #401  \n1  \n...  \n...  \n...  \n...  \n  \n \n \n  \nNOTE:  \nThe automatic slave ID addressing option is enabled by default.  \n \n \nThe automatic slave ID addressing function is deactivated or activated via the data in Modbus register \n41001 (Modbus address 1000), as described in the table below. \n \nAutomatic \nSlave ID \nfunctionality  \nRegister \nvalue (high \nbyte)"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 46,
+        "page": 16,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "MODBUS RTU  \n \n   \n17 \n12/2023 \n \nDescription \nModbus \nregister \nType \nregister \nModbus \naddress \nType \nof data \nError code \n30165 or 40165 \nInput or Holding \n164 \nHex \nMeter ID no. \n30166 or 40166 \nInput or Holding \n165 \nUInt32 \nMeter ID (ASCII)  \n30168 or 40168 \nInput or Holding \n167 \n8 char ASCII \nPeriodical Log 0 - Date - Jour \n30172 or 40172 \nInput or Holding \n171 \nUInt16 \nPeriodical Log 0 - Date - Month \n30173 or 40173 \nInput or Holding \n172 \nUInt16 \nPeriodical Log 0 - Date - Year \n30174 or 40174 \nInput or Holding \n173 \nUInt16 \nPeriodical Log 0 - Energy \n30175 or 40175 \nInput or Holding \n174 \nInt32 \nPeriodical Log 0 - Energy \n(Coefficient)1 \n30177 or 40177 \nInput or Holding \n176 \nUInt16 \nPeriodical Log 0 - Energy (Unit)  \n30178 or 40178 \nInput or Holding \n177 \n8 char ASCII \nPeriodical Log 0 - Energy (Unit \ncode)  \n30182 or 40182 \nInput or Holding \n181 \nUInt16 \nPeriodical Log 0 - Energy (Float)  \n30183 or 40183 \nInput or Holding \n182 \nIEEE 754 \nPeriodical Log 0 - Volume"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 28,
+        "page": 11,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code"
+        ],
+        "content": "MODBUS RTU  \n \n   \n12 \n12/2023 \n \nanswer and a function code - specific request for particular data. The slave in response sends the \nrequested data. Modbus RTU Communication Module is slave device. \n \nModbus RTU is used a compact, binary representation of the data for protocol communication. Modbus \nRTU Communication Module store the data in object types called registers - Input register and Holding \nRegisters which have 16 bits size. Registers provided by this device can be found in 6.2 Modbus \nregisters. \n \nModbus RTU Communication Module supports following functions (function codes): \n \n• \nRead Holding Registers (0x03) \n• \nRead Input Registers (0x04) \n• \nWrite Single Register (0x06) \n• \nWrite Multiple Registers (0x10) \n \nTo make communication with Modbus RTU Communication Module simple, measurement data from \nthe meter are stored by the module in both types of registers - holding registers and input registers."
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 43,
+        "page": 15,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "register",
+          "coils_discrete"
+        ],
+        "content": "30118 or 40118 \nInput or Holding \n117 \n8 char ASCII \nTariff 3 - Volume (Unit code)  \n30122 or 40122 \nInput or Holding \n121 \nUInt16 \nTariff 3 - Volume (Float)  \n30123 or 40123 \nInput or Holding \n122 \nIEEE 754 \nTariff 4 - Energy \n30125 or 40125 \nInput or Holding \n124 \nInt32 \nTariff 4 - Energy (Coefficient)  \n30127 or 40127 \nInput or Holding \n126 \nUInt16 \nTariff 4 - Energy (Unit)  \n30128 or 40128 \nInput or Holding \n127 \n8 char ASCII \nTariff 4 - Energy (Unit code)  \n30132 or 40132 \nInput or Holding \n131 \nUInt16 \nTariff 4 - Energy (Float)  \n30133 or 40133 \nInput or Holding \n132 \nIEEE 754 \nTariff 4 - Volume \n30135 or 40135 \nInput or Holding \n134 \nInt32 \nTariff 4 - Volume (Coefficient)  \n30137 or 40137 \nInput or Holding \n136 \nUInt16 \nTariff 4 - Volume (Unit)  \n30138 or 40138 \nInput or Holding \n137 \n8 char ASCII \nTariff 4 - Volume (Unit code)  \n30142 or 40142 \nInput or Holding \n141 \nUInt16 \nTariff 4 - Volume (Float)  \n30143 or 40143 \nInput or Holding \n142 \nIEEE 754 \nPulse input 1 - Volume"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 47,
+        "page": 16,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "register",
+          "coils_discrete"
+        ],
+        "content": "UInt16 \nPeriodical Log 0 - Energy (Unit)  \n30178 or 40178 \nInput or Holding \n177 \n8 char ASCII \nPeriodical Log 0 - Energy (Unit \ncode)  \n30182 or 40182 \nInput or Holding \n181 \nUInt16 \nPeriodical Log 0 - Energy (Float)  \n30183 or 40183 \nInput or Holding \n182 \nIEEE 754 \nPeriodical Log 0 - Volume \n30185 or 40185 \nInput or Holding \n184 \nInt32 \nPeriodical Log 0 - Volume \n(Coefficient) \n30187 or 40187 \nInput or Holding \n186 \nUInt16 \nPeriodical Log 0 - Volume (Unit)  \n30188 or 40188 \nInput or Holding \n187 \n8 char ASCII \nPeriodical Log 0 - Volume (Unit \ncode)  \n30192 or 40192 \nInput or Holding \n191 \nUInt16 \nPeriodical Log 0 - Volume (Float)  \n30193 or 40193 \nInput or Holding \n192 \nIEEE 754 \nModule serial no. \n32001 \nInput \n2000 \nUInt32 \nModule product no. \n32003 \nInput \n2002 \nUnit32 \nSoftware version \n32005 \nInput \n2004 \nUnit16 \n \n      \n1  The integer value for the same group of registers (e.g. energy) must be multiplied by the"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 59,
+        "page": 19,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code"
+        ],
+        "content": "1007). This feature allows you to read only a single block of data (data block 0) from the periodic log \nmemory into the counter. The permitted values for the Periodic Log 0 enable register are listed in the \ntable below."
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 30,
+        "page": 11,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "For more information about Modbus standard please refer to following documents - Modicon Modbus \nProtocol Reference Guide and MODBUS over Serial Line - Specification and Implementation Guide. \n6.1 MODULE ADDRESSING  \nA single Modbus RTU network on an EIA-485 channel (called a Modbus bus) can contain a single \nmaster and up to 247 slaves. The master - usually a PC - has full control of communication and can \nmake read or write requests. The slave device can only respond to requests, and cannot actively poll \nother devices on the network. Each slave device on the network must have its own unique address, \nthe slave ID. The slave ID can be assigned in the range 1 to 247. Address 0 is reserved for broadcast \nmessages. The master node has no specific address assigned. \n  \n \n  \nNOTE:  \nPlease take care not to setup two slave devices with the same Slave ID, it will lead to \nframe collisions on Modbus bus."
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 32,
+        "page": 12,
+        "score": 3,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "MODBUS RTU  \n \n   \n13 \n12/2023 \n \n6.1.1 \nAUTOMATIC SLAVE ID \nAutomatic Slave ID functionality is supported by Modbus RTU Communication Module. This option allows \nthe module to set Modbus Slave ID basing on secondary address set in connected meter. \n \n  \nNOTE:  \nSecondary address is default set to meter serial number which is presented on meter \nenclosure.  \n It is possible to read current setting of secondary address in meter by pressing button located on \nmeter enclosure in right sequence. From main loop of information window we must go to Info loop by \npressing the button two times for a long time (more than 3 seconds). Enter to Info loop will be \nsignalized by number 3 at bottom line of the display. Next, pressing the button for a short time (up to \n3 seconds), we enter to information screen called shortly SEC_Adr. After waiting 2 seconds, on the \ndisplay will be presented current value of secondary address. Display state with secondary address is \npresented below:"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 38,
+        "page": 14,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_name",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "Input or Holding \n20 \nInt32 \nPower (Coefficient)  \n30023 or 40023 \nInput or Holding \n22 \nUInt16 \nPower (Unit)  \n30024 or 40024 \nInput or Holding \n23 \n8 char ASCII \nPower (Unit code)  \n30028 or 40028 \nInput or Holding \n27 \nUInt16 \nPower (Float)  \n30029 or 40029 \nInput or Holding \n28 \nIEEE 754 \nFlow \n30031 or 40031 \nInput or Holding \n30 \nInt32 \nFlow (Coefficient)  \n30033 or 40033 \nInput or Holding \n32 \nUInt16 \nFlow (Unit)  \n30034 or 40034 \nInput or Holding \n33 \n8 char ASCII \nFlow (Unit code)  \n30038 or 40038 \nInput or Holding \n37 \nUInt16 \nFlow (Float)  \n30039 or 40039 \nInput or Holding \n38 \nIEEE 754 \nStart temperature \n30041 or 40041 \nInput or Holding \n40 \nInt16 \nFlow temperature (Unit)  \n30042 or 40042 \nInput or Holding \n41 \n8 char ASCII \nStart temperature \n(Unit code)  \n30046 or 40046 \nInput or Holding \n45 \nUInt16 \nFlow temperature (Float)  \n30047 or 40047 \nInput or Holding \n46 \nIEEE 754 \nReturn temperature \n30049 or 40049 \nInput or Holding \n48 \nInt16 \nReturn temperature (Unit)"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 6,
+        "page": 1,
+        "score": 3,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "6.5 \nPERIODIC LOG FUNCTIONALITY 0 ....................................................................................... 20 \n6.6 \nERROR CODES .................................................................................................................... 21 \n6.7 \nMODBUS CONFIGURATOR SOFTWARE ................................................................................. 22 \n7 \nRESTORE TO DEFAULT SETTINGS ........................................................................................ 22 \n8 \nTROUBLESHOOTING GUIDE ................................................................................................ 22 \n9 \nDECLARATION OF CONFORMITY .......................................................................................... 24"
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 42,
+        "page": 15,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "Tariff 2 - Volume (Unit code)  \n30102 or 40102 \nInput or Holding \n101 \nUInt16 \nTariff 2 - Volume (Float)  \n30103 or 40103 \nInput or Holding \n102 \nIEEE 754 \nTariff 3 - Energy \n30105 or 40105 \nInput or Holding \n104 \nInt32 \nTariff 3 - Energy (Coefficient)  \n30107 or 40107 \nInput or Holding \n106 \nUInt16 \nTariff 3 - Energy (Unit)  \n30108 or 40108 \nInput or Holding \n107 \n8 char ASCII \nTariff 3 - Energy (Unit code)  \n30112 or 40112 \nInput or Holding \n111 \nUInt16 \nTariff 3 - Energy (Float)  \n30113 or 40113 \nInput or Holding \n112 \nIEEE 754 \nTariff 3 - Volume \n30115 or 40115 \nInput or Holding \n114 \nInt32 \nTariff 3 - Volume (Coefficient)  \n30117 or 40117 \nInput or Holding \n116 \nUInt16 \nTariff 3 - Volume (Unit)  \n30118 or 40118 \nInput or Holding \n117 \n8 char ASCII \nTariff 3 - Volume (Unit code)  \n30122 or 40122 \nInput or Holding \n121 \nUInt16 \nTariff 3 - Volume (Float)  \n30123 or 40123 \nInput or Holding \n122 \nIEEE 754 \nTariff 4 - Energy \n30125 or 40125 \nInput or Holding \n124 \nInt32"
+      }
+    ]
+  }
+]

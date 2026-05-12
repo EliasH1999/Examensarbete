@@ -1,0 +1,15 @@
+subnetwork.properties.physicalStandard=1
+subnetwork.properties.baudRate=19200|9600
+subnetwork.properties.parity=2
+subnetwork.properties.stopBits=0
+subnetwork.properties.dataBits=1
+subnetwork.nodes[0].properties.nodeAddress=126|1-247
+subnetwork.nodes[0].properties.name=Alarm
+subnetwork.nodes[0].properties.modbusAddressingMode=2
+subnetwork.nodes[0].transactions[0].properties.name=ALARM_ACKNOWLEDGE
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=316
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=2
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2

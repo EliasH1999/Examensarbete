@@ -1,0 +1,373 @@
+timestamp,method,manual,pass,input_tokens,output_tokens,total_tokens,model
+2026-04-29T09:19:13,naive_user,s5gbm_modbus-installation-kep-x.pdf,main,13649,237,13886,gpt-5.1-2025-11-13
+2026-04-29T09:19:22,configurator_user,s5gbm_modbus-installation-kep-x.pdf,main,13919,92,14011,gpt-5.1-2025-11-13
+2026-04-29T09:19:34,engineered_prompt,s5gbm_modbus-installation-kep-x.pdf,main,18122,253,18375,gpt-5.1-2025-11-13
+2026-04-29T09:19:49,naive_rag,s5gbm_modbus-installation-kep-x.pdf,main,14468,253,14721,gpt-5.1-2025-11-13
+2026-04-29T09:19:59,modular_rag,s5gbm_modbus-installation-kep-x.pdf,comm,5509,53,5562,gpt-5.1-2025-11-13
+2026-04-29T09:20:02,modular_rag,s5gbm_modbus-installation-kep-x.pdf,transaction,11657,209,11866,gpt-5.1-2025-11-13
+2026-04-29T09:20:12,naive_user,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,main,15098,198,15296,gpt-5.1-2025-11-13
+2026-04-29T09:20:21,configurator_user,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,main,15368,93,15461,gpt-5.1-2025-11-13
+2026-04-29T09:20:30,engineered_prompt,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,main,19571,259,19830,gpt-5.1-2025-11-13
+2026-04-29T09:20:41,naive_rag,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,main,14194,259,14453,gpt-5.1-2025-11-13
+2026-04-29T09:20:49,modular_rag,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,comm,5552,52,5604,gpt-5.1-2025-11-13
+2026-04-29T09:20:53,modular_rag,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,transaction,11145,216,11361,gpt-5.1-2025-11-13
+2026-04-29T09:21:02,naive_user,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,main,2418,103,2521,gpt-5.1-2025-11-13
+2026-04-29T09:21:11,configurator_user,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,main,2688,93,2781,gpt-5.1-2025-11-13
+2026-04-29T09:21:19,engineered_prompt,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,main,6891,257,7148,gpt-5.1-2025-11-13
+2026-04-29T09:21:28,naive_rag,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,main,13896,257,14153,gpt-5.1-2025-11-13
+2026-04-29T09:21:37,modular_rag,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,comm,4688,52,4740,gpt-5.1-2025-11-13
+2026-04-29T09:21:40,modular_rag,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,transaction,9151,211,9362,gpt-5.1-2025-11-13
+2026-04-29T09:21:50,naive_user,Modbus-RTU-Manual.2022.pdf,main,7869,173,8042,gpt-5.1-2025-11-13
+2026-04-29T09:21:57,configurator_user,Modbus-RTU-Manual.2022.pdf,main,8139,87,8226,gpt-5.1-2025-11-13
+2026-04-29T09:22:05,engineered_prompt,Modbus-RTU-Manual.2022.pdf,main,12342,249,12591,gpt-5.1-2025-11-13
+2026-04-29T09:22:15,naive_rag,Modbus-RTU-Manual.2022.pdf,main,14931,250,15181,gpt-5.1-2025-11-13
+2026-04-29T09:22:26,modular_rag,Modbus-RTU-Manual.2022.pdf,comm,5026,51,5077,gpt-5.1-2025-11-13
+2026-04-29T09:22:29,modular_rag,Modbus-RTU-Manual.2022.pdf,transaction,11287,206,11493,gpt-5.1-2025-11-13
+2026-04-29T09:22:38,naive_user,PM5100.pdf,main,37746,139,37885,gpt-5.1-2025-11-13
+2026-04-29T09:22:47,configurator_user,PM5100.pdf,main,38016,90,38106,gpt-5.1-2025-11-13
+2026-04-29T09:22:56,engineered_prompt,PM5100.pdf,main,42219,259,42478,gpt-5.1-2025-11-13
+2026-04-29T09:23:05,naive_rag,PM5100.pdf,main,12113,260,12373,gpt-5.1-2025-11-13
+2026-04-29T09:23:15,modular_rag,PM5100.pdf,comm,4116,52,4168,gpt-5.1-2025-11-13
+2026-04-29T09:23:18,modular_rag,PM5100.pdf,transaction,9550,216,9766,gpt-5.1-2025-11-13
+2026-04-29T10:01:10,modular_rag,1815243_C5 ....pdf,comm,5292,54,5346,gpt-5.1-2025-11-13
+2026-04-29T10:01:16,modular_rag,1815243_C5 ....pdf,transaction,14015,211,14226,gpt-5.1-2025-11-13
+2026-04-29T10:01:25,modular_rag,1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf,comm,6331,53,6384,gpt-5.1-2025-11-13
+2026-04-29T10:01:29,modular_rag,1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf,transaction,11411,208,11619,gpt-5.1-2025-11-13
+2026-04-29T10:01:39,modular_rag,20231204_Userguide_ModbusRTU_EN.pdf ...pdf,comm,6741,51,6792,gpt-5.1-2025-11-13
+2026-04-29T10:01:42,modular_rag,20231204_Userguide_ModbusRTU_EN.pdf ...pdf,transaction,12239,216,12455,gpt-5.1-2025-11-13
+2026-04-29T10:01:51,modular_rag,3S_RH_AT_PS_User_Manual ...pdf,comm,5433,51,5484,gpt-5.1-2025-11-13
+2026-04-29T10:01:55,modular_rag,3S_RH_AT_PS_User_Manual ...pdf,transaction,8634,219,8853,gpt-5.1-2025-11-13
+2026-04-29T10:02:04,modular_rag,4104_mcm_100.pdf ...pdf,comm,5719,52,5771,gpt-5.1-2025-11-13
+2026-04-29T10:02:09,modular_rag,4104_mcm_100.pdf ...pdf,transaction,14540,208,14748,gpt-5.1-2025-11-13
+2026-04-29T10:02:18,modular_rag,7500f_man_3.pdf,comm,5357,51,5408,gpt-5.1-2025-11-13
+2026-04-29T10:02:22,modular_rag,7500f_man_3.pdf,transaction,10828,209,11037,gpt-5.1-2025-11-13
+2026-04-29T10:02:30,modular_rag,9202_mcm_100.pdf,comm,5593,53,5646,gpt-5.1-2025-11-13
+2026-04-29T10:02:35,modular_rag,9202_mcm_100.pdf,transaction,13471,207,13678,gpt-5.1-2025-11-13
+2026-04-29T10:02:47,modular_rag,9203_mcm_101.pdf,comm,5491,52,5543,gpt-5.1-2025-11-13
+2026-04-29T10:02:51,modular_rag,9203_mcm_101.pdf,transaction,10996,210,11206,gpt-5.1-2025-11-13
+2026-04-29T10:03:02,modular_rag,ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf,comm,4751,52,4803,gpt-5.1-2025-11-13
+2026-04-29T10:03:07,modular_rag,ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf,transaction,8705,211,8916,gpt-5.1-2025-11-13
+2026-04-29T10:03:17,modular_rag,APM-MAX-Modbus-Communications.pdf,comm,4713,53,4766,gpt-5.1-2025-11-13
+2026-04-29T10:03:22,modular_rag,APM-MAX-Modbus-Communications.pdf,transaction,7950,210,8160,gpt-5.1-2025-11-13
+2026-04-29T10:03:34,modular_rag,Application_Note_Optidrive_E3_Modbus_register_map.pdf,comm,6069,51,6120,gpt-5.1-2025-11-13
+2026-04-29T10:03:38,modular_rag,Application_Note_Optidrive_E3_Modbus_register_map.pdf,transaction,12786,211,12997,gpt-5.1-2025-11-13
+2026-04-29T10:03:48,modular_rag,a_emcion_homecontroller_modbus_lookup_table_en ....pdf,comm,3745,52,3797,gpt-5.1-2025-11-13
+2026-04-29T10:03:52,modular_rag,a_emcion_homecontroller_modbus_lookup_table_en ....pdf,transaction,8361,213,8574,gpt-5.1-2025-11-13
+2026-04-29T10:04:01,modular_rag,a_si370010--_en.pdf     .pdf,comm,6549,51,6600,gpt-5.1-2025-11-13
+2026-04-29T10:04:06,modular_rag,a_si370010--_en.pdf     .pdf,transaction,15359,209,15568,gpt-5.1-2025-11-13
+2026-04-29T10:04:15,modular_rag,CMS Manual_web ...pdf,comm,4653,52,4705,gpt-5.1-2025-11-13
+2026-04-29T10:04:18,modular_rag,CMS Manual_web ...pdf,transaction,10870,213,11083,gpt-5.1-2025-11-13
+2026-04-29T10:04:28,modular_rag,Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf,comm,6925,53,6978,gpt-5.1-2025-11-13
+2026-04-29T10:04:32,modular_rag,Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf,transaction,14848,212,15060,gpt-5.1-2025-11-13
+2026-04-29T10:04:41,modular_rag,EM330_EM340_ET330_ET340_CP.pdf,comm,6908,52,6960,gpt-5.1-2025-11-13
+2026-04-29T10:04:44,modular_rag,EM330_EM340_ET330_ET340_CP.pdf,transaction,12165,207,12372,gpt-5.1-2025-11-13
+2026-04-29T10:04:53,modular_rag,EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf,comm,4231,51,4282,gpt-5.1-2025-11-13
+2026-04-29T10:04:59,modular_rag,EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf,transaction,11778,209,11987,gpt-5.1-2025-11-13
+2026-04-29T10:05:08,modular_rag,ifu-9033781en-us-en-us ....pdf,comm,5945,52,5997,gpt-5.1-2025-11-13
+2026-04-29T10:05:11,modular_rag,ifu-9033781en-us-en-us ....pdf,transaction,12263,212,12475,gpt-5.1-2025-11-13
+2026-04-29T10:05:20,modular_rag,IG_EF-N1000-T ...pdf,comm,6254,54,6308,gpt-5.1-2025-11-13
+2026-04-29T10:05:24,modular_rag,IG_EF-N1000-T ...pdf,transaction,9112,209,9321,gpt-5.1-2025-11-13
+2026-04-29T10:05:33,modular_rag,IM_C250-MOD_3 ....pdf,comm,4902,53,4955,gpt-5.1-2025-11-13
+2026-04-29T10:05:36,modular_rag,IM_C250-MOD_3 ....pdf,transaction,12051,211,12262,gpt-5.1-2025-11-13
+2026-04-29T10:05:47,modular_rag,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,comm,5552,52,5604,gpt-5.1-2025-11-13
+2026-04-29T10:05:50,modular_rag,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,transaction,11147,216,11363,gpt-5.1-2025-11-13
+2026-04-29T10:05:59,modular_rag,IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf,comm,6423,51,6474,gpt-5.1-2025-11-13
+2026-04-29T10:06:03,modular_rag,IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf,transaction,11762,208,11970,gpt-5.1-2025-11-13
+2026-04-29T10:06:13,modular_rag,janitza-mal-umg96rme-en.pdf,comm,6648,52,6700,gpt-5.1-2025-11-13
+2026-04-29T10:06:16,modular_rag,janitza-mal-umg96rme-en.pdf,transaction,12471,217,12688,gpt-5.1-2025-11-13
+2026-04-29T10:06:24,modular_rag,LV_Podrecznik_PAC2200_EN_2017.pdf,comm,5222,51,5273,gpt-5.1-2025-11-13
+2026-04-29T10:06:28,modular_rag,LV_Podrecznik_PAC2200_EN_2017.pdf,transaction,11765,213,11978,gpt-5.1-2025-11-13
+2026-04-29T10:06:37,modular_rag,magx1-modbus-manual-eng ....pdf,comm,4322,52,4374,gpt-5.1-2025-11-13
+2026-04-29T10:06:41,modular_rag,magx1-modbus-manual-eng ....pdf,transaction,11255,209,11464,gpt-5.1-2025-11-13
+2026-04-29T10:06:51,modular_rag,magx2-modbus-manual-eng.pdf,comm,6479,52,6531,gpt-5.1-2025-11-13
+2026-04-29T10:06:55,modular_rag,magx2-modbus-manual-eng.pdf,transaction,11836,208,12044,gpt-5.1-2025-11-13
+2026-04-29T10:07:04,modular_rag,MAMODBUS-SU-EU-EN ....pdf,comm,4917,51,4968,gpt-5.1-2025-11-13
+2026-04-29T10:07:08,modular_rag,MAMODBUS-SU-EU-EN ....pdf,transaction,12402,208,12610,gpt-5.1-2025-11-13
+2026-04-29T10:07:17,modular_rag,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,comm,4687,52,4739,gpt-5.1-2025-11-13
+2026-04-29T10:07:22,modular_rag,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,transaction,9153,210,9363,gpt-5.1-2025-11-13
+2026-04-29T10:07:33,modular_rag,manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf,comm,6151,53,6204,gpt-5.1-2025-11-13
+2026-04-29T10:07:38,modular_rag,manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf,transaction,11125,212,11337,gpt-5.1-2025-11-13
+2026-04-29T10:07:48,modular_rag,MAN_24_4956731.pdf,comm,4056,51,4107,gpt-5.1-2025-11-13
+2026-04-29T10:07:56,modular_rag,MAN_24_4956731.pdf,transaction,8959,211,9170,gpt-5.1-2025-11-13
+2026-04-29T10:08:05,modular_rag,mg10p222.pdf,comm,6362,51,6413,gpt-5.1-2025-11-13
+2026-04-29T10:08:11,modular_rag,mg10p222.pdf,transaction,11694,213,11907,gpt-5.1-2025-11-13
+2026-04-29T10:08:20,modular_rag,mi00485-5-en ...pdf,comm,4443,51,4494,gpt-5.1-2025-11-13
+2026-04-29T10:08:23,modular_rag,mi00485-5-en ...pdf,transaction,10469,211,10680,gpt-5.1-2025-11-13
+2026-04-29T10:08:33,modular_rag,MN040018_EN.pdf,comm,6741,52,6793,gpt-5.1-2025-11-13
+2026-04-29T10:08:37,modular_rag,MN040018_EN.pdf,transaction,13085,208,13293,gpt-5.1-2025-11-13
+2026-04-29T10:08:46,modular_rag,Modbus-RTU-ELR-3BN-IM190.5-U-M-v1.2.pdf     .pdf,comm,7655,54,7709,gpt-5.1-2025-11-13
+2026-04-29T10:08:49,modular_rag,Modbus-RTU-ELR-3BN-IM190.5-U-M-v1.2.pdf     .pdf,transaction,10702,212,10914,gpt-5.1-2025-11-13
+2026-04-29T10:08:59,modular_rag,Modbus-RTU-Manual.2022.pdf,comm,5026,51,5077,gpt-5.1-2025-11-13
+2026-04-29T10:09:03,modular_rag,Modbus-RTU-Manual.2022.pdf,transaction,11307,206,11513,gpt-5.1-2025-11-13
+2026-04-29T10:09:13,modular_rag,ModbusManual_920-0072E ....pdf,comm,5228,54,5282,gpt-5.1-2025-11-13
+2026-04-29T10:09:17,modular_rag,ModbusManual_920-0072E ....pdf,transaction,8926,212,9138,gpt-5.1-2025-11-13
+2026-04-29T10:09:27,modular_rag,modbusprotokollkostalsmartenergymeter ....pdf,comm,4974,54,5028,gpt-5.1-2025-11-13
+2026-04-29T10:09:30,modular_rag,modbusprotokollkostalsmartenergymeter ....pdf,transaction,11630,212,11842,gpt-5.1-2025-11-13
+2026-04-29T10:09:39,modular_rag,Modbus_RTU_register_map_for_TRIO-20.0(27.6)-TL-OUTD_Revision_1.6 .....pdf,comm,4247,51,4298,gpt-5.1-2025-11-13
+2026-04-29T10:09:43,modular_rag,Modbus_RTU_register_map_for_TRIO-20.0(27.6)-TL-OUTD_Revision_1.6 .....pdf,transaction,13092,224,13316,gpt-5.1-2025-11-13
+2026-04-29T10:09:55,modular_rag,PM5100.pdf,comm,4117,52,4169,gpt-5.1-2025-11-13
+2026-04-29T10:09:58,modular_rag,PM5100.pdf,transaction,9550,216,9766,gpt-5.1-2025-11-13
+2026-04-29T10:10:08,modular_rag,PM5300 User Manual.pdf,comm,4694,52,4746,gpt-5.1-2025-11-13
+2026-04-29T10:10:13,modular_rag,PM5300 User Manual.pdf,transaction,10559,211,10770,gpt-5.1-2025-11-13
+2026-04-29T10:10:23,modular_rag,pmt-hps-51-52-25-66rt ....pdf,comm,5824,51,5875,gpt-5.1-2025-11-13
+2026-04-29T10:10:26,modular_rag,pmt-hps-51-52-25-66rt ....pdf,transaction,13317,210,13527,gpt-5.1-2025-11-13
+2026-04-29T10:10:37,modular_rag,rtvs1-35l22-modbus-registerlista ....pdf,comm,4939,52,4991,gpt-5.1-2025-11-13
+2026-04-29T10:10:44,modular_rag,rtvs1-35l22-modbus-registerlista ....pdf,transaction,8433,209,8642,gpt-5.1-2025-11-13
+2026-04-29T10:10:53,modular_rag,S111_Modbus-register-table_EN_V2025-2.pdf ...pdf,comm,4619,51,4670,gpt-5.1-2025-11-13
+2026-04-29T10:10:57,modular_rag,S111_Modbus-register-table_EN_V2025-2.pdf ...pdf,transaction,10885,212,11097,gpt-5.1-2025-11-13
+2026-04-29T10:11:06,modular_rag,s5gbm_modbus-installation-kep-x.pdf,comm,5511,52,5563,gpt-5.1-2025-11-13
+2026-04-29T10:11:10,modular_rag,s5gbm_modbus-installation-kep-x.pdf,transaction,11657,209,11866,gpt-5.1-2025-11-13
+2026-04-29T10:11:20,modular_rag,S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf,comm,5334,52,5386,gpt-5.1-2025-11-13
+2026-04-29T10:11:26,modular_rag,S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf,transaction,10411,209,10620,gpt-5.1-2025-11-13
+2026-04-29T10:11:36,modular_rag,Schneider-Electric_Acti9-iEM3000-Energy-Meters_A9MEM3355-User-Manual.pdf,comm,5478,52,5530,gpt-5.1-2025-11-13
+2026-04-29T10:11:39,modular_rag,Schneider-Electric_Acti9-iEM3000-Energy-Meters_A9MEM3355-User-Manual.pdf,transaction,12367,219,12586,gpt-5.1-2025-11-13
+2026-04-29T10:11:49,modular_rag,SDM120-MODBUS_Protocol.pdf,comm,4615,53,4668,gpt-5.1-2025-11-13
+2026-04-29T10:11:52,modular_rag,SDM120-MODBUS_Protocol.pdf,transaction,10891,210,11101,gpt-5.1-2025-11-13
+2026-04-29T10:12:02,modular_rag,sdm230-modbus.pdf,comm,6497,51,6548,gpt-5.1-2025-11-13
+2026-04-29T10:12:05,modular_rag,sdm230-modbus.pdf,transaction,10829,212,11041,gpt-5.1-2025-11-13
+2026-04-29T10:12:16,modular_rag,SDM630_MODBUS_Protocol.pdf,comm,5405,51,5456,gpt-5.1-2025-11-13
+2026-04-29T10:12:21,modular_rag,SDM630_MODBUS_Protocol.pdf,transaction,11092,212,11304,gpt-5.1-2025-11-13
+2026-04-29T10:12:32,modular_rag,silverc-modbus-other-en.pdf,comm,6079,53,6132,gpt-5.1-2025-11-13
+2026-04-29T10:12:37,modular_rag,silverc-modbus-other-en.pdf,transaction,13359,209,13568,gpt-5.1-2025-11-13
+2026-04-29T10:12:46,modular_rag,Sonic-Driver-MODBUS-WALL-UFM-RTU-Protocol-010724 ....pdf,comm,4615,51,4666,gpt-5.1-2025-11-13
+2026-04-29T10:12:50,modular_rag,Sonic-Driver-MODBUS-WALL-UFM-RTU-Protocol-010724 ....pdf,transaction,9574,214,9788,gpt-5.1-2025-11-13
+2026-04-29T10:40:05,modular_rag,1815243_C5 ....pdf,comm,5294,53,5347,gpt-5.1-2025-11-13
+2026-04-29T10:40:10,modular_rag,1815243_C5 ....pdf,transaction,14015,209,14224,gpt-5.1-2025-11-13
+2026-04-29T10:40:19,modular_rag,1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf,comm,6329,54,6383,gpt-5.1-2025-11-13
+2026-04-29T10:40:23,modular_rag,1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf,transaction,11409,208,11617,gpt-5.1-2025-11-13
+2026-04-29T10:40:32,modular_rag,20231204_Userguide_ModbusRTU_EN.pdf ...pdf,comm,6742,51,6793,gpt-5.1-2025-11-13
+2026-04-29T10:40:36,modular_rag,20231204_Userguide_ModbusRTU_EN.pdf ...pdf,transaction,12239,216,12455,gpt-5.1-2025-11-13
+2026-04-29T10:40:45,modular_rag,3S_RH_AT_PS_User_Manual ...pdf,comm,5432,51,5483,gpt-5.1-2025-11-13
+2026-04-29T10:40:50,modular_rag,3S_RH_AT_PS_User_Manual ...pdf,transaction,8632,217,8849,gpt-5.1-2025-11-13
+2026-04-29T10:41:01,modular_rag,4104_mcm_100.pdf ...pdf,comm,5721,52,5773,gpt-5.1-2025-11-13
+2026-04-29T10:41:06,modular_rag,4104_mcm_100.pdf ...pdf,transaction,14538,208,14746,gpt-5.1-2025-11-13
+2026-04-29T10:41:15,modular_rag,7500f_man_3.pdf,comm,5355,51,5406,gpt-5.1-2025-11-13
+2026-04-29T10:41:19,modular_rag,7500f_man_3.pdf,transaction,10827,208,11035,gpt-5.1-2025-11-13
+2026-04-29T10:41:28,modular_rag,9202_mcm_100.pdf,comm,5592,52,5644,gpt-5.1-2025-11-13
+2026-04-29T10:41:34,modular_rag,9202_mcm_100.pdf,transaction,13472,207,13679,gpt-5.1-2025-11-13
+2026-04-29T10:41:43,modular_rag,9203_mcm_101.pdf,comm,5489,52,5541,gpt-5.1-2025-11-13
+2026-04-29T10:41:46,modular_rag,9203_mcm_101.pdf,transaction,10998,210,11208,gpt-5.1-2025-11-13
+2026-04-29T10:41:55,modular_rag,ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf,comm,4751,51,4802,gpt-5.1-2025-11-13
+2026-04-29T10:41:58,modular_rag,ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf,transaction,8705,211,8916,gpt-5.1-2025-11-13
+2026-04-29T10:42:07,modular_rag,APM-MAX-Modbus-Communications.pdf,comm,4714,53,4767,gpt-5.1-2025-11-13
+2026-04-29T10:42:10,modular_rag,APM-MAX-Modbus-Communications.pdf,transaction,7952,210,8162,gpt-5.1-2025-11-13
+2026-04-29T10:42:20,modular_rag,Application_Note_Optidrive_E3_Modbus_register_map.pdf,comm,6068,51,6119,gpt-5.1-2025-11-13
+2026-04-29T10:42:23,modular_rag,Application_Note_Optidrive_E3_Modbus_register_map.pdf,transaction,12788,211,12999,gpt-5.1-2025-11-13
+2026-04-29T10:42:32,modular_rag,a_emcion_homecontroller_modbus_lookup_table_en ....pdf,comm,3746,52,3798,gpt-5.1-2025-11-13
+2026-04-29T10:42:36,modular_rag,a_emcion_homecontroller_modbus_lookup_table_en ....pdf,transaction,8361,213,8574,gpt-5.1-2025-11-13
+2026-04-29T10:42:46,modular_rag,a_si370010--_en.pdf     .pdf,comm,6551,51,6602,gpt-5.1-2025-11-13
+2026-04-29T10:42:49,modular_rag,a_si370010--_en.pdf     .pdf,transaction,15358,209,15567,gpt-5.1-2025-11-13
+2026-04-29T10:42:59,modular_rag,CMS Manual_web ...pdf,comm,4653,52,4705,gpt-5.1-2025-11-13
+2026-04-29T10:43:02,modular_rag,CMS Manual_web ...pdf,transaction,10869,215,11084,gpt-5.1-2025-11-13
+2026-04-29T10:43:12,modular_rag,Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf,comm,6925,53,6978,gpt-5.1-2025-11-13
+2026-04-29T10:43:16,modular_rag,Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf,transaction,14847,212,15059,gpt-5.1-2025-11-13
+2026-04-29T10:43:25,modular_rag,EM330_EM340_ET330_ET340_CP.pdf,comm,6909,52,6961,gpt-5.1-2025-11-13
+2026-04-29T10:43:28,modular_rag,EM330_EM340_ET330_ET340_CP.pdf,transaction,12166,207,12373,gpt-5.1-2025-11-13
+2026-04-29T10:43:37,modular_rag,EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf,comm,4767,51,4818,gpt-5.1-2025-11-13
+2026-04-29T10:43:40,modular_rag,EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf,transaction,11777,209,11986,gpt-5.1-2025-11-13
+2026-04-29T10:43:50,modular_rag,ifu-9033781en-us-en-us ....pdf,comm,5946,52,5998,gpt-5.1-2025-11-13
+2026-04-29T10:43:54,modular_rag,ifu-9033781en-us-en-us ....pdf,transaction,12267,215,12482,gpt-5.1-2025-11-13
+2026-04-29T10:44:03,modular_rag,IG_EF-N1000-T ...pdf,comm,6253,54,6307,gpt-5.1-2025-11-13
+2026-04-29T10:44:06,modular_rag,IG_EF-N1000-T ...pdf,transaction,9110,209,9319,gpt-5.1-2025-11-13
+2026-04-29T10:44:15,modular_rag,IM_C250-MOD_3 ....pdf,comm,4902,53,4955,gpt-5.1-2025-11-13
+2026-04-29T10:44:18,modular_rag,IM_C250-MOD_3 ....pdf,transaction,12051,211,12262,gpt-5.1-2025-11-13
+2026-04-29T10:44:29,modular_rag,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,comm,5554,52,5606,gpt-5.1-2025-11-13
+2026-04-29T10:44:33,modular_rag,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,transaction,11144,219,11363,gpt-5.1-2025-11-13
+2026-04-29T10:44:43,modular_rag,IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf,comm,6424,51,6475,gpt-5.1-2025-11-13
+2026-04-29T10:44:46,modular_rag,IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf,transaction,11764,208,11972,gpt-5.1-2025-11-13
+2026-04-29T10:44:56,modular_rag,janitza-mal-umg96rme-en.pdf,comm,6650,52,6702,gpt-5.1-2025-11-13
+2026-04-29T10:44:59,modular_rag,janitza-mal-umg96rme-en.pdf,transaction,12475,217,12692,gpt-5.1-2025-11-13
+2026-04-29T10:45:09,modular_rag,LV_Podrecznik_PAC2200_EN_2017.pdf,comm,5221,51,5272,gpt-5.1-2025-11-13
+2026-04-29T10:45:12,modular_rag,LV_Podrecznik_PAC2200_EN_2017.pdf,transaction,11765,213,11978,gpt-5.1-2025-11-13
+2026-04-29T10:45:21,modular_rag,magx1-modbus-manual-eng ....pdf,comm,4322,52,4374,gpt-5.1-2025-11-13
+2026-04-29T10:45:24,modular_rag,magx1-modbus-manual-eng ....pdf,transaction,11256,209,11465,gpt-5.1-2025-11-13
+2026-04-29T10:45:35,modular_rag,magx2-modbus-manual-eng.pdf,comm,6477,52,6529,gpt-5.1-2025-11-13
+2026-04-29T10:45:38,modular_rag,magx2-modbus-manual-eng.pdf,transaction,11834,208,12042,gpt-5.1-2025-11-13
+2026-04-29T10:45:48,modular_rag,MAMODBUS-SU-EU-EN ....pdf,comm,4915,51,4966,gpt-5.1-2025-11-13
+2026-04-29T10:45:51,modular_rag,MAMODBUS-SU-EU-EN ....pdf,transaction,12406,214,12620,gpt-5.1-2025-11-13
+2026-04-29T10:46:00,modular_rag,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,comm,4686,52,4738,gpt-5.1-2025-11-13
+2026-04-29T10:46:04,modular_rag,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,transaction,9151,214,9365,gpt-5.1-2025-11-13
+2026-04-29T10:46:13,modular_rag,manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf,comm,6151,53,6204,gpt-5.1-2025-11-13
+2026-04-29T10:46:16,modular_rag,manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf,transaction,11127,212,11339,gpt-5.1-2025-11-13
+2026-04-29T10:46:25,modular_rag,MAN_24_4956731.pdf,comm,4056,51,4107,gpt-5.1-2025-11-13
+2026-04-29T10:46:28,modular_rag,MAN_24_4956731.pdf,transaction,8958,211,9169,gpt-5.1-2025-11-13
+2026-04-29T10:46:37,modular_rag,mg10p222.pdf,comm,6362,51,6413,gpt-5.1-2025-11-13
+2026-04-29T10:46:41,modular_rag,mg10p222.pdf,transaction,11694,213,11907,gpt-5.1-2025-11-13
+2026-04-29T10:46:49,modular_rag,mi00485-5-en ...pdf,comm,4444,51,4495,gpt-5.1-2025-11-13
+2026-04-29T10:46:53,modular_rag,mi00485-5-en ...pdf,transaction,10468,211,10679,gpt-5.1-2025-11-13
+2026-04-29T10:48:03,modular_rag,MN040018_EN.pdf,comm,6740,52,6792,gpt-5.1-2025-11-13
+2026-04-29T10:48:06,modular_rag,MN040018_EN.pdf,transaction,13084,208,13292,gpt-5.1-2025-11-13
+2026-04-29T10:48:15,modular_rag,Modbus-RTU-ELR-3BN-IM190.5-U-M-v1.2.pdf     .pdf,comm,7656,54,7710,gpt-5.1-2025-11-13
+2026-04-29T10:48:18,modular_rag,Modbus-RTU-ELR-3BN-IM190.5-U-M-v1.2.pdf     .pdf,transaction,10702,212,10914,gpt-5.1-2025-11-13
+2026-04-29T10:48:27,modular_rag,Modbus-RTU-Manual.2022.pdf,comm,5028,51,5079,gpt-5.1-2025-11-13
+2026-04-29T10:48:30,modular_rag,Modbus-RTU-Manual.2022.pdf,transaction,11286,207,11493,gpt-5.1-2025-11-13
+2026-04-29T10:48:39,modular_rag,ModbusManual_920-0072E ....pdf,comm,5227,54,5281,gpt-5.1-2025-11-13
+2026-04-29T10:48:42,modular_rag,ModbusManual_920-0072E ....pdf,transaction,8925,210,9135,gpt-5.1-2025-11-13
+2026-04-29T10:48:51,modular_rag,modbusprotokollkostalsmartenergymeter ....pdf,comm,4975,54,5029,gpt-5.1-2025-11-13
+2026-04-29T10:48:54,modular_rag,modbusprotokollkostalsmartenergymeter ....pdf,transaction,11629,212,11841,gpt-5.1-2025-11-13
+2026-04-29T10:49:03,modular_rag,Modbus_RTU_register_map_for_TRIO-20.0(27.6)-TL-OUTD_Revision_1.6 .....pdf,comm,4248,51,4299,gpt-5.1-2025-11-13
+2026-04-29T10:49:09,modular_rag,Modbus_RTU_register_map_for_TRIO-20.0(27.6)-TL-OUTD_Revision_1.6 .....pdf,transaction,13092,224,13316,gpt-5.1-2025-11-13
+2026-04-29T10:49:19,modular_rag,PM5100.pdf,comm,4117,52,4169,gpt-5.1-2025-11-13
+2026-04-29T10:49:23,modular_rag,PM5100.pdf,transaction,9549,216,9765,gpt-5.1-2025-11-13
+2026-04-29T10:49:32,modular_rag,PM5300 User Manual.pdf,comm,4695,52,4747,gpt-5.1-2025-11-13
+2026-04-29T10:49:35,modular_rag,PM5300 User Manual.pdf,transaction,10555,211,10766,gpt-5.1-2025-11-13
+2026-04-29T10:49:44,modular_rag,pmt-hps-51-52-25-66rt ....pdf,comm,5824,51,5875,gpt-5.1-2025-11-13
+2026-04-29T10:49:47,modular_rag,pmt-hps-51-52-25-66rt ....pdf,transaction,13317,209,13526,gpt-5.1-2025-11-13
+2026-04-29T10:49:56,modular_rag,rtvs1-35l22-modbus-registerlista ....pdf,comm,4940,52,4992,gpt-5.1-2025-11-13
+2026-04-29T10:49:59,modular_rag,rtvs1-35l22-modbus-registerlista ....pdf,transaction,8432,209,8641,gpt-5.1-2025-11-13
+2026-04-29T10:50:08,modular_rag,S111_Modbus-register-table_EN_V2025-2.pdf ...pdf,comm,4620,51,4671,gpt-5.1-2025-11-13
+2026-04-29T10:50:11,modular_rag,S111_Modbus-register-table_EN_V2025-2.pdf ...pdf,transaction,10884,207,11091,gpt-5.1-2025-11-13
+2026-04-29T10:50:22,modular_rag,s5gbm_modbus-installation-kep-x.pdf,comm,5509,53,5562,gpt-5.1-2025-11-13
+2026-04-29T10:50:25,modular_rag,s5gbm_modbus-installation-kep-x.pdf,transaction,11656,209,11865,gpt-5.1-2025-11-13
+2026-04-29T10:50:35,modular_rag,S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf,comm,5334,52,5386,gpt-5.1-2025-11-13
+2026-04-29T10:50:38,modular_rag,S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf,transaction,10410,207,10617,gpt-5.1-2025-11-13
+2026-04-29T10:50:48,modular_rag,Schneider-Electric_Acti9-iEM3000-Energy-Meters_A9MEM3355-User-Manual.pdf,comm,5476,52,5528,gpt-5.1-2025-11-13
+2026-04-29T10:50:51,modular_rag,Schneider-Electric_Acti9-iEM3000-Energy-Meters_A9MEM3355-User-Manual.pdf,transaction,12366,215,12581,gpt-5.1-2025-11-13
+2026-04-29T10:51:00,modular_rag,SDM120-MODBUS_Protocol.pdf,comm,4617,53,4670,gpt-5.1-2025-11-13
+2026-04-29T10:51:05,modular_rag,SDM120-MODBUS_Protocol.pdf,transaction,10890,208,11098,gpt-5.1-2025-11-13
+2026-04-29T10:51:14,modular_rag,sdm230-modbus.pdf,comm,6498,51,6549,gpt-5.1-2025-11-13
+2026-04-29T10:51:18,modular_rag,sdm230-modbus.pdf,transaction,10825,210,11035,gpt-5.1-2025-11-13
+2026-04-29T10:51:27,modular_rag,SDM630_MODBUS_Protocol.pdf,comm,5404,51,5455,gpt-5.1-2025-11-13
+2026-04-29T10:51:30,modular_rag,SDM630_MODBUS_Protocol.pdf,transaction,11092,213,11305,gpt-5.1-2025-11-13
+2026-04-29T10:51:39,modular_rag,silverc-modbus-other-en.pdf,comm,6081,53,6134,gpt-5.1-2025-11-13
+2026-04-29T10:51:42,modular_rag,silverc-modbus-other-en.pdf,transaction,13359,209,13568,gpt-5.1-2025-11-13
+2026-04-29T10:51:52,modular_rag,Sonic-Driver-MODBUS-WALL-UFM-RTU-Protocol-010724 ....pdf,comm,4615,51,4666,gpt-5.1-2025-11-13
+2026-04-29T10:51:56,modular_rag,Sonic-Driver-MODBUS-WALL-UFM-RTU-Protocol-010724 ....pdf,transaction,9574,214,9788,gpt-5.1-2025-11-13
+2026-04-29T12:38:04,naive_rag,1815243_C5 ....pdf,main,14167,254,14421,gpt-5.1-2025-11-13
+2026-04-29T12:38:15,naive_rag,1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf,main,13089,253,13342,gpt-5.1-2025-11-13
+2026-04-29T12:38:24,naive_rag,20231204_Userguide_ModbusRTU_EN.pdf ...pdf,main,13930,255,14185,gpt-5.1-2025-11-13
+2026-04-29T12:38:35,naive_rag,3S_RH_AT_PS_User_Manual ...pdf,main,13630,260,13890,gpt-5.1-2025-11-13
+2026-04-29T12:38:44,naive_rag,4104_mcm_100.pdf ...pdf,main,14369,252,14621,gpt-5.1-2025-11-13
+2026-04-29T12:38:55,naive_rag,7500f_man_3.pdf,main,13246,251,13497,gpt-5.1-2025-11-13
+2026-04-29T12:39:04,naive_rag,9202_mcm_100.pdf,main,14335,251,14586,gpt-5.1-2025-11-13
+2026-04-29T12:39:15,naive_rag,9203_mcm_101.pdf,main,14533,250,14783,gpt-5.1-2025-11-13
+2026-04-29T12:39:26,naive_rag,ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf,main,12549,254,12803,gpt-5.1-2025-11-13
+2026-04-29T12:39:37,naive_rag,APM-MAX-Modbus-Communications.pdf,main,11184,256,11440,gpt-5.1-2025-11-13
+2026-04-29T12:39:47,naive_rag,Application_Note_Optidrive_E3_Modbus_register_map.pdf,main,14619,254,14873,gpt-5.1-2025-11-13
+2026-04-29T12:39:57,naive_rag,a_emcion_homecontroller_modbus_lookup_table_en ....pdf,main,14391,257,14648,gpt-5.1-2025-11-13
+2026-04-29T12:40:08,naive_rag,a_si370010--_en.pdf     .pdf,main,13828,257,14085,gpt-5.1-2025-11-13
+2026-04-29T12:40:18,naive_rag,CMS Manual_web ...pdf,main,13602,254,13856,gpt-5.1-2025-11-13
+2026-04-29T12:40:30,naive_rag,Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf,main,17685,257,17942,gpt-5.1-2025-11-13
+2026-04-29T12:40:41,naive_rag,EM330_EM340_ET330_ET340_CP.pdf,main,14114,252,14366,gpt-5.1-2025-11-13
+2026-04-29T12:40:51,naive_rag,EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf,main,13463,257,13720,gpt-5.1-2025-11-13
+2026-04-29T12:41:01,naive_rag,ifu-9033781en-us-en-us ....pdf,main,13035,257,13292,gpt-5.1-2025-11-13
+2026-04-29T12:41:12,naive_rag,IG_EF-N1000-T ...pdf,main,13715,254,13969,gpt-5.1-2025-11-13
+2026-04-29T12:41:22,naive_rag,IM_C250-MOD_3 ....pdf,main,12726,257,12983,gpt-5.1-2025-11-13
+2026-04-29T12:41:32,naive_rag,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,main,14194,259,14453,gpt-5.1-2025-11-13
+2026-04-29T12:41:43,naive_rag,IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf,main,12927,251,13178,gpt-5.1-2025-11-13
+2026-04-29T12:41:54,naive_rag,janitza-mal-umg96rme-en.pdf,main,14105,260,14365,gpt-5.1-2025-11-13
+2026-04-29T12:42:04,naive_rag,LV_Podrecznik_PAC2200_EN_2017.pdf,main,14053,256,14309,gpt-5.1-2025-11-13
+2026-04-29T12:42:14,naive_rag,magx1-modbus-manual-eng ....pdf,main,13560,252,13812,gpt-5.1-2025-11-13
+2026-04-29T12:42:24,naive_rag,magx2-modbus-manual-eng.pdf,main,13795,251,14046,gpt-5.1-2025-11-13
+2026-04-29T12:42:34,naive_rag,MAMODBUS-SU-EU-EN ....pdf,main,13610,257,13867,gpt-5.1-2025-11-13
+2026-04-29T12:42:44,naive_rag,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,main,13893,257,14150,gpt-5.1-2025-11-13
+2026-04-29T12:42:56,naive_rag,manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf,main,14176,259,14435,gpt-5.1-2025-11-13
+2026-04-29T12:43:07,naive_rag,MAN_24_4956731.pdf,main,13938,254,14192,gpt-5.1-2025-11-13
+2026-04-29T12:43:17,naive_rag,mg10p222.pdf,main,13183,256,13439,gpt-5.1-2025-11-13
+2026-04-29T12:43:28,naive_rag,mi00485-5-en ...pdf,main,12333,254,12587,gpt-5.1-2025-11-13
+2026-04-29T12:43:39,naive_rag,MN040018_EN.pdf,main,14554,251,14805,gpt-5.1-2025-11-13
+2026-04-29T12:43:49,naive_rag,Modbus-RTU-ELR-3BN-IM190.5-U-M-v1.2.pdf     .pdf,main,14782,258,15040,gpt-5.1-2025-11-13
+2026-04-29T12:44:00,naive_rag,Modbus-RTU-Manual.2022.pdf,main,14933,250,15183,gpt-5.1-2025-11-13
+2026-04-29T12:44:10,naive_rag,ModbusManual_920-0072E ....pdf,main,13675,256,13931,gpt-5.1-2025-11-13
+2026-04-29T12:44:21,naive_rag,modbusprotokollkostalsmartenergymeter ....pdf,main,13623,258,13881,gpt-5.1-2025-11-13
+2026-04-29T12:44:32,naive_rag,Modbus_RTU_register_map_for_TRIO-20.0(27.6)-TL-OUTD_Revision_1.6 .....pdf,main,14080,267,14347,gpt-5.1-2025-11-13
+2026-04-29T12:44:44,naive_rag,PM5100.pdf,main,12113,261,12374,gpt-5.1-2025-11-13
+2026-04-29T12:44:55,naive_rag,PM5300 User Manual.pdf,main,12359,254,12613,gpt-5.1-2025-11-13
+2026-04-29T12:45:05,naive_rag,pmt-hps-51-52-25-66rt ....pdf,main,13409,253,13662,gpt-5.1-2025-11-13
+2026-04-29T12:45:16,naive_rag,rtvs1-35l22-modbus-registerlista ....pdf,main,14186,254,14440,gpt-5.1-2025-11-13
+2026-04-29T12:45:26,naive_rag,S111_Modbus-register-table_EN_V2025-2.pdf ...pdf,main,13195,252,13447,gpt-5.1-2025-11-13
+2026-04-29T12:45:37,naive_rag,s5gbm_modbus-installation-kep-x.pdf,main,14467,252,14719,gpt-5.1-2025-11-13
+2026-04-29T12:45:48,naive_rag,S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf,main,13852,253,14105,gpt-5.1-2025-11-13
+2026-04-29T12:46:01,naive_rag,Schneider-Electric_Acti9-iEM3000-Energy-Meters_A9MEM3355-User-Manual.pdf,main,14976,259,15235,gpt-5.1-2025-11-13
+2026-04-29T12:46:12,naive_rag,SDM120-MODBUS_Protocol.pdf,main,13191,253,13444,gpt-5.1-2025-11-13
+2026-04-29T12:46:22,naive_rag,sdm230-modbus.pdf,main,12626,255,12881,gpt-5.1-2025-11-13
+2026-04-29T12:46:33,naive_rag,SDM630_MODBUS_Protocol.pdf,main,12937,257,13194,gpt-5.1-2025-11-13
+2026-04-29T12:46:42,naive_rag,silverc-modbus-other-en.pdf,main,16007,254,16261,gpt-5.1-2025-11-13
+2026-04-29T12:46:52,naive_rag,Sonic-Driver-MODBUS-WALL-UFM-RTU-Protocol-010724 ....pdf,main,13789,260,14049,gpt-5.1-2025-11-13
+2026-04-29T12:57:45,naive_rag,1815243_C5 ....pdf,main,14166,254,14420,gpt-5.1-2025-11-13
+2026-04-29T12:57:55,naive_rag,1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf,main,13091,254,13345,gpt-5.1-2025-11-13
+2026-04-29T12:58:05,naive_rag,20231204_Userguide_ModbusRTU_EN.pdf ...pdf,main,13929,255,14184,gpt-5.1-2025-11-13
+2026-04-29T12:58:15,naive_rag,3S_RH_AT_PS_User_Manual ...pdf,main,13626,260,13886,gpt-5.1-2025-11-13
+2026-04-29T12:58:24,naive_rag,4104_mcm_100.pdf ...pdf,main,14367,251,14618,gpt-5.1-2025-11-13
+2026-04-29T12:58:34,naive_rag,7500f_man_3.pdf,main,13244,251,13495,gpt-5.1-2025-11-13
+2026-04-29T12:58:44,naive_rag,9202_mcm_100.pdf,main,14334,251,14585,gpt-5.1-2025-11-13
+2026-04-29T12:58:54,naive_rag,9203_mcm_101.pdf,main,14535,254,14789,gpt-5.1-2025-11-13
+2026-04-29T12:59:04,naive_rag,ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf,main,12547,254,12801,gpt-5.1-2025-11-13
+2026-04-29T12:59:14,naive_rag,APM-MAX-Modbus-Communications.pdf,main,11184,255,11439,gpt-5.1-2025-11-13
+2026-04-29T12:59:24,naive_rag,Application_Note_Optidrive_E3_Modbus_register_map.pdf,main,14619,254,14873,gpt-5.1-2025-11-13
+2026-04-29T12:59:35,naive_rag,a_emcion_homecontroller_modbus_lookup_table_en ....pdf,main,14391,257,14648,gpt-5.1-2025-11-13
+2026-04-29T12:59:46,naive_rag,a_si370010--_en.pdf     .pdf,main,13827,257,14084,gpt-5.1-2025-11-13
+2026-04-29T12:59:59,naive_rag,CMS Manual_web ...pdf,main,13602,253,13855,gpt-5.1-2025-11-13
+2026-04-29T13:00:10,naive_rag,Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf,main,17874,257,18131,gpt-5.1-2025-11-13
+2026-04-29T13:00:20,naive_rag,EM330_EM340_ET330_ET340_CP.pdf,main,14113,252,14365,gpt-5.1-2025-11-13
+2026-04-29T13:00:30,naive_rag,EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf,main,13461,255,13716,gpt-5.1-2025-11-13
+2026-04-29T13:00:40,naive_rag,ifu-9033781en-us-en-us ....pdf,main,13036,257,13293,gpt-5.1-2025-11-13
+2026-04-29T13:00:51,naive_rag,IG_EF-N1000-T ...pdf,main,13718,254,13972,gpt-5.1-2025-11-13
+2026-04-29T13:01:02,naive_rag,IM_C250-MOD_3 ....pdf,main,12726,258,12984,gpt-5.1-2025-11-13
+2026-04-29T13:01:13,naive_rag,Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf,main,14195,259,14454,gpt-5.1-2025-11-13
+2026-04-29T13:01:23,naive_rag,IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf,main,12927,251,13178,gpt-5.1-2025-11-13
+2026-04-29T13:01:34,naive_rag,janitza-mal-umg96rme-en.pdf,main,14105,260,14365,gpt-5.1-2025-11-13
+2026-04-29T13:01:45,naive_rag,LV_Podrecznik_PAC2200_EN_2017.pdf,main,14053,256,14309,gpt-5.1-2025-11-13
+2026-04-29T13:01:56,naive_rag,magx1-modbus-manual-eng ....pdf,main,13562,253,13815,gpt-5.1-2025-11-13
+2026-04-29T13:02:06,naive_rag,magx2-modbus-manual-eng.pdf,main,13796,251,14047,gpt-5.1-2025-11-13
+2026-04-29T13:02:16,naive_rag,MAMODBUS-SU-EU-EN ....pdf,main,13610,251,13861,gpt-5.1-2025-11-13
+2026-04-29T13:02:27,naive_rag,man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf,main,13894,257,14151,gpt-5.1-2025-11-13
+2026-04-29T13:02:37,naive_rag,manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf,main,14177,259,14436,gpt-5.1-2025-11-13
+2026-04-29T13:02:47,naive_rag,MAN_24_4956731.pdf,main,13938,254,14192,gpt-5.1-2025-11-13
+2026-04-29T13:02:57,naive_rag,mg10p222.pdf,main,13183,256,13439,gpt-5.1-2025-11-13
+2026-04-29T13:03:07,naive_rag,mi00485-5-en ...pdf,main,12332,254,12586,gpt-5.1-2025-11-13
+2026-04-29T13:03:18,naive_rag,MN040018_EN.pdf,main,14553,251,14804,gpt-5.1-2025-11-13
+2026-04-29T13:03:29,naive_rag,Modbus-RTU-ELR-3BN-IM190.5-U-M-v1.2.pdf     .pdf,main,14782,258,15040,gpt-5.1-2025-11-13
+2026-04-29T13:03:39,naive_rag,Modbus-RTU-Manual.2022.pdf,main,14930,250,15180,gpt-5.1-2025-11-13
+2026-04-29T13:03:48,naive_rag,ModbusManual_920-0072E ....pdf,main,13671,256,13927,gpt-5.1-2025-11-13
+2026-04-29T13:03:58,naive_rag,modbusprotokollkostalsmartenergymeter ....pdf,main,13623,258,13881,gpt-5.1-2025-11-13
+2026-04-29T13:04:09,naive_rag,Modbus_RTU_register_map_for_TRIO-20.0(27.6)-TL-OUTD_Revision_1.6 .....pdf,main,14081,267,14348,gpt-5.1-2025-11-13
+2026-04-29T13:04:20,naive_rag,PM5100.pdf,main,12114,261,12375,gpt-5.1-2025-11-13
+2026-04-29T13:04:31,naive_rag,PM5300 User Manual.pdf,main,12358,254,12612,gpt-5.1-2025-11-13
+2026-04-29T13:04:43,naive_rag,pmt-hps-51-52-25-66rt ....pdf,main,13408,253,13661,gpt-5.1-2025-11-13
+2026-04-29T13:04:52,naive_rag,rtvs1-35l22-modbus-registerlista ....pdf,main,14189,253,14442,gpt-5.1-2025-11-13
+2026-04-29T13:05:06,naive_rag,S111_Modbus-register-table_EN_V2025-2.pdf ...pdf,main,13193,252,13445,gpt-5.1-2025-11-13
+2026-04-29T13:05:16,naive_rag,s5gbm_modbus-installation-kep-x.pdf,main,14470,253,14723,gpt-5.1-2025-11-13
+2026-04-29T13:05:26,naive_rag,S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf,main,13851,251,14102,gpt-5.1-2025-11-13
+2026-04-29T13:05:39,naive_rag,Schneider-Electric_Acti9-iEM3000-Energy-Meters_A9MEM3355-User-Manual.pdf,main,14975,260,15235,gpt-5.1-2025-11-13
+2026-04-29T13:05:49,naive_rag,SDM120-MODBUS_Protocol.pdf,main,13193,253,13446,gpt-5.1-2025-11-13
+2026-04-29T13:06:08,naive_rag,sdm230-modbus.pdf,main,12627,255,12882,gpt-5.1-2025-11-13
+2026-04-29T13:06:18,naive_rag,SDM630_MODBUS_Protocol.pdf,main,12938,255,13193,gpt-5.1-2025-11-13
+2026-04-29T13:06:29,naive_rag,silverc-modbus-other-en.pdf,main,16002,254,16256,gpt-5.1-2025-11-13
+2026-04-29T13:06:38,naive_rag,Sonic-Driver-MODBUS-WALL-UFM-RTU-Protocol-010724 ....pdf,main,13792,260,14052,gpt-5.1-2025-11-13
+2026-05-05T08:12:18,modular_rag,1815243_C5 ....pdf,comm,12748,54,12802,gpt-5.1-2025-11-13
+2026-05-05T08:12:21,modular_rag,1815243_C5 ....pdf,transaction,16418,209,16627,gpt-5.1-2025-11-13
+2026-05-05T08:12:31,modular_rag,1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf,comm,9575,54,9629,gpt-5.1-2025-11-13
+2026-05-05T08:12:35,modular_rag,1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf,transaction,14993,208,15201,gpt-5.1-2025-11-13
+2026-05-05T08:12:46,modular_rag,20231204_Userguide_ModbusRTU_EN.pdf ...pdf,comm,11702,51,11753,gpt-5.1-2025-11-13
+2026-05-05T08:12:49,modular_rag,20231204_Userguide_ModbusRTU_EN.pdf ...pdf,transaction,15823,212,16035,gpt-5.1-2025-11-13
+2026-05-05T08:12:58,modular_rag,3S_RH_AT_PS_User_Manual ...pdf,comm,9620,51,9671,gpt-5.1-2025-11-13
+2026-05-05T08:13:03,modular_rag,3S_RH_AT_PS_User_Manual ...pdf,transaction,13881,217,14098,gpt-5.1-2025-11-13
+2026-05-05T08:13:12,modular_rag,4104_mcm_100.pdf ...pdf,comm,9889,52,9941,gpt-5.1-2025-11-13
+2026-05-05T08:13:15,modular_rag,4104_mcm_100.pdf ...pdf,transaction,18364,208,18572,gpt-5.1-2025-11-13
+2026-05-05T08:13:24,modular_rag,7500f_man_3.pdf,comm,11004,51,11055,gpt-5.1-2025-11-13
+2026-05-05T08:13:28,modular_rag,7500f_man_3.pdf,transaction,15007,208,15215,gpt-5.1-2025-11-13
+2026-05-05T08:13:37,modular_rag,9202_mcm_100.pdf,comm,11974,52,12026,gpt-5.1-2025-11-13
+2026-05-05T08:13:40,modular_rag,9202_mcm_100.pdf,transaction,16807,207,17014,gpt-5.1-2025-11-13
+2026-05-05T08:13:49,modular_rag,9203_mcm_101.pdf,comm,11337,52,11389,gpt-5.1-2025-11-13
+2026-05-05T08:13:54,modular_rag,9203_mcm_101.pdf,transaction,16981,210,17191,gpt-5.1-2025-11-13
+2026-05-05T08:14:03,modular_rag,ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf,comm,9748,51,9799,gpt-5.1-2025-11-13
+2026-05-05T08:14:06,modular_rag,ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf,transaction,14248,211,14459,gpt-5.1-2025-11-13
+2026-05-05T08:14:14,modular_rag,APM-MAX-Modbus-Communications.pdf,comm,5522,53,5575,gpt-5.1-2025-11-13
+2026-05-05T08:14:17,modular_rag,APM-MAX-Modbus-Communications.pdf,transaction,9451,210,9661,gpt-5.1-2025-11-13
+2026-05-05T08:14:26,modular_rag,Application_Note_Optidrive_E3_Modbus_register_map.pdf,comm,11182,51,11233,gpt-5.1-2025-11-13
+2026-05-05T08:14:29,modular_rag,Application_Note_Optidrive_E3_Modbus_register_map.pdf,transaction,16496,211,16707,gpt-5.1-2025-11-13
+2026-05-05T08:14:38,modular_rag,a_emcion_homecontroller_modbus_lookup_table_en ....pdf,comm,8239,52,8291,gpt-5.1-2025-11-13
+2026-05-05T08:14:41,modular_rag,a_emcion_homecontroller_modbus_lookup_table_en ....pdf,transaction,11765,213,11978,gpt-5.1-2025-11-13
+2026-05-05T08:14:50,modular_rag,a_si370010--_en.pdf     .pdf,comm,13351,54,13405,gpt-5.1-2025-11-13
+2026-05-05T08:14:54,modular_rag,a_si370010--_en.pdf     .pdf,transaction,17075,212,17287,gpt-5.1-2025-11-13
+2026-05-05T08:15:03,modular_rag,CMS Manual_web ...pdf,comm,11099,52,11151,gpt-5.1-2025-11-13
+2026-05-05T08:15:07,modular_rag,CMS Manual_web ...pdf,transaction,15730,215,15945,gpt-5.1-2025-11-13
+2026-05-05T08:15:16,modular_rag,Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf,comm,17370,53,17423,gpt-5.1-2025-11-13
+2026-05-05T08:15:19,modular_rag,Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf,transaction,21251,212,21463,gpt-5.1-2025-11-13
+2026-05-05T08:15:28,modular_rag,EM330_EM340_ET330_ET340_CP.pdf,comm,11437,52,11489,gpt-5.1-2025-11-13
+2026-05-05T08:15:32,modular_rag,EM330_EM340_ET330_ET340_CP.pdf,transaction,15993,208,16201,gpt-5.1-2025-11-13
+2026-05-05T08:15:42,modular_rag,EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf,comm,10799,51,10850,gpt-5.1-2025-11-13
+2026-05-05T08:15:45,modular_rag,EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf,transaction,15615,209,15824,gpt-5.1-2025-11-13
+2026-05-05T08:15:54,modular_rag,ifu-9033781en-us-en-us ....pdf,comm,11687,52,11739,gpt-5.1-2025-11-13
+2026-05-05T08:15:57,modular_rag,ifu-9033781en-us-en-us ....pdf,transaction,15527,212,15739,gpt-5.1-2025-11-13

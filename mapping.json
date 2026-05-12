@@ -1,0 +1,257 @@
+[
+    {
+        "pdf": "1815243_C5 ....pdf",
+        "golden_keyValues": "1815243_C5_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+        "golden_keyValues": "1SFC132089M0201_keyValues.txt",
+        "random": true
+    },
+    {
+        "pdf": "20231204_Userguide_ModbusRTU_EN.pdf ...pdf",
+        "golden_keyValues": "20231204_Userguide_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "3S_RH_AT_PS_User_Manual ...pdf",
+        "golden_keyValues": "3S_RH_AT_PS_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "4104_mcm_100.pdf ...pdf",
+        "golden_keyValues": "4104_mcm_100_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "7500f_man_3.pdf",
+        "golden_keyValues": "7500f_man_3_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "9202_mcm_100.pdf",
+        "golden_keyValues": "9202_mcm_100_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "9203_mcm_101.pdf",
+        "golden_keyValues": "9203_golden_conf_keyValues.txt",
+        "random": true
+    },
+    {
+        "pdf": "ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf",
+        "golden_keyValues": "ABB_Terra_AC_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "APM-MAX-Modbus-Communications.pdf",
+        "golden_keyValues": "APM_MAX_modbus_keyValues.txt",
+        "random": true
+    },
+    {
+        "pdf": "Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+        "golden_keyValues": "Application_Note_Optidrive_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "a_emcion_homecontroller_modbus_lookup_table_en ....pdf",
+        "golden_keyValues": "a_emicon_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "a_si370010--_en.pdf     .pdf",
+        "golden_keyValues": "si370010.txt",
+        "random": true
+    },
+    {
+        "pdf": "CMS Manual_web ...pdf",
+        "golden_keyValues": "CMS_Manual_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+        "golden_keyValues": "Communication_protocol_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "EM330_EM340_ET330_ET340_CP.pdf",
+        "golden_keyValues": "EM330_EM340_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+        "golden_keyValues": "EN_FANOXTD_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "ifu-9033781en-us-en-us ....pdf",
+        "golden_keyValues": "ifu_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "IG_EF-N1000-T ...pdf",
+        "golden_keyValues": "IG_EF_N1000_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "IM_C250-MOD_3 ....pdf",
+        "golden_keyValues": "IM_C250_MOD_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+        "golden_keyValues": "Instruction_Manual_VA_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+        "golden_keyValues": "IRMAX_Modbus_Manual_KeyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "janitza-mal-umg96rme-en.pdf",
+        "golden_keyValues": "janitza_mal_umg96rme_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "LV_Podrecznik_PAC2200_EN_2017.pdf",
+        "golden_keyValues": "LV_Podrecznik_PAC2200_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "magx1-modbus-manual-eng ....pdf",
+        "golden_keyValues": "magx1_modbus_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "magx2-modbus-manual-eng.pdf",
+        "golden_keyValues": "magx2_modbus_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "MAMODBUS-SU-EU-EN ....pdf",
+        "golden_keyValues": "MAMODBUS_SU_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf",
+        "golden_keyValues": "Man_thermoMETER_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+        "golden_keyValues": "Manual_rht_climate_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "MAN_24_4956731.pdf",
+        "golden_keyValues": "MAN_24_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "mg10p222.pdf",
+        "golden_keyValues": "mg10p222_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "mi00485-5-en ...pdf",
+        "golden_keyValues": "mi00485-5_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "MN040018_EN.pdf",
+        "golden_keyValues": "mn040018_keyValues.txt",
+        "random": true
+    },
+    {
+        "pdf": "Modbus-RTU-ELR-3BN-IM190.5-U-M-v1.2.pdf     .pdf",
+        "golden_keyValues": "Modbus-RTU-ELR-3BN_keyValues.txt",
+        "random": true
+    },
+    {
+        "pdf": "Modbus-RTU-Manual.2022.pdf",
+        "golden_keyValues": "Modbus_RTU_manual2022_keyValues.txt",
+        "random": true
+    },
+    {
+        "pdf": "ModbusManual_920-0072E ....pdf",
+        "golden_keyValues": "ModbusManual_920_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "modbusprotokollkostalsmartenergymeter ....pdf",
+        "golden_keyValues": "modbusprotokollkostalsmarter_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "Modbus_RTU_register_map_for_TRIO-20.0(27.6)-TL-OUTD_Revision_1.6 .....pdf",
+        "golden_keyValues": "Modbus_RTU_Register_Map_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "PM5100.pdf",
+        "golden_keyValues": "PM5100_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "PM5300 User Manual.pdf",
+        "golden_keyValues": "PM5300_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "pmt-hps-51-52-25-66rt ....pdf",
+        "golden_keyValues": "pmt_hps_51_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "rtvs1-35l22-modbus-registerlista ....pdf",
+        "golden_keyValues": "RTVS1_keyValues.txt",
+        "random": true
+    },
+    {
+        "pdf": "S111_Modbus-register-table_EN_V2025-2.pdf ...pdf",
+        "golden_keyValues": "S111_keyValues.txt",
+        "random": true
+    },
+    {
+        "pdf": "s5gbm_modbus-installation-kep-x.pdf",
+        "golden_keyValues": "s5gbm_modbus_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf",
+        "golden_keyValues": "S6_Standard_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "Schneider-Electric_Acti9-iEM3000-Energy-Meters_A9MEM3355-User-Manual.pdf",
+        "golden_keyValues": "Schneider_Electric_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "SDM120-MODBUS_Protocol.pdf",
+        "golden_keyValues": "SDM120_keyValues.txt",
+        "random": true
+    },
+    {
+        "pdf": "sdm230-modbus.pdf",
+        "golden_keyValues": "sdm230_modbus_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "SDM630_MODBUS_Protocol.pdf",
+        "golden_keyValues": "SDM630_Modbus_Protocol_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "silverc-modbus-other-en.pdf",
+        "golden_keyValues": "silverc_modbus_keyValues.txt",
+        "random": false
+    },
+    {
+        "pdf": "Sonic-Driver-MODBUS-WALL-UFM-RTU-Protocol-010724 ....pdf",
+        "golden_keyValues": "Sonic_driver_keyValues.txt",
+        "random": false
+    }
+]

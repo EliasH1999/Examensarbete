@@ -1,0 +1,404 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx Modbus RTU Installation V1.17 \n \nPage 1 of 29 \nModbus Installation and operating instructions \nfor the sensors \nVA 500 / VA 520 , VA 525 , VA 550 / VA 570, \nVD 500 /VD 520 und VD 550 / VD 570 \n                            \n \n \n \n \n \n \n \n \n EN - English"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx Modbus RTU Installation V1.17 \n \nPage 2 of 29 \n \nI. \nForeword \n \nDear customer, \nthank you very much for deciding in favour of the VA 500 / VA 520 / VA 525 /VA 550 / \nVA570. Please read this installation and operation manual carefully before mounting \nand initiating the device and follow our advice. A riskless operation and a correct \nfunctioning of the VA 500 / VA 520 / VA 525 / VA 550 / VA570 are only guaranteed in \ncase of careful observation of the described instructions and notes \n. \n \n \n \n \n \n \n \nGeschäftsstelle Süd/Sales Office South \nZindelsteiner Str. 15  \nD-78052 VS-Tannheim \nTel.:  +49 (0) 7705 978 99 0 \nFax:  +49 (0) 7705 978 99 20 \nMail:  info@cs-instruments.com \nWeb: http://www.cs-instruments.com \n \n \n \nGeschäftsstelle Nord/Sales Office North \nAm Oxer 28c  \nD-24955 Harrislee \nTel.:  +49 (0) 461 700 20 25 \nFax:  +49 (0) 461 700 20 26 \nMail:  info@cs-instruments.com \nWeb: http://www.cs-instruments.com"
+  },
+  {
+    "chunk_id": 2,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "Inhalstverzeichnis \n \nVA 5xx Modbus RTU Installation V1.17 \n \nPage 3 of 29 \nII. \nTable of Content \nI. \nForeword \n2 \nII. \nTable of Content \n3 \n1 \nInstructions \n4 \n1.1 \nDefinition and abbreviation \n4 \n1.2 \nReferences \n4 \n2 \nTechnical data Modbus VA 5xx \n5 \n2.1 \nVA 5xx MODBUS RTU specificationn \n5 \n2.1 \nGeneral Modbus Information \n5 \n2.1.1 \nSerial transmission modes (RTU) \n5 \n3 \nInstallation \n6 \n3.1 \nRS485 Bus Wiring (Modbus RTU) –VA 500 / VA520 / VA 525 \n6 \n3.1.1 \nTermination VA 500 / VA 520 / VA 525 \n6 \n3.1.2 \nBias \n6 \n3.2 \nRS485 Bus Verdrahtung  (Modbus RTU) – Anschlussplan VA 550 / VA570 \n7 \n3.2.1 \nTermination VA 550 / VA 570 \n7 \n3.2.2 \nBias \n7 \n3.3 \nCable specification: \n7 \n4 \nModbus RTU communication settings \n8 \n4.1 \nAccessing and changing Modbus settings \n8 \n4.2 \nModbus RTU communication settings \n8 \n5 \nModbus TCP \n8 \n6 \nModbus addressing model \n9 \n6.1 \nFunction Code 3 (Read holding register) \n9 \n6.2 \nFunction code 16 (Write multiple registers) \n10 \n7 \nModbus Holding Register \n11"
+  },
+  {
+    "chunk_id": 3,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "8 \n4.1 \nAccessing and changing Modbus settings \n8 \n4.2 \nModbus RTU communication settings \n8 \n5 \nModbus TCP \n8 \n6 \nModbus addressing model \n9 \n6.1 \nFunction Code 3 (Read holding register) \n9 \n6.2 \nFunction code 16 (Write multiple registers) \n10 \n7 \nModbus Holding Register \n11 \n7.1 \nBasic Values Register   (1…1000) \n11 \n7.2 \nBasic Values Register   (1001…1600) \n12 \n7.3 \nDevice settings register \n22 \n7.3.1 \nModbus Settings    (2001…2005) \n22 \n7.3.2 \nDisplay Settings    (2007…2009) \n22 \n7.3.3 \nDevice Settings     (2021…2063) \n23 \n7.3.4 \nAnalog 4…20mA Register \n25 \n7.3.5 \nETH Board Register \n26 \n7.3.6 \nMBus Register \n27 \n7.3.7 \nData format test register   (64001… 64003) \n27 \n7.4 \nGas names \n28 \n7.5 \nUnit Index table \n29 \n8 \nAppendix \n29 \n8.1 \nAPPENDIX A - Exception codes \n29"
+  },
+  {
+    "chunk_id": 4,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx Modbus RTU Installation V1.17 \n \nPage 4 of 29 \n \n1 \nInstructions \n \nThis manual is intended to provide instructions for the installation and use of the VA 5xx \nMODBUS function. The VA 5xx MODBUS function can let the MODBUS master device to \nread out the online measurement values. \n \nThis manual is not intended to be a complete tutorial on the MODBUS RTU protocol, and it \nis assumed the end user already has a general working knowledge of MODBUS RTU \nCommunications, especially in respect of master station configuration and operation. \nHowever an overview is included in the following section to explain some of the \nfundamental aspects of the protocol. \n \n1.1 \nDefinition and abbreviation \n \n \nCRC \n \nCyclic Redundancy Check \nUsed for error—checking in MODBUS RTU. See appendix \nModbus Master \nA MODBUS device, which is able to access data in one or more  connected \nMODBUS slaves \nModbus Slave \nA MODBUS device, which is able to respond to requests from a \nsingle MODBUS master"
+  },
+  {
+    "chunk_id": 5,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "CRC \n \nCyclic Redundancy Check \nUsed for error—checking in MODBUS RTU. See appendix \nModbus Master \nA MODBUS device, which is able to access data in one or more  connected \nMODBUS slaves \nModbus Slave \nA MODBUS device, which is able to respond to requests from a \nsingle MODBUS master \nModbus Address \nThroughout this document the following notation is used to \naddress \nMODBUS RTU registers  see chapter 8 \n \nAddressing: Holding Register 1009 is addressed in messages by 1008 \n \nPDU \nMODBUS protocol data unit \nADU \nMODBUS application data unit \nMBAP \nMODBUS application protocol \nRS485 \nRefers to the 2—wire communication standard defined by \nEIA/TIA-485. (Physical layer) \nEthernet \n \n \n \n1.2 \nReferences \n \n1.  \nMODBUS over Serial Line Specification and Implementation Guide V1.02 \nmodbus.org 2006 Dec 20 \n2.  \nMODBUS APPLICATION PROTOCOL SPECIFICATION V1.1b modbus.org \n2006 Dec 28 \n3. \nMODBUS Messaging on TCP/IP implementation Guide V1.0b  \n2006 Oct 34 \n4. \nInstruction manuals VA 5xx"
+  },
+  {
+    "chunk_id": 6,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 5 of 29 \n \n \n2 \nTechnical data Modbus VA 5xx \n2.1 \nVA 5xx MODBUS RTU specificationn \n \nDevice type \n \n \nSlave \nBaud Rates \n \n \n1200,2400, 4800, 9600, 19200, 38400, 57600, 115200 bps \nDevice address range  \n1...247 \nElectrical Interface \n \nRS485, 2 wire  \nProtocol \n \n \nRTU \nSupported function code \n3 \nread holding register \n \n \n \n \n16 \nwrite multiple register \nBroadcast \n \n \nNo \nStandard \n \n \nModbus over serial line V1.02 \n \n \n \n \n \n2.1 \nGeneral Modbus Information \nThe VA5xx Modbus module complies with the Modbus serial line protocol [Reference 1]. \nAmong other things, this implies a master-slave protocol at level 2 of the OSI model. One \nnode (the master) issues explicit commands to one of the ,,sIave\"-nodes and processes \nresponses. Slave nodes will not transmit data without a request from the master node, and \ndo not communicate with other slaves. \nModbus is a mono master system, which means that only one master can be connected"
+  },
+  {
+    "chunk_id": 7,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "node (the master) issues explicit commands to one of the ,,sIave\"-nodes and processes \nresponses. Slave nodes will not transmit data without a request from the master node, and \ndo not communicate with other slaves. \nModbus is a mono master system, which means that only one master can be connected \nat the time. \n \n2.1.1 Serial transmission modes (RTU) \nThe VA 5xx Modbus mode support only one  serial transmission modes; the RTU \nmode. The transmission mode defines the bit contents of message fields \ntransmitted serially on the line. It determines how information is packed into the message \nfields and decoded. \nThe transmission mode and serial port parameters must be the same for all devices on a \nModbus serial line. \n \n \nRTU mode Modbus Application Data Unit (ADU) frame is shown below, and is valid for \nboth requests and responses. \n \nSlave address \nFunction code \nData \nCRC \n1 byte \n1byte \n0 up to 252 byte(s) \n2 bytes \n \nTable 1"
+  },
+  {
+    "chunk_id": 8,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "Modbus serial line. \n \n \nRTU mode Modbus Application Data Unit (ADU) frame is shown below, and is valid for \nboth requests and responses. \n \nSlave address \nFunction code \nData \nCRC \n1 byte \n1byte \n0 up to 252 byte(s) \n2 bytes \n \nTable 1 \nFurther details of the Modbus protocol can be found in Reference 1 and 2."
+  },
+  {
+    "chunk_id": 9,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 6 of 29 \n \n3 \nInstallation \n3.1 RS485 Bus Wiring (Modbus RTU) –VA 500 / VA520 / VA 525 \n \n \nSlave 1\nSlave n\n A\n B\nCommon\nT\nT\nR\nR\nMaster\nT\nR\nConnection plug A\nVA 500 / VA 520 / VA 525\nPin 2\nPin 4\nPin 3\n680R\n680R 120R\nTerminierung / Bias\n \n3.1.1 Termination VA 500 / VA 520 / VA 525 \nNote: In case the VA 500 / VA 520 / VA 525 is the last device in the RS485 network then a termination \nis required. To be done either with \na.) Internal DIP Switch \nb.) 120R between (between Pin 2 and Pin 4) of connector plug A \n \n3.1.2 Bias \nIn order to avoid undefined bus levels, at any location on the bus, a bias network, one resistor to VCC \n(Modbus A) as well as to GND (Modbus B), has to be used."
+  },
+  {
+    "chunk_id": 10,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 7 of 29 \n \n3.2 \nRS485 Bus Verdrahtung  (Modbus RTU) – Anschlussplan VA 550 / VA570 \n \n \nSlave 1\nSlave n\n A\n B\nCommon\nT\nT\nR\nR\nMaster\nT\nR\nConnection plug X2\nVA 550 / VA 570\nPin 3\nPin 1\nPin 2\n \n3.2.1 \nTermination VA 550 / VA 570 \nIn case the VA 550 / VA 570  is the last device in the RS485 network then a termination with 120R \nbetween (between Pin 1 and Pin 3) at connector X2 is necessary. \n \n3.2.2 Bias \nIn order to avoid undefined bus levels, at any location on the bus, a bias network, one resistor to VCC \n(Modbus A) as well as to GND (Modbus B), has to be used. \n \nBus cable: \nOnly cables according to the recommendations of EIA 485 standard should be used. A \nmaximum of 64 devices may be connected to one segment. The bus cable must be laid at \na distance of at least 20 cm from other cables. It should be laid in a separate, conductive, \nand earthed cable trunking. It must be ensured that no potential differences occur between"
+  },
+  {
+    "chunk_id": 11,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "maximum of 64 devices may be connected to one segment. The bus cable must be laid at \na distance of at least 20 cm from other cables. It should be laid in a separate, conductive, \nand earthed cable trunking. It must be ensured that no potential differences occur between \nthe individual devices on the bus. \n \n \n \n3.3 \nCable specification: \nImpedance:  \n \n135 -165 Ohm @ 3 to 20 Mhz \nCable capacity:  \n< 30pF/m \nCable diameter: \n > 0.64 mm \nCross section:   \n> 0.34 mm2, conforms to AWG 22 \nLoop resistance \n < 110 Ohm per km \nScreening:  \n \nCu shielding braid or shielding braid and shielding foil"
+  },
+  {
+    "chunk_id": 12,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 8 of 29 \n \n4 \nModbus RTU communication settings \nBefore communication with the master, baudrate, address, and framing must be defined \n \n4.1 \nAccessing and changing Modbus settings \nThe Modbus communication settings could be changed by using either the PC service software from \nCS Instruments or by sensors with display in the Modbus setup menu. \n \nNote:  \nIt is recommended NOT to use the default address in a multi-slave network. It is of great \nimportance to ensure at the time of the procedure of device addressing, that there \nis not two devices with the same address. In such a case, an abnormal behaviour of the \nwhole serial bus can occur, the master being then in the impossibility to communicate with \nall present slaves on the bus. \n \n4.2 \nModbus RTU communication settings \nDevice type \n \n \nSlave \nBaud Rates \n \n \n1200,2400, 4800, 9600, 19200, 38400, 57600, 115200 bps \nDevice address range  \n1...247 \nElectrical Interface"
+  },
+  {
+    "chunk_id": 13,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "all present slaves on the bus. \n \n4.2 \nModbus RTU communication settings \nDevice type \n \n \nSlave \nBaud Rates \n \n \n1200,2400, 4800, 9600, 19200, 38400, 57600, 115200 bps \nDevice address range  \n1...247 \nElectrical Interface \n \nRS485, 2 wire \nProtocol \n \n \nRTU \nSupported function code \n3 \nread holding register \n \n \n \n \n16 \nwrite multiple register \nBroadcast \n \n \nNo \nStandard \n \n \nModbus over serial line V1.02 \n \n \n5 \nModbus TCP  \nModbus communication requires the establishment of a TCP connection between a client (e.g. PC) \nand the sensor. The TCP port 502 reserved for Modbus is normally used for communication. However, \nthe user can also configure a different port number.  \nIf a firewall is arranged between sensor and client, it must be ensured that the configured TCP port is \nenabled."
+  },
+  {
+    "chunk_id": 14,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 9 of 29 \n \n6 \nModbus addressing model \n \nThe VA 5xx RS485 Modbus allows read/write access according chapter 8 \nNot defined registers are not accessible / not supported.  \n \nByte Order:   \nThe size of each Modbus-register is 2 Byte. For a 32 bit value two Modbus register will be read out by \nthe VA 5xx. Accordingly for a 16bit Value only one register is read.  \n \nData format VA 5xx:   \n \nSingle Word \n \n \n \n \n \nDouble Word \n \n \n \n \n \n \n \n \nFor verification of a correct data format please read out register  64000 or 64002.Result should be: \nRegister 64000:  Long Integer   Value =1 000 000 \nRegister 64002:  Float   \nValue = 1 000 000.0 \n \n6.1 \nFunction Code 3 (Read holding register) \n \nGeneral exceptions: \n• Requesting less than 1 or more than 125 registers => Exception 3 (Illegal data value) \n \n• Requesting more than max. message size (27 registers) => Exception 2(Illegal data address)"
+  },
+  {
+    "chunk_id": 15,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "Value = 1 000 000.0 \n \n6.1 \nFunction Code 3 (Read holding register) \n \nGeneral exceptions: \n• Requesting less than 1 or more than 125 registers => Exception 3 (Illegal data value) \n \n• Requesting more than max. message size (27 registers) => Exception 2(Illegal data address) \n \n• Requesting data out of defined range of registers chapter 8 => Exception 2 (Illegal data address) \n \nApplication exceptions: \n• Application errors => Exception 4 (Slave device error) \n \nHoles/register alignment: \n•  The read command always returns data if no exception is given. Bad \n    start/end alignment will result in only parts of the data item being read. \n                          HByte   LByte \n    18 =>                00       12 \n \nData Order       1. Byte    2. Byte \n  A (AB) \n   00  \n   12         Big endian \n  B (BA) \n   12 \n   00         Little endian \n \n \n                                HWord \n       LWord \n \n                HByte  LByte   HByte  LByte"
+  },
+  {
+    "chunk_id": 16,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "18 =>                00       12 \n \nData Order       1. Byte    2. Byte \n  A (AB) \n   00  \n   12         Big endian \n  B (BA) \n   12 \n   00         Little endian \n \n \n                                HWord \n       LWord \n \n                HByte  LByte   HByte  LByte \n29235175522 =>      AE       41         56        52 \n                 \nData Order   1.Byte   2.Byte  3.byte  4.Byte \n  A-B-C-D        AE       41       56       52   Big endian \n  D-C-B-A        52       56        41       AE   Little endian \n  B-A-D-C        41       AE       52       56 \n  C-D-A-B        56       52        AE      41"
+  },
+  {
+    "chunk_id": 17,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 10 of 29 \n \n6.2 \nFunction code 16 (Write multiple registers) \nIn general, only status register (register 2001 – 2064) are writable. \n \nGeneral exceptions: \n• Writing less than 1 or more than 63 registers => Exception 3 (Illegal data value) \n \n• If Byte Count is not exactly 2 times NoOfRegisters => Exception 3 (Illegal data value) \n \n• Exceeding max. message size (27 registers) => Exception 2 (Illegal data address) \n \n• Writing data out of defined register range chapter 8 =>Exception 2 (Illegal data address) \n \nApplication exceptions: \n• Application errors => Exception 4 (Slave device error) \n \n• Application errors include writing to ReadOnIy holding registers \n \nHoles / register alignment: \n \n• If start-address is not the start of a mapped holding register => Exception 2 (Illegal data address) \n \n• Writing to holes is allowed (ie ignored - and no exception occurs) — except for \n   the condition described above"
+  },
+  {
+    "chunk_id": 18,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 11 of 29 \n7 \nModbus Holding Register \n7.1 \nBasic Values Register   (1…1000) \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment \n1 \n0 \n4 \nUInt32 \nSerial Number \n0 \nR \n \n3 \n2 \n4 \nUInt32 \nSoftware Version \n0 \nR \nsprintf(str,\"%u.%02u\",hw>>16,hw&0\nxffff); \n5 \n4 \n4 \nUInt32 \nHardware Version \n0 \nR \nsprintf(str,\"%u.%02u\",hw>>16,hw&0\nxffff); \n7 \n6 \n4 \nUInt32 \n \n0 \nR \n \n9 \n8 \n4 \nUInt32 \nProduction Date \n0 \nR \nUnix Time \n11 \n10 \n4 \nUInt32 \nCalibration Date \n0 \nR \nUnix Time \n13 \n12 \n4 \nUInt32 \nOrdering Number \n0 \nR \n \n15 \n14 \n4 \nUInt32 \nRunTime \n0 \nR \nValue in seconds \n17 \n16 \n4 \nUInt32 \n \n0 \nR \n \n19 \n18 \n4 \nUInt32 \nAtex Number \n0 \nR \n \n21 \n20 \n4 \nUInt32 \nCurve Version \n0 \nR \nsprintf(str,\"%u.%02u\",hw>>16,hw&0\nxffff); \n23 \n22 \n8 \nString \nBrand Name \n0 \nR \n \n27 \n26 \n4 \nUInt32 \nLockSettings \n0 \nR \n0 = NoLock, 1 = DiameterLock, 2 = \nCounterLock, 3 = \nRefConditionsLock \n29 \n28 \n4"
+  },
+  {
+    "chunk_id": 19,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "0 \nR \n \n19 \n18 \n4 \nUInt32 \nAtex Number \n0 \nR \n \n21 \n20 \n4 \nUInt32 \nCurve Version \n0 \nR \nsprintf(str,\"%u.%02u\",hw>>16,hw&0\nxffff); \n23 \n22 \n8 \nString \nBrand Name \n0 \nR \n \n27 \n26 \n4 \nUInt32 \nLockSettings \n0 \nR \n0 = NoLock, 1 = DiameterLock, 2 = \nCounterLock, 3 = \nRefConditionsLock \n29 \n28 \n4 \nUInt32 \nOptionBoard \n0 \nR \nBit Mask \n0 = no option \n1 = 4-20mA  \n2 = Ethernet  \n4 = Mbus  \n8 = ProfiBus \n16 = SDI \n32 = Pressure \n64 = Direction \n31 \n30 \n4 \nDword \nVariant \nx \nR \n \n33 \n32 \n8 \nString \nCompany Name \nx \nR \n \n37 \n36 \n4 \nDword \nOptionBoard \nHardwareVersion \n(if available) \nx \nR \nsprintf(str,\"%u.%02u\",hw>>16,hw&0\nxffff); \n39 \n38 \n4 \nDword \nOptionBoard \nSoftwareVerision \n(falls verfügbar) \nx \nR \nsprintf(str,\"%u.%02u\",hw>>16,hw&0\nxffff);"
+  },
+  {
+    "chunk_id": 20,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 12 of 29 \n7.2 \nValues register  (1001….1600) \nFor bi-directional sensors VA500B and VA520B refer to note on page 21. \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \n \nRead \nWrite \nUnit /Comment \n1001 \n1000 \n4 \nFloat \nFlow as shown in Display \n \n \nR \n \n1003 \n1002 \n4 \nUInt32 \nTotal Counter bevore comma \nas shown in Display \n \n \nR \n \n1005 \n1004 \n4 \nFloat \nTotal Counter after comma \nas shown in Display \n \n \nR \n \n1007 \n1006 \n4 \nFloat \nVelocity as shown in Display \n \n \nR \n \n1009 \n1008 \n4 \nFloat \nGas Temperature as shoed \nin Display \n \n \nR \n \n1011 \n1010 \n4 \nFloat \nInternal Temperature as \nshown in Display \n \n \nR \n \n1013 \n1012 \n4 \nFloat \nSupply Voltage \n \n \nR \n \n1015 \n1014 \n4 \nFloat \nMax Speed (at Velocity Unit \nas shown in Display) \n \n \nR \n \n1017 \n1016 \n4 \nFloat \nMax Flow (at Flow Unit as \nshown in Display) \n \n \nR \n \n1019 \n1018 \n4 \nUnsigned \nInteger \nStatus of Sensor \n \n \nR \nnoError 0x0000 \nNotCalibrated"
+  },
+  {
+    "chunk_id": 21,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "1013 \n1012 \n4 \nFloat \nSupply Voltage \n \n \nR \n \n1015 \n1014 \n4 \nFloat \nMax Speed (at Velocity Unit \nas shown in Display) \n \n \nR \n \n1017 \n1016 \n4 \nFloat \nMax Flow (at Flow Unit as \nshown in Display) \n \n \nR \n \n1019 \n1018 \n4 \nUnsigned \nInteger \nStatus of Sensor \n \n \nR \nnoError 0x0000 \nNotCalibrated \n0x0001 \nLowVoltage \n0x0002 \nTempError \n0x0004 \nHeatError \n0x0008 \nIntError    \n0x000a \nHeatNotCal     \n0x0020 \nAmbNotCal    \n0x0040 \nTmpOutofRange 0x0080 \nDirection \n0x0100 \nLowVolt4_20        0x0200 \nNextCalElapsed   0x0400 \nDirection not Cal  0x0800 \nSensConditioning 0x1000 \nCalZeroPnt           0x2000 \nPressureError      0x4000 \ndeltaPressure      0x8000 \nBusy                  0x1 0000 \n1021 \n1020 \n4 \nFloat \nFlow Min at Flow Unit in \nDisplay since Clear Min/Max \n \n \nR \n \n1023 \n1022 \n4 \nFloat \nFlow Max at Flow Unit in \nDisplay  since Clear Min/Max \n \n \nR \n \n1025 \n1024 \n4 \nFloat \nFlow AV at Flow Unit in \nDisplay  \n \n \nR \nAV over the Time from \nAV  Time Setup 1 to \n1440\ni\nt\n1027 \n1026 \n4"
+  },
+  {
+    "chunk_id": 22,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "1020 \n4 \nFloat \nFlow Min at Flow Unit in \nDisplay since Clear Min/Max \n \n \nR \n \n1023 \n1022 \n4 \nFloat \nFlow Max at Flow Unit in \nDisplay  since Clear Min/Max \n \n \nR \n \n1025 \n1024 \n4 \nFloat \nFlow AV at Flow Unit in \nDisplay  \n \n \nR \nAV over the Time from \nAV  Time Setup 1 to \n1440\ni\nt\n1027 \n1026 \n4 \nFloat \nAverage Consumpton at \nConsumption Unit in Display \n \n \nR \nConsumption over Time \nat AVTime Setup \n1029 \n1028 \n4 \nFloat \nGas Temp Min at Temp. Unit \nin Display since Clear \nMi /M\n \n \nR \n \n1031 \n1030 \n4 \nFloat \nGas Temp Max at Temp. Unit \nin Display since Clear \nMi /M\n \n \nR \n \n1033 \n1032 \n4 \nFloat \nGas Temp AV at Temp. Unit \nin Display  \n \n \nR \nAV over the Time from \nAVTime Setup 1 to 1440 \ni\nt\n1035 \n1034 \n4 \nFloat \nVelocity Min at Velocity Unit \nin Display since Clear \nMi /M\n \n \nR \n \n1037 \n1036 \n4 \nFloat \nVelocity Max at Velocity Unit \nin Display since Clear \nMi /M\n \n \nR \n \n1039 \n1038 \n4 \nFloat \nVelocity AV at Velocity Unit \nin Display  \n \n \nR \nAV over the Time from"
+  },
+  {
+    "chunk_id": 23,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "i\nt\n1035 \n1034 \n4 \nFloat \nVelocity Min at Velocity Unit \nin Display since Clear \nMi /M\n \n \nR \n \n1037 \n1036 \n4 \nFloat \nVelocity Max at Velocity Unit \nin Display since Clear \nMi /M\n \n \nR \n \n1039 \n1038 \n4 \nFloat \nVelocity AV at Velocity Unit \nin Display  \n \n \nR \nAV over the Time from \nAVTime Setup 1 to 1440 \ni\nt"
+  },
+  {
+    "chunk_id": 24,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 13 of 29 \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nRead \nWrite \nUnit /Comment \n1041 \n1040 \n4 \nFloat/Dword \nIncremented Pulses \nsince setup pulse \nx \nR \n \n1043 \n1042 \n4 \nFloat/Dword \nSystempressure (at \nPressure Unit showed in \nDisplay) \nx \nR \nValue only available with \npressure option \n1045 \n1044 \n4 \nFloat/Dword \nSystempressure Min at \nPressure Unit in Display \nsince Clear Min/Max \nx \nR \nValue only available with \npressure option \n1047 \n1046 \n4 \nFloat/Dword \nSystempressure Max at \nPressure Unit in Display \nsince Clear Min/Max \nx \nR \nValue only available with \npressure option \n1049 \n1048 \n4 \nUint/Dword \nDifferenz Counter before \ncomma as showed in \nDisplay (left-side – right \nside) \nx \nR \nonly available in \nVA500/VA520 Bi-\ndirectional \n1051 \n1050 \n4 \nFloat/Dword \nDifferenz Counter after \ncomma as showed in \nDisplay (left-side – right \nside)) \nx \nR \nonly available in \nVA500/VA520 Bi-\ndirectional"
+  },
+  {
+    "chunk_id": 25,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "Differenz Counter before \ncomma as showed in \nDisplay (left-side – right \nside) \nx \nR \nonly available in \nVA500/VA520 Bi-\ndirectional \n1051 \n1050 \n4 \nFloat/Dword \nDifferenz Counter after \ncomma as showed in \nDisplay (left-side – right \nside)) \nx \nR \nonly available in \nVA500/VA520 Bi-\ndirectional \n1053 \n1052 \n4 \nUint/Dword \nTotal Counter before \ncomma as showed in \nDisplay (left side + right \nside) \nx \nR \nonly available in \nVA500/VA520 Bi-\ndirectional \n1055 \n1054 \n4 \nFloat/Dword \nTotal Counter after \ncomma as showed in \nDisplay (left side + right \nside) \nx \nR \nonly available in \nVA500/VA520 Bi-\ndirectional \n1057 \n1056 \n4 \nFloat/Dword \nDeltaPressure at \nPressure Unit showed in \nDisplay) \n \nx \nR \nonly available in Sensor \nVDxxxx \n1059 \n1058 \n4 \nFloat/Dword \nreserved \n \nR \n \nto \n \n \n \n \n \n \n \n1099 \n1078 \n4 \nFloat/Dword \nreserved \nx \nR"
+  },
+  {
+    "chunk_id": 26,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 14 of 29 \n \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nRead \nWrite \nUnit /Comment \n1101 \n1100 \n4 \nFloat \nFlow in m³/h \n \nR \n \n1103 \n1102 \n4 \nFloat \nFlow Min in m³/h since last \nLast Clear Min/Max \n \nR \n \n1105 \n1104 \n4 \nFloat \nFlow Max in m³/h since last \nClear Min/Max \n \nR \n \n1107 \n1106 \n4 \nFloat \nFlow AV in m³/h \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1109 \n1108 \n4 \nFloat \nFlow in Nm³/h \n \nR \n \n1111 \n1110 \n4 \nFloat \nFlow Min in Nm³/h since last \nClear Min/Max \n \nR \n \n1113 \n1112 \n4 \nFloat \nFlow Max in Nm³/h since last \nClear Min/Max \n \nR \n \n1115 \n1114 \n4 \nFloat \nFlow AV in Nm³/h \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1117 \n1116 \n4 \nFloat \nFlow in m³/min \n \nR \n \n1119 \n1118 \n4 \nFloat \nFlow Min in m³/min since last \nClear Min/Max \n \nR \n \n1121 \n1120 \n4 \nFloat \nFlow Max in m³/min since last \nClear Min/Max \n \nR \n \n1123 \n1122"
+  },
+  {
+    "chunk_id": 27,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "R \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1117 \n1116 \n4 \nFloat \nFlow in m³/min \n \nR \n \n1119 \n1118 \n4 \nFloat \nFlow Min in m³/min since last \nClear Min/Max \n \nR \n \n1121 \n1120 \n4 \nFloat \nFlow Max in m³/min since last \nClear Min/Max \n \nR \n \n1123 \n1122 \n4 \nFloat \nFlow AV in m³/min \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1125 \n1124 \n4 \nFloat \nFlow in Nm³/min \n \nR \n \n1127 \n1126 \n4 \nFloat \nFlow Min in Nm³/min since \nlast Clear Min/Max \n \nR \n \n1129 \n1128 \n4 \nFloat \nFlow Max in Nm³/min since \nlast Clear Min/Max \n \nR \n \n1131 \n1130 \n4 \nFloat \nFlow AV in Nm³/min \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1133 \n1132 \n4 \nFloat \nFlow in ltr/h \n \nR \n \n1135 \n1134 \n4 \nFloat \nFlow Min in ltr/h since last \nClear Min/Max \n \nR \n \n1137 \n1136 \n4 \nFloat \nFlow Max in ltr/h since last \nClear Min/Max \n \nR \n \n1139 \n1138 \n4 \nFloat \nFlow AV in ltr/h \n \nR \nAverage for time period"
+  },
+  {
+    "chunk_id": 28,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "„1 to 1440 minutes“ \n1133 \n1132 \n4 \nFloat \nFlow in ltr/h \n \nR \n \n1135 \n1134 \n4 \nFloat \nFlow Min in ltr/h since last \nClear Min/Max \n \nR \n \n1137 \n1136 \n4 \nFloat \nFlow Max in ltr/h since last \nClear Min/Max \n \nR \n \n1139 \n1138 \n4 \nFloat \nFlow AV in ltr/h \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“"
+  },
+  {
+    "chunk_id": 29,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 15 of 29 \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nRead \nWrite \nUnit /Comment \n1141 \n1140 \n4 \nFloat \nFlow in Nltr/h \n \nR \n \n1143 \n1142 \n4 \nFloat \nFlow Min in Nltr/h since last \nClear Min/Max \n \nR \n \n1145 \n1144 \n4 \nFloat \nFlow Max in Nltr/h since last \nClear Min/Max \n \nR \n \n1147 \n1146 \n4 \nFloat \nFlow AV in Nltr/h \n \nR \nAV over the Time from \nAVTime Setup 1 to 1440 \nminutes \n1149 \n1148 \n4 \nFloat \nFlow in ltr/min \n \nR \n \n1151 \n1150 \n4 \nFloat \nFlow Min in ltr/min since last \nClear Min/Max \n \nR \n \n1153 \n1152 \n4 \nFloat \nFlow Max in ltr/min since last \nClear Min/Max \n \nR \n \n1155 \n1154 \n4 \nFloat \nFlow AV in ltr/min \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1157 \n1156 \n4 \nFloat \nFlow in Nltr/min \n \nR \n \n1159 \n1158 \n4 \nFloat \nFlow Min in Nltr/min since \nlast Clear Min/Max \n \nR \n \n1161 \n1160 \n4 \nFloat \nFlow Max in Nltr/min since \nlast Clear Min/Max \n \nR \n \n1163 \n1162 \n4"
+  },
+  {
+    "chunk_id": 30,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "R \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1157 \n1156 \n4 \nFloat \nFlow in Nltr/min \n \nR \n \n1159 \n1158 \n4 \nFloat \nFlow Min in Nltr/min since \nlast Clear Min/Max \n \nR \n \n1161 \n1160 \n4 \nFloat \nFlow Max in Nltr/min since \nlast Clear Min/Max \n \nR \n \n1163 \n1162 \n4 \nFloat \nFlow AV in Nltr/min \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1165 \n1164 \n4 \nFloat \nFlow in ltr/s \n \nR \n \n1167 \n1166 \n4 \nFloat \nFlow Min in ltr/s since last \nClear Min/Max \n \nR \n \n1169 \n1168 \n4 \nFloat \nFlow Max in ltr/s since last \nClear Min/Max \n \nR \n \n1171 \n1170 \n4 \nFloat \nFlow AV in ltr/s \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1173 \n1172 \n4 \nFloat \nFlow in Nltr/s \n \nR \n \n1175 \n1174 \n4 \nFloat \nFlow Min in Nltr/s since last \nClear Min/Max \n \nR \n \n1177 \n1176 \n4 \nFloat \nFlow Max in Nltr/s since last \nClear Min/Max \n \nR \n \n1179 \n1178 \n4 \nFloat \nFlow AV in Nltr/s \n \nR \nAverage for time period"
+  },
+  {
+    "chunk_id": 31,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "„1 to 1440 minutes“ \n1173 \n1172 \n4 \nFloat \nFlow in Nltr/s \n \nR \n \n1175 \n1174 \n4 \nFloat \nFlow Min in Nltr/s since last \nClear Min/Max \n \nR \n \n1177 \n1176 \n4 \nFloat \nFlow Max in Nltr/s since last \nClear Min/Max \n \nR \n \n1179 \n1178 \n4 \nFloat \nFlow AV in Nltr/s \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1181 \n1180 \n4 \nFloat \nFlow in cfm \n \nR \n \n1183 \n1182 \n4 \nFloat \nFlow Min in cfm since last \nClear Min/Max \n \nR \n \n1185 \n1184 \n4 \nFloat \nFlow Max in cfm since last \nClear Min/Max \n \nR \n \n1187 \n1186 \n4 \nFloat \nFlow AV in cfm  \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“"
+  },
+  {
+    "chunk_id": 32,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 16 of 29 \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault  \nRead \nWrite \nUnit /Comment \n1189 \n1188 \n4 \nFloat \nFlow in Ncfm \n \nR \n \n1191 \n1190 \n4 \nFloat \nFlow Min in Ncfm since last \nClear Min/Max \n \nR \n \n1193 \n1192 \n4 \nFloat \nFlow Max in Ncfm since last \nClear Min/Max \n \nR \n \n1195 \n1194 \n4 \nFloat \nFlow AV in Ncfm  \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1197 \n1196 \n4 \nFloat \nFlow in kg/h \n \nR \n \n1199 \n1198 \n4 \nFloat \nFlow Min in kg/h since last \nClear Min/Max \n \nR \n \n1201 \n1200 \n4 \nFloat \nFlow Max in kg/h since last \nClear Min/Max \n \nR \n \n1203 \n1202 \n4 \nFloat \nFlow AV in kg/h  \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1205 \n1204 \n4 \nFloat \nFlow in kg/min \n \nR \n \n1207 \n1206 \n4 \nFloat \nFlow Min in kg/min since last \nClear Min/Max \n \nR \n \n1209 \n1208 \n4 \nFloat \nFlow Max in kg/min since last \nClear Min/Max \n \nR \n \n1211 \n1210 \n4"
+  },
+  {
+    "chunk_id": 33,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "R \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1205 \n1204 \n4 \nFloat \nFlow in kg/min \n \nR \n \n1207 \n1206 \n4 \nFloat \nFlow Min in kg/min since last \nClear Min/Max \n \nR \n \n1209 \n1208 \n4 \nFloat \nFlow Max in kg/min since last \nClear Min/Max \n \nR \n \n1211 \n1210 \n4 \nFloat \nFlow AV in kg/min  \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1213 \n1212 \n4 \nFloat \nFlow in kg/s \n \nR \n \n1215 \n1214 \n4 \nFloat \nFlow Min in kg/s since last \nClear Min/Max \n \nR \n \n1217 \n1216 \n4 \nFloat \nFlow Max in kg/s since last \nClear Min/Max \n \nR \n \n1219 \n1218 \n4 \nFloat \nFlow AV in kg/s  \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1221 \n1220 \n4 \nFloat \nFlow in kW \n \nR \n \n1223 \n1222 \n4 \nFloat \nFlow Min in kW since last \nClear Min/Max \n \nR \n \n1225 \n1224 \n4 \nFloat \nFlow Max in kW since last \nClear Min/Max \n \nR \n \n1227 \n1226 \n4 \nFloat \nFlow AV in kW  \n \nR \nAverage for time period \ndefined in AVTime Setup"
+  },
+  {
+    "chunk_id": 34,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "„1 to 1440 minutes“ \n1221 \n1220 \n4 \nFloat \nFlow in kW \n \nR \n \n1223 \n1222 \n4 \nFloat \nFlow Min in kW since last \nClear Min/Max \n \nR \n \n1225 \n1224 \n4 \nFloat \nFlow Max in kW since last \nClear Min/Max \n \nR \n \n1227 \n1226 \n4 \nFloat \nFlow AV in kW  \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“"
+  },
+  {
+    "chunk_id": 35,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 17 of 29 \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData \nType \nDescription \nDefault \nRead \nWrite \nUnit /Comment \n1269 \n1268 \n4 \nUInt32 \nConsumption m³ before \ncomma \nx \nR \n \n1271 \n1270 \n4 \nFloat \nConsumption m³ after comma \nx \nR \n \n1273 \n1272 \n4 \nFloat \nConsumption m³ AV  \nx \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1275 \n1274 \n4 \nUInt32 \nConsumption Nm³ before \ncomma \nx \nR \n \n1277 \n1276 \n4 \nFloat \nConsumption Nm³ after \ncomma \nx \nR \n \n1279 \n1278 \n4 \nFloat \nConsumption Nm³ AV  \nx \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1281 \n1280 \n4 \nUInt32 \nConsumption ltr before \ncomma \nx \nR \n \n1283 \n1282 \n4 \nFloat \nConsumption ltr after comma \nx \nR \n \n1285 \n1284 \n4 \nFloat \nConsumption ltr AV  \nx \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1287 \n1286 \n4 \nUInt32 \nConsumption Nltr before \ncomma \nx \nR \n \n1289 \n1288 \n4 \nFloat"
+  },
+  {
+    "chunk_id": 36,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "comma \nx \nR \n \n1283 \n1282 \n4 \nFloat \nConsumption ltr after comma \nx \nR \n \n1285 \n1284 \n4 \nFloat \nConsumption ltr AV  \nx \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1287 \n1286 \n4 \nUInt32 \nConsumption Nltr before \ncomma \nx \nR \n \n1289 \n1288 \n4 \nFloat \nConsumption Nltr after comma \nx \nR \n \n1291 \n1290 \n4 \nFloat \nConsumption Nltr AV  \nx \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1293 \n1292 \n4 \nUInt32 \nConsumption cf before \ncomma \nx \nR \n \n1295 \n1294 \n4 \nFloat \nConsumption cf after comma \nx \nR \n \n1297 \n1296 \n4 \nFloat \nConsumption cf AV  \nx \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1299 \n1298 \n4 \nUInt32 \nConsumption Ncf before \ncomma \nx \nR \n \n1301 \n1300 \n4 \nFloat \nConsumption Ncf after comma \nx \nR \n \n1303 \n1302 \n4 \nFloat \nConsumption Ncf AV  \nx \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1305 \n1304 \n4 \nUInt32 \nConsumption kg before \ncomma \nx \nR \n \n1307"
+  },
+  {
+    "chunk_id": 37,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "4 \nUInt32 \nConsumption Ncf before \ncomma \nx \nR \n \n1301 \n1300 \n4 \nFloat \nConsumption Ncf after comma \nx \nR \n \n1303 \n1302 \n4 \nFloat \nConsumption Ncf AV  \nx \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1305 \n1304 \n4 \nUInt32 \nConsumption kg before \ncomma \nx \nR \n \n1307 \n1306 \n4 \nFloat \nConsumption kg after comma \nx \nR \n \n1309 \n1308 \n4 \nFloat \nConsumption kg AV  \nx \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1311 \n1310 \n4 \nUInt32 \nConsumption kWh before \ncomma \nx \nR \n \n1313 \n1312 \n4 \nFloat \nConsumption kWh after \ncomma \nx \nR \n \n1315 \n1314 \n4 \nFloat \nConsumption kWh AV  \nx \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“"
+  },
+  {
+    "chunk_id": 38,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 18 of 29 \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDef\nault \nRead \nWrite \nUnit /Comment \n1347 \n1346 \n4 \nFloat \nVelocity m/s \n \nR \n \n1349 \n1348 \n4 \nFloat \nVelocity Min m/s since last Clear \nMin/Max \n \nR \n \n1351 \n1350 \n4 \nFloat \nVelocity Max m/s since last Clear \nMin/Max \n \nR \n \n1353 \n1352 \n4 \nFloat \nVelocity AV m/s  \n \nR \nAverage for time period \ndefined in AVTime Setup    \n„1 to 1440 minutes“ \n1355 \n1354 \n4 \nFloat \nVelocity Nm/s \n \nR \n \n1357 \n1356 \n4 \nFloat \nVelocity Min Nm/s since last \nClear Min/Max \n \nR \n \n1359 \n1358 \n4 \nFloat \nVelocity Max Nm/s since last \nClear Min/Max \n \nR \n \n1361 \n1360 \n4 \nFloat \nVelocity AV Nm/s  \n \nR \nAverage for time period \ndefined in AVTime Setup   \n„1 to 1440 minutes“ \n1363 \n1362 \n4 \nFloat \nVelocity Ft/min \n \nR \n \n1365 \n1364 \n4 \nFloat \nVelocity Min Ft/min since last \nClear Min/Max \n \nR \n \n1367 \n1366 \n4 \nFloat \nVelocity Max Ft/min since last \nClear Min/Max \n \nR \n \n1369 \n1368"
+  },
+  {
+    "chunk_id": 39,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "R \nAverage for time period \ndefined in AVTime Setup   \n„1 to 1440 minutes“ \n1363 \n1362 \n4 \nFloat \nVelocity Ft/min \n \nR \n \n1365 \n1364 \n4 \nFloat \nVelocity Min Ft/min since last \nClear Min/Max \n \nR \n \n1367 \n1366 \n4 \nFloat \nVelocity Max Ft/min since last \nClear Min/Max \n \nR \n \n1369 \n1368 \n4 \nFloat \nVelocity AV Ft/min  \n \nR \nAverage for time period \ndefined in AVTime Setup   \n„1 to 1440 minutes“ \n1371 \n1370 \n4 \nFloat \nVelocity NFt/min \n \nR \n \n1373 \n1372 \n4 \nFloat \nVelocity Min NFt/min since last \nClear Min/Max \n \nR \n \n1375 \n1374 \n4 \nFloat \nVelocity Max NFt/min since last \nClear Min/Max \n \nR \n \n1377 \n1376 \n4 \nFloat \nVelocity AV NFt/min  \n \nR \nAverage for time period \ndefined in AVTime Setup   \n„1 to 1440 minutes“ \n1419 \n1418 \n4 \nFloat \nGasTemp °C \n \nR \n \n1421 \n1420 \n4 \nFloat \nGasTemp Min °C since Clear \nMin/Max \n \nR \n \n1423 \n1422 \n4 \nFloat \nGasTemp Max °C since Clear \nMin/Max \n \nR \n \n1425 \n1424 \n4 \nFloat \nGasTemp AV °C \n \nR \nAverage for time period \ndefined in AVTime Setup"
+  },
+  {
+    "chunk_id": 40,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "„1 to 1440 minutes“ \n1419 \n1418 \n4 \nFloat \nGasTemp °C \n \nR \n \n1421 \n1420 \n4 \nFloat \nGasTemp Min °C since Clear \nMin/Max \n \nR \n \n1423 \n1422 \n4 \nFloat \nGasTemp Max °C since Clear \nMin/Max \n \nR \n \n1425 \n1424 \n4 \nFloat \nGasTemp AV °C \n \nR \nAverage for time period \ndefined in AVTime Setup   \n„1 to 1440 minutes“ \n1427 \n1426 \n4 \nFloat \nGasTemp °F \n \nR \n \n1429 \n1428 \n4 \nFloat \nGasTemp Min °F since Clear \nMin/Max \n \nR \n \n1431 \n1430 \n4 \nFloat \nGasTemp Max °F since Clear \nMin/Max \n \nR \n \n1433 \n1432 \n4 \nFloat \nGasTemp AV °F \n \nR \nAverage for time period \ndefined in AVTime Setup   \n„1 to 1440 minutes“"
+  },
+  {
+    "chunk_id": 41,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 19 of 29 \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDef\nault \nRead \nWrite \nUnit /Comment \n1475 \n1474 \n4 \nFloat \nSystempressure mbar \nx \nR \nValue only available with \npressure option \n1477 \n1476 \n4 \nFloat \nsystempressure Min mbar since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1479 \n1478 \n4 \nFloat \nsystempressure Max mbar since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1481 \n1480 \n4 \nFloat \nSystempressure bar \nx \nR \nValue only available with \npressure option \n1483 \n1482 \n4 \nFloat \nsystempressure Min bar since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1485 \n1484 \n4 \nFloat \nsystempressure Max bar since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1487 \n1486 \n4 \nFloat \nSystempressure psi \nx \nR \nValue only available with \npressure option \n1489 \n1488 \n4 \nFloat \nsystempressure Min psi since \nClear Min/Max \nx \nR"
+  },
+  {
+    "chunk_id": 42,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "pressure option \n1485 \n1484 \n4 \nFloat \nsystempressure Max bar since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1487 \n1486 \n4 \nFloat \nSystempressure psi \nx \nR \nValue only available with \npressure option \n1489 \n1488 \n4 \nFloat \nsystempressure Min psi since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1491 \n1490 \n4 \nFloat \nsystempressure Max psi since \nClear Min/Max \nx \nR \nValue only available with \npressure option"
+  },
+  {
+    "chunk_id": 43,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 20 of 29 \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDef\nault \nRead \nWrite \nUnit /Comment \n1533 \n1532 \n4 \nUInt \nConsumption m³ bevore comma \n(left side) \nx \nR \nonly available with \nVA500/ VA520 Bi-\ndirectional measurment \n1535 \n1534 \n4 \nFloat \nConsumption m³ after comma \n(left side) \nx \nR \n1537 \n1536 \n4 \nUInt \nConsumption total m³ bevore \ncomma (left side + right side) \nx \nR \n1539 \n1538 \n4 \nFloat \nConsumption total m³ after \ncomma (left side + right side) \nx \nR \n1541 \n1540 \n4 \nUInt \nConsumption Nm³ bevore \ncomma (left side) \nx \nR \n1543 \n1542 \n4 \nFloat \nConsumption Nm³ after comma \n(left side) \nx \nR \n1545 \n1544 \n4 \nUInt \nConsumption total Nm³ bevore \ncomma (left side + right side) \nx \nR \n1547 \n1546 \n4 \nFloat \nConsumption total Nm³ after \ncomma (left side + right side) \nx \nR \n1549 \n1548 \n4 \nUInt \nConsumption ltr bevore comma \n(left side) \nx \nR \n1551 \n1550 \n4 \nFloat \nConsumption ltr after comma \n(left side) \nx"
+  },
+  {
+    "chunk_id": 44,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "UInt \nConsumption total Nm³ bevore \ncomma (left side + right side) \nx \nR \n1547 \n1546 \n4 \nFloat \nConsumption total Nm³ after \ncomma (left side + right side) \nx \nR \n1549 \n1548 \n4 \nUInt \nConsumption ltr bevore comma \n(left side) \nx \nR \n1551 \n1550 \n4 \nFloat \nConsumption ltr after comma \n(left side) \nx \nR \n1553 \n1552 \n4 \nUInt \nConsumption total ltr bevore \ncomma (left side + right side) \nx \nR \n1555 \n1554 \n4 \nFloat \nConsumption total ltr after \ncomma (left side + right side) \nx \nR \n1557 \n1556 \n4 \nUInt \nConsumption Nltr bevore comma \n(left side) \nx \nR \n1559 \n1558 \n4 \nFloat/ \nConsumption Nltr after comma \n(left side) \nx \nR \n1561 \n1560 \n4 \nUInt \nConsumption total Nltr bevore \ncomma (left side + right side) \nx \nR \n1563 \n1562 \n4 \nFloat \nConsumption total Nltr after \ncomma (left side + right side) \nx \nR \n1565 \n1564 \n4 \nUInt \nConsumption Cf bevore comma \n(left side) \nx \nR \n1567 \n1566 \n4 \nFloatd \nConsumption Cf after comma \n(left side) \nx \nR \n1569 \n1568 \n4 \nUInt \nConsumption total Cf bevore"
+  },
+  {
+    "chunk_id": 45,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "x \nR \n1563 \n1562 \n4 \nFloat \nConsumption total Nltr after \ncomma (left side + right side) \nx \nR \n1565 \n1564 \n4 \nUInt \nConsumption Cf bevore comma \n(left side) \nx \nR \n1567 \n1566 \n4 \nFloatd \nConsumption Cf after comma \n(left side) \nx \nR \n1569 \n1568 \n4 \nUInt \nConsumption total Cf bevore \ncomma (left side + right side) \nx \nR \n1571 \n1570 \n4 \nFloat \nConsumption total Cf after \ncomma (left side + right side) \nx \nR \n1573 \n1572 \n4 \nUInt \nConsumption NCf bevore \ncomma (left side) \nx \nR \n1575 \n1574 \n4 \nFloat \nConsumption NCf after comma \n(left side) \nx \nR \n1577 \n1576 \n4 \nUInt \nConsumption total NCf bevore \ncomma (left side + right side) \nx \nR"
+  },
+  {
+    "chunk_id": 46,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 21 of 29 \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDef\nault \nRead \nWrite \nUnit /Comment \n1579 \n1578 \n4 \nFloat/Dword \nConsumption total NCf after \ncomma (left side + right side) \nx \nR \nonly available with \nVA500/ VA520 Bi-\ndirectional measurment \n1581 \n1580 \n4 \nUInt/Dword \nConsumption kg bevore comma \n(left side) \nx \nR \n1583 \n1582 \n4 \nFloat/Dword \nConsumption kg after comma \n(left side) \nx \nR \n1585 \n1584 \n4 \nUInt/Dword \nConsumption total kg bevore \ncomma (left side + right side) \nx \nR \n1587 \n1586 \n4 \nFloat/Dword \nConsumption total kg after \ncomma (left side + right side) \nx \nR \n1589 \n1588 \n4 \nUInt/Dword \nConsumption kWh bevore \ncomma (left side) \nx \nR \n1591 \n1590 \n4 \nFloat/Dword \nConsumption kWh after comma \n(left side) \nx \nR \n1593 \n1592 \n4 \nUInt/Dword \nConsumption total kWh bevore \ncomma (left side + right side) \nx \nR \n1595 \n1594 \n4 \nFloat/Dword \nConsumption total kWh after \ncomma (left side + right side)"
+  },
+  {
+    "chunk_id": 47,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "comma (left side) \nx \nR \n1591 \n1590 \n4 \nFloat/Dword \nConsumption kWh after comma \n(left side) \nx \nR \n1593 \n1592 \n4 \nUInt/Dword \nConsumption total kWh bevore \ncomma (left side + right side) \nx \nR \n1595 \n1594 \n4 \nFloat/Dword \nConsumption total kWh after \ncomma (left side + right side) \nx \nR \n \n \n \nRemark:   \n \nFor sensors VA500B / VA520B (bi-directional) applies: \nValues for the \"Green\" direction can be read from registers  \n1000 - 1600. \nValues for the \"Blue\" direction can be read from registers  \n10000 - 11600. \n \nRegister address for values in direction \"Blue\" = Register address in direction \"Green\" + 9000 \n \nExample for consumption in m³ \nValue for direction \"Green\" Register Address  \n1268 \nValue for direction \"Blue\" Register address  \n10268    (1268 +9000 = 10268)"
+  },
+  {
+    "chunk_id": 48,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 22 of 29 \n \n7.3 \nDevice settings register  \n7.3.1 \nModbus Settings    (2001…2005) \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment \n2001 \n2000 \n2 \nUInt16 \nModbus ID \n1 \nR/W \nModbus ID 1…247 \n2002 \n2001 \n2 \nUInt16 \nBaudrate \n4 \nR/W \n0 = 1200 \n1 = 2400 \n2 = 4800 \n3 = 9600 \n4 = 19200 \n5 = 38400 \n6 = 57600 \n7 = 115200 \n2003 \n2002 \n2 \nUInt16 \nParity \n1 \nR/W \n0 = none \n1 = even \n2 = odd \n2004 \n2003 \n2 \nUInt16 \nNumber of Stopbits \n \nR/W \n0 = 1 Stop Bit \n1 = 2 Stop Bit \n2005 \n2004 \n2 \nUInt16 \nWord Order \n0xABCD \nR/W \n0xABCD = Big Endian \n0xCDAB = Middle Endian \n \n7.3.2 \nDisplay Settings    (2007…2009) \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment \n2007 \n2006 \n2 \nUInt16 \nDisplay Rotation \nAuto dimming \n0 \nR/W \nbit 0: 0 = 0°,  1 = 180° \nbit 1: 0 = Autodimm off \n        1 = Autodimm on"
+  },
+  {
+    "chunk_id": 49,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "7.3.2 \nDisplay Settings    (2007…2009) \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment \n2007 \n2006 \n2 \nUInt16 \nDisplay Rotation \nAuto dimming \n0 \nR/W \nbit 0: 0 = 0°,  1 = 180° \nbit 1: 0 = Autodimm off \n        1 = Autodimm on \nbit 2 0 = KeyLock off, 1 = \nKeyLock on \nbit 3 to 7 reserved \nbit 8 to 15 Autodimm Time \n(max. 240 Minutes)\" \n2008 \n2007 \n2 \nUInt16 \nBackLight \nBrightness \n80 \nR/W \n0 to 100% \n2009 \n2008 \n2 \nUInt16 \nLanguage \n0 \nR/W \n0 = English \n1 = Deutsch \n2 = Spanish \n3 = French"
+  },
+  {
+    "chunk_id": 50,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 23 of 29 \n7.3.3 \nDevice Settings     (2021…2063) \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment \n2021 \n2020 \n16 \nString \nSensor Location  \n\"\" \nR/W \n \n2029 \n2028 \n4 \nUint32 \nCalibrated GasType as \nindex \n0 \nR/W \nindex to Get Gas Names as \nString see chapter 7.4 \n2031 \n2030 \n4 \nUint32 \nGasSubType (only \navailable if Calibrated \nGasType is Air) \n0 \nR/W \n0 =  Air \n1 =  CO2  \n2 =  N2O  \n3 =  N2  \n4 =  O2  \n5 =  NG  \n6 =  AR  \n7 =  He  \n8 =  H2  \n9 =  C3H8  \n10 = CH4 \n2033 \n2032 \n4 \nUint32 \nIndex of Length Unit  \nUnit according Unit Index \ntable \n64 \n(mm) \nR/W \n \n2035 \n2034 \n4 \nUint32 \nIndex of Flow Unit  \nUnit according Unit Index \ntable \n14 \n(m³/h) \nR/W \n \n2037 \n2036 \n4 \nUint32 \nIndex of Velocity Unit  \nUnit according Unit Index \ntable \n10 \n(m/s) \nR/W \n \n2039 \n2038 \n4 \nUint32 \nIndex of Consumption  \nUnit according Unit Index \ntable \n24 (m³) \nR/W \n \n2041 \n2040 \n4 \nUint32"
+  },
+  {
+    "chunk_id": 51,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "Index of Flow Unit  \nUnit according Unit Index \ntable \n14 \n(m³/h) \nR/W \n \n2037 \n2036 \n4 \nUint32 \nIndex of Velocity Unit  \nUnit according Unit Index \ntable \n10 \n(m/s) \nR/W \n \n2039 \n2038 \n4 \nUint32 \nIndex of Consumption  \nUnit according Unit Index \ntable \n24 (m³) \nR/W \n \n2041 \n2040 \n4 \nUint32 \nIndex of Temperature  \nUnit according Unit Index \ntable \n1 (°C) \nR/W \n \n2043 \n2042 \n4 \nUint32 \nIndex of Pressure  \nUnit according Unit Index \ntable \n38 \n(mbar) \nR/W \n \n2045 \n2044 \n4 \nFloat \nPipe diameter in length unit  \nas programmed in Register \n2033 \n \nR/W \n \n2047 \n2046 \n4 \nFloat \nReference Temperature in \nUnit programmed in \nRegister 2041 \n20 \nR/W \n \n2049 \n2048 \n4 \nFloat \nReference Pressure in Unit \nprogrammed in Register \n2043 \n1000 \nR/W \n \n2051 \n2050 \n4 \nFloat \nSystem Pressure in Unit \nprogrammed in Register \n2043 \n5000 \nR/W \n \n2053 \n2052 \n4 \nFloat \nZero Point, CutOff, \nMinFlow Settings \n0 \nR/W \nWrite: \n< 0: AutoCal ZeroPnt \n= 0: clear MinFlow or CutOff \n> 0: CutOff Value \n2055 \n2054 \n4"
+  },
+  {
+    "chunk_id": 52,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "programmed in Register \n2043 \n1000 \nR/W \n \n2051 \n2050 \n4 \nFloat \nSystem Pressure in Unit \nprogrammed in Register \n2043 \n5000 \nR/W \n \n2053 \n2052 \n4 \nFloat \nZero Point, CutOff, \nMinFlow Settings \n0 \nR/W \nWrite: \n< 0: AutoCal ZeroPnt \n= 0: clear MinFlow or CutOff \n> 0: CutOff Value \n2055 \n2054 \n4 \nFloat \nunused \n0 \nR/W \n \n2057 \n2056 \n4 \nFloat \nLowPass Filter Time for \nFlow and Velocity in ms \n100 \nR/W \n \n2059 \n2058 \n4 \nUint32 \nAverage Time to Build \nAverage (1 to 1440 \nminutes) \n60 \nR/W \n \n2061 \n2060 \n4 \nFloat \nHeatRating for Flammable \ngases at 0°C / \n1013.25mbar \n0 \nR/W \n \n2063 \n2062 \n4 \nUint32 \nnext Cal Date \nCalDat\ne + 2 \nYears \nR/W \nUnixTime"
+  },
+  {
+    "chunk_id": 53,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 24 of 29 \n \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment \n2081 \n2080 \n4 \nFloat \nRelais Mode as index \n1 \nR/W \n0 = none  \n1 = Puls  \n2 = Alarm \n2083 \n2082 \n4 \nFloat \nUnit Puls from Unit Table \nU_m3  \nR/W \nU_m3  \nU_ltr  \nU_cf  \nU_kg \n2085 \n2084 \n4 \nFloat \nPulse Value (value where \nis generated a new puls) \n1 \nR/W \n \n2087 \n2086 \n4 \nFloat \nPulse Polarity \n1 \nR/W \n0 = neg  \n1 = pos \n2089 \n2088 \n4 \nFloat \nUnit Alarm from Unit Table \nU_GRA\nD_C \nR/W \nU_m_s  \nU_m3_h  \nU_ltr_s  \nU_cfm  \nU_kg_min  \nU_kg_s  \nU_GRAD_C  \nU_GRAD_F \n2091 \n2090 \n4 \nFloat \nAlarm Value in Unit above \n25 \nR/W \n \n2093 \n2092 \n4 \nFloat \nAlarm Hysteresis in Unit \nabove \n1 \nR/W \n \n2095 \n2094 \n4 \nFloat \nAlarm at overshot or \nundershot as index \n1 \nR/W \n0 = undershot \n1 = overshot \n2113 \n2112 \n4 \nFloat \nReset to Factory Defaults \n \nW \nsend Serial Number to this \nadr. to set factory defaults \n2115 \n2114 \n4"
+  },
+  {
+    "chunk_id": 54,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "R/W \n \n2093 \n2092 \n4 \nFloat \nAlarm Hysteresis in Unit \nabove \n1 \nR/W \n \n2095 \n2094 \n4 \nFloat \nAlarm at overshot or \nundershot as index \n1 \nR/W \n0 = undershot \n1 = overshot \n2113 \n2112 \n4 \nFloat \nReset to Factory Defaults \n \nW \nsend Serial Number to this \nadr. to set factory defaults \n2115 \n2114 \n4 \nUInt32 \nConsumption at \nprogrammed unit above \n \nW \nif not locked, value to set \nconsumption \n2117 \n2116 \n4 \nFloat \nReset Min/Max Values \n \nW \n \n2119 \n2118 \n4 \nFloat \nReset AV Values \n \nW \n \n2121 \n2120 \n4 \nFloat \nTemperature Correction \nValue at unit programmed \nabove \n \nR/W \nWrite the actual measured \nTemperature value to this \nregister \nat read the offset to internal \ntemperature is returned \n2123 \n2122 \n4 \nFloat \nSet or Clear \nRemoteControll State \n \nR/W \n0 = cleared all other means \nremote controlled \n2125 \n2124 \n4 \nFloat \nUser offset pressure \n \nR/W \nonly with pressure option \navailable \n2127 \n2126 \n4 \nFloat \nConsumption (left side) at \nprogrammed unit above \n \nR/W"
+  },
+  {
+    "chunk_id": 55,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "2123 \n2122 \n4 \nFloat \nSet or Clear \nRemoteControll State \n \nR/W \n0 = cleared all other means \nremote controlled \n2125 \n2124 \n4 \nFloat \nUser offset pressure \n \nR/W \nonly with pressure option \navailable \n2127 \n2126 \n4 \nFloat \nConsumption (left side) at \nprogrammed unit above \n \nR/W \nonly available in Direction \nSensor VA509"
+  },
+  {
+    "chunk_id": 56,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 25 of 29 \n \n7.3.4 \nAnalog 4…20mA Register \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment \n2201 \n2200 \n4 \nUInt32 \n4-20mA CH1 Selected \nValue as index \n1 or 2 \nR/W \n0 = not used  \n1 = Flow  \n2 = Velocity  \n3 = Temperature \n2203 \n2202 \n4 \nUInt32 \n4-20mA CH1 Unit index \nfrom unit table for above \nselected Value \nU_m3_h \n(VA520 & VA \n570)  \nU_m_s \n(VA500 & VA \n550) \nR/W \nFlow: \nU_m3_h,U_Nm3_h,U_m3_\nmin,U_Nm3_min,U_ltr_h,U\n_Nltr_h,U_ltr_min,U_Nl_mi\nn,U_ltr_s,U_Nl_s,U_cfm,U\n_Ncfm,U_kg_h,U_kg_min,\nU_kg_s,U_kW \nVelocity: \nU_m_s,U_Nm_s,U_Ft_min\n,U_Nft_min \nTemperature: \nU_GRAD_C,U_GRAD_F \n2205 \n2204 \n4 \nUInt32 \n4-20mA CH1 Auto or \nManual Range \n0 \nR/W \n0 = AutoRange \n1 = Manual Range \n2207 \n2206 \n4 \nUInt32 \n4-20mA CH1 Scale Low  \n0 \nR/W \nwritable only if  Manual \nRange is selected \n2209 \n2208 \n4 \nUInt32 \n4-20mA CH1 Scale High  \nMax Speed \nR/W \nwritable only if  Manual"
+  },
+  {
+    "chunk_id": 57,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "2205 \n2204 \n4 \nUInt32 \n4-20mA CH1 Auto or \nManual Range \n0 \nR/W \n0 = AutoRange \n1 = Manual Range \n2207 \n2206 \n4 \nUInt32 \n4-20mA CH1 Scale Low  \n0 \nR/W \nwritable only if  Manual \nRange is selected \n2209 \n2208 \n4 \nUInt32 \n4-20mA CH1 Scale High  \nMax Speed \nR/W \nwritable only if  Manual \nRange is selected \n2211 \n2210 \n4 \nUInt32 \n4-20mA CH2 Selected \nValue as index \n3 \nR/W \n0 = not used  \n1 = Flow  \n2 = Velocity  \n3 = Temperature \n2213 \n2212 \n4 \nUInt32 \n4-20mA CH2 Unit index \nfrom unit table for above \nselected Value \nU_GRAD_C \nR/W \nFlow: \nU_m3_h,U_Nm3_h,U_m3_\nmin,U_Nm3_min,U_ltr_h,U\n_Nltr_h,U_ltr_min,U_Nl_mi\nn,U_ltr_s,U_Nl_s,U_cfm,U\n_Ncfm,U_kg_h,U_kg_min,\nU_kg_s,U_kW \nVelocity: \nU_m_s,U_Nm_s,U_Ft_min\n,U_Nft_min \nTemperature: \nU_GRAD_C,U_GRAD_F \n2215 \n2214 \n4 \nUInt32 \n4-20mA CH2 Auto or \nManual Range \n-20 \nR/W \n0 = AutoRange \n1 = Manual Range \n2217 \n2216 \n4 \nUInt32 \n4-20mA CH2 Scale Low  \n100 \nR/W \nwritable only if  Manual \nRange is selected \n2219 \n2218 \n4 \nUInt32 \n4-20mA CH2 Scale High"
+  },
+  {
+    "chunk_id": 58,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": ",U_Nft_min \nTemperature: \nU_GRAD_C,U_GRAD_F \n2215 \n2214 \n4 \nUInt32 \n4-20mA CH2 Auto or \nManual Range \n-20 \nR/W \n0 = AutoRange \n1 = Manual Range \n2217 \n2216 \n4 \nUInt32 \n4-20mA CH2 Scale Low  \n100 \nR/W \nwritable only if  Manual \nRange is selected \n2219 \n2218 \n4 \nUInt32 \n4-20mA CH2 Scale High  \nMax Speed \nR/W \nwritable only if  Manual \nRange is selected \n2221 \n2220 \n4 \nUInt32 \n4-20mA CH1 and CH2 \nCurrent on error as index \n \nR/W \n0 = is the actual value  \nabove 3.8mA or below \n20.5mA  \n1 = 22mA is outputed \n2 = 2mA is outputed \n2223 \n2222 \n4 \nUInt32 \n4-20mA number of \navailable channels \n1 \nR"
+  },
+  {
+    "chunk_id": 59,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 26 of 29 \n \n7.3.5 \nETH Board Register \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment \n3201 \n3200 \n4 \nDword \nDHCP on/off \n1 \nR/W \n1 = DHCP on \n0 = DHCP off \n3207 \n3206 \n4 \nDword \nIP Address 4 Byte \nx \nR/W \n0xff.0xff.0xff.0xff \n3209 \n3208 \n4 \nDword \nSubnet Mask 4 \nByte \nx \nR/W \n0xff.0xff.0xff.0xff \n3211 \n3210 \n4 \nDword \nGateway 4 Byte \nx \nR/W \n0xff.0xff.0xff.0xff \n3213 \n3212 \n4 \nDword \nDNS Address 4 Byte \nx \nR/W \n0xff.0xff.0xff.0xff \n3215 \n3214 \n16 \nString \nHostname \nMAC \nADR \nR/W \nAt factory reset \nHostname is VA-MAC \nAddress : \nVA-7AD80040xxxx \n3223 \n3222 \n4 \nDword \nModBus TCP UI \n1 \nR/W \nModBus TCP User ID \n3225 \n3224 \n4 \nDword \nModBus TCP Port \n502 \nR/W \n \n3227 \n3226 \n4 \nDword \nModBus TCP \nByteOrder \n0xABCD \nR/W \nPossible values: 0xABCD \nor 0xCDAB"
+  },
+  {
+    "chunk_id": 60,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 27 of 29 \n7.3.6 \nMBus Register \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment \n3001 \n3000 \n4 \nDword \nMbus Primary Address \n0x01 \nR/W \nRange 1..255 \n3003 \n3002 \n4 \nDword \nMbus ID \n0 \nR/W \nRange 0..99999999 \n3005 \n3004 \n4 \nDword \nMbus Medium Index \n0x0E \nR/W \n0x00 =Other \n0x01 = Oil \n0x02 = Electricity \n0x03 = Gas \n0x04 = Heat \n0x05 = Steam \n0x06 = Hot Water \n0x07 = Water \n0x08 = H.C.A. \n0x09 = Compressed Air \n0x0A = C.L.M. - in \n0x0B = C.L.M. - out \n0x0C = Hot Water Mode 2 \n0x0D = Water Mode 2 \n0x0E = Bus / System \n0x0F = Reserved \n3007 \n3006 \n4 \nDword \nMbus Baudrate Index \n0x03 \nR/W \n0x00 = 300 \n0x01 = 600 \n0x02 = 1200 \n0x03 = 2400 \n0x04 = 4800 \n0x05 = 9600 \n3009 \n3008 \n4 \nDword \nMbus Manufacturer \nCSI \nR/W \n((CHAR_1 - 64 ) * 1024) + \n((CHAR_2 - 64)    * 32) + \n(CHAR_3 - 64) \n3011 \n3010 \n4 \nDword \nNumber of Mbus values \n1 \nR/W \nRange 0..20 \n3013 \n3012 \n4 \nDword"
+  },
+  {
+    "chunk_id": 61,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "0x03 \nR/W \n0x00 = 300 \n0x01 = 600 \n0x02 = 1200 \n0x03 = 2400 \n0x04 = 4800 \n0x05 = 9600 \n3009 \n3008 \n4 \nDword \nMbus Manufacturer \nCSI \nR/W \n((CHAR_1 - 64 ) * 1024) + \n((CHAR_2 - 64)    * 32) + \n(CHAR_3 - 64) \n3011 \n3010 \n4 \nDword \nNumber of Mbus values \n1 \nR/W \nRange 0..20 \n3013 \n3012 \n4 \nDword \nIndex of Value #1 \n0 \nR/W \n \n3015 \n3014 \n4 \nDword \nUnit Index for Value #1 \n14 \nR/W \n \n3017 \n3016 \n4 \nDword \nIndex of Value #2 \n \nR/W \n \n3019 \n3018 \n4 \nDword \nUnit Index for Value #2 \n \nR/W \n \n3021 \n3020 \n4 \nDword \nIndex of Value #3 \n \nR/W \n \n3023 \n3022 \n4 \nDword \nUnit Index for Value #3 \n \nR/W \n \n3025 \n3024 \n4 \nDword \nIndex of Value #4 \n \nR/W \n \n3027 \n3026 \n4 \nDword \nUnit Index for Value #4 \n \nR/W \n \nto \n \n \n \n \n \n \n \n3089 \n3038 \n4 \nDword \nIndex of Value #20 \n \nR/W \n \n3091 \n3040 \n4 \nDword \nUnit Index for Value #20 \n \nR/W \n \n \n7.3.7 \nData format test register   (64001… 64003) \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment"
+  },
+  {
+    "chunk_id": 62,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "to \n \n \n \n \n \n \n \n3089 \n3038 \n4 \nDword \nIndex of Value #20 \n \nR/W \n \n3091 \n3040 \n4 \nDword \nUnit Index for Value #20 \n \nR/W \n \n \n7.3.7 \nData format test register   (64001… 64003) \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment \n64001 \n64000 \n4 \nDword \n1000000 \nx \nR \nformat test for Dword \n64003 \n64002 \n4 \nfloat \n1000000.0 \nx \nR \nformat test for float"
+  },
+  {
+    "chunk_id": 63,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 28 of 29 \n7.4 \nGas names \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type \nDescription \nDefault \nSetting \nRead \nWrite \nUnit /Comment \n2501 \n2500 \n16 \nString \nGas at index 0 \nAir \nR  \n \n2509 \n2508 \n16 \nString \nGas at index 1 \n \nR  \n \n2517 \n2516 \n16 \nString \nGas at index 2 \n \nR  \n \n2525 \n2524 \n16 \nString \nGas at index 3 \n \nR  \n \n2533 \n2532 \n16 \nString \nGas at index 4 \n \nR  \n \n2541 \n2540 \n16 \nString \nGas at index 5 \n \nR  \n \n2549 \n2548 \n16 \nString \nGas at index 6 \n \nR  \n \n2557 \n2556 \n16 \nString \nGas at index 7 \n \nR  \n \n2565 \n2564 \n16 \nString \nGas at index 8 \n \nR  \n \n2573 \n2572 \n16 \nString \nGas at index 9 \n \nR  \n \n2581 \n2580 \n16 \nString \nGas at index 10 \n \nR  \n \n2589 \n2588 \n16 \nString \nGas at index 11 \n \nR  \n \n2597 \n2596 \n16 \nString \nGas at index 12 \n \nR  \n \n2605 \n2604 \n16 \nString \nGas at index 13 \n \nR  \n \n2613 \n2612 \n16 \nString \nGas at index 14 \n \nR  \n \n \nAddress of Gasname register: (Value register 2031)*8 +2500 \ne.g."
+  },
+  {
+    "chunk_id": 64,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "String \nGas at index 10 \n \nR  \n \n2589 \n2588 \n16 \nString \nGas at index 11 \n \nR  \n \n2597 \n2596 \n16 \nString \nGas at index 12 \n \nR  \n \n2605 \n2604 \n16 \nString \nGas at index 13 \n \nR  \n \n2613 \n2612 \n16 \nString \nGas at index 14 \n \nR  \n \n \nAddress of Gasname register: (Value register 2031)*8 +2500 \ne.g.  \nValue Register 2031 = 1 \n \nAddress Gasname register: (1*8) + 2500 = 2508"
+  },
+  {
+    "chunk_id": 65,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "VA 5xx   Modbus RTU Installation  V1.17 \n \nSide 29 of 29 \n7.5 \nUnit Index table \nIndex \nValue \nIndex \nValue \nIndex \nValue \nIndex \nValue \n1 \n°C \n11 \nfpm \n21 \nNltr/min \n31 \natm°C \n2 \n°F \n12 \nNm/s \n22 \nNltr/s \n32 \natm°F \n3 \n%RH \n13 \nSFPM \n23 \nSCFM \n33 \npa \n4 \n°Ctd \n14 \nm³/h \n24 \nm³ \n34 \nhpa \n5 \n°Ftd \n15 \nm³/min \n25 \nltr \n35 \nkpa \n6 \nmg/kg \n16 \nltr/min \n26 \ncf \n36 \nMpa \n7 \nmg/m³ \n17 \nltr/s \n27 \nNm³ \n37 \nmbar \n8 \ng/kg \n18 \ncfm \n28 \nNltr \n38 \nbar \n9 \ng/m³ \n19 \nNm³/h \n29 \nSCF \n39 \npsi \n10 \nm/s \n20 \nNm³/min \n30 \nppm \n40 \nmV \n \nIndex \nValue \nIndex \nValue \nIndex \nValue \nIndex \nValue \n41 \nV \n51 \nAVcf/h \n61 \nkVAr \n71 \nltr/h \n42 \nµV \n52 \nkg/h \n62 \n- \n72 \nNltr/h \n43 \nkV \n53 \nkg/min \n63 \n€ \n73 \nlb/h \n44 \nmA \n54 \nOhm \n64 \ncts/m³ \n74 \nlb/min \n45 \nA \n55 \nHz \n65 \nW \n75 \nlb/s \n46 \nkg/s \n56 \n% \n66 \nWh \n76 \nt/h \n47 \nkg \n57 \nkW \n67 \nh \n77 \nt \n48 \nAVm³/h \n58 \nkWh \n68 \ndB \n78 \nlb \n49 \nAVl/h \n59 \nPCS \n69 \nmm \n79 \nSCFH \n50 \nAVkg/h \n60 \nkVA \n70 \ninch \n80 \ncfh \n \nIndex \nValue \nIndex \nValue \nIndex \nValue \nIndex"
+  },
+  {
+    "chunk_id": 66,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf",
+    "content": "mA \n54 \nOhm \n64 \ncts/m³ \n74 \nlb/min \n45 \nA \n55 \nHz \n65 \nW \n75 \nlb/s \n46 \nkg/s \n56 \n% \n66 \nWh \n76 \nt/h \n47 \nkg \n57 \nkW \n67 \nh \n77 \nt \n48 \nAVm³/h \n58 \nkWh \n68 \ndB \n78 \nlb \n49 \nAVl/h \n59 \nPCS \n69 \nmm \n79 \nSCFH \n50 \nAVkg/h \n60 \nkVA \n70 \ninch \n80 \ncfh \n \nIndex \nValue \nIndex \nValue \nIndex \nValue \nIndex \nValue \n81 \ng/s \n \n \n \n \n \n \n82 \ng/min \n \n \n \n \n \n \n83 \nm \n \n \n \n \n \n \n84 \nft \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n8 \n Appendix \n8.1 \nAPPENDIX A - Exception codes \nThe VA 5xx Modbus uses the following exception codes when responding to the master \n \nException Code \nException name \n0x01 \nIllegal function \n0x02 \nIllegal data address \n0x03 \nIllegal data value \n0x04 \nSlave device failure \n0x05 \nAcknowledge \n0x06 \nSlave device busy"
+  }
+]

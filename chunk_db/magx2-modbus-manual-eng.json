@@ -1,0 +1,362 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -0- \nV1.5 23-01-2018"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -1- \nV1.5 23-01-2018 \nList of Contents \n \n \n \n \n1. INTRODUCTION ............................................................................................................................................ 2 \n1.1 DEFINITIONS AND ABBREVIATIONS ...................................................................................................................... 2 \n1.2 REFERENCES ........................................................................................................................................................ 2 \n2. TECHNICAL DATA ....................................................................................................................................... 3 \n2.1 GENERAL MODBUS RTU ...................................................................................................................................... 4"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "2.1 GENERAL MODBUS RTU ...................................................................................................................................... 4 \n3. COMMISSIONING ......................................................................................................................................... 5 \n4. MODBUS ADDRESSING MODULE ............................................................................................................ 6 \n4.1 MODBUS FUNCTION CODES ................................................................................................................................... 6 \n5. MODBUS HOLDING REGISTERS .............................................................................................................. 7 \n5.1 PASSWORD ........................................................................................................................................................... 8"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "5.1 PASSWORD ........................................................................................................................................................... 8 \n5.2 REAL-TIME MEASUREMENT .................................................................................................................................. 9 \n5.3 FLOAT REAL-TIME MEASUREMENT ..................................................................................................................... 11 \n5.4 INFO ................................................................................................................................................................... 12 \n5.5 DISPLAY ............................................................................................................................................................. 14"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "5.5 DISPLAY ............................................................................................................................................................. 14 \n5.6 USER SETTINGS .................................................................................................................................................. 15 \n5.7 EXTERNAL MEASUREMENTS .............................................................................................................................. 22 \n5.8 SERVICE SETTINGS ............................................................................................................................................. 23 \n5.9 FACTORY SETTINGS ........................................................................................................................................... 25"
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "5.9 FACTORY SETTINGS ........................................................................................................................................... 25 \n5.10 AUTHORIZE ...................................................................................................................................................... 27 \n5.11 DATALOGGER ................................................................................................................................................... 28 \n6. CONTACT ...................................................................................................................................................... 29"
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -2- \nV1.5 23-01-2018 \n1. Introduction \n \n \nThis manual describes the MAGX2 Modbus-RTU communication protocol. \n \n1.1 Definitions and Abbreviations \n \nCRC \nCyclic Redundancy Check, Used for error-checking in Modbus RTU. \nSee appendix \nModbus master \nA Modbus device, which is able to access data in one or more \nconnected Modbus slaves \nModbus slave \nA Modbus device, which is able to respond to requests from a single \nModbus master \nModbus address \nThroughout this document the following notation is used to address \nModbus RTU registers: \n1234 - Holding register 1234 (addressed in messages by 1233) \nRS232 \nRefers to the communication standard defined by EIA/TIA-232C. \n(Physical layer) EIA/TIA232C \nUSB \nRefers to the USB Specification usb.org \nRS485 \nRefers to the 2-wire communication standard defined by EIA/TIA-485. \n(Physical layer) \nRTU \nRemote Terminal Unit - Standard Modbus transmission mode \n \n \n \n1.2 References \n \nReference 1"
+  },
+  {
+    "chunk_id": 7,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "(Physical layer) EIA/TIA232C \nUSB \nRefers to the USB Specification usb.org \nRS485 \nRefers to the 2-wire communication standard defined by EIA/TIA-485. \n(Physical layer) \nRTU \nRemote Terminal Unit - Standard Modbus transmission mode \n \n \n \n1.2 References \n \nReference 1 \nModbus over Serial Line Specification & Implementation guide v. 1.0 \nModbus.org 12/02/02 \nReference 2 \nModbus Application Protocol Specification v. 1.1 Modbus.org \n12/06/02 \nReference 3 \nMAGX2 manual \nReference 4 \nGSM SMS Module Specification"
+  },
+  {
+    "chunk_id": 8,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -3- \nV1.5 23-01-2018 \n2. Technical data \n \n \nARKON Flowmeter Modbus RTU specification \nDevice type \nSlave \nBaud rates \n4800, 9600, 19200, 38400 bits/sec. \nNumber of stations \nRecommended: \nmax. 31 per segment without repeaters \nDevice address range \n1-247 \nProtocol \nModbus RTU (Other Modbus protocols like ASCII, Plus or TCP/IP are \nnot supported) \nElectrical interface \nRS232, RS485 - 2 wire, USB, TCP/IP, Bluetooth \nSupported function code \n3 read holding registers \n16 write multiple registers \n17 report slave ID \nBroadcast \nNo \nMaximum cable length \nReference 3 \nStandard Modbus over serial \nline v1.0) \n  \nCertified \nNo"
+  },
+  {
+    "chunk_id": 9,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -4- \nV1.5 23-01-2018 \n2.1 General Modbus RTU \n \nThe module complies with the Modbus serial line protocol [Reference 1]. \n \nAmong other things, this implies a master-slave protocol at level 2 of the OSI model. One \nnode, (the master), issues explicit commands to one of the „slave“-nodes and processes responses. \nSlave nodes will not transmit data without request from the master node, and do not communicate with \nother slaves. Modbus is a mono master system, which means that only one master can be \nconnected at any single point in time. \n \nTwo modes of communication are possible, Unicast and Broadcast. Unicast mode is where \nthe master sends a request to one slave device, and waits a specified time for a response. In \nBroadcast mode the master sends out a request to address „0“, which means that the information is \nfor all slave devices on the network. In Broadcast mode there is no response from the slave \ndevices."
+  },
+  {
+    "chunk_id": 10,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "Broadcast mode the master sends out a request to address „0“, which means that the information is \nfor all slave devices on the network. In Broadcast mode there is no response from the slave \ndevices. \n \n \n \nThe Modbus frame is shown below, and is valid for both requests and responses. \n \n \nFurther details of the Modbus protocol can be found in Reference 1 and 2."
+  },
+  {
+    "chunk_id": 11,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -5- \nV1.5 23-01-2018 \n3. Commissioning \n \n \nBefore communicating with the master, Baud rate, slave ID and Parity must be selected. This \ncan be done from the display. Please look at into the MAGX2 transmitter manual to locate the Modbus \nmenu. (see Reference 3.) \n \nItem \nValue \nComments \nSlave address \n1 - 247 \nDevice address [Factory setting: 1] \nBaud rate \n4800, 9600, 19200, 38400 \nCommunication speed [Factory setting: \n9600] \nParity/framing \nEven, 1 stopbit \nCommunication parameters [Factory \nsetting: Even, 1 stopbit] \nOdd, 1 stopbit  \nNone, 2 stopbit \nNone, 1 stopbit"
+  },
+  {
+    "chunk_id": 12,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -6- \nV1.5 23-01-2018 \n4. Modbus addressing module \n \nThe module allows R/W access to the following standard Modbus data register blocks: \n• Holding registers \n \nI.e. the module will not support the other standard data register blocks: \n• Coils \n• „Discrete input“ \n• „Input registers“ \n  \n4.1 Modbus function codes \n \nThis device supports following function codes: 3, 16 and 17. \n \nFunction code 3 and 16 are used for accessing registers. Function code 17 (report slave ID) \nwill return a structure of identification information of the device. Below the different function code \nexceptions are described. \n \nFunction code 3 (Read holding registers) \nGeneral exceptions: \n• Requesting less than 1 or more than 125 registers => Exception 3 (Illegal data value) \n• Requesting more than max. message size => Exception 2 (Illegal data address) \n• Requesting data above/crossing limitation of max. register address (0xFFFF) => Exception 2 \n(Illegal data address)"
+  },
+  {
+    "chunk_id": 13,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "• Requesting less than 1 or more than 125 registers => Exception 3 (Illegal data value) \n• Requesting more than max. message size => Exception 2 (Illegal data address) \n• Requesting data above/crossing limitation of max. register address (0xFFFF) => Exception 2 \n(Illegal data address) \n• If the end address is only part of a mapped holding register item (e.g. one half of a longint \nvalue) => Exception 2 (Illegal data address) \n \nApplication exceptions: \n• Application errors => Exception 2 (Illegal data address) \nHoles/register alignment: \n• The read command always returns data if no exception is given. Bad start/end alignment will \nresult in only parts of the data item being read. \n• Holes in the holding register map return Exception 2 (Illegal data address) \n \nFunction code 16 (Write multiple registers) \nGeneral exceptions: \n• Exceeding max. message size => Exception 2 (Illegal data address) \n• Writing data above/crossing limitation of max. register address (0xFFFF) => Exception"
+  },
+  {
+    "chunk_id": 14,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "Function code 16 (Write multiple registers) \nGeneral exceptions: \n• Exceeding max. message size => Exception 2 (Illegal data address) \n• Writing data above/crossing limitation of max. register address (0xFFFF) => Exception \n2(Illegal data address) \nApplication exceptions: \n• Application errors => Exception 2 (Illegal data address) \n• Application errors include writing to ReadOnly holding registers \nHoles / register alignment: \n• If start-address is not the start of a mapped holding register => Exception 2 (Illegal data \naddress) \n• Writing to holes is not allowed => Exception 2 (Illegal data address) \n• If the end address is only part of a mapped holding register item (e.g. one half of a longint \nvalue), the action depends on the datatype. \n• If the end address is only part of a mapped holding register item (e.g. one half of a longint \nvalue) => Exception 2 (Illegal data address) \n \nFunction code 17 (Report Slave ID) \n• There are no exceptions for this function"
+  },
+  {
+    "chunk_id": 15,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -7- \nV1.5 23-01-2018 \n5. Modbus holding registers \n \nBelow, the holding registers for the MAGX2 Modbus RTU module are described. \n \nModbus \nStart Register     Section \n2 \nPassword \n100 \nReal-time measurement \n150 \nFloat real-time measurement \n1000 \nInfo \n1500 \nDisplay \n2000 \nUser settings \n2500 \nExternal measurements \n3000 \nService settings \n4000 \nFactory settings \n5000 \nAuthorize \n10000 \nDatalogger \n \nHolding registers memory map \n \nWhen writing to the Holding registers, data validity is not checked. Writing incorrect values can \nresult in unexpected behaviour of the device. In any further explanations, the following data types are \nused: \n \nLongint – Number consisting of 32 bits, formed by 2 Modbus registers. It is necessary to write \nboth Low and High Word of this item, the register number always has to be an even number. Not \nmeeting these requirements will cause an Exception 2 error (Illegal data address). In case information"
+  },
+  {
+    "chunk_id": 16,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "Longint – Number consisting of 32 bits, formed by 2 Modbus registers. It is necessary to write \nboth Low and High Word of this item, the register number always has to be an even number. Not \nmeeting these requirements will cause an Exception 2 error (Illegal data address). In case information \nabout the number of decimals is available, then the final number is given by the following formula: Y = \nX * 10^(-DEC), where Y is the final number, X the read number, and DEC the number of decimals. \n \nBool – this item can be read, but its value has no meaning. Writing value 1 to this item will \ncause an unspecified operation to be performed (erasing the Memory module, resetting the flow \ntotalizers, etc. Reference 3). It is necessary to write both Low and High Word of this item, the register \nnumber always has to be an even number. Not meeting these requirements will cause an Exception 2 \nerror (Illegal data address)."
+  },
+  {
+    "chunk_id": 17,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "totalizers, etc. Reference 3). It is necessary to write both Low and High Word of this item, the register \nnumber always has to be an even number. Not meeting these requirements will cause an Exception 2 \nerror (Illegal data address). \n \nFloat – IEEE 754-1985 single precistion (Approximately 7 decimal digits), number consisting of \n32 bits, formed by 2 Modbus registers. It is necessary to write both Low and High Word of this item, \nthe register number always has to be an even number. Not meeting these requirements will cause an \nException 2 error (Illegal data address). Full range ±1.18×10−38 to ±3.4×1038. \n \nModbus \nregister  \nData \nType \nLow/High \nWord \n2 \nLongint \nL \n3 \nH \n4 \nBool \nL \n5 \nH \n6 \nFloat \nL \n7 \nH \n \n       Data type memory map"
+  },
+  {
+    "chunk_id": 18,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -8- \nV1.5 23-01-2018 \n5.1 Password \n \nTo enter the \"User settings, Service settings, Factory settings, and Authorize\" sections, it is \nnecessary to enter a password in the same way as for the MAGX2 flowmeter menu, see reference 3.  \n \nModbus \nregister  \nModbus \naddress  \nNo. of \nbytes  Data type  No. of \ndecimal Min Value Max \nValue \nDescription \nRead/ \nWrite \n2 \n1 \n4 \nLongint \n0 \n0 \n9999 \nPassword (User) \nR*/W \n4 \n3 \n4 \nLongint \n0 \n0 \n999999 \nPassword (Service) \nR*/W \n6 \n5 \n4 \nLongint \n0 \n0 \n99999999 Password (Factory) \nR*/W \n8 \n7 \n4 \nLongint \n0 \n0 \n99999999 Password (Authorize) \nR*/W \n10 \n9 \n4 \nLongint \n0 \n0 \n9999 \nPassword(External  \nMeasurements) \nR*/W \n \n*) For safety purposes, it is not possible to read this item directly. In case a 0 is read from this \nregister, it means that no valid password was entered, and the given section is not accessible. In case"
+  },
+  {
+    "chunk_id": 19,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "R*/W \n10 \n9 \n4 \nLongint \n0 \n0 \n9999 \nPassword(External  \nMeasurements) \nR*/W \n \n*) For safety purposes, it is not possible to read this item directly. In case a 0 is read from this \nregister, it means that no valid password was entered, and the given section is not accessible. In case \na 1 is read, a valid password was entered and hence the given section can be accessed freely. To \nclose the section, you write any possible invalid password to the password entry.  \n \nPassword (User) – default user password “1111” \n \nPassword (External Measurements) – default External Measurements password “1111”"
+  },
+  {
+    "chunk_id": 20,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -9- \nV1.5 23-01-2018 \n5.2 Real-time measurement \n \nModbus \nregister \nModbus \naddress \nNo. of \nbytes Data type \nNo. of \ndecimal \nMin \nValue \nMax Value \nDescription \nRead/ \nWrite \n100 \n99 \n4 \nLongint \n3 \n-10^7 \n10^7 \nFLOW \nR \n102 \n101 \n4 \nLongint \n0 \n0 \n2^32 \nTOTAL * \nR \n104 \n103 \n4 \nLongint \n6 \n0 \n2^32 \nTOTAL DEC * \nR \n106 \n105 \n4 \nLongint \n0 \n0 \n2^32 \nAUX * \nR \n108 \n107 \n4 \nLongint \n6 \n0 \n2^32 \nAUX DEC * \nR \n110 \n109 \n4 \nLongint \n0 \n0 \n2^32 \nTOTAL+ * \nR \n112 \n111 \n4 \nLongint \n6 \n0 \n2^32 \nTOTAL+ DEC * \nR \n114 \n113 \n4 \nLongint \n0 \n0 \n2^32 \nTOTAL- * \nR \n116 \n115 \n4 \nLongint \n6 \n0 \n2^32 \nTOTAL- DEC * \nR \n118 \n117 \n4 \nLongint \n1 \n0 \n2^32 \nTEMP \nR \n120 \n119 \n4 \nLongint \n- \n0 \n0xFFFFFFFF Actual Error \nR \n122 \n121 \n4 \nLongint \n1 \n-10^7 \n10^7 \nExternal \nTemperature \nR \n124 \n123 \n4 \nLongint \n3 \n0 \n2^32 \nExternal \nPressure \nR \n126 \n125 \n4 \nLongint \n3 \n0 \n2^32 \nFLOW ABS \nR \n128 \n127 \n4 \nBool \n- \n0 \n1 \nFLOW SIGN \nR"
+  },
+  {
+    "chunk_id": 21,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "Longint \n1 \n0 \n2^32 \nTEMP \nR \n120 \n119 \n4 \nLongint \n- \n0 \n0xFFFFFFFF Actual Error \nR \n122 \n121 \n4 \nLongint \n1 \n-10^7 \n10^7 \nExternal \nTemperature \nR \n124 \n123 \n4 \nLongint \n3 \n0 \n2^32 \nExternal \nPressure \nR \n126 \n125 \n4 \nLongint \n3 \n0 \n2^32 \nFLOW ABS \nR \n128 \n127 \n4 \nBool \n- \n0 \n1 \nFLOW SIGN \nR \n \n*) The final number is given by the sum of the whole and the decimal. Example: Resulting \nTotal measurement = (TOTAL) + (TOTAL DEC*10^-3). \n \nFlow  \n \nUnit: m3/h - it is not possible to change it. Real value = Actual value divided by 1000. \n \nTOTAL (TOTAL +, TOTAL -, AUX +) \n \nUnit: m3 – it is not possible to change it. Real value = Actual value divided by 1000. \n \nTemp \n \nTemperature real value = Actual value divided by 10."
+  },
+  {
+    "chunk_id": 22,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -10- \nV1.5 23-01-2018 \n \nActual Error  \n \nActual error is represented in Hex format. For decode it has to be conversed to binary format, where \neach bit represent specific error. (See MAGX2 manual, MAGX2 Error Code Table) \n \nExternal Temperature \n \nIf external measurements module temperature is used then real temperature value = Actual value \ndivided by 10. \n \nExternal Pressure \n \nIf external measurements module pressure is used then real pressure value = Actual value divided by \n1000. \n \nFlow ABS and SIGN \n \nIn case signed value for longint cannot be used, a absolute value of flow and its sign can be used. \nUnit: m3/h - it is not possible to change it. Real ABS value = Actual value divided by 1000."
+  },
+  {
+    "chunk_id": 23,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -11- \nV1.5 23-01-2018 \n5.3 Float real-time measurement \n \nModbus \nregister \nModbus \naddress \nNo. of \nbytes Data type \nDescription \nRead/ \nWrite \n150 \n149 \n4 \nFloat \nFloat FLOW \nR \n152 \n151 \n4 \nFloat \nFloat TOTAL \nR \n154 \n153 \n4 \nFloat \nFloat AUX \nR \n156 \n155 \n4 \nFloat \nFloat TOTAL+ \nR \n158 \n157 \n4 \nFloat \nFloat TOTAL- \nR \n160 \n159 \n4 \nFloat \nFloat TEMP \nR \n162 \n161 \n4 \nFloat \nFloat External Temperature \nR \n164 \n163 \n4 \nFloat \nFloat External Pressure \nR \n \nFloat Flow  \n \nUnit: m3/h - it is not possible to change it.  \n \nFloat TOTAL (TOTAL +, TOTAL -, AUX +) \n \nUnit: m3 – it is not possible to change it.  \n \nFloat Temp \n \nTemperature. \n \nFloat External Temperature \n \nWhen external measurements module temperature is used. \n \nFloat External Pressure \n \nWhen external measurements module pressure is used."
+  },
+  {
+    "chunk_id": 24,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -12- \nV1.5 23-01-2018 \n5.4 Info \n \nModbus \nregister \nModbus \naddress \nNo. of \nbytes \nData type \nNo. of \ndecimal \nMin \nValue \nMax Value \nDescription \nRead/ \nWrite \n1000 \n999 \n4 \nLongint \n0 \n- \n- \nUnit No. \nR \n1002 \n1001 \n4 \nLongint \n0 \n- \n- \nSensor Unit No. \nR \n1004 \n1003 \n4 \nLongint \n0 \n- \n- \nError [min] \nR \n1006 \n1005 \n4 \nLongint \n0 \n- \n- \nOK [min] \nR \n1008 \n1007 \n4 \nLongint \n0 \n- \n- \nDiameter [mm] \nR \n1010 \n1009 \n4 \nLongint \n3 \n- \n- \nFlow Qn [m3/h] \nR \n1012 \n1011 \n4 \nLongint \n2 \n- \n- \nFirmWare No. \nR \n1014 \n1013 \n4 \nLongint \n0 \n- \n- \nActual Error \nR \n1016 \n1015 \n4 \nLongint \n0 \n- \n- \nFW Checksum \nR \n1018 \n1017 \n4 \nLongint \n0 \n0 \n1 \nSD Card Present, \n0=No, \n1=Yes \nR \n1020 \n1019 \n4 \nLongint \n0 \n0 \n1 \nGSM Module \npresent, \n0=No, \n1=Yes \nR \n1022 \n1021 \n4 \nLongint \n0 \n0 \n0xffffffff \nGPRS IP Address \nR \n1024 \n1023 \n4 \nLongint \n0 \n0 \n100 \nGSM Signal [%] \nR \n1026 \n1025 \n4 \nLongint \n0 \n0 \n1 \nGPRS Module \nPresent, \n0=No, \n1=Yes \nR \n1028 \n1027 \n4 \nLongint \n0"
+  },
+  {
+    "chunk_id": 25,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "1=Yes \nR \n1020 \n1019 \n4 \nLongint \n0 \n0 \n1 \nGSM Module \npresent, \n0=No, \n1=Yes \nR \n1022 \n1021 \n4 \nLongint \n0 \n0 \n0xffffffff \nGPRS IP Address \nR \n1024 \n1023 \n4 \nLongint \n0 \n0 \n100 \nGSM Signal [%] \nR \n1026 \n1025 \n4 \nLongint \n0 \n0 \n1 \nGPRS Module \nPresent, \n0=No, \n1=Yes \nR \n1028 \n1027 \n4 \nLongint \n0 \n0 \n1 \nWi-Fi Module \nPresent, \n0=No, \n1=Yes \nR \n \n \nUnit no. – unique number for each Flowmeter. If there are any problems, please refer to this number. \n \nError [min] – the number of minutes the device was measuring with some error. \n \nOK [min] - the number of minutes that the device measured correctly. \n \nDiameter [mm] – the nominal sensor diameter."
+  },
+  {
+    "chunk_id": 26,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -13- \nV1.5 23-01-2018 \n \nFlow Qn [m3/h] – nominal flow. \n \nFirmware No. – this item shows the current firmware version \n \nActual Error - Actual error is represented in Hex format. For decode it has to be converted to binary \nformat, where each bit represent each error. (See MAGX2 manual, MAGX2 Error Code Table). \n \nFW Checksum – Validation of not allowed changes in FW (Metrological purposes) \n \nSD Card Present – Value represent if SD card is present. (0 = not, 1 = is present). \n \nGSM Module present - Value represent if GSM Module is present (0 = not, 1 = is present) [Reference \n4]. \n \nGPRS IP Address - Actual IP address of GPRS module. \n \nGSM Signal – Signal strength of GSM module [Reference 4]. \n \nGPRS Module present - Value represent if GSM Module is present (0 = not, 1 = is present)  \n \nWi-fi Module present - Value represent if GSM Module is present (0 = not, 1 = is present)"
+  },
+  {
+    "chunk_id": 27,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -14- \nV1.5 23-01-2018 \n5.5 Display \n \nModbus \nregister  \nModbus \naddress  \nNo. of \nbytes  \nData type  \nNo. of \ndecimal \nMin \nValue \nMax Value Description \nRead/ \nWrite \n1500 \n1499 \n4 \nLongint \n- \n0 \n4 \nUnit Flow, \n0=UKG/min, \n1=USG/min, \n2=m3/h, \n3=l/min, 4=l/s \nR/W \n1502 \n1501 \n4 \nLongint \n- \n0 \n3 \nUnit Volume, \n0=UKG, \n1=USG, \n2=m3,  \n3=l \nR/W \n1504 \n1503 \n4 \nLongint \n- \n0 \n1 \nUnit \nTemperature \n0 = °C, \n1 = °F \nR/W \n1506 \n1505 \n4 \nLongint \n- \n0 \n1 \nUnit \nPressure \n0 = bar, \n1 = psi \nR/W \n1508 \n1507 \n4 \nLongint \n- \n0 \n4 \nLanguage, \n0 = ENG, \n1 = SPA, \n2 = RUS, \n3 = UKR, \n4 = TUR  \nR/W \n1510 \n1509 \n4 \nLongint \n- \n0 \n100 \nContrast [%] \nR/W \n1512 \n1511 \n4 \nLongint \n- \n0 \n1 \nBacklight, \n0 = 10 sec, \n1 = Always \non \nR/W \n \nUnit Flow – actual flow unit (default m3/h). \n \nUnit Volume – totalizer unit (default m3). \n \nUnit Temperature – applies for both internal and external temperature sensors. \n \nLanguage – Language of transmitter menu."
+  },
+  {
+    "chunk_id": 28,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "1511 \n4 \nLongint \n- \n0 \n1 \nBacklight, \n0 = 10 sec, \n1 = Always \non \nR/W \n \nUnit Flow – actual flow unit (default m3/h). \n \nUnit Volume – totalizer unit (default m3). \n \nUnit Temperature – applies for both internal and external temperature sensors. \n \nLanguage – Language of transmitter menu. \n \nContrast – Set display’s contrast. \n \nBacklight – Set display’s backlight behaviour."
+  },
+  {
+    "chunk_id": 29,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -15- \nV1.5 23-01-2018 \n5.6 User settings \n \nModbus \nregister  \nModbus \naddress  \nNo. of \nbytes Data type No. of \ndecimal \nMin \nValue \nMax Value \nDescription \nRead/ \nWrite \n2000 \n1999 \n4 \nLongint \n- \n0 \n10 \nDatalogger Interval, \n0 = OFF, \n1 = 1min, \n2 = 5min, \n3 = 10min, \n4 = 15min, \n5 = 30min, \n6 = 1h, \n7 = 2h, \n8 = 6h, \n9 = 12h, \n10 = 24h \nR/W \n2002 \n2001 \n4 \nLongint \n- \n0 \n1 \nCSV Format, \n0 = Coma (,), \n1 = Semicolon (;) \nR/W \n2004 \n2003 \n4 \nLongint \n- \n0 \n1 \nAir Detector \n0 = OFF, \n1 = ON \nR/W \n2006 \n2005 \n4 \nBool \n- \n0 \n1 \nDelete Auxiliary \nVolume? \nR/W \n2008 \n2007 \n4 \nLongint \n0 \n1 \n120 (60) \nSamples per Avg. \nR/W \n2010 \n2009 \n4 \nLongint \n- \n0 \n6 \nCurrent Loop Setting - \nSignal, \n0 = Flow+, \n1 = Flow-, \n2 = Error, \n3 = Air detector, \n4 = Fixed, \n5 = Direct driving, \n6 = OFF \nR/W \n2012 \n2011 \n4 \nLongint \n3 \n0 \n36 000 \nFlow min. [m3/h] \nR/W \n2014 \n2013 \n4 \nLongint \n3 \n0 \n36 000 \nFlow max. [m3/h] \nR/W \n2016 \n2015 \n4 \nLongint \n0 \n4 \n20"
+  },
+  {
+    "chunk_id": 30,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "- \n0 \n6 \nCurrent Loop Setting - \nSignal, \n0 = Flow+, \n1 = Flow-, \n2 = Error, \n3 = Air detector, \n4 = Fixed, \n5 = Direct driving, \n6 = OFF \nR/W \n2012 \n2011 \n4 \nLongint \n3 \n0 \n36 000 \nFlow min. [m3/h] \nR/W \n2014 \n2013 \n4 \nLongint \n3 \n0 \n36 000 \nFlow max. [m3/h] \nR/W \n2016 \n2015 \n4 \nLongint \n0 \n4 \n20 \nCurrent min. [mA] \nR/W \n2018 \n2017 \n4 \nLongint \n0 \n4 \n20 \nCurrent max. [mA] \nR/W \n2020 \n2019 \n4 \nLongint \n0 \n4 \n20 \nCurrent Loop \nCalibration point 1 \n[mA] \nR/W \n2022 \n2021 \n4 \nLongint \n0 \n4 \n20 \nCurrent Loop \nCalibration point 2 \n[mA] \nR/W \n2024 \n2023 \n4 \nLongint \n4 \n0.5 \n1.5 \nCurrent Loop \nCalibration const 1 \nR/W"
+  },
+  {
+    "chunk_id": 31,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -16- \nV1.5 23-01-2018 \n2026 \n2025 \n4 \nLongint \n4 \n0.5 \n1.5 \nCurrent Loop \nCalibration const 2 \nR/W \n2028 \n2027 \n4 \nLongint \n- \n0 \n6 \nVoltage Output \nSetting - Signal, \n0 = Flow+, \n1 = Flow-, \n2 = Error, \n3 = Air detector, \n4 = Fixed, \n5 = Direct driving, \n6 = OFF \nR/W \n2030 \n2029 \n4 \nLongint \n3 \n0 \n36 000 \nFlow min. [m3/h] \nR/W \n2032 \n2031 \n4 \nLongint \n3 \n0 \n36 000 \nFlow max. [m3/h] \nR/W \n2034 \n2033 \n4 \nLongint \n0 \n0 \n10 \nVoltage min. [V] \nR/W \n2036 \n2035 \n4 \nLongint \n0 \n0 \n10 \nVoltage max. [V] \nR/W \n2038 \n2037 \n4 \nLongint \n- \n0 \n9 \nRelay 1 \nSetting - Signal, \n0 = OFF, \n1 = Fixed, \n2 = Flow+, \n3 = Flow-, \n4 = Error, \n5 = Air Detect, \n6 = On In, \n7 = On Out, \n8 = On<F1, \n9 = On>F1 \n \nR/W \n2040 \n2039 \n4 \nLongint \n- \n0 \n9 \nRelay 2 \nSetting - Signal, \n0 = OFF, \n1 = Fixed, \n2 = Flow+, \n3 = Flow-, \n4 = Error, \n5 = Air Detect, \n6 = On In, \n7 = On Out, \n8 = On<F1, \n9 = On>F1 \n \nR/W \n2042 \n2041 \n4 \nLongint \n3 \n0 \n36 000 \nFlow 1 [m3/h] \nR/W \n2044 \n2043 \n4"
+  },
+  {
+    "chunk_id": 32,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "8 = On<F1, \n9 = On>F1 \n \nR/W \n2040 \n2039 \n4 \nLongint \n- \n0 \n9 \nRelay 2 \nSetting - Signal, \n0 = OFF, \n1 = Fixed, \n2 = Flow+, \n3 = Flow-, \n4 = Error, \n5 = Air Detect, \n6 = On In, \n7 = On Out, \n8 = On<F1, \n9 = On>F1 \n \nR/W \n2042 \n2041 \n4 \nLongint \n3 \n0 \n36 000 \nFlow 1 [m3/h] \nR/W \n2044 \n2043 \n4 \nLongint \n3 \n0 \n36 000 \nFlow 2 [m3/h] \nR/W \n2046 \n2045 \n4 \nLongint \n3 \n0 \n36 000 \nHysteresis 1 [m3/h] \nR/W \n2048 \n2047 \n4 \nLongint \n3 \n0 \n36 000 \nHysteresis 2 [m3/h] \nR/W"
+  },
+  {
+    "chunk_id": 33,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -17- \nV1.5 23-01-2018 \n2050 \n2049 \n4 \nLongint \n- \n0 \n8 \nRelay 3 \nSetting – Signal, \n0 = OFF, \n1 = ON, \n2 = Flow+, \n3 = Flow-, \n4 = Error, \n5 = Air Detect, \n6 = Pulse/Litre+, \n7 = Pulse/Litre-, \n8 = Dosing  \nR/W \n2052 \n2051 \n4 \nLongint \n- \n0 \n8 \nRelay 4 \nSetting – Signal, \n0 = OFF, \n1 = ON, \n2 = Flow+, \n3 = Flow-, \n4 = Error, \n5 = Air Detect, \n6 = Pulse/Litre+, \n7 = Pulse/Litre-, \n8 = Dosing \nR/W \n2054 \n2053 \n4 \nLongint \n0 \n0 \n99 999 \nPulse / Litre + [l] \nR/W \n2056 \n2055 \n4 \nLongint \n0 \n0 \n99 999 \nPulse / Litre – [l] \nR/W \n2058 \n2057 \n4 \nLongint \n0 \n0 \n99 999 \nDose (Batch) [l] \nR/W \n2060 \n2059 \n4 \nLongint \n- \n0 \n6 \nFrequency \nSettings – Signal, \n0 = OFF, \n1 = Fixed, \n2 = Flow+, \n3 = Flow-, \n4 = Error, \n5 = Air Detect, \n6 = Direct Driving \nR/W \n2062 \n2061 \n4 \nLongint \n3 \n0 \n36 000 \nFlow 1 [m3/h] \nR/W \n2064 \n2063 \n4 \nLongint \n3 \n0 \n36 000 \nFlow 2 [m3/h] \nR/W \n2066 \n2065 \n4 \nLongint \n0 \n0 \n1 000 \nFrequency min [Hz] \nR/W \n2068 \n2067 \n4 \nLongint \n0 \n0"
+  },
+  {
+    "chunk_id": 34,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "1 = Fixed, \n2 = Flow+, \n3 = Flow-, \n4 = Error, \n5 = Air Detect, \n6 = Direct Driving \nR/W \n2062 \n2061 \n4 \nLongint \n3 \n0 \n36 000 \nFlow 1 [m3/h] \nR/W \n2064 \n2063 \n4 \nLongint \n3 \n0 \n36 000 \nFlow 2 [m3/h] \nR/W \n2066 \n2065 \n4 \nLongint \n0 \n0 \n1 000 \nFrequency min [Hz] \nR/W \n2068 \n2067 \n4 \nLongint \n0 \n0 \n1 000 \nFrequency max [Hz] \nR/W \n2070 \n2069 \n4 \nLongint \n0 \n1 \n99 \nDuty Cycle [%] \nR/W \n2072 \n2071 \n4 \nBool \n- \n0 \n1 \nLoad Default Settings \nR/W \n2074 \n2073 \n4 \nLongint \n0 \n0 \n9 999 \nUser Password \nR/W \n2076 \n2075 \n4 \nLongint \n0 \n0 \n247 \nModbus Slave \nAddress \nR/W"
+  },
+  {
+    "chunk_id": 35,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -18- \nV1.5 23-01-2018 \n2078 \n2077 \n4 \nLongint \n0 \n0 \n3 \nModbus Baudrate, \n0 = 4800, \n1 = 9600, \n2 = 19200, \n3 = 38400 \nR/W \n2080 \n2079 \n4 \nLongint \n0 \n0 \n3 \nParity, \n0 = Even, 1stopbit, \n1 = Odd,1stopbit, \n2 = None, 2stopbits, \n3 = None, 1stopbit \nR/W \n2082 \n2081 \n4 \nLongint \n0 \n0 \n1 \nTotalizer Cycling, \n0 = ON, \n1 = OFF \nR/W \n2084 \n2083 \n4 \nLongint \n5 \n0 \n50000 \nGSM Data Interval \n[min] \nR/W \n2086 \n2085 \n4 \nLongint \n8 \n0 \n99999999 \nGSM Phone 1 High \nR/W \n2088 \n2087 \n4 \nLongint \n8 \n0 \n99999999 \nGSM Phone 1 Low \nR/W \n2090 \n2089 \n4 \nLongint \n8 \n0 \n99999999 \nGSM Phone 2 High \nR/W \n2092 \n2091 \n4 \nLongint \n8 \n0 \n99999999 \nGSM Phone 2 Low \nR/W \n2094 \n2093 \n4 \nLongint \n8 \n0 \n99999999 \nGSM Phone 3 High \nR/W \n2096 \n2095 \n4 \nLongint \n8 \n0 \n99999999 \nGSM Phone 3 Low \nR/W \n2098 \n2097 \n4 \nLongint \n- \n0 \n1 \nGSM Empty Pipe \nEvent, \n0 = OFF, \n1 = ON \nR/W \n2100 \n2099 \n4 \nLongint \n- \n0 \n1 \nGSM Zero Flow \nEvent, \n0 = OFF, \n1 = ON \nR/W \n2102 \n2101 \n4 \nLongint \n- \n0 \n1"
+  },
+  {
+    "chunk_id": 36,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "8 \n0 \n99999999 \nGSM Phone 3 High \nR/W \n2096 \n2095 \n4 \nLongint \n8 \n0 \n99999999 \nGSM Phone 3 Low \nR/W \n2098 \n2097 \n4 \nLongint \n- \n0 \n1 \nGSM Empty Pipe \nEvent, \n0 = OFF, \n1 = ON \nR/W \n2100 \n2099 \n4 \nLongint \n- \n0 \n1 \nGSM Zero Flow \nEvent, \n0 = OFF, \n1 = ON \nR/W \n2102 \n2101 \n4 \nLongint \n- \n0 \n1 \nGSM Error Detect \nEvent, \n0 = OFF, \n1 = ON \nR/W \n2104 \n2103 \n4 \nLongint \n- \n0 \n1 \nGSM Empty Pipe \nEvent Settings, \n0 = ON and OFF, \n1 = Only ON \nR/W \n2106 \n2105 \n4 \nLongint \n- \n0 \n1 \nGSM Empty Pipe \nEvent Settings, \n0 = ON and OFF, \n1 = Only ON \nR/W \n2108 \n2107 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay0 \nR/W \n2110 \n2109 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay1 \nR/W"
+  },
+  {
+    "chunk_id": 37,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -19- \nV1.5 23-01-2018 \n2112 \n2111 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay2 \nR/W \n2114 \n2113 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay3 \nR/W \n2116 \n2115 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay4 \nR/W \n2118 \n2117 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay5 \nR/W \n2120 \n2119 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay6 \nR/W \n2122 \n2121 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay7 \nR/W \n2124 \n2123 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay8 \nR/W \n2126 \n2125 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay9 \nR/W \n2128 \n2127 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS _GateWay10 \nR/W \n2130 \n2129 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay11 \nR/W \n2132 \n2131 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay12 \nR/W \n2134 \n2133 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay13 \nR/W \n2136 \n2135 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay14 \nR/W \n2138 \n2137 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay15 \nR/W \n2140 \n2139 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_User0 \nR/W \n2142"
+  },
+  {
+    "chunk_id": 38,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "0 \n0 \n0xFFFFFFFF \nGPRS_GateWay12 \nR/W \n2134 \n2133 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay13 \nR/W \n2136 \n2135 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay14 \nR/W \n2138 \n2137 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_GateWay15 \nR/W \n2140 \n2139 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_User0 \nR/W \n2142 \n2141 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_User1 \nR/W \n2144 \n2143 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_User2 \nR/W \n2146 \n2145 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_Password0 \nR/W \n2148 \n2147 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_Password1 \nR/W \n2150 \n2149 \n4 \nLongint \n0 \n0 \n0xFFFFFFFF \nGPRS_Password2 \nR/W \n2152 \n2151 \n4 \nLongint \n0 \n0 \n1 024 \nGPRS_Port \nR/W \n2154 \n2153 \n4 \nLongint \n0 \n0 \n9 999 \nGPRS_PIN \nR/W \n2156 \n2155 \n4 \nLongint \n- \n0 \n1 \nWi-Fi AP mode \nR/W"
+  },
+  {
+    "chunk_id": 39,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -20- \nV1.5 23-01-2018 \nDatalogger Interval – this function selects how often data is written to the datalogger. \n \nCSV Format – Set separator between each data. Set comma or semicolon. \n \nAir Detector – this option allows selecting empty pipe check. Default OFF. \n \nDelete Aux + Volume – write value different to zero for erasing the auxiliary flow totalizer. \n \nSamples per Avg. – the number of samples that the flowmeter will use for calculation of its displayed \naverage flow value. Default 15. (Maximal value for sensor v.8 and later is 120 and for sensor v.7 is 60) \n \nCurrent Loop Setting - see chapter Current Loop in MAGX2 manual. \n \nFlow min - see chapter User Setting Menu - Current Loop in MAGX2 manual. \n \nFlow max - see chapter User Setting Menu - Current Loop in MAGX2 manual. \n \nCurrent min - see chapter User Setting Menu - Current Loop in MAGX2 manual. \n \nCurrent max - see chapter User Setting Menu - Current Loop in MAGX2 manual."
+  },
+  {
+    "chunk_id": 40,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "Flow max - see chapter User Setting Menu - Current Loop in MAGX2 manual. \n \nCurrent min - see chapter User Setting Menu - Current Loop in MAGX2 manual. \n \nCurrent max - see chapter User Setting Menu - Current Loop in MAGX2 manual. \n \nCurrent  Loop Calibration point 1 - see chapter User Setting Menu - Current Loop in MAGX2 \nmanual. \n \nCurrent  Loop Calibration point 2 - see chapter User Setting Menu - Current Loop in MAGX2 \nmanual. \n \nCurrent  Loop Calibration constant 1 - see chapter User Setting Menu - Current Loop in MAGX2 \nmanual. \n \nCurrent  Loop Calibration constant 2 - see chapter User Setting Menu - Current Loop in MAGX2 \nmanual. \n \nVoltage output Setting – see chapter User Setting Menu – Voltage Output in MAGX2 manual. \n \nFlow min - see chapter User Setting Menu – Voltage Output in MAGX2 manual. \n \nFlow max - see chapter User Setting Menu – Voltage Output in MAGX2 manual. \n \nVoltage min - see chapter User Setting Menu – Voltage Output in MAGX2 manual."
+  },
+  {
+    "chunk_id": 41,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "Flow min - see chapter User Setting Menu – Voltage Output in MAGX2 manual. \n \nFlow max - see chapter User Setting Menu – Voltage Output in MAGX2 manual. \n \nVoltage min - see chapter User Setting Menu – Voltage Output in MAGX2 manual. \n \nVoltage max - see chapter User Setting Menu – Voltage Output in MAGX2 manual. \n \nRelay 1 setting – see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nRelay 2 setting – see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nFlow 1 - see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nFlow 2 - see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nHysteresis 1 - see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nHysteresis 2 - see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nRelay 3 setting – see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nRelay 4 setting – see chapter User Setting Menu – Pulse Output in MAGX2 manual."
+  },
+  {
+    "chunk_id": 42,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "Hysteresis 2 - see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nRelay 3 setting – see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nRelay 4 setting – see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nVolume plus - see chapter User Setting Menu – Pulse Output in MAGX2 manual."
+  },
+  {
+    "chunk_id": 43,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -21- \nV1.5 23-01-2018 \n \nVolume minus - see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nDose (Batch) - see chapter User Setting Menu – Pulse Output in MAGX2 manual. \n \nFrequency setting – see chapter User Setting Menu – Frequency Output in MAGX2 manual. \n \nFlow 1 - see chapter User Setting Menu – Frequency Output in MAGX2 manual. \n \nFlow 2 - see chapter User Setting Menu – Frequency Output in MAGX2 manual. \n \nFrequency 1 - see chapter User Setting Menu – Frequency Output in MAGX2 manual. \n \nFrequency 2 - see chapter User Setting Menu – Frequency Output in MAGX2 manual. \n \nDuty cycle - see chapter User Setting Menu – Frequency Output in MAGX2 manual. \n \nLoad default settings – Load default factory setting or users changing setting on function Save \nsetting. \n \nPassword Setup – Set password (user). \n \nModbus Slave Address – Modbus device address. Default 1 \n \nModbus Baudrate – setup communication speed. Default 9600."
+  },
+  {
+    "chunk_id": 44,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "Load default settings – Load default factory setting or users changing setting on function Save \nsetting. \n \nPassword Setup – Set password (user). \n \nModbus Slave Address – Modbus device address. Default 1 \n \nModbus Baudrate – setup communication speed. Default 9600. \n \nModbus Parity – setup communication parameters. Default Even, 1 stopbit. \n \nTotalizer Cycling – If set, each 3 seconds change totalizer on Main screen. \n \nGSM Data Interval – For more info see GSM SMS Module Specification (chapter Set Sending \nInterval) [Reference 4]. \n \nGSM Phone 1 H, GSM Phone 2 H, GSM Phone 3 H – High part of phone number (i.e. 4207 for \nphone number +420777123456). Do not enter character +. The character + is added automatically. All \nphone numbers must be in international format (i.e. +420123456789). For more info see GSM SMS \nModule Specification [Reference 4]. \n \n \nGSM Phone 1 L, GSM Phone 2 L, GSM Phone 3 L – Low part of phone number (i.e. 77123456 for"
+  },
+  {
+    "chunk_id": 45,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "phone numbers must be in international format (i.e. +420123456789). For more info see GSM SMS \nModule Specification [Reference 4]. \n \n \nGSM Phone 1 L, GSM Phone 2 L, GSM Phone 3 L – Low part of phone number (i.e. 77123456 for \nphone number +420777123456) [Reference 4]. \n \nGSM Empty Pipe Event – For more info see GSM SMS Module Specification [Reference 4]. \n \nGSM Zero Flow Event – For more info see GSM SMS Module Specification [Reference 4]. \n \nGSM Error Detect Event – For more info see GSM SMS Module Specification [Reference 4]. \n \nGSM Empty Pipe Event Settings – For more info see GSM SMS Module Specification [Reference 4]. \n \nGSM Zero Flow Event Settings – For more info see GSM SMS Module Specification [Reference 4]. \n \nWi-Fi AP mode – For more info see Wi-Fi Module Specification"
+  },
+  {
+    "chunk_id": 46,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -22- \nV1.5 23-01-2018 \n5.7 External Measurements \n \nModbus \nregister \nModbus \naddress \nNo. of \nbytes \nData type \nNo. of \ndecimal \nMin \nValue \nMax Value \nDescription \nRead/ \nWrite \n2500 \n2499 \n4 \nLongint \n0 \n0 \n1 \nExternal \ntemperature \nmeasurement state, \n0 = ON, \n1 = OFF \nR/W \n2502 \n2501 \n4 \nLongint \n0 \n0 \n3 \nTemperature \nsensor type, \n0 = PT100, \n1 = PT200, \n2 = PT500, \n3 = PT1000 \nR/W \n2504 \n2503 \n4 \nLongint \n0 \n0 \n2 \nTemperature \nsensor connection, \n0 = 2-Wire, \n1 = 3-Wire, \n2 = 4-Wire \nR/W \n2506 \n2505 \n4 \nLongint \n1 \n0 \n1000 \nTemperature \nsensor calibration, \nactual temperature \nR/W \n2508 \n2507 \n4 \nBool \n0 \n0 \n1 \nTemperature \nsensor calibration, \nstart now \nR/W \n2510 \n2509 \n4 \nLongint \n0 \n0 \n1 \nExternal pressure \nmeasurement state, \n0 = ON, \n1 = OFF \nR/W \n2512 \n2511 \n4 \nLongint \n0 \n4 \n20 \nCurrent min. [mA] \nR/W \n2514 \n2513 \n4 \nLongint \n0 \n4 \n20 \nCurrent max. [mA] \nR/W \n2516 \n2515 \n4 \nLongint \n3 \n0 \n9999999 Pressure min \n[mbar] \nR/W \n2518 \n2517"
+  },
+  {
+    "chunk_id": 47,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "R/W \n2510 \n2509 \n4 \nLongint \n0 \n0 \n1 \nExternal pressure \nmeasurement state, \n0 = ON, \n1 = OFF \nR/W \n2512 \n2511 \n4 \nLongint \n0 \n4 \n20 \nCurrent min. [mA] \nR/W \n2514 \n2513 \n4 \nLongint \n0 \n4 \n20 \nCurrent max. [mA] \nR/W \n2516 \n2515 \n4 \nLongint \n3 \n0 \n9999999 Pressure min \n[mbar] \nR/W \n2518 \n2517 \n4 \nLongint \n3 \n0 \n9999999 Pressure max \n[mbar] \nR/W \n \nExternal temperature measurement state – Switches on/off the external temperature module. \n \nTemperature sensor type and connection – defines which and how is the external temperature \nsensor connected. For more information follow MAGX2 manual (Reference 3). \n \nTemperature sensor calibration temperature and start now - set the known temperature * 10 to \nactual temperature register and write 1 to start now. \n \nExternal pressure measurement state – Switches on/off the external pressure module. \n \nExternal pressure current loop calibration – defines input current span that is equal to measured \npressure."
+  },
+  {
+    "chunk_id": 48,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -23- \nV1.5 23-01-2018 \n5.8 Service Settings \n \nModbus \nregister \nModbus \naddress \nNo. of \nbytes  \nData \ntype  \nNo. of \ndecimal Min Value Max Value \nDescription \nRead/ \nWrite \n3000 \n2999 \n4 \nBool \n- \n0 \n1 \nError Delete? \nR/W \n3002 \n3001 \n4 \nBool \n- \n0 \n1 \nOK Delete? \nR/W \n3004 \n3003 \n4 \nBool \n- \n0 \n1 \nDelete Volume (-)? \nR/W \n3006 \n3005 \n4 \nBool \n- \n0 \n1 \nDelete Volume (+)? \nR/W \n3008 \n3007 \n4 \nBool \n- \n0 \n1 \nDelete Volume Total? \nR/W \n3010 \n3009 \n4 \nLongint \n0 \n0 \n1 \nFlow simulation, 0=ON, 1=OFF \nR/W \n3012 \n3011 \n4 \nLongint \n3 \n0 \n36 000 000 Simulated flow [m3/h] \nR/W \n3014 \n3013 \n4 \nLongint \n-  \n0 \n1 \nService Mode, 0=ON, 1=OFF \nR/W \n3016 \n3015 \n4 \nLongint \n- \n0 \n1 \nMeasurement, \n0 = Run, \n1 = Stop \nR/W \n3018 \n3017 \n4 \nLongint \n3 \n0 \n0,999 \nAir Constant \nR/W \n3020 \n3019 \n4 \nLongint \n0 \n0 \n120 \nStart Delay [s] \nR/W \n3022 \n3021 \n4 \nLongint \n- \n0 \n1 \nInvert Flow, \n0 = No-invert, \n1 = Invert \nR/W \n3024 \n3023 \n4 \nLongint \n0 \n0 \n2"
+  },
+  {
+    "chunk_id": 49,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "3016 \n3015 \n4 \nLongint \n- \n0 \n1 \nMeasurement, \n0 = Run, \n1 = Stop \nR/W \n3018 \n3017 \n4 \nLongint \n3 \n0 \n0,999 \nAir Constant \nR/W \n3020 \n3019 \n4 \nLongint \n0 \n0 \n120 \nStart Delay [s] \nR/W \n3022 \n3021 \n4 \nLongint \n- \n0 \n1 \nInvert Flow, \n0 = No-invert, \n1 = Invert \nR/W \n3024 \n3023 \n4 \nLongint \n0 \n0 \n2 \nElectrode Cleaning, 0 = OFF, \n1 = ON, \n2 = ON Start \nR/W \n3026 \n3025 \n4 \nLongint \n0 \n1 \n9999 \nClean Time [s] \nR/W \n3028 \n3027 \n4 \nBool \n- \n0 \n1 \nStart Now? \nR/W \n3030 \n3029 \n4 \nLongint \n- \n0 \n5 \nLow Flow Cutoff, \n0 = 0.5%, \n1 = 1%, \n2 = 2%, \n3 = 5%, \n4 = 10%, \n5 = OFF  \nR/W \n3032 \n3031 \n4 \nLongint \n3 \n0 \n36 000 \nFlow Qn [m3/h] \nR/W"
+  },
+  {
+    "chunk_id": 50,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -24- \nV1.5 23-01-2018 \n3034 \n3033 \n4 \nLongint \n0 \n0 \n31 129 999 Date Settings \nR/W \n3036 \n3035 \n4 \nLongint \n0 \n0 \n235 959 \nTime Settings \nR/W \n \nDelete Error (min) – write value different to zero for erasing the Error min counter. \n \nDelete OK (min) – write value different to zero for erasing the OK min counter. \n \nDelete Total – Volume – write value different to zero for erasing the Total – flow totalizer. \n \nDelete Total + Volume – write value different to zero for erasing the Total + flow totalizer. \n \nDelete Total Volume – write value different to zero for erasing the Total flow totalizer. \n \nFlow Simulation – switch off/on the simulation flow function. Default OFF. \n \nSimulated Flow – write simulated flow. \n \nService Mode – write value different to zero for turn ON the service mode. Default OFF. \n \nMeasurement – 0 = Stop – the unit shows actual flow, but the totalizers are stopped. \n1 = Running – totalizers are active. Default Stop."
+  },
+  {
+    "chunk_id": 51,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "Simulated Flow – write simulated flow. \n \nService Mode – write value different to zero for turn ON the service mode. Default OFF. \n \nMeasurement – 0 = Stop – the unit shows actual flow, but the totalizers are stopped. \n1 = Running – totalizers are active. Default Stop. \n \nAir Constant – constant value to determine the Empty pipe detection limit. Default 188. \n \nStart Delay – Value represent how long is stabilize all component. (actual flow is “0” at this time). \n \nInvert Flow – this function serves to change the direction of the flow. Default No-invert. \n \nElectrode Cleaning – Set electrode cleaning \n \nClean Time – number of seconds, how long run electrode cleaning, when select “On Start” or “Start \nNow” \n \nStart Now? – If set, start electrode cleaning now for Clean Time. \n \nLow Flow Cutoff – this function serves to set the minimum flow the flowmeter will react on. Default \n2%. \n \nFlow Qn – set nominal flow (automatic set if changing the diameter)."
+  },
+  {
+    "chunk_id": 52,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "Now” \n \nStart Now? – If set, start electrode cleaning now for Clean Time. \n \nLow Flow Cutoff – this function serves to set the minimum flow the flowmeter will react on. Default \n2%. \n \nFlow Qn – set nominal flow (automatic set if changing the diameter). \n \nDate Settings - date write in BCD format YYYYMMDD (i.e. 25.03.2010 = (hex)0x20100325) \n \nTime Settings - time write in BCD format HHMMSS \n(i.e. 08:33:15 = (hex)0x00083315)"
+  },
+  {
+    "chunk_id": 53,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -25- \nV1.5 23-01-2018 \n5.9 Factory Settings \n \nModbus \nregister  \nModbus \naddress  \nNo. of \nbytes  Data type  \nNo. of \ndecimal Min Value Max Value \nDescription \nRead/ \nWrite \n4000 \n3999 \n4 \nLongint \n0 \n10 \n1 000 \nL = Diameter \nR/W \n4002 \n4001 \n4 \nLongint \n0 \n0 \n9 999 999 Unit No. \nR/W \n4004 \n4003 \n4 \nLongint \n3 \n0.015 \n36 000 000 Calibration \nPoint1 \nR/W \n4006 \n4005 \n4 \nLongint \n3 \n0.015 \n36 000 000 Calibration \nPoint2 \nR/W \n4008 \n4007 \n4 \nLongint \n3 \n0.015 \n36 000 000 Calibration \nPoint3 \nR/W \n4010 \n4009 \n4 \nLongint \n0 \n-10000000  10000000 Calibration \nData1  \nR/W * \n4012 \n4011 \n4 \nLongint \n0 \n-10000000  10000000 Calibration \nData2 \nR/W * \n4014 \n4013 \n4 \nLongint \n0 \n-10000000  10000000 Calibration \nData3 \nR/W * \n4016 \n4015 \n4 \nBool \n- \n0 \n1 \nZero Flow? \nR/W \n4018 \n4017 \n4 \nLongint \n0 \n-10000000 10000000 Zero Flow \nConstant \nR/W \n4020 \n4019 \n4 \nBool \n- \n0 \n1 \nZero Flow \nErase? \nR/W \n4022 \n4021 \n4 \nLongint \n- \n0 \n1 \nExcitation \nfrequency, \n0=3.125Hz,"
+  },
+  {
+    "chunk_id": 54,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "0 \n-10000000  10000000 Calibration \nData3 \nR/W * \n4016 \n4015 \n4 \nBool \n- \n0 \n1 \nZero Flow? \nR/W \n4018 \n4017 \n4 \nLongint \n0 \n-10000000 10000000 Zero Flow \nConstant \nR/W \n4020 \n4019 \n4 \nBool \n- \n0 \n1 \nZero Flow \nErase? \nR/W \n4022 \n4021 \n4 \nLongint \n- \n0 \n1 \nExcitation \nfrequency, \n0=3.125Hz, \n1=6.250Hz \nR/W \n4024 \n4023 \n4 \nLongint \n- \n0 \n1 \nExcitation, \n0=ON, 1=OFF \nR/W \n4026 \n4025 \n4 \nLongint \n-  \n0 \n1 \nService Mode, \n0=ON, 1=OFF \nR/W \n4028 \n4027 \n4 \nBool \n- \n0 \n1 \nSave Settings? \nR/W \n4030 \n4029 \n4 \nLongint \n0 \n0 \n99999999 \nSensor \ncommunication \nmodule SN \nR/W \n4048 \n4047 \n4 \nLongint \n0 \n0 \n100 \nOptical Buttons \nDown/Up Level \nR/W \n4050 \n4049 \n4 \nLongint \n0 \n0 \n100 \nOptical Buttons \nLeft/Right Level R/W \n4052 \n4051 \n4 \nLongint \n0 \n0 \n100 \nOptical Buttons \nEnter/ESC \nLevel \nR/W"
+  },
+  {
+    "chunk_id": 55,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -26- \nV1.5 23-01-2018 \n \nDiameter – diameter of the sensor. \n \nUnit No. – set serial number of the unit \n \n \n \nZero Flow?   – after activation this function, average value from ADC converter  ( number of samples \nfor average is value of Samples per Average). \n. \nZero Flow Constant – Set manually value for zero flow constant. \n \nZero Flow Erase – erase zero flow constant.  \n \nExcitation Frequency – choose the excitation frequency.  \n \nExcitation – write zero for turn OFF the excitation. Default ON. \n \nService Mode – write value different to zero for turn ON the service mode. Default OFF. \n \nSave Settings? – Save setting to battery backed up RAM, next time will be load with Load Default \nSettings function. \n \nSensor communication module SN – Serial number of connected sensor communication module v8, \n9 \n \nOptical buttons x/x level – sets level of sensitivity 0-100%. Higher number less sensitive buttons."
+  },
+  {
+    "chunk_id": 56,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -27- \nV1.5 23-01-2018 \n5.10 Authorize \n \nModbus \nregister \nModbus \naddress \nNo. of \nbytes \nData type \nNo. of \ndecimal Min Value \nMax Value \nDescription \nRead/ \nWrite \n5000 \n4999 \n4 \nLongint \n0 \n0 \n9 9999999 User Password \nSetup \nR/W \n \nPassword Setup – Set password (user)."
+  },
+  {
+    "chunk_id": 57,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -28- \nV1.5 23-01-2018 \n5.11 Datalogger \n \nModbus \nregister \nModbus \naddress \nNo. of \nbytes \nData type \nNo. of \ndecimal Min Value Max Value \nDescription \nRead/ \nWrite \n10000 \n9999 \n4 \nLongint \n0 \n0 \n99991231 Request Date \nR/W \n10002 \n10001 \n4 \nLongint \n0 \n0 \n235959 \nRequest Time \nR/W \n10004 \n10003 \n4 \nLongint \n0 \n0 \n235959 \nDatalogger Date \nR \n10006 \n10005 \n4 \nLongint \n0 \n0 \n235959 \nDatalogger \nTime \nR \n10008 \n10007 \n4 \nLongint \n0 \n0 \n235959 \nTotal + DIG \nR \n10010 \n10009 \n4 \nLongint \n0 \n0 \n235959 \nTotal + DEC \nR \n10012 \n10011 \n4 \nLongint \n0 \n0 \n235959 \nTotal – DIG \nR \n10014 \n10013 \n4 \nLongint \n0 \n0 \n235959 \nTotal – DEC \nR \n10016 \n10015 \n4 \nLongint \n0 \n0 \n235959 \nError min \nR \n10018 \n10017 \n4 \nLongint \n0 \n0 \n235959 \nError \nR \n \nRequest Date – Date which is needed to read from datalogger \n \nRequest Time – Time which is needed to read from datalogger \n \nDatalogger Date – date of datalogger record \n \nDatalogger Time – time of datalogger record"
+  },
+  {
+    "chunk_id": 58,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "0 \n0 \n235959 \nError min \nR \n10018 \n10017 \n4 \nLongint \n0 \n0 \n235959 \nError \nR \n \nRequest Date – Date which is needed to read from datalogger \n \nRequest Time – Time which is needed to read from datalogger \n \nDatalogger Date – date of datalogger record \n \nDatalogger Time – time of datalogger record \n \nTotal + DIG – Positive totalizer integral fraction \n \nTotal + DEC – Positive totalizer decimal fraction (always 3 decimal numbers, i.e.: 25 = 0.025) \n \nTotal – DIG – Negative totalizer integral fraction \n \nTotal – DEC – Negative totalizer decimal fraction (always 3 decimal numbers, i.e.: 25 = 0.025) \n \nError min – the number of minutes the device was not measuring because of errors. \n \nError – Error code, for decode see MAGX2 manual."
+  },
+  {
+    "chunk_id": 59,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\magx2-modbus-manual-eng.pdf",
+    "content": "MAGX2 Modbus RTU User Guide  \n      -29- \nV1.5 23-01-2018 \n6. Contact \n \n \n \nTechnical support: support@arkon.co.uk \nSkype: support.arkon \nSales office: office@arkon.co.uk \n \nOffice hours: \n8:30 – 18:00 (GMT+1) \n \nDirect technical support: \n8:00 – 16:30 (GMT+1)"
+  }
+]

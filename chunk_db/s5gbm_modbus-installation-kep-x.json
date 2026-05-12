@@ -1,0 +1,392 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus Installation and Operating \nInstructions \nfor \nthe sensors \n \nModel: KEP-1 and KEP-2"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 2 \n \nModbus K01/0124 \nWe don’t accept warranty and liability claims neither upon this publication nor in \ncase of improper treatment of the described products. \n \nThe document may contain technical inaccuracies and typographical errors. The \ncontent will be revised on a regular basis. These changes will be implemented in \nlater versions. The described products can be improved and changed at any time \nwithout prior notice. \n© Copyright \nAll rights reserved. \n \n \n \n1. Contents \n \n1.  Contents ........................................................................................................ 2 \n2.  Note .............................................................................................................. 4 \n3.  Regulation Use ............................................................................................. 4 \n4.  Definition and Abbreviation ........................................................................... 5"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "3.  Regulation Use ............................................................................................. 4 \n4.  Definition and Abbreviation ........................................................................... 5 \n5.  References .................................................................................................... 5 \n6.  Technical data Modbus KEP-x ...................................................................... 6 \n6.1 \nKEP-x MODBUS RTU Specification .................................................... 6 \n6.2 \nGeneral Modbus Information ............................................................... 6 \n6.3 \nSerial transmission-modes (RTU) ........................................................ 6 \n7.  Installation ..................................................................................................... 7 \n7.1 \nRS485 Bus Wiring (Modbus RTU) – KEP-x ........................................ 7 \n7.2"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "7.  Installation ..................................................................................................... 7 \n7.1 \nRS485 Bus Wiring (Modbus RTU) – KEP-x ........................................ 7 \n7.2 \nCable specification: .............................................................................. 7 \n8.  Modbus RTU communication settings ........................................................... 8 \n8.1 \nAccessing and changing MODBUS settings ........................................ 8 \n8.2 \nModbus RTU Communication-settings ................................................ 8 \n9.  Modbus addressing model ............................................................................. 9 \n9.1 \nFunction Code 3 (Read holding register) ............................................. 9 \n9.2 \nFunction Code 16 (Write multiple registers) ....................................... 10"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "9.  Modbus addressing model ............................................................................. 9 \n9.1 \nFunction Code 3 (Read holding register) ............................................. 9 \n9.2 \nFunction Code 16 (Write multiple registers) ....................................... 10 \n10. Modbus Holding Register ............................................................................ 11 \n10.1  Basic Values Register (1…1000) ...................................................... 11 \n10.2  Values register (1001…1600) ............................................................ 12 \n10.3  Device settings register...................................................................... 22 \n10.4  Gas names ........................................................................................ 27 \n10.5  Unit Index Table ................................................................................. 28"
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "10.4  Gas names ........................................................................................ 27 \n10.5  Unit Index Table ................................................................................. 28 \n11. Appendix ..................................................................................................... 29 \n11.1  Appendix A - Exception codes ........................................................... 29"
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 3 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nManufactured and sold by: \n \nKobold Messring GmbH \nNordring 22-24 \nD-65719 Hofheim \nTel.: +49(0)6192-2990 \nFax: +49(0)6192-23398 \nE-Mail: info.de@kobold.com \nInternet: www.kobold.com"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 4 \n \nModbus K01/0124 \n2. Note \nPlease read these operating instructions before unpacking and putting the unit into \noperation. Follow the instructions precisely as described herein.  \nThe instruction manuals on our website www.kobold.com are always for currently \nmanufactured version of our products. Due to technical changes, the instruction \nmanuals available online may not always correspond to the product version you \nhave purchased. If you need an instruction manual that corresponds to the \npurchased product version, you can request it from us free of charge by email \n(info.de@kobold.com) in PDF format, specifying the relevant invoice number and \nserial number. If you wish, the operating instructions can also be sent to you by \npost in paper form against an applicable postage fee. \n \nOperating instructions, data sheet, approvals and further information via the QR \ncode on the device or via www.kobold.com"
+  },
+  {
+    "chunk_id": 8,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "serial number. If you wish, the operating instructions can also be sent to you by \npost in paper form against an applicable postage fee. \n \nOperating instructions, data sheet, approvals and further information via the QR \ncode on the device or via www.kobold.com \n \nThe devices are only to be used, maintained and serviced by persons familiar with \nthese operating instructions and in accordance with local regulations applying to \nHealth & Safety and prevention of accidents.  \n \nWhen used in machines, the measuring unit should be used only when the \nmachines fulfil the EC machinery directive. \n \nThis manual is intended to provide instructions for the installation and use \nof the KEP-x MODBUS function. The KEP-x MODBUS function can let the \nMODBUS master device to read out the online measurement values. \n \nThis manual is not intended to be a complete tutorial on the MODBUS RTU \nprotocol, and it is assumed the end user already has a general working"
+  },
+  {
+    "chunk_id": 9,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "of the KEP-x MODBUS function. The KEP-x MODBUS function can let the \nMODBUS master device to read out the online measurement values. \n \nThis manual is not intended to be a complete tutorial on the MODBUS RTU \nprotocol, and it is assumed the end user already has a general working \nknowledge of MODBUS RTU Communications, especially in respect of \nmaster station configuration and operation. \nHowever, an overview is included in the following section to explain some of \nthe fundamental aspects of the protocol. \n \n \n \n3. Regulation Use \nAny use of the device, which exceeds the manufacturer’s specification, may \ninvalidate its warranty. Therefore, any resulting damage is not the responsibility of \nthe manufacturer. The user assumes all risk for such usage."
+  },
+  {
+    "chunk_id": 10,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 5 \n4. Definition and Abbreviation \nCRC \nCyclic Redundancy Check \nUsed for error—checking in MODBUS RTU. See appendix \nModbus \nMaster \nA MODBUS device, which is able to access data in one or more connected \nMODBUS slaves \nModbus \nSlave \nA MODBUS device, which is able to respond to requests from a single \nMODBUS master. \nModbus \nAdresse \nThroughout this document the following notation is used to address \nMODBUS RTU registers see chapter 8 \n \nAddressing: Holding Register 1009 is addressed in messages by 1008 \nPDU \nMODBUS protocol data unit \nADU \nMODBUS protocol data unit \nMBAP \nMODBUS Applikation Protocol \nRS485 \nRefers to the 2—wire communication standard defined by EIA/TIA-485. \n(Physical layer) MODBUS application protocol\nEthernet \n \n \n \n \n5. References \nMODBUS over Serial Line Specification and Implementation Guide V1.02 \nmodbus.org 2006 Dec 20 \nMODBUS APPLICATION PROTOCOL SPECIFICATION V1.1b modbus.org 2006 \nDec 28"
+  },
+  {
+    "chunk_id": 11,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 6 \n \nModbus K01/0124 \n6. Technical data Modbus KEP-x \n6.1 KEP-x MODBUS RTU Specification \nDevice type \n \n \nSlave \nBaud Rates \n \n \n1200,2400, 4800, 9600, 19200, 38400, 57600, 115200 bps \nDevice address range  \n1...247 \nElectrical Interface \n \nRS485, 2 wire \nProtocol  \n \n \nRTU \nSupported function code \n3 \nread holding register \n16 \nwrite multiple register \nBroadcast \n \n \nNo \nStandard \n \n \nModbus over serial line V1.02 \n \n \n6.2 General Modbus Information \nThe KEP-x Modbus module complies with the Modbus serial line protocol \n[Reference 1]. Among other things, this implies a master-slave protocol at level 2 \nof the OSI model. One node (the master) issues explicit commands to one of the \n,,sIave\"-nodes and processes responses. Slave nodes will not transmit data \nwithout a request from the master node, and do not communicate with other slaves. \nModbus is a mono master system, which means that only one master can be \nconnected at the time. \n \n6.3 Serial transmission-modes (RTU)"
+  },
+  {
+    "chunk_id": 12,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": ",,sIave\"-nodes and processes responses. Slave nodes will not transmit data \nwithout a request from the master node, and do not communicate with other slaves. \nModbus is a mono master system, which means that only one master can be \nconnected at the time. \n \n6.3 Serial transmission-modes (RTU) \nThe KEP-x Modbus mode support only one serial transmission modes; the RTU \nmode. The transmission mode defines the bit contents of message fields \ntransmitted serially on the line. It determines how information is packed into the \nmessage fields and decoded. \nThe transmission mode and serial port parameters must be the same for all \ndevices on a Modbus serial line. \n \n \nRTU mode Modbus Application Data Unit (ADU) frame is shown below, and is \nvalid for both requests and responses. \n \nSlave address \nFunction code\nData \nCRC \n1 byte \n1byte \n0 up to 252 byte(s)\n2 bytes \n \nTable 1 \n \nFurther details of the Modbus protocol can be found in Reference 1 and 2."
+  },
+  {
+    "chunk_id": 13,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 7 \n7. Installation \n7.1 RS485 Bus Wiring (Modbus RTU) – KEP-x \nKEP-1/KEP-2 \n \n7.1.1 \nTermination KEP-x \nNote: In case the KEP-1/KEP-2 is the last device in the RS485 network then a \ntermination is required. To be done either with \na.) Internal DIP Switch \nb.) 120R between (between Pin 2 and Pin 4) of connector plug A. \n \n7.1.2 \nBias \nIn order to avoid undefined bus levels, at any location on the bus, a bias network, \none resistor to VCC (Modbus A) as well as to GND (Modbus B), has to be used. \n \n \n7.2 Cable specification: \nImpedance: \n \n \n135 -165 Ohm @ 3 bis 20 Mhz \nCable capacity:  \n< 30pF/m  \nCable diameter: \n \n> 0.64 mm \nCross section:  \n> 0.34 mm2, conforms to AWG 22  \nLoop resistance \n \n< 110 Ohm pro km \nScreening: \n \n \nCu shielding braid or shielding braid and shielding \nfoil"
+  },
+  {
+    "chunk_id": 14,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 8 \n \nModbus K01/0124 \n8. Modbus RTU communication settings \nBefore communication with the master, baudrate, address, and framing must be \ndefined. \n \n8.1  \nAccessing and changing MODBUS settings \nThe Modbus communication settings could be changed by using either the PC \nservice software from Kobold Messring or by sensors with display in the Modbus \nsetup menu. \n \nNote: \nIt is recommended NOT to use the default address in a multi-slave network. It is \nof great importance to ensure at the time of the procedure of device addressing, \nthat thereis not two devices with the same address. In such a case, an abnormal \nbehaviour of the whole serial bus can occur, the master being then in the \nimpossibility to communicate with all present slaves on the bus \n \n8.2 Modbus RTU Communication-settings \nDevice type \n \n \nSlave \nBaud Rates \n \n \n1200,2400, 4800, 9600, 19200, 38400, 57600, 115200 \nbps \nDevice address range 1...247  \nElectrical Interface \n \nRS485, 2 Draht \nProtocol  \n \nRTU"
+  },
+  {
+    "chunk_id": 15,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "impossibility to communicate with all present slaves on the bus \n \n8.2 Modbus RTU Communication-settings \nDevice type \n \n \nSlave \nBaud Rates \n \n \n1200,2400, 4800, 9600, 19200, 38400, 57600, 115200 \nbps \nDevice address range 1...247  \nElectrical Interface \n \nRS485, 2 Draht \nProtocol  \n \nRTU \nSupported function code \n3 \nread holding register \n16 \nwrite multiple register \nBroadcast \n \n \n \nNo \nStandard \n \n \n \nModbus over serial line V1.02"
+  },
+  {
+    "chunk_id": 16,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 9 \n9. Modbus addressing model \nThe KEP-x RS485 Modbus allows read/write access according chapter 8 Not \ndefined registers are not accessible / not supported. \n \nByte Order: \nThe size of each Modbus-register is 2 Byte. For a 32 bit value two Modbus register \nwill be read out by the KEP-x. Accordingly for a 16bit Value only one register is \nread. \n \nData format KEP-x: \n \nSingle Word \n \n \n \n \nDouble Word \n \nFor verification of a correct data format please read out register 64000 or \n64002.Result should be: Register 64000: Long Integer   Value =1 000 000 \nRegister 64002: Float \n \n \nValue = 1 000 000.0 \n \n9.1 Function Code 3 (Read holding register) \nGeneral exceptions: \n• Requesting less than 1 or more than 125 registers => Exception 3 (Illegal data \nvalue) \n \n• Requesting more than max. message size (27 registers) => Exception 2(Illegal \ndata address) \n \n• Requesting data out of defined range of registers chapter 8 => Exception 2 (Illegal \ndata address)"
+  },
+  {
+    "chunk_id": 17,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "• Requesting less than 1 or more than 125 registers => Exception 3 (Illegal data \nvalue) \n \n• Requesting more than max. message size (27 registers) => Exception 2(Illegal \ndata address) \n \n• Requesting data out of defined range of registers chapter 8 => Exception 2 (Illegal \ndata address) \n \nApplication exceptions: \n• Application errors => Exception 4 (Slave device error) \n \nHoles/register alignment: \n• The read command always returns data if no exception is given. Bad start/end \nalignment will result in only parts of the data item being read."
+  },
+  {
+    "chunk_id": 18,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 10 \n \nModbus K01/0124 \n9.2 Function Code 16 (Write multiple registers) \nIn general, only status register (register 2001 – 2064) are writable. \n \nGeneral exceptions: \n• Writing less than 1 or more than 63 registers => Exception 3 (Illegal data value) \n \n• If Byte Count is not exactly 2 times NoOfRegisters => Exception 3 (Illegal data \nvalue) \n \n• Exceeding max. message size (27 registers) => Exception 2 (Illegal data \naddress) \n \n• Writing data out of defined register range chapter 8 =>Exception 2 (Illegal data \naddress) \n \nApplication exceptions: \n• Application errors => Exception 4 (Slave device error) \n \n• Application errors include writing to ReadOnIy holding registers \n \nHoles / register alignment: \n \n• If start-address is not the start of a mapped holding register => Exception 2 \n(Illegal data address) \n \n• Writing to holes is allowed (ie ignored - and no exception occurs) — except for \nthe condition described above."
+  },
+  {
+    "chunk_id": 19,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 11 \n10. Modbus Holding Register \n10.1 Basic Values Register (1…1000) \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData \nType \n \nDescription \nDefault \nSetting \nRead \nWrite \n \nUnit /Comment \n1 \n0 \n4 \nUInt32 \nSerial Number \n0 \nR \n \n3 \n2 \n4 \nUInt32 \nSoftware Version \n0 \nR \nsprintf(str,\"%u.%02u\",hw>>16,h \nw&0xffff); \n5 \n4 \n4 \nUInt32 \nHardware Version \n0 \nR \nsprintf(str,\"%u.%02u\",hw>>16,h \nw&0xffff); \n7 \n6 \n4 \nUInt32 \n \n0 \nR \n \n9 \n8 \n4 \nUInt32 \nProduction Date \n0 \nR \nUnix Time \n11 \n10 \n4 \nUInt32 \nCalibration Date \n0 \nR \nUnix Time \n13 \n12 \n4 \nUInt32 \nOrdering Number \n0 \nR \n \n15 \n14 \n4 \nUInt32 \nRunTime \n0 \nR \nValue in seconds \n17 \n16 \n4 \nUInt32 \n \n0 \nR \n \n19 \n18 \n4 \nUInt32 \nAtex Number \n0 \nR \n \n21 \n20 \n4 \nUInt32 \nCurve Version \n0 \nR \nsprintf(str,\"%u.%02u\",hw>>16,h \nw&0xffff); \n23 \n22 \n8 \nString \nBrand Name \n0 \nR \n \n \n27 \n \n26 \n \n4 \n \nUInt32 \n \nLockSettings \n \n0 \n \nR \n0 = NoLock, \n1 = DiameterLock, \n2 = CounterLock, \n3 = RefConditionsLock\n \n \n29 \n \n \n28"
+  },
+  {
+    "chunk_id": 20,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "4 \nUInt32 \nAtex Number \n0 \nR \n \n21 \n20 \n4 \nUInt32 \nCurve Version \n0 \nR \nsprintf(str,\"%u.%02u\",hw>>16,h \nw&0xffff); \n23 \n22 \n8 \nString \nBrand Name \n0 \nR \n \n \n27 \n \n26 \n \n4 \n \nUInt32 \n \nLockSettings \n \n0 \n \nR \n0 = NoLock, \n1 = DiameterLock, \n2 = CounterLock, \n3 = RefConditionsLock\n \n \n29 \n \n \n28 \n \n \n4 \n \n \nUInt32 \n \n \nOptionBoard \n \n \n0 \n \n \nR \nBit Mask \n0 = no option \n1 = 4-20mA \n2 = Ethernet \n4 = Mbus \n8 = ProfiBus \n16 = SDI \n32 = Pressure  64 = Direction \n31 \n30 \n4 \nDword \nVariant \nx \nR \n \n33 \n32 \n8 \nString \nCompany Name \nx \nR \n \n37 \n36 \n4 \nDword \nOptionBoard \nHardwareVersion \nx \nR \nsprintf(str,\"%u.%02u\",hw>>16,h \nw&0xffff); \n \n39 \n \n38 \n \n4 \n \nDword \nOptionBoard \nSoftwareVerision \n(falls verfügbar)\n \nx \n \nR \nsprintf(str,\"%u.%02u\",hw>>16,h \nw&0xffff);"
+  },
+  {
+    "chunk_id": 21,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 12 \n \nModbus K01/0124 \n10.2 Values register (1001…1600) \nFor the bi-directional sensors refer to note on page 21. \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData \nType \n \nDescription \n \nDefault \nRead \nWrite \n \nUnit /Comment \n1001 \n1000 \n4 \nFloat \nFlow as shown in Display \n \nR \n \n1003 \n1002 \n4 \nUInt32 \nTotal Counter before comma as shown in Display  \nR \n \n1005 \n1004 \n4 \nFloat \nTotal Counter after comma as shown in Display \n \nR \n \n1007 \n1006 \n4 \nFloat \nVelocity as shown in Display \n \nR \n \n1009 \n1008 \n4 \nFloat \nGas Temperature as showed in Display \n \nR \n \n1011 \n1010 \n4 \nFloat \nInternal Temperature as shown in Display \n \nR \n \n1013 \n1012 \n4 \nFloat \nSupply Voltage \n \nR \n \n1015 \n1014 \n4 \nFloat \nMax Speed (at Velocity Unit as shown in Display)  \nR \n \n1017 \n1016 \n4 \nFloat \nMax Flow (at Flow Unit as shown in Display) \n \nR \n \n \n \n \n \n \n \n \n \n1019 \n \n \n \n \n \n \n \n \n1018 \n \n \n \n \n \n \n \n \n4 \n \n \n \n \n \n \n \n \nFloat \n \n \n \n \n \n \n \n \nStatus of Sensor \n \n \n \n \n \n \n \n \n \nR"
+  },
+  {
+    "chunk_id": 22,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "R \n \n1015 \n1014 \n4 \nFloat \nMax Speed (at Velocity Unit as shown in Display)  \nR \n \n1017 \n1016 \n4 \nFloat \nMax Flow (at Flow Unit as shown in Display) \n \nR \n \n \n \n \n \n \n \n \n \n1019 \n \n \n \n \n \n \n \n \n1018 \n \n \n \n \n \n \n \n \n4 \n \n \n \n \n \n \n \n \nFloat \n \n \n \n \n \n \n \n \nStatus of Sensor \n \n \n \n \n \n \n \n \n \nR \nnoError  0x0000  \nNotCalibrated \n0x0001 \nLowVoltage \n0x0002 \nTempError \n0x0004 \nHeatError \n0x0008 \nIntError \n0x000a \nHeatNotCal \n0x0020 \nAmbNotCal 0x0040 \nTmpOutofRange 0x0080 \nDirection \n0x0100 \nLowVolt4_20 0x0200 \nNextCalElapsed 0x0400 \nDirection not Cal 0x0800 \nSensConditioning 0x1000 \nCalZeroPnt \n0x2000 \nPressureError 0x4000 \ndeltaPressure 0x8000  \nBusy \n0x1 0000 \n1021 \n1020 \n4 \nFloat \nFlow Min at Flow Unit in Display since Clear \nMin/Max \n \nR \n \n1023 \n1022 \n4 \nFloat \nFlow Max at Flow Unit in Display since Clear \nMin/Max \n \nR \n \n1025 \n1024 \n4 \nFloat \nFlow AV at Flow Unit in Display \n \nR \nAV over the Time from AV \nTime Setup 1 to \n1027 \n1026 \n4 \nFloat"
+  },
+  {
+    "chunk_id": 23,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "1021 \n1020 \n4 \nFloat \nFlow Min at Flow Unit in Display since Clear \nMin/Max \n \nR \n \n1023 \n1022 \n4 \nFloat \nFlow Max at Flow Unit in Display since Clear \nMin/Max \n \nR \n \n1025 \n1024 \n4 \nFloat \nFlow AV at Flow Unit in Display \n \nR \nAV over the Time from AV \nTime Setup 1 to \n1027 \n1026 \n4 \nFloat \nAverage Consumption at Consumption Unit in \nDisplay \n \nR \nConsumption over Time at \nAVTime Setup \n1029 \n1028 \n4 \nFloat \nGas Temp Min at Temp. Unit in Display since \nClear Min/Max \n \nR \n \n1031 \n1030 \n4 \nFloat \nGas Temp Max at Temp. Unit in Display since \nClear Min/Max \n \nR \n \n1033 \n1032 \n4 \nFloat \nGas Temp AV at Temp. Unit in Display \n \nR \nAV over the Time from AVTime \nSetup 1 to 1440 \n1035 \n1034 \n4 \nFloat \nVelocity Min at Velocity Unit in Display since \nClear Min/Max \n \nR \n \n1037 \n1036 \n4 \nFloat \nVelocity Max at Velocity Unit in Display since \nClear Min/Max \n \nR \n \n1039 \n1038 \n4 \nFloat \nVelocity AV at Velocity Unit in Display \n \nR \nAV over the Time from AVTime \nSetup 1 to 1440"
+  },
+  {
+    "chunk_id": 24,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 13 \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \n \nData Type \n \nDescription \n \nDefault \nRead \nWrite \n \nUnit /Comment \n1041 \n1040 \n4 \nFloat/Dword \nIncremented Pulses \nsince setup pulse \nx \nR \n \n \n1043 \n \n1042 \n \n4 \n \nFloat/Dword \nSystempressure \n(at \nPressure Unit showed in \nDisplay)\n \nx \n \nR \nValue only available with \npressure option \n \n1045 \n \n1044 \n \n4 \n \nFloat/Dword \nSystempressure Min at \nPressure Unit in Display \nsince Clear Min/Max\n \nx \n \nR \nValue only available with \npressure option \n \n1047 \n \n1046 \n \n4 \n \nFloat/Dword \nSystempressure Max at \nPressure Unit in Display \nsince Clear Min/Max\n \nx \n \nR \nValue only available with \npressure option \n \n1049 \n \n1048 \n \n4 \n \nUint/Dword \nTotal Counter bevore \ncomma as showed in \nDisplay (left side)\n \nx \n \nR \nonly available in Direction \nSensor Vaxxxx \n \n1051 \n \n1050 \n \n4 \n \nFloat/Dword \nTotal Counter after \ncomma as showed in \nDisplay (left side)\n \nx \n \nR \nonly available in Direction \nSensor Vaxxxx \n \n1053"
+  },
+  {
+    "chunk_id": 25,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "1048 \n \n4 \n \nUint/Dword \nTotal Counter bevore \ncomma as showed in \nDisplay (left side)\n \nx \n \nR \nonly available in Direction \nSensor Vaxxxx \n \n1051 \n \n1050 \n \n4 \n \nFloat/Dword \nTotal Counter after \ncomma as showed in \nDisplay (left side)\n \nx \n \nR \nonly available in Direction \nSensor Vaxxxx \n \n1053 \n \n1052 \n \n4 \n \nUint/Dword \nTotal Counter bevore \ncomma as showed in \nDisplay (left side + right \nside)\n \nx \n \nR \n \nonly available in Direction \nSensor Vaxxxx \n \n1055 \n \n1054 \n \n4 \n \nFloat/Dword \nTotal \nCounter \nafter \ncomma as showed in \nDisplay (left side + right \nside)\n \nx \n \nR \n \nonly available in Direction \nSensor Vaxxxx \n1057 \n1056 \n4 \nFloat/Dword \nreserved \nx \nR \n \nto \n \n \n \n \n \n \n \n1099 \n1078 \n4 \nFloat/Dword \nreserved \nx \nR"
+  },
+  {
+    "chunk_id": 26,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 14 \n \nModbus K01/0124 \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData \nType \n \nDescription \n \nDefault \nRead \nWrite \n \nUnit /Comment \n1101 \n1100 \n4 \nFloat \nFlow in m³/h \n \nR \n \n1103 \n1102 \n4 \nFloat \nFlow Min in m³/h since last \nLast Clear Min/Max \n \nR \n \n1105 \n1104 \n4 \nFloat \nFlow Max in m³/h since last \nClear Min/Max \n \nR \n \n \n1107 \n \n1106 \n \n4 \n \nFloat \n \nFlow AV in m³/h \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1109 \n1108 \n4 \nFloat \nFlow in Nm³/h \n \nR \n \n1111 \n1110 \n4 \nFloat \nFlow Min in Nm³/h since last \nClear Min/Max \n \nR \n \n1113 \n1112 \n4 \nFloat \nFlow Max in Nm³/h since last \nClear Min/Max \n \nR \n \n \n1115 \n \n1114 \n \n4 \n \nFloat \n \nFlow AV in Nm³/h \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“\n1117 \n1116 \n4 \nFloat \nFlow in m³/min \n \nR \n \n1119 \n1118 \n4 \nFloat \nFlow Min in m³/min since last \nClear Min/Max \n \nR \n \n1121 \n1120 \n4 \nFloat \nFlow Max in m³/min since last \nClear Min/Max \n \nR \n \n \n1123"
+  },
+  {
+    "chunk_id": 27,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Flow AV in Nm³/h \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“\n1117 \n1116 \n4 \nFloat \nFlow in m³/min \n \nR \n \n1119 \n1118 \n4 \nFloat \nFlow Min in m³/min since last \nClear Min/Max \n \nR \n \n1121 \n1120 \n4 \nFloat \nFlow Max in m³/min since last \nClear Min/Max \n \nR \n \n \n1123 \n \n1122 \n \n4 \n \nFloat \n \nFlow AV in m³/min \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1125 \n1124 \n4 \nFloat \nFlow in Nm³/min \n \nR \n \n1127 \n1126 \n4 \nFloat \nFlow Min in Nm³/min since last \nClear Min/Max \n \nR \n \n1129 \n1128 \n4 \nFloat \nFlow Max in Nm³/min since \nlast Clear Min/Max \n \nR \n \n \n1131 \n \n1130 \n \n4 \n \nFloat \n \nFlow AV in Nm³/min \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1133 \n1132 \n4 \nFloat \nFlow in ltr/h \n \nR \n \n1135 \n1134 \n4 \nFloat \nFlow Min in ltr/h since last \nClear Min/Max \n \nR \n \n1137 \n1136 \n4 \nFloat \nFlow Max in ltr/h since last \nClear Min/Max \n \nR \n \n \n1139 \n \n1138 \n \n4 \n \nFloat \n \nFlow AV in ltr/h \n \n \nR"
+  },
+  {
+    "chunk_id": 28,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "defined in AVTime Setup \n„1 to 1440 minutes“ \n1133 \n1132 \n4 \nFloat \nFlow in ltr/h \n \nR \n \n1135 \n1134 \n4 \nFloat \nFlow Min in ltr/h since last \nClear Min/Max \n \nR \n \n1137 \n1136 \n4 \nFloat \nFlow Max in ltr/h since last \nClear Min/Max \n \nR \n \n \n1139 \n \n1138 \n \n4 \n \nFloat \n \nFlow AV in ltr/h \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“"
+  },
+  {
+    "chunk_id": 29,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 15 \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData \nType \n \nDescription \n \nDefault \nRead \nWrite \n \nUnit /Comment \n1141 \n1140 \n4 \nFloat \nFlow in Nltr/h \n \nR \n \n1143 \n1142 \n4 \nFloat \nFlow Min in Nltr/h since last \nClear Min/Max \n \nR \n \n1145 \n1144 \n4 \nFloat \nFlow Max in Nltr/h since last \nClear Min/Max \n \nR \n \n \n1147 \n \n1146 \n \n4 \n \nFloat \n \nFlow AV in Nltr/h \n \n \nR \nAV over the Time from \nAVTime Setup 1 to 1440 \nminutes \n1149 \n1148 \n4 \nFloat \nFlow in ltr/min \n \nR \n \n1151 \n1150 \n4 \nFloat \nFlow Min in ltr/min since last \nClear Min/Max \n \nR \n \n1153 \n1152 \n4 \nFloat \nFlow Max in ltr/min since last \nClear Min/Max \n \nR \n \n \n1155 \n \n1154 \n \n4 \n \nFloat \n \nFlow AV in ltr/min \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1157 \n1156 \n4 \nFloat \nFlow in Nltr/min \n \nR \n \n1159 \n1158 \n4 \nFloat \nFlow Min in Nltr/min since last \nClear Min/Max \n \nR \n \n1161 \n1160 \n4 \nFloat \nFlow Max in Nltr/min since last \nClear Min/Max \n \nR \n \n \n1163"
+  },
+  {
+    "chunk_id": 30,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "R \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1157 \n1156 \n4 \nFloat \nFlow in Nltr/min \n \nR \n \n1159 \n1158 \n4 \nFloat \nFlow Min in Nltr/min since last \nClear Min/Max \n \nR \n \n1161 \n1160 \n4 \nFloat \nFlow Max in Nltr/min since last \nClear Min/Max \n \nR \n \n \n1163 \n \n1162 \n \n4 \n \nFloat \n \nFlow AV in Nltr/min \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1165 \n1164 \n4 \nFloat \nFlow in ltr/s \n \nR \n \n1167 \n1166 \n4 \nFloat \nFlow Min in ltr/s since last \nClear Min/Max \n \nR \n \n1169 \n1168 \n4 \nFloat \nFlow Max in ltr/s since last \nClear Min/Max \n \nR \n \n \n1171 \n \n1170 \n \n4 \n \nFloat \n \nFlow AV in ltr/s \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“\n1173 \n1172 \n4 \nFloat \nFlow in Nltr/s \n \nR \n \n1175 \n1174 \n4 \nFloat \nFlow Min in Nltr/s since last \nClear Min/Max \n \nR \n \n1177 \n1176 \n4 \nFloat \nFlow Max in Nltr/s since last \nClear Min/Max \n \nR \n \n \n1179 \n \n1178 \n \n4 \n \nFloat \n \nFlow AV in Nltr/s \n \n \nR"
+  },
+  {
+    "chunk_id": 31,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "defined in AVTime Setup \n„1 to 1440 minutes“\n1173 \n1172 \n4 \nFloat \nFlow in Nltr/s \n \nR \n \n1175 \n1174 \n4 \nFloat \nFlow Min in Nltr/s since last \nClear Min/Max \n \nR \n \n1177 \n1176 \n4 \nFloat \nFlow Max in Nltr/s since last \nClear Min/Max \n \nR \n \n \n1179 \n \n1178 \n \n4 \n \nFloat \n \nFlow AV in Nltr/s \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1181 \n1180 \n4 \nFloat \nFlow in cfm \n \nR \n \n1183 \n1182 \n4 \nFloat \nFlow Min in cfm since last \nClear Min/Max \n \nR \n \n1185 \n1184 \n4 \nFloat \nFlow Max in cfm since last \nClear Min/Max \n \nR \n \n \n1187 \n \n1186 \n \n4 \n \nFloat \n \nFlow AV in cfm \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“"
+  },
+  {
+    "chunk_id": 32,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 16 \n \nModbus K01/0124 \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \n \nData Type \n \nDescription \nDef \nault \nRead \nWrite \n \nUnit /Comment \n1189 \n1188 \n4 \nFloat \nFlow in Ncfm \n \nR \n \n1191 \n1190 \n4 \nFloat \nFlow Min in Ncfm since last \nClear Min/Max \n \nR \n \n1193 \n1192 \n4 \nFloat \nFlow Max in Ncfm since last \nClear Min/Max \n \nR \n \n \n1195 \n \n1194 \n \n4 \n \nFloat \n \nFlow AV in Ncfm \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1197 \n1196 \n4 \nFloat \nFlow in kg/h \n \nR \n \n1199 \n1198 \n4 \nFloat \nFlow Min in kg/h since last Clear \nMin/Max \n \nR \n \n1201 \n1200 \n4 \nFloat \nFlow Max in kg/h since last Clear \nMin/Max \n \nR \n \n \n1203 \n \n1202 \n \n4 \n \nFloat \n \nFlow AV in kg/h \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1205 \n1204 \n4 \nFloat \nFlow in kg/min \n \nR \n \n1207 \n1206 \n4 \nFloat \nFlow Min in kg/min since last \nClear Min/Max \n \nR \n \n1209 \n1208 \n4 \nFloat \nFlow Max in kg/min since last \nClear Min/Max \n \nR \n \n \n1211 \n \n1210 \n \n4"
+  },
+  {
+    "chunk_id": 33,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "R \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1205 \n1204 \n4 \nFloat \nFlow in kg/min \n \nR \n \n1207 \n1206 \n4 \nFloat \nFlow Min in kg/min since last \nClear Min/Max \n \nR \n \n1209 \n1208 \n4 \nFloat \nFlow Max in kg/min since last \nClear Min/Max \n \nR \n \n \n1211 \n \n1210 \n \n4 \n \nFloat \n \nFlow AV in kg/min \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“\n1213 \n1212 \n4 \nFloat \nFlow in kg/s \n \nR \n \n1215 \n1214 \n4 \nFloat \nFlow Min in kg/s since last Clear \nMin/Max \n \nR \n \n1217 \n1216 \n4 \nFloat \nFlow Max in kg/s since last Clear \nMin/Max \n \nR \n \n \n1219 \n \n1218 \n \n4 \n \nFloat \n \nFlow AV in kg/s \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“\n1221 \n1220 \n4 \nFloat \nFlow in kW \n \nR \n \n1223 \n1222 \n4 \nFloat \nFlow Min in kW since last Clear \nMin/Max \n \nR \n \n1225 \n1224 \n4 \nFloat \nFlow Max in kW since last Clear \nMin/Max \n \nR \n \n \n1227 \n \n1226 \n \n4 \n \nFloat \n \nFlow AV in kW \n \n \nR \nAverage for time period"
+  },
+  {
+    "chunk_id": 34,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "„1 to 1440 minutes“\n1221 \n1220 \n4 \nFloat \nFlow in kW \n \nR \n \n1223 \n1222 \n4 \nFloat \nFlow Min in kW since last Clear \nMin/Max \n \nR \n \n1225 \n1224 \n4 \nFloat \nFlow Max in kW since last Clear \nMin/Max \n \nR \n \n \n1227 \n \n1226 \n \n4 \n \nFloat \n \nFlow AV in kW \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“"
+  },
+  {
+    "chunk_id": 35,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 17 \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData \nType \n \nDescription \n \nDefault \nRead \nWrite \n \nUnit /Comment \n1269 \n1268 \n4 \nUInt32 \nConsumption m³ before comma \nx \nR \n \n1271 \n1270 \n4 \nFloat \nConsumption m³ after comma \nx \nR \n \n \n1273 \n \n1272 \n \n4 \n \nFloat \n \nConsumption m³ AV \n \nx \n \nR \nAverage for time period defined \nin AVTime Setup \n„1 to 1440 minutes“ \n1275 \n1274 \n4 \nUInt32 \nConsumption Nm³ before comma \nx \nR \n \n1277 \n1276 \n4 \nFloat \nConsumption Nm³ after comma \nx \nR \n \n \n1279 \n \n1278 \n \n4 \n \nFloat \n \nConsumption Nm³ AV \n \nx \n \nR \nAverage for time period defined \nin AVTime Setup \n„1 to 1440 minutes“ \n1281 \n1280 \n4 \nUInt32 \nConsumption ltr before comma \nx \nR \n \n1283 \n1282 \n4 \nFloat \nConsumption ltr after comma \nx \nR \n \n \n1285 \n \n1284 \n \n4 \n \nFloat \n \nConsumption ltr AV \n \nx \n \nR \nAverage for time period defined \nin AVTime Setup \n„1 to 1440 minutes“ \n1287 \n1286 \n4 \nUInt32 \nConsumption Nltr before comma \nx \nR \n \n1289 \n1288 \n4 \nFloat"
+  },
+  {
+    "chunk_id": 36,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "x \nR \n \n1283 \n1282 \n4 \nFloat \nConsumption ltr after comma \nx \nR \n \n \n1285 \n \n1284 \n \n4 \n \nFloat \n \nConsumption ltr AV \n \nx \n \nR \nAverage for time period defined \nin AVTime Setup \n„1 to 1440 minutes“ \n1287 \n1286 \n4 \nUInt32 \nConsumption Nltr before comma \nx \nR \n \n1289 \n1288 \n4 \nFloat \nConsumption Nltr after comma \nx \nR \n \n \n1291 \n \n1290 \n \n4 \n \nFloat \n \nConsumption Nltr AV \n \nx \n \nR \nAverage for time period defined \nin AVTime Setup \n„1 to 1440 minutes“ \n1293 \n1292 \n4 \nUInt32 \nConsumption cf before comma \nx \nR \n \n1295 \n1294 \n4 \nFloat \nConsumption cf after comma \nx \nR \n \n \n1297 \n \n1296 \n \n4 \n \nFloat \n \nConsumption cf AV \n \nx \n \nR \nAverage for time period defined \nin AVTime Setup \n„1 to 1440 minutes“ \n1299 \n1298 \n4 \nUInt32 \nConsumption Ncf before comma \nx \nR \n \n1301 \n1300 \n4 \nFloat \nConsumption Ncf after comma \nx \nR \n \n \n1303 \n \n1302 \n \n4 \n \nFloat \n \nConsumption Ncf AV \n \nx \n \nR \nAverage for time period defined \nin AVTime Setup \n„1 to 1440 minutes“ \n1305 \n1304 \n4 \nUInt32"
+  },
+  {
+    "chunk_id": 37,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "„1 to 1440 minutes“ \n1299 \n1298 \n4 \nUInt32 \nConsumption Ncf before comma \nx \nR \n \n1301 \n1300 \n4 \nFloat \nConsumption Ncf after comma \nx \nR \n \n \n1303 \n \n1302 \n \n4 \n \nFloat \n \nConsumption Ncf AV \n \nx \n \nR \nAverage for time period defined \nin AVTime Setup \n„1 to 1440 minutes“ \n1305 \n1304 \n4 \nUInt32 \nConsumption kg before comma \nx \nR \n \n1307 \n1306 \n4 \nFloat \nConsumption kg after comma \nx \nR \n \n \n1309 \n \n1308 \n \n4 \n \nFloat \n \nConsumption kg AV \n \nx \n \nR \nAverage for time period defined \nin AVTime Setup \n„1 to 1440 minutes“ \n1311 \n1310 \n4 \nUInt32 \nConsumption kWh before comma \nx \nR \n \n1313 \n1312 \n4 \nFloat \nConsumption kWh after comma \nx \nR \n \n \n1315 \n \n1314 \n \n4 \n \nFloat \n \nConsumption kWh AV \n \nx \n \nR \nAverage for time period defined \nin AVTime Setup \n„1 to 1440 minutes“"
+  },
+  {
+    "chunk_id": 38,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 18 \n \nModbus K01/0124 \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData \nType \n \nDescription \n \nDefault \nRead \nWrite \n \nUnit /Comment \n1347 \n1346 \n4 \nFloat \nVelocity m/s \n \nR \n \n1349 \n1348 \n4 \nFloat \nVelocity Min m/s since last \nClear Min/Max \n \nR \n \n1351 \n1350 \n4 \nFloat \nVelocity Max m/s since last \nClear Min/Max \n \nR \n \n \n1353 \n \n1352 \n \n4 \n \nFloat \n \nVelocity AV m/s \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1355 \n1354 \n4 \nFloat \nVelocity Nm/s \n \nR \n \n1357 \n1356 \n4 \nFloat \nVelocity Min Nm/s since last \nClear Min/Max \n \nR \n \n1359 \n1358 \n4 \nFloat \nVelocity Max Nm/s since last \nClear Min/Max \n \nR \n \n \n1361 \n \n1360 \n \n4 \n \nFloat \n \nVelocity AV Nm/s \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1363 \n1362 \n4 \nFloat \nVelocity Ft/min \n \nR \n \n1365 \n1364 \n4 \nFloat \nVelocity Min Ft/min since last \nClear Min/Max \n \nR \n \n1367 \n1366 \n4 \nFloat \nVelocity Max Ft/min since last \nClear Min/Max \n \nR \n \n \n1369"
+  },
+  {
+    "chunk_id": 39,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "R \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1363 \n1362 \n4 \nFloat \nVelocity Ft/min \n \nR \n \n1365 \n1364 \n4 \nFloat \nVelocity Min Ft/min since last \nClear Min/Max \n \nR \n \n1367 \n1366 \n4 \nFloat \nVelocity Max Ft/min since last \nClear Min/Max \n \nR \n \n \n1369 \n \n1368 \n \n4 \n \nFloat \n \nVelocity AV Ft/min \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“\n1371 \n1370 \n4 \nFloat \nVelocity NFt/min \n \nR \n \n1373 \n1372 \n4 \nFloat \nVelocity Min NFt/min since last \nClear Min/Max \n \nR \n \n1375 \n1374 \n4 \nFloat \nVelocity Max NFt/min since \nlast Clear Min/Max \n \nR \n \n \n1377 \n \n1376 \n \n4 \n \nFloat \n \nVelocity AV NFt/min \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“\n1419 \n1418 \n4 \nFloat \nGasTemp °C \n \nR \n \n1421 \n1420 \n4 \nFloat \nGasTemp Min °C since Clear \nMin/Max \n \nR \n \n1423 \n1422 \n4 \nFloat \nGasTemp Max °C since Clear \nMin/Max \n \nR \n \n \n1425 \n \n1424 \n \n4 \n \nFloat \n \nGasTemp AV °C \n \n \nR \nAverage for time period"
+  },
+  {
+    "chunk_id": 40,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "defined in AVTime Setup \n„1 to 1440 minutes“\n1419 \n1418 \n4 \nFloat \nGasTemp °C \n \nR \n \n1421 \n1420 \n4 \nFloat \nGasTemp Min °C since Clear \nMin/Max \n \nR \n \n1423 \n1422 \n4 \nFloat \nGasTemp Max °C since Clear \nMin/Max \n \nR \n \n \n1425 \n \n1424 \n \n4 \n \nFloat \n \nGasTemp AV °C \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“ \n1427 \n1426 \n4 \nFloat \nGasTemp °F \n \nR \n \n1429 \n1428 \n4 \nFloat \nGasTemp Min °F since Clear \nMin/Max \n \nR \n \n1431 \n1430 \n4 \nFloat \nGasTemp Max °F since Clear \nMin/Max \n \nR \n \n \n1433 \n \n1432 \n \n4 \n \nFloat \n \nGasTemp AV °F \n \n \nR \nAverage for time period \ndefined in AVTime Setup \n„1 to 1440 minutes“"
+  },
+  {
+    "chunk_id": 41,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 19 \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \n \nData Type \n \nDescription \nDef \nault \nRead \nWrite \n \nUnit /Comment \n1475 \n1474 \n4 \nFloat \nSystempressure mbar \nx \nR \nValue only available with \npressure option \n1477 \n1476 \n4 \nFloat \nsystempressure Min mbar since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1479 \n1478 \n4 \nFloat \nsystempressure Max mbar since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1481 \n1480 \n4 \nFloat \nSystempressure bar \nx \nR \nValue only available with \npressure option \n1483 \n1482 \n4 \nFloat \nsystempressure Min bar since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1485 \n1484 \n4 \nFloat \nsystempressure Max bar since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1487 \n1486 \n4 \nFloat \nSystempressure psi \nx \nR \nValue only available with \npressure option \n1489 \n1488 \n4 \nFloat \nsystempressure Min psi since \nClear Min/Max \nx \nR \nValue only available with"
+  },
+  {
+    "chunk_id": 42,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "4 \nFloat \nsystempressure Max bar since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1487 \n1486 \n4 \nFloat \nSystempressure psi \nx \nR \nValue only available with \npressure option \n1489 \n1488 \n4 \nFloat \nsystempressure Min psi since \nClear Min/Max \nx \nR \nValue only available with \npressure option \n1491 \n1490 \n4 \nFloat \nsystempressure Max psi since \nClear Min/Max \nx \nR \nValue only available with \npressure option"
+  },
+  {
+    "chunk_id": 43,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 20 \n \nModbus K01/0124 \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \n \nData Type \n \nDescription \nDefault \nRead \nWrite \n \nUnit /Comment \n1533 \n1532 \n4 \nUInt \nConsumption m³ bevore comma \n(left side) \nx \nR \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nonly available in \nDirection Sensor \n1535 \n1534 \n4 \nFloat \nConsumption m \n³² after comma (left side) \nx \nR \n1537 \n1536 \n4 \nUInt \nConsumption total m³ bevore \ncomma (left side + right side) \nx \nR \n1539 \n1538 \n4 \nFloat \nConsumption total m³ after \ncomma (left side + right side) \nx \nR \n1541 \n1540 \n4 \nUInt \nConsumption Nm³ bevore \ncomma (left side) \nx \nR \n1543 \n1542 \n4 \nFloat \nConsumption Nm³ after comma \n(left side) \nx \nR \n1545 \n1544 \n4 \nUInt \nConsumption total Nm³ bevore \ncomma (left side + right side) \nx \nR \n1547 \n1546 \n4 \nFloat \nConsumption total Nm³ after \ncomma (left side + right side) \nx \nR \n1549 \n1548 \n4 \nUInt \nConsumption ltr bevore comma \n(left side) \nx \nR \n1551 \n1550 \n4 \nFloat \nConsumption ltr after comma"
+  },
+  {
+    "chunk_id": 44,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "1545 \n1544 \n4 \nUInt \nConsumption total Nm³ bevore \ncomma (left side + right side) \nx \nR \n1547 \n1546 \n4 \nFloat \nConsumption total Nm³ after \ncomma (left side + right side) \nx \nR \n1549 \n1548 \n4 \nUInt \nConsumption ltr bevore comma \n(left side) \nx \nR \n1551 \n1550 \n4 \nFloat \nConsumption ltr after comma \n(left side) \nx \nR \n1553 \n1552 \n4 \nUInt \nConsumption total ltr bevore \ncomma (left side + right side) \nx \nR \n1555 \n1554 \n4 \nFloat \nConsumption total ltr after \ncomma (left side + right side) \nx \nR \n1557 \n1556 \n4 \nUInt \nConsumption Nltr bevore comma \n(left side) \nx \nR \n1559 \n1558 \n4 \nFloat/ \nConsumption Nltr after comma \n(left side) \nx \nR \n1561 \n1560 \n4 \nUInt \nConsumption total Nltr bevore \ncomma (left side + right side) \nx \nR \n1563 \n1562 \n4 \nFloat \nConsumption total Nltr after \ncomma (left side + right side) \nx \nR \n1565 \n1564 \n4 \nUInt \nConsumption Cf bevore comma \n(left side) \nx \nR \n1567 \n1566 \n4 \nFloatd \nConsumption Cf after comma \n(left side) \nx \nR \n1569 \n1568 \n4 \nUInt"
+  },
+  {
+    "chunk_id": 45,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "comma (left side + right side) \nx \nR \n1563 \n1562 \n4 \nFloat \nConsumption total Nltr after \ncomma (left side + right side) \nx \nR \n1565 \n1564 \n4 \nUInt \nConsumption Cf bevore comma \n(left side) \nx \nR \n1567 \n1566 \n4 \nFloatd \nConsumption Cf after comma \n(left side) \nx \nR \n1569 \n1568 \n4 \nUInt \nConsumption total Cf bevore \ncomma (left side + right side) \nx \nR \n1571 \n1570 \n4 \nFloat \nConsumption total Cf after \ncomma (left side + right side) \nx \nR \n1573 \n1572 \n4 \nUInt \nConsumption NCf bevore \ncomma (left side) \nx \nR \n1575 \n1574 \n4 \nFloat \nConsumption NCf after comma \n(left side) \nx \nR \n1577 \n1576 \n4 \nUInt \nConsumption total NCf bevore \ncomma (left side + right side) \nx \nR"
+  },
+  {
+    "chunk_id": 46,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 21 \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \n \nData Type \n \nDescription \nDef \nault \nRead \nWrite \n \nUnit /Comment \n1579 \n1578 \n4 \nFloat/Dword \nConsumption total NCf after \ncomma (left side + right side) \nx \nR \n \n \n \n \n \n \n \n \n \nonly available in Direction \nSensor \n1581 \n1580 \n4 \nUInt/Dword \nConsumption kg bevore \ncomma (left side) \nx \nR \n1583 \n1582 \n4 \nFloat/Dword \nConsumption kg after comma \n(left side) \nx \nR \n1585 \n1584 \n4 \nUInt/Dword \nConsumption total kg bevore \ncomma (left side + right side) \nx \nR \n1587 \n1586 \n4 \nFloat/Dword \nConsumption total kg after \ncomma (left side + right side) \nx \nR \n1589 \n1588 \n4 \nUInt/Dword \nConsumption kWh bevore \ncomma (left side) \nx \nR \n1591 \n1590 \n4 \nFloat/Dword \nConsumption kWh after \ncomma (left side) \nx \nR \n1593 \n1592 \n4 \nUInt/Dword \nConsumption total kWh bevore \ncomma (left side + right side) \nx \nR \n1595 \n1594 \n4 \nFloat/Dword \nConsumption total kWh after \ncomma (left side + right side) \nx \nR \n \n \nRemark"
+  },
+  {
+    "chunk_id": 47,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "x \nR \n1591 \n1590 \n4 \nFloat/Dword \nConsumption kWh after \ncomma (left side) \nx \nR \n1593 \n1592 \n4 \nUInt/Dword \nConsumption total kWh bevore \ncomma (left side + right side) \nx \nR \n1595 \n1594 \n4 \nFloat/Dword \nConsumption total kWh after \ncomma (left side + right side) \nx \nR \n \n \nRemark \n \nFor sensors (bi-directional) applies: Values for the \"Green\" direction can be read from \nregisters \n \n1000 - 1600. \nValues for the \"Blue\" direction can be read from registers \n10000 - 11600. \nRegister address for values in direction \"Blue\" = Register address in direction \"Green\" \n+ 9000 \n \nExample for consumption in m³ \nValue for direction \"Green\" Register address \n1268 \nValue for direction \"Blue\" Register address  \n10268 → \n \n \n \n(1268 +9000 = 10268)"
+  },
+  {
+    "chunk_id": 48,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 22 \n \nModbus K01/0124 \n10.3 Device settings register \n10.3.1 \nModbus Settings \n(2001…2005) \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \n \nData Type \n \nDescription \nDefault \nSetting \nRead \nWrite \n \nUnit /Comment \n \n2001 \n \n2000 \n \n2 \n \nUInt16 \n \nModbus ID \n \n1 \n \nR/W \n \nModbus ID 1…247 \n \n \n \n \n2002 \n \n \n \n \n2001 \n \n \n \n \n2 \n \n \n \n \nUInt16 \n \n \n \n \nBaudrate \n \n \n \n \n4 \n \n \n \n \nR/W \n0 = 1200 \n1 = 2400 \n2 = 4800 \n3 = 9600 \n4 = 19200 \n5 = 38400 \n6 = 57600 \n7 = 115200 \n \n2003 \n \n2002 \n \n2 \n \nUInt16 \n \nParity \n \n1 \n \nR/W \n0 = none \n1 = even \n2 = odd \n \n2004 \n \n2003 \n \n2 \n \nUInt16 \n \nNumber of Stopbits \n \n \nR/W \n0 = 1 Stop Bit \n1 = 2 Stop Bit \n \n2005 \n \n2004 \n \n2 \n \nUInt16 \n \nWord Order \n \n0xABCD \n \nR/W \n0xABCD = Big Endian \n0xCDAB = Middle Endian \n \n \n10.3.2 \nDisplay Settings (2007…2009) \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \n \nData Type \n \nDescription \nDefault \nSetting \nRead \nWrite \n \nUnit /Comment \n \n \n2007 \n \n \n2006 \n \n \n2 \n \n \nUInt16 \n \n \nDisplay Rotation"
+  },
+  {
+    "chunk_id": 49,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "0xABCD \n \nR/W \n0xABCD = Big Endian \n0xCDAB = Middle Endian \n \n \n10.3.2 \nDisplay Settings (2007…2009) \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \n \nData Type \n \nDescription \nDefault \nSetting \nRead \nWrite \n \nUnit /Comment \n \n \n2007 \n \n \n2006 \n \n \n2 \n \n \nUInt16 \n \n \nDisplay Rotation \nAuto dimming \n \n \n0 \n \n \nR/W \nbit 0: 0 = 0°,  1 = 180° \nbit 1: 0 = Autodimm off \n1 = Autodimm on \nbit 2 to 7 reserved \nbit 8 to 15 Autodimm Time \n(max. 240 Minutes)\"\n \n2008 \n \n2007 \n \n2 \n \nUInt16 \nBackLight \nBrightness \n \n80 \n \nR/W \n \n0 to 100% \n \n2009 \n \n2008 \n \n2 \n \nUInt16 \n \nLanguage \n \n0 \n \nR/W \n0 = English \n1 = Deutsch \n2 = Spanish \n3 = French"
+  },
+  {
+    "chunk_id": 50,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 23 \n10.3.3 \nDevice Settings (2021…2063) \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData Type  \nDescription \nDefault \nSetting \nRead \nWrite \n \nUnit /Comment \n \n2021 \n \n2020 \n \n16 \n \nString \n \nSensor Location \n \n\"\" \n \nR/W  \n \n2029 \n \n2028 \n \n4 \n \nUint32 \nCalibrated GasType as index \n \n0 \n \nR/W \nindex to Get Gas Names \nas String see chapter 7.4 \n \n \n \n \n \n2031 \n \n \n \n \n \n2030 \n \n \n \n \n \n4 \n \n \n \n \n \nUint32 \n \n \n \n \nGasSubType (only available \nif Calibrated GasType is Air) \n \n \n \n \n \n0 \n \n \n \n \n \nR/W \n0 =  Air \n1 =  CO2 \n2 =  N2O \n3 =  N2 \n4 =  O2 \n5 =  NG \n6 =  AR \n7 =  He \n8 =  H2 \n9 =  C3H8 \n10 = CH4 \n \n2033 \n \n2032 \n \n4 \n \nUint32 \nIndex of Length Unit \nUnit according Unit Index table \n \n64 (mm) \n \nR/W  \n \n2035 \n \n2034 \n \n4 \n \nUint32 \nIndex of Flow Unit \nUnit according Unit Index table \n \n14 (m³/h) \n \nR/W  \n \n2037 \n \n2036 \n \n4 \n \nUint32 \nIndex of Velocity Unit Unit \naccording Unit Index table \n \n10 (m/s) \n \nR/W  \n \n2039 \n \n2038 \n \n4 \n \nUint32"
+  },
+  {
+    "chunk_id": 51,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Unit according Unit Index table \n \n64 (mm) \n \nR/W  \n \n2035 \n \n2034 \n \n4 \n \nUint32 \nIndex of Flow Unit \nUnit according Unit Index table \n \n14 (m³/h) \n \nR/W  \n \n2037 \n \n2036 \n \n4 \n \nUint32 \nIndex of Velocity Unit Unit \naccording Unit Index table \n \n10 (m/s) \n \nR/W  \n \n2039 \n \n2038 \n \n4 \n \nUint32 \nIndex of Consumption Unit \naccording Unit Index table \n \n24 (m³) \n \nR/W  \n \n2041 \n \n2040 \n \n4 \n \nUint32 \nIndex of Temperature Unit \naccording Unit Index table \n \n1 (°C) \n \nR/W  \n \n2043 \n \n2042 \n \n4 \n \nUint32 \nIndex of Pressure \nUnit according Unit Index table \n38 \n(mbar) \n \nR/W  \n \n2045 \n \n2044 \n \n4 \n \nFloat \nPipe diameter in length unit as \nprogrammed in Register 2033 \n \n \nR/W  \n \n2047 \n \n2046 \n \n4 \n \nFloat \nReference Temperature in Unit \nprogrammed in Register 2041 \n \n20 \n \nR/W  \n \n2049 \n \n2048 \n \n4 \n \nFloat \nReference Pressure in Unit \nprogrammed in Register 2049 \n \n1000 \n \nR/W  \n \n2051 \n \n2050 \n \n4 \n \nFloat \nSystem Pressure in Unit \nprogrammed in Register 2049 \n \n5000 \n \nR/W  \n \n2053"
+  },
+  {
+    "chunk_id": 52,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "4 \n \nFloat \nReference Temperature in Unit \nprogrammed in Register 2041 \n \n20 \n \nR/W  \n \n2049 \n \n2048 \n \n4 \n \nFloat \nReference Pressure in Unit \nprogrammed in Register 2049 \n \n1000 \n \nR/W  \n \n2051 \n \n2050 \n \n4 \n \nFloat \nSystem Pressure in Unit \nprogrammed in Register 2049 \n \n5000 \n \nR/W  \n \n2053 \n \n2052 \n \n4 \n \nFloat \nZero Point of Velocity in Unit \nprogrammed in Register 2037 \n \n0 \n \nR/W  \n \n2055 \n \n2054 \n \n4 \n \nFloat \nMin Velocity in Unit \nprogrammed above \n \n0 \n \nR/W  \n \n2057 \n \n2056 \n \n4 \n \nFloat \nLowPass Filter Time for Flow \nand Velocity in ms \n \n100 \n \nR/W  \n \n2059 \n \n2058 \n \n4 \n \nUint32 \nAverage Time to Build \nAverage (1 to 1440 minutes) \n \n60 \n \nR/W  \n \n2061 \n \n2060 \n \n4 \n \nFloat \nHeatRating for Flammable gases \nat 0°C / 1013.25mbar \n \n0 \n \nR/W  \n \n2063 \n \n2062 \n \n4 \n \nUint32 \n \nnext Cal Date \nCalDate \n+ 2 Years \n \nR/W \n \nUnixTime"
+  },
+  {
+    "chunk_id": 53,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 24 \n \nModbus K01/0124 \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData \nType \n \nDescription \nDefault \nSetting \nRead \nWrite \n \nUnit /Comment \n \n2081 \n \n2080 \n \n4 \nFloat \n \nRelais Mode as index \n \n1\n \nR/W \n0 = none \n1 = Puls \n2 = Alarm \n \n2083 \n \n2082 \n \n4 \n \nFloat \n \nUnit Puls from Unit Table \n \nU_m3 \n \nR/W \nU_m3 \nU_ltr \nU_cf \nU_kg \n \n2085 \n \n2084 \n \n4 \n \nFloat \nPulse Value (value where \nis generated a new puls) \n \n1\n \nR/W \n \n \n2087 \n \n2086 \n \n4 \n \nFloat \n \nPulse Polarity \n \n1\n \nR/W \n0 = neg \n1 = pos \n \n \n \n2089 \n \n \n \n2088 \n \n \n \n4 \n \n \n \nFloat \n \n \n \nUnit Alarm from Unit Table \n \n \n \nU_\nGR\nA\nD_\nC\n \n \n \nR/W \nU_m_s \nU_m3_h \nU_ltr_s \nU_cfm \nU_kg_min \nU_kg_s \nU_GRAD_C \nU_GRAD_F\n \n2091 \n \n2090 \n \n4 \n \nFloat \n \nAlarm Value in Unit above \n \n25\n \nR/W \n \n \n2093 \n \n2092 \n \n4 \n \nFloat \nAlarm Hysteresis in Unit \nabove \n \n1\n \nR/W \n \n \n2095 \n \n2094 \n \n4 \n \nFloat \nAlarm at overshot or \nundershot as index \n \n1\n \nR/W \n0 = undershot \n1 = overshot \n \n2113 \n \n2112 \n \n4 \n \nFloat"
+  },
+  {
+    "chunk_id": 54,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "2091 \n \n2090 \n \n4 \n \nFloat \n \nAlarm Value in Unit above \n \n25\n \nR/W \n \n \n2093 \n \n2092 \n \n4 \n \nFloat \nAlarm Hysteresis in Unit \nabove \n \n1\n \nR/W \n \n \n2095 \n \n2094 \n \n4 \n \nFloat \nAlarm at overshot or \nundershot as index \n \n1\n \nR/W \n0 = undershot \n1 = overshot \n \n2113 \n \n2112 \n \n4 \n \nFloat \n \nReset to Factory Defaults \n \n \nW send Serial Number to this \nadr. to set factory defaults \n \n2115 \n \n2114 \n \n4 \n \nUInt32 \nConsumption \nat \nprogrammed unit above \n \n \nW if not locked, value to set \nconsumption \n \n2117 \n \n2116 \n \n4 \n \nFloat \n \nReset Min/Max Values \n \n \nW  \n \n2119 \n \n2118 \n \n4 \n \nFloat \n \nReset AV Values \n \n \nW  \n \n \n2121 \n \n \n2120 \n \n \n4 \n \n \nFloat \n \nTemperature \nCorrection \nValue at unit programmed \nabove \n \n \n \nR/W \nWrite the actual measured \nTemperature value to this \nregister \nat read the offset to internal \ntemperature is returned\n \n2123 \n \n2122 \n \n4 \n \nFloat \nSet \nor \nClear \nRemoteControll State \n \n \nR/W \n0 = cleared all other means \nremote controlled \n \n2125 \n \n2124 \n \n4"
+  },
+  {
+    "chunk_id": 55,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "above \n \n \n \nR/W \nWrite the actual measured \nTemperature value to this \nregister \nat read the offset to internal \ntemperature is returned\n \n2123 \n \n2122 \n \n4 \n \nFloat \nSet \nor \nClear \nRemoteControll State \n \n \nR/W \n0 = cleared all other means \nremote controlled \n \n2125 \n \n2124 \n \n4 \n \nFloat \n \nUser offset pressure \n \n \nR/W \nonly with pressure option \navailable \n \n2127 \n \n2126 \n \n4 \n \nFloat \nConsumption (left side) at \nprogrammed unit above \n \n \nR/W \nonly available in Direction \nSensor"
+  },
+  {
+    "chunk_id": 56,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 25 \n10.3.4 \nAnalog 4…20 mA Register \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \nData \nType \n \nDescription \nDefault \nSetting \nRead \nWrite \n \nUnit /Comment \n \n2201 \n \n2200 \n \n4 \n \nUInt32 \n \n4-20mA CH1 Selected \nValue as index \n \n1 or 2 \n \nR/W \n0 = not used \n1 = Flow \n2 = Velocity \n3 = Temperature \n \n \n \n \n \n2203 \n \n \n \n \n \n2202 \n \n \n \n \n \n4 \n \n \n \n \n \nUInt32 \n \n \n \n \n4-20mA CH1 Unit index \nfrom unit table for above \nselected Value \n \n \n \n \nU_m3_h  \nU_m_s  \n \n \n \n \n \n \nR/W \nFlow: \nU_m3_h,U_Nm3_h,U_m3_m \nin,U_Nm3_min,U_ltr_h,U_Nlt \nr_h,U_ltr_min,U_Nl_min,U_lt \nr_s,U_Nl_s,U_cfm,U_Ncfm, \nU_kg_h,U_kg_min,U_kg_s,U \n_kW \nVelocity: \nU_m_s,U_Nm_s,U_Ft_min,U \n_Nft_min \nTemperature: \nU_GRAD_C,U_GRAD_F \n \n2205 \n \n2204 \n \n4 \n \nUInt32 \n4-20mA CH1 Auto or \nManual Range \n \n0 \n \nR/W \n0 = AutoRange \n1 = Manual Range \n \n2207 \n \n2206 \n \n4 \n \nUInt32 \n \n4-20mA CH1 Scale Low \n \n0 \n \nR/W \nwritable only if Manual \nRange is selected \n \n2209 \n \n2208 \n \n4 \n \nUInt32"
+  },
+  {
+    "chunk_id": 57,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "_Nft_min \nTemperature: \nU_GRAD_C,U_GRAD_F \n \n2205 \n \n2204 \n \n4 \n \nUInt32 \n4-20mA CH1 Auto or \nManual Range \n \n0 \n \nR/W \n0 = AutoRange \n1 = Manual Range \n \n2207 \n \n2206 \n \n4 \n \nUInt32 \n \n4-20mA CH1 Scale Low \n \n0 \n \nR/W \nwritable only if Manual \nRange is selected \n \n2209 \n \n2208 \n \n4 \n \nUInt32 \n \n4-20mA CH1 Scale High \n \nMax Speed \n \nR/W \nwritable only if Manual \nRange is selected \n \n2211 \n \n2210 \n \n4 \n \nUInt32 \n \n4-20mA CH2 Selected \nValue as index \n \n3 \n \nR/W \n0 = not used \n1 = Flow \n2 = Velocity \n3 = Temperature \n \n \n \n \n \n2213 \n \n \n \n \n \n2212 \n \n \n \n \n \n4 \n \n \n \n \n \nUInt32 \n \n \n \n \n4-20mA CH2 Unit index \nfrom unit table for above \nselected Value \n \n \n \n \n \nU_GRAD_C \n \n \n \n \n \nR/W \nFlow: \nU_m3_h,U_Nm3_h,U_m3_m \nin,U_Nm3_min,U_ltr_h,U_Nlt \nr_h,U_ltr_min,U_Nl_min,U_lt \nr_s,U_Nl_s,U_cfm,U_Ncfm, \nU_kg_h,U_kg_min,U_kg_s,U \n_kW \nVelocity: \nU_m_s,U_Nm_s,U_Ft_min,U \n_Nft_min \nTemperature: \nU_GRAD_C,U_GRAD_F\n \n2215 \n \n2214 \n \n4 \n \nUInt32 \n4-20mA CH2 Auto or \nManual Range \n \n-20 \n \nR/W"
+  },
+  {
+    "chunk_id": 58,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "U_m3_h,U_Nm3_h,U_m3_m \nin,U_Nm3_min,U_ltr_h,U_Nlt \nr_h,U_ltr_min,U_Nl_min,U_lt \nr_s,U_Nl_s,U_cfm,U_Ncfm, \nU_kg_h,U_kg_min,U_kg_s,U \n_kW \nVelocity: \nU_m_s,U_Nm_s,U_Ft_min,U \n_Nft_min \nTemperature: \nU_GRAD_C,U_GRAD_F\n \n2215 \n \n2214 \n \n4 \n \nUInt32 \n4-20mA CH2 Auto or \nManual Range \n \n-20 \n \nR/W \n0 = AutoRange \n1 = Manual Range \n \n2217 \n \n2216 \n \n4 \n \nUInt32 \n \n4-20mA CH2 Scale Low \n \n100 \n \nR/W \nwritable only if Manual \nRange is selected \n \n2219 \n \n2218 \n \n4 \n \nUInt32 \n \n4-20mA CH2 Scale High \n \nMax Speed \n \nR/W \nwritable only if Manual \nRange is selected \n \n \n2221 \n \n \n2220 \n \n \n4 \n \n \nUInt32 \n \n4-20mA CH1 and CH2 \nCurrent on error as index \n \n \n \nR/W \n0 = is the actual value \nabove 3.8mA or below \n20.5mA \n1 = 22mA is outputed \n2 = 2mA is outputed \n \n2223 \n \n2222 \n \n4 \n \nUInt32 \n4-20mA number of \navailable channels \n \n1 \n \nR"
+  },
+  {
+    "chunk_id": 59,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 26 \n \nModbus K01/0124 \n10.3.5 \nETH Board Register \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \n \nData Type \n \nDescription \nDefault \nSetting \nRead \nWrite \n \nUnit /Comment \n3201 \n3200 \n4 \nDword \nDHCP on/off \n1 \nR/W \n1 = DHCP on \n0 = DHCP off \n3207 \n3206 \n4 \nDword \nIP Address 4 Byte \nx \nR/W \n0xff.0xff.0xff.0xff \n3209 \n3208 \n4 \nDword \nSubnet Mask 4 \nByte\nx \nR/W \n0xff.0xff.0xff.0xff \n3211 \n3210 \n4 \nDword \nGateway 4 Byte \nx \nR/W \n0xff.0xff.0xff.0xff \n3213 \n3212 \n4 \nDword \nDNS Address 4 Byte \nx \nR/W \n0xff.0xff.0xff.0xff \n \n3215 \n \n3214 \n \n16 \n \nString \n \nHostname \n \nMAC \nADR \n \nR/W \nAt factory reset \nHostname is VA‐MAC \nAddress: \nVA‐7AD80040xxxx"
+  },
+  {
+    "chunk_id": 60,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 27 \n10.3.6 \nData format test register   (64001… 64003) \n \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \n \nData Type \n \nDescription \nDefault \nSetting \nRead \nWrite \n \nUnit /Comment \n64001 \n64000 \n4 \nDword \n1000000 \nx \nR \nformat test for Dword \n64003 \n64002 \n4 \nfloat \n1000000.0 \nx \nR \nformat test for float \n \n \n10.4 Gas names \nModbus \nRegister \nModbus \nAddress \nNo.of \nByte \n \nData Type \n \nDescription \nDefault \nSetting \nRead \nWrite \n \nUnit /Comment \n2501 \n2500 \n16\nString \nGas at index 0 \nAir\nR  \n2509 \n2508 \n16\nString \nGas at index 1 \n \nR  \n2517 \n2516 \n16\nString \nGas at index 2 \n \nR  \n2525 \n2524 \n16\nString \nGas at index 3 \n \nR  \n2533 \n2532 \n16\nString \nGas at index 4 \n \nR  \n2541 \n2540 \n16\nString \nGas at index 5 \n \nR  \n2549 \n2548 \n16\nString \nGas at index 6 \n \nR  \n2557 \n2556 \n16\nString \nGas at index 7 \n \nR  \n2565 \n2564 \n16\nString \nGas at index 8 \n \nR  \n2573 \n2572 \n16\nString \nGas at index 9 \n \nR  \n2581 \n2580 \n16\nString \nGas at index 10 \n \nR  \n2589 \n2588 \n16"
+  },
+  {
+    "chunk_id": 61,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "R  \n2541 \n2540 \n16\nString \nGas at index 5 \n \nR  \n2549 \n2548 \n16\nString \nGas at index 6 \n \nR  \n2557 \n2556 \n16\nString \nGas at index 7 \n \nR  \n2565 \n2564 \n16\nString \nGas at index 8 \n \nR  \n2573 \n2572 \n16\nString \nGas at index 9 \n \nR  \n2581 \n2580 \n16\nString \nGas at index 10 \n \nR  \n2589 \n2588 \n16\nString \nGas at index 11 \n \nR  \n2597 \n2596 \n16\nString \nGas at index 12 \n \nR  \n2605 \n2604 \n16\nString \nGas at index 13 \n \nR  \n2613 \n2612 \n16\nString \nGas at index 14 \n \nR  \n \nAddress of Gasname register: (Value register 2031)*8 +2500 \ne.g. \nValue Register 2031 = 1 \nAddress Gasname register: (1*8) + 2500 = 2508"
+  },
+  {
+    "chunk_id": 62,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \npage 28 \n \nModbus K01/0124 \n10.5 Unit Index Table \n \nIndex \n \nValue \n \nIndex \n \nValue \n \nIndex \n \nValue \n \nIndex \n \nValue \n1 \n°C \n11 \nfpm \n21 \nNltr/min \n31 \natm°C \n2 \n°F \n12 \nNm/s \n22 \nNltr/s \n32 \natm°F \n3 \n%RH \n13 \nSFPM \n23 \nSCFM \n33 \npa \n4 \n°Ctd \n14 \nm³/h \n24 \nm³ \n34 \nhpa \n5 \n°Ftd \n15 \nm³/min \n25 \nltr \n35 \nkpa \n6 \nmg/kg \n16 \nltr/min \n26 \ncf \n36 \nMpa \n7 \nmg/m³ \n17 \nltr/s \n27 \nNm³ \n37 \nmbar \n8 \ng/kg \n18 \ncfm \n28 \nNltr \n38 \nbar \n9 \ng/m³ \n19 \nNm³/h \n29 \nSCF \n39 \npsi \n10 \nm/s \n20 \nNm³/min \n30 \nppm \n40 \nmV \n \n \nIndex \n \nValue \n \nIndex \n \nValue \n \nIndex \n \nValue \n \nIndex \n \nValue \n41 \nV \n51 \nAVcf/h \n61 \nkVAr \n71 \nltr/h \n42 \nµV \n52 \nkg/h \n62 \n- \n72 \nNltr/h \n43 \nkV \n53 \nkg/min \n63 \n€ \n73 \nlb/h \n44 \nmA \n54 \nOhm \n64 \ncts/m³ \n74 \nlb/min \n45 \nA \n55 \nHz \n65 \nW \n75 \nlb/s \n46 \nkg/s \n56 \n% \n66 \nWh \n76 \nt/h \n47 \nkg \n57 \nkW \n67 \nh \n77 \nt \n48 \nAVm³/h \n58 \nkWh \n68 \ndB \n78 \nlb \n49 \nAVl/h \n59 \nPCS \n69 \nmm \n79 \nSCFH \n50 \nAVkg/h \n60 \nkVA \n70 \ninch \n80 \ncfh \n \n \nIndex \n \nValue \n \nIndex \n \nValue"
+  },
+  {
+    "chunk_id": 63,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "lb/h \n44 \nmA \n54 \nOhm \n64 \ncts/m³ \n74 \nlb/min \n45 \nA \n55 \nHz \n65 \nW \n75 \nlb/s \n46 \nkg/s \n56 \n% \n66 \nWh \n76 \nt/h \n47 \nkg \n57 \nkW \n67 \nh \n77 \nt \n48 \nAVm³/h \n58 \nkWh \n68 \ndB \n78 \nlb \n49 \nAVl/h \n59 \nPCS \n69 \nmm \n79 \nSCFH \n50 \nAVkg/h \n60 \nkVA \n70 \ninch \n80 \ncfh \n \n \nIndex \n \nValue \n \nIndex \n \nValue \n \nIndex \n \nValue \n \nIndex \n \nValue \n81 \ng/s \n \n \n \n82 \ng/min \n \n \n \n83 \nm"
+  },
+  {
+    "chunk_id": 64,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\s5gbm_modbus-installation-kep-x.pdf",
+    "content": "Modbus \nModbus K01/0124 \n \npage 29 \n11. Appendix \n11.1 Appendix A - Exception codes \nThe KEP-x Modbus uses the following exception codes when responding to the \nmaster \n \nException Code \nException name \n0x01 \nIllegal function \n0x02 \nIllegal data address \n0x03 \nIllegal data value \n0x04 \nSlave device failure \n0x05 \nAcknowledge \n0x06 \nSlave device busy"
+  }
+]

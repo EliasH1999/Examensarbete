@@ -1,0 +1,470 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "PREPARED \n2021-03-12 \n      \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nRELEASED \n2021-05-03 \n      \nDOCUMENT KIND \nManual \nOWNING ORGANIZATION \nMotor Starting & Safety Softstarters \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n1/36 \n© Copyright 2021 ABB. All rights reserved. \n \n—  \nSOFTSTARTER TYPE PSTX \nFieldbus communication \nBuilt-in Modbus RTU"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n2/36 \n© Copyright 2021 ABB. All rights reserved. \n \nContents \n1. Modbus RTU ................................................................................................................................ 3 \n2. Modbus Addressing ................................................................................................................... 4 \n2.1. \nProtocol Address ......................................................................................................................... 4 \n2.2. \nModicon Address ........................................................................................................................ 4 \n2.3. \nTranslating Modicon address to protocol address ..............................................................5"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "2.2. \nModicon Address ........................................................................................................................ 4 \n2.3. \nTranslating Modicon address to protocol address ..............................................................5 \n3. PSTX Data .................................................................................................................................... 5 \n3.1. \nDigital input telegram ................................................................................................................5 \n3.2. \nProgrammable Digital Inputs ................................................................................................... 6 \n3.3. \nAnalog input telegram ............................................................................................................... 8 \n3.4. \nStatus word .................................................................................................................................. 8 \n3.5."
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Analog input telegram ............................................................................................................... 8 \n3.4. \nStatus word .................................................................................................................................. 8 \n3.5. \nProgrammable Analog Inputs .................................................................................................. 9 \n3.6. \nDigital output telegram............................................................................................................ 11 \n3.7. \nAnalog output telegram ........................................................................................................... 12 \n3.8. \nControl words ............................................................................................................................. 13 \n4. Modbus RTU - A set-up example ............................................................................................. 14 \n4.1."
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "3.8. \nControl words ............................................................................................................................. 13 \n4. Modbus RTU - A set-up example ............................................................................................. 14 \n4.1. \nSoftstarter PSTX Modbus RTU communication ................................................................. 14 \n4.2. \nSettings ........................................................................................................................................ 14 \n4.3. \nRead digital input telegram ..................................................................................................... 16 \n4.4. \nWrite digital output telegram ................................................................................................. 17 \n4.5. \nRead analog input telegram .................................................................................................... 18 \n4.6."
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "4.4. \nWrite digital output telegram ................................................................................................. 17 \n4.5. \nRead analog input telegram .................................................................................................... 18 \n4.6. \nWrite analog output telegram ................................................................................................ 19 \n5. Fieldbus Tasks .......................................................................................................................... 20 \n5.1. \nFBT Control Word ...................................................................................................................... 20 \n5.2. \nTask ID ......................................................................................................................................... 20 \n5.3."
+  },
+  {
+    "chunk_id": 6,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "5.2. \nTask ID ......................................................................................................................................... 20 \n5.3. \nResponse ID ............................................................................................................................... 20 \n5.4. \nError codes .................................................................................................................................. 21 \n5.5. \nRequest parameter value, lower word .................................................................................. 21 \n5.5.1. \nArguments ................................................................................................................. 21 \n5.5.2. \nReturn Value .............................................................................................................. 21 \n5.6. \nChange parameter value .......................................................................................................... 21"
+  },
+  {
+    "chunk_id": 7,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "5.5.2. \nReturn Value .............................................................................................................. 21 \n5.6. \nChange parameter value .......................................................................................................... 21 \n5.6.1. \nArguments ................................................................................................................. 21 \n5.6.2. \nReturn Value .............................................................................................................. 21 \n5.7. \nSet date and time ......................................................................................................................22 \n5.7.1. \nArguments .................................................................................................................22 \n5.7.2. \nReturn Value ..............................................................................................................22 \n5.8."
+  },
+  {
+    "chunk_id": 8,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "5.7.1. \nArguments .................................................................................................................22 \n5.7.2. \nReturn Value ..............................................................................................................22 \n5.8. \nRequest parameter value, upper word..................................................................................22 \n5.8.1. \nArguments .................................................................................................................22 \n5.8.2. \nReturn Value ..............................................................................................................22 \n5.9. \nParameter numbers and values ..............................................................................................23 \n5.9.1. \nNegative values .........................................................................................................23"
+  },
+  {
+    "chunk_id": 9,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "5.9. \nParameter numbers and values ..............................................................................................23 \n5.9.1. \nNegative values .........................................................................................................23 \n6. Troubleshooting ...................................................................................................................... 24 \n7. Example application with Automation Builder ..................................................................... 24 \n7.1. \nCreate a new project in Automation Builder ...................................................................... 24 \n7.2. \nAdd Modbus RTU master to project ..................................................................................... 26 \n7.3. \nBuild a START-STOP program .................................................................................................. 27 \n7.4."
+  },
+  {
+    "chunk_id": 10,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "7.2. \nAdd Modbus RTU master to project ..................................................................................... 26 \n7.3. \nBuild a START-STOP program .................................................................................................. 27 \n7.4. \nConnect to PLC using TCP/IP ................................................................................................. 34 \n7.5. \nBuild and run the PLC demo program .................................................................................. 36 \n8. Contact us .................................................................................................................................36"
+  },
+  {
+    "chunk_id": 11,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n3/36 \n© Copyright 2021 ABB. All rights reserved. \n \n1. \nModbus RTU \nModbus is a master-slave protocol and only one device can transmit on the line at any time. \nThe master (which in most cases is a PLC) manages the exchanges and only it can take the \ninitiative. It interrogates each of the slaves in succession and no slave can send a message un-\nless it is invited to do so. The master repeats the question when there is an incorrect ex-\nchange and declares the interrogated slave absent if no response is received within a given \ntime. If a slave does not understand a message, it sends an exception response to the master \nwho may or may not repeat the request. \nThe Modbus protocol is a fieldbus protocol that provides full control and status information \nof the softstarter, reading as well as writing of parameters. Through the fieldbus it is possi-"
+  },
+  {
+    "chunk_id": 12,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "who may or may not repeat the request. \nThe Modbus protocol is a fieldbus protocol that provides full control and status information \nof the softstarter, reading as well as writing of parameters. Through the fieldbus it is possi-\nble to start and stop the motor, read out currents and frequency, get information about pro-\ntections, warnings, faults and much more. \nSee chapter 8 in the Installation and commissioning manual, document 1SFC132081M0201, \nfor fieldbus related settings. \nBefore the Modbus RTU can be taken in operation following parameters must be set in the \nsoftstarter: \n– Parameter 12.2 FB interface connector set to Modbus RTU. \n– Parameter 12.3 Fieldbus control set to On (This parameter can be set to Off if the fieldbus \ninterface is only used to monitor the softstarter)  \n– Parameter 12.9 FB baud rate set to a value matching existing Modbus network (supported \nbaud rates are 9600, 19200, 38400, 57600, 76800 and 115200 Baud)."
+  },
+  {
+    "chunk_id": 13,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "interface is only used to monitor the softstarter)  \n– Parameter 12.9 FB baud rate set to a value matching existing Modbus network (supported \nbaud rates are 9600, 19200, 38400, 57600, 76800 and 115200 Baud). \n– Parameter 12.10 FB parity set to a value matching existing Modbus network. \n– Parameter 12.11 FB stop bits set to a value matching existing Modbus network. \n– Parameter 12.4 Fieldbus address set to an available Modbus slave id. In the examples (sec-\ntion 4) the fieldbus address is set to 47, but this parameter can be set to any value be-\ntween 1-247. \n– Parameter 12.1 Com3 function set to Modbus RTU slave. \n \nInformation \nAfter changing any of the communication parameters it is needed to perform a \npower cycle of the device for the parameter values to be taken into effect. Or an-\nother way for a communication parameter value change to be taken into effect is \nto set parameter 12.2 FB interface connector to “None” and then set it back to \n“Modbus RTU”."
+  },
+  {
+    "chunk_id": 14,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "power cycle of the device for the parameter values to be taken into effect. Or an-\nother way for a communication parameter value change to be taken into effect is \nto set parameter 12.2 FB interface connector to “None” and then set it back to \n“Modbus RTU”. \nIf there is no message passed between the PSTX softstarter and the Modbus \nmaster for more than the configured fieldbus failure timeout time (parameter \n19.12), the PSTX softstarter will trip on fieldbus communication failure protection \n(P1E00) and with the default configuration the motor will be stopped. If the com-\nmunication system is setup in such a way that commands/requests are not con-\ntinuously passed between the PLC and softstarter, this protection function \nshould be disabled. The parameter 19.4 (Fieldbus failure op) can then be set to \n“Off”."
+  },
+  {
+    "chunk_id": 15,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n4/36 \n© Copyright 2021 ABB. All rights reserved. \n \n \nInformation \nThe DX111 or DX112 expansion IO module shares the same terminals (23 and 24) \nas the internal Modbus RTU communication, so both cannot be used at the same \ntime. \n \nCaution! \nThe motor may start unexpectedly if there is a start signal present when doing \nany of the actions listed below. \n– Switching from one type of control to another (fieldbus control/hardwire \ncontrol) \n– Reset all Settings \n \n2. \nModbus Addressing \nWhen talking about Modbus addressing, there is often a misunderstanding about what an \naddress really is. This section will try to clarify the conventions in this document. \n2.1. \nProtocol Address \nThe Modbus standard specification uses one kind of address, a two-byte unsigned integer \n(0-65535). \nThis is the address that is actually transmitted to the device. \n2.2."
+  },
+  {
+    "chunk_id": 16,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "address really is. This section will try to clarify the conventions in this document. \n2.1. \nProtocol Address \nThe Modbus standard specification uses one kind of address, a two-byte unsigned integer \n(0-65535). \nThis is the address that is actually transmitted to the device. \n2.2. \nModicon Address \nModbus was originally developed by Modicon and the notation used then is still often used \ntoday, though considered obsolete by present standards.  \nThe Modicon notation combines two pieces of information in a single number: \n1. The register type \n2. The register number \nA register number offset defines the type and makes it possible to translate between the two \ntypes of addresses. \nTable 1 Register types and ranges \nPrefix \nRegister Type \nRange \n0x \nCoil \n00001-00001 \n1x \nDiscrete Input \n10001-19999 \n3x \nInput Register \n30001-39999 \n4x \nHolding Register \n40001-49999"
+  },
+  {
+    "chunk_id": 17,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n5/36 \n© Copyright 2021 ABB. All rights reserved. \n \n2.3. \nTranslating Modicon address to protocol address \nAn example: \nModicon address 40002 selects the holding register at protocol address 0001 (40002 – 40001 \n= 1). The protocol address 0001 will be transmitted in the message packet. \n3. \nPSTX Data \n3.1. \nDigital input telegram \nTo PLC from the softstarter. The input data is updated every 20 ms. \nUse Modbus function code 01, Read Coil Status. \nProtocol \nAddress \nModicon \nAddress \nData \nDescription \n0000h \n00001 \nAuto Mode status1 \n0 = Softstarter control through \nModbus disabled \n1 = Softstarter control through \nModbus enabled \n0001h \n00002 \nEvent status \n0 = No active fault/warning/protec-\ntion \n1 = Active fault/warning/protection \n0002h \n00003 \nReady to start \n0 = A start will probably cause a \nfault,  \n1 = A start will probably not cause a \nfault \n0003h"
+  },
+  {
+    "chunk_id": 18,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Modbus disabled \n1 = Softstarter control through \nModbus enabled \n0001h \n00002 \nEvent status \n0 = No active fault/warning/protec-\ntion \n1 = Active fault/warning/protection \n0002h \n00003 \nReady to start \n0 = A start will probably cause a \nfault,  \n1 = A start will probably not cause a \nfault \n0003h \n00004 \nFBT Response 0 \nSee Fieldbus Tasks \n0004h \n00005 \nFBT Response 1 \nSee Fieldbus Tasks \n0005h \n00006 \nFBT Toggle Bit \nSee Fieldbus Tasks \n0006h \n00007 \nProgrammable Digital Input 1 \nFunction of programmable digital \ninput, see section 3.2 \n0007h \n00008 \nProgrammable Digital Input 2 \n0008h \n00009 \nProgrammable Digital Input 3 \n0009h \n00010 \nProgrammable Digital Input 4 \n000Ah \n00011 \nProgrammable Digital Input 5 \n000Bh \n00012 \nProgrammable Digital Input 6 \n000Ch \n00013 \nProgrammable Digital Input 7 \n000Dh \n00014 \nProgrammable Digital Input 8 \n000Eh \n00015 \nProgrammable Digital Input 9 \n000Fh \n00016 \nProgrammable Digital Input 10"
+  },
+  {
+    "chunk_id": 19,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Programmable Digital Input 4 \n000Ah \n00011 \nProgrammable Digital Input 5 \n000Bh \n00012 \nProgrammable Digital Input 6 \n000Ch \n00013 \nProgrammable Digital Input 7 \n000Dh \n00014 \nProgrammable Digital Input 8 \n000Eh \n00015 \nProgrammable Digital Input 9 \n000Fh \n00016 \nProgrammable Digital Input 10 \n \n1) Auto mode reflects the control state of the Softstarter. This is affected by a combination of: \n– The Auto mode input signal from the PLC (protocol address 0000h in the digital output \ntelegram or bit 3 in the control word). \n– The state of the Local/Remote switch on the HMI."
+  },
+  {
+    "chunk_id": 20,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n6/36 \n© Copyright 2021 ABB. All rights reserved. \n \n– The parameter “Fieldbus control”. \n– The digital input “Fieldbus disable”. \nDigital input telegram is also available as a status word on protocol address 01FFh (see sec-\ntion 3.4). \n3.2. \nProgrammable Digital Inputs \nThe functions of the programmable Digital inputs are controlled by the parameters Fieldbus \nDI 1 through Fieldbus DI 10. The following functions are available for selection: \nFunction \nData \nNone \nValue is set to 0. \nStart feedback \nStatus of Start signal. \nStop feedback \nStatus of Stop signal. \nFault reset feedback \nStatus of Reset signal. \nSlow speed reverse feedback \nStatus of Slow speed reverse signal. \nSlow speed forward feedback \nStatus of Slow speed forward signal. \nStart 1 feedback \nStatus of Start 1 signal. \nStart 2 feedback \nStatus of Start 2 signal. \nStart 3 feedback"
+  },
+  {
+    "chunk_id": 21,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Fault reset feedback \nStatus of Reset signal. \nSlow speed reverse feedback \nStatus of Slow speed reverse signal. \nSlow speed forward feedback \nStatus of Slow speed forward signal. \nStart 1 feedback \nStatus of Start 1 signal. \nStart 2 feedback \nStatus of Start 2 signal. \nStart 3 feedback \nStatus of Start 3 signal. \nMotor heating feedback \nStatus Motor heating signal. \nUser defined feedback \nStatus of User defined protection signal. \nStand still brake feedback \nStatus of Stand still brake signal. \nEmergency mode feedback \nStatus of Emergency mode signal. \nStart reverse feedback \nStatus of Start reverse signal. \nRun status \n1 = Indicates when the softstarter gives voltage to \nthe motor. \nTOR status \nTop of Ramp. 1 = Indicates that motor runs on full \nvoltage. \nLine \nLine or Inside Delta Connection; 0 = Line, 1 = Delta. \nPhase sequence \n0 = L1, L2, L3; 1 = L1, L3, L2. \nEvent group 0 status \n0 = No active events present in group 0.  \nEvent group 1 status"
+  },
+  {
+    "chunk_id": 22,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "the motor. \nTOR status \nTop of Ramp. 1 = Indicates that motor runs on full \nvoltage. \nLine \nLine or Inside Delta Connection; 0 = Line, 1 = Delta. \nPhase sequence \n0 = L1, L2, L3; 1 = L1, L3, L2. \nEvent group 0 status \n0 = No active events present in group 0.  \nEvent group 1 status \n0 = No active events present in group 1. \nEvent group 2 status \n0 = No active events present in group 2. \nEvent group 3 status \n0 = No active events present in group 3. \nEvent group 4 status \n0 = No active events present in group 4. \nEvent group 5 status \n0 = No active events present in group 5. \nEvent group 6 status \n0 = No active events present in group 6. \nSequence 1 Run status \nRun status of sequence connected motor 1. \nSequence 2 Run status \nRun status of sequence connected motor 2. \nSequence 3 Run status \nRun status of sequence connected motor 3. \nSequence 1 TOR status \nTop of Ramp status of sequence connected motor 1. \nSequence 2 TOR status \nTop of Ramp status of sequence connected motor 2."
+  },
+  {
+    "chunk_id": 23,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n7/36 \n© Copyright 2021 ABB. All rights reserved. \n \nFunction \nData \nSequence 3 TOR status \nTop of Ramp status of sequence connected motor 3. \nRun reverse status \n1 = Indicates when the softstarter gives voltage to \nthe motor after a reverse start. \nEnable status \nStatus of Enable signal. \nDigital In0 status \nStatus of internal digital input In0. \nDigital In1 status \nStatus of internal digital input In1. \nDigital In2 status \nStatus of internal digital input In2. \nLocal control status \n0 = Remote control, 1 = Local control (HMI). \nCancel brake feedback \nStatus of Cancel brake signal. \nPump cleaning auto status \nStatus of automatic pump cleaning. \nPump cleaning forward status \nStatus of forward pump cleaning. \nPump cleaning backward status \nStatus of reverse pump cleaning. \n \nExternal digital 1DI0 status \nStatus of external digital input 1DI0 (not supported"
+  },
+  {
+    "chunk_id": 24,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Pump cleaning auto status \nStatus of automatic pump cleaning. \nPump cleaning forward status \nStatus of forward pump cleaning. \nPump cleaning backward status \nStatus of reverse pump cleaning. \n \nExternal digital 1DI0 status \nStatus of external digital input 1DI0 (not supported \nwhen using internal Modbus RTU). \nExternal digital 1DI1 status \nStatus of external digital input 1DI1 (not supported \nwhen using internal Modbus RTU). \nExternal digital 1DI2 status \nStatus of external digital input 1DI2 (not supported \nwhen using internal Modbus RTU). \nExternal digital 1DI3 status \nStatus of external digital input 1DI3 (not supported \nwhen using internal Modbus RTU). \nExternal digital 1DI4 status \nStatus of external digital input 1DI4 (not supported \nwhen using internal Modbus RTU). \nExternal digital 2DI5 status \nStatus of external digital input 2DI5 (not supported \nwhen using internal Modbus RTU). \nExternal digital 2DI6 status \nStatus of external digital input 2DI6 (not supported"
+  },
+  {
+    "chunk_id": 25,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Status of external digital input 1DI4 (not supported \nwhen using internal Modbus RTU). \nExternal digital 2DI5 status \nStatus of external digital input 2DI5 (not supported \nwhen using internal Modbus RTU). \nExternal digital 2DI6 status \nStatus of external digital input 2DI6 (not supported \nwhen using internal Modbus RTU). \nExternal digital 2DI7 status \nStatus of external digital input 2DI7 (not supported \nwhen using internal Modbus RTU). \nHW DI Start status \nStatus of the hard wire internal digital input Start. \nHW DI Stop status \nStatus of the hard wire internal digital input Stop. \nReady to start (line contactor) \nSame conditions as the Ready To Start bit except \nthat the incoming three phase voltage condition is \nexcluded. The bit can be used when a line contactor \nis connected."
+  },
+  {
+    "chunk_id": 26,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n8/36 \n© Copyright 2021 ABB. All rights reserved. \n \n3.3. \nAnalog input telegram \nTo PLC from the softstarter. \nAll analog data values are represented as 16-bit values. The input data is updated every 20 ms. \nUse Modbus function code 3 Read Holding Registers or function code 04, Read Input Regis-\nters. \nProtocol  \nAddress \nModicon \nAddress \nData \nRepresentation \n01FFh \n30512 \nStatus word \nSee section 3.4 Status word \n0200h \n30513 \nFBT Return Value \nSee Fieldbus Tasks \n0201h \n30514 \nProgrammable Analog Input 1 \nFunction of programmable \nanalog input, see section \n3.5 \n0202h \n30515 \nProgrammable Analog Input 2 \n0203h \n30516 \nProgrammable Analog Input 3 \n0204h \n30517 \nProgrammable Analog Input 4 \n0205h \n30518 \nProgrammable Analog Input 5 \n0206h \n30519 \nProgrammable Analog Input 6 \n0207h \n30520 \nProgrammable Analog Input 7 \n0208h \n30521 \nProgrammable Analog Input 8"
+  },
+  {
+    "chunk_id": 27,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "30515 \nProgrammable Analog Input 2 \n0203h \n30516 \nProgrammable Analog Input 3 \n0204h \n30517 \nProgrammable Analog Input 4 \n0205h \n30518 \nProgrammable Analog Input 5 \n0206h \n30519 \nProgrammable Analog Input 6 \n0207h \n30520 \nProgrammable Analog Input 7 \n0208h \n30521 \nProgrammable Analog Input 8 \n0209h \n30522 \nProgrammable Analog Input 9 \n020Ah \n30523 \nProgrammable Analog Input 10 \n3.4. \nStatus word \nThe status word register is used to monitor the motor. This register can be used as an alter-\nnative to using the digital input telegram (section 3.1). Read status word using Modbus func-\ntion code 3 Read Holding Registers or 4 Read Input Registers. \nProtocol \nAddress \nBit \nData \nDescription \n01FFh \n0 \nAuto Mode status1 \n0 = Softstarter control through Modbus \ndisabled \n1 = Softstarter control through Modbus \nenabled \n1 \nEvent status \n0 = No active fault/warning/protection \n1 = Active fault/warning/protection \n2 \nReady To Start \n0 = A start will probably cause a fault,"
+  },
+  {
+    "chunk_id": 28,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Description \n01FFh \n0 \nAuto Mode status1 \n0 = Softstarter control through Modbus \ndisabled \n1 = Softstarter control through Modbus \nenabled \n1 \nEvent status \n0 = No active fault/warning/protection \n1 = Active fault/warning/protection \n2 \nReady To Start \n0 = A start will probably cause a fault,  \n1 = A start will probably not cause a fault \n3 \nFBT Response 0 \nSee Fieldbus Tasks \n4 \nFBT Response 1 \nSee Fieldbus Tasks \n5 \nFBT Toggle Bit \nSee Fieldbus Tasks \n6 \nProgrammable Digital Input 1 \nFunction of programmable digital input, \nsee section 3.2 \n7 \nProgrammable Digital Input 2 \n8 \nProgrammable Digital Input 3 \n9 \nProgrammable Digital Input 4"
+  },
+  {
+    "chunk_id": 29,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n9/36 \n© Copyright 2021 ABB. All rights reserved. \n \n10 \nProgrammable Digital Input 5 \n11 \nProgrammable Digital Input 6 \n12 \nProgrammable Digital Input 7 \n13 \nProgrammable Digital Input 8 \n14 \nProgrammable Digital Input 9 \n15 \nProgrammable Digital Input 10 \n \n1) Auto mode reflects the control state of the Softstarter. This is affected by a combination of: \n– The Auto mode input signal from the PLC ((protocol address 0000h in the digital output \ntelegram or bit 3 in the control word). \n– The state of the Local/Remote switch on the HMI. \n– The parameter “Fieldbus control”. \n– The digital input “Fieldbus disable”. \n3.5. \nProgrammable Analog Inputs \nThe functions of the programmable analog inputs are controlled by the parameters Fieldbus \nAI 1 through Fieldbus AI 10. The following functions are available for selection: \nFunction \nRepresentation \nNone"
+  },
+  {
+    "chunk_id": 30,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "– The digital input “Fieldbus disable”. \n3.5. \nProgrammable Analog Inputs \nThe functions of the programmable analog inputs are controlled by the parameters Fieldbus \nAI 1 through Fieldbus AI 10. The following functions are available for selection: \nFunction \nRepresentation \nNone \nValue is set to 0 \nPhase L1 current1 \nValue = 1000 ⇒ 100A \nPhase L2 current1 \nValue = 1000 ⇒ 100A \nPhase L3 current1 \nValue = 1000 ⇒ 100A \nActive power (hp) \nValue = 1000 ⇒ 10hp \nActive power \nValue = 1000 ⇒ 10kW \nApparent power \nValue = 1000 ⇒ 10kVA \nMains voltage \nValue = 1000 ⇒ 100V \nPower factor \nValue = 100 ⇒ 1 \nExample: 87 ⇒ 0.87 \nMotor voltage \nValue = 100 ⇒ 100% \nActive energy (resettable) \nValue = 1000 ⇒ 10kWh \nEOL time to trip \nValue = 100 ⇒ 100s \nValue = 65535 ⇒ No overload \nValue = 0 ⇒ Trip already occurred \nMains frequency \nValue = 1000 ⇒ 100Hz \nMax phase current1 \nValue = 1000 ⇒ 100A \nMotor current \nValue = 1000 ⇒ 100A \nMotor run time (resettable) \nValue = 100 ⇒ 1000h \nMotor temperature"
+  },
+  {
+    "chunk_id": 31,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "EOL time to trip \nValue = 100 ⇒ 100s \nValue = 65535 ⇒ No overload \nValue = 0 ⇒ Trip already occurred \nMains frequency \nValue = 1000 ⇒ 100Hz \nMax phase current1 \nValue = 1000 ⇒ 100A \nMotor current \nValue = 1000 ⇒ 100A \nMotor run time (resettable) \nValue = 100 ⇒ 1000h \nMotor temperature \nValue = 100 ⇒ 100℃ \nMotor temperature percent \nValue = 100 ⇒ 100% \nNumber of starts (resettable) \nValue = 1 ⇒ 100"
+  },
+  {
+    "chunk_id": 32,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n10/36 \n© Copyright 2021 ABB. All rights reserved. \n \nFunction \nRepresentation \nPhase sequence \nValue = 0 ⇒ L1->L2->L3 \nValue = 1 ⇒ L1->L3->L2 \nValue = 2 ⇒ No sequence detected \nPT100 temperature \nValue = n ⇒ n/10 – 50℃ \nExample: 750 ⇒ 25℃ \nPTC resistance \nValue = 100 ⇒ 100Ω \nReactive energy (resettable) \nValue = 1000 ⇒ 10kVArh \nReactive power \nValue = 1000 ⇒ 100VAr \nRemaining time to start \nValue = 100 ⇒ 100s \nThyristor temperature \nValue = 100 ⇒ 100℃ \nThyristor temperature percent \nValue = 100 ⇒ 100% \nEOL time to cool \nValue = 100 ⇒ 100s \nTop event code \nValue = 1000 ⇒ 1000 \nMotor current in percent of IE. \nValue = 100 ⇒ 100% \nThyristor run time (resettable) \nValue = 1 ⇒ 10h \nMotor connection \nValue = 0 ⇒ auto \nValue = 1 ⇒ In-line \nValue = 2 ⇒ Inside delta – UI \nValue = 3 ⇒ Inside delta – IU \nValue = 4 ⇒ 2-phase L1 shorted \nValue = 5 ⇒ 2-phase L2 shorted"
+  },
+  {
+    "chunk_id": 33,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Motor current in percent of IE. \nValue = 100 ⇒ 100% \nThyristor run time (resettable) \nValue = 1 ⇒ 10h \nMotor connection \nValue = 0 ⇒ auto \nValue = 1 ⇒ In-line \nValue = 2 ⇒ Inside delta – UI \nValue = 3 ⇒ Inside delta – IU \nValue = 4 ⇒ 2-phase L1 shorted \nValue = 5 ⇒ 2-phase L2 shorted \nValue = 6 ⇒ 2-phase L3 shorted \nPhase L1 current high range2 \nValue = 100 ⇒ 100A \nPhase L2 current high range2 \nValue = 100 ⇒ 100A \nPhase L3 current high range2 \nValue = 100 ⇒ 100A \nActive power (hp) high range2 \nValue = 100 ⇒ 100hp \nActive power high range2 \nValue = 100 ⇒ 100kW \nApparent power high range2 \nValue = 100 ⇒ 100kVA \nReactive power high range2 \nValue = 100 ⇒ 100kVAr \nMax phase current high range2 \nValue = 100 ⇒ 100A \nMax motor current high range2 \nValue = 100 ⇒ 100A \nActive energy high range2 \nValue = 1 ⇒ 10000kWh \nReactive energy high range2 \nValue = 1 ⇒ 10000kVArh \nNumber of starts (high precision) \nValue = 1 ⇒ 1"
+  },
+  {
+    "chunk_id": 34,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Value = 100 ⇒ 100kVAr \nMax phase current high range2 \nValue = 100 ⇒ 100A \nMax motor current high range2 \nValue = 100 ⇒ 100A \nActive energy high range2 \nValue = 1 ⇒ 10000kWh \nReactive energy high range2 \nValue = 1 ⇒ 10000kVArh \nNumber of starts (high precision) \nValue = 1 ⇒ 1 \n \n1) Phase current L1, L2 and L3 indicate the current through the softstarter, while the Max \nphase current is always the line current. \n2) High Range alternatives are available for a few signals where there is a possibility for the \nvalues to wrap. The values are 16-bit so the maximum value for each signal is 65535. The High \nRange alternatives have different scaling and will never wrap around but instead have lower \nprecision."
+  },
+  {
+    "chunk_id": 35,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n11/36 \n© Copyright 2021 ABB. All rights reserved. \n \n3.6. \nDigital output telegram \nFrom PLC to the softstarter. \nUse Modbus function code 15 (0Fh), Force Multiple Coils. \nProtocol \nAddress \nModicon \nAddress \nData \nDescription \n0100h \n257 \nStart \nCommence a start when signal is set. \n0101h \n258 \nStop \nCommence a stop when signal is negated. \n0102h \n259 \nFault reset \nReset signal for possible events. \n0103h \n260 \nAuto mode \nThis must be set for controlling the motor. \n0104h \n261 \nSlow speed reverse \nPerform slow speed reverse when signal is set. \n0105h \n262 \nSlow speed forward \nPerform slow speed when signal is set. \n0106h \n263 \nSpare \n0107h \n264 \nStart1 \nStart1 if sequence start. \n0108h \n265 \nStart2 \nStart2 if sequence start. \n0109h \n266 \nStart3 \nStart3 if sequence start. \n010Ah \n267 \nMotor heating \nPerform motor heating when signal is set. \n010Bh \n268"
+  },
+  {
+    "chunk_id": 36,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Perform slow speed when signal is set. \n0106h \n263 \nSpare \n0107h \n264 \nStart1 \nStart1 if sequence start. \n0108h \n265 \nStart2 \nStart2 if sequence start. \n0109h \n266 \nStart3 \nStart3 if sequence start. \n010Ah \n267 \nMotor heating \nPerform motor heating when signal is set. \n010Bh \n268 \nStand still brake \nPerform stand still brake when signal is set. \n010Ch \n269 \nStart reverse \nCommence a reverse start when signal is set. \n010Dh \n270 \nSpare \n010Eh \n271 \nEmergency mode \nSet to “1” to enable emergency mode. \n010Fh \n272 \nFBT Toggle Bit \nSee Fieldbus Tasks. \n0110h \n273 \nUser defined trip \nSet to “1” to trigger user defined protection. \n0111h \n274 \nSwitch to remote \ncontrol \nSwitch to remote control when signal is set \n(rising edge triggered). \n0112h \n275 \nPump cleaning auto-\nmatic \nPerform automatic pump cleaning when signal \nis set. \n0113h \n276 \nPump cleaning for-\nward \nPerform forward pump cleaning when signal is \nset. \n0114h \n277 \nPump cleaning re-\nverse"
+  },
+  {
+    "chunk_id": 37,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "control \nSwitch to remote control when signal is set \n(rising edge triggered). \n0112h \n275 \nPump cleaning auto-\nmatic \nPerform automatic pump cleaning when signal \nis set. \n0113h \n276 \nPump cleaning for-\nward \nPerform forward pump cleaning when signal is \nset. \n0114h \n277 \nPump cleaning re-\nverse \nPerform reverse pump cleaning when signal is \nset. \n0115h \n278 \nK4 relay command \nSet “1” to activate the internal K4 output relay. \nNote that parameter 10.4 K4 function has to be \nset as “Fieldbus” \n0116h \n279 \nK5 relay command \nSet “1” to activate the internal K5 output relay. \nNote that parameter 10.5 K5 function has to be \nset as “Fieldbus” \n0117h \n280 \nK6 relay command \nSet “1” to activate the internal K6 output relay. \nNote that parameter 10.6 K6 function has to be \nset as “Fieldbus” \n0118h \n281 \n1DO0 relay com-\nmand \nSet “1” to activate the external 1DO0 output re-\nlay. Note that parameter 11.9 1DO0 function \nhas to be set as “Fieldbus”"
+  },
+  {
+    "chunk_id": 38,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n12/36 \n© Copyright 2021 ABB. All rights reserved. \n \nProtocol \nAddress \nModicon \nAddress \nData \nDescription \n0119h \n282 \n1DO1 relay command Set “1” to activate the external 1DO1 output re-\nlay. Note that parameter 11.10 1DO1 function \nhas to be set as “Fieldbus” \n011Ah \n283 \n2DO2 relay com-\nmand \nSet “1” to activate the external 2DO2 output re-\nlay. Note that parameter 11.11 2DO2 function \nhas to be set as “Fieldbus” \n011Bh \n284 \n2DO3 relay com-\nmand \nSet “1” to activate the external 2DO3 output re-\nlay. Note that parameter 11.12 2DO3 function \nhas to be set as “Fieldbus” \n011Ch \n285 \nRefresh parameters \nRestart fieldbus interface to refresh communi-\ncation parameters \n011Dh \n286 \nSpare \n011Eh \n287 \nSpare \n011Fh \n288 \nSpare \n \nDigital output telegram is also available as a control words on protocol addresses 02FEh and \n02FFh (see section 3.8). \n3.7."
+  },
+  {
+    "chunk_id": 39,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "011Ch \n285 \nRefresh parameters \nRestart fieldbus interface to refresh communi-\ncation parameters \n011Dh \n286 \nSpare \n011Eh \n287 \nSpare \n011Fh \n288 \nSpare \n \nDigital output telegram is also available as a control words on protocol addresses 02FEh and \n02FFh (see section 3.8). \n3.7. \nAnalog output telegram \nFrom PLC to the softstarter. \nAll analog data values are represented as 16-bit values. \nUse Modbus function code 6 Write Single Register or 16 (10h) Write Multiple Registers. \nProtocol \nAddress \nModicon \nAddress \nData \nRepresentation \n02FEh \n40767 \nControl word 1 \nSee section 3.8 Control words \n02FFh \n40768 \nControl word 2 \nSee section 3.8 Control words \n0300h \n40769 \nFBT Control \nWord \nThis register is used to read parameters (see \nfieldbus tasks). \n0301h \n40770 \nFieldbus AO 1 \n(FBT Argument 2 \nor Internal ana-\nlog output) \nParameter 12.37 Fieldbus AO1 decides the use of \nthis register. If set as \"FBT Argument 2”, it is used \nto write parameters and set time (see fieldbus"
+  },
+  {
+    "chunk_id": 40,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Word \nThis register is used to read parameters (see \nfieldbus tasks). \n0301h \n40770 \nFieldbus AO 1 \n(FBT Argument 2 \nor Internal ana-\nlog output) \nParameter 12.37 Fieldbus AO1 decides the use of \nthis register. If set as \"FBT Argument 2”, it is used \nto write parameters and set time (see fieldbus \ntasks). If set as “Internal analog output” this \nvalue of this register controls the internal analog \noutput. Note that parameter 10.8 AO type needs \nto be set as “Fieldbus [%]”. \n0302h \n40771 \nFieldbus AO 2 \n(FBT Argument 3 \nor External ana-\nlog output) \nParameter 12.38 Fieldbus AO2 decides the use of \nthis register. If set as \"FBT Argument 3”, it is used \nto write parameters and set time (see fieldbus \ntasks). If set as “External analog output” this \nvalue of this register controls the external analog \noutput. Note that parameter 11.14 1AO0 type \nneeds to be set as “Fieldbus [%]”."
+  },
+  {
+    "chunk_id": 41,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n13/36 \n© Copyright 2021 ABB. All rights reserved. \n \n3.8. \nControl words \nThe control word registers are used to control the motor. These registers can be used as an \nalternative to using the digital output telegram (section 3.6). \nWrite control word using Modbus function code 6 Write Single Register or 16 (10h) Write Mul-\ntiple Registers. \n \nProtocol \nAddress \nBit \nData \nDescription \n02FEh \n0 \nStart \nCommence a start when signal is set. \n1 \nStop \nCommence a stop when signal is negated. \n2 \nFault reset \nReset signal for possible events. \n3 \nAuto mode \nThis must be set for controlling the motor. \n4 \nSlow speed reverse \nPerform slow speed reverse when signal is set. \n5 \nSlow speed forward \nPerform slow speed when signal is set. \n6 \nSpare \n7 \nStart1 \nStart1 if sequence start. \n8 \nStart2 \nStart2 if sequence start. \n9 \nStart3 \nStart3 if sequence start. \n10"
+  },
+  {
+    "chunk_id": 42,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "4 \nSlow speed reverse \nPerform slow speed reverse when signal is set. \n5 \nSlow speed forward \nPerform slow speed when signal is set. \n6 \nSpare \n7 \nStart1 \nStart1 if sequence start. \n8 \nStart2 \nStart2 if sequence start. \n9 \nStart3 \nStart3 if sequence start. \n10 \nMotor heating \nPerform motor heating when signal is set. \n11 \nStand still brake \nPerform stand still brake when signal is set. \n12 \nStart reverse \nCommence a reverse start when signal is set. \n13 \nSpare \n14 \nEmergency mode \nSet to “1” to enable emergency mode. \n15 \nFBT Toggle Bit \nSee Fieldbus Tasks. \n02FFh \n0 \nUser defined trip \nSet to “1” to trigger user defined protection. \n1 \nSwitch to remote \ncontrol \nSwitch to remote control when signal is set (rising \nedge triggered). \n2 \nPump cleaning auto-\nmatic \nPerform automatic pump cleaning when signal is set. \n3 \nPump cleaning for-\nward \nPerform forward pump cleaning when signal is set. \n4 \nPump cleaning re-\nverse \nPerform reverse pump cleaning when signal is set. \n5"
+  },
+  {
+    "chunk_id": 43,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "edge triggered). \n2 \nPump cleaning auto-\nmatic \nPerform automatic pump cleaning when signal is set. \n3 \nPump cleaning for-\nward \nPerform forward pump cleaning when signal is set. \n4 \nPump cleaning re-\nverse \nPerform reverse pump cleaning when signal is set. \n5 \nK4 relay command \nSet “1” to activate the internal K4 output relay. Note \nthat parameter 10.4 K4 function has to be set as \n“Fieldbus” \n6 \nK5 relay command \nSet “1” to activate the internal K5 output relay. Note \nthat parameter 10.5 K5 function has to be set as \n“Fieldbus” \n7 \nK6 relay command \nSet “1” to activate the internal K6 output relay. Note \nthat parameter 10.6 K6 function has to be set as \n“Fieldbus”"
+  },
+  {
+    "chunk_id": 44,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n14/36 \n© Copyright 2021 ABB. All rights reserved. \n \n8 \n1DO0 relay command \nSet “1” to activate the external 1DO0 output relay. \nNote that parameter 11.9 1DO0 function has to be set \nas “Fieldbus” \n9 \n1DO1 relay command \nSet “1” to activate the external 1DO1 output relay. \nNote that parameter 11.10 1DO1 function has to be \nset as “Fieldbus” \n10 \n2DO2 relay command \nSet “1” to activate the external 2DO2 output relay. \nNote that parameter 11.11 2DO2 function has to be \nset as “Fieldbus” \n11 \n2DO3 relay command \nSet “1” to activate the external 2DO3 output relay. \nNote that parameter 11.12 2DO3 function has to be \nset as “Fieldbus” \n12 \nRefresh parameters \nAutomatic restart of fieldbus driver to refresh param-\neters \n13 \nSpare \n14 \nSpare \n15 \nSpare \nIt is recommended to give the start/stop commands to the Softstarter using bit 0, 1 in the"
+  },
+  {
+    "chunk_id": 45,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Note that parameter 11.12 2DO3 function has to be \nset as “Fieldbus” \n12 \nRefresh parameters \nAutomatic restart of fieldbus driver to refresh param-\neters \n13 \nSpare \n14 \nSpare \n15 \nSpare \nIt is recommended to give the start/stop commands to the Softstarter using bit 0, 1 in the \ncontrol word 1 or protocol address 0100h, 0101h. Which of these registers that will be \nacknowledged by the device depends on the auto mode configuration. \nIf auto mode is set using protocol address 0103h, then the start/stop commands can be \ngiven using protocol address 0100h, 0101h. But if bit 3 in the control word 1 (protocol address \n02FEh) is set, then the start/stop commands can be given using bit 0, 1 in the control word 1. \nHowever, if auto mode is set in both protocol address 0103h and bit 3 in the control word 1, \nthen start/stop commands will not be acknowledged by the device due to incorrect configu-\nration."
+  },
+  {
+    "chunk_id": 46,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "02FEh) is set, then the start/stop commands can be given using bit 0, 1 in the control word 1. \nHowever, if auto mode is set in both protocol address 0103h and bit 3 in the control word 1, \nthen start/stop commands will not be acknowledged by the device due to incorrect configu-\nration. \nFault reset, FBT Toggle Bit, Switch to remote control, K4 relay command, K5 relay command, \nand K6 relay command can be done from both the digital output telegram and the control \nwords even when auto mode is not enabled. \n4. \nModbus RTU - A set-up example \n4.1. \nSoftstarter PSTX Modbus RTU communication \nThis document describes an application example between a Modbus RTU master (PLC CPU, \nPC, etc.) and the ABB softstarter PSTX using the built-in Modbus RTU interface. \nPlease always use the actual softstarter manuals. In this particular example following docu-\nments has been used: \n– Softstarter PSTX Installation and commissioning manual, document 1SFC132081M0201 \n4.2. \nSettings"
+  },
+  {
+    "chunk_id": 47,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "PC, etc.) and the ABB softstarter PSTX using the built-in Modbus RTU interface. \nPlease always use the actual softstarter manuals. In this particular example following docu-\nments has been used: \n– Softstarter PSTX Installation and commissioning manual, document 1SFC132081M0201 \n4.2. \nSettings \n1. Set the softstarter address and field bus communication \nChange the address of the softstarter to 47 (Fieldbus Address) and  \nenable fieldbus control (Fieldbus control = On)."
+  },
+  {
+    "chunk_id": 48,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n15/36 \n© Copyright 2021 ABB. All rights reserved. \n \n2. Set the communication parameters \nChange the communication parameters baud rate, parity, stop bits to match the Modbus \nnetwork settings. \n3. Select Com3 function \nChange parameter Com3 function to Modbus RTU Slave to make the Modbus RTU inter-\nface available. \n4. Select the Modbus RTU interface \nThe previous changes are taken in effect when the fieldbus interface is changed. Change \nparameter FB interface connector to Modbus RTU."
+  },
+  {
+    "chunk_id": 49,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n16/36 \n© Copyright 2021 ABB. All rights reserved. \n \n4.3. \nRead digital input telegram  \nE.g.: Read 16 bit starting at the address: 0000H \n \nRequest: \n2F 01 00 00 00 10 3B 88 \n \n{ \n{ \n{ \nSlave 47  \nFC = 01 \nAddress \n16 bit \nCRC \n \n \nResponse: \n2F 01 02 00 00 51 FA \n \n{ \nSlave 47  \nFC = 01 \n0 Byte  \n1 Byte  \n2 Byte  \nCRC \n \n \nRequest \nResponse\nRS485 / Modbus RTU\nModbus-RTU: Slave NR.47 \nModbus \nMaster \nSoftstarter \nFC =1 \nProtocol Address: 0000H"
+  },
+  {
+    "chunk_id": 50,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n17/36 \n© Copyright 2021 ABB. All rights reserved. \n \n4.4. \nWrite digital output telegram \nE.g.: Write 16 bit starting at the address: 0100H \n \nRequest: \n2F 0F 01 00 00 10 02 00 00 27 41 \n{ \n{ \n{ \n{ \nSlave 47  \nFC = 15 \nAddress \n16 bit \n2 byte   \nOutput \nCRC \n \n \nResponse: \n2F 0F 01 00 00 10 53 B5 \n{ \n{ \n{ \nSlave 47  \nFC = 15 \nAddress \n16 bit \nCRC \n \n \nRequest \nResponse\nRS485 / Modbus RTU\nModbus-RTU: Slave NR.47 \nModbus \nMaster \nSoftstarter \nFC =15 \nProtocol Address: 0100H"
+  },
+  {
+    "chunk_id": 51,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n18/36 \n© Copyright 2021 ABB. All rights reserved. \n \n4.5. \nRead analog input telegram \nE.g.: Read analog output words 2 & 3. Phase L1 current and Phase L2 current with default set-\ntings. \n \nRequest: \n2F 04 02 01 00 02 27 FD \n{ \n{ \n{ \nSlave 47  \nFC =4 \nAddress \n2 words \nCRC \n \n \nResponse: \n2F 04 04 00 00 00 00 35 86 \n   \n{ \n{ \n{ \nSlave 47  \nFC = 04 \n4 Byte \nW0 \nW1 \nCRC \n \nW0: Phase L1 current \nW1: Phase L2 current \n \n \nRequest \nResponse\nRS485 / Modbus RTU\nModbus-RTU: Slave NR.47 \nModbus \nMaster \nSoftstarter \nFC =4 \nProtocol Address with offset: 0200H"
+  },
+  {
+    "chunk_id": 52,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n19/36 \n© Copyright 2021 ABB. All rights reserved. \n \n4.6. \nWrite analog output telegram \n \n \nE.g.: Write analog output words 1 & 2. FBT Control Word and FBT Argument 2. \n \nRequest: \n2F 10 03 00 00 02 04 00 00 00 00 78 77 \n{ \n{ \n{ \n{ \n{ \nSlave 47  \nFC = 16 \nAddress \n2 Words \n4 Byte \nW0 \nW1 \nCRC \n \nResponse: \n2F \n10 \n03 \n00 00 02 \n47 \nC2 \n    \n{ \n{ \n{ \nSlave 47  \nFC =16 \nAddress \n2 words \nCRC \n \nW0: FBT Control Word \nW1: FBT Argument 2 \n \n \nRequest \nResponse \nRS485 / Modbus RTU\nModbus-RTU: Slave NR.47 \nModbus \nMaster \nSoftstarter \nFC =16 \nProtocol Address with offset: 0300H"
+  },
+  {
+    "chunk_id": 53,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n20/36 \n© Copyright 2021 ABB. All rights reserved. \n \n5. \nFieldbus Tasks \nBy using Fieldbus Tasks it is possible to read/write parameters and set the real-time clock. \nWhich task to execute is selected by filling in the FBT Control Word. There are three signals \nfor arguments to the task: \n– FBT Argument 1 is packed together with the Task ID in the FBT Control Word. \n– There are two additional 16-bit arguments in separate analog output signals, FBT Argu-\nment 2 and FBT Argument 3. \nTo control when the task is executed, the digital output signal FBT Toggle Bit shall be \nchanged. The softstarter will detect the change, execute the task, fill in the return values, and \ntoggle the digital input signal FBT Toggle Bit as acknowledgement. Thus, the return values \nmust be disregarded if the two toggle bits have different value. \n5.1. \nFBT Control Word"
+  },
+  {
+    "chunk_id": 54,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "changed. The softstarter will detect the change, execute the task, fill in the return values, and \ntoggle the digital input signal FBT Toggle Bit as acknowledgement. Thus, the return values \nmust be disregarded if the two toggle bits have different value. \n5.1. \nFBT Control Word \nThe control word is a 16-bit analog output value sent from the PLC to the softstarter. It con-\nsists of a Task ID and an 11-bit argument packed together. \n15 \n14, 13, 12, \n11 \n10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0 \n- \nTask ID \n- \nArgument 1 \n5.2. \nTask ID \nThe task identifier controls which function should be performed. \nTask ID \nTask \nResponse ID \nPositive \nNegative \n0 \nNo task \n0 \n- \n1 \nRequest parameter value, lower word \n1 \n2 \n2 \nChange parameter value \n1 \n2 \n3 \nSet date and time \n1 \n2 \n4 \nRequest parameter value, upper word \n1 \n2 \n5.3. \nResponse ID \nThe response ID is the softstarter response to a task. It tells whether a task was executed"
+  },
+  {
+    "chunk_id": 55,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Negative \n0 \nNo task \n0 \n- \n1 \nRequest parameter value, lower word \n1 \n2 \n2 \nChange parameter value \n1 \n2 \n3 \nSet date and time \n1 \n2 \n4 \nRequest parameter value, upper word \n1 \n2 \n5.3. \nResponse ID \nThe response ID is the softstarter response to a task. It tells whether a task was executed \nsuccessfully. If there was an error, an additional error code is returned in the FBT Return Value \nanalog input. The Response ID is transmitted as two digital input signals, FBT Response 0 \nand FBT Response 1. \nResponse ID \nFBT Response 1 \nFBT Response 0  \nExplanation \n0 \n0 \n0 \nNo response \n1 \n0 \n1 \nTask executed \n2 \n1 \n0 \nTask cannot be executed (with error \nnumber) \n3 \n1 \n1 \nReserved."
+  },
+  {
+    "chunk_id": 56,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n21/36 \n© Copyright 2021 ABB. All rights reserved. \n \n5.4. \nError codes \nThe following error codes are sent when a task cannot be executed. \nError code \nExplanation \n0 \nIllegal parameter number \n1 \nParameter value cannot be changed \n3 \nLower or upper limit violated \n4 \nInvalid argument \n5 \nNo error \n6 \nInvalid task number \n \n5.5. \nRequest parameter value, lower word \nThis task reads the lower 16 bits of the specified parameter. See chapter 5.9 for parameter \nnumber and value scaling information. \n5.5.1. \n Arguments \n– FBT Argument 1: parameter number. \n5.5.2. \n Return Value \n– Response ID 1 and parameter value in FBT Return Value on success. \n– Response ID 2 and error number in FBT Return Value on failure. \n \n5.6. \nChange parameter value \nThis task writes a specified value to a parameter. See chapter 5.9 for parameter number and \nvalue scaling information."
+  },
+  {
+    "chunk_id": 57,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "– Response ID 1 and parameter value in FBT Return Value on success. \n– Response ID 2 and error number in FBT Return Value on failure. \n \n5.6. \nChange parameter value \nThis task writes a specified value to a parameter. See chapter 5.9 for parameter number and \nvalue scaling information. \n5.6.1. \nArguments \n– FBT Argument 1: parameter number. \n– FBT Argument 2: parameter value (lower word) \n– FBT Argument 3: parameter value (upper word) \n5.6.2. \nReturn Value \n– Response ID 1 on success. \n– Response ID 2 and error number in FBT Return Value on failure."
+  },
+  {
+    "chunk_id": 58,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n22/36 \n© Copyright 2021 ABB. All rights reserved. \n \n5.7. \nSet date and time \nThis task updates the real-time clock on the softstarter. The date and time fields have the fol-\nlowing limits: \n– Year: 0-63 (2000-2063) \n– Month: 1-12 \n– Day: 1-31 \n– Hour:0-23 \n– Minute:0-59 \n– Second:0-59 \n5.7.1. \nArguments \n– FBT Argument 2: year, month, day and least significant bit of seconds \n15 \n14, 13, 12, 11, 10, 9 \n8, 7, 6, 5 \n4, 3, 2, 1, 0 \ns0 \nyear \nmonth \nday \n \n– FBT Argument 3: hour, minute, seconds, bit 1-5 \n15, 14, 13, 12, 11 \n10, 9, 8, 7, 6, 5 \n4, 3, 2, 1, 0 \nHour \nminute \nseconds, bit 1-5 \n5.7.2. \nReturn Value \n– Response ID 1 on success. \n– Response ID 2 and error number in FBT Return Value on failure. In case the supplied time \ndidn’t differ from the set time, error code 5 (no error) is used. \n \n5.8. \nRequest parameter value, upper word"
+  },
+  {
+    "chunk_id": 59,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Hour \nminute \nseconds, bit 1-5 \n5.7.2. \nReturn Value \n– Response ID 1 on success. \n– Response ID 2 and error number in FBT Return Value on failure. In case the supplied time \ndidn’t differ from the set time, error code 5 (no error) is used. \n \n5.8. \nRequest parameter value, upper word \nThis task reads the upper 16 bits of the specified parameter. See chapter 5.9 for parameter \nnumber and value scaling information. \n5.8.1. \n Arguments \n– FBT Argument 1: parameter number. \n5.8.2. \n Return Value \n– Response ID 1 and parameter value in FBT Return Value on success. \n– Response ID 2 and error number in FBT Return Value on failure."
+  },
+  {
+    "chunk_id": 60,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n23/36 \n© Copyright 2021 ABB. All rights reserved. \n \n5.9. \nParameter numbers and values \nTo access parameters from the fieldbus a unique parameter number is needed, this can be \nfound in document 1SFC132081M0201, Chapter 7.25 Complete parameter list.  \nSince the parameter values need to be represented as integers on the fieldbus while, the pa-\nrameter values with greater precision need to be scaled. In document 1SFC132081M0201, \nChapter 7.25 Complete parameter list, there is a column specifying the number of decimals \nfor each parameter.  \nParameter values that are read from the fieldbus needs to be divided by 10number of decimals. \nParameters values that are written from the fieldbus needs to be multiplied by 10number of deci-\nmals. \nFor example: \nThe parameter Kick start time has parameter number 24 and 2 decimals. To read this param-\neter:"
+  },
+  {
+    "chunk_id": 61,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "Parameters values that are written from the fieldbus needs to be multiplied by 10number of deci-\nmals. \nFor example: \nThe parameter Kick start time has parameter number 24 and 2 decimals. To read this param-\neter: \n1. Set FBT Task ID to 1. \n2. Set FBT Argument 1 to 24 to specify the parameter. \n3. Toggle FBT Toggle Bit output and wait for the FBT Toggle Bit input to update. \n4. Response ID 1 should now contain value 1, indicating success. \n5. FBT Return Value contains the value 50 (this is an example and depends on the actual set \nvalue). \n6. The return value should be interpreted as 50/102 = 0.5s. \nTo change the Kick start time parameter to 1s: \n1. Set FBT Task ID to 2. \n2. Set FBT Argument 1 to 24. \n3. Set FBT Argument 2 to 1*102 = 100. \n4. Set FBT Argument 3 to 0 as 100 <= 65535 which means it doesn’t require more than 16 \nbits. \n5. Toggle FBT Toggle Bit output and wait for the FBT Toggle Bit input to update. \n6. Response ID 1 should now contain value 1, indicating success."
+  },
+  {
+    "chunk_id": 62,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "3. Set FBT Argument 2 to 1*102 = 100. \n4. Set FBT Argument 3 to 0 as 100 <= 65535 which means it doesn’t require more than 16 \nbits. \n5. Toggle FBT Toggle Bit output and wait for the FBT Toggle Bit input to update. \n6. Response ID 1 should now contain value 1, indicating success. \n5.9.1. \nNegative values \nNegative values are represented internally using 32-bit two's complement numbers. \nExample: \nSetting parameter 17.5 PT100 reset temp (parameter number 249) to a value of -25°C: \nThe two’s complement of -25 is FFFFFFE7hex. The upper word is FFFFhex and the lower FFE7hex, \nin decimal notation 65535 and 65511. \n1. Set FBT Task ID to 2 for Change parameter value. \n2. Set FBT Argument 1 to 249 to specify the parameter. \n3. Set FBT Argument 2 to 65511 to specify the lower word. \n4. Set FBT Argument 3 to 65535 to specify the upper word. \n5. Toggle FBT Toggle Bit output and wait for the FBT Toggle Bit input to update. \n6. Response ID 1 should now contain value 1, indicating success."
+  },
+  {
+    "chunk_id": 63,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n24/36 \n© Copyright 2021 ABB. All rights reserved. \n \n6. \nTroubleshooting \nRS485 \n– Are the termination resistors placed at the end of the line? \n– Only 2 termination resistors in one segment? \n– Are 2 termination resistors placed at each bus segment? \n– Are bias resistors connected in each bus segment? \n– Is the line polarity correct? Are the lines by accident swapped? \n– Never place any termination resistors on a drop cable. \n– Is the maximum line length exceeded? \nModbus slave \n– Has the device a unique Modbus address? \n– Is the function code supported by the device? \n– Has the request a valid address? \n– Has the request a valid quantity of coils, inputs, registers? \n– Is the power supply turned on? \nModbus master \n– Is the Modbus master in RTU mode? \n– Is the request to response timeout correct?"
+  },
+  {
+    "chunk_id": 64,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "– Is the function code supported by the device? \n– Has the request a valid address? \n– Has the request a valid quantity of coils, inputs, registers? \n– Is the power supply turned on? \nModbus master \n– Is the Modbus master in RTU mode? \n– Is the request to response timeout correct? \n– Is the Modbus master silent interval between two telegrams > 3.5 character times? \n– Notice that the slave device will not give any response when it is addressed with a broad-\ncast (slave address = 0). \n– Check if PLC is in run mode. \n7. \nExample application with Automation \nBuilder \nThis section shows a demo about how to start and stop motor by sending commands from \nfieldbus that is controlled by Programmable logic controller (PLC). We use Automation Builder \nas an example platform and show the demo about building such communication setting. \n7.1. \nCreate a new project in Automation Builder \nWe perform the following steps in Automation Builder 2.1 for PLC AC500 PM573.  \n1. Open Automation Builder"
+  },
+  {
+    "chunk_id": 65,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "as an example platform and show the demo about building such communication setting. \n7.1. \nCreate a new project in Automation Builder \nWe perform the following steps in Automation Builder 2.1 for PLC AC500 PM573.  \n1. Open Automation Builder \n \n2. Select File->New Project->AC500 project->OK"
+  },
+  {
+    "chunk_id": 66,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n25/36 \n© Copyright 2021 ABB. All rights reserved. \n \n3. Select the correct PLC CPU in Search object name …-> Add PLC. \n \n \n \n \n \n \n4. Check that the correct device type is selected by double clicking the device name in De-\nvices field. Check that the correct Terminal Base Type is also selected for the tag for Hard-\nware."
+  },
+  {
+    "chunk_id": 67,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n26/36 \n© Copyright 2021 ABB. All rights reserved. \n \n7.2. \nAdd Modbus RTU master to project \n1. Right click on one of the COM ports and select Add object \n \n2. Select COM1 - Modbus and click Replace object \n \n3. Double click interfaces, COM1_Modbus, from the device tree. Set RTS control to Telegram \nand Operation mode to Client for COM1 – Modbus Parameters in COM1_Modbus"
+  },
+  {
+    "chunk_id": 68,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n27/36 \n© Copyright 2021 ABB. All rights reserved. \n \n7.3. \nBuild a START-STOP program \nWe perform the following steps for building our start-stop demo program in CoDeSys.  \n1. Open CoDeSys by double clicking your application in Devices file in Automation Builder,  \nif it is not opened yet. \n \n \n \n \n \n2. Delete the default POU by right click on it and select  \n \n \n \n \n \n3. We choose to use LD as the language of the POU here by right click POUs -> Add Object…-\n>Insert Name of the new POU -> Choose “LD” for “Language of the POU” -> OK"
+  },
+  {
+    "chunk_id": 69,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n28/36 \n© Copyright 2021 ABB. All rights reserved. \n \n4. Open the newly created POU by double click it and select the first network, create a con-\ntact (by CTRL+K) and two coils (by CTRL+L) \n \n \n \n5. Name the contact START by changing the ??? to START, select type BOOL \n \n \n \n6. Name the coils “BITVAL[1]” and “BITVAL[2]”, set the type to “ARRAY [1..16] OF BOOL” \n \n \n \n7. Add a second network by CTRL+T and add a single coil (by CTRL+L) named “BITVAL[4]”"
+  },
+  {
+    "chunk_id": 70,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n29/36 \n© Copyright 2021 ABB. All rights reserved. \n \n8. Add another network by CTRL+T. Create a function block “BLINK” by CTRL+B and select \nStandard Function Blocks -> Util.lib -> signals-> BLINK(FB)->Ok.  \n \n \n \n \n9. We name the BLINK function block as blink. We set t#2ms for TIMELOW and TIMEHIGH. \n \n \n10. Continue to create a function block “COM_MOD_MAST” by CTRL+B and select Standard \nFunction Blocks -> MODBUS_AC500_V10.LIB -> COM_MOD_MAST(FB) -> OK."
+  },
+  {
+    "chunk_id": 71,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n30/36 \n© Copyright 2021 ABB. All rights reserved. \n \nNow, we should have two function blocks in network 0003. \n \n \n \n \nThe COM_MOD_MAST is a function block for sending/receiving OpenModbus. \nTheir definition is available from CoDeSys -> Resources -> Library Manager. \n \n \n \nTo enable this function block, it is required to send a FALSE->TRUE edge at input EN and \ntherefore we introduce BLINK, which is for creating a flip-flop signal. \n \n11. DATA (the data to send) require DWORD inputs.  We can convert data with a box, “ADR”.  \na) \nSelect the bar in front of DATA"
+  },
+  {
+    "chunk_id": 72,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n31/36 \n© Copyright 2021 ABB. All rights reserved. \n \nb) Choose Insert-> Insert at Blocks-> Box \n \n \n \nThe default box is “AND”, change the name to ADR and it will be an ADR box.  \n \n12. Set: \n– The name of the block to modbus_write \n– COM to 1 or 2 deepening on comport used \n– Slave to the value of “Fieldbus address” (Parameter 12.4 in PSTX) \n– FCT to 15 \n– TIMEOUT to 100 \n– ADDR to 256, according to Section 3.6, the first Protocol Address is 0100h. \n– NB to 16 \n– ERR to ERRO (new BOOL variable) \n– ERRNO (new WORD variable)"
+  },
+  {
+    "chunk_id": 73,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n32/36 \n© Copyright 2021 ABB. All rights reserved. \n \n13. Insert a coil named ”OUTPUT” in the last network and the LD-program is done. \n \n \n \n14. Now we want to create one control button for signing the value of “START” from the first \nnetwork into TRUE. We do this by Visualization -> right click -> Add object -> Write name \nof the new Visualization as “view” -> OK. \n \n \n15. We draw a shape as the button \n -> double click the shape -> Regular Element Config-\nuration -> Input -> check Toggle variable -> insert “demo.START” ->OK."
+  },
+  {
+    "chunk_id": 74,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n33/36 \n© Copyright 2021 ABB. All rights reserved. \n \n16. We configure this program into task configuration by Resource -> Task configuration -> \nRight click Task configuration -> Append Task -> Insert t#10ms in Properties in Taskattrib-\nutes. Then we need to sign our program to this task by right click NewTask-> Append Pro-\ngram Call-> Choose demo(PRG) by clicking the select button in Program Call ->OK. \n \n \n \n \n17. Right click on the NewTask and select Append Program Call."
+  },
+  {
+    "chunk_id": 75,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n34/36 \n© Copyright 2021 ABB. All rights reserved. \n \n18. Select the demo program call. \n \n \n \n \n19. Now we can build the project by Project -> Build. Check again if fieldbus is connected cor-\nrectly. We can then run the program by pressing ALT+F8 and then F5. \n7.4. \nConnect to PLC using TCP/IP \n1. Control the IP address for the device is also correct by right click the device name and then \nchose communication setting. The IP address should be the address of PLC CPU device. \n \n \n \n \n2. Control that the IP address for PC and the PLC is in the same network but not the same IP \naddress. This can be checked by using through Ethernet Properties."
+  },
+  {
+    "chunk_id": 76,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n35/36 \n© Copyright 2021 ABB. All rights reserved. \n \n3. Click the icon “Login”, for building the configuration and checking if configuration is cor-\nrect. \n \n4. If the configuration is correct, a program for building PLC should be opened in the PLC en-\nvironment, CoDeSys. Automation Builder will ask for downloading PLC configuration. \nChoose “Update”. Automation Builder will confirm that the program has changed."
+  },
+  {
+    "chunk_id": 77,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf",
+    "content": "FIELDBUS COMMUNICATION \n \n \nSTATUS \nApproved \nSECURITY LEVEL \nPublic \nDOCUMENT ID. \n1SFC132089M0201 \nREV. \nF \nLANG. \nen \nPAGE \n36/36 \n© Copyright 2021 ABB. All rights reserved. \n \n7.5. \nBuild and run the PLC demo program \nUse the key, F11, to build the program once. Login and start project from Automation Builder \nby clicking Alt+F8 to login the CodeSys. Click yes to login \n \n \nClick F5 to start. Switch to CoDeSys and click Alt+F8 to login demo. The program can be con-\ntrolled with the view from CodeSys \n \n \n \n \n8. \nContact us \nFor more information, please contact \nyour local ABB representative or visit \nhttps://solutions.abb/softstarters"
+  }
+]

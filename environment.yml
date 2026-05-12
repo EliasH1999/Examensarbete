@@ -1,0 +1,34 @@
+name: examensarbete
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+
+  # App / data
+  - streamlit
+  - altair<5
+  - pandas
+  - matplotlib
+  - scikit-learn
+
+  # Jupyter
+  - jupyterlab
+  - ipykernel
+
+  # ML (LayoutLM / transformers)
+  - pytorch
+  - torchvision
+  - transformers
+  - pillow
+
+  # Pip-only / fast-moving libs
+  - pip:
+      - pymupdf
+      - pdfplumber
+      - protobuf==3.20.*
+      - langchain
+      - langchain-community
+      - langchain-openai
+      - sentence-transformers
+      - chromadb

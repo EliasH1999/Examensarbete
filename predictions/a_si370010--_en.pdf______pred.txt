@@ -1,0 +1,17 @@
+subnetwork.properties.physicalStandard=1
+subnetwork.properties.baudRate=not found
+subnetwork.properties.dataBits=not found
+subnetwork.properties.parity=not found
+subnetwork.properties.stopBits=not found
+subnetwork.nodes[0].properties.nodeAddress=1
+subnetwork.nodes[0].properties.name=MIEZ 37010
+subnetwork.nodes[0].properties.modbusAddressingMode=0
+subnetwork.nodes[0].transactions[0].properties.name=Connection type
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=16
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=1792
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[4].properties.data=2
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[5].properties.dataLength=2
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=16
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=1792
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.data=1

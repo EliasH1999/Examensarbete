@@ -1,0 +1,938 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n1/55 \nRHT Climate Transmitter \nWM and DM models \nUSER GUIDE V1.4x B \n \n \n \n \n \nApplies to devices with firmware version starting with V1.4x."
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n2/55 \n \n1 \nSAFETY ALERTS ...............................................................................................................................................................................................4 \n2 \nINTRODUCTION ................................................................................................................................................................................................5 \n3 \nIDENTIFICATION ...............................................................................................................................................................................................6 \n3.1 \nMODELS WITHOUT DISPLAY ...................................................................................................................................................................6 \n3.2"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "3.1 \nMODELS WITHOUT DISPLAY ...................................................................................................................................................................6 \n3.2 \nMODELS WITH DISPLAY ...........................................................................................................................................................................6 \n3.3 \nDEVICE MODELS .......................................................................................................................................................................................7 \n4 \nDISPLAY INDICATIONS ....................................................................................................................................................................................8 \n4.1"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "4 \nDISPLAY INDICATIONS ....................................................................................................................................................................................8 \n4.1 \nHOME SCREEN ..........................................................................................................................................................................................8 \n4.2 \nDISPLAYING MAXIMUM AND MINIMUM VALUES ...................................................................................................................................8 \n4.3 \nDISPLAYING OTHER PSYCHROMETRIC PROPERTIES ........................................................................................................................8 \n4.4 \nSIGNALS .....................................................................................................................................................................................................9 \n5"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "4.4 \nSIGNALS .....................................................................................................................................................................................................9 \n5 \nINSTALLATION ................................................................................................................................................................................................10 \n5.1 \nMECHANICAL INSTALLATION ................................................................................................................................................................10 \n5.1.1 \nDIMENSIONS ..................................................................................................................................................................................10 \n5.1.1.1 \nRHT Climate TRANSMITTER (WM MODEL) ........................................................................................................................... 10 \n5.1.1.2"
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "5.1.1.1 \nRHT Climate TRANSMITTER (WM MODEL) ........................................................................................................................... 10 \n5.1.1.2 \nRHT Climate TRANSMITTER (DM MODEL) ............................................................................................................................ 11 \n5.1.2 \nREMOVING AND INSTALLING THE FRONT COVER ...................................................................................................................11 \n5.2 \nELECTRICAL INSTALLATION ..................................................................................................................................................................12 \n5.2.1 \nINSTALLATION RECOMMENDATIONS .........................................................................................................................................12 \n5.2.2"
+  },
+  {
+    "chunk_id": 6,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "5.2.1 \nINSTALLATION RECOMMENDATIONS .........................................................................................................................................12 \n5.2.2 \nSPECIAL PRECAUTION .................................................................................................................................................................12 \n5.2.3 \nELECTRICAL CONNECTIONS .......................................................................................................................................................12 \n5.2.4 \nUSB CONNECTION ........................................................................................................................................................................12 \n5.3 \nSENSOR MAINTENANCE ........................................................................................................................................................................13 \n5.3.1"
+  },
+  {
+    "chunk_id": 7,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "5.3 \nSENSOR MAINTENANCE ........................................................................................................................................................................13 \n5.3.1 \nPRECAUTIONS WITH SENSORS ..................................................................................................................................................13 \n5.3.2 \nSENSOR REPLACEMENT .............................................................................................................................................................13 \n6 \nPARAMETER CYCLES ....................................................................................................................................................................................15 \n7 \nCONFIGURATION............................................................................................................................................................................................16 \n7.1"
+  },
+  {
+    "chunk_id": 8,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "7 \nCONFIGURATION............................................................................................................................................................................................16 \n7.1 \nANALOG OUTPUTS 0VT1 / 0VT2 ..........................................................................................................................................................16 \n7.2 \nALARM OUTPUTS ALM1 / ALM2 .............................................................................................................................................................18 \n7.3 \nBUZZER CONFIGURATION CYCLE ........................................................................................................................................................21 \n7.4 \nHMI CONFIGURATION CYCLE ................................................................................................................................................................23 \n7.5"
+  },
+  {
+    "chunk_id": 9,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "7.4 \nHMI CONFIGURATION CYCLE ................................................................................................................................................................23 \n7.5 \nDIAGNOSTIC CYCLE ...............................................................................................................................................................................25 \n7.6 \nCOMMUNICATION CYCLE ......................................................................................................................................................................26 \n7.7 \nGENERAL CONFIGURATION CYCLE .....................................................................................................................................................27 \n7.8 \nINFORMATION CYCLE ............................................................................................................................................................................29 \n8"
+  },
+  {
+    "chunk_id": 10,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "7.8 \nINFORMATION CYCLE ............................................................................................................................................................................29 \n8 \nPARAMETERS MAP ........................................................................................................................................................................................30 \n9 \nCOMMUNICATION INTERFACES ...................................................................................................................................................................31 \n9.1 \nCONNECTING TO A COMPUTER ...........................................................................................................................................................31 \n9.2 \nCONNECTING TO ANDROID SMARTPHONE ........................................................................................................................................31 \n9.2.1"
+  },
+  {
+    "chunk_id": 11,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "9.2 \nCONNECTING TO ANDROID SMARTPHONE ........................................................................................................................................31 \n9.2.1 \nCONNECTION VIA OTG CABLE ....................................................................................................................................................31 \n9.2.2 \nCONNECTION VIA MODBUS-TCP PROTOCOL ...........................................................................................................................31 \n9.3 \nCONNECTING TO IOS SMARTPHONE ...................................................................................................................................................32 \n10 \nSERIAL COMMUNICATION .............................................................................................................................................................................33 \n10.1"
+  },
+  {
+    "chunk_id": 12,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "10 \nSERIAL COMMUNICATION .............................................................................................................................................................................33 \n10.1 \nHOLDING REGISTER TABLE ..................................................................................................................................................................33 \n11 \nSIGNOW SOFTWARE AND APP ....................................................................................................................................................................40 \n11.1 \nSIGNOW SOFTWARE ..............................................................................................................................................................................40 \n11.2"
+  },
+  {
+    "chunk_id": 13,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "11.1 \nSIGNOW SOFTWARE ..............................................................................................................................................................................40 \n11.2 \nSIGNOW APP ............................................................................................................................................................................................40 \n11.3 \nSTARTING SIGNOW.................................................................................................................................................................................40 \n11.4 \nCONNECTING TO THE SOFTWARE .......................................................................................................................................................41 \n11.5 \nCONNECTING TO THE APP VIA OTG CABLE .......................................................................................................................................42 \n11.6"
+  },
+  {
+    "chunk_id": 14,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "11.5 \nCONNECTING TO THE APP VIA OTG CABLE .......................................................................................................................................42 \n11.6 \nCONNECTING TO THE APP VIA MODBUS-TCP PROTOCOL ...............................................................................................................43 \n11.7 \nCONFIGURING THE DEVICE ..................................................................................................................................................................44 \n11.7.1 \nGENERAL / BASIC ..........................................................................................................................................................................44 \n11.7.2 \nCOMMUNICATION..........................................................................................................................................................................44 \n11.7.3"
+  },
+  {
+    "chunk_id": 15,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "11.7.2 \nCOMMUNICATION..........................................................................................................................................................................44 \n11.7.3 \nTEMPERATURE..............................................................................................................................................................................45 \n11.7.4 \nRELATIVE HUMIDITY .....................................................................................................................................................................45 \n11.7.5 \nOUTPUTS 1 AND 2 .........................................................................................................................................................................46 \n11.7.6 \nALARMS 1 AND 2 ...........................................................................................................................................................................46 \n11.7.7"
+  },
+  {
+    "chunk_id": 16,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "11.7.6 \nALARMS 1 AND 2 ...........................................................................................................................................................................46 \n11.7.7 \nHMI ..................................................................................................................................................................................................47 \n11.7.8 \nDIAGRAM ........................................................................................................................................................................................48 \n11.7.9 \nFIRMWARE UPDATE......................................................................................................................................................................49 \n11.8 \nPERFORMING THE DIAGNOSTICS ........................................................................................................................................................50 \n12"
+  },
+  {
+    "chunk_id": 17,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "11.8 \nPERFORMING THE DIAGNOSTICS ........................................................................................................................................................50 \n12 \nTECHNICAL SPECIFICATIONS ......................................................................................................................................................................52 \n13 \nWARRANTY .....................................................................................................................................................................................................54"
+  },
+  {
+    "chunk_id": 18,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n3/55 \n14 \nAPPENDIX I – NOTIONS ABOUT PSYCHROMETRY ....................................................................................................................................55"
+  },
+  {
+    "chunk_id": 19,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n4/55 \n1 \nSAFETY ALERTS \nThe symbols below are used in the device and throughout this manual to draw the user’s attention to valuable information related to device safety \nand use. \n \n \n \nCAUTION \nRead the manual fully before installing and \noperating the device. \nCAUTION OR HAZARD \nRisk of electric shock. \nATTENTION \nMaterial sensitive to static charge. Check \nprecautions before handling. \nAll safety recommendations appearing in this manual must be followed to ensure personal safety and prevent damage to the instrument or system. \nIf the instrument is used in a manner other than that specified in this manual, the device’s safety protections may not be effective."
+  },
+  {
+    "chunk_id": 20,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n5/55 \n2 \nINTRODUCTION \nRHT Climate Transmitters Wall Mount (WM) and Duct Mount (DM) models have high-precision, stable sensors for measuring temperature and \nrelative humidity. Being micro processed devices, they allow full configuration via USB or RS485 interface via a Modbus RTU command.  \nSigNow configuration software or app allows you to configure the features of the device, as well as perform diagnostics on the analyzed \ninformation. \nApart from the temperature and relative humidity values, which are read directly from the sensor, the transmitter calculates the value of the \nfollowing psychrometric properties1: \n• \nDew Point Temperature \n• \nWet Bulb Temperature \n• \nAbsolute Humidity \n• \nFrost Point Temperature \n• \nSpecific Enthalpy \n• \nPartial Vapor Pressure \n• \nMixture Ratio \nAny variable read by the sensor or calculated by the device can be transmitted via one of the two available analog outputs. You are also allowed to"
+  },
+  {
+    "chunk_id": 21,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "• \nWet Bulb Temperature \n• \nAbsolute Humidity \n• \nFrost Point Temperature \n• \nSpecific Enthalpy \n• \nPartial Vapor Pressure \n• \nMixture Ratio \nAny variable read by the sensor or calculated by the device can be transmitted via one of the two available analog outputs. You are also allowed to \nconfigure the electrical operating level of each output: \n• \n0-10 V \n• \n4-20 mA \nTwo digital outputs with alarm or control functions can be related to any variable read or calculated by RHT Climate Transmitter.  \nThe following options are also available: \n• \nRS485 \n• \nDisplay with Backlight \n• \nAudible signal \nIt is important that you read the manual before using this device and check that the versions of the manual and the device match. The firmware \nversion number is displayed at the moment the device is powered on. \n \n \n1 Psychrometry is the study of thermodynamic properties of dry air and water vapor mixtures. Obtaining the psychrometric properties is crucial in the psychrometric"
+  },
+  {
+    "chunk_id": 22,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "version number is displayed at the moment the device is powered on. \n \n \n1 Psychrometry is the study of thermodynamic properties of dry air and water vapor mixtures. Obtaining the psychrometric properties is crucial in the psychrometric \nprocesses of air conditioning, refrigeration, cooling and freezing, air humidification and dehumidification, drying and dehydration of humid devices, as well as in \nenvironmental and meteorological control."
+  },
+  {
+    "chunk_id": 23,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n6/55 \n3 \nIDENTIFICATION \n3.1 \nMODELS WITHOUT DISPLAY \n \nFigure 1 – \nDevice without display \n3.2 \nMODELS WITH DISPLAY \n \n \nFigure 2 – \nDevice with display \n \nFigure 3 – \nDisplay indications"
+  },
+  {
+    "chunk_id": 24,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n7/55 \nKey \n: Key used to advance the parameters and parameters cycles. A short touch advances parameters within a cycle. A long touch advances \nparameters cycle. \nKey \n: Key used to decrease parameters. A long touch when displaying the home screen performs the action linked to the second function of the key: \n• \nNone. \n• \nClears registered minimum and maximum values. \nKey \n: Key used to increase parameters. A long touch when displaying the home screen performs the action linked to the second function of the key: \n• \nNone. \n• \nMutes the buzzer. \n• \nMutes the buzzer and turns off the alarm outputs. \n3.3 \nDEVICE MODELS \nThe RHT Climate Transmitter line is available in various configurations: \n• Wall Mount Model (WM): Recommended for wall mounting. \n• Duct Mount Model (DM): Recommended for duct mounting. DM models are available with a stainless steel (S) sensor probe and with lengths of \n150 mm, 250 mm, or 400 mm.  \nThe table below shows all available models: \nMODEL"
+  },
+  {
+    "chunk_id": 25,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "• Wall Mount Model (WM): Recommended for wall mounting. \n• Duct Mount Model (DM): Recommended for duct mounting. DM models are available with a stainless steel (S) sensor probe and with lengths of \n150 mm, 250 mm, or 400 mm.  \nThe table below shows all available models: \nMODEL \nRS485 \nDISPLAY \nSTAINLESS STEEL \nPROBE \nRHT Climate-WM \n  \n  \n \nRHT Climate-WM-485-LCD \n \n \n \nRHT Climate-WM-485 \n \n \n \nRHT Climate-DM-150S                           \n  \n  \n150 mm \nRHT Climate-DM-150S-485                    \n \n  \n150 mm \nRHT Climate-DM-150S-485-LCD           \n \n \n150 mm \nRHT Climate-DM-250S                           \n  \n  \n250 mm \nRHT Climate-DM-250S-485                    \n  \n  \n250 mm \nRHT Climate-DM-250S-485-LCD           \n  \n  \n250 mm \nRHT Climate-DM-400S                           \n  \n  \n400 mm \nRHT Climate-DM-400S-485                    \n \n  \n400 mm \nRHT Climate-DM-400S-485-LCD           \n \n \n400 mm \nTable 1 – Available models"
+  },
+  {
+    "chunk_id": 26,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n8/55 \n4 \nDISPLAY INDICATIONS \n4.1 \nHOME SCREEN \nThe home screen displays 3 lines:  \n1) Line 1 displays the temperature read by the sensor.  \n2) Line 2 displays the value of relative humidity. \n3) Line 3 displays the value of the option selected when configuring the device. \n \nFigure 4 – \nHome screen \n4.2 \nDISPLAYING MAXIMUM AND MINIMUM VALUES \nTo navigate to the secondary screens, you need to press the key  \n with a short touch from the home screen. With each short touch of the key, \nthe display will show the following screens: \n \n \n \nFigure 5 – \nMaximum and minimum temperature \nFigure 6 – \nMaximum and minimum relative \nhumidity \nFigure 7 – \nMaximum and minimum dew point \ntemperature \nOn the central line, the display will show the name of the variable to which the maximum and minimum values refer: \n• T: Temperature \n• rk: Relative humidity \n• td: Dew point"
+  },
+  {
+    "chunk_id": 27,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Figure 6 – \nMaximum and minimum relative \nhumidity \nFigure 7 – \nMaximum and minimum dew point \ntemperature \nOn the central line, the display will show the name of the variable to which the maximum and minimum values refer: \n• T: Temperature \n• rk: Relative humidity \n• td: Dew point \nOn the upper line of the display is the MAX symbol, followed by the maximum value for that magnitude. On the lower line of the display is the MIN \nsymbol, followed by the minimum value. If no key is pressed for 15 seconds, the display will return to the home screen. \n4.3 \nDISPLAYING OTHER PSYCHROMETRIC PROPERTIES \nAfter the screens of maximum and minimum values, are available screens for viewing other psychrometric variables. The device will advance one \nscreen each short touch of the key \n, respecting the following sequence: \n \n \n \nFigure 8 – \nWet bulb temperature \nFigure 9 – \nAbsolute humidity \nFigure 10 – \nFrost point temperature"
+  },
+  {
+    "chunk_id": 28,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n9/55 \n \n \n \nFigure 11 – \nSpecific enthalpy \nFigure 12 – \nPartial vapor pressure \nFigure 13 – \nMixture ratio \n4.4 \nSIGNALS \n• ALM  + 1: Indicates that the alarm 1 output is in alarm condition. \n• ALM  + 1 flashing: Indicates that the alarm 1 output is in alarm condition, but the output is disabled due to overcurrent protection. \n• ALM  + 2: Indicates that the alarm 2 output is in alarm condition. \n• ALM  + 2 flashing: Indicates that the alarm 2 output is in alarm condition, but the output is disabled due to overcurrent protection. \n• BUZZER: The buzzer may be activated in 3 conditions: \no BUZZER output alarm. \no ALM1 output alarm if the buzzer is enabled in alarm 1 configuration. \no ALM2 output alarm if the buzzer is enabled in alarm 2 configuration. \n• \nUSB: Indicates that the device is connected to a USB port. \n• \nCOM flashing: Indicates that the device is responding to a data request or command."
+  },
+  {
+    "chunk_id": 29,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "o ALM1 output alarm if the buzzer is enabled in alarm 1 configuration. \no ALM2 output alarm if the buzzer is enabled in alarm 2 configuration. \n• \nUSB: Indicates that the device is connected to a USB port. \n• \nCOM flashing: Indicates that the device is responding to a data request or command. \n• nnnn: Indicates that the value to be displayed on one of the lines is above the display limit. \n• vvvv: Indicates that the value to be shown on one of the lines is below the display limit."
+  },
+  {
+    "chunk_id": 30,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n10/55 \n5 \nINSTALLATION \n5.1 \nMECHANICAL INSTALLATION \nThe RHT Climate Transmitter WM model was designed to be secured to a wall by two mounting holes on the transmitter, as shown in Figure 14.  \nMounting should follow the sequence of steps below: \n• Use the device perforation template to mark the position of transmitter mounting bore holes. \n• Make the two holes using a drill with bit number 6. The bore holes should be deeper than the size of bushings. \n• Insert bushings in holes. Bushings should be completely inserted into the wall. \n• Position the transmitter on the wall, aiming to align with the perforations, and use bolts to secure it to the wall. \n \nBolts and bushings do not come with the device. \nThe device should be mounted with the sensor capsule facing downward to ensure the specified precision and protection \nrating. \n \n \nFigure 14 – \nMechanical Installation"
+  },
+  {
+    "chunk_id": 31,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Bolts and bushings do not come with the device. \nThe device should be mounted with the sensor capsule facing downward to ensure the specified precision and protection \nrating. \n \n \nFigure 14 – \nMechanical Installation \nThe RHT Climate Transmitter DM model it is mounted via a flange. First the flange is mounted on the duct wall, then the transmitter rod is inserted \ninto the central bore hole on the flange and secured. \n5.1.1 \nDIMENSIONS \n5.1.1.1 RHT Climate TRANSMITTER (WM MODEL) \n \n \nFigure 15 – \nWM model dimensions"
+  },
+  {
+    "chunk_id": 32,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n11/55 \n5.1.1.2 RHT Climate TRANSMITTER (DM MODEL) \nFigure 16 shows the flange dimensions and perforation: \n \nFigure 16 – \nFlange for mounting DM model \nThe probes for these models are made of stainless steel, with lengths of 150, 250 or 400 mm. \n \nFigure 17 – \nDM model dimensions \n5.1.2 \nREMOVING AND INSTALLING THE FRONT COVER \nTo remove the front cover, insert a screwdriver. It is necessary to fit in the lateral handles and to force it lightly until realizing its release. The \nprocedure should be repeated on each of the side handles of the device, as shown in the figures below. With all sides clear, the cover can be easily \nremoved: \n \nFigure 18 – \nRemoving the front cover of the transmitter \nFigure 19 – \nRemoving the front cover of the transmitter \nTo install, fit the cover onto the base by pressing it with care to fully secure the transmitter, as shown in the figure below: \n \nFigure 20 – \nDevice cover fitting"
+  },
+  {
+    "chunk_id": 33,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n12/55 \n5.2 \nELECTRICAL INSTALLATION \n5.2.1 \nINSTALLATION RECOMMENDATIONS \n• \nSignal conductors should run through the plant separately from the power supply and output conductors. If possible, in grounded conduits. \n• \nThe power supply for electronic instruments must come from an appropriate grid for instruments. \n• \nRC FILTERS (noise suppressor) are recommended in contactor coils, solenoids, etc. \n• \nIn control applications, it is essential to consider what could happen when some part of the system fails. The device’s internal devices do not \nensure total protection. \n• \nGrounding helps limit the effects of noise due to electromagnetic interference (EMI). Run the grounding connection by using the grounding bolt \nand the grounding plane before turning on the device. \n5.2.2 \nSPECIAL PRECAUTION \nBecause the transmitter is an electronic module, it requires some care when handling: \n•"
+  },
+  {
+    "chunk_id": 34,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "and the grounding plane before turning on the device. \n5.2.2 \nSPECIAL PRECAUTION \nBecause the transmitter is an electronic module, it requires some care when handling: \n• \nWhen opening the transmitter to connect electrical wiring, avoid contact with the electronic circuit due to the risk of damage caused by static electricity. \n• \nPay close attention when connecting wires.  \n• \nRemember to pass all wires through a cable clip before completing electrical connections.  \n• \nWhen closing the housing, the cover should be placed again properly, ensuring proper sealing for this model. \n5.2.3 \nELECTRICAL CONNECTIONS \n \nFigure 21 – \nElectrical connections \n* Connector CN2 is only mounted on models that have RS485 interface (Optional). \n5.2.4 \nUSB CONNECTION \n \nFigure 22 – \nUSB cable connection"
+  },
+  {
+    "chunk_id": 35,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n13/55 \n5.3 \nSENSOR MAINTENANCE \n5.3.1 \nPRECAUTIONS WITH SENSORS \n \nThe sensor used in the RHT Climate Transmitter is a device that is sensitive to electrostatic discharge (ESD). \nWhenever the sensor is touched, measures need to be taken to prevent ESD damage. \nThe sensor may be damaged or lose its calibration if exposed to atmospheres contaminated with chemical \nagents. Hydrochloric Acid, Nitric Acid, Sulfuric Acid and Ammonia at high concentrations can damage the \nsensor. Acetone, Ethanol and Propylene Glycol can cause reversible measurement errors. \nThe humidity sensor calibration can be altered if it is exposed to contaminating vapors or extreme humidity and temperature conditions for \nprolonged periods. To speed up calibration restore, proceed as described below: \n• \nCarefully remove the sensor from the capsule, avoiding contact with bare hands (it must be removed with the use of plastic tweezers or clean \nantistatic gloves). \n•"
+  },
+  {
+    "chunk_id": 36,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "prolonged periods. To speed up calibration restore, proceed as described below: \n• \nCarefully remove the sensor from the capsule, avoiding contact with bare hands (it must be removed with the use of plastic tweezers or clean \nantistatic gloves). \n• \nIf there are solid particles on the sensor, wash it with deionized water at room temperature. \n• \nPlace the sensor in an oven at 120 °C (+/-10 °C) for 6 hours. \n• \nCarefully replace the sensor in the capsule. \nIt is also possible to clean or dry the sensor using filtered and oil-free air, taking care that the air jets do not mechanically damage the sensor. \n5.3.2 \nSENSOR REPLACEMENT \nIn case of damage, the humidity and temperature sensor may need to be replaced. To perform this procedure, follow the steps below: \n \n• \nStep 1: Disconnect the transmitter from the power supply and remove the USB cable if it is connected. \nLocate the sensor protective tip."
+  },
+  {
+    "chunk_id": 37,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "SENSOR REPLACEMENT \nIn case of damage, the humidity and temperature sensor may need to be replaced. To perform this procedure, follow the steps below: \n \n• \nStep 1: Disconnect the transmitter from the power supply and remove the USB cable if it is connected. \nLocate the sensor protective tip.  \nThis example shows the sensor replacement of an RHT Climate DM Transmitter. In it, the sensor is located \nat the end of the rod. \n \n• Step 2: Remove the tip by turning it counterclockwise. \n \n \n• Step 3: Without the tip the sensor will be exposed. Remove it by pulling it forward to disconnect it. \n \n \n• Step 4: Connect the new sensor to the rod tip connector with the aid of plastic tweezers or clean antistatic \ngloves, avoiding pushing or engaging the sensor by hand only.  \n \n  \n \nHold the sensor only by its terminals, using plastic tweezers or new gloves."
+  },
+  {
+    "chunk_id": 38,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n14/55 \n \n  \n \nDo not hold the sensor by the sensor element. Do not use metal tweezers. Do not touch \nthe sensor without wearing gloves. \n \n• \nStep 5: Place the protection tip again and turn it clockwise to secure it to the device. \n \n \nOnce the sensor is replaced, it will be automatically recognized by the equipment."
+  },
+  {
+    "chunk_id": 39,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n15/55 \n6 \nPARAMETER CYCLES \nThe configuration parameters are clustered in affinity groups, called parameter cycles. The 10 parameter cycles are: \nCYCLE \nACCESS \n1 − Primary Cycle: \nIn this cycle are the screens for viewing the psychrometric variables. \nUnrestricted access \n2 − 0vt1 Cycle: \nIn this cycle are the configuration parameters of the transmission 1 output. \nEnables the protection \nmode of these cycles \n3 − 0vt2 Cycle: \nIn this cycle are the configuration parameters of the transmission 2 output. \n4 − ALM1 Cycle: \nIn this cycle are the configuration parameters of the alarm 1 output. \n5 − ALM2 Cycle: \nIn this cycle are the configuration parameters of the alarm 2 output. \n6 − Bv22 Cycle: \nIn this cycle are the configuration parameters of the buzzer. \n7 −1kM Cycle: \nIn this cycle are the HMI configuration parameters. \n8 − DIAG Cycle: \nIn this cycle are the parameters for forcing values of temperature, relative humidity and transmission outputs, alarm,"
+  },
+  {
+    "chunk_id": 40,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "6 − Bv22 Cycle: \nIn this cycle are the configuration parameters of the buzzer. \n7 −1kM Cycle: \nIn this cycle are the HMI configuration parameters. \n8 − DIAG Cycle: \nIn this cycle are the parameters for forcing values of temperature, relative humidity and transmission outputs, alarm, \nand buzzer. \n9 − (0m Cycle: \nIn this cycle, you can configure parameters related to RS485 Modbus communication.  \n10 − (nfg Cycle: \nYou must enter the device password to access the parameters in this cycle. The parameters allow the selection of the \nmeasurement units, the adjustment of the atmospheric pressure, besides the offsets and the digital filters for the \nsensor readings. You also can enable the protection of the configuration parameters and change the password. \n11 - Information Cycle: \nIn this cycle are displayed the serial number (sn) and the firmware version (firm) of the device. \nTable 2 – Parameter cycles"
+  },
+  {
+    "chunk_id": 41,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n16/55 \n7 \nCONFIGURATION \nRHT Climate Transmitter has a set of parameters that allows the configuration of its two transmission outputs and its two alarm outputs and can \nassigning the psychrometric properties below to each of them. The properties can be expressed in the International System of Measures (SI) or in \nthe English System of Measures (US). \n \n \n \nSI \nUS \nPsychrometric properties \n \n \nMin. \nMax. \nUnit \nMin. \nMax. \nUnit \nTemperature (measured value) \nt \n-40 \n100 \n°C \n-40 \n212 \n°F \nRelative humidity (measured value) \nrX \n0 \n100 \n% RH \n0 \n100 \n% RH \nDew point temperature (calculated value) \nTd \n-90 \n100 \n°C \n-130 \n212 \n°F \nWet bulb temperature (calculated value) \ntW \n-40 \n100 \n°C \n-40 \n212 \n°F \nAbsolute humidity (calculated value) \ndv \n0 \n600 \ng/m³ \n0 \n262 \ngr/ft³ \nFrost point temperature (calculated value) \nTf \n-90 \n100 \n°C \n-130 \n212 \n°F \nSpecific enthalpy (calculated value) \nH \n-40 \n700000* \nkJ/kg \n-18 \n300945* \nBTU/lb"
+  },
+  {
+    "chunk_id": 42,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "tW \n-40 \n100 \n°C \n-40 \n212 \n°F \nAbsolute humidity (calculated value) \ndv \n0 \n600 \ng/m³ \n0 \n262 \ngr/ft³ \nFrost point temperature (calculated value) \nTf \n-90 \n100 \n°C \n-130 \n212 \n°F \nSpecific enthalpy (calculated value) \nH \n-40 \n700000* \nkJ/kg \n-18 \n300945* \nBTU/lb \nPartial vapor pressure (calculated value) \nE \n0 \n1035 \nmbar \n0 \n15 \npsi \nMixture ratio (calculated value) \nR \n0 \n260000* \ng/kg \n0 \n1820000* \ngr/lb \nTemperature and relative humidity are the only variables that are measured directly from the sensor that comes with the device.  \nAll other measurements are obtained via algorithms that can lead to slight variations in relation to the real values.  \nTable 3 – Psychrometric properties  \n7.1 \nANALOG OUTPUTS 0VT1 / 0VT2 \nThe configuration cycle for analog outputs 1 and 2 allows you to assign: \n• \nThe psychrometric property related to the output. \n• \nThe default electrical output. \n• \nThe value to be shown in case of error in the sensor reading. \n•"
+  },
+  {
+    "chunk_id": 43,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "7.1 \nANALOG OUTPUTS 0VT1 / 0VT2 \nThe configuration cycle for analog outputs 1 and 2 allows you to assign: \n• \nThe psychrometric property related to the output. \n• \nThe default electrical output. \n• \nThe value to be shown in case of error in the sensor reading. \n• \nThe excursion range of the transmitted psychrometric property. \nNote: When the lower limit is defined with a value higher than the higher limit, the output current operates from 20-4 mA to 10-0 V.  \n7.1.1 \nPsychrometric property to be transmitted by the analog outputs 0vt1 / 0vt2 \nIt allows you to configure the psychrometric property to be transmitted by the analog outputs 0vt1 / 0vt2. \n0vt1 \nmEAs  \n \n \n0vt2 \nmEAs \nPsychrometric property to be transmitted \nDefault: off \nModbus register \nvalue \nOutputs 0vt1 /0vt2 off \noFF \n0 \nTemperature \nt \n1 \nRelative humidity \nrk \n2 \nDew point temperature \nTd \n3 \nWet bulb temperature \ntW \n4 \nAbsolute humidity \ndu \n5 \nFrost point temperature \nTf \n6 \nSpecific enthalpy \nH \n7"
+  },
+  {
+    "chunk_id": 44,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Psychrometric property to be transmitted \nDefault: off \nModbus register \nvalue \nOutputs 0vt1 /0vt2 off \noFF \n0 \nTemperature \nt \n1 \nRelative humidity \nrk \n2 \nDew point temperature \nTd \n3 \nWet bulb temperature \ntW \n4 \nAbsolute humidity \ndu \n5 \nFrost point temperature \nTf \n6 \nSpecific enthalpy \nH \n7 \nPartial vapor pressure \nE \n8 \nMixture ratio \nR \n9 \nTable 4 – Psychrometric property to be transmitted \n7.1.2 \nAnalog outputs 0vt1 / 0vt2 operating mode \nIt allows you to configure the type of electric signal to be used by the analog outputs 0vt1 / 0vt2. \n0vt1 \nmodE \n \n0vt2 \nmodE \nSignal type of the analog outputs 0vt1 / 0vt2 \nDefault: 4-20 \nModbus register \nvalue \nAnalog output 1 operating in 4-20 mA mode \n4-20 \n0 \nAnalog output 1 operating in 0-10 V mode \n0-10 \n1 \nTable 5 – Analog outputs operation mode"
+  },
+  {
+    "chunk_id": 45,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n17/55 \n7.1.3 \nLower transmission range limit of analog outputs 0vt1 / 0vt2 \nIt allows you to configure the lower full-scale for analog outputs 0vt1 / 0vt2. \n \n \nSI \nUS \n \n0vt1 \nL-Lo \n \n \n0vt2 \nL-Lo \n \nLower transmission range limit of analog \noutputs 0vt1 / 0vt2 \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \nTemperature t \n-40 \n100 \n°C \n-40 \n-40 \n212 \n°F \n-40 \nRelative humidity rk \n0 \n100 \n% RH \n0 \n0 \n100 \n% RH \n0 \nDew point temperature td \n-90 \n100 \n°C \n-90 \n-130 \n212 \n°F \n-130 \nWet bulb temperature tW \n-40 \n100 \n°C \n-40 \n-40 \n212 \n°F \n-40 \nAbsolute humidity du \n0 \n600 \ng/m³ \n0 \n0 \n262 \ngr/ft³ \n0 \nFrost point temperature tF \n-90 \n100 \n°C \n-90 \n-130 \n212 \n°F \n-130 \nSpecific enthalpy h \n-40 \n700000*  kJ/kg \n-40 \n-18 \n300945* \nBTU/lb \n-18 \nPartial vapor pressure E \n0 \n1035 \nmbar \n0 \n0 \n15 \npsi \n0 \nMixture ratio r \n0 \n260000*  g/kg \n0 \n0 \n1820000* \ngr/lb \n0 \nTable 6 – Lower transmission range limit"
+  },
+  {
+    "chunk_id": 46,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "-90 \n100 \n°C \n-90 \n-130 \n212 \n°F \n-130 \nSpecific enthalpy h \n-40 \n700000*  kJ/kg \n-40 \n-18 \n300945* \nBTU/lb \n-18 \nPartial vapor pressure E \n0 \n1035 \nmbar \n0 \n0 \n15 \npsi \n0 \nMixture ratio r \n0 \n260000*  g/kg \n0 \n0 \n1820000* \ngr/lb \n0 \nTable 6 – Lower transmission range limit \n* These values exceed the maximum value shown in the display. Through the HMI, you can adjust up to the 19999 limit. When configured by SigNow, these \nparameters can be adjusted up to the values shown in the table above. When accessing these parameters from the HMI, however, the nnnn value will be \ndisplayed. \n7.1.4 \nUpper transmission range limit of analog outputs 0vt1 / 0vt2 \nIt allows you to configure the upper full-scale for analog outputs 0vt1 / 0vt2. \n \n \nSI \nUS \n \n0vt1 \nL-ki \n \n \n0vt2 \nl-ki \nLower transmission range limit of analog \noutputs 0vt1 / 0vt2 \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \nTemperature \n-40 \n100 \n°C \n100 \n-40 \n212 \n°F \n212 \nRelative humidity \n0 \n100 \n% RH \n100 \n0 \n100 \n% RH"
+  },
+  {
+    "chunk_id": 47,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "SI \nUS \n \n0vt1 \nL-ki \n \n \n0vt2 \nl-ki \nLower transmission range limit of analog \noutputs 0vt1 / 0vt2 \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \nTemperature \n-40 \n100 \n°C \n100 \n-40 \n212 \n°F \n212 \nRelative humidity \n0 \n100 \n% RH \n100 \n0 \n100 \n% RH \n100 \nDew point temperature \n-90 \n100 \n°C \n100 \n-130 \n212 \n°F \n212 \nWet bulb temperature \n-40 \n100 \n°C \n100 \n-40 \n212 \n°F \n212 \nAbsolute humidity \n0 \n600 \ng/m³ \n600 \n0 \n262 \ngr/ft³ \n262 \nFrost point temperature \n-90 \n100 \n°C \n100 \n-130 \n212 \n°F \n212 \nSpecific enthalpy \n-40 \n700000* \nkJ/kg \n700000* -18 300945* \nBTU/lb \n300945* \nPartial vapor pressure \n0 \n1035 \nmbar \n1035 \n0 \n15 \npsi \n15 \nMixture ratio \n0 \n260000* \ng/kg \n260000* \n0 \n1820000* gr/lb \n1820000* \nTable 7 – Upper transmission range limit \n* These values exceed the maximum value shown in the display. Through the HMI, you can adjust up to the 19999 limit. When configured by SigNow, these"
+  },
+  {
+    "chunk_id": 48,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "1035 \nmbar \n1035 \n0 \n15 \npsi \n15 \nMixture ratio \n0 \n260000* \ng/kg \n260000* \n0 \n1820000* gr/lb \n1820000* \nTable 7 – Upper transmission range limit \n* These values exceed the maximum value shown in the display. Through the HMI, you can adjust up to the 19999 limit. When configured by SigNow, these \nparameters can be adjusted up to the values shown in the table above. When accessing these parameters from the HMI, however, the nnnn value will be \ndisplayed. \n7.1.5 \nStatus of analog outputs 0vt1 / 0vt2 in case of sensor error \nIt allows you to configure the status of analog outputs 0vt1 / 0vt2 in case of error in the sensor reading. \n0vt1 \nErr \n \n0vt2 \nerr \nValue of analog outputs 0vt1 / 0vt2 in case of error \nDefault: lo \nModbus \nregister value \nSets analog outputs 0vt1 / 0vt2 to the minimum value in case of error in the sensor reading. \nlo \n0 \nSets the analog outputs 0vt1 / 0vt2 to the maximum value in case of error in the sensor reading. \nXi \n1"
+  },
+  {
+    "chunk_id": 49,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Value of analog outputs 0vt1 / 0vt2 in case of error \nDefault: lo \nModbus \nregister value \nSets analog outputs 0vt1 / 0vt2 to the minimum value in case of error in the sensor reading. \nlo \n0 \nSets the analog outputs 0vt1 / 0vt2 to the maximum value in case of error in the sensor reading. \nXi \n1 \nTable 8 – Value of analog outputs 0vt1 / 0vt2 in case of error"
+  },
+  {
+    "chunk_id": 50,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n18/55 \n7.2 \nALARM OUTPUTS ALM1 / ALM2 \nAll RHT Climate Transmitter models have 2 alarm outputs, which can also be used with ON/OFF control outputs. For models with display, there is \nthe additional feature of an internal buzzer for audible signaling. For each alarm output and for the buzzer, the following can be configured: \n• \nThe associated psychrometric property \n• \nAlarm type Lo, ki, L--k, -Lk- \n• \nThe setpoints \n• \nHysteresis \n• \nOutput condition in case of sensor error \n• \nTiming \nThe configuration cycle for alarms alm1 / alm2 allows for assigning the psychrometric property associated with alarm outputs alm1 / alm2, the \noperating mode for alarms alm1 / alm2 (type of alarm), activation points for alarms alm1 / alm2, their timing values, inhibition of alarm condition \nwhen turning the device on, and the alarm activation mode in case of sensor reading error."
+  },
+  {
+    "chunk_id": 51,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "operating mode for alarms alm1 / alm2 (type of alarm), activation points for alarms alm1 / alm2, their timing values, inhibition of alarm condition \nwhen turning the device on, and the alarm activation mode in case of sensor reading error. \nThe figure below shows how the alarm outputs are activated and deactivated according to the type of alarm selected. \n \nFigure 23 – \nAlarm output activation and deactivation \nRHT Climate Transmitter allows for 4 timing options for its alarm outputs and for the buzzer: \n• \nNormal operation \n• \nActivation for set time \n• \nDelay in activation \n• \nIntermittent activation \nThe figures in the table below show the behavior of alarm outputs with these activation variations defined by the T0n and T0ff time intervals: \nOPERATION \nT0n \nT0ff \nACTION \nNormal operation \n0 \n0 \nAlarm Event \nAlarm \nOutput \n \nActivation with  \nset time \n1 to 6500 s \n0 \nAlrm Event \nAlarm \nOutput \nT0n \n \nDelayed  \nactivation \n0 \n1 to 6500 s \nAlarm Event \nAlarm \nOutput \ntoff"
+  },
+  {
+    "chunk_id": 52,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "OPERATION \nT0n \nT0ff \nACTION \nNormal operation \n0 \n0 \nAlarm Event \nAlarm \nOutput \n \nActivation with  \nset time \n1 to 6500 s \n0 \nAlrm Event \nAlarm \nOutput \nT0n \n \nDelayed  \nactivation \n0 \n1 to 6500 s \nAlarm Event \nAlarm \nOutput \ntoff \n \nIntermittent activation \n1 to 6500 s \n1 to 6500 s \nAlarm Event \nAlarm \nOutput \nT0n \nT0ff \nT0n \n \nTable 9 – Timing functions for alarms \nThe Initial Blocking option prevents alarm activation if there is an alarm condition when the controller is turned on. The alarm is only enabled after \nthe process passes through a non-alarm condition. \nThe initial block is useful, for example, when one of the alarms is configured as minimum value alarm, potentially setting off the alarm right when \nthe process is started up, which is often undesirable behavior. \nInitial blocking is not valid for the Open Sensor function."
+  },
+  {
+    "chunk_id": 53,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n19/55 \n7.2.1 \nPsychrometric property associated with alarms ALM1 / ALM2 \nIt allows you to configure a psychrometric property that will be associated with alarms ALM1 / ALM2. \nALm1  \nmEAs \n \nALm2  \nmEAs \nPsychrometric property associated with alarms ALM1 / ALM2 \nDefault: t \nModbus Register \nValue \nTemperature \nt \n1 \nRelative humidity \nrk \n2 \nDew point temperature \nTd \n3 \nWet bulb temperature \ntW \n4 \nAbsolute humidity \ndu \n5 \nFrost point temperature \nTf \n6 \nSpecific enthalpy \nH \n7 \nPartial vapor pressure \nE \n8 \nMixture ratio \nR \n9 \nTable 10 – \nPsychrometric property associated to the alarms \n7.2.2 \nActivation mode for alarms ALM1 / ALM2 \nIt allows you to turn off alarms ALM1 / ALM2 or configure them to operate as one of the alarm types indicated below: \nALm1  \nmodE \n \nALm2  \nmodE \nActivation mode for alarm outputs ALM1 / ALM2 \nDefault: off \nModbus Register \nValue \nOff \noFF \n0 \nSets off alarm in case of sensor error \niErr \n1 \nSets off alarm below setpoint SPLo \nLo \n2"
+  },
+  {
+    "chunk_id": 54,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "ALm1  \nmodE \n \nALm2  \nmodE \nActivation mode for alarm outputs ALM1 / ALM2 \nDefault: off \nModbus Register \nValue \nOff \noFF \n0 \nSets off alarm in case of sensor error \niErr \n1 \nSets off alarm below setpoint SPLo \nLo \n2 \nSets off alarm above setpoint SPki \nki \n3 \nSets off alarm between SPLo and SPki \nL--k \n4 \nSets off alarm below SPLo and above SPki \n-Lk- \n5 \nTable 11 – \nActivation mode for alarm outputs ALM1 / ALM2 \n7.2.3 \nLower Setpoint for activating alarms ALM1 / ALM2 \nIt allows you to configure the setpoint for alarms Lo, L--k, and -Lk-. \n \n \nSI \nUS \nALm1 \nspLo \n \nALm2 \nspLo \n \nSetpoint lower than alarm outputs ALM1 / ALM2 \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \nALM1 / ALM2 for temperature \n-40 \n100 \n°C \n-40 \n-40 \n212 \n°F \n-40 \nALM1 / ALM2 for relative humidity \n0 \n100 \n% RH \n0 \n0 \n100 \n% RH \n0 \nALM1 / ALM2 for dew point temperature \n-90 \n100 \n°C \n-90 \n-130 \n212 \n°F \n-130 \nALM1 / ALM2 for wet bulb temperature \n-40 \n100 \n°C \n-40 \n-40 \n212 \n°F \n-40"
+  },
+  {
+    "chunk_id": 55,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Default \nALM1 / ALM2 for temperature \n-40 \n100 \n°C \n-40 \n-40 \n212 \n°F \n-40 \nALM1 / ALM2 for relative humidity \n0 \n100 \n% RH \n0 \n0 \n100 \n% RH \n0 \nALM1 / ALM2 for dew point temperature \n-90 \n100 \n°C \n-90 \n-130 \n212 \n°F \n-130 \nALM1 / ALM2 for wet bulb temperature \n-40 \n100 \n°C \n-40 \n-40 \n212 \n°F \n-40 \nALM1 / ALM2 for absolute humidity \n0 \n600 \ng/m³ \n0 \n0 \n262 \ngr/ft³ \n0 \nALM1 / ALM2 for frost point temperature \n-90 \n100 \n°C \n-90 \n-130 \n212 \n°F \n-130 \nALM1 / ALM2 for specific enthalpy \n-40 700000* kJ/kg \n-40 \n-18 \n300945* \nBTU/lb \n-18 \nALM1 / ALM2 for partial vapor pressure \n0 \n1035 \nMbar \n0 \n0 \n15 \npsi \n0 \nALM1 / ALM2 for mixture ratio \n0 \n260000* g/kg \n0 \n0 \n1820000* gr/lb \n0 \nTable 12 – \nSetpoint lower than alarm outputs ALM1 / ALM2 \n* These values exceed the maximum value shown in the display. Through the HMI, you can adjust up to the 19999 limit. When configured by SigNow, these"
+  },
+  {
+    "chunk_id": 56,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "0 \n15 \npsi \n0 \nALM1 / ALM2 for mixture ratio \n0 \n260000* g/kg \n0 \n0 \n1820000* gr/lb \n0 \nTable 12 – \nSetpoint lower than alarm outputs ALM1 / ALM2 \n* These values exceed the maximum value shown in the display. Through the HMI, you can adjust up to the 19999 limit. When configured by SigNow, these \nparameters can be adjusted up to the values shown in the table above. When accessing these parameters from the HMI, however, the nnnn value will be \ndisplayed."
+  },
+  {
+    "chunk_id": 57,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n20/55 \n7.2.4 \nHigher Setpoint for activating alarms ALM1 / ALM2 \nIt allows you to configure the setpoint for alarm types ki, L--k, and -Lk-. \n \n \nSI \nUS \nALm1 \nspHi \n \nALm2 \nspki \nSetpoint higher than alarm outputs ALM1 / \nALM2 \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \nALM1 / ALM2 for temperature \n-40 \n100 \n°C \n100 \n-40 \n212 \n°F \n212 \nALM1 / ALM2 for relative humidity \n0 \n100 \n% \nRH \n100 \n0 \n100 \n% RH \n100 \nALM1 / ALM2 for dew point temperature \n-90 \n100 \n°C \n100 \n-\n130 \n212 \n°F \n212 \nALM1 / ALM2 for wet bulb temperature \n-40 \n100 \n°C \n100 \n-40 \n212 \n°F \n212 \nALM1 / ALM2 for absolute humidity \n0 \n600 \ng/m³ \n600 \n0 \n262 \ngr/ft³ \n262 \nALM1 / ALM2 for frost point temperature \n-90 \n100 \n°C \n100 \n-\n130 \n212 \n°F \n212 \nALM1 / ALM2 for specific enthalpy \n-40 700000* kJ/kg \n700000* -18 \n300945* \nBTU/lb \n300945* \nALM1 / ALM2 for partial vapor pressure \n0 \n1035 \nmbar \n1035 \n0 \n15 \npsi \n15 \nALM1 / ALM2 for mixture ratio \n0 \n260000* g/kg \n260000* \n0 \n1820000*"
+  },
+  {
+    "chunk_id": 58,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "-90 \n100 \n°C \n100 \n-\n130 \n212 \n°F \n212 \nALM1 / ALM2 for specific enthalpy \n-40 700000* kJ/kg \n700000* -18 \n300945* \nBTU/lb \n300945* \nALM1 / ALM2 for partial vapor pressure \n0 \n1035 \nmbar \n1035 \n0 \n15 \npsi \n15 \nALM1 / ALM2 for mixture ratio \n0 \n260000* g/kg \n260000* \n0 \n1820000* \ngr/lb \n1820000* \nTable 13 – \nSetpoint higher than alarm outputs ALM1 / ALM2 \n* These values exceed the maximum value shown in the display. Through the HMI, you can adjust up to the 19999 limit. When configured by SigNow, these \nparameters can be adjusted up to the values shown in the table above. When accessing these parameters from the HMI, however, the nnnn value will be \ndisplayed. \n7.2.5 \nHysteresis for turning off alarms ALM1 / ALM2 \nIt allows you to adjust the differential for turning off alarms ALM1 / ALM2. \n \n \nSI \nUS \nALm1 \nkyst \n \nAlm2 \nkyst \nOutput hysteresis of alarms ALM1 / ALM2 \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \nALM1 / ALM2 for temperature \n0 \n20 \n°C \n0 \n0 \n20 \n°F \n0"
+  },
+  {
+    "chunk_id": 59,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "It allows you to adjust the differential for turning off alarms ALM1 / ALM2. \n \n \nSI \nUS \nALm1 \nkyst \n \nAlm2 \nkyst \nOutput hysteresis of alarms ALM1 / ALM2 \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \nALM1 / ALM2 for temperature \n0 \n20 \n°C \n0 \n0 \n20 \n°F \n0 \nALM1 / ALM2 for relative humidity \n0 \n20 \n% RH \n0 \n0 \n20 \n% RH \n0 \nALM1 / ALM2 for dew point temperature \n0 \n20 \n°C \n0 \n0 \n20 \n°F \n0 \nALM1 / ALM2 for wet bulb temperature \n0 \n20 \n°C \n0 \n0 \n20 \n°F \n0 \nALM1 / ALM2 for absolute humidity \n0 \n20 \ng/m³ \n0 \n0 \n20 \ngr/ft³ \n0 \nALM1 / ALM2 for frost point temperature \n0 \n20 \n°C \n0 \n0 \n20 \n°F \n0 \nALM1 / ALM2 for specific enthalpy \n0 \n20 \nkJ/kg \n0 \n0 \n20 \nBTU/lb \n0 \nALM1 / ALM2 for partial vapor pressure \n0 \n20 \nmbar \n0 \n0 \n20 \npsi \n0 \nALM1 / ALM2 for mixture ratio \n0 \n20 \ng/kg \n0 \n0 \n20 \ngr/lb \n0 \nTable 14 – \nOutput hysteresis of alarms ALM1 / ALM2 \n7.2.6 \nAlarms ALM1 / ALM2 on time \n \n \nMin. \nMax. \nUnit \nDefault \nALm1  \nT0n \n \nAlm2 \nT0n \nTime of alarms on. \n0 \n6500 \ns \n0"
+  },
+  {
+    "chunk_id": 60,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "0 \n20 \nmbar \n0 \n0 \n20 \npsi \n0 \nALM1 / ALM2 for mixture ratio \n0 \n20 \ng/kg \n0 \n0 \n20 \ngr/lb \n0 \nTable 14 – \nOutput hysteresis of alarms ALM1 / ALM2 \n7.2.6 \nAlarms ALM1 / ALM2 on time \n \n \nMin. \nMax. \nUnit \nDefault \nALm1  \nT0n \n \nAlm2 \nT0n \nTime of alarms on. \n0 \n6500 \ns \n0 \nTable 15 – \nTime of alarms on \n7.2.7 \nAlarms ALM1 / ALM2 off time \n \n \nMin. \nMax. \nUnit \nDefault \nALm1 \nT0ff \n  \nAlm2 \nT0ff \nTime of alarms off. \n0 \n6500 \ns \n0 \nTable 16 – \nTime of alarms off"
+  },
+  {
+    "chunk_id": 61,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n21/55 \n7.2.8 \nInitial blocking of alarms ALM1 / ALM2 \nIt allows blocking the activation of alarms ALM1 / ALM2 if the transmitter starts up in alarm condition. \nALm1 \nbLA \n \nAlm2 \nbla \nInitial blocking of alarms ALM1 / ALM2 \nDefault: yEs \nModbus Register \nValue \nWithout initial blocking of alarms ALM1 / ALM2. \nno \n0 \nWith initial blocking of alarms ALM1 / ALM2. \nyEs \n1 \nTable 17 – \nInitial blocking of alarms ALM1 / ALM2 \n7.2.9 \nStatus of alarms ALM1 / ALM2 in case of sensor error \nIt allows you to configure the outputs from alarms ALM1 / ALM2 so that they are activated in case of sensor reading error. \nALm1 \nErr \n \nAlm2 \nerr \nStatus of alarm outputs ALM1 / ALM2 in case of sensor error \nDefault: Off \nModbus Register \nValue \nAlarms ALM1 / ALM2 off \noFF \n0 \nAlarms ALM1 / ALM2 on \nOn \n1 \nTable 18 – \nStatus of alarm outputs ALM1 / ALM2 in case of sensor error \n7.2.10 Enable buzzer activation linked to alarms ALM1 / ALM2"
+  },
+  {
+    "chunk_id": 62,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Status of alarm outputs ALM1 / ALM2 in case of sensor error \nDefault: Off \nModbus Register \nValue \nAlarms ALM1 / ALM2 off \noFF \n0 \nAlarms ALM1 / ALM2 on \nOn \n1 \nTable 18 – \nStatus of alarm outputs ALM1 / ALM2 in case of sensor error \n7.2.10 Enable buzzer activation linked to alarms ALM1 / ALM2 \nIt allows you to enable buzzer activation linked to alarms ALM1 / ALM2. \nALm1 \nBv22 \n \nAlm2 \nBv22 \nEnable buzzer for alarm outputs ALM1 / ALM2 \nDefault: Dsbl \nModbus Register \nValue \nThe buzzer will not be activated when alarms ALM1 / ALM2 occur. \nDsbl \n0 \nThe buzzer will be activated when alarms ALM1 / ALM2 occur. \nEnbl \n1 \nTable 19 – \nEnable buzzer for alarm outputs ALM1 / ALM2 \n7.3 \nBUZZER CONFIGURATION CYCLE \nThe buzzer configuration cycle allows for assigning the psychrometric property associated with the buzzer, the buzzer operating mode  \n(type of alarm), buzzer activation points, their timing values, inhibition of alarm condition when turning the device on, and the buzzer activation"
+  },
+  {
+    "chunk_id": 63,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "The buzzer configuration cycle allows for assigning the psychrometric property associated with the buzzer, the buzzer operating mode  \n(type of alarm), buzzer activation points, their timing values, inhibition of alarm condition when turning the device on, and the buzzer activation \nmode in case of sensor reading error. \n7.3.1 \nPsychrometric property associated with the buzzer \nIt allows you to configure the psychrometric property that will be associated with the buzzer. \nBv22  \nmEAs \nPsychrometric property associated with the buzzer \nDefault: t \nModbus Register \nValue \nTemperature \nt \n1 \nRelative humidity \nrk \n2 \nDew point temperature \nTd \n3 \nWet bulb temperature \ntW \n4 \nAbsolute humidity \ndu \n5 \nFrost point temperature \nTf \n6 \nSpecific enthalpy \nH \n7 \nPartial vapor pressure \nE \n8 \nMixture ratio \nR \n9 \nTable 20 – \nPsychrometric property associated with the buzzer \n7.3.2 \nBuzzer activation mode"
+  },
+  {
+    "chunk_id": 64,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "rk \n2 \nDew point temperature \nTd \n3 \nWet bulb temperature \ntW \n4 \nAbsolute humidity \ndu \n5 \nFrost point temperature \nTf \n6 \nSpecific enthalpy \nH \n7 \nPartial vapor pressure \nE \n8 \nMixture ratio \nR \n9 \nTable 20 – \nPsychrometric property associated with the buzzer \n7.3.2 \nBuzzer activation mode \nIt allows you to turn off the buzzer or configure it to operate as one of the alarm types set forth below: \nBv22  \nmodE \nBuzzer activation mode \nDefault: off \nOff \noFF \nActivates the alarm in case of sensor error \niErr \nActivates alarm below setpoint SPLo \nLo \nActivates alarm above setpoint SPki \nki \nActivates alarm between SPLo and SPki \nL--k \nActivates alarm below SPLo and above SPki \n-Lk- \nTable 21 – \nBuzzer activation mode"
+  },
+  {
+    "chunk_id": 65,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n22/55 \n7.3.3 \nLower psychrometric property setpoint for buzzer activation \nIt allows you to configure the setpoint for alarms Lo, L--X, and -LX-. \n \n \nSI \nUS \nBv22 \nspLo \nPsychrometric property \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \nTemperature \n-40 \n100 \n°C \n-40 \n-40 \n212 \n°F \n-40 \nRelative humidity \n0 \n100 \n% RH \n0 \n0 \n100 \n% RH \n0 \nDew point temperature \n-90 \n100 \n°C \n-90 \n-130 \n212 \n°F \n-130 \nWet bulb temperature \n-40 \n100 \n°C \n-40 \n-40 \n212 \n°F \n-40 \nAbsolute humidity \n0 \n600 \ng/m³ \n0 \n0 \n262 \ngr/ft³ \n0 \nFrost point temperature \n-90 \n100 \n°C \n-90 \n-130 \n212 \n°F \n-130 \nSpecific enthalpy \n-40 700000* kJ/kg \n-40 \n-18 \n300945* BTU/lb \n-18 \nPartial vapor pressure \n0 \n1035 \nmbar \n0 \n0 \n15 \npsi \n0 \nMixture ratio \n0 \n260000* g/kg \n0 \n0 \n1820000* gr/lb \n0 \nTable 22 – \nPsychrometric property \n* These values exceed the maximum value shown in the display. Through the HMI, you can adjust up to the 19999 limit. When configured by SigNow, these"
+  },
+  {
+    "chunk_id": 66,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "0 \n1035 \nmbar \n0 \n0 \n15 \npsi \n0 \nMixture ratio \n0 \n260000* g/kg \n0 \n0 \n1820000* gr/lb \n0 \nTable 22 – \nPsychrometric property \n* These values exceed the maximum value shown in the display. Through the HMI, you can adjust up to the 19999 limit. When configured by SigNow, these \nparameters can be adjusted up to the values shown in the table above. When accessing these parameters from the HMI, however, the nnnn value will be \ndisplayed. \n7.3.4 \nHigher Setpoint for buzzer activation \nIt allows you to configure the set point for alarm types ki, L--k, and -Lk-. \n \n \nSI \nUS \nBv22 \nspki \nHigher Setpoint for buzzer activation \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \nTemperature \n-40 \n100 \n°C \n100 \n-40 \n212 \n°F \n212 \nRelative humidity \n0 \n100 \n% RH \n100 \n0 \n100 \n% RH \n100 \nDew point temperature \n-90 \n100 \n°C \n100 \n-130 \n212 \n°F \n212 \nWet bulb temperature \n-40 \n100 \n°C \n100 \n-40 \n212 \n°F \n212 \nAbsolute humidity \n0 \n600 \ng/m³ \n600 \n0 \n262 \ngr/ft³ \n262 \nFrost point temperature \n-90"
+  },
+  {
+    "chunk_id": 67,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "°C \n100 \n-40 \n212 \n°F \n212 \nRelative humidity \n0 \n100 \n% RH \n100 \n0 \n100 \n% RH \n100 \nDew point temperature \n-90 \n100 \n°C \n100 \n-130 \n212 \n°F \n212 \nWet bulb temperature \n-40 \n100 \n°C \n100 \n-40 \n212 \n°F \n212 \nAbsolute humidity \n0 \n600 \ng/m³ \n600 \n0 \n262 \ngr/ft³ \n262 \nFrost point temperature \n-90 \n100 \n°C \n100 \n-130 \n212 \n°F \n212 \nSpecific enthalpy \n-40 \n700000* \nkJ/kg \n700000* -18 \n300945* BTU/lb \n300945* \nPartial vapor pressure \n0 \n1035 \nmbar \n1035 \n0 \n15 \npsi \n15 \nMixture ratio \n0 \n260000* \ng/kg \n260000* \n0 \n1820000* gr/lb \n1820000* \nTable 23 – \nHigher Setpoint for buzzer activation \n* These values exceed the maximum value shown in the display. Through the HMI, you can adjust up to the 19999 limit. When configured by SigNow, these \nparameters can be adjusted up to the values shown in the table above. When accessing these parameters from the HMI, however, the nnnn value will be \ndisplayed. \n7.3.5 \nHysteresis for turning off buzzer"
+  },
+  {
+    "chunk_id": 68,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "parameters can be adjusted up to the values shown in the table above. When accessing these parameters from the HMI, however, the nnnn value will be \ndisplayed. \n7.3.5 \nHysteresis for turning off buzzer \nIt allows you to adjust the differential for turning off the buzzer. \n \n \nSI \nUS \nBv22 \nkyst \nHysteresis for turning off buzzer \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \nTemperature \n0 \n20 \n°C \n0 \n0 \n20 \n°F \n0 \nRelative humidity \n0 \n20 \n% RH \n0 \n0 \n20 \n% RH \n0 \nDew point temperature \n0 \n20 \n°C \n0 \n0 \n20 \n°F \n0 \nWet bulb temperature \n0 \n20 \n°C \n0 \n0 \n20 \n°F \n0 \nAbsolute humidity \n0 \n20 \ng/m³ \n0 \n0 \n20 \ngr/ft³ \n0 \nFrost point temperature \n0 \n20 \n°C \n0 \n0 \n20 \n°F \n0 \nSpecific enthalpy \n0 \n20 \nkJ/kg \n0 \n0 \n20 \nBTU/lb \n0 \nPartial vapor pressure \n0 \n20 \nmbar \n0 \n0 \n20 \npsi \n0 \nMixture ratio \n0 \n20 \ng/kg \n0 \n0 \n20 \ngr/lb \n0 \nTable 24 – \nHysteresis for turning off buzzer"
+  },
+  {
+    "chunk_id": 69,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n23/55 \n \n7.3.6 \nBuzzer on time \n \n \nMin. \nMax. \nUnit \nDefault \nBv22 \nT0n \nBuzzer on time \n0 \n6500 \ns \n0 \nTable 25 – \nBuzzer on time \n7.3.7 \nBuzzer off time \n \n \nMin. \nMax. \nUnit \nDefault \nBv22 \nT0ff \nBuzzer off time \n0 \n6500 \ns  \n0 \nTable 26 – \nBuzzer off time \n7.3.8 \nInitial buzzer blocking \nIt allows blocking buzzer activation if the transmitter starts up in alarm condition. \nBv22 \nbLA \nInitial buzzer blocking \nDefault: yEs \nModbus Register \nValue \nWithout initial buzzer blocking \nNo \n0 \nWith initial buzzer blocking \nyEs \n1 \nTable 27 – \nInitial buzzer blocking \n7.3.9 \nBuzzer status in case of sensor error \nIt allows you to configure the buzzer output so that it is activated in case of sensor reading error. \nBv22 \nErr \nBuzzer status in case of sensor error \nDefault: oFF \nModbus Register \nValue \nBuzzer off \noFF \n0 \nBuzzer on \nOn \n1 \nTable 28 – \nBuzzer status in case of sensor error \n7.4 \nHMI CONFIGURATION CYCLE"
+  },
+  {
+    "chunk_id": 70,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Bv22 \nErr \nBuzzer status in case of sensor error \nDefault: oFF \nModbus Register \nValue \nBuzzer off \noFF \n0 \nBuzzer on \nOn \n1 \nTable 28 – \nBuzzer status in case of sensor error \n7.4 \nHMI CONFIGURATION CYCLE \nThe HMI configuration cycle allows for adjusting contrast, display backlight operating mode and functions of increase and decrease keys. \n7.4.1 \nBacklight \nIt adjusts the display backlight operating mode. \nTable 29 – \nBacklight \n7.4.2 \nContrast \nIt adjusts the display contrast. Depending on the preferred viewing angle, the contrast may need to be adjusted to improve the clarity of information \non the display. \n1xM  \nCont \nContrast \nDefault: 3 \nContrast 1 (-40° in relation to the horizontal line) \n1 \nContrast 2 (-20° in relation to the horizontal line) \n2 \nContrast 3 (0° in relation to the horizontal line)  \n3 \nContrast 4 (+20° in relation to the horizontal line) \n4 \nContrast 5 (+40° in relation to the horizontal line) \n5 \nTable 30 – \nContrast \n \n1xM \nbclt \nBacklight \nDefault: On"
+  },
+  {
+    "chunk_id": 71,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "1 \nContrast 2 (-20° in relation to the horizontal line) \n2 \nContrast 3 (0° in relation to the horizontal line)  \n3 \nContrast 4 (+20° in relation to the horizontal line) \n4 \nContrast 5 (+40° in relation to the horizontal line) \n5 \nTable 30 – \nContrast \n \n1xM \nbclt \nBacklight \nDefault: On \nModbus Register \nValue \nOff \nOff \n0 \nAlways on \nOn \n1 \nOn for 15 seconds after pressing any key \nPrss \n2"
+  },
+  {
+    "chunk_id": 72,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n24/55 \n \n \nFigure 24 – \nRHT Climate Transmitter display contrast \n7.4.3 \nSecond function of key \n \nIt allows you to configure the second function of the increase key. \n1xM  \nf1 \nSecond function of the increase key  \nDefault: nonE \nModbus Register \nValue \nNone \nnonE \n0 \nMutes buzzer \nB2 \n1 \nMutes buzzer and turns off alarm output \nB2Al \n2 \nTable 31 – \nSecond function of the increase key \n7.4.4 \nSecond function of key \n \nIt allows you to configure the second function of the decrease key. \n1xM  \nf2 \nSecond function of the decrease key  \nDefault: nonE \nModbus Register \nValue \nNone \nnonE \n0 \nClear maximum and minimum values \nClr \n1 \nTable 32 – \nSecond function of the decrease key \n7.4.5 \nConfiguring the third line of the display \nIt allows you to configure the information to be displayed on the third line of the display. \n1xM  \nlin3 \nThird line of the display \nDefault: Td \nModbus Register \nValue \nDew point \nTd \n0 \nWet bulb temperature \nTw \n1 \nAbsolute humidity \nDv \n2"
+  },
+  {
+    "chunk_id": 73,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "7.4.5 \nConfiguring the third line of the display \nIt allows you to configure the information to be displayed on the third line of the display. \n1xM  \nlin3 \nThird line of the display \nDefault: Td \nModbus Register \nValue \nDew point \nTd \n0 \nWet bulb temperature \nTw \n1 \nAbsolute humidity \nDv \n2 \nFrost point \nTf \n3 \nSpecific enthalpy \nH \n4 \nPartial vapor pressure \ne \n5 \nMixture ratio \nr \n6 \nNone \noff \n7 \nTable 33 – \nThird line of the display \n \n \nCont = 5 \n \nangle = 40° \nCont = 4 \n \nangle = 20° \nCont = 3 \n \nangle = 0° \nCont = 2      angle = -20° \nCont = 1     angle = -40°"
+  },
+  {
+    "chunk_id": 74,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n25/55 \n7.5 \nDIAGNOSTIC CYCLE \nThe diagnostic cycle lets you evaluate the operation of RHT Climate Transmitter, making sure that all its peripherals are working properly. \n7.5.1 \nAnalog output FOu1 / FOu2 forcing \nIt allows you to force a current or voltage value at the analog output OUT1 / OUT2. If the output is configured as output at voltage 0-10 V, you can \nadjust the value between 0.00 V and 10.00 V. If the output is configured as an output at current 4-20 mA, you can adjust the value between 4.00 \nmA and 20.00 mA (to check the operating range for the output in current). Above 20.0 mA, you will be able to adjust the output to 21.0 mA, to \nsimulate the transmission failure signal. The same thing happens for the lower limit, which may shift to 3.6 mA.  \nThe figure below shows the normal transmission range limits and the transmission failure signal zones.  \n \nFigure 25 – \nNormal transmission range limits \n \n \n \nMin. \nMax. \nUnit \nDefault \ndiAG \nFOu1 \n \ndiAG \nFOu2"
+  },
+  {
+    "chunk_id": 75,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "The figure below shows the normal transmission range limits and the transmission failure signal zones.  \n \nFigure 25 – \nNormal transmission range limits \n \n \n \nMin. \nMax. \nUnit \nDefault \ndiAG \nFOu1 \n \ndiAG \nFOu2 \nForces voltage value at analog output 1. \n(If 0vt1 / 0vt2 modE = 0-10) \n0 \n10.00 \nV \n0 \nForces current value at analog output 1. \n(If 0vt1 / 0vt2 modE = 4-20) \n3.6 \n21.00 \nmA \n4 \nTable 34 – \nAnalog output FOu1 / FOu2 forcing \n7.5.2 \nTemperature reading forcing \nIt allows you to force a temperature value. This feature can be used to simulate temperature alarms or alarms for other variables due to change. \n \n \nSI \nUS \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \ndiAG \nFi t Forces the temperature reading value. \n-40 \n100 \n°C \n-40 \n-40 \n212 \n°F \n-40 \nTable 35 – \nTemperature reading forcing \n7.5.3 \nRelative humidity reading forcing"
+  },
+  {
+    "chunk_id": 76,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "SI \nUS \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \ndiAG \nFi t Forces the temperature reading value. \n-40 \n100 \n°C \n-40 \n-40 \n212 \n°F \n-40 \nTable 35 – \nTemperature reading forcing \n7.5.3 \nRelative humidity reading forcing \nIt allows you to force a relative humidity value. This feature can be used to simulate relative humidity alarms or alarms for other variables due to \nchange. If, for example, alarm output 1 is configured to activate whenever relative humidity is higher than 80% RH or lower than 40 % RH, you can \nevidence the ALM1 output operating as the forced value varies. \n \n \n \n \nMin. \nMax. \nUnit \nDefault \ndiAG \nFirk \nForces relative humidity reading value. \n0 \n100 \n% \n0 \nTable 36 – \nRelative humidity reading forcing \n7.5.4 \nAlarm ALM1 / alm2 output forcing \nIt allows you to force activation of alarm output ALM1 / alm2. \ndiAG \nFA1 \n/ \nDiag \nFa1 \nForces alarm output ALM1 / alm2 \nDefault: Off \nModbus Register \nValue \nForces alarm ALM1 / alm2 off output \nOff \n0"
+  },
+  {
+    "chunk_id": 77,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "% \n0 \nTable 36 – \nRelative humidity reading forcing \n7.5.4 \nAlarm ALM1 / alm2 output forcing \nIt allows you to force activation of alarm output ALM1 / alm2. \ndiAG \nFA1 \n/ \nDiag \nFa1 \nForces alarm output ALM1 / alm2 \nDefault: Off \nModbus Register \nValue \nForces alarm ALM1 / alm2 off output \nOff \n0 \nForces alarm ALM1 / alm2 on output \nOn \n1 \nTable 37 – \nForces alarm output ALM1 / alm2"
+  },
+  {
+    "chunk_id": 78,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n26/55 \n7.5.5 \nBuzzer forcing \nIt allows you to force buzzer activation. \ndiAG \nFb22 \nForces buzzer output \nDefault: Off \nModbus \nRegister Value \nForces buzzer off output \nOff \n0 \nForces buzzer on output \nOn \n1 \nTable 38 – \nBuzzer forcing \n7.6 \nCOMMUNICATION CYCLE \nIn the communication cycle, you will find configuration parameters for the RS485 Modbus serial port: Baud rate, parity, and address. \nTable 39 shows how to connect the connectors to the RS485 communication interface: \n \n \n \n \nInverted bidirectional data line. \n \n \n \n \nBidirectional data line. \n \nOptional connection which improves the communication performance. \n \nTable 39 – \nRS485 Connections \n7.6.1 \nBaud Rate \nThe RHT Transmitter can be access via a Modbus-RTU network. The baud rate, parity and device address on the network need to be configured \nfor this. The device responds to the read and write commands in its internal registers according to the specifications set out in this manual (see"
+  },
+  {
+    "chunk_id": 79,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Baud Rate \nThe RHT Transmitter can be access via a Modbus-RTU network. The baud rate, parity and device address on the network need to be configured \nfor this. The device responds to the read and write commands in its internal registers according to the specifications set out in this manual (see \nSERIAL COMMUNICATION chapter). \n[nfG \nBAud \nBaud Rate \n19.2 \nModbus Register \nValue \n1200 bps \n1.2 \n0 \n2400 bps \n2.4 \n1 \n4800 bps \n4.8 \n2 \n9600 bps \n9.6 \n3 \n19200 bps \n19.2 \n4 \n38400 bps \n38.4 \n5 \n57600 bps \n57.6 \n6 \n115200 bps \n115.2 \n7 \nTable 40 – \nBaud rate \n7.6.2 \nParity \nThis parameter configures the parity for RHT Climate Transmitter communication on a Modbus-RTU network. \n[nfG \nPrty \nParity \nDefault: nonE \nModbus Register \nValue \nWithout parity \nnonE \n0 \nEven Parity \nEVEn \n1 \nOdd Parity \nOdd \n2 \nTable 41 – \nParity \n7.6.3 \nAddress \nThis parameter configures the address for RHT Climate Transmitter communication on a Modbus-RTU network. This parameter should be adjusted"
+  },
+  {
+    "chunk_id": 80,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Prty \nParity \nDefault: nonE \nModbus Register \nValue \nWithout parity \nnonE \n0 \nEven Parity \nEVEn \n1 \nOdd Parity \nOdd \n2 \nTable 41 – \nParity \n7.6.3 \nAddress \nThis parameter configures the address for RHT Climate Transmitter communication on a Modbus-RTU network. This parameter should be adjusted \nso that no two devices use the same address within a Modbus-RTU network. \n \n \nMin. \nMax. \nUnit \nDefault \n[nfG \nAddr \nInternet address \n1 \n247 \n- \n1 \nTable 42 – \nAddress"
+  },
+  {
+    "chunk_id": 81,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n27/55 \n7.7 \nGENERAL CONFIGURATION CYCLE \nTo access the parameters in this cycle, you must enter with the device password. The parameters in this cycle allow for selecting units of measure, \nadjusting atmospheric pressure, as well as offsets and digital filters for the sensor readings. Also in this cycle, you can enable configuration \nparameter protection and change the password. \n7.7.1 \nUnit of Measure \nThe RHT Climate Transmitter can operate using the standard measurements in the International System of Measures (SI) or the English System of \nMeasures (US). The table below shows the measurement unit adopted for each psychrometric property according to the value configured in this \nparameter. \n[nfG \nUnit \nUnits of measure \nDefault: S1 \nModbus Register \nValue \nInternational System of Measures \nS1 \n0 \nEnglish System of Measures \nUS \n1 \n \n \n \n \n \nSI \nUS \nTemperature \n°C \n°F \nRelative humidity \n% RH \n% RH \nDew point temperature \n°C \n°F \nPartial vapor pressure \nmbar"
+  },
+  {
+    "chunk_id": 82,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "parameter. \n[nfG \nUnit \nUnits of measure \nDefault: S1 \nModbus Register \nValue \nInternational System of Measures \nS1 \n0 \nEnglish System of Measures \nUS \n1 \n \n \n \n \n \nSI \nUS \nTemperature \n°C \n°F \nRelative humidity \n% RH \n% RH \nDew point temperature \n°C \n°F \nPartial vapor pressure \nmbar \npsi \nWet bulb temperature \n°C \n°F \nAbsolute humidity \ng/m³ \ngr/ft³ \nMixture ratio \ng/kg \ngr/lb \nSpecific enthalpy \nkJ/kg \nBTU/lb \nFrost point temperature \n°C \n°F \nTable 43 – \nUnits of measure \n7.7.2 \nAtmospheric Pressure \nThe RHT Climate Transmitter uses the atmospheric pressure value to calculate some psychrometric properties. The default value used by this \ndevice is 1013 mbar (14.7 psi), but you can refine this information by inserting the value read by another reference instrument. Atmospheric \npressure may vary according to altitude, or due to conditions of the process itself. \n \nSI \nUS \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \n[nfG \nprEs"
+  },
+  {
+    "chunk_id": 83,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "pressure may vary according to altitude, or due to conditions of the process itself. \n \nSI \nUS \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \n[nfG \nprEs \nConfigures the atmospheric pressure value. This value is used \nfor the calculation of psychrometric properties. \n0 \n10000 \nmbar \n1013 \n0 \n145 \npsi \n14.7 \nTable 44 – \nAtmospheric pressure \n7.7.3 \nDigital temperature reading filter \nA digital filter can be inserted at the temperature value read by the sensor, to reduce undesirable variations. The higher the time value configured in \nthe digital filter, the slower the temperature reading response will be. \n \n \nMin. \nMax. \nUnit \nDefault \n[nfG \nFlT \nTemperature sensor reading filter \n0 \n300 \ns \n60 \nTable 45 – \nDigital temperature reading filter \n7.7.4 \nDigital relative humidity reading filter \nA digital filter can be inserted at the relative humidity value read by the sensor, to reduce undesirable variations. The higher the time value"
+  },
+  {
+    "chunk_id": 84,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "FlT \nTemperature sensor reading filter \n0 \n300 \ns \n60 \nTable 45 – \nDigital temperature reading filter \n7.7.4 \nDigital relative humidity reading filter \nA digital filter can be inserted at the relative humidity value read by the sensor, to reduce undesirable variations. The higher the time value \nconfigured in the digital filter, the slower the relative humidity reading response will be. \n \n \nMin. \nMax. \nUnit \nDefault \n[nfG \nFlrk \nHumidity sensor reading filter \n0 \n300 \ns  \n0 \nTable 46 – \nDigital relative humidity reading filter"
+  },
+  {
+    "chunk_id": 85,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n28/55 \n7.7.5 \nTemperature reading offset \nThis parameter allows for correcting offset displacement in the temperature reading. \n \nSI \nUS \nMin. \nMax. \nUnit \nDefault \nMin. \nMax. \nUnit \nDefault \n[nfG \n0Ft \nTemperature reading offset \n-5 \n5 \n°C \n0 \n-9 \n9 \n°F \n0 \nTable 47 – \nTemperature reading offset \n7.7.6 \nRelative humidity reading offset \nThis parameter allows for correcting offset displacement in the relative humidity reading. \n \n \nMin. \nMax. \nUnit \nDefault \n[nfG \n0frk \nHumidity reading offset \n-5 \n5 \n% \n0 \nTable 48 – \nRelative humidity reading offset \n7.7.7 \nPassword \nThe RHT Climate Transmitter can be protected with a password, which ensures greater protection for the parameters defined in the device. This \nfeature prevents unauthorized people from making changes to the transmitter’s operating mode. \nThe configured factory default password is \"1111\". To change the password, you must enter the master password, which is formed as follows:"
+  },
+  {
+    "chunk_id": 86,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "feature prevents unauthorized people from making changes to the transmitter’s operating mode. \nThe configured factory default password is \"1111\". To change the password, you must enter the master password, which is formed as follows: \nMaster password = 9 followed by the last three digits forming the serial number. \nAfter entering the master password, you can insert a new password. \n \n \nMin. \nMax. \nUnit \nDefault \n[nfG \nPAss \nPassword \n0 \n9999 \n- \n1111 \nTable 49 – \nPassword \n7.7.8 \nParameter Protection \nThis parameter allows for enabling and disabling the protection of other parameters. When parameter protection is enabled, the RHT Climate \nTransmitter will allow for viewing the parameters but will not allow any change to the configured values. The device leaves the factor with \nparameter protection disabled. \n[nfG \nProt \nParameter protection \nDefault: Dsbl \nParameter protection disabled \nDsbl \nParameter protection enabled \nEnbl \nTable 50 – \nParameter protection"
+  },
+  {
+    "chunk_id": 87,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "parameter protection disabled. \n[nfG \nProt \nParameter protection \nDefault: Dsbl \nParameter protection disabled \nDsbl \nParameter protection enabled \nEnbl \nTable 50 – \nParameter protection \nAfter configuring the transmitter, you can access this parameter and select the Enbl option to enable protection. As of this moment, the protection \nwill be enabled. \nTo disable protection, you should access the PAss parameter and enter the configured password. Next you should access the Prot parameter \nand select the dsbl option. As of this moment, the protection will be disabled. \nIf the protection is enabled and you attempt to alter any parameter, the transmitter will show the Prot message on the display instead of the \ndefined value."
+  },
+  {
+    "chunk_id": 88,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n29/55 \n7.8 \nINFORMATION CYCLE \nIn the information cycle, the RHT Climate Transmitter displays the serial number (Sn) and firmware version (firm) of the device. \n \n \n \nFigure 26 – \nSerial number and firmware version information"
+  },
+  {
+    "chunk_id": 89,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n30/55 \n8 \nPARAMETERS MAP \nPRIMARY CYCLE \n0VT1 \n0VT2 \nALM1 \nALM2 BV22 \n1XM DIAG \n(0 M (NFG \n \nTemperature \nRelative humidity \nSelected variable \nmEAs mEAs mEAs mEAs \nmEAs \nbcLt \nF0v1 BAvd PAss \nSn \nMaximum temperature \nMinimum temperature \nmodE \nmodE \nmodE \nmodE \nmodE \n(ont F0v2 Prty \nUnit \nFirm \nMaximum relative humidity \nMinimum relative humidity \nl-lo \nl-lo \nSpLo \nSpLo SpLo \nF1 \nF1t \nAddr \nPrEs \n \nMaximum dew point \nMinimum dew point \nl-xi \nl-xi \nSPki \nSPki \nSPki \nF2 \nF1rk \n \nFLt \n \nWet bulb temperature \nErr \nErr \nkyst \nkyst \nkyst \nScrn \nLin3 \nFAl1 \n \nFLrk \n \nAbsolute humidity \n \n \nT0n \nT0n \nT0n \n \nFAl2 \n \n0ft \n \nFrost point temp. \n \n \nT0ff \nT0ff \nT0ff \n \nFb22 \n \n0frk \n \nEnthalpy \n \n \nbLA \nbLA \nbLA \n \n \n \nPAss \n \nPartial vapor pressure \n \n \nErr \nErr \nErr \n \n \n \nprot \n \nMixture ratio \n \n \nBv22 Bv22 \n \n \n \n \n \n \nTable 51 – \nDevice parameters map"
+  },
+  {
+    "chunk_id": 90,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n31/55 \n9 \nCOMMUNICATION INTERFACES \n9.1 \nCONNECTING TO A COMPUTER \nThe USB interface is used to CONFIGURE or MONITOR the device.  \nTo CONFIGURE, you should use SigNow software or SigNow app, which offer features to create, view, save, and open configurations from the \ndevice or from files on your computer. The feature to save and open settings in files allows you to transfer settings between devices and create \nbackups.  \nYou can update the firmware (internal software) of the RHT Climate Transmitter via the USB interface. \nTo MONITOR, you can use any supervisory (SCADA) or laboratory software that supports Modbus RTU communication over a serial \ncommunication port. When connected to the USB interface of a computer, the RHT Climate Transmitter will be recognized as a conventional serial \nport (COM x).  \nYou should use SigNow software or consult the Device Manager in the Windows Control Panel to identify the COM port assigned to the device. To"
+  },
+  {
+    "chunk_id": 91,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "port (COM x).  \nYou should use SigNow software or consult the Device Manager in the Windows Control Panel to identify the COM port assigned to the device. To \nMONITOR, refer to the Modbus memory mapping in the device communication manual and the supervisory software documentation. \nTo use the USB communication, follow the steps below: \n• \nDownload SigNow software (see SIGNOW SOFTWARE section) from our website.  \n• \nInstall the software on the computer to be used. The USB drivers required for the operation of the communication will be installed along with \nthe software. \n• \nConnect the USB cable between the device and the computer. The device does not need to be powered. The USB interface will provide \nenough power for communication operation (other device functions may not operate). \n• \nRun the software, configure the communication, and start the device recognition.  \n \n \n \nThe USB interface IS NOT ISOLATED from the relay outputs and alarm outputs. Its purpose is temporary use during"
+  },
+  {
+    "chunk_id": 92,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "enough power for communication operation (other device functions may not operate). \n• \nRun the software, configure the communication, and start the device recognition.  \n \n \n \nThe USB interface IS NOT ISOLATED from the relay outputs and alarm outputs. Its purpose is temporary use during \nCONFIGURATION and MONITORING periods. For the safety of people and devices, it should only be used when the device \nis fully disconnected from the external power input.  \nIn any other situation it is possible to use the USB interface, but it requires careful consideration by the people performing \nthe installation.  \nFor MONITORING over long periods and with the inputs and outputs connected, it is recommended to use the RS485 \ninterface, available or optional in most of our devices. \n9.2 \nCONNECTING TO ANDROID SMARTPHONE \n9.2.1 \nCONNECTION VIA OTG CABLE \nSmartphones Android with On the Go (OTG) technology can be directly connected to the device via the USB input. By connecting the OTG cable to"
+  },
+  {
+    "chunk_id": 93,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "interface, available or optional in most of our devices. \n9.2 \nCONNECTING TO ANDROID SMARTPHONE \n9.2.1 \nCONNECTION VIA OTG CABLE \nSmartphones Android with On the Go (OTG) technology can be directly connected to the device via the USB input. By connecting the OTG cable to \nthe smartphone, you can recognize and configure your RHT Climate Transmitter by running SigNow app. \nTo use the USB communication, follow the steps below: \n• \nDownload SigNow app from the Google Play Store.  \n• \nInstall the app on the smartphone to be used.  \n• \nConnect the USB cable between the device and the computer. The device does not need to be powered. The USB interface will provide \nenough power for communication operation (other device functions may not operate). \n• \nRun the software, configure the communication, and start the device recognition (see CONNECTING TO THE APP VIA OTG CABLE).  \n \nIf you position the cable end incorrectly, it is possible that the device will not be recognized by the application."
+  },
+  {
+    "chunk_id": 94,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "• \nRun the software, configure the communication, and start the device recognition (see CONNECTING TO THE APP VIA OTG CABLE).  \n \nIf you position the cable end incorrectly, it is possible that the device will not be recognized by the application. \n9.2.2 \nCONNECTION VIA MODBUS-TCP PROTOCOL \nAndroid smartphones can also connect to the device via Modbus-TCP protocol (using a Modbus-TCP/Modbus-RTU Gateway). To do this, follow \nthe steps below:  \n• \nDownload SigNow app from the Google Play Store.  \n• \nWait for the installation process to complete.  \n• \nRun the software, configure the Modbus-TCP communication, and start the device recognition (see CONNECTING TO THE APP VIA \nMODBUS-TCP PROTOCOL)."
+  },
+  {
+    "chunk_id": 95,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n32/55 \n9.3 CONNECTING TO iOS SMARTPHONE \niOS smartphones can connect to the device via Modbus-TCP protocol (using a Modbus-TCP/Modbus-RTU Gateway). To do this, follow the steps \nbelow:  \n• \nDownload SigNow app from the App Store.  \n• \nWait for the installation process to complete.  \n• \nRun the software, configure the Modbus-TCP communication, and start the device recognition (see CONNECTING TO THE APP VIA \nMODBUS-TCP PROTOCOL). \n \niOS smartphones are not compatible with the OTG cable."
+  },
+  {
+    "chunk_id": 96,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n33/55 \n10 \nSERIAL COMMUNICATION \nRHT Climate Transmitter can be recognized on a RS485 network with Modbus RTU protocol as a slave device. All the controller configurable \nparameters can be read and/or written via serial communication. Writing to Registers in Broadcast mode is also allowed, using address 0. \nThe available Modbus commands are as follows: \n03 – Read Holding Register \n05 – Write Single Coil \n06 – Write Single Register \n16 – Write Multiple Registers \n10.1 HOLDING REGISTER TABLE \n \n \n \n \nSI \nUS \nPRIMARY CYCLE INDICATION REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n0 \nRelative humidity value \nRO \n32 bits \n0 \n10000 \n- \n0 \n10000 \n- \n1 \n2 \nDry bulb temperature value \nRO \n32 bits \n-4000 \n10000 \n- \n-4000 \n21200 \n- \n3 \n4 \nWet bulb temperature value \nRO \n32 bits \n-4000 \n10000 \n- \n-4000 \n21200 \n- \n5 \n6 \nDew point value \nRO \n32 bits \n-9000 \n10000 \n- \n-13000 \n21200 \n- \n7 \n8 \nFrost point value \nRO \n32 bits \n-9000"
+  },
+  {
+    "chunk_id": 97,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "- \n0 \n10000 \n- \n1 \n2 \nDry bulb temperature value \nRO \n32 bits \n-4000 \n10000 \n- \n-4000 \n21200 \n- \n3 \n4 \nWet bulb temperature value \nRO \n32 bits \n-4000 \n10000 \n- \n-4000 \n21200 \n- \n5 \n6 \nDew point value \nRO \n32 bits \n-9000 \n10000 \n- \n-13000 \n21200 \n- \n7 \n8 \nFrost point value \nRO \n32 bits \n-9000 \n10000 \n- \n-13000 \n21200 \n- \n9 \n10 \nSpecific enthalpy value \nRO \n32 bits \n-4000 \n70000000* \n- \n-1800 \n30094500* \n- \n11 \n12 \nAbsolute humidity value \nRO \n32 bits \n0 \n60000 \n- \n0 \n26200 \n- \n13 \n14 \nPartial vapor pressure value \nRO \n32 bits \n0 \n103500 \n- \n0 \n1500 \n- \n15 \n16 \nMixture ratio value \nRO \n32 bits \n0 \n26000000* \n- \n0 \n182000000* \n- \n17 \n18 \nMinimum humidity value \nRO \n32 bits \n0 \n1000 \n- \n0 \n1000 \n- \n19 \n20 \nMaximum humidity value \nRO \n32 bits \n0 \n1000 \n- \n0 \n1000 \n- \n21 \n22 \nMinimum temperature value \nRO \n32 bits \n-4000 \n1000 \n- \n-4000 \n2120 \n- \n23 \n24 \nMaximum temperature value \nRO \n32 bits \n-4000 \n1000 \n- \n-4000 \n2120 \n- \n25 \n26 \nMinimum dew point value \nRO \n32 bits \n-9000 \n1000 \n-"
+  },
+  {
+    "chunk_id": 98,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "1000 \n- \n19 \n20 \nMaximum humidity value \nRO \n32 bits \n0 \n1000 \n- \n0 \n1000 \n- \n21 \n22 \nMinimum temperature value \nRO \n32 bits \n-4000 \n1000 \n- \n-4000 \n2120 \n- \n23 \n24 \nMaximum temperature value \nRO \n32 bits \n-4000 \n1000 \n- \n-4000 \n2120 \n- \n25 \n26 \nMinimum dew point value \nRO \n32 bits \n-9000 \n1000 \n- \n-13000 \n2120 \n- \n27 \n28 \nMaximum dew point value \nRO \n32 bits \n-9000 \n1000 \n- \n-13000 \n2120 \n- \n29 \nTable 52 – \nPrimary cycle indication registers"
+  },
+  {
+    "chunk_id": 99,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n34/55 \nANALOG OUTPUT OUT1 TRANSMISSION REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n101 \nTransmission output type \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n102 \nVariable that will be transmitted \nRW \n16 bits \n0 \n9 \n0 \n0 \n9 \n0 \n103 \nUpper retransmission limit input \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 102. \n104 \n105 \nLower retransmission limit input \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 102. \n106 \n107 \nValue in case of error \nRW \n16 bits \n0 \n1 \n1 \n0 \n1 \n1 \n108 \nUpper retransmission limit \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 102. \n109 \n110 \nLower retransmission limit \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 102. \n111 \nTable 53 – \nAnalog Output OUT1 Transmission Registers"
+  },
+  {
+    "chunk_id": 100,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "RO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 102. \n109 \n110 \nLower retransmission limit \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 102. \n111 \nTable 53 – \nAnalog Output OUT1 Transmission Registers \n \nANALOG OUTPUT OUT2 TRANSMISSION REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n113 \nRetransmission output type \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n114 \nVariable that will be transmitted \nRW \n16 bits \n0 \n9 \n0 \n0 \n9 \n0 \n115 \nUpper retransmission limit input \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured \n at address 114. \n116 \n117 \nLower retransmission limit input \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 114. \n118 \n119 \nValue in case of error \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n120 \nUpper retransmission limit \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric"
+  },
+  {
+    "chunk_id": 101,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "116 \n117 \nLower retransmission limit input \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 114. \n118 \n119 \nValue in case of error \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n120 \nUpper retransmission limit \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured \n at address 114. \n121 \n122 \nLower retransmission limit \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured \n at address 114. \n123 \nTable 54 – \nAnalog Output OUT2 Transmission Registers \n \nFILTER AND UNIT SYSTEM REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n125 \nFilter for humidity reading \nRW \n16 bits \n0 \n300 \n60 \n0 \n300 \n60 \n126 \nFilter for temperature reading \nRW \n16 bits \n0 \n300 \n60 \n0 \n300 \n60 \n127 \nConfiguring units \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \nTable 55 – \nFilter and Unit System Registers \n \nALARM ALM1 OUTPUT REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault"
+  },
+  {
+    "chunk_id": 102,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "0 \n300 \n60 \n0 \n300 \n60 \n126 \nFilter for temperature reading \nRW \n16 bits \n0 \n300 \n60 \n0 \n300 \n60 \n127 \nConfiguring units \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \nTable 55 – \nFilter and Unit System Registers \n \nALARM ALM1 OUTPUT REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n133 \nVariable that will set off alarm \nRW \n16 bits \n1 \n9 \n1 \n1 \n9 \n1 \n134 \nType of alarm \nRW \n16 bits \n0 \n5 \n0 \n0 \n5 \n0 \n135 \nHigh Setpoint input for alarm \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured \n at address 133. \n136 \n137 \nLow Setpoint input for alarm \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 133. \n138 \n139 \nAlarm blocking \nRW \n16 bits \n0 \n1 \n1 \n0 \n1 \n1"
+  },
+  {
+    "chunk_id": 103,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n35/55 \nALARM ALM1 OUTPUT REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n140 \nAlarm hysteresis \nRW \n16 bits \n0 \n200 \n0 \n0 \n200 \n0 \n141 \nAlarm ON time \nRW \n16 bits \n0 \n6500 \n0 \n0 \n6500 \n0 \n142 \nAlarm OFF time \nRW \n16 bits \n0 \n6500 \n0 \n0 \n6500 \n0 \n143 \nDetermines the alarm status in case of \nsensor error \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n144 \nDetermines buzzer activation \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n145 \nSetpoint High Alarm \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 133. \n146 \n147 \nSetpoint Low Alarm \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 133. \n148 \nTable 56 – \nAlarm ALM1 Output Registers \n \nALARM ALM2 OUTPUT REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n150 \nVariable that will set off alarm \nRW \n16 bits \n1 \n9 \n1 \n1 \n9 \n1 \n151 \nType of alarm \nRW \n16 bits \n0 \n5 \n0 \n0"
+  },
+  {
+    "chunk_id": 104,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "at address 133. \n148 \nTable 56 – \nAlarm ALM1 Output Registers \n \nALARM ALM2 OUTPUT REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n150 \nVariable that will set off alarm \nRW \n16 bits \n1 \n9 \n1 \n1 \n9 \n1 \n151 \nType of alarm \nRW \n16 bits \n0 \n5 \n0 \n0 \n5 \n0 \n152 \nAlarm Setpoint High Input \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 150. \n153 \n154 \nAlarm Setpoint Low Input \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 150. \n155 \n156 \nAlarm blocking \nRW \n16 bits \n0 \n1 \n1 \n0 \n1 \n1 \n157 \nAlarm hysteresis \nRW \n16 bits \n0 \n200 \n0 \n0 \n200 \n0 \n158 \nAlarm ON time \nRW \n16 bits \n0 \n6500 \n0 \n0 \n6500 \n0 \n159 \nAlarm OFF time \nRW \n16 bits \n0 \n6500 \n0 \n0 \n6500 \n0 \n160 \nDetermines the alarm status in case of \nsensor error \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n161 \nDetermines buzzer activation \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n162 \nAlarm Setpoint High \nRO \n32 bits \nThe"
+  },
+  {
+    "chunk_id": 105,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "RW \n16 bits \n0 \n6500 \n0 \n0 \n6500 \n0 \n159 \nAlarm OFF time \nRW \n16 bits \n0 \n6500 \n0 \n0 \n6500 \n0 \n160 \nDetermines the alarm status in case of \nsensor error \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n161 \nDetermines buzzer activation \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n162 \nAlarm Setpoint High \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 150. \n163 \n164 \nAlarm Setpoint Low \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 150. \n165 \nTable 57 – \nAlarm ALM2 Output Registers \n \nALARM ALM3 OUTPUT REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n167 \nVariable that will set off alarm \nRW \n16 bits \n1 \n9 \n1 \n1 \n9 \n1 \n168 \nType of alarm \nRW \n16 bits \n0 \n5 \n0 \n0 \n5 \n0 \n169 \nAlarm Setpoint High Input \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 167. \n170 \n171 \nAlarm Setpoint Low Input \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe"
+  },
+  {
+    "chunk_id": 106,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "RW \n16 bits \n1 \n9 \n1 \n1 \n9 \n1 \n168 \nType of alarm \nRW \n16 bits \n0 \n5 \n0 \n0 \n5 \n0 \n169 \nAlarm Setpoint High Input \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured  \nat address 167. \n170 \n171 \nAlarm Setpoint Low Input \nRW \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured \n at address 167. \n172 \n173 \nAlarm blocking \nRW \n16 bits \n0 \n1 \n1 \n0 \n1 \n1 \n174 \nAlarm hysteresis \nRW \n16 bits \n0 \n200 \n0 \n0 \n200 \n0 \n175 \nAlarm ON time \nRW \n16 bits \n0 \n6500 \n0 \n0 \n6500 \n0 \n176 \nAlarm OFF time \nRW \n16 bits \n0 \n6500 \n0 \n0 \n6500 \n0 \n177 \nAlarm status in case of sensor error \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0"
+  },
+  {
+    "chunk_id": 107,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n36/55 \nALARM ALM3 OUTPUT REGISTERS \nAddress \nAddress \nAddress \nAddress \nAddress \nAddress \nAddress \nAddress \nAddress \nAddress \n178 \nDetermines buzzer activation \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n179 \nAlarm Setpoint High \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured \n at address 167. \n180 \n181 \nAlarm Setpoint Low \nRO \n32 bits \nThe \nlimits \ndepend \non \nthe \npsychrometric \nproperty \nconfigured \n at address 167. \n182 \nTable 58 – \nAlarm ALM3 Output Registers \n \nRS485 MODBUS COMMUNICATION PORT CONFIGURATION REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n184 \nBaud rate \nRW \n16 bits \n0 \n7 \n4 \n0 \n7 \n4 \n185 \nParity \nRW \n16 bits \n0 \n2 \n0 \n0 \n2 \n0 \n186 \nSlave address \nRW \n16 bits \n1 \n247 \n1 \n1 \n247 \n1 \n187 \nDefines the variable of the third line of \nthe HMI \nRW \n16 bits \n0 \n7 \n0 \n0 \n7 \n0 \nTable 59 – \nRS485 Modbus Communication Port Configuration Registers \n \nOFFSET REGISTERS \nAddress \nDescription"
+  },
+  {
+    "chunk_id": 108,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "185 \nParity \nRW \n16 bits \n0 \n2 \n0 \n0 \n2 \n0 \n186 \nSlave address \nRW \n16 bits \n1 \n247 \n1 \n1 \n247 \n1 \n187 \nDefines the variable of the third line of \nthe HMI \nRW \n16 bits \n0 \n7 \n0 \n0 \n7 \n0 \nTable 59 – \nRS485 Modbus Communication Port Configuration Registers \n \nOFFSET REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n192 \nTemperature Offset \nRW \n16 bits \n-50 \n50 \n0 \n-90 \n90 \n0 \n193 \nHumidity Offset \nRW \n16 bits \n-50 \n50 \n0 \n-50 \n50 \n0 \n200 \nPressure value used for calculations \nRW \n16 bits \n0 \n10000 \n1013 \n0 \n10000 \n147 \nTable 60 – \nOffset Registers \n \nFORCING REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n201 \nEnables output 1 forcing \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n202 \nForced value for output 1 \nRW \n16 bits \nLimits depend on the analog output 1 configuration. \n203 \nEnables output 2 forcing \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n204 \nForced value for output 2 \nRW \n16 bits"
+  },
+  {
+    "chunk_id": 109,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Default \nMin. \nMax. \nDefault \n201 \nEnables output 1 forcing \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n202 \nForced value for output 1 \nRW \n16 bits \nLimits depend on the analog output 1 configuration. \n203 \nEnables output 2 forcing \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n204 \nForced value for output 2 \nRW \n16 bits \nLimits depend on the analog output 2 configuration. \n205 \nEnables forcing of alarm 1 \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n206 \nChanges alarm status \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n207 \nEnables forcing of alarm 2 \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n208 \nChanges alarm status \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n209 \nTurning backlight on \nRW \n16 bits \n0 \n2 \n1 \n0 \n2 \n1 \n211 \nEnables buzzing forcing \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n212 \nBuzzer activation \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n213 \nEnables humidity forcing \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n214 \nForced humidity value \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n215 \nEnables temperature forcing \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n216 \nForced temperature value \nRW"
+  },
+  {
+    "chunk_id": 110,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "0 \n1 \n0 \n0 \n1 \n0 \n212 \nBuzzer activation \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n213 \nEnables humidity forcing \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n214 \nForced humidity value \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n215 \nEnables temperature forcing \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n216 \nForced temperature value \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \nTable 61 – \nForcing Registers"
+  },
+  {
+    "chunk_id": 111,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n37/55 \nMINIMUM AND MAXIMUM PSYCHROMETRIC PROPERTIES AND SECOND KEY FUNCTION RESET REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n217 \nReset of all min. and max. values \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n221 \nSecond function of key \n \nRW \n16 bits \n0 \n2 \n0 \n0 \n2 \n0 \n222 \nSecond function of key \n \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \nTable 62 – \nMinimum and Maximum Psychrometric Properties and Second Key Function Reset Registers \n \nDEVICE TAG REGISTERS \nAddress \nDescription \nR/W \nVariable \nType \nMin. \n \n224 \nDevice name string \nRW \n16 bits \nASCII \nCHARACTER 2 \nCHARACTER 1 \n225 \nRW \n16 bits \nASCII \nCHARACTER 4 \nCHARACTER 3 \n226 \nRW \n16 bits \nASCII \nCHARACTER 6 \nCHARACTER 5 \n227 \nRW \n16 bits \nASCII \nCHARACTER 8 \nCHARACTER 7 \n228 \nRW \n16 bits \nASCII \nCHARACTER 10 \nCHARACTER 9 \n229 \nRW \n16 bits \nASCII \nCHARACTER 12 \nCHARACTER 11 \n230 \nRW \n16 bits \nASCII \nCHARACTER 14 \nCHARACTER 13 \n231 \nRW \n16 bits \nASCII \nCHARACTER 16 \nCHARACTER 15"
+  },
+  {
+    "chunk_id": 112,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "ASCII \nCHARACTER 6 \nCHARACTER 5 \n227 \nRW \n16 bits \nASCII \nCHARACTER 8 \nCHARACTER 7 \n228 \nRW \n16 bits \nASCII \nCHARACTER 10 \nCHARACTER 9 \n229 \nRW \n16 bits \nASCII \nCHARACTER 12 \nCHARACTER 11 \n230 \nRW \n16 bits \nASCII \nCHARACTER 14 \nCHARACTER 13 \n231 \nRW \n16 bits \nASCII \nCHARACTER 16 \nCHARACTER 15 \n232 \nRW \n16 bits \nASCII \nCHARACTER 18 \nCHARACTER 17 \n233 \nRW \n16 bits \nASCII \nCHARACTER 20 \nCHARACTER 19 \nTable 63 – \nDevice Tag Registers \n \nSENSOR LINEARIZATION REGISTERS \nAddress \nDescription \nR/W \nVariable Type \nMin. \nMax. \nDefault \nMin. \nMax. \nDefault \n234 \nEnables temperature linearization \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n235 \nReal temperature value 1 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n236 \nTarget temperature value 1 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n237 \nReal temperature value 2 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n238 \nTarget temperature value 2 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n239 \nReal temperature value 3 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0"
+  },
+  {
+    "chunk_id": 113,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "236 \nTarget temperature value 1 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n237 \nReal temperature value 2 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n238 \nTarget temperature value 2 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n239 \nReal temperature value 3 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n240 \nTarget temperature value 3 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n241 \nReal temperature value 4 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n242 \nTarget temperature value 4 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n243 \nReal temperature value 5 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n244 \nTarget temperature value 5 \nRW \n16 bits \n-400 \n1000 \n0 \n-400 \n2120 \n0 \n245 \nEnables humidity linearization \nRW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n246 \nReal humidity value 1 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n247 \nTarget humidity value 1 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n248 \nReal humidity value 2 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n249 \nTarget humidity value 2 \nRW \n16 bits \n0 \n1000 \n0 \n0"
+  },
+  {
+    "chunk_id": 114,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "RW \n16 bits \n0 \n1 \n0 \n0 \n1 \n0 \n246 \nReal humidity value 1 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n247 \nTarget humidity value 1 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n248 \nReal humidity value 2 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n249 \nTarget humidity value 2 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n250 \nReal humidity value 3 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n251 \nTarget humidity value 3 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n252 \nReal humidity value 4 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n253 \nTarget humidity value 4 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n254 \nReal humidity value 5 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \n255 \nTarget humidity value 5 \nRW \n16 bits \n0 \n1000 \n0 \n0 \n1000 \n0 \nTable 64 – \nSensor Linearization Registers"
+  },
+  {
+    "chunk_id": 115,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n38/55 \nDEVICE INFORMATION REGISTERS \nAddress \nDescription \nR/W \nVariable Type \n300 \nHigh serial number \nRO \n16 bits \n301 \nLow serial number \nRO \n16 bits \n302 \nFirmware version \nRO \n16 bits \n303 \nRelease version \nRO \n16 bits \n304 \nID \nRO \n16 bits \n305 \nInforms the device model \nRO \n16 bits \nTable 65 – \nDevice Information Registers \n \nDIAGNOSTIC REGISTERS \nAddress \nbit \nDescription \n341 \n \n0 \n- \n1 \nAnalog output 1 in overload. \n2 \nAnalog output 2 in overload. \n3 \nAlarm 1 output status. \n4 \nAlarm 2 output status. \n5 \nAlarm 1 condition status. \n6 \nAlarm 2 condition status. \n7 \nBuzzer status in alarm 1. \n8 \nBuzzer status in alarm 2. \n9 \nBuzzer status. \n10 \nAlarm 1 forcing status.  \n11 \nAlarm 2 forcing status. \n12 \nAnalog output 1 forcing status. \n13 \nAnalog output 2 forcing status. \n342 \n0 \nSensor error. \n1 \nError in water vapor saturation pressure. \n2 \nError in water vapor pressure. \n3 \nError at dew point. \n4 \nError in absolute humidity. \n5 \nError in mixture ratio. \n6"
+  },
+  {
+    "chunk_id": 116,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "11 \nAlarm 2 forcing status. \n12 \nAnalog output 1 forcing status. \n13 \nAnalog output 2 forcing status. \n342 \n0 \nSensor error. \n1 \nError in water vapor saturation pressure. \n2 \nError in water vapor pressure. \n3 \nError at dew point. \n4 \nError in absolute humidity. \n5 \nError in mixture ratio. \n6 \n- \n7 \n- \n8 \nError in wet bulb temperature. \n9 \nError in specific enthalpy. \n10 \n- \n11 \nError in frost point. \n343 \n1 \nInput values for retransmission limits of output 1 out of range. \n2 \nInput values for retransmission limits of output 2 out of range. \n3 \nInput values for alarm 1 setpoints out of range. \n4 \nInput values for alarm 2 setpoints out of range. \n5 \nInput values for alarm 3 setpoints out of range. \nTable 66 – \nDiagnostic Registers \nThe registers 103 to 106, 115 to 118, 135 to 138, 152 to 155 and 169 to 172 shall be used to enter the values of their respective parameters. If they"
+  },
+  {
+    "chunk_id": 117,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "4 \nInput values for alarm 2 setpoints out of range. \n5 \nInput values for alarm 3 setpoints out of range. \nTable 66 – \nDiagnostic Registers \nThe registers 103 to 106, 115 to 118, 135 to 138, 152 to 155 and 169 to 172 shall be used to enter the values of their respective parameters. If they \nare within limits, the device will automatically pass these values to registers 108 to 111, 120 to 123, 145 to 148, 162 to 165 and 179 to 182, which \nshow the values considered during the operation. If the limits were extrapolated, this condition will be signaled in the diagnostic register 343.  \nFor 32-bit data, the two registers that compose them must be read and/or written for the values to be updated."
+  },
+  {
+    "chunk_id": 118,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n39/55 \nThe values of the 32-bit registers are available in little-endian with byte swap format, i.e., the first 16-bit register corresponds to the least significant \npart and the second one corresponds to the most significant part. All 16-bit registers are available as big-endian."
+  },
+  {
+    "chunk_id": 119,
+    "page": 39,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n40/55 \n11 \nSIGNOW SOFTWARE AND APP \n11.1 SIGNOW SOFTWARE \nSigNow software is the main tool for configuring, downloading, and analyzing data from the RHT Climate Transmitter. It allows you to use all the \nfeatures of the device, communicating through the USB interface. \nTo install SigNow, just download and run the SigNowSetup.exe file, available on our website. \nThis manual describes the generic functionalities of the software. For detailed instructions on setting up other devices and operating certain tools, \nyou should check the specific operation manual. The software and its respective manual can be downloaded for free in the Download Area of our \nwebsite www.novusautomation.com. \n11.2 SIGNOW APP \nSigNow app is the ideal tool for the daily use of the RHT Climate Transmitter. With our app, you can easily monitor or download data from your \nsmartphone. It is compatible with both Android and iOS devices, making it accessible to everyone."
+  },
+  {
+    "chunk_id": 120,
+    "page": 39,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "website www.novusautomation.com. \n11.2 SIGNOW APP \nSigNow app is the ideal tool for the daily use of the RHT Climate Transmitter. With our app, you can easily monitor or download data from your \nsmartphone. It is compatible with both Android and iOS devices, making it accessible to everyone. \nSigNow app can be downloaded for free from Google Play Store or App Store. \nTo configure the device through the Android app, you must connect it to the smartphone via an OTG cable (see CONNECTION VIA AN OTG \nCABLE section). \nTo configure the device through the iOS app, you must connect it to the smartphone via a Modbus-TCP connection (see CONNECTING TO iOS \nSMARTPHONE section). iOS smartphones are not compatible with OTG technology. \n \nTo communicate via Modbus-TCP protocol, it is necessary to use a Modbus-TCP/Modbus-RTU Gateway. \n11.3 STARTING SIGNOW \nWhen running SigNow, the following screens will appear: \n \n \nFigure 27 – \nSigNow main screen"
+  },
+  {
+    "chunk_id": 121,
+    "page": 39,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "SMARTPHONE section). iOS smartphones are not compatible with OTG technology. \n \nTo communicate via Modbus-TCP protocol, it is necessary to use a Modbus-TCP/Modbus-RTU Gateway. \n11.3 STARTING SIGNOW \nWhen running SigNow, the following screens will appear: \n \n \nFigure 27 – \nSigNow main screen \nTo communicate with the software, RHT Climate Transmitter must be connected to the computer and have the USB drivers previously installed (see \nCONNECTING TO A COMPUTER section). To communicate with the app, you must connect the device to the smartphone via an OTG cable (see \nCONNECTING TO A SMARTPHONE section). \nNext you can click either Configuration or Diagnostics.  \nThe Create Configuration option allows you to create a configuration. The device does not need to be connected. This configuration can be saved \nto a file for future use or be written to a connected device. The Open Configuration option, on the other hand, allows you to read an already \ncreated configuration file."
+  },
+  {
+    "chunk_id": 122,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n41/55 \n11.4 CONNECTING TO THE SOFTWARE \nOnce the software is running, it is possible to read a device. To do this, you must click Configuration, select the USB option, and then the \nconnected device: \n \nFigure 28 – \nSelecting a device \nWhen you click on the RHT Climate Transmitter icon, the software will read the current device configuration and present all available features, as \nshown in the figure below: \n \nFigure 29 – \nDevice configuration screen \nThe configuration screen is divided into 12 sections: General, Communication, Temperature, Humidity, Output 1, Output 2, Alarm 1, Alarm 2, \nAlarm 3 (Buzzer), HMI, Diagram, and Firmware Update. You can access these sections via the side menu. The General screen is the first screen \nto appear. \nThe bottom part of the screen displays information about the model, serial number, and firmware version, non-editable fields that are read by the \nsoftware directly from the device. In addition, it displays the buttons"
+  },
+  {
+    "chunk_id": 123,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "to appear. \nThe bottom part of the screen displays information about the model, serial number, and firmware version, non-editable fields that are read by the \nsoftware directly from the device. In addition, it displays the buttons \n, Send Batch, Save, and Send. \nThe \n button compiles the following options: \n1) Manual: Allows you to access the online manual for the device.  \n2) Support: Allows you to access the Technical Support page.  \n3) Event Log: Allows you to access a window that displays information about the settings made so far. \n4) Report: Allows you to create a report with a .pdf extension, displaying all settings of the device."
+  },
+  {
+    "chunk_id": 124,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n42/55 \n11.5 CONNECTING TO THE APP VIA OTG CABLE \nWhen using the SigNow app on an Android smartphone with an OTG cable (see CONNECTION VIA OTG CABLE), the device will be automatically \nrecognized by the smartphone, as shown in the figure below: \n \nFigure 30 – \nRecognized device \nClicking the Configuration button on the home screen will take you directly to the device information screen: \n \nFigure 31 – \nInformation screen \nThis screen, which can be accessed at any time by clicking the Info button, displays information about the product model and serial number, non-\neditable fields that are read by the app directly from the device. In addition, it displays the buttons\n, Home, Basic, and Advanced. \nThe \n button compiles the following options: \n1) Manual: Allows you to access the online manual for the device.  \n2) Support: Allows you to access the Technical Support page.  \n3) Save: Allows you to save the settings made so far."
+  },
+  {
+    "chunk_id": 125,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": ", Home, Basic, and Advanced. \nThe \n button compiles the following options: \n1) Manual: Allows you to access the online manual for the device.  \n2) Support: Allows you to access the Technical Support page.  \n3) Save: Allows you to save the settings made so far. \n4) Send: Allows you to send the settings to the device."
+  },
+  {
+    "chunk_id": 126,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n43/55 \n11.6 CONNECTING TO THE APP VIA MODBUS-TCP PROTOCOL \nTo establish a communication via Modbus-TCP protocol (either via an Android smartphone or an iOS smartphone), click on the Configure button \non the main screen and then on TCP/IP: \n \n \n \nFigure 32 – \nEstablishing a TCP/IP connection \nTo establish a Modbus-TCP connection, however, a Modbus-TCP/Modbus-RTU Gateway is required, which will act as an intermediary between the \nsmartphone and the device. Once the connection has been established, the device will display the information screen: \n \nFigure 33 – \nInformation screen \nThis screen, which can be accessed at any time by clicking the Info button, displays information about the product model and serial number, non-\neditable fields that are read by the app directly from the device. In addition, it displays the buttons\n, Home, Basic, and Advanced. \nThe \n button compiles the following options: \n1) Manual: Allows you to access the online manual for the device."
+  },
+  {
+    "chunk_id": 127,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "editable fields that are read by the app directly from the device. In addition, it displays the buttons\n, Home, Basic, and Advanced. \nThe \n button compiles the following options: \n1) Manual: Allows you to access the online manual for the device.  \n2) Support: Allows you to access the Technical Support page.  \n3) Save: Allows you to save the settings made so far. \n4) Send: Allows you to send the settings to the device. \nFor more information on the TCP/IP connection mode of the application, refer to the SigNow manual, available on the product page on NOVUS \nwebsite."
+  },
+  {
+    "chunk_id": 128,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n44/55 \n11.7 CONFIGURING THE DEVICE \nThe connection mode is slightly different between software and app, but the configuration and distribution of information and parameters is the \nsame between both. \n11.7.1 GENERAL / BASIC \nThis screen allows you to view general device information. The name of the screen changes between software (called General) and app (called \nBasic):  \n \n \nFigure 34 – \nGeneral Screen \nIn the Device Tag field, you can assign a name to the device to be configured. This helps make the device easily identifiable within a network with \nmultiple devices. \nIn the System of Units field, you can select the International System of Units (SI) or the American System of Units (US) (see GENERAL \nCONFIGURATION CYCLE section). \nIn the Sensor environment pressure, RHT Climate Transmitter allows you to set the atmospheric pressure. The device leaves the factory"
+  },
+  {
+    "chunk_id": 129,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "CONFIGURATION CYCLE section). \nIn the Sensor environment pressure, RHT Climate Transmitter allows you to set the atmospheric pressure. The device leaves the factory \nconfigured with a pressure value equivalent to atmospheric pressure at sea level. The values of the psychrometric properties calculated by the RHT \nClimate Transmitter can change depending on the pressure. In high altitude locations or in pressurized environments, you must adjust the value of \nthis parameter. This way, RHT Climate Transmitter can use it in its compensation algorithms. \n11.7.2 COMMUNICATION \nThis screen allows you to configure the communication parameters of the device:  \n \n \nFigure 35 – \nCommunication screen"
+  },
+  {
+    "chunk_id": 130,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n45/55 \nFor the RHT Climate Transmitter to be recognized as a slave device in an RS485 Modbus network, you need to set a unique Modbus Address on \nthe network, as well as the Baud Rate and Parity. \n11.7.3 TEMPERATURE \nThis screen allows you to configure the parameters for the temperature sensor:  \n \n \nFigure 36 – \nTemperature screen \nTo read the temperature, the device provides Offset and Filter settings. With these features you can make small corrections to the sensor readings \nand slow down the response speed of the sensor. \nFor greater sensor accuracy, RHT Climate Transmitter has a Custom Calibration function that allows you to enter up to 5 temperature points. For \nmore details about this feature, see the SigNow manual. \n11.7.4 RELATIVE HUMIDITY \nThis screen allows you to configure the parameters for the relative humidity sensor:  \n \n \nFigure 37 – \nRelative humidity screen"
+  },
+  {
+    "chunk_id": 131,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "more details about this feature, see the SigNow manual. \n11.7.4 RELATIVE HUMIDITY \nThis screen allows you to configure the parameters for the relative humidity sensor:  \n \n \nFigure 37 – \nRelative humidity screen \nTo read the relative humidity, the device provides Offset and Filter settings. With these features you can make small corrections to the sensor \nreadings and slow down the response speed of the sensor. \nFor greater sensor accuracy, RHT Climate Transmitter has a Custom Calibration function that allows you to enter up to 5 temperature points. For \nmore details about this feature, see the SigNow manual."
+  },
+  {
+    "chunk_id": 132,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n46/55 \n11.7.5 OUTPUTS 1 AND 2 \nThe screens for the Output 1 and Output 2 sections are identical and allow you to configure their respective outputs, as shown in the example for \nOutput 1: \n \n \nFigure 38 – \nOutput 1 screen \nIn the Physical Property field, you can select the psychrometric property to be transmitted by the output. The Analog Output Operation Mode \nfunction allows you to select the electrical standard to be used for transmission: 0-10 V or 4-20 mA. The electrical output signal will be proportional \nto the selected magnitude, respecting the values set in the parameters Lower Limit and Upper Limit.  \nIn case of a sensor failure, the quantity to be transmitted by the analog output will go into error mode, as configured in the Analog Output Error \nMode parameter. For the error condition, you must select the High or Low status: \n \nERROR MODE \nMODE \nLOW \nHIGH \n0-10 V \n0 V \n10 V \n4-20 mA \n3.6 mA \n21.0 mA \nTable 67 – \nError mode \n11.7.6 ALARMS 1 AND 2"
+  },
+  {
+    "chunk_id": 133,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Mode parameter. For the error condition, you must select the High or Low status: \n \nERROR MODE \nMODE \nLOW \nHIGH \n0-10 V \n0 V \n10 V \n4-20 mA \n3.6 mA \n21.0 mA \nTable 67 – \nError mode \n11.7.6 ALARMS 1 AND 2 \nThe screens for the Alarm 1 and Alarm 2 sections are identical and allow you to configure their respective outputs, as shown in the example for \nAlarm 1: \n \n \nFigure 39 – \nAlarm 1 screen"
+  },
+  {
+    "chunk_id": 134,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n47/55 \nThe alarm output can be timed using the parameters On Time and Off Time. \nIf the device is configured with alarm Lo, xi, L--x or -Lx-, the parameter Error Condition allows you to configure the status of the alarm output \nin case of temperature and relative humidity sensor failure. Therefore, the output will be turned on or off according to the value set in these \nparameters.  \nIn some applications, it may be necessary to disregard alarms when turning the device on. A typical example refers to an application where you \nwant to keep a refrigerated environment. If the alarm is set to activate below -10 °C or above 2 °C, it will trigger if the initial room temperature is 25 \n°C at the time RHT Climate Transmitter is turned on. To block this initial triggering, you can enable the Initial Alarm Block parameter. With initial \nblock enabled, the device must reach a non-alarm condition for an alarm event to trigger the output."
+  },
+  {
+    "chunk_id": 135,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "°C at the time RHT Climate Transmitter is turned on. To block this initial triggering, you can enable the Initial Alarm Block parameter. With initial \nblock enabled, the device must reach a non-alarm condition for an alarm event to trigger the output. \nIt is also possible to link the activation of the buzzer to each alarm output. In this way, whenever the alarm output is on, the buzzer will be activated, \nrespecting the timings. To link the buzzer to the alarm output, you must enable the Buzzer parameter2. \nThe buzzer settings are like those for alarms 1 and 2.  \n11.7.7 HMI \nThis screen allows you to configure the parameters for the display and keypad features3: \n \n \nFigure 40 – \nHMI screen \nOn this screen, you can: \n• \nSelect the configuration cycles that will be visible on the HMI. \n• \nSet the second function of keys \n and \n.  \n• \nSelect the Backlight operation mode. \n• \nDefine the quantity to be shown on the third line of the display. \n• \nAdjust the display contrast."
+  },
+  {
+    "chunk_id": 136,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "HMI screen \nOn this screen, you can: \n• \nSelect the configuration cycles that will be visible on the HMI. \n• \nSet the second function of keys \n and \n.  \n• \nSelect the Backlight operation mode. \n• \nDefine the quantity to be shown on the third line of the display. \n• \nAdjust the display contrast. \nWhen navigating the configuration screens of RHT Climate Transmitter via keyboard, you can access only the cycles that are enabled by SigNow. \nIn the example picture below, you can see only the selected screens: \n \nFigure 41 – \nCycle visualization \nThe \n and \n keys of the device, in addition to their function of incrementing, decrementing, and selecting options, can take on a second \nfunction if you configure the parameters 2nd Function of Up Key and 2nd Function of Down Key.  \n \nThe \n key can have the following functions: \n \n2 Function available only for LCD models. \n3 Function available only for LCD models."
+  },
+  {
+    "chunk_id": 137,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n48/55 \n• \nNo action. \n• \nDisable buzzer. \n• \nDisable buzzer and alarm output. \nIf you configure the second key \n function to disable the buzzer, and, during an alarm, you press this key (long press), the buzzer will be muted \nbut the alarm output will still be activated. \nIf you configure the second key \n function to disable the buzzer and the alarm output, and, during an alarm, you press this key (long press), the \nbuzzer will be muted and the alarm output will be disabled.  \nThe buzzer and alarm output will be reactivated only if the RHT Climate Transmitter goes into a non-alarm condition and then returns to an alarm \ncondition. \nThe \n key can have the following functions: \n• \nNo action. \n• \nClear minimum and maximum values. \nIf you configure the second key \n function to reset minimum and maximum values and, while viewing any minimum and maximum display"
+  },
+  {
+    "chunk_id": 138,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "condition. \nThe \n key can have the following functions: \n• \nNo action. \n• \nClear minimum and maximum values. \nIf you configure the second key \n function to reset minimum and maximum values and, while viewing any minimum and maximum display \nscreen, press this key (long touch), the minimum and maximum values of all psychrometric properties of the device will be reset. \nThe Backlight mode of operation can operate in the following ways: \n• \nOff: The display backlight remains off. \n• \nOn: The display backlight remains on. \n• \nOn for 15 s: The backlight turns on whenever a key is pressed. If you don't press any key after 15 seconds, the backlight will automatically turn \noff.  \nThe display allows you to adjust five levels of contrast, which makes it easier to visualize the display information from different viewing angles. To \nselect the best angle, click on the desired angle value."
+  },
+  {
+    "chunk_id": 139,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "off.  \nThe display allows you to adjust five levels of contrast, which makes it easier to visualize the display information from different viewing angles. To \nselect the best angle, click on the desired angle value.  \nYou can also define the quantity to be shown on the third line of the display, according to the options shown in the parameter 3rd Line \nInformation. \n11.7.8 DIAGRAM \nThis screen shows information about the display and the basic electrical connections of the device: \n \n \nFigure 42 – \nDiagram screen"
+  },
+  {
+    "chunk_id": 140,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n49/55 \n11.7.9 FIRMWARE UPDATE \nThis screen allows you to update the firmware of the device: \n \nFigure 43 – \nFirmware update screen \nThe firmware update process is standard for all NOVUS devices linked to SigNow and can be viewed in detail in the software manual. \nTo update the firmware through the application, however, you must click on the Firmware button, located on the start screen, and then proceed in \nthe same way, searching for the desired file or checking online for its existence. \n \n \nFigure 44 – \nFirmware upgrade via app"
+  },
+  {
+    "chunk_id": 141,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n50/55 \n11.8 PERFORMING THE DIAGNOSTICS \nFrom the SigNow home screen, you can access the Diagnostics screen and monitor some device status. The information update interval is 1 \nsecond. In this section you can verify the correct operation of the RHT Climate Transmitter by forcing the temperature and relative humidity \nreadings, the alarm outputs, and the buzzer. \nTo access it, you must click Diagnostics, select the USB option, and then the connected device: \n \nFigure 45 – \nSelecting a device \nThe above process should be disregarded if you are using SigNow app, since the app performs device recognition from the first moment of \nconnection. \nThen both the software and the app will read the current device configuration and present all available features, as shown in the figure below: \n \n \nFigure 46 – \nDevice configuration screen"
+  },
+  {
+    "chunk_id": 142,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "connection. \nThen both the software and the app will read the current device configuration and present all available features, as shown in the figure below: \n \n \nFigure 46 – \nDevice configuration screen \nThe diagnostic displays information about the instantaneous value of the psychrometric properties, presented to two decimal places. Additionally, \naccessing the Input, Output, and Alarm sections, available in the side menu, also allows you to force values with one decimal place.  \nIn the Input section, you can enter the desired value and use the activation key (\n → \n) to force temperature or relative humidity values.  \nIn the Output section, you can enter the desired value and use the activation key (\n→ \n) to force voltage or current values for outputs 1 \nand 2. The transmission mode (0-10 V or 4-20 mA) that will be forced on the outputs depends on the configuration applied to each of them (see \nOUTPUTS 1 AND 2 section)."
+  },
+  {
+    "chunk_id": 143,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "→ \n) to force voltage or current values for outputs 1 \nand 2. The transmission mode (0-10 V or 4-20 mA) that will be forced on the outputs depends on the configuration applied to each of them (see \nOUTPUTS 1 AND 2 section).  \nYou can also force an error value to be transmitted by checking the Min. Error and Max. Error. These values depend on the mode (0-10 V or 4-20 \nmA) configured for each output."
+  },
+  {
+    "chunk_id": 144,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n51/55 \nIn the Alarm section, you can force the alarm outputs to be on or off, as shown in the figure below: \n \nFigure 47 – \nForce On/Off Status \nIn some cases, it is possible that an alarm output is activated due to an alarm condition. Thus, it may be desirable to force the off status to be able \nto identify some failure in the wiring or in the configuration of the device."
+  },
+  {
+    "chunk_id": 145,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n52/55 \n12 \nTECHNICAL SPECIFICATIONS \nSPECIFICATIONS \nRHT Climate Transmitter \nHumidity measurement \nMeasurement range:  \n• \nConfigurable: Between 0 % RH and 100 % RH (no condensing). \n• \nConfigurable: Between -90 °C at 100 °C in dew point. \nResponse time (1/e (63 %)): < 4 seconds @25 °C (with air moving at 1 m/s and polyamide tip) \nTemperature \nmeasurement \nMeasuring Range: \n• \nDM model: -40 °C to 100 °C. \n• \nWM model: -40 °C to 60 °C. \nResponse time (1/e (63 %)): < 5 seconds @25 °C (with air moving at 1 m/s and polyamide tip). \nAccuracy \n• Temperature1: ± 0.4 °C (0 °C to 60 °C). \n• Relative Humidity: See image below. \n \nOther error sources: \nError Source \nHumidity \nTemperature \nDegradation over time \n< 0.5 % RH / year \n< 0.05 °C / year \nReproducibility \nIncluded in the figure above \n± 0.1 °C \nThermal drift \n0.05 % RH / °C \nDoes not apply \nNote 1: When performing a transmitter calibration through a Metrology Lab, it is necessary to consider that the"
+  },
+  {
+    "chunk_id": 146,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Humidity \nTemperature \nDegradation over time \n< 0.5 % RH / year \n< 0.05 °C / year \nReproducibility \nIncluded in the figure above \n± 0.1 °C \nThermal drift \n0.05 % RH / °C \nDoes not apply \nNote 1: When performing a transmitter calibration through a Metrology Lab, it is necessary to consider that the \ncalibration uncertainty must be added to the product accuracy. \nPower supply \n \n• Power supply via PWR terminals: 12 Vdc to 30 Vdc. \n• Power supply via USB cable: 4.75 Vdc to 5.25 Vdc. \nInternal protection against power supply voltage reverse polarity. \nMaximum power supply \ncurrent \n< 70 mA ±10 % @ 24 Vdc \n0vt1  Output \n0vt2 Output \nThey may be configured independently to operate with signals 0-10 V or 4-20 mA. \n• 0-10 V: \no Maximum current: 2 mA \no Resolution: 0.003 V \n• 4-20 mA: \no 500 R maximum load \no Resolution: 0.006 mA \nAlm1 Alarm \nalm2 Alarm \n• Channel N 30 V / 200 mA type output. \n• Protection against overcurrent > 200 mA. \n• Overcurrent protection reset time: 5 seconds."
+  },
+  {
+    "chunk_id": 147,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "• 0-10 V: \no Maximum current: 2 mA \no Resolution: 0.003 V \n• 4-20 mA: \no 500 R maximum load \no Resolution: 0.006 mA \nAlm1 Alarm \nalm2 Alarm \n• Channel N 30 V / 200 mA type output. \n• Protection against overcurrent > 200 mA. \n• Overcurrent protection reset time: 5 seconds. \nProtection rating \n• Electronic module housing: IP65. \n• Sensor capsule: IP40 or IP20, according to the models: Sintered PTFE (with the device) or polyamide \n(optional). \nCable entrance \nCable gland PG7. \nHousing \nABS+PC"
+  },
+  {
+    "chunk_id": 148,
+    "page": 52,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n53/55 \nSPECIFICATIONS \nRHT Climate Transmitter \nConfigurator Software \n• \nSigNow software, compatible with Windows 10 or higher. \n• \nSigNow app, compatible with Android and iOS smartphones. \nCertifications \nCE Mark / UKCA \nThis is a Class A product. In a domestic environment, this product may cause radio interference in which case the \nuser may be required to take adequate measures. \nTable 68 – \nTechnical specifications"
+  },
+  {
+    "chunk_id": 149,
+    "page": 53,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n54/55 \n13 \nWARRANTY \nWarranty conditions are available on our website www.novusautomation.com/warranty."
+  },
+  {
+    "chunk_id": 150,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "NOVUS AUTOMATION \n \n55/55 \n14 \nAPPENDIX I – NOTIONS ABOUT PSYCHROMETRY \nPsychrometry is the study of thermodynamic properties of dry air and water vapor mixtures. Obtaining the psychrometric properties is crucial in the \npsychrometric processes of air conditioning, refrigeration, cooling and freezing, air humidification and dehumidification, drying and dehydration of \nhumid devices, as well as in environmental and meteorological control.  \nThe psychrometric properties provided by the RHT Climate Transmitter are: \n• Dry Bulb Temperature \n• Relative Humidity \n• Dew Point Temperature \n• Wet Bulb Temperature \n• Absolute Humidity \n• Frost Point Temperature \n• Specific Enthalpy \n• Partial Vapor Pressure \n• Mixture Ratio \nDry Bulb Temperature [°C] or [°F]:  \nIt is simply the temperature of the air and water vapor mixture surrounding the thermometer.  \nRelative Humidity [%RH]:"
+  },
+  {
+    "chunk_id": 151,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "• Wet Bulb Temperature \n• Absolute Humidity \n• Frost Point Temperature \n• Specific Enthalpy \n• Partial Vapor Pressure \n• Mixture Ratio \nDry Bulb Temperature [°C] or [°F]:  \nIt is simply the temperature of the air and water vapor mixture surrounding the thermometer.  \nRelative Humidity [%RH]: \nRelative humidity expresses the percentage of water vapor contained in a certain amount of air. When the air reaches 100% relative humidity, it will \nhave reached its maximum water absorption capacity. In this condition, the air is said to be saturated and water vapor condensation starts to be \nevident on the surfaces surrounded by this mixture. \n Dew Point Temperature [°C] or [°F]: \nThe dew point is defined as the temperature to which the air must be cooled for water condensation to begin, meaning for the air to be saturated \nwith water vapor. At dew point temperature, the amount of water vapor present in the air is maximum."
+  },
+  {
+    "chunk_id": 152,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "Dew Point Temperature [°C] or [°F]: \nThe dew point is defined as the temperature to which the air must be cooled for water condensation to begin, meaning for the air to be saturated \nwith water vapor. At dew point temperature, the amount of water vapor present in the air is maximum. \nThe capacity to retain water by air is heavily dependent on temperature: warm air can retain more water. The dew point is typically used to \nrepresent the amount of water vapor in dry air or gas. At low humidity, changes in dew point temperature are greater than changes in relative \nhumidity, allowing for greater measurement precision and control. \nWet Bulb Temperature [°C] or [°F]: \nThe wet bulb temperature is measured by a thermometer with bulb covered by a mesh (usually cotton) that is submerged in a recipient containing \ndistilled water. Water evaporation draws out heat from the bulb, making the wet bulb thermometer indicate a temperature lower than the ambient"
+  },
+  {
+    "chunk_id": 153,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "The wet bulb temperature is measured by a thermometer with bulb covered by a mesh (usually cotton) that is submerged in a recipient containing \ndistilled water. Water evaporation draws out heat from the bulb, making the wet bulb thermometer indicate a temperature lower than the ambient \nair. Evaporation consumes heat, causing cooling. This evaporation, and consequently the wet bulb temperature, is greater when the atmospheric \nair is drier, and is null when the atmosphere is saturated with water vapor (relative air humidity equal to 100%). \nAbsolute humidity [g/m³] or [gr/ft³]: \nAbsolute humidity expresses the mass of water vapor contained in each volume. If all the water of one cubic meter of air is condensed in a vessel, \nthis vessel will contain all the absolute humidity of that portion of air and the amount of condensed water can be weighed to quantify the absolute \nhumidity. \nFrost Point Temperature [°C] or [°F]:"
+  },
+  {
+    "chunk_id": 154,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "this vessel will contain all the absolute humidity of that portion of air and the amount of condensed water can be weighed to quantify the absolute \nhumidity. \nFrost Point Temperature [°C] or [°F]: \nThe frost point temperature is the temperature to which air must be cooled, with constant pressure, to reach saturation (in relation to liquid water) \nand to settle in the form of frost on a surface. \nSpecific enthalpy [kJ/kg] or [BTU/lb]: \nIt is the energy contained in moist air by the amount of dry air. For a given mass of air to occupy a given volume at a given pressure, this occurs at \nthe expense of energy. The higher the relative air humidity, the higher its specific enthalpy will be. \n Partial Vapor Pressure [mbar] or [psi]: \nThe partial pressure of a gas in a gaseous mixture of ideal gases corresponds to the pressure that it would exert if it were occupying the whole"
+  },
+  {
+    "chunk_id": 155,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf",
+    "content": "the expense of energy. The higher the relative air humidity, the higher its specific enthalpy will be. \n Partial Vapor Pressure [mbar] or [psi]: \nThe partial pressure of a gas in a gaseous mixture of ideal gases corresponds to the pressure that it would exert if it were occupying the whole \ncontainer alone, at the same temperature as the ideal mixture. As such, the total pressure is calculated via the sum of partial pressures of the \ngases that make up the mixture. \nMixture Ratio [g/kg] or [gr/lb]: \nThe mixture ratio is expressed as the ratio of the mass of water vapor per kilogram of dry air into any portion of the atmosphere separated for study. \nThe mixture ratio varies with temperature, except if the temperature is lower than the dew point, or when the air is completely saturated with water \nvapor. In these conditions, the drop in temperature will cause forced water condensation."
+  }
+]

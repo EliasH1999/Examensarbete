@@ -1,0 +1,938 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Manual\nPowerXL™\nModbus RTU \nCommunication manual\nfor Variable Frequency Drives / Variable Speed Starters\nDA1, DB1, DC1, DE1\n 12/22 MN040018EN"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Modbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\nBrands and products are trademarks or registered trademarks of their \nowners.\nService\nFor service and support, please contact your local sales organisation.\nContact details: Eaton.com/contacts\nService page: Eaton.com/aftersales\nFor customers in US/Canada contact:\nEatonCare Customer Support Center\nCall the EatonCare Support Center if you need assistance with placing an order, \nstock availability or proof of shipment, expediting an existing order, emergency \nshipments, product price information, returns other than warranty returns, and \ninformation on local distributors or sales offices.\nVoice: 877-ETN-CARE (386-2273) (8:00 a.m. – 6:00 p.m. EST)\nAfter-Hours Emergency: 800-543-7038 (6:00 p.m. – 8:00 a.m. EST)\nDrives Technical Resource Center\nVoice: 877-ETN-CARE (386-2273) option 2, option 6\n(8:00 a.m. – 5:00 p.m. Central Time U.S. [UTC-6])\nemail: TRCDrives@Eaton.com\npage: Eaton.com/drives"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "After-Hours Emergency: 800-543-7038 (6:00 p.m. – 8:00 a.m. EST)\nDrives Technical Resource Center\nVoice: 877-ETN-CARE (386-2273) option 2, option 6\n(8:00 a.m. – 5:00 p.m. Central Time U.S. [UTC-6])\nemail: TRCDrives@Eaton.com\npage: Eaton.com/drives\nOriginal Operating Instructions\nThe German-language edition of this document is the original operating manual.\nTranslation of the original operating manual\nAll editions of this document other than those in German language are translations \nof the original German manual.\n1st edition 2016, edition date 01/16\n2nd edition 2016, edition date 09/16\n3rd edition 2022, edition date 12/22\n© 2016 by Eaton Industries GmbH, 53105 Bonn\nAll rights reserved, including those of the translation.\nNo part of this manual may be reproduced in any form (printed, photocopy, microfilm \nor any other process) or processed, duplicated or distributed by means of electronic \nsystems without written permission of Eaton Industries GmbH, Bonn."
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "All rights reserved, including those of the translation.\nNo part of this manual may be reproduced in any form (printed, photocopy, microfilm \nor any other process) or processed, duplicated or distributed by means of electronic \nsystems without written permission of Eaton Industries GmbH, Bonn.\nSubject to alteration without notice."
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "I\nBefore commencing the installation\n•\nDisconnect the power supply of the device.\n•\nEnsure that devices cannot be accidentally restarted.\n•\nVerify isolation from the supply.\n•\nEarth and short circuit the device.\n•\nCover or enclose any adjacent live components.\n•\nFollow the engineering instructions (AWA/IL) for the \ndevice concerned.\n•\nOnly suitably qualified personnel in accordance with \nEN 50110-1/-2 (VDE 0105 Part 100) may work on this \ndevice/system.\n•\nBefore installation and before touching the device ensure \nthat you are free of electrostatic charge.\n•\nThe functional earth (FE, PES) must be connected to the \nprotective earth (PE) or the potential equalisation. The \nsystem installer is responsible for implementing this \nconnection.\n•\nConnecting cables and signal lines should be installed so \nthat inductive or capacitive interference does not impair \nthe automation functions.\n•\nInstall automation devices and related operating elements"
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "system installer is responsible for implementing this \nconnection.\n•\nConnecting cables and signal lines should be installed so \nthat inductive or capacitive interference does not impair \nthe automation functions.\n•\nInstall automation devices and related operating elements \nin such a way that they are well protected against \nunintentional operation.\n•\nSuitable safety hardware and software measures should \nbe implemented for the I/O interface so that an open \ncircuit on the signal side does not result in undefined \nstates in the automation devices.\n•\nEnsure a reliable electrical isolation of the extra-low \nvoltage of the 24 V supply. Only use power supply units \ncomplying with IEC 60364-4-41 (VDE 0100 Part 410) or \nHD384.4.41 S2.\n•\nDeviations of the mains voltage from the rated value must \nnot exceed the tolerance limits given in the specifications, \notherwise this may cause malfunction and dangerous \noperation.\n•\nEmergency stop devices complying with IEC/EN 60204-1"
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "HD384.4.41 S2.\n•\nDeviations of the mains voltage from the rated value must \nnot exceed the tolerance limits given in the specifications, \notherwise this may cause malfunction and dangerous \noperation.\n•\nEmergency stop devices complying with IEC/EN 60204-1 \nmust be effective in all operating modes of the automation \ndevices. Unlatching the emergency-stop devices must not \ncause a restart.\n•\nDevices that are designed for mounting in housings or \ncontrol cabinets must only be operated and controlled \nafter they have been installed and with the housing \nclosed. Desktop or portable units must only be operated \nand controlled in enclosed housings.\n•\nMeasures should be taken to ensure the proper restart of \nprograms interrupted after a voltage dip or failure. This \nshould not cause dangerous operating states even for a \nshort time. If necessary, emergency-stop devices should \nbe implemented.\n•\nWherever faults in the automation system may cause"
+  },
+  {
+    "chunk_id": 7,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Measures should be taken to ensure the proper restart of \nprograms interrupted after a voltage dip or failure. This \nshould not cause dangerous operating states even for a \nshort time. If necessary, emergency-stop devices should \nbe implemented.\n•\nWherever faults in the automation system may cause \ninjury or material damage, external measures must be \nimplemented to ensure a safe operating state in the event \nof a fault or malfunction (for example, by means of \nseparate limit switches, mechanical interlocks etc.).\n•\nDepending on their degree of protection, frequency \ninverters may contain live bright metal parts, moving or \nrotating components or hot surfaces during and \nimmediately after operation.\n•\nRemoval of the required covers, improper installation or \nincorrect operation of motor or frequency inverter may \ncause the failure of the device and may lead to serious \ninjury or damage.\n•\nThe applicable national accident prevention and safety"
+  },
+  {
+    "chunk_id": 8,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "immediately after operation.\n•\nRemoval of the required covers, improper installation or \nincorrect operation of motor or frequency inverter may \ncause the failure of the device and may lead to serious \ninjury or damage.\n•\nThe applicable national accident prevention and safety \nregulations apply to all work carried on live frequency \ninverters.\n•\nThe electrical installation must be carried out in \naccordance with the relevant regulations (e. g. with \nregard to cable cross sections, fuses, PE).\n•\nTransport, installation, commissioning and maintenance \nwork must be carried out only by qualified personnel \n(IEC 60364, HD 384 and national occupational safety \nregulations).\n•\nInstallations containing frequency inverters must be \nprovided with additional monitoring and protective \ndevices in accordance with the applicable safety \nregulations. Modifications to the frequency inverters \nusing the operating software are permitted.\n•\nAll covers and doors must be kept closed during \noperation.\n•"
+  },
+  {
+    "chunk_id": 9,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "provided with additional monitoring and protective \ndevices in accordance with the applicable safety \nregulations. Modifications to the frequency inverters \nusing the operating software are permitted.\n•\nAll covers and doors must be kept closed during \noperation.\n•\nTo reduce the hazards for people or equipment, the user \nmust include in the machine design measures that restrict \nthe consequences of a malfunction or failure of the drive \n(increased motor speed or sudden standstill of motor). \nThese measures include:\n– Other independent devices for monitoring safety-\nrelated variables (speed, travel, end positions etc.).\n– Electrical or non-electrical system-wide measures \n(electrical or mechanical interlocks).\n– Never touch live parts or cable connections of the \nfrequency inverter after it has been disconnected from \nthe power supply. Due to the charge in the capacitors, \nthese parts may still be live after disconnection. Fit \nappropriate warning signs.\nEaton Industries GmbH"
+  },
+  {
+    "chunk_id": 10,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "– Never touch live parts or cable connections of the \nfrequency inverter after it has been disconnected from \nthe power supply. Due to the charge in the capacitors, \nthese parts may still be live after disconnection. Fit \nappropriate warning signs.\nEaton Industries GmbH\nSafety instructions\nDanger!\nDangerous electrical voltage!"
+  },
+  {
+    "chunk_id": 11,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "1\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n Table of contents\n0\nAbout this manual .....................................................................\n2\n0.1\nTarget group ................................................................................\n2\n0.2\nList of revisions............................................................................\n2\n0.2.1\nWriting conventions.....................................................................\n2\n0.2.2\nHazard warnings of material damages.........................................\n3\n0.2.3\nHazard warnings of personal injury..............................................\n3\n1\nEngineering ................................................................................\n5\n2\nModbus RTU...............................................................................\n6\n2.1\nGeneral ........................................................................................\n6\n2.2"
+  },
+  {
+    "chunk_id": 12,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3\n1\nEngineering ................................................................................\n5\n2\nModbus RTU...............................................................................\n6\n2.1\nGeneral ........................................................................................\n6\n2.2\nCommunications..........................................................................\n6\n2.3\nRJ 45 interface.............................................................................\n8\n2.3.1\nEnable ..........................................................................................\n9\n2.3.2\nData format..................................................................................\n9\n2.4\nCommunication parameters.........................................................\n10\n2.4.1\nCommunication parameters for DA1 variable frequency drives ..\n11\n2.4.2\nCommunication parameters for DB1 variable frequency drives ..\n13\n2.4.3\nCommunication parameters for DC1 variable frequency drives ..\n14"
+  },
+  {
+    "chunk_id": 13,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Communication parameters.........................................................\n10\n2.4.1\nCommunication parameters for DA1 variable frequency drives ..\n11\n2.4.2\nCommunication parameters for DB1 variable frequency drives ..\n13\n2.4.3\nCommunication parameters for DC1 variable frequency drives ..\n14\n2.4.4\nCommunication parameters for DE1 variable speed starters ......\n16\n2.5\nConfiguration of the control signal terminals ...............................\n18\n2.5.1\nControl signal terminal configuration for DA1 variable frequency \ndrives ....................................................................................... 20\n2.5.2\nControl signal terminal configuration for DB1 & DC1 variable frequen-\ncy drives................................................................................... 21\n2.5.3\nControl signal terminal configuration for DE1 variable speed starters\n22\n2.6\nOperating mode Modbus RTU.....................................................\n24\n2.6.1"
+  },
+  {
+    "chunk_id": 14,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "cy drives................................................................................... 21\n2.5.3\nControl signal terminal configuration for DE1 variable speed starters\n22\n2.6\nOperating mode Modbus RTU.....................................................\n24\n2.6.1\nStructure of the client request.....................................................\n25\n2.6.2\nStructure of the server response.................................................\n26\n2.6.3\nModbus: Register mapping..........................................................\n27\n2.6.4\nInput process data .......................................................................\n28\n2.6.5\nOutput process data ....................................................................\n30\n2.6.6\nExplanation of function code........................................................\n40\n3\nParameter ...................................................................................\n42\n3.1"
+  },
+  {
+    "chunk_id": 15,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "28\n2.6.5\nOutput process data ....................................................................\n30\n2.6.6\nExplanation of function code........................................................\n40\n3\nParameter ...................................................................................\n42\n3.1\nParameters for DA1 variable frequency drives ............................\n42\n3.2\nParameters for DB1 variable frequency drives ............................\n53\n3.3\nParameters for DC1 variable frequency drives ............................\n57\n3.4\nParameters for DE1 variable speed starters ................................\n62\nIndex ...........................................................................................\n65"
+  },
+  {
+    "chunk_id": 16,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "0 About this manual\n0.1 Target group\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n2\n0 About this manual\n0.1 Target group\nThis manual describes the Modbus RTU connection for DA1, DB1 and DC1 \nvariable frequency drives and DE1 variable speed starters.\nIt is intended for experienced drive specialists and automation engineers and \ntechnicians. It also assumes that readers are thoroughly familiar with the \nModbus RTU fieldbus and with how to program a Modbus master. Likewise, \nit assumes that readers are familiar with how to operate DA1/DB1/DC1 \nvariable frequency drives and/or DE1 variable speed starters as applicable.\nPlease read this manual carefully before commissioning a Modbus RTU \nconnection.\nWe assume that you have a good knowledge of engineering fundamentals, \nand that you are familiar with handling electrical systems and machines, as \nwell as with reading technical drawings.\n0.2 List of revisions"
+  },
+  {
+    "chunk_id": 17,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Please read this manual carefully before commissioning a Modbus RTU \nconnection.\nWe assume that you have a good knowledge of engineering fundamentals, \nand that you are familiar with handling electrical systems and machines, as \nwell as with reading technical drawings.\n0.2 List of revisions\nThe following significant amendments have been introduced since previous \nissues:\n0.2.1 Writing conventions\nSymbols used in this manual have the following meanings:\n▶\nIndicates instructions to be followed.\nPublication \ndate\nPage \nKeyword\nnew\nmodified\ndeleted\n12/22\n40\n„Function Code“\n✓\n„DB1 device description added“\n✓\n16\n„Communication parameters for DE1 \nvariable speed starters“\n✓\n25\n„Modbus override function DE1“\n✓\n09/16\n22\n„Control signal terminal configuration for \nDE1 variable speed starters“\n✓\n30\n„Output process data“\n✓\n57\n„Parameters for DC1 variable frequency \ndrives“\n✓\n01/16\nInitial issue\n￫\nIndicates useful tips and\nMore Info"
+  },
+  {
+    "chunk_id": 18,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "0 About this manual\n0.2 List of revisions\n3\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n0.2.2 Hazard warnings of material damages\n0.2.3 Hazard warnings of personal injury\nNOTICE\nWarns about the possibility of material damage.\n\nCAUTION \nWarns of the possibility of hazardous situations that may possi-\nbly cause slight injury.\n\nDANGER\nWarns of hazardous situations that result in serious injury or \ndeath.\n\nDANGER – CONTROL FAILURE\nWhen engineering your control diagram, make sure to take all \npotential control path faults into account.\nWhen it comes to critical control functions, make sure that a \nsafe state can be reached after a control path fails. – \nCritical control function examples include:\n•\nEmergency shutdown (emergency stop),\n•\nOvertravel stop\n•\nPower supply failure\n•\nRestart.\nProvide separate or redundant control paths.\nMake sure that system control paths include communication \nconnections."
+  },
+  {
+    "chunk_id": 19,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Critical control function examples include:\n•\nEmergency shutdown (emergency stop),\n•\nOvertravel stop\n•\nPower supply failure\n•\nRestart.\nProvide separate or redundant control paths.\nMake sure that system control paths include communication \nconnections.\nTake the effect of unforeseen transmission delays and \nconnection problems into account.\nCarefully and individually test every implementation of a product \nbefore putting it into operation.\nObserve all general accident prevention and local safety \nregulations.\nInformation for the USA:\nFor more information, please refer to the latest issue of \nNEMA ICS 1.1, “Safety Guidelines for the Application, Installation, \nand Maintenance of Solid State Control,” and the latest issue of \nNEMA ICS 7.1, “Safety Standards for Construction and Guide for \nSelection, Installation, and Operation of Adjustable-Speed Drive \nSystems.”\nIn addition to property damage, failure to observe the \nabove instructions may result in serious bodily injury or \neven death."
+  },
+  {
+    "chunk_id": 20,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "0 About this manual\n0.2 List of revisions\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n4\nFor greater clarity, the name of the current chapter and the name of the \ncurrent section are shown in the page header.\n￫\nTo make it easier to understand some of the images included in \nthis manual, the housing and other safety-relevant parts have \nbeen left out.\nThe components described here must be used only with a \nproperly fitted housing and all necessary safety-relevant parts.\n￫\nPlease follow the installation instructions in the relevant \ninstruction leaflets.\n￫\nAll the specifications in this manual refer to the hardware and \nsoftware versions documented in it.\n￫\nMore information on the devices described here can be found \non the Internet under: Eaton.com/powerxl\nas well as: Eaton.com/documentation"
+  },
+  {
+    "chunk_id": 21,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "1 Engineering\n \n5\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n1 Engineering\nThe following diagram shows an example illustrating how to set up the \nconnection for a variable frequency drive (a DA1 in this specific case).\nFigure 1: Engineering\na PC (with configuration tool)\nb Head-end controller\nc Variable frequency drive\nd Motor\nL1/L L2/N\nL3\nDC-\nU\nDC+\nBR\n1  2   3   4   5   6   7   8   9  10 11 12 13\n14 15 16 17 18\nCOM\nV\nW\n\n\n①\n②\n③\n④"
+  },
+  {
+    "chunk_id": 22,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.1 General\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n6\n2 Modbus RTU\n2.1 General\nModbus is a centrally polled bus system in which a so-called client (PLC) \ncontrols the entire data transfer on the bus. Internode communication \nbetween the individual modules (servers) is not possible.\nEvery single data transfer operation is initiated by the client with a request. \nOnly one request can be sent on the cable at a time.\nServers are not able to initiate transfers, and are only able to respond to \nrequests.\nTwo types of dialog are possible between client and server:\n•\nThe client sends a request to a server and waits for a response.\n•\nThe client sends a request to all servers and does not wait for a \nresponse (broadcast).\n2.2 Communications\nFigure 2: Modbus line with variable frequency drives/variable speed starters\na Splitter DX-SPL-RJ45… (T-plug connector)\nb DX-CBL-RJ45… connection cable"
+  },
+  {
+    "chunk_id": 23,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "•\nThe client sends a request to all servers and does not wait for a \nresponse (broadcast).\n2.2 Communications\nFigure 2: Modbus line with variable frequency drives/variable speed starters\na Splitter DX-SPL-RJ45… (T-plug connector)\nb DX-CBL-RJ45… connection cable\nc DX-SPL-RJ45… splitter with bus termination resistor\n￫\nMore information on Modbus can be found under\nwww.modbus.org.\nL1/L L2/N\nL3\nU\nV\nW\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10 11\nDC1\n\n\nDE1\nDA1\nHMI-PLC\n②\n②\n①\n②\n③\n①\n①\nRJ45\n\nL1/L L2/N L3\n\nU\nV\nW\n0 V +10 V   1      2       3      4      13     14\n\nL1/L L2/N\nL3\nDC-\n\nU\nDC+\nBR\n1  2   3   4   5   6   7   8   9  10 11 12 13\n14 15 16 17 18\nCOM\nV\nW\nRS485\nModbus RTU\nL1 L2 \n(L) (N) \nL3 \nU V W\nDB1"
+  },
+  {
+    "chunk_id": 24,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.2 Communications\n7\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\nFigure 2 shows a typical setup with a host computer (client) and any number \n(a maximum of 63 nodes) of variable frequency drives (servers). \nEach variable frequency drive has a unique address on the network.\nAddresses are assigned to each variable frequency drive individually with the \nuse of a system parameter and are independent of the drive's physical \nconnection (position) within the network.\nThe aforementioned system parameter used to assign addresses is:\n•\nP5-01 for DA1 variable frequency drive,\n•\nP-36 for DB1 variable frequency drive\n•\nP-36 for DC1 variable frequency drive,\n•\nP-47 for DE1 variable speed starter\nA DX-CBL-RJ45… connection cable with an RJ45 connector needs to be \nused in order to establish communications between the client and server ②.\nIf multiple servers are being used, they need to be connected in parallel \nusing DX-SPL-RJ45… splitters ①."
+  },
+  {
+    "chunk_id": 25,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "•\nP-47 for DE1 variable speed starter\nA DX-CBL-RJ45… connection cable with an RJ45 connector needs to be \nused in order to establish communications between the client and server ②.\nIf multiple servers are being used, they need to be connected in parallel \nusing DX-SPL-RJ45… splitters ①.\nA bus termination resistor is required at the last module on the Modbus line \n③."
+  },
+  {
+    "chunk_id": 26,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.3 RJ 45 interface\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n8\n2.3 RJ 45 interface\nThe client and server communicate with each other via RJ45 cables. \nIf multiple servers are being used, they need to be connected in parallel \nusing RJ45 cables and splitters.\nThe integrated RJ45 port (COM port) in DA1, DB1 and DC1 variable \nfrequency drives and DE1 variable speed starters supports the Modbus RTU \nprotocol, allowing for a direct network connection without the need for an \nadditional interface module.\nA bus termination resistor with a resistance of 120 Ω needs to be connected \nat each physical end (last node) of the network cable in order to prevent \nsignal reflection and the associated transmission errors.\nEASY-NT-R resistors can be plugged into the corresponding splitter.\nFigure 3: RJ45 socket wiring\nPIN\nSignificance\n1\nCAN-\nNote:\nNot used in DE1 variable speed starters (with the exception of DE11).\n2\nCAN+\nNote:"
+  },
+  {
+    "chunk_id": 27,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "signal reflection and the associated transmission errors.\nEASY-NT-R resistors can be plugged into the corresponding splitter.\nFigure 3: RJ45 socket wiring\nPIN\nSignificance\n1\nCAN-\nNote:\nNot used in DE1 variable speed starters (with the exception of DE11).\n2\nCAN+\nNote:\nNot used in DE1 variable speed starters (with the exception of DE11).\n3\n0 V\n4\nOP bus (operation bus) / External keypad / PC connection -\n5\nOP bus (operation bus) / External keypad / PC connection +\n6\n24 V DC power supply\n7\nRS485- Modbus RTU\n8\nRS485+ Modbus RTU\n1\n2\n3\n4\n5\n6\n7\n8"
+  },
+  {
+    "chunk_id": 28,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.3 RJ 45 interface\n9\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n2.3.1 Enable\nDA1\nSTO is used as enable signal..\nDB1, DC1\nIf using Modbus, there must always be a high signal at DI1.\nFigure 4: Enable signal for bus mode in DC1 variable frequency drives\nDE1\nIf using Modbus, there must always be a high signal at DI1.\nFigure 5: Enable signal for bus mode in DE1 variable speed starters\n2.3.2 Data format\nDA1\nWhen using DA1 variable frequency drives, the data format can be selected \nusing parameter P5-04.\nThe default setting is as follows:\n•\nNo parity\n•\n1 start bit\n•\n1 stop bit\n•\n8 data bits\nDB1, DC1, DE1\nWhen using DC1 or DB1 variable frequency drives, the data format can be \nselected using parameter P-56. When using DE1 variable speed starters, the \ndata format can be selected using parameter P-48. \nThe default setting is as follows:\n•\nNo parity\n•\n1 start bit\n•\n1 stop bit\n•\n8 data bits\nDI1\n2\nFWD\n+24 V\n1\n1\n+10 V\nDI1\n1\n+10 V\nDI1\n1"
+  },
+  {
+    "chunk_id": 29,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "selected using parameter P-56. When using DE1 variable speed starters, the \ndata format can be selected using parameter P-48. \nThe default setting is as follows:\n•\nNo parity\n•\n1 start bit\n•\n1 stop bit\n•\n8 data bits\nDI1\n2\nFWD\n+24 V\n1\n1\n+10 V\nDI1\n1\n+10 V\nDI1\n1\n+24 V\nDI1\n0 V"
+  },
+  {
+    "chunk_id": 30,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.4 Communication parameters\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n10\n2.4 Communication parameters\nThe following tables list the communication parameters (sent to the PLC) for \nDA1, DB1 and DC1 variable frequency drives and DE1 variable speed \nstarters.\nAbbreviation\nSignificance\nID\nThe parameter's identification number in Modbus (identification number)\nRUN\nThe parameter can be accessed during operation (Run signal)\nro/rw\nParameter read and write permissions:\nro = read only\nrw = read and write\nDS\nDefault setting (the parameter's value when using the device's factory settings)"
+  },
+  {
+    "chunk_id": 31,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.4 Communication parameters\n11\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n2.4.1 Communication parameters for DA1 variable frequency drives\nTable 1:\nCommunication parameters for DA1\nDisplay\nID\nAccess right \nDesignation\nValue \nrange\nDescription\nDS\nRUN\nro/rw\nP1-12\n–\nrw\nLocal ProcessData \nSource\n0, …, 6,\n9, 10, 11, \n13\nLocal Configuration of Command and Reference \nSources\nPossible values:\n0: Terminal Control. The drive responds directly to \nsignals applied to the control terminals.\n1: Uni-directional digital reference. The drive can be \ncontrolled in the forward direction only using a digital \nreference (via internal or remote Keypad or terminals)\n2: Bi-directional digital reference. The drive can be \ncontrolled in the forward and reverse directions using \na digital reference (via internal or remote Keypad or \nterminals). Pressing the keypad START button toggles \nbetween forward and reverse."
+  },
+  {
+    "chunk_id": 32,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2: Bi-directional digital reference. The drive can be \ncontrolled in the forward and reverse directions using \na digital reference (via internal or remote Keypad or \nterminals). Pressing the keypad START button toggles \nbetween forward and reverse.\n3: PID controller. The output frequency will be \ncontrolled by the internal PID controller\n4: Fieldbus Control. Control via Modbus RTU if no \nfieldbus option is present, otherwise control from the \nfieldbus option module\n5: Server Mode. The Variable Frequency Drive acts as \na server to a connected drive operating in Client Mode.\n6: CANopen Control. Control via the CANopen bus \nconnected to the RJ45 serial interface connector.\n7: Reserved\n8: Reserved\n9: SmartWire Device Control and speed ref.\n10: SmartWire Device Control and terminal speed ref.\n11: Terminal Control and SmartWire Device speed ref.\n12: not permissible\n13: SmartWire Device Control and speed ref.  Digital \ninput sets enable.\n0\nP5-01\n501\n✓\nrw\nPDP-Adress\n0 - 63"
+  },
+  {
+    "chunk_id": 33,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "8: Reserved\n9: SmartWire Device Control and speed ref.\n10: SmartWire Device Control and terminal speed ref.\n11: Terminal Control and SmartWire Device speed ref.\n12: not permissible\n13: SmartWire Device Control and speed ref.  Digital \ninput sets enable.\n0\nP5-01\n501\n✓\nrw\nPDP-Adress\n0 - 63\nThe drive‘s unique address on a communication \nnetwork\n1\nP5-03\n503\n✓\nrw\nRS485-0 Baudrate\n0, 1, …, 4\nRS485 Baudrate\nPossible values:\n•\n0: 9.6 kBit/s\n•\n1: 19.2 kBit/s\n•\n2: 38.4 kBit/s\n•\n3: 57.6 kBit/s\n•\n4: 115.2 kBit/s\n4\nP5-04\n504\n✓\nrw\nRS495-0 ParityType\n0, 1, 2, 3\nRS485 0 Parity Type\nPossible values:\n•\n0: No parity, 1 stop bit (N-1)\n•\n1: No parity, 2 stop bits (N-2)\n•\n2: Odd parity, 1 stop bit (0-1)\n•\n3: Even parity, 1 stop bit (E-1)\nn-1"
+  },
+  {
+    "chunk_id": 34,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.4 Communication parameters\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n12\nP5-05\n505\n✓\nrw\nModbus RTU0 COM \nTimeout\nTimeout\nWith an active communication link, if a valid telegram \nis not received by the drive within the period set with \nthis parameter, the drive will react as set in P5-06.\n2\nP5-06\n506\n✓\nrw\nAction@Modbus RTU \nFault\n0, 1, 2, 3\nModbus communication loss error\nPossible values:\n•\n0: Switch off\n•\n1: Ramps down to a full stop and is switched off.\n•\n2: Ramps down to a full stop; no fault message.\n•\n3: Ramps to fixed frequency 8 (P2-08).\n0\nP5-07\n507\n✓\nrw\nFieldbusRampControl\n0, 1\nFieldbus Ramp Control\nPossible values:\n•\n0: OFF. Ramps are controlled from internal drives \nparameters\n•\n1: ON. Ramps are controlled by the fieldbus.\n0\nDisplay\nID\nAccess right \nDesignation\nValue \nrange\nDescription\nDS\nRUN\nro/rw"
+  },
+  {
+    "chunk_id": 35,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.4 Communication parameters\n13\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n2.4.2 Communication parameters for DB1 variable frequency drives\nTable 2:\nCommunication parameters for DB1\nPNU\nID\nAccess right \nDesignation\nValue \nrange\nDescription\nDS\nRUN\nro/rw\nP-12\n140\n–\nrw\nLocal Process Data \nSource\n0, 1, ..., 8\nLocal Configuration of Command and Reference Sources\n•\n0: Terminal mode. The drive responds directly to signals \napplied to the control terminals.\n•\n1: The drive can be controlled in the forward direction \nonly using an internal/external keypad.\n•\n2: The drive can be controlled in the forward and reverse \ndirections using an internal/external keypad.\n•\n2: Bi-directional Keypad Control. The drive can be \ncontrolled in the forward and reverse directions using an \ninternal/external or remote Keypad. Pressing the keypad \nSTART button toggles between forward and reverse.\n•\n3: Control via Modbus RTU communication\n•"
+  },
+  {
+    "chunk_id": 36,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "•\n2: Bi-directional Keypad Control. The drive can be \ncontrolled in the forward and reverse directions using an \ninternal/external or remote Keypad. Pressing the keypad \nSTART button toggles between forward and reverse.\n•\n3: Control via Modbus RTU communication\n•\n4: Control via Modbus. Ramp times via Modbus\n•\n5: PI controller with external actual value\n•\n6: PI controller with external actual value and totalized \nvalue of AI1\n•\n7: CANopen (internal ramp times)\n•\n8: CANopen (CANopen ramp times)\n0\nP-36\n164\n✓\nrw\nRS485-0 Address\n1 - 63\nUnique drive address in a communication network.\n1\nrw\nRS485-0 Baudrate\n2, 3, 4, 5, 6\nBaudrate\n•\n2: 9.6 kbit/s\n•\n3: 19.2 kbit/s\n•\n4: 38.4 kbit/s\n•\n5: 57.6 kbit/s\n•\n6: 115.2 kbit/s\n6\nrw\nModbus RTU0 COM \nTimeout\n0, 1, …, 8\nComm Timeout Modbus RTU\nTime between a communication loss and the resulting \naction.\nSetting 0 disables the action after communications trip.\nt: indicates the drive will trip if time exceeded."
+  },
+  {
+    "chunk_id": 37,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "•\n4: 38.4 kbit/s\n•\n5: 57.6 kbit/s\n•\n6: 115.2 kbit/s\n6\nrw\nModbus RTU0 COM \nTimeout\n0, 1, …, 8\nComm Timeout Modbus RTU\nTime between a communication loss and the resulting \naction.\nSetting 0 disables the action after communications trip.\nt: indicates the drive will trip if time exceeded.\nr: indicates the drive will ramp to stop if time exceeded.\nPossible values:\n•\n0: no action\n•\n1: t 30 ms\n•\n2: t 100 ms\n•\n3: t 1000 ms\n•\n4: t 3000 ms\n•\n5: r 30 ms\n•\n6: r 100 ms\n•\n7: r 1000 ms\n•\n8: r 3000 ms\n4\nP-56\n184\n–\nrw\nModbus ParityType\n0, 1, 2, 3\nPossible values\n•\n0: No Parity, 1 Stop Bit (N-1)\n•\n1: No Parity, 2 Stop Bits (N-2) \n•\n2: Odd Parity, 1 Stop Bit (O-1)\n•\n3: Even Parity, 1 Stop Bit (E-1)\n2"
+  },
+  {
+    "chunk_id": 38,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.4 Communication parameters\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n14\n2.4.3 Communication parameters for DC1 variable frequency drives\nTable 3:\nCommunication parameters for DC1\nPNU\nID\nAccess right \nDesignation\nValue \nrange\nDescription\nDS\nRUN\nro/rw\nP-12\n140\n–\nrw\nLocal Process Data \nSource\n0, 1, …, 11, \n13\nLocal Configuration of Command and Reference Sources\nPossible values:\n•\n0: Terminal Control. The drive responds directly to \nsignals applied to the control terminals.\n•\n1: Uni-directional Keypad Control.  The drive can be \ncontrolled in the forward direction only using an internal/\nexternal or remote Keypad \n•\n2: Bi-directional Keypad Control. The drive can be \ncontrolled in the forward and reverse directions using an \ninternal/external or remote Keypad. Pressing the keypad \nSTART button toggles between forward and reverse.\n•\n3: Modbus Control.Control via Modbus RTU \ncommunication.\n•"
+  },
+  {
+    "chunk_id": 39,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "•\n2: Bi-directional Keypad Control. The drive can be \ncontrolled in the forward and reverse directions using an \ninternal/external or remote Keypad. Pressing the keypad \nSTART button toggles between forward and reverse.\n•\n3: Modbus Control.Control via Modbus RTU \ncommunication.\n•\n4: Modbus Control. Ramp times via Modbus\n•\n5: PI controller with external actual value\n•\n6: PI controller with external actual value and totalized \nvalue of AI1\n•\n7: CANOpen (internal ramp times)\n•\n8: CANOpen (CANOpen ramp times)\n•\n9: SmartWire Device Control and speed ref.\n•\n10: SmartWire Device Control and terminal speed ref.\n•\n11: Terminal Control and SmartWire Device speed ref.\n•\n12: not permissible\n•\n13: SmartWire Device Control and speed ref. Digital \ninput sets enable\n0"
+  },
+  {
+    "chunk_id": 40,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.4 Communication parameters\n15\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\nP-36\n164\n✓\nrw\nRS485-0 Address\n1 - 63\nUnique drive address in a communication network.\n1\nrw\nRS485-0 Baudrate\n2, 3, 4, 5, 6\nRS485 Baudrate\n•\n2: 9.6 kbit/s\n•\n3: 19.2 kbit/s\n•\n4: 38.4 kbit/s\n•\n5: 57.6 kbit/s\n•\n6: 115.2 kbit/s\n2\nrw\nModbus RTU0 COM \nTimeout\n0, 1, …, 8\nModbus RTU0 COM Timeout\nTime between a communication loss and the resulting \naction.\nSetting 0 disables the action after communications trip.\nt: indicates the drive will trip if time exceeded.\nr: indicates the drive will ramp to stop if time exceeded.\nPossible values:\n•\n0: no action\n•\n1: t 30 ms\n•\n2: t 100 ms\n•\n3: t 1000 ms\n•\n4: t 3000 ms\n•\n5: r 30 ms\n•\n6: r 100 ms\n•\n7: r 1000 ms\n•\n8: r 3000 ms\n3000 \nms\nP-56\n184\n–\nrw\nModbus ParityType\n0, 1, 2, 3.\nPossible values:\n•\n0: No parity, 1 Stop Bit (N-1)\n•\n1: No Parity, 2 Stop Bits (N-2)\n•\n2: Odd Parity, 1 Stop Bit (0-1)\n•"
+  },
+  {
+    "chunk_id": 41,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "0: no action\n•\n1: t 30 ms\n•\n2: t 100 ms\n•\n3: t 1000 ms\n•\n4: t 3000 ms\n•\n5: r 30 ms\n•\n6: r 100 ms\n•\n7: r 1000 ms\n•\n8: r 3000 ms\n3000 \nms\nP-56\n184\n–\nrw\nModbus ParityType\n0, 1, 2, 3.\nPossible values:\n•\n0: No parity, 1 Stop Bit (N-1)\n•\n1: No Parity, 2 Stop Bits (N-2)\n•\n2: Odd Parity, 1 Stop Bit (0-1)\n•\n3: Even Parity, 1 Stop Bit (E-1)\n0-3\nPNU\nID\nAccess right \nDesignation\nValue \nrange\nDescription\nDS\nRUN\nro/rw"
+  },
+  {
+    "chunk_id": 42,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.4 Communication parameters\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n16\n2.4.4 Communication parameters for DE1 variable speed starters\nTable 4:\nCommunication parameters for DE1\nPNU\n ID\nAccess right\nDesignation\nValue range\nDescription\nDS\nRUN\nro/rw\nP-12\n140\nRUN\nrw\nLocal Process Data \nSource\n0, 1, 2, 3, 4,\n9, 10, 11, 13\nLocal Configuration of Command and \nReference Sources\n•\n0: Terminal Control. The drive responds \ndirectly to signals applied to the control \nterminals.\n•\n1: Uni-directional Keypad Control. The \ndrive can be controlled in the forward \ndirection only using an internal/external or \nremote Keypad \n•\n2: Bi-directional Keypad Control. The drive \ncan be controlled in the forward and \nreverse directions using an internal/\nexternal or remote Keypad. Pressing the \nkeypad START button toggles between \nforward and reverse.\n•\n3: Modbus Control.Control via Modbus RTU \ncommunication.\n•\n4: CANOpen\n•"
+  },
+  {
+    "chunk_id": 43,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "•\n2: Bi-directional Keypad Control. The drive \ncan be controlled in the forward and \nreverse directions using an internal/\nexternal or remote Keypad. Pressing the \nkeypad START button toggles between \nforward and reverse.\n•\n3: Modbus Control.Control via Modbus RTU \ncommunication.\n•\n4: CANOpen\n•\n9: SmartWire Device Control and speed ref.\n•\n10: SmartWire Device Control and terminal \nspeed ref.\n•\n11: Terminal Control and SmartWire \nDevice speed ref.\n•\n12: not permissible\n•\n13: SmartWire Device Control and speed \nref. Digital input sets enable\n0\nP-35\n163\nRUN\nrw\nRS485-0 Baudrate\n0, 1, …, 4\nModbus Baud rate\n0: 960 Bit/s\n1: 19.2 kbit/s\n2: 38.4 kbit/s\n3: 57.6 kbit/s\n4: 115.2 kbit/s\n4"
+  },
+  {
+    "chunk_id": 44,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.4 Communication parameters\n17\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\nP-36\n164\nRUN\nrw\nModbus RTU0 COM \ntimeout\nModbus RTU0 COM Timeout\nTime between a communication loss and the \nresulting action. Setting 0 disables the action \nafter communications trip.\nt: indicates the drive will trip if time exceeded.\nr: indicates the drive will ramp to stop if time \nexceeded.\n•\n0: no action\n•\n1: t 30 ms\n•\n2: t 100 ms\n•\n3: t 1000 ms\n•\n4: t 3000 ms\n•\n5: r 30 ms\n•\n6: r 100 ms\n•\n7: r 1000 ms\n•\n8: r 3000 ms\n0\nP-47\n175\nRUN\nrw\nModbus Address\n1...255\nThis parameter is used as dedicated Modbus \ncommunication address, range from 1 - 255. If \nSWD module is used this parameter must be \nset to 1\n1\nP-48\n176\nRUN\nrw\nModbus \nCommunication Data \nFormat\n0, 1, 2, 3\nThis parameter is used as Modbus dedicated \ndata format parameter. If SWD module is used \nthis parameter must be set to 0. There are 4 \noptions to be selected:\n•"
+  },
+  {
+    "chunk_id": 45,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "SWD module is used this parameter must be \nset to 1\n1\nP-48\n176\nRUN\nrw\nModbus \nCommunication Data \nFormat\n0, 1, 2, 3\nThis parameter is used as Modbus dedicated \ndata format parameter. If SWD module is used \nthis parameter must be set to 0. There are 4 \noptions to be selected:\n•\n0: 1 start bit, 8 data bits, 1 stop bit, no \nparity\n•\n1: 1 start bit, 8 data bits, 2 stop bit, no \nparity\n•\n2: 1 start bit, 8 data bits, 1 stop bit, odd \nparity\n•\n3: 1 start bit, 8 data bits, 1 stop bit, even \nparity\n1\nPNU\n ID\nAccess right\nDesignation\nValue range\nDescription\nDS\nRUN\nro/rw"
+  },
+  {
+    "chunk_id": 46,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.5 Configuration of the control signal terminals\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n18\n2.5 Configuration of the control signal terminals\nThe following control signal terminal configuration tables use the \nabbreviations and acronyms listed below:\nTable 5:\nAbbreviations and acronyms for control signal terminals\nAbbreviation\nSignificance\nAI1 REF\nAnalog input AI1\nUsed as a speed setpoint input.\nAI2 REF\nAnalog input AI2\nUsed as a speed setpoint input.\nAI2 Torque REF\nAnalog input AI2\nUsed as a torque setpoint input.\nDIR\nUsed to select an operating direction\nUsed together with the START command.\n•\nLow = Forward (FWD )\n•\nHigh = Anticlockwise operation (REV)\nNote:\nIf there is a wire breakage and the REV operating direction is selected, this will cause \nthe drive to reverse!\nAlternative: Use configuration with FWD/REV.\nDOWN\nUsed to reduce the speed if a digital setpoint value is selected.\nUsed together with the UP command.\nENA"
+  },
+  {
+    "chunk_id": 47,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Note:\nIf there is a wire breakage and the REV operating direction is selected, this will cause \nthe drive to reverse!\nAlternative: Use configuration with FWD/REV.\nDOWN\nUsed to reduce the speed if a digital setpoint value is selected.\nUsed together with the UP command.\nENA\nVariable frequency drive enable signal (ENA = Enable)\nA start signal (START, FWD, REV) is additionally required for starting.\nIf ENA is removed, the drive will coast.\nEXTFLT\nExt Fault/Warning\nFWD\nUsed to start the drive in the forward direction (FWD = Forward)\nINV\nChange of rotation (INV = Inverse)\nThe operating direction will be reversed as per the configured ramps.\n•\nHigh = invert\n•\nLow = Do not reverse\nPulse FWD (NO)\nPulse REV (NO)\nPulse STOP (NC)\nPulse control\nREV\nUsed to start the drive in the reverse direction (REV = Reverse)\nSelect Quick-Dec\nQuick Stop\nSelect AI1 REF/AI2 REF\nUsed to select between the analog setpoint values on AI1 and AI2\n•\nAI1 = Low\n•\nAI2 = High\nSelect AI1 REF/f-Fix"
+  },
+  {
+    "chunk_id": 48,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Pulse FWD (NO)\nPulse REV (NO)\nPulse STOP (NC)\nPulse control\nREV\nUsed to start the drive in the reverse direction (REV = Reverse)\nSelect Quick-Dec\nQuick Stop\nSelect AI1 REF/AI2 REF\nUsed to select between the analog setpoint values on AI1 and AI2\n•\nAI1 = Low\n•\nAI2 = High\nSelect AI1 REF/f-Fix\nUsed to select between analog speed reference values at analog input 1\nSelect AI1 REF/f-Fix1\nUsed to select between analog speed reference values at analog input 1\nSelect BUS REF/AI2 REF\nUsed to select between setpoint values\nSelect BUS REF/f-Fix\nUsed to select between setpoint values\nSelect BUS REF/f-Fix1\nUsed to select between setpoint values\nSelect DIG REF/AI2 REF\nUsed to select between the digital speed reference value (set with the keypad or with \nthe UP and DOWN commands) and analog setpoint value AI2 REF\nSelect DIG REF/f-Fix\nDA1 only\nUsed to select between the digital speed reference value (set with the keypad or with \nthe UP and DOWN commands) and a fixed frequency"
+  },
+  {
+    "chunk_id": 49,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.5 Configuration of the control signal terminals\n19\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\nSelect DIG REF/f-Fix1\nDA1 only\nUsed to select between the digital speed reference value (set with the keypad or with \nthe UP and DOWN commands) and fixed frequency 1 (f-Fix1) set with P2-01\n•\nLow = digital setpoint value\n•\nHigh = Preset Speed 1\nSelect f-Fix Bit0\nSelect f-Fix Bit1\nSelect f-Fix Bit2\nUsed to select a fixed frequency with digital commands\nFixed frequencies f-Fix1, …, f-Fix8 are defined with parameters P2-01, …, P2-08.\n0 = Low; 1 = High\nSelect PID REF/AI2 REF\nDA1 only\nUsed to select between setpoint values\n•\nLow = Setpoint from the PID controller's output\n•\nHigh = AI2\nSelect PID REF/f-Fix\nDA1 only\nUsed to select between setpoint values\n•\nLow = Setpoint from the PID controller's output\n•\nHigh = Fixed frequency\nThe fixed frequency itself is selected with the\nSelect f-Fix Bit0, Select f-Fix Bit1, Select f-Fix Bit2 commands."
+  },
+  {
+    "chunk_id": 50,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "•\nHigh = AI2\nSelect PID REF/f-Fix\nDA1 only\nUsed to select between setpoint values\n•\nLow = Setpoint from the PID controller's output\n•\nHigh = Fixed frequency\nThe fixed frequency itself is selected with the\nSelect f-Fix Bit0, Select f-Fix Bit1, Select f-Fix Bit2 commands.\nSelect PID REF/f-Fix1\nDA1 only\nUsed to select between setpoint values\n•\nLow = Setpoint from the PID controller's output\n•\nHigh = f-Fix1 (set with P2-01)\nSelect Quick-dec\nDA1 only\nUsed to activate a quick stop with the ramp set with P2-25\nIn order to activate the quick stop, there must be a high signal at both terminals\nSelect t-dec1/\nSelect t-dec2\nDA1 only\nUsed to select between deceleration ramp 1 t-dec1 set with P1-04 and deceleration \nramp 2 t-dec2 (P8-11)\n•\nLow = Deceleration ramp 1\n•\nHigh = Deceleration ramp 2\nSTART\nUsed to start/stop the drive\nUP\nUsed to increase the speed if a digital setpoint is selected\nUsed together with the DOWN command.\nMOR"
+  },
+  {
+    "chunk_id": 51,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "ramp 2 t-dec2 (P8-11)\n•\nLow = Deceleration ramp 1\n•\nHigh = Deceleration ramp 2\nSTART\nUsed to start/stop the drive\nUP\nUsed to increase the speed if a digital setpoint is selected\nUsed together with the DOWN command.\nMOR\nManual Activation: If the MOR setting is active, the drive ignores field bus control and\nswitches to terminal mode.\nAbbreviation\nSignificance\nFixed \n Bit 2\n Bit 1\n Bit 0\nf-Fix1 (P2-01)\n0\n0\n0\nf-Fix2 (P2-02)\n0\n0\n1\nf-Fix3 (P2-03)\n0\n1\n0\nf-Fix4 (P2-04)\n0\n1\n1\nf-Fix5 (P2-05)\n1\n0\n0\nf-Fix6 (P2-06)\n1\n0\n1\nf-Fix7 (P2-07)\n1\n1\n0\nf-Fix8 (P2-08)\n1\n1\n1"
+  },
+  {
+    "chunk_id": 52,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.5 Configuration of the control signal terminals\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n20\n2.5.1 Control signal terminal configuration for DA1 variable frequency drives\nThe control signal terminal configuration can be selected using parameter \nP1-13, i.e., setting P1-13 to a value within a range of 1 to 21 will activate the \ncorresponding predefined terminal configuration. The setting (digital/analog) \nfor terminals 6 and 10 will be set automatically based on the configuration \nselected with parameter P1-13. In addition to these predefined \nconfigurations, it is also possible to configure the terminals freely, in which \ncase P1-13 must be set to a value of 0. The actual configuration can then be \nset up using menu 9.\nP1-12 = 4: Control via fieldbus\nTable 6:\nControl signal terminal configuration for DA1\nP1-13\nDI1\n(terminal 2)\nDI2\n(terminal 3)\nDI3\n(terminal 4)\nDI4/AI1\n(terminal 6)\nDI5/AI2\n(terminal 10)\n0\nuser-definable"
+  },
+  {
+    "chunk_id": 53,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "set up using menu 9.\nP1-12 = 4: Control via fieldbus\nTable 6:\nControl signal terminal configuration for DA1\nP1-13\nDI1\n(terminal 2)\nDI2\n(terminal 3)\nDI3\n(terminal 4)\nDI4/AI1\n(terminal 6)\nDI5/AI2\n(terminal 10)\n0\nuser-definable\nuser-definable\nuser-definable\nuser-definable\nuser-definable\n1\nSTART\nINV\nSelect BUS REF/f-Fix\nNo function\nSelect f-Fix Bit0\n2\nNot permissible\n3\nNot permissible\n4\nSTART\nINV\nSelect BUS REF/f-Fix1\nNo function\nSelect t-dec/t-dec2\n5\nSTART\nINV\nSelect BUS REF/AI2 REF\nNo function\nAI2 REF\n6\nSTART\nINV\nSelect BUS REF/f-Fix1\nNo function\nEXTFLT\n7\nNot allowed\n8\nNot allowed\n9\nSTART\nINV\nSelect f-Fix Bit0\nSelect f-Fix Bit1\nSelect BUS REF/f-Fix\n10\nSTART\nINV\nNo function\nNo function\nSelect BUS REF/f-Fix1\n11\nSelect Quick-dec\nSelect Quick-dec\nSelect BUS REF/f-Fix\nNo function\nSelect f-Fix Bit0\n12\nNot permissible\n13\nNot permissible\n14\nSelect Quick-dec\nSelect Quick-dec\nSelect BUS REF/f-Fix1\nNo function\nSelect t-dec/t-dec2\n15\nSelect Quick-dec\nSelect Quick-dec\nSelect BUS REF/AI2 REF"
+  },
+  {
+    "chunk_id": 54,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Select BUS REF/f-Fix1\n11\nSelect Quick-dec\nSelect Quick-dec\nSelect BUS REF/f-Fix\nNo function\nSelect f-Fix Bit0\n12\nNot permissible\n13\nNot permissible\n14\nSelect Quick-dec\nSelect Quick-dec\nSelect BUS REF/f-Fix1\nNo function\nSelect t-dec/t-dec2\n15\nSelect Quick-dec\nSelect Quick-dec\nSelect BUS REF/AI2 REF\nNo function\nAI2 REF\n16\nSelect Quick-dec\nSelect Quick-dec\nSelect BUS REF/f-Fix1\nNo function\nEXTFLT\n17\nNot permissible\n18\nNot permissible\n19\nSelect Quick-dec\nSelect Quick-dec\nSelect f-Fix Bit0\nSelect f-Fix Bit1\nSelect BUS REF/f-Fix\n20\nSelect Quick-dec\nSelect Quick-dec\nNo function\nNo function\nSelect BUS REF/f-Fix1\n21\nNot permissible"
+  },
+  {
+    "chunk_id": 55,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.5 Configuration of the control signal terminals\n21\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n2.5.2 Control signal terminal configuration for DB1 & DC1 variable frequency drives\nP-12 = 3, 4: Control via fieldbus\nTable 7:\nControl signal terminal configuration for DB1 & DC1\n1) When DI2 is open, start and stop are controlled via Modbus. When DI2 is closed, drive auto-runs. If DI1 is closed, \nand P-36 Modbus RTU0 COM Timeout is set to \"0: no action\".\nP-15\nDI1\n(Terminal 2)\nDI2\n(Terminal 3)\nDI3/AI2\n(Terminal 4)\nDI4/AI1\n(Terminal 6)\n0\nSTART\nDIR\nSelect AI1 REF/f-Fix1\nAI1 REF\n1\nFWD\nSelect AI1 REF/f-Fix\nSelect f-Fix Bit0\nAI1 REF\n2\nFWD\nSelect f-Fix Bit0\nSelect f-Fix Bit1\nSelect f-Fix/f-max\n3\nFWD\nSelect AI1 REF/f-Fix1\nEXTFLT\nAI1 REF\n4\nFWD\nSelect AI1 REF/AI2 REF\nAI2 REF\nAI1 REF\n51)\nFWD\nREV\nSelect AI1 REF/f-Fix1\nAI1 REF\n61)\nSTART\nDIR\nEXTFLT\nAI1 REF\n71)\nFWD\nREV\nEXTFLT\nAI1 REF\n8\nSTART\nDIR\nSelect f-Fix Bit0\nSelect f-Fix Bit1\n9\nFWD\nREV"
+  },
+  {
+    "chunk_id": 56,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Select f-Fix Bit0\nSelect f-Fix Bit1\nSelect f-Fix/f-max\n3\nFWD\nSelect AI1 REF/f-Fix1\nEXTFLT\nAI1 REF\n4\nFWD\nSelect AI1 REF/AI2 REF\nAI2 REF\nAI1 REF\n51)\nFWD\nREV\nSelect AI1 REF/f-Fix1\nAI1 REF\n61)\nSTART\nDIR\nEXTFLT\nAI1 REF\n71)\nFWD\nREV\nEXTFLT\nAI1 REF\n8\nSTART\nDIR\nSelect f-Fix Bit0\nSelect f-Fix Bit1\n9\nFWD\nREV\nSelect f-Fix Bit0\nSelect f-Fix Bit1\n10\nPulse FWD (NO)\nPulse STOP (NC)\nSelect AI1 REF/f-Fix1\nAI1 REF\n11\nPulse FWD (NO)\nPulse STOP (NC)\nPulse REV (NO)\nAI1 REF\n12\nFWD\nSelect t-dec/t-QuickDec\nSelect AI1 REF/f-Fix1\nAI1 REF\n13\nFWD\nSelect f-Fix Bit0\nEXTFLT\nSelect f-Fix Bit1\n14\nPulse FWD (NO)\nPulse STOP (NC)\nPulse REV (NO)\nSelect DIG REF/f-Fix1\n15\nFWD\nSelect f-Fix4/AI1 REF\nSelect Fire Mode/Normal OP\nAI1 REF\n16\nFWD\nSelect f-Fix4/f-Fix2\nSelect Fire Mode/Normal OP\nDIR\n17\nFWD\nSelect f-Fix Bit0\nSelect Fire Mode/Normal OP\nSelect f-Fix Bit1"
+  },
+  {
+    "chunk_id": 57,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.5 Configuration of the control signal terminals\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n22\n2.5.3 Control signal terminal configuration for DE1 variable speed starters\nP-12 = 3\nFigure 6: Digital control when P-12 = 3 (example)\nTable 8:\nControl signal terminal configuration for DE1\nThe activated operating direction will depend on the digital input being driven \n(DI1, DI2) and on the value in command ID1, bit 1.\nTable 9:\nOperating direction based on digital inputs DI1 and DI2\n P-15\nDI1\nDI2\nDI3\nDI4\n01)\nENA\nENADIR\nFF1\nMOR\n1\nENA\nENADIR\nEXTFLT\nn. F.\n22)\nENA\nENADIR\nFF20\nFF21\n33)\nENA\nFF1\nEXTFLT\nn. F.\n42)\nENA\nUP\nFF1\nDOWN\n52)\nENA\nUP\nEXTFLT\nDOWN\n62)\nENA\nENADIR\nUP\nDOWN\n72)\nENA\nFF20\nEXTFLT\nFF21\n81)\nENA\nDIR\nFF1\nn. F.\n9\nENA\nDIR\nEXTFLT\nn. F.\n1) Setpoint values sent via Modbus will be ignored if DI3 is active.\n2) P-15 = 4, 5, and 6 requires an enable signal (start command) via Modbus and at"
+  },
+  {
+    "chunk_id": 58,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "n. F.\n42)\nENA\nUP\nFF1\nDOWN\n52)\nENA\nUP\nEXTFLT\nDOWN\n62)\nENA\nENADIR\nUP\nDOWN\n72)\nENA\nFF20\nEXTFLT\nFF21\n81)\nENA\nDIR\nFF1\nn. F.\n9\nENA\nDIR\nEXTFLT\nn. F.\n1) Setpoint values sent via Modbus will be ignored if DI3 is active.\n2) P-15 = 4, 5, and 6 requires an enable signal (start command) via Modbus and at \nDI1. Digital reference values sent via Modbus will be ignored in this case.\nIt will only be possible to use UP and DOWN to set a setpoint value.\n3) Setpoint values sent via Modbus will be ignored if DI2 is active.\nn.F. = No function. When configured this way, the control terminals “n.F.” will \nhave no function whatsoever!\n￫\nIf Modbus RTU is being used, there must always be an enable \nsignal (ENA) present at DI1 control signal terminal (or DI2 = \nENADIR) before the enable signal sent via Modbus RTU will be \naccepted, ￫Figure 5, page 9.\nDI1\n(ENA)\nDI2\n(ENADIR)\nModbus RTU\ncommand (ID1)\nDirection of rotating \nfield (Motor)\nH = FWD\nL\nBit0 = 1\nBit1 = 0 (FWD) →\nFWD (right)\nL \nH = REV\nBit0 = 1"
+  },
+  {
+    "chunk_id": 59,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "ENADIR) before the enable signal sent via Modbus RTU will be \naccepted, ￫Figure 5, page 9.\nDI1\n(ENA)\nDI2\n(ENADIR)\nModbus RTU\ncommand (ID1)\nDirection of rotating \nfield (Motor)\nH = FWD\nL\nBit0 = 1\nBit1 = 0 (FWD) →\nFWD (right)\nL \nH = REV\nBit0 = 1\nBit1 = 0 (FWD) →\nREV (left)\nH = FWD\nL\nBit0 = 1\nBit1 = 1 (REV) →\nREV (left)\nL\nH = REV\nBit0 = 1\nBit1 = 1 (REV) →\nFWD (right)\nDI3\nDI4\nDI2\nDI1\n0 V\n4\n3\n2\n1\n+10 V"
+  },
+  {
+    "chunk_id": 60,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.5 Configuration of the control signal terminals\n23\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\nAnalog setpoint values for the DE1 device via control signal terminal 4 (AI1) \nwill be disabled. In addition to setpoint values set via Modbus RTU, it will \nalso be possible to set setpoint values directly with the control signal \nterminals:\n•\nFixed frequencies (FF1 to FF4), coded in binary with FF20 and FF21\n•\nDigitally setting the setpoint value with the UP and DOWN commands\n(P-15 = 4, 5, 6).\nIn addition to fixed frequency FF1, which can be activated directly, fixed \nfrequencies (FF1 to FF4) can be selected by using the binary-coded FF20 and \nFF21 inputs.\nTable 10: Fixed frequencies\n￫\nIf P-13 = 2, 4, 5, 6, 7: Setting the setpoint value with the control \nsignal terminals will disable setting setpoint values via Modbus \nRTU.\nFixed \nfrequency\nFF20\nFF21\nf2 (DS)\nPNU\nFF1\nL\nL\n20 hz\nP-20\nFF2\nH\nL\n30 hz\nP-21\nFF3\nL\nH\n40 hz\nP-22\nFF4\nH\nH\n50 Hz"
+  },
+  {
+    "chunk_id": 61,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "FF21 inputs.\nTable 10: Fixed frequencies\n￫\nIf P-13 = 2, 4, 5, 6, 7: Setting the setpoint value with the control \nsignal terminals will disable setting setpoint values via Modbus \nRTU.\nFixed \nfrequency\nFF20\nFF21\nf2 (DS)\nPNU\nFF1\nL\nL\n20 hz\nP-20\nFF2\nH\nL\n30 hz\nP-21\nFF3\nL\nH\n40 hz\nP-22\nFF4\nH\nH\n50 Hz\nP-23\nf2: DE1 variable speed starter output frequency\nDefault setting values (DS) with the corresponding parameter numbers (PNUs)."
+  },
+  {
+    "chunk_id": 62,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n24\n2.6 Operating mode Modbus RTU\nThe Modbus RTU (Remote Terminal Unit) operating mode transmits data in \nbinary format (higher data throughput) and defines the transfer format for \ndata requests and data responses. Each message byte that is sent contains \ntwo hexadecimal characters (0 - 9, A - F).\nData is transmitted between a client (PLC) and the variable frequency drive/\nvariable speed starter as illustrated in the following diagram:\n•\nClient request: the client sends a Modbus frame to the variable \nfrequency drive/variable speed starter.\n•\nServer response: The variable frequency drive/variable speed starter \nsends a protocol frame (Modbus frame) as a response to the client.\nFigure 7:  Data exchange between client and server\n￫\nThe variable frequency drive/variable speed starter (server) only"
+  },
+  {
+    "chunk_id": 63,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "frequency drive/variable speed starter.\n•\nServer response: The variable frequency drive/variable speed starter \nsends a protocol frame (Modbus frame) as a response to the client.\nFigure 7:  Data exchange between client and server\n￫\nThe variable frequency drive/variable speed starter (server) only \nsends a response if it has received a request from the client \nbeforehand.\nStart\nServer\nClient\nAddress (1 Byte)\nFunction code (1 Byte)\nData (N x 1 Byte)\nCRC (2 Bytes)\nEnd\nStart\nAddress (1 Byte)\nFunction code (1 Byte)\nData (N x 1 Byte)\nCRC (2 Bytes)\nEnd"
+  },
+  {
+    "chunk_id": 64,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\n25\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n2.6.1 Structure of the client request\n2.6.1.1 Address\n•\nParameter P5-01 (DA1), P-36 (DB1, DC1), or P-47 (DE1) is used to enter \nthe address (1 to 63) of the variable frequency drive/variable speed \nstarter to which the request is being sent. Only the variable frequency \ndrive/variable speed starter with this address will be able to respond to \nthe request.\n•\nAddress 0 is used for what is referred to as broadcasts (message to all \nbus nodes) from the client. In this mode, individual nodes cannot be \naddressed and data cannot be output by the servers.\n2.6.1.2 Function Code\nThe function code defines the type of message.\nThe following actions can be performed:\n2.6.1.3 Data\nThe length of the data block (data: N x 1 bytes) depends on the function \ncode. The function code is made up of two hexadecimal values and has a"
+  },
+  {
+    "chunk_id": 65,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2.6.1.2 Function Code\nThe function code defines the type of message.\nThe following actions can be performed:\n2.6.1.3 Data\nThe length of the data block (data: N x 1 bytes) depends on the function \ncode. The function code is made up of two hexadecimal values and has a \nrange of 00 to FF. The data block contains additional information for the \nserver that will enable the latter to perform the operation specified by the \nclient in the function code (this information may specify the parameters that \nneed to be processed, for example).\n2.6.1.4 Cyclic redundancy check (CRC)\nFrames in the Modbus RTU operating mode include a cyclic redundancy \ncheck (CRC). The CRC field is made up of two bytes that contain a binary \n16-bit value. The CRC is always performed independently of the parity check \nfor the frame's individual values. The CRC result is appended to the frame by \nthe client. While receiving the frame, the server performs a new calculation"
+  },
+  {
+    "chunk_id": 66,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "16-bit value. The CRC is always performed independently of the parity check \nfor the frame's individual values. The CRC result is appended to the frame by \nthe client. While receiving the frame, the server performs a new calculation \nand compares the calculated value to the actual value in the CRC field. If both \nvalues are not identical, an error is set.\nFunction code\n[hex]\nDesignation\nDescription\n03\nRead Holding Registers\nUsed to read the holding registers (process data, parameters,\nconfiguration) in the server.\nA client request enables up to 11 registers to be read.\n06\nWrite Single Register\nWriting of a holding register in the server.\nWith a general telegram (Broadcast) the appropriate holding \nregisters  are written in all servers. The register is read back \nfor comparison.\n16\nSet Multiple Register\nWrite one or more registers.\n23\nRead/Write Multiple \nRegisters\nWrite and read one or more registers at the same time."
+  },
+  {
+    "chunk_id": 67,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n26\n2.6.2 Structure of the server response\n2.6.2.1 Required transfer time\n•\nThe time between the moment a request is received from the client and \nthe variable frequency drive‘s/variable speed starter's response is at \nleast 3.5 characters (rest time).\n•\nOnce the client has received a response from the variable frequency \ndrive/variable speed starter, it must wait for at least the rest time before \nit can send a new request.\n2.6.2.2 Normal server response\n•\nIf the client request contains a write-register function (function code 06), \nthe variable frequency drive/variable speed starter immediately returns \nthe request as a response.\n•\nIf the client request contains a read-register function (function code 03), \nthe variable frequency drive/variable speed starter returns the read data \nwith the server address and the function code as a response."
+  },
+  {
+    "chunk_id": 68,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "the request as a response.\n•\nIf the client request contains a read-register function (function code 03), \nthe variable frequency drive/variable speed starter returns the read data \nwith the server address and the function code as a response.\n2.6.2.3 No server response\nIn the following cases, the variable frequency drive/variable speed starter \nignores the request and does not send a reply:\n•\non receiving a broadcast request.\n•\nif the request contains a transmission error.\n•\nIf the server address in the request does not match the variable \nfrequency drive‘s/variable speed starter‘s address.\n•\nWith a CRC or parity error.\n•\nIf the time interval between the messages is less than 3.5 characters.\n￫\nThe client must be programmed to repeat the request if it does \nnot receive a response within a specified time."
+  },
+  {
+    "chunk_id": 69,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\n27\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n2.6.3 Modbus: Register mapping\nRegister mapping makes it possible to process, in the variable frequency \ndrive/variable speed starter, the contents in the following table using \nModbus RTU.\nDA1\nDB1, DC1\nDE1\nGroup\nRegister\nParameter\n101 - 941\nInput process data\n1 - 4\nOutput process data\n6 - 43\nGroup\nRegister\nParameter\n129 - 197\nInput process data\n1, 2, 4\nOutput process data\n6 - 24\nGroup\nRegister\nParameter\n129 - 169\nInput process data\n1 - 2\nOutput process data\n6 - 24\n￫\nThe interface driver in certain controllers (e.g. PLCs) may have \nan offset of +1 for Modbus RTU communications\n￫\nThe decimal point is not taken into account when processing \nvalues!\nFor example, if the motor current (Register 8) shown on the \nDA1 variable frequency drive‘s display is 0.3 A, it will be \ntransmitted as 003dec via Modbus."
+  },
+  {
+    "chunk_id": 70,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n28\n2.6.4 Input process data\nInput process data is used to control the variable frequency drive/variable \nspeed starter.\n2.6.4.1 Command (ID 1)\nThese bits are used to control the variable frequency drive/variable speed \nstarter. The content can be adapted to your own application and then sent as \na control word to the variable frequency drive.\nID\nDesignation\nScaling Factor\nUnit\n1\nFieldbus command\n–\nBinary code\n2\nFieldbus speed reference value\n0.1\nHz\n3\nTorque reference (DA1 only)\n0.1\n%\n4\nModbus ramp time (DA1, DB1, DC1 \nonly)\n0.01\ns\nBit\nDescription\nValue = 0\nValue = 1\n0\nStop\nOperational\n1\nClockwise rotating field (FWD)\nAnticlockwise rotating field (REV)\n2\nNo action\nReset Fault\n3\nNo action\nCoast to stop\n4\nNot used\n5\nNo action\nQuick stop (ramp 2)\n6\nNo action\nFixed frequency FF1\n7\nNo action\nOverwrite setpoint value with 0\n8\nNot used\n9\nNot used\n10\nNot used\n11"
+  },
+  {
+    "chunk_id": 71,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "0\nStop\nOperational\n1\nClockwise rotating field (FWD)\nAnticlockwise rotating field (REV)\n2\nNo action\nReset Fault\n3\nNo action\nCoast to stop\n4\nNot used\n5\nNo action\nQuick stop (ramp 2)\n6\nNo action\nFixed frequency FF1\n7\nNo action\nOverwrite setpoint value with 0\n8\nNot used\n9\nNot used\n10\nNot used\n11\nNot used\n12\nNot used\n13\nNot used\n14\nNot used\n15\nNot used"
+  },
+  {
+    "chunk_id": 72,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\n29\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n2.6.4.2 Speed reference value (ID 2)\nThe permissible values fall within a range of\n•\nP1-02 (minimum frequency) to P1-01 (maximum frequency) for DA1\n•\nP-02 (minimum frequency) to P-01(maximum frequency) for DB1\n•\nP-02 (minimum frequency) to P-01(maximum frequency) for DC1\n•\nP-02 (minimum frequency) to P-01(maximum frequency) for DE1\nIn the application, the values will be scaled by a factor of 0.1.\n2.6.4.3 Torque reference input (ID 3 – DA1 only)\nThe permissible values fall within a range of 0 - 2000.\nIn the application, the values will be scaled by a factor of 0.1, i. e. \n1000 ≙100 %.\n2.6.4.4 Modbus ramp times (ID 4 – DA1, DB1 & DC1 only)\nThe permissible values fall within a range of 0 - 60000.\nIn the application, the values will be scaled by a factor of 0.01, i. e.\n300 ≙3 s.\n15\n14\n13\n12\n11\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\nMSB\nLSB"
+  },
+  {
+    "chunk_id": 73,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n30\n2.6.5 Output process data\nOutput process data is used to control the variable frequency drive/variable \nspeed starter.\n2.6.5.1 Status and fault word (ID 6)\nDevice status and fault message information is provided in the status word \n(bit 0 to bit 7) and fault word (bit 8 to bit 15).\nStatus word\nID\nBezeichnung\nSkalierungsfaktor\nEinheit/Format\n6\nStatus and fault word\n–\nBinärcode\n7\nActual speed\n0,1\nHz\n8\nMotor current\n0,1\nA\n9\nTorque (DA1, DB1, DC1 only)\n0,1\n%\n10\nOutput power (DA1, DB1, DC1 only)\n1\nkW bzw. HP\n11\nDigital inputs\n–\nBinärcode\n12\nType\n–\nWORD\n13\nPower\n1\nkW bzw. HP\n14\nVoltage range\n1\nV\n15\nControl section software version \n–\nWORD\n16\nPower section software version\n–\nWORD\n17\nVariable frequency drive recognition\n–\nWORD\n15\n14\n13\n12\n11\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\nMSB\nLSB\nFault word\nstatus word\nBit\nDescription\nValue = 0\nValue = 1\n0\nDrive not ready"
+  },
+  {
+    "chunk_id": 74,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "13\nPower\n1\nkW bzw. HP\n14\nVoltage range\n1\nV\n15\nControl section software version \n–\nWORD\n16\nPower section software version\n–\nWORD\n17\nVariable frequency drive recognition\n–\nWORD\n15\n14\n13\n12\n11\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\nMSB\nLSB\nFault word\nstatus word\nBit\nDescription\nValue = 0\nValue = 1\n0\nDrive not ready\nReady for operation (READY)\n1\nStop\nRunning operation message (RUN)\n2\nClockwise rotating field (FWD)\nAnticlockwise rotating field (REV)\n3\nno error\nFault detected (FAULT)\n4\nAcceleration ramp\nFrequency actual value equals setpoint input\n5\n–\nZero speed\n6\nSpeed control deactivated\nSpeed control activated\n7\nDA1 only:\nInhibit ￫ STO STATUS\nDB1, DC1, DE1:\nHardware release: no\nDA1 only:\nReady ￫ STO\nDB1, DC1, DE1:\nHardware release: yes"
+  },
+  {
+    "chunk_id": 75,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\n31\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\nFault word\nTable 11: Fault messages\nError no.\nDevice series\nMessage\n(display on DA1, DC1)\nPossible cause\ndec\nhex\nDA1, DB1, DC1, \nDE1\nStop\nThe enable signal for the drive is not active (this is not an error message).\n00\n00\nDA1, DB1, DC1, \nDE1\nno-Flt\nShown for P0-13 if there are no messages in the error register.\n01\n01\nDA1, DB1, DC1, \nDE1\nOI-b\nExcessively high braking current\n02\n02\nDA1, DB1, DC1, \nDE1\nOL-br\nThermal overload on braking resistor.\n03\n03\nDA1, DB1, DC1, \nDE1\nO-I\nOvercurrent at variable frequency drive output\n04\n04\nDA1, DB1, DC1, \nDE1\nI.t-trP\nMotor overload. \n05\n05\nDA1, DB1, DC1, \nDE1\nPS-trp\nOvercurrent (Hardware)\n06\n06\nDA1, DB1, DC1, \nDE1\nO.Volt\nOvervoltage in DC link\n07\n07\nDA1, DB1, DC1, \nDE1\nVVolt\nUndervoltage in DC link.\n08\n08\nDA1, DB1, DC1, \nDE1\nO-t\nOvertemperature at heat sink. \n09\n09\nDA1, DB1, DC1, \nDE1\nV-t\nUnder-temperature\n10\n0A"
+  },
+  {
+    "chunk_id": 76,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "05\n05\nDA1, DB1, DC1, \nDE1\nPS-trp\nOvercurrent (Hardware)\n06\n06\nDA1, DB1, DC1, \nDE1\nO.Volt\nOvervoltage in DC link\n07\n07\nDA1, DB1, DC1, \nDE1\nVVolt\nUndervoltage in DC link.\n08\n08\nDA1, DB1, DC1, \nDE1\nO-t\nOvertemperature at heat sink. \n09\n09\nDA1, DB1, DC1, \nDE1\nV-t\nUnder-temperature\n10\n0A\nDA1, DB1, DC1, \nDE1\nP-dEf\nThe parameters‘ default settings have been loaded.\n11\n0B\nDA1, DB1, DC1, \nDE1\nE-trip\nExt Fault/Warning\n12\n0C\nDA1, DB1, DC1, \nDE1\nSC-ObS\nCommunication error with an external operating unit or with a PC\n13\n0D\nDA1, DB1, DC1, \nDE1\nFlT-dc\nExcessively high DC link voltage ripple\n14\n0E\nDA1, DB1, DC1, \nDE1\nP-LOss\nIncoming power phase failure (only for devices with a three-phase power supply)\n15\n0F\nDA1, DE1\nh O-I\nOvercurrent at output\n16\n0A\nDA1, DB1, DC1, \nDE1\nTh-flt\nMalfunctioning heat sink thermistor.\n17\n11\nDA1, DB1, DC1, \nDE1\ndAtA-F\nError in internal memory\n18\n12\nDA1, DB1, DC1, \nDE1\n4-20 F\nThe analog input's input current does not fall within the specified range.\n19\n12\nDA1, DB1, DC1"
+  },
+  {
+    "chunk_id": 77,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "15\n0F\nDA1, DE1\nh O-I\nOvercurrent at output\n16\n0A\nDA1, DB1, DC1, \nDE1\nTh-flt\nMalfunctioning heat sink thermistor.\n17\n11\nDA1, DB1, DC1, \nDE1\ndAtA-F\nError in internal memory\n18\n12\nDA1, DB1, DC1, \nDE1\n4-20 F\nThe analog input's input current does not fall within the specified range.\n19\n12\nDA1, DB1, DC1\ndAtA-E\nError in internal memory\n20\n14\nDA1\nV-dEf\nThe customer's settings for the parameters have been imported."
+  },
+  {
+    "chunk_id": 78,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n32\n21\n15\nDA1, DB1, DC1\nF-Ptc\nMotor PTC thermistor overtemperature\n22\n16\nDA1, DB1, DC1\nFAn-F\nThe device‘s internal fan is experiencing a fault\n23\n17\nDA1, DB1, DC1\nO-hEAt\nThe measured ambient temperature exceeds the specified value.\n24\n18\nDA1\nO-torQ\nMaximum permissible torque exceeded.\n25\n19\nDA1\nU-torQ\nOnly active if brake control is enabled in hoisting gear mode (P2-18 = 8).\nThe torque produced before the hoisting gear's mechanical brake is enabled falls \nbelow the set threshold.\n26\n1A\nDA1, DB1, DC1\nOUt-F\nDevice output fault\n29\n1D\nDA1\nSto-F\nInternal STO circuit fault\n30\n1E\nDA1\nEnc-01\nNo communication between the encoder module and the variable frequency drive\n31\n1F\nDA1\nEnc-02\nSP-Err\nThe calculated motor speed is different from the measured motor speed\n32\n20\nDA1\nEnc-03\nThe motor speed and the PPR value entered in P6-06 do not match\n33\n21\nDA1\nEnc-04"
+  },
+  {
+    "chunk_id": 79,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "30\n1E\nDA1\nEnc-01\nNo communication between the encoder module and the variable frequency drive\n31\n1F\nDA1\nEnc-02\nSP-Err\nThe calculated motor speed is different from the measured motor speed\n32\n20\nDA1\nEnc-03\nThe motor speed and the PPR value entered in P6-06 do not match\n33\n21\nDA1\nEnc-04\nChannel A fault\n34\n22\nDA1\nEnc-05\nChannel B fault\n35\n23\nDA1\nEnc-06\nError on channels A and B\n40\n28\nDA1, DB1, DC1\nAtF-01\nMotor identification failed\n41\n29\nDA1, DB1, DC1\nAtF-02\nMotor identification failed:\nThe measured stator resistance is too large.\n42\n2A\nDA1, DB1, DC1\nAtF-03\nMotor identification failed:\nThe measured motor inductance is too low.\n43\n2B\nDA1, DB1, DC1\nAtF-04\nMotor identification failed:\nThe measured motor inductance is too high.\n44\n2C\nDA1, DB1, DC1\nAtF-05\nMotor identification failed:\nThe measured motor parameters do not match.\n49\n31\nDA1, DB1, DC1\nOut-Ph\nA phase in the motor cable is not connected or has a discontinuity.\n50\n32\nDA1, DB1, DC1\nSc-FO1"
+  },
+  {
+    "chunk_id": 80,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Motor identification failed:\nThe measured motor inductance is too high.\n44\n2C\nDA1, DB1, DC1\nAtF-05\nMotor identification failed:\nThe measured motor parameters do not match.\n49\n31\nDA1, DB1, DC1\nOut-Ph\nA phase in the motor cable is not connected or has a discontinuity.\n50\n32\nDA1, DB1, DC1\nSc-FO1\nNo valid Modbus frame was received within the time specified\n51\n33\nDA1, DB1, DC1\nSc-FO2\nNo valid CANopen frame was received within the time specified\n52\n34\nDA1\nSc-FO3\nCommunications between the device and the plugged-in fieldbus option have dropped \nout.\n53\n35\nDA1\nSc-F04\nCommunications between the device and the plugged-in I/O expansion have dropped \nout.\n60\n3C\nDA1\nOF-01\nNo internal connection to an optional card\n61\n3D\nDA1\nOF-02\nOptional module in abnormal state\n70\n46\nDA1\nPLC-01\nNon-supported function block from function block editor\n71\n47\nDA1\nPLC-02\nProgram from function block editor is too big\n72\n48\nDA1\nPLC-03\nDivision by zero\n73\n49\nDA1\nPLC-04\nLower limit is higher than upper limit\n74\n4A\nDA1"
+  },
+  {
+    "chunk_id": 81,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "61\n3D\nDA1\nOF-02\nOptional module in abnormal state\n70\n46\nDA1\nPLC-01\nNon-supported function block from function block editor\n71\n47\nDA1\nPLC-02\nProgram from function block editor is too big\n72\n48\nDA1\nPLC-03\nDivision by zero\n73\n49\nDA1\nPLC-04\nLower limit is higher than upper limit\n74\n4A\nDA1\nPLC-05\nOverflow table Function block editor\nError no.\nDevice series\nMessage\n(display on DA1, DC1)\nPossible cause\ndec\nhex"
+  },
+  {
+    "chunk_id": 82,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\n33\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n2.6.5.2 Actual speed (ID 7)\nThe variable frequency drive‘s actual speed falls within a value range of\n•\nP1-02 (minimum frequency) to P1-01 (maximum frequency) for DA1\n•\nP-02 (minimum frequency) to P-01(maximum frequency) for DB1\n•\nP-02 (minimum frequency) to P-01(maximum frequency) for DC1\n•\nP-02 (minimum frequency) to P-01(maximum frequency) for DE1\nIn the application, the values will be scaled by a factor of 0.1.\n2.6.5.3 Current (ID 8)\nThe current is specified with one decimal place.\nExample: 34 ≙ 3.4 A.\n2.6.5.4 Torque (ID 9)\nThe motor torque is specified with one decimal place.\nExample: 1000 ≙ 100.0 %\n2.6.5.5 Output power (ID 10)\nThe output power is specified in kW with one decimal place.\nExample: 53 ≙ 5.3 kW\n2.6.5.6 Digital inputs (ID 11)\nThis value indicates the digital inputs‘ state.\nThe lowest bit indicates the state of DI1.\n15\n14\n13\n12\n11\n10\n9"
+  },
+  {
+    "chunk_id": 83,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Example: 1000 ≙ 100.0 %\n2.6.5.5 Output power (ID 10)\nThe output power is specified in kW with one decimal place.\nExample: 53 ≙ 5.3 kW\n2.6.5.6 Digital inputs (ID 11)\nThis value indicates the digital inputs‘ state.\nThe lowest bit indicates the state of DI1.\n15\n14\n13\n12\n11\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\nMSB\nLSB"
+  },
+  {
+    "chunk_id": 84,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n34\n2.6.5.7 Type (ID 12)\nThis value indicates the variable frequency drive‘s/variable speed starter‘s \npart no.\nDA1\nTable 12: Input and output phases\nx\nx\nx\nx hex\nDescription\nOutput index (see table 13)\nInput and output phases\n(country-specific, see table 12)\nVoltage range\n0 = 115 V\n1 = 230 V\n2 = 230 V\n3 = 400 V\n4 = 460 V\n5 = 525 V\n6 = 575 V\nSize (example: 2 corresponding FS2)\n2 = FS2\n3 = FS3\n…\n7 = FS7\nValue\nCountry-specific \ndefault settings\nNumber of phases\non mains side\nNumber of phases\non motor side\n0\nkW\n3\n3\n1\nHP\n3\n3\n2\nkW\n3\n1\n3\nHP\n3\n1\n4\nkW\n1\n3\n5\nHP\n1\n3\n6\nkW\n1\n1\n7\nHP\n1\n1"
+  },
+  {
+    "chunk_id": 85,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\n35\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\nTable 13: Assigned ratings\nFrame \nsize\nPower \nIndex\n0\n1\n2\n3\n4\n5\n6\n7\nFS2\nkW\n0.75\n1.5\n2.2\n0.75\n1.5\n2.2\n4\n–\nHP\n1\n2\n3\n1\n2\n3\n5\n–\nFS3\nkW\n3\n4\n5.5\n5.5\n7.5\n11\n–\n–\nHP\n4\n5\n7.5\n7.5\n10\n15\n–\n–\nFS4\nkW\n7.5\n11\n15\n18.5\n22\n–\n–\n–\nHP\n10\n15\n20\n25\n30\n–\n–\n–\nFS5\nkW\n15\n18.5\n22\n30\n37\n45\n–\n–\nHP\n20\n25\n30\n40\n50\n60\n–\n–\nFS6\nkW\n22\n30\n37\n45\n45\n55\n75\n90\nHP\n30\n40\n50\n60\n60\n75\n12\n15\nFS7\nkW\n55\n75\n90\n110\n132\n160\n–\n–\nHP\n75\n100\n125\n175\n200\n250\n–\n–"
+  },
+  {
+    "chunk_id": 86,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n36\nDB1\nTable 14: Input and output phases\nTable 15: Assigned ratings\nx\nx\nx\nx\n(hex) Description\nOutput index (see table 15)\nInput/output phases (see table 14)\nVoltage class\n0 = 115 V\n1 = 230 V\n2 = 230 V\n3 = 400 V\nFrame size (FS)\n1 = FS1\n2 = FS1B\n3 = FS1C\n4 = FS2\nValue\nCountry-specific \ndefault settings\nNumber of phases\non mains side\nNumber of phases\non motor side\n0\nkW\n3\n3\n1\nHP\n3\n3\n2\nkW\n3\n1\n3\nHP\n3\n1\n4\nkW\n1\n3\n5\nHP\n1\n3\nFrame \nsize\nPower \nIndex\n0\n1\n2\n3\n4\n5\nFS1\nkW\n0.37\n0.75\n0.37\n0.75\n0.75\n1.5\nHP\n0.5\n1\n0.5\n1\n1\n2\nFS1B\nkW\n0.75\n1.5\n–\n–\n–\n–\nHP\n1\n2\n–\n–\n–\n–\nFS1C\nkW\n0.75\n1.5\n–\n–\n–\n–\nHP\n1\n2\n–\n–\n–\n–\nFS2\nkW\n2.2\n4\n–\n–\n–\n–\nHP\n3\n5\n–\n–\n–\n–"
+  },
+  {
+    "chunk_id": 87,
+    "page": 39,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\n37\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\nDC1\nTable 16: Input and output phases\nTable 17: Assigned ratings\nx\nx\nx\nx\n(hex) Description\nOutput index (see table 15)\nInput/output phases (see table 14)\nVoltage class\n0 = 115 V\n1 = 230 V\n2 = 230 V\n3 = 400 V\nFrame size (FS)\n1 = FS1\n2 = FS2\n3 = FS3\n4 = FS4\nValue\nCountry-specific \ndefault settings\nNumber of phases\non mains side\nNumber of phases\non motor side\n0\nkW\n3\n3\n1\nHP\n3\n3\n2\nkW\n3\n1\n3\nHP\n3\n1\n4\nkW\n1\n3\n5\nHP\n1\n3\n6\nkW\n1\n1\n7\nHP\n1\n1\nFrame \nsize\nPower \nIndex\n0\n1\n2\n3\n4\n5\n6\n7\n8\nFS1\nkW\n0.37\n0.75\n0.37\n0.75\n1.5\n0.75\n1.5\n–\n–\nHP\n0.5\n1\n0.5\n1\n2\n1\n2\n–\n–\nFS2\nkW\n1.1\n0.75\n1.5\n2.2\n0.75\n1.5\n2.2\n4\n3\nHP\n1.5\n1\n2\n3\n1\n2\n3\n5\n4\nFS3\nkW\n4\n5.5\n7.5\n11\n4\n3\n5.5\n–\n–\nHP\n5\n7.5\n10\n15\n5\n4\n7.5\n–\n–\nFS4\nkW\n5.5\n7.5\n11\n11\n15\n18.5\n22\n–\n–\nHP\n7.5\n10\n15\n15\n20\n25\n30\n–\n–"
+  },
+  {
+    "chunk_id": 88,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n38\nDE1\nTable 18: Input and output phases\nTable 19: Assigned ratings\nx\nx\nx\nx\n(hex) Description\nOutput index (see table 19)\nInput/output phases (see table 18)\nVoltage class\n2 = 230 V\n3 = 400 V\nFrame size (FS)\n1 = FS1\n2 = FS2\nValue\nCountry-specific \ndefault settings\nNumber of phases\non mains side\nNumber of phases\non motor side\n0\nkW\n3\n3\n1\nHP\n3\n3\n2\nkW\n3\n1\n3\nHP\n3\n1\n4\nkW\n1\n3\n5\nHP\n1\n3\n6\nkW\n1\n1\n7\nHP\n1\n1\nFrame \nsize\nPower \nIndex\n0\n1\n2\n3\n4\n5\n6\n7\nFS1\nkW\n0.25\n0.37\n0.55\n0.75\n1.5\n3.7\n7.5\n1.5\nHP\n0.3\n0.5\n0.7\n1\n2\n5\n10\n2\nFS2\nkW\n2.2\n2.2\n3.0\n4.0\n5.5\n7.5\n–\n–\nHP\n3\n3\n4\n5\n7.5\n10\n–\n–"
+  },
+  {
+    "chunk_id": 89,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\n39\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n2.6.5.8 Control section software version (ID 15)\nSpecifies the software version of the control section with two decimal \nplaces.\n2.6.5.9 Power section software version (ID 16)\nSpecifies the software version of the power section with two decimal places.\n2.6.5.10 Variable frequency drive recognition/variable speed starter recognition (ID 17)\nDA1: 5632\nDB1: 8198\nDC1: 10\nDE1: 8\nDE11: 9\n2.6.5.11 Serial Number\nDA1: ID 25, ID 26, ID 27, ID 28\nDB1, DC1: ID 29, ID 30, ID 31, ID 32\nThe device‘s unique serial number is not available on DE1 variable speed \nstarters."
+  },
+  {
+    "chunk_id": 90,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n40\n2.6.6 Explanation of function code\n2.6.6.1 Function code 03hex: Reading a holding register\nThis function reads the content of a number of consecutive holding registers \n(specified register addresses).\nExample:\nReading the status and fault word (ID 6) of the DA1 variable frequency drive \nwith server address 1.\nClient request: 01 03 0005 0001 940Bhex\nServer response: 01 03 02 0000 B844hex\nRregister address\n[hex]\nType name\n01\nServer address\n03\nFunction code (reading of holding registers)\n0005\n5dec: The ID is 6, since the motor controller has an offset of +1.\n0001\nTotal number of requested registers\n940B\nCRC\nRregister address\n[hex]\nType name\n01\nServer address\n03\nFunction code (reading of holding registers)\n02\nNumber of consecutive data bytes (1 register = 2 byte)\n0000\nContent (2 byte) for register 6: 0\nB844\nCRC"
+  },
+  {
+    "chunk_id": 91,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "2 Modbus RTU\n2.6 Operating mode Modbus RTU\n41\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n2.6.6.2 Function code 06hex: Writing a holding register\nThis function writes data to a holding register.\nExample\nWriting of the control word (ID 1) of a DA1 variable frequency drive with the \nserver address 1.\nClient request: 01 06 0000 0001 480Ahex\nServer response: 01 06 0000 0001 480hex\nThe server response is a copy of the client request if it is a normal response.\nRregister address\n[hex]\nType name\n01\nServer address\n06\nFunction code (writing a holding register)\n0000\n0: The ID of the register for the writing operation is 1, since the client controller has an \noffset of +1.\n0001\nContent (2 byte) for register 0000 0000 0000 001bin ￫ RUN\n480A\nCRC\nRregister address\n[hex]\nType name\n01\nServer address\n06\nFunction code (here: writing a holding register)\n0000\n1: The ID of the register for the writing operation is 1, since the client controller has an"
+  },
+  {
+    "chunk_id": 92,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "offset of +1.\n0001\nContent (2 byte) for register 0000 0000 0000 001bin ￫ RUN\n480A\nCRC\nRregister address\n[hex]\nType name\n01\nServer address\n06\nFunction code (here: writing a holding register)\n0000\n1: The ID of the register for the writing operation is 1, since the client controller has an \noffset of +1.\n0001\nContent (2 byte) for register 0000 0000 0000 001bin ￫ RUN\n480A\nCRC\n￫\nFunction code 06hex can be used for a broadcast."
+  },
+  {
+    "chunk_id": 93,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.1 Parameters for DA1 variable frequency drives\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n42\n3 Parameter\n3.1 Parameters for DA1 variable frequency drives\nTable 20: Parameters for DA1 variable frequency drives\nModbus \nregister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP\n20\nP0-01\nAnalog Input 1\nro\n–\n4096 ≙ 100.0 %\nU16\n21\nP0-02\nAnalog Input 2\nro\n–\n4096 ≙ 100.0 %\nU16\n11\nP0-03\nDI status\nro\n–\nBit 0 ≙ digital input 1\nBit 1 ≙ digital input 2\n…\nWORD\n22\nP0-04\nf-PreRamp\nro\n–\nS16\n41\nP0-05\nTorque Reference\nro\n–\n1000 ≙ 100.0 %\nU16\n42\nP0-06\nMotorPot Reference\nro\n–\nU16\nP0-07\nf-Ref Interface0\nro\n–\nU16\nP0-08\nPID1 Set Point\nro\n–\nU16\nP0-09\nPID1 Feedback 1\nro\n–\nU16\nP0-10\nPID1 Output\nro\n–\nU16\nP0-11\nMotor Voltage\nro\n–\nU16\n9\nP0-12\nMotor Torque\nro\n–\n1000 ≙ 100.0 %\nU16\nP0-13\nTrip Log\nro\n–\nU16\nP0-14\nMagnetizing Current Id\nro\n–\nU16\nP0-15\nTorque Current Iq\nro\n–\nU16\nP0-16\nDC-Link Voltage Ripple\nro\n–\nU16\nP0-17"
+  },
+  {
+    "chunk_id": 94,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "PID1 Set Point\nro\n–\nU16\nP0-09\nPID1 Feedback 1\nro\n–\nU16\nP0-10\nPID1 Output\nro\n–\nU16\nP0-11\nMotor Voltage\nro\n–\nU16\n9\nP0-12\nMotor Torque\nro\n–\n1000 ≙ 100.0 %\nU16\nP0-13\nTrip Log\nro\n–\nU16\nP0-14\nMagnetizing Current Id\nro\n–\nU16\nP0-15\nTorque Current Iq\nro\n–\nU16\nP0-16\nDC-Link Voltage Ripple\nro\n–\nU16\nP0-17\nMotor Stator Resistance Meas\nro\n–\nU16\nP0-18\nMotor Stator Inductance Meas\nro\n–\nU16\nP0-19\nMotor Rotor Resistance Meas\nro\n–\nU16\n23\nP0-20\nDC-Link Voltage\nro\n–\n600 ≙ 600 V\n24\nP0-21\nHeatsink Temperature\nro\n–\n40 ≙ 40 °C\nP0-22\nTimeToNextService\nro\n–\nP0-23\nt-Run IGBT in OT\nro\n–\nP0-24\nt-Run PCB in OT\nro\n–\nP0-25\nMotor Speed\nro\n–\n30\nP0-26\nkWh Meter\nro\n–\n100 ≙ 10.0 kWh\nU16\n33\nP0-27\nMWh Meter\nro\n–\nU16\n15\nP0-28\nApplication Version\nro\n–\n16\nApplication Version\nro\n–"
+  },
+  {
+    "chunk_id": 95,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.1 Parameters for DA1 variable frequency drives\n43\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n12\nP0-29\nRating ID\nro\n–\nBit 0, …, Bit 3: Power \nIndex (Internal Reference)\nWORD\n–\nBit 4, …, Bit 7:\nPower unit (kW/HP)\n–\nBit 8, …, Bit 11:\nInput voltage index \n(voltage rating index)\n–\nBit 12, …, Bit 15:\nFrame size\n17\nP0-29\nDevice Type\nro\n–\nWORD\n25\nP0-30\nSerial Number\nro\n–\n26\nro\n–\n27\nro\n–\n28\nro\n–\n34\nP0-31\nt-Run\nro\n–\nU16\nP0-32\nt-Run since Restart\nro\n–\nU16\nP0-33\nt-Run since Trip\nro\n–\nU16\n36\nP0-34\nt-HoursRun Enable\nro\n–\nU16\n20\nP0-35\nFan Runtime\nro\n–\nU16\n21\nP0-36\nDC-Link Log\nro\n–\nU16\n11\nP0-37\nDC-Link V-Ripple Log\nro\n–\nWORD\n22\nP0-38\nHeatsinkTemp Log\nro\n–\nS16\n41\nP0-39\nAmbientTemp Log\nro\n–\nU16\n42\nP0-40\nMotorCurrent Log\nro\n–\nU16\nP0-41\nFaultCounter Overcurrent\nro\n–\nU16\nP0-42\nFaultCounter DC-Overvoltage\nro\n–\nU16\nP0-43\nFaultCounter DC-Undervoltage\nro\n–\nU16\nP0-44\nFaultCounter Overtemperature \nHeatsink\nro\n–\nU16\nP0-45\nFaultCounter Overcurrent Brake"
+  },
+  {
+    "chunk_id": 96,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "ro\n–\nS16\n41\nP0-39\nAmbientTemp Log\nro\n–\nU16\n42\nP0-40\nMotorCurrent Log\nro\n–\nU16\nP0-41\nFaultCounter Overcurrent\nro\n–\nU16\nP0-42\nFaultCounter DC-Overvoltage\nro\n–\nU16\nP0-43\nFaultCounter DC-Undervoltage\nro\n–\nU16\nP0-44\nFaultCounter Overtemperature \nHeatsink\nro\n–\nU16\nP0-45\nFaultCounter Overcurrent Brake \nChopper\nro\n–\nU16\nP0-46\nFaultCounter Overtemperature \nAmbient\nro\n–\nU16\nP0-47\nFaultCounter Internal Fault (IO)\nro\n–\nU16\nP0-48\nFaultCounter Internal Fault (DSP)\nro\n–\nU16\nP0-49\nFaultCounter Communication Loss\nro\n–\nU16\nP0-50\nFaultCounter CANopen COM Loss\nro\n–\nU16\nP0-51\nInput Data Value\nro\n–\nU16\nP0-52\nOutput Data Value\nro\n–\nU16\nP0-53\nPhase U Current Offset Ref\nro\n–\nU16\nModbus \nregister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 97,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.1 Parameters for DA1 variable frequency drives\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n44\nP0-54\nPhase V Current Offset Ref\nro\n–\nU16\nP0-55\nReserved Parameter\nP0-56\nBrake Chopper t-On / ED-On\nro\n–\nS16\nP0-57\nV d-Axis / V q-Axis\nro\n–\nU16\nP0-58\nEncoder Speed\nro\n–\nU16\nP0-59\nf-RefOfFreq-Ref\nro\n–\nU16\nP0-60\nn-Slip\nro\n–\nU16\nP0-61\nHysteresis Relays\nro\n–\nU16\nP0-62\nDroopFeedback\nro\n–\nU16\nP0-63\nf-PostRamp\nro\n–\nU16\nP0-64\nActual Switching Frequency\nro\n–\nU16\nP0-65\nt-PowerOn\nro\n–\nU16\nP0-66\nUserProgramID\nro\n–\nU16\nP0-67\nM-Ref Interface\nro\n–\nU16\nP0-68\nt-accNetwork\nro\n–\nU16\nP0-69\nFaultCounter Option COM Loss\nro\n–\nU16\nP0-70\nOptionID0\nro\n–\nU16\nP0-71\nOptionSignature\nro\n–\nU16\nP0-72\nT-Controlboard\nro\n–\nU16\nP0-73\n24 h Timer\nro\n–\nU16\nP0-74\nL1 Input Voltage\nro\n–\nU16\nP0-75\nL2 Input Voltage\nro\n–\nU16\nP0-76\nL3 Input Voltage\nro\n–\nU16\nP0-77\nEncoder Pulse counter\nro\n–\nU16\nP0-78\nTest Parameter\nro\n–\nU16\nP0-79\nSystem Software Version\nro\n–\nU16\nP0-80\nValue@Pointer"
+  },
+  {
+    "chunk_id": 98,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "ro\n–\nU16\nP0-72\nT-Controlboard\nro\n–\nU16\nP0-73\n24 h Timer\nro\n–\nU16\nP0-74\nL1 Input Voltage\nro\n–\nU16\nP0-75\nL2 Input Voltage\nro\n–\nU16\nP0-76\nL3 Input Voltage\nro\n–\nU16\nP0-77\nEncoder Pulse counter\nro\n–\nU16\nP0-78\nTest Parameter\nro\n–\nU16\nP0-79\nSystem Software Version\nro\n–\nU16\nP0-80\nValue@Pointer\nro\n–\nU16\nModbus \nregister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 99,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.1 Parameters for DA1 variable frequency drives\n45\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n101\nP1-01\nf-max\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 - (5 x P1-09)\n(max.:  500.0 Hz / \n30000 rpm)\nU16\n102\nP1-02\nf-min\nrw\nRUN\n3000 ≙ 50.0 Hz\n0.0 Hz - P1-01\nU16\n103\nP1-03\nt-acc\nrw\nRUN\n300 ≙ 30.0 s\n0.00 s - 6000 s\nU16\n104\nP1-04\nt-dec\nrw\nRUN\n300 ≙ 30.0 s\n0.00 s - 6000 s\nU16\n105\nP1-05\nStop Mode\nrw\nRUN\n–\n0, 1, 2, 3, 4\nU16\n106\nP1-06\nEnergyOptimizer\nrw\nRUN\n–\n0, 1\nWORD\n107\nP1-07\nMotor Nom Voltage\nrw\nSTOP\n230 ≙ 230 V\n0 - Ue\nU16\n108\nP1-08\nMotor Nom Current\nrw\nSTOP\n1 ≙ 0.1 A\n(0.1 - 1) x Ie\nU16\n109\nP1-09\nMotor Nom Frequency\nrw\nSTOP\n50 ≙ 50 Hz\n10 Hz - 500 Hz\nU16\n110\nP1-10\nMotor Nom Speed\nrw\nRUN\n1500 ≙ 1500 rpm\n•\n0\n•\n200 - 30000 rpm\nU16\n111\nP1-11\nV-Boost\nrw\nSTOP\n-1 ≙ Auto\n0 ≙ Disabled\n1 ≙ 0.1 %\n•\n0: Auto\n•\n0 - 30.0 % of P1-07\nS16\n112\nP1-12\nLocal ProcessData Source\nrw\nSTOP\n–\n0 - 13\nU16\n113\nP1-13\nDI Config Select\nrw\nSTOP\n–\n0 - 21\nU16\n114\nP1-14\nPassword\nrw\nRUN"
+  },
+  {
+    "chunk_id": 100,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "110\nP1-10\nMotor Nom Speed\nrw\nRUN\n1500 ≙ 1500 rpm\n•\n0\n•\n200 - 30000 rpm\nU16\n111\nP1-11\nV-Boost\nrw\nSTOP\n-1 ≙ Auto\n0 ≙ Disabled\n1 ≙ 0.1 %\n•\n0: Auto\n•\n0 - 30.0 % of P1-07\nS16\n112\nP1-12\nLocal ProcessData Source\nrw\nSTOP\n–\n0 - 13\nU16\n113\nP1-13\nDI Config Select\nrw\nSTOP\n–\n0 - 21\nU16\n114\nP1-14\nPassword\nrw\nRUN\n–\n0 - 30000\nU16\n201\nP2-01\nf-Fix1\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n202\nP2-02\nf-Fix2\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n203\nP2-03\nf-Fix3\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n204\nP2-04\nf-Fix4\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n205\nP2-05\nf-Fix5\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n206\nP2-06\nf-Fix6\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n207\nP2-07\nf-Fix7\nrw\nRUN\n3000 ≙ 50.0 Hz"
+  },
+  {
+    "chunk_id": 101,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "P1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n205\nP2-05\nf-Fix5\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n206\nP2-06\nf-Fix6\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n207\nP2-07\nf-Fix7\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n208\nP2-08\nf-Fix8\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\nModbus \nregister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 102,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.1 Parameters for DA1 variable frequency drives\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n46\n209\nP2-09\nf-Skip1\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n210\nP2-10\nf-SkipBand1\nrw\nRUN\n3000 ≙ 50.0 Hz\nP1-02 (min: 0 Hz / 0 rpm) - \nP1-01 (max: 500.0 Hz / \n30000 rpm)\nU16\n211\nP2-11\nADO1 Function & Mode\nrw\nRUN\n–\n0, 1, …, 11\nU16\n212\nP2-12\nAO1 SignalFormat\nrw\nRUN\n–\n0, 1, …, 5\nU16\n213\nP2-13\nADO2 Function & Mode\nrw\nRUN\n–\n0, 1, …, 11\nU16\n214\nP2-14\nAO2 SignalFormat\nrw\nRUN\n–\n0, 1, …, 5\nU16\n215\nP2-15\nRO1 Function\nrw\nRUN\n1 ≙ 1\n0, …, 7, 10, 11, 13\nU16\n216\nP2-16\nRO1 upper limit\nrw\nRUN\n1 ≙ 0.1 %\nP2-17 - 2000\nU16\n217\nP2-17\nRO1 lower limit\nrw\nRUN\n1 ≙ 0.1 %\n0.0 % - P2-16\nU16\n218\nP2-18\nRO2 Function\nrw\nRUN\n1 ≙ 1\n0, …, 7, 10, 11, 13\nU16\n219\nP2-19\nRO2 upper limit\nrw\nRUN\n1 ≙ 0.1 %\nP2-20 - 200 %\nU16\n220\nP2-20\nRO2 lower limit\nrw\nRUN\n1 ≙ 0.1 %\n0.0 % - P2-19\nU16\n221\nP2-21\nDisplay Scale\nrw\nRUN\n1 ≙ 0.001"
+  },
+  {
+    "chunk_id": 103,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "U16\n217\nP2-17\nRO1 lower limit\nrw\nRUN\n1 ≙ 0.1 %\n0.0 % - P2-16\nU16\n218\nP2-18\nRO2 Function\nrw\nRUN\n1 ≙ 1\n0, …, 7, 10, 11, 13\nU16\n219\nP2-19\nRO2 upper limit\nrw\nRUN\n1 ≙ 0.1 %\nP2-20 - 200 %\nU16\n220\nP2-20\nRO2 lower limit\nrw\nRUN\n1 ≙ 0.1 %\n0.0 % - P2-19\nU16\n221\nP2-21\nDisplay Scale\nrw\nRUN\n1 ≙ 0.001\n-30000 - +30000\nU16\n222\nP2-22\nDisplay Source\nrw\nRUN\n–\n0, 1, 2, 3\nU16\n223\nP2-23\nt-n=0 Wait\nrw\nRUN\n1 ≙ 0.1\n0.0 - 60.0 s\nU16\n224\nP2-24\nSwitching Frequency\nrw\nRUN\n–\n0, 1, …, 5\nU16\n225\nP2-25\nt-QuickDec\nrw\nRUN\nFS2, FS3: 1 ≙ 0.01 s\nFS4, …,FS7: 1 ≙ 0.1 s\n0.00 - 240 s\nU16\n226\nP2-26\nSpin Start Enable\nrw\nRUN\n1 ≙ 1\n0, 1, 2\nWORD\n227\nP2-27\nStandby Mode\nrw\nRUN\n1 ≙ 0.01\n0.0 - 250 s\nU16\n228\nP2-28\nSlave SpeedScalingControl\nrw\nRUN\n–\n0, 1, 2, 3\nU16\n229\nP2-29\nSlave SpeedScalingFactor\nrw\nRUN\n1 ≙ 0.1\n-500.0 - +500.0 %\nS16\n230\nP2-30\nAI1 Signal Range\nrw\nRUN\n–\n0, 1, …, 7\nU16\n231\nP2-31\nAI1 Gain\nrw\nRUN\n1 ≙ 0.1\n0.0 - 2000.0 %\nU16\n232\nP2-32\nAI1 Offset\nrw\nRUN\n1 ≙ 0.1\n-500.0 - +500.0 %\nS16\n233\nP2-33\nAI2 Signal Range\nrw\nRUN\n–"
+  },
+  {
+    "chunk_id": 104,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nRUN\n–\n0, 1, 2, 3\nU16\n229\nP2-29\nSlave SpeedScalingFactor\nrw\nRUN\n1 ≙ 0.1\n-500.0 - +500.0 %\nS16\n230\nP2-30\nAI1 Signal Range\nrw\nRUN\n–\n0, 1, …, 7\nU16\n231\nP2-31\nAI1 Gain\nrw\nRUN\n1 ≙ 0.1\n0.0 - 2000.0 %\nU16\n232\nP2-32\nAI1 Offset\nrw\nRUN\n1 ≙ 0.1\n-500.0 - +500.0 %\nS16\n233\nP2-33\nAI2 Signal Range\nrw\nRUN\n–\n0, 1, …, 7\nU16\n234\nP2-34\nAI2 Gain\nrw\nRUN\n1 ≙ 0.1\n0.0 - 2000.0 %\nU16\n235\nP2-35\nAI2 Offset\nrw\nRUN\n1 ≙ 0.1\n-5000 - +5000\nS16\n236\nP2-36\nStart Mode\nrw\nRUN\n–\n0, 1, …, 6\nU16\n237\nP2-37\nDigital Reference Reset Mode\nrw\nRUN\n–\n0, 1, …, 7\nU16\n238\nP2-38\nAction@MainsLoss\nrw\nRUN\n–\n0, 1, 2, 3\nU16\n239\nP2-39\nParameter Lock\nrw\nRUN\n–\n0, 1\nWORD\n240\nP2-40\nPassword Level2\nrw\nRUN\n–\n0 - 9999\nU16\nModbus \nregister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 105,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.1 Parameters for DA1 variable frequency drives\n47\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n301\nP3-01\nPID1 Kp\nrw\nRUN\n1 ≙ 0.1\n1 - 300\nU16\n302\nP3-02\nPID1 Ti\nrw\nRUN\n1 ≙ 0.1\n0 - 300 s\nU16\n303\nP3-03\nPID1 Kd\nrw\nRUN\n1 ≙ 0.01\n0.00 - 100 s\nU16\n304\nP3-04\nPID1 Mode\nrw\nRUN\n–\n0, 1\nWORD\n305\nP3-05\nPID1 Set Point 1 Source\nrw\nRUN\n1 ≙ 1\n0, 1, 2\nU16\n306\nP3-06\nPID1 Set Point Digital\nrw\nRUN\n1 ≙ 0.1 %\n0 - 1000\nU16\n307\nP3-07\nPID1 Output upper Limit\nrw\nRUN\n1 ≙ 0.1 %\nP3-08 - 1000\nU16\n308\nP3-08\nPID1 Output lower Limit\nrw\nRUN\n1 ≙ 0.1 %\n0- P3-07\nU16\n309\nP3-09\nPID1 Output LimitSelect\nrw\nRUN\n–\n0, 1, 2, 3\nU16\n310\nP3-10\nPID 1 Feedback 1 Source\nrw\nRUN\n–\n0, 1\nWORD\n311\nP3-11\nPID1 Error Ramp\nrw\nRUN\n1 ≙ 0.1 %\n0 - 250 \nU16\n312\nP3-12\nPID1 Feedback 1 DispScale\nrw\nRUN\n0: disabled\n1 ≙ 0.001\n0.00 - 50.000\nU16\n313\nP3-13\nPID1 WakeUpLevel\nrw\nRUN\n1 ≙ 0.1 %\n0 - 1000\nU16\n314\nP3-14\nReserved Parameter\n-\n-\n–\n–\n315\nP3-15\nReserved Parameter\n-\n-\n–\n–\n316\nP3-16\nReserved Parameter"
+  },
+  {
+    "chunk_id": 106,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "311\nP3-11\nPID1 Error Ramp\nrw\nRUN\n1 ≙ 0.1 %\n0 - 250 \nU16\n312\nP3-12\nPID1 Feedback 1 DispScale\nrw\nRUN\n0: disabled\n1 ≙ 0.001\n0.00 - 50.000\nU16\n313\nP3-13\nPID1 WakeUpLevel\nrw\nRUN\n1 ≙ 0.1 %\n0 - 1000\nU16\n314\nP3-14\nReserved Parameter\n-\n-\n–\n–\n315\nP3-15\nReserved Parameter\n-\n-\n–\n–\n316\nP3-16\nReserved Parameter\n-\n-\n–\n–\n317\nP3-17\nReserved Parameter\n-\n-\n–\n–\n318\nP3-18\nPID1 ResetControl\nrw\nRUN\n1 ≙ 1\n0, 1\nU16\n401\nP4-01\nMotor Control Mode\nrw\nSTOP\n0 - 6\nU16\n402\nP4-02\nMotor Identification\nrw\nSTOP\n0, 1\nWORD\n403\nP4-03\nMSC Kp\nrw\nRUN\n1 ≙ 0.1 %\n1 - 4000\nU16\n404\nP4-04\nMSC Ti\nrw\nRUN\n1 ≙ 0.001 s\n1 - 1000\nU16\n405\nP4-05\nMotor PF\nrw\nRUN\n99 ≙ 0.99\n•\n0.00 (= disabled)\n•\n0.50 - 0.99\nU16\n406\nP4-06\nM-Ref Source\nrw\nRUN\n1 ≙ 1\n0, 1, …, 5\nU16\n407\nP4-07\nM-Max Motoring\nrw\nRUN\n2000 ≙ 200.0 %\n0 - 2000\nU16\n408\nP4-08\nM-Min Motoring\nrw\nRUN\n1 ≙ 0.1 %\n0 - 150 %\nU16\n409\nP4-09\nM-Max Generative\nrw\nRUN\n1 ≙ 1 %\n0 - 200 %\nU16\n410\nP4-10\nf-MidV/f\nrw\nSTOP\n1 ≙ 0.1 %\n0.0 - 100.0 %\nU16\n411\nP4-11\nV-MidV/f\nrw\nRUN\n1 ≙ 0.1 %\n0.0 - 100.0  %\nU16\n412"
+  },
+  {
+    "chunk_id": 107,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "U16\n407\nP4-07\nM-Max Motoring\nrw\nRUN\n2000 ≙ 200.0 %\n0 - 2000\nU16\n408\nP4-08\nM-Min Motoring\nrw\nRUN\n1 ≙ 0.1 %\n0 - 150 %\nU16\n409\nP4-09\nM-Max Generative\nrw\nRUN\n1 ≙ 1 %\n0 - 200 %\nU16\n410\nP4-10\nf-MidV/f\nrw\nSTOP\n1 ≙ 0.1 %\n0.0 - 100.0 %\nU16\n411\nP4-11\nV-MidV/f\nrw\nRUN\n1 ≙ 0.1 %\n0.0 - 100.0  %\nU16\n412\nP4-12\nT-Memory Enable\nrw\nRUN\n1 ≙1\n0, 1\nU16\n413\nP4-13\nChange Phasesequence Motor\nrw\nRUN\n1 ≙ 1\n0, 1\nU16\nModbus \nregister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 108,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.1 Parameters for DA1 variable frequency drives\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n48\n501\nP5-01\nPDP-Address\nrw\nRUN\n1 ≙ 1\n1, 2, …, 63\nU16\n502\nP5-02\nCAN0 Baudrate\nrw\nRUN\n0 ≙ 125 kbps\n1 ≙ 250 kbps\n0, 1, 2, 3\nU16\n503\nP5-03\nRS485-0 Baudrate\nrw\nRUN\n0 ≙ 9.6 kbps\n1 ≙ 19.2 kpbs\n0, 1, 2, 3, 4\nU16\n504\nP5-04\nRS485-0 ParityType\nrw\nRUN\n0 ≙ N-1\n1 ≙ N-2\n0, 1, 2, 3\nU16\n505\nP5-05\nModbus RTU0 COM Timeout\nrw\nRUN\n1 ≙ 0.1 s\n0.0 - 5.0\nU16\n506\nP5-06\nAction@Modbus RTU error\nrw\nRUN\n1 ≙ 1\n0, 1, 2, 3\nU16\n507\nP5-07\nFieldbusRampControl\nrw\nRUN\n1 ≙ 1\n0, 1\nU16\n508\nP5-08\nNETSendPZD4\nrw\nRUN\n1 ≙ 1\n0, 1, …, 7\nU16\n509\nP5-09\nReserved Parameter\n–\n–\n–\n–\nU16\n510\nP5-10\nReserved Parameter\n–\n–\n–\n–\nU16\n511\nP5-11\nReserved Parameter\n–\n–\n–\n–\nU16\n512\nP5-12\nNETSendPZD3\nrw\nRUN\n–\n0, 1, …, 7\nU16\n513\nP5-13\nNETReceivePZD4\nrw\nRUN\n–\n0, 1\nU16\n514\nP5-14\nNETReceivePZD3\nrw\nRUN\n–\n0, 1, 2\nU16\n515\nP5-15\nParameterAccess\nrw\nRUN\n1 ≙ 1\n0, 1\nU16\n516\nP5-16\nAction@Communication Loss\nrw\nRUN"
+  },
+  {
+    "chunk_id": 109,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Reserved Parameter\n–\n–\n–\n–\nU16\n511\nP5-11\nReserved Parameter\n–\n–\n–\n–\nU16\n512\nP5-12\nNETSendPZD3\nrw\nRUN\n–\n0, 1, …, 7\nU16\n513\nP5-13\nNETReceivePZD4\nrw\nRUN\n–\n0, 1\nU16\n514\nP5-14\nNETReceivePZD3\nrw\nRUN\n–\n0, 1, 2\nU16\n515\nP5-15\nParameterAccess\nrw\nRUN\n1 ≙ 1\n0, 1\nU16\n516\nP5-16\nAction@Communication Loss\nrw\nRUN\n1 ≙ 1\n0, 1, 2, 3, 4\nU16\n517\nP5-17\nModbus RTU0 response delay\nrw\nSTOP\n1 ≙ 1\n0, 1, …, 16\nU16\n601\nP6-01\nFirmwareUpgrade Enable\nrw\nSTOP\n1 ≙ 1\n0, 1, 2, 3 \nU16\n602\nP6-02\nAuto Thermal Management\nrw\nRUN\n1 ≙ 1\n0, 1, …, 5\nWORD\n603\nP6-03\nAuto Reset Delay\nrw\nRUN\n1 ≙ 1\n1 - 60\nU16\n604\nP6-04\nRO1 n-Hysteresis\nrw\nRUN\n1 ≙ 0.1 %\n0 - 250\nU16\n605\nP6-05\nEncoder Feedback Enable\nrw\nSTOP\n1 ≙ 1\n0, 1 \nWORD\n606\nP6-06\nEncoder PPR\nrw\nSTOP\n–\n0 - 65535\nU16\n607\nP6-07\nSpeed Error Limit\nrw\nRUN\n1 ≙ 0.1 %\n0 - 500\nU16\n608\nP6-08\nFreq RefMax\nrw\nRUN\n–\n0, 5 - 20\nU16\n609\nP6-09\nDroopMax\nrw\nRUN\n1 ≙ 0.1 %\n0 - 250\nU16\n610\nP6-10\nPLC Operation Enable\nrw\nRUN\n1 ≙ 1\n0, 1\nWORD\n611\nP6-11\nt-f-Fix before Start\nrw\nRUN\n1 ≙ 0.1 s\n0 - 2500\nU16\n612"
+  },
+  {
+    "chunk_id": 110,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nSTOP\n–\n0 - 65535\nU16\n607\nP6-07\nSpeed Error Limit\nrw\nRUN\n1 ≙ 0.1 %\n0 - 500\nU16\n608\nP6-08\nFreq RefMax\nrw\nRUN\n–\n0, 5 - 20\nU16\n609\nP6-09\nDroopMax\nrw\nRUN\n1 ≙ 0.1 %\n0 - 250\nU16\n610\nP6-10\nPLC Operation Enable\nrw\nRUN\n1 ≙ 1\n0, 1\nWORD\n611\nP6-11\nt-f-Fix before Start\nrw\nRUN\n1 ≙ 0.1 s\n0 - 2500\nU16\n612\nP6-12\nt-f-Fix after Stop\nrw\nRUN\n1 ≙ 0.1 s\n0 - 2500\nU16\n613\nP6-13\nBrake Release Delay\nrw\nRUN\n1 ≙ 0.1 s\n0 - 50\nU16\n614\nP6-14\nBrake Apply Delay\nrw\nRUN\n1 ≙ 0.1 s\n0 - 50\nU16\n615\nP6-15\nBrake M-Level Release\nrw\nRUN\n1 ≙ 0.1 %\n0 - 2000\nU16\n616\nP6-16\nBrake M-Level Timeout\nrw\nRUN\n1 ≙ 0.1 s\n0 - 250\nU16\n617\nP6-17\nMax Torque Timeout\nrw\nRUN\n1 ≙ 0.1 s\n0 - 250\nU16\nModbus \nregister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 111,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.1 Parameters for DA1 variable frequency drives\n49\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n618\nP6-18\nDCBrakeCurrent\nrw\nSTOP\n0 ≙ Auto\n1 ≙ 0.1 %\n0 : Auto\n0 - 300\nU16\n619\nP6-19\nBrake Resistor\nrw\nRUN\n1 ≙ 1\n0\nRmin - 200\nU16\n620\nP6-20\nP-Brake Resistor\nrw\nRUN\n1 ≙ 0.01 kW\n0 - 20000\nU16\n621\nP6-21\nBrake Chopper ED Heat-Up\nrw\nRUN\n1 ≙0.1 %\n0 - 200\nU16\n622\nP6-22\nReset Fan RunTime\nrw\nRUN\n1 ≙ 1\n0, 1\nWORD\n623\nP6-23\nReset kWh Meter\nrw\nRUN\n1 ≙1\n0, 1\nWORD\n624\nP6-24\nService Interval Time\nrw\nRUN\n1 ≙1\n0 - 60 000 h\n(0 = disabled)\nU16\n625\nP6-25\nReset ServiceIndicator\nrw\nRUN\n1 ≙ 1\n0 -1 \nWORD\n626\nP6-26\nAO1 Scale\nrw\nRUN\n1 ≙ 0.1\n0 - 5000\nU16\n627\nP6-27\nAO1 Offset\nrw\nRUN\n1 ≙ 0.1 %\n-5000 - 5000\nS16\n628\nP6-28\nPointerToParameter\nrw\nRUN\n–\n0 - 127\nU16\n629\nP6-29\nSave parameters\nrw\nSTOP\n1 ≙1\n0, 1\nWORD\n630\nP6-30\nPassword Level3\nrw\nRUN\n–\n0 - 9999\nU16\n701\nP7-01\nMotor Stator Resistance R1\nrw\nRUN\n1 ≙ 0.001 Ω\n0.000 Ω - f (Ie)\nU16\n702\nP7-02\nMotor Rotor Resistance R2"
+  },
+  {
+    "chunk_id": 112,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nRUN\n1 ≙ 0.1 %\n-5000 - 5000\nS16\n628\nP6-28\nPointerToParameter\nrw\nRUN\n–\n0 - 127\nU16\n629\nP6-29\nSave parameters\nrw\nSTOP\n1 ≙1\n0, 1\nWORD\n630\nP6-30\nPassword Level3\nrw\nRUN\n–\n0 - 9999\nU16\n701\nP7-01\nMotor Stator Resistance R1\nrw\nRUN\n1 ≙ 0.001 Ω\n0.000 Ω - f (Ie)\nU16\n702\nP7-02\nMotor Rotor Resistance R2\nrw\nRUN\n1 ≙ 0.001 Ω\n0.000 Ω - f (Ie)\nU16\n703\nP7-03\nMotor Stator Inductance d-Axis\nrw\nRUN\n1 ≙ 0.0001 H\n0.00 - 6.5535 H\nU16\n704\nP7-04\nMagnetizing Current @M=0\nrw\nRUN\n1 ≙ 0.1 A\n0.0 A - f (Ie)\nU16\n705\nP7-05\nLeak Inductance Rel\nrw\nRUN\n1 ≙ 0.001\n0.00 - 0.25\nU16\n706\nP7-06\nMotor Stator Inductance q-Axis\nrw\nRUN\n1 ≙ 0.0001 H\n0.000 - 6.5535 H\nU16\n707\nP7-07\nEnhancedGeneratorControl\nrw\nRUN\n1 ≙1\n0, 1\nWORD\n708\nP7-08\nParameterAdaptation\nrw\nRUN\n1 ≙1\n0, 1\nWORD\n709\nP7-09\nOvervoltage Currentlimit\nrw\nRUN\n1 ≙0.1 %\n0.0 - 100 % rated motor \ncurrent\nU16\n710\nP7-10\nLoadInertiaFactor\nrw\nRUN\n1 ≙1\n0 - 600\nU16\n711\nP7-11\nPWM lower Limit\nrw\nRUN\n1 ≙1\n0 - 500\nU16\n712\nP7-12\nt-Excitation-V/f\nrw\nRUN\n–\n0 - 2000\nU16\n713\nP7-13\nMSC Kd\nrw"
+  },
+  {
+    "chunk_id": 113,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nRUN\n1 ≙1\n0, 1\nWORD\n709\nP7-09\nOvervoltage Currentlimit\nrw\nRUN\n1 ≙0.1 %\n0.0 - 100 % rated motor \ncurrent\nU16\n710\nP7-10\nLoadInertiaFactor\nrw\nRUN\n1 ≙1\n0 - 600\nU16\n711\nP7-11\nPWM lower Limit\nrw\nRUN\n1 ≙1\n0 - 500\nU16\n712\nP7-12\nt-Excitation-V/f\nrw\nRUN\n–\n0 - 2000\nU16\n713\nP7-13\nMSC Kd\nrw\nRUN\n1 ≙0.1 %\n0 - 4000\nU16\n714\nP7-14\nTorque Boost\nrw\nRUN\n1 ≙ 0.1 %\n0 - 1000\nU16\n715\nP7-15\nTorque Boost area\nrw\nRUN\n1 ≙ 0.1 %\n0 - 500\nU16\n716\nP7-16\nPM-MotorSignalIn\nrw\nRUN\n–\n0, 1, 2, 3\nU16\n717\nP7-17\nPM-MotorSignalInLevel\nrw\nRUN\n–\n0 - 100\nU16\nModbus \nregister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 114,
+    "page": 52,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.1 Parameters for DA1 variable frequency drives\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n50\n801\nP8-01\nt-acc2\nrw\nRUN\nFS2, FS3: 1 ≙0.01 s          \nFS4…: 1 ≙0.1 s\n0 - 60000\nU16\n802\nP8-02\nn-accMulti1\nrw\nRUN\n3000 ≙ 50.0 Hz\n0 - 30000\nU16\n803\nP8-03\nt-acc3\nrw\nRUN\nFS2, FS3: 1 ≙0.01 s          \nFS4…: 1 ≙0.1 s\n0 - 60000\nU16\n804\nP8-04\nn-accMulti2\nrw\nRUN\n3000 ≙ 50.0 Hz\n0 - 30000\nU16\n805\nP8-05\nt-acc4\nrw\nRUN\nFS2, FS3: 1 ≙0.01 s          \nFS4…: 1 ≙0.1 s\n0 - 60000\nU16\n806\nP8-06\nn-accMulti3\nrw\nRUN\n3000 ≙ 50.0 Hz\n0 - 30000\nU16\n807\nP8-07\nt-dec4\nrw\nRUN\nFS2, FS3: 1 ≙0.01 s          \nFS4…: 1 ≙0.1 s\n0 - 60000\nU16\n808\nP8-08\nn-decMulti3\nrw\nRUN\n3000 ≙ 50.0 Hz\n0 - 30000\nU16\n809\nP8-09\nt-dec3\nrw\nRUN\nFS2, FS3: 1 ≙0.01 s          \nFS4…: 1 ≙0.1 s\n0 - 60000\nU16\n810\nP8-10\nn-decMulti2\nrw\nRUN\n3000 ≙ 50.0 Hz\n0 - 30000\nU16\n811\nP8-11\nt-dec2\nrw\nRUN\nFS2, FS3: 1 ≙0.01 s          \nFS4…: 1 ≙0.1 s\n0 - 60000\nU16\n812\nP8-12\nn-decMulti1\nrw\nRUN\n3000 ≙ 50.0 Hz\n0 - 30000\nU16"
+  },
+  {
+    "chunk_id": 115,
+    "page": 52,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "0 - 30000\nU16\n809\nP8-09\nt-dec3\nrw\nRUN\nFS2, FS3: 1 ≙0.01 s          \nFS4…: 1 ≙0.1 s\n0 - 60000\nU16\n810\nP8-10\nn-decMulti2\nrw\nRUN\n3000 ≙ 50.0 Hz\n0 - 30000\nU16\n811\nP8-11\nt-dec2\nrw\nRUN\nFS2, FS3: 1 ≙0.01 s          \nFS4…: 1 ≙0.1 s\n0 - 60000\nU16\n812\nP8-12\nn-decMulti1\nrw\nRUN\n3000 ≙ 50.0 Hz\n0 - 30000\nU16\n813\nP8-13\nRamp Mode\nrw\nRUN\n1 ≙1\n0, 1\nWORD\n901\nP9-01\nEnable Operation Source\nrw\nSTOP\n1 ≙1\n0 - 8\nU16\n902\nP9-02\nQuickStop Source\nrw\nSTOP\n1 ≙1\n0 - 25\nU16\n903\nP9-03\nFWD Source\nrw\nSTOP\n1 ≙1\n0 - 25\nU16\n904\nP9-04\nREV Source\nrw\nSTOP\n1 ≙1\n0 - 25\nU16\n905\nP9-05\nSignal Format\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n906\nP9-06\nForce REV Source\nrw\nSTOP\n1 ≙1\n0 - 25\nU16\n907\nP9-07\nFaultReset Source\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n908\nP9-08\nExternal Fault1 Source\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n909\nP9-09\nLocalRemote @Startup\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n910\nP9-10\nSpeed Source 1\nrw\nSTOP\n1 ≙ 1\n0 - 16\nU16\n911\nP9-11\nSpeed Source 2\nrw\nSTOP\n1 ≙ 1\n0 - 16\nU16\n912\nP9-12\nSpeed Source 3\nrw\nSTOP\n1 ≙ 1\n0 - 16\nU16\n913\nP9-13\nSpeed Source 4\nrw\nSTOP\n1 ≙ 1\n0 - 16"
+  },
+  {
+    "chunk_id": 116,
+    "page": 52,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "External Fault1 Source\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n909\nP9-09\nLocalRemote @Startup\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n910\nP9-10\nSpeed Source 1\nrw\nSTOP\n1 ≙ 1\n0 - 16\nU16\n911\nP9-11\nSpeed Source 2\nrw\nSTOP\n1 ≙ 1\n0 - 16\nU16\n912\nP9-12\nSpeed Source 3\nrw\nSTOP\n1 ≙ 1\n0 - 16\nU16\n913\nP9-13\nSpeed Source 4\nrw\nSTOP\n1 ≙ 1\n0 - 16\nU16\n914\nP9-14\nSpeed Source 5\nrw\nSTOP\n1 ≙ 1\n0 - 16\nU16\n915\nP9-15\nSpeed Source 6\nrw\nSTOP\n1 ≙ 1\n0 - 16\nU16\n916\nP9-16\nSpeed Source 7\nrw\nSTOP\n1 ≙ 1\n0 - 16\nU16\n917\nP9-17\nSpeed Source 8\nrw\nSTOP\n1 ≙ 1\n0 - 16\nU16\n918\nP9-18\nSpeed Select B0\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n919\nP9-19\nSpeed Select B1\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n920\nP9-20\nSpeed Select B2\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\nModbus \nregister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 117,
+    "page": 53,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.1 Parameters for DA1 variable frequency drives\n51\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n921\nP9-21\nf-Fix Select B0\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n922\nP9-22\nf-Fix Select B1\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n923\nP9-23\nf-Fix Select B2\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n924\nP9-24\nt-acc Select B0\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n925\nP9-25\nt-acc Select B1\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n926\nP9-26\nt-dec Select B0\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n927\nP9-27\nt-dec Select B1\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n928\nP9-28\ndigRef UP Source\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n929\nP9-29\ndigRef DOWN Source\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n930\nP9-30\nEnableDirFWD Source\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n931\nP9-31\nEnableDirREV Source\nrw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n932\nP9-32\nReserved Parameter\n-\nSTOP\n1 ≙ 1\n–\nU16\n933\nP9-33\nADO1 Function & Mode Extension\nrw\nSTOP\n1 ≙ 1\n0, 1, 2\nU16\n934\nP9-34\nADO2 Function & Mode Extension\nrw\nSTOP\n1 ≙ 1\n0, 1, 2\nU16\n935\nP9-35\nRO1 Function Extension\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n936\nP9-36\nRO2 Function Extension\nrw"
+  },
+  {
+    "chunk_id": 118,
+    "page": 53,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nSTOP\n1 ≙ 1\n0 - 25\nU16\n932\nP9-32\nReserved Parameter\n-\nSTOP\n1 ≙ 1\n–\nU16\n933\nP9-33\nADO1 Function & Mode Extension\nrw\nSTOP\n1 ≙ 1\n0, 1, 2\nU16\n934\nP9-34\nADO2 Function & Mode Extension\nrw\nSTOP\n1 ≙ 1\n0, 1, 2\nU16\n935\nP9-35\nRO1 Function Extension\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n936\nP9-36\nRO2 Function Extension\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n937\nP9-37\nDisplay Scale Source\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n938\nP9-38\nPID1 Set Point1 Source Ext\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n939\nP9-39\nPID1 Feedback1 Source Ext\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n940\nP9-40\nM-Ref Source Extension\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n941\nP9-41\nRO5 Function Extension\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\nModbus \nregister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 119,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.1 Parameters for DA1 variable frequency drives\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n52\nModbus \nregister\nUser defined register\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP\n51\nUserRegister1\nrw\n–\n–\n–\n52\nUserRegister2\nrw\n–\n–\n–\n53\nUserRegister3\nrw\n–\n–\n–\n54\nUserRegister4\nrw\n–\n–\n–\n55\nUserRegister5\nrw\n–\n–\n–\n56\nUserRegister6\nrw\n–\n–\n–\n57\nUserRegister7\nrw\n–\n–\n–\n58\nUserRegister8\nrw\n–\n–\n–\n59\nUserRegister9\nrw\n–\n–\n–\n60\nUserRegister10\nrw\n–\n–\n–\n61\nUserRegister11\nrw\n–\n–\n–\n62\nUserRegister12\nrw\n–\n–\n–\n63\nUserRegister13\nrw\n–\n–\n–\n64\nUserRegister14\nrw\n–\n–\n–\n65\nUserRegister15\nrw\n–\n–\n–\n66\nUser Analog Output 1\nrw\n–\n–\n–\n67\nUser Analog Output 2\nrw\n–\n–\n–\n70\nUser RO1 LogicStatus\nrw\n–\n–\n–\n71\nUser RO2 LogicStatus\nrw\n–\n–\n–\n72\nUser RO3 LogicStatus\nrw\n–\n–\n–\n73\nUser RO4 LogicStatus\nrw\n–\n–\n–\n74\nUser RO5 LogicStatus\nrw\n–\n–\n–\n75\nUser scaling value\nrw\n–\n–\n–\n76\nUser decimal scaling\nrw\n–\n–\n–\n77\nUser speed reference\nrw\n–\n–\n–\n78\nUser torque deference\nrw"
+  },
+  {
+    "chunk_id": 120,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\n–\n–\n–\n70\nUser RO1 LogicStatus\nrw\n–\n–\n–\n71\nUser RO2 LogicStatus\nrw\n–\n–\n–\n72\nUser RO3 LogicStatus\nrw\n–\n–\n–\n73\nUser RO4 LogicStatus\nrw\n–\n–\n–\n74\nUser RO5 LogicStatus\nrw\n–\n–\n–\n75\nUser scaling value\nrw\n–\n–\n–\n76\nUser decimal scaling\nrw\n–\n–\n–\n77\nUser speed reference\nrw\n–\n–\n–\n78\nUser torque deference\nrw\n–\n–\n–\n75\nDrive scaling value 1\nro\n–\n–\n–\n76\nDrive scaling value 2\nro\n–\n–\n–"
+  },
+  {
+    "chunk_id": 121,
+    "page": 55,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.2 Parameters for DB1 variable frequency drives\n53\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n3.2 Parameters for DB1 variable frequency drives\nTable 21: Parameters for DB1 variable frequency drives\nModbus-\nRegister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP\n20\nP0-01\nAnalog Input1\nro\nRUN\n4096 ≙ 100.0 %\n0 - 1000\n–\n21\nP0-02\nAnalog Input2\nro\nRUN\n4096 ≙ 100.0 %\n0 - 1000\n–\n2 \nP0-03\nFrequency Reference \nro\nRUN\n–\n11\nP0-04\nDI Status\nro\nRUN\n-\n–\nP0-05\nPID1 Output\nro\nRUN\n-\n–\nP0-06\nDC-Link Voltage Ripple\nro\nRUN\n-\n–\n43\nP0-07\nMotor Voltage\nro\nRUN\n–\n23\nP0-08\nDC-Link Voltage\nro\nRUN\n230 ≙ 230 V\n0 - 1000\n–\n24\nP0-09\nHeatsink Temperature\nro\nRUN\n40 ≙ 40 °C\n-10 - 150\n–\n25\nP0-10\nt-Run (h)\nro\nRUN\n1 ≙ 1\n–\n–\n26\nP0-10\nt-Run (min/sec)\nro\nRUN\n300 ≙ 3.00 s\n–\n–\nP0-11\nt-Run since Trip1\nro\nRUN\n–\n–\nP0-12\nt-Run since Trip2\nro\nRUN\n–\n–\nP0-13\nLast Fault PDP\nro\nRUN\n–\n–\n27\nP0-14\nt-HoursRun Enable (h)\nro\nRUN\n–\n–\n28\nP0-14"
+  },
+  {
+    "chunk_id": 122,
+    "page": 55,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "–\n24\nP0-09\nHeatsink Temperature\nro\nRUN\n40 ≙ 40 °C\n-10 - 150\n–\n25\nP0-10\nt-Run (h)\nro\nRUN\n1 ≙ 1\n–\n–\n26\nP0-10\nt-Run (min/sec)\nro\nRUN\n300 ≙ 3.00 s\n–\n–\nP0-11\nt-Run since Trip1\nro\nRUN\n–\n–\nP0-12\nt-Run since Trip2\nro\nRUN\n–\n–\nP0-13\nLast Fault PDP\nro\nRUN\n–\n–\n27\nP0-14\nt-HoursRun Enable (h)\nro\nRUN\n–\n–\n28\nP0-14\nt-HoursRun Enable (min/sec)\nro\nRUN\nP0-15\nDC-Link Log\nro\nRUN\n–\n–\nP0-16\nHeatsink Log\nro\nRUN\n–\n–\nP0-17\nMotorCurrent Log\nro\nRUN\n–\n–\nP0-18\nDC-Link V-Ripple Log\nro\nRUN\n–\n–\nP0-19\nAmbientTemp Log\nro\nRUN\n–\n–\n39\nP0-20\nT-Controlboard\nro\nRUN\n40 ≙ 40 °C\n0 - N/A\n–\nP0-21\nInput Data Value\nro\nRUN\n–\n–\nP0-22\nOutput Data Value\nro\nRUN\n–\n–\nP0-23\nt-Run IGBT in OT\nro\nRUN\n–\n–\nP0-24\nt-Run PCB in OT\nro\nRUN\n–\n–\nP0-25\nMotor Speed\nro\nRUN\n–\n–\nP0-26\nkWh Meter\nro\nRUN\n100 ≙ 10.0 kWh\n0 - N/A\n–\nP0-26\nMWh Meter\nro\nRUN\n100 ≙ 100 MWh\n0 - N/A\n–\nP0-27\nFan Runtime\nro\nRUN\n–\n–\n15/16\nP0-28\nApplication Version\nro\nRUN\n–\n–\n12\nP0-29\nDeviceType\nro\nRUN\n–\n–\n29\nP0-30\nSerial Number 4\nro\nRUN\n1 ≙ 1\n–\n–\n30\nP0-30\nSerial Number 3\nro\nRUN\n1 ≙ 1\n–\n–"
+  },
+  {
+    "chunk_id": 123,
+    "page": 56,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.2 Parameters for DB1 variable frequency drives\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n54\n31\nP0-30\nSerial Number 2\nro\nRUN\n1 ≙ 1\n–\n–\n32\nP0-30\nSerial Number 1\nro\nRUN\n1 ≙ 1\n–\n–\nP0-31\nMagnetizing current Id / Torque \ncurrent Iq\nro\nRUN\n–\n–\nP0-32\nSwitching Frequency\nro\nRUN\n–\n–\nP0-33\nFaultCounter Overcurrent\nro\nRUN\n–\n–\nP0-34\nFaultCounter DC-Overvoltage\nro\nRUN\n–\n–\nP0-35\nFaultCounter DC-Undervoltage\nro\nRUN\n–\n–\nP0-36\nFaultCounter Overtemperature \nHeatsink\nro\nRUN\n–\n–\nP0-37\nFaultCounter Overcurrent Brake \nChopper\nro\nRUN\n–\n–\nP0-38\nFaultCounter Overtemperature \nAmbient\nro\nRUN\n–\n–\nP0-39\nFaultCounter Communication Loss\nro\nRUN\n–\n–\nP0-40\nFaultCounter CANopen COM loss\nro\nRUN\n–\n–\nP0-41\nFaultCounter Internal Fault (IO)\nro\nRUN\n–\n–\nP0-42\nFaultCounter Internal Fault (DSP)\nro\nRUN\n–\n–\nP0-43\nt-PowerOn\nro\nRUN\n–\n–\nP0-44\nPhase U Current Offset & Ref\nro\nRUN\n–\n–\nP0-45\nPhase V Current Offset & Ref\nro\nRUN\n–\n–\nP0-46\nPhase W Current Offset & Ref\nro\nRUN\n–\n–"
+  },
+  {
+    "chunk_id": 124,
+    "page": 56,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "ro\nRUN\n–\n–\nP0-41\nFaultCounter Internal Fault (IO)\nro\nRUN\n–\n–\nP0-42\nFaultCounter Internal Fault (DSP)\nro\nRUN\n–\n–\nP0-43\nt-PowerOn\nro\nRUN\n–\n–\nP0-44\nPhase U Current Offset & Ref\nro\nRUN\n–\n–\nP0-45\nPhase V Current Offset & Ref\nro\nRUN\n–\n–\nP0-46\nPhase W Current Offset & Ref\nro\nRUN\n–\n–\nP0-47\nt-FireMode Active & FaultCounter Fire \ndetected\nro\nRUN\n–\n–\n18/19\nP0-48\nScope Channel 1& 2\nro\nRUN\n–\n–\nP0-49\nScope Channel 3& 4\nro\nRUN\n–\n–\nP0-50\nSystem Software Version\nro\nRUN\n–\n–\n129\nP-01\nf-max\nrw\nRUN\n3000 ≙ 50.0 Hz\nP-02 - 5 x P-09\nU16\n130\nP-02\nf-min\nrw\nRUN\n3000 ≙ 50.0 Hz\n0.0 Hz - P-01\nU16\n131\nP-03\nt-acc\nrw\nRUN\n300 ≙ 3.00 s\n0.00 s - 600 s\nU16\n132\nP-04\nt-dec\nrw\nRUN\n300 ≙ 3.00 s\n0.00 s - 601 s\nU16\n133\nP-05\nStop Mode\nrw\nRUN\n1 ≙ 1\n0 - 3\nU16\n134\nP-06\nEnergyOptimizer\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n135\nP-07\nMotor Nom Voltage\nrw\nSTOP\n230 ≙ 230 V\n0 / 20 V - Ue\nU16\n136\nP-08\nMotor Nom Current\nrw\nRUN\n100 ≙ 10.0 A\n0.25 Ie - Ie\nU16\n137\nP-09\nMotor Nom Frequency\nrw\nSTOP\n50 ≙ 50.0 Hz\n25 Hz - 500 Hz\nU16\n138\nP-10\nMotor Nom Speed\nrw"
+  },
+  {
+    "chunk_id": 125,
+    "page": 56,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nRUN\n1 ≙ 1\n0 - 3\nU16\n134\nP-06\nEnergyOptimizer\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n135\nP-07\nMotor Nom Voltage\nrw\nSTOP\n230 ≙ 230 V\n0 / 20 V - Ue\nU16\n136\nP-08\nMotor Nom Current\nrw\nRUN\n100 ≙ 10.0 A\n0.25 Ie - Ie\nU16\n137\nP-09\nMotor Nom Frequency\nrw\nSTOP\n50 ≙ 50.0 Hz\n25 Hz - 500 Hz\nU16\n138\nP-10\nMotor Nom Speed\nrw\nRUN\n1 ≙ 1\n0 / 200 rpm - 30000 rpm\nU16\nModbus-\nRegister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 126,
+    "page": 57,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.2 Parameters for DB1 variable frequency drives\n55\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n139\nP-11\nV-Boost\nrw\nRUN\n100 ≙ 10.0 %\n0.0 % Ue - f (FS)\nFS1: 25 % Ue\nFS2: 20 % Ue\nFS3: 15 % Ue\nFS4: 10 % Ue\nU16\n140\nP-12\nLocal ProcessData Source\nrw\nSTOP\n1 ≙ 1\n0 - 13\nU16\n141\nP-13\nApplication Mode Macro\nrw\nRUN\n1 ≙ 1\n –\nU16\n142\nP-14\nPassword\nrw\nRUN\n1 ≙ 1\n0 - 65535\nU16\n143\nP-15\nDI Config Selec\nrw\nSTOP\n1 ≙ 1\n0 - 17\nU16\n144\nP-16\nAI1 Signal Range\nrw\nRUN\n1 ≙ 1\n0 - 6\nU16\n145\nP-17\nSwitching Frequency\nrw\nRUN\n1 ≙ 1\n0 - f (Ie)\nU16\n146\nP-18\nRO1 Function\nrw\nRUN\n1 ≙ 1\n0 - 7\nU16\n147\nP-19\nRO1 upper Limit\nrw\nRUN\n100 ≙ 10.0 %\n0 - 2\nU16\n148\nP-20\nf-Fix1\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n149\nP-21\nf-Fix2\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n150\nP-22\nf-Fix3\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n151\nP-23\nf-Fix4\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n152\nP-24\nt-QuickDec\nrw\nRUN\n300 ≙ 3.00 s\n0.00 s - 600.0 s\nU16\n153\nP-25\nAO1 Function\nrw\nRUN\n1 ≙ 1"
+  },
+  {
+    "chunk_id": 127,
+    "page": 57,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n149\nP-21\nf-Fix2\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n150\nP-22\nf-Fix3\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n151\nP-23\nf-Fix4\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n152\nP-24\nt-QuickDec\nrw\nRUN\n300 ≙ 3.00 s\n0.00 s - 600.0 s\nU16\n153\nP-25\nAO1 Function\nrw\nRUN\n1 ≙ 1\n0 - 9\nU16\n154\nP-26\nf-SkipBand1\nrw\nRUN\n3000 ≙ 50.0 Hz\n0.0 Hz - f-max\nU16\n155\nP-27\nf-Skip1\nrw\nRUN\n3000 ≙ 50.0 Hz\n0.0 Hz - f-max\nU16\n156\nP-28\nV-MidV/f\nrw\nSTOP\n230 ≙ 230 V\n0 V - P-07\nU16\n157\nP-29\nf-MidV/f\nrw\nSTOP\n3000 ≙ 50.0 Hz\n0 Hz - P-09\nU16\n158\nP-30\nStart Mode\nrw\nRUN\n1 ≙ 1\n0 - 6\nU16\n159\nP-31\nDigital Reference Reset Mode\nrw\nRUN\n1 ≙ 1\n0 - 3\nU16\n160\n(Low \nByte)\nP-32\nt-DCBrake\nrw\nRUN\n30 ≙ 3.0 s\n0.0 s - 25.0 s\nU16\n160\n(High \nByte)\nP-32\nDCBrake\nrw\nRUN\n1 ≙ 1\n0-2\nU16\n161\nP-33\nSpin Start Enable\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n162\nP-34\nBrake Chopper\nrw\nRUN\n1 ≙ 1\n0 - 2\nU16\n163\nP-35\nAI1 Gain\nrw\nRUN\n100 ≙ 10.0 %\n0 - 20\nU16\n164 \n(Low\nByte)\nP-36\nRS485-0 Address\nrw\nRUN\n1 ≙ 1\n1 - 63\nU16\n164\n(Bit 8 - \nBit 11)\nP-36"
+  },
+  {
+    "chunk_id": 128,
+    "page": 57,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "U16\n160\n(High \nByte)\nP-32\nDCBrake\nrw\nRUN\n1 ≙ 1\n0-2\nU16\n161\nP-33\nSpin Start Enable\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n162\nP-34\nBrake Chopper\nrw\nRUN\n1 ≙ 1\n0 - 2\nU16\n163\nP-35\nAI1 Gain\nrw\nRUN\n100 ≙ 10.0 %\n0 - 20\nU16\n164 \n(Low\nByte)\nP-36\nRS485-0 Address\nrw\nRUN\n1 ≙ 1\n1 - 63\nU16\n164\n(Bit 8 - \nBit 11)\nP-36\nRS485-0 Baudrate\nrw\nRUN\n1 ≙ 1\n0 - 6\nU16\nModbus-\nRegister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 129,
+    "page": 58,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.2 Parameters for DB1 variable frequency drives\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n56\n164\n(Bit 12 -\nBit 15)\nP-36\nModbus RTU0 COM Timeout\nrw\nRUN\n1 ≙ 1\n0 - 8\nU16\n165\nP-37\nPassword Level2\nrw\nRUN\n1 ≙ 1\n0 - 9999\nU16\n166\nP-38\nParameter Lock\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n167\nP-39\nAI1 Offset\nrw\nRUN\n10 ≙ 1.0 %\n-5 - +5\nU16\n168\n(Bit 0 -\nBit 13)\nP-40\nDisplay Scale\nrw\nRUN\n10000 ≙ 10.000\n0 - 16.000\nU16\n168\n(Bit 14, \nBit 15)\nP-40\nDisplay Scale Source\nrw\nRUN\n1 ≙ 1\n0 - 2\nU16\n169\nP-41\nPID1 Kp\nrw\nRUN\n10 ≙ 1.0\n0,1 - 30\nU16\n170\nP-42\nPID1 Ti\nrw\nRUN\n300 ≙ 3.00 s\n0.0 s - 30.0 s\nU16\n171\nP-43\nPID1 Mode\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n172\nP-44\nPID1 Set Point 1 Source\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n173\nP-45\nPID1 Set Point Digital\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n174\nP-46\nPID1 Feedback 1 Source\nrw\nRUN\n1 ≙ 1\n0 - 3\nU16\n175\nP-47\nAI2 Signal Range\nrw\nRUN\n1 ≙ 1\n0 - 6\nU16\n176\nP-48\nt-Standby\nrw\nRUN\n300 ≙ 3.00 s\n0.0 s - 25.0 s\nU16\n177\nP-49\nPID1 WakeUpLevel\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n178\nP-50"
+  },
+  {
+    "chunk_id": 130,
+    "page": 58,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nRUN\n1 ≙ 1\n0 - 1\nU16\n173\nP-45\nPID1 Set Point Digital\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n174\nP-46\nPID1 Feedback 1 Source\nrw\nRUN\n1 ≙ 1\n0 - 3\nU16\n175\nP-47\nAI2 Signal Range\nrw\nRUN\n1 ≙ 1\n0 - 6\nU16\n176\nP-48\nt-Standby\nrw\nRUN\n300 ≙ 3.00 s\n0.0 s - 25.0 s\nU16\n177\nP-49\nPID1 WakeUpLevel\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n178\nP-50\nCAN0 Baudrate\nrw\nRUN\n1 ≙ 1\n0 - 3\nU16\n179\nP-51\nT-Memory Enable\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n182\nP-54\nRO1 Hysteresis\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n183\nP-55\nRO1 Switch-On Delay\nrw\nRUN\n300 ≙ 3.00 s\n0.0 s - 250.0 s\nU16\n184\nP-56\nModbus Parity Type\nrw\nRUN\nU16\n188\nP-60\nMotor Control Mode\nrw\nRUN\n1 ≙ 1\n0 - 4\nU16\n189\nP-61\nMotor Identification\nrw\nSTOP\n300 ≙ 3.00 s\n0.0 s - 250.0 s\nU16\n190\nP-62\nMSC Gain\nrw\nRUN\n10 ≙ 1.0 %\n0.0 % - 200.0 %\nU16\n191\nP-63\nI-CurrentLimit\nrw\nRUN\n10 ≙ 1.0 %\n0.1 % - 175 %\nU16\n192\nP-64\nMotor Stator Resistance R1\nrw\nRUN\n0.00 Ω - 655.35 Ω\nU16\n193\nP-65\nMotor Stator Inductance d-Axis\nrw\nRUN\n0.0 mH - 6553.5 mH\nU16\n194\nP-66\nMotor Stator Induktivität q-Achse\nrw\nRUN\n0.0 mH - 6553.5 mH\nU16\n195\nP-67"
+  },
+  {
+    "chunk_id": 131,
+    "page": 58,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "0.0 % - 200.0 %\nU16\n191\nP-63\nI-CurrentLimit\nrw\nRUN\n10 ≙ 1.0 %\n0.1 % - 175 %\nU16\n192\nP-64\nMotor Stator Resistance R1\nrw\nRUN\n0.00 Ω - 655.35 Ω\nU16\n193\nP-65\nMotor Stator Inductance d-Axis\nrw\nRUN\n0.0 mH - 6553.5 mH\nU16\n194\nP-66\nMotor Stator Induktivität q-Achse\nrw\nRUN\n0.0 mH - 6553.5 mH\nU16\n195\nP-67\nf-DCBremse@Stopp\nrw\nRUN\n3000 ≙ 50.0 Hz\n0.0 Hz - P-01\nU16\n196\nP-68\nDC-Brake Current\nrw\nRUN\n10 ≙ 1.0 %\n0,0 % - 100.0 %\nU16\nModbus-\nRegister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 132,
+    "page": 59,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.3 Parameters for DC1 variable frequency drives\n57\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n3.3 Parameters for DC1 variable frequency drives\nTable 22: Parameters for DC1 variable frequency drives\nModbus-\nRegister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP\n20\nP0-01\nAnalog Input1\nro\nRUN\n4096 ≙ 100.0 %\n0 - 1000\n–\n21\nP0-02\nAnalog Input2\nro\nRUN\n4096 ≙ 100.0 %\n0 - 1000\n–\n2 \nP0-03\nFrequency Reference \nro\nRUN\n–\n11\nP0-04\nDI Status\nro\nRUN\n-\n–\nP0-05\nPID1 Output\nro\nRUN\n-\n–\nP0-06\nDC-Link Voltage Ripple\nro\nRUN\n-\n–\n43\nP0-07\nMotor Voltage\nro\nRUN\n–\n23\nP0-08\nDC-Link Voltage\nro\nRUN\n230 ≙ 230 V\n0 - 1000\n–\n24\nP0-09\nHeatsink Temperature\nro\nRUN\n40 ≙ 40 °C\n-10 - 150\n–\n25\nP0-10\nt-Run (h)\nro\nRUN\n1 ≙ 1\n–\n–\n26\nP0-10\nt-Run (min/sec)\nro\nRUN\n300 ≙ 3.00 s\n–\n–\nP0-11\nt-Run since Trip1\nro\nRUN\n–\n–\nP0-12\nt-Run since Trip2\nro\nRUN\n–\n–\nP0-13\nLast Fault PDP\nro\nRUN\n–\n–\n27\nP0-14\nt-HoursRun Enable (h)\nro\nRUN\n–\n–\n28\nP0-14"
+  },
+  {
+    "chunk_id": 133,
+    "page": 59,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "–\n24\nP0-09\nHeatsink Temperature\nro\nRUN\n40 ≙ 40 °C\n-10 - 150\n–\n25\nP0-10\nt-Run (h)\nro\nRUN\n1 ≙ 1\n–\n–\n26\nP0-10\nt-Run (min/sec)\nro\nRUN\n300 ≙ 3.00 s\n–\n–\nP0-11\nt-Run since Trip1\nro\nRUN\n–\n–\nP0-12\nt-Run since Trip2\nro\nRUN\n–\n–\nP0-13\nLast Fault PDP\nro\nRUN\n–\n–\n27\nP0-14\nt-HoursRun Enable (h)\nro\nRUN\n–\n–\n28\nP0-14\nt-HoursRun Enable (min/sec)\nro\nRUN\n–\n–\nP0-15\nDC-Link Log\nro\nRUN\n–\n–\nP0-16\nHeatsink Log\nro\nRUN\n–\n–\nP0-17\nMotorCurrent Log\nro\nRUN\n–\n–\nP0-18\nDC-Link V-Ripple Log\nro\nRUN\n–\n–\nP0-19\nAmbientTemp Log\nro\nRUN\n–\n–\n39\nP0-20\nT-Controlboard\nro\nRUN\n40 ≙ 40 °C\n0 - N/A\n–\nP0-21\nInput Data Value\nro\nRUN\n–\n–\nP0-22\nOutput Data Value\nro\nRUN\n–\n–\nP0-23\nt-Run IGBT in OT\nro\nRUN\n–\n–\nP0-24\nt-Run PCB in OT\nro\nRUN\n–\n–\nP0-25\nMotor Speed\nro\nRUN\n–\n–\nP0-26\nkWh Meter\nro\nRUN\n100 ≙ 10.0 kWh\n0 - N/A\n–\nP0-26\nMWh Meter\nro\nRUN\n100 ≙ 100 MWh\n0 - N/A\n–\nP0-27\nFan Runtime\nro\nRUN\n–\n–\n15/16\nP0-28\nApplication Version\nro\nRUN\n–\n–\n12\nP0-29\nDeviceType\nro\nRUN\n–\n–\n29\nP0-30\nSerial Number 4\nro\nRUN\n1 ≙ 1\n–\n–\n30\nP0-30\nSerial Number 3\nro\nRUN\n1 ≙ 1\n–"
+  },
+  {
+    "chunk_id": 134,
+    "page": 59,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "ro\nRUN\n–\n–\nP0-26\nkWh Meter\nro\nRUN\n100 ≙ 10.0 kWh\n0 - N/A\n–\nP0-26\nMWh Meter\nro\nRUN\n100 ≙ 100 MWh\n0 - N/A\n–\nP0-27\nFan Runtime\nro\nRUN\n–\n–\n15/16\nP0-28\nApplication Version\nro\nRUN\n–\n–\n12\nP0-29\nDeviceType\nro\nRUN\n–\n–\n29\nP0-30\nSerial Number 4\nro\nRUN\n1 ≙ 1\n–\n–\n30\nP0-30\nSerial Number 3\nro\nRUN\n1 ≙ 1\n–\n–"
+  },
+  {
+    "chunk_id": 135,
+    "page": 60,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.3 Parameters for DC1 variable frequency drives\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n58\n31\nP0-30\nSerial Number 2\nro\nRUN\n1 ≙ 1\n–\n–\n32\nP0-30\nSerial Number 1\nro\nRUN\n1 ≙ 1\n–\n–\nP0-31\nMagnetizing current Id / Torque \ncurrent Iq\nro\nRUN\n–\n–\nP0-32\nSwitching Frequency\nro\nRUN\n–\n–\nP0-33\nFaultCounter Overcurrent\nro\nRUN\n–\n–\nP0-34\nFaultCounter DC-Overvoltage\nro\nRUN\n–\n–\nP0-35\nFaultCounter DC-Undervoltage\nro\nRUN\n–\n–\nP0-36\nFaultCounter Overtemperature \nHeatsink\nro\nRUN\n–\n–\nP0-37\nFaultCounter Overcurrent Brake \nChopper\nro\nRUN\n–\n–\nP0-38\nFaultCounter Overtemperature \nAmbient\nro\nRUN\n–\n–\nP0-39\nFaultCounter Communication Loss\nro\nRUN\n–\n–\nP0-40\nFaultCounter CANopen COM loss\nro\nRUN\n–\n–\nP0-41\nFaultCounter Internal Fault (IO)\nro\nRUN\n–\n–\nP0-42\nFaultCounter Internal Fault (DSP)\nro\nRUN\n–\n–\nP0-43\nt-PowerOn\nro\nRUN\n–\n–\nP0-44\nPhase U Current Offset & Ref\nro\nRUN\n–\n–\nP0-45\nPhase V Current Offset & Ref\nro\nRUN\n–\n–\nP0-46\nPhase W Current Offset & Ref\nro\nRUN\n–\n–"
+  },
+  {
+    "chunk_id": 136,
+    "page": 60,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "ro\nRUN\n–\n–\nP0-41\nFaultCounter Internal Fault (IO)\nro\nRUN\n–\n–\nP0-42\nFaultCounter Internal Fault (DSP)\nro\nRUN\n–\n–\nP0-43\nt-PowerOn\nro\nRUN\n–\n–\nP0-44\nPhase U Current Offset & Ref\nro\nRUN\n–\n–\nP0-45\nPhase V Current Offset & Ref\nro\nRUN\n–\n–\nP0-46\nPhase W Current Offset & Ref\nro\nRUN\n–\n–\nP0-47\nt-FireMode Active & FaultCounter Fire \ndetected\nro\nRUN\n–\n–\n18/19\nP0-48\nScope Channel 1& 2\nro\nRUN\n–\n–\nP0-49\nScope Channel 3& 4\nro\nRUN\n–\n–\nP0-50\nSystem Software Version\nro\nRUN\n–\n–\n129\nP-01\nf-max\nrw\nRUN\n3000 ≙ 50.0 Hz\nP-02 - 5 x P-09\nU16\n130\nP-02\nf-min\nrw\nRUN\n3000 ≙ 50.0 Hz\n0.0 Hz - P-01\nU16\n131\nP-03\nt-acc\nrw\nRUN\n300 ≙ 3.00 s\n0.00 s - 600 s\nU16\n132\nP-04\nt-dec\nrw\nRUN\n300 ≙ 3.00 s\n0.00 s - 601 s\nU16\n133\nP-05\nStop Mode\nrw\nRUN\n1 ≙ 1\n0 - 3\nU16\n134\nP-06\nEnergyOptimizer\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n135\nP-07\nMotor Nom Voltage\nrw\nSTOP\n230 ≙ 230 V\n0 / 20 V - Ue\nU16\n136\nP-08\nMotor Nom Current\nrw\nRUN\n100 ≙ 10.0 A\n0.25 Ie - Ie\nU16\n137\nP-09\nMotor Nom Frequency\nrw\nSTOP\n50 ≙ 50.0 Hz\n25 Hz - 500 Hz\nU16\n138\nP-10\nMotor Nom Speed\nrw"
+  },
+  {
+    "chunk_id": 137,
+    "page": 60,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nRUN\n1 ≙ 1\n0 - 3\nU16\n134\nP-06\nEnergyOptimizer\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n135\nP-07\nMotor Nom Voltage\nrw\nSTOP\n230 ≙ 230 V\n0 / 20 V - Ue\nU16\n136\nP-08\nMotor Nom Current\nrw\nRUN\n100 ≙ 10.0 A\n0.25 Ie - Ie\nU16\n137\nP-09\nMotor Nom Frequency\nrw\nSTOP\n50 ≙ 50.0 Hz\n25 Hz - 500 Hz\nU16\n138\nP-10\nMotor Nom Speed\nrw\nRUN\n1 ≙ 1\n0 / 200 rpm - 30000 rpm\nU16\nModbus-\nRegister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 138,
+    "page": 61,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.3 Parameters for DC1 variable frequency drives\n59\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n139\nP-11\nV-Boost\nrw\nRUN\n100 ≙ 10.0 %\n0.0 % Ue - f (FS)\nFS1: 25 % Ue\nFS2: 20 % Ue\nFS3: 15 % Ue\nFS4: 10 % Ue\nU16\n140\nP-12\nLocal ProcessData Source\nrw\nSTOP\n1 ≙ 1\n0 - 13\nU16\n141\nP-13\nApplication Mode Macro\nrw\nRUN\n1 ≙ 1\n –\nU16\n142\nP-14\nPassword\nrw\nRUN\n1 ≙ 1\n0 - 65535\nU16\n143\nP-15\nDI Config Selec\nrw\nSTOP\n1 ≙ 1\n0 - 17\nU16\n144\nP-16\nAI1 Signal Range\nrw\nRUN\n1 ≙ 1\n0 - 6\nU16\n145\nP-17\nSwitching Frequency\nrw\nRUN\n1 ≙ 1\n0 - f (Ie)\nU16\n146\nP-18\nRO1 Function\nrw\nRUN\n1 ≙ 1\n0 - 7\nU16\n147\nP-19\nRO1 upper Limit\nrw\nRUN\n100 ≙ 10.0 %\n0 - 2\nU16\n148\nP-20\nf-Fix1\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n149\nP-21\nf-Fix2\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n150\nP-22\nf-Fix3\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n151\nP-23\nf-Fix4\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n152\nP-24\nt-QuickDec\nrw\nRUN\n300 ≙ 3.00 s\n0.00 s - 600.0 s\nU16\n153\nP-25\nAO1 Function\nrw\nRUN\n1 ≙ 1"
+  },
+  {
+    "chunk_id": 139,
+    "page": 61,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n149\nP-21\nf-Fix2\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n150\nP-22\nf-Fix3\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n151\nP-23\nf-Fix4\nrw\nRUN\n3000 ≙ 50.0 Hz\nf-min - f-max\nU16\n152\nP-24\nt-QuickDec\nrw\nRUN\n300 ≙ 3.00 s\n0.00 s - 600.0 s\nU16\n153\nP-25\nAO1 Function\nrw\nRUN\n1 ≙ 1\n0 - 9\nU16\n154\nP-26\nf-SkipBand1\nrw\nRUN\n3000 ≙ 50.0 Hz\n0.0 Hz - f-max\nU16\n155\nP-27\nf-Skip1\nrw\nRUN\n3000 ≙ 50.0 Hz\n0.0 Hz - f-max\nU16\n156\nP-28\nV-MidV/f\nrw\nSTOP\n230 ≙ 230 V\n0 V - P-07\nU16\n157\nP-29\nf-MidV/f\nrw\nSTOP\n3000 ≙ 50.0 Hz\n0 Hz - P-09\nU16\n158\nP-30\nStart Mode\nrw\nRUN\n1 ≙ 1\n0 - 6\nU16\n159\nP-31\nDigital Reference Reset Mode\nrw\nRUN\n1 ≙ 1\n0 - 3\nU16\n160\n(Low \nByte)\nP-32\nt-DCBrake@Stop\nrw\nRUN\n30 ≙ 3.0 s\n0.0 s - 25.0 s\nU16\n160\n(High \nByte)\nP-32\nDCBrake\nrw\nRUN\n1 ≙ 1\n0 - 2\nU16\n161\nP-33\nSpin Start Enable\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n162\nP-34\nBrake Chopper\nrw\nRUN\n1 ≙ 1\n0 - 2\nU16\n163\nP-35\nAI1 Gain\nrw\nRUN\n100 ≙ 10.0 %\n0 - 20\nU16\n164 \n(Low\nByte)\nP-36\nRS485-0 Address\nrw\nRUN\n1 ≙ 1\n1 - 63\nU16\n164\n(Bit 8 - \nBit 11)\nP-36"
+  },
+  {
+    "chunk_id": 140,
+    "page": 61,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "U16\n160\n(High \nByte)\nP-32\nDCBrake\nrw\nRUN\n1 ≙ 1\n0 - 2\nU16\n161\nP-33\nSpin Start Enable\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n162\nP-34\nBrake Chopper\nrw\nRUN\n1 ≙ 1\n0 - 2\nU16\n163\nP-35\nAI1 Gain\nrw\nRUN\n100 ≙ 10.0 %\n0 - 20\nU16\n164 \n(Low\nByte)\nP-36\nRS485-0 Address\nrw\nRUN\n1 ≙ 1\n1 - 63\nU16\n164\n(Bit 8 - \nBit 11)\nP-36\nRS485-0 Baudrate\nrw\nRUN\n1 ≙ 1\n0 - 6\nU16\nModbus-\nRegister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 141,
+    "page": 62,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.3 Parameters for DC1 variable frequency drives\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n60\n164\n(Bit 12 -\nBit 15)\nP-36\nModbus RTU0 COM Timeout\nrw\nRUN\n1 ≙ 1\n0 - 8\nU16\n165\nP-37\nPassword Level2\nrw\nRUN\n1 ≙ 1\n0 - 9999\nU16\n166\nP-38\nParameter Lock\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n167\nP-39\nAI1 Offset\nrw\nRUN\n10 ≙ 1.0 %\n-5 - +5\nU16\n168\n(Bit 0 -\nBit 13)\nP-40\nDisplay Scale\nrw\nRUN\n10000 ≙ 10.000\n0 - 16.000\nU16\n168\n(Bit 14, \nBit 15)\nP-40\nDisplay Scale Source\nrw\nRUN\n1 ≙ 1\n0 - 2\nU16\n169\nP-41\nPID1 Kp\nrw\nRUN\n10 ≙ 1.0\n0,1 - 30\nU16\n170\nP-42\nPID1 Ti\nrw\nRUN\n300 ≙ 3.00 s\n0.0 s - 30.0 s\nU16\n171\nP-43\nPID1 Mode\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n172\nP-44\nPID1 Set Point 1 Source\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n173\nP-45\nPID1 Set Point Digital\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n174\nP-46\nPID1 Feedback 1 Source\nrw\nRUN\n1 ≙ 1\n0 - 3\nU16\n175\nP-47\nAI2 Signal Range\nrw\nRUN\n1 ≙ 1\n0 - 6\nU16\n176\nP-48\nt-Standby\nrw\nRUN\n300 ≙ 3.00 s\n0.0 s - 25.0 s\nU16\n177\nP-49\nPID1 WakeUpLevel\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n178\nP-50"
+  },
+  {
+    "chunk_id": 142,
+    "page": 62,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nRUN\n1 ≙ 1\n0 - 1\nU16\n173\nP-45\nPID1 Set Point Digital\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n174\nP-46\nPID1 Feedback 1 Source\nrw\nRUN\n1 ≙ 1\n0 - 3\nU16\n175\nP-47\nAI2 Signal Range\nrw\nRUN\n1 ≙ 1\n0 - 6\nU16\n176\nP-48\nt-Standby\nrw\nRUN\n300 ≙ 3.00 s\n0.0 s - 25.0 s\nU16\n177\nP-49\nPID1 WakeUpLevel\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n178\nP-50\nCAN0 Baudrate\nrw\nRUN\n1 ≙ 1\n0 - 3\nU16\n179\nP-51\nT-Memory Enable\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n180\nP-52\nParameterAccess\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n181\nP-53\nAction@Communication Loss\nrw\nRUN\n1 ≙ 1\n0 - 4\nU16\n182\nP-54\nRO1 Hysteresis\nrw\nRUN\n1 ≙ 1\n0 - 1\nU16\n183\nP-55\nRO1 Switch-On Delay\nrw\nRUN\n300 ≙ 3.00 s\n0.0 s - 250.0 s\nU16\n184\nP-56\nModbus Parity Type\nrw\nRUN\nU16\n185\nP-57\nTCP Enable Service\nrw\nRUN\nU16\n186\nP-58\nTCP0 Security Timeout\nrw\nRUN\nU16\n188\nP-60\nMotor Control Mode\nrw\nRUN\n1 ≙ 1\n0 - 4\nU16\n189\nP-61\nMotor Identification\nrw\nSTOP\n300 ≙ 3.00 s\n0.0 s - 250.0 s\nU16\n190\nP-62\nMSC Gain\nrw\nRUN\n10 ≙ 1.0 %\n0.0 % - 200.0 %\nU16\n191\nP-63\nI-CurrentLimit\nrw\nRUN\n10 ≙ 1.0 %\n0.1 % - 175 %\nU16\n192\nP-64\nMotor Stator Resistance R1"
+  },
+  {
+    "chunk_id": 143,
+    "page": 62,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nRUN\nU16\n188\nP-60\nMotor Control Mode\nrw\nRUN\n1 ≙ 1\n0 - 4\nU16\n189\nP-61\nMotor Identification\nrw\nSTOP\n300 ≙ 3.00 s\n0.0 s - 250.0 s\nU16\n190\nP-62\nMSC Gain\nrw\nRUN\n10 ≙ 1.0 %\n0.0 % - 200.0 %\nU16\n191\nP-63\nI-CurrentLimit\nrw\nRUN\n10 ≙ 1.0 %\n0.1 % - 175 %\nU16\n192\nP-64\nMotor Stator Resistance R1\nrw\nRUN\n0.00 Ω - 655.35 Ω\nU16\n193\nP-65\nMotor Stator Inductance d-Axis\nrw\nRUN\n0.0 mH - 6553.5 mH\nU16\n194\nP-66\nMotor Stator Induktivität q-Achse\nrw\nRUN\n0.0 mH - 6553.5 mH\nU16\n195\nP-67\nf-DCBremse@Stopp\nrw\nRUN\n3000 ≙ 50.0 Hz\n0.0 Hz - P-01\nU16\nModbus-\nRegister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 144,
+    "page": 63,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.3 Parameters for DC1 variable frequency drives\n61\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n196\nP-68\nDC-Brake Current\nrw\nRUN\n10 ≙ 1.0 %\n0,0 % - 100.0 %\nU16\n197\nP-69\nLocalControl Logic1\nrw\nRUN\nU16\n198\nP-70\nLocalControl Logic2\nrw\nRUN\nU16\nModbus-\nRegister\nPara-\nmeter\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 145,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.4 Parameters for DE1 variable speed starters\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n62\n3.4 Parameters for DE1 variable speed starters\nTable 23: Parameters for DE1 variable speed starters\nModbus \nRegister\nDisplay\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP\n20\nP0-01\nAnalog Input1\nro\nRUN\n4096 ≙ 100.0 %\n0 - 1000\n–\nP0-02\nReserved Parameter\nro\nRUN\n–\nP0-03\nFrequency Reference\nro\nRUN\n–\nP0-04\nDI Status\nro\nRUN\n–\nP0-05\nMotor Current\nro\nRUN\n–\nP0-06\nOutput Frequency\nro\nRUN\n–\nP0-07\nMotor Voltage\nro\nRUN\n–\n23\nP0-08\nDC-Link Voltage\nro\nRUN\n230 ≙ 230 V\n0 - 1000\n–\n24\nP0-09\nHeatsink Temperature\nro\nRUN\n40 ≙ 40 °C\n-10 - 150\n–\n25\nP0-10\nt-Run (h)\nro\nRUN\n1 ≙ 1\n–\n–\n26\nP0-10\nt-Run (min/sec)\nro\nRUN\n300 ≙ 3.00 s\n–\n–\nP0-11\nt-Run since Restart\nro\nRUN\n–\nP0-12\nt-Run since Trip\nro\nRUN\n–\nP0-13\nt-HoursRun Enable\nro\nRUN\n–\nP0-14\nActual Switching Frequency\nro\nRUN\n–\nP0-15\nDC-Link Log\nro\nRUN\n–\nP0-16\nHeatsink Log\nro\nRUN\n–\nP0-17"
+  },
+  {
+    "chunk_id": 146,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "-10 - 150\n–\n25\nP0-10\nt-Run (h)\nro\nRUN\n1 ≙ 1\n–\n–\n26\nP0-10\nt-Run (min/sec)\nro\nRUN\n300 ≙ 3.00 s\n–\n–\nP0-11\nt-Run since Restart\nro\nRUN\n–\nP0-12\nt-Run since Trip\nro\nRUN\n–\nP0-13\nt-HoursRun Enable\nro\nRUN\n–\nP0-14\nActual Switching Frequency\nro\nRUN\n–\nP0-15\nDC-Link Log\nro\nRUN\n–\nP0-16\nHeatsink Log\nro\nRUN\n–\nP0-17\nMotorCurrent Log\nro\nRUN\n–\nP0-18\nApplication Version\nro\nRUN\n–\nP0-19\nSerial Number\nro\nRUN\n–\nP0-20\nDeviceType\nro\nRUN\n–\nP0-21\nFireMode Counter\nro\nRUN\n–\nP0-22\nFireMode Timer\nro\nRUN\n–\n129\nP-01\nf-max\nrw\nSTOP\n3000 ≙ 50.0 Hz\nP-02 - 300 Hz\nU16\n130\nP-02\nf-min\nrw\nSTOP\n3000 ≙ 50.0 Hz\n0 - P-01\nU16\n131\nP-03\nt-acc\nrw\nRUN\n300 ≙ 3.00 s\n0.1 - 300 s\nU16\n132\nP-04\nt-dec\nrw\nRUN\n300 ≙ 3.00 s\n0.1 - 300 s\nU16\n133\nP-05\nStop Mode\nrw\nRUN\n1 ≙ 1\n0, 1\nU16\n134\nP-06\nEnergyOptimizer\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n135\nP-07\nMotor Nom Voltage\nrw\nSTOP\n230 ≙ 230 V\n50 - 500 V\nU16\n136\nP-08\nMotor Nom Current\nrw\nSTOP\n100 ≙ 10.0 A\n(10 - 100 %) x Ie\nU16\n137\nP-09\nMotor Nom Frequency\nrw\nSTOP\n50 ≙ 50 Hz\n20 - 300 Hz\nU16\n138\nP-10\nMotor Nom Speed\nrw"
+  },
+  {
+    "chunk_id": 147,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nRUN\n1 ≙ 1\n0, 1\nU16\n134\nP-06\nEnergyOptimizer\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n135\nP-07\nMotor Nom Voltage\nrw\nSTOP\n230 ≙ 230 V\n50 - 500 V\nU16\n136\nP-08\nMotor Nom Current\nrw\nSTOP\n100 ≙ 10.0 A\n(10 - 100 %) x Ie\nU16\n137\nP-09\nMotor Nom Frequency\nrw\nSTOP\n50 ≙ 50 Hz\n20 - 300 Hz\nU16\n138\nP-10\nMotor Nom Speed\nrw\nSTOP\n1 ≙ 1\n0\n200 - 15000 rpm\nU16\n139\nP-11\nV-Boost\nrw\nRUN\n100 ≙ 10.0 %\n0.0 - 40.0 %\nU16"
+  },
+  {
+    "chunk_id": 148,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.4 Parameters for DE1 variable speed starters\n63\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n140\nP-12\nLocal ProcessData Source\nrw\nRUN\n1 ≙ 1\n0 - 13\nU16\n141\nP-13\nLast fault\nro\nSTOP\n–\n–\nU16\n142\nP-14\nPassword\nrw\nRUN\n1 ≙ 1\n0 - 65535\nU16\n143\nP-15\nDI Config Select\nrw\nSTOP\n1 ≙ 1\n0 - 9\nU16\n144\nP-16\nAI1 Signal Range\nrw\nSTOP\n1 ≙ 1\n0- 3\nU16\n145\nP-17\nAI1 Gain\nrw\nRUN\n10 ≙ 1\n0.10 - 2.500\nU16\n146\nP-18\nAI1 Invert\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n147\nP-19\nDI3 Logic\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n148\nP-20\nf-Fix1\nrw\nSTOP\n3000 ≙ 50.0 Hz\nP-02 – P-01\nU16\n149\nP-21\nf-Fix2\nrw\nSTOP\n3000 ≙ 50.0 Hz\nP-02 – P-01\nU16\n150\nP-22\nf-Fix3\nrw\nSTOP\n3000 ≙ 50.0 Hz\nP-02 – P-01\nU16\n151\nP-23\nf-Fix4\nrw\nSTOP\n3000 ≙ 50.0 Hz\nP-02 – P-01\nU16\n152\nP-24\nDigital Reference Reset Mode\nrw\nRUN\n1 ≙ 1\n0, 1, 2, 3\nU16\n153\nP-25\nDCBrake\nrw\nSTOP\n1 ≙ 1\n0, 1, 2, 3\nU16\n154\nP-26\nt-DCBrake@Stop\nrw\nRUN\n100 ≙ 10.0 s\n0 - 10 s\nU16\n155\nP-27\nDCBrakeVoltage\nrw\nRUN\n100 ≙ 10 %\n0 - P-07\nU16\n156\nP-28\nf-DCBrake@Stop\nrw\nRUN"
+  },
+  {
+    "chunk_id": 149,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nSTOP\n3000 ≙ 50.0 Hz\nP-02 – P-01\nU16\n152\nP-24\nDigital Reference Reset Mode\nrw\nRUN\n1 ≙ 1\n0, 1, 2, 3\nU16\n153\nP-25\nDCBrake\nrw\nSTOP\n1 ≙ 1\n0, 1, 2, 3\nU16\n154\nP-26\nt-DCBrake@Stop\nrw\nRUN\n100 ≙ 10.0 s\n0 - 10 s\nU16\n155\nP-27\nDCBrakeVoltage\nrw\nRUN\n100 ≙ 10 %\n0 - P-07\nU16\n156\nP-28\nf-DCBrake@Stop\nrw\nRUN\n3000 ≙ 50 Hz\n0 - P-01\nU16\n157\nP-29\nSwitching Frequency\nrw\nSTOP\n1 ≙ 1\n0, 1, …, 5\nU16\n158\nP-30\nStart Mode\nrw\nSTOP\n1 ≙ 1\n0, 1, …, 10\nU16\n159\nP-31\nOverVoltage Control\nrw\nRUN\n1 ≙ 1\n0, 1\nU16\n160\nP-32\nAuto Thermal management\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n161\nP-33\nT-Memory Enable\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n162\nP-34\nPDP-Address\nrw\nRUN\n1 ≙ 1\n1 - 63\nU16\n163\nP-35\nRS485-0 Baudrate\nrw\nRUN\n1 ≙ 1\n0, 1, 2, 3, 4\nU16\n164\nP-36\nModbus RTU0 COM Timeout\nrw\nRUN\n1 ≙ 1\n0, 1, …, 8\nU16\n165\nP-37\nParameter Set\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n166\nP-38\nPassword Level2\nrw\nRUN\n1 ≙ 1\n0 - 9999\nU16\n167\nP-39\nParameter Lock\nrw\nRUN\n1 ≙ 1\n0, 1\nU16\n168\nP-40\nAction@Communication Loss\nrw\nRUN\n1 ≙ 1\n0, 1, 2, 3, 4\nU16\n169\nP-41\nParameterAccess\nrw\nRUN\n1 ≙ 1\n0, 1"
+  },
+  {
+    "chunk_id": 150,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "rw\nRUN\n1 ≙ 1\n0, 1, …, 8\nU16\n165\nP-37\nParameter Set\nrw\nSTOP\n1 ≙ 1\n0, 1\nU16\n166\nP-38\nPassword Level2\nrw\nRUN\n1 ≙ 1\n0 - 9999\nU16\n167\nP-39\nParameter Lock\nrw\nRUN\n1 ≙ 1\n0, 1\nU16\n168\nP-40\nAction@Communication Loss\nrw\nRUN\n1 ≙ 1\n0, 1, 2, 3, 4\nU16\n169\nP-41\nParameterAccess\nrw\nRUN\n1 ≙ 1\n0, 1\nU16\n170\nP-42\nf-SkipBand1\nrw\nRUN\nU16\n171\nP-43\nf-Skip1\nrw\nRUN\nU16\n172\nP-44\nAI1 Offset\nrw\nRUN\nU16\n173\nP-45\nFireMode Functionality\nrw\nRUN\nU16\n174\nP-46\nMotor Identification\nrw\nRUN\nU16\n175\nP-47\nModbus Address\nrw\nRUN\nU16\n176\nP-48\nModbus Communication Data Format\nrw\nRUN\n1\nU16\nModbus \nRegister\nDisplay\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 151,
+    "page": 66,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "3 Parameter\n3.4 Parameters for DE1 variable speed starters\nModbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n64\nAdditionally on DE11 variable speed starters\n178\nP-50\nCANO Baud rate\nrw\nRUN\n0, 1, 2, 3\nU16\n179\nP-51\nRO1 Function\nrw\nRUN\n0, 1, …, 9\nU16\n180\nP-52\nRO1 upper limit\nrw\nRUN\n0.0 - 200.0 %\nU16\n181\nP-53\nRO1 Hysteresis\nrw\nRUN\n0.0 - 100.0 %\nU16\n182\nP-54\nRO1 Switch-On Delay\nrw\nRUN\n0.0 - 250.0 s\nU16\n183\nP-57\nTCP Enable Service\nrw\nRUN\n0...7\nU16\n184\nP-58\nTCP0 Security Timeout\nrw\nRUN\n0...60\nU16\nModbus \nRegister\nDisplay\nParameter name\nAccess\nScaling\nValue range\nData \nformat\nrw/ro\nRUN/\nSTOP"
+  },
+  {
+    "chunk_id": 152,
+    "page": 67,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Modbus RTU for variable frequency drive DA1, DB1, DC1, DE1\n12/22 MN040018EN\nwww.eaton.com\n65\nIndex\nA\nAddress . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7\nB\nBus termination resistor . . . . . . . . . . . . . . . . . . . 6, 8\nC\nCOM Port . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\nCommunication parameters  . . . . . . . . . . . . . . . . 10\nControl signal terminals  . . . . . . . . . . . . . . . . . . . . 18\nCRC (Cyclical Redundancy Check)  . . . . . . . . . . . 25\nD\nData bit  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\nData block . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25\nData format  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\nData transfer  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24\nDX-CBL-RJ45… . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6\nDX-SPL-RJ45…  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6\nE"
+  },
+  {
+    "chunk_id": 153,
+    "page": 67,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "Data format  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\nData transfer  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24\nDX-CBL-RJ45… . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6\nDX-SPL-RJ45…  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6\nE\nEASY-NT-R . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\nEnable . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\nEngineering  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5\nF\nFault messages . . . . . . . . . . . . . . . . . . . . . . . . . . . 31\nFunction Code  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 25\nI\nInput process data . . . . . . . . . . . . . . . . . . . . . . . . . 28\nM\nMaster . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8, 24\nModbus RTU  . . . . . . . . . . . . . . . . . . . . . . . . . . . 6, 24\nO\nOP-Bus  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\nP"
+  },
+  {
+    "chunk_id": 154,
+    "page": 67,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "M\nMaster . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8, 24\nModbus RTU  . . . . . . . . . . . . . . . . . . . . . . . . . . . 6, 24\nO\nOP-Bus  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\nP\nParameters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42\nPower index . . . . . . . . . . . . . . . . . . . . . 34, 36, 37, 38\nProtocol frame . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24\nR\nRedundancy check, cyclic  . . . . . . . . . . . . . . . . . . 25\nRegister mapping  . . . . . . . . . . . . . . . . . . . . . . . . . 27\nRJ 45 interface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\nRJ45 socket . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\nS\nSlave  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\nStart bit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\nStop bit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\nT"
+  },
+  {
+    "chunk_id": 155,
+    "page": 67,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MN040018_EN.pdf",
+    "content": "S\nSlave  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8\nStart bit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\nStop bit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\nT\nTransfer time  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26"
+  }
+]

@@ -1,0 +1,1143 @@
+[
+  {
+    "pass_name": "communication",
+    "parameters": [
+      "physicalStandard",
+      "baudRate",
+      "dataBits",
+      "parity",
+      "stopBits"
+    ],
+    "raw_top_k_per_query": {
+      "physical_standard": [
+        {
+          "rank": 1,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n3 \n \n1.1 \nIntroduction \nThe RS485 serial interface supports the MODBUS/JBUS (RTU) protocol. In this document only the \ninformation necessary to read/write from/to EM/ET300 SERIES has been reported (not all the parts of \nthe protocol have been implemented). \nFor a complete description of the MODBUS protocol please refer to the latest revision of the \n“Modbus_Application_Protocol” document that is downloadable from the www.modbus.org web site.  \n1.2 \nMODBUS functions  \nThese functions are available on EM/ET300 SERIES: \n• Reading of n “Holding Registers” (code 03h) \n• Reading of n “Input Register” (code 04h) \n• Writing of one “Holding Registers” (code 06h) \n• Diagnostic (code 08h with sub-function code 00h) \n• Broadcast mode (writing instruction on address 00h) \n \nIMPORTANT: \n1) In this document the “Modbus address” field is indicated in two modes:"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 18,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n6 \n1.3 \n Application notes \n1.3.1 \nRS485 general considerations  \n \n1. To avoid errors due to the signal reflections or line coupling, it is necessary to terminate the bus \nat the beginning (master side, if not already embedded, by inserting a 120 ohm 1/2W 5% \nresistor between line B and A) and at the end (in EM/ET SERIES interface by connecting the \nterminal A- with the terminal T in the last instrument. \n2. The network termination is necessary even in case of point-to-point connection and/or of short \ndistances. \n3. For connections longer than 1000 m or if in the network there are more than 160 instruments \n(with 1/5 unit load as used in EM/ET300 SERIES interface), a signal repeater is necessary. \n4. For bus connection it is suggested to use an AWG24 balanced pair cable and to add a third \nwire for GND connection. If a shielded cable is used, connect the shield to GND."
+        },
+        {
+          "rank": 3,
+          "chunk_id": 55,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n17 \n \n2.9.6 \nActive tariff selection \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-6 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304609 \n1200h \n1 \nTariff mode selection (tariff \nmanagement via digital input or \nserial comm.) \nUINT 16 \nValue min = 0 (via digital inputs) \nValue max = 1 (via serial comm.) \nAny other value = via digital in. \n304610 \n1201h \n1 \nTariff number selection via serial \ncomm. \nUINT 16 \nValue min = 1 (tariff 1) \nValue max = 2 (tariff 2) \nAny other value = tariff 1 \nIf 1200h = 0 (tariff via digital input), this \nparameter is “read only” mode \n2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 56,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247 \nAny other value = 1 \n308194 \n2001h \n1 \nRS485 baud rate  \n \nUINT 16 \nValue 1 = 9.6 kbps (default) \nValue 2 = 19.2 kbps  \nValue 3 = 38.4 kbps \nValue 4 = 57.6 kbps \nValue 5 = 115.2 kbps \nAny other value = 9.6 kbps \n308195 \n2002h \n1 \nRS485 parity \n \nUINT 16 \nValue 1= no parity (default) \nValue 2 = even parity \nAny other value = no parity \n308196 \n2003h \n1 \nRS485 Stop bit \n \nUINT 16 \nValue 0 = 1 stop bit  \nValue 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 59,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n18 \n \n2.9.9 \nSerial number \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-9 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320481 \n5000h \n1 \nLetter 1 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320482 \n5001h \n1 \nLetter 2 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320483 \n5002h \n1 \nLetter 3 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320484 \n5003h \n1 \nLetter 4 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320485 \n5004h \n1 \nLetter 5 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320486 \n5005h \n1 \nLetter 6 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 2,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "1.2.4 \nFunction 08h (Diagnostic with sub-function code 00h) .......................................................5 \n1.2.5 \nBroadcast mode ..................................................................................................................5 \n1.3 \nApplication notes ................................................................................................................................... 6 \n1.3.1 \nRS485 general considerations ............................................................................................6 \n1.3.2 \nMODBUS timing ..................................................................................................................6 \n2 \nTABLES .........................................................................................................................................7 \n2.1 \nData format representation In Carlo Gavazzi instruments ..................................................................... 7 \n2.2"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 47,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n14 \n2.8 \nCarlo Gavazzi Controls identification code  \nMODBUS: read only mode with functions code 03 and 04 limited to a word at a time \n \n \n \nTable 2.8-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300012 \n000Bh \n1 \nCarlo Gavazzi Controls \nidentification code \nUINT 16 \nSee table 2.8-2 \n \n \nTable 2.8-2 \nComplete item number \nCG identification  code \nEM330-DIN AV5 3 L S1 X  \n332 \nEM330-DIN AV5 3 L S1 PF A \n332 \nEM330-DIN AV5 3 L S1 PF B \n332 \nEM330-DIN AV5 3 H S1 X  \n332 \nEM330-DIN AV5 3 H S1 PF A \n332 \nEM330-DIN AV5 3 H S1 PF B \n332 \nEM330-DIN AV6 3 L S1 X  \n331 \nEM330-DIN AV6 3 L S1 PF A \n331 \nEM330-DIN AV6 3 L S1 PF B \n331 \nEM330-DIN AV6 3 H S1 X  \n331 \nEM330-DIN AV6 3 H S1 PF A \n331 \nEM330-DIN AV6 3 H S1 PF B \n331 \nEM331-DIN.AV5.3.H.OS.X \n355 \nET330-DIN AV5 3 L S1 X  \n335 \nET330-DIN AV5 3 H S1 X  \n335 \nET330-DIN AV6 3 L S1 X  \n336 \nET330-DIN AV6 3 H S1 X  \n336"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 52,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n16 \n2.9.5 \nOther functions configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-5 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304353 \n \n1100h \n1 \nDisplay mode \nUINT 16 \nValue min = 0 (Full, default) \nValue max = 1 (Easy) \nAny other value = Full \n304354 \n1101h \n1 \nTariff management enabling \nUINT 16 \nValue min = 0 (OFF) \nValue max = 1 (ON) \nAny other value = OFF \n304355 \n1102h \n1 \nHome page selection (EM only) \nUINT 16 \nValue min = 0 (page 0, default) \nValue max = 19 (page 19) \nRestrictions in case of display mode = Easy \nAny other value = page 0 \nIn ET always = 0 \nEM330 and EM340 only \nThe home page CAN NOT changed in the \nmodels with MID certification (PFA and PFB). \n304356 \n1103h \n1 \nMeasurement mode selection \nUINT 16 \nValue min = 0 (A) \nValue max = 1 (B) \nAny other value = A \n304357 \n1104h \n1 \nWrong connection (Installing help)"
+        }
+      ],
+      "baud_rate": [
+        {
+          "rank": 1,
+          "chunk_id": 56,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247 \nAny other value = 1 \n308194 \n2001h \n1 \nRS485 baud rate  \n \nUINT 16 \nValue 1 = 9.6 kbps (default) \nValue 2 = 19.2 kbps  \nValue 3 = 38.4 kbps \nValue 4 = 57.6 kbps \nValue 5 = 115.2 kbps \nAny other value = 9.6 kbps \n308195 \n2002h \n1 \nRS485 parity \n \nUINT 16 \nValue 1= no parity (default) \nValue 2 = even parity \nAny other value = no parity \n308196 \n2003h \n1 \nRS485 Stop bit \n \nUINT 16 \nValue 0 = 1 stop bit  \nValue 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 55,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n17 \n \n2.9.6 \nActive tariff selection \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-6 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304609 \n1200h \n1 \nTariff mode selection (tariff \nmanagement via digital input or \nserial comm.) \nUINT 16 \nValue min = 0 (via digital inputs) \nValue max = 1 (via serial comm.) \nAny other value = via digital in. \n304610 \n1201h \n1 \nTariff number selection via serial \ncomm. \nUINT 16 \nValue min = 1 (tariff 1) \nValue max = 2 (tariff 2) \nAny other value = tariff 1 \nIf 1200h = 0 (tariff via digital input), this \nparameter is “read only” mode \n2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 6,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.6 \nActive tariff selection .........................................................................................................17 \n2.9.7 \nSerial port configuration menu ..........................................................................................17 \n2.9.8 \nReset commands ..............................................................................................................17 \n2.9.9 \nSerial number ....................................................................................................................18 \n2.9-10 \nProduction year .................................................................................................................18 \n3 \nREVISIONS ..................................................................................................................................18"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 59,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n18 \n \n2.9.9 \nSerial number \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-9 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320481 \n5000h \n1 \nLetter 1 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320482 \n5001h \n1 \nLetter 2 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320483 \n5002h \n1 \nLetter 3 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320484 \n5003h \n1 \nLetter 4 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320485 \n5004h \n1 \nLetter 5 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320486 \n5005h \n1 \nLetter 6 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 52,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n16 \n2.9.5 \nOther functions configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-5 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304353 \n \n1100h \n1 \nDisplay mode \nUINT 16 \nValue min = 0 (Full, default) \nValue max = 1 (Easy) \nAny other value = Full \n304354 \n1101h \n1 \nTariff management enabling \nUINT 16 \nValue min = 0 (OFF) \nValue max = 1 (ON) \nAny other value = OFF \n304355 \n1102h \n1 \nHome page selection (EM only) \nUINT 16 \nValue min = 0 (page 0, default) \nValue max = 19 (page 19) \nRestrictions in case of display mode = Easy \nAny other value = page 0 \nIn ET always = 0 \nEM330 and EM340 only \nThe home page CAN NOT changed in the \nmodels with MID certification (PFA and PFB). \n304356 \n1103h \n1 \nMeasurement mode selection \nUINT 16 \nValue min = 0 (A) \nValue max = 1 (B) \nAny other value = A \n304357 \n1104h \n1 \nWrong connection (Installing help)"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 5,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.1 \nPassword configuration menu ...........................................................................................15 \n2.9.2 \nSystem configuration menu ...............................................................................................15 \n2.9.3 \nPT and CT configuration menu .........................................................................................15 \n2.9.4 \nDmd and pulse outs configuration menu ...........................................................................15 \n2.9.5 \nOther functions configuration menu ..................................................................................16 \n2.9.6 \nActive tariff selection .........................................................................................................17 \n2.9.7 \nSerial port configuration menu ..........................................................................................17 \n2.9.8"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 2,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "1.2.4 \nFunction 08h (Diagnostic with sub-function code 00h) .......................................................5 \n1.2.5 \nBroadcast mode ..................................................................................................................5 \n1.3 \nApplication notes ................................................................................................................................... 6 \n1.3.1 \nRS485 general considerations ............................................................................................6 \n1.3.2 \nMODBUS timing ..................................................................................................................6 \n2 \nTABLES .........................................................................................................................................7 \n2.1 \nData format representation In Carlo Gavazzi instruments ..................................................................... 7 \n2.2"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 49,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n15 \n2.9 \nProgramming parameter tables \n2.9.1 \nPassword configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304097 \n1000h \n1 \nPASSWORD \n(EM only) \nUINT 16 \nMinimum valid value: 0d \nMaximum valid value: 9999d \nIn ET always 0. \n \n \n2.9.2 \nSystem configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-2 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304099 \n1002h \n1 \nMeasuring system  \nUINT 16 \nValue=0: “3Pn” (3-phase with neutral) \nValue=1: “3P” (3-phase without neutral) \nValue=2: “2P” (2-phase with neutral) \n \n \n2.9.3 \nPT and CT configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-3 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304100 \n1003h \n2"
+        }
+      ],
+      "data_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 56,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247 \nAny other value = 1 \n308194 \n2001h \n1 \nRS485 baud rate  \n \nUINT 16 \nValue 1 = 9.6 kbps (default) \nValue 2 = 19.2 kbps  \nValue 3 = 38.4 kbps \nValue 4 = 57.6 kbps \nValue 5 = 115.2 kbps \nAny other value = 9.6 kbps \n308195 \n2002h \n1 \nRS485 parity \n \nUINT 16 \nValue 1= no parity (default) \nValue 2 = even parity \nAny other value = no parity \n308196 \n2003h \n1 \nRS485 Stop bit \n \nUINT 16 \nValue 0 = 1 stop bit  \nValue 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 10,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "contents right justified within each byte. For each register, the first byte contains the high order bits \n(MSB) and the second contains the low order bits (LSB).  \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n03h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nQuantity of registers (N word) \n2 bytes \n1 to 14h (1 to 20) \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (correct action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n03h \n \nQuantity of requested bytes  \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 13,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "1 byte \n04h \n \nQuantity of requested bytes \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (incorrect action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function \n02h: illegal data address \n03h: illegal data value \n04h: slave device failure \nFunction code \n1 byte \n84h \nException code \n1 byte \n01h, 02h, 03h, 04h \nCRC \n2 bytes \n \n \n1.2.3 \nFunction 06h (Write Single Holding Register) \nThis function code is used to write a single holding register. The Request frame specifies the address of \nthe register (word) to be written and its content. \nThe correct response is an echo of the request, returned after the register content has been written. \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n06h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nRegister value"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 59,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n18 \n \n2.9.9 \nSerial number \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-9 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320481 \n5000h \n1 \nLetter 1 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320482 \n5001h \n1 \nLetter 2 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320483 \n5002h \n1 \nLetter 3 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320484 \n5003h \n1 \nLetter 4 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320485 \n5004h \n1 \nLetter 5 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320486 \n5005h \n1 \nLetter 6 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 12,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "The register data in the response message are packed as two bytes per register (word), with the binary \ncontents right justified within each byte. For each register, the first byte contains the high order bits \n(MSB) and the second contains the low order bits (LSB).  \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n04h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nQuantity of registers (N word) \n2 bytes \n1 to 14h (1 to 20) \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (correct action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n04h \n \nQuantity of requested bytes \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (incorrect action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 17,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Length \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function \n02h: illegal data address \n03h: illegal data value \n04h: slave device failure \nFunction code \n1 byte \n88h \nException code \n1 byte \n01h, 02h, 03h, 04h \nCRC \n2 bytes \n \n \n1.2.5 \nBroadcast mode \n \nIn broadcast mode the master can send a request (command) to all the slaves. No response is returned \nto broadcast requests sent by the master. It is possible to send the broadcast message only with \nfunction code 06h using address 00h."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 57,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Value 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8 \nReset commands \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-8 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n316385 \n4000h \n1 \nReset of all partial and tariff \nmeters, kWdmd and kWdmd \npeak. \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316386 \n4001h \n1 \nReset of total energy meters (only \nfor non-MID versions, X option) \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316387 \n4002h \n1 \nReset of run hour meter  \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 60,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "UINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320497 \n5010h \n1 \nProduction year \nUINT 16 \n  \n \nNote \nThis register is available only in EM330 and EM340 manufactured from October 1st 2018 (from serial number YR2018 274xxxS and \nfollowing) \n \n \n \n3 REVISIONS \n \n• From rev. 2.7 to 2.8: \n- \nassigned a memory address to Neutral current \n- \nchanged the name to some variables to have the same indication as in VMU-C and programming \nsoftware \n \n• From rev. 2.8 to 2.9: \n- \nadded THD, run hour meter and An in EM330 \n \n• From rev. 2.9 to 2.10: \n- \nadded EM331 ID code \n \n• From rev. 2.10 to 2.11: \n- \nmodification of “1.3 Application notes. RS485 general considerations” (point 1) \n-"
+        }
+      ],
+      "parity": [
+        {
+          "rank": 1,
+          "chunk_id": 52,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n16 \n2.9.5 \nOther functions configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-5 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304353 \n \n1100h \n1 \nDisplay mode \nUINT 16 \nValue min = 0 (Full, default) \nValue max = 1 (Easy) \nAny other value = Full \n304354 \n1101h \n1 \nTariff management enabling \nUINT 16 \nValue min = 0 (OFF) \nValue max = 1 (ON) \nAny other value = OFF \n304355 \n1102h \n1 \nHome page selection (EM only) \nUINT 16 \nValue min = 0 (page 0, default) \nValue max = 19 (page 19) \nRestrictions in case of display mode = Easy \nAny other value = page 0 \nIn ET always = 0 \nEM330 and EM340 only \nThe home page CAN NOT changed in the \nmodels with MID certification (PFA and PFB). \n304356 \n1103h \n1 \nMeasurement mode selection \nUINT 16 \nValue min = 0 (A) \nValue max = 1 (B) \nAny other value = A \n304357 \n1104h \n1 \nWrong connection (Installing help)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 59,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n18 \n \n2.9.9 \nSerial number \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-9 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320481 \n5000h \n1 \nLetter 1 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320482 \n5001h \n1 \nLetter 2 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320483 \n5002h \n1 \nLetter 3 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320484 \n5003h \n1 \nLetter 4 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320485 \n5004h \n1 \nLetter 5 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320486 \n5005h \n1 \nLetter 6 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 56,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247 \nAny other value = 1 \n308194 \n2001h \n1 \nRS485 baud rate  \n \nUINT 16 \nValue 1 = 9.6 kbps (default) \nValue 2 = 19.2 kbps  \nValue 3 = 38.4 kbps \nValue 4 = 57.6 kbps \nValue 5 = 115.2 kbps \nAny other value = 9.6 kbps \n308195 \n2002h \n1 \nRS485 parity \n \nUINT 16 \nValue 1= no parity (default) \nValue 2 = even parity \nAny other value = no parity \n308196 \n2003h \n1 \nRS485 Stop bit \n \nUINT 16 \nValue 0 = 1 stop bit  \nValue 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 55,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n17 \n \n2.9.6 \nActive tariff selection \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-6 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304609 \n1200h \n1 \nTariff mode selection (tariff \nmanagement via digital input or \nserial comm.) \nUINT 16 \nValue min = 0 (via digital inputs) \nValue max = 1 (via serial comm.) \nAny other value = via digital in. \n304610 \n1201h \n1 \nTariff number selection via serial \ncomm. \nUINT 16 \nValue min = 1 (tariff 1) \nValue max = 2 (tariff 2) \nAny other value = tariff 1 \nIf 1200h = 0 (tariff via digital input), this \nparameter is “read only” mode \n2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 53,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "In ET always = 0 \nEM330 and EM340 only \nThe home page CAN NOT changed in the \nmodels with MID certification (PFA and PFB). \n304356 \n1103h \n1 \nMeasurement mode selection \nUINT 16 \nValue min = 0 (A) \nValue max = 1 (B) \nAny other value = A \n304357 \n1104h \n1 \nWrong connection (Installing help) \nmanagement enabling  \nUINT 16 \nValue min = 0 (ON) \nValue max = 1 (OFF) \nAny other value = ON \n304358 \n1105h \n1 \nWrong connection (installing help) \nstatus \n \nUINT 16 \nBit 0 = 1 means: Wrong voltage sequence \nBit 1 = 1 means: Phase 1 inverted \nBit 2 = 1 means: Phase 2 inverted \nBit 3 = 1 means: Phase 3 inverted \nBit 4 = 1 means: Phases 1 and 2 exchanged \nBit 5 = 1 means: Phases 1 and 3 exchanged \nBit 6 = 1 means: Phases 2 and 3 exchanged \nBit 7 = 1 means: Phases 1, 2, 3 exchanged \n \nIn EM/ET330 only a bit at a time can be 1. \nIn EM/ET340 more bits can be 1. \nIn \nany \ncase \na \nsequence \nof \nwiring \nmodifications is needed until the wiring is \ncorrect (all bit=0) \n304359 \n1106h \n1"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 57,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Value 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8 \nReset commands \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-8 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n316385 \n4000h \n1 \nReset of all partial and tariff \nmeters, kWdmd and kWdmd \npeak. \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316386 \n4001h \n1 \nReset of total energy meters (only \nfor non-MID versions, X option) \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316387 \n4002h \n1 \nReset of run hour meter  \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 49,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n15 \n2.9 \nProgramming parameter tables \n2.9.1 \nPassword configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304097 \n1000h \n1 \nPASSWORD \n(EM only) \nUINT 16 \nMinimum valid value: 0d \nMaximum valid value: 9999d \nIn ET always 0. \n \n \n2.9.2 \nSystem configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-2 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304099 \n1002h \n1 \nMeasuring system  \nUINT 16 \nValue=0: “3Pn” (3-phase with neutral) \nValue=1: “3P” (3-phase without neutral) \nValue=2: “2P” (2-phase with neutral) \n \n \n2.9.3 \nPT and CT configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-3 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304100 \n1003h \n2"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 6,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.6 \nActive tariff selection .........................................................................................................17 \n2.9.7 \nSerial port configuration menu ..........................................................................................17 \n2.9.8 \nReset commands ..............................................................................................................17 \n2.9.9 \nSerial number ....................................................................................................................18 \n2.9-10 \nProduction year .................................................................................................................18 \n3 \nREVISIONS ..................................................................................................................................18"
+        }
+      ],
+      "stop_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 56,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247 \nAny other value = 1 \n308194 \n2001h \n1 \nRS485 baud rate  \n \nUINT 16 \nValue 1 = 9.6 kbps (default) \nValue 2 = 19.2 kbps  \nValue 3 = 38.4 kbps \nValue 4 = 57.6 kbps \nValue 5 = 115.2 kbps \nAny other value = 9.6 kbps \n308195 \n2002h \n1 \nRS485 parity \n \nUINT 16 \nValue 1= no parity (default) \nValue 2 = even parity \nAny other value = no parity \n308196 \n2003h \n1 \nRS485 Stop bit \n \nUINT 16 \nValue 0 = 1 stop bit  \nValue 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 57,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Value 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8 \nReset commands \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-8 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n316385 \n4000h \n1 \nReset of all partial and tariff \nmeters, kWdmd and kWdmd \npeak. \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316386 \n4001h \n1 \nReset of total energy meters (only \nfor non-MID versions, X option) \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316387 \n4002h \n1 \nReset of run hour meter  \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 54,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Bit 6 = 1 means: Phases 2 and 3 exchanged \nBit 7 = 1 means: Phases 1, 2, 3 exchanged \n \nIn EM/ET330 only a bit at a time can be 1. \nIn EM/ET340 more bits can be 1. \nIn \nany \ncase \na \nsequence \nof \nwiring \nmodifications is needed until the wiring is \ncorrect (all bit=0) \n304359 \n1106h \n1 \nTHD calculation enabling \nUINT 16 \nValue min = 0 (OFF) \nValue max = 1 (ON) = DEFAULT \nAny other value = OFF \nAvailable in ET series and EM330 (not \npresent in EM340) \n304360 \n1107h \n2 \nSecondary start-up current of the \nrun hour  meter \nUINT 32 \nValue weight: Ampere*1000 \nValue min = 10 \nValue max = 6000 \nDefault value = 10 \nThe \nprimary \nstart-up \ncurrent \nshall \nbe \nmultiplied by CT ratio. \nAvailable in ET series and EM330 (not \npresent in EM340)"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 6,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.6 \nActive tariff selection .........................................................................................................17 \n2.9.7 \nSerial port configuration menu ..........................................................................................17 \n2.9.8 \nReset commands ..............................................................................................................17 \n2.9.9 \nSerial number ....................................................................................................................18 \n2.9-10 \nProduction year .................................................................................................................18 \n3 \nREVISIONS ..................................................................................................................................18"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 53,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "In ET always = 0 \nEM330 and EM340 only \nThe home page CAN NOT changed in the \nmodels with MID certification (PFA and PFB). \n304356 \n1103h \n1 \nMeasurement mode selection \nUINT 16 \nValue min = 0 (A) \nValue max = 1 (B) \nAny other value = A \n304357 \n1104h \n1 \nWrong connection (Installing help) \nmanagement enabling  \nUINT 16 \nValue min = 0 (ON) \nValue max = 1 (OFF) \nAny other value = ON \n304358 \n1105h \n1 \nWrong connection (installing help) \nstatus \n \nUINT 16 \nBit 0 = 1 means: Wrong voltage sequence \nBit 1 = 1 means: Phase 1 inverted \nBit 2 = 1 means: Phase 2 inverted \nBit 3 = 1 means: Phase 3 inverted \nBit 4 = 1 means: Phases 1 and 2 exchanged \nBit 5 = 1 means: Phases 1 and 3 exchanged \nBit 6 = 1 means: Phases 2 and 3 exchanged \nBit 7 = 1 means: Phases 1, 2, 3 exchanged \n \nIn EM/ET330 only a bit at a time can be 1. \nIn EM/ET340 more bits can be 1. \nIn \nany \ncase \na \nsequence \nof \nwiring \nmodifications is needed until the wiring is \ncorrect (all bit=0) \n304359 \n1106h \n1"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 55,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n17 \n \n2.9.6 \nActive tariff selection \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-6 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304609 \n1200h \n1 \nTariff mode selection (tariff \nmanagement via digital input or \nserial comm.) \nUINT 16 \nValue min = 0 (via digital inputs) \nValue max = 1 (via serial comm.) \nAny other value = via digital in. \n304610 \n1201h \n1 \nTariff number selection via serial \ncomm. \nUINT 16 \nValue min = 1 (tariff 1) \nValue max = 2 (tariff 2) \nAny other value = tariff 1 \nIf 1200h = 0 (tariff via digital input), this \nparameter is “read only” mode \n2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 52,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n16 \n2.9.5 \nOther functions configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-5 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304353 \n \n1100h \n1 \nDisplay mode \nUINT 16 \nValue min = 0 (Full, default) \nValue max = 1 (Easy) \nAny other value = Full \n304354 \n1101h \n1 \nTariff management enabling \nUINT 16 \nValue min = 0 (OFF) \nValue max = 1 (ON) \nAny other value = OFF \n304355 \n1102h \n1 \nHome page selection (EM only) \nUINT 16 \nValue min = 0 (page 0, default) \nValue max = 19 (page 19) \nRestrictions in case of display mode = Easy \nAny other value = page 0 \nIn ET always = 0 \nEM330 and EM340 only \nThe home page CAN NOT changed in the \nmodels with MID certification (PFA and PFB). \n304356 \n1103h \n1 \nMeasurement mode selection \nUINT 16 \nValue min = 0 (A) \nValue max = 1 (B) \nAny other value = A \n304357 \n1104h \n1 \nWrong connection (Installing help)"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 59,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n18 \n \n2.9.9 \nSerial number \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-9 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320481 \n5000h \n1 \nLetter 1 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320482 \n5001h \n1 \nLetter 2 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320483 \n5002h \n1 \nLetter 3 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320484 \n5003h \n1 \nLetter 4 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320485 \n5004h \n1 \nLetter 5 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320486 \n5005h \n1 \nLetter 6 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE"
+        }
+      ]
+    },
+    "num_chunks_sent": 19,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 55,
+        "page": 16,
+        "score": 10,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Energy management \n           Series 300 Communication Protocol \n17 \n \n2.9.6 \nActive tariff selection \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-6 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304609 \n1200h \n1 \nTariff mode selection (tariff \nmanagement via digital input or \nserial comm.) \nUINT 16 \nValue min = 0 (via digital inputs) \nValue max = 1 (via serial comm.) \nAny other value = via digital in. \n304610 \n1201h \n1 \nTariff number selection via serial \ncomm. \nUINT 16 \nValue min = 1 (tariff 1) \nValue max = 2 (tariff 2) \nAny other value = tariff 1 \nIf 1200h = 0 (tariff via digital input), this \nparameter is “read only” mode \n2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247"
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 56,
+        "page": 16,
+        "score": 10,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247 \nAny other value = 1 \n308194 \n2001h \n1 \nRS485 baud rate  \n \nUINT 16 \nValue 1 = 9.6 kbps (default) \nValue 2 = 19.2 kbps  \nValue 3 = 38.4 kbps \nValue 4 = 57.6 kbps \nValue 5 = 115.2 kbps \nAny other value = 9.6 kbps \n308195 \n2002h \n1 \nRS485 parity \n \nUINT 16 \nValue 1= no parity (default) \nValue 2 = even parity \nAny other value = no parity \n308196 \n2003h \n1 \nRS485 Stop bit \n \nUINT 16 \nValue 0 = 1 stop bit  \nValue 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 57,
+        "page": 16,
+        "score": 9,
+        "bucket": "communication",
+        "retrieved_by": [
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Value 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8 \nReset commands \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-8 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n316385 \n4000h \n1 \nReset of all partial and tariff \nmeters, kWdmd and kWdmd \npeak. \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316386 \n4001h \n1 \nReset of total energy meters (only \nfor non-MID versions, X option) \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316387 \n4002h \n1 \nReset of run hour meter  \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 7,
+        "page": 2,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "Energy management \n           Series 300 Communication Protocol \n3 \n \n1.1 \nIntroduction \nThe RS485 serial interface supports the MODBUS/JBUS (RTU) protocol. In this document only the \ninformation necessary to read/write from/to EM/ET300 SERIES has been reported (not all the parts of \nthe protocol have been implemented). \nFor a complete description of the MODBUS protocol please refer to the latest revision of the \n“Modbus_Application_Protocol” document that is downloadable from the www.modbus.org web site.  \n1.2 \nMODBUS functions  \nThese functions are available on EM/ET300 SERIES: \n• Reading of n “Holding Registers” (code 03h) \n• Reading of n “Input Register” (code 04h) \n• Writing of one “Holding Registers” (code 06h) \n• Diagnostic (code 08h with sub-function code 00h) \n• Broadcast mode (writing instruction on address 00h) \n \nIMPORTANT: \n1) In this document the “Modbus address” field is indicated in two modes:"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 52,
+        "page": 15,
+        "score": 8,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Energy management \n           Series 300 Communication Protocol \n16 \n2.9.5 \nOther functions configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-5 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304353 \n \n1100h \n1 \nDisplay mode \nUINT 16 \nValue min = 0 (Full, default) \nValue max = 1 (Easy) \nAny other value = Full \n304354 \n1101h \n1 \nTariff management enabling \nUINT 16 \nValue min = 0 (OFF) \nValue max = 1 (ON) \nAny other value = OFF \n304355 \n1102h \n1 \nHome page selection (EM only) \nUINT 16 \nValue min = 0 (page 0, default) \nValue max = 19 (page 19) \nRestrictions in case of display mode = Easy \nAny other value = page 0 \nIn ET always = 0 \nEM330 and EM340 only \nThe home page CAN NOT changed in the \nmodels with MID certification (PFA and PFB). \n304356 \n1103h \n1 \nMeasurement mode selection \nUINT 16 \nValue min = 0 (A) \nValue max = 1 (B) \nAny other value = A \n304357 \n1104h \n1 \nWrong connection (Installing help)"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 49,
+        "page": 14,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "parity"
+        ],
+        "content": "Energy management \n           Series 300 Communication Protocol \n15 \n2.9 \nProgramming parameter tables \n2.9.1 \nPassword configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304097 \n1000h \n1 \nPASSWORD \n(EM only) \nUINT 16 \nMinimum valid value: 0d \nMaximum valid value: 9999d \nIn ET always 0. \n \n \n2.9.2 \nSystem configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-2 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304099 \n1002h \n1 \nMeasuring system  \nUINT 16 \nValue=0: “3Pn” (3-phase with neutral) \nValue=1: “3P” (3-phase without neutral) \nValue=2: “2P” (2-phase with neutral) \n \n \n2.9.3 \nPT and CT configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-3 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304100 \n1003h \n2"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 59,
+        "page": 17,
+        "score": 7,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Energy management \n           Series 300 Communication Protocol \n18 \n \n2.9.9 \nSerial number \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-9 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320481 \n5000h \n1 \nLetter 1 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320482 \n5001h \n1 \nLetter 2 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320483 \n5002h \n1 \nLetter 3 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320484 \n5003h \n1 \nLetter 4 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320485 \n5004h \n1 \nLetter 5 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320486 \n5005h \n1 \nLetter 6 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 54,
+        "page": 15,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "stop_bits"
+        ],
+        "content": "Bit 6 = 1 means: Phases 2 and 3 exchanged \nBit 7 = 1 means: Phases 1, 2, 3 exchanged \n \nIn EM/ET330 only a bit at a time can be 1. \nIn EM/ET340 more bits can be 1. \nIn \nany \ncase \na \nsequence \nof \nwiring \nmodifications is needed until the wiring is \ncorrect (all bit=0) \n304359 \n1106h \n1 \nTHD calculation enabling \nUINT 16 \nValue min = 0 (OFF) \nValue max = 1 (ON) = DEFAULT \nAny other value = OFF \nAvailable in ET series and EM330 (not \npresent in EM340) \n304360 \n1107h \n2 \nSecondary start-up current of the \nrun hour  meter \nUINT 32 \nValue weight: Ampere*1000 \nValue min = 10 \nValue max = 6000 \nDefault value = 10 \nThe \nprimary \nstart-up \ncurrent \nshall \nbe \nmultiplied by CT ratio. \nAvailable in ET series and EM330 (not \npresent in EM340)"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 6,
+        "page": 1,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "2.9.6 \nActive tariff selection .........................................................................................................17 \n2.9.7 \nSerial port configuration menu ..........................................................................................17 \n2.9.8 \nReset commands ..............................................................................................................17 \n2.9.9 \nSerial number ....................................................................................................................18 \n2.9-10 \nProduction year .................................................................................................................18 \n3 \nREVISIONS ..................................................................................................................................18"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 10,
+        "page": 2,
+        "score": 4,
+        "bucket": "communication",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "contents right justified within each byte. For each register, the first byte contains the high order bits \n(MSB) and the second contains the low order bits (LSB).  \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n03h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nQuantity of registers (N word) \n2 bytes \n1 to 14h (1 to 20) \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (correct action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n03h \n \nQuantity of requested bytes  \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 13,
+        "page": 3,
+        "score": 4,
+        "bucket": "communication",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "1 byte \n04h \n \nQuantity of requested bytes \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (incorrect action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function \n02h: illegal data address \n03h: illegal data value \n04h: slave device failure \nFunction code \n1 byte \n84h \nException code \n1 byte \n01h, 02h, 03h, 04h \nCRC \n2 bytes \n \n \n1.2.3 \nFunction 06h (Write Single Holding Register) \nThis function code is used to write a single holding register. The Request frame specifies the address of \nthe register (word) to be written and its content. \nThe correct response is an echo of the request, returned after the register content has been written. \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n06h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nRegister value"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 12,
+        "page": 3,
+        "score": 4,
+        "bucket": "communication",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "The register data in the response message are packed as two bytes per register (word), with the binary \ncontents right justified within each byte. For each register, the first byte contains the high order bits \n(MSB) and the second contains the low order bits (LSB).  \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n04h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nQuantity of registers (N word) \n2 bytes \n1 to 14h (1 to 20) \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (correct action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n04h \n \nQuantity of requested bytes \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (incorrect action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 53,
+        "page": 15,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "parity",
+          "stop_bits"
+        ],
+        "content": "In ET always = 0 \nEM330 and EM340 only \nThe home page CAN NOT changed in the \nmodels with MID certification (PFA and PFB). \n304356 \n1103h \n1 \nMeasurement mode selection \nUINT 16 \nValue min = 0 (A) \nValue max = 1 (B) \nAny other value = A \n304357 \n1104h \n1 \nWrong connection (Installing help) \nmanagement enabling  \nUINT 16 \nValue min = 0 (ON) \nValue max = 1 (OFF) \nAny other value = ON \n304358 \n1105h \n1 \nWrong connection (installing help) \nstatus \n \nUINT 16 \nBit 0 = 1 means: Wrong voltage sequence \nBit 1 = 1 means: Phase 1 inverted \nBit 2 = 1 means: Phase 2 inverted \nBit 3 = 1 means: Phase 3 inverted \nBit 4 = 1 means: Phases 1 and 2 exchanged \nBit 5 = 1 means: Phases 1 and 3 exchanged \nBit 6 = 1 means: Phases 2 and 3 exchanged \nBit 7 = 1 means: Phases 1, 2, 3 exchanged \n \nIn EM/ET330 only a bit at a time can be 1. \nIn EM/ET340 more bits can be 1. \nIn \nany \ncase \na \nsequence \nof \nwiring \nmodifications is needed until the wiring is \ncorrect (all bit=0) \n304359 \n1106h \n1"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 18,
+        "page": 5,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "Energy management \n           Series 300 Communication Protocol \n6 \n1.3 \n Application notes \n1.3.1 \nRS485 general considerations  \n \n1. To avoid errors due to the signal reflections or line coupling, it is necessary to terminate the bus \nat the beginning (master side, if not already embedded, by inserting a 120 ohm 1/2W 5% \nresistor between line B and A) and at the end (in EM/ET SERIES interface by connecting the \nterminal A- with the terminal T in the last instrument. \n2. The network termination is necessary even in case of point-to-point connection and/or of short \ndistances. \n3. For connections longer than 1000 m or if in the network there are more than 160 instruments \n(with 1/5 unit load as used in EM/ET300 SERIES interface), a signal repeater is necessary. \n4. For bus connection it is suggested to use an AWG24 balanced pair cable and to add a third \nwire for GND connection. If a shielded cable is used, connect the shield to GND."
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 2,
+        "page": 1,
+        "score": 3,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate"
+        ],
+        "content": "1.2.4 \nFunction 08h (Diagnostic with sub-function code 00h) .......................................................5 \n1.2.5 \nBroadcast mode ..................................................................................................................5 \n1.3 \nApplication notes ................................................................................................................................... 6 \n1.3.1 \nRS485 general considerations ............................................................................................6 \n1.3.2 \nMODBUS timing ..................................................................................................................6 \n2 \nTABLES .........................................................................................................................................7 \n2.1 \nData format representation In Carlo Gavazzi instruments ..................................................................... 7 \n2.2"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 17,
+        "page": 4,
+        "score": 3,
+        "bucket": "communication",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "Length \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function \n02h: illegal data address \n03h: illegal data value \n04h: slave device failure \nFunction code \n1 byte \n88h \nException code \n1 byte \n01h, 02h, 03h, 04h \nCRC \n2 bytes \n \n \n1.2.5 \nBroadcast mode \n \nIn broadcast mode the master can send a request (command) to all the slaves. No response is returned \nto broadcast requests sent by the master. It is possible to send the broadcast message only with \nfunction code 06h using address 00h."
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 60,
+        "page": 17,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "UINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320497 \n5010h \n1 \nProduction year \nUINT 16 \n  \n \nNote \nThis register is available only in EM330 and EM340 manufactured from October 1st 2018 (from serial number YR2018 274xxxS and \nfollowing) \n \n \n \n3 REVISIONS \n \n• From rev. 2.7 to 2.8: \n- \nassigned a memory address to Neutral current \n- \nchanged the name to some variables to have the same indication as in VMU-C and programming \nsoftware \n \n• From rev. 2.8 to 2.9: \n- \nadded THD, run hour meter and An in EM330 \n \n• From rev. 2.9 to 2.10: \n- \nadded EM331 ID code \n \n• From rev. 2.10 to 2.11: \n- \nmodification of “1.3 Application notes. RS485 general considerations” (point 1) \n-"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 47,
+        "page": 13,
+        "score": 2,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "Energy management \n           Series 300 Communication Protocol \n14 \n2.8 \nCarlo Gavazzi Controls identification code  \nMODBUS: read only mode with functions code 03 and 04 limited to a word at a time \n \n \n \nTable 2.8-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300012 \n000Bh \n1 \nCarlo Gavazzi Controls \nidentification code \nUINT 16 \nSee table 2.8-2 \n \n \nTable 2.8-2 \nComplete item number \nCG identification  code \nEM330-DIN AV5 3 L S1 X  \n332 \nEM330-DIN AV5 3 L S1 PF A \n332 \nEM330-DIN AV5 3 L S1 PF B \n332 \nEM330-DIN AV5 3 H S1 X  \n332 \nEM330-DIN AV5 3 H S1 PF A \n332 \nEM330-DIN AV5 3 H S1 PF B \n332 \nEM330-DIN AV6 3 L S1 X  \n331 \nEM330-DIN AV6 3 L S1 PF A \n331 \nEM330-DIN AV6 3 L S1 PF B \n331 \nEM330-DIN AV6 3 H S1 X  \n331 \nEM330-DIN AV6 3 H S1 PF A \n331 \nEM330-DIN AV6 3 H S1 PF B \n331 \nEM331-DIN.AV5.3.H.OS.X \n355 \nET330-DIN AV5 3 L S1 X  \n335 \nET330-DIN AV5 3 H S1 X  \n335 \nET330-DIN AV6 3 L S1 X  \n336 \nET330-DIN AV6 3 H S1 X  \n336"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 5,
+        "page": 1,
+        "score": 2,
+        "bucket": "other",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "2.9.1 \nPassword configuration menu ...........................................................................................15 \n2.9.2 \nSystem configuration menu ...............................................................................................15 \n2.9.3 \nPT and CT configuration menu .........................................................................................15 \n2.9.4 \nDmd and pulse outs configuration menu ...........................................................................15 \n2.9.5 \nOther functions configuration menu ..................................................................................16 \n2.9.6 \nActive tariff selection .........................................................................................................17 \n2.9.7 \nSerial port configuration menu ..........................................................................................17 \n2.9.8"
+      }
+    ]
+  },
+  {
+    "pass_name": "transaction",
+    "parameters": [
+      "nodeAddress",
+      "name",
+      "modbusAddressingMode",
+      "transactionName",
+      "requestFC",
+      "startAddr",
+      "quantity",
+      "responseFC",
+      "byteCount",
+      "dataLength"
+    ],
+    "raw_top_k_per_query": {
+      "node_address": [
+        {
+          "rank": 1,
+          "chunk_id": 59,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n18 \n \n2.9.9 \nSerial number \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-9 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320481 \n5000h \n1 \nLetter 1 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320482 \n5001h \n1 \nLetter 2 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320483 \n5002h \n1 \nLetter 3 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320484 \n5003h \n1 \nLetter 4 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320485 \n5004h \n1 \nLetter 5 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320486 \n5005h \n1 \nLetter 6 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 60,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "UINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320497 \n5010h \n1 \nProduction year \nUINT 16 \n  \n \nNote \nThis register is available only in EM330 and EM340 manufactured from October 1st 2018 (from serial number YR2018 274xxxS and \nfollowing) \n \n \n \n3 REVISIONS \n \n• From rev. 2.7 to 2.8: \n- \nassigned a memory address to Neutral current \n- \nchanged the name to some variables to have the same indication as in VMU-C and programming \nsoftware \n \n• From rev. 2.8 to 2.9: \n- \nadded THD, run hour meter and An in EM330 \n \n• From rev. 2.9 to 2.10: \n- \nadded EM331 ID code \n \n• From rev. 2.10 to 2.11: \n- \nmodification of “1.3 Application notes. RS485 general considerations” (point 1) \n-"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 56,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247 \nAny other value = 1 \n308194 \n2001h \n1 \nRS485 baud rate  \n \nUINT 16 \nValue 1 = 9.6 kbps (default) \nValue 2 = 19.2 kbps  \nValue 3 = 38.4 kbps \nValue 4 = 57.6 kbps \nValue 5 = 115.2 kbps \nAny other value = 9.6 kbps \n308195 \n2002h \n1 \nRS485 parity \n \nUINT 16 \nValue 1= no parity (default) \nValue 2 = even parity \nAny other value = no parity \n308196 \n2003h \n1 \nRS485 Stop bit \n \nUINT 16 \nValue 0 = 1 stop bit  \nValue 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 46,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "MODBUS: read only mode with functions code 03 and 04 \n \n \n \n \n \n \nTable 2.7-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300771 \n0302h \n1 \nVersion code \nUINT 16 \nValue=0: Version “A”, =1: Version “B”, etc. \n300772 \n0303h \n1 \nRevision code \nUINT 16 \nValue=0: Revision “0” etc."
+        },
+        {
+          "rank": 5,
+          "chunk_id": 35,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "MODBUS: read only mode with functions code 03 and 04 \nTable 2.5-2 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n0500h \n4 \nkWh (+) TOT  \nINT64 \nINT64 format: LSW-MSW (less significant \nword first, most significant word after) \nWithin a word: MSB-LSB (most significant \nbyte first, less significant byte after) \n0504h \n4 \nKvarh (+) TOT \nINT64 \n0508h \n4 \nkWh (+) Partial \nINT64 \n050Ch \n4 \nKvarh (+) Partial \nINT64 \n0510h \n4 \nkWh (+) L1  \nINT64 \n0514h \n4 \nkWh (+) L2 \nINT64 \n0518h \n4 \nkWh (+) L3 \nINT64 \n051Ch \n4 \nkWh (-) TOT \nINT64 \n0520h \n4 \nkWh (-) Partial \nINT64 \n0524h \n4 \nkvarh (-) TOT \nINT64 \n0528h \n4 \nkvarh (-) Partial \nINT64 \n052Ch \n4 \nkVAh TOT \nINT64 \nNot available, value =0 \n0530h \n4 \nkVAh Partial \nINT64 \nNot available, value =0 \nNote: These additional totalizers are available only in EM330 manufactured from October 1st 2018 (from serial number YR2018\n274xxxS and following)"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 45,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "300433 \n01B0h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300435 \n01B2h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300437 \n01B4h \n2 \nn.a. \nINT32 \nNot available, value =0 \n \nNote * \nNegative values correspond to exported active power, positive values correspond to imported active power. \nNote  \nTable 2.4-1 and 2.5-1 are equivalent and includes a copy of the same variable values. \nNote \nFor meters that support also 1-phase and 2-phase systems, the values relevant to phase 2 and 3 can still be read with a valid value, equal to 0 \n \nProgramming parameter note: reading values in addresses not specified in the below tables returns \nan illegal data address exception. \n \n2.7 \nFirmware version and revision code \nMODBUS: read only mode with functions code 03 and 04 \n \n \n \n \n \n \nTable 2.7-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300771 \n0302h \n1 \nVersion code \nUINT 16 \nValue=0: Version “A”, =1: Version “B”, etc. \n300772 \n0303h \n1"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 55,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n17 \n \n2.9.6 \nActive tariff selection \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-6 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304609 \n1200h \n1 \nTariff mode selection (tariff \nmanagement via digital input or \nserial comm.) \nUINT 16 \nValue min = 0 (via digital inputs) \nValue max = 1 (via serial comm.) \nAny other value = via digital in. \n304610 \n1201h \n1 \nTariff number selection via serial \ncomm. \nUINT 16 \nValue min = 1 (tariff 1) \nValue max = 2 (tariff 2) \nAny other value = tariff 1 \nIf 1200h = 0 (tariff via digital input), this \nparameter is “read only” mode \n2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 57,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Value 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8 \nReset commands \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-8 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n316385 \n4000h \n1 \nReset of all partial and tariff \nmeters, kWdmd and kWdmd \npeak. \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316386 \n4001h \n1 \nReset of total energy meters (only \nfor non-MID versions, X option) \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316387 \n4002h \n1 \nReset of run hour meter  \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects"
+        }
+      ],
+      "node_name": [
+        {
+          "rank": 1,
+          "chunk_id": 48,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "331 \nEM330-DIN AV6 3 L S1 PF B \n331 \nEM330-DIN AV6 3 H S1 X  \n331 \nEM330-DIN AV6 3 H S1 PF A \n331 \nEM330-DIN AV6 3 H S1 PF B \n331 \nEM331-DIN.AV5.3.H.OS.X \n355 \nET330-DIN AV5 3 L S1 X  \n335 \nET330-DIN AV5 3 H S1 X  \n335 \nET330-DIN AV6 3 L S1 X  \n336 \nET330-DIN AV6 3 H S1 X  \n336 \nEM340-DIN AV2 3 X S1 X  \nENGINEERING SAMPLE ONLY (with MSW-LSW word order) \n340 \nEM340-DIN AV2 3 X S1 X  \n341 \nEM340-DIN AV2 3 X S1 PF A \n341 \nEM340-DIN AV2 3 X S1 PF B \n341 \nEM341-DIN AV2 3 X OS X \n346 \nET340-DIN AV2 3 X S1 X  \n345"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 47,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n14 \n2.8 \nCarlo Gavazzi Controls identification code  \nMODBUS: read only mode with functions code 03 and 04 limited to a word at a time \n \n \n \nTable 2.8-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300012 \n000Bh \n1 \nCarlo Gavazzi Controls \nidentification code \nUINT 16 \nSee table 2.8-2 \n \n \nTable 2.8-2 \nComplete item number \nCG identification  code \nEM330-DIN AV5 3 L S1 X  \n332 \nEM330-DIN AV5 3 L S1 PF A \n332 \nEM330-DIN AV5 3 L S1 PF B \n332 \nEM330-DIN AV5 3 H S1 X  \n332 \nEM330-DIN AV5 3 H S1 PF A \n332 \nEM330-DIN AV5 3 H S1 PF B \n332 \nEM330-DIN AV6 3 L S1 X  \n331 \nEM330-DIN AV6 3 L S1 PF A \n331 \nEM330-DIN AV6 3 L S1 PF B \n331 \nEM330-DIN AV6 3 H S1 X  \n331 \nEM330-DIN AV6 3 H S1 PF A \n331 \nEM330-DIN AV6 3 H S1 PF B \n331 \nEM331-DIN.AV5.3.H.OS.X \n355 \nET330-DIN AV5 3 L S1 X  \n335 \nET330-DIN AV5 3 H S1 X  \n335 \nET330-DIN AV6 3 L S1 X  \n336 \nET330-DIN AV6 3 H S1 X  \n336"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 6,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.6 \nActive tariff selection .........................................................................................................17 \n2.9.7 \nSerial port configuration menu ..........................................................................................17 \n2.9.8 \nReset commands ..............................................................................................................17 \n2.9.9 \nSerial number ....................................................................................................................18 \n2.9-10 \nProduction year .................................................................................................................18 \n3 \nREVISIONS ..................................................................................................................................18"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 60,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "UINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320497 \n5010h \n1 \nProduction year \nUINT 16 \n  \n \nNote \nThis register is available only in EM330 and EM340 manufactured from October 1st 2018 (from serial number YR2018 274xxxS and \nfollowing) \n \n \n \n3 REVISIONS \n \n• From rev. 2.7 to 2.8: \n- \nassigned a memory address to Neutral current \n- \nchanged the name to some variables to have the same indication as in VMU-C and programming \nsoftware \n \n• From rev. 2.8 to 2.9: \n- \nadded THD, run hour meter and An in EM330 \n \n• From rev. 2.9 to 2.10: \n- \nadded EM331 ID code \n \n• From rev. 2.10 to 2.11: \n- \nmodification of “1.3 Application notes. RS485 general considerations” (point 1) \n-"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 4,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.5 \nAdditional energy totalizers with 3-decimal resolution ......................................................................... 11 \n2.6 \nInstantaneous variables and meters (grouped by phase) .................................................................... 12 \n2.7 \nFirmware version and revision code .................................................................................................... 13 \n2.8 \nCarlo Gavazzi Controls identification code .......................................................................................... 14 \n2.9 \nProgramming parameter tables ........................................................................................................... 15 \n2.9.1 \nPassword configuration menu ...........................................................................................15 \n2.9.2 \nSystem configuration menu ...............................................................................................15 \n2.9.3"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 27,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "300021 \n0014h \n2 \nW L2 \nINT32 \n300023 \n0016h \n2 \nW L3 \nINT32 \n300025 \n0018h \n2 \nVA L1 \nINT32 \nValue weight: VA*10 \n300027 \n001Ah \n2 \nVA L2 \nINT32 \n300029 \n001Ch \n2 \nVA L3 \nINT32 \n300031 \n001Eh \n2 \nvar L1 \nINT32 \nValue weight: var*10 \n300033 \n0020h \n2 \nvar L2 \nINT32 \n300035 \n0022h \n2 \nvar L3 \nINT32 \n300037 \n0024h \n2 \nV L-N sys \nINT32 \nValue weight: Volt*10 \n300039 \n0026h \n2 \nV L-L sys \nINT32 \n300041 \n0028h \n2 \nW sys \nINT32 \nValue weight: Watt*10 \n300043 \n002Ah \n2 \nVA sys \nINT32 \nValue weight: VA*10 \n300045 \n002Ch \n2 \nvar sys \nINT32 \nValue weight: var*10 \n300047 \n002Eh \n1 \nPF L1 \nINT16 \nNegative values correspond to exported \nactive power, positive values correspond to \nimported active power. \nValue weight: PF*1000 \n300048 \n002Fh \n1 \nPF L2 \nINT16 \n300049 \n0030h \n1 \nPF L3 \nINT16 \n300050 \n0031h \n1 \nPF sys \nINT16 \n300051 \n0032h \n1 \nPhase sequence \nINT16\nThe value  “1” corresponds to L1-L3-L2 \nsequence, the value 0 corresponds to L1-L2-\nL3 sequence. The phase sequence value is"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 25,
+          "page": 7,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "840V \n0 \n260V \n0 \n518V \n0 \nA \n6,5A \n(displ. value = 6.5 A x CT ratio) \n0 \n6,5A \n(displ. value = 6.5 A x CT ratio) \n0 \n78A \n0 \nVT \n1000 \n1 \n1000 \n1 \n/ \n/ \nCT \n1000 \n1 \n1000 \n1 \n/ \n/ \n \n \nNote: the product (CT ratio)x(VT ratio) shall be automatically limited to prevent overflow of kW indication \non the meter (max power = 9999 kW). \n \nThe overflow indication “EEE“ is displayed when the MSB value of the relevant variable is 7FFFFFFFh \n(word order FFFF 7FFF)."
+        },
+        {
+          "rank": 8,
+          "chunk_id": 0,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "EM300 Series \nand \nET300 Series \n \n \nCOMMUNICATION \nPROTOCOL \n \nVersion 2 Revision 17 \n(July 05, 2021)"
+        }
+      ],
+      "addressing_mode": [
+        {
+          "rank": 1,
+          "chunk_id": 46,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "MODBUS: read only mode with functions code 03 and 04 \n \n \n \n \n \n \nTable 2.7-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300771 \n0302h \n1 \nVersion code \nUINT 16 \nValue=0: Version “A”, =1: Version “B”, etc. \n300772 \n0303h \n1 \nRevision code \nUINT 16 \nValue=0: Revision “0” etc."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 56,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247 \nAny other value = 1 \n308194 \n2001h \n1 \nRS485 baud rate  \n \nUINT 16 \nValue 1 = 9.6 kbps (default) \nValue 2 = 19.2 kbps  \nValue 3 = 38.4 kbps \nValue 4 = 57.6 kbps \nValue 5 = 115.2 kbps \nAny other value = 9.6 kbps \n308195 \n2002h \n1 \nRS485 parity \n \nUINT 16 \nValue 1= no parity (default) \nValue 2 = even parity \nAny other value = no parity \n308196 \n2003h \n1 \nRS485 Stop bit \n \nUINT 16 \nValue 0 = 1 stop bit  \nValue 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 35,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "MODBUS: read only mode with functions code 03 and 04 \nTable 2.5-2 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n0500h \n4 \nkWh (+) TOT  \nINT64 \nINT64 format: LSW-MSW (less significant \nword first, most significant word after) \nWithin a word: MSB-LSB (most significant \nbyte first, less significant byte after) \n0504h \n4 \nKvarh (+) TOT \nINT64 \n0508h \n4 \nkWh (+) Partial \nINT64 \n050Ch \n4 \nKvarh (+) Partial \nINT64 \n0510h \n4 \nkWh (+) L1  \nINT64 \n0514h \n4 \nkWh (+) L2 \nINT64 \n0518h \n4 \nkWh (+) L3 \nINT64 \n051Ch \n4 \nkWh (-) TOT \nINT64 \n0520h \n4 \nkWh (-) Partial \nINT64 \n0524h \n4 \nkvarh (-) TOT \nINT64 \n0528h \n4 \nkvarh (-) Partial \nINT64 \n052Ch \n4 \nkVAh TOT \nINT64 \nNot available, value =0 \n0530h \n4 \nkVAh Partial \nINT64 \nNot available, value =0 \nNote: These additional totalizers are available only in EM330 manufactured from October 1st 2018 (from serial number YR2018\n274xxxS and following)"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 45,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "300433 \n01B0h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300435 \n01B2h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300437 \n01B4h \n2 \nn.a. \nINT32 \nNot available, value =0 \n \nNote * \nNegative values correspond to exported active power, positive values correspond to imported active power. \nNote  \nTable 2.4-1 and 2.5-1 are equivalent and includes a copy of the same variable values. \nNote \nFor meters that support also 1-phase and 2-phase systems, the values relevant to phase 2 and 3 can still be read with a valid value, equal to 0 \n \nProgramming parameter note: reading values in addresses not specified in the below tables returns \nan illegal data address exception. \n \n2.7 \nFirmware version and revision code \nMODBUS: read only mode with functions code 03 and 04 \n \n \n \n \n \n \nTable 2.7-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300771 \n0302h \n1 \nVersion code \nUINT 16 \nValue=0: Version “A”, =1: Version “B”, etc. \n300772 \n0303h \n1"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 60,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "UINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320497 \n5010h \n1 \nProduction year \nUINT 16 \n  \n \nNote \nThis register is available only in EM330 and EM340 manufactured from October 1st 2018 (from serial number YR2018 274xxxS and \nfollowing) \n \n \n \n3 REVISIONS \n \n• From rev. 2.7 to 2.8: \n- \nassigned a memory address to Neutral current \n- \nchanged the name to some variables to have the same indication as in VMU-C and programming \nsoftware \n \n• From rev. 2.8 to 2.9: \n- \nadded THD, run hour meter and An in EM330 \n \n• From rev. 2.9 to 2.10: \n- \nadded EM331 ID code \n \n• From rev. 2.10 to 2.11: \n- \nmodification of “1.3 Application notes. RS485 general considerations” (point 1) \n-"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 59,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n18 \n \n2.9.9 \nSerial number \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-9 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320481 \n5000h \n1 \nLetter 1 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320482 \n5001h \n1 \nLetter 2 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320483 \n5002h \n1 \nLetter 3 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320484 \n5003h \n1 \nLetter 4 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320485 \n5004h \n1 \nLetter 5 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320486 \n5005h \n1 \nLetter 6 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 2,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "1.2.4 \nFunction 08h (Diagnostic with sub-function code 00h) .......................................................5 \n1.2.5 \nBroadcast mode ..................................................................................................................5 \n1.3 \nApplication notes ................................................................................................................................... 6 \n1.3.1 \nRS485 general considerations ............................................................................................6 \n1.3.2 \nMODBUS timing ..................................................................................................................6 \n2 \nTABLES .........................................................................................................................................7 \n2.1 \nData format representation In Carlo Gavazzi instruments ..................................................................... 7 \n2.2"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 1,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Index \n \n \n1.1 \nIntroduction ........................................................................................................................................... 3 \n1.2 \nMODBUS functions ............................................................................................................................... 3 \n1.2.1 \nFunction 03h (Read Holding Registers) ..............................................................................3 \n1.2.2 \nFunction 04h (Read Input Registers) ..................................................................................4 \n1.2.3 \nFunction 06h (Write Single Holding Register) .....................................................................4 \n1.2.4 \nFunction 08h (Diagnostic with sub-function code 00h) .......................................................5 \n1.2.5 \nBroadcast mode ..................................................................................................................5 \n1.3"
+        }
+      ],
+      "register": [
+        {
+          "rank": 1,
+          "chunk_id": 12,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "The register data in the response message are packed as two bytes per register (word), with the binary \ncontents right justified within each byte. For each register, the first byte contains the high order bits \n(MSB) and the second contains the low order bits (LSB).  \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n04h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nQuantity of registers (N word) \n2 bytes \n1 to 14h (1 to 20) \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (correct action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n04h \n \nQuantity of requested bytes \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (incorrect action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 10,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "contents right justified within each byte. For each register, the first byte contains the high order bits \n(MSB) and the second contains the low order bits (LSB).  \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n03h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nQuantity of registers (N word) \n2 bytes \n1 to 14h (1 to 20) \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (correct action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n03h \n \nQuantity of requested bytes  \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 37,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Value weight: hours*100, only ET series and \nEM330\n300257 \n0100h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300259 \n0102h \n2 \nV L-N sys \nINT32 \nValue weight: Volt*10 \n300261 \n0104h \n2 \nV L-L sys \nINT32 \nValue weight: Volt*10 \n300263 \n0106h \n2 \nW sys \nINT32 \nValue weight: Watt*10 \n300265 \n0108h \n2 \nVA sys \nINT32 \nValue weight: VA*10 \n300267 \n010Ah \n2 \nvar sys \nINT32 \nValue weight: var*10 \n300269 \n010Ch \n2 \nPF sys \nINT32 \n(*) Value weight: PF*1000 \n300271 \n010Eh \n2 \nPhase sequence \nINT32 \nThe value  “1” corresponds to L1-L3-L2 \nsequence, the value “0” corresponds to L1-\nL2-L3 sequence. The phase sequence value \nis meaningful only in a 3-phase system \n300273 \n0110h \n2 \nHz \nINT32 \nValue weight: Hz*10 \nTotal energies and dmd power  \n300275 \n0112h \n2 \nkWh (+) TOT \nINT32 \nValue weight: kWh*10 \n300277 \n0114h \n2 \nKvarh (+) TOT \nINT32 \nValue weight: kvarh*10 \n300279 \n0116h \n2 \nkWh (-) TOT \nINT32 \nValue weight: kWh*10 \n300281 \n0118h \n2 \nkvarh (-) TOT \nINT32 \nValue weight: kvarh*10 \n300283 \n011Ah"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 28,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Value weight: PF*1000 \n300048 \n002Fh \n1 \nPF L2 \nINT16 \n300049 \n0030h \n1 \nPF L3 \nINT16 \n300050 \n0031h \n1 \nPF sys \nINT16 \n300051 \n0032h \n1 \nPhase sequence \nINT16\nThe value  “1” corresponds to L1-L3-L2 \nsequence, the value 0 corresponds to L1-L2-\nL3 sequence. The phase sequence value is \nmeaningful only in a 3-phase system \n300052 \n0033h \n1 \nHz \nINT16 \nValue weight: Hz*10 \n300053 \n0034h \n2 \nkWh (+) TOT \nINT32 \nValue weight: kWh*10 \n300055 \n0036h \n2 \nKvarh (+) TOT \nINT32 \nValue weight: kvarh*10 \n300057 \n0038h \n2 \nkW dmd \nINT32 \nValue weight: Watt*10 \n300059 \n003Ah \n2 \nkW dmd peak \nINT32 \nValue weight: Watt*10 \n300061 \n003Ch \n2 \nkWh (+) PARTIAL \nINT32 \nValue weight: kWh*10 \n300063 \n003Eh \n2 \nKvarh (+) PARTIAL \nINT32 \nValue weight: kvarh*10 \n300065 \n0040h \n2 \nkWh (+) L1 \nINT32 \nValue weight: kWh*10 \n300067 \n0042h \n2 \nkWh (+) L2 \nINT32 \nValue weight: kWh*10 \n300069 \n0044h \n2 \nkWh (+) L3 \nINT32 \nValue weight: kWh*10 \n300071 \n0046h \n2 \nkWh (+) t1 \nINT32 \nValue weight: kWh*10 \n300073 \n0048h \n2"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 27,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "300021 \n0014h \n2 \nW L2 \nINT32 \n300023 \n0016h \n2 \nW L3 \nINT32 \n300025 \n0018h \n2 \nVA L1 \nINT32 \nValue weight: VA*10 \n300027 \n001Ah \n2 \nVA L2 \nINT32 \n300029 \n001Ch \n2 \nVA L3 \nINT32 \n300031 \n001Eh \n2 \nvar L1 \nINT32 \nValue weight: var*10 \n300033 \n0020h \n2 \nvar L2 \nINT32 \n300035 \n0022h \n2 \nvar L3 \nINT32 \n300037 \n0024h \n2 \nV L-N sys \nINT32 \nValue weight: Volt*10 \n300039 \n0026h \n2 \nV L-L sys \nINT32 \n300041 \n0028h \n2 \nW sys \nINT32 \nValue weight: Watt*10 \n300043 \n002Ah \n2 \nVA sys \nINT32 \nValue weight: VA*10 \n300045 \n002Ch \n2 \nvar sys \nINT32 \nValue weight: var*10 \n300047 \n002Eh \n1 \nPF L1 \nINT16 \nNegative values correspond to exported \nactive power, positive values correspond to \nimported active power. \nValue weight: PF*1000 \n300048 \n002Fh \n1 \nPF L2 \nINT16 \n300049 \n0030h \n1 \nPF L3 \nINT16 \n300050 \n0031h \n1 \nPF sys \nINT16 \n300051 \n0032h \n1 \nPhase sequence \nINT16\nThe value  “1” corresponds to L1-L3-L2 \nsequence, the value 0 corresponds to L1-L2-\nL3 sequence. The phase sequence value is"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 34,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "INT32 \nValue=DEC(kvarh)*1000 \nExample: if kvarh=1234.567, value=567 \n(Note: the MSW is always 0) \n301033 \n0408h \n2 \nkWh (-) TOT – INTeger part \nINT32 \nValue=INT(kWh)*1 \nExample: if kWh=1234.567, value=1234 \n301035 \n040Ah \n2 \nkWh (-) TOT – DECimal part \nINT32 \nValue=DEC(kWh)*1000 \nIf PFA or X version with meas=A, value=0 \n301037 \n040Ch \n2 \nkvarh (-) TOT – INTeger part \nINT32 \nValue=INT(kvarh)*1 \nIf PFA or X version with meas=A, value=0 \n301039 \n040Eh \n2 \nkvarh (-) TOT – DECimal part \nINT32 \nValue=DEC(kvarh)*1000 \nIf PFA or X version with meas=A, value=0 \nNote: These additional totalizers are available only in EM340 manufactured from October 1st 2018 (from serial number YR2018\n274xxxS and following) \nMODBUS: read only mode with functions code 03 and 04 \nTable 2.5-2 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n0500h \n4 \nkWh (+) TOT  \nINT64 \nINT64 format: LSW-MSW (less significant \nword first, most significant word after)"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 13,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "1 byte \n04h \n \nQuantity of requested bytes \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (incorrect action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function \n02h: illegal data address \n03h: illegal data value \n04h: slave device failure \nFunction code \n1 byte \n84h \nException code \n1 byte \n01h, 02h, 03h, 04h \nCRC \n2 bytes \n \n \n1.2.3 \nFunction 06h (Write Single Holding Register) \nThis function code is used to write a single holding register. The Request frame specifies the address of \nthe register (word) to be written and its content. \nThe correct response is an echo of the request, returned after the register content has been written. \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n06h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nRegister value"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 40,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "300321 \n0140h \n2 \nW L3 \nINT32 \nValue weight: Watt*10 \n300323 \n0142h \n2 \nVA L3 \nINT32 \nValue weight: VA*10 \n300325 \n0144h \n2 \nvar L3 \nINT32 \nValue weight: var*10 \n300327 \n0146h \n2 \nPF L3 \nINT32 \n(*) Value weight: PF*1000 \nOther energies \n300329 \n0148h \n2 \nkWh (+) PARTIAL \nINT32 \nValue weight: kWh*10 \n300331 \n014Ah \n2 \nKvarh (+) PARTIAL \nINT32 \nValue weight: kvarh*10 \n300333 \n014Ch \n2 \nkWh (+) L1 \nINT32 \nValue weight: kWh*10 \n300335 \n014Eh \n2 \nkWh (+) L2 \nINT32 \nValue weight: kWh*10 \n300337 \n0150h \n2 \nkWh (+) L3 \nINT32 \nValue weight: kWh*10 \n300339 \n0152h \n2 \nkWh (+) t1 \nINT32 \nValue weight: kWh*10 \n300341 \n0154h \n2 \nkWh (+) t2 \nINT32 \nValue weight: kWh*10 \n300343 \n0156h \n2 \nkWh (+) t3 \nINT32 \nNot available, value =0 \n300345 \n0158h \n2 \nkWh (+) t4 \nINT32 \nNot available, value =0 \n300347 \n015Ah \n2 \nkWh (-) PARTIAL \nINT32 \nNot available, value =0 \n300349 \n015Ch \n2 \nKvarh (-) PARTIAL \nINT32 \nNot available, value =0 \n300351 \n015Eh \n2 \nkVAh TOT \nINT32 \nNot available, value =0 \n300353 \n0160h"
+        }
+      ],
+      "function_code": [
+        {
+          "rank": 1,
+          "chunk_id": 8,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "• Reading of n “Input Register” (code 04h) \n• Writing of one “Holding Registers” (code 06h) \n• Diagnostic (code 08h with sub-function code 00h) \n• Broadcast mode (writing instruction on address 00h) \n \nIMPORTANT: \n1) In this document the “Modbus address” field is indicated in two modes: \n1.1) “Modicom address”: it is the “6-digit Modicom” representation with Modbus function code \n04 (Read Input Registers). It is possible to read the same values with function code 03 (Read \nHolding Registers) replacing the first digit (“3”) with the number “4”. \n1.2) “Physical address”: it is the “word address” value to be included in the communication \nframe. \n2) The functions 03h and 04h have exactly the same effect and can be used indifferently. \n3) The communication parameters are to be set according to the configuration of the instrument \n(refer to EM/ET300 SERIES instruction manual) \n1.2.1 \nFunction 03h (Read Holding Registers)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 9,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "frame. \n2) The functions 03h and 04h have exactly the same effect and can be used indifferently. \n3) The communication parameters are to be set according to the configuration of the instrument \n(refer to EM/ET300 SERIES instruction manual) \n1.2.1 \nFunction 03h (Read Holding Registers) \nThis function is used to read the contents of a contiguous block of holding registers (word). The \nRequest frame specifies the starting register address and the number of registers to be read. It is \npossible to read maximum 50 registers (words) with a single request, when not differently specified. \nThe register data in the response message are packed as two bytes per register (word), with the binary \ncontents right justified within each byte. For each register, the first byte contains the high order bits \n(MSB) and the second contains the low order bits (LSB).  \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n03h"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 46,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "MODBUS: read only mode with functions code 03 and 04 \n \n \n \n \n \n \nTable 2.7-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300771 \n0302h \n1 \nVersion code \nUINT 16 \nValue=0: Version “A”, =1: Version “B”, etc. \n300772 \n0303h \n1 \nRevision code \nUINT 16 \nValue=0: Revision “0” etc."
+        },
+        {
+          "rank": 4,
+          "chunk_id": 1,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Index \n \n \n1.1 \nIntroduction ........................................................................................................................................... 3 \n1.2 \nMODBUS functions ............................................................................................................................... 3 \n1.2.1 \nFunction 03h (Read Holding Registers) ..............................................................................3 \n1.2.2 \nFunction 04h (Read Input Registers) ..................................................................................4 \n1.2.3 \nFunction 06h (Write Single Holding Register) .....................................................................4 \n1.2.4 \nFunction 08h (Diagnostic with sub-function code 00h) .......................................................5 \n1.2.5 \nBroadcast mode ..................................................................................................................5 \n1.3"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 35,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "MODBUS: read only mode with functions code 03 and 04 \nTable 2.5-2 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n0500h \n4 \nkWh (+) TOT  \nINT64 \nINT64 format: LSW-MSW (less significant \nword first, most significant word after) \nWithin a word: MSB-LSB (most significant \nbyte first, less significant byte after) \n0504h \n4 \nKvarh (+) TOT \nINT64 \n0508h \n4 \nkWh (+) Partial \nINT64 \n050Ch \n4 \nKvarh (+) Partial \nINT64 \n0510h \n4 \nkWh (+) L1  \nINT64 \n0514h \n4 \nkWh (+) L2 \nINT64 \n0518h \n4 \nkWh (+) L3 \nINT64 \n051Ch \n4 \nkWh (-) TOT \nINT64 \n0520h \n4 \nkWh (-) Partial \nINT64 \n0524h \n4 \nkvarh (-) TOT \nINT64 \n0528h \n4 \nkvarh (-) Partial \nINT64 \n052Ch \n4 \nkVAh TOT \nINT64 \nNot available, value =0 \n0530h \n4 \nkVAh Partial \nINT64 \nNot available, value =0 \nNote: These additional totalizers are available only in EM330 manufactured from October 1st 2018 (from serial number YR2018\n274xxxS and following)"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 13,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "1 byte \n04h \n \nQuantity of requested bytes \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (incorrect action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function \n02h: illegal data address \n03h: illegal data value \n04h: slave device failure \nFunction code \n1 byte \n84h \nException code \n1 byte \n01h, 02h, 03h, 04h \nCRC \n2 bytes \n \n \n1.2.3 \nFunction 06h (Write Single Holding Register) \nThis function code is used to write a single holding register. The Request frame specifies the address of \nthe register (word) to be written and its content. \nThe correct response is an echo of the request, returned after the register content has been written. \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n06h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nRegister value"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Energy management \n           Series 300 Communication Protocol \n4 \n \nResponse frame (incorrect action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function \n02h: illegal data address \n03h: illegal data value \n04h: slave device failure \nFunction code \n1 byte \n83h \nException code \n1 byte \n01h, 02h, 03h, 04h (see note) \nCRC \n2 bytes \n \n \n1.2.2 \nFunction 04h (Read Input Registers) \nThis function code is used to read the contents of a contiguous block of input registers (word). The \nRequest frame specifies the starting register address and the number of registers to be read. It is \npossible to read maximum 50 register (word) with a single request, when not differently specified. \nThe register data in the response message are packed as two bytes per register (word), with the binary \ncontents right justified within each byte. For each register, the first byte contains the high order bits"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 45,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "300433 \n01B0h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300435 \n01B2h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300437 \n01B4h \n2 \nn.a. \nINT32 \nNot available, value =0 \n \nNote * \nNegative values correspond to exported active power, positive values correspond to imported active power. \nNote  \nTable 2.4-1 and 2.5-1 are equivalent and includes a copy of the same variable values. \nNote \nFor meters that support also 1-phase and 2-phase systems, the values relevant to phase 2 and 3 can still be read with a valid value, equal to 0 \n \nProgramming parameter note: reading values in addresses not specified in the below tables returns \nan illegal data address exception. \n \n2.7 \nFirmware version and revision code \nMODBUS: read only mode with functions code 03 and 04 \n \n \n \n \n \n \nTable 2.7-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300771 \n0302h \n1 \nVersion code \nUINT 16 \nValue=0: Version “A”, =1: Version “B”, etc. \n300772 \n0303h \n1"
+        }
+      ],
+      "coils_discrete": [
+        {
+          "rank": 1,
+          "chunk_id": 54,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Bit 6 = 1 means: Phases 2 and 3 exchanged \nBit 7 = 1 means: Phases 1, 2, 3 exchanged \n \nIn EM/ET330 only a bit at a time can be 1. \nIn EM/ET340 more bits can be 1. \nIn \nany \ncase \na \nsequence \nof \nwiring \nmodifications is needed until the wiring is \ncorrect (all bit=0) \n304359 \n1106h \n1 \nTHD calculation enabling \nUINT 16 \nValue min = 0 (OFF) \nValue max = 1 (ON) = DEFAULT \nAny other value = OFF \nAvailable in ET series and EM330 (not \npresent in EM340) \n304360 \n1107h \n2 \nSecondary start-up current of the \nrun hour  meter \nUINT 32 \nValue weight: Ampere*1000 \nValue min = 10 \nValue max = 6000 \nDefault value = 10 \nThe \nprimary \nstart-up \ncurrent \nshall \nbe \nmultiplied by CT ratio. \nAvailable in ET series and EM330 (not \npresent in EM340)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 8,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "• Reading of n “Input Register” (code 04h) \n• Writing of one “Holding Registers” (code 06h) \n• Diagnostic (code 08h with sub-function code 00h) \n• Broadcast mode (writing instruction on address 00h) \n \nIMPORTANT: \n1) In this document the “Modbus address” field is indicated in two modes: \n1.1) “Modicom address”: it is the “6-digit Modicom” representation with Modbus function code \n04 (Read Input Registers). It is possible to read the same values with function code 03 (Read \nHolding Registers) replacing the first digit (“3”) with the number “4”. \n1.2) “Physical address”: it is the “word address” value to be included in the communication \nframe. \n2) The functions 03h and 04h have exactly the same effect and can be used indifferently. \n3) The communication parameters are to be set according to the configuration of the instrument \n(refer to EM/ET300 SERIES instruction manual) \n1.2.1 \nFunction 03h (Read Holding Registers)"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 35,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "MODBUS: read only mode with functions code 03 and 04 \nTable 2.5-2 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n0500h \n4 \nkWh (+) TOT  \nINT64 \nINT64 format: LSW-MSW (less significant \nword first, most significant word after) \nWithin a word: MSB-LSB (most significant \nbyte first, less significant byte after) \n0504h \n4 \nKvarh (+) TOT \nINT64 \n0508h \n4 \nkWh (+) Partial \nINT64 \n050Ch \n4 \nKvarh (+) Partial \nINT64 \n0510h \n4 \nkWh (+) L1  \nINT64 \n0514h \n4 \nkWh (+) L2 \nINT64 \n0518h \n4 \nkWh (+) L3 \nINT64 \n051Ch \n4 \nkWh (-) TOT \nINT64 \n0520h \n4 \nkWh (-) Partial \nINT64 \n0524h \n4 \nkvarh (-) TOT \nINT64 \n0528h \n4 \nkvarh (-) Partial \nINT64 \n052Ch \n4 \nkVAh TOT \nINT64 \nNot available, value =0 \n0530h \n4 \nkVAh Partial \nINT64 \nNot available, value =0 \nNote: These additional totalizers are available only in EM330 manufactured from October 1st 2018 (from serial number YR2018\n274xxxS and following)"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 46,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "MODBUS: read only mode with functions code 03 and 04 \n \n \n \n \n \n \nTable 2.7-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300771 \n0302h \n1 \nVersion code \nUINT 16 \nValue=0: Version “A”, =1: Version “B”, etc. \n300772 \n0303h \n1 \nRevision code \nUINT 16 \nValue=0: Revision “0” etc."
+        },
+        {
+          "rank": 5,
+          "chunk_id": 45,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "300433 \n01B0h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300435 \n01B2h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300437 \n01B4h \n2 \nn.a. \nINT32 \nNot available, value =0 \n \nNote * \nNegative values correspond to exported active power, positive values correspond to imported active power. \nNote  \nTable 2.4-1 and 2.5-1 are equivalent and includes a copy of the same variable values. \nNote \nFor meters that support also 1-phase and 2-phase systems, the values relevant to phase 2 and 3 can still be read with a valid value, equal to 0 \n \nProgramming parameter note: reading values in addresses not specified in the below tables returns \nan illegal data address exception. \n \n2.7 \nFirmware version and revision code \nMODBUS: read only mode with functions code 03 and 04 \n \n \n \n \n \n \nTable 2.7-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300771 \n0302h \n1 \nVersion code \nUINT 16 \nValue=0: Version “A”, =1: Version “B”, etc. \n300772 \n0303h \n1"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 53,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "In ET always = 0 \nEM330 and EM340 only \nThe home page CAN NOT changed in the \nmodels with MID certification (PFA and PFB). \n304356 \n1103h \n1 \nMeasurement mode selection \nUINT 16 \nValue min = 0 (A) \nValue max = 1 (B) \nAny other value = A \n304357 \n1104h \n1 \nWrong connection (Installing help) \nmanagement enabling  \nUINT 16 \nValue min = 0 (ON) \nValue max = 1 (OFF) \nAny other value = ON \n304358 \n1105h \n1 \nWrong connection (installing help) \nstatus \n \nUINT 16 \nBit 0 = 1 means: Wrong voltage sequence \nBit 1 = 1 means: Phase 1 inverted \nBit 2 = 1 means: Phase 2 inverted \nBit 3 = 1 means: Phase 3 inverted \nBit 4 = 1 means: Phases 1 and 2 exchanged \nBit 5 = 1 means: Phases 1 and 3 exchanged \nBit 6 = 1 means: Phases 2 and 3 exchanged \nBit 7 = 1 means: Phases 1, 2, 3 exchanged \n \nIn EM/ET330 only a bit at a time can be 1. \nIn EM/ET340 more bits can be 1. \nIn \nany \ncase \na \nsequence \nof \nwiring \nmodifications is needed until the wiring is \ncorrect (all bit=0) \n304359 \n1106h \n1"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 43,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "300389 \n0184h \n2 \nTHD V L1-L2 \nINT32 \nValue weight: %*100, not available \n300391 \n0186h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300393 \n0188h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300395 \n018Ah \n2 \nn.a. \nINT32 \nNot available, value =0 \n300397 \n018Ch \n2 \nn.a. \nINT32 \nNot available, value =0 \n300399 \n018Eh \n2 \nn.a. \nINT32 \nNot available, value =0 \n300401 \n0190h \n2 \nn.a. \nINT32 \nNot available, value =0 \nOther Phase 2 variables \n300403 \n0192h \n2 \nTHD A L2 \nINT32 \nValue weight: %*100, not available \n300405 \n0194h \n2 \nTHD V L2-N \nINT32 \nValue weight: %*100, not available \n300407 \n0196h \n2 \nTHD V L2-L3 \nINT32 \nNot available, value =0 \n300409 \n0198h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300411 \n019Ah \n2 \nn.a. \nINT32 \nNot available, value =0 \n300413 \n019Ch \n2 \nn.a. \nINT32 \nNot available, value =0 \n300415 \n019Eh \n2 \nn.a. \nINT32 \nNot available, value =0 \n300417 \n01A0h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300419 \n01A2h \n2 \nn.a. \nINT32 \nNot available, value =0"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 1,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EM330_EM340_ET330_ET340_CP.pdf",
+          "content": "Index \n \n \n1.1 \nIntroduction ........................................................................................................................................... 3 \n1.2 \nMODBUS functions ............................................................................................................................... 3 \n1.2.1 \nFunction 03h (Read Holding Registers) ..............................................................................3 \n1.2.2 \nFunction 04h (Read Input Registers) ..................................................................................4 \n1.2.3 \nFunction 06h (Write Single Holding Register) .....................................................................4 \n1.2.4 \nFunction 08h (Diagnostic with sub-function code 00h) .......................................................5 \n1.2.5 \nBroadcast mode ..................................................................................................................5 \n1.3"
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 8,
+        "page": 2,
+        "score": 12,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "• Reading of n “Input Register” (code 04h) \n• Writing of one “Holding Registers” (code 06h) \n• Diagnostic (code 08h with sub-function code 00h) \n• Broadcast mode (writing instruction on address 00h) \n \nIMPORTANT: \n1) In this document the “Modbus address” field is indicated in two modes: \n1.1) “Modicom address”: it is the “6-digit Modicom” representation with Modbus function code \n04 (Read Input Registers). It is possible to read the same values with function code 03 (Read \nHolding Registers) replacing the first digit (“3”) with the number “4”. \n1.2) “Physical address”: it is the “word address” value to be included in the communication \nframe. \n2) The functions 03h and 04h have exactly the same effect and can be used indifferently. \n3) The communication parameters are to be set according to the configuration of the instrument \n(refer to EM/ET300 SERIES instruction manual) \n1.2.1 \nFunction 03h (Read Holding Registers)"
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 45,
+        "page": 12,
+        "score": 10,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "300433 \n01B0h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300435 \n01B2h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300437 \n01B4h \n2 \nn.a. \nINT32 \nNot available, value =0 \n \nNote * \nNegative values correspond to exported active power, positive values correspond to imported active power. \nNote  \nTable 2.4-1 and 2.5-1 are equivalent and includes a copy of the same variable values. \nNote \nFor meters that support also 1-phase and 2-phase systems, the values relevant to phase 2 and 3 can still be read with a valid value, equal to 0 \n \nProgramming parameter note: reading values in addresses not specified in the below tables returns \nan illegal data address exception. \n \n2.7 \nFirmware version and revision code \nMODBUS: read only mode with functions code 03 and 04 \n \n \n \n \n \n \nTable 2.7-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300771 \n0302h \n1 \nVersion code \nUINT 16 \nValue=0: Version “A”, =1: Version “B”, etc. \n300772 \n0303h \n1"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 27,
+        "page": 8,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "register"
+        ],
+        "content": "300021 \n0014h \n2 \nW L2 \nINT32 \n300023 \n0016h \n2 \nW L3 \nINT32 \n300025 \n0018h \n2 \nVA L1 \nINT32 \nValue weight: VA*10 \n300027 \n001Ah \n2 \nVA L2 \nINT32 \n300029 \n001Ch \n2 \nVA L3 \nINT32 \n300031 \n001Eh \n2 \nvar L1 \nINT32 \nValue weight: var*10 \n300033 \n0020h \n2 \nvar L2 \nINT32 \n300035 \n0022h \n2 \nvar L3 \nINT32 \n300037 \n0024h \n2 \nV L-N sys \nINT32 \nValue weight: Volt*10 \n300039 \n0026h \n2 \nV L-L sys \nINT32 \n300041 \n0028h \n2 \nW sys \nINT32 \nValue weight: Watt*10 \n300043 \n002Ah \n2 \nVA sys \nINT32 \nValue weight: VA*10 \n300045 \n002Ch \n2 \nvar sys \nINT32 \nValue weight: var*10 \n300047 \n002Eh \n1 \nPF L1 \nINT16 \nNegative values correspond to exported \nactive power, positive values correspond to \nimported active power. \nValue weight: PF*1000 \n300048 \n002Fh \n1 \nPF L2 \nINT16 \n300049 \n0030h \n1 \nPF L3 \nINT16 \n300050 \n0031h \n1 \nPF sys \nINT16 \n300051 \n0032h \n1 \nPhase sequence \nINT16\nThe value  “1” corresponds to L1-L3-L2 \nsequence, the value 0 corresponds to L1-L2-\nL3 sequence. The phase sequence value is"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 9,
+        "page": 2,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code"
+        ],
+        "content": "frame. \n2) The functions 03h and 04h have exactly the same effect and can be used indifferently. \n3) The communication parameters are to be set according to the configuration of the instrument \n(refer to EM/ET300 SERIES instruction manual) \n1.2.1 \nFunction 03h (Read Holding Registers) \nThis function is used to read the contents of a contiguous block of holding registers (word). The \nRequest frame specifies the starting register address and the number of registers to be read. It is \npossible to read maximum 50 registers (words) with a single request, when not differently specified. \nThe register data in the response message are packed as two bytes per register (word), with the binary \ncontents right justified within each byte. For each register, the first byte contains the high order bits \n(MSB) and the second contains the low order bits (LSB).  \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n03h"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 56,
+        "page": 16,
+        "score": 7,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247 \nAny other value = 1 \n308194 \n2001h \n1 \nRS485 baud rate  \n \nUINT 16 \nValue 1 = 9.6 kbps (default) \nValue 2 = 19.2 kbps  \nValue 3 = 38.4 kbps \nValue 4 = 57.6 kbps \nValue 5 = 115.2 kbps \nAny other value = 9.6 kbps \n308195 \n2002h \n1 \nRS485 parity \n \nUINT 16 \nValue 1= no parity (default) \nValue 2 = even parity \nAny other value = no parity \n308196 \n2003h \n1 \nRS485 Stop bit \n \nUINT 16 \nValue 0 = 1 stop bit  \nValue 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 55,
+        "page": 16,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "Energy management \n           Series 300 Communication Protocol \n17 \n \n2.9.6 \nActive tariff selection \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-6 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n304609 \n1200h \n1 \nTariff mode selection (tariff \nmanagement via digital input or \nserial comm.) \nUINT 16 \nValue min = 0 (via digital inputs) \nValue max = 1 (via serial comm.) \nAny other value = via digital in. \n304610 \n1201h \n1 \nTariff number selection via serial \ncomm. \nUINT 16 \nValue min = 1 (tariff 1) \nValue max = 2 (tariff 2) \nAny other value = tariff 1 \nIf 1200h = 0 (tariff via digital input), this \nparameter is “read only” mode \n2.9.7 \nSerial port configuration menu \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-7 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n308193 \n2000h \n1 \nRS485 instrument address  \n \nUINT 16 \nValue min = 1 (default) \nValue max = 247"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 57,
+        "page": 16,
+        "score": 7,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "Value 1= 1 (default) \nValue 2 =2 (only if parity is even) \nAny other value = 1 stop bit \n308197 \n2004h \n1 \nMax number of words readable \nwith a single Modbus request \nUINT 16 \nValue = 50 (words), only reading \n \nNote: The number of stop bits is fixed to “1” if parity is EVEN. \n \n \n2.9.8 \nReset commands \n \nMODBUS: read and write mode \n \n \n \n \n \n \n \n \nTable 2.9-8 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n316385 \n4000h \n1 \nReset of all partial and tariff \nmeters, kWdmd and kWdmd \npeak. \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316386 \n4001h \n1 \nReset of total energy meters (only \nfor non-MID versions, X option) \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects \n316387 \n4002h \n1 \nReset of run hour meter  \nUINT 16 \n \nValue=0: reset done \nValue=1: execute the command \nAll other values produce no effects"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 11,
+        "page": 3,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code"
+        ],
+        "content": "Energy management \n           Series 300 Communication Protocol \n4 \n \nResponse frame (incorrect action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function \n02h: illegal data address \n03h: illegal data value \n04h: slave device failure \nFunction code \n1 byte \n83h \nException code \n1 byte \n01h, 02h, 03h, 04h (see note) \nCRC \n2 bytes \n \n \n1.2.2 \nFunction 04h (Read Input Registers) \nThis function code is used to read the contents of a contiguous block of input registers (word). The \nRequest frame specifies the starting register address and the number of registers to be read. It is \npossible to read maximum 50 register (word) with a single request, when not differently specified. \nThe register data in the response message are packed as two bytes per register (word), with the binary \ncontents right justified within each byte. For each register, the first byte contains the high order bits"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 35,
+        "page": 10,
+        "score": 6,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "MODBUS: read only mode with functions code 03 and 04 \nTable 2.5-2 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n0500h \n4 \nkWh (+) TOT  \nINT64 \nINT64 format: LSW-MSW (less significant \nword first, most significant word after) \nWithin a word: MSB-LSB (most significant \nbyte first, less significant byte after) \n0504h \n4 \nKvarh (+) TOT \nINT64 \n0508h \n4 \nkWh (+) Partial \nINT64 \n050Ch \n4 \nKvarh (+) Partial \nINT64 \n0510h \n4 \nkWh (+) L1  \nINT64 \n0514h \n4 \nkWh (+) L2 \nINT64 \n0518h \n4 \nkWh (+) L3 \nINT64 \n051Ch \n4 \nkWh (-) TOT \nINT64 \n0520h \n4 \nkWh (-) Partial \nINT64 \n0524h \n4 \nkvarh (-) TOT \nINT64 \n0528h \n4 \nkvarh (-) Partial \nINT64 \n052Ch \n4 \nkVAh TOT \nINT64 \nNot available, value =0 \n0530h \n4 \nkVAh Partial \nINT64 \nNot available, value =0 \nNote: These additional totalizers are available only in EM330 manufactured from October 1st 2018 (from serial number YR2018\n274xxxS and following)"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 37,
+        "page": 11,
+        "score": 6,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "Value weight: hours*100, only ET series and \nEM330\n300257 \n0100h \n2 \nn.a. \nINT32 \nNot available, value =0 \n300259 \n0102h \n2 \nV L-N sys \nINT32 \nValue weight: Volt*10 \n300261 \n0104h \n2 \nV L-L sys \nINT32 \nValue weight: Volt*10 \n300263 \n0106h \n2 \nW sys \nINT32 \nValue weight: Watt*10 \n300265 \n0108h \n2 \nVA sys \nINT32 \nValue weight: VA*10 \n300267 \n010Ah \n2 \nvar sys \nINT32 \nValue weight: var*10 \n300269 \n010Ch \n2 \nPF sys \nINT32 \n(*) Value weight: PF*1000 \n300271 \n010Eh \n2 \nPhase sequence \nINT32 \nThe value  “1” corresponds to L1-L3-L2 \nsequence, the value “0” corresponds to L1-\nL2-L3 sequence. The phase sequence value \nis meaningful only in a 3-phase system \n300273 \n0110h \n2 \nHz \nINT32 \nValue weight: Hz*10 \nTotal energies and dmd power  \n300275 \n0112h \n2 \nkWh (+) TOT \nINT32 \nValue weight: kWh*10 \n300277 \n0114h \n2 \nKvarh (+) TOT \nINT32 \nValue weight: kvarh*10 \n300279 \n0116h \n2 \nkWh (-) TOT \nINT32 \nValue weight: kWh*10 \n300281 \n0118h \n2 \nkvarh (-) TOT \nINT32 \nValue weight: kvarh*10 \n300283 \n011Ah"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 28,
+        "page": 8,
+        "score": 6,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "Value weight: PF*1000 \n300048 \n002Fh \n1 \nPF L2 \nINT16 \n300049 \n0030h \n1 \nPF L3 \nINT16 \n300050 \n0031h \n1 \nPF sys \nINT16 \n300051 \n0032h \n1 \nPhase sequence \nINT16\nThe value  “1” corresponds to L1-L3-L2 \nsequence, the value 0 corresponds to L1-L2-\nL3 sequence. The phase sequence value is \nmeaningful only in a 3-phase system \n300052 \n0033h \n1 \nHz \nINT16 \nValue weight: Hz*10 \n300053 \n0034h \n2 \nkWh (+) TOT \nINT32 \nValue weight: kWh*10 \n300055 \n0036h \n2 \nKvarh (+) TOT \nINT32 \nValue weight: kvarh*10 \n300057 \n0038h \n2 \nkW dmd \nINT32 \nValue weight: Watt*10 \n300059 \n003Ah \n2 \nkW dmd peak \nINT32 \nValue weight: Watt*10 \n300061 \n003Ch \n2 \nkWh (+) PARTIAL \nINT32 \nValue weight: kWh*10 \n300063 \n003Eh \n2 \nKvarh (+) PARTIAL \nINT32 \nValue weight: kvarh*10 \n300065 \n0040h \n2 \nkWh (+) L1 \nINT32 \nValue weight: kWh*10 \n300067 \n0042h \n2 \nkWh (+) L2 \nINT32 \nValue weight: kWh*10 \n300069 \n0044h \n2 \nkWh (+) L3 \nINT32 \nValue weight: kWh*10 \n300071 \n0046h \n2 \nkWh (+) t1 \nINT32 \nValue weight: kWh*10 \n300073 \n0048h \n2"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 60,
+        "page": 17,
+        "score": 5,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_address",
+          "node_name",
+          "addressing_mode"
+        ],
+        "content": "UINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320497 \n5010h \n1 \nProduction year \nUINT 16 \n  \n \nNote \nThis register is available only in EM330 and EM340 manufactured from October 1st 2018 (from serial number YR2018 274xxxS and \nfollowing) \n \n \n \n3 REVISIONS \n \n• From rev. 2.7 to 2.8: \n- \nassigned a memory address to Neutral current \n- \nchanged the name to some variables to have the same indication as in VMU-C and programming \nsoftware \n \n• From rev. 2.8 to 2.9: \n- \nadded THD, run hour meter and An in EM330 \n \n• From rev. 2.9 to 2.10: \n- \nadded EM331 ID code \n \n• From rev. 2.10 to 2.11: \n- \nmodification of “1.3 Application notes. RS485 general considerations” (point 1) \n-"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 46,
+        "page": 12,
+        "score": 5,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "MODBUS: read only mode with functions code 03 and 04 \n \n \n \n \n \n \nTable 2.7-1 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n300771 \n0302h \n1 \nVersion code \nUINT 16 \nValue=0: Version “A”, =1: Version “B”, etc. \n300772 \n0303h \n1 \nRevision code \nUINT 16 \nValue=0: Revision “0” etc."
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 1,
+        "page": 1,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "addressing_mode",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "Index \n \n \n1.1 \nIntroduction ........................................................................................................................................... 3 \n1.2 \nMODBUS functions ............................................................................................................................... 3 \n1.2.1 \nFunction 03h (Read Holding Registers) ..............................................................................3 \n1.2.2 \nFunction 04h (Read Input Registers) ..................................................................................4 \n1.2.3 \nFunction 06h (Write Single Holding Register) .....................................................................4 \n1.2.4 \nFunction 08h (Diagnostic with sub-function code 00h) .......................................................5 \n1.2.5 \nBroadcast mode ..................................................................................................................5 \n1.3"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 13,
+        "page": 3,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "register",
+          "function_code"
+        ],
+        "content": "1 byte \n04h \n \nQuantity of requested bytes \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (incorrect action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function \n02h: illegal data address \n03h: illegal data value \n04h: slave device failure \nFunction code \n1 byte \n84h \nException code \n1 byte \n01h, 02h, 03h, 04h \nCRC \n2 bytes \n \n \n1.2.3 \nFunction 06h (Write Single Holding Register) \nThis function code is used to write a single holding register. The Request frame specifies the address of \nthe register (word) to be written and its content. \nThe correct response is an echo of the request, returned after the register content has been written. \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n06h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nRegister value"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 40,
+        "page": 11,
+        "score": 5,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "300321 \n0140h \n2 \nW L3 \nINT32 \nValue weight: Watt*10 \n300323 \n0142h \n2 \nVA L3 \nINT32 \nValue weight: VA*10 \n300325 \n0144h \n2 \nvar L3 \nINT32 \nValue weight: var*10 \n300327 \n0146h \n2 \nPF L3 \nINT32 \n(*) Value weight: PF*1000 \nOther energies \n300329 \n0148h \n2 \nkWh (+) PARTIAL \nINT32 \nValue weight: kWh*10 \n300331 \n014Ah \n2 \nKvarh (+) PARTIAL \nINT32 \nValue weight: kvarh*10 \n300333 \n014Ch \n2 \nkWh (+) L1 \nINT32 \nValue weight: kWh*10 \n300335 \n014Eh \n2 \nkWh (+) L2 \nINT32 \nValue weight: kWh*10 \n300337 \n0150h \n2 \nkWh (+) L3 \nINT32 \nValue weight: kWh*10 \n300339 \n0152h \n2 \nkWh (+) t1 \nINT32 \nValue weight: kWh*10 \n300341 \n0154h \n2 \nkWh (+) t2 \nINT32 \nValue weight: kWh*10 \n300343 \n0156h \n2 \nkWh (+) t3 \nINT32 \nNot available, value =0 \n300345 \n0158h \n2 \nkWh (+) t4 \nINT32 \nNot available, value =0 \n300347 \n015Ah \n2 \nkWh (-) PARTIAL \nINT32 \nNot available, value =0 \n300349 \n015Ch \n2 \nKvarh (-) PARTIAL \nINT32 \nNot available, value =0 \n300351 \n015Eh \n2 \nkVAh TOT \nINT32 \nNot available, value =0 \n300353 \n0160h"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 54,
+        "page": 15,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "coils_discrete"
+        ],
+        "content": "Bit 6 = 1 means: Phases 2 and 3 exchanged \nBit 7 = 1 means: Phases 1, 2, 3 exchanged \n \nIn EM/ET330 only a bit at a time can be 1. \nIn EM/ET340 more bits can be 1. \nIn \nany \ncase \na \nsequence \nof \nwiring \nmodifications is needed until the wiring is \ncorrect (all bit=0) \n304359 \n1106h \n1 \nTHD calculation enabling \nUINT 16 \nValue min = 0 (OFF) \nValue max = 1 (ON) = DEFAULT \nAny other value = OFF \nAvailable in ET series and EM330 (not \npresent in EM340) \n304360 \n1107h \n2 \nSecondary start-up current of the \nrun hour  meter \nUINT 32 \nValue weight: Ampere*1000 \nValue min = 10 \nValue max = 6000 \nDefault value = 10 \nThe \nprimary \nstart-up \ncurrent \nshall \nbe \nmultiplied by CT ratio. \nAvailable in ET series and EM330 (not \npresent in EM340)"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 59,
+        "page": 17,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "Energy management \n           Series 300 Communication Protocol \n18 \n \n2.9.9 \nSerial number \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-9 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE \nENG. UNIT \nData \nFormat \nNotes \n320481 \n5000h \n1 \nLetter 1 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320482 \n5001h \n1 \nLetter 2 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320483 \n5002h \n1 \nLetter 3 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320484 \n5003h \n1 \nLetter 4 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320485 \n5004h \n1 \nLetter 5 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320486 \n5005h \n1 \nLetter 6 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n320487 \n5006h \n1 \nLetter 7 (from SX) \nUINT 16 \nMSB: not to be used \nLSB: ASCII code \n \n \n \n2.9-10 Production year \n \nMODBUS: read only mode \n \n \n \n \n \n \n \n \n \nTable 2.9-10 \nModicom \naddress \nPhysical \naddress \nLength \n(words) \nVARIABLE"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 4,
+        "page": 1,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "2.5 \nAdditional energy totalizers with 3-decimal resolution ......................................................................... 11 \n2.6 \nInstantaneous variables and meters (grouped by phase) .................................................................... 12 \n2.7 \nFirmware version and revision code .................................................................................................... 13 \n2.8 \nCarlo Gavazzi Controls identification code .......................................................................................... 14 \n2.9 \nProgramming parameter tables ........................................................................................................... 15 \n2.9.1 \nPassword configuration menu ...........................................................................................15 \n2.9.2 \nSystem configuration menu ...............................................................................................15 \n2.9.3"
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 12,
+        "page": 3,
+        "score": 4,
+        "bucket": "communication",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "The register data in the response message are packed as two bytes per register (word), with the binary \ncontents right justified within each byte. For each register, the first byte contains the high order bits \n(MSB) and the second contains the low order bits (LSB).  \n \nRequest frame \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n04h \n \nStarting address \n2 bytes \n0000h to FFFFh \nByte order: MSB, LSB \nQuantity of registers (N word) \n2 bytes \n1 to 14h (1 to 20) \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (correct action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \n \nFunction code \n1 byte \n04h \n \nQuantity of requested bytes \n1 byte \nN word * 2 \n \nRegister value \nN*2 bytes \n \nByte order: MSB, LSB \nCRC \n2 bytes \n \n \n \nResponse frame (incorrect action) \nDescription \nLength \nValue \nNote \nPhysical address \n1 byte \n1 to F7h (1 to 247) \nPossible exception : \n01h: illegal function"
+      }
+    ]
+  }
+]

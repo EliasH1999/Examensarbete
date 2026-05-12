@@ -1,0 +1,18 @@
+manual,ai_model,accuracy,accuracy_percent
+1815243_C5.pdf,gpt-5.1,6/13,46.15%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=3),Predicted: 3 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=1),Predicted: 1 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2),Predicted: 2 [default]
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Wrong: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3),Predicted: 4
+,,Wrong: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=152),Predicted: 153
+,,Wrong: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3),Predicted: 4
+,,Wrong: Baud Rate (subnetwork.properties.baudRate=9600),Predicted: not found
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Wrong: Parity (subnetwork.properties.parity=0),Predicted: not found
+,,Wrong: Stop Bits (subnetwork.properties.stopBits=0),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=Scaled Temperature Input 1),Predicted: C5 Series [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Scaled Temperature Input 1),Predicted: TI_01 [naming convention; not scored]
+AVERAGE,gpt-5.1,1 manuals,46.15%

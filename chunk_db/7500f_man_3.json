@@ -1,0 +1,398 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  1 of  25 \nModbus RTU Communication Module \nfor SHARKY 775 and SCYLAR INT 8 \nUser Manual"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  2 of  25 \nTable of contents \n1 \nIntroduction ........................................................................................................................................................ 3 \n2 \nSafety Instructions ............................................................................................................................................. 3 \n2.1 \nDeclaration of Conformity ........................................................................................................................... 4 \n2.2 \nDisposal of waste equipment ..................................................................................................................... 5 \n3 \nTechnical parameters ........................................................................................................................................ 5 \n4"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "3 \nTechnical parameters ........................................................................................................................................ 5 \n4 \nModule interfaces .............................................................................................................................................. 6 \n5 \nModule installation ............................................................................................................................................. 6 \n5.1 \nPlacing in meter .......................................................................................................................................... 6 \n5.2 \nPower supply wiring ................................................................................................................................... 8 \n5.2.1 \nPower supply cable ............................................................................................................................. 8 \n5.2.2"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "5.2.1 \nPower supply cable ............................................................................................................................. 8 \n5.2.2 \nConnection schematic ......................................................................................................................... 8 \n5.3 \nEIA-485 network channel wiring ................................................................................................................. 9 \n5.3.1 \nEIA-485 cable...................................................................................................................................... 9 \n5.3.2 \nConnection schematic .......................................................................................................................10 \n5.3.3 \nNetwork topology and termination ....................................................................................................10 \n5.4"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "5.3.2 \nConnection schematic .......................................................................................................................10 \n5.3.3 \nNetwork topology and termination ....................................................................................................10 \n5.4 \nFirst power-up ..........................................................................................................................................12 \n5.5 \nClosing housing of meter .........................................................................................................................12 \n6 \nModbus RTU interface ....................................................................................................................................13 \n6.1 \nDevice addressing ....................................................................................................................................13 \n6.1.1"
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "6.1 \nDevice addressing ....................................................................................................................................13 \n6.1.1 \nAutomatic Slave ID ...........................................................................................................................14 \n6.2 \nModbus registers ......................................................................................................................................16 \n6.2.1 \nMeasurement data registers .............................................................................................................16 \n6.2.2 \nConfiguration registers ......................................................................................................................19 \n6.2.3 \nInformation Registers ........................................................................................................................19 \n6.3"
+  },
+  {
+    "chunk_id": 6,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "6.2.3 \nInformation Registers ........................................................................................................................19 \n6.3 \nUnit ID lookup table ..................................................................................................................................20 \n6.4 \nCalculation examples ...............................................................................................................................20 \n6.5 \nPeriodical Log 0 functionality ...................................................................................................................22 \n6.6 \nError codes ...............................................................................................................................................23 \n7 \nRestore to default settings ...............................................................................................................................24 \n8"
+  },
+  {
+    "chunk_id": 7,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "7 \nRestore to default settings ...............................................................................................................................24 \n8 \nTroubleshooting guide .....................................................................................................................................25 \n9 \nFirmware change list .......................................................................................................................................25 \n10 \nOrdering .......................................................................................................................................................26"
+  },
+  {
+    "chunk_id": 8,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  3 of  25 \n1 Introduction \nThis User Manual refers to Modbus RTU Communication Module identified by Sylop under product number \nM/N: 11024. \nModbus RTU Communication Module is designed to get data from SHARKY 775 ultrasonic compact energy meters \nor SCYLAR INT 8 energy calculators manufactured by Diehl Metering and share the data in Modbus RTU network \nusing EIA-485 (formerly RS-485) channel. The module is designed to be installed inside housing of the meter \nin dedicated extension card slot. The module periodically reads the data from the meter using EN 13757-3 \nstandard (known as M-Bus). The data update rate can be defined. \nThe purpose of the User Manual is to explain how to safely use this product. The document presents how to \ncorrectly install the module, how to properly connect power supply and communication network to the module \nand how to configure the module to work within Modbus RTU network. In addition, for easy product use,"
+  },
+  {
+    "chunk_id": 9,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "correctly install the module, how to properly connect power supply and communication network to the module \nand how to configure the module to work within Modbus RTU network. In addition, for easy product use, \nthis  document describes how to read and understand the data from the module. \nNOTE \nPlease read this document carefully before any use of the product. Important information can be found \nin each section. \n2 Safety Instructions \nFollow the safety guidelines below to ensure your personal safety and to protect your equipment and work \nenvironment. \nWARNING \nThe installation and/or electrical connection and/or configuring the product should be made by qualified \npersonnel only, trained in the installation and use of electrical equipment. \nDANGER \nDo not touch any parts of product during installation work when the power supply voltage is on. \nRisk of serious injuries or death and/or at least product damage! \nTurn off the power supply voltage during product installation."
+  },
+  {
+    "chunk_id": 10,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "DANGER \nDo not touch any parts of product during installation work when the power supply voltage is on. \nRisk of serious injuries or death and/or at least product damage! \nTurn off the power supply voltage during product installation. \nESD CAUTION \nThis product is sensitive to electrostatic discharge (ESD). It is recommended that standard static precautions \nbe taken in handling and assembly of this module to prevent damage which may be induced by ESD. Failure \nto follow proper handling and installation procedures describe in this document can cause damage. \nESD damage can range from performance degradation to device failure for which Sylop is not responsible."
+  },
+  {
+    "chunk_id": 11,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  4 of  25 \n2.1 Declaration of Conformity \nThe module is complaint with European Union harmonization legislation and standards for Information \nTechnology Equipment as stated in the EU Declaration of Conformity below. \nPicture 2.1 - Scan of product EU Declaration of Conformity"
+  },
+  {
+    "chunk_id": 12,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  5 of  25 \n2.2 Disposal of waste equipment \nWEEE CAUTION \nThis product is electronic equipment and it must not be disposed of with other domestic waste. It must be \nseparately collected and recycled as waste electrical and electronic equipment (WEEE) according to \ncurrently valid local legislation. \nThe separate collection and recycling of waste equipment at the time of disposal will help to conserve \nnatural resources and ensure that it is recycled in a manner that protects human health \nand the environment. \n3 Technical parameters \nParameter \nValue \nOperating Voltage \n12 - 24 V AC/DC ± 10% (SELV power supply only) \nMaximum Power Consumption \n500 mW \nCommunication Channel Interface \nEIA-485 (galvanically isolated, ⅛ Unit Load) \nCommunication Protocol \nModbus RTU \nCommunication Parameters \nBaud rate (bits per second): 1200, 2400, 4800, 9600, 14400, 19200, 38400, \n56000, 57600, 115200 \nData bits: 8 \nParity bit: even, odd, none \nStop bits: 1, 2 \nOperating Temperature \n0 - 55°C"
+  },
+  {
+    "chunk_id": 13,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "EIA-485 (galvanically isolated, ⅛ Unit Load) \nCommunication Protocol \nModbus RTU \nCommunication Parameters \nBaud rate (bits per second): 1200, 2400, 4800, 9600, 14400, 19200, 38400, \n56000, 57600, 115200 \nData bits: 8 \nParity bit: even, odd, none \nStop bits: 1, 2 \nOperating Temperature \n0 - 55°C \nRecommended Storage Temperature \n5 - 35°C \nDimensions \n37,2 mm x 44,8 mm x 16,2 mm \nWeight \n13 g \nWeight with package \n15 g \nPacking \nESD shielding bag \nDANGER \nUse SELV power supply only! \nRisk of serious injuries or death and/or at least product damage! \nThe product is designed to use with one power supply module per one product for safety reason."
+  },
+  {
+    "chunk_id": 14,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  6 of  25 \n4 Module interfaces \nInterface name \nDescription \nMeter \nInternal connection with the meter. Connection is realized by using ribbon cable offered by Diehl \nMetering (P/N: 3013651). \nPower Supply \nScrew connector terminals 60 and 61 (polarity independent). \nEIA-485 \nScrew connector terminals 90 (non-inverting, +) and 91 (inverting, −). \nStatus Button \nUsed to restore device default settings and check device status. \nStatus LED \nUsed to signal transmission in Modbus RTU network and to confirm default setting restore. \nStatus LED lights up when Status Button is pressed. \nPicture 4.1- Module interfaces \n5 Module installation \nModule can only be installed in one of the following types of meters manufactured by Diehl Metering: \n•\nSHARKY 775 ultrasonic compact energy meters\n•\nSCYLAR INT 8 energy calculators\nNo other meters are supported. \n5.1 Placing in meter \nSHARKY 775 and SCYLAR INT 8 meters have two slots for extension modules. Modbus RTU Communication Module"
+  },
+  {
+    "chunk_id": 15,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "•\nSHARKY 775 ultrasonic compact energy meters\n•\nSCYLAR INT 8 energy calculators\nNo other meters are supported. \n5.1 Placing in meter \nSHARKY 775 and SCYLAR INT 8 meters have two slots for extension modules. Modbus RTU Communication Module \ncan be installed in one of them. These slots are marked by number 1 and 2 in the picture below. Each slot have \nfixing lugs to help installing extension module and stabilize its position."
+  },
+  {
+    "chunk_id": 16,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  7 of  25 \nPicture 5.1 - Meter internal view \n1. Primary extension slot\n2. Secondary extension slot\n3. Module fixing lugs\nESD CAUTION \nThis product is sensitive to electrostatic discharge (ESD). It is recommended that standard static precautions \nbe taken in handling and assembly of this module to prevent damage which may be induced by ESD. Failure \nto follow proper handling and installation procedures describe in this document can cause damage. \nESD damage can range from performance degradation to device failure for which Sylop is not responsible. \nModule installation steps: \n1.\nOpen the meter by releasing side catches and take front panel off as described in Installation and User\nGuide for SHARKY 775 Ultrasonic Compact Energy Meter or Installation and User Guide for SCYLAR INT 8\nCalculator.\n2.\nLocalize appropriate extension slot on front panel back side.\n3.\nPlace the module into one of slots (see Picture 5.1). Pay attention to positioning elements. They must"
+  },
+  {
+    "chunk_id": 17,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "Guide for SHARKY 775 Ultrasonic Compact Energy Meter or Installation and User Guide for SCYLAR INT 8\nCalculator.\n2.\nLocalize appropriate extension slot on front panel back side.\n3.\nPlace the module into one of slots (see Picture 5.1). Pay attention to positioning elements. They must\nmatch to the cuts on the module.\n4.\nPress the module towards to front panel of the meter to latch the module with the fixing lug.\n5.\nCheck that module is stable installed in slot.\n6.\nConnect module with meter by ribbon cable (see Picture 5.2).\nPicture 5.2 - Module installed in meter"
+  },
+  {
+    "chunk_id": 18,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  8 of  25 \nNOTE \nFor more information about installing extension modules and their combination, see Installation and User \nGuide for SHARKY 775 Ultrasonic Compact Energy Meter or Installation and User Guide for SCYLAR INT 8 \nCalculator. \n5.2 Power supply wiring \nThe module contain two-wire terminal for power supply connection marked as 60 and 61. Module operating \nvoltage range is 12-24 V AC/DC ± 10%. Connection to SELV power supply unit is polarity independent \nand is galvanically isolated from the meter. \nRecommended SELV power supply unit is Breve PSS 10 230-24 V AC Transformer (P/N: 16024-0150). \nDANGER \nUse SELV power supply only! \nRisk of serious injuries or death and/or at least product damage! \nThe product is designed to use with one power supply module per one product for safety reason. \n5.2.1 Power supply cable \nTerminals are suitable for wires up to 2,5 mm2. To connect module with SELV power supply unit use two-wire"
+  },
+  {
+    "chunk_id": 19,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "Risk of serious injuries or death and/or at least product damage! \nThe product is designed to use with one power supply module per one product for safety reason. \n5.2.1 Power supply cable \nTerminals are suitable for wires up to 2,5 mm2. To connect module with SELV power supply unit use two-wire \nOMY cables or similar, e.g. 2x0,75 mm2 300 V OMYp cable. \nNOTE \nRequired length of cable between the module and the power supply unit shall be less than 1 meter. \n5.2.2 Connection schematic \nDANGER \nDo not touch any parts of product during installation work when the power supply voltage is on. \nRisk of serious injuries or death and/or at least product damage! \nTurn off the power supply voltage during product installation. \nConnection of the module to power supply is presented on the following schematic below."
+  },
+  {
+    "chunk_id": 20,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  9 of  25 \nPicture 5.3 - Connection of power supply \nPicture 5.4 - Power supply wiring example \nConnecting steps: \n1.\nGuide the power supply cable through the wire protecting sleeve into the bottom part of the meter.\n2.\nConnect the cable to power supply terminals in module (see Picture 5.4).\nWARNING \nDo not connect power supply wires to the EIA-485 interface connectors 90 and 91. It can damage \nthe module! \nNOTE \nIt is recommended to use 100 mA fuse between SELV power supply unit and the module. \n5.3 EIA-485 network channel wiring \nModbus RTU Communication Module contains two-wire terminal for connecting network cable to EIA-485 \n(formerly RS-485) channel. The module has galva1nically isolated EIA-485 interface. The EIA-485 interface \nis polarity dependent. Non-inverting signal shall be connected to terminal marked as 90 (+) and inverting signal \nshall be connected to terminal marked as 91 (−). The maximum EIA-485 channel length is 1200 m. \n5.3.1 EIA-485 cable"
+  },
+  {
+    "chunk_id": 21,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "is polarity dependent. Non-inverting signal shall be connected to terminal marked as 90 (+) and inverting signal \nshall be connected to terminal marked as 91 (−). The maximum EIA-485 channel length is 1200 m. \n5.3.1 EIA-485 cable \nTerminals are suitable for wires up to 2,5 mm2. To connect the module with EIA-485 bus use two-wire \ntwisted-pair cable with nominal characteristic impedance 120 Ω without or with shield. If shielded cable is used, \nshield shall not be connected or grounded. \nRecommended cable is BELDEN 9841 1x2x24AWG shielded twisted-pair or similar."
+  },
+  {
+    "chunk_id": 22,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  10 of  25 \n5.3.2 Connection schematic \nCorrect EIA-485 wiring is presented on pictures bellow. \nPicture 5.5 - EIA-485 interface connection \nPicture 5.6 - Example of correctly wired module \nConnecting steps: \n1.\nGuide the EIA-485 cable through the wire protecting sleeve into the bottom part of the meter.\n2.\nConnect the cable to EIA-485 terminals in module (see Picture 5.6).\n5.3.3 Network topology and termination \nEIA-485 standard required that nodes should be connected in a bus topology network only. In bus topology \nthe devices can be connected to EIA-485 transmission line via stubs. Stubs should be as short as possible to limit \nsignal reflections. \nTransmission line should always be terminated at both ends of the bus to avoid reflections that can cause data \nerrors. \nPicture 5.7 - Bus topology in EIA-485 network channel \nProper termination requires the matching of the terminating resistors to characteristic impedance \nof the transmission line."
+  },
+  {
+    "chunk_id": 23,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "errors. \nPicture 5.7 - Bus topology in EIA-485 network channel \nProper termination requires the matching of the terminating resistors to characteristic impedance \nof the transmission line. \nThere are two termination types for EIA-485 channel: standard termination and termination with fail-safe \nbiasing. \nStandard termination can be used in low-noise domestic environment only. In standard termination, each end \nof bus should be terminated with 120 Ω resistor. \nTermination with fail-safe biasing is required in industrial environment and it is highly recommended by Sylop. \nWhen network distance is below 100 m fail-safe biasing at one end of the bus is often sufficient. The other end"
+  },
+  {
+    "chunk_id": 24,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  11 of  25 \nof the bus shall be terminated with 120 Ω resistor. For network distance longer than 100 m fail-safe biasing \nat both ends of the bus is necessary.  \nFail-safe biasing circuit is a resistive voltage divider with consists of a pull-up, terminator, and pull-down \nresistors. It provides the necessary differential bus voltage, V(+)(−), when no device transmits data over the bus. \nIn addition, sufficient noise margin should be added when the device is operated in harsh industrial \nenvironments. To ensure sufficient noise margin, the value of the receiver input voltage V(+)(−)  must be the sum \nof the receiver input threshold VIT_max and maximum permissible noise margin VNOISE. \nTermination type \nSchematic \nValues \nStandard termination \nRT = 120 Ω \nTermination with fail-safe \nbiasing \nRT = 138 Ω; ±5%; ¼ W \nR1, R2 = 470 Ω; ±5%; ¼ W \nAssumptions: \n•\nSingle fail-safe network\n•\nVCC_min = 4,75 V\n•\nVNOISE = 100 mV\n•\nVIT_max = 200 mV\n•\nV(+)(−) = VIT_max + VNOISE = 300 mV\nNOTE"
+  },
+  {
+    "chunk_id": 25,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "Termination type \nSchematic \nValues \nStandard termination \nRT = 120 Ω \nTermination with fail-safe \nbiasing \nRT = 138 Ω; ±5%; ¼ W \nR1, R2 = 470 Ω; ±5%; ¼ W \nAssumptions: \n•\nSingle fail-safe network\n•\nVCC_min = 4,75 V\n•\nVNOISE = 100 mV\n•\nVIT_max = 200 mV\n•\nV(+)(−) = VIT_max + VNOISE = 300 mV\nNOTE \nModbus RTU Communication Module ⅛ Unit Load (UL) transceiver is used. \nTermination with fail-safe biasing reduces the maximum number of bus loads due to additional \ncommon-mode loading. \nFor network without fail-safe biasing the maximum number of ⅛ UL transceivers is 256. \nFor single fail-safe network the maximum number of ⅛ UL transceivers is 51. \nFor more information about EIA-485 network termination please refer to External Fail-Safe Biasing of RS-485 \nNetworks application notes by Renesas Electronics Corporation."
+  },
+  {
+    "chunk_id": 26,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  12 of  25 \n5.4 First power-up \nFirst power-up of Modbus RTU Communication Module should be performed before closing the meter housing. \nPlease refer to following table for steps necessary. \nStep Action \nCorrect result \n1 \nTurn on power supply \nStatus LED blinks once \n2 \nPress Status Button on module \nStatus LED lights on during button is pressed \n3 \nRead any Modbus register by using Modbus RTU \napplication with default communication parameters (see \n6.2.2 Configuration registers) \nStatus LED blinks during communication and response \nwith proper data from the module is received by Modbus \nmaster application \nIf all three tests are passed, the module is ready to use and housing of the meter can be closed. If any test fails, \nsee 8 Troubleshooting guide for more information. \n5.5 Closing housing of meter \nTo close properly the meter with the module inside, follow steps below: \n1.\nCheck that module is correctly installed in extension slot.\n2."
+  },
+  {
+    "chunk_id": 27,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "see 8 Troubleshooting guide for more information. \n5.5 Closing housing of meter \nTo close properly the meter with the module inside, follow steps below: \n1.\nCheck that module is correctly installed in extension slot.\n2.\nCheck that all cables are in appropriate position and screwed tight.\n3.\nIf there is a lot of loose cables inside meter housing, pull them to the outside of the meter.\n4.\nPlace front panel to bottom part of meter housing starting from left edge of meter housing\n(see Picture 5.8).\n5.\nClose the meter housing with the side latches (see Picture 5.9).\nPicture 5.8 - Closing meter housing starting from left edge \nPicture 5.9 - Closing meter housing with the side latches"
+  },
+  {
+    "chunk_id": 28,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  13 of  25 \n6 Modbus RTU interface \nModbus is the most widely used network protocol in industrial environment. It is often used to connect \na supervisory computer with a remote terminal unit (RTU) in supervisory control and data acquisition (SCADA) \nsystems. Modbus RTU is the most common implementation available for Modbus using EIA-485 (formerly RS-485) \nchannel. \nModbus RTU is used to establish master-slave communication between electronic devices. That means \nthat it is based upon request/reply mechanism. Transmission is initialized by master and it sends the request \nmessage which contains address of slave (called Slave ID) - address of device requested to answer and a function \ncode - specific request for particular data. The slave in response sends the requested data. Modbus RTU \nCommunication Module is slave device. \nModbus RTU is used a compact, binary representation of the data for protocol communication. Modbus RTU"
+  },
+  {
+    "chunk_id": 29,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "code - specific request for particular data. The slave in response sends the requested data. Modbus RTU \nCommunication Module is slave device. \nModbus RTU is used a compact, binary representation of the data for protocol communication. Modbus RTU \nCommunication Module store the data in object types called registers - Input register and Holding Registers \nwhich have 16 bits size. Registers provided by this device can be found in 6.2 Modbus registers. \nModbus RTU Communication Module supports following functions (function codes): \n•\nRead Holding Registers (0x03)\n•\nRead Input Registers (0x04)\n•\nWrite Single Register (0x06)\n•\nWrite Multiple Registers (0x10)\nTo make communication with Modbus RTU Communication Module simple, measurement data from the meter \nare stored by the module in both types of registers - holding registers and input registers. Therefore \nmeasurement data can be read by using function code 0x03 or 0x04. To modify module configuration, function"
+  },
+  {
+    "chunk_id": 30,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "are stored by the module in both types of registers - holding registers and input registers. Therefore \nmeasurement data can be read by using function code 0x03 or 0x04. To modify module configuration, function \ncode 0x06 or 0x10 should be used. \nNOTE \nModbus RTU Communication Module sends data with Most Significant Register First and Most Significant Byte \nFirst (\"byte swap\" or \"word swap\" is not used for decoding data). \nThe development and update of Modbus protocols has been managed by the Modbus Organization. \nFor more information about Modbus standard please refer to following documents - Modicon Modbus Protocol \nReference Guide and MODBUS over Serial Line - Specification and Implementation Guide. \n6.1 Device addressing \nSingle Modbus RTU network over EIA-485 channel (called Modbus bus) can contain only one master, and up to \n247 slaves. Master - usually PC has full control of the communication - can perform read or write requests. Slave"
+  },
+  {
+    "chunk_id": 31,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "6.1 Device addressing \nSingle Modbus RTU network over EIA-485 channel (called Modbus bus) can contain only one master, and up to \n247 slaves. Master - usually PC has full control of the communication - can perform read or write requests. Slave \ndevice can only answer to requests, it cannot actively query other devices in the network. \nEach slave device in the network has to have its own unique address - Slave ID. Slave ID can be assigned \nfrom range 1 - 247. Address 0 is reserved for broadcast message. Master node has no specific address assigned. \nNOTE \nPlease take care not to setup two slave devices with the same Slave ID, it will lead to frame collisions \non Modbus bus."
+  },
+  {
+    "chunk_id": 32,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  14 of  25 \nMaster uses Slave ID to correctly address particular device on the Modbus network. Slave ID 0 is used to perform \nbroadcast order to all devices on the bus. Note that slave nodes do not respond to broadcast messages. \nSlave Address \nFunction \n0 \nBroadcast \n1 - 247 \nSpecific slave address \n248 - 255 \nReserved \n6.1.1 Automatic Slave ID \nAutomatic Slave ID functionality is supported by Modbus RTU Communication Module. This option allows \nthe module to set Modbus Slave ID basing on meter serial number. Special precautions are made to ensure \nthat only valid Slave ID is generated. See the algorithm on Picture 6.1 for details on which Slave ID shall be set, \nwhen Automatic Slave ID functionality is enabled. \nPicture 6.1 - Automatic Slave ID functionality algorithm"
+  },
+  {
+    "chunk_id": 33,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  15 of  25 \nExample Automatic Slave ID calculations is shown below. \nLast 3 digits of meter serial \nnumber \nSlave ID of module \nLast 3 digits of meter serial \nnumber \nSlave ID of module \n#### #000 \n247 \n#### #296 \n96 \n#### #001 \n1 \n#### #297 \n97 \n#### #002 \n2 \n#### #298 \n98 \n… \n… \n#### #299 \n99 \n#### #240 \n240 \n#### #300 \n247 \n#### #246 \n246 \n#### #301 \n1 \n#### #247 \n247 \n#### #302 \n2 \n#### #248 \n247 \n… \n… \n#### #249 \n247 \n#### #398 \n98 \n#### #250 \n247 \n#### #399 \n99 \n#### #251 \n51 \n#### #400 \n247 \n#### #252 \n52 \n#### #401 \n1 \n… \n… \n… \n… \nNOTE \nAutomatic Slave ID functionality is enabled in Modbus RTU Communication Module by default. \nTo disable or enable Automatic Slave ID functionality write data to Modbus Register 41001 (Modbus Address \n1000) as described in table below. \nAutomatic Slave ID \nfunctionality \nRegister Value \n(higher byte) \nRegister Value (lower byte) \nDescription \nDisabled \n0 (0x00 hex) \nSlave ID in range 1-247 (0x01-0xF7 hex) \nStatic Slave ID \nEnabled"
+  },
+  {
+    "chunk_id": 34,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "1000) as described in table below. \nAutomatic Slave ID \nfunctionality \nRegister Value \n(higher byte) \nRegister Value (lower byte) \nDescription \nDisabled \n0 (0x00 hex) \nSlave ID in range 1-247 (0x01-0xF7 hex) \nStatic Slave ID \nEnabled \n1 (0x01 hex) \nSlave ID in range 1-247 (0x01-0xF7 hex) \nSlave ID will be updated after first \nreadout of heat meter data."
+  },
+  {
+    "chunk_id": 35,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  16 of  25 \n6.2 Modbus registers \nModbus RTU Communication Module supports both types of Modbus registers: \n•\nHolding - read/write, register number (4####),\n•\nInput - read only, register number (3####).\nEach register is 16 bits (2 bytes) size and it has unique register address. The measurement data from the meter \nare stored by the module in both types of registers - holding registers and input registers. \nNOTE \nThere are two conventions to address registers in Modbus. Take care when accessing registers. Addressing \nmethod can depend on the application used. Some applications may use only long format (Modbus Register) \nand some may use short format (Modbus Address). \nTo get Modbus Address subtract offset 40001 (for holding registers) or 30001 (for input registers) \nfrom Modbus Register. \nFor example to get Modbus Address to read Volume value: 40011 (Modbus Register) - 40001 (offset \nfor holding registers) = 10 (Modbus Address) \n6.2.1 Measurement data registers \nDescription"
+  },
+  {
+    "chunk_id": 36,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "from Modbus Register. \nFor example to get Modbus Address to read Volume value: 40011 (Modbus Register) - 40001 (offset \nfor holding registers) = 10 (Modbus Address) \n6.2.1 Measurement data registers \nDescription \nModbus Register Modbus Register \nType \nModbus \nAddress \nData Value \nType \nRead only (RO) \nRead/write (R/W) \nEnergy1,2 \n30001 or 40001 \nInput or Holding \n0 \nInt32 \nRO \nEnergy (Unit factor)1 \n30003 or 40003 \nInput or Holding \n2 \nUInt16 \nRO \nEnergy (Unit name)2 \n30004 or 40004 \nInput or Holding \n3 \n8 char ASCII \nRO \nEnergy (Unit ID)2,3 \n30008 or 40008 \nInput or Holding \n7 \nUInt16 \nRO \nEnergy (Float)2 \n30009 or 40009 \nInput or Holding \n8 \nIEEE 754 \nRO \nVolume1,2 \n30011 or 40011 \nInput or Holding \n10 \nInt32 \nRO \nVolume (Unit factor) 1 \n30013 or 40013 \nInput or Holding \n12 \nUInt16 \nRO \nVolume (Unit name)2 \n30014 or 40014 \nInput or Holding \n13 \n8 char ASCII \nRO \nVolume (Unit ID)2,3 \n30018 or 40018 \nInput or Holding \n17 \nUInt16 \nRO \nVolume (Float)2 \n30019 or 40019 \nInput or Holding"
+  },
+  {
+    "chunk_id": 37,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "10 \nInt32 \nRO \nVolume (Unit factor) 1 \n30013 or 40013 \nInput or Holding \n12 \nUInt16 \nRO \nVolume (Unit name)2 \n30014 or 40014 \nInput or Holding \n13 \n8 char ASCII \nRO \nVolume (Unit ID)2,3 \n30018 or 40018 \nInput or Holding \n17 \nUInt16 \nRO \nVolume (Float)2 \n30019 or 40019 \nInput or Holding \n18 \nIEEE 754 \nRO \nPower1,2 \n30021 or 40021 \nInput or Holding \n20 \nInt32 \nRO \nPower (Unit factor)1 \n30023 or 40023 \nInput or Holding \n22 \nUInt16 \nRO \nPower (Unit name)2 \n30024 or 40024 \nInput or Holding \n23 \n8 char ASCII \nRO \nPower (Unit ID)2,3 \n30028 or 40028 \nInput or Holding \n27 \nUInt16 \nRO \nPower (Float)2 \n30029 or 40029 \nInput or Holding \n28 \nIEEE 754 \nRO \nFlow rate1,2 \n30031 or 40031 \nInput or Holding \n30 \nInt32 \nRO \nFlow rate (Unit factor)1 \n30033 or 40033 \nInput or Holding \n32 \nUInt16 \nRO \nFlow rate (Unit name)2 \n30034 or 40034 \nInput or Holding \n33 \n8 char ASCII \nRO \nFlow rate (Unit ID)2,3 \n30038 or 40038 \nInput or Holding \n37 \nUInt16 \nRO \nFlow rate (Float)2 \n30039 or 40039 \nInput or Holding"
+  },
+  {
+    "chunk_id": 38,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "30 \nInt32 \nRO \nFlow rate (Unit factor)1 \n30033 or 40033 \nInput or Holding \n32 \nUInt16 \nRO \nFlow rate (Unit name)2 \n30034 or 40034 \nInput or Holding \n33 \n8 char ASCII \nRO \nFlow rate (Unit ID)2,3 \n30038 or 40038 \nInput or Holding \n37 \nUInt16 \nRO \nFlow rate (Float)2 \n30039 or 40039 \nInput or Holding \n38 \nIEEE 754 \nRO \nForward temperature2,4 \n30041 or 40041 \nInput or Holding \n40 \nInt16 \nRO \nForward temperature (Unit name)2 \n30042 or 40042 \nInput or Holding \n41 \n8 char ASCII \nRO \nForward temperature (Unit ID)2,3 \n30046 or 40046 \nInput or Holding \n45 \nUInt16 \nRO \nForward temperature (Float)2 \n30047 or 40047 \nInput or Holding \n46 \nIEEE 754 \nRO"
+  },
+  {
+    "chunk_id": 39,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  17 of  25 \nDescription \nModbus Register Modbus Register \nType \nModbus \nAddress \nData Value \nType \nRead only (RO) \nRead/write (R/W) \nReturn temperature2,4 \n30049 or 40049 \nInput or Holding \n48 \nInt16 \nRO \nReturn temperature (Unit name)2 \n30050 or 40050 \nInput or Holding \n49 \n8 char ASCII \nRO \nReturn temperature (Unit ID)2,3 \n30054 or 40054 \nInput or Holding \n53 \nUInt16 \nRO \nReturn temperature (Float)2 \n30055 or 40055 \nInput or Holding \n54 \nIEEE 754 \nRO \nTemperature difference2,4 \n30057 or 40057 \nInput or Holding \n56 \nInt16 \nRO \nTemperature difference (Unit name)2 30058 or 40058 \nInput or Holding \n57 \n8 char ASCII \nRO \nTemperature difference (Unit ID)2,3 \n30062 or 40062 \nInput or Holding \n61 \nUInt16 \nRO \nTemperature difference (Float)2 \n30063 or 40063 \nInput or Holding \n62 \nIEEE 754 \nRO \nTariff Energy 11,2 \n30065 or 40065 \nInput or Holding \n64 \nInt32 \nRO \nTariff Energy 1 (Unit factor)1 \n30067 or 40067 \nInput or Holding \n66 \nUInt16 \nRO \nTariff Energy 1 (Unit name)2 \n30068 or 40068"
+  },
+  {
+    "chunk_id": 40,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "61 \nUInt16 \nRO \nTemperature difference (Float)2 \n30063 or 40063 \nInput or Holding \n62 \nIEEE 754 \nRO \nTariff Energy 11,2 \n30065 or 40065 \nInput or Holding \n64 \nInt32 \nRO \nTariff Energy 1 (Unit factor)1 \n30067 or 40067 \nInput or Holding \n66 \nUInt16 \nRO \nTariff Energy 1 (Unit name)2 \n30068 or 40068 \nInput or Holding \n67 \n8 char ASCII \nRO \nTariff Energy 1 (Unit ID)2,3 \n30072 or 40072 \nInput or Holding \n71 \nUInt16 \nRO \nTariff Energy 1 (Float)2 \n30073 or 40073 \nInput or Holding \n72 \nIEEE 754 \nRO \nTariff Volume 11,2 \n30075 or 40075 \nInput or Holding \n74 \nInt32 \nRO \nTariff Volume 1 (Unit factor)1 \n30077 or 40077 \nInput or Holding \n76 \nUInt16 \nRO \nTariff Volume 1 (Unit name)2 \n30078 or 40078 \nInput or Holding \n77 \n8 char ASCII \nRO \nTariff Volume 1 (Unit ID)2,3 \n30082 or 40082 \nInput or Holding \n81 \nUInt16 \nRO \nTariff Volume 1 (Float)2 \n30083 or 40083 \nInput or Holding \n82 \nIEEE 754 \nRO \nTariff Energy 21,2 \n30085 or 40085 \nInput or Holding \n84 \nInt32 \nRO \nTariff Energy 2 (Unit factor)1"
+  },
+  {
+    "chunk_id": 41,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "Input or Holding \n77 \n8 char ASCII \nRO \nTariff Volume 1 (Unit ID)2,3 \n30082 or 40082 \nInput or Holding \n81 \nUInt16 \nRO \nTariff Volume 1 (Float)2 \n30083 or 40083 \nInput or Holding \n82 \nIEEE 754 \nRO \nTariff Energy 21,2 \n30085 or 40085 \nInput or Holding \n84 \nInt32 \nRO \nTariff Energy 2 (Unit factor)1 \n30087 or 40087 \nInput or Holding \n86 \nUInt16 \nRO \nTariff Energy 2 (Unit name)2 \n30088 or 40088 \nInput or Holding \n87 \n8 char ASCII \nRO \nTariff Energy 2 (Unit ID)2,3 \n30092 or 40092 \nInput or Holding \n91 \nUInt16 \nRO \nTariff Energy 2 (Float)2 \n30093 or 40093 \nInput or Holding \n92 \nIEEE 754 \nRO \nTariff Volume 21,2 \n30095 or 40095 \nInput or Holding \n94 \nInt32 \nRO \nTariff Volume 2 (Unit factor)1 \n30097 or 40097 \nInput or Holding \n96 \nUInt16 \nRO \nTariff Volume 2 (Unit name)2 \n30098 or 40098 \nInput or Holding \n97 \n8 char ASCII \nRO \nTariff Volume 2 (Unit ID)2,3 \n30102 or 40102 \nInput or Holding \n101 \nUInt16 \nRO \nTariff Volume 2 (Float)2 \n30103 or 40103 \nInput or Holding \n102 \nIEEE 754 \nRO"
+  },
+  {
+    "chunk_id": 42,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "30097 or 40097 \nInput or Holding \n96 \nUInt16 \nRO \nTariff Volume 2 (Unit name)2 \n30098 or 40098 \nInput or Holding \n97 \n8 char ASCII \nRO \nTariff Volume 2 (Unit ID)2,3 \n30102 or 40102 \nInput or Holding \n101 \nUInt16 \nRO \nTariff Volume 2 (Float)2 \n30103 or 40103 \nInput or Holding \n102 \nIEEE 754 \nRO \nTariff Energy 31,2 \n30105 or 40105 \nInput or Holding \n104 \nInt32 \nRO \nTariff Energy 3 (Unit factor)1 \n30107 or 40107 \nInput or Holding \n106 \nUInt16 \nRO \nTariff Energy 3 (Unit name)2 \n30108 or 40108 \nInput or Holding \n107 \n8 char ASCII \nRO \nTariff Energy 3 (Unit ID)2,3 \n30112 or 40112 \nInput or Holding \n111 \nUInt16 \nRO \nTariff Energy 3 (Float)2 \n30113 or 40113 \nInput or Holding \n112 \nIEEE 754 \nRO \nTariff Volume 31,2 \n30115 or 40115 \nInput or Holding \n114 \nInt32 \nRO \nTariff Volume 3 (Unit factor)1 \n30117 or 40117 \nInput or Holding \n116 \nUInt16 \nRO \nTariff Volume 3 (Unit name)2 \n30118 or 40118 \nInput or Holding \n117 \n8 char ASCII \nRO \nTariff Volume 3 (Unit ID)2,3 \n30122 or 40122 \nInput or Holding"
+  },
+  {
+    "chunk_id": 43,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "30115 or 40115 \nInput or Holding \n114 \nInt32 \nRO \nTariff Volume 3 (Unit factor)1 \n30117 or 40117 \nInput or Holding \n116 \nUInt16 \nRO \nTariff Volume 3 (Unit name)2 \n30118 or 40118 \nInput or Holding \n117 \n8 char ASCII \nRO \nTariff Volume 3 (Unit ID)2,3 \n30122 or 40122 \nInput or Holding \n121 \nUInt16 \nRO \nTariff Volume 3 (Float)2 \n30123 or 40123 \nInput or Holding \n122 \nIEEE 754 \nRO \nTariff Energy 41,2 \n30125 or 40125 \nInput or Holding \n124 \nInt32 \nRO \nTariff Energy 4 (Unit factor)1 \n30127 or 40127 \nInput or Holding \n126 \nUInt16 \nRO \nTariff Energy 4 (Unit name)2 \n30128 or 40128 \nInput or Holding \n127 \n8 char ASCII \nRO \nTariff Energy 4 (Unit ID)2,3 \n30132 or 40132 \nInput or Holding \n131 \nUInt16 \nRO \nTariff Energy 4 (Float)2 \n30133 or 40133 \nInput or Holding \n132 \nIEEE 754 \nRO \nTariff Volume 41,2 \n30135 or 40135 \nInput or Holding \n134 \nInt32 \nRO"
+  },
+  {
+    "chunk_id": 44,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  18 of  25 \nDescription \nModbus Register Modbus Register \nType \nModbus \nAddress \nData Value \nType \nRead only (RO) \nRead/write (R/W) \nTariff Volume 4 (Unit factor)1 \n30137 or 40137 \nInput or Holding \n136 \nUInt16 \nRO \nTariff Volume 4 (Unit name)2 \n30138 or 40138 \nInput or Holding \n137 \n8 char ASCII \nRO \nTariff Volume 4 (Unit ID)2,3 \n30142 or 40142 \nInput or Holding \n141 \nUInt16 \nRO \nTariff Volume 4 (Float)2 \n30143 or 40143 \nInput or Holding \n142 \nIEEE 754 \nRO \nPulse Input Volume 11,2 \n30145 or 40145 \nInput or Holding \n144 \nInt32 \nRO \nPulse Input Volume 1 (Unit factor)1 \n30147 or 40147 \nInput or Holding \n146 \nUInt16 \nRO \nPulse Input Volume 1 (Unit name)2 \n30148 or 40148 \nInput or Holding \n147 \n8 char ASCII \nRO \nPulse Input Volume 1 (Unit ID)2,3 \n30152 or 40152 \nInput or Holding \n151 \nUInt16 \nRO \nPulse Input Volume 1 (Float)2 \n30153 or 40153 \nInput or Holding \n152 \nIEEE 754 \nRO \nPulse Input Volume 21,2 \n30155 or 40155 \nInput or Holding \n154 \nInt32 \nRO"
+  },
+  {
+    "chunk_id": 45,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "Input or Holding \n147 \n8 char ASCII \nRO \nPulse Input Volume 1 (Unit ID)2,3 \n30152 or 40152 \nInput or Holding \n151 \nUInt16 \nRO \nPulse Input Volume 1 (Float)2 \n30153 or 40153 \nInput or Holding \n152 \nIEEE 754 \nRO \nPulse Input Volume 21,2 \n30155 or 40155 \nInput or Holding \n154 \nInt32 \nRO \nPulse Input Volume 2 (Unit factor)1 \n30157 or 40157 \nInput or Holding \n156 \nUInt16 \nRO \nPulse Input Volume 2 (Unit name)2 \n30158 or 40158 \nInput or Holding \n157 \n8 char ASCII \nRO \nPulse Input Volume 2 (Unit ID)2,3 \n30162 or 40162 \nInput or Holding \n161 \nUInt16 \nRO \nPulse Input Volume 2 (Float)1 \n30163 or 40163 \nInput or Holding \n162 \nIEEE 754 \nRO \nError Code5 \n30165 or 40165 \nInput or Holding \n164 \nHex \nRO \nHeat Meter Serial Number (Fixed) \n30166 or 40166 \nInput or Holding \n165 \nUInt32 \nRO \nHeat Meter Serial Number (ASCII) \n30168 or 40168 \nInput or Holding \n167 \n8 char ASCII \nRO \nPeriodical Log 0 Date – Day \n30172 or 40172 \nInput or Holding \n171 \nUInt16 \nRO \nPeriodical Log 0 Date – Month \n30173 or 40173"
+  },
+  {
+    "chunk_id": 46,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "30166 or 40166 \nInput or Holding \n165 \nUInt32 \nRO \nHeat Meter Serial Number (ASCII) \n30168 or 40168 \nInput or Holding \n167 \n8 char ASCII \nRO \nPeriodical Log 0 Date – Day \n30172 or 40172 \nInput or Holding \n171 \nUInt16 \nRO \nPeriodical Log 0 Date – Month \n30173 or 40173 \nInput or Holding \n172 \nUInt16 \nRO \nPeriodical Log 0 Date – Year \n30174 or 40174 \nInput or Holding \n173 \nUInt16 \nRO \nPeriodical Log 0 Energy1,2 \n30175 or 40175 \nInput or Holding \n174 \nInt32 \nRO \nPeriodical Log 0 Energy (Unit factor)1 30177 or 40177 \nInput or Holding \n176 \nUInt16 \nRO \nPeriodical Log 0 Energy (Unit name)2 \n30178 or 40178 \nInput or Holding \n177 \n8 char ASCII \nRO \nPeriodical Log 0 Energy (Unit ID)2,3 \n30182 or 40182 \nInput or Holding \n181 \nUInt16 \nRO \nPeriodical Log 0 Energy (Float)2 \n30183 or 40183 \nInput or Holding \n182 \nIEEE 754 \nRO \nPeriodical Log 0 Volume1,2 \n30185 or 40185 \nInput or Holding \n184 \nInt32 \nRO \nPeriodical Log 0 Volume (Unit factor) 30187 or 40187 \nInput or Holding \n186 \nUInt16 \nRO"
+  },
+  {
+    "chunk_id": 47,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "Input or Holding \n181 \nUInt16 \nRO \nPeriodical Log 0 Energy (Float)2 \n30183 or 40183 \nInput or Holding \n182 \nIEEE 754 \nRO \nPeriodical Log 0 Volume1,2 \n30185 or 40185 \nInput or Holding \n184 \nInt32 \nRO \nPeriodical Log 0 Volume (Unit factor) 30187 or 40187 \nInput or Holding \n186 \nUInt16 \nRO \nPeriodical Log 0 Volume (Unit name)2 30188 or 40188 \nInput or Holding \n187 \n8 char ASCII \nRO \nPeriodical Log 0 Volume (Unit ID)2,3 \n30192 or 40192 \nInput or Holding \n191 \nUInt16 \nRO \nPeriodical Log 0 Volume (Float)2 \n30193 or 40193 \nInput or Holding \n192 \nIEEE 754 \nRO \n1 Value in integer format for the same group of registers (e.g. Energy) have to be multiplied by Unit factor to get \nthe valid output value. Float value should not be multiplied by Unit factor. \n2 Unit of value is in appropriate Unit name/Unit ID registers. \n3 Available values for Unit ID registers are listed in 6.3 Unit ID lookup table."
+  },
+  {
+    "chunk_id": 48,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "the valid output value. Float value should not be multiplied by Unit factor. \n2 Unit of value is in appropriate Unit name/Unit ID registers. \n3 Available values for Unit ID registers are listed in 6.3 Unit ID lookup table. \n4 This register contains temperature with accuracy to one decimal place. To get value in degrees, content of \nthis register must be multiplied by 0,1. \n5 Available values are listed in 6.6 Error codes."
+  },
+  {
+    "chunk_id": 49,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  19 of  25 \n6.2.2 Configuration registers \nDescription \nModbus \nRegister \nModbus \nRegister Type \nModbus \nAddress \nData \nValue \nType \nDefault \nValue \nPossible Values \nRead only (RO) \nRead/Write (R/W) \nModbus Slave ID1,2 41001 \nHolding \n1000 \nUInt16 \n0x0101 \n0xHHLL  \nwhere HH = 0x01 \nor 0x00 LL = 0x01 - 0xF7 \nR/W \nUpdate rate3,4 \n41002 \nHolding \n1001 \nUInt16 \n150 \n0 - 65535 \nR/W \nBaud rate \n41003 \nHolding \n1002 \nUInt32 \n9600 \n1200, 2400, 4800, 9600, \n14400, 19200, 38400, \n56000, 57600, 115200 \nR/W \nData bits \n41005 \nHolding \n1004 \nUInt16 \n8 \n8 \nR/W \nParity5 \n41006 \nHolding \n1005 \n1 char \nASCII \n78 ('N') \n110 ('n'), 111 ('o'), \n101  ('e'), 78 ('N'), 79 \n('O'), 69 ('E') \nR/W \nStop bits \n41007 \nHolding \n1006 \nUInt16 \n1 \n1, 2 \nR/W \nEnable Periodical \nLog 0 data6 \n41008 \nHolding \n1007 \nUint16 \n0 \n0, 1 \nR/W \n1 Lower byte of this register (LL) is Slave ID of the module in the range 1-247 (0x01-0xF7 hex)."
+  },
+  {
+    "chunk_id": 50,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "110 ('n'), 111 ('o'), \n101  ('e'), 78 ('N'), 79 \n('O'), 69 ('E') \nR/W \nStop bits \n41007 \nHolding \n1006 \nUInt16 \n1 \n1, 2 \nR/W \nEnable Periodical \nLog 0 data6 \n41008 \nHolding \n1007 \nUint16 \n0 \n0, 1 \nR/W \n1 Lower byte of this register (LL) is Slave ID of the module in the range 1-247 (0x01-0xF7 hex). \n2 If the higher byte (HH) is set to 1, the Slave ID will be updated to the heat meter serial number. If the higher byte is \nset to 0, the Slave ID is static. For more information see 6.1.1 Automatic Slave ID. \n3 By default Update rate is 15 seconds. When Update rate is set to 0, the module does not read data from heat meter. \n4 This register contains time value with accuracy to one decimal place. That is why Modbus Register value 150 means \n15,0 seconds. \n5 This register is set by the ASCII char value – 'E' for Even parity (69 dec, 0x45 hex), 'O' for Odd parity (79 dec, 0x4F hex) \nand 'N' for None parity (78 dec, 0x4E hex) \n6 For more information see 6.5 Periodical Log 0 functionality."
+  },
+  {
+    "chunk_id": 51,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "15,0 seconds. \n5 This register is set by the ASCII char value – 'E' for Even parity (69 dec, 0x45 hex), 'O' for Odd parity (79 dec, 0x4F hex) \nand 'N' for None parity (78 dec, 0x4E hex) \n6 For more information see 6.5 Periodical Log 0 functionality. \n6.2.3 Information Registers \nDescription \nModbus \nRegister \nModbus Register \nType \nModbus \nAddress \nData Value \nType \nRead only (RO)  \nRead/write (R/W) \nModule Serial Number \n32001 \nInput \n2000 \nUInt32 \nRO \nModule Model Number \n32003 \nInput \n2002 \nUInt32 \nRO \nModule Firmware Version1 \n32005 \nInput \n2004 \nUInt16 \nRO \n1 Higher byte of the register is major number of firmware version (0x##00 hex). Lower byte of the register is minor \nnumber of firmware version (0x00## hex)."
+  },
+  {
+    "chunk_id": 52,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  20 of  25 \n6.3 Unit ID lookup table \nEach group of measuring data registers contain information about units. This information is stored in two \nregisters: \n•\nUnit name - unit in human-readable ASCII format,\n•\nUnit ID - unit identification number.\nAll available Unit ID numbers with their appropriate names are collected in table below. \nUnit ID \nUnit name \nUnit ID \nUnit name \nUnit ID \nUnit name \nUnit ID \nUnit name \nUnit ID \nUnit name \n0 \nNone \n10 \ncal \n20 \nm3 \n30 \nkGal/min \n40 \nGBtu/h \n1 \nmWh \n11 \nkcal \n21 \nmGal \n31 \nMGal/min \n41 \n°C \n2 \nWh \n12 \nMcal \n22 \nGal \n32 \nmW \n42 \n°F \n3 \nkWh \n13 \nGcal \n23 \nkGal \n33 \nW \n4 \nMWh \n14 \nBtu \n24 \nMGal \n34 \nkW \n5 \nGWh \n15 \nkBtu \n25 \nml/h \n35 \nMW \n6 \nJ \n16 \nMBtu \n26 \nl/h \n36 \nGW \n7 \nkJ \n17 \nGBtu \n27 \nm3/h \n37 \nBtu/h \n8 \nMJ \n18 \nml \n28 \nmGal/min \n38 \nkBtu/h \n9 \nGJ \n19 \nl \n29 \nGal/min \n39 \nMBtu/h \n6.4 Calculation examples \nThis example presents how to read and interpret measurement data in Modbus registers of the module, based"
+  },
+  {
+    "chunk_id": 53,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "ml/h \n35 \nMW \n6 \nJ \n16 \nMBtu \n26 \nl/h \n36 \nGW \n7 \nkJ \n17 \nGBtu \n27 \nm3/h \n37 \nBtu/h \n8 \nMJ \n18 \nml \n28 \nmGal/min \n38 \nkBtu/h \n9 \nGJ \n19 \nl \n29 \nGal/min \n39 \nMBtu/h \n6.4 Calculation examples \nThis example presents how to read and interpret measurement data in Modbus registers of the module, based \non Energy value. Energy measurements data read from the meter by the module is stored in 10 (ten) Modbus \nregisters available from Modbus Register 30001 or 40001 (Modbus Address 0). In this example the module \nis installed in the meter with serial number 51241026, and Automatic Slave ID functionality is enabled, \nso module Slave ID is 26 (0x1A) – see 6.1.1 Automatic Slave ID. \nFor request of Modbus master to the module with Slave ID 26 as follow: \nSlave \nID \nFunction \nCode \nModbus Address of first register in group \nSize of Modbus register group \nCRC \n0x1A \n0x04 \n0x0000 \n0x000A \n0x73E6 \nThe module responds data as follow: \nSlave \nID \nFunction \nCode \nNumber of \ndata bytes \nto follow"
+  },
+  {
+    "chunk_id": 54,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "Slave \nID \nFunction \nCode \nModbus Address of first register in group \nSize of Modbus register group \nCRC \n0x1A \n0x04 \n0x0000 \n0x000A \n0x73E6 \nThe module responds data as follow: \nSlave \nID \nFunction \nCode \nNumber of \ndata bytes \nto follow \nRaw data read form the module \nCRC \n0x1A \n0x04 \n0x14 \n0x0000 0x3039 0x0001 0x4D4A 0x0000 0x0000 0x0000 0x0008 0x4640 0xE400 0x7246"
+  },
+  {
+    "chunk_id": 55,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  21 of  25 \nRaw data in hexadecimal format (hex) received from the module are collected in table below. \nValue on meter display \nModbus \nRegister \n(Modbus \nAddress) \nRegister \nvalue in \nhex \nModbus \nRegister \n(Modbus \nAddress) of \ndata \nData \nValue \nType \nData value in hex \nData \nvalue \n30001 or \n40001 (0) \n0x0000 \nEnergy - \n30001 or \n40001 (0) \nInt32 \n0x00003039 \n12345 \n30002 or \n40002 (1) \n0x3039 \n30003 or \n40003 (2) \n0x0001 \nEnergy (Unit \nfactor) - \n30003 or \n40003 (2) \nUInt16 0x0001 \n1 \n30004 or \n40004 (3) \n0x4D4A Energy (Unit \nname) - \n30004 or \n40004 (3) \n8 char \nASCII \n0x4D4A000000000000 MJ \n30005 or \n40005 (4) \n0x0000 \n30006 or \n40006 (5) \n0x0000 \n30007 or \n40007 (6) \n0x0000 \n30008 or \n40008 (7) \n0x0008 \nEnergy (Unit \nID) - 30008 \nor 40008 (7) \nUInt16 0x0008 \n8 \n30009 or \n40009 (8) \n0x4640 \nEnergy \n(Float) - \n30009 or \n40009 (8) \nIEEE \n754 \n0x4640E400 \n12345,000 \n30010 or \n40010 (9) \n0xE400"
+  },
+  {
+    "chunk_id": 56,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "40005 (4) \n0x0000 \n30006 or \n40006 (5) \n0x0000 \n30007 or \n40007 (6) \n0x0000 \n30008 or \n40008 (7) \n0x0008 \nEnergy (Unit \nID) - 30008 \nor 40008 (7) \nUInt16 0x0008 \n8 \n30009 or \n40009 (8) \n0x4640 \nEnergy \n(Float) - \n30009 or \n40009 (8) \nIEEE \n754 \n0x4640E400 \n12345,000 \n30010 or \n40010 (9) \n0xE400 \nTo read energy value in fixed-point data format, following calculation must be done: \nEnergy Value = Energy register * Unit factor register [Unit name register] \nEnergy Value = 12345 * 1 MJ = 12345 MJ = 12,345 GJ \nEnergy value in floating-point data format can be read directly. \nEnergy Float Value = 12345 MJ = 12,345 GJ \nUnit name is presented in human-readable ASCII format or it can be obtained through Unit ID lookup table. \nIn this example Unit ID register indicate value 8, that means value unit is MJ. \nNOTE \nPay attention when using floating-point type values according to IEEE 754. Floating-point values"
+  },
+  {
+    "chunk_id": 57,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "Unit name is presented in human-readable ASCII format or it can be obtained through Unit ID lookup table. \nIn this example Unit ID register indicate value 8, that means value unit is MJ. \nNOTE \nPay attention when using floating-point type values according to IEEE 754. Floating-point values \nare calculated by the module based on fixed-point values data from the meter. When using floating-point \nvalues, precision can be lost and value presented in Modbus register may not be equal to value on meter \ndisplay. It is recommended to use fixed-point value (Int32 and UInt16) Modbus registers to read always \nproper data. The floating-point values are introduced in the module just for convenience, when additional \ncalculations cannot be done by Modbus master application."
+  },
+  {
+    "chunk_id": 58,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  22 of  25 \n6.5 Periodical Log 0 functionality \nModbus RTU Communication Module has functionality to read Periodical Log 0 data from the meter and update \nappropriate Modbus registers with Energy, Volume and Date values (Modbus Addresses 171-192). \nNOTE \nPeriodical Log 0 functionality is disabled in Modbus RTU Communication Module by default. \nTo enable this option write 1 to Modbus Register 41008 (Modbus Address 1007). This functionality allows reading \nonly one data block (data block 0) from periodical log memory in the meter. Allowed values for Enable Periodical \nLog 0 register are listed in table below. \nPeriodical Log 0 \nfunctionality \nEnable Periodical Log 0 \ndata register value \nDescription \nDisabled \n0 (0x00 hex) \nPeriodical Log 0 registers contain not valid values. \nEnabled \n1 (0x01 hex) \nModbus registers from addresses 171 to 192 contain values read \nfrom Periodical Log 0 data block."
+  },
+  {
+    "chunk_id": 59,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "Periodical Log 0 \nfunctionality \nEnable Periodical Log 0 \ndata register value \nDescription \nDisabled \n0 (0x00 hex) \nPeriodical Log 0 registers contain not valid values. \nEnabled \n1 (0x01 hex) \nModbus registers from addresses 171 to 192 contain values read \nfrom Periodical Log 0 data block. \nPlease note that enabling this option may change default readout from the meter by M-Bus protocol. By default, \nthe module reads data from the meter without defining the response (selecting Application Reset-Subcode) – \ndefault telegram is sent to the meter (if not special telegram content is agreed). \nAfter enabling Periodical Log 0 functionality the module reads data from the meter with responses \nfrom Application Reset-Subcodes: 0x00 (All) and 0x40 (Multi tariff billing). \nDisabling Periodical Log 0 functionality results in data readout with Application Reset-Subcode 0x00 (All) without \nreturning to default telegram."
+  },
+  {
+    "chunk_id": 60,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  23 of  25 \n6.6 Error codes \nIn Modbus RTU Communication Module error codes are stored in Modbus Register 30165 or 40165 (Modbus Address \n164). This register contains information about communication state between the module and the meter \nand presents errors read directly from the meter. \nDescription \nHeat Meter \nError \nError Code value in 30165 or 40165 \nModbus Register \nPriority \nNo error \n- \n0x00 00 \n- \nNo data update from heat mater \n- \n0x01 00 \n1 \nBasic parameter error in flash or RAM \nC-1\n0x00 08 \n2 \nDefective primary voltage (only if mains unit used) \n> Supply from backup battery\nE-8\n0x00 04 \n3 \nHardware error of US measurement \n> Transducer defective or short-circuit\nE-4\n0x00 28 \n4 \nTemperature range exceeds [-9.9°C - 190°C] \n> Sensor short-circuit or sensor break\nE-1\n0x00 50 \n5 \nNo meaningful ultrasonic receive signal \n> Air in the measuring path\nE-7\n0x00 70 \n6 \nBattery almost flat \nE-9\n0x00 84 \n7 \nForward and return sensor reversed \nE-3\n0x00 B0 \n8"
+  },
+  {
+    "chunk_id": 61,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "E-4\n0x00 28 \n4 \nTemperature range exceeds [-9.9°C - 190°C] \n> Sensor short-circuit or sensor break\nE-1\n0x00 50 \n5 \nNo meaningful ultrasonic receive signal \n> Air in the measuring path\nE-7\n0x00 70 \n6 \nBattery almost flat \nE-9\n0x00 84 \n7 \nForward and return sensor reversed \nE-3\n0x00 B0 \n8 \nWrong direction of flow in volume measuring component \n> Flow rate = 0\nE-6\n0x00 D0 \n9 \nLeakage detected \nLeak error \n0x00 F0 \n10 \nCommunication not possible (to frequent data update \nrate from heat mater)  \n> Set higher value in 41002 Modbus Register\nE-5\n0x00 10 \n11 \nNOTE \nOnly one error is shown at the time by priority."
+  },
+  {
+    "chunk_id": 62,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  24 of  25\n \n7 Restore to default settings \nTo restore Modbus RTU Communication Module to default settings, press Status Button for at least 15 seconds. \nRestore is confirmed by blinking of Status LED (see Picture 7.1). All configuration registers are restored to \ndefault value (see 6.2.2 Configuration registers). \nPicture 7.1 - Process of restoring to default settings \nDefault settings restore function is useful when currently configured communication settings of the module \nare unknown. \nNOTE \nIf Modbus RTU Communication Module is connected to the meter during default settings restore, its Modbus \nSlave ID will be automatically updated based on meter serial number (see 6.1.1 Automatic Slave ID)."
+  },
+  {
+    "chunk_id": 63,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "page  25 of  25 \n8 Troubleshooting guide \nWhen it seems like that Modbus RTU Communication Module doesn't operate correctly please refer to following \ntable. \nProblem symptom Possible cause \nAction to fix the problem \nDevice does not \nrespond to Modbus \nrequests \nModule is not \npowered correctly \nCheck power supply connection (see 3 Technical parameters and 5.2.1 Power \nsupply cable). \nIncorrect EIA-485 \nwiring \nCheck proper EIA-485 connection (see 5.3 EIA-485 network channel wiring). \nIncorrect Modbus \ncommunication \nparameters \nCheck communication parameters - Slave ID, baud rate, number of bits parity \nand number of stop bits. \nIf current communication settings of the module are unknown restore \nthe module to default settings (see 7 Restore to default settings). \nIncorrect Modbus \naddressing \nMake sure that Slave ID is unique to every device on the network \n(see 6.1 Device addressing). \nMake sure that there is only one Modbus master on the network."
+  },
+  {
+    "chunk_id": 64,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "the module to default settings (see 7 Restore to default settings). \nIncorrect Modbus \naddressing \nMake sure that Slave ID is unique to every device on the network \n(see 6.1 Device addressing). \nMake sure that there is only one Modbus master on the network. \nIf current Slave ID of the module is unknown restore the module to default \nsettings (see 7 Restore to default settings). \nUnable to read \nvalues from meter \nModule ribbon \nconnection with \nmeter is broken  \nCheck module ribbon connector (see 5.1 Placing in meter). \nIf module ribbon connector is broken replace it with new one. \nUpdate rate register \nis set to 0 \nCheck Update rate register value. If it is set to 0, change it. \nMeter display shows \nerror code E-5. \nThis problem exist only when meter is powered from battery. Make sure \nthat update rate interval is greater than 3 minutes (for more information \nrefer to Installation and User Guide for SHARKY 775 or SCYLAR INT 8 meters). \nUnable to close \nmeter housing"
+  },
+  {
+    "chunk_id": 65,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\7500f_man_3.pdf",
+    "content": "Meter display shows \nerror code E-5. \nThis problem exist only when meter is powered from battery. Make sure \nthat update rate interval is greater than 3 minutes (for more information \nrefer to Installation and User Guide for SHARKY 775 or SCYLAR INT 8 meters). \nUnable to close \nmeter housing \nModule is installed \nimproperly  \nReinstall module in meter extension slot (see 5.1 Placing in meter). \nImproper wires \nleading \nCheck if there is enough space inside housing to placing module and wires. \nStatus LED lights \non constantly \nApplication fault \nContact supplier for more information. \n9 Firmware change list \nFirmware version \nDescription \n1.0 \nInitial version"
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n1 \n \n \n \n \n \n \n \nOptidrive Applications Support Library \nApplication Note AN-ODE-3-038 \nTitle \nModbus RTU Control and Register Mapping \nRelated Products Optidrive E3 \nLevel \n3 \n1 – Fundamental - No previous experience necessary \n2 – Basic – Some Basic drives knowledge recommended \n3 – Advanced – Some Basic drives knowledge required \n4 – Expert – Good experience in topic of subject matter recommended \nOverview \nOptidrive E3 drives support Modbus RTU communication, allowing a network of drives to be controlled and monitored by any \nModbus RTU capable PLC or control system. The Optidrive is always a Slave to an external Modbus RTU Master. This document \ndescribes the registers and functions available. \nModbus RTU Protocol Specification \nProtocol \nModbus RTU \nError check \nCRC \nBaud rate \n9600bps, 19200bps, 38400bps, 57600bps, 115200bps (default) \nData format"
+  },
+  {
+    "chunk_id": 1,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "describes the registers and functions available. \nModbus RTU Protocol Specification \nProtocol \nModbus RTU \nError check \nCRC \nBaud rate \n9600bps, 19200bps, 38400bps, 57600bps, 115200bps (default) \nData format \n1 start bit, 8 data bits, 1 stop bits, no parity. \nPhysical signal \nRS 485 (2-wire) \nUser interface \nRJ45 \nModbus Telegram Structure \nThe following Modbus RTU Commands are supported \n \n03 Read Holding Registers \n \n06 Write Single Holding Register \n The telegram structure is as follows:- \nCommand 03 – Read Holding Registers \n \nCommand 06 – Write Single Holding Register \nMaster Telegram \nLength \n \nSlave Response \nLength \n \nMaster Telegram \nLength \n \nSlave Response \nLength \nSlave Address \n1 \nByte \n \nSlave Address \n1 \nByte \n \nSlave Address \n1 \nByte \n \nSlave Address \n1 \nByte \nFunction Code (03) \n1 \nByte \n \nFunction Code (03) \n1 \nByte \n \nFunction Code (06) \n1 \nByte \n \nFunction Code (06) \n1 \nByte \n1st Register Address \n2 \nBytes \n \nData Length \n1 \nByte \n \nRegister Address \n2 \nBytes"
+  },
+  {
+    "chunk_id": 2,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "1 \nByte \n \nSlave Address \n1 \nByte \n \nSlave Address \n1 \nByte \n \nSlave Address \n1 \nByte \nFunction Code (03) \n1 \nByte \n \nFunction Code (03) \n1 \nByte \n \nFunction Code (06) \n1 \nByte \n \nFunction Code (06) \n1 \nByte \n1st Register Address \n2 \nBytes \n \nData Length \n1 \nByte \n \nRegister Address \n2 \nBytes \n \nRegister Address \n2 \nBytes \nNo. Of Registers \n2 \nBytes \n \n1st Register Value \n2 \nBytes \n \nValue \n2 \nBytes \n \nRegister Value \n2 \nBytes \nCRC Checksum \n2 \nBytes \n \n2nd Register Value \n2 \nBytes \n \nCRC Checksum \n2 \nBytes \n \nCRC Checksum \n2 \nBytes \n \n \n \n \nEtc... \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nCRC Checksum \n2 \nBytes"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n2 \n \nRJ45 Data Connection Pin Configuration \n \nCAN- \nCAN+ \n0 Volt \nOptibus / Remote Keypad / PC Connection - \nOptibus / Remote Keypad / PC Connection + \n+24 Volt Remote Keypad Power Supply \nRS 485- Modbus RTU \nRS 485+ Modbus RTU \nData Format is Fixed at: \n \n1 start bit, 8 data bits \n1 Stop bit, No parity \n \nBaud rate and address set in P-36 \nModbus RTU Register Map \nTable 1: Control and status registers \nNote : All registers are Holding Registers \nRegister \nNumber \nParameter \nNumber \nUpper byte \nLower Byte \nFormat \nMin \nMax \nCommand \nType \nScaling \n1 \n- \nControl Word \nWORD \n- \n- \n03,06 \nR/W \nSee Below \n2 \n- \nFrequency Setpoint \nS16 \n-5000 \n5000 \n03,06 \nR/W \n1dp, e.g. 100 = 10.0Hz \n3 \n- \nReserved \n- \n- \n- \n03,06 \nR/W \nNo function \n4 \n- \nModbus ramp control time \nU16 \n0 \n60000 \n03,06 \nR/W \n2dp, e.g. 500 = 5.00s \n5 \n- \nHigh Resolution Frequency Setpoint \nS16 \n-30000 \n30000 \n03 \nR"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "R/W \nSee Below \n2 \n- \nFrequency Setpoint \nS16 \n-5000 \n5000 \n03,06 \nR/W \n1dp, e.g. 100 = 10.0Hz \n3 \n- \nReserved \n- \n- \n- \n03,06 \nR/W \nNo function \n4 \n- \nModbus ramp control time \nU16 \n0 \n60000 \n03,06 \nR/W \n2dp, e.g. 500 = 5.00s \n5 \n- \nHigh Resolution Frequency Setpoint \nS16 \n-30000 \n30000 \n03 \nR \nSee Below \n6 \n- \nError code \nDrive status \nWORD \n- \n- \n03 \nR \nSee Below \n7 \n- \nOutput Frequency \nS16 \n0 \n5000 \n03 \nR \n1dp, e.g. 100 = 10.0Hz \n8 \n- \nMotor Current \nU16 \n0 \n- \n03 \nR \n1dp, e.g. 100 = 10.0A \n9 \n- \nMotor Torque \nS16 \n0 \n2000 \n03 \nR \n1dp, e.g. 100 = 10.0% \n10 \n- \nMotor Power \nU16 \n0 \n- \n03 \nR \n2dp, e.g. 100 = 1.00kW \n11 \nP00-04 \nDigital Input Status \nWORD \n- \n- \n03 \nR \nSee Below \n12 \nP00-20 \nRating ID \nU16 \n- \n- \n03 \nR \nInternal Value \n13 \nP00-20 \nPower rating \nU16 \n- \n- \n03 \nR \n2dp, e.g. 37 = 0.37kW / HP \n14 \nP00-20 \nVoltage rating \nU16 \n- \n- \n03 \nR \nSee Below \n15 \nP00-18 \nIO processor software version \nU16 \n- \n- \n03 \nR \n2dp, e.g. 300 = 3.00 \n16 \nP00-18"
+  },
+  {
+    "chunk_id": 5,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "03 \nR \nSee Below \n12 \nP00-20 \nRating ID \nU16 \n- \n- \n03 \nR \nInternal Value \n13 \nP00-20 \nPower rating \nU16 \n- \n- \n03 \nR \n2dp, e.g. 37 = 0.37kW / HP \n14 \nP00-20 \nVoltage rating \nU16 \n- \n- \n03 \nR \nSee Below \n15 \nP00-18 \nIO processor software version \nU16 \n- \n- \n03 \nR \n2dp, e.g. 300 = 3.00 \n16 \nP00-18 \nMotor control processor software version \nU16 \n- \n- \n03 \nR \n2dp, e.g. 300 = 3.00 \n17 \nP00-20 \nDrive type \nU16 \n- \n- \n03 \nR \nInternal Value \n18 \nP00-48 \nScope Channel 1 Data \nS16 \n- \n- \n03 \nR \nSee Below \n19 \nP00-48 \nScope Channel 2 Data \nS16 \n- \n- \n03 \nR \nSee Below \n20 \nP00-01 \nAnalog 1 input result \nU16 \n0 \n1000 \n03 \nR \n1dp, e.g. 500 = 50.0% \n21 \nP00-02 \nAnalog 2 input result \nU16 \n0 \n1000 \n03 \nR \n1dp, e.g. 500 = 50.0% \n22 \nP00-03 \nPre Ramp Speed Reference Value \nS16 \n0 \n5000 \n03 \nR \n1dp, e.g. 500 = 50.0Hz \n23 \nP00-08 \nDC Bus Voltage \nU16 \n0 \n1000 \n03 \nR \n600 = 600 Volts \n24 \nP00-09 \nDrive Power Stage Temperature \nS16 \n-10 \n150 \n03 \nR \n50 = 50°C \n25 \nP00-30 \nDrive Serial Number 4 \nU16 \n- \n-"
+  },
+  {
+    "chunk_id": 6,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "1dp, e.g. 500 = 50.0% \n22 \nP00-03 \nPre Ramp Speed Reference Value \nS16 \n0 \n5000 \n03 \nR \n1dp, e.g. 500 = 50.0Hz \n23 \nP00-08 \nDC Bus Voltage \nU16 \n0 \n1000 \n03 \nR \n600 = 600 Volts \n24 \nP00-09 \nDrive Power Stage Temperature \nS16 \n-10 \n150 \n03 \nR \n50 = 50°C \n25 \nP00-30 \nDrive Serial Number 4 \nU16 \n- \n- \n03 \nR \nSee Below \n26 \nP00-30 \nDrive Serial Number 3 \nU16 \n- \n- \n03 \nR \n27 \nP00-30 \nDrive Serial Number 2 \nU16 \n- \n- \n03 \nR \n28 \nP00-30 \nDrive Serial Number 1 \nU16 \n- \n- \n03 \nR \n29 \n- \nRelay Output Status \nWORD \n0 \n1 \n03 \nR \nBit 0 Indicates Relay Status \n1 = Relay Contacts Closed \n30 \n- \nReserved \n- \n- \n- \n03 \nR \nNo Function \n31 \n- \nReserved \n- \n- \n- \n03 \nR \nNo Function \n32 \nP00-26 \nkWh Meter \nU16 \n0 \n9999 \n03 \nR \n1dp, e.g. 100 = 10.0kWh \n33 \nP00-26 \nMWh Meter \nU16 \n0 \n \n03 \nR \n10 = 10MWh \n34 \nP00-10 \nRunning Time – Hours \nU16 \n \n \n03 \nR \n1 = 1 Hour \n35 \nP00-10 \nRunning Time – Minutes & Seconds \nU16 \n \n \n03 \nR \n100 = 100 Seconds \n36 \nP00-14 \nRun time since last enable – Hours \nU16 \n \n \n03"
+  },
+  {
+    "chunk_id": 7,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "0 \n9999 \n03 \nR \n1dp, e.g. 100 = 10.0kWh \n33 \nP00-26 \nMWh Meter \nU16 \n0 \n \n03 \nR \n10 = 10MWh \n34 \nP00-10 \nRunning Time – Hours \nU16 \n \n \n03 \nR \n1 = 1 Hour \n35 \nP00-10 \nRunning Time – Minutes & Seconds \nU16 \n \n \n03 \nR \n100 = 100 Seconds \n36 \nP00-14 \nRun time since last enable – Hours \nU16 \n \n \n03 \nR \n1 = 1 Hour \n37 \nP00-14 \nRun time since last enable – Minutes & \nseconds \nU16 \n \n \n03 \nR \n100 = 100 Seconds \n38 \n- \nReserved \nU16 \n \n \n03 \nR \nNo Function \n39 \nP00-20 \nInternal Drive Temperature \nS16 \n-10 \n100 \n03 \nR \n20 = 20C \n40 \n- \nSpeed Reference (Internal Format) \nU16 \n0 \nP-01 \n03 \nR \n3000 = 50Hz \n41 \n- \nReserved \n- \n- \n- \n03 \nR \nNo Function"
+  },
+  {
+    "chunk_id": 8,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n3 \n \nRegister \nNumber \nParameter \nNumber \nUpper byte \nLower Byte \nFormat \nMin \nMax \nCommand \nType \nScaling \n42 \n \nDigital Pot / Keypad Reference \nU16 \n0 \nP-01 \n03 \nR \n3000 = 50Hz \n43 \nP00-07 \nOutput Voltage \nU16 \n0 \n- \n03 \nR \n100 = 100 Volts AC RMS \n44 \n- \nParameter Access Index \nU16 \n1 \n60 \n03 \nR \nSee Below \n45 \n- \nParameter Access Value \nS16 \n- \n- \n03 \nR \nSee Below \nFormat \nWORD = WORD Format, functions assigned to individual bits \nS16 = Signed 16 Bit Integer \nU16 = Unsigned 16 bit Integer \nControl and Status Register Descriptions \nRead-Write Registers \nRegister 1: Drive Control Word \n15 \n14 \n13 \n12 \n11 \n10 \n9 \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1 \n0 \nHigh byte \nLow byte \nBit 0: \nRun/Stop command: Set to 1 to enable the drive. Set to 0 to stop the drive. \n \n \nBit 1:  \nFast stop request. Set to 1 to enable drive to stop with 2nd deceleration ramp. \nBit 2:"
+  },
+  {
+    "chunk_id": 9,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Register 1: Drive Control Word \n15 \n14 \n13 \n12 \n11 \n10 \n9 \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1 \n0 \nHigh byte \nLow byte \nBit 0: \nRun/Stop command: Set to 1 to enable the drive. Set to 0 to stop the drive. \n \n \nBit 1:  \nFast stop request. Set to 1 to enable drive to stop with 2nd deceleration ramp. \nBit 2: \nReset request. Set to 1 in order to reset the drive if drive is under trip condition.  \nUser must clear this bit when drive is under normal condition to prevent un-expected reset. \nBit 3: \nCoast stop request. Set to 1 to issue a coast stop command. \nFor normal operation, Bit 3 has the highest priority, bit 0 has the lowest priority (bit 3>bit 1>bit 0). For example if user set \ncommand as 0x0009, drive will do a coast stop rather than run. For normal run/start, just set this register to 1. \nNote that stat/stop (bit 0), fast stop (bit 1) and coast stop(bit 3) only works if P-31= 0 or 1. Otherwise, start/stop function is"
+  },
+  {
+    "chunk_id": 10,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "command as 0x0009, drive will do a coast stop rather than run. For normal run/start, just set this register to 1. \nNote that stat/stop (bit 0), fast stop (bit 1) and coast stop(bit 3) only works if P-31= 0 or 1. Otherwise, start/stop function is \ncontrolled by drive control terminals.  Reset function (bit  2) works all the time as long as drive is operated under Modbus \ncontrol mode (P-12=3 or 4). \nRegister 2: Speed Reference \nThis register holds the speed reference value with one decimal place (200 = 20.0Hz). The maximum speed reference value is \nlimited by P-01. Either register 2 or register 5 can be used for speed reference control, however only one reference should be \nused in any control system, otherwise unexpected behaviour can result. \nRegister 4: Acceleration / Deceleration Ramp Time \nActive only when P-12 = 4, this register specifies the drive acceleration and deceleration ramp time. The same value is applied"
+  },
+  {
+    "chunk_id": 11,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "used in any control system, otherwise unexpected behaviour can result. \nRegister 4: Acceleration / Deceleration Ramp Time \nActive only when P-12 = 4, this register specifies the drive acceleration and deceleration ramp time. The same value is applied \nsimultaneously to the acceleration and deceleration ramp times. The value has two decimal places, e.g. 500 = 5.00 seconds. \nRegister 5: High Resolution Speed Reference \nThis register allows the user to set the speed reference value in the internal format, e.g. 3000 = 50.0Hz. This allows control \nresolution to 1 RPM with a 2 pole motor . The maximum allowed value is limited by P-01.  \nEither register 2 or register 5 can be used for speed reference control, however only one reference should be used in any control \nsystem, otherwise unexpected behaviour can result. \nRead Only Registers \nRegister 6: Drive status and error code"
+  },
+  {
+    "chunk_id": 12,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Either register 2 or register 5 can be used for speed reference control, however only one reference should be used in any control \nsystem, otherwise unexpected behaviour can result. \nRead Only Registers \nRegister 6: Drive status and error code \nHigh byte gives drive error code. (Valid when the drive is tripped, see Appendix E – Drive Fault Code and Information for further \ndetails) \nLow byte gives drive status information as follows :- \nBit 0:  0 =Drive Stopped, 1 = Drive Running \nBit 1:  0 = OK, 1 = Drive Tripped \nBit 5:  0 = OK, 1 = In Standby Mode \nBit 6:  0 = Not Ready, 1 = Drive Ready to Run (not tripped, hardware enabled and no mains loss condition) \nRegisters 18 & 19 : Scope Channel 1 & Scope Channel 2 Data Values \nThese registers show the scope present data sample value for the first two scope channels. The channel data source selection is \ncarried out through Optitools Studio."
+  },
+  {
+    "chunk_id": 13,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n4 \n \nRegisters 25 - 28: Drive Serial Number \nThe drive serial number may be read using these four registers. The serial number has 11 digits, stored as follows:- \nRegister 28 \nRegister 27 \nRegister 26 \nRegister 25 \nx \nx \nx \nx \nx \nx \nx \nx \nx \nx \nx \ne.g. \nRegister 25 \n1 \n \nRegister 26 \n1 \n \n \n \nRegister 27 \n8745 \n \nRegister 28 \n57 \nDrive Serial Number \n5 \n7 \n8 \n7 \n4 \n5 \n0 \n1 \n0 \n0 \n1 \nIndirect Parameter Access Registers \nOptidrive E3 allows Read / Write access to all user adjustable parameters using a simple method as detailed below. This is \nachieved using the following two Modbus registers. \nRegister 44: Drive parameter index \nThis index value will be used by register 45 to carry out parameter read and write function. The valid range of this parameter is \nfrom 1 to 60 (maximum number of drive user adjustable parameters) \nRegister 45: Drive parameter value"
+  },
+  {
+    "chunk_id": 14,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Register 44: Drive parameter index \nThis index value will be used by register 45 to carry out parameter read and write function. The valid range of this parameter is \nfrom 1 to 60 (maximum number of drive user adjustable parameters) \nRegister 45: Drive parameter value \nWhen reading this register, value represents the drive parameter value which index is specified by register 44. \nWhen write to this register, value will be written to the drive parameter which index is specified by register 44. \nParameter Read Method \nIn order to read a parameter, firstly write the parameter number to register 44, then read the value from register 45, e.g. to \nRead the Value of P-01 \n \nWrite 1 to Register 44 \n \nRead the Value of Register 45 \nParameter Write Method \nWriting parameter values can be achieved by the same method, however Register 45 is used to write the parameter value after \nthe parameter number has been selected using Register 44, e.g. to Write a Value of 60.0Hz to parameter P1-01 \n"
+  },
+  {
+    "chunk_id": 15,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": " \nRead the Value of Register 45 \nParameter Write Method \nWriting parameter values can be achieved by the same method, however Register 45 is used to write the parameter value after \nthe parameter number has been selected using Register 44, e.g. to Write a Value of 60.0Hz to parameter P1-01 \n \nWrite 1 to Register 44 \n \nRegister 45 will return the present value of P-01, which can be Read if required \n \nReferring to the parameter table shown in Apendix A: Parameter Registers and Scaling, apply any scaling necessary \no \nIn this case, 60.0Hz = 3600 \n \nWrite the scaled value to Register 45. P-01 now changes to 60.0Hz, or an exception code may be returned."
+  },
+  {
+    "chunk_id": 16,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n5 \n \nApendix A: Parameter Registers and Scaling \nAll user adjustable parameters within the drive are accessible by Modbus, and can be Read or Written to. For further \ninformation regarding the parameter functions and specific settings, please refer to the User Guide. \nRegister \nParameter \nDescription \nFormat \nMin \nMax \nData format / scaling \n129 \n01 \nMax speed limit \nU16 \n0 \n5*P-09 \nInternal value (3000 = 50.0Hz) \n130 \n02 \nMin speed limit \nU16 \n0 \nP-01 \nInternal value (3000 = 50.0Hz) \n131 \n03 \nAccel ramp time \nU16 \n0 \n60000 \n2dp, e.g. 300=3.00s \n132 \n04 \nDecel ramp time \nU16 \n0 \n60000 \n2dp, e.g. 300=3.00s \n133 \n05 \nStop Mode \nU16 \n0 \n2 \n0: Ramp to stop + Mains Loss Ride Through \n1: Coast to stop \n2: Ramp to stop + Fast Stop \n3 : AC Flux Braking + Fast Stop \n134 \n06 \nEnergy Optimiser \nU16 \n0 \n1 \n0: Disabled \n1: Enabled \n135 \n07 \nMotor rated voltage \nU16 \n0 \n250 \n500 \n400 = 400 Volts"
+  },
+  {
+    "chunk_id": 17,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "133 \n05 \nStop Mode \nU16 \n0 \n2 \n0: Ramp to stop + Mains Loss Ride Through \n1: Coast to stop \n2: Ramp to stop + Fast Stop \n3 : AC Flux Braking + Fast Stop \n134 \n06 \nEnergy Optimiser \nU16 \n0 \n1 \n0: Disabled \n1: Enabled \n135 \n07 \nMotor rated voltage \nU16 \n0 \n250 \n500 \n400 = 400 Volts \n136 \n08 \nMotor rated current \nU16 \n0 \nDrive Rating Dependent \n1dp, e.g. 100 = 10.0A \n137 \n09 \nMotor rated frequency \nU16 \n25 \n500 \nData unit is in Hz \n138 \n10 \nMotor rated speed \nU16 \n0 \n30000 \nMaximum value equals to the sync speed of a \ntypical 2-pole motor \n139 \n11 \nBoost Value \nU16 \n0 \nDrive Rating Dependent \n1dp, e.g. 100 = 10.0%  \n140 \n12 \nControl mode \nU16 \n0 \n6 \n0: Terminal Control \n1: Keypad forward only \n2: Keypad forward and reverse \n3: Modbus control mode \n4: Modbus control with ramp control \n5 : PID control \n6 : PID control with analog speed sum \n7 : CAN Open \n8 : CAN Open + Ramp Control \n9 : Slave Mode \n141 \n13 \nApplication Mode \nU16 \n0 \n2 \n0 : Industrial Mode \n1 : Pump Mode \n2 : Fan Mode \n142"
+  },
+  {
+    "chunk_id": 18,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "2: Keypad forward and reverse \n3: Modbus control mode \n4: Modbus control with ramp control \n5 : PID control \n6 : PID control with analog speed sum \n7 : CAN Open \n8 : CAN Open + Ramp Control \n9 : Slave Mode \n141 \n13 \nApplication Mode \nU16 \n0 \n2 \n0 : Industrial Mode \n1 : Pump Mode \n2 : Fan Mode \n142 \n14 \nAccess code \nU16 \n0 \n9999 \nNo Scaling \n143 \n15 \nDigital input function \nU16 \n0 \n17 \nSee user guide for function details \n144 \n16 \nAnalog input format \nU16 \n0 \n7 \n0: 0…10V \n1: b 0…10V \n2: 0…20mA \n3: t 4…20mA \n4: r 4…20mA \n5: t 20…4mA \n6: r 20…4mA \n7 : 10…0V \n145 \n17 \nEffective switching frequency \nU16 \n0 \n5 \n(Drive Rating Dependent) \n0 = 4KHz \n1 = 8KHz \n2 = 12Khz \n3 =16KHz \n4 = 24KHz \n5 = 32KHz \n146 \n18 \nRelay Output Function \nU16 \n0 \n9 \nSee user guide for function details \n147 \n19 \nDigital Threshold \nU16 \n0 \n1000 \n100 = 10.0% \n148 \n20 \nPreset Speed 1 \nU16 \n-P-01 \nP-01 \nInternal value (3000 = 50.0Hz) \n149 \n21 \nPreset Speed 2 \nU16 \n-P-01 \nP-01 \nInternal value (3000 = 50.0Hz) \n150 \n22"
+  },
+  {
+    "chunk_id": 19,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "146 \n18 \nRelay Output Function \nU16 \n0 \n9 \nSee user guide for function details \n147 \n19 \nDigital Threshold \nU16 \n0 \n1000 \n100 = 10.0% \n148 \n20 \nPreset Speed 1 \nU16 \n-P-01 \nP-01 \nInternal value (3000 = 50.0Hz) \n149 \n21 \nPreset Speed 2 \nU16 \n-P-01 \nP-01 \nInternal value (3000 = 50.0Hz) \n150 \n22 \nPreset Speed 3 \nU16 \n-P-01 \nP-01 \nInternal value (3000 = 50.0Hz) \n151 \n23 \nPreset Speed 4 \nU16 \n-P-01 \nP-01 \nInternal value (3000 = 50.0Hz) \n152 \n24 \n2nd Ramp \nU16 \n0 \n2500 \n2dp e.g. 250 = 2.50s \n153 \n25 \nAnalog Output Function \nU16 \n0 \n10 \nSee user guide for function details \n154 \n26 \nSkip Frequency Centre  \nU16 \n0 \nP-01 \nInternal value (3000 = 50.0Hz) \n155 \n27 \nSkip Frequency Band  \nU16 \n0 \nP-01 \nInternal value (3000 = 50.0Hz) \n156 \n28 \nV/F Adjust Voltage \nU16 \n0 \nP-07 \n100 = 100V \n157 \n29 \nV/F Adjust Frequency \nU16 \n0 \nP-09 \n50 = 50Hz \n158 \n30 \nStart Mode Select \nU16 \n0 \n6 \n0: Edgr-r \n1: Auto_0 \n2…6: Auto_1 to Auto_5 \n159 \n31 \nKeypad restart mode \nU16 \n0 \n7 \nSee user guide for details \n160"
+  },
+  {
+    "chunk_id": 20,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "156 \n28 \nV/F Adjust Voltage \nU16 \n0 \nP-07 \n100 = 100V \n157 \n29 \nV/F Adjust Frequency \nU16 \n0 \nP-09 \n50 = 50Hz \n158 \n30 \nStart Mode Select \nU16 \n0 \n6 \n0: Edgr-r \n1: Auto_0 \n2…6: Auto_1 to Auto_5 \n159 \n31 \nKeypad restart mode \nU16 \n0 \n7 \nSee user guide for details \n160 \n32 \nDC Injection \nWORD \nSee Below \n161 \n33 \nSpin Start Enable \nU16 \n0 \n2 \nSee user guide for function details \n162 \n34 \nBrake circuit enable \nU16 \n0 \n4 \nSee user guide for function details \n163 \n35 \nAnalog Input / Slave Scaling \nU16 \n0 \n20000 \n1000 = 100.0% \n164 \n36 \nCommunication Settings \nWORD \nSee Below"
+  },
+  {
+    "chunk_id": 21,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n6 \n \nRegister \nParameter \nDescription \nFormat \nMin \nMax \nData format / scaling \n165 \n37 \nAccess code definition \nU16 \n0 \n9999 \n \n166 \n38 \nParameter lock \nU16 \n0 \n1 \n0: Unlocked \n1: Locked \n167 \n39 \nAnalog input offset \nU16 \n-5000 \n5000 \n1dp, e.g.  300=30.0% \n168 \n40 \nDisplay Scaling Function \nWORD \nSee Below \n169 \n41 \nUser PI P gain \nU16 \n1 \n300 \n1dp, e.g. 10  = 1.0 \n170 \n42 \nUser PI I time constant \nU16 \n0 \n300 \n1dp, e.g. 10 = 1.0s \n171 \n43 \nUser PI mode select \nU16 \n0 \n1 \nSee user guide for more information \n172 \n44 \nUser PI reference select \nU16 \n0 \n1 \nSee user guide for more information \n173 \n45 \nUser PI digital reference \nU16 \n0 \n1000 \n1dp, e.g. 100 =10.0% \n174 \n46 \nUser PI feedback select \nU16 \n0 \n3 \nSee user guide for more information \n175 \n47 \nAnalog Input 2 Format \nU16 \n0 \n6 \n0: 0...10V \n1: 0…20mA \n2: t 4...20mA \n3: r 4...20mA \n4: t 20...4mA \n5: r 20...4mA \n6: Ptc-th \n176"
+  },
+  {
+    "chunk_id": 22,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "173 \n45 \nUser PI digital reference \nU16 \n0 \n1000 \n1dp, e.g. 100 =10.0% \n174 \n46 \nUser PI feedback select \nU16 \n0 \n3 \nSee user guide for more information \n175 \n47 \nAnalog Input 2 Format \nU16 \n0 \n6 \n0: 0...10V \n1: 0…20mA \n2: t 4...20mA \n3: r 4...20mA \n4: t 20...4mA \n5: r 20...4mA \n6: Ptc-th \n176 \n48 \nStandby Mode Timer \nU16 \n0 \n250 \n1dp, e.g. 250 = 25.0s \n177 \n49 \nPI Wake Up Error Level \nU16 \n0 \n1000 \n1dp, e.g. 50 = 5.0% \n178 \n50 \nUser Relay Output Hysteresis \nU16 \n0 \n1000 \n1dp e.g. 100 = 10.0% \n179 \n51 \nMotor Control Mode \nU16 \n0 \n4 \n0 : IM Vector \n1 : V/F \n2 : PM Motor \n3 : BLDC Motor \n4 : SynRM Motor \n180 \n52 \nMotor Parameter Autotune \nU16 \n0 \n1 \n \n181 \n53 \nVector Mode Gain \nU16 \n0 \n2000 \n1dp, e.g. 500 = 50.0% \n182 \n54 \nMaximum Current Limit \nU16 \n0 \n1750 \n1dp, e.g. 1000 = 100.0% \n183 \n55 \nMotor Stator Resistance \nU16 \n0 \n65535 \n2dp, e.g. 100 = 1.00R \n184 \n56 \nMotor Stator d-axis \nInductance (Lsd) \nU16 \n0 \n65535 \n1dp, e.g. 1000 = 100.0mH \n185 \n57 \nMotor Stator q-axis"
+  },
+  {
+    "chunk_id": 23,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "U16 \n0 \n2000 \n1dp, e.g. 500 = 50.0% \n182 \n54 \nMaximum Current Limit \nU16 \n0 \n1750 \n1dp, e.g. 1000 = 100.0% \n183 \n55 \nMotor Stator Resistance \nU16 \n0 \n65535 \n2dp, e.g. 100 = 1.00R \n184 \n56 \nMotor Stator d-axis \nInductance (Lsd) \nU16 \n0 \n65535 \n1dp, e.g. 1000 = 100.0mH \n185 \n57 \nMotor Stator q-axis \nInductance (Lsq) \nU16 \n0 \n65535 \n1dp, e.g. 1000 = 100.0mH \n186 \n58 \nDC Injection Speed \nU16 \n0 \nP-01 \n3000 = 50.0Hz \n187 \n59 \nDC Injection Current \nU16 \n0 \n1000 \n1dp, e.g. 100 = 10.0% \n188 \n60 \nThermal Overload Retention \nU16 \n0 \n1"
+  },
+  {
+    "chunk_id": 24,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n7 \n \nAdditional Information \nRegister 160 : DC Injection Configuration \nThe parameter value is stored as a combined 16 bit word which is constructed as follows :- \nHigh Byte \nLow Byte \n15 \n14 \n13 \n12 \n11 \n10 \n9 \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1 \n0 \nDC Injection Mode \n0 : DC Injection on Start \n1 : DC Injection on Stop \n2 : DC Injection on Start & Stop \nDC Injection Duration : 1dp, e.g. 0 – 250 = 0.0 – 25.0s  \nRegister 164 – Communications Configuration \nThis Register entry contains multiple data entries, as follows:- \nHigh Byte \nLow Byte \n15 \n14 \n13 \n12 \n11 \n10 \n9 \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1 \n0 \nTrip Configuration \nBaud Rate \nDrive Address \nData values can be interpreted as follows :- \nDrive Address \n1 to 63 \n \nBaud Rate \n0 \n115k2 \n1 \n115k2 \n2 \n9k6 \n3 \n19k2 \n4 \n38k4 \n5 \n57k6 \n6 \n115k2 \n7 \n115k2 \n8 \n115k2 \n9 \n115k2 \n10 \n115k2 \nTrip Time Set-up \n0 \nComms Loss Trip Disabled \n1"
+  },
+  {
+    "chunk_id": 25,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "4 \n3 \n2 \n1 \n0 \nTrip Configuration \nBaud Rate \nDrive Address \nData values can be interpreted as follows :- \nDrive Address \n1 to 63 \n \nBaud Rate \n0 \n115k2 \n1 \n115k2 \n2 \n9k6 \n3 \n19k2 \n4 \n38k4 \n5 \n57k6 \n6 \n115k2 \n7 \n115k2 \n8 \n115k2 \n9 \n115k2 \n10 \n115k2 \nTrip Time Set-up \n0 \nComms Loss Trip Disabled \n1 \n30ms Watchdog, Trip on Comms Loss \n2 \n300ms Watchdog, Trip on Comms Loss \n3 \n1000ms Watchdog, Trip on Comms Loss \n4 \n3000ms Watchdog, Trip on Comms Loss \n5 \n30ms Watchdog, Ramp To Stop on Comms Loss \n6 \n300ms Watchdog, Ramp To Stop on Comms Loss \n7 \n1000ms Watchdog, Ramp To Stop on Comms Loss \n8 \n3000ms Watchdog, Ramp To Stop on Comms Loss \nRegister 168 : Display Scaling \nThe parameter value is stored as a combined 16 bit word which is constructed as follows :- \nHigh Byte \nLow Byte \n15 \n14 \n13 \n12 \n11 \n10 \n9 \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1 \n0 \nDisplay Scaling Source \n0 : Motor Speed \n1 : Motor Current \n2 : Analog Input 2 Signal \n3 : PI Feedback"
+  },
+  {
+    "chunk_id": 26,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "The parameter value is stored as a combined 16 bit word which is constructed as follows :- \nHigh Byte \nLow Byte \n15 \n14 \n13 \n12 \n11 \n10 \n9 \n8 \n7 \n6 \n5 \n4 \n3 \n2 \n1 \n0 \nDisplay Scaling Source \n0 : Motor Speed \n1 : Motor Current \n2 : Analog Input 2 Signal \n3 : PI Feedback \nDisplay Scaling Factor : 3dp, e.g. 0 – 16000 = 0.000 – 16.000"
+  },
+  {
+    "chunk_id": 27,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n8 \n \nAppendix B - Modbus Exception Response Telegrams \nUnder some circumstances, the drive may reply with an Exception Response (error) in response to a request telegram sent from \nthe network master, for example where the master tries to read a register which does not exist. Exception Responses which can \nbe generated by the drive are listed below:-  \nException Code 1: Invalid Request \nReturned under the following conditions \n \nNetwork Master sends an unsupported Modbus command (e.g. Read Coils). \n \nRun command issued to drive whilst the drive is not set for Modbus Control Mode (e.g. P1-12 <>4). \n \nRun command issued to drives whilst the drive is not enabled (e.g. Digital Input 1 is open). \n \nRun command issued to drive whilst the drive is in a tripped condition. \nException Code 2: Invalid Modbus register \nReturned under the following conditions \n"
+  },
+  {
+    "chunk_id": 28,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": " \nRun command issued to drives whilst the drive is not enabled (e.g. Digital Input 1 is open). \n \nRun command issued to drive whilst the drive is in a tripped condition. \nException Code 2: Invalid Modbus register \nReturned under the following conditions \n \nNetwork Master attempts to read or write a register that does not exist within the drive. \nException Code 3: Register Value Out of Range \nReturned under the following conditions \n \nNetwork Master attempts to write a holding register with a value outside the range of the register \nException Code 6: Drive Busy \nReturned under the following conditions \n \nDrive busy due to internal data transfer. The Network Master should re-send the message after a delay"
+  },
+  {
+    "chunk_id": 29,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n9 \n \nAppendix C : Dataflow example: \nRead data from register 6 \nRequest:    [01]                    [03]                      [00] [05]           \n[00] [01]                       [94] [0B] \n   \n     (Drive Addr)      (Command)         (Reg start addr)       (No. of Registers)       (Checksum) \n \nReply:        [01]                    [03]                      [02]                   \n   [00] [00]                    [B8] [44] \n   \n     (Drive Addr)      (Command)         (No of data bytes)       (Data)                     (Checksum) \nNote: The actual start address of register 6 is 5. All data in [ ] is in 8bits Hex format. \nWrite start command to the register 1 (suppose P-12 = 3, P-15 =0 and digital input 1 is closed): \nRequest:    [01]                    [06]                      [00] [00]           \n[00] [01]                       [48] [0A]"
+  },
+  {
+    "chunk_id": 30,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Write start command to the register 1 (suppose P-12 = 3, P-15 =0 and digital input 1 is closed): \nRequest:    [01]                    [06]                      [00] [00]           \n[00] [01]                       [48] [0A] \n   \n     (Drive Addr)      (Command)         (Reg addr)             (Data value)                 (Checksum) \nReply:        [01]                    [06]                      [00] [00]           \n[00] [01]                       [48] [0A] \n   \n     (Drive Addr)      (Command)         (Reg addr)             (Data value)                 (Checksum) \nNote: The actual address of register 1 on the data link is 0. All data in [ ] is in 8bits Hex format. \n          Reply can be error message depending on drive parameter settings and digital input status."
+  },
+  {
+    "chunk_id": 31,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n10 \n \nAppendix D - Register Changes for Single Phase Output Drives \nThe Single Phase Output drive has some registers that are different to the standard three phase output drive, as listed below :- \nRegister \nNumber \nParameter \nNumber \nUpper byte \nLower Byte \nFormat \nMin \nMax \nCommand \nType \nScaling \n2 \n- \nFrequency Setpoint \nS16 \n0 \n5000 \n03,06 \nR/W \n1dp, e.g. 100 = 10.0Hz \n9 \n- \nReserved \n- \n- \n- \n- \n- \n \n10 \n- \nMotor Power \nU16 \n0 \n- \n03 \nR \n2dp, e.g. 100 = 1.00kW \n40 \n- \nSpeed Reference (Internal Format) \nU16 \n0 \nP-01 \n03 \nR \n3000 = 50Hz \n \nRegister \nParameter \nDescription \nFormat \nMin \nMax \nData format / scaling \n134 \n06 \nReserved \n- \n- \n- \nNo Function \n139 \n11 \nBoost Value \nU16 \n0 \nDrive Rating Dependent \n1dp, e.g. 100 = 10.0%  \n141 \n13 \nReserved \nU16 \n- \n- \nNo Function \n148 \n20 \nPreset speed 1 \nU16 \n0 \nP-01 \n3000 = 50Hz \n149 \n21 \nPreset speed 2 \nU16 \n0 \nP-01 \n3000 = 50Hz \n150"
+  },
+  {
+    "chunk_id": 32,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Max \nData format / scaling \n134 \n06 \nReserved \n- \n- \n- \nNo Function \n139 \n11 \nBoost Value \nU16 \n0 \nDrive Rating Dependent \n1dp, e.g. 100 = 10.0%  \n141 \n13 \nReserved \nU16 \n- \n- \nNo Function \n148 \n20 \nPreset speed 1 \nU16 \n0 \nP-01 \n3000 = 50Hz \n149 \n21 \nPreset speed 2 \nU16 \n0 \nP-01 \n3000 = 50Hz \n150 \n22 \nPreset speed 3 \nU16 \n0 \nP-01 \n3000 = 50Hz \n151 \n23 \nPreset speed 4 \nU16 \n0 \nP-01 \n3000 = 50Hz \n160 \n32 \nBoost Frequency \nU16 \n0 \n1500 \n1dp, e.g. 100 = 10.0s \n161 \n33 \nBoost Period Duration \nU16 \n0 \n2 \nSee user guide for function details \n179 \n51 \nThermal Overload Retention \nU16 \n0 \n1 \n- \nRegisters above 179 are not present in Single Phase Output Drives"
+  },
+  {
+    "chunk_id": 33,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n11 \n \nAppendix E – Drive Fault Code and Information \nError Codes may be returned in the High Byte of Register 6 as below. Note that this list is a generic list, applicable to all Invertek \ndrives. Not all codes listed may be returned by E3, where the hardware and / or software does not support that feature. \nFault \nCode \nNo. \nDescription \nE3 \n \nFault \nCode \nNo. \nDescription \nE3 \nno-Flt \n00 \nNo Fault \nYes \n \nAtF-01 \n40 \nMeasured motor stator resistance varies \nYes \nOI-b \n01 \nBrake channel over current \nYes \n \nAtF-02 \n41 \nMeasured motor stator resistance is too \nlarge.  \nYes \nOL-br \n02 \nBrake resistor overload \nYes \nAtF-03 \n42 \nMeasured motor inductance is too low. \nYes \nO-I \n03 \nSoftware Instantaneous over current \nYes \nAtF-04 \n43 \nMeasured motor inductance is too large.  \nYes \nI.t-trp \n04 \nMotor Thermal Overload (I2t) \nYes \nAtF-05 \n44 \nMeasured motor parameters not convergent \nYes"
+  },
+  {
+    "chunk_id": 34,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Yes \nAtF-03 \n42 \nMeasured motor inductance is too low. \nYes \nO-I \n03 \nSoftware Instantaneous over current \nYes \nAtF-04 \n43 \nMeasured motor inductance is too large.  \nYes \nI.t-trp \n04 \nMotor Thermal Overload (I2t) \nYes \nAtF-05 \n44 \nMeasured motor parameters not convergent \nYes \nPS-trp \n05 \nPower stage trip \n \nPh-Seq \n45 \nReserved \n \nO-Volt \n06 \nOver voltage on DC bus \nYes \nFb-Err \n46 \nReserved \n \nU-Volt \n07 \nUnder voltage on DC bus \nYes \nFb-Loc \n47 \nReserved \n \nO-t \n08 \nHeatsink over temperature \nYes \nPr-Lo \n48 \nReserved \n \nU-t \n09 \nUnder temperature \nYes \nOut-Ph \n49 \nReserved \n \nP-dEF \n10 \nFactory Default parameters have been loaded \nYes \nSC-F01 \n50 \nModbus comms loss fault \nYes \nE-trip \n11 \nExternal trip \nYes \nSC-F02 \n51 \nCANopen comms loss trip \nYes \nSC-ObS \n12 \nOptibus comms loss \nYes \nSC-F03 \n52 \nReserved \n \nFLt-dc \n13 \nDC bus ripple too high \nYes \nSC-F04 \n53 \nReserved \n \nP-LOSS \n14 \nInput phase loss trip \nYes \nSC-F05 \n54 \nReserved \n \nh O-I \n15"
+  },
+  {
+    "chunk_id": 35,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Yes \nE-trip \n11 \nExternal trip \nYes \nSC-F02 \n51 \nCANopen comms loss trip \nYes \nSC-ObS \n12 \nOptibus comms loss \nYes \nSC-F03 \n52 \nReserved \n \nFLt-dc \n13 \nDC bus ripple too high \nYes \nSC-F04 \n53 \nReserved \n \nP-LOSS \n14 \nInput phase loss trip \nYes \nSC-F05 \n54 \nReserved \n \nh O-I \n15 \nHardware Instantaneous over current \nYes \nSC-F06 \n55 \nReserved \n \nth-Flt \n16 \nFaulty thermistor on heatsink. \nYes \nSC-F07 \n56 \nReserved \n \ndAtA-F \n17 \nInternal memory fault. (IO) \nYes \nSC-F08 \n57 \nReserved \n \n4-20 F \n18 \n4-20mA Signal Lost \nYes \nSC-F09 \n58 \nReserved \n \ndAtA-E \n19 \nInternal memory fault. (DSP) \nYes \nSC-F10 \n59 \nReserved \n \nU-dEF \n20 \nUser parameter default \nYes \nOF-01 \n60 \nReserved \n \nF-Ptc \n21 \nMotor PTC thermistor trip  \nYes \nOF-02 \n61 \nReserved \n \nFAN-F \n22 \nCooling Fan Fault (IP66 only) \nYes \nOF-03 \n62 \nReserved \n \nO-hEAt \n23 \nDrive internal temperature too high \nYes \nOF-04 \n63 \nReserved \n \nO-torq \n24 \nReserved \n \nOF-05 \n64 \nReserved \n \nU-torq \n25 \nReserved \n \nOF-06 \n65 \nReserved \n \nOut-F"
+  },
+  {
+    "chunk_id": 36,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Yes \nOF-02 \n61 \nReserved \n \nFAN-F \n22 \nCooling Fan Fault (IP66 only) \nYes \nOF-03 \n62 \nReserved \n \nO-hEAt \n23 \nDrive internal temperature too high \nYes \nOF-04 \n63 \nReserved \n \nO-torq \n24 \nReserved \n \nOF-05 \n64 \nReserved \n \nU-torq \n25 \nReserved \n \nOF-06 \n65 \nReserved \n \nOut-F \n26 \nDrive output fault \nYes \nOF-07 \n66 \nReserved \n \nErr-01 \n27 \nReserved \n \nOF-08 \n67 \nReserved \n \nErr-02 \n28 \nReserved \n \nOF-09 \n68 \nReserved \n \nSto-F \n29 \nSTO circuit fault \n \nOF-10 \n69 \nReserved \n \nEnc-01 \n30 \nReserved \n \nPLC-01 \n70 \nReserved \n \nEnc-02 \n31 \nReserved \n \nPLC-02 \n71 \nReserved \n \nEnc-03 \n32 \nReserved \n \nPLC-03 \n72 \nReserved \n \nEnc-04 \n33 \nReserved \n \nPLC-04 \n73 \nReserved \n \nEnc-05 \n34 \nReserved \n \nPLC-05 \n74 \nReserved \n \nEnc-06 \n35 \nReserved \n \nPLC-06 \n75 \nReserved \n \nEnc-07 \n36 \nReserved \n \nPLC-07 \n76 \nReserved \n \nEnc-08 \n37 \nReserved \n \nPLC-08 \n77 \nReserved \n \nEnc-09 \n38 \nReserved \n \nPLC-09 \n78 \nReserved \n \nEnc-10 \n39 \nReserved \n \nPLC-10 \n79 \nReserved"
+  },
+  {
+    "chunk_id": 37,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Application_Note_Optidrive_E3_Modbus_register_map.pdf",
+    "content": "Application note AN-ODE-3-038 \n04 December 2015 \n \nAN-ODE-3-038 Modbus RTU Control and Register Mapping \n12 \n \nAppendix E \nRevision History \nVersion \nComments \nAuthor \nDate \n01 \nFirst Release \nKB \n2/12/15"
+  }
+]

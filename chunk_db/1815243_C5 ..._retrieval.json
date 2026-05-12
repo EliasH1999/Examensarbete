@@ -1,0 +1,1141 @@
+[
+  {
+    "pass_name": "communication",
+    "parameters": [
+      "physicalStandard",
+      "baudRate",
+      "dataBits",
+      "parity",
+      "stopBits"
+    ],
+    "raw_top_k_per_query": {
+      "physical_standard": [
+        {
+          "rank": 1,
+          "chunk_id": 1,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "requests from the Modbus client and for requests for data outside the ranges documented below. Modbus registers below are shown with 6-digit \naddressing.  \n \nFor advanced data reference and 5-digit addressing, refer to section 5.0.   \n \n2.0 Ports \n \nThere are RS232 and RS485 serial Modbus RTU ports available as well as Modbus TCP/IP Ethernet ports.  Refer to panel drawings for specific \nwiring diagrams. \n \nPress Setup on the Centurion Display to access the Setup Menu, and then choose Centurion Comm Ports to view and set port specific settings \nsuch as baud rate, number of stop bits, IP address or RTU node number. \n \nNOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 10,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved \n \n \n \n \n400063 \nHardware_type \nu16bit \nraw \nRO \nFactory Use"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 11,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 3 - \n400064 \nDIP_address \nu16bit \nraw \nRO \nSetting of the DIP Switch Modbus RTU Server Address for RS485-1 \n400065 \nReserved \n \n \n \n \n400066 \nReserved \n \n \n \n \n400067 \nReserved \n \n \n \n \n400068 \nReserved \n \n \n \n \n400069 \nReserved \n \n \n \n \nVIP DATA \n400101 \nState enumeration \nu16bit \nraw \nRO \nValue 1 to 23 representing operating state of the controller. (Refer \nto configuration for text descriptions for each value.) 23 = Fault \nShutdown 1 = Ready to Start   \n400102 \nRpm_converted \nu16bit \nRPM \nRO \nRPM value set by RPM Source selection in the configuration \n400103 \nReserved \n \n \n \n \n400104 \nReserved \n \n \n \n \n400105 \nReserved \n \n \n \n \n400106 \nReserved \n \n \n \n \n400107 \nStatus bits \nbitmap \nbmp \nRO \nBit 0 Fault Shutdown in progress \nBit 1 Emergency Shutdown in progress \nBit 2 Active alarms present \nBit 3 Start/Stop indicator 1=Start \nBit 4 Mode 1=Remote 0=Local \nBit 5 TEST timer is running \nBit 6 B1 timer is running \nBit 7 B2 timer is running"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 9,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "RO \nFactory use-total device lifetime seconds  \n400045 \nLifetimer seconds lsw \n \n \n \n \n400046 \nNull task counter msw \nu32bit \nraw \nRO \nFactory use \n400047 \nNull task counter lsw \n \n \n \n \n400048 \nNull task lowest qs msw \nu32bit \nraw \nRO \nFactory use \n400049 \nNull task lowest qs lsw \n \n \n \n \n400050 \nSystem powered up time \nmsw \nu32bit \nsec \nRO \nTotal time powered up seconds \n400051 \nSystem powered up time lsw \n \n \n \n \n400052 \nReserved \n \n \n \n \n400053 \nReserved \n \n \n \n \n400054 \nRs485_1_dly \nu16bit \nmS \nRW \nRS485_1 Modbus Response Delay \n400055 \nRs485_2_dly \nu16bit \nmS \nRW \nRS485_2 Modbus Response Delay \n400056 \nRs232_1_dly \nu16bit \nmS \nRW \nRS232_1 Modbus Response Delay \n400057 \nRs232_2_dly \nu16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 2,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "NOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032 \nCommand, VIP, alarms, history (read and read/write where indicated) – this is the most common area that remote monitoring \nneeds to request, starting at 400101. Additional data is available in translated/scaled status polling range. \n402001 \n402424 \nRaw status polling range - FACTORY USE \n402425 \n402674 \nFault snapshots  \n403001 \n403359 \nTranslated/scaled status polling range \n406269 \n407815 \nSetpoint data-dynamic configuration overlay, changeable through Centurion Display and Modbus RTU \n \n4.0 Modbus Holding Register Table \nReg \nVariable \nFormat \nUnits \n RO     \n RW \nDescription \nCOMMAND, VIP,  ALARMS, HISTORY (READ AND READ/WRITE WHERE INDICATED) \n400001 \nCommand1 \nu16bit \nraw \nRO"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 125,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 23 - \n408683 \nHi_throw6_ten_lsw \n \n \nRW \n \n408684 \nHihi_throw6_ten_msw \ns32bit \n*lbs or N \nRW \nHigh Throw 6 Tension Rod Load Shutdown Setpoint   \n408685 \nHihi_throw6_ten_lsw \n \n \nRW \n \n \n* = refer to configuration report for units of measure choice \n \n5.0 Modbus RTU Application Addendum \n \n5.1 5-digit addressing: There is no difference in addressing between 5 or 6 digit holding register addresses.  Older Modbus clients may be \nlimited to 5 digits.  For the purposes of setting up tables in these devices, address 400001, for example, is the same as 40001.  The “40” \nprefix is not actually broadcast in the communication packet and is only for the purpose of human readability to designate the type of \ndata, in this case, holding registers, that is being described so that the proper function code may be used to read or write the data."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 16,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "400141 \nAI_17 \ns16bit \n*cfg \nRO \nScaled MX5 Analog Input 5 or Calculated Differential 5 \n400142 \nAI_18 \ns16bit \n*cfg \nRO \nScaled MX5 Analog Input 6 or Calculated Differential 6 \n400143 \nAI_19 \ns16bit \n*cfg \nRO \nScaled MX5 Analog Input 7 or Calculated Differential 7 \n400144 \nAI_20 \ns16bit \n*cfg \nRO \nScaled MX5 Analog Input 8 or Calculated Differential 8 \n400145 \nPid_output_1 \nu16bit \n*cfg \nRO \nScaled Control Loop 1 Output as Analog Input Value (Refer to \nconfiguration for engineering unit & data scale.)"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 49,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "bitmap \nbmp \nRO \nControl loop 7 status bits \n400568 \nStatus_bits_pid_8 \nbitmap \nbmp \nRO \nControl loop 8 status bits \n400569 \nReserved \n \n \n \n \n400570 \nReserved \n \n \n \n \n400571 \nReserved \n \n \n \n \n400572 \nReserved \n \n \n \n \n400573 \nReserved \n \n \n \n \n400574 \nReserved \n \n \n \n \n400575 \nReserved \n \n \n \n \n400576 \nReserved \n \n \n \n \n400577 \nReserved \n \n \n \n \n400578 \nReserved \n \n \n \n \nTEMPERATURE INPUT CHANNEL STATUS \n400579 \nTI1_wire_fault \nu16bit \nraw \nRO \nStatus of temperature input channel (1=TC OK, 2=RTD OK, \n3=OPEN,4=SHORT DC-,5=LEAK DC-,6=SHORT DC+, 7=LEAK DC+) \n400580 \nTI2_wire_fault \nu16bit \nraw \nRO \n \n400581 \nTI3_wire_fault \nu16bit \nraw \nRO \n \n400582 \nTI4_wire_fault \nu16bit \nraw \nRO \n \n400583 \nTI5_wire_fault \nu16bit \nraw \nRO \n \n400584 \nTI6_wire_fault \nu16bit \nraw \nRO \n \n400585 \nTI7_wire_fault \nu16bit \nraw \nRO \n \n400586 \nTI8_wire_fault \nu16bit \nraw \nRO \n \n400587 \nMX4_TI1_wire_fault \nu16bit \nraw \nRO \n \n400588 \nMX4_TI2_wire_fault \nu16bit \nraw \nRO \n \n400589 \nMX4_TI3_wire_fault \nu16bit"
+        }
+      ],
+      "baud_rate": [
+        {
+          "rank": 1,
+          "chunk_id": 10,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved \n \n \n \n \n400063 \nHardware_type \nu16bit \nraw \nRO \nFactory Use"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 53,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Reserved \n \n \n \n \n400651 \nReserved \n \n \n \n \n400652 \nReserved \n \n \n \n \n400653 \nReserved \n \n \n \n \n400654 \nReserved \n \n \n \n \n400655 \nReserved \n \n \n \n \n400656 \nReserved \n \n \n \n \n400657 \nReserved \n \n \n \n \n400658 \nReserved \n \n \n \n \n400659 \nReserved \n \n \n \n \n400660 \nReserved \n \n \n \n \n400661 \nReserved \n \n \n \n \n400662 \nReserved \n \n \n \n \n400663 \nReserved \n \n \n \n \n400664 \nReserved \n \n \n \n \n400665 \nReserved \n \n \n \n \n400666 \nReserved \n \n \n \n \n400667 \nReserved \n \n \n \n \n400668 \nReserved \n \n \n \n \n400669 \nReserved \n \n \n \n \n400670 \nReserved \n \n \n \n \n400671 \nReserved \n \n \n \n \n400672 \nReserved \n \n \n \n \n400673 \nReserved \n \n \n \n \n400674 \nReserved \n \n \n \n \n400675 \nReserved \n \n \n \n \n400676 \nReserved \n \n \n \n \n400677 \nReserved \n \n \n \n \n400678 \nReserved \n \n \n \n \n400679 \nReserved \n \n \n \n \n400680 \nReserved \n \n \n \n \nREAL-TIME CLOCK READING \n400681 \nModbus_clock_set \nu16bit \nraw \nRW \nWrite 1 to preset internal Real-time Clock \n400682 \nSecond \nu16bit \nraw \nRW \nReal-time Clock Seconds \n400683 \nMinute \nu16bit \nraw"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 9,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "RO \nFactory use-total device lifetime seconds  \n400045 \nLifetimer seconds lsw \n \n \n \n \n400046 \nNull task counter msw \nu32bit \nraw \nRO \nFactory use \n400047 \nNull task counter lsw \n \n \n \n \n400048 \nNull task lowest qs msw \nu32bit \nraw \nRO \nFactory use \n400049 \nNull task lowest qs lsw \n \n \n \n \n400050 \nSystem powered up time \nmsw \nu32bit \nsec \nRO \nTotal time powered up seconds \n400051 \nSystem powered up time lsw \n \n \n \n \n400052 \nReserved \n \n \n \n \n400053 \nReserved \n \n \n \n \n400054 \nRs485_1_dly \nu16bit \nmS \nRW \nRS485_1 Modbus Response Delay \n400055 \nRs485_2_dly \nu16bit \nmS \nRW \nRS485_2 Modbus Response Delay \n400056 \nRs232_1_dly \nu16bit \nmS \nRW \nRS232_1 Modbus Response Delay \n400057 \nRs232_2_dly \nu16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 1,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "requests from the Modbus client and for requests for data outside the ranges documented below. Modbus registers below are shown with 6-digit \naddressing.  \n \nFor advanced data reference and 5-digit addressing, refer to section 5.0.   \n \n2.0 Ports \n \nThere are RS232 and RS485 serial Modbus RTU ports available as well as Modbus TCP/IP Ethernet ports.  Refer to panel drawings for specific \nwiring diagrams. \n \nPress Setup on the Centurion Display to access the Setup Menu, and then choose Centurion Comm Ports to view and set port specific settings \nsuch as baud rate, number of stop bits, IP address or RTU node number. \n \nNOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 11,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 3 - \n400064 \nDIP_address \nu16bit \nraw \nRO \nSetting of the DIP Switch Modbus RTU Server Address for RS485-1 \n400065 \nReserved \n \n \n \n \n400066 \nReserved \n \n \n \n \n400067 \nReserved \n \n \n \n \n400068 \nReserved \n \n \n \n \n400069 \nReserved \n \n \n \n \nVIP DATA \n400101 \nState enumeration \nu16bit \nraw \nRO \nValue 1 to 23 representing operating state of the controller. (Refer \nto configuration for text descriptions for each value.) 23 = Fault \nShutdown 1 = Ready to Start   \n400102 \nRpm_converted \nu16bit \nRPM \nRO \nRPM value set by RPM Source selection in the configuration \n400103 \nReserved \n \n \n \n \n400104 \nReserved \n \n \n \n \n400105 \nReserved \n \n \n \n \n400106 \nReserved \n \n \n \n \n400107 \nStatus bits \nbitmap \nbmp \nRO \nBit 0 Fault Shutdown in progress \nBit 1 Emergency Shutdown in progress \nBit 2 Active alarms present \nBit 3 Start/Stop indicator 1=Start \nBit 4 Mode 1=Remote 0=Local \nBit 5 TEST timer is running \nBit 6 B1 timer is running \nBit 7 B2 timer is running"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 5,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 2 - \n400006 \nCommand2_parm1 \nu16bit \nraw \nRW \nCommand Parameter 1 \n400007 \nCommand2_parm2 \nu16bit \nraw \nRW \nCommand Parameter 2 \n400008 \nCommand2_complete \nu16bit \nraw \nRO \nLast command completed feedback \n400009 \nCfg_date_year \nu16bit \nraw \nRO \nTimestamp of Configuration Creation/Save \n400010 \nCfg_date_month \nu16bit \nraw \nRO \n \n400011 \nCfg_date_day \nu16bit \nraw \nRO \n \n400012 \nCfg_date_hour \nu16bit \nraw \nRO \n \n400013 \nCfg_date_minute \nu16bit \nraw \nRO \n \n400014 \nCfg_date_second \nu16bit \nraw \nRO \n \n400015 \nCfg_string1 \nstring \nraw \nRO \n16 character of Configuration Description \n400016 \nCfg_string2 \nstring \nraw \nRO \n \n400017 \nCfg_string3 \nstring \nraw \nRO \n \n400018 \nCfg_string4 \nstring \nraw \nRO \n \n400019 \nCfg_string5 \nstring \nraw \nRO \n \n400020 \nCfg_string6 \nstring \nraw \nRO \n \n400021 \nCfg_string7 \nstring \nraw \nRO \n \n400022 \nCfg_string8 \nstring \nraw \nRO \n \n400023 \nFw_number \nu16bit \nraw \nRO \nLast 5 digits of Firmware Number \n400024 \nCtl_major_ver \nu16bit"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 117,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "s16bit \n*cfg \nRW \n \n407750 \nSetpoint_127 \ns16bit \n*cfg \nRW \n \n407751 \nSetpoint_128 \ns16bit \n*cfg \nRW \n \n407752 \nSetpoint_129 \ns16bit \n*cfg \nRW \n \n407753 \nSetpoint_130 \ns16bit \n*cfg \nRW \n \n407754 \nSetpoint_131 \ns16bit \n*cfg \nRW \n \n407755 \nSetpoint_132 \ns16bit \n*cfg \nRW \n \n407756 \nSetpoint_133 \ns16bit \n*cfg \nRW \n \n407757 \nSetpoint_134 \ns16bit \n*cfg \nRW \n \n407758 \nSetpoint_135 \ns16bit \n*cfg \nRW \n \n407759 \nSetpoint_136 \ns16bit \n*cfg \nRW \n \n407760 \nSetpoint_137 \ns16bit \n*cfg \nRW \n \n407761 \nSetpoint_138 \ns16bit \n*cfg \nRW \n \n407762 \nSetpoint_139 \ns16bit \n*cfg \nRW \n \n407763 \nSetpoint_140 \ns16bit \n*cfg \nRW \n \n407764 \nSetpoint_141 \ns16bit \n*cfg \nRW \n \n407765 \nSetpoint_142 \ns16bit \n*cfg \nRW \n \n407766 \nSetpoint_143 \ns16bit \n*cfg \nRW \n \n407767 \nSetpoint_144 \ns16bit \n*cfg \nRW \n \n407768 \nSetpoint_145 \ns16bit \n*cfg \nRW \n \n407769 \nSetpoint_146 \ns16bit \n*cfg \nRW \n \n407770 \nSetpoint_147 \ns16bit \n*cfg \nRW \n \n407771 \nSetpoint_148 \ns16bit \n*cfg \nRW \n \n407772 \nSetpoint_149 \ns16bit \n*cfg \nRW \n \n407773"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 110,
+          "page": 18,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "description, units and decimals.) \n407625 \nSetpoint_002 \ns16bit \n*cfg \nRW \n \n407626 \nSetpoint_003 \ns16bit \n*cfg \nRW \n \n407627 \nSetpoint_004 \ns16bit \n*cfg \nRW \n \n407628 \nSetpoint_005 \ns16bit \n*cfg \nRW \n \n407629 \nSetpoint_006 \ns16bit \n*cfg \nRW \n \n407630 \nSetpoint_007 \ns16bit \n*cfg \nRW \n \n407631 \nSetpoint_008 \ns16bit \n*cfg \nRW \n \n407632 \nSetpoint_009 \ns16bit \n*cfg \nRW \n \n407633 \nSetpoint_010 \ns16bit \n*cfg \nRW \n \n407634 \nSetpoint_011 \ns16bit \n*cfg \nRW \n \n407635 \nSetpoint_012 \ns16bit \n*cfg \nRW \n \n407636 \nSetpoint_013 \ns16bit \n*cfg \nRW \n \n407637 \nSetpoint_014 \ns16bit \n*cfg \nRW \n \n407638 \nSetpoint_015 \ns16bit \n*cfg \nRW \n \n407639 \nSetpoint_016 \ns16bit \n*cfg \nRW \n \n407640 \nSetpoint_017 \ns16bit \n*cfg \nRW \n \n407641 \nSetpoint_018 \ns16bit \n*cfg \nRW \n \n407642 \nSetpoint_019 \ns16bit \n*cfg \nRW \n \n407643 \nSetpoint_020 \ns16bit \n*cfg \nRW \n \n407644 \nSetpoint_021 \ns16bit \n*cfg \nRW"
+        }
+      ],
+      "data_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 10,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved \n \n \n \n \n400063 \nHardware_type \nu16bit \nraw \nRO \nFactory Use"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 128,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "5.4.5 \nSigned Long = a whole number value made of 31 bits with the sign bit at the MSB position. Range = −2,147,483,648 to \n2,147,483,647 \n5.4.6 \nUnsigned Long = a whole number value made of 32 bits. Range = 0 to 4,294,967,295 \n5.4.7 \nLSB = Least significant bit in a word, bit 1, this holds a bit value of 1. \n5.4.8 \nMSB = Most significant bit in a word, bit 16, this holds a bit value of 32768. \n5.4.9 \nMSW = Most significant word, used to describe upper half of a long. \n5.4.10 \nLSW = Least significant word, used to describe lower half of a long. \n \n5.5 Examination of Bits within a 16 bit unsigned word:  \n \n5.5.1 \nSome Modbus Holding Registers in the Centurion contain bitmapped information showing the status of individual bits \nwithin a 16-bit Modbus Holding register. \n5.5.2 \nTo pick out the individual bits, some PLC, HMI and SCADA packages allow bit-level addressing to see the individual bits \n(refer to the user guides for the product). \n5.5.3"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 48,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 10 - \nBit 1 override 1 active, not in deadband \nBit 2 override 2 active, in deadband \nBit 3 override 2 active, not in deadband \nBit 4 override 3 active, in deadband \nBit 5 override 3 active, not in deadband \nBit 6 fully unloaded input active \nBit 7 fully loaded input active \n400562 \nStatus_bits_pid_2 \nbitmap \nbmp \nRO \nControl loop 2 status bits \n400563 \nStatus_bits_pid_3 \nbitmap \nbmp \nRO \nControl loop 3 status bits \n400564 \nStatus_bits_pid_4 \nbitmap \nbmp \nRO \nControl loop 4 status bits \n400565 \nStatus_bits_pid_5 \nbitmap \nbmp \nRO \nControl loop 5 status bits \n400566 \nStatus_bits_pid_6 \nbitmap \nbmp \nRO \nControl loop 6 status bits \n400567 \nStatus_bits_pid_7 \nbitmap \nbmp \nRO \nControl loop 7 status bits \n400568 \nStatus_bits_pid_8 \nbitmap \nbmp \nRO \nControl loop 8 status bits \n400569 \nReserved \n \n \n \n \n400570 \nReserved \n \n \n \n \n400571 \nReserved \n \n \n \n \n400572 \nReserved \n \n \n \n \n400573 \nReserved \n \n \n \n \n400574 \nReserved \n \n \n \n \n400575 \nReserved"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 49,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "bitmap \nbmp \nRO \nControl loop 7 status bits \n400568 \nStatus_bits_pid_8 \nbitmap \nbmp \nRO \nControl loop 8 status bits \n400569 \nReserved \n \n \n \n \n400570 \nReserved \n \n \n \n \n400571 \nReserved \n \n \n \n \n400572 \nReserved \n \n \n \n \n400573 \nReserved \n \n \n \n \n400574 \nReserved \n \n \n \n \n400575 \nReserved \n \n \n \n \n400576 \nReserved \n \n \n \n \n400577 \nReserved \n \n \n \n \n400578 \nReserved \n \n \n \n \nTEMPERATURE INPUT CHANNEL STATUS \n400579 \nTI1_wire_fault \nu16bit \nraw \nRO \nStatus of temperature input channel (1=TC OK, 2=RTD OK, \n3=OPEN,4=SHORT DC-,5=LEAK DC-,6=SHORT DC+, 7=LEAK DC+) \n400580 \nTI2_wire_fault \nu16bit \nraw \nRO \n \n400581 \nTI3_wire_fault \nu16bit \nraw \nRO \n \n400582 \nTI4_wire_fault \nu16bit \nraw \nRO \n \n400583 \nTI5_wire_fault \nu16bit \nraw \nRO \n \n400584 \nTI6_wire_fault \nu16bit \nraw \nRO \n \n400585 \nTI7_wire_fault \nu16bit \nraw \nRO \n \n400586 \nTI8_wire_fault \nu16bit \nraw \nRO \n \n400587 \nMX4_TI1_wire_fault \nu16bit \nraw \nRO \n \n400588 \nMX4_TI2_wire_fault \nu16bit \nraw \nRO \n \n400589 \nMX4_TI3_wire_fault \nu16bit"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 47,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u32bit \nsec \nRO \n \n400548 \nEvent29_lsw \n \n \n \n \n400549 \nEvent29_enum \nu16bit \nraw \nRO \n \n400550 \nEvent30_msw \nu32bit \nsec \nRO \n \n400551 \nEvent30_lsw \n \n \n \n \n400552 \nEvent30_enum \nu16bit \nraw \nRO \n \n400553 \nEvent31_msw \nu32bit \nsec \nRO \n \n400554 \nEvent31_lsw \n \n \n \n \n400555 \nEvent31_enum \nu16bit \nraw \nRO \n \n400556 \nEvent32_msw \nu32bit \nsec \nRO \n \n400557 \nEvent32_lsw \n \n \n \n \n400558 \nEvent32_enum \nu16bit \nraw \nRO \n \n400559 \nReserved \n \n \n \n \n400560 \nReserved \n \n \n \n \n400561 \nStatus_bits_pid_1  \nbitmap \nbmp \nRO \nControl loop 1 status bits  \nBit 0 override 1 active, in deadband"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 125,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 23 - \n408683 \nHi_throw6_ten_lsw \n \n \nRW \n \n408684 \nHihi_throw6_ten_msw \ns32bit \n*lbs or N \nRW \nHigh Throw 6 Tension Rod Load Shutdown Setpoint   \n408685 \nHihi_throw6_ten_lsw \n \n \nRW \n \n \n* = refer to configuration report for units of measure choice \n \n5.0 Modbus RTU Application Addendum \n \n5.1 5-digit addressing: There is no difference in addressing between 5 or 6 digit holding register addresses.  Older Modbus clients may be \nlimited to 5 digits.  For the purposes of setting up tables in these devices, address 400001, for example, is the same as 40001.  The “40” \nprefix is not actually broadcast in the communication packet and is only for the purpose of human readability to designate the type of \ndata, in this case, holding registers, that is being described so that the proper function code may be used to read or write the data."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 132,
+          "page": 23,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 24 - \n \n5.6 Examination of Long integer data (32 bit integers):  \n \n5.6.1 \nModbus RTU Holding registers each contain only 16 bits. \n5.6.2 \nIn order to represent a 32 bit number, 2 consecutive registers are used with the first register address representing the \nMSW and the subsequent address representing the LSW. \n5.6.3 \nThe most common example of this use is when representing the Centurion’s Run Hourmeter counter which is stored as \nan unsigned long in the controller.   \n400119 contains the MSW of the Run Hourmeter counter (in seconds). \n400120 contains the LSW of the Run Hourmeter counter (in seconds). \nTo calculate the actual time in seconds, the 2 words must be joined to create a 32 bit number.  There are \nseveral methods that can be used, depending on the options in the PLC, HMI or SCADA package; one may be \npreferred over the other. \n5.6.4"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 127,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "descriptions. \n \n5.3 Sequence of Operation = A document that describes the operation of the Centurion as it was configured for your application.  Each \nCenturion system is custom configured and has custom events, setpoints and process data points.  The information contained in the \nModbus registers requires a Sequence of Operation to describe the data points and event enumerations correctly. \n \n5.4 Definitions \n \n5.4.1 \nBit = a single binary digit, can be 0 or 1 \n5.4.2 \nWord = group of 16 bits \n5.4.3 \nSigned Integer = a whole number value made of 15 bits with the sign bit at the MSB position. Range = -32767 to 32767 \n5.4.4 \nUnsigned Integer = a whole number value made of 16 bits. Range = 0 to 65535 \n5.4.5 \nSigned Long = a whole number value made of 31 bits with the sign bit at the MSB position. Range = −2,147,483,648 to \n2,147,483,647 \n5.4.6 \nUnsigned Long = a whole number value made of 32 bits. Range = 0 to 4,294,967,295 \n5.4.7"
+        }
+      ],
+      "parity": [
+        {
+          "rank": 1,
+          "chunk_id": 10,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved \n \n \n \n \n400063 \nHardware_type \nu16bit \nraw \nRO \nFactory Use"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 9,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "RO \nFactory use-total device lifetime seconds  \n400045 \nLifetimer seconds lsw \n \n \n \n \n400046 \nNull task counter msw \nu32bit \nraw \nRO \nFactory use \n400047 \nNull task counter lsw \n \n \n \n \n400048 \nNull task lowest qs msw \nu32bit \nraw \nRO \nFactory use \n400049 \nNull task lowest qs lsw \n \n \n \n \n400050 \nSystem powered up time \nmsw \nu32bit \nsec \nRO \nTotal time powered up seconds \n400051 \nSystem powered up time lsw \n \n \n \n \n400052 \nReserved \n \n \n \n \n400053 \nReserved \n \n \n \n \n400054 \nRs485_1_dly \nu16bit \nmS \nRW \nRS485_1 Modbus Response Delay \n400055 \nRs485_2_dly \nu16bit \nmS \nRW \nRS485_2 Modbus Response Delay \n400056 \nRs232_1_dly \nu16bit \nmS \nRW \nRS232_1 Modbus Response Delay \n400057 \nRs232_2_dly \nu16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 53,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Reserved \n \n \n \n \n400651 \nReserved \n \n \n \n \n400652 \nReserved \n \n \n \n \n400653 \nReserved \n \n \n \n \n400654 \nReserved \n \n \n \n \n400655 \nReserved \n \n \n \n \n400656 \nReserved \n \n \n \n \n400657 \nReserved \n \n \n \n \n400658 \nReserved \n \n \n \n \n400659 \nReserved \n \n \n \n \n400660 \nReserved \n \n \n \n \n400661 \nReserved \n \n \n \n \n400662 \nReserved \n \n \n \n \n400663 \nReserved \n \n \n \n \n400664 \nReserved \n \n \n \n \n400665 \nReserved \n \n \n \n \n400666 \nReserved \n \n \n \n \n400667 \nReserved \n \n \n \n \n400668 \nReserved \n \n \n \n \n400669 \nReserved \n \n \n \n \n400670 \nReserved \n \n \n \n \n400671 \nReserved \n \n \n \n \n400672 \nReserved \n \n \n \n \n400673 \nReserved \n \n \n \n \n400674 \nReserved \n \n \n \n \n400675 \nReserved \n \n \n \n \n400676 \nReserved \n \n \n \n \n400677 \nReserved \n \n \n \n \n400678 \nReserved \n \n \n \n \n400679 \nReserved \n \n \n \n \n400680 \nReserved \n \n \n \n \nREAL-TIME CLOCK READING \n400681 \nModbus_clock_set \nu16bit \nraw \nRW \nWrite 1 to preset internal Real-time Clock \n400682 \nSecond \nu16bit \nraw \nRW \nReal-time Clock Seconds \n400683 \nMinute \nu16bit \nraw"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 47,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u32bit \nsec \nRO \n \n400548 \nEvent29_lsw \n \n \n \n \n400549 \nEvent29_enum \nu16bit \nraw \nRO \n \n400550 \nEvent30_msw \nu32bit \nsec \nRO \n \n400551 \nEvent30_lsw \n \n \n \n \n400552 \nEvent30_enum \nu16bit \nraw \nRO \n \n400553 \nEvent31_msw \nu32bit \nsec \nRO \n \n400554 \nEvent31_lsw \n \n \n \n \n400555 \nEvent31_enum \nu16bit \nraw \nRO \n \n400556 \nEvent32_msw \nu32bit \nsec \nRO \n \n400557 \nEvent32_lsw \n \n \n \n \n400558 \nEvent32_enum \nu16bit \nraw \nRO \n \n400559 \nReserved \n \n \n \n \n400560 \nReserved \n \n \n \n \n400561 \nStatus_bits_pid_1  \nbitmap \nbmp \nRO \nControl loop 1 status bits  \nBit 0 override 1 active, in deadband"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 11,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 3 - \n400064 \nDIP_address \nu16bit \nraw \nRO \nSetting of the DIP Switch Modbus RTU Server Address for RS485-1 \n400065 \nReserved \n \n \n \n \n400066 \nReserved \n \n \n \n \n400067 \nReserved \n \n \n \n \n400068 \nReserved \n \n \n \n \n400069 \nReserved \n \n \n \n \nVIP DATA \n400101 \nState enumeration \nu16bit \nraw \nRO \nValue 1 to 23 representing operating state of the controller. (Refer \nto configuration for text descriptions for each value.) 23 = Fault \nShutdown 1 = Ready to Start   \n400102 \nRpm_converted \nu16bit \nRPM \nRO \nRPM value set by RPM Source selection in the configuration \n400103 \nReserved \n \n \n \n \n400104 \nReserved \n \n \n \n \n400105 \nReserved \n \n \n \n \n400106 \nReserved \n \n \n \n \n400107 \nStatus bits \nbitmap \nbmp \nRO \nBit 0 Fault Shutdown in progress \nBit 1 Emergency Shutdown in progress \nBit 2 Active alarms present \nBit 3 Start/Stop indicator 1=Start \nBit 4 Mode 1=Remote 0=Local \nBit 5 TEST timer is running \nBit 6 B1 timer is running \nBit 7 B2 timer is running"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 2,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "NOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032 \nCommand, VIP, alarms, history (read and read/write where indicated) – this is the most common area that remote monitoring \nneeds to request, starting at 400101. Additional data is available in translated/scaled status polling range. \n402001 \n402424 \nRaw status polling range - FACTORY USE \n402425 \n402674 \nFault snapshots  \n403001 \n403359 \nTranslated/scaled status polling range \n406269 \n407815 \nSetpoint data-dynamic configuration overlay, changeable through Centurion Display and Modbus RTU \n \n4.0 Modbus Holding Register Table \nReg \nVariable \nFormat \nUnits \n RO     \n RW \nDescription \nCOMMAND, VIP,  ALARMS, HISTORY (READ AND READ/WRITE WHERE INDICATED) \n400001 \nCommand1 \nu16bit \nraw \nRO"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 48,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 10 - \nBit 1 override 1 active, not in deadband \nBit 2 override 2 active, in deadband \nBit 3 override 2 active, not in deadband \nBit 4 override 3 active, in deadband \nBit 5 override 3 active, not in deadband \nBit 6 fully unloaded input active \nBit 7 fully loaded input active \n400562 \nStatus_bits_pid_2 \nbitmap \nbmp \nRO \nControl loop 2 status bits \n400563 \nStatus_bits_pid_3 \nbitmap \nbmp \nRO \nControl loop 3 status bits \n400564 \nStatus_bits_pid_4 \nbitmap \nbmp \nRO \nControl loop 4 status bits \n400565 \nStatus_bits_pid_5 \nbitmap \nbmp \nRO \nControl loop 5 status bits \n400566 \nStatus_bits_pid_6 \nbitmap \nbmp \nRO \nControl loop 6 status bits \n400567 \nStatus_bits_pid_7 \nbitmap \nbmp \nRO \nControl loop 7 status bits \n400568 \nStatus_bits_pid_8 \nbitmap \nbmp \nRO \nControl loop 8 status bits \n400569 \nReserved \n \n \n \n \n400570 \nReserved \n \n \n \n \n400571 \nReserved \n \n \n \n \n400572 \nReserved \n \n \n \n \n400573 \nReserved \n \n \n \n \n400574 \nReserved \n \n \n \n \n400575 \nReserved"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 108,
+          "page": 18,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u16bit \n*cfg \nRW \nControl Loop 1 Deadband \n406284 \nPid_2_setpoint \ns16bit \n*cfg \nRW \nControl Loop 2 Setpoint  \n406285 \nPid_2_deadband \nu16bit \n*cfg \nRW \nControl Loop 2 Deadband \n406299 \nPid_3_setpoint \ns16bit \n*cfg \nRW \nControl Loop 3 Setpoint  \n406300 \nPid_3_deadband \nu16bit \n*cfg \nRW \nControl Loop 3 Deadband \n406314 \nPid_4_setpoint \ns16bit \n*cfg \nRW \nControl Loop 4 Setpoint  \n406315 \nPid_4_deadband \nu16bit \n*cfg \nRW \nControl Loop 4 Deadband \n406329 \nPid_5_setpoint \ns16bit \n*cfg \nRW \nControl Loop 5 Setpoint  \n406330 \nPid_5_deadband \nu16bit \n*cfg \nRW \nControl Loop 5 Deadband \n406344 \nPid_6_setpoint \ns16bit \n*cfg \nRW \nControl Loop 6 Setpoint  \n406345 \nPid_6_deadband \nu16bit \n*cfg \nRW \nControl Loop 6 Deadband \n406359 \nPid_7_setpoint \ns16bit \n*cfg \nRW \nControl Loop 7 Setpoint  \n406360 \nPid_7_deadband \nu16bit \n*cfg \nRW \nControl Loop 7 Deadband \n406374 \nPid_8_setpoint \ns16bit \n*cfg \nRW \nControl Loop 8 Setpoint  \n406375 \nPid_8_deadband \nu16bit \n*cfg \nRW \nControl Loop 8 Deadband \n406616"
+        }
+      ],
+      "stop_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 48,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 10 - \nBit 1 override 1 active, not in deadband \nBit 2 override 2 active, in deadband \nBit 3 override 2 active, not in deadband \nBit 4 override 3 active, in deadband \nBit 5 override 3 active, not in deadband \nBit 6 fully unloaded input active \nBit 7 fully loaded input active \n400562 \nStatus_bits_pid_2 \nbitmap \nbmp \nRO \nControl loop 2 status bits \n400563 \nStatus_bits_pid_3 \nbitmap \nbmp \nRO \nControl loop 3 status bits \n400564 \nStatus_bits_pid_4 \nbitmap \nbmp \nRO \nControl loop 4 status bits \n400565 \nStatus_bits_pid_5 \nbitmap \nbmp \nRO \nControl loop 5 status bits \n400566 \nStatus_bits_pid_6 \nbitmap \nbmp \nRO \nControl loop 6 status bits \n400567 \nStatus_bits_pid_7 \nbitmap \nbmp \nRO \nControl loop 7 status bits \n400568 \nStatus_bits_pid_8 \nbitmap \nbmp \nRO \nControl loop 8 status bits \n400569 \nReserved \n \n \n \n \n400570 \nReserved \n \n \n \n \n400571 \nReserved \n \n \n \n \n400572 \nReserved \n \n \n \n \n400573 \nReserved \n \n \n \n \n400574 \nReserved \n \n \n \n \n400575 \nReserved"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 47,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u32bit \nsec \nRO \n \n400548 \nEvent29_lsw \n \n \n \n \n400549 \nEvent29_enum \nu16bit \nraw \nRO \n \n400550 \nEvent30_msw \nu32bit \nsec \nRO \n \n400551 \nEvent30_lsw \n \n \n \n \n400552 \nEvent30_enum \nu16bit \nraw \nRO \n \n400553 \nEvent31_msw \nu32bit \nsec \nRO \n \n400554 \nEvent31_lsw \n \n \n \n \n400555 \nEvent31_enum \nu16bit \nraw \nRO \n \n400556 \nEvent32_msw \nu32bit \nsec \nRO \n \n400557 \nEvent32_lsw \n \n \n \n \n400558 \nEvent32_enum \nu16bit \nraw \nRO \n \n400559 \nReserved \n \n \n \n \n400560 \nReserved \n \n \n \n \n400561 \nStatus_bits_pid_1  \nbitmap \nbmp \nRO \nControl loop 1 status bits  \nBit 0 override 1 active, in deadband"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 10,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved \n \n \n \n \n400063 \nHardware_type \nu16bit \nraw \nRO \nFactory Use"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 11,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 3 - \n400064 \nDIP_address \nu16bit \nraw \nRO \nSetting of the DIP Switch Modbus RTU Server Address for RS485-1 \n400065 \nReserved \n \n \n \n \n400066 \nReserved \n \n \n \n \n400067 \nReserved \n \n \n \n \n400068 \nReserved \n \n \n \n \n400069 \nReserved \n \n \n \n \nVIP DATA \n400101 \nState enumeration \nu16bit \nraw \nRO \nValue 1 to 23 representing operating state of the controller. (Refer \nto configuration for text descriptions for each value.) 23 = Fault \nShutdown 1 = Ready to Start   \n400102 \nRpm_converted \nu16bit \nRPM \nRO \nRPM value set by RPM Source selection in the configuration \n400103 \nReserved \n \n \n \n \n400104 \nReserved \n \n \n \n \n400105 \nReserved \n \n \n \n \n400106 \nReserved \n \n \n \n \n400107 \nStatus bits \nbitmap \nbmp \nRO \nBit 0 Fault Shutdown in progress \nBit 1 Emergency Shutdown in progress \nBit 2 Active alarms present \nBit 3 Start/Stop indicator 1=Start \nBit 4 Mode 1=Remote 0=Local \nBit 5 TEST timer is running \nBit 6 B1 timer is running \nBit 7 B2 timer is running"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 24,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 5 - \nBit 5 Control Loop 6 Mode \nBit 6 Control Loop 7 Mode \nBit 7 Control Loop 8 Mode \n400206 \nPid_enabled \nbitmap \n \nRO \nControl Loop Enabled-Each loop may be independently configured to be \nactive at specific times (0=Not Active,1=Enabled/Controlling). \nBit 0 Control Loop 1 Active \nBit 1 Control Loop 2 Active \nBit 2 Control Loop 3 Active \nBit 3 Control Loop 4 Active \nBit 4 Control Loop 5 Active \nBit 5 Control Loop 6 Active \nBit 6 Control Loop 7 Active \nBit 7 Control Loop 8 Active \n400207 \nPid_override \nbitmap \n \nRO \nControl Loop override Status-Each loop has up to 3 possible Overrides \nto change control loop action based on other signals.  This bit indicates \nthe override is active (0=Not Active, 1=Active). \nBit 0 Control Loop 1 override Active \nBit 1 Control Loop 2 override Active \nBit 2 Control Loop 3 override Active \nBit 3 Control Loop 4 override Active \nBit 4 Control Loop 5 override Active \nBit 5 Control Loop 6 override Active"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 49,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "bitmap \nbmp \nRO \nControl loop 7 status bits \n400568 \nStatus_bits_pid_8 \nbitmap \nbmp \nRO \nControl loop 8 status bits \n400569 \nReserved \n \n \n \n \n400570 \nReserved \n \n \n \n \n400571 \nReserved \n \n \n \n \n400572 \nReserved \n \n \n \n \n400573 \nReserved \n \n \n \n \n400574 \nReserved \n \n \n \n \n400575 \nReserved \n \n \n \n \n400576 \nReserved \n \n \n \n \n400577 \nReserved \n \n \n \n \n400578 \nReserved \n \n \n \n \nTEMPERATURE INPUT CHANNEL STATUS \n400579 \nTI1_wire_fault \nu16bit \nraw \nRO \nStatus of temperature input channel (1=TC OK, 2=RTD OK, \n3=OPEN,4=SHORT DC-,5=LEAK DC-,6=SHORT DC+, 7=LEAK DC+) \n400580 \nTI2_wire_fault \nu16bit \nraw \nRO \n \n400581 \nTI3_wire_fault \nu16bit \nraw \nRO \n \n400582 \nTI4_wire_fault \nu16bit \nraw \nRO \n \n400583 \nTI5_wire_fault \nu16bit \nraw \nRO \n \n400584 \nTI6_wire_fault \nu16bit \nraw \nRO \n \n400585 \nTI7_wire_fault \nu16bit \nraw \nRO \n \n400586 \nTI8_wire_fault \nu16bit \nraw \nRO \n \n400587 \nMX4_TI1_wire_fault \nu16bit \nraw \nRO \n \n400588 \nMX4_TI2_wire_fault \nu16bit \nraw \nRO \n \n400589 \nMX4_TI3_wire_fault \nu16bit"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 129,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "within a 16-bit Modbus Holding register. \n5.5.2 \nTo pick out the individual bits, some PLC, HMI and SCADA packages allow bit-level addressing to see the individual bits \n(refer to the user guides for the product). \n5.5.3 \nIn addition, most PLC, HMI and SCADA packages have a function called “bitwise AND”.  Using this function, the bits or \ngroup of bits within a word can be picked out easily using a mask that allows the bit position you wish to see to pass \nthrough and ignore the other bits. \n5.5.4 \nTo do this, turn off all the unwanted bits using the bitwise AND function. Then compare the value with 0. If it is equal to 0, \nthen the bit was off, but if the value is any other value, then the bit was on. What makes this convenient is that it is not \nnecessary to figure out what the value actually is, just that it is not 0 (like example 1 below).  If groups of bits are wanted, \nthen it is possible to mask out bits (like the MSB in example 2 below)."
+        },
+        {
+          "rank": 8,
+          "chunk_id": 109,
+          "page": 18,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "406359 \nPid_7_setpoint \ns16bit \n*cfg \nRW \nControl Loop 7 Setpoint  \n406360 \nPid_7_deadband \nu16bit \n*cfg \nRW \nControl Loop 7 Deadband \n406374 \nPid_8_setpoint \ns16bit \n*cfg \nRW \nControl Loop 8 Setpoint  \n406375 \nPid_8_deadband \nu16bit \n*cfg \nRW \nControl Loop 8 Deadband \n406616 \nCooldown_rpm \nu16bit \nRPM \nRW \nThrottle Control Cooldown RPM Setpoint \n406617 \nWarmup_rpm \nu16bit \nRPM \nRW \nThrottle Control Warmup RPM Setpoint \n406618 \nWait_for_load_rpm \nu16bit \nRPM \nRW \nThrottle Control Wait For Load RPM Setpoint \n406619 \nRun_loaded_rpm \nu16bit \nRPM \nRW \nThrottle Control Run Loaded RPM Setpoint \n407624 \nSetpoint_001 \ns16bit \n*cfg \nRW \nSetpoint 1-192 Data (Refer to Centurion configuration report for \ndescription, units and decimals.) \n407625 \nSetpoint_002 \ns16bit \n*cfg \nRW \n \n407626 \nSetpoint_003 \ns16bit \n*cfg \nRW \n \n407627 \nSetpoint_004 \ns16bit \n*cfg \nRW \n \n407628 \nSetpoint_005 \ns16bit \n*cfg \nRW \n \n407629 \nSetpoint_006 \ns16bit \n*cfg \nRW \n \n407630 \nSetpoint_007 \ns16bit \n*cfg \nRW \n \n407631"
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 125,
+        "page": 22,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard",
+          "data_bits"
+        ],
+        "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 23 - \n408683 \nHi_throw6_ten_lsw \n \n \nRW \n \n408684 \nHihi_throw6_ten_msw \ns32bit \n*lbs or N \nRW \nHigh Throw 6 Tension Rod Load Shutdown Setpoint   \n408685 \nHihi_throw6_ten_lsw \n \n \nRW \n \n \n* = refer to configuration report for units of measure choice \n \n5.0 Modbus RTU Application Addendum \n \n5.1 5-digit addressing: There is no difference in addressing between 5 or 6 digit holding register addresses.  Older Modbus clients may be \nlimited to 5 digits.  For the purposes of setting up tables in these devices, address 400001, for example, is the same as 40001.  The “40” \nprefix is not actually broadcast in the communication packet and is only for the purpose of human readability to designate the type of \ndata, in this case, holding registers, that is being described so that the proper function code may be used to read or write the data."
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 10,
+        "page": 1,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "u16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved \n \n \n \n \n400063 \nHardware_type \nu16bit \nraw \nRO \nFactory Use"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 1,
+        "page": 0,
+        "score": 6,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate"
+        ],
+        "content": "requests from the Modbus client and for requests for data outside the ranges documented below. Modbus registers below are shown with 6-digit \naddressing.  \n \nFor advanced data reference and 5-digit addressing, refer to section 5.0.   \n \n2.0 Ports \n \nThere are RS232 and RS485 serial Modbus RTU ports available as well as Modbus TCP/IP Ethernet ports.  Refer to panel drawings for specific \nwiring diagrams. \n \nPress Setup on the Centurion Display to access the Setup Menu, and then choose Centurion Comm Ports to view and set port specific settings \nsuch as baud rate, number of stop bits, IP address or RTU node number. \n \nNOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 2,
+        "page": 0,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard",
+          "parity"
+        ],
+        "content": "NOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032 \nCommand, VIP, alarms, history (read and read/write where indicated) – this is the most common area that remote monitoring \nneeds to request, starting at 400101. Additional data is available in translated/scaled status polling range. \n402001 \n402424 \nRaw status polling range - FACTORY USE \n402425 \n402674 \nFault snapshots  \n403001 \n403359 \nTranslated/scaled status polling range \n406269 \n407815 \nSetpoint data-dynamic configuration overlay, changeable through Centurion Display and Modbus RTU \n \n4.0 Modbus Holding Register Table \nReg \nVariable \nFormat \nUnits \n RO     \n RW \nDescription \nCOMMAND, VIP,  ALARMS, HISTORY (READ AND READ/WRITE WHERE INDICATED) \n400001 \nCommand1 \nu16bit \nraw \nRO"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 49,
+        "page": 9,
+        "score": 5,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard",
+          "data_bits",
+          "stop_bits"
+        ],
+        "content": "bitmap \nbmp \nRO \nControl loop 7 status bits \n400568 \nStatus_bits_pid_8 \nbitmap \nbmp \nRO \nControl loop 8 status bits \n400569 \nReserved \n \n \n \n \n400570 \nReserved \n \n \n \n \n400571 \nReserved \n \n \n \n \n400572 \nReserved \n \n \n \n \n400573 \nReserved \n \n \n \n \n400574 \nReserved \n \n \n \n \n400575 \nReserved \n \n \n \n \n400576 \nReserved \n \n \n \n \n400577 \nReserved \n \n \n \n \n400578 \nReserved \n \n \n \n \nTEMPERATURE INPUT CHANNEL STATUS \n400579 \nTI1_wire_fault \nu16bit \nraw \nRO \nStatus of temperature input channel (1=TC OK, 2=RTD OK, \n3=OPEN,4=SHORT DC-,5=LEAK DC-,6=SHORT DC+, 7=LEAK DC+) \n400580 \nTI2_wire_fault \nu16bit \nraw \nRO \n \n400581 \nTI3_wire_fault \nu16bit \nraw \nRO \n \n400582 \nTI4_wire_fault \nu16bit \nraw \nRO \n \n400583 \nTI5_wire_fault \nu16bit \nraw \nRO \n \n400584 \nTI6_wire_fault \nu16bit \nraw \nRO \n \n400585 \nTI7_wire_fault \nu16bit \nraw \nRO \n \n400586 \nTI8_wire_fault \nu16bit \nraw \nRO \n \n400587 \nMX4_TI1_wire_fault \nu16bit \nraw \nRO \n \n400588 \nMX4_TI2_wire_fault \nu16bit \nraw \nRO \n \n400589 \nMX4_TI3_wire_fault \nu16bit"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 11,
+        "page": 2,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 3 - \n400064 \nDIP_address \nu16bit \nraw \nRO \nSetting of the DIP Switch Modbus RTU Server Address for RS485-1 \n400065 \nReserved \n \n \n \n \n400066 \nReserved \n \n \n \n \n400067 \nReserved \n \n \n \n \n400068 \nReserved \n \n \n \n \n400069 \nReserved \n \n \n \n \nVIP DATA \n400101 \nState enumeration \nu16bit \nraw \nRO \nValue 1 to 23 representing operating state of the controller. (Refer \nto configuration for text descriptions for each value.) 23 = Fault \nShutdown 1 = Ready to Start   \n400102 \nRpm_converted \nu16bit \nRPM \nRO \nRPM value set by RPM Source selection in the configuration \n400103 \nReserved \n \n \n \n \n400104 \nReserved \n \n \n \n \n400105 \nReserved \n \n \n \n \n400106 \nReserved \n \n \n \n \n400107 \nStatus bits \nbitmap \nbmp \nRO \nBit 0 Fault Shutdown in progress \nBit 1 Emergency Shutdown in progress \nBit 2 Active alarms present \nBit 3 Start/Stop indicator 1=Start \nBit 4 Mode 1=Remote 0=Local \nBit 5 TEST timer is running \nBit 6 B1 timer is running \nBit 7 B2 timer is running"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 9,
+        "page": 1,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "parity"
+        ],
+        "content": "RO \nFactory use-total device lifetime seconds  \n400045 \nLifetimer seconds lsw \n \n \n \n \n400046 \nNull task counter msw \nu32bit \nraw \nRO \nFactory use \n400047 \nNull task counter lsw \n \n \n \n \n400048 \nNull task lowest qs msw \nu32bit \nraw \nRO \nFactory use \n400049 \nNull task lowest qs lsw \n \n \n \n \n400050 \nSystem powered up time \nmsw \nu32bit \nsec \nRO \nTotal time powered up seconds \n400051 \nSystem powered up time lsw \n \n \n \n \n400052 \nReserved \n \n \n \n \n400053 \nReserved \n \n \n \n \n400054 \nRs485_1_dly \nu16bit \nmS \nRW \nRS485_1 Modbus Response Delay \n400055 \nRs485_2_dly \nu16bit \nmS \nRW \nRS485_2 Modbus Response Delay \n400056 \nRs232_1_dly \nu16bit \nmS \nRW \nRS232_1 Modbus Response Delay \n400057 \nRs232_2_dly \nu16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 48,
+        "page": 9,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 10 - \nBit 1 override 1 active, not in deadband \nBit 2 override 2 active, in deadband \nBit 3 override 2 active, not in deadband \nBit 4 override 3 active, in deadband \nBit 5 override 3 active, not in deadband \nBit 6 fully unloaded input active \nBit 7 fully loaded input active \n400562 \nStatus_bits_pid_2 \nbitmap \nbmp \nRO \nControl loop 2 status bits \n400563 \nStatus_bits_pid_3 \nbitmap \nbmp \nRO \nControl loop 3 status bits \n400564 \nStatus_bits_pid_4 \nbitmap \nbmp \nRO \nControl loop 4 status bits \n400565 \nStatus_bits_pid_5 \nbitmap \nbmp \nRO \nControl loop 5 status bits \n400566 \nStatus_bits_pid_6 \nbitmap \nbmp \nRO \nControl loop 6 status bits \n400567 \nStatus_bits_pid_7 \nbitmap \nbmp \nRO \nControl loop 7 status bits \n400568 \nStatus_bits_pid_8 \nbitmap \nbmp \nRO \nControl loop 8 status bits \n400569 \nReserved \n \n \n \n \n400570 \nReserved \n \n \n \n \n400571 \nReserved \n \n \n \n \n400572 \nReserved \n \n \n \n \n400573 \nReserved \n \n \n \n \n400574 \nReserved \n \n \n \n \n400575 \nReserved"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 132,
+        "page": 23,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 24 - \n \n5.6 Examination of Long integer data (32 bit integers):  \n \n5.6.1 \nModbus RTU Holding registers each contain only 16 bits. \n5.6.2 \nIn order to represent a 32 bit number, 2 consecutive registers are used with the first register address representing the \nMSW and the subsequent address representing the LSW. \n5.6.3 \nThe most common example of this use is when representing the Centurion’s Run Hourmeter counter which is stored as \nan unsigned long in the controller.   \n400119 contains the MSW of the Run Hourmeter counter (in seconds). \n400120 contains the LSW of the Run Hourmeter counter (in seconds). \nTo calculate the actual time in seconds, the 2 words must be joined to create a 32 bit number.  There are \nseveral methods that can be used, depending on the options in the PLC, HMI or SCADA package; one may be \npreferred over the other. \n5.6.4"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 16,
+        "page": 2,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "400141 \nAI_17 \ns16bit \n*cfg \nRO \nScaled MX5 Analog Input 5 or Calculated Differential 5 \n400142 \nAI_18 \ns16bit \n*cfg \nRO \nScaled MX5 Analog Input 6 or Calculated Differential 6 \n400143 \nAI_19 \ns16bit \n*cfg \nRO \nScaled MX5 Analog Input 7 or Calculated Differential 7 \n400144 \nAI_20 \ns16bit \n*cfg \nRO \nScaled MX5 Analog Input 8 or Calculated Differential 8 \n400145 \nPid_output_1 \nu16bit \n*cfg \nRO \nScaled Control Loop 1 Output as Analog Input Value (Refer to \nconfiguration for engineering unit & data scale.)"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 5,
+        "page": 1,
+        "score": 3,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 2 - \n400006 \nCommand2_parm1 \nu16bit \nraw \nRW \nCommand Parameter 1 \n400007 \nCommand2_parm2 \nu16bit \nraw \nRW \nCommand Parameter 2 \n400008 \nCommand2_complete \nu16bit \nraw \nRO \nLast command completed feedback \n400009 \nCfg_date_year \nu16bit \nraw \nRO \nTimestamp of Configuration Creation/Save \n400010 \nCfg_date_month \nu16bit \nraw \nRO \n \n400011 \nCfg_date_day \nu16bit \nraw \nRO \n \n400012 \nCfg_date_hour \nu16bit \nraw \nRO \n \n400013 \nCfg_date_minute \nu16bit \nraw \nRO \n \n400014 \nCfg_date_second \nu16bit \nraw \nRO \n \n400015 \nCfg_string1 \nstring \nraw \nRO \n16 character of Configuration Description \n400016 \nCfg_string2 \nstring \nraw \nRO \n \n400017 \nCfg_string3 \nstring \nraw \nRO \n \n400018 \nCfg_string4 \nstring \nraw \nRO \n \n400019 \nCfg_string5 \nstring \nraw \nRO \n \n400020 \nCfg_string6 \nstring \nraw \nRO \n \n400021 \nCfg_string7 \nstring \nraw \nRO \n \n400022 \nCfg_string8 \nstring \nraw \nRO \n \n400023 \nFw_number \nu16bit \nraw \nRO \nLast 5 digits of Firmware Number \n400024 \nCtl_major_ver \nu16bit"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 47,
+        "page": 8,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "u32bit \nsec \nRO \n \n400548 \nEvent29_lsw \n \n \n \n \n400549 \nEvent29_enum \nu16bit \nraw \nRO \n \n400550 \nEvent30_msw \nu32bit \nsec \nRO \n \n400551 \nEvent30_lsw \n \n \n \n \n400552 \nEvent30_enum \nu16bit \nraw \nRO \n \n400553 \nEvent31_msw \nu32bit \nsec \nRO \n \n400554 \nEvent31_lsw \n \n \n \n \n400555 \nEvent31_enum \nu16bit \nraw \nRO \n \n400556 \nEvent32_msw \nu32bit \nsec \nRO \n \n400557 \nEvent32_lsw \n \n \n \n \n400558 \nEvent32_enum \nu16bit \nraw \nRO \n \n400559 \nReserved \n \n \n \n \n400560 \nReserved \n \n \n \n \n400561 \nStatus_bits_pid_1  \nbitmap \nbmp \nRO \nControl loop 1 status bits  \nBit 0 override 1 active, in deadband"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 129,
+        "page": 22,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "stop_bits"
+        ],
+        "content": "within a 16-bit Modbus Holding register. \n5.5.2 \nTo pick out the individual bits, some PLC, HMI and SCADA packages allow bit-level addressing to see the individual bits \n(refer to the user guides for the product). \n5.5.3 \nIn addition, most PLC, HMI and SCADA packages have a function called “bitwise AND”.  Using this function, the bits or \ngroup of bits within a word can be picked out easily using a mask that allows the bit position you wish to see to pass \nthrough and ignore the other bits. \n5.5.4 \nTo do this, turn off all the unwanted bits using the bitwise AND function. Then compare the value with 0. If it is equal to 0, \nthen the bit was off, but if the value is any other value, then the bit was on. What makes this convenient is that it is not \nnecessary to figure out what the value actually is, just that it is not 0 (like example 1 below).  If groups of bits are wanted, \nthen it is possible to mask out bits (like the MSB in example 2 below)."
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 53,
+        "page": 10,
+        "score": 2,
+        "bucket": "other",
+        "retrieved_by": [
+          "baud_rate",
+          "parity"
+        ],
+        "content": "Reserved \n \n \n \n \n400651 \nReserved \n \n \n \n \n400652 \nReserved \n \n \n \n \n400653 \nReserved \n \n \n \n \n400654 \nReserved \n \n \n \n \n400655 \nReserved \n \n \n \n \n400656 \nReserved \n \n \n \n \n400657 \nReserved \n \n \n \n \n400658 \nReserved \n \n \n \n \n400659 \nReserved \n \n \n \n \n400660 \nReserved \n \n \n \n \n400661 \nReserved \n \n \n \n \n400662 \nReserved \n \n \n \n \n400663 \nReserved \n \n \n \n \n400664 \nReserved \n \n \n \n \n400665 \nReserved \n \n \n \n \n400666 \nReserved \n \n \n \n \n400667 \nReserved \n \n \n \n \n400668 \nReserved \n \n \n \n \n400669 \nReserved \n \n \n \n \n400670 \nReserved \n \n \n \n \n400671 \nReserved \n \n \n \n \n400672 \nReserved \n \n \n \n \n400673 \nReserved \n \n \n \n \n400674 \nReserved \n \n \n \n \n400675 \nReserved \n \n \n \n \n400676 \nReserved \n \n \n \n \n400677 \nReserved \n \n \n \n \n400678 \nReserved \n \n \n \n \n400679 \nReserved \n \n \n \n \n400680 \nReserved \n \n \n \n \nREAL-TIME CLOCK READING \n400681 \nModbus_clock_set \nu16bit \nraw \nRW \nWrite 1 to preset internal Real-time Clock \n400682 \nSecond \nu16bit \nraw \nRW \nReal-time Clock Seconds \n400683 \nMinute \nu16bit \nraw"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 128,
+        "page": 22,
+        "score": 2,
+        "bucket": "other",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "5.4.5 \nSigned Long = a whole number value made of 31 bits with the sign bit at the MSB position. Range = −2,147,483,648 to \n2,147,483,647 \n5.4.6 \nUnsigned Long = a whole number value made of 32 bits. Range = 0 to 4,294,967,295 \n5.4.7 \nLSB = Least significant bit in a word, bit 1, this holds a bit value of 1. \n5.4.8 \nMSB = Most significant bit in a word, bit 16, this holds a bit value of 32768. \n5.4.9 \nMSW = Most significant word, used to describe upper half of a long. \n5.4.10 \nLSW = Least significant word, used to describe lower half of a long. \n \n5.5 Examination of Bits within a 16 bit unsigned word:  \n \n5.5.1 \nSome Modbus Holding Registers in the Centurion contain bitmapped information showing the status of individual bits \nwithin a 16-bit Modbus Holding register. \n5.5.2 \nTo pick out the individual bits, some PLC, HMI and SCADA packages allow bit-level addressing to see the individual bits \n(refer to the user guides for the product). \n5.5.3"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 127,
+        "page": 22,
+        "score": 2,
+        "bucket": "other",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "descriptions. \n \n5.3 Sequence of Operation = A document that describes the operation of the Centurion as it was configured for your application.  Each \nCenturion system is custom configured and has custom events, setpoints and process data points.  The information contained in the \nModbus registers requires a Sequence of Operation to describe the data points and event enumerations correctly. \n \n5.4 Definitions \n \n5.4.1 \nBit = a single binary digit, can be 0 or 1 \n5.4.2 \nWord = group of 16 bits \n5.4.3 \nSigned Integer = a whole number value made of 15 bits with the sign bit at the MSB position. Range = -32767 to 32767 \n5.4.4 \nUnsigned Integer = a whole number value made of 16 bits. Range = 0 to 65535 \n5.4.5 \nSigned Long = a whole number value made of 31 bits with the sign bit at the MSB position. Range = −2,147,483,648 to \n2,147,483,647 \n5.4.6 \nUnsigned Long = a whole number value made of 32 bits. Range = 0 to 4,294,967,295 \n5.4.7"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 117,
+        "page": 20,
+        "score": 1,
+        "bucket": "other",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "s16bit \n*cfg \nRW \n \n407750 \nSetpoint_127 \ns16bit \n*cfg \nRW \n \n407751 \nSetpoint_128 \ns16bit \n*cfg \nRW \n \n407752 \nSetpoint_129 \ns16bit \n*cfg \nRW \n \n407753 \nSetpoint_130 \ns16bit \n*cfg \nRW \n \n407754 \nSetpoint_131 \ns16bit \n*cfg \nRW \n \n407755 \nSetpoint_132 \ns16bit \n*cfg \nRW \n \n407756 \nSetpoint_133 \ns16bit \n*cfg \nRW \n \n407757 \nSetpoint_134 \ns16bit \n*cfg \nRW \n \n407758 \nSetpoint_135 \ns16bit \n*cfg \nRW \n \n407759 \nSetpoint_136 \ns16bit \n*cfg \nRW \n \n407760 \nSetpoint_137 \ns16bit \n*cfg \nRW \n \n407761 \nSetpoint_138 \ns16bit \n*cfg \nRW \n \n407762 \nSetpoint_139 \ns16bit \n*cfg \nRW \n \n407763 \nSetpoint_140 \ns16bit \n*cfg \nRW \n \n407764 \nSetpoint_141 \ns16bit \n*cfg \nRW \n \n407765 \nSetpoint_142 \ns16bit \n*cfg \nRW \n \n407766 \nSetpoint_143 \ns16bit \n*cfg \nRW \n \n407767 \nSetpoint_144 \ns16bit \n*cfg \nRW \n \n407768 \nSetpoint_145 \ns16bit \n*cfg \nRW \n \n407769 \nSetpoint_146 \ns16bit \n*cfg \nRW \n \n407770 \nSetpoint_147 \ns16bit \n*cfg \nRW \n \n407771 \nSetpoint_148 \ns16bit \n*cfg \nRW \n \n407772 \nSetpoint_149 \ns16bit \n*cfg \nRW \n \n407773"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 110,
+        "page": 18,
+        "score": 1,
+        "bucket": "other",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "description, units and decimals.) \n407625 \nSetpoint_002 \ns16bit \n*cfg \nRW \n \n407626 \nSetpoint_003 \ns16bit \n*cfg \nRW \n \n407627 \nSetpoint_004 \ns16bit \n*cfg \nRW \n \n407628 \nSetpoint_005 \ns16bit \n*cfg \nRW \n \n407629 \nSetpoint_006 \ns16bit \n*cfg \nRW \n \n407630 \nSetpoint_007 \ns16bit \n*cfg \nRW \n \n407631 \nSetpoint_008 \ns16bit \n*cfg \nRW \n \n407632 \nSetpoint_009 \ns16bit \n*cfg \nRW \n \n407633 \nSetpoint_010 \ns16bit \n*cfg \nRW \n \n407634 \nSetpoint_011 \ns16bit \n*cfg \nRW \n \n407635 \nSetpoint_012 \ns16bit \n*cfg \nRW \n \n407636 \nSetpoint_013 \ns16bit \n*cfg \nRW \n \n407637 \nSetpoint_014 \ns16bit \n*cfg \nRW \n \n407638 \nSetpoint_015 \ns16bit \n*cfg \nRW \n \n407639 \nSetpoint_016 \ns16bit \n*cfg \nRW \n \n407640 \nSetpoint_017 \ns16bit \n*cfg \nRW \n \n407641 \nSetpoint_018 \ns16bit \n*cfg \nRW \n \n407642 \nSetpoint_019 \ns16bit \n*cfg \nRW \n \n407643 \nSetpoint_020 \ns16bit \n*cfg \nRW \n \n407644 \nSetpoint_021 \ns16bit \n*cfg \nRW"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 108,
+        "page": 18,
+        "score": 1,
+        "bucket": "other",
+        "retrieved_by": [
+          "parity"
+        ],
+        "content": "u16bit \n*cfg \nRW \nControl Loop 1 Deadband \n406284 \nPid_2_setpoint \ns16bit \n*cfg \nRW \nControl Loop 2 Setpoint  \n406285 \nPid_2_deadband \nu16bit \n*cfg \nRW \nControl Loop 2 Deadband \n406299 \nPid_3_setpoint \ns16bit \n*cfg \nRW \nControl Loop 3 Setpoint  \n406300 \nPid_3_deadband \nu16bit \n*cfg \nRW \nControl Loop 3 Deadband \n406314 \nPid_4_setpoint \ns16bit \n*cfg \nRW \nControl Loop 4 Setpoint  \n406315 \nPid_4_deadband \nu16bit \n*cfg \nRW \nControl Loop 4 Deadband \n406329 \nPid_5_setpoint \ns16bit \n*cfg \nRW \nControl Loop 5 Setpoint  \n406330 \nPid_5_deadband \nu16bit \n*cfg \nRW \nControl Loop 5 Deadband \n406344 \nPid_6_setpoint \ns16bit \n*cfg \nRW \nControl Loop 6 Setpoint  \n406345 \nPid_6_deadband \nu16bit \n*cfg \nRW \nControl Loop 6 Deadband \n406359 \nPid_7_setpoint \ns16bit \n*cfg \nRW \nControl Loop 7 Setpoint  \n406360 \nPid_7_deadband \nu16bit \n*cfg \nRW \nControl Loop 7 Deadband \n406374 \nPid_8_setpoint \ns16bit \n*cfg \nRW \nControl Loop 8 Setpoint  \n406375 \nPid_8_deadband \nu16bit \n*cfg \nRW \nControl Loop 8 Deadband \n406616"
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 24,
+        "page": 4,
+        "score": 1,
+        "bucket": "other",
+        "retrieved_by": [
+          "stop_bits"
+        ],
+        "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 5 - \nBit 5 Control Loop 6 Mode \nBit 6 Control Loop 7 Mode \nBit 7 Control Loop 8 Mode \n400206 \nPid_enabled \nbitmap \n \nRO \nControl Loop Enabled-Each loop may be independently configured to be \nactive at specific times (0=Not Active,1=Enabled/Controlling). \nBit 0 Control Loop 1 Active \nBit 1 Control Loop 2 Active \nBit 2 Control Loop 3 Active \nBit 3 Control Loop 4 Active \nBit 4 Control Loop 5 Active \nBit 5 Control Loop 6 Active \nBit 6 Control Loop 7 Active \nBit 7 Control Loop 8 Active \n400207 \nPid_override \nbitmap \n \nRO \nControl Loop override Status-Each loop has up to 3 possible Overrides \nto change control loop action based on other signals.  This bit indicates \nthe override is active (0=Not Active, 1=Active). \nBit 0 Control Loop 1 override Active \nBit 1 Control Loop 2 override Active \nBit 2 Control Loop 3 override Active \nBit 3 Control Loop 4 override Active \nBit 4 Control Loop 5 override Active \nBit 5 Control Loop 6 override Active"
+      }
+    ]
+  },
+  {
+    "pass_name": "transaction",
+    "parameters": [
+      "nodeAddress",
+      "name",
+      "modbusAddressingMode",
+      "transactionName",
+      "requestFC",
+      "startAddr",
+      "quantity",
+      "responseFC",
+      "byteCount",
+      "dataLength"
+    ],
+    "raw_top_k_per_query": {
+      "node_address": [
+        {
+          "rank": 1,
+          "chunk_id": 125,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 23 - \n408683 \nHi_throw6_ten_lsw \n \n \nRW \n \n408684 \nHihi_throw6_ten_msw \ns32bit \n*lbs or N \nRW \nHigh Throw 6 Tension Rod Load Shutdown Setpoint   \n408685 \nHihi_throw6_ten_lsw \n \n \nRW \n \n \n* = refer to configuration report for units of measure choice \n \n5.0 Modbus RTU Application Addendum \n \n5.1 5-digit addressing: There is no difference in addressing between 5 or 6 digit holding register addresses.  Older Modbus clients may be \nlimited to 5 digits.  For the purposes of setting up tables in these devices, address 400001, for example, is the same as 40001.  The “40” \nprefix is not actually broadcast in the communication packet and is only for the purpose of human readability to designate the type of \ndata, in this case, holding registers, that is being described so that the proper function code may be used to read or write the data."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 1,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "requests from the Modbus client and for requests for data outside the ranges documented below. Modbus registers below are shown with 6-digit \naddressing.  \n \nFor advanced data reference and 5-digit addressing, refer to section 5.0.   \n \n2.0 Ports \n \nThere are RS232 and RS485 serial Modbus RTU ports available as well as Modbus TCP/IP Ethernet ports.  Refer to panel drawings for specific \nwiring diagrams. \n \nPress Setup on the Centurion Display to access the Setup Menu, and then choose Centurion Comm Ports to view and set port specific settings \nsuch as baud rate, number of stop bits, IP address or RTU node number. \n \nNOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 11,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 3 - \n400064 \nDIP_address \nu16bit \nraw \nRO \nSetting of the DIP Switch Modbus RTU Server Address for RS485-1 \n400065 \nReserved \n \n \n \n \n400066 \nReserved \n \n \n \n \n400067 \nReserved \n \n \n \n \n400068 \nReserved \n \n \n \n \n400069 \nReserved \n \n \n \n \nVIP DATA \n400101 \nState enumeration \nu16bit \nraw \nRO \nValue 1 to 23 representing operating state of the controller. (Refer \nto configuration for text descriptions for each value.) 23 = Fault \nShutdown 1 = Ready to Start   \n400102 \nRpm_converted \nu16bit \nRPM \nRO \nRPM value set by RPM Source selection in the configuration \n400103 \nReserved \n \n \n \n \n400104 \nReserved \n \n \n \n \n400105 \nReserved \n \n \n \n \n400106 \nReserved \n \n \n \n \n400107 \nStatus bits \nbitmap \nbmp \nRO \nBit 0 Fault Shutdown in progress \nBit 1 Emergency Shutdown in progress \nBit 2 Active alarms present \nBit 3 Start/Stop indicator 1=Start \nBit 4 Mode 1=Remote 0=Local \nBit 5 TEST timer is running \nBit 6 B1 timer is running \nBit 7 B2 timer is running"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 2,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "NOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032 \nCommand, VIP, alarms, history (read and read/write where indicated) – this is the most common area that remote monitoring \nneeds to request, starting at 400101. Additional data is available in translated/scaled status polling range. \n402001 \n402424 \nRaw status polling range - FACTORY USE \n402425 \n402674 \nFault snapshots  \n403001 \n403359 \nTranslated/scaled status polling range \n406269 \n407815 \nSetpoint data-dynamic configuration overlay, changeable through Centurion Display and Modbus RTU \n \n4.0 Modbus Holding Register Table \nReg \nVariable \nFormat \nUnits \n RO     \n RW \nDescription \nCOMMAND, VIP,  ALARMS, HISTORY (READ AND READ/WRITE WHERE INDICATED) \n400001 \nCommand1 \nu16bit \nraw \nRO"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 10,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved \n \n \n \n \n400063 \nHardware_type \nu16bit \nraw \nRO \nFactory Use"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 3,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Setpoint data-dynamic configuration overlay, changeable through Centurion Display and Modbus RTU \n \n4.0 Modbus Holding Register Table \nReg \nVariable \nFormat \nUnits \n RO     \n RW \nDescription \nCOMMAND, VIP,  ALARMS, HISTORY (READ AND READ/WRITE WHERE INDICATED) \n400001 \nCommand1 \nu16bit \nraw \nRO \nKeypad Commands Enumeration from Port 1 (local display) \n400002 \nCommand1_parm1 \nu16bit \nraw \nRO \nCommand Parameter 1 \n400003 \nCommand1_parm2 \nu16bit \nraw \nRO \nCommand Parameter 2 \n400004 \nCommand1_complete \nu16bit \nraw \nRO \nLast command completed feedback \n400005 \nCommand2 \nu16bit \nraw \nRW \nKeypad Command Enumeration from Port 2 (remote) \nCommand \nExplanation \n1 Ack Alarm (Requires Parameter 1 of Fault #) \n  Parameter 1 = -1, Acks All Alarms \n2 Keypad Start (Disable remote mode) \n3 Keypad Stop (Disable remote mode) \n4 Keypad Reset (Disable remote mode) \n5 Timer 0 \n6 Start Test Mode \n7 Stop Test Mode \n8 Clear event log \n9 Clear alarm log \n10 Put controller into Local mode"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 9,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "RO \nFactory use-total device lifetime seconds  \n400045 \nLifetimer seconds lsw \n \n \n \n \n400046 \nNull task counter msw \nu32bit \nraw \nRO \nFactory use \n400047 \nNull task counter lsw \n \n \n \n \n400048 \nNull task lowest qs msw \nu32bit \nraw \nRO \nFactory use \n400049 \nNull task lowest qs lsw \n \n \n \n \n400050 \nSystem powered up time \nmsw \nu32bit \nsec \nRO \nTotal time powered up seconds \n400051 \nSystem powered up time lsw \n \n \n \n \n400052 \nReserved \n \n \n \n \n400053 \nReserved \n \n \n \n \n400054 \nRs485_1_dly \nu16bit \nmS \nRW \nRS485_1 Modbus Response Delay \n400055 \nRs485_2_dly \nu16bit \nmS \nRW \nRS485_2 Modbus Response Delay \n400056 \nRs232_1_dly \nu16bit \nmS \nRW \nRS232_1 Modbus Response Delay \n400057 \nRs232_2_dly \nu16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 53,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Reserved \n \n \n \n \n400651 \nReserved \n \n \n \n \n400652 \nReserved \n \n \n \n \n400653 \nReserved \n \n \n \n \n400654 \nReserved \n \n \n \n \n400655 \nReserved \n \n \n \n \n400656 \nReserved \n \n \n \n \n400657 \nReserved \n \n \n \n \n400658 \nReserved \n \n \n \n \n400659 \nReserved \n \n \n \n \n400660 \nReserved \n \n \n \n \n400661 \nReserved \n \n \n \n \n400662 \nReserved \n \n \n \n \n400663 \nReserved \n \n \n \n \n400664 \nReserved \n \n \n \n \n400665 \nReserved \n \n \n \n \n400666 \nReserved \n \n \n \n \n400667 \nReserved \n \n \n \n \n400668 \nReserved \n \n \n \n \n400669 \nReserved \n \n \n \n \n400670 \nReserved \n \n \n \n \n400671 \nReserved \n \n \n \n \n400672 \nReserved \n \n \n \n \n400673 \nReserved \n \n \n \n \n400674 \nReserved \n \n \n \n \n400675 \nReserved \n \n \n \n \n400676 \nReserved \n \n \n \n \n400677 \nReserved \n \n \n \n \n400678 \nReserved \n \n \n \n \n400679 \nReserved \n \n \n \n \n400680 \nReserved \n \n \n \n \nREAL-TIME CLOCK READING \n400681 \nModbus_clock_set \nu16bit \nraw \nRW \nWrite 1 to preset internal Real-time Clock \n400682 \nSecond \nu16bit \nraw \nRW \nReal-time Clock Seconds \n400683 \nMinute \nu16bit \nraw"
+        }
+      ],
+      "node_name": [
+        {
+          "rank": 1,
+          "chunk_id": 7,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "XX.YY.ZZZZ.) \n400028 \nBoot _minor_ver \nu16bit \nraw \nRO \nBootloader Minor Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400029 \nBoot _build_ver \nu16bit \nraw \nRO \nBootloader Build Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400030 \nMX_fw_number \nu16bit \nraw \nRO \nMX4/5 Module Firmware number \n400031 \nMX_major_ver \nu16bit \nraw \nRO \nMX4/5 Firmware Major Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400032 \nMX _minor_ver \nu16bit \nraw \nRO \nMX4/5 Firmware Minor Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400033 \nMX _build_ver \nu16bit \nraw \nRO \nMX4/5 Firmware Build Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400034 \nMX_boot_major_ver \nu16bit \nraw \nRO \nMX4/5 Bootloader Major Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400035 \nMX_boot _minor_ver \nu16bit \nraw \nRO \nMX4/5 Bootloader Minor Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400036 \nMX_boot _build_ver \nu16bit \nraw \nRO"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 20,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "400174 \nTI_22 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 14 \n400175 \nTI_23 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 15 \n400176 \nTI_24 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 16 \n400177 \nTI_25 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 17 \n400178 \nTI_26 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 18 \n400179 \nCore_rpm \nu16bit \nRPM \nRO \nRaw RPM Reading from magnetic pickup channel \n400180 \nCore_rpm_filtered \nu16bit \nRPM \nRO \nAveraged RPM Reading from magnetic pickup channel \n400181 \nExpansion_rpm \nu16bit \nRPM \nRO \nMX4/5 raw RPM Reading from magnetic pickup channel \n400182 \nExpansion_rpm_filtered \nu16bit \nRPM \nRO \nMX4/5 Averaged RPM Reading from magnetic pickup channel \n400183 \nSystem_voltage \nu16bit \nVx10 \nRO \nScaled System Voltage Status \n400184 \nReserved \n \n \n \n \n400185 \nFull_cn_fw_num_msw \nu32bit \n \nRO \nFull controller firmware number \n400186 \nFull_cn_fw_num_lsw \n \n \n \n \n400187 \nFull_mv_fw_num_msw \nu32bit \n \nRO \nFull display firmware number \n400188"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 6,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Cfg_string4 \nstring \nraw \nRO \n \n400019 \nCfg_string5 \nstring \nraw \nRO \n \n400020 \nCfg_string6 \nstring \nraw \nRO \n \n400021 \nCfg_string7 \nstring \nraw \nRO \n \n400022 \nCfg_string8 \nstring \nraw \nRO \n \n400023 \nFw_number \nu16bit \nraw \nRO \nLast 5 digits of Firmware Number \n400024 \nCtl_major_ver \nu16bit \nraw \nRO \nFirmware Major Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400025 \nCtl_minor_ver \nu16bit \nraw \nRO \nFirmware Minor Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400026 \nCtl_build_ver \nu16bit \nraw \nRO \nFirmware Build Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400027 \nBoot_major_ver \nu16bit \nraw \nRO \nBootloader Major Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400028 \nBoot _minor_ver \nu16bit \nraw \nRO \nBootloader Minor Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400029 \nBoot _build_ver \nu16bit \nraw \nRO \nBootloader Build Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400030 \nMX_fw_number \nu16bit"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 8,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "MX_boot_major_ver \nu16bit \nraw \nRO \nMX4/5 Bootloader Major Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400035 \nMX_boot _minor_ver \nu16bit \nraw \nRO \nMX4/5 Bootloader Minor Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400036 \nMX_boot _build_ver \nu16bit \nraw \nRO \nMX4/5 Bootloader Build Version (Use with Major, Minor, Build to make \nXX.YY.ZZZZ.) \n400037 \nReserved \n \n \n \n \n400038 \nReserved \n \n \n \n \n400039 \nCtl_fw_checksum_msw \nu32bit \nraw \nRO \nFirmware Checksum \n400040 \nCtl_fw_checksum_lsw \n \n \n \n \n400041 \nCfg_checksum \nu16bit \nraw \nRO \nConfiguration Checksum \n400042 \nReserved \n \n \n \n \n400043 \nReserved \n \n \n \n \n400044 \nLifetimer seconds msw \nu32bit \nsec \nRO \nFactory use-total device lifetime seconds  \n400045 \nLifetimer seconds lsw \n \n \n \n \n400046 \nNull task counter msw \nu32bit \nraw \nRO \nFactory use \n400047 \nNull task counter lsw \n \n \n \n \n400048 \nNull task lowest qs msw \nu32bit \nraw \nRO \nFactory use \n400049 \nNull task lowest qs lsw \n \n \n \n \n400050"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 5,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 2 - \n400006 \nCommand2_parm1 \nu16bit \nraw \nRW \nCommand Parameter 1 \n400007 \nCommand2_parm2 \nu16bit \nraw \nRW \nCommand Parameter 2 \n400008 \nCommand2_complete \nu16bit \nraw \nRO \nLast command completed feedback \n400009 \nCfg_date_year \nu16bit \nraw \nRO \nTimestamp of Configuration Creation/Save \n400010 \nCfg_date_month \nu16bit \nraw \nRO \n \n400011 \nCfg_date_day \nu16bit \nraw \nRO \n \n400012 \nCfg_date_hour \nu16bit \nraw \nRO \n \n400013 \nCfg_date_minute \nu16bit \nraw \nRO \n \n400014 \nCfg_date_second \nu16bit \nraw \nRO \n \n400015 \nCfg_string1 \nstring \nraw \nRO \n16 character of Configuration Description \n400016 \nCfg_string2 \nstring \nraw \nRO \n \n400017 \nCfg_string3 \nstring \nraw \nRO \n \n400018 \nCfg_string4 \nstring \nraw \nRO \n \n400019 \nCfg_string5 \nstring \nraw \nRO \n \n400020 \nCfg_string6 \nstring \nraw \nRO \n \n400021 \nCfg_string7 \nstring \nraw \nRO \n \n400022 \nCfg_string8 \nstring \nraw \nRO \n \n400023 \nFw_number \nu16bit \nraw \nRO \nLast 5 digits of Firmware Number \n400024 \nCtl_major_ver \nu16bit"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 10,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved \n \n \n \n \n400063 \nHardware_type \nu16bit \nraw \nRO \nFactory Use"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 9,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "RO \nFactory use-total device lifetime seconds  \n400045 \nLifetimer seconds lsw \n \n \n \n \n400046 \nNull task counter msw \nu32bit \nraw \nRO \nFactory use \n400047 \nNull task counter lsw \n \n \n \n \n400048 \nNull task lowest qs msw \nu32bit \nraw \nRO \nFactory use \n400049 \nNull task lowest qs lsw \n \n \n \n \n400050 \nSystem powered up time \nmsw \nu32bit \nsec \nRO \nTotal time powered up seconds \n400051 \nSystem powered up time lsw \n \n \n \n \n400052 \nReserved \n \n \n \n \n400053 \nReserved \n \n \n \n \n400054 \nRs485_1_dly \nu16bit \nmS \nRW \nRS485_1 Modbus Response Delay \n400055 \nRs485_2_dly \nu16bit \nmS \nRW \nRS485_2 Modbus Response Delay \n400056 \nRs232_1_dly \nu16bit \nmS \nRW \nRS232_1 Modbus Response Delay \n400057 \nRs232_2_dly \nu16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 94,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "402589 \nSS_TI_15 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 7 \n402590 \nSS_TI_16 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 8 \n402591 \nSS_TI_17 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 9 \n402592 \nSS_TI_18 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 10 \n402593 \nSS_TI_19 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 11 \n402594 \nSS_TI_20 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 12 \n402595 \nSS_TI_21 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 13 \n402596 \nSS_TI_22 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 14 \n402597 \nSS_TI_23 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 15 \n402598 \nSS_TI_24 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 16 \n402599 \nSS_TI_25 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 17 \n402600 \nSS_TI_26 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 18 \n402669 \nSS_Core_rpm \nu16bit \nRPM \nRO"
+        }
+      ],
+      "addressing_mode": [
+        {
+          "rank": 1,
+          "chunk_id": 2,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "NOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032 \nCommand, VIP, alarms, history (read and read/write where indicated) – this is the most common area that remote monitoring \nneeds to request, starting at 400101. Additional data is available in translated/scaled status polling range. \n402001 \n402424 \nRaw status polling range - FACTORY USE \n402425 \n402674 \nFault snapshots  \n403001 \n403359 \nTranslated/scaled status polling range \n406269 \n407815 \nSetpoint data-dynamic configuration overlay, changeable through Centurion Display and Modbus RTU \n \n4.0 Modbus Holding Register Table \nReg \nVariable \nFormat \nUnits \n RO     \n RW \nDescription \nCOMMAND, VIP,  ALARMS, HISTORY (READ AND READ/WRITE WHERE INDICATED) \n400001 \nCommand1 \nu16bit \nraw \nRO"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 1,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "requests from the Modbus client and for requests for data outside the ranges documented below. Modbus registers below are shown with 6-digit \naddressing.  \n \nFor advanced data reference and 5-digit addressing, refer to section 5.0.   \n \n2.0 Ports \n \nThere are RS232 and RS485 serial Modbus RTU ports available as well as Modbus TCP/IP Ethernet ports.  Refer to panel drawings for specific \nwiring diagrams. \n \nPress Setup on the Centurion Display to access the Setup Menu, and then choose Centurion Comm Ports to view and set port specific settings \nsuch as baud rate, number of stop bits, IP address or RTU node number. \n \nNOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 125,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 23 - \n408683 \nHi_throw6_ten_lsw \n \n \nRW \n \n408684 \nHihi_throw6_ten_msw \ns32bit \n*lbs or N \nRW \nHigh Throw 6 Tension Rod Load Shutdown Setpoint   \n408685 \nHihi_throw6_ten_lsw \n \n \nRW \n \n \n* = refer to configuration report for units of measure choice \n \n5.0 Modbus RTU Application Addendum \n \n5.1 5-digit addressing: There is no difference in addressing between 5 or 6 digit holding register addresses.  Older Modbus clients may be \nlimited to 5 digits.  For the purposes of setting up tables in these devices, address 400001, for example, is the same as 40001.  The “40” \nprefix is not actually broadcast in the communication packet and is only for the purpose of human readability to designate the type of \ndata, in this case, holding registers, that is being described so that the proper function code may be used to read or write the data."
+        },
+        {
+          "rank": 4,
+          "chunk_id": 11,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 3 - \n400064 \nDIP_address \nu16bit \nraw \nRO \nSetting of the DIP Switch Modbus RTU Server Address for RS485-1 \n400065 \nReserved \n \n \n \n \n400066 \nReserved \n \n \n \n \n400067 \nReserved \n \n \n \n \n400068 \nReserved \n \n \n \n \n400069 \nReserved \n \n \n \n \nVIP DATA \n400101 \nState enumeration \nu16bit \nraw \nRO \nValue 1 to 23 representing operating state of the controller. (Refer \nto configuration for text descriptions for each value.) 23 = Fault \nShutdown 1 = Ready to Start   \n400102 \nRpm_converted \nu16bit \nRPM \nRO \nRPM value set by RPM Source selection in the configuration \n400103 \nReserved \n \n \n \n \n400104 \nReserved \n \n \n \n \n400105 \nReserved \n \n \n \n \n400106 \nReserved \n \n \n \n \n400107 \nStatus bits \nbitmap \nbmp \nRO \nBit 0 Fault Shutdown in progress \nBit 1 Emergency Shutdown in progress \nBit 2 Active alarms present \nBit 3 Start/Stop indicator 1=Start \nBit 4 Mode 1=Remote 0=Local \nBit 5 TEST timer is running \nBit 6 B1 timer is running \nBit 7 B2 timer is running"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 3,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Setpoint data-dynamic configuration overlay, changeable through Centurion Display and Modbus RTU \n \n4.0 Modbus Holding Register Table \nReg \nVariable \nFormat \nUnits \n RO     \n RW \nDescription \nCOMMAND, VIP,  ALARMS, HISTORY (READ AND READ/WRITE WHERE INDICATED) \n400001 \nCommand1 \nu16bit \nraw \nRO \nKeypad Commands Enumeration from Port 1 (local display) \n400002 \nCommand1_parm1 \nu16bit \nraw \nRO \nCommand Parameter 1 \n400003 \nCommand1_parm2 \nu16bit \nraw \nRO \nCommand Parameter 2 \n400004 \nCommand1_complete \nu16bit \nraw \nRO \nLast command completed feedback \n400005 \nCommand2 \nu16bit \nraw \nRW \nKeypad Command Enumeration from Port 2 (remote) \nCommand \nExplanation \n1 Ack Alarm (Requires Parameter 1 of Fault #) \n  Parameter 1 = -1, Acks All Alarms \n2 Keypad Start (Disable remote mode) \n3 Keypad Stop (Disable remote mode) \n4 Keypad Reset (Disable remote mode) \n5 Timer 0 \n6 Start Test Mode \n7 Stop Test Mode \n8 Clear event log \n9 Clear alarm log \n10 Put controller into Local mode"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 10,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved \n \n \n \n \n400063 \nHardware_type \nu16bit \nraw \nRO \nFactory Use"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 126,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "prefix is not actually broadcast in the communication packet and is only for the purpose of human readability to designate the type of \ndata, in this case, holding registers, that is being described so that the proper function code may be used to read or write the data. \n \n5.2 Note that the Centurion Modbus Map does not change from application to application; however, the configuration file does change and \ncan be modified by the user, therefore additional information about the configuration is required to decode the Modbus Holding Register \ninformation.  It is ideal to have the configuration file report as a reference to actual data formatting, units of measure, and text \ndescriptions. \n \n5.3 Sequence of Operation = A document that describes the operation of the Centurion as it was configured for your application.  Each \nCenturion system is custom configured and has custom events, setpoints and process data points.  The information contained in the"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 132,
+          "page": 23,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 24 - \n \n5.6 Examination of Long integer data (32 bit integers):  \n \n5.6.1 \nModbus RTU Holding registers each contain only 16 bits. \n5.6.2 \nIn order to represent a 32 bit number, 2 consecutive registers are used with the first register address representing the \nMSW and the subsequent address representing the LSW. \n5.6.3 \nThe most common example of this use is when representing the Centurion’s Run Hourmeter counter which is stored as \nan unsigned long in the controller.   \n400119 contains the MSW of the Run Hourmeter counter (in seconds). \n400120 contains the LSW of the Run Hourmeter counter (in seconds). \nTo calculate the actual time in seconds, the 2 words must be joined to create a 32 bit number.  There are \nseveral methods that can be used, depending on the options in the PLC, HMI or SCADA package; one may be \npreferred over the other. \n5.6.4"
+        }
+      ],
+      "register": [
+        {
+          "rank": 1,
+          "chunk_id": 100,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 18 - \n403041 \nReserved \n \n \n \n \n403042 \nReserved \n \n \n \n \n403043 \nReserved \n \n \n \n \n403044 \nReserved \n \n \n \n \n403045 \nReserved \n \n \n \n \n403158 \nTI_01 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 1 (Refer to configuration for °C or °F scale.) \n403159 \nTI_02 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 2 \n403160 \nTI_03 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 3 \n403161 \nTI_04 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 4 \n403162 \nTI_05 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 5 \n403163 \nTI_06 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 6 \n403164 \nTI_07 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 7 \n403165 \nTI_08 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 8 \n403166 \nTI_09 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 1 \n403167 \nTI_10 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 2 \n403168 \nTI_11 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 3 \n403169 \nTI_12 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 4 \n403170 \nTI_13 \ns16bit"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 92,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "402575 \nSS_TI_01 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 1 (Refer to configuration for °C or °F \nscale.) \n402576 \nSS_TI_02 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 2 \n402577 \nSS_TI_03 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 3 \n402578 \nSS_TI_04 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 4 \n402579 \nSS_TI_05 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 5"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 18,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "TI_01 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 1 (Refer to configuration for °C or °F scale.) \n400154 \nTI_02 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 2 \n400155 \nTI_03 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 3 \n400156 \nTI_04 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 4 \n400157 \nTI_05 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 5 \n400158 \nTI_06 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 6 \n400159 \nTI_07 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 7 \n400160 \nTI_08 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 8 \n400161 \nTI_09 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 1 \n400162 \nTI_10 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 2 \n400163 \nTI_11 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 3 \n400164 \nTI_12 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 4 \n400165 \nTI_13 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 5 \n400166 \nTI_14 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 6 \n400167 \nTI_15 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 7"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 93,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 17 - \n402580 \nSS_TI_06 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 6 \n402581 \nSS_TI_07 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 7 \n402582 \nSS_TI_08 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 8 \n402583 \nSS_TI_09 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 1 \n402584 \nSS_TI_10 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 2 \n402585 \nSS_TI_11 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 3 \n402586 \nSS_TI_12 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 4 \n402587 \nSS_TI_13 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 5 \n402588 \nSS_TI_14 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 6 \n402589 \nSS_TI_15 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 7 \n402590 \nSS_TI_16 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 8 \n402591 \nSS_TI_17 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 9 \n402592 \nSS_TI_18 \ns16bit \n°C/ F"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 19,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "RO \nScaled MX4 Temperature Input 3 \n400164 \nTI_12 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 4 \n400165 \nTI_13 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 5 \n400166 \nTI_14 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 6 \n400167 \nTI_15 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 7 \n400168 \nTI_16 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 8 \n400169 \nTI_17 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 9 \n400170 \nTI_18 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 10 \n400171 \nTI_19 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 11 \n400172 \nTI_20 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 12 \n400173 \nTI_21 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 13 \n400174 \nTI_22 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 14 \n400175 \nTI_23 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 15 \n400176 \nTI_24 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 16 \n400177 \nTI_25 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 17 \n400178 \nTI_26 \ns16bit \n°C/ F"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 77,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "s16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 7 Status \n402173 \nTemp_input_16 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 8 Status \n402174 \nTemp_input_17 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 9 Status \n402175 \nTemp_input_18 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 10 Status \n402176 \nTemp_input_19 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 11 Status \n402177 \nTemp_input_20 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 12 Status \n402178 \nTemp_input_21 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 13 Status \n402179 \nTemp_input_22 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 14 Status \n402180 \nTemp_input_23 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 15 Status \n402181 \nTemp_input_24 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 16 Status \n402182 \nTemp_input_25 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 17 Status \n402183 \nTemp_input_26 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 18 Status \n402253 \nVBatt_raw_analog \ns16bit \ncount \nRO"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 101,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "403166 \nTI_09 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 1 \n403167 \nTI_10 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 2 \n403168 \nTI_11 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 3 \n403169 \nTI_12 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 4 \n403170 \nTI_13 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 5 \n403171 \nTI_14 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 6 \n403172 \nTI_15 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 7 \n403173 \nTI_16 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 8 \n403174 \nTI_17 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 9 \n403175 \nTI_18 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 10 \n403176 \nTI_19 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 11 \n403177 \nTI_20 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 12 \n403178 \nTI_21 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 13 \n403179 \nTI_22 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 14 \n403180 \nTI_23 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 15"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 76,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "s16bit \nmVx100 \nRO \nRaw Temperature Input 6 Status \n402164 \nTemp_input_07 \ns16bit \nmVx100 \nRO \nRaw Temperature Input 7 Status \n402165 \nTemp_input_08 \ns16bit \nmVx100 \nRO \nRaw Temperature Input 8 Status \n402166 \nTemp_input_09 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 1 Status \n402167 \nTemp_input_10 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 2 Status \n402168 \nTemp_input_11 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 3 Status \n402169 \nTemp_input_12 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 4 Status \n402170 \nTemp_input_13 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 5 Status \n402171 \nTemp_input_14 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 6 Status \n402172 \nTemp_input_15 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 7 Status \n402173 \nTemp_input_16 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 8 Status \n402174 \nTemp_input_17 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 9 Status \n402175 \nTemp_input_18 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 10 Status"
+        }
+      ],
+      "function_code": [
+        {
+          "rank": 1,
+          "chunk_id": 71,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "401023 \nNf_total_23 \nu16bit \npls/100 \nRO \nDigital Input 23 Total Pulses \n401024 \nNf_total_24 \nu16bit \npls/100 \nRO \nDigital Input 24 Total Pulses \n401025 \nNf_total_25 \nu16bit \npls/100 \nRO \nDigital Input 25 Total Pulses \n401026 \nNf_total_26 \nu16bit \npls/100 \nRO \nDigital Input 26 Total Pulses \n401027 \nNf_total_27 \nu16bit \npls/100 \nRO \nDigital Input 27 Total Pulses \n401028 \nNf_total_28 \nu16bit \npls/100 \nRO \nDigital Input 28 Total Pulses \n401029 \nNf_total_29 \nu16bit \npls/100 \nRO \nDigital Input 29 Total Pulses \n401030 \nNf_total_30 \nu16bit \npls/100 \nRO \nDigital Input 30 Total Pulses \n401031 \nNf_total_31 \nu16bit \npls/100 \nRO \nDigital Input 31 Total Pulses \n401032 \nNf_total_32 \nu16bit \npls/100 \nRO \nDigital Input 32 Total Pulses \nRAW INPUT STATUS \n402001 \nDI_01_16 \nbitmap \nbmp \nRO \nRaw Digital input 1-16 Status (Bit 0 = Digital input 1) \n402002 \nDI_17_32 \nbitmap \nbmp \nRO \nRaw Digital input 17-32 Status (Bit 0 = Digital input 17) \n402003 \nReserved \n \n \n \n \n402004 \nReserved \n \n \n \n \n402005"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 73,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "s16bit \ncount \nRO \nRaw Analog Input 5 Status \n402013 \nAnalog_input_06 \ns16bit \ncount \nRO \nRaw Analog Input 6 Status \n402014 \nAnalog_input_07 \ns16bit \ncount \nRO \nRaw Analog Input 7 Status \n402015 \nAnalog_input_08 \ns16bit \ncount \nRO \nRaw Analog Input 8 Status \n402016 \nAnalog_input_09 \ns16bit \ncount \nRO \nRaw Analog Input 9 Status \n402017 \nAnalog_input_10 \ns16bit \ncount \nRO \nRaw Analog Input 10 Status \n402018 \nAnalog_input_11 \ns16bit \ncount \nRO \nRaw Analog Input 11 Status"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 72,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "RO \nDigital Input 32 Total Pulses \nRAW INPUT STATUS \n402001 \nDI_01_16 \nbitmap \nbmp \nRO \nRaw Digital input 1-16 Status (Bit 0 = Digital input 1) \n402002 \nDI_17_32 \nbitmap \nbmp \nRO \nRaw Digital input 17-32 Status (Bit 0 = Digital input 17) \n402003 \nReserved \n \n \n \n \n402004 \nReserved \n \n \n \n \n402005 \nReserved \n \n \n \n \n402006 \nReserved \n \n \n \n \n402007 \nReserved \n \n \n \n \n402008 \nAnalog_input_01 \ns16bit \ncount \nRO \nRaw Analog Input 1 Status (0=0v or 0mA, 32767 = 5v or 24mA) \n402009 \nAnalog_input_02 \ns16bit \ncount \nRO \nRaw Analog Input 2 Status \n402010 \nAnalog_input_03 \ns16bit \ncount \nRO \nRaw Analog Input 3 Status \n402011 \nAnalog_input_04 \ns16bit \ncount \nRO \nRaw Analog Input 4 Status \n402012 \nAnalog_input_05 \ns16bit \ncount \nRO \nRaw Analog Input 5 Status \n402013 \nAnalog_input_06 \ns16bit \ncount \nRO \nRaw Analog Input 6 Status \n402014 \nAnalog_input_07 \ns16bit \ncount \nRO \nRaw Analog Input 7 Status \n402015 \nAnalog_input_08 \ns16bit \ncount \nRO \nRaw Analog Input 8 Status \n402016 \nAnalog_input_09"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 55,
+          "page": 10,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "u16bit \nsec \nRO \nDigital Input 1 Filter Debounce/Pulse timer Remaining \n400702 \nNo_flow_tmr_02 \nu16bit \nsec \nRO \nDigital Input 2 Filter Debounce/Pulse timer Remaining \n400703 \nNo_flow_tmr_03 \nu16bit \nsec \nRO \nDigital Input 3 Filter Debounce/Pulse timer Remaining \n400704 \nNo_flow_tmr_04 \nu16bit \nsec \nRO \nDigital Input 4 Filter Debounce/Pulse timer Remaining \n400705 \nNo_flow_tmr_05 \nu16bit \nsec \nRO \nDigital Input 5 Filter Debounce/Pulse timer Remaining \n400706 \nNo_flow_tmr_06 \nu16bit \nsec \nRO \nDigital Input 6 Filter Debounce/Pulse timer Remaining"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 27,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Control_output_val_8 \nu16bit \n%x100 \nRO \nControl Loop 8 Final Value sent to Control Output \n400217 \nReserved \n \n \n \n \n400218 \nReserved \n \n \n \n \n400219 \nReserved \n \n \n \n \n400220 \nReserved \n \n \n \n \n400221 \nReserved \n \n \n \n \n400222 \nReserved \n \n \n \n \n400223 \nReserved \n \n \n \n \n400224 \nReserved \n \n \n \n \n400225 \nCtrl_manual_01 \nu16bit \n%x100 \nRW \nControl Loop 1 Manual Output Value (Write to this value while control \nloop is in manual mode to directly modify the output.) \n400226 \nCtrl_manual_02 \nu16bit \n%x100 \nRW \nControl Loop 2 Manual Output Value  \n400227 \nCtrl_manual_03 \nu16bit \n%x100 \nRW \nControl Loop 3 Manual Output Value  \n400228 \nCtrl_manual_04 \nu16bit \n%x100 \nRW \nControl Loop 4 Manual Output Value  \n400229 \nCtrl_manual_05 \nu16bit \n%x100 \nRW \nControl Loop 5 Manual Output Value  \n400230 \nCtrl_manual_06 \nu16bit \n%x100 \nRW \nControl Loop 6 Manual Output Value  \n400231 \nCtrl_manual_07 \nu16bit \n%x100 \nRW \nControl Loop 7 Manual Output Value  \n400232 \nCtrl_manual_08 \nu16bit \n%x100 \nRW"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 65,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Nf_last_06 \nu16bit \nsec \nRO \nDigital Input 6 Last time between state transition \n400907 \nNf_last_07 \nu16bit \nsec \nRO \nDigital Input 7 Last time between state transition \n400908 \nNf_last_08 \nu16bit \nsec \nRO \nDigital Input 8 Last time between state transition \n400909 \nNf_last_09 \nu16bit \nsec \nRO \nDigital Input 9 Last time between state transition \n400910 \nNf_last_10 \nu16bit \nsec \nRO \nDigital Input 10 Last time between state transition \n400911 \nNf_last_11 \nu16bit \nsec \nRO \nDigital Input 11 Last time between state transition \n400912 \nNf_last_12 \nu16bit \nsec \nRO \nDigital Input 12 Last time between state transition"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 22,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Examine only the lower 15 bits of this register.  See Section 5.5 for \nExamination of Bits detail. \n502 = Normal Stop Event \n400192 \nNum_active_alarms \nu16bit \nraw \nRO \nTotal number of current active alarm only events detected \n400193 \nReserved \n \n \n \n \n400194 \nStarts_remaining \nu16bit \nraw \nRO \nNumber of Engine Crank Attempts Remaining/Number of Electric Motor \nStart Attempts Remaining \n400195 \nCold_junction_tmp \ns16bit \n°Fx10 \nRO \nCold junction Sensor Temperature \n400196 \nReserved \n \n \n \n \n400197 \nReserved \n \n \n \n \n400198 \nType_k_terminal_temp_mv \nu16bit \nmV \nRO \nFactory use-Calculated mV offset for Type K thermocouples \n400199 \nType_j_terminal_temp_mv \nu16bit \nmV \nRO \nFactory use-Calculated mV offset for Type J thermocouples \n400200 \nCold_junction_expansion \ns16bit \n \nRO \nMX4 Cold junction Sensor Temperature \n400201 \nReserved \n \n \n \n \n400202 \nReserved \n \n \n \n \n400203 \nReserved \n \n \n \n \n400204 \nReserved \n \n \n \n \n400205 \nPid_auto \nbitmap \n \nRO \nControl Loop Mode-(0=Manual,1=Auto)"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 75,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "402028 \nAnalog_input_21 \ns16bit \ncount \nRO \nRaw MX5 Analog Input 9 Status \n402029 \nAnalog_input_22 \ns16bit \ncount \nRO \nRaw MX5 Analog Input 10 Status \n402030 \nReserved \n \n \n \n \n402031 \nReserved \n \n \n \n \n402032 \nReserved \n \n \n \n \n402033 \nReserved \n \n \n \n \n402034 \nReserved \n \n \n \n \n402035 \nReserved \n \n \n \n \n402158 \nTemp_input_01 \ns16bit \nmVx100 \nRO \nRaw Temperature Input 1 Status \n402159 \nTemp_input_02 \ns16bit \nmVx100 \nRO \nRaw Temperature Input 2 Status \n402160 \nTemp_input_03 \ns16bit \nmVx100 \nRO \nRaw Temperature Input 3 Status \n402161 \nTemp_input_04 \ns16bit \nmVx100 \nRO \nRaw Temperature Input 4 Status \n402162 \nTemp_input_05 \ns16bit \nmVx100 \nRO \nRaw Temperature Input 5 Status \n402163 \nTemp_input_06 \ns16bit \nmVx100 \nRO \nRaw Temperature Input 6 Status \n402164 \nTemp_input_07 \ns16bit \nmVx100 \nRO \nRaw Temperature Input 7 Status \n402165 \nTemp_input_08 \ns16bit \nmVx100 \nRO \nRaw Temperature Input 8 Status \n402166 \nTemp_input_09 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 1 Status \n402167"
+        }
+      ],
+      "coils_discrete": [
+        {
+          "rank": 1,
+          "chunk_id": 104,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Reserved \n \n \n \n \n403261 \nAnalog_output_01 \nu16bit \n%x100 \nRO \nAnalog Output 1 Status \n403262 \nAnalog_output_02 \nu16bit \n%x100 \nRO \nAnalog Output 2 Status \n403263 \nAnalog_output_03 \nu16bit \n%x100 \nRO \nAnalog Output 3 Status \n403264 \nAnalog_output_04 \nu16bit \n%x100 \nRO \nAnalog Output 4 Status \n403265 \nAnalog_output_05 \nu16bit \n%x100 \nRO \nMX5 Analog Output 1 Status \n403266 \nAnalog_output_06 \nu16bit \n%x100 \nRO \nMX5 Analog Output 2 Status \n403267 \nAnalog_output_07 \nu16bit \n%x100 \nRO \nMX5 Analog Output 3 Status \n403268 \nAnalog_output_08 \nu16bit \n%x100 \nRO \nMX5 Analog Output 4 Status \nDIGITAL INPUT POLARITY STATUS \n403286 \nDI01_02_state \n2-byte \nbyte \nRO \nDigital Input raw state 1 byte per input  0= DC-, 1=DC+, 2=OPEN \n403287 \nDI03_04_state \n2-byte \nbyte \nRO \n \n403288 \nDI05_06_state \n2-byte \nbyte \nRO \n \n403289 \nDI07_08_state \n2-byte \nbyte \nRO \n \n403290 \nDI09_10_state \n2-byte \nbyte \nRO \n \n403291 \nDI11_12_state \n2-byte \nbyte \nRO \n \n403292 \nDI13_14_state \n2-byte \nbyte \nRO \n \n403293"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 79,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "402260 \nReserved \n \n \n \n \n402261 \nAnalog_output_01 \nu16bit \ncount \nRO \nRaw Analog Output 1 Status (0-65535) \n402262 \nAnalog_output_02 \nu16bit \ncount \nRO \nRaw Analog Output 2 Status (0-65535) \n402263 \nAnalog_output_03 \nu16bit \ncount \nRO \nRaw Analog Output 3 Status (0-65535) \n402264 \nAnalog_output_04 \nu16bit \ncount \nRO \nRaw Analog Output 4 Status (0-65535) \n402265 \nAnalog_output_05 \nu16bit \ncount \nRO \nRaw MX5 Analog Output 1 Status (0-65535) \n402266 \nAnalog_output_06 \nu16bit \ncount \nRO \nRaw MX5 Analog Output 2 Status (0-65535) \n402267 \nAnalog_output_07 \nu16bit \ncount \nRO \nRaw MX5 Analog Output 3 Status (0-65535) \n402268 \nAnalog_output_08 \nu16bit \ncount \nRO \nRaw MX5 Analog Output 4 Status (0-65535) \n402269 \nReserved \n \n \n \n \n402270 \nReserved \n \n \n \n \n402271 \nReserved \n \n \n \n \n402272 \nReserved \n \n \n \n \n402273 \nReserved \n \n \n \n \n402274 \nReserved \n \n \n \n \n402275 \nReserved \n \n \n \n \n402276 \nReserved \n \n \n \n \n402277 \nDI_01_16_wire_fault \nbitmap \nbmp \nRO"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 49,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "bitmap \nbmp \nRO \nControl loop 7 status bits \n400568 \nStatus_bits_pid_8 \nbitmap \nbmp \nRO \nControl loop 8 status bits \n400569 \nReserved \n \n \n \n \n400570 \nReserved \n \n \n \n \n400571 \nReserved \n \n \n \n \n400572 \nReserved \n \n \n \n \n400573 \nReserved \n \n \n \n \n400574 \nReserved \n \n \n \n \n400575 \nReserved \n \n \n \n \n400576 \nReserved \n \n \n \n \n400577 \nReserved \n \n \n \n \n400578 \nReserved \n \n \n \n \nTEMPERATURE INPUT CHANNEL STATUS \n400579 \nTI1_wire_fault \nu16bit \nraw \nRO \nStatus of temperature input channel (1=TC OK, 2=RTD OK, \n3=OPEN,4=SHORT DC-,5=LEAK DC-,6=SHORT DC+, 7=LEAK DC+) \n400580 \nTI2_wire_fault \nu16bit \nraw \nRO \n \n400581 \nTI3_wire_fault \nu16bit \nraw \nRO \n \n400582 \nTI4_wire_fault \nu16bit \nraw \nRO \n \n400583 \nTI5_wire_fault \nu16bit \nraw \nRO \n \n400584 \nTI6_wire_fault \nu16bit \nraw \nRO \n \n400585 \nTI7_wire_fault \nu16bit \nraw \nRO \n \n400586 \nTI8_wire_fault \nu16bit \nraw \nRO \n \n400587 \nMX4_TI1_wire_fault \nu16bit \nraw \nRO \n \n400588 \nMX4_TI2_wire_fault \nu16bit \nraw \nRO \n \n400589 \nMX4_TI3_wire_fault \nu16bit"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 71,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "401023 \nNf_total_23 \nu16bit \npls/100 \nRO \nDigital Input 23 Total Pulses \n401024 \nNf_total_24 \nu16bit \npls/100 \nRO \nDigital Input 24 Total Pulses \n401025 \nNf_total_25 \nu16bit \npls/100 \nRO \nDigital Input 25 Total Pulses \n401026 \nNf_total_26 \nu16bit \npls/100 \nRO \nDigital Input 26 Total Pulses \n401027 \nNf_total_27 \nu16bit \npls/100 \nRO \nDigital Input 27 Total Pulses \n401028 \nNf_total_28 \nu16bit \npls/100 \nRO \nDigital Input 28 Total Pulses \n401029 \nNf_total_29 \nu16bit \npls/100 \nRO \nDigital Input 29 Total Pulses \n401030 \nNf_total_30 \nu16bit \npls/100 \nRO \nDigital Input 30 Total Pulses \n401031 \nNf_total_31 \nu16bit \npls/100 \nRO \nDigital Input 31 Total Pulses \n401032 \nNf_total_32 \nu16bit \npls/100 \nRO \nDigital Input 32 Total Pulses \nRAW INPUT STATUS \n402001 \nDI_01_16 \nbitmap \nbmp \nRO \nRaw Digital input 1-16 Status (Bit 0 = Digital input 1) \n402002 \nDI_17_32 \nbitmap \nbmp \nRO \nRaw Digital input 17-32 Status (Bit 0 = Digital input 17) \n402003 \nReserved \n \n \n \n \n402004 \nReserved \n \n \n \n \n402005"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 23,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "400200 \nCold_junction_expansion \ns16bit \n \nRO \nMX4 Cold junction Sensor Temperature \n400201 \nReserved \n \n \n \n \n400202 \nReserved \n \n \n \n \n400203 \nReserved \n \n \n \n \n400204 \nReserved \n \n \n \n \n400205 \nPid_auto \nbitmap \n \nRO \nControl Loop Mode-(0=Manual,1=Auto) \nBit 0 Control Loop 1 Mode \nBit 1 Control Loop 2 Mode \nBit 2 Control Loop 3 Mode \nBit 3 Control Loop 4 Mode \nBit 4 Control Loop 5 Mode"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 95,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "402598 \nSS_TI_24 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 16 \n402599 \nSS_TI_25 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 17 \n402600 \nSS_TI_26 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 18 \n402669 \nSS_Core_rpm \nu16bit \nRPM \nRO \nRaw RPM Reading from magnetic pickup channel \n402670 \nSS_Core_rpm_filtered \nu16bit \nRPM \nRO \nAveraged RPM Reading from magnetic pickup channel \n402671 \nSS_Expansion_rpm \nu16bit \nRPM \nRO \nMX4/5 raw RPM Reading from magnetic pickup channel \n402672 \nSS_Expansion_rpm_filtered \nu16bit \nRPM \nRO \nMX4/5 Averaged RPM Reading from magnetic pickup channel \n402673 \nSS_System_voltage \nu16bit \nVx10 \nRO \nScaled System Voltage Status \n402674 \nSS_Core_cj_temp \ns16bit \n°Fx10 \nRO \nCold junction temperature on the core board \nTRANSLATED/SCALED STATUS POLLING RANGE \n403001 \nDI_01_16 \nbitmap \nbmp \nRO \nDigital input 1-16 Status (After NO/NC setting conversion a logical “1”"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 48,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 10 - \nBit 1 override 1 active, not in deadband \nBit 2 override 2 active, in deadband \nBit 3 override 2 active, not in deadband \nBit 4 override 3 active, in deadband \nBit 5 override 3 active, not in deadband \nBit 6 fully unloaded input active \nBit 7 fully loaded input active \n400562 \nStatus_bits_pid_2 \nbitmap \nbmp \nRO \nControl loop 2 status bits \n400563 \nStatus_bits_pid_3 \nbitmap \nbmp \nRO \nControl loop 3 status bits \n400564 \nStatus_bits_pid_4 \nbitmap \nbmp \nRO \nControl loop 4 status bits \n400565 \nStatus_bits_pid_5 \nbitmap \nbmp \nRO \nControl loop 5 status bits \n400566 \nStatus_bits_pid_6 \nbitmap \nbmp \nRO \nControl loop 6 status bits \n400567 \nStatus_bits_pid_7 \nbitmap \nbmp \nRO \nControl loop 7 status bits \n400568 \nStatus_bits_pid_8 \nbitmap \nbmp \nRO \nControl loop 8 status bits \n400569 \nReserved \n \n \n \n \n400570 \nReserved \n \n \n \n \n400571 \nReserved \n \n \n \n \n400572 \nReserved \n \n \n \n \n400573 \nReserved \n \n \n \n \n400574 \nReserved \n \n \n \n \n400575 \nReserved"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 72,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\1815243_C5 ....pdf",
+          "content": "RO \nDigital Input 32 Total Pulses \nRAW INPUT STATUS \n402001 \nDI_01_16 \nbitmap \nbmp \nRO \nRaw Digital input 1-16 Status (Bit 0 = Digital input 1) \n402002 \nDI_17_32 \nbitmap \nbmp \nRO \nRaw Digital input 17-32 Status (Bit 0 = Digital input 17) \n402003 \nReserved \n \n \n \n \n402004 \nReserved \n \n \n \n \n402005 \nReserved \n \n \n \n \n402006 \nReserved \n \n \n \n \n402007 \nReserved \n \n \n \n \n402008 \nAnalog_input_01 \ns16bit \ncount \nRO \nRaw Analog Input 1 Status (0=0v or 0mA, 32767 = 5v or 24mA) \n402009 \nAnalog_input_02 \ns16bit \ncount \nRO \nRaw Analog Input 2 Status \n402010 \nAnalog_input_03 \ns16bit \ncount \nRO \nRaw Analog Input 3 Status \n402011 \nAnalog_input_04 \ns16bit \ncount \nRO \nRaw Analog Input 4 Status \n402012 \nAnalog_input_05 \ns16bit \ncount \nRO \nRaw Analog Input 5 Status \n402013 \nAnalog_input_06 \ns16bit \ncount \nRO \nRaw Analog Input 6 Status \n402014 \nAnalog_input_07 \ns16bit \ncount \nRO \nRaw Analog Input 7 Status \n402015 \nAnalog_input_08 \ns16bit \ncount \nRO \nRaw Analog Input 8 Status \n402016 \nAnalog_input_09"
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 125,
+        "page": 22,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 23 - \n408683 \nHi_throw6_ten_lsw \n \n \nRW \n \n408684 \nHihi_throw6_ten_msw \ns32bit \n*lbs or N \nRW \nHigh Throw 6 Tension Rod Load Shutdown Setpoint   \n408685 \nHihi_throw6_ten_lsw \n \n \nRW \n \n \n* = refer to configuration report for units of measure choice \n \n5.0 Modbus RTU Application Addendum \n \n5.1 5-digit addressing: There is no difference in addressing between 5 or 6 digit holding register addresses.  Older Modbus clients may be \nlimited to 5 digits.  For the purposes of setting up tables in these devices, address 400001, for example, is the same as 40001.  The “40” \nprefix is not actually broadcast in the communication packet and is only for the purpose of human readability to designate the type of \ndata, in this case, holding registers, that is being described so that the proper function code may be used to read or write the data."
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 100,
+        "page": 17,
+        "score": 9,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 18 - \n403041 \nReserved \n \n \n \n \n403042 \nReserved \n \n \n \n \n403043 \nReserved \n \n \n \n \n403044 \nReserved \n \n \n \n \n403045 \nReserved \n \n \n \n \n403158 \nTI_01 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 1 (Refer to configuration for °C or °F scale.) \n403159 \nTI_02 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 2 \n403160 \nTI_03 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 3 \n403161 \nTI_04 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 4 \n403162 \nTI_05 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 5 \n403163 \nTI_06 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 6 \n403164 \nTI_07 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 7 \n403165 \nTI_08 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 8 \n403166 \nTI_09 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 1 \n403167 \nTI_10 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 2 \n403168 \nTI_11 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 3 \n403169 \nTI_12 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 4 \n403170 \nTI_13 \ns16bit"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 92,
+        "page": 15,
+        "score": 9,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "402575 \nSS_TI_01 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 1 (Refer to configuration for °C or °F \nscale.) \n402576 \nSS_TI_02 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 2 \n402577 \nSS_TI_03 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 3 \n402578 \nSS_TI_04 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 4 \n402579 \nSS_TI_05 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 5"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 18,
+        "page": 3,
+        "score": 9,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "TI_01 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 1 (Refer to configuration for °C or °F scale.) \n400154 \nTI_02 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 2 \n400155 \nTI_03 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 3 \n400156 \nTI_04 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 4 \n400157 \nTI_05 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 5 \n400158 \nTI_06 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 6 \n400159 \nTI_07 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 7 \n400160 \nTI_08 \ns16bit \n°C/ F \nRO \nScaled Temperature Input 8 \n400161 \nTI_09 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 1 \n400162 \nTI_10 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 2 \n400163 \nTI_11 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 3 \n400164 \nTI_12 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 4 \n400165 \nTI_13 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 5 \n400166 \nTI_14 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 6 \n400167 \nTI_15 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 7"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 3,
+        "page": 0,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "Setpoint data-dynamic configuration overlay, changeable through Centurion Display and Modbus RTU \n \n4.0 Modbus Holding Register Table \nReg \nVariable \nFormat \nUnits \n RO     \n RW \nDescription \nCOMMAND, VIP,  ALARMS, HISTORY (READ AND READ/WRITE WHERE INDICATED) \n400001 \nCommand1 \nu16bit \nraw \nRO \nKeypad Commands Enumeration from Port 1 (local display) \n400002 \nCommand1_parm1 \nu16bit \nraw \nRO \nCommand Parameter 1 \n400003 \nCommand1_parm2 \nu16bit \nraw \nRO \nCommand Parameter 2 \n400004 \nCommand1_complete \nu16bit \nraw \nRO \nLast command completed feedback \n400005 \nCommand2 \nu16bit \nraw \nRW \nKeypad Command Enumeration from Port 2 (remote) \nCommand \nExplanation \n1 Ack Alarm (Requires Parameter 1 of Fault #) \n  Parameter 1 = -1, Acks All Alarms \n2 Keypad Start (Disable remote mode) \n3 Keypad Stop (Disable remote mode) \n4 Keypad Reset (Disable remote mode) \n5 Timer 0 \n6 Start Test Mode \n7 Stop Test Mode \n8 Clear event log \n9 Clear alarm log \n10 Put controller into Local mode"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 1,
+        "page": 0,
+        "score": 6,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "requests from the Modbus client and for requests for data outside the ranges documented below. Modbus registers below are shown with 6-digit \naddressing.  \n \nFor advanced data reference and 5-digit addressing, refer to section 5.0.   \n \n2.0 Ports \n \nThere are RS232 and RS485 serial Modbus RTU ports available as well as Modbus TCP/IP Ethernet ports.  Refer to panel drawings for specific \nwiring diagrams. \n \nPress Setup on the Centurion Display to access the Setup Menu, and then choose Centurion Comm Ports to view and set port specific settings \nsuch as baud rate, number of stop bits, IP address or RTU node number. \n \nNOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 2,
+        "page": 0,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "NOTE: For 50333921 firmware, the Centurion occupies two consecutive addresses, so the set address + 1 is also in use by the Centurion and \nmust be skipped when used in a serial RS485 network with multiple devices. \n \n3.0 Modbus Holding Register Ranges \n400001 \n401032 \nCommand, VIP, alarms, history (read and read/write where indicated) – this is the most common area that remote monitoring \nneeds to request, starting at 400101. Additional data is available in translated/scaled status polling range. \n402001 \n402424 \nRaw status polling range - FACTORY USE \n402425 \n402674 \nFault snapshots  \n403001 \n403359 \nTranslated/scaled status polling range \n406269 \n407815 \nSetpoint data-dynamic configuration overlay, changeable through Centurion Display and Modbus RTU \n \n4.0 Modbus Holding Register Table \nReg \nVariable \nFormat \nUnits \n RO     \n RW \nDescription \nCOMMAND, VIP,  ALARMS, HISTORY (READ AND READ/WRITE WHERE INDICATED) \n400001 \nCommand1 \nu16bit \nraw \nRO"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 10,
+        "page": 1,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "node_name",
+          "addressing_mode"
+        ],
+        "content": "u16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved \n \n \n \n \n400063 \nHardware_type \nu16bit \nraw \nRO \nFactory Use"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 126,
+        "page": 22,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "addressing_mode"
+        ],
+        "content": "prefix is not actually broadcast in the communication packet and is only for the purpose of human readability to designate the type of \ndata, in this case, holding registers, that is being described so that the proper function code may be used to read or write the data. \n \n5.2 Note that the Centurion Modbus Map does not change from application to application; however, the configuration file does change and \ncan be modified by the user, therefore additional information about the configuration is required to decode the Modbus Holding Register \ninformation.  It is ideal to have the configuration file report as a reference to actual data formatting, units of measure, and text \ndescriptions. \n \n5.3 Sequence of Operation = A document that describes the operation of the Centurion as it was configured for your application.  Each \nCenturion system is custom configured and has custom events, setpoints and process data points.  The information contained in the"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 22,
+        "page": 3,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code"
+        ],
+        "content": "Examine only the lower 15 bits of this register.  See Section 5.5 for \nExamination of Bits detail. \n502 = Normal Stop Event \n400192 \nNum_active_alarms \nu16bit \nraw \nRO \nTotal number of current active alarm only events detected \n400193 \nReserved \n \n \n \n \n400194 \nStarts_remaining \nu16bit \nraw \nRO \nNumber of Engine Crank Attempts Remaining/Number of Electric Motor \nStart Attempts Remaining \n400195 \nCold_junction_tmp \ns16bit \n°Fx10 \nRO \nCold junction Sensor Temperature \n400196 \nReserved \n \n \n \n \n400197 \nReserved \n \n \n \n \n400198 \nType_k_terminal_temp_mv \nu16bit \nmV \nRO \nFactory use-Calculated mV offset for Type K thermocouples \n400199 \nType_j_terminal_temp_mv \nu16bit \nmV \nRO \nFactory use-Calculated mV offset for Type J thermocouples \n400200 \nCold_junction_expansion \ns16bit \n \nRO \nMX4 Cold junction Sensor Temperature \n400201 \nReserved \n \n \n \n \n400202 \nReserved \n \n \n \n \n400203 \nReserved \n \n \n \n \n400204 \nReserved \n \n \n \n \n400205 \nPid_auto \nbitmap \n \nRO \nControl Loop Mode-(0=Manual,1=Auto)"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 20,
+        "page": 3,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "400174 \nTI_22 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 14 \n400175 \nTI_23 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 15 \n400176 \nTI_24 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 16 \n400177 \nTI_25 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 17 \n400178 \nTI_26 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 18 \n400179 \nCore_rpm \nu16bit \nRPM \nRO \nRaw RPM Reading from magnetic pickup channel \n400180 \nCore_rpm_filtered \nu16bit \nRPM \nRO \nAveraged RPM Reading from magnetic pickup channel \n400181 \nExpansion_rpm \nu16bit \nRPM \nRO \nMX4/5 raw RPM Reading from magnetic pickup channel \n400182 \nExpansion_rpm_filtered \nu16bit \nRPM \nRO \nMX4/5 Averaged RPM Reading from magnetic pickup channel \n400183 \nSystem_voltage \nu16bit \nVx10 \nRO \nScaled System Voltage Status \n400184 \nReserved \n \n \n \n \n400185 \nFull_cn_fw_num_msw \nu32bit \n \nRO \nFull controller firmware number \n400186 \nFull_cn_fw_num_lsw \n \n \n \n \n400187 \nFull_mv_fw_num_msw \nu32bit \n \nRO \nFull display firmware number \n400188"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 94,
+        "page": 16,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "402589 \nSS_TI_15 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 7 \n402590 \nSS_TI_16 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 8 \n402591 \nSS_TI_17 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 9 \n402592 \nSS_TI_18 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 10 \n402593 \nSS_TI_19 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 11 \n402594 \nSS_TI_20 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 12 \n402595 \nSS_TI_21 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 13 \n402596 \nSS_TI_22 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 14 \n402597 \nSS_TI_23 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 15 \n402598 \nSS_TI_24 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 16 \n402599 \nSS_TI_25 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 17 \n402600 \nSS_TI_26 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 18 \n402669 \nSS_Core_rpm \nu16bit \nRPM \nRO"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 132,
+        "page": 23,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "addressing_mode"
+        ],
+        "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 24 - \n \n5.6 Examination of Long integer data (32 bit integers):  \n \n5.6.1 \nModbus RTU Holding registers each contain only 16 bits. \n5.6.2 \nIn order to represent a 32 bit number, 2 consecutive registers are used with the first register address representing the \nMSW and the subsequent address representing the LSW. \n5.6.3 \nThe most common example of this use is when representing the Centurion’s Run Hourmeter counter which is stored as \nan unsigned long in the controller.   \n400119 contains the MSW of the Run Hourmeter counter (in seconds). \n400120 contains the LSW of the Run Hourmeter counter (in seconds). \nTo calculate the actual time in seconds, the 2 words must be joined to create a 32 bit number.  There are \nseveral methods that can be used, depending on the options in the PLC, HMI or SCADA package; one may be \npreferred over the other. \n5.6.4"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 93,
+        "page": 16,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 17 - \n402580 \nSS_TI_06 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 6 \n402581 \nSS_TI_07 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 7 \n402582 \nSS_TI_08 \ns16bit \n°C/ F \nRO \nSnapshot Scaled Temperature Input 8 \n402583 \nSS_TI_09 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 1 \n402584 \nSS_TI_10 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 2 \n402585 \nSS_TI_11 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 3 \n402586 \nSS_TI_12 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 4 \n402587 \nSS_TI_13 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 5 \n402588 \nSS_TI_14 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 6 \n402589 \nSS_TI_15 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 7 \n402590 \nSS_TI_16 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 8 \n402591 \nSS_TI_17 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 9 \n402592 \nSS_TI_18 \ns16bit \n°C/ F"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 19,
+        "page": 3,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "RO \nScaled MX4 Temperature Input 3 \n400164 \nTI_12 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 4 \n400165 \nTI_13 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 5 \n400166 \nTI_14 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 6 \n400167 \nTI_15 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 7 \n400168 \nTI_16 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 8 \n400169 \nTI_17 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 9 \n400170 \nTI_18 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 10 \n400171 \nTI_19 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 11 \n400172 \nTI_20 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 12 \n400173 \nTI_21 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 13 \n400174 \nTI_22 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 14 \n400175 \nTI_23 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 15 \n400176 \nTI_24 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 16 \n400177 \nTI_25 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 17 \n400178 \nTI_26 \ns16bit \n°C/ F"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 101,
+        "page": 17,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "403166 \nTI_09 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 1 \n403167 \nTI_10 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 2 \n403168 \nTI_11 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 3 \n403169 \nTI_12 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 4 \n403170 \nTI_13 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 5 \n403171 \nTI_14 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 6 \n403172 \nTI_15 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 7 \n403173 \nTI_16 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 8 \n403174 \nTI_17 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 9 \n403175 \nTI_18 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 10 \n403176 \nTI_19 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 11 \n403177 \nTI_20 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 12 \n403178 \nTI_21 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 13 \n403179 \nTI_22 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 14 \n403180 \nTI_23 \ns16bit \n°C/ F \nRO \nScaled MX4 Temperature Input 15"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 95,
+        "page": 16,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "coils_discrete"
+        ],
+        "content": "402598 \nSS_TI_24 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 16 \n402599 \nSS_TI_25 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 17 \n402600 \nSS_TI_26 \ns16bit \n°C/ F \nRO \nSnapshot Scaled MX4 Temperature Input 18 \n402669 \nSS_Core_rpm \nu16bit \nRPM \nRO \nRaw RPM Reading from magnetic pickup channel \n402670 \nSS_Core_rpm_filtered \nu16bit \nRPM \nRO \nAveraged RPM Reading from magnetic pickup channel \n402671 \nSS_Expansion_rpm \nu16bit \nRPM \nRO \nMX4/5 raw RPM Reading from magnetic pickup channel \n402672 \nSS_Expansion_rpm_filtered \nu16bit \nRPM \nRO \nMX4/5 Averaged RPM Reading from magnetic pickup channel \n402673 \nSS_System_voltage \nu16bit \nVx10 \nRO \nScaled System Voltage Status \n402674 \nSS_Core_cj_temp \ns16bit \n°Fx10 \nRO \nCold junction temperature on the core board \nTRANSLATED/SCALED STATUS POLLING RANGE \n403001 \nDI_01_16 \nbitmap \nbmp \nRO \nDigital input 1-16 Status (After NO/NC setting conversion a logical “1”"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 9,
+        "page": 1,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_address",
+          "node_name"
+        ],
+        "content": "RO \nFactory use-total device lifetime seconds  \n400045 \nLifetimer seconds lsw \n \n \n \n \n400046 \nNull task counter msw \nu32bit \nraw \nRO \nFactory use \n400047 \nNull task counter lsw \n \n \n \n \n400048 \nNull task lowest qs msw \nu32bit \nraw \nRO \nFactory use \n400049 \nNull task lowest qs lsw \n \n \n \n \n400050 \nSystem powered up time \nmsw \nu32bit \nsec \nRO \nTotal time powered up seconds \n400051 \nSystem powered up time lsw \n \n \n \n \n400052 \nReserved \n \n \n \n \n400053 \nReserved \n \n \n \n \n400054 \nRs485_1_dly \nu16bit \nmS \nRW \nRS485_1 Modbus Response Delay \n400055 \nRs485_2_dly \nu16bit \nmS \nRW \nRS485_2 Modbus Response Delay \n400056 \nRs232_1_dly \nu16bit \nmS \nRW \nRS232_1 Modbus Response Delay \n400057 \nRs232_2_dly \nu16bit \nmS \nRW \nRS232_2 Modbus Response Delay \n400058 \nCCP_comm_status \nu16bit \nraw \nRO \nCommunication status to EICS (0=waiting,1=lost,2=bad key,3=ok,5=child \nlost) \n400059 \nCCP_key_used \nu16bit \nraw \nRO \nFactory Use \n400060 \nReserved \n \n \n \n \n400061 \nReserved \n \n \n \n \n400062 \nReserved"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 5,
+        "page": 1,
+        "score": 3,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "Section 50 \n \n1815243 \n2023-11-16 \n- 2 - \n400006 \nCommand2_parm1 \nu16bit \nraw \nRW \nCommand Parameter 1 \n400007 \nCommand2_parm2 \nu16bit \nraw \nRW \nCommand Parameter 2 \n400008 \nCommand2_complete \nu16bit \nraw \nRO \nLast command completed feedback \n400009 \nCfg_date_year \nu16bit \nraw \nRO \nTimestamp of Configuration Creation/Save \n400010 \nCfg_date_month \nu16bit \nraw \nRO \n \n400011 \nCfg_date_day \nu16bit \nraw \nRO \n \n400012 \nCfg_date_hour \nu16bit \nraw \nRO \n \n400013 \nCfg_date_minute \nu16bit \nraw \nRO \n \n400014 \nCfg_date_second \nu16bit \nraw \nRO \n \n400015 \nCfg_string1 \nstring \nraw \nRO \n16 character of Configuration Description \n400016 \nCfg_string2 \nstring \nraw \nRO \n \n400017 \nCfg_string3 \nstring \nraw \nRO \n \n400018 \nCfg_string4 \nstring \nraw \nRO \n \n400019 \nCfg_string5 \nstring \nraw \nRO \n \n400020 \nCfg_string6 \nstring \nraw \nRO \n \n400021 \nCfg_string7 \nstring \nraw \nRO \n \n400022 \nCfg_string8 \nstring \nraw \nRO \n \n400023 \nFw_number \nu16bit \nraw \nRO \nLast 5 digits of Firmware Number \n400024 \nCtl_major_ver \nu16bit"
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 77,
+        "page": 13,
+        "score": 3,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "s16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 7 Status \n402173 \nTemp_input_16 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 8 Status \n402174 \nTemp_input_17 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 9 Status \n402175 \nTemp_input_18 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 10 Status \n402176 \nTemp_input_19 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 11 Status \n402177 \nTemp_input_20 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 12 Status \n402178 \nTemp_input_21 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 13 Status \n402179 \nTemp_input_22 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 14 Status \n402180 \nTemp_input_23 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 15 Status \n402181 \nTemp_input_24 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 16 Status \n402182 \nTemp_input_25 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 17 Status \n402183 \nTemp_input_26 \ns16bit \nmVx100 \nRO \nRaw MX4 Temperature Input 18 Status \n402253 \nVBatt_raw_analog \ns16bit \ncount \nRO"
+      }
+    ]
+  }
+]

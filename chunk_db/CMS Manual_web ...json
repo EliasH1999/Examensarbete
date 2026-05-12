@@ -1,0 +1,740 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "— \nCMS-700 User manual\n— \nCIRCUIT MONITORING SYSTEM \nCMS-700\nUser manual\n•\t Energy transparency at branch level for optimal load distribution\n•\t Measurements of all kinds of currents (DC,AC, or mixed) up to 160A\n•\t Simplified installation thanks to quick mounting of sensors\n•\t Smart commissioning in only a few minutes\n•\t Easy retrofitting and upgrades thanks to the flexible, modular design"
+  },
+  {
+    "chunk_id": 1,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n3\n005\t\nUse and Storage of the Manual\n006\t\nGeneral Information\n007\t\nPackaging Contents\n008–011\t\nProduct Overview\n012–013\t\nMeasurements and Events Definition\n014\t\nMemory Architecture\n015–018\t\nComponents of CMS system\n019–022\t\nInstallation Guide\n023–024\t\nWiring Diagrams\n025–028\t\nInitial Commissioning\n029–030\t\nWeb User Interface Overview\n031–049\t\nWEB UI – Settings\n050\t\nWEB UI – Mains\n051\t\nWEB UI – Branches\n052\t\nWEB UI – Energy\n053\t\nWEB UI – Energy / Events\n054–059\t\nModbus\n060–062\t\n\u0007Simple Network Management \nProtocol – SNMP\n063–067\t\nModbus and SNMP Mapping\n068\t\nFAQ\n—\nTable of contents"
+  },
+  {
+    "chunk_id": 2,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "4\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)"
+  },
+  {
+    "chunk_id": 3,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n5\n— \nStoring\nThe manual must be stored close to the device; safe from liquids and anything else which may \ncompromise its leggibility. The manual and the declaration of conformity are both an integral part \nof the device until it is dismantled. If the manual is lost or illegible please request a copy from the \nmanufacturer.\nCopyright\nThe copyright of this manual is the property of ABB Ltd. This manual contains texts, designs and \nillustrations of a technical nature which must not be disclosed or transmitted to third parties, even \npartially, without the written authorisation of ABB Ltd.\nLiability disclaimer\nThe information contained in this document is subject to change without notice and cannot be \nconsidered as an obligation by ABB Ltd. ABB Ltd. is not liable for any errors that may appear in this \ndocument. ABB Ltd. is not liable under any circumstances for any direct, indirect, special, incidental"
+  },
+  {
+    "chunk_id": 4,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "considered as an obligation by ABB Ltd. ABB Ltd. is not liable for any errors that may appear in this \ndocument. ABB Ltd. is not liable under any circumstances for any direct, indirect, special, incidental \nor consequential damage of any kind that may arise from using this document. ABB Ltd. is also not \nliable for incidental or consequential damage that may arise from using the software or hardware \nmentioned in this document.\nBrand\nABB Ltd. is a registered trademark of ABB Group. All other brands or product names mentioned \nin this document are trademarks or registered trademarks of their respective owners.\nMeaning of symbols\n—\nUse and Storage of the Manual\nThis manual contains all of the safety information, the technical \naspects and the operating necessary to ensure the correct use of \nthe device and maintain it in safe conditions.\nWarning – can result in death or \nserious personal injury\nNon-safety related, but useful \nand important information\nCE conformity mark\nTorque"
+  },
+  {
+    "chunk_id": 5,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "aspects and the operating necessary to ensure the correct use of \nthe device and maintain it in safe conditions.\nWarning – can result in death or \nserious personal injury\nNon-safety related, but useful \nand important information\nCE conformity mark\nTorque\nObserve the accompanying \ndocuments\nDisposal\nInstallation, \nelectrotechnical expertise\nEquipment protected throughout\nby reinforced insulation"
+  },
+  {
+    "chunk_id": 6,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "6\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nGeneral Information\n— \nSafety warnings\n— \nCleaning\nAttention: Non-adherence to the\nfollowing points can lead to serious injury or death.\nUse the suitable personal protection devices and adhere to the current\nregulations governing electrical safety.\nThis device must be installed exclusively by qualified personnel who have\nread all of the information relative to the installation.\n\u0007Check that the voltage on the main side is compatible with the range permitted by the device.\nEnsure that all current and voltage supplies are disconnected prior to carrying\nout any controls, visual inspections and tests on the device.\nAlways assume that all circuits are under voltage until they are completely\ndisconnected, subjected to tests and labelled.\nDisconnect all of the power supply prior to working on the device.\nAlways use a suitable voltage detection device to check that the supply is interrupted."
+  },
+  {
+    "chunk_id": 7,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "Always assume that all circuits are under voltage until they are completely\ndisconnected, subjected to tests and labelled.\nDisconnect all of the power supply prior to working on the device.\nAlways use a suitable voltage detection device to check that the supply is interrupted.\nPay attention to any dangers and carefully check the work area ensuring that no instruments or foreign \nobjects have been left inside the compartment in which the device is housed.\nThe correct use of this device depends on a correct manipulation, installation and use.\nFailure to adhere to the basic installation information can lead to injuries as well\nas damage to the electric instruments or to any other product.\nThe tests carried out at a high voltage can damage the device's electronic components.\nDisposal\nDefective devices must be disposed of as special waste at the appropriate collection \npoints set up for this purpose. National or regional regulations on the disposal of special \nwaste must be followed."
+  },
+  {
+    "chunk_id": 8,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "The tests carried out at a high voltage can damage the device's electronic components.\nDisposal\nDefective devices must be disposed of as special waste at the appropriate collection \npoints set up for this purpose. National or regional regulations on the disposal of special \nwaste must be followed.\nService and maintenance\nThe device undergoes several safety assessments before shipment and will be sealed. If \na device is opened, the safety assessments have to be repeated. A warranty will be provided \nfor unopened devices only.\n Use a dry cloth. \nInstallation to mains \nInstallation of CMS-700 to mains shall include a switch or circuit breaker for the connection \nto mains. The switch or circuit breaker must be suitably located and easily reachable and must be \nmarked as the disconnecting device for the CMS-700. \nDisconnection from mains or connection to mains \nSwitch off circuit breaker or switch before disconnecting from the mains supply or connecting"
+  },
+  {
+    "chunk_id": 9,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "to mains. The switch or circuit breaker must be suitably located and easily reachable and must be \nmarked as the disconnecting device for the CMS-700. \nDisconnection from mains or connection to mains \nSwitch off circuit breaker or switch before disconnecting from the mains supply or connecting \nto the mains supply. Same applies for all other connections (L1, L2, L3, N)."
+  },
+  {
+    "chunk_id": 10,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n7\n—\nPackaging Contents\nAttention: The following items are not \nincluded in the delivery of the product\n1) CMS-Sensors\n2) Current transformer (CT)\n3) CMS-Bus\n4) Connector set\n- Control unit (CMS-700)\n- Installation manual\nCMS-700\ncontrol unit\nEnergy Monitor 96"
+  },
+  {
+    "chunk_id": 11,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "8\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEMS (CMS)\nCMS-700\ncontrol unit\nEnergy Monitor 96\n1\nethernet\nL1/supply\nI1\nL2\nI2\nL3\nI3\nL4/N\nI4/N\nserial\n2\n3\n96 CMS Sensors\nSerial: RS485 Modbus RTU\nEthernet: Modbus TCP, SNMP\nWebserver for configuration \n& visualization\nIntegrated power supply\nInput for current transformer\nInput for voltage supply \nand measurement\n—\nProduct Overview\nIntended use\nThe system consists of a control unit and sensors with different measurement ranges. \nThe sensors measure alternating, direct and mixed currents (TRMS) and get connected to the control \nunit by a flat cable, the CMS-Bus. The measurement data can be displayed or analyzed via LAN interface \nwith the integrated web server or Modbus TCP or SNMP protocols or via RS485 interface, such as \nModbus RTU.\nThe CMS-700 control unit is a measuring instrument for recording \nthe performance and energy of mains and of up to 96 branch sensors.\n— \nCyber Security Disclaimer"
+  },
+  {
+    "chunk_id": 12,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "with the integrated web server or Modbus TCP or SNMP protocols or via RS485 interface, such as \nModbus RTU.\nThe CMS-700 control unit is a measuring instrument for recording \nthe performance and energy of mains and of up to 96 branch sensors.\n— \nCyber Security Disclaimer\nThe CMS-700 is designed to be connected and to communicate information and data via a network \ninterface, which should be connected to a secure network. It is your sole responsibility to provide and \ncontinuously ensure a secure connection between the product and your network or any other network \n(as the case may be) and to establish and maintain appropriate measures (such as but not limited to \nthe installation of firewalls, application of authentication measures, encryption of data, installation of \nantivirus programs, etc.) to protect the CMS-700 product, the network, its system and interfaces \nagainst any kind of security breaches, unauthorized access, interference, intrusion, leakage and/or"
+  },
+  {
+    "chunk_id": 13,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "antivirus programs, etc.) to protect the CMS-700 product, the network, its system and interfaces \nagainst any kind of security breaches, unauthorized access, interference, intrusion, leakage and/or \ntheft of data or information. ABB Ltd and its affiliates are not liable for damages and/or losses related \nto such security breaches, unauthorized access, interference, intrusion, leakage and/or theft of data or \ninformation.\nAlthough ABB Ltd provides functionality testing on the products and updates that we release, you \nshould institute your own testing program for any product updates or other major system updates \n(to include but not limited to code changes, configuration file changes, third party software updates \nor patches, hardware change out, etc.) to ensure that the security measures that you have implemented \nhave not been compromised and system functionality in your environment is as expected."
+  },
+  {
+    "chunk_id": 14,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n9\n—\nProduct Overview\n— \nReset button\nThere is a recessed button to restart the device or for resetting it to a defined as-delivered condition. \n• Pressing the button for 3 to less than 6 seconds restarts the device with current settings\n• Pressing the button for more than 10 seconds resets the device to the factory settings\nDo not switch off the device during the reset process.\n— \nLEDs\nTwo LEDs indicate respectively the status of the device and the one of the network.\n1. LED Status\nDisplay\t\nFunction\nOff\t\nDevice is off\nGreen on\t\nDevice is ready\nGreen flashing slowly\t\nFirmware is ready, Web server is loading\nOrange flashing slowly\t\nFirmware update ongoing\nOrange on\t\nBooting\nRed on\t\nBooting error\n\n2. LED Network\nDisplay\t\nFunction\nOff\t\nLAN is not connected\nGreen on\t\nLAN is connected\nGreen flashing\t\nNetwork traffic"
+  },
+  {
+    "chunk_id": 15,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "10\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nProduct Overview \nTechnical specifications\nCMS-700 Control Unit\nIEC61010-1\nSupply voltage\t\n[VAC] \t\n90-240  (L1-N) \nVoltage measurement range\t\n[VAC] \t\n90-240  (L1-N, L2-N, L3-N) \nUL 508 / CSA C22.2 No. 14\nSupply voltage\t\n[VAC] \t\n80-277  (L1-N) \nVoltage measurement range\t\n[VAC] \t\n80-277  (L1-N, L2-N, L3-N) \nGeneral\nFrequency\t\n[Hz] \t\n50 / 60\nPower consumption (L1-N)\t\n[VA] \t\n5 .. 40 \n\t\n\t\n(depending on number of sensors)\nCurrent measurement range, \t\n[A]\t\nnominal: 5\nCurrent transformer \t\n\t\nmax.: 6\n(secondary wire of CT)\t\n \t\nData refresh time sensor values\t\n \t\n 1 sec \nOperating temperature\t\n[°C]\t\n-25 .. +60\nStorage temperature\t\n[°C]\t\n-40 .. +85\nLAN (RJ45 connector)\t\n[Mbit/s] \t\n100\nModbus RTU\t\n[Baud]\t\nRS485 2-wire, 2400..115200\nCable cross section\t\n \t\n1.0.. 2.5 mm², max. 0.8 Nm *) \nStripping length\t\n[mm]\t\n10\nTightening torque of screws\t\n[Nm]\t\n0.5..0.8\nMounting DIN-rail\t\n \t\n35 mm DIN50022\nDimensions\t\n[mm] \t\n160.0 x 87.0 x 64.9 (9 DIN modules)"
+  },
+  {
+    "chunk_id": 16,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "[Mbit/s] \t\n100\nModbus RTU\t\n[Baud]\t\nRS485 2-wire, 2400..115200\nCable cross section\t\n \t\n1.0.. 2.5 mm², max. 0.8 Nm *) \nStripping length\t\n[mm]\t\n10\nTightening torque of screws\t\n[Nm]\t\n0.5..0.8\nMounting DIN-rail\t\n \t\n35 mm DIN50022\nDimensions\t\n[mm] \t\n160.0 x 87.0 x 64.9 (9 DIN modules)\nOvervoltage category\t\n \t\nII\nPollution degree\t\n \t\n2\nAltitude\t\nm\t\n2000\nSafety class \t\n \t\nIP20\nMain circuit accuracy\nVoltage\t\n \t\n± 1%\nCurrent \t\n \t\n± 1%\nHarmonic component (up to 2500Hz)\t\n \t\n± 1%\nActive power\t\n \t\n± 2 %\nApparent power\t\n \t\n± 2 %\nReactive power\t\n \t\n± 2 %\nPower factor\t\n \t\n± 2 %\nStandards\nElectrical safety\t\n \t\nIEC 61010-1, UL 508, CSA C22.2 No.14\nEMC\t\n\t\nIEC61326-1\n*)  Line protection is recommended (acc. IEC61439) min. 6A, max 8A for 1mm2, 12A for 1.5mm2, 20A for 2.5mm2\n—\nCMS-700"
+  },
+  {
+    "chunk_id": 17,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n11\n—\nProduct Overview\nOverall dimensions\n162\n87\n61.2\n25\n20\n45\n7\n22\n43.6\n58.1\n6.1\n3"
+  },
+  {
+    "chunk_id": 18,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "12\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nMeasurements and Events Definition\n—\nPrinciple of measurement \nThe principle of measurement for AC of the CMS-700 control unit includes measurement on the \nmains and branches. On the mains side, all values are measured directly. On the branches, current is \nmeasured while voltage, power factor as well as active power and energy are calculated using \nmeasured mains values.\nFor further information, please refer to the following table\nMains\nBranches/Sensors\nMeasurement of\nIMAINS (Current) [A]\nITRMS, IAC, IDC (Current TRMS, AC, DC) [A]\nMeasured mains values used for calculation\nUMAINS (Voltage) [V]\nUMAINS (Voltage) [V]\nPF (Power Factor)\nPF (Power Factor) (manual configuration is possible)\nTHD (Voltage, Current) (%)\nCalculation of\nPower: \n– active [W]\n– apparent [VA]\n– reactive [var]\nPSENS (Active power) [W]\nPSENS= UMAINS  ·  IAC  ·  PF \nEnergy [kWh]\nEnergySENS [kWh]\nAttention: Referring to the \ndiagram in the figure aside,"
+  },
+  {
+    "chunk_id": 19,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "PF (Power Factor) (manual configuration is possible)\nTHD (Voltage, Current) (%)\nCalculation of\nPower: \n– active [W]\n– apparent [VA]\n– reactive [var]\nPSENS (Active power) [W]\nPSENS= UMAINS  ·  IAC  ·  PF \nEnergy [kWh]\nEnergySENS [kWh]\nAttention: Referring to the \ndiagram in the figure aside, \nplease note that N on the \nsupply has to be connected \nin order to avoid damage \nof the device. Twisting \nthe phase and neutral \ncan damage the device.\nVoltage-Input\nSupply & Measurement\nCMS-Bus,\n3 x32 Sensors\nBranches\nCMS-Bus\nFlat Cable\nMains\nBranches\nSensors\nCMS 700\nCT-Input\nCurrent Measurement\nL1/Supply\nL2\nL3\nN/Supply\nI1\nA\nB\nA\nB\nA\nB\nA\nB\nI2\nI3\n14/N"
+  },
+  {
+    "chunk_id": 20,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "13\n—\nMeasurements and Events Definition\n—\nEvents\nIf a measurement object (e.g. TRMS current of a branch) crosses predefined threshold conditions \n(value, direction and delay time) then an event is registered.\nFollowing options linked to events logging are available:\n• Visualization of all detected events in WebUi\n• Reading event/alarm status through  Modbus register or SNMP traps\n• Export via FTP and Email\nIn order to configure an event, specifications of the following are required:\n• The threshold value \n• Indication of cross direction (cross up, cross down)\n• Indication of delay time \nEvents can be linked both to mains and branches object values: \nBranches\nObject\t\nUnit\t\nAlarm\t\ncross\t\nResolution\t\nFormat\n\t\n\t\nStatus\t\nup/down\t\nThreshold\t\nno Alarm\t\n\t\n0\t\n\t\n\t\nCurrent TRMS\t\nA\t\n11\t\nup\t\n0.01\t\nunsigned\nCurrent TRMS\t\nA\t\n12\t\ndown\t\n0.01\t\nunsigned\nActive power P\t\nW\t\n41\t\nup\t\n1\t\nunsigned\nActive power P\t\nW\t\n42\t\ndown\t\n1\t\nunsigned\nMains\nObject\t\nUnit\t\nAlarm\t\ncross\t\nResolution\t\nFormat\t\nL1\t\nL2\t\nL3\t\nN"
+  },
+  {
+    "chunk_id": 21,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "Format\n\t\n\t\nStatus\t\nup/down\t\nThreshold\t\nno Alarm\t\n\t\n0\t\n\t\n\t\nCurrent TRMS\t\nA\t\n11\t\nup\t\n0.01\t\nunsigned\nCurrent TRMS\t\nA\t\n12\t\ndown\t\n0.01\t\nunsigned\nActive power P\t\nW\t\n41\t\nup\t\n1\t\nunsigned\nActive power P\t\nW\t\n42\t\ndown\t\n1\t\nunsigned\nMains\nObject\t\nUnit\t\nAlarm\t\ncross\t\nResolution\t\nFormat\t\nL1\t\nL2\t\nL3\t\nN\t\n\t\n\t\nStatus\t\nup/down\t\nThreshold\t\nno Alarm\t\n\t\n0\t\n\t\n\t\n\t\nx\t\nx\t\nx\t\nx\t\nI\t\nA \t\n11\t\nup\t\n0.01\t\nunsigned\t\nx\t\nx\t\nx\t\nx\t\nI\t\nA \t\n12\t\ndown\t\n0.01\t\nunsigned\t\nx\t\nx\t\nx\t\nx\t\nTHD-I\t\n% \t\n21\t\nup\t\n0.01\t\nunsigned\t\nx\t\nx\t\nx\t\nx\t\nTHD-I\t\n% \t\n22\t\ndown\t\n0.01\t\nunsigned\t\nx\t\nx\t\nx\t\nx\t\nU\t\nV\t\n31\t\nup\t\n0.01\t\nunsigned\t\nx\t\nx\t\nx\t\n\t\nU\t\nV\t\n32\t\ndown\t\n0.01\t\nunsigned\t\nx\t\nx\t\nx\t\n\t\nTHD-U\t\n% \t\n41\t\nup\t\n0.01\t\nunsigned\t\nx\t\nx\t\nx\t\n\t\nTHD-U\t\n% \t\n42\t\ndown\t\n0.01\t\nunsigned\t\nx\t\nx\t\nx\t\n\t\nP\t\nW\t\n51\t\nup\t\n1\t\nsinged\t\nx\t\nx\t\nx\t\n\t\nP\t\nW\t\n52\t\ndown\t\n1\t\nsinged\t\nx\t\nx\t\nx\t\n\t\nS\t\nVA\t\n61\t\nup\t\n1\t\nunsigned\t\nx\t\nx\t\nx\t\n\t\nS\t\nVA\t\n62\t\ndown\t\n1\t\nunsigned\t\nx\t\nx\t\nx\t\n\t\nQ\t\nvar\t\n71\t\nup\t\n1\t\nsigned\t\nx\t\nx\t\nx\t\n\t\nQ\t\nvar\t\n72\t\ndown\t\n1\t\nsigned\t\nx\t\nx\t\nx\t\n\t\nPower factor\t\n- \t\n81\t\nup\t\n0.01\t\nsinged\t\nx\t\nx\t\nx"
+  },
+  {
+    "chunk_id": 22,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "x\t\nx\t\nx\t\n\t\nP\t\nW\t\n51\t\nup\t\n1\t\nsinged\t\nx\t\nx\t\nx\t\n\t\nP\t\nW\t\n52\t\ndown\t\n1\t\nsinged\t\nx\t\nx\t\nx\t\n\t\nS\t\nVA\t\n61\t\nup\t\n1\t\nunsigned\t\nx\t\nx\t\nx\t\n\t\nS\t\nVA\t\n62\t\ndown\t\n1\t\nunsigned\t\nx\t\nx\t\nx\t\n\t\nQ\t\nvar\t\n71\t\nup\t\n1\t\nsigned\t\nx\t\nx\t\nx\t\n\t\nQ\t\nvar\t\n72\t\ndown\t\n1\t\nsigned\t\nx\t\nx\t\nx\t\n\t\nPower factor\t\n- \t\n81\t\nup\t\n0.01\t\nsinged\t\nx\t\nx\t\nx\t\n\t\nPower factor\t\n- \t\n82\t\ndown\t\n0.01\t\nsinged\t\nx\t\nx\t\nx\t\n\t\nActive Energy\t\nWh \t\n121\t\nup\t\n10\t\nsinged\t\nx\t\nx\t\nx\t\n\t\nActive Energy\t\nWh \t\n122\t\ndown\t\n10\t\nsinged\t\nx\t\nx\t\nx\t\n\t\nThe type of event is available on Modbus map as Alarm Status. Resolution refers to the accuracy with \nwhich the value is defined. If several events occur for the same main or branch, the newest one will be \ngiven out via Modbus.\nThree register blocks are available in the Modbus register map:\n• only object type with alarm code\n• object type with alarm code and threshold value\n• number of currently active alarms"
+  },
+  {
+    "chunk_id": 23,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "14\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nMemory Architecture\nThe measured values of the main power network and those of the 96 outputs \nare stored in the following memory areas:\nStored values\nMains\n•\t Voltage [V]: L1, L2, L3\n•\t Current [A]: L1, L2, L3, N\n•\t Power factor [-]: L1,L2,L3\n•\t THD U [%]: L1, L2, L3\n•\t THD I [%]: L1, L2, L3, N\n•\t Active power[W]: L1, L2, L3\n•\t Apparent power [VA]: L1, L2, L3\n•\t Reactive power [VAR]: L1, L2, L3\n•\t Active power summation [W]\n•\t Apparent power summation [VA]\n•\t Reactive power summation [VAR]\n•\t Active energy [Wh]: L1, L2, L3\n•\t Apparent energy [VAh]: L1, L2, L3\nBranches\n•\t Current (TRMS, AC, DC) [A] \n•\t Active power [W]\n•\t Active energy [Wh]\nThese values of the respective stacks can be exported as a CSV-file \nand pulled into an FTP or sent by email.\nTime reference\nThe measured values are provided with a UTC time stamp. UTC (Universal Coordinated Time) \n stands for the location-independent world time in seconds."
+  },
+  {
+    "chunk_id": 24,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n15\nPushbutton\nSolid-core sensor\nOpen-core sensor\nCMS-Bus interface\nLED\nOpening for the electrical\nconductor\nLEDs\nReset button\nTerminal RS-485\nModbus (RTU)\nCMS-Bus interface \nwith up to 96 sensors\nRJ45-socket for LAN\nconnection\nTerminals L1, L2, L3, N\n• Wire gauge max 2.5 mm2\n• Voltage 80-277 VAC 50/60 Hz\nTerminal Current Transformer \nfor secondary winding, \nnominal 5 A, max 6 A\n— \nControl Unit\n— \nCMS Sensor\n—\nComponents of CMS system\nSensor LED Status: \nON\nSensor is online and in measurement mode. There is a feature in the configuration \nto switch off the LED after a specified time.\nOFF\nSensor is not connected to CMS-Bus or LED is switched off in the configuration.\nFlashing slowly\nSensor is not assigned.\nFlashing fast\nSensor in assign process or in “setting/branches” mode. This sensor is the sensor \ncorresponding to the yellow-marked row on the screen for webserver settings."
+  },
+  {
+    "chunk_id": 25,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "16\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\nSystem Pro M, SMISSLINE\nS800\nDIN rail\nCable tie\nMounting method\nfor all MCBs, RCDs, \nRCBOs with \ntwin terminals\nfor MCBs \n(S200, SMISSLINE) and \nRCBOs (SMISSLINE)\nfor fuse \nholders E90 \n(1000VDC)\nfor all S800 devices \nwith cage terminals \nuniversally \nusable\nuniversally \nusable\nOpen-core sensors\nAC accuracy* of ≤ ± 1.0%"
+  },
+  {
+    "chunk_id": 26,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "The laying method \ninfluences the accuracy.\n18-mm overall width\nCMS-120xx (80 A)\nCMS-120PS\nCMS-120LA\n-\nCMS-120DR\nCMS-120CA\nCMS-121xx (40 A)\nCMS-121PS\nCMS-121LA\nCMS-121FH\nCMS-121DR\nCMS-121CA\nCMS-122xx (20 A)\nCMS-122PS\nCMS-122LA\nCMS-122FH\nCMS-122DR\nCMS-122CA\nSolid-core sensors\nAC accuracy* of ≤ ± 0.5%\n18-mm overall width\nCMS-100xx (80 A)\nCMS-100PS\nCMS-100S8\nCMS-100DR\nCMS-100CA\nCMS-101xx (40 A)\nCMS-101PS\nCMS-101S8\nCMS-101DR\nCMS-101CA\nCMS-102xx (20 A)\nCMS-102PS\nCMS-102S8\nCMS-102DR\nCMS-102CA\n25-mm overall width\nCMS-200xx (160 A)\nCMS-200S8\nCMS-200DR\nCMS-200CA\nCMS-201xx (80 A)\nCMS-201S8\nCMS-201DR\nCMS-201CA\nCMS-202xx (40 A)\nCMS-202S8\nCMS-202DR\nCMS-202CA\n* All accuracy specifications refer to the relevant full scale value and apply to 25°C\n— \nSensors overview\n—\nComponents of CMS system"
+  },
+  {
+    "chunk_id": 27,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n17\n— \nCurrent Transformer\nExample: CT PRO XT 250\n—\nComponents of CMS system\n— \nCMS Flat Cable\nThe CMS flat cable is a 4-pin cable for connecting multiple sensors to one control unit. The cable \nis available in the following four lengths: 2 m (CMS-800), 5 m (CMS-802), 10 m (CMS-803), \nand 30 m (CMS-805).\nPlease take into account the following information on the possible cable length of the CMS flat cable \ndepending on the number and shape of sensors:\nMaximum flat cable length in m\nNumber of sensors\nSolid-core sensors\nOpen-core sensors\n32\n4.5\n7.5\n28\n5.0\n8.5\n24\n6.0\n10.0\n20\n7.0\n12.0\n16\n8.5\n15.0\n12\n11.0\n20.0\n8\n16.0\n30.0\n•\t Do not exceed a total flat cable length of 32m for all CMS-Bus lines for each control unit.\n•\t Flat cables longer than approx. 15m could require a 120Ω terminating resistor between the two inner \nwires at the far end.\n•\t For the flat cable, please consider:\n-- Use within closed housings only"
+  },
+  {
+    "chunk_id": 28,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "•\t Do not exceed a total flat cable length of 32m for all CMS-Bus lines for each control unit.\n•\t Flat cables longer than approx. 15m could require a 120Ω terminating resistor between the two inner \nwires at the far end.\n•\t For the flat cable, please consider:\n-- Use within closed housings only \n-- Keep a distance of min. 5.5 mm to uninsulated live parts\n-- Where necessary, additional protection against mechanical stress or UV radiation must be ensured."
+  },
+  {
+    "chunk_id": 29,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "18\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nComponents of CMS system\n— \nConnector Set\nThe CMS-820 connector set contains connector housings and connectors to connect \nthe flat cable to the sensors.\n35 x connector housing                      35 x connector"
+  },
+  {
+    "chunk_id": 30,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n19\nTo assemble of the control unit, perform steps 1 and 2. The device can be mounted \nhorizontally or vertically.  To disconnect, perform steps 3 and 4.\n— \nWarranty\nSafe operation is ensured if assembly work has been carried out according to these user instructions.\nFurthermore, the instructions in the manual must be observed.\nAuthorized Personnel\nAssembly, connection, and removal work should only be carried out by authorized and qualified\npersonnel.\n— \nAssembly on 35mm DIN-Rail \n•\t The CMS-700 can be mounted on all 35 mm DIN rails (DIN50022) \n•\t The device can be installed for single or three phase use \n•\t When available, connect the LAN cable of the local network\n—\nInstallation Guide\nE245\nStatus\nNetwork\nReset\nA     B\nRS485\nCMC-BUS\nLAN\nFallback IP 169.168.42.42;admin, admin\nL2\nL3\nN\nCT\nl1\nA     B\n1\n2\n3\nA   B\nl2\nA     B\nl3\nA     B\nl4/N\nA     B\n2\n4\n1\n3"
+  },
+  {
+    "chunk_id": 31,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "20\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nInstallation Guide\n— \nFlat Cable – Assembly of Connectors\nMark the desired placement of the connector with a pen:\n1.\t \u0007Press the flat cable into the cable duct of the \nconnector housing.\n2.\t \u0007Insert the connector into the connector \nhousing at the marked position.\n3.\t \u0007Press together using parallel pliers.\nRepeat the process at all other marks.\n•\t Use the connectors only once\n•\t Connect max. 96 sensors to each CMS-Bus interface of the control unit\n•\t Consider the maximum flat cable length\n•\t Flat cable should not exert force on the sensor, otherwise measuring errors may occur\n•\t Keep a distance of 5.5mm minimum between the flat cable and uninsulated live parts\nCMC-BUS\n1\n2\n3\nA   B\n— \nPosition of the Cable\nThe cable must not bend directly above the \nsensor. If you use open-core sensors, make sure \nthe cable is at the correct position, otherwise \nmeasuring errors may occur."
+  },
+  {
+    "chunk_id": 32,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n21\n— \nMounting of System pro M compact and SMISSLINE Sensors\n• Sensors fit to all ABB installation devices with twin terminals\n• Flat cable should not exert force on the sensor, otherwise measuring errors may occur\n• Sensors fit ABB MCBs (S200, SMISSLINE) and RCBOs (SMISSLINE) \n• Flat cable should not exert force on the sensor, otherwise measuring errors may occur\n1. \u0007Unscrew the terminal of the installation \ndevice. Plug in the metal pin of the sensor \ninto rear terminal connection.\n2. \u0007Put the cable through the opening of the \nsensor into the installed device. The cable \nhas to be insulated within the sensor!\n3. Then tighten the screw.\n1. \u0007Insert the sensor on the existing device, \nin order to have the cable passing through \nthe opening of the sensor.\n2. \u0007Snap the adapter of the sensor on the upper \nscrew hole of the already installed device.\n—\nInstallation Guide\n— \nMounting Sensors on DIN-Rails"
+  },
+  {
+    "chunk_id": 33,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "3. Then tighten the screw.\n1. \u0007Insert the sensor on the existing device, \nin order to have the cable passing through \nthe opening of the sensor.\n2. \u0007Snap the adapter of the sensor on the upper \nscrew hole of the already installed device.\n—\nInstallation Guide\n— \nMounting Sensors on DIN-Rails\n•\t Sensors can be mounted on all 35-mm DIN-Rails (DIN50022)\n•\t The cable should not exert force on the sensor, otherwise measuring errors may occur\n1.\t Snap in the bracket on the DIN-rail.\n2.\t \u0007Insert the cable into the installed device \nthrough the opening on the sensor. \nThe cable has to be insulated within the \nsensor.\n3.\t Fix the cable with a cable tie.\n4.\t Snap in the sensor on the bracket.\n1\n4\n2\n3"
+  },
+  {
+    "chunk_id": 34,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "22\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\nAttention:  When plugging in the CMS flat cable on the sensors, \ncheck the correct connection direction.\n—\nInstallation Guide\n— \nConnection\nFinally, connect the CMS- Sensors to the control unit.\nPlug in the cable, check the correct connection direction. (Picture to the right) \n— \nMounting of cable tie sensors\n•\t The cable should not exert force on the sensor, otherwise measuring errors may occur\n1.\t \u0007Insert the cable into the installed device \nthrough the opening on the sensor.\n2.\t Fix the cable with a cable tie.\n1\n2\nA     B\nRS485\nCMC-BUS\nLAN\nFallback IP 169.168.42.42;admin, admin\nCT\nl1\n1\n2\n3\nA   B\nl2\nl3\nl4/N\n\u0014"
+  },
+  {
+    "chunk_id": 35,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n23\nThe operations to carry out for the correct connection of the device, based on the type of electric \nline available, are described in this section.\nThe CMS-700 includes an own power supply on L1-N. No external power supply is required. \nThe contacts l1, l2, l3, l4/ N are provided for connecting the external current transformer.\nInstallation to mains \nInstallation of CMS-700 to mains shall include a switch or a circuit breaker for the connection to them. \nThe switch or circuit breaker must be suitably located and easily reachable and must be marked as \nthe disconnecting device for the CMS-700.\nDisconnection from mains or connection to mains \t \t\nSwitch off circuit breaker or switch before disconnecting from the mains supply or connecting to the \nmains supply. Same applies for all other connections (L1, L2, L3, N).\nAttention:  The installation and the cabling of the device must be carried out by qualified personnel."
+  },
+  {
+    "chunk_id": 36,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "Switch off circuit breaker or switch before disconnecting from the mains supply or connecting to the \nmains supply. Same applies for all other connections (L1, L2, L3, N).\nAttention:  The installation and the cabling of the device must be carried out by qualified personnel.\nDanger of electrocution, burning and electric arc. Use the personal protection devices suitable to \nadhere to the current regulations governing electrical safety. Prior to carrying out any connections \ncheck the sectioning of the electric supply with the voltage detection device.\n—\nWiring Diagrams\nE245\nCMS-700\nControl Unit\nEnergy Monitor 96\nStatus\nNetwork\nReset\nA      B\nRS485\nCMC-BUS\nLAN\nFallback IP 169.168.42.42;admin, admin\nL1/Supply\nL2\nL3\nN\nCT\n\nl1\nA     B\nl2\nA     B\nl3\nA     B\nl4/N\nA     B\n0.56–0.8 Nm\n4 lb-in\n0.56–0.8 Nm\n4 lb-in\n0.56–0.8 Nm\n4 lb-in\n10 mm\n0.39 in\nø max. 2.5 mm2\n1x AWG 24-14"
+  },
+  {
+    "chunk_id": 37,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "24\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWiring Diagrams\nSingle phase\nThree phase plus neutral\nAttention:  Please, referring \nto the diagram in the figure \naside, notice that N on the \nsupply has to be connected \nin order to avoid damage of \nthe device\nAttention: Make sure that \nN is not mixed up with the \nphases L1, L2, L3.\nAttention: CT output should \nnot be connected to the \nearth. It is not possible to \nconnect more than one \nCMS-700 in series with the \nsame CT.\nAttention:  Please, referring \nto the diagram in the figure \naside, notice that N on the \nsupply has to be connected \nin order to avoid damage of \nthe device\nAttention: Make sure that \nN is not mixed up with the \nphases L1, L2, L3.\nAttention: CT output should \nnot be connected to the \nearth. It is not possible to \nconnect more than one \nCMS-700 in series with the \nsame CT.\nL\nN\nA      B\nS1            S2\nP1            P2\nA   B\nI1\nA   B\nI2\nA   B\nI3\nA   B\nI4/N\nL1\nL1\nL2\nL3\nN\nL2\nL3\nN\nSupply\nL\nN\nA      B"
+  },
+  {
+    "chunk_id": 38,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "phases L1, L2, L3.\nAttention: CT output should \nnot be connected to the \nearth. It is not possible to \nconnect more than one \nCMS-700 in series with the \nsame CT.\nL\nN\nA      B\nS1            S2\nP1            P2\nA   B\nI1\nA   B\nI2\nA   B\nI3\nA   B\nI4/N\nL1\nL1\nL2\nL3\nN\nL2\nL3\nN\nSupply\nL\nN\nA      B\nS1            S2\nP1            P2\nA   B\nI1\nA   B\nI2\nA   B\nI3\nA   B\nI4/N\nL1\nL1\nL2\nL3\nN\nL2\nL3\nN\nSupply"
+  },
+  {
+    "chunk_id": 39,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n25\n—\nInitial Commissioning\n— \nNetwork Connection\nFor the first setup you have to use the direct LAN connection. \nFollow instructions under item b. Direct LAN Connection\nCheck the internal time of the device. \nIf it is not correct, it has to be set manually. \nFor further information about manual time setting, settings menu - Other / Time. \nThe following sections show the steps needed to set up the CMS-700 control unit. \nThe control unit can be used in different operating modes:\n•\t LAN connection via router\n•\t Direct LAN connection\n•\t Additionally, all data are available through serial port:\n-- Modbus RTU (RS485)\nStatic access with default factory setting\nDetails\n1\nAccess to web user interface with default IP of control unit\n192.168.1.200:8000\n2\nDefine static IP address for PC, for example:\nMake sure the IP address in the assigned LAN is not used twice. \nIf it is used twice, an adjustment is required.\n192.168.1.5\n192.168.1.X (X = 0..255)\n3"
+  },
+  {
+    "chunk_id": 40,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "Details\n1\nAccess to web user interface with default IP of control unit\n192.168.1.200:8000\n2\nDefine static IP address for PC, for example:\nMake sure the IP address in the assigned LAN is not used twice. \nIf it is used twice, an adjustment is required.\n192.168.1.5\n192.168.1.X (X = 0..255)\n3\nSubnet Mask\n255.255.255.0\n4\nDHCP access\nNote: If you change after initial commissioning for DHCP access\nHostname: CMS-700\n5\nDownload latest software version here:\nhttp://new.abb.com/low-voltage/products/system-pro-m/measurement-\nproducts-for-din-rail/circuit-monitoring-systems"
+  },
+  {
+    "chunk_id": 41,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "26\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nInitial Commissioning\nAccessing the Web UI via hostname\nHost name: CMS-700, Port: 8000\nTo be added to the IP address to define the port number (e.g. 192.168.1.200:8000) to access \nyour web browser. Defining the port number is important because without a port number access is not \npossible. \nIn case of DHCP, the system administrator can read the IP address assigned to the \nCMS-700 device by DHCP on the router.\nFor network connection, an access with static address may be necessary in the first step.\nIP Address: 192.168.1.200:8000 / Subnet Mask: 255.255.255.0\n— \nLAN connection via Router\n— \nDirect LAN connection\nThe CMS-700 control unit is connected to the router using a RJ45 cable (network).\nRJ45 socket for \nLAN connection"
+  },
+  {
+    "chunk_id": 42,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "27\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEMS (CMS)\n—\nInitial Commissioning\nThe control unit is set up using a web interface. To connect a PC or laptop to the CMS-700 \nwithout DHCP, you need to configure the LAN interface with a static IP address.\nUsing the example of Windows, the following shows the configuration steps.\nSelect Control Panel         Network and Internet         Network and Sharing Center         \nChange Adapter Settings\nSelect on Local Area Connection \nwith right mouse button Properties \nSelect Properties\nor type in the search bar of the Start button \n        View Network Connections"
+  },
+  {
+    "chunk_id": 43,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "28\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\nDouble-click Internet Protocol \nVersion 4 (TCP/IPv4)\n \t\nEnter IP Address: 192.168.1.200:1.5 and Subnet Mask: 255.255.255.0 and confirm with OK\nMake sure that the IP address on the LAN is not already taken. In case it is taken, adjustments are \nnecessary. \n(192.168.1.x; x = 2…199, 201…255)\n\t\nNow connect your device to the CMS-700 control unit\nSelect Internet Protocol \nVersion 4 (TCP/IPv4)\n—\nInitial Commissioning"
+  },
+  {
+    "chunk_id": 44,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n29\n—\nWeb User Interface Overview\nThe web user interface is designed for use on browser-based devices. \nThe recommended web browser is Google Chrome, other supported \nweb browsers are Safari, Firefox, Opera, Internet Explorer. \n— \nStart Screen (Login)\nInsert the IP address of the device in the browser address bar. \nTo access the web browser, it is also important to define port number 8000.\nFactory settings with\nFallback IP: 192.168.1.200:8000\nFallback login - username: admin, password: admin\nPlease note that the control unit uses a secure https:// connection and port 7999.\nFirst, it is necessary to confirm the secure connection. Later on you won’t be asked to confirm it \nprovided that you upload the SSL Certificate as described in the dedicated section.\nAfter login, you will be asked to change the login data. It is highly recommended to change the login"
+  },
+  {
+    "chunk_id": 45,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "First, it is necessary to confirm the secure connection. Later on you won’t be asked to confirm it \nprovided that you upload the SSL Certificate as described in the dedicated section.\nAfter login, you will be asked to change the login data. It is highly recommended to change the login \ndata as soon as possible for security reasons. The new password must contain minimum 8 characters, \nat least one uppercase letter and one number."
+  },
+  {
+    "chunk_id": 46,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "30\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n— \nWeb Server overview\n—\nWeb User Interface Overview\nMains \n•\t Online values\n•\t Historical values \nBranches \n•\t Online values\n•\t Historical values \nEnergy \n•\t Mains \n•\t Groups \n•\t Branches \nEvents \n•\t Online events\n•\t Historical events\nMains\nBranches\nGroups\nEvents\nUsers\nData export\nEmail, FTP \n•\t Email\n•\t FTP \nCommunication\n•\t IP\n•\t SNMP\n•\t SNMP trap\n•\t Modbus\nSSL certificate\n•\t Upload\n•\t Generate\nExport/Import\n•\t Export\n•\t Import\nOther\n•\t Time\n•\t Session\n•\t FW Update\n•\t System\nCMS-700 Web-Ul Structure \nOperation area\nSettings area"
+  },
+  {
+    "chunk_id": 47,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n31\n— \nSettings – Mains\nIt is possible to set frequency, external CT ratio for phases and neutral, and reference DC voltage, \nif needed.\n—\nWEB UI – Settings\nSafe shutdown: To make sure all settings are saved, it is recommended to carry out a safe shutdown \nafter changing any settings and then restart the system (Settings – Other / System reset).\nThe CT ratio for L1, L2, L3 has to be the same, while it can be different for N.\nThe CT ratio is calculated dividing the primary rated current by the standard secondary current (5A). \nCurrent of mains are measured by CTs.\nDC voltage reference is needed to calculate DC power at branches level."
+  },
+  {
+    "chunk_id": 48,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "32\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWEB UI – Settings\n— \nSettings – Branches\nThe menu allows to have access to the information briefly listed below together with the buttons you \ncan use. It is possible to use Selection Filter and Sort Function on Phase and Group labels to find \ndesired values. It is also possible to add new sensors by own defined ID number and to change the \nID number.\nButtons\nAdd\nAdd and assign new \nsensor\nCreate a new branch ID and then assign it to the physical sensor by clicking the \npushbutton of the sensor (Note: Wait for confirmation before assigning the \nnext sensor)\nAssign sensor \n(already added)\nIf a branch ID has already been created but is unassigned, it is here possible to \nassign it to the physical sensor by clicking the pushbutton of the sensor.\nAdd new sensor (no \nassigning)\nCreate a new branch ID without assigning it to the physical sensor.\nIdentify\nClicking the pushbutton of the sensor allows to display the sensor ID number.\nChange ID"
+  },
+  {
+    "chunk_id": 49,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "assign it to the physical sensor by clicking the pushbutton of the sensor.\nAdd new sensor (no \nassigning)\nCreate a new branch ID without assigning it to the physical sensor.\nIdentify\nClicking the pushbutton of the sensor allows to display the sensor ID number.\nChange ID\nSelect the current ID number of the sensor and define its new ID number\nRemove\nRemove selected\nRemove selected sensor and branch definition\nRemove all\nRemove all sensors and branch definitions\nBranch Definitions\nID\nSensor identification number (at this time it cannot be modified)\nPhase\nSelects the corresponding branch phase for the calculation of branch active \npower and energy.\nIt is possible to choose: \n- L1, L2, L3, N for alternate current measurements\n- DC for direct current measurements.\nGroup\nDefines the name of a parent group through the selection of an existing \ngroup or definition of a new group (up to 96 group names)\nBranch\nDefines the name of the branch. It must be unique and can be composed"
+  },
+  {
+    "chunk_id": 50,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "- DC for direct current measurements.\nGroup\nDefines the name of a parent group through the selection of an existing \ngroup or definition of a new group (up to 96 group names)\nBranch\nDefines the name of the branch. It must be unique and can be composed \nby up to 64 characters\nPower Factor\nDefines which power factor shall be used for calculation: \nAUTO - uses the Power Factor of defined mains phase \nx.xx - you can manually define a constant power factor (e.g. 0.85) \n0 - type zero for changing from manual to auto power factor\n[Click a row]\nBy clicking a row, the row is highlighted in light blue and the corresponding box \nis checked. Additionally the LED of the selected sensor will start to blink.\nMake sure to select the correct phase on which the CMS sensor is installed in the phase column. \nIf needed, change the Power Factor (PF) from Auto to a manual value corresponding to the PF of the \nmeasured load."
+  },
+  {
+    "chunk_id": 51,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n33\n—\nWEB UI – Settings\n— \nSettings – Groups\nThis page allows to create or remove groups of sensors. \nBy clicking on “Add new”, it is possible to create a new group. Once a group has been created, \nit is possible to associate a sensor to a group in the “Settings – Branches” section.\nIt is possible to rename a group and to visualize the number of sensors associated to the specific \ngroup.\nBy clicking on “Remove selected”, the selected group ID will be deleted.\nPlease note that it is possible to associate a sensor to a single group only."
+  },
+  {
+    "chunk_id": 52,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "34\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWEB UI – Settings\n— \nSettings – Events\nThis page allows to set events. If an event occurs, it is shown in the historical events menu. An event can \noccur after exceeding the selected threshold values (cross-up) or after measuring values lower than the \nselected threshold values (cross-down) for a determined period (time delay). The email report is sent \nafter 1 minute from the first event occurance and consists of all events that occured in this period. The \nnext report can only be sent after at least 30 minutes since the first event occurance and only in case \nevent conditions are still ongoing.\nThe event status can be requested via Modbus (for further information please refer to “Measurements \nand Events definition”).\nIf a SNMP trap is set up, a notification of the event will be sent.\nWhen adding or editing an event, please set the following:\nMains/Branches\nSelect whether the event shall be created for mains or branches\nOwner"
+  },
+  {
+    "chunk_id": 53,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "and Events definition”).\nIf a SNMP trap is set up, a notification of the event will be sent.\nWhen adding or editing an event, please set the following:\nMains/Branches\nSelect whether the event shall be created for mains or branches\nOwner\n\u0007Select main line or the branch name. For branches it is possible to create the same event \nfor several branches by selecting “Add many” option. \nValue\nIt identifies the quantity to which the event is linked\nType\nType of alarm: Cross-up, Cross-down or No event\nThreshold \nThreshold of selected value\nTime delay\n\u0007Define for how long the event criteria should be fulfilled in order \nto consider the occurrence as an event\nEmail notification\n\u0007If the box is selected, an email will be sent when an event occurs. \nThe email address has to be defined in “Settings – Email, FTP”. \nSNMP trap\nIf the box is selected, notification of event will be sent via SNMP trap. SNMP trap settings have to \nbe defined in “Settings – Communication / SNMP traps”"
+  },
+  {
+    "chunk_id": 54,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n35\n—\nWEB UI – Settings\n— \nSettings – Users\nThis page allows to add new device’s users, only at operators’ level, by clicking on “Add new”. In order to \nremove users already created, select the user you want to delete and click on “Remove selected”.\nThe device can have only one single administrator.\nBy clicking on the pencil-icon, it is possible to edit the selected user, changing password and/or user \nname. While editing the sole administrator device, it is required to insert the administrator current \npassword."
+  },
+  {
+    "chunk_id": 55,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "36\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWEB UI – Settings\n— \nSettings – Data export\nIn order to carry out data export via email and/or FTP, contact data for email and FTP server \nneed to be configured (see Settings – Email, FTP). The following information has to be provided \nfor automatic data export via email or FTP server connection:\nSettings \nFrequency\nIt indicates how often you would like to receive notifications.\nExport option\nTwo options can be selected: “One export” and “Perodic exporting”.\nExport time\nTime, when the data shall be exported.\nExport via email\nIf selected, mains and branches values will be exported as csv file by email.\nPlease note that email configuration is needed.\nExport via FTP\nIf selected, mains and branches values will be exported as csv file by FTP.\nPlease note that FTP configuration is needed.\nData stack\nExport data stack of last 1000 of 10 sec, 15 minutes, hour, day and week values.\nHistorical events"
+  },
+  {
+    "chunk_id": 56,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "Please note that email configuration is needed.\nExport via FTP\nIf selected, mains and branches values will be exported as csv file by FTP.\nPlease note that FTP configuration is needed.\nData stack\nExport data stack of last 1000 of 10 sec, 15 minutes, hour, day and week values.\nHistorical events\nIf selected, historical events wil be exported as csv file via FTP according to the defined event \nlog size.\nApply\nApply settings to carry out automatic data export with defined frequency and export options, \nvia email and/or FTP.\nExport now\nExport now the selected data stacks via email and/or FTP. Set the time of the corresponding \nfrequency of export.\nDownload now\nDownload now directly to the PC the selected data stacks."
+  },
+  {
+    "chunk_id": 57,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n37\n—\nWEB UI – Settings\n— \nSettings – Email / FTP\nSettings for contact details. Email and FTP settings are needed in order to carry \nout email and FTP data export. Please make sure that no firewall will block the export.\nMake sure communication on SMTP port 587 or 465 (SSL) is allowed in your network.\nEnter your FTP server details (address and login credentials) in order to allow automatic data export \n(measurement and/or events)."
+  },
+  {
+    "chunk_id": 58,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "38\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWEB UI – Settings\n— \nSettings – Communication / IP\nInappropriate settings may cause the user interface to become inaccessible. \nIn order to be able to restore device access to the fallback IP, please use the reset button.\n(The device is visible when DHCP is active).\nThe following information have to be set to correctly have access to the user interface via IP:\nIP Mode\nDHCP or static (Note: With DHCP you can find and define an IP address via the router by \nMAC address or device/host name - CMS-700)\nThe fallback IP address is: 192.168.1.200:8000\nIP Address\nCurrent IP address of device or possibility to define a new IP address\nSubnet Mask\nCurrent Subnet Mask or possibility to define another Subnet Mask\nGateway\nCurrent Gateway or possibility to define another Gateway Address\nDNS Server\nDefault: 8.8.8.8 or possibility to define another DNS Server\nHost name\nCMS-700 or possibility to define another Host Name\nMAC Address"
+  },
+  {
+    "chunk_id": 59,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "Subnet Mask\nCurrent Subnet Mask or possibility to define another Subnet Mask\nGateway\nCurrent Gateway or possibility to define another Gateway Address\nDNS Server\nDefault: 8.8.8.8 or possibility to define another DNS Server\nHost name\nCMS-700 or possibility to define another Host Name\nMAC Address\nShows the MAC Address of the device\nApply\nBy clicking the Apply pushbutton changes are stored"
+  },
+  {
+    "chunk_id": 60,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n39\n—\nWEB UI – Settings\n— \nSettings – Communication / SNMP\nThe SNMP service is disabled on the device by default. In order to activate it, please use this \nsection:\nVersion 1/2c: To enable versions 1 and 2c mark the v.1/2c checkbox, enter port number and password \nfor the protocol. The port number must be 161 or greater than 1024. The SNMP service is working on \nUDP port so there is no port collision with the Modbus or web service which are working on TCP ports. \nThe password must have at least 5 signs. In versions 1 and 2c authentication is only by the password \nwhich is not encrypted."
+  },
+  {
+    "chunk_id": 61,
+    "page": 39,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "40\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWEB UI – Settings\n— \nSettings – Communication / SNMP\nVersion 3: To enable version 3 mark the v.3 checkbox, enter port number, password, user name, and \nengine ID. The same as for versions v.1/2c port number must be 161 or greater than 1024. The password \nfor version 3 must have at least 8 signs, while the engine ID must have at least 12 characters in \nhexadecimal format. To access data using SNMPv3 the authenticated and encrypted request must be \nsent. The authentication is performed by username and password. For the authentication the MD5 \nprotocol is used. Messages are additionally encrypted with the DES algorithm.\nPlease note that versions 1/2c and 3 can work simultaneously.\nDownload MIB file: click the button to download CMS-700 MIB file to your PC."
+  },
+  {
+    "chunk_id": 62,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n41\n—\nWEB UI – Settings\n— \nSettings – Communication / SNMP trap\nThis page allows to enable/disable the SNMP trap system. SNMP trap is a protocol that allows for \nmessages (traps) to be sent from the device to the monitoring server.\nSNMP is meant to be used to report events. \nIs it possible to enable the trap for each individual event in the “Event-Settings” page.\nTwo different versions of SNMP trap protocol are available on the device: version 2c (v.2c) and \nversion 3 (v.3). Version 2c is simpler to use and faster. Version 3 provides a better security.\nVersion 2c: to enable version 2c, mark the v.2c checkbox. For all the related settings, please refer to the \nfollowing table:\nv.2c protocol configuration\nSNMP trap server 1 \ninsert here the address (IP or name) of the trap server.\nSNMP trap port 1 \nprovide the port of the trap server.\nSNMP trap server 2"
+  },
+  {
+    "chunk_id": 63,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "following table:\nv.2c protocol configuration\nSNMP trap server 1 \ninsert here the address (IP or name) of the trap server.\nSNMP trap port 1 \nprovide the port of the trap server.\nSNMP trap server 2 \ninsert here the address (IP or name) of the second optional trap server. If configured, every trap \nis sent to both servers.\nSNMP trap port 2\nprovide the port of the second optional trap server.\nTarget OID\nthe trap type OID is here indicated. Only numeric format is supported. Please note that all traps \nare sent with this type.\nPassword (2.c)\nSNMP password\nTest\nSend a test trap. \nThere is no need to press the “Apply” button for testing. After clicking the “Test” button, please \ncheck if the trap has been received on the trap server.\nApply\nBy clicking the Apply pushbutton changes are stored."
+  },
+  {
+    "chunk_id": 64,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "42\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWEB UI – Settings\n— \nSettings – Communication / SNMP trap\nVersion 3: to enable version 3, mark the v.3 checkbox. For all the related settings, please refer to the \nfollowing table:\nv.3 protocol configuration\nSNMP trap server 1 \ninsert here the address (IP or name) of the trap server.\nSNMP trap port 1 \nprovide  the port of the trap server.\nSNMP trap server 2 \ninsert here the address (IP or name) of the second optional trap server. If configured, every trap \nis sent to both servers.\nSNMP trap port 2\nprovide the port of the second optional trap server\nTarget OID\nthe trap type OID is here indicated. Only numeric format is supported. Please note that all traps \nare sent with this type.\nUser name\ninsert here the SNMP username.\nPassword (v.3)\nSNMP password.\nEngine ID\nSNMP security engine ID must be inserted here.\nTest\nSend a test trap.\nThere is no need to press the “Apply” button for testing. After clicking the “Test” button, please"
+  },
+  {
+    "chunk_id": 65,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "are sent with this type.\nUser name\ninsert here the SNMP username.\nPassword (v.3)\nSNMP password.\nEngine ID\nSNMP security engine ID must be inserted here.\nTest\nSend a test trap.\nThere is no need to press the “Apply” button for testing. After clicking the “Test” button, please \ncheck if the trap has been received on the trap server.\nApply\nBy clicking the Apply pushbutton changes are stored."
+  },
+  {
+    "chunk_id": 66,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n43\n—\nWEB UI – Settings\n— \nSettings – Communication / Modbus\nThis section allows to have access to both Modbus TCP and RTU settings.\nModbus TCP\nIt is possible to enable or disable the corresponding communication protocol and to \nchange the TCP port. \nModbus RTU\nModbus ID, baud rate and parity fields can be configured here.\nDue to cyber security, port numbers < 1025 are not allowed, except the standard Modbus port, \nwhich is port 502. Ports 8000 and 7999 are instead reserved for web service."
+  },
+  {
+    "chunk_id": 67,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "44\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWEB UI – Settings\n— \nSettings – SSL Certificate\nIn this section it is possible to upload or generate a .pem file containing a private key and a public \ncertificate in order to provide a secure connection via the web browser. \nUpload\nIt is possible to browse, upload or download the currently in place certificate.\nFor this purpose, please drag and drop the .pem file to the browser or click to browse, then push the \nupload button and wait for the uploading to finish. After a successful uploading process, the web \nserver reboots. \nIt is also possible to download a currently used certificate by clicking download certificate."
+  },
+  {
+    "chunk_id": 68,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n45\n—\nWEB UI – Settings\n— \nSettings – SSL Certificate\nGenerate\nIn order to generate a SSL certificate, following configurations must be considered: \nIP address\nIndicates your currently configured IP address on the device\nSubnet mask\nIndicates your currently configured subnet mask on the device\nGateway\nIndicates your currently configured gateway on the device\nSelect whole subnet\nIf checked, you can generate a certificate for the whole subnet.\nThe minimal subnet mask is 255.255.252.0.\nDomain / IP\nYou can manually type in IP addresses and insert them to the table with the Add button\nAfter configuration of domains/IP addresses table, please click the Generate button. When the \ngenerating process finishes, the web server reboots and due to a certificate change the page has \nto be reloaded manually.\nFollow the passages reported below to import the downloaded certificate into your web browser. \nCertificate Import Wizard"
+  },
+  {
+    "chunk_id": 69,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "generating process finishes, the web server reboots and due to a certificate change the page has \nto be reloaded manually.\nFollow the passages reported below to import the downloaded certificate into your web browser. \nCertificate Import Wizard\nIt is necessary at first to open the Certificate Import Wizard according to the browser you \nare using and then to install the certificate.\nINTERNET EXPLORER (Windows 10 only)\n1. Open Internet options\n2. \u0007Choose Content tab and then \nCertificates one\n3. \u0007Select Trusted Root Cerfification \nAuthorities and then select Import\nGOOGLE CHROME\n1. Open Settings\n2. Scroll down to open Advanced\n3. \u0007Click Manage Certificates and choose \nTrusted Root Cerfification Authorities \nand then select Import"
+  },
+  {
+    "chunk_id": 70,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "46\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWEB UI – Settings\n— \nSettings – Export / Import\nExport\nThis page allows the export of settings of sensors/groups and of historical values by checking the \ncorresponding boxes and then clicking on “Generate”. \nImport\nThis page allows the import of settings and/or historical values. It is possible to choose to include or \nexclude sensors/groups in the import. Before starting the import, clicking on “Import”, make sure the \nsettings’ file you want to import has been drag and dropped in the corresponding “Drag and drop” \nwindow."
+  },
+  {
+    "chunk_id": 71,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n47\n—\nWEB UI – Settings\n— \nSettings – Other / Time\nTime settings\nIt is possible to synchronize the time to compare the time of the device and the one on the web \nbrowser. The synchronization is mandatory in order to correctly visualize and store data. \nBy clicking on “Synchronize” button, the CMS will synchronize with the web browser time.\nPlease note: if device time differs by more than 10min from the web browser time, a warning message \nwill be shown. \nSet time manually\nIt is also possible to manually set the time. Please select date and time using calendar and clock icons. \nNTP\nIf an NTP Server is available you can set the IP address (Time Server 1, Time Server 2) for automatic time \nsynchronization. In this case, the synchronization procedure can take up to 10 minutes.\nPlease make sure that no firewall will block the NTP server.\nCheck the internal time of the device in order to guarantee correct operation of the CMS-700. If it is not"
+  },
+  {
+    "chunk_id": 72,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "synchronization. In this case, the synchronization procedure can take up to 10 minutes.\nPlease make sure that no firewall will block the NTP server.\nCheck the internal time of the device in order to guarantee correct operation of the CMS-700. If it is not \ncorrect, it has to be set manually.\nOnce date and time are set, it is not possible to change them without corrupting the database."
+  },
+  {
+    "chunk_id": 73,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "48\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWEB UI – Settings\n— \nSettings – Other / FW Update\nUsing this menu you can update the firmware of the control unit.\n— \nSettings – Other / Session\nThis page allows to change the logged user session timeout.\nSelect the desired session timeout from the dropdown list and then click “Apply” to save the changes.\nIt is highly recommended to update the firmware to the latest version for security and functionality \nreasons. Please check the ABB website for current SW revision and to download the latest version of \nthe firmware.\nAfter browsing the downloaded file, please use the “Update file” button to submit the new firmware to \nthe device. In addition, you can find the installed firmware version and the serial number of the device \nat the bottom of the web page."
+  },
+  {
+    "chunk_id": 74,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n49\n—\nWEB UI – Settings\n— \nSettings – Other / System\nIn this section it is possible to carry out a system reset (to restart the device with the current settings), \nto restore the default settings and to carry out a safe shutdown. After any change in the settings we \nrecommend you to do a safe shutdown. To do so, push the ‘’Shutdown’’ button. If the Status LED is \nshining green without flashing, and if  the network LED is out, you can turn off the power supply. \nFor starting the device, turn on the power supply. The CMS-700 will automatically start."
+  },
+  {
+    "chunk_id": 75,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "50\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWEB UI – Mains\n— \nMains – Online values, Historical values\nThe “Online Values” section shows all measured values on mains side reporting the trend of the last \n10s. \nThe “Historical values” section allows you to change, zoom-in or zoom-out the time frame on which \nmeasured values are displayed. After selecting the parameter, the resolution and the reference time \nframe, the “Export” button allows the user to carry out direct data export as .CSV file.\nNote: If no graph is visible, it is necessary to synchronize the device time with the “Set time manually” \nbutton in the Settings – Other / Time menu."
+  },
+  {
+    "chunk_id": 76,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n51\n—\nWEB UI – Branches\n— \nBranches – Online values, Historical values\nHere it is possible to visualize both “Online values” and “Historical values” for the Branches.\nSensors for branch measurement have to be first assigned and configured \n(please refer to Settings – Branches).\nIn case of DC branch measurement, please refer to “Settings-Branches” and configure “Phase” as DC.\nAccordingly, when “DC” is displayed under “Phase”, DC current and active power values are displayed on \nthis page."
+  },
+  {
+    "chunk_id": 77,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "52\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nWEB UI – Energy\n— \nEnergy – Mains, Groups, Branches\nHere it is possible to visualize energy consumptions of Mains, Groups and Branches. \nFor Mains, consumptions are visualized by phases (L1,L2 and L3), while for Groups they are visualized \ndivided  by user-defined groups. For Branches energy visualization is divided per sensor; it is possible \nto filter by phases and/or groups. For all energy consumptions a starting, end and resolution time have \nto be defined."
+  },
+  {
+    "chunk_id": 78,
+    "page": 52,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n53\n— \nEvents – Online events, Historical events\nThe latest occurrencies that were set in the events settings menu are shown in the “Online events” \npage. Here the table is automatically refreshed every second and displays the 18 latest events. Rows \ncan be sorted and/or filtered by clicking at headers and selecting desired value from drop-down lists. \nEvent status is updated automatically every second to obtain new event occurrences. \nIn the “Historical events” page it is possible to visualize and export occurrences according to \nuser-defined start and end date/time.\n— \nEnergy – Mains, Groups, Branches \nThe Energy – Branches Menu displays active energy values for each individual sensor. You can select \nmore sensors to compare energy consumption within a defined period of time. You can set the display \nby selecting a date range and resolution. \n—\nWEB UI – Energy / Events"
+  },
+  {
+    "chunk_id": 79,
+    "page": 53,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "54\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nModbus\nIntroducing MODBUS protocol\nThe Modbus serial line protocol is a Master-Slaves protocol. This means that only one master and one or \nmore slave nodes (max. 247) can be connected to the same serial bus. A Modbus communication is \nalways initiated by the master and there is only one transaction at the same time.\nFor further information: www.modbus.org\n \nIf you intend to use Modbus, you should only use ASCII characters in the Web UI. Unicode characters will \nnot be displayed in Modbus.\nModbus frame description (RTU mode)\nThe maximum size for a Modbus RTU frame is 256 bytes. \nNOTE:\nIn RTU mode, message frames are separated by a silent interval of at least 3.5 character times.\nThe entire message frame must be transmitted as a continuous string of characters.\nIf a silent interval of more than 1.5 character times occurs between two characters, the message frame \nis declared as incomplete and should be discarded by the receiver."
+  },
+  {
+    "chunk_id": 80,
+    "page": 53,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "The entire message frame must be transmitted as a continuous string of characters.\nIf a silent interval of more than 1.5 character times occurs between two characters, the message frame \nis declared as incomplete and should be discarded by the receiver. \nModbus Data Encoding\nModbus uses a big-endian allocation for addresses and data items. This means that, when a numerical \nquantity larger than a single byte is transmitted, the most significant byte is sent first.\nExample: 1234h → first 12h then 34h\n— \nCommunication protocol\n— \nADU Frame \nADU\nApplication Data\nPDU\nProtocol Data Unit\nStopbit\n1\nAddress Field\ncontains the slave address\nFunction Code:\nindicates what kind of action to perform\nData\ncontains request and response parameters\nCRC\ncontains the value generated by the cyclic redundancy check (standard CRC-16 defined by \nCCITT)\nAddress\nPDU Frame\nError Check\nAddress Field\nFunction Code\nData\nCRC\n1 byte\n1 byte\n0 - 252 bytes\n2 bytes CRCL, CRCH"
+  },
+  {
+    "chunk_id": 81,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n55\n— \nCommunication to CMS\n—\nModbus\nPhysical Interface RS-485\nTo communicate with the CMS from an upper system, all devices (masters & slaves) must have the same \ndata rate and data format. These settings are defined over the Web UI, as described in the dedicated \nchapter. \nLine termination resistor (120Ω) needs to be added, if necessary, for CMS-700 having serial number \nlater than 700K1820000.\nControl unit’s MODBUS-ID\nYou can connect up to 247 control units to one Modbus RTU line. Each control unit must have a unique \nModbus ID (address).\nFunction Code\n•\t Read operation on registers with access code “R” or “RW” is defined by function 03h “Read Holding \nRegisters”\n•\t Write operation on registers with access code “W” or “RW” is defined by function 06h “Write Single \nRegister”\nDo not apply functions other than those specified.\nParameter\nValues\nDefault Values\nData rate\n2400, 4800, 9600, 19200, 38400, 57600, 115200 Bit/s\n19200 Bit/s"
+  },
+  {
+    "chunk_id": 82,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "Registers”\n•\t Write operation on registers with access code “W” or “RW” is defined by function 06h “Write Single \nRegister”\nDo not apply functions other than those specified.\nParameter\nValues\nDefault Values\nData rate\n2400, 4800, 9600, 19200, 38400, 57600, 115200 Bit/s\n19200 Bit/s\nData format\neven parity, odd parity, without parity\neven parity\nE245\nCMS-700\nControl Unit\nEnergy Monitor 96\nStatus\nNetwork\nReset\nA     B\nRS485\nCMC-BUS\nLAN\nFallback IP 169.168.42.42;admin, admin\nL1/Supply\nL2\nL3\nN\nCT\nl1\nA     B\n1\n2\n3\nA   B\nl2\nA     B\nl3\nA     B\nl4/N\nA     B\nE245\nCMS-700\nControl Unit\nEnergy Monitor 96\nStatus\nNetwork\nReset\nA     B\nRS485\nCMC-BUS\nLAN\nFallback IP 169.168.42.42;admin, admin\nL1/Supply\nL2\nL3\nN\nCT\nl1\nA     B\n1\n2\n3\nA   B\nl2\nA     B\nl3\nA     B\nl4/N\nA     B\nE245\nCMS-700\nControl Unit\nEnergy Monitor 96\nStatus\nNetwork\nReset\nA     B\nRS485\nCMC-BUS\nLAN\nFallback IP 169.168.42.42;admin, admin\nL1/Supply\nL2\nL3\nN\nCT\nl1\nA     B\n1\n2\n3\nA   B\nl2\nA     B\nl3\nA     B\nl4/N\nA     B\nE245\nCMS-700\nControl Unit"
+  },
+  {
+    "chunk_id": 83,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "N\nCT\nl1\nA     B\n1\n2\n3\nA   B\nl2\nA     B\nl3\nA     B\nl4/N\nA     B\nE245\nCMS-700\nControl Unit\nEnergy Monitor 96\nStatus\nNetwork\nReset\nA     B\nRS485\nCMC-BUS\nLAN\nFallback IP 169.168.42.42;admin, admin\nL1/Supply\nL2\nL3\nN\nCT\nl1\nA     B\n1\n2\n3\nA   B\nl2\nA     B\nl3\nA     B\nl4/N\nA     B\nE245\nCMS-700\nControl Unit\nEnergy Monitor 96\nStatus\nNetwork\nReset\nA     B\nRS485\nCMC-BUS\nLAN\nFallback IP 169.168.42.42;admin, admin\nL1/Supply\nL2\nL3\nN\nCT\nl1\nA     B\n1\n2\n3\nA   B\nl2\nA     B\nl3\nA     B\nl4/N\nA     B\nE245\nCMS-700\nControl Unit\nEnergy Monitor 96\nStatus\nNetwork\nReset\nA     B\nRS485\nCMC-BUS\nLAN\nFallback IP 169.168.42.42;admin, admin\nL1/Supply\nL2\nL3\nN\nCT\nl1\nA     B\n1\n2\n3\nA   B\nl2\nA     B\nl3\nA     B\nl4/N\nA     B\nModbus RTU\nCMS systems"
+  },
+  {
+    "chunk_id": 84,
+    "page": 55,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "56\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nModbus\nError Codes\nModbus protocol defines a common way of error reporting. Every request (read or write) sent in unicast \nmode is expected to return a value in packet of the same structure. In case of a message delivery error \n(not a CRC problem but a message execution problem), the generated response contains a function \ncode with MSB (80h) set and a single byte representing the error code, called “exception code”.\nThe following default exception codes are available:\nData and Control Registers\nA register is always a two-byte (16-bit) value, which can be interpreted as either signed or unsigned \nvalues or which has a special format.\nIn case of data represented in more than one register the concatenated registers will contain \ninformation with MSB in the lowest address and LSB in the highest address within concatenated \naddresses.\nDo not use registers other than those specified.\nNote 1: Format of one-word register for current values"
+  },
+  {
+    "chunk_id": 85,
+    "page": 55,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "information with MSB in the lowest address and LSB in the highest address within concatenated \naddresses.\nDo not use registers other than those specified.\nNote 1: Format of one-word register for current values\nunsigned\t\n= \t\n16-bit unsigned integer notation, resolution 0.01 A\nsigned\t\n= \t\n6-bit signed integer notation, resolution 0.01 A\n0000h…7FEFh\t\n=\t\n0.00 … 327.51 A\n8000h…FFFFh\t\n=\t\n-327.66 … -0.01 A\nNote 2: Format of double-word register for branch power and energy values \nunsigned\t\n= \t\n32-bit unsigned integer notation,\nsigned\t\n= \t\n32-bit signed integer notation\nCode\nName\nDescription\n01h\nIllegal function\nFunction is not supported\n02h\nIllegal data address\nRegister address is out of control unit’s range, or trying to write into a \nread only register\n03h\nIllegal data value\nValue is out of range\n04h\nSlave device failure\nUnrecoverable error occurred while the control unit was attempting \nto perform the requested action, for example, time-out\n06h\nSlave device busy"
+  },
+  {
+    "chunk_id": 86,
+    "page": 55,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "read only register\n03h\nIllegal data value\nValue is out of range\n04h\nSlave device failure\nUnrecoverable error occurred while the control unit was attempting \nto perform the requested action, for example, time-out\n06h\nSlave device busy\nControl unit is currently in User Interface Configuration Mode. \nUnable to execute the requested action .\nSpecial values (hex)\nSpecial values (dec)\nMeaning\n7FF0\n32'752\nData pending, acquisition in progress\n7FF1 … 7FFB\n32'753 … 32'763\nReserved\n7FFC\n32'764\nThe sensor is known but not accessible at the moment\n7FFD\n32'765\nData type TrueRMS / AC / DC is disabled\n7FFE\n32'766\nOverload (beyond full range)\n7FFF\n32'767\nForbidden (no sensor with ID xx)\n— \nValues with special meanings"
+  },
+  {
+    "chunk_id": 87,
+    "page": 56,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n57\nbit mask \t\n= \tbit-wise operation\nspecial \t\n= \tas specified in register description\nNote 3: Access\nR (03) \t = \t Register can be read by function 03\nW (06) \t = \t Register can be written by function 06\nTrigger hold, reset min and max values\nWrite operation on this register triggers the hold measurement of all sensors, and/or resets \nthe min and max values of all sensors.\nThe commands have the following bit format: 0000 0000 000T 000R\n•\t T\t\n1 = Trigger hold measurement\n•\t R\t\n1 = Reset min and max values\nThe Command will be acknowledged by the response message on Modbus and \nby a short message.\n—\nModbus\nAddress (hex)\nAddress (dec)\nWord (16-bit)\nDescription\nResolution \nand unit\nFormat 1\nAccess 2\n3010\n12'304\n1\nTrigger hold, reset \nmin and max values\nBit Mask\nW (06)\n— \nValues with special meanings: Calculated branch power and energy values\n— \nValues with special meanings: Calculated branch power and energy values\nSpecial values (hex)"
+  },
+  {
+    "chunk_id": 88,
+    "page": 56,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "Description\nResolution \nand unit\nFormat 1\nAccess 2\n3010\n12'304\n1\nTrigger hold, reset \nmin and max values\nBit Mask\nW (06)\n— \nValues with special meanings: Calculated branch power and energy values\n— \nValues with special meanings: Calculated branch power and energy values\nSpecial values (hex)\nSpecial values (dec)\nMeaning\nFFFF 7FF0\n4'294'934'512\nData pending, acquisition in progress\nFFFF 7FF1 … FFFF 7FFB\n4'294'934'513 … 4'294'934'523\nReserved\nFFFF 7FFC\n4'294'934'524\nThe sensor is known but not accessible at the moment\nFFFF 7FFD\n4'294'934'525\nData type TrueRMS / AC / DC is disabled\nFFFF 7FFE\n4'294'934'526\nOverload (beyond full range)\nFFFF 7FFE\n4'294'934'527\nForbidden (no sensor with ID xx)"
+  },
+  {
+    "chunk_id": 89,
+    "page": 57,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "58\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nModbus\n—\nShow sensor\n“Write operation on this register starts or stops fast LED blinking of one specified \nsensor for diagnostic purpose.”\nAddress (hex)\nAddress (dec)\nWord (16-bit)\nDescription\nResolution \nand unit\nFormat 1\nAccess 2\n3011\n12'305\n1\nShow Sensor\nSpecial\nW (06)\nStart / stop command is in the following bit format position: 000S 0000 0CCC CCCC\n•\t C \t\nSensor ID\n•\t S \t\n1 \t= \tStarts fast LED blinking\n\t\n0 \t= \tStops fast LED blinking\nData written has to specify a known sensor ID.\nExample: 0x1017 means “Start fast LED blinking of sensor with ID 23”\n•\t When sensor is addressed correctly, common response will follow\n•\t When the sensor ID is not used in the system, and exception response with Modbus exception code \n03h “Illegal data value” will follow. (If fast LED blinking was already active, it will be stopped)\nReturn to normal display content is possible by sending the stop command."
+  },
+  {
+    "chunk_id": 90,
+    "page": 58,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n59\n—\nModbus\nPolarity of sensors (for DC currents)\nThese registers contain the configured nominal current value and the DC polarity information of each \nsensor with following bit format:\n000P RRRR RRRR RRRR\n•\t R\t\nReserved for future use\n•\t P\t\nDC polarity information\n\t\n0 = direct, DC current coming out of the cone is displayed positive\n\t\n1 = \u0007reverse, DC current coming out of the cone is displayed negative\nThis setting has influence on all DC values of the specified sensor. \n•\t 0000h\t DC polarity direct  \t\n•\t 1000h\t\nDC polarity reverse\t\nThis data has to be set user while system configuration. Factory default value is 0000h.\nSerial number (SID), version and bus line of sensors\nThese registers contain system information about each sensor.\nOffset\nWords\nData\n0h\n4\nUnique Serial Number (SID)\n4h\n2\nHW version\n6h\n3\nSW version\n9h\n1\nMeasurement Range (0.1A steps)\nAh\n1\nEnabled Data Types (as in CMS Bus Protocol defined)\nBh\n4\nReserved\nFh\n1"
+  },
+  {
+    "chunk_id": 91,
+    "page": 58,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "These registers contain system information about each sensor.\nOffset\nWords\nData\n0h\n4\nUnique Serial Number (SID)\n4h\n2\nHW version\n6h\n3\nSW version\n9h\n1\nMeasurement Range (0.1A steps)\nAh\n1\nEnabled Data Types (as in CMS Bus Protocol defined)\nBh\n4\nReserved\nFh\n1\nID of internal bus line sensor is connected to 0: no sensor, 1: line 1, 2: line 2\n•\t Each sensor has a unique serial number needed for setup procedure on internal CMS bus. \n•\t HW and SW version of sensor are readable for diagnosis purpose. \n•\t “ID of internal bus line” identifies the Control Unit’s internal bus line the sensor is connected to. \nThis data is not hold always in registers but will be prepared on read request."
+  },
+  {
+    "chunk_id": 92,
+    "page": 59,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "60\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nSimple Network Management Protocol – SNMP\nReading of values\nThe protocol is applicable for the following items:\n \n•\t Mains parameters\n•\t Calculated values\n•\t Measured branch current values\nIf you need to record the values of a subsequent measurement, you have to use the SNMP protocol and \nthe external storage system. Historical data in the device is stored with a resolution of 10s.\nSpecial values for error codes\nIn a fail situation you get error codes. Values with special meanings for branch current values \n(one word, 16bit) are summarized below.\nSpecial values (hex)\nSpecial values (dec)\nMeaning\n7FF0\n32'752\nData pending, acquisition in progress\n7FF1 … 7FFB\n32'753 … 32'763\nReserved\n7FFC\n32'764\nThe sensor is known but not accessible at the moment\n7FFD\n32'765\nData type TrueRMS / AC / DC is disabled\n7FFE\n32'766\nOverload (beyond full range)\n7FFE\n32'767\nForbidden (no sensor with ID xx)"
+  },
+  {
+    "chunk_id": 93,
+    "page": 60,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n61\nValues with special meanings for calculated branch power and energy values (double word, 32bit) \nare reported below:\nMIB\nTo retrieve data from the device using the SNMP object identifier (OID), the MIB files from the \nNET-SNMP package should be copied to the correct location on the client station. \nThe NET-SNMP package can be downloaded from the link: \nhttps://sourceforge.net/projects/net-snmp/files/net-snmp/5.7.3/\nIn the downloaded zip package, MIB files are available in directory: net-snmp-5.7.3.zip\\\nnet-snmp-5.7.3\\mibs\\\nThe objects used in CMS-700 are defined in SNMPv2-MIB.txt and NET-SNMP-EXTEND- MIB.txt. \nThe list of available objects is shown in Table 1.\nAll objects are read-only. In case of a NET-SNMP-EXTEND::nsExtendOutputFull object, the var field is \none of variables defined in table Modbus and SNMP Mapping, for example:\nNET-SNMP-EXTEND::nsExtendOutputFull.\"TRMSsens1\"."
+  },
+  {
+    "chunk_id": 94,
+    "page": 60,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "The list of available objects is shown in Table 1.\nAll objects are read-only. In case of a NET-SNMP-EXTEND::nsExtendOutputFull object, the var field is \none of variables defined in table Modbus and SNMP Mapping, for example:\nNET-SNMP-EXTEND::nsExtendOutputFull.\"TRMSsens1\".\nTo return all TRMSsens values in a single snmpget request, please use the “TRMSsensAll” variable name.\nSNMP Object Identifier\nSMI Data Type\nSMI Data Type Example Value\nSNMPv2-MIB::sysDescr.0\nSTRING\nABBCircuitMeasurementSy \nstemCMS700\nSNMPv2-MIB::sysUpTime.0\nTimeticks\n(117750) 0:19:37.50\nSNMPv2-MIB::sysName.0\nSTRING\nCMS700\nSNMPv2-MIB::sysLocation.0\nSTRING\nLocation of the CMS-700\nSNMPv2-MIB::sysServices.0\nINTEGER\n72\nNET-SNMP-EXTEND:nsExtendOutputFull.\"var\"\nSTRING\n12\n— \nSNMP objects\n—\nSimple Network Management Protocol – SNMP\nSpecial values (hex)\nSpecial values (dec)\nMeaning\nFFFF 7FF0\n4'294'934'512\nData pending, acquisition in progress\nFFFF 7FF1 … FFFF 7FFB\n4'294'934'513 … 4'294'934'523\nReserved\nFFFF 7FFC\n4'294'934'524"
+  },
+  {
+    "chunk_id": 95,
+    "page": 60,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "STRING\n12\n— \nSNMP objects\n—\nSimple Network Management Protocol – SNMP\nSpecial values (hex)\nSpecial values (dec)\nMeaning\nFFFF 7FF0\n4'294'934'512\nData pending, acquisition in progress\nFFFF 7FF1 … FFFF 7FFB\n4'294'934'513 … 4'294'934'523\nReserved\nFFFF 7FFC\n4'294'934'524\nThe sensor is known but not accessible at the moment\nFFFF 7FFD\n4'294'934'525\nData type TrueRMS / AC / DC is disabled\nFFFF 7FFE\n4'294'934'526\nOverload (beyond full range)\nFFFF 7FFE\n4'294'934'527\nForbidden (no sensor with ID xx)"
+  },
+  {
+    "chunk_id": 96,
+    "page": 61,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "62\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nSimple Network Management Protocol – SNMP\nExamples\nSome examples of usage on the Linux system using snmpget program from NET-SNMP \npackage are presented below. The ‘#’ is the Linux command prompt.\nSNMPv1\n# snmpget -v1 -c password 192.168.1.200:8002 SNMPv2- MIB::sysUpTime.0\nSNMPv2-MIB::sysUpTime.0 = Timeticks: (38471) 0:06:24.71\n# snmpget -v1 -c password 192.168.1.200:8002 NET-SNMP-EXTEND- MIB::nsExtendOutputFull.\\\"TRMSs\nensAll\\\"NET-SNMP-EXTEND-MIB::nsExtendOutputFull.\"TRMSsensAll\" = STRING: \n1 5 1 4 9 0 7 0 7 6 13 8 2 13 4 0 1 5 0 7 1 6 1 14 0 8 0 0 2 1 1 0\n32767 32767 32767 32767 32767 32767 32767 32767 32767 32767 32767\n32767 32767 32767 32767 32767 32767 32767 32767 32767 32767 32767\n32767 32767 32767 32767 32767 32767 32767 32767 32767 32767 32767\n32767 32767 32767 32767 32767 32767 32767 32767 32767 32767 32767\n32767 32767 32767 32767 32767 32767 32767 32767 32767 32767 32767\n32767 32767 32767 32767 32767 32767 32767 32767 32767"
+  },
+  {
+    "chunk_id": 97,
+    "page": 61,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "32767 32767 32767 32767 32767 32767 32767 32767 32767 32767 32767\n32767 32767 32767 32767 32767 32767 32767 32767 32767 32767 32767\n32767 32767 32767 32767 32767 32767 32767 32767 32767 32767 32767\n32767 32767 32767 32767 32767 32767 32767 32767 32767\nSNMPv2c\n# snmpget –v2c -c password 192.168.1.200:8002"
+  },
+  {
+    "chunk_id": 98,
+    "page": 61,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "SNMPv2- MIB::sysName.0\nSNMPv2-MIB::sysName.0 = STRING: CMS700\n# snmpget –v2c -c password 192.168.1.200:8002 NET-SNMP-EXTEND-MIB::nsExtendOutputFull.\\\"TRMS\nsens1\\\"NET-SNMP-EXTEND-MIB::nsExtendOutputFull.\"TRMSsens1\" = STRING: 0\nSNMPv3\n# snmpget -v3 -e 98467c434675 -u CMSuser -a MD5 -A \"v3password\" - x DES -X \"v3password\" -l authPriv \n192.168.1.200:8002 SNMPv2- MIB::sysDescr.0\nSNMPv2-MIB::sysDescr.0 = STRING:\nABBCircuitMeasurementSystemCMS700\n# snmpget -v3 -e 98467c434675 -u CMSuser -a MD5 -A \"v3password\" - x DES -X \"v3password\" -l authPriv \n192.168.1.200:8002 NET-SNMP- EXTEND-MIB::nsExtendOutputFull. \\\"BranchNamesens1\\\"\nNET-SNMP-EXTEND-MIB::nsExtendOutputFull.\"BranchNamesens1\" = STRING: Sensor 1"
+  },
+  {
+    "chunk_id": 99,
+    "page": 62,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n63\n—\nModbus and SNMP Mapping\nModbus Standard TCP Port:\t\n8001\nStandard SNMP Port:\t\n8002\nAddr. \n(hex)\nAddr.\n(dec)\nWord \n(16-bit)\nDescription\nResolution \n(1-bit value)\nUnit\nFormat\nAccess\nSNMP \nVariable Name\nOngoing measurement values: \nThese registers contain the actual measured data.\n0000\n0\n1\nTRMS value of Sensor 1\n0.01\nA\nunsigned\nR (03)\nTRMSsens1\n0001\n1\n1\nTRMS value of Sensor 2\n0.01\nA\nunsigned\nR (03)\nTRMSsens2\n…\n…\n1\n…\n0.01\nA\nunsigned\nR (03)\n…\n005F\n95\n1\nTRMS value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nTRMSsens96\n0100\n256\n1\nAC value of Sensor 1\n0.01\nA\nunsigned\nR (03)\nACsens1\n0101\n257\n1\nAC value of Sensor 2\n0.01\nA\nunsigned\nR (03)\nACsens2\n…\n…\n1\n…\n0.01\nA\nunsigned\nR (03)\n…\n005F\n351\n1\nAC value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nACsens96\n0200\n512\n1\nDC value of Sensor 1\n0.01\nA\nsigned\nR (03)\nDCsens1\n0201\n513\n1\nDC value of Sensor 2\n0.01\nA\nsigned\nR (03)\nDCsens2\n…\n…\n1\n…\n0.01\nA\nsigned\nR (03)\n…\n025F\n607\n1\nDC value of Sensor 96\n0.01\nA\nsigned\nR (03)\nDCsens96"
+  },
+  {
+    "chunk_id": 100,
+    "page": 62,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "unsigned\nR (03)\n…\n005F\n351\n1\nAC value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nACsens96\n0200\n512\n1\nDC value of Sensor 1\n0.01\nA\nsigned\nR (03)\nDCsens1\n0201\n513\n1\nDC value of Sensor 2\n0.01\nA\nsigned\nR (03)\nDCsens2\n…\n…\n1\n…\n0.01\nA\nsigned\nR (03)\n…\n025F\n607\n1\nDC value of Sensor 96\n0.01\nA\nsigned\nR (03)\nDCsens96\nMinimum measured values: \nThese registers contain the minimum measured values since last system start / reset or since last “reset min/max values” request.\n0400\n1'024\n1\nTRMS min value of Sensor 1\n0.01\nA\nunsigned\nR (03)\nMINTRMSsens1\n0401\n1'025\n1\nTRMS min value of Sensor 2\n0.01\nA\nunsigned\nR (03)\nMINTRMSsens2\n…\n…\n1\n…\n0.01\nA\nunsigned\nR (03)\n…\n045F\n1'119\n1\nTRMS min value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nMINTRMSsens96\n0500\n1'280\n1\nAC min value of Sensor 1\n0.01\nA\nunsigned\nR (03)\nMINACsens1\n0501\n1'281\n1\nAC min value of Sensor 2\n0.01\nA\nunsigned\nR (03)\nMINACsens2\n…\n…\n1\n…\n0.01\nA\nunsigned\nR (03)\n…\n055F\n1'375\n1\nAC min value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nMINACsens96\n0600\n1'536\n1"
+  },
+  {
+    "chunk_id": 101,
+    "page": 62,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "A\nunsigned\nR (03)\nMINTRMSsens96\n0500\n1'280\n1\nAC min value of Sensor 1\n0.01\nA\nunsigned\nR (03)\nMINACsens1\n0501\n1'281\n1\nAC min value of Sensor 2\n0.01\nA\nunsigned\nR (03)\nMINACsens2\n…\n…\n1\n…\n0.01\nA\nunsigned\nR (03)\n…\n055F\n1'375\n1\nAC min value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nMINACsens96\n0600\n1'536\n1\nDC min value of Sensor 1\n0.01\nA\nsigned\nR (03)\nMINDCsens1\n0601\n1'537\n1\nDC min value of Sensor 2\n0.01\nA\nsigned\nR (03)\nMINDCsens2\n…\n…\n1\n…\n0.01\nA\nsigned\nR (03)\n…\n065F\n1'631\n1\nDC min value of Sensor 96\n0.01\nA\nsigned\nR (03)\nMINDCsens96\nMaximum measured values: \nThese registers contain the maximum measured values since last system start / reset or since last “reset min/max values” request.\n0800\n2'048\n1\nTRMS max value of Sensor 1\n0.01\nA\nunsigned\nR (03)\nMAXTRMSsens1\n0801\n2'049\n1\nTRMS max value of Sensor 2\n0.01\nA\nunsigned\nR (03)\nMAXTRMSsens2\n…\n…\n1\n…\n0.01\nA\nunsigned\nR (03)\n…\n085F\n2'143\n1\nTRMS max value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nMAXTRMSsens96\n0900\n2'304\n1\nAC max value of Sensor 1\n0.01\nA\nunsigned"
+  },
+  {
+    "chunk_id": 102,
+    "page": 62,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "0.01\nA\nunsigned\nR (03)\nMAXTRMSsens1\n0801\n2'049\n1\nTRMS max value of Sensor 2\n0.01\nA\nunsigned\nR (03)\nMAXTRMSsens2\n…\n…\n1\n…\n0.01\nA\nunsigned\nR (03)\n…\n085F\n2'143\n1\nTRMS max value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nMAXTRMSsens96\n0900\n2'304\n1\nAC max value of Sensor 1\n0.01\nA\nunsigned\nR (03)\nMAXACsens1\n0901\n2'305\n1\nAC max value of Sensor 2\n0.01\nA\nunsigned\nR (03)\nMAXACsens2\n…\n1\n…\n0.01\nA\nunsigned\nR (03)\n…\n095F\n2'399\n1\nAC max value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nMAXACsens96\n0A00\n2'560\n1\nDC max value of Sensor 1\n0.01\nA\nsigned\nR (03)\nMAXDCsens1\n0A01\n2'561\n1\nDC max value of Sensor 2\n0.01\nA\nsigned\nR (03)\nMAXDCsens2\n…\n…\n1\n…\n0.01\nA\nsigned\nR (03)\n…\n0A5F\n2'655\n1\nDC max value of Sensor 96\n0.01\nA\nsigned\nR (03)\nMAXDCsens96"
+  },
+  {
+    "chunk_id": 103,
+    "page": 63,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "64\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nModbus and SNMP Mapping\nAddr. \n(hex)\nAddr. \n(dec)\nWord \n(16-bit)\nDescription\nResolution \n(1-bit value)\nUnit\nFormat\nAccess\nSNMP \nVariable Name\nMeasured hold values: \nThese registers contain the hold values captured at a given time during the execution of a “trigger hold measurement” request.\n0C00\n3'072\n1\nTRMS hold value of Sensor 1\n0.01\nA\nunsigned\nR (03)\nHOLDTRMSsens1\n0C01\n3'073\n1\nTRMS hold value of Sensor 2\n0.01\nA\nunsigned\nR (03)\nHOLDTRMSsens2\n…\n…\n1\n…\n0.01\nA\nunsigned\nR (03)\n…\n0C5F\n3'167\n1\nTRMS hold value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nHOLDTRMSsens96\n0D00\n3'328\n1\nAC hold value of Sensor 1\n0.01\nA\nunsigned\nR (03)\nHOLDACsens1\n0D01\n3'329\n1\nAC hold value of Sensor 2\n0.01\nA\nunsigned\nR (03)\nHOLDACsens2\n…\n…\n1\n…\n0.01\nA\nunsigned\nR (03)\n…\n0D5F\n3'423\n1\nAC hold value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nHOLDACsens96\n0E00\n3'584\n1\nDC hold value of Sensor 1\n0.01\nA\nsigned\nR (03)\nHOLDDCsens1\n0E01\n3'585\n1\nDC hold value of Sensor 2\n0.01\nA\nsigned"
+  },
+  {
+    "chunk_id": 104,
+    "page": 63,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "1\nAC hold value of Sensor 2\n0.01\nA\nunsigned\nR (03)\nHOLDACsens2\n…\n…\n1\n…\n0.01\nA\nunsigned\nR (03)\n…\n0D5F\n3'423\n1\nAC hold value of Sensor 96\n0.01\nA\nunsigned\nR (03)\nHOLDACsens96\n0E00\n3'584\n1\nDC hold value of Sensor 1\n0.01\nA\nsigned\nR (03)\nHOLDDCsens1\n0E01\n3'585\n1\nDC hold value of Sensor 2\n0.01\nA\nsigned\nR (03)\nHOLDDCsens2\n…\n1\n…\n0.01\nA\nsigned\nR (03)\n…\n0E5F\n3'679\n1\nDC hold value of Sensor 96\n0.01\nA\nsigned\nR (03)\nHOLDDCsens96\nSerial number (SID), version and bus line\n1000\n4'096\n16\nSID, version, bus line of sensor 1\nspecial\nR (03)\nSIDsens1\n1010\n4'112\n16\nSID, version, bus line of sensor 2\nspecial\nR (03)\nSIDsens2\n…\n…\n16\n…\nspecial\nR (03)\n…\n15F0\n5'616\n16\nSID, version, bus line of sensor 96\nspecial\nR (03)\nSIDsens96\nPolarity of sensors (for DC currents)\n2000\n8'192\n1\nPolarity of sensor 1\nspecial\nRW \n(03,06,10)\nPOLsens1\n2001\n8'193\n1\nPolarity of sensor 2\nspecial\nRW \n(03,06,10)\nPOLsens2\n…\n…\n1\n…\nspecial\nRW \n(03,06,10)\n…\n205F\n8'287\n1\nPolarity of sensor 96\nspecial\nRW \n(03,06,10)\nPOLsens96"
+  },
+  {
+    "chunk_id": 105,
+    "page": 63,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "special\nR (03)\nSIDsens96\nPolarity of sensors (for DC currents)\n2000\n8'192\n1\nPolarity of sensor 1\nspecial\nRW \n(03,06,10)\nPOLsens1\n2001\n8'193\n1\nPolarity of sensor 2\nspecial\nRW \n(03,06,10)\nPOLsens2\n…\n…\n1\n…\nspecial\nRW \n(03,06,10)\n…\n205F\n8'287\n1\nPolarity of sensor 96\nspecial\nRW \n(03,06,10)\nPOLsens96\nCalculated values of sensors\n2200\n8'704\n2\nActive Power value of Sensor 1\n1\nW\nunsigned\nR (03)\nPsens1\n2202\n8'706\n2\nActive Power value of Sensor 2\n1\nW\nunsigned\nR (03)\nPsens2\n…\n…\n2\n…\n1\nW\nunsigned\nR (03)\n…\n22BE\n8'894\n2\nP value of Sensor 96\n1\nW\nunsigned\nR (03)\nPsens96\n2300\n8'960\n2\nActive Energy value of Sensor 1\n0.1\nWh\nunsigned\nR (03)\nWhsens1\n2302\n8'962\n2\nActive Energy value of Sensor 2\n0.1\nWh\nunsigned\nR (03)\nWhsens2\n…\n…\n2\n…\n0.1\nWh\nunsigned\nR (03)\n…\n23BE\n9'150\n2\nActive Energy value of Sensor 96\n0.1\nWh\nunsigned\nR (03)\nWhsens96\nCalculated values of groups\n2400\n9'216\n2\nActive Power value of Group 1\n1\nW\nunsigned\nR (03)\nPGroup1\n2402\n9'218\n2\nActive Power value of Group 2\n1\nW\nunsigned\nR (03)\nPGroup2\n…\n…\n…\n…"
+  },
+  {
+    "chunk_id": 106,
+    "page": 63,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "Whsens2\n…\n…\n2\n…\n0.1\nWh\nunsigned\nR (03)\n…\n23BE\n9'150\n2\nActive Energy value of Sensor 96\n0.1\nWh\nunsigned\nR (03)\nWhsens96\nCalculated values of groups\n2400\n9'216\n2\nActive Power value of Group 1\n1\nW\nunsigned\nR (03)\nPGroup1\n2402\n9'218\n2\nActive Power value of Group 2\n1\nW\nunsigned\nR (03)\nPGroup2\n…\n…\n…\n…\n…\n…\n…\n…\n…\n24BE\n9'406\n2\nActive Power value of Group 96\n1\nW\nunsigned\nR (03)\nPGroup96\n2500\n9'472\n2\nActive Energy value of Group 1\n100\nWh\nunsigned\nR (03)\nWhGroup1\n2502\n9'472\n2\nActive Energy value of Group 2\n100\nWh\nunsigned\nR (03)\nWhGroup2\n...\n...\n2\n...\n100\nWh\nunsigned\nR (03)\n...\n25BE\n9'662\n2\nActive Energy value of Group 96\n100\nWh\nunsigned\nR (03)\nWhGroup96\nControl registers\n3001\n12'289\n1\nPhysical assignment of sensor time-out, UI mode 0.1\ns\nunsigned\nRW (03,06) uiTIMEOUTsens\n3002\n12'290\n1\nPhysical assignment of sensor time-out, UI mode 0.1\ns\nunsigned\nRW (03,06) busTIMEOUTsens"
+  },
+  {
+    "chunk_id": 107,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n65\nAddr. \n(hex)\nAddr. \n(dec)\nWord \n(16-bit)\nDescription\nResolution \n(1-bit value)\nUnit\nFormat\nAccess\nSNMP\nVariable Name\nBranches\n3200\n12'800\n64\nBranch name of Sensor 1\n64\nletter\nstring\nRW (03,10) BranchNameSens1\n3240\n12'864\n64\nBranch name of Sensor 2\n64\nletter\nstring\nRW (03,10) BranchNameSens2\n…\n…\n64\n…\n64\nletter\nstring\nRW (03,10) …\n49C0\n18'880\n64\nBranch name of Sensor 96\n64\nletter\nstring\nRW (03,10) BranchNameSens96\n5200\n20'992\n64\nName of Group 1*\n64\nletter\nstring\nRW (03,10) GroupName1\n5240\n21'056\n64\nName of Group 2\n64\nletter\nstring\nRW (03,10) GroupName2\n…\n…\n64\n…\n64\nletter\nstring\nRW (03,10) …\n69C0\n27'072\n64\nName of Group 96\n64\nletter\nstring\nRW (03,10) GroupName96\n7200\n29'184\n1\nPhase assigned to Sensor 1\n1\nshort\nRW (03,06) PhaseSens1\n7201\n29'185\n1\nPhase assigned to Sensor 2\n1\nshort\nRW (03,06) PhaseSens2\n…\n…\n1\n…\n1\nshort\nRW (03,06) …\n725F\n29'279\n1\nPhase assigned to Sensor 96\n1\nshort\nRW (03,06) PhaseSens96\n7280\n29'312\n1"
+  },
+  {
+    "chunk_id": 108,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "64\nletter\nstring\nRW (03,10) GroupName96\n7200\n29'184\n1\nPhase assigned to Sensor 1\n1\nshort\nRW (03,06) PhaseSens1\n7201\n29'185\n1\nPhase assigned to Sensor 2\n1\nshort\nRW (03,06) PhaseSens2\n…\n…\n1\n…\n1\nshort\nRW (03,06) …\n725F\n29'279\n1\nPhase assigned to Sensor 96\n1\nshort\nRW (03,06) PhaseSens96\n7280\n29'312\n1\nGroup number of Sensor 1**\n1\nshort\nRW (03,06) GroupSens1**\n7281\n29'313\n1\nGroup number of Sensor 2\n1\nshort\nRW (03,06) GroupSens2\n…\n…\n1\n…\n1\nshort\nRW (03,06) …\n72DF\n29'407\n1\nGroup number of Sensor 96\n1\nshort\nRW (03,06) GroupSensor96\n7300\n29'440\n1\nPower Factor of Sensor 1\n0.01\nunsigned\nRW (03,06) PowerFactorSens1\n7301\n29'441\n1\nPower Factor of Sensor 2\n0.01\nunsigned\nRW (03,06) PowerFactorSens2\n…\n…\n1\n…\n0.01\nunsigned\nRW (03,06) …\n735F\n29'535\n1\nPower Factor of Sensor 96\n0.01\nunsigned\nRW (03,06) PowerFactorSens96\nAlarm/Event Status – only Status\n8000\n32'768\n1\nNumber of current alarms\nunsigned\nR (03)\n8001\n32'769\n1\nAlarm Status Branch 1\nunsigned\nR (03)\n8002\n32'770\n1\nAlarm Status Branch 2\nunsigned\nR (03)"
+  },
+  {
+    "chunk_id": 109,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "unsigned\nRW (03,06) …\n735F\n29'535\n1\nPower Factor of Sensor 96\n0.01\nunsigned\nRW (03,06) PowerFactorSens96\nAlarm/Event Status – only Status\n8000\n32'768\n1\nNumber of current alarms\nunsigned\nR (03)\n8001\n32'769\n1\nAlarm Status Branch 1\nunsigned\nR (03)\n8002\n32'770\n1\nAlarm Status Branch 2\nunsigned\nR (03)\n...\n...\n1\nunsigned\nR (03)\n8060\n32'864\n1\nAlarm Status Branch 96\nunsigned\nR (03)\n8061\n32'865\n1\nAlarm Status Line L1\nunsigned\nR (03)\n8062\n32'866\n1\nAlarm Status Line L2\nunsigned\nR (03)\n8063\n32'867\n1\nAlarm Status Line L3\nunsigned\nR (03)\n8064\n32'868\n1\nAlarm Status Line L4/N\nunsigned\nR (03)\nAlarm/Event Status – Status and Threshold\n8100\n33'024\n1\nNumber of current alarms\nunsigned\nR (03)\n8101\n33'025\n1\nAlarm Status Branch 1\nunsigned\nR (03)\n8102\n33'026\n2\nAlarm Threshold Branch 1\nsigned\nR (03)\n8104\n33'028\n1\nAlarm Status Branch 2\nunsigned\nR (03)\n8105\n33'029\n2\nAlarm Threshold Branch 2\nsigned\nR (03)\n...\n...\nR (03)\n821E\n33'310\n1\nAlarmStatusBranch96\nunsigned\nR (03)\n821F\n33'311\n2\nAlarmThresholdBranch96\nsigned"
+  },
+  {
+    "chunk_id": 110,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "unsigned\nR (03)\n8102\n33'026\n2\nAlarm Threshold Branch 1\nsigned\nR (03)\n8104\n33'028\n1\nAlarm Status Branch 2\nunsigned\nR (03)\n8105\n33'029\n2\nAlarm Threshold Branch 2\nsigned\nR (03)\n...\n...\nR (03)\n821E\n33'310\n1\nAlarmStatusBranch96\nunsigned\nR (03)\n821F\n33'311\n2\nAlarmThresholdBranch96\nsigned\nR (03)\n...\n...\n8221\n33'313\n1\nAlarmStatusLine L1\nunsigned\nR (03)\n8222\n33'314\n2\nAlarmThresholdLine L1\nsigned\nR (03)\n8224\n33'316\n1\nAlarmStatusLine L2\nunsigned\nR (03)\n8225\n33'317\n2\nAlarmThresholdLine L2\nsigned\nR (03)\n8227\n33'319\n1\nAlarmStatusLine L3\nunsigned\nR (03)\n8228\n33'320\n2\nAlarmThresholdLine L3\nsigned\nR (03)\n822A\n33'322\n1\nAlarmStatusLine L4/N\nunsigned\nR (03)\n822B\n33'323\n2\nAlarmThresholdLine L4/N\nsigned\nR (03)\n—\nModbus and SNMP Mapping"
+  },
+  {
+    "chunk_id": 111,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "66\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\nAddr. \n(hex)\nAddr. \n(dec)\nWord \n(16-bit)\nDescription\nResolution \n(1-bit value)\nUnit\nFormat\nAccess\nSNMP \nVariable Name\nMains measurement registers\n9002\n36'866\n2\nPHASE VOLTAGE L1-N\n0.01\nV\nunsigned\nR (03)\nuL1\n9004\n36'868\n2\nPHASE VOLTAGE L2-N\n0.01\nV\nunsigned\nR (03)\nuL2\n9006\n36'870\n2\nPHASE VOLTAGE L3-N\n0.01\nV\nunsigned\nR (03)\nuL3\n9010\n36'880\n2\nLINE CURRENT L1\n0.01\nA\nunsigned\nR (03)\niL1\n9012\n36'882\n2\nLINE CURRENT L2\n0.01\nA\nunsigned\nR (03)\niL2\n9014\n36'884\n2\nLINE CURRENT L3\n0.01\nA\nunsigned\nR (03)\niL3\n9018\n36'888\n2\nPOWER FACTOR L1\n0,01\nsigned\nR (03)\npfL1\n901A\n36'890\n2\nPOWER FACTOR L2\n0,01\nsigned\nR (03)\npfL2\n901C\n36'892\n2\nPOWER FACTOR L3\n0,01\nsigned\nR (03)\npfL3\n9026\n36'902\n2\n3-PHASE SUM APPARENT POWER\n1\nVA\nunsigned\nR (03)\ns3\n9028\n36'904\n2\nAPPARENT POWER L1\n1\nVA\nunsigned\nR (03)\nsL1\n902A\n36'906\n2\nAPPARENT POWER L2\n1\nVA\nunsigned\nR (03)\nsL2\n902C\n36'908\n2\nAPPARENT POWER L3\n1\nVA\nunsigned\nR (03)\nsL3\n902E\n36'910\n2\n3-PHASE SUM ACTIVE POWER\n1\nW\nsigned"
+  },
+  {
+    "chunk_id": 112,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "R (03)\npfL3\n9026\n36'902\n2\n3-PHASE SUM APPARENT POWER\n1\nVA\nunsigned\nR (03)\ns3\n9028\n36'904\n2\nAPPARENT POWER L1\n1\nVA\nunsigned\nR (03)\nsL1\n902A\n36'906\n2\nAPPARENT POWER L2\n1\nVA\nunsigned\nR (03)\nsL2\n902C\n36'908\n2\nAPPARENT POWER L3\n1\nVA\nunsigned\nR (03)\nsL3\n902E\n36'910\n2\n3-PHASE SUM ACTIVE POWER\n1\nW\nsigned\nR (03)\np3\n9030\n36'912\n2\nACTIVE POWER L1\n1\nW\nsigned\nR (03)\npL1\n9032\n36'914\n2\nACTIVE POWER L2\n1\nW\nsigned\nR (03)\npL2\n9034\n36'916\n2\nACTIVE POWER L3\n1\nW\nsigned\nR (03)\npL3\n9036\n36'918\n2\n3-PHASE SUM REACTIVE POWER\n1\nVAr\nsigned \nR(03)\nq3\n9038\n36'920\n2\nREACTIVE POWER L1\n1\nVAr\nsigned\nR (03)\nqL1\n903A\n36'922\n2\nREACTIVE POWER L2\n1\nVAr\nsigned\nR (03)\nqL2\n903C\n36'924\n2\nREACTIVE POWER L3\n1\nVAr\nsigned\nR (03)\nqL3\n903E\n36'926\n2\n3-PHASE SYS ACTIVE ENERGY\n0.01\nWh\nunsigned\nR (03)\nwh3\n9040\n36'928\n2\n3-PHASE SYS REACTIVE ENERGY\n0.01\nVarh\nunsigned\nR (03)\nqh3\n9074\n36'980\n2\nACTIVE ENERGY L1\n0.01\nWh\nunsigned\nR (03)\nwhL1\n9076\n36'982\n2\nACTIVE ENERGY L2\n0.01\nWh\nunsigned\nR (03)\nwhL2\n9078\n36'984\n2\nACTIVE ENERGY L3\n0.01\nWh"
+  },
+  {
+    "chunk_id": 113,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "903E\n36'926\n2\n3-PHASE SYS ACTIVE ENERGY\n0.01\nWh\nunsigned\nR (03)\nwh3\n9040\n36'928\n2\n3-PHASE SYS REACTIVE ENERGY\n0.01\nVarh\nunsigned\nR (03)\nqh3\n9074\n36'980\n2\nACTIVE ENERGY L1\n0.01\nWh\nunsigned\nR (03)\nwhL1\n9076\n36'982\n2\nACTIVE ENERGY L2\n0.01\nWh\nunsigned\nR (03)\nwhL2\n9078\n36'984\n2\nACTIVE ENERGY L3\n0.01\nWh\nunsigned\nR (03)\nwhL3\n907A\n36'986\n2\nREACTIVE ENERGY L1\n0.01\nVarh\nunsigned\nR (03)\nqhL1\n907C\n36'988\n2\nREACTIVE ENERGY L2\n0.01\nVarh\nunsigned\nR (03)\nqhL2\n907E\n36'990\n2\nREACTIVE ENERGY L3\n0.01\nVarh\nunsigned\nR (03)\nqhL3\n90A6\n37'030\n2\n3-PHASE SYS APPARENT ENERGY\n0.01\nVAh\nunsigned\nR (03)\nsh3\n90A8\n37'032\n2\nAPPARENT ENERGY L1\n0,01\nVAh\nunsigned\nR (03)\nshL1\n90AA\n37'034\n2\nAPPARENT ENERGY L2\n0,01\nVAh\nunsigned\nR (03)\nshL2\n90AC\n37'036\n2\nAPPARENT ENERGY L3\n0,01\nVAh\nunsigned\nR (03)\nshL3\n9300\n37'632\n1\nCTratioL1L2L3\n0.1\n0,1-6000 unsigned\nRW (03,06) CTratioL1L2L3\n9301\n37'633\n1\nCTratioN\n0.1\n0,1-6000 unsigned\nRW (03,06) CTratioN\n9302\n37'634\n2\nLINE CURRENT L4/N\n0.01\nA\nunsigned\nR (03)\niL4N\n9304\n37'636\n2"
+  },
+  {
+    "chunk_id": 114,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "unsigned\nR (03)\nshL2\n90AC\n37'036\n2\nAPPARENT ENERGY L3\n0,01\nVAh\nunsigned\nR (03)\nshL3\n9300\n37'632\n1\nCTratioL1L2L3\n0.1\n0,1-6000 unsigned\nRW (03,06) CTratioL1L2L3\n9301\n37'633\n1\nCTratioN\n0.1\n0,1-6000 unsigned\nRW (03,06) CTratioN\n9302\n37'634\n2\nLINE CURRENT L4/N\n0.01\nA\nunsigned\nR (03)\niL4N\n9304\n37'636\n2\nCurrent THD L4/N\n0.01\n%\nunsigned\nR (03)\nthdIL4N\n9082\n36'994\n2\nVOLTAGE THD L1\n0.01\n%\nunsigned\nR (03)\nthdUL1\n9084\n36'996\n2\nVOLTAGE THD L2\n0.01\n%\nunsigned\nR (03)\nthdUL2\n9086\n36'998\n2\nVOLTAGE THD L3\n0.01\n%\nunsigned\nR (03)\nthdUL3\n—\nModbus and SNMP Mapping"
+  },
+  {
+    "chunk_id": 115,
+    "page": 66,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "CMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n67\nAddr. \n(hex)\nAddr. \n(dec)\nWord \n(16-bit)\nDescription\nResolution \n(1-bit value)\nUnit\nFormat\nAccess\nSNMP Variable \nName\nMains measurement registers\n90AE\n37'038\n2\nACTIVE ENERGY L1 100Wh\n100\nWh\nunsigned\nR (03)\nwhL1-100\n90B0\n37'040\n2\nACTIVE ENERGY L2 100Wh\n100\nWh\nunsigned\nR (03)\nwhL2-100\n90B2\n37'042\n2\nACTIVE ENERGY L3 100Wh\n100\nWh\nunsigned\nR (03)\nwhL3-100\n90B4\n37'044\n2\n3-PHASE SUM ACTIVE ENERGY 100Wh\n100\nWh\nunsigned\nR (03)\nwh3-100\n90B6\n37'046\n2\nREACTIVE ENERGY L1 100varh\n100\nvarh\nunsigned\nR (03)\nqhL1-100\n90B8\n37'048\n2\nREACTIVE ENERGY L2 100varh\n100\nvarh\nunsigned\nR (03)\nqhL2-100\n90BA\n37'050\n2\nREACTIVE ENERGY L3 100varh\n100\nvarh\nunsigned\nR (03)\nqhL3-100\n90BC\n37'052\n2\n3-PHASE SUM REACTIVE ENERGY 100varh\n100\nvarh\nunsigned\nR (03)\nqh3-100\n90BE\n37'054\n2\nAPPARENT ENERGY L1 100VAh\n100\nVAh\nunsigned\nR (03)\nshL1-100\n90C0\n37'056\n2\nAPPARENT ENERGY L2 100VAh\n100\nVAh\nunsigned\nR (03)\nshL2-100\n90C2\n37'058\n2\nAPPARENT ENERGY L3 100VAh\n100\nVAh\nunsigned\nR (03)"
+  },
+  {
+    "chunk_id": 116,
+    "page": 66,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "90BC\n37'052\n2\n3-PHASE SUM REACTIVE ENERGY 100varh\n100\nvarh\nunsigned\nR (03)\nqh3-100\n90BE\n37'054\n2\nAPPARENT ENERGY L1 100VAh\n100\nVAh\nunsigned\nR (03)\nshL1-100\n90C0\n37'056\n2\nAPPARENT ENERGY L2 100VAh\n100\nVAh\nunsigned\nR (03)\nshL2-100\n90C2\n37'058\n2\nAPPARENT ENERGY L3 100VAh\n100\nVAh\nunsigned\nR (03)\nshL3-100\n90C4\n37'060\n2\n3-PHASE SUM APPARENT ENERGY 100VAh\n100\nVAh\nunsigned\nR (03)\nsh3-100\n9088\n37'000\n2\nCURRENT THD L1\n0.01\n%\nunsigned\nR (03)\nthdIL1\n908A\n37'002\n2\nCURRENT THD L2\n0.01\n%\nunsigned\nR (03)\nthdIL2\n908C\n37'004\n2\nCURRENT THD L3\n0.01\n%\nunsigned\nR (03)\nthdIL3\n—\nModbus and SNMP Mapping\n*)\t \u000796 group names with max. 64 characters can be defined in the Web-UI. The register contains the group name included in the group name list. \nThe register indicates the number of the group within the group name list.       \n**)\t\u0007The register indicates the number of the group in the group name list."
+  },
+  {
+    "chunk_id": 117,
+    "page": 67,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "68\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n—\nFAQ\nNumber\nTopic\nExplanation\n1\nCurrent limit mains \npower factor\nThe CMS-700 gathers mains and N phase currents L1, L2, L3 based on the secondary current of the current \ntransformer starting from a current of 60mA. Below 60mA, the current value is shown as 0A.\nFor the primary current with a 20/5 current transformer this means: 60mA * 20/5 = 60mA * 4 = 240mA (phase \ncurrent). Below a line current of 240mA, the current value is shown as 0A.\nIf the CMS-700 measures no mains current (= 0A), the power factor is 1.\n2\nEnergy value\nOnly the accumulated energy value can be read.\nIn order to obtain values for 15 minutes, the control system (master system) needs to poll data every \n15 minutes and then subtract the last value (previous 15 minutes).\n3\nMax. energy value\nThe max. energy value for the mains and the individual branches is 429'496 kWh each.\n4\nModbus"
+  },
+  {
+    "chunk_id": 118,
+    "page": 67,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "In order to obtain values for 15 minutes, the control system (master system) needs to poll data every \n15 minutes and then subtract the last value (previous 15 minutes).\n3\nMax. energy value\nThe max. energy value for the mains and the individual branches is 429'496 kWh each.\n4\nModbus\nModbus values can be read in blocks. The Modbus protocol recognizes the “Read Holding Register” (03h) \nfunction code. This means that the start address (start register) and the number of registers to be issued are \ndefined (see p. 40 - Read ongoing measurement values of sensor 5-16).\n5\nModbus TCP\nThe RJ45 LAN connection of the device is compatible with Modbus TCP.\n6\nMaster / Slave\nThe CMS-700 does not have a master function. It operates as a slave and can be addressed accordingly in the \nWeb UI configuration.\n7\nMaster / Slave\nEach CMS-700 needs its own IP address on the network and must be accessed using this IP address.\n8\nCurrent direction"
+  },
+  {
+    "chunk_id": 119,
+    "page": 67,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "6\nMaster / Slave\nThe CMS-700 does not have a master function. It operates as a slave and can be addressed accordingly in the \nWeb UI configuration.\n7\nMaster / Slave\nEach CMS-700 needs its own IP address on the network and must be accessed using this IP address.\n8\nCurrent direction\nThere is no current direction detection for AC. For DC measurement, the current direction is detected via \nModbus reading."
+  },
+  {
+    "chunk_id": 120,
+    "page": 68,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "—\nNotes\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)\n69"
+  },
+  {
+    "chunk_id": 121,
+    "page": 69,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "—\nNotes\n70\nCMS-700 SYSTEM CIRCUIT MONITORING SYSTEM (CMS)"
+  },
+  {
+    "chunk_id": 122,
+    "page": 71,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\CMS Manual_web ...pdf",
+    "content": "—\nABB Group \nElectrification Products Division\nBusiness Unit Building Products\nwww.abb.com/lowvoltage\n2CCC481011M0201 Rev. C September 2018\n© Copyright 2018 ABB. All rights reserved. \nDue to possible changes in design and materials, the features and \nsizes contained in this catalog are to be considered as binding \nonly after confirmation by ABB."
+  }
+]

@@ -1,0 +1,896 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual\nDigital Communication - \nModbus RTU\nDräger Polytron® 8000 Series"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "2 \n Technical Manual   |    \nThis page has been left blank intentionally."
+  },
+  {
+    "chunk_id": 2,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n3\nContents\nDigital Communication - Modbus RTU\nDräger Polytron® 8000 Series\nContents\n1\nIntroduction ..............................................................................................\n4\n1.1\nTarget group ...................................................................................\n4\n1.2\nGeneral safety statements..............................................................\n4\n1.3\nMeaning of the warning notes.........................................................\n4\n1.4\nTrademark ......................................................................................\n4\n2\nBasic principles of the Modbus technology ..........................................\n5\n2.1\nDefinition of the Modbus protocol ...................................................\n5\n2.2\nSystem overview.............................................................................\n5\n2.3"
+  },
+  {
+    "chunk_id": 3,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "4\n2\nBasic principles of the Modbus technology ..........................................\n5\n2.1\nDefinition of the Modbus protocol ...................................................\n5\n2.2\nSystem overview.............................................................................\n5\n2.3\nData transmission...........................................................................\n8\n3\nInstallation ................................................................................................\n15\n3.1\nTechnical data ................................................................................\n15\n3.2\nCables.............................................................................................\n15\n3.3\nPin assignment ...............................................................................\n16\n3.4\nTermination.....................................................................................\n18\n3.5"
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "15\n3.3\nPin assignment ...............................................................................\n16\n3.4\nTermination.....................................................................................\n18\n3.5\nOpening the gas detector ...............................................................\n19\n3.6\nConnecting the gas detector...........................................................\n20\n3.7\nClosing the gas detector.................................................................\n20\n4\nCommissioning ........................................................................................\n21\n4.1\nChecking installation and operation................................................\n21\n4.2\nConfiguring the RS-485 interface ...................................................\n21\n4.3\nConfiguring the gas detector...........................................................\n22\n5\nIntegration into process control systems..............................................\n27\n5.1"
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "21\n4.2\nConfiguring the RS-485 interface ...................................................\n21\n4.3\nConfiguring the gas detector...........................................................\n22\n5\nIntegration into process control systems..............................................\n27\n5.1\nGeneral information ........................................................................\n27\n5.2\nReading the gas concentration.......................................................\n28\n5.3\nReading diagnostic and status information.....................................\n29\n5.4\nReading the date and time..............................................................\n32\n6\nTroubleshooting.......................................................................................\n33\n6.1\nError analysis..................................................................................\n33\n6.2\nErrors..............................................................................................\n33\n7"
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "33\n6.1\nError analysis..................................................................................\n33\n6.2\nErrors..............................................................................................\n33\n7\nAnnex ........................................................................................................\n39\n7.1\nGlossary..........................................................................................\n39\n7.2\nAnnex 1 Polytron® 8000 parameter list ..........................................\n39"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "4 \n Technical Manual  |  Digital Communication - Modbus RTU  \nIntroduction\n1 \nIntroduction\nThis document is a supplement to the instructions for use for the following gas \ndetectors:\n–\nDräger Polytron® 8100 EC\n–\nDräger Polytron® 8200 CAT\n–\nDräger Polytron® 8310 IR\n–\nDräger Polytron® 8700 IR\n–\nDräger Polytron® 8720 IR\nThis document contains additional information on the Modbus RTU interface.\n1.1 \nTarget group\nThis document is intended for experts who are specialized in PLC programming, \ncertified electricians, or persons instructed by certified electricians. In addition, the \nindividuals have to be familiar with the applicable standards. \n1.2 \nGeneral safety statements\nCarefully read the instructions for use before using the corresponding product. This \ndocument does not replace the instructions for use.\n1.3 \nMeaning of the warning notes\nThe following warning notes are used in this document to notify users of possible \ndangers. The meanings of the warning notes are defined as follows:"
+  },
+  {
+    "chunk_id": 8,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "document does not replace the instructions for use.\n1.3 \nMeaning of the warning notes\nThe following warning notes are used in this document to notify users of possible \ndangers. The meanings of the warning notes are defined as follows:\n1.4 \nTrademark\nThe following web page provides a list of the countries in which the trademarks are \nregistered: www.draeger.com/trademarks.\nAlert icon\nSignal word\nConsequences in case of nonob-\nservance\nWARNING\nIndicates a potentially hazardous situation. \nIf not avoided, it could result in death or \nserious injury.\nCAUTION\nIndicates a potentially hazardous situation. \nIf not avoided, it could result in physical \ninjury. It may also be used to alert against \nunsafe practices.\nNOTICE\nIndicates a potentially hazardous situation. \nIf not avoided, it could result in damage to \nthe product or environment.\nTrademark\nOwner\nPolytron®\nDräger"
+  },
+  {
+    "chunk_id": 9,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n5\nBasic principles of the Modbus technology\n2 \nBasic principles of the Modbus technology\n2.1 \nDefinition of the Modbus protocol\nThe Modbus protocol was developed by Modicon in 1979. It is an open, \nstandardized communications protocol which is used in production, process, or \nbuilding automation.\nModbus is a protocol for transmitting messages between electronic devices. The \ndevice requesting the information is the Modbus master. The devices sending the \ninformation are the so-called slaves. There are one master and up to 247 slaves in \na standard Modbus network. Each slave is defined by its own address from 1 to \n247. \nModbus RTU (Remote Terminal Unit) is a binary transmission protocol for serial \ninterfaces (RS-232 or RS-485). The original system was developed with a RS-232 \ninterface. However, it was adapted for RS-485 interfaces for faster transmission"
+  },
+  {
+    "chunk_id": 10,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "247. \nModbus RTU (Remote Terminal Unit) is a binary transmission protocol for serial \ninterfaces (RS-232 or RS-485). The original system was developed with a RS-232 \ninterface. However, it was adapted for RS-485 interfaces for faster transmission \nrates. In addition, the RS-485 interface is bus-compatible: multiple devices can be \nconnected to the data cables.\nFor this product, only the RS-485 interface is described.\nFor further information on the Modbus technology, also see www.modbus.org.\nFor further information on RS-485, also see ANSI/TIA/EIA-485-A.\n2.2 \nSystem overview\nModbus RTU is based on a Master/Slave architecture. In a Master/Slave system, \nthe Master communicates with one or more slaves. It is a mono-Master system: \nonly one Master can be connected at any one time.\nThe slaves in a Modbus network cannot start communication. They can only \nrespond."
+  },
+  {
+    "chunk_id": 11,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "6 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\n2.2.1 \nTopology\nMinimum configuration\nA Modbus system consists of at least the following components:\n–\nA Modbus Master to control the data traffic.\n–\nOne or more slaves which are available upon request of the Master.\n–\nThe transmission medium, consisting of the bus cable and bus connector to \nconnect the individual participants.\nMaximum configuration\nA bus segment consists of a maximum of 32 field devices (active and passive). The \nhighest possible number of slaves that can be operated with one Modbus Master \nacross several segments is determined by the internal memory structure of the \nmaster.\nThe bus cable can be separated anywhere and a new participant added with a bus \nconnector. At the end of a segment, the bus cable can be extended until the \npredetermined segment length is reached. The length of a bus segment depends"
+  },
+  {
+    "chunk_id": 12,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "master.\nThe bus cable can be separated anywhere and a new participant added with a bus \nconnector. At the end of a segment, the bus cable can be extended until the \npredetermined segment length is reached. The length of a bus segment depends \non the set transmission speed. The transmission speed is primarily determined by \nthe system constellation (length of a segment, distributed inputs/outputs) and the \nrequired scanning cycles of individual participants. The same transmission speed \nhas to be selected for all participants connected to the bus.\nConnect Modbus devices in a line structure.\nIf there are more than 32 participants, the Modbus system can be extended by \nconnecting repeaters. This enables bridging longer distances than defined for the \ntransmission speed.\n31044\n1\nRequest of the Master\n2\nResponse from a Slave\n3\nMaster\n4\nSlave\n5\nSlave\n6\nSlave\n1\n2\n3\n4\n5\n6"
+  },
+  {
+    "chunk_id": 13,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n7\nBasic principles of the Modbus technology\n2.2.2 \nTransmission technology\nRS-485\nRS-485 is the most common transmission technology. It uses a shielded, twisted 2-\nwire line. Transmission rates between 9600 bit/s and 115200 bit/s can be selected. \nIt is defined when commissioning the system and is the same for all devices \nconnected to the bus. Up to 32 bus participants can be connected per segment. \nThe maximum permissible line length depends on the transmission rate.\nSeveral different network topologies are possible: \n–\nBackbone\n–\nStar\n–\nRing\n–\nDaisy chain\nAccording to experience, a RS-485 network works best in a daisy chain topology. In \nthis topology, reflections on the network line are absorbed most effectively.\nCharacteristics of the bus connection\nThe most important characteristics of the bus connection with their physical and \nelectrical properties are: \n31082\nSerial RS-485 connection - not connected correctly\n31072"
+  },
+  {
+    "chunk_id": 14,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "this topology, reflections on the network line are absorbed most effectively.\nCharacteristics of the bus connection\nThe most important characteristics of the bus connection with their physical and \nelectrical properties are: \n31082\nSerial RS-485 connection - not connected correctly\n31072\nSerial RS-485 connection - connected correctly \nNetwork topology\nLinear bus; if required, with bus termination at \nboth ends\nTransmission medium\nShielded, twisted 2-wire copper cable\nLine lengths (without repeaters)\nMaximum line length: 1000 m\nPhysical interface\nRS-485 with bus connector in the top hat rail, \ncan be installed on site\nAddressing\n1 to 247\n(32 devices in one segment. Can be extended \nto 247 with repeater)\nDevice 1\nCOM\n+\n-\n+\n-\n+\n-\nCOM\nCOM\nDevice 2\nDevice 3\nDevice 1\nCOM\n+\n-\n+\n-\n+\n-\nCOM\nCOM\nDevice 2\nDevice 3"
+  },
+  {
+    "chunk_id": 15,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "8 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\n2.3 \nData transmission\nThere are 3 different data transmission modes in a Modbus system: \n–\nModbus ASCII\n–\nModbus RTU\n–\nModbus TCP\nIn Modbus ASCII, data is not transmitted as a binary sequence, but as ASCII code. \nThe data is directly human-readable, but the data throughput is lower than in \nModbus RTU.\nData transmission in Modbus RTU is in binary format. The binary format enables \nfaster data transmission. However, the data needs to be converted to a readable \nformat as it is not human-readable.\nModbus TCP is very similar to Modbus RTU. However, the data is transmitted in \nTCP/IP packets.\n2.3.1 \nModbus protocol structure\nCommunication in a Modbus network is structured in several Layers according to \nthe ISO/OSI model. To enable communication across a variety of technical \nsystems, the individual layers have different tasks."
+  },
+  {
+    "chunk_id": 16,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "TCP/IP packets.\n2.3.1 \nModbus protocol structure\nCommunication in a Modbus network is structured in several Layers according to \nthe ISO/OSI model. To enable communication across a variety of technical \nsystems, the individual layers have different tasks.\nThe Modbus protocol corresponds to layer 7 in the ISO/OSI model – the so-called \napplication layer. It enables client/server communication between different devices \nthat are connected via different buses or networks. The protocol defines a \nprocedure for the exchange of information. It is therefore independent of the lower \nphysical layers. For this reason, different implementations exist on different \ncommunication media: \n–\nEthernet\n–\nRadio links\n–\nFiber optic cable\n–\nMobile radio\nISO/OSI layer\nProtocol\nUnit\n7\nApplication layer\nApplication-ori-\nented\nModbus\nData\n6\nPresentation layer\n5\nSession layer\n4\nTransport layer\nTransport-ori-\nented\nTCP\n(Transmission Con-\ntrol Protocol)\nSegments\n3\nNetwork layer\nIP\n(Internet Protocol)\nPackets\n2"
+  },
+  {
+    "chunk_id": 17,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "–\nFiber optic cable\n–\nMobile radio\nISO/OSI layer\nProtocol\nUnit\n7\nApplication layer\nApplication-ori-\nented\nModbus\nData\n6\nPresentation layer\n5\nSession layer\n4\nTransport layer\nTransport-ori-\nented\nTCP\n(Transmission Con-\ntrol Protocol)\nSegments\n3\nNetwork layer\nIP\n(Internet Protocol)\nPackets\n2\nData link layer\nEthernet (802.3), \nWLAN (802.11)\nFrames\n1\nPhysical layer\nBits"
+  },
+  {
+    "chunk_id": 18,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n9\nBasic principles of the Modbus technology\nApplication layer – layer 7\nThe application layer provides functions for the application. It forms the connection \nto the lower layers. Software for communication within the scope of the specific \napplication (measuring system, etc.) is provided by the manufacturers. In addition, \nthere are a number of terminal programs to enable communication between the \nparticipants in a Modbus network. The terminal programs (e.g., Modbus Poll) \nperform all functions of layers 5 to 7 for the user.\nPhysical layer – layer 1\nThe physical layer is the lowest layer and provides mechanical, electrical, and other \nfunctional tools for establishing connections. These connections are activated, \ndeactivated, and used to transmit bits. These procedures serve to transmit, for \nexample, electrical signals, optical signals, electromagnetic waves, or sound."
+  },
+  {
+    "chunk_id": 19,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "functional tools for establishing connections. These connections are activated, \ndeactivated, and used to transmit bits. These procedures serve to transmit, for \nexample, electrical signals, optical signals, electromagnetic waves, or sound. \nAmong others, the following devices and network components are assigned to the \nphysical layer:\n–\nAntenna\n–\nRepeaters\n–\nConnector\n–\nSocket for the network cable\n–\nHub\n–\nTransceiver\n–\nT-piece\n–\nTerminator\nData transmission via Modbus RTU is digital, purely electrical, based on voltage \nlevels. Normally, 9-pin connectors and sockets are used. The pin assignment is not \nstandardized. Therefore always observe the manufacturer's documentation when \nusing different devices.\nTransmission rates\nThe transmission rate defines the speed at which data is transmitted. The \ntransmission parameters have to be the same for all devices connected to a bus.\nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1200 m\nCommon-mode input voltage"
+  },
+  {
+    "chunk_id": 20,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "using different devices.\nTransmission rates\nThe transmission rate defines the speed at which data is transmitted. The \ntransmission parameters have to be the same for all devices connected to a bus.\nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1200 m\nCommon-mode input voltage\n-7 to +12 V\nInput resistance of the receiver\n12 kOhm\nInput sensitivity of the receiver\n+/- 200 mV\nDifferential data transmission\nYes"
+  },
+  {
+    "chunk_id": 21,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "10 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\nThe following transmission rates are available for RS-485 applications:\nOperating principle\nCommunication in a Modbus network follows a simple request/response \nmechanism: the Master (1) sends a request (Telegram) (2) to the Slave (4). The \nfunction code contained in the telegram tells the Slave which function to execute. \nThe Modbus application protocol defines the format in which the request initiated by \nthe Master is sent.\nThere are 3 different communication cases:\nCommunication\nIf a cable pair is used, transmission takes place in half-duplex mode: data can flow \nalternately in both directions, but not simultaneously.\nIf two cable pairs are used, full-duplex mode is also possible: data is transmitted in \nboth directions at the same time.\n1200 bit/s\n2400 bit/s\n4800 bit/s\n9600 bit/s\n19200 bit/s\n38400 bit/s\n56000 bit/s\n115200 bit/s\n31033\n1\nMaster\n2\nRequest from Master to Slave\n3"
+  },
+  {
+    "chunk_id": 22,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "If two cable pairs are used, full-duplex mode is also possible: data is transmitted in \nboth directions at the same time.\n1200 bit/s\n2400 bit/s\n4800 bit/s\n9600 bit/s\n19200 bit/s\n38400 bit/s\n56000 bit/s\n115200 bit/s\n31033\n1\nMaster\n2\nRequest from Master to Slave\n3\nSlave response\n4\nSlave\nThe device (Slave) receives a \nvalid telegram with a valid \nrequest.\nIf it can answer this, it sends a response telegram \nwith the function code of this request.\nThe device (Slave) receives an \ninvalid telegram (e.g., CRC \nerror).\nIt does not answer. The application (Master) has \nto correct the error within a defined time (timeout).\nThe device (Slave) receives a \nvalid telegram with an invalid \nrequest.\nIt answers with a Modbus exception code (Excep-\ntion). The application (Master) has to correct the \nerror.\n1\n2\n3\n4"
+  },
+  {
+    "chunk_id": 23,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n11\nBasic principles of the Modbus technology\nCommunication in the Modbus network occurs through so-called polling. The \nMaster sends a telegram (Request) to the Slave. It then receives the Response.\nData transmission in Modbus RTU is in binary format. A data telegram consists of \nseveral blocks (Frames):\n–\nOne address block (1 byte = 1 character)\n–\nOne function block (1 byte = 1 character) \n–\nOne data block (variable)\n–\nOne checksum block (CRC = Cyclic Redundancy Check)\nBetween 2 telegrams there has to be a break with a length of at least \n3.5 characters. The corresponding wait time depends on the transmission rate. If a \ntransmission break of more than 1.5 characters occurs during telegram \ntransmission, the transmission process is considered incomplete and should be \naborted. \nGeneral form of a Modbus telegram\nAddress\nThe address specifies which device is contacted (Master - Slave) or which device"
+  },
+  {
+    "chunk_id": 24,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "transmission break of more than 1.5 characters occurs during telegram \ntransmission, the transmission process is considered incomplete and should be \naborted. \nGeneral form of a Modbus telegram\nAddress\nThe address specifies which device is contacted (Master - Slave) or which device \nresponds. The address is a number between 1 and 126. The address 0 is used for \nmessages to all devices (Broadcast), provided that the selected function supports \nthis.\nThe configuration of the address depends on the respective device and the system \narchitecture.\nDevice address\nFunction code\nData\nCRC check\n8 bits\n8 bits\nn* 8 bits\n16 bits\n31032\nField\nLength\nDescription\nMaster\nSlave\nAddress\n1 byte\nIdentifies the target \ndevice\nSet by the Mas-\nter\nCopied from the \nrequest into the \nresponse\nCRC16\n2 byte\nChecksum (CRC16)\nCalculated by \nthe Master\nCalculated by the \nSlave\nAddress\nFunction\ncode\nData\nCRC\nModbus telegram\nFrame 1\nFrame 1\nFrame 1\n8 bits\n8 bits\nN x 8 bits\n16 bits\n≥ 3.5 char\nStart\nAt least 3.5 char"
+  },
+  {
+    "chunk_id": 25,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "device\nSet by the Mas-\nter\nCopied from the \nrequest into the \nresponse\nCRC16\n2 byte\nChecksum (CRC16)\nCalculated by \nthe Master\nCalculated by the \nSlave\nAddress\nFunction\ncode\nData\nCRC\nModbus telegram\nFrame 1\nFrame 1\nFrame 1\n8 bits\n8 bits\nN x 8 bits\n16 bits\n≥ 3.5 char\nStart\nAt least 3.5 char\nAt least 3.5 char\n3.5 char\n4.5 char\n≥ 3.5 char\nEnd"
+  },
+  {
+    "chunk_id": 26,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "12 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\nFunction code\nThe function code specifies the purpose of the data transmission. It defines the \ncommand to be executed by the Slave.\nBroadcast messages are only permitted with function codes 03 and 16. Function \ncode 08 is only supported for RS-485.\nFC03 Read Holding Registers\nRequest\nResponse\nCom-\nmand\nFunction code\nDescription\n011)\n1) This command is not supported by Polytron® 8000.\nRead Coils\nRead back several digital outputs\n021)\nRead Discrete Inputs\nRead several digital inputs\n03\nRead Holding Registers\nRead several analog inputs (and out-\nputs)\n041)\nRead Input Registers\nRead several analog inputs (and out-\nputs)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-"
+  },
+  {
+    "chunk_id": 27,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "puts)\n051)\nWrite Single Coil\nWrite a single digital output\n061)\nWrite Single Register\nWrite a single analog output\n071)\nRead Exception Status\n081)\nDiagnostics\nCheck communication between Master \nand Slave\n16\nWrite Multiple Registers\nWrite a new value to several Slave reg-\nisters\n231)\nRead/Write Multiple Registers\nSimultaneously read and write 1 to max. \n118 registers in one telegram\nxx\nUp to 255 function codes, \ndepending on the device\nFunction code\n1 byte\n0x03\nStarting address\n2 byte\n0x0000 to 0xFFFF\nNumber of registers\n2 byte\n1 to 125 (0x7D)\nFunction code\n1 byte\n0x03\nByte count\n1 byte\n2 * number of registers\nHolding register value (2 * number of \nregisters) bytes\n2 to 250"
+  },
+  {
+    "chunk_id": 28,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n13\nBasic principles of the Modbus technology\nError\nFC16 Write Multiple Register\nRequest\nResponse\nError\nData\nThe Data field contains the information to be transmitted. It is subdivided into \nregisters, the number of registers to be transmitted, and, if necessary, information \nthat has been read or has to be saved. Data is normally transmitted as a multiple of \n16-bit registers.\nCyclic Redundancy Check – CRC (checksum)\nThe CRC is a 16-digit checksum calculated based on all bytes of a telegram. To be \nable to detect transmission errors, it is generated by the Master and also calculated \nby the receiver. If the CRC value does not match the transmitted sum, the device \nwill request the telegram to be transmitted again. \nIf the field device executes the requested function, it will send a response telegram \nto the Master. The telegram contains the following parameters:\n–\nAddress of the device that was contacted and is now replying\n–"
+  },
+  {
+    "chunk_id": 29,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "will request the telegram to be transmitted again. \nIf the field device executes the requested function, it will send a response telegram \nto the Master. The telegram contains the following parameters:\n–\nAddress of the device that was contacted and is now replying\n–\nFunction code\n–\nThe requested data\n–\nCRC value\nModbus Exception Codes\nIf the Slave detects an error in the request telegram from the Master, it returns an \nerror message to the Master. The error message consists of the following elements:\n–\nSlave address\nError code\n1 byte\n0x83\nException code\n1 byte\n01 or 02 or 03 or 04\nFunction code\n1 byte\n0x10\nStarting address\n2 byte\n0x0000 to 0xFFFF\nNumber of registers\n2 byte\n0x0001 to 0x007B\nByte count\n1 byte\n(2 * number of \nregisters) bytes\nRegister value\n(2 * number of \nregisters) bytes\nValue\nFunction code\n1 byte\n0x10\nSubfunction\n2 byte\n0x0000 to 0xFFFF\nNumber of registers\n2 byte\n1 to 123 (0x7B)\nError code\n1 byte\n0x90\nException code\n1 byte\n01 or 02 or 03 or 04"
+  },
+  {
+    "chunk_id": 30,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "14 \n Technical Manual  |  Digital Communication - Modbus RTU  \nBasic principles of the Modbus technology\n–\nFunction code\n–\nError code (Exception Code)\n–\nCRC (checksum)\nTo mark the error message, the leading bit of the returned function code is set. The \nerror code (Exception Code) is used to transmit the error cause to the Master.\nAddressing of the registers\n* The register address is transmitted as a 16-bit word. The first register is assigned \nthe address value 0.\nPlease note: another notation, where the register addresses are counted starting \nwith 1, is also common in Modbus applications. In that case, this address (register \naddress - 1) is transmitted in the Modbus telegram.\nExcep-\ntion code\nDescription\n01\nILLEGAL_FUNCTION\nThe function code sent by the Master is not supported by the Slave.\n02\nILLEGAL_DATA_ADDRESS\nThe register addressed by the Master is not assigned (does not exist) \nor the length of the requested data is too long.\n03\nILLEGAL_DATA_VALUE"
+  },
+  {
+    "chunk_id": 31,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Excep-\ntion code\nDescription\n01\nILLEGAL_FUNCTION\nThe function code sent by the Master is not supported by the Slave.\n02\nILLEGAL_DATA_ADDRESS\nThe register addressed by the Master is not assigned (does not exist) \nor the length of the requested data is too long.\n03\nILLEGAL_DATA_VALUE\nThe Master is attempting to write to a register that allows only read \naccess. The value appearing in the data field is not permissible: e.g., \nrange limits exceeded or wrong data format. \n04\nSLAVE_DEVICE_FAILURE\nThe Slave did not respond to the request telegram from the Master or \nan error occurred when processing the request telegram. \nRegister\nData type\nAccess\nAddress \nrange*\nInformation\nDiscrete Input Bit\nRead only\n1XXXX\nNot used by the device\nCoils\nBit\nRead/write\n2XXXX\nNot used by the device\nInput Register 16-bit word Read only\n3XXXX\nThis data can only be \nread by the device\nHolding Reg-\nister\n16-bit word Read/write\n4XXXX\nThis data can be read \nby the device and \nchanged by the appli-\ncation"
+  },
+  {
+    "chunk_id": 32,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n15\nInstallation\n3 \nInstallation\nThe following chapters describe the installation and configuration of the \nDräger Polytron® 8000 gas detector with Modbus RTU interface (hereafter referred \nto as \"gas detector\").\n3.1 \nTechnical data\nThe following values apply for the gas detector:\n3.2 \nCables\n3.2.1 \nCable type\nVarious cable types (type designations A to D) for different applications are \navailable on the market to interconnect the devices and connect them to network \nelements (e.g., segment couplers, links, and repeaters). Use a type A cable for RS-\n485 transmission.\nThe maximum length of the cables that can be used in a Modbus system is \ndetermined by various factors. Different limitations apply for the cables and the \nindividual leads.\nUse shielded, twisted 2-wire cables and observe the maximum cable length. \nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1000 m\nCommon-mode input voltage\n-20 to +25 V"
+  },
+  {
+    "chunk_id": 33,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "determined by various factors. Different limitations apply for the cables and the \nindividual leads.\nUse shielded, twisted 2-wire cables and observe the maximum cable length. \nParameter\nRS-485/EIA485\nNumber of receivers\n32\nMaximum line length\n1000 m\nCommon-mode input voltage\n-20 to +25 V\nInput resistance of the receiver\n12 kOhm\nInput sensitivity of the receiver\n+/- 200 mV\nDifferential data transmission\nYes\nTerminal\nTightening \ntorque in Nm\nCable cross-sec-\ntion in AWG\nCable cross-sec-\ntion in mm²\nPower supply\n(2-pin)\n0.5 to 0.8\n24 - 12\n0.2 to 2.5\nModbus RTU\n(2-pin)\n0.5 to 0.8\n24 - 12\n0.2 to 2.5\nParameter\nCondition\nMin. \nvalue\nMax. \nvalue\nUnit\nCommon-mode input voltage \nrange\n-20\n30\nV\nDifferential output voltage\nData signal A-B or B-A\nLoad R=54 ohms\n1.5\n-\nV\nDifferential input voltage\nData signal A-B or B-A\nCommon-mode \nvoltage range \n-20 V to +25 V\n200\n-\nmV"
+  },
+  {
+    "chunk_id": 34,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "16 \n Technical Manual  |  Digital Communication - Modbus RTU  \nInstallation\n3.2.2 \nCable lengths\nThe following factors influence the cable length\n–\nTransmission rate\n–\nCable type\n–\nNumber of directly connected devices (series connection)\n–\nNetwork configuration (2-wire or 4-wire)\nThe maximum line length is 1000 m, at a transmission rate of 19200 bit/s. It \ndepends on the data transmission speed and the number and lengths of the \nindividual leads.\n3.2.3 \nIncreasing cable lengths with repeaters\nRepeaters can be integrated in the system to extend the Modbus transmission \ncable. No more than 3 repeaters per system are permitted. The cable length can be \nextended by the factor 4, i.e., to max. 4000 m.\n3.2.4 \nGrounding and shielding\nUse a shielded twisted cable for connections via the RS-485 interface. To achieve a \nsufficient shielding effect, connect a large area of the shield at both ends of the \ncable to housing or cabinet parts."
+  },
+  {
+    "chunk_id": 35,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "extended by the factor 4, i.e., to max. 4000 m.\n3.2.4 \nGrounding and shielding\nUse a shielded twisted cable for connections via the RS-485 interface. To achieve a \nsufficient shielding effect, connect a large area of the shield at both ends of the \ncable to housing or cabinet parts.\nConnect the shielding of the connector to protective ground in at least one point. \nThe legal EMC requirements are only met if the shielding is grounded at the \ncontrol unit at one end.\nThe shield is capacitively connected to the grounding of the housing via pin 4 \n(shield) of the 4-pin connector.\n3.3 \nPin assignment\nFor further information on the electrical installation, see the instructions for use.\n3.3.1 \nPower supply\n41083\nCondition\nMin. value\nMax. value\nUnit\nPower supply\n10\n30\nV\nCurrent consumption\nat 24 V\n-\n350\nmA\nPWR+\nPWR-\nSCR\nVDC\n+\n-"
+  },
+  {
+    "chunk_id": 36,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n17\nInstallation\n3.3.2 \nSignal lines for explosion protection type Ex d \nThe terminal of the PCB unit within the Ex d housing is assigned as follows:\n3.3.3 \nSignal lines for explosion protection type Ex e\nThe terminal of the PCB within the docking station for explosion protection type Ex \ne is assigned as follows (Fig. E3).\n41082\n4-pin connector\nAssignment\nData-A\nData-B\nGND\nShield\nFunction\nSignal A\nSignal B\nGround\nCable shield\nDATA A\nDATA B\nGround\nShield\n+ / Data A\n- / Data B\nGround\n36810\n4-pin terminal X2\nAssignment\nFB +\nFB -\nCOM\nSCR\nFunction\nSignal A\nSignal B\nGround\nCable shield\nPWR+\nPWR-\nSCR\nDigital: Fieldbus FF / Profibus PA, Modbus RTU\nPower\nVDC\n+\n-\nFIELDBUS (X2)\nPWR+\nPWR-\nSCR\nE1\nFB+\nFB-\nCOM\nSCR\nE2\nE3\nE2\nFieldbus FF / Profibus PA\nE3\nModbus RTU\nFB + \nFB -\nCOM\nSCR\nFB +\nFB -\nCOM\nSCR\nFB+ / Data A\nFB- / Data B\n+ / Data A\n- / Data B\nGround\nE\nE1"
+  },
+  {
+    "chunk_id": 37,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "18 \n Technical Manual  |  Digital Communication - Modbus RTU  \nInstallation\n3.3.3.1 \nRewiring of the PCB unit in the Ex d housing\nThe following information is only required if the Ex d housing has to be rewired (e.g. \nwhen replacing the PCB unit in the Ex d housing).\nOnly the cable cores with ferrules are required for the gas detectors with Modbus \nRTU interface. The other cable cores are inoperative. To be able to distinguish \nbetween the cable cores with the same color, they were marked with heat-shrink \ntubes. The \"Remote sensor\" connector is not present in every version.\n3.4 \nTermination\nThe termination serves to suppress signal reflections on the bus cable. The \ntermination is switched off ex-factory.\n44115\n4-pin connector of the PCB unit in the Ex d housing\nAssignment\nData-A\nData-B\nGND\nShield\nCables \nBlue with mark-\ning\nBlue without \nmarking\nGray with-\nout marking\nGray with mark-\ning\nData-A\nData-B\nGND\nShield\nPWR +\nPWR -\nRemote sensor"
+  },
+  {
+    "chunk_id": 38,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n19\nInstallation\nTurning the termination on and off\nTo turn the termination on, slide the sliding switch towards the center of the PCB. To \nturn the termination off, slide the sliding switch towards the edge of the PCB.\n3.5 \nOpening the gas detector\n1. Loosen the set screw (6).\n2. Unscrew the lid (1) and take it off the gas detector.\n3. Turn the handle (2) upward and pull out the PCB unit (3) containing the main \nelectronics.\n31428\n1\nSliding switch for termination (indicated position: termination turned on)\nOff     On\n1\n32174\n4\n1\n3\n5\n2\n6"
+  },
+  {
+    "chunk_id": 39,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "20 \n Technical Manual  |  Digital Communication - Modbus RTU  \nInstallation\n3.6 \nConnecting the gas detector\nPreconditions:\n–\nCable bushings are installed at the gas detector as described in the respective \ninstructions for use.\n1. Insert the fieldbus cable and the power supply cable into the cable bushing.\n2. Strip the cores of the cables. \n3. Twist the shielding of the fieldbus cable.\n4. If required, add ferrules and crimp them. \n3.7 \nClosing the gas detector\n1. Make sure that the following connections are correctly established: \na. The wiring screws are tightened to the correct torque.\nb. All cable connections are secured with screws.\nc. The sensor's plug-in coupling is inserted. \nd. The grounding cable, which leads out of the housing, is connected to the \nPCB unit with the eye, \n2. Insert the PCB unit back in the housing.\n3. Screw the cover back on with the correct torque until it is correctly fitted and \ntighten the set screw.\nFig. 1\nSeal the Ex d housing with the correct torque"
+  },
+  {
+    "chunk_id": 40,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "PCB unit with the eye, \n2. Insert the PCB unit back in the housing.\n3. Screw the cover back on with the correct torque until it is correctly fitted and \ntighten the set screw.\nFig. 1\nSeal the Ex d housing with the correct torque\n40515\n ≥ 44 LB IN \n   ≥ 5 Nm\n ≥ 8 LB IN \n   ≥ 0.7 Nm\nE"
+  },
+  {
+    "chunk_id": 41,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n21\nCommissioning\n4 \nCommissioning\n4.1 \nChecking installation and operation\nCheck the connections and cables for correct wiring prior to commissioning. \nFaulty connections can damage the gas detector.\nCheck the following prior to commissioning:\n1. Are all cables connected properly?\n2. Is voltage in the range from 10 to 30 V applied?\n4.2 \nConfiguring the RS-485 interface \nThe following settings are preset for the Modbus RTU transmission.\n4.2.1 \nAssigning the gas detector’s address\nEach Modbus device must have an address assigned to it. The gas detector is only \ndetected by the control system if the set address is correct.\nValid addresses lie within the range from 0 to 126. The gas detector is factory-set to \naddress 126.\nObserve the following when configuring the gas detector:\n1. Only assign each address once in a Modbus control system. \n2. Use the factory-set address 126 for the functional test of the gas detector and in"
+  },
+  {
+    "chunk_id": 42,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "address 126.\nObserve the following when configuring the gas detector:\n1. Only assign each address once in a Modbus control system. \n2. Use the factory-set address 126 for the functional test of the gas detector and in \na Modbus control system that is in operation. To add further devices, \nsubsequently change the address.\nThe gas detector’s address can be set using the DIP switch (hardware address \nassignment) or the menu (software address assignment). DIP switch 8 is used to \nset whether the hardware or software address assignment is active.\n4.2.1.1 \nDependency between hardware and software address assignment\nThe following dependencies exist when changing the address on a gas detector.\n–\nPreconditions: Hardware address assignment is selected.\nIf the hardware address assignment is changed, the gas detector must be \nturned off and back on again (power cycle) for the change of address to take \neffect.\n–\nIf the software address assignment is changed, the new address becomes valid"
+  },
+  {
+    "chunk_id": 43,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "–\nPreconditions: Hardware address assignment is selected.\nIf the hardware address assignment is changed, the gas detector must be \nturned off and back on again (power cycle) for the change of address to take \neffect.\n–\nIf the software address assignment is changed, the new address becomes valid \nimmediately. The new address also remains valid if the hardware address \nassignment is activated and another address is set on the DIP switch. To \nvalidate the address set on the DIP switch, the gas detector must be turned off \nand back on again (power cycle).\nSetting\nFactory default \nsetting\nSelection\nAddress\n126\n1 to 126\nBaud rate/bps\n19200\n9600, 19200\nParity\nEven (1 stop bit)\nEven (1 stop bit), odd (1 stop bit), no parity \n(2 stop bits)"
+  },
+  {
+    "chunk_id": 44,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "22 \n Technical Manual  |  Digital Communication - Modbus RTU  \nCommissioning\n–\nIf the software address assignment is changed while the hardware address \nassignment is active, the software address assignment is saved. The saved \nchange only becomes valid when the software address assignment is selected.\n4.3 \nConfiguring the gas detector\n4.3.1 \nDefining communication settings at the gas detector\nTo define communication settings at the gas detector, proceed as follows:\n1. Log in to the gas detector (see instructions for use).\n2. Select Settings >Communication > Modbus.\n3. Set Modbus address using the arrow symbols.\n4. Select OK.\n5. Set Modbus baudrate using the arrow symbols.\n6. Select OK.\n7. Set Modbus parity using the arrow symbols.\n8. Select OK.\n4.3.2 \nAddress setting with DIP switch\nDIP switch no. 8 activates or disables the address assignment via the DIP switch. \nSetting the address with the DIP switch\n1. Open the gas detector (see \"Opening the gas detector\", page 19)."
+  },
+  {
+    "chunk_id": 45,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "7. Set Modbus parity using the arrow symbols.\n8. Select OK.\n4.3.2 \nAddress setting with DIP switch\nDIP switch no. 8 activates or disables the address assignment via the DIP switch. \nSetting the address with the DIP switch\n1. Open the gas detector (see \"Opening the gas detector\", page 19).\n2. Set the address with the DIP switch.\na. Set DIP switch no. 8 to Off.\nb. Set the address as defined in the table with DIP switches no. 1 to 7.\n3. Close the gas detector (see \"Closing the gas detector\", page 20).\nOn\nAddress assignment via the DIP switch is disabled.\nOff\nAddress assignment via the DIP switch is activated.\n31176\nSwitch number \n1\n2\n3\n4\n5\n6\n7\nValue in \"On\" position\n0\n0\n0\n0\n0\n0\n0\nValue in \"Off\" position\n1\n2\n4\n8\n16\n32\n64\n1 2 3 4 5\n6 7 8\nON\n1 2 3 4 5 6 7 8\nON"
+  },
+  {
+    "chunk_id": 46,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n23\nCommissioning\n4. Turn the gas detector on and off (power cycle).\nThe gas detector must be turned on and off for the changes to the DIP switch \nto be accepted.\nIf the address assignment is selected using the DIP switch, the address set on \nthe DIP switch is used when restarting the field device.\n4.3.3 \nSetting the address on the display of the gas detector\nDisabling the DIP switch\n1. Open the gas detector (see 3.5 Opening the gas detector).\n2. Set DIP switch no. 8 to On.\n3. Close the gas detector (see 3.7 Closing the gas detector).\nSetting the address using the menu function\nPreconditions: Address assignment via the DIP switch is disabled.\n1. Open the menu of the gas detector.\na. In measuring mode, press and hold down \n for approx. 3 seconds.\nb. Choose Kennw. eingeben.\nc. Enter the calibration password.\nThe factory setting for the calibration password is _ _ _ 2.\n2. Select Settings >Communication > Modbus."
+  },
+  {
+    "chunk_id": 47,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "1. Open the menu of the gas detector.\na. In measuring mode, press and hold down \n for approx. 3 seconds.\nb. Choose Kennw. eingeben.\nc. Enter the calibration password.\nThe factory setting for the calibration password is _ _ _ 2.\n2. Select Settings >Communication > Modbus.\n3. Select Modbus address.\n4. Using the arrow symbol, navigate down to Adresse.\n5. Set the address using the arrow symbols.\n6. Select OK.\nIf the address assignment is selected using the DIP switch, the address set on \nthe DIP switch is used when restarting the field device.\n31176\n1 2 3 4 5\n6 7 8\nON\n1 2 3 4 5 6 7 8\nON\nM"
+  },
+  {
+    "chunk_id": 48,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "24 \n Technical Manual  |  Digital Communication - Modbus RTU  \nCommissioning\n4.3.4 \nConfiguring the connection\nIn addition to the display, Dräger offers a freely available software \n(DTM Device Type Manager) to commission, configure and diagnose the gas \ndetector via the Modbus-RTU interface.\nSoftware and tools\nObtain the software components for configuration from www.draeger.com. Use the \nField Device Tool (FDT) to configure and control the gas detector.\nInstalling the software\nInstall the following 3 software applications to commission the gas detector:\nFrame application (fdtCONTAINER)\nFrame applications, e.g. fdtCONTAINER, PactWare 5.0, are applications into which \nthe Dräger device DTM P8000 MB and the communication DTM are integrated. \nThey serve as interfaces for the user in different phases during operation, e.g, \ninstallation and configuration. \nTo install the fdtCONTAINER software, proceed as follows:\n1. Run \"Setup.exe\".\n2. Accept the license agreement."
+  },
+  {
+    "chunk_id": 49,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "the Dräger device DTM P8000 MB and the communication DTM are integrated. \nThey serve as interfaces for the user in different phases during operation, e.g, \ninstallation and configuration. \nTo install the fdtCONTAINER software, proceed as follows:\n1. Run \"Setup.exe\".\n2. Accept the license agreement.\n3. Complete the installation.\nCommunication DTM (COM_DTM)\nThe communication DTM is a software component which provides an interface \nbetween an FTD-compatible frame application and the Dräger device DTM P8000 \nMB. The software enables data and communication exchange between the device \nDTM P8000 MB and the gas detector via a USB/RS-485 converter.\nTo install the COM_DTM software, proceed as follows:\n1. Run \"Setup.exe\".\n2. Accept the license agreement.\n3. Confirm messages.\n4. Enter data.\n5. Confirm messages.\n6. Complete the installation.\nDräger P8000 Modbus-DTM\nThe Dräger P8000 Modbus-DTM is a software component which is used to"
+  },
+  {
+    "chunk_id": 50,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "To install the COM_DTM software, proceed as follows:\n1. Run \"Setup.exe\".\n2. Accept the license agreement.\n3. Confirm messages.\n4. Enter data.\n5. Confirm messages.\n6. Complete the installation.\nDräger P8000 Modbus-DTM\nThe Dräger P8000 Modbus-DTM is a software component which is used to \nconfigure, monitor and diagnose the gas detector in all phases during operation. \nThe Dräger 8000 Modbus-DTM software includes all functions, properties and \nparameters of the gas detector, so that they are directly available to the user.\nTo install the Dräger P8000 Modbus-DTM software, proceed as follows:\n1. Run \"P8000 Modbus Setup.msi\"\n2. Accept the license agreement.\n3. Complete the installation."
+  },
+  {
+    "chunk_id": 51,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n25\nCommissioning\n4.3.4.1 \nConfiguring communication DTM (COM_DTM)\n1. Open Control Panel.\n2. Open Device Manager.\n3. Open Ports (COM & LPT): Check the COM port used for the Modbus interface.\n4. Open the \"fdtCONTAINER\" program.\n5. Select Empty project.\nThe network view on the left shows a tree structure.\n6. Add the \"Modbus Serial Communication-DTM\" device to the network by clicking \non the plus sign.\n7. Move the mouse pointer onto the device you have just added.\n8. Click the right mouse button.\n9. Select Configuration.\n10.Open the Configuration tab.\n11.Set parameters:\n–\nCOM Port\n–\nParity\n–\nStop Bits\n–\nBaud Rate\nThe parameters have to be identical to those of the gas detector.\n12.Select Apply.\n13.Select OK.\n14.Move the mouse pointer onto the device you have just added.\n15.Click the right mouse button.\n16.Select Connect.\n✓The gas detector will be connected.\nThe status indicator switches to green.\nAdding a gas detector"
+  },
+  {
+    "chunk_id": 52,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "12.Select Apply.\n13.Select OK.\n14.Move the mouse pointer onto the device you have just added.\n15.Click the right mouse button.\n16.Select Connect.\n✓The gas detector will be connected.\nThe status indicator switches to green.\nAdding a gas detector\n1. Add the gas detector to the network by clicking on the plus sign.\n2. Move the mouse pointer onto the gas detector you have just added.\n3. Click the right mouse button.\n4. Select Connect.\n✓The gas detector will be connected.\nThe status indicator switches to green.\n31085"
+  },
+  {
+    "chunk_id": 53,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "26 \n Technical Manual  |  Digital Communication - Modbus RTU  \nCommissioning\nIf all settings are correct, the connection status (1) changes to \nverbunden/connected.\n31833\n1"
+  },
+  {
+    "chunk_id": 54,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n27\nIntegration into process control systems\n5 \nIntegration into process control systems\n5.1 \nGeneral information\nGas detectors can be quickly and easily connected to process control systems via a \ndigital Modbus RTU interface. They allow the cyclic capturing of measured values, \nstatus information and the full configuration of the gas detector in remote operation.\n5.1.1 \nSerial reading and writing\nDräger Polytron® 8000 with Modbus RTU interface supports function codes 03 \nRead Holding Registers and 16 Write Multiple Registers.\nParameters can only be read or written into individually. Addressing multiple \nparameters at the same time is not possible. \nParameters can be assigned to multiple registers. In the request, the number of \nregisters addressed has to match the number of registers of the desired parameter. \nIf too few or too many registers are requested from the gas detector, the gas"
+  },
+  {
+    "chunk_id": 55,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "parameters at the same time is not possible. \nParameters can be assigned to multiple registers. In the request, the number of \nregisters addressed has to match the number of registers of the desired parameter. \nIf too few or too many registers are requested from the gas detector, the gas \ndetector answers with Illegal Data Address. An overview of the number of \nparameter registers can be found in the Modbus protocol description in the annex to \nthis document.\nExamples\nIf the parameter is only 1 register long (e.g., DEVICE_STATE), only this register can \nbe addressed. \nIf the parameter is 10 registers long (e.g., DEVICE_STATUS_VALUE), only these \n10 registers can be addressed.\n5.1.2 \nPasswords\nCertain functions are password-protected.\nThe default values consist of 3 underscores ((_), ASCII character set position 95 \n(decimal) or 0x5F (hexadecimal)) and a digit (1 or 2).\nPasswords can consist of the following characters:\n–\nA-Z (uppercase only)\n–\n0-9 \n–\nBlank spaces \n–\n\"-\"\n–\n\"/\"\n–\n\"_\""
+  },
+  {
+    "chunk_id": 56,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Certain functions are password-protected.\nThe default values consist of 3 underscores ((_), ASCII character set position 95 \n(decimal) or 0x5F (hexadecimal)) and a digit (1 or 2).\nPasswords can consist of the following characters:\n–\nA-Z (uppercase only)\n–\n0-9 \n–\nBlank spaces \n–\n\"-\"\n–\n\"/\"\n–\n\"_\"\nCalibration PWD\nAccess to information (information menu) and calibration \nsettings (calibration menu)\nDefault value: _ _ _ 1 \nSettings PWD\nAccess to all configurations and menus\nDefault value: _ _ _ 2"
+  },
+  {
+    "chunk_id": 57,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "28 \n Technical Manual  |  Digital Communication - Modbus RTU  \nIntegration into process control systems\nChanging passwords\nThere are 2 parameters for changing passwords. Both parameters are 4 registers \nlong. In the first two registers, the current password is requested, and in the other \ntwo registers, the new password is set.\nChecking the password changes\nThe PASSWORD_STATUS parameter can be used to check whether the \npasswords were changed successfully. The parameter is one register long (register \n40709) and can assume the following values.\nThe following subsections present telegrams for reading and/or writing based on \nthe corresponding key parameters of the gas detector.\n5.2 \nReading the gas concentration\nThe MEASUREMENT_MODE parameter indicates the current value of the gas \nconcentration and can be read cyclically via the register address 40507. The \nparameter is read-only and is updated each second by the gas detector."
+  },
+  {
+    "chunk_id": 58,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "5.2 \nReading the gas concentration\nThe MEASUREMENT_MODE parameter indicates the current value of the gas \nconcentration and can be read cyclically via the register address 40507. The \nparameter is read-only and is updated each second by the gas detector. \nThe corresponding telegram from the master for reading the \nMEASUREMENT_MODE parameter is shown in the following table. The parameter \nis read using the Modbus function code 0x03 - Read Holding Registers. In addition, \nthe master needs the address of the gas detector and the register address for \nsuccessful communication.\nPassword\nParameter\nRegister\nCalibration PWD\nSET_CAL_PASSWORD\n40705 - 40708\nSettings PWD\nSET_CFG_PASSWORD\n40701 - 40704\nParameter values\nMeaning\n0000\nSuccessfully changed\n0x00\nError\n0x02\nIncorrect selection\n0x05\nToo few bytes\nRegister: 40507\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[3]\nMEASUREMENT_MODE.VALUE[2]"
+  },
+  {
+    "chunk_id": 59,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "40701 - 40704\nParameter values\nMeaning\n0000\nSuccessfully changed\n0x00\nError\n0x02\nIncorrect selection\n0x05\nToo few bytes\nRegister: 40507\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[3]\nMEASUREMENT_MODE.VALUE[2]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x42\n0x20\nRegister: 40508\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nMEASUREMENT_MODE.VALUE[1]\nMEASUREMENT_MODE.VALUE[0]\nE.g.: MEASUREMENT_MODE.VALUE=40.00 (dec) / 0x42200000 (hex)\n0x00\n0x00\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x01\n0xFA\n0x00\n0x02\n0x24\n0xE4"
+  },
+  {
+    "chunk_id": 60,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n29\nIntegration into process control systems\nIf the telegram has been transmitted without errors via the physical medium, the \ngas detector answers with the following telegram contents:\nThe Data telegram field contains the register contents, which can be analyzed or \ndecoded as appropriate. The current target gas concentration is specified by the \nfirst 4 data bytes of the data field in data type FLOAT.\nE.g.: MEASUREMENT_MODE.VALUE = 0x42200000 (hex) \nor\nMEASUREMENT_MODE.VALUE = 40.00 (dec)\n5.3 \nReading diagnostic and status information\nThe gas detector with Modbus RTU interface offers a large variety of options for \ncapturing diagnostic and status information.\nThe following telegrams are examples to show how the status information in the \nDEVICE_STATUS_INDICATION (general overview of current errors and warnings) \nand DEVICE_STATUS_VALUE (detailed overview of current errors and warnings) \nparameters are read."
+  },
+  {
+    "chunk_id": 61,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "capturing diagnostic and status information.\nThe following telegrams are examples to show how the status information in the \nDEVICE_STATUS_INDICATION (general overview of current errors and warnings) \nand DEVICE_STATUS_VALUE (detailed overview of current errors and warnings) \nparameters are read.\nDEVICE_STATUS_INDICATION:\nThe DEVICE_STATUS_INDICATION parameter is read using function code 0x03 \nand is located in register 40023.\nThe corresponding telegram with the gas detector address 0x03 is shown below.\nThe gas detector sends the following response to the telegram. Take the value \n0x0004 from the data field. Interpret the value accordingly based on the parameter \ndescription table in the annex. This example refers to a current warning of the gas \ndetector.\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x04\n0x42 0x20 (register: 40507)\n0x00 0x00 (register: 40508)\n0xCC\n0x41\nRegister: 40023"
+  },
+  {
+    "chunk_id": 62,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "description table in the annex. This example refers to a current warning of the gas \ndetector.\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x04\n0x42 0x20 (register: 40507)\n0x00 0x00 (register: 40508)\n0xCC\n0x41\nRegister: 40023\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nn/a\nDEVICE_STATUS_INDICATION\nE.g.: DEVICE_STATUS_INDICATION = 0x02\n0x00\n0x02\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x00\n0x16\n0x00\n0x01\n0x64\n0x2C\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x02\n0x00 0x04 (register: 40023)\n0xC0\n0x47"
+  },
+  {
+    "chunk_id": 63,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "30 \n Technical Manual  |  Digital Communication - Modbus RTU  \nIntegration into process control systems\nThe DEVICE_STATUS_INDICATION parameter provides a quick overview of the \ncurrent status of the gas detector. For further information and possible remedies, \nread the DEVICE_STATUS_VALUE parameter in register 40024.\nThe parameter consists of 10 registers (20 bytes) and is read-only. The register \nrange from 40024 to 40028 contains a warning matrix consisting of 10 bytes (W09 \nto W00).\nThe register range from 40029 to 40033 contains an error matrix (E09 to E00) \nconsisting of 10 bytes.\nRegister: 40024\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[19]=W9\nDEVICE_STATUS_VALUE[19]=W8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40025\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[17]=W7\nDEVICE_STATUS_VALUE[16]=W6\nE.g.: DEVICE_STATUS_VALUE=0x02"
+  },
+  {
+    "chunk_id": 64,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "DEVICE_STATUS_VALUE[19]=W9\nDEVICE_STATUS_VALUE[19]=W8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40025\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[17]=W7\nDEVICE_STATUS_VALUE[16]=W6\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x21\nRegister: 40026\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[15]=W5\nDEVICE_STATUS_VALUE[14]=W4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40027\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[13]=W3\nDEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029"
+  },
+  {
+    "chunk_id": 65,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "DEVICE_STATUS_VALUE[12]=W2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40028\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[11]=W1\nDEVICE_STATUS_VALUE[10]=W0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40029\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[09]=E9\nDEVICE_STATUS_VALUE[08]=E8\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x02\nRegister: 40030\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[07]=E7\nDEVICE_STATUS_VALUE[06]=E6\nE.g.: DEVICE_STATUS_VALUE=0x02"
+  },
+  {
+    "chunk_id": 66,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n31\nIntegration into process control systems\nTelegram for reading the parameter:\nResponse of the gas detector:\nRegister 40025 contains the value 0x21. The value can be interpreted based on the \nerror description.\nIt is a warning (W06) that the connected sensor is warming up and that the current \nmeasured value will be issued with an increased error. After completion of the \nwarm-up phase, the warning disappears.\n0x00\n0x00\nRegister: 40031\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[05]=E5\nDEVICE_STATUS_VALUE[04]=E4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40032\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[03]=E3\nDEVICE_STATUS_VALUE[02]=E2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40033"
+  },
+  {
+    "chunk_id": 67,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "DEVICE_STATUS_VALUE[04]=E4\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40032\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[03]=E3\nDEVICE_STATUS_VALUE[02]=E2\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40033\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_STATUS_VALUE[01]=E1\nDEVICE_STATUS_VALUE[00]=E0\nE.g.: DEVICE_STATUS_VALUE=0x02\n0x00\n0x00\nRegister: 40030\nSlave address\nFunction code\nRegister address -1\nNumber of regis-\nters\nCRC\n0x03\n0x03\n0x00\n0x17\n0x00\n0x0A\n0x74\n0x2B\nSlave address\nFunction \ncode\nNumber of \ntransmitted \nbytes\nData\nCRC\n0x03\n0x03\n0x14\n0x00 0x00 (register: 40024)\n0x00 0x21 (register: 40025)\n0x00 0x00 (register: 40026)\n0x00 0x21 (register: 40027)\n0x00 0x21 (register: 40028)\n0x00 0x21 (register: 40029)\n0x00 0x21 (register: 40030)\n0x00 0x21 (register: 40031)\n0x00 0x21 (register: 40032)\n0x00 0x21 (register: 40033)\n0x72\n0x44"
+  },
+  {
+    "chunk_id": 68,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "32 \n Technical Manual  |  Digital Communication - Modbus RTU  \nIntegration into process control systems\n5.4 \nReading the date and time\nThe DEVICE_DATE_TIME parameter shows the time and date in the gas detector. \nThe parameter is 4 registers long and starts in register 40034.\nThe following tables show the parameter using 18:04:31000 / 2015-01-23 as an \nexample.\nRegister: 40034\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.MS\nDEVICE_DATE_TIME.MS\n31000\nRegister: 40035\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.MINUTE\nDEVICE_DATE_TIME.HOUR\nn/a\nn/a\n4\nn/a\nn/a\nn/a\n18\nRegister: 40036\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.DAY\nDEVICE_DATE_TIME.MONTH\n23\n1\nRegister: 40037\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.YEAR"
+  },
+  {
+    "chunk_id": 69,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "18\nRegister: 40036\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.DAY\nDEVICE_DATE_TIME.MONTH\n23\n1\nRegister: 40037\nBit15 Bit14 Bit13 Bit12 Bit11 Bit10 Bit09 Bit08 Bit07 Bit06 Bit05 Bit04 Bit03 Bit02 Bit01 Bit00\nDEVICE_DATE_TIME.YEAR\nDEVICE_DATE_TIME.[]\nn/a\n15\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a\nn/a"
+  },
+  {
+    "chunk_id": 70,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n33\nTroubleshooting\n6 \nTroubleshooting\n6.1 \nError analysis\nIf communication with the gas detector cannot be established, check the settings of \nthe following parameters:\n–\nAddress\n–\nPort (COM port)\n–\nBaud rate\n–\nParity\n–\nStop bits\n–\nTermination\nThe parameters in the gas detector and in the communication DTM have to \nmatch to establish a connection.\n6.2 \nErrors\nByte\nValue\nError description\nRemedy\nE0\n0x01\nDevice malfunction\n(group error)\n-\nE0\n0x02\nChecksum error in the data range \n(Dräger)\nPerform service init.\nE0\n0x04\nChecksum error in the data range \n(User)\nPerform service init.\nE0\n0x08\nError in the I2C\nReplace MYC assembly\nDisconnect from the supply voltage and then \nreconnect\nReplace interface assembly (4–20 mA, HART, \nFF/PB)\nE0\n0x10\nCommunication error\nReplace SIOS assembly\nDisconnect from the supply voltage and then \nreconnect\nE0\n0x20\nSupply voltage fault.\nE1\n0x01\ntbd.\nE1\n0x02\ntbd.\nE1\n0x04"
+  },
+  {
+    "chunk_id": 71,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Replace MYC assembly\nDisconnect from the supply voltage and then \nreconnect\nReplace interface assembly (4–20 mA, HART, \nFF/PB)\nE0\n0x10\nCommunication error\nReplace SIOS assembly\nDisconnect from the supply voltage and then \nreconnect\nE0\n0x20\nSupply voltage fault.\nE1\n0x01\ntbd.\nE1\n0x02\ntbd.\nE1\n0x04\nError while initializing the external \nADC\nE1\n0x08\nInternal error of the external ADC\nE1\n0x10\nExternal ADC has no reference \nvoltage\nE1\n0x20\ntbd.\nE1\n0x40\ntbd.\nE2\n0x01\nDräger background checksum \nerror\nE2\n0x02\nDräger CatEx current checksum \nerror"
+  },
+  {
+    "chunk_id": 72,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "34 \n Technical Manual  |  Digital Communication - Modbus RTU  \nTroubleshooting\nE2\n0x04\nDräger measuring mode check-\nsum error\nE2\n0x08\nDräger status checksum error\nE2\n0x10\nDräger 4 to 20 mA checksum error\nE2\n0x20\nUser Data Logger checksum error\nE2\n0x40\nUser menu checksum error\nE2\n0x80\nUser Real Time Clock checksum \nerror\nE3\n0x01\ntbd.\nE3\n0x02\ntbd.\nE3\n0x04\nUser status checksum error\nE3\n0x08\nUser display checksum error\nE3\n0x10\nUser SIL checksum error\nW0\n0x01\nWarning device (group error)\nW0\n0x02\nData logger full\nRead and delete data logger\nW0\n0x04\nData logger >= 90 % full\nRead and delete data logger\nW0\n0x08\nInternal error in the data logger\nPerform service init.\nRead and delete data logger\nReplace MYC assembly\nW0\n0x10\nDate/time valid\nSet date and time\nW0\n0x20\nSystem EEPROM write error\nW0\n0x40\nDongle data defective\nW0\n0x80\nLithium battery almost empty\nW1\n0x01\nPredictive maintenance dongle \ndefective or disconnected without \nlogging off\nDeactivate dongle"
+  },
+  {
+    "chunk_id": 73,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Read and delete data logger\nReplace MYC assembly\nW0\n0x10\nDate/time valid\nSet date and time\nW0\n0x20\nSystem EEPROM write error\nW0\n0x40\nDongle data defective\nW0\n0x80\nLithium battery almost empty\nW1\n0x01\nPredictive maintenance dongle \ndefective or disconnected without \nlogging off\nDeactivate dongle\nDisconnect from the supply voltage and then \nreconnect\nW1\n0x02\nSensor test dongle defective or \ndisconnected without logging off\nDeactivate dongle\nDisconnect from the supply voltage and then \nreconnect\nW1\n0x04\nData logger dongle defective or \ndisconnected without logging off\nDeactivate dongle\nDisconnect from the supply voltage and then \nreconnect\nW1\n0x08\nAlarms disabled\nEnable alarm\nW1\n0x10\nSubsystem information cannot be \nread (part number, etc.)\nDisconnect from the supply voltage and then \nreconnect\nW3\n0x80\nStack memory >90 % full\nE4\n0x01\nMeasuring mode error (group \nerror)\nE4\n0x02\nChecksum error in the Dräger data Perform service init.\nE4\n0x04\nChecksum error in the user data"
+  },
+  {
+    "chunk_id": 74,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "0x10\nSubsystem information cannot be \nread (part number, etc.)\nDisconnect from the supply voltage and then \nreconnect\nW3\n0x80\nStack memory >90 % full\nE4\n0x01\nMeasuring mode error (group \nerror)\nE4\n0x02\nChecksum error in the Dräger data Perform service init.\nE4\n0x04\nChecksum error in the user data \nPerform device init.\nPerform sensor init.\nE4\n0x08\nChecksum error in the Dräger data \nsensor layer\nE4\n0x10\nChecksum error in the user data \nsensor layer\nByte\nValue\nError description\nRemedy"
+  },
+  {
+    "chunk_id": 75,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n35\nTroubleshooting\nE4\n0x20\nNo sensor connected\nReplace sensor\nDisconnect and reconnect sensor\nE4\n0x40\nIncorrect sensor version con-\nnected\nReplace sensor\nE4\n0x80\nIncorrect sensor type connected\nReplace sensor\nE5\n0x01\nUnknown measuring unit\nPerform sensor init.\nReplace sensor\nE5\n0x02\nMeasured value fallen below the \nnegative alarm threshold\nPerform zero adjustment\nE5\n0x10\nInvalid zero calibration\nPerform zero adjustment\nE5\n0x20\nInvalid span calibration\nPerform span calibration\nE5\n0x40\nBoth write, extended write or one \nread block defective\nReplace sensor\nE5\n0x80\nNo exponential linearization imple-\nmented but requested\nReplace sensor\nE6\n0x01\nError in subsystem\nReplace SIOS assembly\nDisconnect from the supply voltage and then \nreconnect\nE6\n0x02\nConverting the measuring unit not \npossible\nReplace sensor\nE6\n0x04\nNumber of gases in sensor >20\nReplace sensor\nE6\n0x08\nError in sensor data set\nReplace sensor"
+  },
+  {
+    "chunk_id": 76,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Replace sensor\nE6\n0x01\nError in subsystem\nReplace SIOS assembly\nDisconnect from the supply voltage and then \nreconnect\nE6\n0x02\nConverting the measuring unit not \npossible\nReplace sensor\nE6\n0x04\nNumber of gases in sensor >20\nReplace sensor\nE6\n0x08\nError in sensor data set\nReplace sensor\nDisconnect and reconnect sensor\nE6\n0x10\nError in communication with the \nsubsystem\nReplace MYC assembly\nReplace SIOS assembly\nE6\n0x20\nSensor not suitable for use with \nP 8000\nReplace sensor\nE6\n0x40\nThe SIOS communication driver is \nnot ready\nReplace SIOS assembly\nDisconnect from the supply voltage and then \nreconnect\nE6\n0x80\nAfter the ConfigHW command, the \nsubsystem signals that it cannot \nprocess the data\nReplace sensor\nE7\n0x01\nSubsystem returns \"NOT \nACKNOWLEDGE\"\nReplace SIOS assembly\nDisconnect from the supply voltage and then \nreconnect\nE7\n0x02\nThe measured value is invalid due \nto an error in the subsystem status\nDisconnect from the supply voltage and then \nreconnect\nE7\n0x04"
+  },
+  {
+    "chunk_id": 77,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "process the data\nReplace sensor\nE7\n0x01\nSubsystem returns \"NOT \nACKNOWLEDGE\"\nReplace SIOS assembly\nDisconnect from the supply voltage and then \nreconnect\nE7\n0x02\nThe measured value is invalid due \nto an error in the subsystem status\nDisconnect from the supply voltage and then \nreconnect\nE7\n0x04\nInvalid bit combination in subsys-\ntem status\nReplace sensor\nDisconnect from the supply voltage and then \nreconnect\nE7\n0x08\nConfigured target gas or calibra-\ntion gas index not available in the \nsensor\nPerform sensor init.\nE7\n0x40\nError in external ADC check by the \nanalog switches\nByte\nValue\nError description\nRemedy"
+  },
+  {
+    "chunk_id": 78,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "36 \n Technical Manual  |  Digital Communication - Modbus RTU  \nTroubleshooting\nE7\n0x80\nParameters for measuring mode \nswitches are not supported\nReplace sensor\nE8\n0x01\nNo extension block present in the \nsensor\nReplace sensor\nE8\n0x01\nThe sensor transmits its fault sig-\nnal\nE8\n0x02\nSensor test failed\nReplace sensor\nE8\n0x02\nBasic initialization required\nE8\n0x02\nInconsistency of the analog signal\nE8\n0x04\nPotentiostat voltage cannot be \nread\nReplace SIOS assembly\nDisconnect and reconnect sensor\nE8\n0x04\nSupply current is not OK\nE8\n0x08\nInternal potentiostat voltage can-\nnot be read\nReplace SIOS assembly\nDisconnect and reconnect sensor\nE8\n0x08\nClean mirror\nE8\n0x08\nSignal outside the permissible \nrange\nE8\n0x10\nToo many lookup values in the \nsensor\nReplace sensor\nE8\n0x10\nAnalog pellistor voltage outside the \npermissible range\nE8\n0x20\nSensor EEPROM not supported\nReplace sensor\nE8\n0x20\nReconfigure the gas\nE8\n0x40\nSIOS cannot process sensor test \nparameters\nReplace sensor\nE8\n0x40"
+  },
+  {
+    "chunk_id": 79,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "range\nE8\n0x10\nToo many lookup values in the \nsensor\nReplace sensor\nE8\n0x10\nAnalog pellistor voltage outside the \npermissible range\nE8\n0x20\nSensor EEPROM not supported\nReplace sensor\nE8\n0x20\nReconfigure the gas\nE8\n0x40\nSIOS cannot process sensor test \nparameters\nReplace sensor\nE8\n0x40\nTerminal voltage is not OK for the \nPIR 7x00\nE8\n0x80\nSensor test failed, sensor can be \nrefilled\nRefill electrolyte\nE8\n0x80\nICOM and 4 to 20 mA interfaces of \nthe PIR 7x00 transmit different val-\nues.\nE9\n0x01\nIncorrect sensor part number (sen-\nsor lock activated)\nDeactivate sensor lock or use a sensor with the \ncorrect part number\nE9\n0x02\nCompulsory sensor test during \nstartup failed\nE9\n0x04\nReference electrode test failed\nCheck connection to SIOS and sensor\nReplace sensor\nDisconnect and reconnect sensor\nE9\n0x08\nAn error occurred when filling the \nsensor data buffer\nReplace sensor\nDisconnect and reconnect sensor\nE9\n0x10\nCommunication error or timeout \nduring sensor test\nReplace sensor"
+  },
+  {
+    "chunk_id": 80,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Reference electrode test failed\nCheck connection to SIOS and sensor\nReplace sensor\nDisconnect and reconnect sensor\nE9\n0x08\nAn error occurred when filling the \nsensor data buffer\nReplace sensor\nDisconnect and reconnect sensor\nE9\n0x10\nCommunication error or timeout \nduring sensor test\nReplace sensor\nDisconnect and reconnect sensor\nE9\n0x10\nP 8000 cannot set the measuring \nrange of the PIR 7x00\nByte\nValue\nError description\nRemedy"
+  },
+  {
+    "chunk_id": 81,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n37\nTroubleshooting\nE9\n0x20\nCRC error in EX-specific EC sen-\nsor data\nE9\n0x20\nData inconsistency at PIR 7x00.\nValue does not equal string.\nE9\n0x40\nSIL password from PIR 7x00 does \nnot have the default value\nW6\n0x01\nMB warning (group error)\nW6\n0x02\nTemperature too low\nReplace sensor\nUse sensor in the specific temperature range\nW6\n0x04\nTemperature too high\nReplace sensor\nUse sensor in the specific temperature range\nW6\n0x08\nCalibration value very low, sensor \nalmost used up\nReplace sensor\nPerform zero adjustment\nPerform span calibration\nW6\n0x10\nSensor warming up, no measured \nvalues\nW6\n0x20\nSensor warming up, measured val-\nues are displayed, error < 4 x data \nsheet\nW6\n0x80\nZero adjustment interval expired\nPerform zero adjustment\nW7\n0x01\nSpan calibration interval expired\nPerform span calibration\nW7\n0x02\nMeasured value fallen below the \nnegative warning threshold\nPerform zero adjustment\nW7\n0x04\nBeam block warning at the"
+  },
+  {
+    "chunk_id": 82,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "sheet\nW6\n0x80\nZero adjustment interval expired\nPerform zero adjustment\nW7\n0x01\nSpan calibration interval expired\nPerform span calibration\nW7\n0x02\nMeasured value fallen below the \nnegative warning threshold\nPerform zero adjustment\nW7\n0x04\nBeam block warning at the \nPIR 7x00 or PIR 3000\nW8\n0x01\nLife time expired, sensor almost \nused up\nReplace sensor\nW8\n0x01\nSensor temporarily busy writing to \nthe EEPROM\nW8\n0x01\nFree\nW8\n0x02\nAdjustment request because expo-\nsition is too high\nPerform zero adjustment\nPerform span calibration\nW8\n0x02\nPIR 7x00 is in maintenance mode\nW8\n0x04\nAdjustment request because con-\ncentration is too high\nPerform zero adjustment\nPerform span calibration\nW8\n0x04\nAutocal activated but not sup-\nported\nW8\n0x08\nAdjustment request because tem-\nperature is too high\nPerform zero adjustment\nPerform span calibration\nW8\n0x10\nVoltage of the counter electrode \nnot in the nominal range\nReplace sensor\nThe measured gas concentrations are too high\nW8\n0x20\nConcentration too high"
+  },
+  {
+    "chunk_id": 83,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "ported\nW8\n0x08\nAdjustment request because tem-\nperature is too high\nPerform zero adjustment\nPerform span calibration\nW8\n0x10\nVoltage of the counter electrode \nnot in the nominal range\nReplace sensor\nThe measured gas concentrations are too high\nW8\n0x20\nConcentration too high\nThe measured gas concentrations are too high\nW8\n0x40\nSensor test warning\nW8\n0x80\nSensor test warning, sensor can \nbe refilled\nRefill electrolyte\nByte\nValue\nError description\nRemedy"
+  },
+  {
+    "chunk_id": 84,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "38 \n Technical Manual  |  Digital Communication - Modbus RTU  \nTroubleshooting\nW9\n0x01\nError when writing to the sensor \ndata set\nByte\nValue\nError description\nRemedy"
+  },
+  {
+    "chunk_id": 85,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Technical Manual  |  Digital Communication - Modbus RTU  \n39\nAnnex\n7 \nAnnex\n7.1 \nGlossary\n7.2 \nAnnex 1 Polytron® 8000 parameter list\nAbbrevia-\ntion\nName\nMeaning\nASCII\nAmerican Standard \nCode for Information \nInterchange\n7-bit character encoding that corresponds \nto the US version of ISO 646.\nIt is the basis for later encodings for char-\nacter sets that are based on more bits.\nBaud rate\nSymbol rate.\nUnit: symbol/s\n1 baud is the speed if 1 symbol is transmit-\nted per second. The baud rate has to be \nthe same at the transmitting and receiving \nend.\nCRC\nCyclic redundancy \ncheck\nCyclic redundancy check. Procedure for \ndefining a check value for data to enable \nthe detection of errors during transmission \nor storage.\nDTM\nDevice Type Manager\nDevice-specific components in Field \nDevice Tools (FDT). \nDevice Type Managers enable information \nexchange via the defined interfaces. They \nread configuration data of the field devices \nand parameterize them.\nMulticast/Broadcast"
+  },
+  {
+    "chunk_id": 86,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "or storage.\nDTM\nDevice Type Manager\nDevice-specific components in Field \nDevice Tools (FDT). \nDevice Type Managers enable information \nexchange via the defined interfaces. They \nread configuration data of the field devices \nand parameterize them.\nMulticast/Broadcast\nThe master sends a command to all slaves \nin the Modbus system. All slaves execute \nthe demand without sending feedback. \nMulticast/Broadcast messages are only \npermissible in connections with function \ncodes that can be written into.\nRTU\nRemote Terminal Unit\nA Remote Terminal Unit is a remote control \nunit. Transmission between the master and \nthe slave is via pilot cables, wireless or \nusing an existing communication system.\nRS-232\nRS-232\nStandard for a common serial interface in \ncomputers\nRS-485\nRS-485\nAlso: EAI-485. Industry standard for a \nphysical interface for asynchronous data \ntransmission \nTCP\nTransmission Control \nProtocol\nTransmission control protocol.\nNetwork protocol which defines how data is"
+  },
+  {
+    "chunk_id": 87,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "RS-232\nRS-232\nStandard for a common serial interface in \ncomputers\nRS-485\nRS-485\nAlso: EAI-485. Industry standard for a \nphysical interface for asynchronous data \ntransmission \nTCP\nTransmission Control \nProtocol\nTransmission control protocol.\nNetwork protocol which defines how data is \nexchanged between computers.\nUnicast\nThe master sends a request directly to a \nslave and expects a response. The slave is \naddressed directly based on its unique bus \naddress (1 to 247)."
+  },
+  {
+    "chunk_id": 88,
+    "page": 39,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n1 \nLegend \nRegister \n \nNumber of the register \nParameter \n \nName of the parameter \nData type \n \nData type of the parameter \nMemory \nD \nDynamic – values change \nS \nStatic – values remain unchanged \nAccess \nR – Read \nRead access \nW – Write \nWrite access \nRO – Read Only \nRead-only access \nRW – Read and Write \nRead and write access \nSize \n \nWord size \nValue range \n(default value) \n \nValid range \n \nFactory-set default value.  \nThe default value is formatted in bold in the \ntable \nDescription \n \nDescription of the respective parameters \nSensor variant \nThe parameters are only valid for the \nspecified sensor variants. \nEC \nModbus for communication between gas \ndetector and EC sensor \nIR \nModbus for communication between gas \ndetector and IR sensor \nCAT \nModbus for communication between gas \ndetector and catalytic sensor"
+  },
+  {
+    "chunk_id": 89,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n2 \nIndication & status (registers 40001 – 40047) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40001 DEVICE_STATE \nUnsigned8 \nD / RO \n1 \n \n2 \n \n5 \nValid for sensor variant: EC, IR, CA \nRUN: In RUN state, all elements required for the execution of a process are active. \nMAINTENANCE: The behavior of the gas detector in MAINTENANCE state is device-specific. This \nstate can be set automatically by the gas detector. \n40002 FIELDBUS_MODULE_SW_VERSION \nVisibleString \nS / RO \n2 \n \n0.01 \nValid for sensor variant: EC, IR, CAT \nSoftware version of the Fieldbus Foundation module. \n40004 FIELDBUS_MODULE_HW_VERSION \nVisibleString \nS / RO \n2 \n \n0.01 \nValid for sensor variant: EC, IR, CAT  \nHardware version of the Fieldbus Foundation module. \n40006 FIELDBUS_MODULE_STATUS \nUnsigned8 \nD / RO \n1 \n \n \n0x01 \n0x02 \n0x04 \n0x08 \n0x20 \n0x21 \nValid for sensor variant: EC, IR, CAT  \nStatus of the fieldbus module."
+  },
+  {
+    "chunk_id": 90,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "VisibleString \nS / RO \n2 \n \n0.01 \nValid for sensor variant: EC, IR, CAT  \nHardware version of the Fieldbus Foundation module. \n40006 FIELDBUS_MODULE_STATUS \nUnsigned8 \nD / RO \n1 \n \n \n0x01 \n0x02 \n0x04 \n0x08 \n0x20 \n0x21 \nValid for sensor variant: EC, IR, CAT  \nStatus of the fieldbus module. \nModule operates without failure. Gas detector works without errors. \nEEPROM failure \nRAM failure \nCRC failure \nCommunication error \nCRC failure and communication error \n40007 POLYTRON_SW_VERSION \n4 x \nUnsigned8 \nS / RO \n2 \n \n0.00 \nValid for sensor variant: EC, IR, CAT \nPolytron software version \n40009 SW_SUBVERSION \nUnsigned8 \nD / RO \n1 \n \n0 \nValid for sensor variant: EC, IR, CAT \nSoftware subversion \n40010 Internal resource \nVisibleString \nD \n4 \n1 \nInternal resource – do not change \n40014 MANUFACTURER \nVisibleString \nS / RO \n9 \nDraeger Safety \nAG \nValid for sensor variant: EC, IR, CAT \nManufacturer \n40023 DEVICE_STATUS_INDICATION \nBit string  \n(1 byte) \nD / RO \n1 \n \n \n \n \n \n0x01 \n0x02 \n0x04"
+  },
+  {
+    "chunk_id": 91,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "40010 Internal resource \nVisibleString \nD \n4 \n1 \nInternal resource – do not change \n40014 MANUFACTURER \nVisibleString \nS / RO \n9 \nDraeger Safety \nAG \nValid for sensor variant: EC, IR, CAT \nManufacturer \n40023 DEVICE_STATUS_INDICATION \nBit string  \n(1 byte) \nD / RO \n1 \n \n \n \n \n \n0x01 \n0x02 \n0x04 \nValid for sensor variant: EC, IR, CAT \nContains information on the current status of the gas detector. Warnings and/or errors are displayed \nas group warnings and group errors.  \nThe DEVICE_STATUS_VALUE parameter contains a detailed description of the warnings or errors \nand possible remedies. \nNo errors and warnings.   \nError exists.   \nWarning exists.   \n40024 DEVICE_STATUS_VALUE \n20 x \nUnsigned8 \nD / RO \n10 \n \nValid for sensor variant: EC, IR, CAT  \nThe parameter contains detailed information on the current status of the gas detector as a warning \nand error matrix.  \n40034 DEVICE_DATE_TIME \n7 x \nUnsigned8 \nD / RW \n4 \n \nValid for sensor variant: EC, IR, CAT \nDisplays date and time."
+  },
+  {
+    "chunk_id": 92,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n3 \n40038 TRANSMITTER_SPECIFIC_OPTIONS \nBit string \n(4 bytes) \nD / RO \n2 \n \n \n0x0004 \n0x0008 \n0x0010 \n0x0080 \n0x0400 \n0x0800 \n0x4000 \nValid for sensor variant: EC, IR, CAT \nList of installed hardware modules (e.g., pump, relay module) \nDATALOGGER DONGLE PRESENT \nSENSOR DIAGNOSTICS DONGLE PRESENT \nSENSOR TEST DONGLE PRESENT \nFIELDBUS PB-PA FFB PRESENT \nDOUBLE REMOTE PRESENT \nREMOTE PRESENT \nALARM MODULE PRESENT \n40040 FIELDBUS_MODULE_ERROR_CODE \nUnsigned8 \nD / RO \n1 \n \n0 \nValid for sensor variant: EC, IR, CAT \nError message of the fieldbus module if fieldbus mode indicates \"Fatal Software Error\" status. \n40041 MODULE_PART_NUMBER \nString \n(7 bytes) \nD / RO \n4 \n \n\"-----\" \nValid for sensor variant: EC, IR, CAT \nPart number of the gas detector \n40045 SENSOR_SW_VERSION \nUnsigned8 \nUnsigned8 \nD / RO \n1 \n \n0 \nValid for sensor variant: EC, IR \nSoftware version of the gas detector \n40046 INSTALL_DATE \nUnsigned8 \nUnsigned8 \nUnsigned16 \nD / RO \n2 \n \n0"
+  },
+  {
+    "chunk_id": 93,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "D / RO \n4 \n \n\"-----\" \nValid for sensor variant: EC, IR, CAT \nPart number of the gas detector \n40045 SENSOR_SW_VERSION \nUnsigned8 \nUnsigned8 \nD / RO \n1 \n \n0 \nValid for sensor variant: EC, IR \nSoftware version of the gas detector \n40046 INSTALL_DATE \nUnsigned8 \nUnsigned8 \nUnsigned16 \nD / RO \n2 \n \n0 \nValid for sensor variant: EC \nInstallation date of the EC sensor \n \nGas configuration (registers 40101 – 40134) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40101 GAS_NAME \nVisibleString \n(10 bytes) \nD / RO \n5 \n- \nValid for sensor variant: EC, IR, CAT  \nContains the name of the currently set target gas in ASCII format \nE.g.:  \nGAS_NAME[GAS_INDEX=0x00] = \"METHANE\"  \nGAS_NAME[GAS_INDEX=0x01] = \"PROPANE\" \n40106 GAS_CAS_NUMBER \nVisibleString \n(12 bytes) \nD / RO \n6 \n \n\"  \" \nValid for sensor variant: IR \nContains the international CAS registration number (CAS= Chemical Abstracts Service) of the \ncurrently set target gas. \n40112 GAS_INDEX"
+  },
+  {
+    "chunk_id": 94,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "GAS_NAME[GAS_INDEX=0x01] = \"PROPANE\" \n40106 GAS_CAS_NUMBER \nVisibleString \n(12 bytes) \nD / RO \n6 \n \n\"  \" \nValid for sensor variant: IR \nContains the international CAS registration number (CAS= Chemical Abstracts Service) of the \ncurrently set target gas. \n40112 GAS_INDEX \nUnsigned8 \nD / RW \n1 \n \n0 \nValid for sensor variant: EC, IR \nContains the index of the currently set target gas.  \nThe parameter can be modified within a value range from 0 to MAX_GAS_INDEX using a write \nprocess, and the respective target gas can be set. \nE.g.: \nGAS_NAME [GAS_INDEX = 0]                             = \"METHANE\" \nGAS_NAME [GAS_INDEX = 1]                             = \"PROPANE\" \n... \nGAS_NAME [GAS_INDEX = MAX_GAS_INDEX] = \"ETHANE\" \n40113 MAX_GAS_INDEX \nUnsigned8 \nD / RO \n1 \n \n1 \nValid for sensor variant: EC, IR \nContains information on the maximum possible index position of the GAS_INDEX parameter and is \nequivalent to the maximum number of selectable target gases supported by the current configuration"
+  },
+  {
+    "chunk_id": 95,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "40113 MAX_GAS_INDEX \nUnsigned8 \nD / RO \n1 \n \n1 \nValid for sensor variant: EC, IR \nContains information on the maximum possible index position of the GAS_INDEX parameter and is \nequivalent to the maximum number of selectable target gases supported by the current configuration \nof the gas detector. \nE.g.: \nGAS_NAME [0 ≤ GAS_INDEX ≤ MAX_GAS_INDEX] = \"XXXXXXXX\""
+  },
+  {
+    "chunk_id": 96,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n4 \n40114 SET_GASNAME_CAT \nVisibleString \n(10 bytes) \nD / RW \n5 \n \n\"  \" \nValid for sensor variant: CAT \nThis parameter enables editing of the target gas to be measured by analog sensors. Analog sensors \ninclude the family of catalytic sensors and do not provide any additional information. This parameter \ncan be used to name the analog sensor. \nE.g.: \n\"Power house 1\" \n\"Methane\" \n40119 UNIT_NAME \nVisibleString \n(5 bytes) \nD / RO \n3 \n \n- \nValid for sensor variant: EC, IR, CAT \nContains the name of the currently set target gas unit in ASCII format. \ne.g., \nUNIT_NAME for UNIT_NAME_INDEX=0x00  =\"VOL%\"  \nUNIT_NAME for UNIT_NAME_INDEX=0x01  = \"LEL\" \n40122 UNIT_NAME_INDEX \nUnsigned8 \nD / RW \n1 \n \n- \nValid for sensor variant: EC, IR, CAT \nContains the index of the currently set target gas unit. The parameter can be modified and the \nrespective target gas unit set by writing in the parameter. \ne.g., \nUNIT_NAME for UNIT_NAME_INDEX=0x00  =\"VOL%\""
+  },
+  {
+    "chunk_id": 97,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "40122 UNIT_NAME_INDEX \nUnsigned8 \nD / RW \n1 \n \n- \nValid for sensor variant: EC, IR, CAT \nContains the index of the currently set target gas unit. The parameter can be modified and the \nrespective target gas unit set by writing in the parameter. \ne.g., \nUNIT_NAME for UNIT_NAME_INDEX=0x00  =\"VOL%\"  \nUNIT_NAME for UNIT_NAME_INDEX=0x01  = \"LEL\" \n40123 GAS_LOWER_EXPLOSION_LEVEL \nFloat \nD / RW \n2 \n \nValid for sensor variant: EC, IR \nLower explosive limit of the gas in Vol%. \n40125 GAS_LEL_LIMITS_LOWER \nFloat \nD / RO \n2 \n \n \nValid for sensor variant: EC, IR \nLowest value that can be set for the lower explosive limit in ppm. \n40127 GAS_LEL_LIMITS_UPPER \nFloat \nD / RO \n2 \n \n \nValid for sensor variant: EC, IR \nHighest value that can be set for the lower explosive limit in ppm. \n40129 GAS_NAME_VISIBLE \nString \nD / RO \n5 \n \n\"_____\" \nValid for sensor variant: EC, IR \nThis parameter enables reading of the target gas table without changing the currently set target gas"
+  },
+  {
+    "chunk_id": 98,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "2 \n \n \nValid for sensor variant: EC, IR \nHighest value that can be set for the lower explosive limit in ppm. \n40129 GAS_NAME_VISIBLE \nString \nD / RO \n5 \n \n\"_____\" \nValid for sensor variant: EC, IR \nThis parameter enables reading of the target gas table without changing the currently set target gas \nand affecting the running measuring operations. \nE.g.: \nGAS_NAME_VISIBLE for GAS_INDEX_VISIBLE=0x00  = \"METHANE\"        GAS_NAME_VISIBLE \nfor GAS_INDEX_VISIBLE=0x01  = \"ETHANE\" \n40134 GAS_INDEX_VISIBLE \nUnsigned8 \nD / RW \n1 \n \n0x00 \nValid for sensor variant: EC, IR \nGas index for reading the gas table."
+  },
+  {
+    "chunk_id": 99,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n5 \nSensor & status (registers 40201 – 40224) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40201 CONFIGURE_SENSOR_SELF_TEST \nUnsigned8 \nD / RW \n1 \n \n \n \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC \nIf the sensor self-test is activated, the gas detector can continuously monitor the connected sensor \nfor proper operation. If the sensor self-test fails, the warning is displayed in the \nDEVICE_STATUS_VALUE and can be read. \nThe sensor self-test option can only be activated if the sensor test dongle is connected. \nInactive \nActive \n40202 SENSOR_SELFTEST_STATUS \nUnsigned8 \nD / RO \n1 \n \n \n \n \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \n0x06 \n0x07 \n0x08 \n0x09 \n0x0A \n0xFF \nValid for sensor variant: EC \nContains current information on the status of the sensor self-test. After the sensor self-test has been \nactivated, this parameter can be used to query the current status."
+  },
+  {
+    "chunk_id": 100,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "D / RO \n1 \n \n \n \n \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \n0x06 \n0x07 \n0x08 \n0x09 \n0x0A \n0xFF \nValid for sensor variant: EC \nContains current information on the status of the sensor self-test. After the sensor self-test has been \nactivated, this parameter can be used to query the current status.  \nThe parameter can only be used in combination with the START_SENSOR_TEST parameter. \nThe DEVICE_STATUS_VALUE parameter contains the status for the automatic sensor self-test. \nReady \nNo dongle available. \nSensor does not support sensor test. \nError \nSensor is in warm-up phase. \nSensor calibration running. \nSensor temperature outside the permissible range. \nSensor test temporarily not available. \nDelay after sensor test (duration depends on the sensor). \nSensor test running. \nOther error. \nTimeout \n40203 SENSOR_SELFTEST_RESULT \nUnsigned8 \nD / RO \n1 \n \n \n \n0x00 \n0x01 \n0x02 \n0x03 \nValid for sensor variant: EC \nContains the result of the last sensor self-test."
+  },
+  {
+    "chunk_id": 101,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Delay after sensor test (duration depends on the sensor). \nSensor test running. \nOther error. \nTimeout \n40203 SENSOR_SELFTEST_RESULT \nUnsigned8 \nD / RO \n1 \n \n \n \n0x00 \n0x01 \n0x02 \n0x03 \nValid for sensor variant: EC \nContains the result of the last sensor self-test. \nThe parameter can only be used in combination with the START_SENSOR_TEST parameter. \nNo result \nSuccessful \nSuccessful, but fault expected soon. \nFailed \n40204 START_SENSOR_TEST \nUnsigned8 \nD / RW \n1 \n \n \n \n \n0x00 \n0x01 \n0x02 \n0x03 \nValid for sensor variant: EC \nEnables the user to start the sensor self-test manually by means of a write process and/or determine \nthe current status of the sensor self-test (see SENSOR_SELFTEST_STATUS parameter). \nNo sensor test \nStart sensor test \nStart cyclic sensor test. \nStop cyclic sensor test. \n40205 SENSOR_VITALITY \nUnsigned8 \nD / RO \n1 \n \n \n \nValid for sensor variant: EC \nDescribes the remaining sensitivity of the sensor currently in use."
+  },
+  {
+    "chunk_id": 102,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "No sensor test \nStart sensor test \nStart cyclic sensor test. \nStop cyclic sensor test. \n40205 SENSOR_VITALITY \nUnsigned8 \nD / RO \n1 \n \n \n \nValid for sensor variant: EC \nDescribes the remaining sensitivity of the sensor currently in use. \nThe sensor vitality option can only be activated if the diagnostic dongle is connected."
+  },
+  {
+    "chunk_id": 103,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n6 \n0x01 – 0x64 \n0xFD \n0xFE \n \n0xFF \n1% – 100% \nNot supported: the sensor currently in use does not support the SENSOR_VITALITY parameter. \nNo dongle: the diagnostic dongle is not detectable or not present. The diagnostic dongle is required \nto enable the function. \nNot calculated: the vitality could not be calculated. Please check the installation date and the current \ndate for valid values! \n40206 SENSOR_LOCK_INFO \nUnsigned8 \nD / RW \n1 \n \n \n \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR \nIf the SENSOR_LOCK_INFO parameter is activated, successful replacement of the sensors is only \npossible with identical part numbers. If the part number of the old sensor and the part number of the \nnew sensor are not identical, an error message is issued. If, however, the SENSOR_LOCK_INFO \nparameter is deactivated, sensors can be replaced with sensors of the same sensor type with \ndifferent part numbers. \nLocking inactive \nLocking active"
+  },
+  {
+    "chunk_id": 104,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "new sensor are not identical, an error message is issued. If, however, the SENSOR_LOCK_INFO \nparameter is deactivated, sensors can be replaced with sensors of the same sensor type with \ndifferent part numbers. \nLocking inactive \nLocking active \n40207 SENSOR_LOCK_PART_NUMBER \nVisibleString \n7 bytes \nD / RO \n4 \n \n- \nValid for sensor variant: EC, IR \nContains the part number (Dräger order number) of the sensor that can be replaced while \nSENSOR_LOCK_INFO is active. \n40211 SENSOR_PART_NUMBER \nVisibleString \n7 bytes \nD / RO \n4 \n \n- \nValid for sensor variant: EC, IR \nPart number of the connected sensor \n40215 SENSOR_SERIAL_NUMBER \nVisibleString \n8 bytes \nD / RO \n4 \n \n- \nValid for sensor variant: EC, IR \nSerial number of the connected sensor \n40219 PREDICTIVE_MAINTENANCE.HEALTH_STATUS \nUnsigned8 \n \nD / RO \n1 \n \n \n \n \n0x00 \n \n0x01 \n \n0x02 \n0x03 \n0x04 \nValid for sensor variant: EC \nThe parameter consists of the following sub-parameters and can only be used with a diagnostic \ndongle."
+  },
+  {
+    "chunk_id": 105,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Serial number of the connected sensor \n40219 PREDICTIVE_MAINTENANCE.HEALTH_STATUS \nUnsigned8 \n \nD / RO \n1 \n \n \n \n \n0x00 \n \n0x01 \n \n0x02 \n0x03 \n0x04 \nValid for sensor variant: EC \nThe parameter consists of the following sub-parameters and can only be used with a diagnostic \ndongle. \nContains the current status of the sensor in use. \nthe diagnostic dongle is not detectable or not present. The diagnostic dongle is required to enable \nthe function. \nThe status could not be calculated. Please check the installation date and the current date for valid \nvalues! \nSensor status: \ngood \nSensor status: \nOK \nSensor status: \nreplacement required soon \nPREDICTIVE_MAINTENANCE.DIAGNOSTIC \nUnsigned8 \n \n \n0x00 \n \n0x01 \nValid for sensor variant: EC \nContains information on the status of the sensor diagnostic functions. \nSensor diagnosis is not available for the gas detector. Please purchase diagnostic dongle to enable \nit. \nSensor diagnosis is available for the gas detector. \n40220 FAST_RESPONSE"
+  },
+  {
+    "chunk_id": 106,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "0x00 \n \n0x01 \nValid for sensor variant: EC \nContains information on the status of the sensor diagnostic functions. \nSensor diagnosis is not available for the gas detector. Please purchase diagnostic dongle to enable \nit. \nSensor diagnosis is available for the gas detector. \n40220 FAST_RESPONSE \nBit field \nD / RW \n1 \n \n \n0x00 \n0x01 \nValid for sensor variant: IR \nResponse behavior of the P87X0. \nDefault \nFast \n40221 SENSOR_ID \nBit field \nD / RO \n1 \n \n \n0x01 \n0x02 \n0x03 \n0x04 \n0x07 \nValid for sensor variant: EC, IR, CAT \nType of sensor connected. \nDSIR SENSOR \nDD SENSOR \nLC SENSOR \nEC SENSOR \nPIR7X00 SENSOR"
+  },
+  {
+    "chunk_id": 107,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n7 \n40222 WAVELENGTH_TYPE \nUnsigned16 \nD / RO \n1 \n \nValid for sensor variant: IR \nWavelength of the PIR7X00 sensor. \n40223 SENSOR_WARM_UP_TIME_1 \nUnsigned16 \nD / RO \n1 \n \nValid for sensor variant: EC, IR, CAT \nRemaining warm-up time 1 (measured values are not shown) in minutes. \n40224 SENSOR_WARM_UP_TIME_2 \nUnsigned16 \nD / RO \n1 \n \nValid for sensor variant: EC, IR, CAT \nRemaining warm-up time 2 (measured values have an increased error) in minutes. \n \nAlarm configuration (registers 40301 – 40329) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40301 A1_ALARM_CONFIGURATION.VALUE \nFloat \nD / RW \n2 \n \nValid for sensor variant: EC, IR, CAT \nContains the currently set gas concentration for the A1 alarm. \n40303 A1_ALARM_CONFIGURATION.HYSTERESE \nFloat \n \nValid for sensor variant: EC, IR, CAT \nThe alarm hysteresis defines a range around the A1 alarm within which A1_ALARM remains set"
+  },
+  {
+    "chunk_id": 108,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "D / RW \n2 \n \nValid for sensor variant: EC, IR, CAT \nContains the currently set gas concentration for the A1 alarm. \n40303 A1_ALARM_CONFIGURATION.HYSTERESE \nFloat \n \nValid for sensor variant: EC, IR, CAT \nThe alarm hysteresis defines a range around the A1 alarm within which A1_ALARM remains set \nuntil the current gas concentration falls below this threshold. \nE.g.: \nA1_ALARM_CONFIGURATION.VALUE = 20ppm H2S \nA1_ALARM_CONFIGURATION.HYSTERESE = 3ppm H2S \n \nA1_ALARM.STATUS is activated for measured gas concentrations ≥ 20 ppm H2S \nA1_ALARM.STATUS is deactivated for measured gas concentrations ≤ 17 ppm H2S \n40305 A1_ALARM_CONFIGURATION.DIRECTION \nUnsigned8 \n \n \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information on the triggering behavior of the A1 alarm. The following is possible: \nA1 alarm is triggered if the target gas concentration is below the A1 alarm threshold and exceeds it."
+  },
+  {
+    "chunk_id": 109,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Unsigned8 \n \n \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information on the triggering behavior of the A1 alarm. The following is possible: \nA1 alarm is triggered if the target gas concentration is below the A1 alarm threshold and exceeds it. \nA1 alarm is triggered if the target gas concentration is above the A1 alarm threshold and falls below \nit. \nA1_ALARM_CONFIGURATION.ACKNOWLEDGABL\nE \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm can be acknowledged while the alarm condition exists. \nThe A1 alarm cannot be acknowledged. \nThe A1 alarm can be acknowledged. \nA1_ALARM_CONFIGURATION.PREACKNOWLEDG\nEABLE \nUnsigned8 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A1 alarm cannot be pre-acknowledged. \nThe A1 alarm can be pre-acknowledged. \nA1_ALARM_CONFIGURATION.LATCHING \nUnsigned8"
+  },
+  {
+    "chunk_id": 110,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A1 alarm cannot be pre-acknowledged. \nThe A1 alarm can be pre-acknowledged. \nA1_ALARM_CONFIGURATION.LATCHING \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm has to be acknowledged. \nThe A1 alarm is not latching. \nThe A1 alarm is latching."
+  },
+  {
+    "chunk_id": 111,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n8 \n40307 A1_ALARM_PLAUSIBILITY \nBit string \nD / RO \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x04 \n0x08 \n0x10 \nValid for sensor variant: EC, IR, CAT \nPlausibility of the A1 alarm configuration:  \nNo error. \nThe value entered for the A1_ALARM_CONFIGURATION.VALUE is too low. \nThe value entered for the A1_ALARM_CONFIGURATION.VALUE is too high. \nThe value entered for the A1_ALARM_CONFIGURATION.HYSTERESE is too low. \nThe value entered for the A1_ALARM_CONFIGURATION.HYSTERESE is too low. \nThe sensor is not available. Check whether there is a sensor in the gas detector. \n40308 A2_ALARM_CONFIGURATION.VALUE \nFloat \nD / RW \n2 \n \nValid for sensor variant: EC, IR, CAT \nContains the currently set gas concentration for the A2 alarm. \n40310 A2_ALARM_CONFIGURATION.HYSTERESE \nFloat \n \nValid for sensor variant: EC, IR, CAT \nThe alarm hysteresis defines a range around the A2 alarm within which A2_ALARM remains set"
+  },
+  {
+    "chunk_id": 112,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "D / RW \n2 \n \nValid for sensor variant: EC, IR, CAT \nContains the currently set gas concentration for the A2 alarm. \n40310 A2_ALARM_CONFIGURATION.HYSTERESE \nFloat \n \nValid for sensor variant: EC, IR, CAT \nThe alarm hysteresis defines a range around the A2 alarm within which A2_ALARM remains set \nuntil the current gas concentration falls below this threshold. \nE.g.: \nA2_ALARM_CONFIGURATION.VALUE = 20ppm H2S \nA2_ALARM_CONFIGURATION.HYSTERESE = 3ppm H2S \n \nA2_ALARM.STATUS is activated for measured gas concentrations ≥ 20 ppm H2S \nA2_ALARM.STATUS is deactivated for measured gas concentrations ≤ 17 ppm H2S \n40312 A2_ALARM_CONFIGURATION.DIRECTION \nUnsigned8 \n \n \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information on the triggering behavior of the A2 alarm. The following is possible: \nA2 alarm is triggered if the target gas concentration is below the A2 alarm threshold and exceeds it."
+  },
+  {
+    "chunk_id": 113,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Unsigned8 \n \n \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information on the triggering behavior of the A2 alarm. The following is possible: \nA2 alarm is triggered if the target gas concentration is below the A2 alarm threshold and exceeds it. \nA2 alarm is triggered if the target gas concentration is above the A2 alarm threshold and falls below \nit. \nA2_ALARM_CONFIGURATION.ACKNOWLEDGABL\nE \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm can be acknowledged while the alarm condition exists. \nThe A2 alarm cannot be acknowledged. \nThe A2 alarm can be acknowledged. \nA2_ALARM_CONFIGURATION.PREACKNOWLEDG\nEABLE \nUnsigned8 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A2 alarm cannot be pre-acknowledged. \nThe A2 alarm can be pre-acknowledged. \nA2_ALARM_CONFIGURATION.LATCHING \nUnsigned8"
+  },
+  {
+    "chunk_id": 114,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether a latching alarm is already acknowledged when the alarm condition is \npresent. \nThe A2 alarm cannot be pre-acknowledged. \nThe A2 alarm can be pre-acknowledged. \nA2_ALARM_CONFIGURATION.LATCHING \nUnsigned8 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether an alarm has to be acknowledged. \nThe A2 alarm is not latching. \nThe A2 alarm is latching. \n40314 A2_ALARM_PLAUSIBILITY \nBit string \nD / RO \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x04 \n0x08 \n0x10 \nValid for sensor variant: EC, IR, CAT \nPlausibility of the A2 alarm configuration:  \nNo error. \nThe value entered for the A2_ALARM_CONFIGURATION.VALUE is too low. \nThe value entered for the A2_ALARM_CONFIGURATION.VALUE is too high. \nThe value entered for the A2_ALARM_CONFIGURATION.HYSTERESE is too low. \nThe value entered for the A2_ALARM_CONFIGURATION.HYSTERESE is too low."
+  },
+  {
+    "chunk_id": 115,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "No error. \nThe value entered for the A2_ALARM_CONFIGURATION.VALUE is too low. \nThe value entered for the A2_ALARM_CONFIGURATION.VALUE is too high. \nThe value entered for the A2_ALARM_CONFIGURATION.HYSTERESE is too low. \nThe value entered for the A2_ALARM_CONFIGURATION.HYSTERESE is too low. \nThe sensor is not available. Check whether there is a sensor in the gas detector."
+  },
+  {
+    "chunk_id": 116,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n9 \n40315 A1_ALARM.STATUS \nUnsigned8 \nD / RO \n1 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nThe A1_ALARM parameter consists of the following sub-parameters. \nContains the current status of the internal alarm module and its settings. \nA1 alarm is not activated \nA1 alarm is activated \nA1_ALARM.CONDITION \nUnsigned8 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether the current target gas concentration is above or below the A1 alarm \nthreshold (depending on the configuration of the A1 alarm). \nA1 alarm condition is currently not present. \nA1 alarm condition is currently present. \n40316 A2_ALARM.STATUS \nUnsigned8 \nD / RO \n1 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nThe A2_ALARM parameter consists of the following sub-parameters. \nContains the current status of the internal alarm module and its settings. \nA2 alarm is not activated \nA2 alarm is activated \nA2_ALARM.CONDITION"
+  },
+  {
+    "chunk_id": 117,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Unsigned8 \nD / RO \n1 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nThe A2_ALARM parameter consists of the following sub-parameters. \nContains the current status of the internal alarm module and its settings. \nA2 alarm is not activated \nA2 alarm is activated \nA2_ALARM.CONDITION \nUnsigned8 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether the current target gas concentration is above or below the A2 alarm \nthreshold (depending on the configuration of the A2 alarm). \nA2 alarm condition is currently not present. \nA2 alarm condition is currently present. \n40317 ALARM_ACKNOWLEDGE \nUnsigned8 \nD / RW \n1 \n \n \n \n0x00 \n0xFF \nValid for sensor variant: EC, IR, CAT \nThe data content 0xFF of a write process enables acknowledging active alarms if the alarm module \nhas been configured correspondingly. \nDefault value. After writing the value 0xFF, the default value is displayed again. \nActive alarms are acknowledged by writing the value 0xFF."
+  },
+  {
+    "chunk_id": 118,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "The data content 0xFF of a write process enables acknowledging active alarms if the alarm module \nhas been configured correspondingly. \nDefault value. After writing the value 0xFF, the default value is displayed again. \nActive alarms are acknowledged by writing the value 0xFF. \n40318 DD_SENSOR_LATCHING \nUnsigned8 \nD / RW \n1 \n \n \n \n0 \n1 \nValid for sensor variant: CAT \nDefines whether the measured value is latching after exceeding a concentration of 100% LEL. \nNon-Latching \nLatching \n40319 ALARM_FAULT_TEST \nBit string \nD / RW \n1 \n \n \n0 \n1 \n2 \n4 \nValid for sensor variant: EC, IR, CAT \nFunction for relay test. \n \nAlarm 1 State active \nAlarm 2 State active \nError State active \n40320 ALARM_MODULE_ACTIVE \nBit string \nD / RW \n1 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nA1 and A2 alarms are analyzed. \nInactive \nActive \n40321 A1_LEVEL_MIN \nFloat \nRO \n2 \n \n0.0 \nValid for sensor variant: EC, IR, CAT \nLowest value that can be set for the A1 alarm. \n40323 A1_LEVEL_MAX \nFloat \nRO \n2"
+  },
+  {
+    "chunk_id": 119,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Bit string \nD / RW \n1 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nA1 and A2 alarms are analyzed. \nInactive \nActive \n40321 A1_LEVEL_MIN \nFloat \nRO \n2 \n \n0.0 \nValid for sensor variant: EC, IR, CAT \nLowest value that can be set for the A1 alarm. \n40323 A1_LEVEL_MAX \nFloat \nRO \n2 \n \nValid for sensor variant: EC, IR, CAT \nHighest value that can be set for the A1 alarm. \n40325 A2_LEVEL_MIN \nFloat \nRO \n2 \n \n0.0 \nValid for sensor variant: EC, IR, CAT \nLowest value that can be set for the A2 alarm. \n40327 A2_LEVEL_MAX \nFloat \nRO \n2 \n \n \nValid for sensor variant: EC, IR, CAT \nHighest value that can be set for the A2 alarm."
+  },
+  {
+    "chunk_id": 120,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n10 \n40329 DECIMAL_POINT_SETTINGS_ALARM \nUnsigned8 \nD / RO \n1 \n \n0x00 \nValid for sensor variant: EC, IR, CAT \nNumber of decimal places for the alarm levels on the display \nE.g.:  \n0x00 \n \nDisplay: 1 \n0x01 \n \nDisplay: 1.1 \n0x02 \n \nDisplay: 1.12 \n0x03 \n \nDisplay: 1.123 \n \nCalibration (registers 40401 – 40456) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40401 CAL_GAS_NAME \nVisibleString \n(10 bytes) \nD / RO \n5 \n \n\"  \" \nValid for sensor variant: EC, IR, CAT \nContains the name of the currently set target gas in ASCII format \nE.g.:  \nCAL_GAS_NAME[CAL_GAS_INDEX=0x00] = \"METHANE\" \nCAL_GAS_NAME[CAL_GAS_INDEX=0x01] = \"PROPANE\" \n40406 CAL_GAS_NAME_CAS \nVisibleString \n(12 bytes) \nD / RO \n6 \n \n\"  \" \nValid for sensor variant: IR \nContains the international CAS registration number (CAS= Chemical Abstracts Service) of the \ncurrently set calibration gas. \n40412 CAL_GAS_INDEX \nUnsigned8 \nD / RW \n1 \n \n0 ..."
+  },
+  {
+    "chunk_id": 121,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "40406 CAL_GAS_NAME_CAS \nVisibleString \n(12 bytes) \nD / RO \n6 \n \n\"  \" \nValid for sensor variant: IR \nContains the international CAS registration number (CAS= Chemical Abstracts Service) of the \ncurrently set calibration gas. \n40412 CAL_GAS_INDEX \nUnsigned8 \nD / RW \n1 \n \n0 ... \nMAX_CAL_GAS\n_INDEX \nValid for sensor variant: EC, IR \nContains the index of the currently set calibration gas.  \nThe parameter can be modified within a value range from 0 to MAX_CAL_GAS_INDEX using a write \nprocess, and the respective target calibration gas unit can be set. \nE.g.:  \nCAL_GAS_NAME[CAL_GAS_INDEX=0x00] = \"METHANE\" \nCAL_GAS_NAME[CAL_GAS_INDEX=0x01] = \"PROPANE\" \n40413 MAX_CAL_GAS_INDEX \nUnsigned8 \nD / RO \n1 \n \nValid for sensor variant: EC, IR \nContains information on the maximum possible index position of the CAL_GAS_INDEX parameter \nand is equivalent to the maximum number of selectable calibration gases supported by the current \nconfiguration of the gas detector. \nE.g.:"
+  },
+  {
+    "chunk_id": 122,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Unsigned8 \nD / RO \n1 \n \nValid for sensor variant: EC, IR \nContains information on the maximum possible index position of the CAL_GAS_INDEX parameter \nand is equivalent to the maximum number of selectable calibration gases supported by the current \nconfiguration of the gas detector. \nE.g.: \nCAL_GAS_NAME [0 ≤ CAL_GAS_INDEX ≤ MAX_CAL_GAS_INDEX] = \"XXXXXXXX\" \n40414 CAL_UNIT_NAME \nVisibleString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: EC, IR, CAT \nContains the name of the currently set calibration gas unit in ASCII format. \nE.g.: \nCAL_UNIT_NAME for CAL_UNIT_INDEX=0x00  =\"VOL%\"  \nCAL_UNIT_NAME for CAL_UNIT_INDEX=0x01  = \"LEL\" \n40417 CAL_UNIT_INDEX \nUnsigned8 \nD / RW \n1 \n \nSee table of \nunits \nValid for sensor variant: EC, IR, CAT \nContains the index of the currently set calibration gas unit. The parameter can be modified and the \nrespective calibration gas unit set with a write process. \nE.g.: \nCAL_UNIT_NAME for CAL_UNIT_INDEX=0x00  =\"VOL%\""
+  },
+  {
+    "chunk_id": 123,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Unsigned8 \nD / RW \n1 \n \nSee table of \nunits \nValid for sensor variant: EC, IR, CAT \nContains the index of the currently set calibration gas unit. The parameter can be modified and the \nrespective calibration gas unit set with a write process. \nE.g.: \nCAL_UNIT_NAME for CAL_UNIT_INDEX=0x00  =\"VOL%\"  \nCAL_UNIT_NAME for CAL_UNIT_INDEX=0x01  = \"LEL\" \n40418 CAL_GAS_CONCENTRATION \nFloat \nD / RW \n2 \n \n \nValid for sensor variant: EC, IR, CAT \nCalibration gas concentration."
+  },
+  {
+    "chunk_id": 124,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n11 \n40420 CAL_GAS_PLAUSIBILITY \nUnsigned8 \nD / RO \n1 \n \n \n0x00 \n0x04 \n0x08 \n0x10 \nValid for sensor variant: EC, IR, CAT \nPlausibility information for calibration. \nNo error \nCalibration gas concentration too low \nCalibration gas concentration too high \nNo sensor \n40421 START_STOP_CALIBRATION \nUnsigned8 \nD / RW \n1 \n \n \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \nValid for sensor variant: EC, IR, CAT \nParameters serve to calibrate the gas detector via the Modbus RTU interface. A detailed description \nof the parameters and the calibration procedure is available from your local Dräger service \norganization. \nStart of the zero adjustment \nStart of the span calibration \nMeasurement of the calibration gas concentration \nMeasurement of the target gas concentration \nSave the calibration \nExit calibration mode without saving \n40422 STATUS_CALIBRATION. \nTELEGRAMM_RESPONSE \nUnsigned8 \n \nD / RO \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \n0x06"
+  },
+  {
+    "chunk_id": 125,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Measurement of the calibration gas concentration \nMeasurement of the target gas concentration \nSave the calibration \nExit calibration mode without saving \n40422 STATUS_CALIBRATION. \nTELEGRAMM_RESPONSE \nUnsigned8 \n \nD / RO \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \n0x06 \nValid for sensor variant: EC, IR, CAT \nVale read back from calibration control. \nStart of the zero adjustment \nStart of the span calibration \nMeasurement of the calibration gas concentration \nMeasurement of the target gas concentration \nSave the calibration \nExit calibration mode \nCalibration mode not accessible \nSTATUS_CALIBRATION.STATE \nUnsigned8 \n \n \n0x00 \n0x02 \n0x03 \n0x04 \n0x05 \n0x06 \n0x07 \n0x0A \nValid for sensor variant: EC, IR, CAT \nContains the current status of the calibration  \nZero adjustment possible \nMeasurement of the calibration gas concentration \nMeasurement of the target gas concentration \nGas detector is in warm-up phase \nImpossible \nDate and time incorrect \nCalibration not OK"
+  },
+  {
+    "chunk_id": 126,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Valid for sensor variant: EC, IR, CAT \nContains the current status of the calibration  \nZero adjustment possible \nMeasurement of the calibration gas concentration \nMeasurement of the target gas concentration \nGas detector is in warm-up phase \nImpossible \nDate and time incorrect \nCalibration not OK \nNot in calibration mode \n40423 PERFORM_CALIBRATION.STATUS \nUnsigned8 \n \nD / RW \n1 \n \n \n \n \n \n0x00 \n0x02 \n0x03 \n0x04 \n0x05 \n0x06 \n0x07 \n0x0A \nValid for sensor variant: EC, IR, CAT  \nThis command is sent if the calibration parameters have to be recalculated. The recalculation is \ntriggered with a write process containing the data content 0xFFFF. The status can then be analyzed \nwith the parameters listed below. \nThe following responses are possible: \nZero adjustment possible \nMeasurement of the calibration gas concentration \nMeasurement of the target gas concentration \nGas detector is in warm-up phase \nCalibration not possible \nDate and time incorrect \nCalibration not OK"
+  },
+  {
+    "chunk_id": 127,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "with the parameters listed below. \nThe following responses are possible: \nZero adjustment possible \nMeasurement of the calibration gas concentration \nMeasurement of the target gas concentration \nGas detector is in warm-up phase \nCalibration not possible \nDate and time incorrect \nCalibration not OK \nNot in calibration mode"
+  },
+  {
+    "chunk_id": 128,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n12 \n \nSee also STATUS_CALIBRATION \nPERFORM_CALIBRATION.REST_SPAN \nUnsigned8 \n0x00..0xFF \nValid for sensor variant: EC, IR, CAT  \nRest span after calibration in % \n40424 LAST_CALIBRATION_DATE. SECONDS \nUnsigned16 \nD / RO \n4 \n \n \n \n0..60000 \nValid for sensor variant: EC, IR, CAT \nLast date of a successful calibration. Consists of the following sub-parameters. \nSpecification of the seconds in ms. \nE.g., time: 18:04:31000 o'clock  \nLAST_CALIBRATION_DATE. MINUTES \nUnsigned8 \n \n0..60 \nSpecification of the minutes. \nE.g., time: 18:04:31000 o'clock  \nLAST_CALIBRATION_DATE. HOURS \nUnsigned8 \n \n0..24 \nSpecification of the hours. \nE.g., time: 18:04:31000 o'clock  \nLAST_CALIBRATION_DATE. DAY \nUnsigned8 \n \n0..31 \nSpecification of the day. \nE.g., date: 2015-01-15 \nLAST_CALIBRATION_DATE. MONTH \nUnsigned8 \n \n1..12 \nSpecification of the month. \nE.g., date: 2015-01-15 \nLAST_CALIBRATION_DATE. YEAR \nUnsigned16 \n \n0..99 \nSpecification of the year."
+  },
+  {
+    "chunk_id": 129,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "LAST_CALIBRATION_DATE. DAY \nUnsigned8 \n \n0..31 \nSpecification of the day. \nE.g., date: 2015-01-15 \nLAST_CALIBRATION_DATE. MONTH \nUnsigned8 \n \n1..12 \nSpecification of the month. \nE.g., date: 2015-01-15 \nLAST_CALIBRATION_DATE. YEAR \nUnsigned16 \n \n0..99 \nSpecification of the year. \nE.g., date: 2015-01-15 \n40428 LAST_CALIBRATION_GAS_NAME \nVisibleString \n11 bytes \nD / RO \n6 \n \nValid for sensor variant: EC, IR, CAT \nName of the calibration gas used for the last calibration. \n40434 LAST_CALIBRATION_GAS_UNIT \nVisibleString \n6 bytes \nD / RO \n3 \n \nValid for sensor variant: EC, IR, CAT \nUnit of the calibration gas used for the last calibration. \n40437 LAST_CALIBRATION_GAS_CONCENTRATION \nFloat \nD / RO \n2 \n \nValid for sensor variant: EC, IR, CAT \nCalibration gas concentration used for the last calibration. \n40439 LAST_CALIBRATION_GAS_MEAS_VALUE \nFloat \nD / RO \n2 \n \nValid for sensor variant: EC, IR, CAT \nMeasured value before the last calibration. \n40441 NEXT_CALIBRATION_DATE.SECONDS \nUnsigned16"
+  },
+  {
+    "chunk_id": 130,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "2 \n \nValid for sensor variant: EC, IR, CAT \nCalibration gas concentration used for the last calibration. \n40439 LAST_CALIBRATION_GAS_MEAS_VALUE \nFloat \nD / RO \n2 \n \nValid for sensor variant: EC, IR, CAT \nMeasured value before the last calibration. \n40441 NEXT_CALIBRATION_DATE.SECONDS \nUnsigned16 \nD / RO \n4 \n \n \n \n \n0..60000 \nValid for sensor variant: EC, IR, CAT \nDate of the next calibration \nDate of the next calibration. Consists of the following sub-parameters. \nSpecification of the seconds in ms. \nE.g., time: 18:04:31000 o'clock  \nNEXT_CALIBRATION_DATE.MINUTES \nUnsigned8 \n \n0..60 \nSpecification of the minutes. \nE.g., time: 18:04:31000 o'clock  \nNEXT_CALIBRATION_DATE.HOURS \nUnsigned8 \n \n0..24 \nSpecification of the hours. \nE.g., time: 18:04:31000 o'clock  \nNEXT_CALIBRATION_DATE.DAY \n Unsigned8 \n \n0..31 \nSpecification of the day. \nE.g., date: 2015-01-15 \nNEXT_CALIBRATION_DATE.MONTH \nUnsigned8 \n \n1..12 \nSpecification of the month. \nE.g., date: 2015-01-15 \nNEXT_CALIBRATION_DATE.YEAR"
+  },
+  {
+    "chunk_id": 131,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "0..24 \nSpecification of the hours. \nE.g., time: 18:04:31000 o'clock  \nNEXT_CALIBRATION_DATE.DAY \n Unsigned8 \n \n0..31 \nSpecification of the day. \nE.g., date: 2015-01-15 \nNEXT_CALIBRATION_DATE.MONTH \nUnsigned8 \n \n1..12 \nSpecification of the month. \nE.g., date: 2015-01-15 \nNEXT_CALIBRATION_DATE.YEAR \nUnsigned16 \n \n0..99 \nSpecification of the year. \nE.g., date: 2015-01-15 \n40445 CALIBRATION_INTERVAL \nUnsigned16 \nD / RW \n1 \n \n \n1 \nValid for sensor variant: EC, IR, CAT \nCalibration interval in days \nValue of MAX_CALIBRATION_INTERVAL \n40446 MAX_CALIBRATION_INTERVAL \nUnsigned16 \nD / RO \n1 \n \nValid for sensor variant: EC, IR, CAT"
+  },
+  {
+    "chunk_id": 132,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n13 \n1 \nMaximum calibration interval \n40447 CAL_GAS_LOWER_EXPLOSION_LEVEL \nFloat \nD / RO \n2 \n \n0.0 \nValid for sensor variant: EC, IR \nLower explosive limit of the gas in Vol%. \n40449 CALIBRATION_AUTOMATIC_ON_OFF \nUnsigned8 \nD / RW \n1 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nAuto-calibration menu function is available. \nInactive \nactive \n40450 READ_CALIBRATION_CONCENTRATION \nFloat \nD / RO \n2 \n \n0.0 \nValid for sensor variant: EC, IR, CAT \nCalibration gas concentration. \n40452 CAL_ALLOWED_UNITS \nUnsigned8 \nD / RO \n1 \n \n0 \nValid for sensor variant: EC, IR, CAT \nAllowed units for calibration. \n40453 CAL_GAS_LOWER_LEL_LIMIT \nFloat \nD / RO \n2 \n \nValid for sensor variant: EC, IR, CAT \nLowest value that can be set for the lower explosive limit in Vol% of the calibration gas. \n40455 CAL_GAS_UPPER_LEL_LIMIT \nFloat \nD / RO \n2 \n \nValid for sensor variant: EC, IR, CAT"
+  },
+  {
+    "chunk_id": 133,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "40453 CAL_GAS_LOWER_LEL_LIMIT \nFloat \nD / RO \n2 \n \nValid for sensor variant: EC, IR, CAT \nLowest value that can be set for the lower explosive limit in Vol% of the calibration gas. \n40455 CAL_GAS_UPPER_LEL_LIMIT \nFloat \nD / RO \n2 \n \nValid for sensor variant: EC, IR, CAT \nHighest value that can be set for the lower explosive limit in Vol% of the calibration gas. \n \nMeasured value (registers 40501 – 40533) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40501 CAPTURE_OFFSET \nFloat \nD / RW \n2 \n- \nValid for sensor variant: EC, IR, CAT \nOffset of the capture range \n40503 CAPTURE_LOW \nFloat \nD / RW \n2 \n- \nValid for sensor variant: EC, IR, CAT \nLower limit of the capture range. \n40505 CAPTURE_HIGH \nFloat \nD / RW \n2 \n- \nValid for sensor variant: EC, IR, CAT \nUpper limit of the capture range. \n40507 MEASUREMENT_MODE.VALUE \nFloat \nD / RO \n2 \n0 \nValid for sensor variant: EC, IR, CAT \nContains the currently measured gas concentration."
+  },
+  {
+    "chunk_id": 134,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Lower limit of the capture range. \n40505 CAPTURE_HIGH \nFloat \nD / RW \n2 \n- \nValid for sensor variant: EC, IR, CAT \nUpper limit of the capture range. \n40507 MEASUREMENT_MODE.VALUE \nFloat \nD / RO \n2 \n0 \nValid for sensor variant: EC, IR, CAT \nContains the currently measured gas concentration. \n40509 MEASUREMENT_MODE.DECIMAL_ADJUST \nUnsigned8 \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x03 \nValid for sensor variant: EC, IR, CAT \nNumber of decimal places for the target gas concentration on the display \nDisplay: 1 \nDisplay: 1.1 \nDisplay: 1.12 \n \n \nDisplay: 1.123 \nMEASUREMENT_MODE.ALARM_CONDITION \nUnsigned8 \n \n \n \n0x01 \n0x02 \n0x04 \n0x08 \n0x10 \n0x20 \n0x40 \n0x80 \nValid for sensor variant: EC, IR, CAT \nContains information whether the A1 or A2 alarm is activated and whether the current measured \nvalue is above or below the alarm condition. \nAlarm 1 triggered \nAlarm 2 triggered \nError triggered \nNot used \nA1 alarm condition exists \nA2 alarm condition exists \nReserved \n- \n40510 SECONDARY_VALUE \nFloat \nD / RO \n2"
+  },
+  {
+    "chunk_id": 135,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "value is above or below the alarm condition. \nAlarm 1 triggered \nAlarm 2 triggered \nError triggered \nNot used \nA1 alarm condition exists \nA2 alarm condition exists \nReserved \n- \n40510 SECONDARY_VALUE \nFloat \nD / RO \n2 \n0.0 \nValid for sensor variant: EC, IR, CAT"
+  },
+  {
+    "chunk_id": 136,
+    "page": 52,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n14 \nSecond measured value – temperature in the transmitter. \n40512 SECONDARY_VALUE_UNIT \nUnsigned8 \nS / RO \n1 \n \n \n1001 \nValid for sensor variant: EC, IR, CAT \nMeasuring unit of the \"SECONDARY_VALUE\". \nDegrees Celsius \n40513 CATEGORY \nUnsigned8 \nD / RW \n1 \n \n- \nValid for sensor variant: IR \nIndex of the set category for P87X0. \n40514 NUMBER_CATEGORIES \nUnsigned8 \nD / RO \n1 \n \n0x00 \nValid for sensor variant: IR \nNumber of categories that can be set for P87X0. \n40515 NAME_CATEGORY_5 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 5. \n40518 NAME_CATEGORY_6 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 6. \n40521 NAME_CATEGORY_7 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 7. \n40524 NAME_CATEGORY_8 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR"
+  },
+  {
+    "chunk_id": 137,
+    "page": 52,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "\"  \" \nValid for sensor variant: IR \nName of the category with the index 6. \n40521 NAME_CATEGORY_7 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 7. \n40524 NAME_CATEGORY_8 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 8. \n40527 NAME_CATEGORY_9 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 9. \n40530 NAME_CATEGORY_10 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 10. \n40533 NAME_CATEGORY_11 \nString \n(5 bytes) \nD / RO \n3 \n \n\"  \" \nValid for sensor variant: IR \nName of the category with the index 11. \n \nData logger (registers 40601 – 40607) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40601 DATA_LOGGER_MODULE \nUnsigned8 \nD / RO \n1 \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT"
+  },
+  {
+    "chunk_id": 138,
+    "page": 52,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Name of the category with the index 11. \n \nData logger (registers 40601 – 40607) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40601 DATA_LOGGER_MODULE \nUnsigned8 \nD / RO \n1 \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT \nThe data logger module is not included in the gas detector. The function can be enabled with a data \nlogger dongle. \nThe data logger module is included in the gas detector and can be used. \n40602 DATA_LOGGER. BUFFER_MODE \nUnsigned8 \n \n \nD / RW \n4 \n \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nContains information whether the data logger memory is configured as a stack or as a circular \nbuffer.  \nMemory of the data logger is configured as a stack. (Limited storage of measured values!) \nMemory of the data logger is configured as a circular buffer. (Caution: older measured values may \nbe overwritten.) \nDATA_LOGGER.ACTIVE \nUnsigned8 \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT"
+  },
+  {
+    "chunk_id": 139,
+    "page": 52,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Memory of the data logger is configured as a stack. (Limited storage of measured values!) \nMemory of the data logger is configured as a circular buffer. (Caution: older measured values may \nbe overwritten.) \nDATA_LOGGER.ACTIVE \nUnsigned8 \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nThe data logger is currently not active and does not save measured values. To deactivate the data \nlogger, write the value 0x00 into the parameter. \nThe data logger is active or can be activated using this parameter. \nDATA_LOGGER.SAMPLE_TIME \nUnsigned16 \n \n \nValid for sensor variant: EC, IR, CAT \nContains the currently set sampling time in seconds, \ne.g., 1 s, 600 s  \nDATA_LOGGER.TRIGGER_THRESHOLD \nUnsigned16 \n \n0..200 \nValid for sensor variant: EC, IR, CAT \nParameter defines the trigger threshold for saving measured values in the data logger."
+  },
+  {
+    "chunk_id": 140,
+    "page": 53,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n15 \nThe function is activated using the DATA_LOGGER.TRIGGER_CONFIG parameter. \nThe trigger threshold is calculated as a percentage of the set measuring range. \nTrigger threshold in % of the set measuring range \n=DATA_LOGGER.TRIGGER_THRESHOLD*0.5% \nDATA_LOGGER.EVALUATE_MODE \nUnsigned8 \n \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT \nThe peak value within the set sampling time (parameter: DATA_LOGGER.SAMPLE_TIME) is saved \nin the data logger. \nThe average value within the set sampling time (parameter: DATA_LOGGER.SAMPLE_TIME) is \nsaved in the data logger. \nDATA_LOGGER. TRIGGER_CONFIG \nUnsigned8 \n \n0x00 \n \n0x01 \nValid for sensor variant: EC, IR, CAT \nThe data logger saves measured values irrespective of the value of the \nDATA_LOGGER.TRIGGER_THRESHOLD parameter. \nThe data logger only saves measured values that are above value of the \nDATA_LOGGER.TRIGGER_THRESHOLD parameter. \n40606 DATA_LOGGER_PLAUSIBILITY \nUnsigned8 \nD / RO \n1"
+  },
+  {
+    "chunk_id": 141,
+    "page": 53,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "The data logger saves measured values irrespective of the value of the \nDATA_LOGGER.TRIGGER_THRESHOLD parameter. \nThe data logger only saves measured values that are above value of the \nDATA_LOGGER.TRIGGER_THRESHOLD parameter. \n40606 DATA_LOGGER_PLAUSIBILITY \nUnsigned8 \nD / RO \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x04 \nValid for sensor variant: EC, IR, CAT \nContains information on the previous configuration of the data logger.  \nNo error. \nThe selected trigger threshold in the DATA_LOGGER.TRIGGER_TRESHOLD parameter is too \nhigh. \nThe sampling time of the DATA_LOGGER.SAMPLE_TIME parameter is too short.  \nThe sampling time of the DATA_LOGGER.SAMPLE_TIME parameter is too long. \n40607 DATA_EVENT_LOGGER_CLEAR \nUnsigned8 \nD / RW \n1 \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nA telegram with the value 0x00 will delete the data logger. \nA telegram with the value 0x01 will delete the event logger. \n \nLanguage (registers 40651 – 40662) \nRegister Parameter \nData type \nMemory/ \naccess \nSize"
+  },
+  {
+    "chunk_id": 142,
+    "page": 53,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Unsigned8 \nD / RW \n1 \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nA telegram with the value 0x00 will delete the data logger. \nA telegram with the value 0x01 will delete the event logger. \n \nLanguage (registers 40651 – 40662) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40651 LANGUAGE_INDEX \nUnsigned8 \nD / RW \n1 \n \n \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \n0x06 \nValid for sensor variant: EC, IR, CAT \nContains the index of the set display language.  \nThe parameter can be modified within a value range from 0 to 0x06 using a write process to set the \nrespective language. \nGERMAN \nENGLISH \nSPANISH \nFRENCH \nRUSSIAN \nCHINESE \nUSER \n40652 Internal resource \nString \n9 bytes \nD \n5 \n \nInternal resource – do not write into \n40657 LANGUAGE_STATUS \nBit field (7-bit) \nD / RO \n1 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nAvailable languages \n \nLanguage 0 is valid"
+  },
+  {
+    "chunk_id": 143,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n16 \n0x02 \n0x04 \n0x08 \n0x10 \n0x20 \n0x40 \nLanguage 1 is valid \nLanguage 2 is valid \nLanguage 3 is valid \nLanguage 4 is valid \nLanguage 5 is valid \nLanguage 6 is valid \n40658 LCD_FUNCTION_KEY \nUnsigned8 \nD / RW \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \nValid for sensor variant: EC, IR, CAT \nFunction key assignment \nFCT_KEY_OFF \nFCT_KEY_GRAPH \nFCT_KEY_FAULT \nFCT_KEY_NOTICE \nFCT_KEY_FAULT_CODES \nFCT_KEY_VITALITY \n40659 LCD_FUNCTION_KEY_STATUS.SELECTION \nUnsigned8 \nD / RO \n1 \n \n \n0x00 \n0x01 \n0x02 \n0x03 \n0x04 \n0x05 \nValid for sensor variant: EC, IR, CAT \nReturns the current assignment of the function keys. \nFCT_KEY_OFF \nFCT_KEY_GRAPH \nFCT_KEY_FAULT \nFCT_KEY_NOTICE \nFCT_KEY_FAULT_CODES \nFCT_KEY_VITALITY \nLCD_FUNCTION_KEY_STATUS_ERROR_CODE \nUnsigned8 \n \n \n0x00 \n0x01 \n \n \n \n0x02 \nValid for sensor variant: EC, IR, CAT \nContains the status for the function key assignment. The following information is possible: \nNo error. \nFunction not supported."
+  },
+  {
+    "chunk_id": 144,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "FCT_KEY_NOTICE \nFCT_KEY_FAULT_CODES \nFCT_KEY_VITALITY \nLCD_FUNCTION_KEY_STATUS_ERROR_CODE \nUnsigned8 \n \n \n0x00 \n0x01 \n \n \n \n0x02 \nValid for sensor variant: EC, IR, CAT \nContains the status for the function key assignment. The following information is possible: \nNo error. \nFunction not supported. \nThe key assignment may refer to sensor-specific functions that are not supported by the current \nsensor. \nE.g., information on the sensitivity is only available for the EC sensor. \n \n40660 LCD_CONTRAST_VALUE \nUnsigned8 \nD / RW \n1 \n \n0 \n0..128 \nValid for sensor variant: EC, IR, CAT \nValue range for the display contrast. \n40661 LCD_MODE \nUnsigned8 \nD / RW \n1 \n \n \n0x00 \n0x01 \nValid for sensor variant: EC, IR, CAT \nDisplay settings. \nNon Display \nDefault \n40662 DISPLAY_CONTRAST_ALLOWED_LIMITS.MIN \nUnsigned 8 \nD / RO \n1 \n0x00 \n0..128 \nValid for sensor variant: EC, IR, CAT \nContains the minimum value for the LCD_CONTRAST_VALUE parameter \nDISPLAY_CONTRAST_ALLOWED_LIMITS.MAX \nUnsigned 8 \n0x00"
+  },
+  {
+    "chunk_id": 145,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Display settings. \nNon Display \nDefault \n40662 DISPLAY_CONTRAST_ALLOWED_LIMITS.MIN \nUnsigned 8 \nD / RO \n1 \n0x00 \n0..128 \nValid for sensor variant: EC, IR, CAT \nContains the minimum value for the LCD_CONTRAST_VALUE parameter \nDISPLAY_CONTRAST_ALLOWED_LIMITS.MAX \nUnsigned 8 \n0x00 \n0..128 \nValid for sensor variant: EC, IR, CAT \nContains the maximum value for the LCD_CONTRAST_VALUE parameter"
+  },
+  {
+    "chunk_id": 146,
+    "page": 55,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Annex 1 – Device-specific functional blocks \n17 \nPassword (registers 40701 – 40709) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40701 DISPLAY_CONTRAST_ALLOWED_LIMITS.MIN \nUnsigned 8 \nD / RO \n1 \n0x00 \n0..128 \nValid for sensor variant: EC, IR, CAT \nContains the minimum value for the LCD_CONTRAST_VALUE parameter \n40705 SET_CAL_PASSWORD \nVisible String \n(4 bytes) \nVisible String \n(4 bytes) \nD / W \n4 \n0x00003 \n0..9 \nA..Z \nValid for sensor variant: EC, IR, CAT \nSet the password for calibration. \n0 .. 3 old password \n4 .. 7 new password \n40709 PASSWORD_STATUS \nUnsigned8 \nUnsigned8 \nD / RO \n1 \n \n \n0 \n≠0 \nValid for sensor variant: EC, IR, CAT \nPassword has been changed. \nSuccessfully changed \nNot changed \n \nDevice & sensor (registers 40751 – 40753) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40751 DEVICE_INIT \nUnsigned8 \nD / RW \n1 \n \n0x00 \nValid for sensor variant: EC, IR, CAT"
+  },
+  {
+    "chunk_id": 147,
+    "page": 55,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Password has been changed. \nSuccessfully changed \nNot changed \n \nDevice & sensor (registers 40751 – 40753) \nRegister Parameter \nData type \nMemory/ \naccess \nSize \nValue range \n(default value) \nDescription \n40751 DEVICE_INIT \nUnsigned8 \nD / RW \n1 \n \n0x00 \nValid for sensor variant: EC, IR, CAT \nReset the sensor and device configuration to factory setting. \n40752 SENSOR_INIT \nUnsigned8 \nD / RW \n1 \n \n0x00 \nValid for sensor variant: EC, IR, CAT \nReset the sensor configuration to factory setting. \n40753 DONGLE_DEACTIVATION \nUnsigned8 \nD / RW \n1 \n \n0x00 \nValid for sensor variant: EC, IR, CAT \nAcknowledgment of the dongle deactivation."
+  },
+  {
+    "chunk_id": 148,
+    "page": 57,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ifu-9033781en-us-en-us ....pdf",
+    "content": "Á9033781VÈ\nManufacturer\nDräger Safety AG & Co. KGaA\nRevalstraße 1\nD-23560 Lübeck\nGermany\n+49 451 8 82-0\nFAX\n+49 451 8 82-2080\nhttp://www.draeger.com\n9033781 – IfU 4683.800 en\n© Dräger Safety AG & Co. KGaA\nEdition: 02 – 2019-01\n(Edition: 1 – 2016-06)\nSubject to alteration"
+  }
+]

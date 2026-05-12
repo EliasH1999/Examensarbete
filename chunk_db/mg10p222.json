@@ -1,0 +1,482 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "VLT® 5000\nInstruction Manual\nModbus RTU\n                     VLT® 6000 HVAC"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "23-6130-00\nRevision B 02/03\nModbus RTU Option Card\nVLT®6000\nAdjustable\nFrequency\nDrive\nInstruction Manual"
+  },
+  {
+    "chunk_id": 2,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Touching electrical parts may be fatal, even after equipment has\nbeen disconnected from AC line. To be sure that capacitors have\nfully discharged, wait 14 minutes after power has been removed\nbefore touching any internal component.\n\u0001\u0002\u0003\u0004\u0005\u0006\n\u0001\n\u0001\u0002\u0003\u0004\u0005\u0006\n\u0001\nRotating shafts and electrical equipment can\nbe hazardous. Therefore, it is strongly\nrecommended that all electrical work\nconform to  National Electrical Code (NEC)\nand all local regulations. Installation, start-\nup and maintenance should be performed\nonly by qualified personnel.\nMotor control equipment and electronic controls are\nconnected to hazardous line voltages. When servicing\ndrives and electronic controls, there will be exposed\ncomponents at or above line potential. Extreme care\nshould be taken to protect against shock. Stand on an\ninsulating pad and make it a habit to use only one hand\nwhen checking components. Always work with another\nperson in case of an emergency. Disconnect power"
+  },
+  {
+    "chunk_id": 3,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "components at or above line potential. Extreme care\nshould be taken to protect against shock. Stand on an\ninsulating pad and make it a habit to use only one hand\nwhen checking components. Always work with another\nperson in case of an emergency. Disconnect power\nwhenever possible to check controls or to perform\nmaintenance. Be sure equipment is properly grounded.\nWear safety glasses whenever working on electric control\nor rotating equipment.\n\u0007\u0002\u0006\u0003\b\u0003\u0004\n\u0001\nWarnings Against Unintended\nStart\n1.\nWhile the drive is connected to the AC line, the motor\ncan be brought to a stop by means of external switch\nclosures, serial bus commands or references. If personal\nsafety considerations make it necessary to ensure that\nno unintended start occurs, these stops are not sufficient.\n2.\nDuring programming of parameters, the motor may start.\nBe certain that no one is in the area of the motor or\ndriven equipment when changing parameters.\n3.\nA motor that has been stopped may start unexpectedly if"
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "no unintended start occurs, these stops are not sufficient.\n2.\nDuring programming of parameters, the motor may start.\nBe certain that no one is in the area of the motor or\ndriven equipment when changing parameters.\n3.\nA motor that has been stopped may start unexpectedly if\nfaults occur in the electronics of the drive, or if an overload,\na fault in the supply AC line or a fault in the motor\nconnection or other fault  clears.\n4.\nIf the “Local/Hand” key is activated, the motor can only\nbe brought to a stop by means of the “Stop/Off” key or\nan external safety interlock.\n\t\u0002\n\u000b\b\f\u0003\n\u0001\nElectronic components of BACLink portal are\nsensitive to electrostatic discharge (ESD). ESD\ncan reduce performance or destroy sensitive\nelectronic components. Follow proper ESD\nprocedures during installation or servicing to\nprevent damage."
+  },
+  {
+    "chunk_id": 5,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "3\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nTable of Contents\nOverview\nIntroduction ............................................................................................ 4\nAbout This Manual.................................................................................. 4\nAssumptions ........................................................................................... 4\nWhat You Should Already Know ........................................................... 4\nReferences .............................................................................................. 4\nModbus RTU Overview .......................................................................... 5\nVLT 6000 with Modbus RTU Option Overview ..................................... 5\nPre-installation Option Card and Drive Settings\nModbus RTU Option Card Baud Rate and Parity Settings ................. 7\nModbus RTU Option Card Address Settings ....................................... 8"
+  },
+  {
+    "chunk_id": 6,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "VLT 6000 with Modbus RTU Option Overview ..................................... 5\nPre-installation Option Card and Drive Settings\nModbus RTU Option Card Baud Rate and Parity Settings ................. 7\nModbus RTU Option Card Address Settings ....................................... 8\nVLT 6000 Parameter Settings................................................................. 8\nInstallation of Modbus Option Card\nModbus RTU Option Card Environmental Requirements...................... 9\nPower Supply........................................................................................... 9\nInstallation ............................................................................................... 9\nStatus LEDs ............................................................................................ 13\nOption Card Operability Loop Back Test.............................................. 13\nNetwork Configuration"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Status LEDs ............................................................................................ 13\nOption Card Operability Loop Back Test.............................................. 13\nNetwork Configuration\nRemote Terminal Unit ............................................................................. 14\nModbus RTU Message Structure .......................................................... 14\nTranslation from Modbus RTU Protocol to FC Protocol..................... 16\nFC Protocol Control Word Bit Description ........................................... 17\nConversion Factor .................................................................................. 17\nMemory Mapping .................................................................................... 17\nMemory Mapping:  Status Coil Maps.................................................... 18\nMemory Mapping:  Register Maps ........................................................ 18"
+  },
+  {
+    "chunk_id": 8,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Memory Mapping .................................................................................... 17\nMemory Mapping:  Status Coil Maps.................................................... 18\nMemory Mapping:  Register Maps ........................................................ 18\nMessage Translation Examples ............................................................. 19\nException Codes\nException Code Tables........................................................................... 23\nAppendix A\nSupported Modbus RTU Function Codes ............................................ 24"
+  },
+  {
+    "chunk_id": 9,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "4\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nThis manual is intended to be used for both\ninstruction and reference. It only briefly\ntouches on the basics of the Modbus proto-\ncol whenever necessary to gain an\nunderstanding of the Modbus RTU option\ncard for the VLT 6000.\nThis manual is also intended to serve as a\nguideline when you specify and optimize your\ncommunication system. Even if you are an\nIntroduction\nAbout This\nManual\nWhat You\nShould\nAlready Know\nAssumptions\nThis manual provides comprehensive\ninstructions on the installation and set up of\nthe Modbus RTU option card for the\nVLT 6000 Adjustable Frequency Drive to\ncommunicate over a Modbus network.\nThe VLT 6000 Modbus RTU option card is\ndesigned to communicate with any controller\nthat supports the interfaces defined in this\ndocument. It is assumed that you have full\nknowledge of the capabilities and limitations\nof the controller.\nThis manual assumes that you have a\ncontroller that supports the interfaces in this"
+  },
+  {
+    "chunk_id": 10,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "designed to communicate with any controller\nthat supports the interfaces defined in this\ndocument. It is assumed that you have full\nknowledge of the capabilities and limitations\nof the controller.\nThis manual assumes that you have a\ncontroller that supports the interfaces in this\ndocument and that all the requirements\nstipulated in the controller, as well as the\nVLT 6000 Adjustable Frequency Drive, are\nstrictly observed, along with all limitations\ntherein.\nexperienced Modbus programmer, it is\nsuggested that you read this manual in its\nentirety before you start programming since\nimportant information can be found in all\nsections.\nReferences\nVLT® 6000 Installation, Operation and\nInstruction Manual, Danfoss Graham\ndocument number 23-6108-00.\n(Referred to as the VLT 6000 Operating\nInstructions in this document.)\nFor specific information on installation and\noperation of the adjustable frequency drive,\nrefer to the VLT 6000 Operating Instructions."
+  },
+  {
+    "chunk_id": 11,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "5\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nModbus RTU\nOverview\nThe common language used by all Modicon\ncontrollers is the Modbus RTU (Remote\nTerminal Unit) protocol. This protocol\ndefines a message structure that controllers\nwill recognize and use, regardless of the\ntype of networks over which they\ncommunicate. It describes the process a\ncontroller uses to request access to another\ndevice, how it will respond to requests from\nthe other devices, and how errors will be\ndetected and reported. It establishes a\ncommon format for the layout and contents\nof message fields.\nDuring communications on a Modbus RTU\nnetwork, the protocol determines how each\ncontroller will know its device address,\nrecognize a message addressed to it,\ndetermine the kind of action to be taken,\nand extract any data or other information\ncontained in the message. If a reply is\nrequired, the controller will construct the\nreply message and send it.\nControllers communicate using a master-"
+  },
+  {
+    "chunk_id": 12,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "recognize a message addressed to it,\ndetermine the kind of action to be taken,\nand extract any data or other information\ncontained in the message. If a reply is\nrequired, the controller will construct the\nreply message and send it.\nControllers communicate using a master-\nslave technique in which only one device\n(the master) can initiate transactions (called\nqueries). The other devices (slaves) respond\nby supplying the requested data to the\nmaster, or by taking the action requested in\nthe query.\nThe master can address individual slaves,\nor can initiate a broadcast message to all\nslaves. Slaves return a message (called a\nresponse) to queries that are addressed to\nthem individually. Responses are not returned\nto broadcast queries from the master.\nThe Modbus RTU protocol establishes the\nformat for the master’s query by placing into\nit the device (or broadcast) address, a\nfunction code defining the requested action,\nany data to be sent, and an error-checking"
+  },
+  {
+    "chunk_id": 13,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "them individually. Responses are not returned\nto broadcast queries from the master.\nThe Modbus RTU protocol establishes the\nformat for the master’s query by placing into\nit the device (or broadcast) address, a\nfunction code defining the requested action,\nany data to be sent, and an error-checking\nfield. The slave’s response message is also\nconstructed using Modbus protocol. It\ncontains fields confirming the action taken,\nany data to be returned, and an error-\nchecking field. If an error occurred in receipt\nof the message, or if the slave is unable to\nperform the requested action, the slave will\nconstruct an error message and send it in\nresponse.\nVLT 6000\nwith Modbus\nRTU Option\nOverview\nThe VLT 6000 Adjustable Frequency Drive\nwith the Modbus RTU option card installed\ncommunicates in Modbus RTU format over\nan EIA-485 (formerly RS-485) network. The\noption card acts as a translator between the\ndrive's internal FC protocol and Modbus RTU.\nThis allows access to the drive's Control Word"
+  },
+  {
+    "chunk_id": 14,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "The VLT 6000 Adjustable Frequency Drive\nwith the Modbus RTU option card installed\ncommunicates in Modbus RTU format over\nan EIA-485 (formerly RS-485) network. The\noption card acts as a translator between the\ndrive's internal FC protocol and Modbus RTU.\nThis allows access to the drive's Control Word\nand Bus Reference.\nThe Control Word allows Modbus to control\nseveral important functions of the drive:\n• Start\n• Stop the drive in several ways:\nCoast stop\nQuick stop\nDC Brake stop\nNormal (ramp) stop\n• Reset after a fault trip\n• Run at a variety of preset speeds\n• Run in reverse\n• Change the active setup\n• Control the drive's two built-in relays\nThe Bus Reference is commonly used for\nspeed control.\nIt is also possible to access the drive\nparameters, read their values, and, where\npossible, write values to them. This permits\na range of control possibilities, including\ncontrolling the drive's setpoint when its\ninternal PID controller is used."
+  },
+  {
+    "chunk_id": 15,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "6\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nVLT 6000 Modbus RTU Option Card\n6-Pin Connector\nto VLT 6000 Terminals\nMounting Hole\nLEDs\nBaud Rate and Parity\n9-Input DIP Switch\n3-Pin\nEIA-485 Connector\nMounting Hole\nAddress and Termination\n9-Input DIP Switch\n(pin 1)\n(pin 1)\n(pin 9 termination)\n3-Pin\nEIA-485 Connector"
+  },
+  {
+    "chunk_id": 16,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "7\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nModbus RTU\nOption Card\nBaud Rate\nand Parity\nSettings\nThe Modbus RTU communication protocol\naccesses the internal Danfoss FC protocol\nwithin the VLT 6000 to control the drive through\nserial communications. (The Modbus-to-FC\ninterface uses 9600 Baud, 8 Bits, Even Parity,\nand 1 Stop Bit.)\nThe Modbus RTU option card has a 9-input\nDIP switch for setting baud rate and parity  (see\nfigure below). The option card generally uses\n9600 baud rate with no parity. Set the switch\npositions in accordance with the following\ninstructions.\n•\nSet input switches 1-3 to ON to select 9600\nbaud rate.\n•\nSet input switches 4 and 5 to ON to select\nno parity.\n9600 Baud Rate and No Parity Switch Settings\nSwitches 6-9 are unassigned reserved\nswitches. Their setting does not matter.\nNOTE\nSet baud rate and parity switch\nsettings prior to installing\nModbus RTU option card for ease\nof access.\nFor Modbus RTU networks operating at other"
+  },
+  {
+    "chunk_id": 17,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "no parity.\n9600 Baud Rate and No Parity Switch Settings\nSwitches 6-9 are unassigned reserved\nswitches. Their setting does not matter.\nNOTE\nSet baud rate and parity switch\nsettings prior to installing\nModbus RTU option card for ease\nof access.\nFor Modbus RTU networks operating at other\nthan 9600 baud and no parity, determine switch\npositions from the tables provided below.\nBaud Rate \nSW1 \nSW2 \nSW3 \n300 \nOFF \nOFF \nOFF \n1200 \nOFF \nOFF \nON \n2400 \nOFF \nON \nOFF \n4800 \nOFF \nON \nON \n9600 \nON \nON \nON \n19200 \nON \nOFF \nON \n \nParity \nSW4 \nSW5 \nNone \nON \nON \nOdd \nOFF \nON \nEven \nOFF \nOFF \n \nOptional Baud Rate and Parity Switch Settings\n1\n2\n3\n4\n5\n6\n7\n8\n9\nOFF\nON\nPCB EDGE\nO\nF\nF"
+  },
+  {
+    "chunk_id": 18,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "8\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nAddress\n(Hex)\nSW1\n20\nSW2\n21\nSW3\n22\nSW4\n23\nSW5\n24\nSW6\n25\nSW7\n26\nSW8\n27\nTERM\nDefault\n01\nON\nOFF\nOFF\nOFF\nOFF\nOFF\nOFF\nOFF\nON\n55\nON\nOFF\nON\nOFF\nON\nOFF\nON\nOFF\nON\nAA\nOFF\nON\nOFF\nON\nOFF\nON\nOFF\nON\nON\nF7\nON\nON\nON\nOFF\nON\nON\nON\nON\nON\nAddress Input Selection\nThe Modbus RTU option card interface to\nthe VLT 6000 Adjustable Frequency Drive FC\nprotocol requires drive parameter values\nselected as shown. They are the default\nsettings for those parameters and probably\nrequire no change to operate the drive using\nModbus. The Modbus RTU option card\nalways transmits to the drive in which it\nresides as address one (001). See the VLT\n6000 Operating Instructions for details on\nselecting and changing parameter values, if\nnecessary.\nVLT 6000\nParameter\nSettings\n•\nParameter 500, Protocol:  FC protocol\n•\nParameter 501, Address:  001\n•\nParameter 502, Baud Rate:  9600 baud\nThe Modbus RTU option card has an address\nand termination 9-input DIP switch. The"
+  },
+  {
+    "chunk_id": 19,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "selecting and changing parameter values, if\nnecessary.\nVLT 6000\nParameter\nSettings\n•\nParameter 500, Protocol:  FC protocol\n•\nParameter 501, Address:  001\n•\nParameter 502, Baud Rate:  9600 baud\nThe Modbus RTU option card has an address\nand termination 9-input DIP switch. The\nModbus network address for the VLT 6000 is\nset by DIP switch positions on the switch. Pin\n9 is an ON/OFF switch for network termination.\nDIP switch positions are read on power-up only,\nso position changes will not be recognized until\nthe next power-up.\nModbus RTU\nOption Card\nNetwork\nAddress\nSettings\n•\nSet the Modbus address for the VLT 6000\nin accordance with the table below. The\ndefault input setting is for ADDRESS 1 and\ntermination ON.\nAddress and Termination\n1\n2\n3\n4\n5\n6\n7\n8\n9\nOFF\nON\nO  P  E  N\nPCB EDGE"
+  },
+  {
+    "chunk_id": 20,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "9\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nInstallation\nThe following section describes the\ninstallation procedures for the Modbus RTU\noption card. For additional information on\ninstallation and operation of the VLT 6000,\nrefer to the VLT 6000 Operating Instructions.\nVLT adjustable frequency drive\ncontains dangerous voltages\nwhen connected to line voltage.\nAfter disconnecting from power\nline, wait at least 14 minutes\nbefore touching any electrical\ncomponents.\nOnly a competent electrician\nshould carry out electrical\ninstallation. Improper installation\nof motor or drive can cause\nequipment failure, serious injury\nor death. Follow this manual,\nNational Electrical Codes and\nlocal safety codes.\n\t\u0002\n\u000b\b\f\u0003\n\u0001\n\t\u0002\n\u000b\b\f\u0003\n\u0001\nElectronic components of\nadjustable frequency drive and\nModbus RTU option card are\nsensitive \nto \nelectrostatic\ndischarge (ESD). ESD can reduce\nperformance or destroy sensitive\nelectronic components. Follow\nproper ESD procedures during"
+  },
+  {
+    "chunk_id": 21,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "local safety codes.\n\t\u0002\n\u000b\b\f\u0003\n\u0001\n\t\u0002\n\u000b\b\f\u0003\n\u0001\nElectronic components of\nadjustable frequency drive and\nModbus RTU option card are\nsensitive \nto \nelectrostatic\ndischarge (ESD). ESD can reduce\nperformance or destroy sensitive\nelectronic components. Follow\nproper ESD procedures during\ninstallation or servicing to prevent\ndamage.\nIt is responsibility of user or\ninstaller of VLT adjustable\nfrequency drive to provide\nproper grounding and motor\noverload and branch protection\naccording to National Electrical\nCodes and local codes.\nModbus RTU\nOption Card\nEnvironmental\nRequirements\nEnvironmental requirements for the Modbus\nRTU option card are listed below.\nDescription\nRequirement\nOperating temperature\n-5° F to +140° F (-20° C to +60° C)\nStorage temperature\n-40° F to +176° F (-40° C to + 80° C)\nHumidity\n5% to 95% relative, non-condensing\n\u0001\u0002\u0003\u0004\u0005\u0006\n\u0001\n\u0007\u0002\u0006\u0003\b\u0003\u0004\n\u0001\nPower\nSupply\nThe Modbus RTU option card is powered by\n24 VDC and draws 38 mA of current at 24V."
+  },
+  {
+    "chunk_id": 22,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "10\nMG.10.P2.22 - VLT is a registered Danfoss trademark\n1. Access to\nControl\nCard\nCassette\nNEMA 1 Drives:\n•\nRemove Local Control Panel (LCP) by\npulling out from top of display (A) by hand.\nLCP connector on panel back will\ndisconnect.\n•\nRemove protective cover by gently prying\nwith a screw driver at notch (B) and lift\ncover out of guide pin fittings.\nNEMA 12 Drives:\n•\nOpen front panel of drive by loosening\ncaptive screws and swing open.\n•\nDisconnect Local Control Panel (LCP)\ncable.\n•\nRemove control wiring by unplugging\nconnector terminals (A).\n•\nRemove grounding clamps (B) by\nremoving two screws holding each in\nplace. Save screws for reassembly.\n•\nLoosen two captive screws (C) securing\ncassette to chassis.\n2. Disconnect\nControl Card\nCassette\n•\nLift control card cassette from bottom.\n•\nUnplug two ribbon cables (A) and (B) from\nVLT 6000 control board.\n•\nUnhinge cassette at top to remove.\n3. Remove\nCassette\nand Ribbon\nCables\nNOTE\nRibbon cables will need to be\nreconnected to same connec-"
+  },
+  {
+    "chunk_id": 23,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "2. Disconnect\nControl Card\nCassette\n•\nLift control card cassette from bottom.\n•\nUnplug two ribbon cables (A) and (B) from\nVLT 6000 control board.\n•\nUnhinge cassette at top to remove.\n3. Remove\nCassette\nand Ribbon\nCables\nNOTE\nRibbon cables will need to be\nreconnected to same connec-\ntions from which removed.\n(A)\n(B)\n(A)\n(B)\n(C)\n(A)\n(B)"
+  },
+  {
+    "chunk_id": 24,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "11\nMG.10.P2.22 - VLT is a registered Danfoss trademark\n•\nOn back of cassette, insert edge of\nModbus RTU option card into slot at side\nof cassette (A).\n•\nSecure opposite side of card with 2\nself-tapping screws and washers provided\n(B). Using a Torx T-10 screw driver, tighten\nto 8 in-lbs.\n4. Secure\nModbus RTU\nOption Card\n5. Wire\nModbus RTU\nOption Card\nConnector to\nVLT 6000\nTerminals\n•\nWire Modbus interface connector (24 V\npower) pin 1 to VLT 6000 terminal 12 or\n13.\n•\nWire Modbus interface connector (RTxD)\npin 2 to VLT 6000 terminal 69.\n•\nWire Modbus interface connector (com)\npin 3 to VLT 6000 terminals 39 and 61.\n•\nWire Modbus interface connector\n(RTxD') pin 4 to VLT 6000 terminal 68.\n•\nPlug Modbus interface connector into\nbottom of Modbus RTU option card.\n•\nConnect control card cassette to hinge\nat top of drive.\n•\nConnect ribbon cables.\n6. Install\nRibbon\nCables\nNOTE\nRibbon cables must be recon-\nnected to same connections\nfrom which removed.\nNOTE\nUse 18 to 22 gauge wire.  Torque"
+  },
+  {
+    "chunk_id": 25,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "•\nPlug Modbus interface connector into\nbottom of Modbus RTU option card.\n•\nConnect control card cassette to hinge\nat top of drive.\n•\nConnect ribbon cables.\n6. Install\nRibbon\nCables\nNOTE\nRibbon cables must be recon-\nnected to same connections\nfrom which removed.\nNOTE\nUse 18 to 22 gauge wire.  Torque\nterminals to 4.5 in-lbs. Modbus\ninterface connector terminals 5\nand 6 are spares.\n(B)\n(A)\n(spare)\n(spare)\nRTxD\nRTxD'\nCom\n24V in\nPin 1\nto terminal 12 or 13\nto terminal 69 (-)\nto terminals 39 and 61\nto terminal 68 (+)"
+  },
+  {
+    "chunk_id": 26,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "12\nMG.10.P2.22 - VLT is a registered Danfoss trademark\n7. Install\nControl Card\nCassette\n•\nConnect Modbus signal wire (RTxD+) to\npin 1 of EIA-485 (formerly RS-485)\nconnector.\n•\nConnect Modbus signal wire (Com) to pin\n2 of EIA-485 connector.\n•\nConnect Modbus signal wire (RTxD-) to\npin 3 of EIA-485 connector.\n•\nPlug EIA-485 connector into terminal port\nat side of Modbus RTU option card.\nNEMA 12 Drives\n•\nClose front cover panel and fasten with\ncaptive screws. Tighten to 7 in-lbs.\n8. Plug in\nTerminal\nConnector\n•\nFasten control card cassette by alternately\ntightening two captive screws (A). Tighten\nto 8 in-lbs.\n•\nRoute control wires through clamp\nfasteners (B) and secure clamps with two\nscrews.\n•\nConnect control terminals (C) by firmly\npressing them into connector receptacles.\nNEMA 1 Drives\n•\nInstall LCP by sliding bottom into guide slots\non cradle, then press into place ensuring\nthat connector on back of LCP is engaged.\n•\nReplace protective cover by positioning"
+  },
+  {
+    "chunk_id": 27,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "screws.\n•\nConnect control terminals (C) by firmly\npressing them into connector receptacles.\nNEMA 1 Drives\n•\nInstall LCP by sliding bottom into guide slots\non cradle, then press into place ensuring\nthat connector on back of LCP is engaged.\n•\nReplace protective cover by positioning\nguide pins at bottom of cover into holes\nin bottom of chassis and snap top of cover\ninto place.\nNEMA 12 Drives\n•\nPlug cable from LCP into connector on\nmain control card.\n(C)\n(B)\n(A)\nRTxD  (+)\nRTxD' (-)\nCom\nRS-485 Connector\nPin 1\nEIA-485 Connector"
+  },
+  {
+    "chunk_id": 28,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "13\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nStatus LEDs\nThe Modbus RTU option card has two LEDs.\nOne LED is used as a status for Modbus RTU\ncommunications and the other as a status\nfor VLT 6000 drive communications. Both\nLEDs use the same communications\npatterns. On power up, each LED state is\nflashed on for 250 milliseconds (Red, Green,\nOrange, Off). The VLT 6000 LED powers up\nfirst, then the Modbus LED. After power up,\nthe following are the only valid states:\n•\nFlashing Green (1 Hz):  Communications\nonline (VLT 6000 LED) or receiving data\n(Modbus LED)\n•\nFlashing Red (1 Hz):  Communications\ntime out\n•\nSolid Red:  Fault, communications halted\nOption Card\nOperability\nLoop Back\nTest\nA loop back test to confirm Modbus RTU\noption card operability can be performed. The\noption card must be removed from the\nadjustable frequency drive to gain access to\nthe 9-input dip switch for baud rate and parity\nand to rewire the option card connectors.\nEnsure that power has been"
+  },
+  {
+    "chunk_id": 29,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Loop Back\nTest\nA loop back test to confirm Modbus RTU\noption card operability can be performed. The\noption card must be removed from the\nadjustable frequency drive to gain access to\nthe 9-input dip switch for baud rate and parity\nand to rewire the option card connectors.\nEnsure that power has been\nremoved from adjustable fre-\nquency drive for a minimum of\n14 minutes to allow voltage to\ndissipate.\n•\nRemove the option card in accordance\nwith the procedures described in the\ninstallation section of this manual.\n•\nSet the dip switch positions in accordance\nwith the table below.\nSW1 \nSW2 \nSW3 \nSW4 \nSW5 \nSW6 \nSW7 \nSW8 \nSW9 \nON \nON \nON \nOFF \nOFF \nON \nON \nON \nON \n \n\u0001\u0002\u0003\u0004\u0005\u0006\n\u0001\n•\nRemove all wiring from both the 6-pin\noption card connector and the 3-pin\nEIA-485 connector.\n•\nWire the 6-pin option card connector to\nthe 3-pin EIA-485 connector as described\nbelow.\n•\nApply power to the unit.\nAfter the normal status LED check at\npower-up (see Status LEDs), the loop back"
+  },
+  {
+    "chunk_id": 30,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "\u0001\u0002\u0003\u0004\u0005\u0006\n\u0001\n•\nRemove all wiring from both the 6-pin\noption card connector and the 3-pin\nEIA-485 connector.\n•\nWire the 6-pin option card connector to\nthe 3-pin EIA-485 connector as described\nbelow.\n•\nApply power to the unit.\nAfter the normal status LED check at\npower-up (see Status LEDs), the loop back\ntest sets both LEDs to orange for a successful\ntest or red if the test fails. The orange or red\nindicator lasts around 10-15 seconds. The\nLEDs will then flash red or green\ncommunication indications.\n6-Pin Connector\nEIA-485 Connector\nPin 2\n    to\nPin 3\n    to\nPin 4\n    to\nPin 3\nPin 2\nPin 1\nLoop Back Test Switch Positions\nVLT 6000 LED\nModbus LED\n3-Pin EIA-485 Connector"
+  },
+  {
+    "chunk_id": 31,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "14\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nModbus RTU\nMessage\nFraming\nStructure\nThe controllers are setup to communicate on\nthe Modbus network using RTU (Remote\nTerminal Unit) mode, with each 8-bit byte in\nCoding System:\n8-bit binary, hexadecimal 0-9, A-F\nTwo hexadecimal characters contained in each 8-bit\nfield of the message\nBits Per Byte:\n1 start bit\n8 data bits, least significant bit sent first\n1 bit for even/odd parity; no bit for no parity\n1 stop bit if parity is used; 2 bits if no parity\nError Check Field:\nCyclical Redundancy Check (CRC)\nA Modbus RTU message is placed by the\ntransmitting device into a frame with a known\nbeginning and ending point. This allows\nreceiving devices to begin at the start of the\nmessage, read the address portion,\ndetermine which device is addressed (or all\ndevices, if the message is broadcast), and to\nknow when the message is completed.\nPartial messages are detected and errors set\nas a result.\nThe allowable characters transmitted for all"
+  },
+  {
+    "chunk_id": 32,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "message, read the address portion,\ndetermine which device is addressed (or all\ndevices, if the message is broadcast), and to\nknow when the message is completed.\nPartial messages are detected and errors set\nas a result.\nThe allowable characters transmitted for all\nfields are hexadecimal 0-9, A-F. The\nadjustable frequency drives monitor the\nnetwork bus continuously, including ‘silent’\nintervals. When the first field (the address field)\nis received, each drive or device decodes it\nto determine whether it is the addressed\ndevice.\nModbus RTU messages addressed to zero\nare converted to broadcast messages using\nthe FC protocol. No response is needed on\nbroadcast messages.\nTo ensure the attribute data returned is the\nmost current, each attribute access must\ninclude one attribute only.\nA typical message frame is shown below.\nStart\nAddress\nFunction\nData\nCRC Check\nEnd\nT1-T2-T3-T4\n8 Bits\n8 Bits\nn x 8 Bits\n16 Bits\nT1-T2-T3-T4\nRemote\nTerminal\nUnit\nStart/Stop Field"
+  },
+  {
+    "chunk_id": 33,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "To ensure the attribute data returned is the\nmost current, each attribute access must\ninclude one attribute only.\nA typical message frame is shown below.\nStart\nAddress\nFunction\nData\nCRC Check\nEnd\nT1-T2-T3-T4\n8 Bits\n8 Bits\nn x 8 Bits\n16 Bits\nT1-T2-T3-T4\nRemote\nTerminal\nUnit\nStart/Stop Field\nMessages start with a silent interval of at least\n3.5 character times. This is implemented as\na multiple of character times at the 9600\nnetwork baud rate (shown as Start T1-T2-\nT3-T4). The first field then transmitted is the\ndevice address. Following the last transmitted\ncharacter, a similar interval of at least 3.5\ncharacter times marks the end of the\nmessage. A new message can begin after\nthis interval.\nThe entire message frame must be\ntransmitted as a continuous stream. If a silent\ninterval of more than 1.5 character times\noccurs before completion of the frame, the\nreceiving device flushes the incomplete\nmessage and assumes that the next byte will\nbe the address field of a new message."
+  },
+  {
+    "chunk_id": 34,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "The entire message frame must be\ntransmitted as a continuous stream. If a silent\ninterval of more than 1.5 character times\noccurs before completion of the frame, the\nreceiving device flushes the incomplete\nmessage and assumes that the next byte will\nbe the address field of a new message.\nSimilarly, if a new message begins earlier that\n3.5 character times following a previous\nmessage, the receiving device will consider\nit a continuation of the previous message.\nThis will set an error, since the value in the\nfinal CRC field is not valid for the combined\nmessages.\nTypical Modbus RTU Message Structure\nModbus RTU\nMessage\nFraming\nStructure\n(continued)\na message contains two 4-bit hexadecimal\ncharacters. The format for each byte is shown\nbelow."
+  },
+  {
+    "chunk_id": 35,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "15\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nAddress Field\nThe address field of a message frame\ncontains 8 bits. Valid slave device addresses\nare in the range of 0 – 247 decimal. The\nindividual slave devices are assigned\naddresses in the range of 1 – 247. (0 is\nreserved for broadcast mode, which all slaves\nrecognize.) A master addresses a slave by\nplacing the slave address in the address field\nof the message. When the slave sends its\nresponse, it places its own address in this\naddress field to let the master know which\nslave is responding.\nFunction Field\nThe function field of a message frame\ncontains 8 bits. Valid codes are in the range\nof 1 – 255 decimal. (See Appendix A for a\ndescription of  supported Modbus functions.)\nWhen a message is sent from a master to a\nslave device, the function code field tells the\nslave what kind of action to perform.\nWhen the slave responds to the master, it\nuses the function code field to indicate either"
+  },
+  {
+    "chunk_id": 36,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "description of  supported Modbus functions.)\nWhen a message is sent from a master to a\nslave device, the function code field tells the\nslave what kind of action to perform.\nWhen the slave responds to the master, it\nuses the function code field to indicate either\na normal (error-free) response, or that some\nkind of error occurred (called an exception\nresponse). For a normal response, the slave\nsimply echoes the original function code. For\nan exception response, the slave returns a\ncode that is equivalent to the original function\ncode with its most-significant bit set to a logic\n1. In addition, the slave places a unique code\ninto the data field of the response message.\nThis tells the master what kind of error\noccurred, or the reason for the exception.\nSee the Exception Codes section in this\nmanual for definitions.\nData Field\nThe data field is constructed using sets of\ntwo hexadecimal digits, in the range of 00 to\nFF hexadecimal. These are made from one"
+  },
+  {
+    "chunk_id": 37,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "This tells the master what kind of error\noccurred, or the reason for the exception.\nSee the Exception Codes section in this\nmanual for definitions.\nData Field\nThe data field is constructed using sets of\ntwo hexadecimal digits, in the range of 00 to\nFF hexadecimal. These are made from one\nRTU character. The data field of messages\nsent from a master to slave device contains\nadditional information which the slave must\nuse to take the action defined by the function\ncode. This can include items like discrete and\nregister addresses, the quantity of items to\nbe handled, and the count of actual data\nbytes in the field. The data field can have a\nlength of zero.\nCRC Check Field\nMessages include an error-checking field that\nis based on a cyclical redundancy check\n(CRC) method. The CRC field checks the\ncontents of the entire message. It is applied\nregardless of any parity check method used\nfor the individual characters of the message.\nThe CRC value is calculated by the"
+  },
+  {
+    "chunk_id": 38,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Messages include an error-checking field that\nis based on a cyclical redundancy check\n(CRC) method. The CRC field checks the\ncontents of the entire message. It is applied\nregardless of any parity check method used\nfor the individual characters of the message.\nThe CRC value is calculated by the\ntransmitting device, which appends the CRC\nas the last field in the message. The receiving\ndevice recalculates a CRC during receipt of\nthe message and compares the calculated\nvalue to the actual value received in the CRC\nfield. If the two values are not equal, an error\nresults.\nThe error checking field contains a 16-bit\nbinary value implemented as two 8-bit bytes.\nWhen this is done, the low-order byte of the\nfield is appended first, followed by the high-\norder byte. The CRC high-order byte is the\nlast byte sent in the message.\nCoil/Register Addressing\nAll data addresses in Modbus messages are\nreferenced to zero. The first occurrence of a\ndata item is addressed as item number zero.\nFor example:"
+  },
+  {
+    "chunk_id": 39,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "field is appended first, followed by the high-\norder byte. The CRC high-order byte is the\nlast byte sent in the message.\nCoil/Register Addressing\nAll data addresses in Modbus messages are\nreferenced to zero. The first occurrence of a\ndata item is addressed as item number zero.\nFor example:\nThe coil known as ‘coil 1’ in a programmable\ncontroller is addressed as coil 0000 in the\ndata address field of a Modbus message. Coil\n127 decimal is addressed as coil 007EHEX (126\ndecimal).\nHolding register 40001 is addressed as\nregister 0000 in the data address field of the\nmessage. The function code field already\nspecifies a ‘holding register’ operation.\nTherefore, the ‘4XXXX’ reference is implicit.\nHolding register 40108 is addressed as\nregister 006BHEX (107 decimal).\nModbus RTU\nMessage\nFraming\nStructure\n(continued)"
+  },
+  {
+    "chunk_id": 40,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "16\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nTranslation\nfrom\nModbus RTU\nProtocol to\nFC Protocol\nRefer to Serial Communication for FC\nProtocol in the VLT 6000 Operating\nInstructions for details on the Danfoss FC\nprotocol used for Modbus RTU serial\ncommunication within the VLT 6000\nAdjustable Frequency Drive.\nParameter Block\nPKE\nPKE\nPKE\nPKE\nPKE\nPKE contains AK with the parameter\ncommands and replies, and PNU with the\nparameter number. The AK value is\ndetermined by the Modbus function code.\nCoil 65 decimal determines whether data\nwritten to the drive are stored in EEPROM\nand RAM (coil 65 = 1) or just RAM (coil 65 =\n0). PNU is translated from the register address\ncontained in the Modbus read/write\nmessage. The parameter number is\ntranslated to Modbus as (10 x parameter\nnumber)DECIMAL.\nIND\nIND\nIND\nIND\nIND\nIND contains the index. The index is used,\ntogether with the parameter number, for\nread/write access. Index has 2 bytes – a low\nbyte and a high byte. However, only the low"
+  },
+  {
+    "chunk_id": 41,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "message. The parameter number is\ntranslated to Modbus as (10 x parameter\nnumber)DECIMAL.\nIND\nIND\nIND\nIND\nIND\nIND contains the index. The index is used,\ntogether with the parameter number, for\nread/write access. Index has 2 bytes – a low\nbyte and a high byte. However, only the low\nbyte is used for indexing. The high byte is\nused for reading and writing text. IND is set\nby a register in Modbus (40001HEX). IND must\nbe cleared by the Modbus master after\nreading/writing text.\nPWE\nPWE\nPWE\nPWE\nPWEHIGh\nHIGh\nHIGh\nHIGh\nHIGh/PWE\n/PWE\n/PWE\n/PWE\n/PWELOW\nLOW\nLOW\nLOW\nLOW\nPWE contains the parameter value. The\nparameter value block consists of 2 words (4\nbytes). The value depends on the command\ngiven (AK). PWE is zero filled on reads. On\nwrites, PWE is filled with the data field of the\nModbus write message.\nPCD1\nPCD2\nControl packet\n(master → slave)\nControl word\n(Coils 1 – 16)DEC\nReference value\n(Coils 17 – 32)DEC\nReply packet\n(slave → master)\nStatus word\n(Coils 33 – 48)DEC\nGiven output frequency"
+  },
+  {
+    "chunk_id": 42,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "writes, PWE is filled with the data field of the\nModbus write message.\nPCD1\nPCD2\nControl packet\n(master → slave)\nControl word\n(Coils 1 – 16)DEC\nReference value\n(Coils 17 – 32)DEC\nReply packet\n(slave → master)\nStatus word\n(Coils 33 – 48)DEC\nGiven output frequency\n(Coils 49 – 64)DEC\nPCD\nPCD\nPCD\nPCD\nPCD1/PCD\n/PCD\n/PCD\n/PCD\n/PCD2\nPCD contains the process word block. The\nparameter value block consists of 2 words (4\nbytes). The process word block is divided into\ntwo blocks of 16 bits and is stored in Modbus\nas status coils. The mapping of the PCD is\nshown below.\nProcess Block Updates\nUpon every write to the PCD coils, the\nprocess block is written to the drive and\nreturned from the drive. On parameter reads\nand writes, the PCD is deactivated on\nmessages from the Modbus RTU option card\nto the drive. The PCD coils are updated on\nresponse messages from the drive to the\nModbus RTU option card.\nText Blocks\nParameters stored as text strings are\naccessed the same as the other parameters"
+  },
+  {
+    "chunk_id": 43,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "and writes, the PCD is deactivated on\nmessages from the Modbus RTU option card\nto the drive. The PCD coils are updated on\nresponse messages from the drive to the\nModbus RTU option card.\nText Blocks\nParameters stored as text strings are\naccessed the same as the other parameters\nexcept PWE is replaced with the text block.\nThe maximum text block size is 20\ncharacters. If a read request for a parameter\nis for more characters than the parameter\nstores, the response is space filled. If the read\nrequest for a parameter is for less characters\nthan the parameter stores, the response is\ntruncated.\nPCD Mapping"
+  },
+  {
+    "chunk_id": 44,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "17\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nMemory\nMapping\nParameter Values\nStandar\nStandar\nStandar\nStandar\nStandard Data T\nd Data T\nd Data T\nd Data T\nd Data Types\nypes\nypes\nypes\nypes\nStandard data types are int16, int32, uint8,\nuint16 and uint32. They are stored as 4x\nregisters (40001 – 4FFFF). The parameters\nare read using function 03HEX “Read Holding\nRegisters.” Parameters are written using\nfunction 6HEX “Preset Single Register” for 1\nregister (16 bits), and function 10HEX “Preset\nMultiple Registers” for 2 registers (32 bits).\nValid sizes to read are 1 register (16 bits) and\n2 registers (32 bits).\nNonstandar\nNonstandar\nNonstandar\nNonstandar\nNonstandard Data T\nd Data T\nd Data T\nd Data T\nd Data Types\nypes\nypes\nypes\nypes\nNonstandard data types are text strings and\nare stored as 4x registers (40001 – 4FFFF).\nThe parameters are read using function 03HEX\n“Read Holding Registers” and written using\nfunction 10HEX “Preset Multiple Registers.”"
+  },
+  {
+    "chunk_id": 45,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Nonstandard Data T\nd Data T\nd Data T\nd Data T\nd Data Types\nypes\nypes\nypes\nypes\nNonstandard data types are text strings and\nare stored as 4x registers (40001 – 4FFFF).\nThe parameters are read using function 03HEX\n“Read Holding Registers” and written using\nfunction 10HEX “Preset Multiple Registers.”\nValid sizes to read are 1 register (2 characters)\nthrough 10 registers (20 characters). See Text\nBlocks section in this manual for truncation/\nspace fill rules. IND (Modbus Register 1) must\nbe written with a value of 0400HEX (read) or\n0500HEX (write) prior to reading or writing a\ntext string.\nConversion\nThe different attributes for each parameter\ncan be seen in the section on factory settings.\nSince a parameter value can only be\ntransferred as a whole number, a conversion\nfactor must be used to transfer decimals.\nExample:\nExample:\nExample:\nExample:\nExample:\nParameter 201: Minimum Frequency,\nconversion factor 0.1. If parameter 201 is to\nbe set to 10 Hz, a value of 100 must be"
+  },
+  {
+    "chunk_id": 46,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Since a parameter value can only be\ntransferred as a whole number, a conversion\nfactor must be used to transfer decimals.\nExample:\nExample:\nExample:\nExample:\nExample:\nParameter 201: Minimum Frequency,\nconversion factor 0.1. If parameter 201 is to\nbe set to 10 Hz, a value of 100 must be\ntransferred, since a conversion factor of 0.1\nmeans that the transferred value will be\nmultiplied by 0.1. A value of 100 will, therefore,\nbe understood as 10.0.\nConversion\nFactor\n         Index\n         Index\n         Index\n         Index\n         Index\n     Factor\n     Factor\n     Factor\n     Factor\n     Factor\n74\n3.6\n2\n100.0\n1\n10.0\n0\n1.0\n-1\n0.1\n-2\n0.01\n-3\n0.001\n-4\n0.0001\nFC Protocol\nControl\nWord Bit\nDescriptions\nControl Word Bit Descriptions\nB it\n0\n1\n0 0\nPre se t R e f. L SB\n0 1\nPre se t Re f. M SB\n0 2\nDC  Bra k e\nn o  DC  Bra k e\n0 3\nCo a st Sto p\nn o  Co a st Sto p\n0 4\n\"Q u ic k \"  Sto p\nn o  \"Q u ic k \" Sto p\n0 5\nF re e ze  F re q .\nn o  F re e ze  F re q .\n0 6\nRa m p  Sto p\nSta rt\n0 7\nn o  Re se t"
+  },
+  {
+    "chunk_id": 47,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Control Word Bit Descriptions\nB it\n0\n1\n0 0\nPre se t R e f. L SB\n0 1\nPre se t Re f. M SB\n0 2\nDC  Bra k e\nn o  DC  Bra k e\n0 3\nCo a st Sto p\nn o  Co a st Sto p\n0 4\n\"Q u ic k \"  Sto p\nn o  \"Q u ic k \" Sto p\n0 5\nF re e ze  F re q .\nn o  F re e ze  F re q .\n0 6\nRa m p  Sto p\nSta rt\n0 7\nn o  Re se t\nRe se t\n0 8\nn o  J o g\nJ o g\n0 9\nn o  fu n c tio n\n1 0\nDa ta  N o t Va lid\nDa ta  Va lid\n1 1\nRe la y 1  O F F\nRe la y 1  O N\n1 2\nRe la y 2  O F F\nRe la y 2  O N\n1 3\nSe tu p  L SB\n1 4\nSe tu p  M SB\n1 5\nn o  Re ve rsin g\nRe ve rsin g\nStop Commands\nThe precedence of the stop\ncommands is as follows:\n1. Coast stop\n2. Quick stop\n3. DC Brake\n4. Normal (Ramp) stop"
+  },
+  {
+    "chunk_id": 48,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "18\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nMemory\nMapping:\nRegister\nMaps\nRegister Maps (65536 registers total)\nAddress (Decimal)\nDescription\n00001\nIND (index word)\n00002\nModbus Communications Timeout Value (10 millisecond units)\n00003\nDrive Communications Timeout Value (10 millisecond units)\n00004 – 00009\nReserved\n00010\nParameter 001, Language\n↓\n                ↓\n00170\nParameter 017, Operating State at Power-up\n00180 – 09999\nReserved\n01000\nParameter 100, Configuration\n↓\n                ↓\n01170\nParameter 117, Motor Thermal Protection\n01180 – 01999\nReserved\n02000\nParameter 200, Output Frequency Range\n↓\n                ↓\n02280\nParameter 228, Warning: High Feedback\n02290 – 02999\nReserved\n03000\nParameter 300, Terminal 16 Digital Input\n↓\n                ↓\n03280\nParameter 328, Pulse Feedback, Max. Freq.\n03290 – 03999\nReserved\n04000\nParameter 400, Reset Function\n↓\n                ↓\n04270\nParameter 427, PID Lowpass Filter Time\n04280 – 04999\nReserved\n05000\nParameter 500, Protocol\n↓"
+  },
+  {
+    "chunk_id": 49,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "03000\nParameter 300, Terminal 16 Digital Input\n↓\n                ↓\n03280\nParameter 328, Pulse Feedback, Max. Freq.\n03290 – 03999\nReserved\n04000\nParameter 400, Reset Function\n↓\n                ↓\n04270\nParameter 427, PID Lowpass Filter Time\n04280 – 04999\nReserved\n05000\nParameter 500, Protocol\n↓\n                ↓\n05660\nParameter 566, FLN Time Function\n05670 – 05999\nReserved\n06000\nParameter 600, Operating Data: Operating Hours\n↓\n                ↓\n06310\nParameter 631, Nameplate: Communication Option Ordering No.\n06320 – 06999\nReserved\n07000\nParameter 700, Relay 6, Output Function\n↓\n                ↓\n07110\nParameter 711, Relay 9, Off Delay\n07120 – 65536\nReserved\nMemory\nMapping:\nStatus Coil\nMaps\nStatus Coils Map (128 coils total)\nAddress (Decimal)\nDescription\n1 – 16\nPCD1 Control word (master → slave)\n17 – 32\nPCD2 Reference value (master → slave)\n33 – 48\nPCD1 Status word (slave → master)\n49 – 64\nPCD2 Given output frequency (slave → master)\n65"
+  },
+  {
+    "chunk_id": 50,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Reserved\nMemory\nMapping:\nStatus Coil\nMaps\nStatus Coils Map (128 coils total)\nAddress (Decimal)\nDescription\n1 – 16\nPCD1 Control word (master → slave)\n17 – 32\nPCD2 Reference value (master → slave)\n33 – 48\nPCD1 Status word (slave → master)\n49 – 64\nPCD2 Given output frequency (slave → master)\n65\nWrite memory storage type bit (used with AK), see PKE\n66 – 128\nReserved"
+  },
+  {
+    "chunk_id": 51,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "19\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nMessage\nTranslation\nExamples\nEXAMPLE 1:  Start Motor, Run Speed 40%\nAll values are in hexadecimal.\nByte 0 \nByte 1 \nByte 2 \nByte 3 \nByte 4 \nByte 5 \nByte 6 \nByte 7 \nSlave \nAddress \nFunction \nCoil Addr HI \nCoil Addr LO \n# of Coils HI \n# of Coils LO \nByte Count \nForce Data HI \nCoils (0-7) \n01 \n0F \n00 \n00 \n00 \n20 \n04 \n7C \n \n \n \n \n \n \n \n \nByte 8 \nByte 9 \nByte 10 \nByte 11 \n \n \n \n \nForce Data \nLO \nCoils (8-15) \nForce Data HI \nCoils (16-23) \nForce Data \nLO \nCoils (24-31) \nError Check \n \n \n \n \n04 \n99 \n19 \n[37] [43] \n \n \n \n \nMessage r\nMessage r\nMessage r\nMessage r\nMessage retur\netur\netur\netur\neturned to Modbus master fr\nned to Modbus master fr\nned to Modbus master fr\nned to Modbus master fr\nned to Modbus master from Modbus R\nom Modbus R\nom Modbus R\nom Modbus R\nom Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card\nModbus function 0FHEX (Force Multiple Coils).\nMessage sent to Modbus R\nMessage sent to Modbus R"
+  },
+  {
+    "chunk_id": 52,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "ned to Modbus master fr\nned to Modbus master fr\nned to Modbus master from Modbus R\nom Modbus R\nom Modbus R\nom Modbus R\nom Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card\nModbus function 0FHEX (Force Multiple Coils).\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card fr\nd fr\nd fr\nd fr\nd from Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nModbus message string:\n[01] [0F] [00] [00] [00] [20] [04] [7C] [04] [99] [19] [37] [43]\n{\nStart Command: 0000010001111100 = 047CHEX  (reversed)\n(see FC Protocol Control Word Bit Descriptions)\nModbus message string:\n[01] [0F] [00] [00] [00] [20] [04] [7C] [04] [99] [19] [37] [43]\n{\nNOTE: Speed Command: 4000HEX = 100% speed\n40% of 4000HEX = 1999HEX (reversed)\nByte 0 \nByte 1 \nByte 2 \nByte 3 \nByte 4 \nByte 5 \nByte 6 \nSlave \nAddress \nFunction"
+  },
+  {
+    "chunk_id": 53,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "(see FC Protocol Control Word Bit Descriptions)\nModbus message string:\n[01] [0F] [00] [00] [00] [20] [04] [7C] [04] [99] [19] [37] [43]\n{\nNOTE: Speed Command: 4000HEX = 100% speed\n40% of 4000HEX = 1999HEX (reversed)\nByte 0 \nByte 1 \nByte 2 \nByte 3 \nByte 4 \nByte 5 \nByte 6 \nSlave \nAddress \nFunction \nCoil Addr HI \nCoil Addr LO \nNo. of Coils \nHI \nNo. of Coils \nLO \nError Check \n01 \n0F \n00 \n00 \n00 \n20 \n[54] [13]"
+  },
+  {
+    "chunk_id": 54,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "20\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nMessage\nTranslation\nExamples\n(continued)\nEXAMPLE 2:  Ramp Stop Motor\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card fr\nd fr\nd fr\nd fr\nd from Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nModbus message string:\n[01] [0F] [00] [00] [00] [20] [04] [3C] [04] [00] [00] [89] [19]\n{\nStop Command: 0000010000111100 = 043CHEX  (reversed)\n(see FC Protocol Control Word Bit Descriptions)\nSpeed Command: 0%\nByte 0 \nByte 1 \nByte 2 \nByte 3 \nByte 4 \nByte 5 \nByte 6 \nByte 7 \nSlave \nAddress \nFunction \nCoil Addr HI \nCoil Addr LO \n# of Coils HI \n# of Coils LO \nByte Count \nForce Data HI \nCoils (0-7) \n01 \n0F \n00 \n00 \n00 \n20 \n04 \n3C \n \n \n \n \n \n \n \n \nByte 8 \nByte 9 \nByte 10 \nByte 11 \n \n \n \n \nForce Data \nLO \nCoils (8-15) \nForce Data HI \nCoils (16-23) \nForce Data \nLO"
+  },
+  {
+    "chunk_id": 55,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Byte 7 \nSlave \nAddress \nFunction \nCoil Addr HI \nCoil Addr LO \n# of Coils HI \n# of Coils LO \nByte Count \nForce Data HI \nCoils (0-7) \n01 \n0F \n00 \n00 \n00 \n20 \n04 \n3C \n \n \n \n \n \n \n \n \nByte 8 \nByte 9 \nByte 10 \nByte 11 \n \n \n \n \nForce Data \nLO \nCoils (8-15) \nForce Data HI \nCoils (16-23) \nForce Data \nLO \nCoils (24-31) \nError Check \n \n \n \n \n04 \n00 \n00 \n[89] [19] \n \n \n \n \nMessage r\nMessage r\nMessage r\nMessage r\nMessage retur\netur\netur\netur\neturned to Modbus master fr\nned to Modbus master fr\nned to Modbus master fr\nned to Modbus master fr\nned to Modbus master from Modbus R\nom Modbus R\nom Modbus R\nom Modbus R\nom Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card\nEXAMPLE 3:  Coast Stop Motor\nAll values are in hexadecimal.\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card fr\nd fr\nd fr\nd fr\nd from Modbus master\nom Modbus master"
+  },
+  {
+    "chunk_id": 56,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "All values are in hexadecimal.\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card fr\nd fr\nd fr\nd fr\nd from Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nMessage r\nMessage r\nMessage r\nMessage r\nMessage retur\netur\netur\netur\neturned to Modbus master fr\nned to Modbus master fr\nned to Modbus master fr\nned to Modbus master fr\nned to Modbus master from Modbus R\nom Modbus R\nom Modbus R\nom Modbus R\nom Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card\nByte 0 \nByte 1 \nByte 2 \nByte 3 \nByte 4 \nByte 5 \nByte 6 \nSlave \nAddress \nFunction \nCoil Addr HI \nCoil Addr LO \nNo. of Coils \nHI \nNo. of Coils \nLO \nError Check \n01 \n0F \n00 \n00 \n00 \n20 \n-- \n \nModbus message string:\n[01] [0F] [00] [00] [00] [20] [04] [20] [2C] [00] [00] [ -- ]\n{\nCoast Command: 0010110000100000 = 2C20HEX  (reversed)"
+  },
+  {
+    "chunk_id": 57,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Byte 4 \nByte 5 \nByte 6 \nSlave \nAddress \nFunction \nCoil Addr HI \nCoil Addr LO \nNo. of Coils \nHI \nNo. of Coils \nLO \nError Check \n01 \n0F \n00 \n00 \n00 \n20 \n-- \n \nModbus message string:\n[01] [0F] [00] [00] [00] [20] [04] [20] [2C] [00] [00] [ -- ]\n{\nCoast Command: 0010110000100000 = 2C20HEX  (reversed)\n(see FC Protocol Control Word Bit Descriptions)\nSpeed Command: 0%\nByte 0 \nByte 1 \nByte 2 \nByte 3 \nByte 4 \nByte 5 \nByte 6 \nSlave \nAddress \nFunction \nCoil Addr HI \nCoil Addr LO \nNo. of Coils \nHI \nNo. of Coils \nLO \nError Check \n01 \n0F \n00 \n00 \n00 \n20 \n-- \n \nByte 0 \nByte 1 \nByte 2 \nByte 3 \nByte 4 \nByte 5 \nByte 6 \nByte 7 \nSlave \nAddress \nFunction \nCoil Addr HI \nCoil Addr LO \n# of Coils HI \n# of Coils LO \nByte Count \nForce Data HI \nCoils (0-7) \n01 \n0F \n00 \n00 \n00 \n20 \n04 \n20 \n \n \n \n \n \n \n \n \nByte 8 \nByte 9 \nByte 10 \nByte 11 \n \n \n \n \nForce Data \nLO \nCoils (8-15) \nForce Data HI \nCoils (16-23) \nForce Data \nLO \nCoils (24-31) \nError Check \n \n \n \n \n2C \n00 \n00 \n--"
+  },
+  {
+    "chunk_id": 58,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "21\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nMessage\nTranslation\nExamples\n(continued)\nEXAMPLE 5:  Read Parameter 514,\nMotor Current = 3 Amps\n(Data Type 7:  UINT32)\n(Conversion Factor = -2)\nByte 0 \nByte 1 \nByte 2 \nByte 3 \nByte 4 \nByte 5 \nByte 6 \nSlave \nAddress \nFunction \nStart Addr HI \nStart Addr LO \nNo. of Points \nHI \nNo. of Points \nLO \nError Check \n01 \n03 \n14 \n13 \n00 \n02 \n-- \n \nMessage sent to Modbus master fr\nMessage sent to Modbus master fr\nMessage sent to Modbus master fr\nMessage sent to Modbus master fr\nMessage sent to Modbus master from Modbus R\nom Modbus R\nom Modbus R\nom Modbus R\nom Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nByte 7\nSlave\nAddress\nFunction\nByte Count\nData HI\n(Reg 45140)\nData LO\n(Reg 45140)\nData HI\n(Reg 45141)\nData LO\n(Reg 45141)\nError Check\n01\n03\n04\n00\n00\n01\n2C\n--\nEXAMPLE 4:  Write Parameter 104,\nMotor Frequency, with 60 Hz\n(Data Type 6:  UINT16)\n(Conversion factor = 0)"
+  },
+  {
+    "chunk_id": 59,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Byte 2\nByte 3\nByte 4\nByte 5\nByte 6\nByte 7\nSlave\nAddress\nFunction\nByte Count\nData HI\n(Reg 45140)\nData LO\n(Reg 45140)\nData HI\n(Reg 45141)\nData LO\n(Reg 45141)\nError Check\n01\n03\n04\n00\n00\n01\n2C\n--\nEXAMPLE 4:  Write Parameter 104,\nMotor Frequency, with 60 Hz\n(Data Type 6:  UINT16)\n(Conversion factor = 0)\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nSlave\nAddress\nFunction\nRegister\nAddr HI\nRegister\nAddr LO\nPreset Data\nHI\nPreset Data\nLO\nError Check\n01\n06\n04\n0F\n00\n3C\n--\nMessage r\nMessage r\nMessage r\nMessage r\nMessage retur\netur\netur\netur\neturned to Modbus master fr\nned to Modbus master fr\nned to Modbus master fr\nned to Modbus master fr\nned to Modbus master from Modbus R\nom Modbus R\nom Modbus R\nom Modbus R\nom Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nSlave\nAddress\nFunction\nRegister\nAddr HI\nRegister\nAddr LO\nPreset Data\nHI\nPreset Data\nLO\nError Check\n01\n06\n04\n0F\n00\n3C\n--\nMessage sent to Modbus R"
+  },
+  {
+    "chunk_id": 60,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "om Modbus R\nom Modbus R\nom Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nSlave\nAddress\nFunction\nRegister\nAddr HI\nRegister\nAddr LO\nPreset Data\nHI\nPreset Data\nLO\nError Check\n01\n06\n04\n0F\n00\n3C\n--\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card fr\nd fr\nd fr\nd fr\nd from Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nModbus message string:\n[01] 06] [04] [0F] [00] [3C] [ error check ]\n{\nParameter 104 = 0F04HEX  (reversed)\nNote that the starting address of a register is the parameter number x 10 -1 in HEX.\n104 x 10 = 1040 -1 = 1039 = 0F04HEX  (reversed)\nSpeed (60 Hz) = 3CHEX\nModbus message string:\n[01] 06] [04] [0F] [00] [3C] [ error check ]\n{\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R"
+  },
+  {
+    "chunk_id": 61,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Note that the starting address of a register is the parameter number x 10 -1 in HEX.\n104 x 10 = 1040 -1 = 1039 = 0F04HEX  (reversed)\nSpeed (60 Hz) = 3CHEX\nModbus message string:\n[01] 06] [04] [0F] [00] [3C] [ error check ]\n{\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card fr\nd fr\nd fr\nd fr\nd from Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nParameter 514 (5139) = 1413HEX\nNote that the starting address of a register is the parameter number x 10 -1 in HEX.\nAll values are in hexadecimal.\nModbus Function 03HEX Read Holding Registers\nModbus Function 06HEX Preset Single Register\nAll values are in hexadecimal."
+  },
+  {
+    "chunk_id": 62,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "22\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nMessage\nTranslation\nExamples\n(continued)\nEXAMPLE 6:  Write Parameter 533,\nDisplay Text 1, (VLT 6000 only) with\n\"1234567890\" (Data Type 9:  Text\nString).\nWrite IND with \"0500\" to perform a text\nwrite.\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nSlave\nAddress\nFunction\nRegister\nAddr HI\nRegister\nAddr LO\nPreset Data\nHI\nPreset Data\nLO\nError Check\n01\n06\n00\n00\n05\n00\n--\nMessage sent to Modbus master fr\nMessage sent to Modbus master fr\nMessage sent to Modbus master fr\nMessage sent to Modbus master fr\nMessage sent to Modbus master from Modbus R\nom Modbus R\nom Modbus R\nom Modbus R\nom Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nSlave\nAddress\nFunction\nRegister\nAddr HI\nRegister\nAddr LO\nPreset Data\nHI\nPreset Data\nLO\nError Check\n01\n06\n00\n00\n05\n00\n--\nCommands Modbus to text mode.\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R"
+  },
+  {
+    "chunk_id": 63,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "TU option card\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nSlave\nAddress\nFunction\nRegister\nAddr HI\nRegister\nAddr LO\nPreset Data\nHI\nPreset Data\nLO\nError Check\n01\n06\n00\n00\n05\n00\n--\nCommands Modbus to text mode.\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card fr\nd fr\nd fr\nd fr\nd from Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus R\nMessage sent to Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card fr\nd fr\nd fr\nd fr\nd from Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nByte 7\nSlave\nAddress\nFunction\nStart Addr HI\nStart Addr LO\nNo. of\nRegisters HI\nNo. of\nRegisters LO\nByte Count\nData HI\n(Reg 414D2)\n01"
+  },
+  {
+    "chunk_id": 64,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "d fr\nd fr\nd fr\nd from Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nom Modbus master\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nByte 7\nSlave\nAddress\nFunction\nStart Addr HI\nStart Addr LO\nNo. of\nRegisters HI\nNo. of\nRegisters LO\nByte Count\nData HI\n(Reg 414D2)\n01\n10\n14\nD1\n00\n05\n0A\n31\nByte 8\nByte 9\nByte 10\nByte 11\nByte 12\nByte 13\nByte 14\nByte 15\nData HI\n(Reg 414D2)\nData HI\n(Reg 414D3)\nData HI\n(Reg 414D3)\nData HI\n(Reg 414D4)\nData HI\n(Reg 414D4)\nData HI\n(Reg 414D5)\nData HI\n(Reg 414D5)\nData HI\n(Reg 414D6)\n32\n33\n34\n35\n36\n37\n38\n39\nByte 16\nByte 17\nData HI\n(Reg 414D6)\nError Check\n30\n--\nMessage sent to Modbus master fr\nMessage sent to Modbus master fr\nMessage sent to Modbus master fr\nMessage sent to Modbus master fr\nMessage sent to Modbus master from Modbus R\nom Modbus R\nom Modbus R\nom Modbus R\nom Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nSlave\nAddress\nFunction\nStart Addr HI\nStart Addr LO"
+  },
+  {
+    "chunk_id": 65,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Message sent to Modbus master fr\nMessage sent to Modbus master from Modbus R\nom Modbus R\nom Modbus R\nom Modbus R\nom Modbus RTU option car\nTU option car\nTU option car\nTU option car\nTU option card\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nSlave\nAddress\nFunction\nStart Addr HI\nStart Addr LO\nNo. Registers\nHI\nNo. Registers\nLO\nError Check\n01\n10\n14\nD1\n00\n05\n--\nAll values are in hexadecimal.\nModbus Function 10HEX Preset Multiple Registers\nNote that the starting address of a register is the parameter number x 10 -1 in HEX.\nModbus Function 06HEX Preset Single Register"
+  },
+  {
+    "chunk_id": 66,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "23\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nException\nCodes\nWhen the VLT 6000 responds to the master\nvia the Modbus serial network, it uses the\nfunction code field to indicate either a normal\n(error-free) response or an error (called an\nexception response). In an error-free\nresponse, the drive simply echoes the original\nfunction code. For an exception response,\nthe drive will return a code that is equivalent\nto the original function code with its most-\nsignificant bit set to a logic 1. In addition, the\ndrive places a unique code into the data field\nof the response message. This tells the\nmaster what kind of error occurred, or the\nreason for the exception. The tables below\nidentify the codes and describe their\nmeaning.\nModbus\nCode\n(decimal)\nMeaning\n00\nThe parameter number does not exist\n01\nThere is no write access to the parameter\n02\nThe data value exceeds the parameter limits\n03\nThe used sub-index does not exist\n04\nThe parameter is not of the array type\n05"
+  },
+  {
+    "chunk_id": 67,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "identify the codes and describe their\nmeaning.\nModbus\nCode\n(decimal)\nMeaning\n00\nThe parameter number does not exist\n01\nThere is no write access to the parameter\n02\nThe data value exceeds the parameter limits\n03\nThe used sub-index does not exist\n04\nThe parameter is not of the array type\n05\nThe data type does not match the parameter called\n17\nData change in the parameter called is not possible in the present\nmode of the drive.  Some parameters can only be changed when the\nmotor has stopped\n130\nThere is no bus access to the parameter called\n131\nData Change is not possible because factory setup is selected\n255\nMessage Timeout\nVLT 6000 Errors\nModbus RTU Errors\nModbus\nCode\n(decimal)\nMeaning\n64\nInvalid Data Address\n65\nInvalid Message Length\n66\nInvalid Data Length\n67\nInvalid Function Code"
+  },
+  {
+    "chunk_id": 68,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "24\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nSupported\nModbus RTU\nFunction\nCodes\nAppendix A describes the following functions\nsupported by the Modbus RTU option card.\nRead Coil Status (01HEX)\nForce Single Coil (05HEX)\nForce Multiple Coils (0FHEX)\nRead Coil\nStatus\n(01HEX)\nDescription\nReads the ON/OFF status of discrete outputs\n(0X references, coils) in the slave. Broadcast\nis never supported for reads.\nQuery\nThe query message specifies the starting coil\nand quantity of coils to be read. Coils are\naddressed starting at zero. Coils 1-16 are\naddressed as 0-15.\nExample of a request to read coils 1-16 from slave device 01.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n01\nStarting Address HI\n00\nStarting Address LO\n00\nNo. of Points HI\n00\nNo. of Points LO\n10\nError Check (CRC)\n–\nResponse\nThe coil status in the response message is\npacked as one coil per bit of the data field.\nStatus is indicated as: 1 = ON; 0 = OFF.  The\nLSB of the first data byte contains the coil"
+  },
+  {
+    "chunk_id": 69,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "01\nStarting Address HI\n00\nStarting Address LO\n00\nNo. of Points HI\n00\nNo. of Points LO\n10\nError Check (CRC)\n–\nResponse\nThe coil status in the response message is\npacked as one coil per bit of the data field.\nStatus is indicated as: 1 = ON; 0 = OFF.  The\nLSB of the first data byte contains the coil\naddressed in the query. The other coils follow\ntoward the high order end of this byte, and\nfrom ‘low order to high order’ in subsequent\nbytes.\nIf the returned coil quantity is not a multiple\nof eight, the remaining bits in the final data\nbyte will be padded with zeros (toward the\nhigh order end of the byte). The Byte Count\nfield specifies the quantity of complete bytes\nof data.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n01\nByte Count\n02\nData (Coils 8-1)\n55\nData (Coils 16-9)\nAA\nError Check (CRC)\n–\nRead Holding Registers (03HEX)\nPreset Single Register (06HEX)\nPreset Multiple Registers (10HEX)\nAPPENDIX A"
+  },
+  {
+    "chunk_id": 70,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "25\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nForce\nSingle Coil\n(05HEX)\nDescription\nForces a single coil (0X reference) to either\nON or OFF. When broadcast, the function\nforces the same coil references in all attached\nslaves.\nQuery\nThe query message specifies the coil\nreference to be forced. Coils are addressed\nstarting at zero. Coil 1 is addressed as 0.\nForce Data = 00 00HEX (OFF) or FF 00HEX (ON).\nExample of a request to set coil 1 (addressed as 0) from slave device 01.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n05\nCoil Address HI\n00\nCoil Address LO\n00\nForce Data HI\nFF\nForce Data LO\n00\nError Check (CRC)\n–\nResponse\nThe normal response is an echo of the query,\nreturned after the coil state has been forced.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n05\nForce Data HI\nFF\nForce Data LO\n00\nQuantity of Coils HI\n00\nQuantity of Coils LO\n0A\nError Check (CRC)\n–\nAPPENDIX A"
+  },
+  {
+    "chunk_id": 71,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "26\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nForce\nMultiple\nCoils\n(0FHEX)\nDescription\nForces each coil (0X reference) in a sequence\nof coils to either ON or OFF. When broadcast,\nthe function forces the same coil references\nin all attached slaves.\nQuery\nThe query message specifies the coil\nreferences to be forced. Coils are addressed\nstarting at zero. Coil 1 is addressed as 0.\nExample of a request to set 10 coils starting at coil 1 (addressed as 0) from slave device 01.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n0F\nCoil Address HI\n00\nCoil Address LO\n00\nQuantity of Coils HI\n00\nQuantity of Coils LO\n0A\nByte Count\n02\nForce Data HI (Coils 8-1)\nFF\nForce Data LO (Coils 10-9)\n03\nError Check (CRC)\n–\nResponse\nThe normal response returns the slave\naddress, function code, starting address, and\nquantity of coils forced.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n0F\nCoil Address HI\n00\nCoil Address LO\n00\nQuantity of Coils HI\n00\nQuantity of Coils LO\n0A\nError Check (CRC)\n–"
+  },
+  {
+    "chunk_id": 72,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Error Check (CRC)\n–\nResponse\nThe normal response returns the slave\naddress, function code, starting address, and\nquantity of coils forced.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n0F\nCoil Address HI\n00\nCoil Address LO\n00\nQuantity of Coils HI\n00\nQuantity of Coils LO\n0A\nError Check (CRC)\n–\nAPPENDIX A"
+  },
+  {
+    "chunk_id": 73,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "27\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nRead\nHolding\nRegisters\n(03HEX)\nDescription\nReads the binary contents of holding registers\n(4x references) in the slave. Broadcast is\nnever supported for reads.\nQuery\nThe query message specifies the starting\nregister and quantity of registers to be read.\nRegisters are addressed starting at zero.\nRegisters 1-4 are addressed as 0-3.\nExample of a request to read registers 40001-03 from slave device 01.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n03\nStarting Address HI\n00\nStarting Address LO\n00\nNo. of Points HI\n00\nNo. of Points LO\n03\nError Check (CRC)\n–\nResponse\nThe register data in the response message\nare packed as two bytes per register, with\nthe binary contents right justified within each\nbyte. For each register, the first byte contains\nthe high order bits and the second contains\nthe low order bits.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n03\nByte Count\n06\nData HI (Register 40001)\n55\nData LO (Register 40001)\nAA"
+  },
+  {
+    "chunk_id": 74,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "the binary contents right justified within each\nbyte. For each register, the first byte contains\nthe high order bits and the second contains\nthe low order bits.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n03\nByte Count\n06\nData HI (Register 40001)\n55\nData LO (Register 40001)\nAA\nData HI (Register 40002)\n55\nData LO (Register 40002)\nAA\nData HI (Register 40003)\n55\nData LO (Register 40003)\nAA\nError Check (CRC)\n–\nAPPENDIX A"
+  },
+  {
+    "chunk_id": 75,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "28\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nPreset\nSingle\nRegister\n(06HEX)\nDescription\nPresets a value into a single holding register\n(4x reference). When broadcast, the function\npresets the same register reference in all\nattached slaves.\nQuery\nThe query message specifies the register\nreference to be preset. Registers are\naddressed starting at zero. Register 1 is\naddressed as 0.\nExample of a request to preset register 40002 to 00 03HEX in slave device 01.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n06\nRegister Address HI\n00\nRegister Address LO\n01\nPreset Data HI\n00\nPreset Data LO\n03\nError Check (CRC)\n--\nResponse\nThe normal response is an echo of the query,\nreturned after the register contents have been\npassed.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n06\nRegister Address HI\n00\nRegister Address LO\n01\nPreset Data HI\n00\nPreset Data LO\n03\nError Check (CRC)\n--\nAPPENDIX A"
+  },
+  {
+    "chunk_id": 76,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "29\nMG.10.P2.22 - VLT is a registered Danfoss trademark\nPreset\nMultiple\nRegisters\n(10HEX)\nDescription\nPresets values into a sequence of holding\nregisters (4x references). When broadcast,\nthe function presets the same register\nreferences in all attached slaves.\nQuery\nThe query message specifies the register\nreferences to be preset. Registers are\naddressed starting at zero. Register 1 is\naddressed as 0.\nExample of a request to preset two registers starting at 40002 to 00 AA HEX\nand 01 02HEX,  in slave device 1.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n10\nStarting Address HI\n00\nStarting Address LO\n01\nNo. of Registers HI\n00\nNo. of Registers LO\n02\nByte Count\n04\nWrite Data HI (Register 40001)\n00\nWrite Data LO (Register 40001)\n0A\nWrite Data HI (Register 40002)\n01\nWrite Data LO (Register 40002)\n02\nError Check (CRC)\n–\nResponse\nThe normal response returns the slave\naddress, function code, starting address, and\nquantity of registers preset.\nField Name\nExample (HEX)\nSlave Address\n01"
+  },
+  {
+    "chunk_id": 77,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "00\nWrite Data LO (Register 40001)\n0A\nWrite Data HI (Register 40002)\n01\nWrite Data LO (Register 40002)\n02\nError Check (CRC)\n–\nResponse\nThe normal response returns the slave\naddress, function code, starting address, and\nquantity of registers preset.\nField Name\nExample (HEX)\nSlave Address\n01\nFunction\n10\nStarting Address HI\n00\nStarting Address LO\n01\nNo. of Registers HI\n00\nNo. of Registers LO\n02\nError Check (CRC)\n–\nAPPENDIX A"
+  },
+  {
+    "chunk_id": 78,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Danfoss Graham\nDivision of Danfoss Inc.\n8800 West Bradley Road\nP.O. Box 245041\nMilwaukee, Wisconsin  53224-9541\nPhone: (414) 355-8800  Fax: (414) 355-6117\nToll free: (800) 621-8806\nE-mail: graham@grahamdrives.com\nhttp://www.namc.danfoss.com"
+  },
+  {
+    "chunk_id": 79,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\mg10p222.pdf",
+    "content": "Rev. 2003-09-01\nwww.danfoss.com/drives\n175R0504\nMG10P222\n*MG10P222*\nXREF__BC\nNOT LOADED ON RIP"
+  }
+]

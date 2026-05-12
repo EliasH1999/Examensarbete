@@ -1,0 +1,182 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "MODBUS-RTU \nField-Bus for electric actuator\nInstallation and Operation Manual"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "2 \nDescription \nMODBUS-RTU is a serial ﬁeldbus communication protocol to automate up to 247 electric actuators. \nThis protocol is non-proprietary and cheap to build. This one of the most used industrial ﬁeldbuses because of its reliability. \nBus type \nRS485 \nProtocol  \nMODBUS RTU, 16 bit CRC  \nBaud  \n9600 \nData bits \n8 \nParity  \nnone \nStop bit  \n1 \nDistance  \n1200 m \nMaximum number of slave devices per line/segment \n31 \nTotal number of slave devices \n247 with repeater \nAddress range \n1-247 (0=broadcast)\nFonctions utilisables \n03 (0x03) Read Holding Registers: \nThis function code is used to read the contents of a contiguous block of holding registers in a remote device. \n06 (0x06) Write Single Register: \nThis function code is used to write a single holding register in a remote device. \n16 (0x10) Write Multiple registers: \n  This function code is used to write a block of contiguous registers  in a remote device. \n23 (0x17) Read/Write Multiple registers:"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "06 (0x06) Write Single Register: \nThis function code is used to write a single holding register in a remote device. \n16 (0x10) Write Multiple registers: \n  This function code is used to write a block of contiguous registers  in a remote device. \n23 (0x17) Read/Write Multiple registers: \n This function code performs a combination of one read operation and one write operation in a single MODBUS transaction. \nThe write operation is performed before the read. \nThe read possible registers are addresses from @0 to @41 (decimal)    - same as read 0x03 function \nThe write possible registers are addresses from @20 to @29 (decimal) – same as write 0x10 function \nBroadcast \nbroadcast is address 0, frame is understood but NO RESPONSE of the slave. No exception generated on address 0. \nIndex \nDescription  .................................................................................................................................  2"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "Broadcast \nbroadcast is address 0, frame is understood but NO RESPONSE of the slave. No exception generated on address 0. \nIndex \nDescription  .................................................................................................................................  2 \nMODBUS-RTU network structure  ..............................................................................................  3 \nModels ER+, VR, VS, LT, DV, VRX and VSX  ............................................................................... 4\nStandard models (G00) and 3-position models (GF3) .............................................................................................................................    4 \nBBPR models (GS6) and 3-POSITION-BBPR models (GFS)  ..................................................................................................................    6"
+  },
+  {
+    "chunk_id": 4,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "BBPR models (GS6) and 3-POSITION-BBPR models (GFS)  ..................................................................................................................    6 \nPOSI (GP8) and POSI-BBPR models (GPS)  ............................................................................................................................................    8 \nVT+ and MT models  ...................................................................................................................  10 \nRS485 transfers are immune to electromagnetic noise and unwanted signal. However, it’s mandatory to use\nonly twisted pair with earth connected shield and within the constraints imposed by EIA-485 norm.\nThe distance between MODBUS cables and others must be at least 20 cm.\nCR-TEC Engineering Inc. • info@crtec.com • www.crtec.com • 203-318-9500"
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "3 \nMODBUS-RTU network structure  \nA RS485 line allows the association of a PLC (master node) to 31 devices (slave nodes) over a maximum of 1200 meters \nMODBUS-RTU protocol provides addressing capacity for up to 247 Inputs, also, it’s possible to use repeaters to connect \nseveral lines and automate up to 247 actuators over a greater distance.  \nSingle line network (one RS485 line) \nPLC \nMODBUS \nRésistor \n120 Ω \nJP1=ON \nUp to 31 actuators \nShielded twisted pairs according to EIA-485 \nMultiple-segmented network \nMultiple-segmented star network \nPLC \nMODBUS \nPLC \nMODBUS \nrepeater \nrepeater \nUp to 30 actuators \nUp to 30 actuators \nUp to 1200 m \nrepeater \nUp to 30 actuators \nUp to 31 actuators \nUp to : \n247 actuators \n9 repeaters \nrepeater \nJP1=ON \nUp to 31 actuators \nJP1=ON \nrepeater \nUp to 30 actuators \nUp to 31 actuators \nJP1=ON \nrepeater \nrepeater \nrepeater \nrepeater \nSingle line or  \nmultiple-segmented \nnetwork. \nUp to a total of: \n247 actuator \n9 repeaters"
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "Up to 31 actuators \nUp to : \n247 actuators \n9 repeaters \nrepeater \nJP1=ON \nUp to 31 actuators \nJP1=ON \nrepeater \nUp to 30 actuators \nUp to 31 actuators \nJP1=ON \nrepeater \nrepeater \nrepeater \nrepeater \nSingle line or  \nmultiple-segmented \nnetwork. \nUp to a total of: \n247 actuator \n9 repeaters \nCR-TEC Engineering Inc. • info@crtec.com • www.crtec.com • 203-318-9500"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "4 \nER+, VR, VS, LT, DV, VRX and VSX models \nStandard models (G00) and 3-position models  \nSNAA720000 & SNAA720100 \nSNAA730000 & SNAA730100 \nA-0-B \nElectric connection \nConnect the MODBUS communication wire on RS485 terminal (0-A-B). \nConnect the power supply on the connector Ca \n1 : neutral (50/60 Hz) or negative (DC)\n4 : phase (50/60 Hz) or positive (DC)\nJP1 \nRep. \nDescription \nA-0-B \nRS485 terminal (serial link) for MODBUS communication \nUse the supplied plug-in male connector Phoenix MC 1,5/3-ST-3,5 (3.5 mm, 3 ways, 8 A \nwith screw tightening for wires from 16 to 28 AWG and 1.5 mm2 section). \nJP1 \nTermination resistor jumper (Rt=120 Ω) for line last actuator \nCa \nElectric power supply terminal \nCa \nCa \nRegister table for models bought before 12/2021 (v.4.10)\nRegister \nFunction \nR/W \nBytes \nDescription \nMinimum  \nvalue \nDefault \nvalue \nMaximum \nvalue \n1 \n0x03 \nR \n2 \nnumber of cycles \n0 \n0 \n65535 \n2 \n0x03 \nR \n2 \nOperating time (hours) \n0 \n0 \n65535 \n3 \n0x03 \nR \n2"
+  },
+  {
+    "chunk_id": 8,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "Ca \nCa \nRegister table for models bought before 12/2021 (v.4.10)\nRegister \nFunction \nR/W \nBytes \nDescription \nMinimum  \nvalue \nDefault \nvalue \nMaximum \nvalue \n1 \n0x03 \nR \n2 \nnumber of cycles \n0 \n0 \n65535 \n2 \n0x03 \nR \n2 \nOperating time (hours) \n0 \n0 \n65535 \n3 \n0x03 \nR \n2 \nOperating time (seconds) \n0 \n0 \n3599 \n4 \n0x03 \nR \n2 \nSoftware version \n 0 \n400 \n 65535 \n5 \n0x03 \nR \n2 \nEEPROM errors number \n0 \n0 \n255 \n6 \n0x03 \nR \n2 \nDetected defaults number (Intensity limitation + security temperature) \n0 \n0 \n65535 \n7 \n0x03 \nR \n2 \nHeating status (1=heating; 2=off; 0=non mesured) \n0 \n2 \n2 \n10 \n0x03 \nR \n2 \nMax recorded temperature \n0 \n99 \n11 \n0x03 \nR \n2 \nMin recorded temperature \n-20\n99 \n12 \n0x03 \nR \n2 \nActuator temperature \n-20\n99 \n13 \n0x03 \nR \n2 \nPosition (“OPEN”= 258 ; “OPENING”= 512 ; “CLOSE”= 260 ; \n“CLOSING”= 1024 ; “STOP”= 256 ; “INTER”= 257) \n14 \n0x03 \nR \n2 \nType of fault (No fault = 0 ; Over-torque = 1 ; Temperature too high = 2) \n0  \n0  \n2  \n28  \n0x03/0x10 \nR/W \n2 \nActuator adress"
+  },
+  {
+    "chunk_id": 9,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "R \n2 \nActuator temperature \n-20\n99 \n13 \n0x03 \nR \n2 \nPosition (“OPEN”= 258 ; “OPENING”= 512 ; “CLOSE”= 260 ; \n“CLOSING”= 1024 ; “STOP”= 256 ; “INTER”= 257) \n14 \n0x03 \nR \n2 \nType of fault (No fault = 0 ; Over-torque = 1 ; Temperature too high = 2) \n0  \n0  \n2  \n28  \n0x03/0x10 \nR/W \n2 \nActuator adress \nThe addresses from 248 to 254 are not available. The address 255 is \navailable but allowes neither action nor response.  \n1\n247 \n255\n35  \n0x03/0x06 \nR/W \n2 \nActuator operation : STOP (0) ; OPEN (1) ; CLOSE (2) \n0 \n0 \n2 \n36 \n0x03/0x06 \nR/W \n2 \nINTER position command (“INTER”= 1) \nFor GF3 models only \n0 \n0 \n1 \nFor further information, please refer to the actuator manuals \nJP1  \nA-0-B \nN\n-\nPh\n+\n1 \n4 \nCR-TEC Engineering Inc. • info@crtec.com • www.crtec.com • 203-318-9500"
+  },
+  {
+    "chunk_id": 10,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "5 \nRegister table for models bought after 12/2021 (v.5.40)\nRegister \nFunction \nR/W \nBytes \nDescription \nMinimum  \nvalue \nDefault \nvalue \nMaximum \nvalue \n1 \n0x03 \nR \n2 \nSoftware version \n0 \n500 \n65535 \n7 \n0x03 \nR \n2 \nHeating status (heating = 1 ; off = 2 ; not measured = 0) \n0 \n2 \n2 \n9 \n0x03 / \n0x10 \nR/W \n2 \nModbus Adress \n1 \n247 \n247 \n12 \n0x03 \nR \n2 \nStart ramp (unit : 0,01s) \n0 \n50 \n255 \n21 \n0x03 \nR \n2 \nOvertorque detection delay (unit : 0,01s) \n0 \n100 \n255 \n22 \n0x03 \nR \n2 \nTorque limit. (%) \n10 \n100 \n27 \n0x03 \nR \n2 \nGear unlock (unit : 0,01s) \n0 \n100 \n255 \n30 \n0x03 \nR \n2 \nSafety temperature (steps of 5°C ; starting \n40°C to ending 100°C ; default = 100°C) \n0\n12\n12\n33 \n0x03 \nR \n2 \nRegulation temperature (steps of 5°C starting 10°C to ending 40°C ; de-\nfault = 20°C) \n0\n2\n6\n34 \n0x03 \nR \n2 \nMin. temperature (°C) \n-20\n99 \n35 \n0x03 \nR \n2 \nMax. temperature (°C) \n0 \n99 \n36 \n0x03 \nR \n2 \nTemperature (°C) \n-20\n99 \n101 \n0x06 \nW \n2 \nCommand (“OPEN”= 1 ; “CLOSE”= 2 ; “STOP”= 4) \n0 \n4 \n103 \n0x03"
+  },
+  {
+    "chunk_id": 11,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "fault = 20°C) \n0\n2\n6\n34 \n0x03 \nR \n2 \nMin. temperature (°C) \n-20\n99 \n35 \n0x03 \nR \n2 \nMax. temperature (°C) \n0 \n99 \n36 \n0x03 \nR \n2 \nTemperature (°C) \n-20\n99 \n101 \n0x06 \nW \n2 \nCommand (“OPEN”= 1 ; “CLOSE”= 2 ; “STOP”= 4) \n0 \n4 \n103 \n0x03 \nR \n2 \nPosition (“OPEN”= 1 ; “OPENING”= 17 ; “CLOSE”= 2 ; “CLOSING”= 18 ; \n“STOP”= 4 ; “INTER”= 3) \n1\n18\n105 \n0x06 \nW \n2 \nINTER position command (“WIRE CONTROL”= 0 ; “INTER”= 1) \nFor GF3 models only \n0 \n0 \n1 \n106 \n0x03 \nR \n2 \nType of fault (No fault = 0 ; \nOver-torque = 1 ; Temperature too high = 2) \n0\n0\n2\n120 \n0x03 \nR \n2 \nNb. of cycles \n0 \n0 \n65535 \n121 \n0x03 \nR \n2 \nNb. of EEPROM faults \n0 \n0 \n255 \n122 \n0x03 \nR \n2 \nNb. of faults \n0 \n0 \n65535 \n124 \n0x03 \nR \n2 \nOperating time (hours) \n0 \n0 \n65535 \n126 \n0x03 \nR \n2 \nOperating time (seconds) \n0 \n0 \n3599 \nCR-TEC Engineering Inc. • info@crtec.com • www.crtec.com • 203-318-9500"
+  },
+  {
+    "chunk_id": 12,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "6 \nBBPR (GS6) and 3-POSITION-BBPR (GFS) models \nSNBA130000 & SNBA140000 \nElectric connection \nConnect the MODBUS communication wire on the RS485 terminal of the BBPR board (0-A-B) \nConnect the power supply on the terminal Ca of the main board (see page 16). \n1 : neutral (50/60 Hz) or negative (DC)\n3 : phase (50/60 Hz) or positive (DC)\nFor further information, please refer to the actuator manuals \nRS485 terminal (serial link) for \nMODBUS-RTU communication \nTo be controled, the \nactuator must be in \nmanual mode \nTerminating resistor activation \njumper (ST1). \nIf there’s no jumper on the board \n(previous version), it is necessary \nto connect a terminating resistor of \n120 Ω between terminals A and B. \nCR-TEC Engineering Inc. • info@crtec.com • www.crtec.com • 203-318-9500"
+  },
+  {
+    "chunk_id": 13,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "7 \nRegister \nFunction \nR/W \nBytes \nDescription \nMinimum  \nvalue \nDefault \nvalue \nMaximum \nvalue \n1 \n0x03 \nR \n2 \nSoftware version \n0 \n0 \n65535 \n9 \n0x03 / 0x10 R/W \n2 \nModbus Adress \n1 \n247 \n247 \n12 \n0x03 \nR \n2 \nStart ramp (unit : 0,1 s) \n0 \n5 \n20 \n21 \n0x03 \nR \n2 \nOvertorque detection delay (unit : 0,1 s) \n0 \n10 \n20 \n22 \n0x03 \nR \n2 \nTorque limit. (%) \n10 \n100 \n27 \n0x03 \nR \n2 \nGear unlock (unit : 0,1 s) \n0 \n10 \n20 \n30 \n0x03 \nR \n2 \nSafety temperature (°C) \n40 \n70 \n150 \n34 \n0x03 \nR \n2 \nMin. temperature (°C) \n-20\n127 \n35 \n0x03 \nR \n2 \nMax. temperature (°C) \n0 \n150 \n36 \n0x03 \nR \n2 \nTemperature (unit : 0,1 °C) \n-200\n1270 \n42 0x03 / 0x10 R/W \n2 \nSafety position (“Open”= 1 ; “Inactive”= 4 ; “Close”= 2) \n1 \n2 \n4 \n90 \n0x03 \nR \n2 \nBBPR status (“Not Available”= 0 ; “Available”=1) \n0 \n1 \n1 \n91 \n0x03 \nR \n2 \nBattery charge (“HS”= 1 ; “En charge”= 2 ; “3 et 4”= Chargée) \n1 \n4 \n92 \n0x03 \nR \n2 \nFailure report (“Not active”= 0 ; “Active”=1) \n0 \n0 \n1 \n100 0x03 / 0x06 R/W \n2"
+  },
+  {
+    "chunk_id": 14,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "1 \n2 \n4 \n90 \n0x03 \nR \n2 \nBBPR status (“Not Available”= 0 ; “Available”=1) \n0 \n1 \n1 \n91 \n0x03 \nR \n2 \nBattery charge (“HS”= 1 ; “En charge”= 2 ; “3 et 4”= Chargée) \n1 \n4 \n92 \n0x03 \nR \n2 \nFailure report (“Not active”= 0 ; “Active”=1) \n0 \n0 \n1 \n100 0x03 / 0x06 R/W \n2 \nCurrent mode (“MANUAL”= 1 ; “Prog.”= 4 ; “Wire control”= 8  ; “BBPR”= 64) \n1 \n8 \n64 \n101 \n0x06 \nW \n2 \nCommand (“OPEN”= 1 ; “CLOSE”= 2 ; “INTER”= 3 ; \n “STOP”= 4) \n1\n4\n102 \n0x03 \nR \n2 \nPosition (“OPENING”= 7 ; “CLOSING”= 8 ; “STOP”= 4 ; “OVERTORQUE”= 10) \n4 \n10 \n103 \n0x03 \nR \n2 \nPosition (“OPEN”= 1 ; “OPENING”= 17 ; “CLOSE”= 2 ;  \n“CLOSING”= 18 ; “STOP”= 4 ; “INTER”= 3 ; “OVERTORQUE”= 16) \n1\n18\n120 \n0x03 \nR \n2 \nNb. of cycles \n0 \n0 \n65535 \n122 \n0x03 \nR \n2 \nNb. of faults \n0 \n0 \n65535 \n123 \n0x03 \nR \n2 \nNumber of power failure \n0 \n0 \n65535 \n124 \n0x03 \nR \n2 \nOperating time (hours) \n0 \n65535 \n125 \n0x03 \nR \n2 \nOperating time (minutes) \n0 \n59 \n126 \n0x03 \nR \n2 \nOperating time (seconds) \n0 \n59 \n41 0x03 / 0x10 R/W \n2"
+  },
+  {
+    "chunk_id": 15,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "0 \n0 \n65535 \n122 \n0x03 \nR \n2 \nNb. of faults \n0 \n0 \n65535 \n123 \n0x03 \nR \n2 \nNumber of power failure \n0 \n0 \n65535 \n124 \n0x03 \nR \n2 \nOperating time (hours) \n0 \n65535 \n125 \n0x03 \nR \n2 \nOperating time (minutes) \n0 \n59 \n126 \n0x03 \nR \n2 \nOperating time (seconds) \n0 \n59 \n41 0x03 / 0x10 R/W \n2 \nWiring type (“standard”= 1 ; “4 wires”= 2) \n1 \n1 \n2 \nRegister table\nCR-TEC Engineering Inc. • info@crtec.com • www.crtec.com • 203-318-9500"
+  },
+  {
+    "chunk_id": 16,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "8 \nPOSI (GP8) and POSI-BBPR (GPS) models \nSNBA150000 \nElectric connection \nConnect the MODBUS communication wire on the RS485 terminal of the GPS board (0-A-B) \nConnect the power supply on the terminal Ca of the main board (see p. 16). \n1 : neutral (50/60 Hz) or negative (DC)\n3 : phase (50/60 Hz) or positive (DC)\nFor further information, please refer to the actuator manuals \nRS485 terminal (serial link) for MODBUS-RTU \ncommunication \nTo be controled, the actuator must be in \nmanual mode \nTerminating resistor activation jumper (ST1). \nIf there’s no jumper on the board (previous version), \nit is necessary to connect a terminating resistor of \n120 Ω between terminals A and B. \nCR-TEC Engineering Inc. • info@crtec.com • www.crtec.com • 203-318-9500"
+  },
+  {
+    "chunk_id": 17,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "9 \nRegister \nFunction \nR/W \nBytes \nDescription \nMinimum  \nvalue \nDefault \nvalue \nMaximum \nvalue \n1 \n0x03 \nR \n2 \nSoftware version\n0\n0 \n65535\n9 \n0x03 / 0x10 R/W \n2 \nModbus Adress\n1 \n247 \n247 \n12 \n0x03 \nR \n2 \nStart ramp (unit : 0,1s)\n0\n5 \n20\n21 \n0x03 \nR \n2 \nOvertorque detection delay (unit : 0,1s)\n0 \n10 \n20 \n22 \n0x03 \nR \n2 \nTorque limit. (%)\n10\n100\n27 \n0x03 \nR \n2 \nGear unlock (unit : 0,1 s)\n0 \n10 \n20 \n30 \n0x03 \nR \n2 \nSafety temperature (°C)\n40 \n70 \n150 \n34 \n0x03 \nR \n2 \nMin. temperature (°C)\n-20\n127\n35 \n0x03 \nR \n2 \nMax. temperature (°C)\n0\n150\n36 \n0x03 \nR \n2 \nTemperature (unit : 0,1 °C)\n-200\n \n1270 \n42 0x03 / 0x10 R/W \n2 \nSafety position (“Open”= 1 ; “Inactive”= 4 ; “Close”= 2) \nFor GPS models only \n1 \n2 \n4 \n50 0x03 / 0x10 R/W \n2 \nSetpoint signal (“0_10 V”= 1 ; “4_20 mA”= 2)\n1\n2\n2\n51 0x03 / 0x10 R/W \n2 \nPolarity setpoint signal (“Normal”= 1 ; “Inverted”= 2)\n1\n1\n2\n60 0x03 / 0x10 R/W \n2 \nFeedback signal (“0_10 V”= 1 ; “4_20 mA”= 2)\n1\n2\n2\n61 0x03 / 0x10 R/W \n2"
+  },
+  {
+    "chunk_id": 18,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "For GPS models only \n1 \n2 \n4 \n50 0x03 / 0x10 R/W \n2 \nSetpoint signal (“0_10 V”= 1 ; “4_20 mA”= 2)\n1\n2\n2\n51 0x03 / 0x10 R/W \n2 \nPolarity setpoint signal (“Normal”= 1 ; “Inverted”= 2)\n1\n1\n2\n60 0x03 / 0x10 R/W \n2 \nFeedback signal (“0_10 V”= 1 ; “4_20 mA”= 2)\n1\n2\n2\n61 0x03 / 0x10 R/W \n2 \nPolarity feedback signal (“Normal”= 1 ; “Inverted”= 2)\n1\n1\n2\n62 \n0x06 \nW \n2 \nSetpoint (unit : 0,1 %) (Manual mode only)\n0\n \n1000\n63 \n0x03 \nR \n2 \nSetpoint feedback (unit : 0,1 %)\n0\n \n1000\n90 \n0x03 \nR \n2 \nBBPR status (“Not Available”= 0 ; “Available”=1) \nFor GPS models only \n0 \n1 \n1 \n91 \n0x03 \nR \n2 \nBattery charge (“HS”= 1 ; “En charge”= 2 ; “3 et 4”= Chargée) \nFor GPS models only \n1 \n4 \n92 \n0x03 \nR \n2 \nFailure report (“Not active”= 0 ; “Active”=1)\n0\n0\n1\n100 0x03 / 0x06 R/W \n2 Current mode (“MANUAL”= POSI”= 2 ; “Prog.”= 4 ; “Learning”= 16 ; “BBPR”= 64)\n1\n2 \n64\n102 \n0x03 \nR \n2 \nPosition (“OPENING”= 7 ; “CLOSING”= 8 ; “STOP”= 4 ; “OVERTORQUE”= 10)\n4\n10\n103 \n0x03 \nR \n2"
+  },
+  {
+    "chunk_id": 19,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "1 \n4 \n92 \n0x03 \nR \n2 \nFailure report (“Not active”= 0 ; “Active”=1)\n0\n0\n1\n100 0x03 / 0x06 R/W \n2 Current mode (“MANUAL”= POSI”= 2 ; “Prog.”= 4 ; “Learning”= 16 ; “BBPR”= 64)\n1\n2 \n64\n102 \n0x03 \nR \n2 \nPosition (“OPENING”= 7 ; “CLOSING”= 8 ; “STOP”= 4 ; “OVERTORQUE”= 10)\n4\n10\n103 \n0x03 \nR \n2 \nPosition (“OPEN”= 1 ; “OPENING”= 17 ; “CLOSE”= 2 ; \n“CLOSING”= 18 ; “STOP”= 4 ; “OVERTORQUE”= 16)\n1\n18\n120 \n0x03 \nR \n2 \nNb. of cycles\n0\n0 \n65535\n122 \n0x03 \nR \n2 \nNb. of faults\n0\n0 \n65535\n123 \n0x03 \nR \n2 \nNumber of power failure \nFor GPS models only \n0 \n0 \n65535 \n124 \n0x03 \nR \n2 \nOperating time (hours)\n0\n \n65535\n125 \n0x03 \nR \n2 \nOperating time (minutes)\n0\n59\n126 \n0x03 \nR \n2 \nOperating time (seconds)\n0\n59\nRegister table\nCR-TEC Engineering Inc. • info@crtec.com • www.crtec.com • 203-318-9500"
+  },
+  {
+    "chunk_id": 20,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "10 \nVT PLUS and MT models (all versions) \nFor the last actuator of the line (see diagram p.11), \nit is necessary to connect a terminating resistor of \n120 Ω (supplied) between terminals A and B. \nTo be controled, the actuator must be in manual \nmode \n21 RS485 (B)\n22 RS485 (0V)\n23 RS485 (A)\nPower supply (neutral) 1 \nPower supply (phase 1) 2 \nPower supply (phase 2) 3 \nPower supply (phase 3) 4 \nRegister \nFunction \nR/W \nBytes \nDescription \nMinimum  \nvalue \nDefault \nvalue \nMaximum \nvalue \n1 \n0x03 \nR \n2 \nSoftware version\n0\n0 \n65535\n9 \n0x03 / 0x10 R/W \n2 \nModbus Adress\n1 \n247 \n247 \n12 \n0x03 \nR \n2 \nStart ramp (unit : 0,1s)\n0 \n10 \n200 \n20 \n0x03 \nR \n2 \nSetting motor nominal speed (tr/min)\n1500\n3600 \n21 \n0x03 \nR \n2 \nOvertorque detection delay (unit : 0,1s)\n0\n200\n22 \n0x03 \nR \n2 \nTorque limit. (%)\n10 \n100 \n100 \n23 \n0x03 \nR \n2 \nActuator torque (%)\n0\n100\n24 \n0x03 \nR \n2 \nActuator torque peak (%)\n0\n100\n26 \n0x03 \nR \n2 \nMotor speed (tr/min)\n0\n \n9999\n27 \n0x03 \nR \n2 \nGear unlock (unit : 0,1s)\n0\n50\n29"
+  },
+  {
+    "chunk_id": 21,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "21 \n0x03 \nR \n2 \nOvertorque detection delay (unit : 0,1s)\n0\n200\n22 \n0x03 \nR \n2 \nTorque limit. (%)\n10 \n100 \n100 \n23 \n0x03 \nR \n2 \nActuator torque (%)\n0\n100\n24 \n0x03 \nR \n2 \nActuator torque peak (%)\n0\n100\n26 \n0x03 \nR \n2 \nMotor speed (tr/min)\n0\n \n9999\n27 \n0x03 \nR \n2 \nGear unlock (unit : 0,1s)\n0\n50\n29 \n0x03 \nR \n2 \nSetting motor speed (%)\n0\n100\n30 \n0x03 \nR \n2 \nSafety temperature (°C)\n40 \n100 \n150 \nTP/PE \nElectric connection \nConnect the MODBUS communication wire on the terminals 21, 22 and 23. \nConnect the power supply wire on the terminals 1 and 3 \n1 : neutral (50/60 Hz) or negative (DC)\n4 : phase (50/60 Hz) or positive (DC)\nRegister table for models bought before 12/2021 (v.34)\nFor further information, please refer to the actuator \nmanuals \nN\n-\nPh\n+\n1 \n4 \nCR-TEC Engineering Inc. • info@crtec.com • www.crtec.com • 203-318-9500"
+  },
+  {
+    "chunk_id": 22,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "11 \nRegister \nFunction \nR/W \nBytes \nDescription \nMinimum  \nvalue \nDefault \nvalue \nMaximum \nvalue \n33 \n0x03 \nR \n2 \nRegulation temperature (°C)\n10 \n20 \n50 \n34 \n0x03 \nR \n2 \nMin. temperature (°C)\n-20\n127\n35 \n0x03 \nR \n2 \nMax. temperature (°C)\n0\n150\n36 \n0x03 \nR \n2 \nTemperature (unit : 0,1°C)\n-200\n \n1270 \n40 \n0x03 \nR \n2 \nType of actuator (\"VT+_4POLES\"= 17 ; \"VT+_6POLES\"= 18 ; \n\"MT_4POLES\"= 33 ; \"MT_6POLES\"= 34)\n17\n34\n41 0x03 / 0x10 R/W \n2 \nWiring (“Standard”= 1 ; “4 wires”= 2)\n1\n1\n2\n42 0x03 / 0x10 R/W \n2 \nSafety position (“Open”= 1 ; “Inactive”= 4 ; “Close”= 2) \nGS6, GFS & GPS models only \n1 \n2 \n4 \n50 0x03 / 0x10 R/W \n2 \nSetpoint signal (“0_10V”= 1 ; “4_20mA”= 2) \nGP7 & GPS models only \n1 \n2 \n2 \n51 0x03 / 0x10 R/W \n2 \nPolarity setpoint signal (“Normal”= 1 ; “Inverted”= 2) \nGP7 & GPS models only \n1 \n1 \n2 \n60 0x03 / 0x10 R/W \n2 \nFeedback signal (“0_10V”= 1 ; “4_20mA”= 2) \nGP7 & GPS models only \n1 \n2 \n2 \n61 0x03 / 0x10 R/W \n2 \nPolarity feedback signal (“Normal”= 1 ; “Inverted”= 2)"
+  },
+  {
+    "chunk_id": 23,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "1 \n2 \n2 \n51 0x03 / 0x10 R/W \n2 \nPolarity setpoint signal (“Normal”= 1 ; “Inverted”= 2) \nGP7 & GPS models only \n1 \n1 \n2 \n60 0x03 / 0x10 R/W \n2 \nFeedback signal (“0_10V”= 1 ; “4_20mA”= 2) \nGP7 & GPS models only \n1 \n2 \n2 \n61 0x03 / 0x10 R/W \n2 \nPolarity feedback signal (“Normal”= 1 ; “Inverted”= 2) \nGP7 & GPS models only \n1 \n1 \n2 \n62 \n0x06 \nW \n2 \nSetpoint (unit : 0,1%) \nGP7 & GPS models only \n0 \n1000 \n63 \n0x03 \nR \n2 \nSetpoint feedback (unit : 0,1%) \nGP7 & GPS models only \n0 \n1000 \n90 \n0x03 \nR \n2 \nBBPR status (“Not Available”= 0 ; “Available”=1) \nGS6, GFS & GPS models only \n0 \n1 \n1 \n91 \n0x03 \nR \n2 \nBattery charge (“HS”= 1 ; “En charge”= 2 ; “3 et 4”= Chargée) \nGS6, GFS & GPS models only \n1 \n4 \n100 0x03 / 0x06 R/W \n2 \nCurrent mode (“MANUAL”= 1 ; “POSI”= 2 ; “Prog.”= 4 ;  \n“Wire control”= 8 ; “Learning”= 16 ; “BBPR”= 64)\n1\n8 \n64\n101 \n0x06 \nW \n2 \nCommand (“OPEN”= 1 ; “CLOSE”= 2 ; “INTER”= 3 ;\n “STOP”= 4)\n1\n4\n102 \n0x03 \nR \n2"
+  },
+  {
+    "chunk_id": 24,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "GS6, GFS & GPS models only \n1 \n4 \n100 0x03 / 0x06 R/W \n2 \nCurrent mode (“MANUAL”= 1 ; “POSI”= 2 ; “Prog.”= 4 ;  \n“Wire control”= 8 ; “Learning”= 16 ; “BBPR”= 64)\n1\n8 \n64\n101 \n0x06 \nW \n2 \nCommand (“OPEN”= 1 ; “CLOSE”= 2 ; “INTER”= 3 ;\n “STOP”= 4)\n1\n4\n102 \n0x03 \nR \n2 \nPosition (“OPENING”= 0 ; “CLOSING”= 1 ; “STOP”= 2 ; “OVERTORQUE”= 3)\n0\n3\n103 \n0x03 \nR \n2 \nPosition (“OPEN”= 1 ; “CLOSE”= 2 ; “STOP”= 4 ; “INTER”= 3 ;  \n“OPEN -> INTER”= 5 ; “CLOSE -> INTER”= 6 ; “OVERTORQUE”= 16)\n1\n18\n120 \n0x03 \nR \n2 \nNb. of cycles\n0\n0 \n65535\n122 \n0x03 \nR \n2 \nNb. of faults\n0\n0 \n65535\n123 \n0x03 \nR \n2 \nNumber of power failure \nGS6, GFS & GPS models only \n0 \n0 \n65535 \n124 \n0x03 \nR \n2 \nOperating time (hours)\n0\n \n65535\n125 \n0x03 \nR \n2 \nOperating time (minutes)\n0\n59\n126 \n0x03 \nR \n2 \nOperating time (seconds)\n0\n59\nCR-TEC Engineering Inc. • info@crtec.com • www.crtec.com • 203-318-9500"
+  },
+  {
+    "chunk_id": 25,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "12 \nRegister table for models bought after 12/2021 (v.35)\nRegister \nFunction \nR/W \nBytes \nDescription \nMinimum  \nvalue \nDefault \nvalue \nMaxi-\nmum \nvalue \n1 \n0x03 \nR \n2 \nSoftware version \n0 \n0 \n65535 \n9 \n0x03 / \n0x10 \nR/W \n2 \nModbus Adress \n1 \n247 \n247 \n12 \n0x03 \nR \n2 \nStart ramp (unit : 0,1s) \n0 \n10 \n200 \n20 \n0x03 \nR \n2 \nSetting motor nominal speed (tr/min) \n1500\n \n3600 \n21 \n0x03 \nR \n2 \nOvertorque detection delay (unit : 0,1s) \n0\n \n200\n22 \n0x03 \nR \n2 \nTorque limit. (%) \n10 \n100 \n100 \n23 \n0x03 \nR \n2 \nActuator torque (%) \n0\n \n100\n24 \n0x03 \nR \n2 \nActuator torque peak (%) \n0\n \n100\n26 \n0x03 \nR \n2 \nMotor speed (tr/min) \n0\n \n9999\n27 \n0x03 \nR \n2 \nGear unlock (unit : 0,1s) \n0\n50\n29 \n0x03 \nR \n2 \nSetting motor speed (%) \n0\n \n100\n30 \n0x03 \nR \n2 \nSafety temperature (°C) \n40 \n100 \n150 \n33 \n0x03 \nR \n2 \nRegulation temperature (°C) \n10 \n20 \n50 \n34 \n0x03 \nR \n2 \nMin. temperature (°C) \n-20\n127 \n35 \n0x03 \nR \n2 \nMax. temperature (°C) \n0\n \n150\n36 \n0x03 \nR \n2 \nTemperature (unit : 0,1°C) \n-200\n \n1270 \n40"
+  },
+  {
+    "chunk_id": 26,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "0\n \n100\n30 \n0x03 \nR \n2 \nSafety temperature (°C) \n40 \n100 \n150 \n33 \n0x03 \nR \n2 \nRegulation temperature (°C) \n10 \n20 \n50 \n34 \n0x03 \nR \n2 \nMin. temperature (°C) \n-20\n127 \n35 \n0x03 \nR \n2 \nMax. temperature (°C) \n0\n \n150\n36 \n0x03 \nR \n2 \nTemperature (unit : 0,1°C) \n-200\n \n1270 \n40 \n0x03 \nR \n2 \nType of actuator (\"VT+_4POLES\"= 17 ; \"VT+_6POLES\"= 18 \n; \"MT_4POLES\"= 33 ; \"MT_6POLES\"= 34) \n17\n34\n41 \n0x03 / \n0x10 \nR/W \n2 \nWiring (“Standard”= 1 ; “4 wires”= 2) \n1\n1\n2\n42 0x03 / 0x10 R/W \n2 \nSafety position (“Open”= 1 ; “Inactive”= 4 ; “Close”= 2) \nGS6, GFS & GPS models only \n1 \n2 \n4 \n50 0x03 / 0x10 R/W \n2 \nSetpoint signal (“0_10V”= 1 ; “4_20mA”= 2) \nGP7 & GPS models only \n1 \n2 \n2 \n51 0x03 / 0x10 R/W \n2 \nPolarity setpoint signal (“Normal”= 1 ; “Inverted”= 2) \nGP7 & GPS models only \n1 \n1 \n2 \n60 0x03 / 0x10 R/W \n2 \nFeedback signal (“0_10V”= 1 ; “4_20mA”= 2) \nGP7 & GPS models only \n1 \n2 \n2 \n61 0x03 / 0x10 R/W \n2 \nPolarity feedback signal (“Normal”= 1 ; “Inverted”= 2) \nGP7 & GPS models only \n1 \n1 \n2 \n62"
+  },
+  {
+    "chunk_id": 27,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "GP7 & GPS models only \n1 \n1 \n2 \n60 0x03 / 0x10 R/W \n2 \nFeedback signal (“0_10V”= 1 ; “4_20mA”= 2) \nGP7 & GPS models only \n1 \n2 \n2 \n61 0x03 / 0x10 R/W \n2 \nPolarity feedback signal (“Normal”= 1 ; “Inverted”= 2) \nGP7 & GPS models only \n1 \n1 \n2 \n62 \n0x06 \nW \n2 \nSetpoint (unit : 0,1%) \nGP7 & GPS models only \n0 \n1000 \n63 \n0x03 \nR \n2 \nSetpoint feedback (unit : 0,1%) \nGP7 & GPS models only \n0 \n1000 \n90 \n0x03 \nR \n2 \nBBPR status (“Not Available”= 0 ; “Available”=1) \nGS6, GFS & GPS models only \n0 \n1 \n1 \n91 \n0x03 \nR \n2 \nBattery charge (“HS”= 1 ; “En charge”= 2 ; “3 et 4”= Chargée) \nGS6, GFS & GPS models only \n1 \n4 \n100 \n0x03 / \n0x06 \nR/W \n2 \nCurrent mode (“MANUAL”= 1 ; “POSI”= 2 ; “Prog.”= 4 ; “Wire control”= 8 ; \n“Learning”= 16 ; \n“Failsafe”= 64) \n1\n8\n64\n101 \n0x06 \nW \n2 \nCommand (“OPEN”= 1 ; “CLOSE”= 2 ; “INTER”= 3 ; “STOP”= 4) \n1\n4\n102 \n0x03 \nR \n2 \nPosition (“OPENING”= 7 ; “CLOSING”= 8 ; “STOP”= 4 ; “OVERTORQUE”= 10) \n4\n10\n103 \n0x03 \nR"
+  },
+  {
+    "chunk_id": 28,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "“Learning”= 16 ; \n“Failsafe”= 64) \n1\n8\n64\n101 \n0x06 \nW \n2 \nCommand (“OPEN”= 1 ; “CLOSE”= 2 ; “INTER”= 3 ; “STOP”= 4) \n1\n4\n102 \n0x03 \nR \n2 \nPosition (“OPENING”= 7 ; “CLOSING”= 8 ; “STOP”= 4 ; “OVERTORQUE”= 10) \n4\n10\n103 \n0x03 \nR \n2 Position (“OPEN”= 1 ; “CLOSE”= 2 ; “STOP”= 4 ; “INTER”= 3 ; “OPEN -> INTER”= \n5 ; “CLOSE -> INTER”= 6 ; “OVERTORQUE”= 16) \n1\n18\n120 \n0x03 \nR \n2 \nNb. of cycles \n0 \n0 \n65535 \n122 \n0x03 \nR \n2 \nNb. of faults \n0 \n0 \n65535 \n123 \n0x03 \nR \n2 \nNumber of power failure \nGS6, GFS & GPS models only \n0 \n0 \n65535 \n124 \n0x03 \nR \n2 \nOperating time (hours) \n0\n \n65535\n125 \n0x03 \nR \n2 \nOperating time (minutes) \n0\n59\n126 \n0x03 \nR \n2 \nOperating time (seconds) \n0\n59\nCR-TEC Engineering Inc. • info@crtec.com • www.crtec.com • 203-318-9500"
+  },
+  {
+    "chunk_id": 29,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Modbus-RTU-Manual.2022.pdf",
+    "content": "DSBA3305 • Rév. 21/02/2022 \nCR-TEC Engineering Inc.\n15 Orchard Park Road, Unit 18\n Telephone 203-318-9500 • Fax 203-245-2575 \ninfo@crtec.com • www.crtec.com\nCR-TEC Engineering Inc."
+  }
+]

@@ -1,0 +1,15 @@
+subnetwork.properties.physicalStandard=1
+subnetwork.properties.baudRate=19200
+subnetwork.properties.dataBits=1
+subnetwork.properties.parity=2
+subnetwork.properties.stopBits=0
+subnetwork.nodes[0].properties.nodeAddress=1
+subnetwork.nodes[0].properties.name=PowerLogic PM5100 series
+subnetwork.nodes[0].properties.modbusAddressingMode=1
+subnetwork.nodes[0].transactions[0].properties.name=Serial number
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=not found
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=not found
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=not found
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=not found

@@ -1,0 +1,1004 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Honeywell Process Solutions \n \n    \n  \n \n \nModbus® RTU Serial \nCommunications \nUser Manual \n \n51-52-25-66 \nRevision T \nFebruary 2013"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "ii \nModbus® RTU Serial Communications User Manual \n02/13 \nCopyright, Notices, and Trademarks \nPrinted in U.S.A. – © Copyright 2010 by Honeywell \nRevision T – February 2013 \n \n \nWarranty/Remedy \nHoneywell warrants goods of its manufacture as being free of defective materials and faulty \nworkmanship. Contact your local sales office for warranty information. If warranted goods are \nreturned to Honeywell during the period of coverage, Honeywell will repair or replace without charge \nthose items it finds defective. The foregoing is Buyer's sole remedy and is in lieu of all other \nwarranties, expressed or implied, including those of merchantability and fitness for a particular \npurpose. Specifications may change without notice. The information we supply is believed to be \naccurate and reliable as of this printing. However, we assume no responsibility for its use. \nWhile we provide application assistance personally, through our literature and the Honeywell web"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "purpose. Specifications may change without notice. The information we supply is believed to be \naccurate and reliable as of this printing. However, we assume no responsibility for its use. \nWhile we provide application assistance personally, through our literature and the Honeywell web \nsite, it is up to the customer to determine the suitability of the product in the application. \n \n \n \n \n \n \n \n \nHoneywell Process Solutions \n512 Virginia Drive  \nFort Washington, PA 19034 \n \n \nModbus is a registered trademark of MODICON, Inc. \nWindows is an addressed trademark of Microsoft Inc. \nThe omission of a name from this list is not to be interpreted that the name is not a trademark. \n \nReference: Modicon Modbus Protocol Reference Guide - PI-MBUS-300 Rev. G"
+  },
+  {
+    "chunk_id": 3,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "02/13 \nModbus® RTU Serial Communications User Manual \niii \nAbout This Document \nAbstract \nThis document provides generic information for Honeywell instruments implementing the Modbus RTU Serial \nCommunications protocol. Configuration information relating to specific devices is supplied in separate user \nmanuals. Refer to 1.2 Modbus RTU Configuration Interface for a list of instruments and the corresponding \nconfiguration interface user manuals. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nContacts \nWorld Wide Web \nThe following lists Honeywell’s World Wide Web sites that will be of interest to our customers.  \n \nHoneywell Organization \nWWW Address (URL) \nCorporate \nhttp://www.honeywell.com \nIndustrial Measurement & Control \nhttp://www.honeywell.com/ps \n \nTelephone \nContact us by telephone at the numbers listed below. \n \n \nOrganization \nPhone Number \nUnited States and Canada \nHoneywell \n1-800-423-9883 \nTech. Support \n1-800-525-7439 \nService \n \n \nRevision Information \n \nDocument ID"
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Industrial Measurement & Control \nhttp://www.honeywell.com/ps \n \nTelephone \nContact us by telephone at the numbers listed below. \n \n \nOrganization \nPhone Number \nUnited States and Canada \nHoneywell \n1-800-423-9883 \nTech. Support \n1-800-525-7439 \nService \n \n \nRevision Information \n \nDocument ID \nRevision \nNumber \nPublication Date \nRevision details \n51-52-25-66 \nS \nJuly 2010 \nRegister Maps updated for Extended Comms, Alarm Values and \nAlarm Status (X Series Recorders) \n51-52-25-66 \nT \nFebruary 2013 \nDecimal registers updated"
+  },
+  {
+    "chunk_id": 5,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "iv \nModbus® RTU Serial Communications User Manual \n02/13 \nContents \n1. \nINTRODUCTION ................................................................................................... 1 \n1.1 \nModbus RTU Implementation ........................................................................................................ 1 \n1.2 \nModbus RTU Configuration Interface ........................................................................................... 1 \n2. \nMODBUS RTU MESSAGE FORMAT ................................................................... 2 \n2.1 \nModbus RTU Link Layer ............................................................................................................... 2 \n2.2 \nModbus RTU Data Layer ............................................................................................................... 3 \n2.3 \nIEEE 32-bit Floating-Point Register Information .......................................................................... 4 \n3."
+  },
+  {
+    "chunk_id": 6,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "2.2 \nModbus RTU Data Layer ............................................................................................................... 3 \n2.3 \nIEEE 32-bit Floating-Point Register Information .......................................................................... 4 \n3. \nMODBUS RTU FUNCTION CODES ..................................................................... 9 \n3.1 \nFunction Code 01 – Read Digital Output Status .......................................................................... 13 \n3.2 \nFunction Code 02 – Read Digital Input Status ............................................................................. 15 \n3.3 \nFunction Codes 03/04 – Read Input Registers ............................................................................. 16 \n3.4 \nFunction Code 05 – Force Single Digital Output ......................................................................... 18 \n3.5"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "3.3 \nFunction Codes 03/04 – Read Input Registers ............................................................................. 16 \n3.4 \nFunction Code 05 – Force Single Digital Output ......................................................................... 18 \n3.5 \nFunction Codes 06 – Preset Single Register ................................................................................. 19 \n3.6 \nFunction Code 08 – Loopback Message ...................................................................................... 20 \n3.7 \nFunction Codes 16 (10h) – Preset Multiple Registers .................................................................. 21 \n3.8 \nFunction Code 17 (11h) – Report Device ID ............................................................................... 22 \n4. \nMODBUS RTU EXCEPTION CODES ................................................................. 25 \nA. \nAPPENDIX: REGISTER MAP ............................................................................. 27"
+  },
+  {
+    "chunk_id": 8,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "4. \nMODBUS RTU EXCEPTION CODES ................................................................. 25 \nA. \nAPPENDIX: REGISTER MAP ............................................................................. 27 \nA.1 \nRegister Map Overview ............................................................................................................ 27 \nA.2 \nMiscellaneous Register Map ..................................................................................................... 29 \nA.2.1 \nRSX, VPR, VRX, UDC5300  Miscellaneous Register Map ............................................. 29 \nA.2.2 \nDR4300, DR4500 Chart Record Map ............................................................................... 30 \nA.3 \nLoop Value Integer Register Map ............................................................................................. 31 \nA.4 \nLoop 2 and Extended Value Integer Register Map – UDC3500 .............................................. 35 \nA.5"
+  },
+  {
+    "chunk_id": 9,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "A.3 \nLoop Value Integer Register Map ............................................................................................. 31 \nA.4 \nLoop 2 and Extended Value Integer Register Map – UDC3500 .............................................. 35 \nA.5 \nLoop Value Register Map ......................................................................................................... 38 \nA.6 \nAnalog Input Value Register Map ............................................................................................ 43 \nA.7 \nCommunication or Constant Value Register Map .................................................................... 44 \nA.7.1 \nExtended Comms for X Series recorders ........................................................................... 45 \nA.8 \nMath, Calculated Value, or Variable Register Map .................................................................. 46 \nA.9"
+  },
+  {
+    "chunk_id": 10,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "A.7.1 \nExtended Comms for X Series recorders ........................................................................... 45 \nA.8 \nMath, Calculated Value, or Variable Register Map .................................................................. 46 \nA.9 \nMath or Calculated Value Status Register Map ........................................................................ 47 \nA.10 \nTotalizer Value Register Map ................................................................................................... 48 \nA.11 \nTotalizer Status Register Map ................................................................................................... 49 \nA.12 \nShed Timer Reset Register ........................................................................................................ 50"
+  },
+  {
+    "chunk_id": 11,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "02/13 \nModbus® RTU Serial Communications User Manual \nv \nA.13 \nMaintenance (HealthWatch) Value Register Map .................................................................... 51 \nA.14 \nTime Register Map ................................................................................................................... 53 \nA.15 \nAlarm Status Register Map ....................................................................................................... 54 \nA.16 \nAlarm Set Point Value Register Map ........................................................................................ 55 \nA.16.1 \nAlarm Status ................................................................................................................... 56 \nA.17 \nSet Point Programmer Value Register Map .............................................................................. 57 \nA.18 \nSet Point Programmer Additional Values Register Map .......................................................... 59 \nA.19"
+  },
+  {
+    "chunk_id": 12,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "A.17 \nSet Point Programmer Value Register Map .............................................................................. 57 \nA.18 \nSet Point Programmer Additional Values Register Map .......................................................... 59 \nA.19 \nSet Point Programmer Segment Map ........................................................................................ 62 \nA.19.1 \nSegment Register Map ................................................................................................... 63 \nA.19.2 \nExample For Determining a Segment Register .............................................................. 64 \nA.20 \nHerculine Smart Actuator Value Register Map ........................................................................ 65 \nA.21 \nHerculine Smart Actuator Factory Data Register Map ............................................................. 67 \nA.22"
+  },
+  {
+    "chunk_id": 13,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "A.20 \nHerculine Smart Actuator Value Register Map ........................................................................ 65 \nA.21 \nHerculine Smart Actuator Factory Data Register Map ............................................................. 67 \nA.22 \nHerculine Smart Actuator Maintenance Data Register Map ..................................................... 68 \nB. \nAPPENDIX: CRC-16 CALCULATION ................................................................ 69"
+  },
+  {
+    "chunk_id": 14,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "vi \nModbus® RTU Serial Communications User Manual \n02/13 \nTables \nTable 1-1  Communication and Configuration User Manuals __________________________________ 1 \nTable 2-1  Modbus RTU Message Formats ________________________________________________ 2 \nTable 2-2  IEEE Floating Point Number Examples in FP B Format _____________________________ 8 \nTable 3-1  Modbus RTU Function Codes Definitions ________________________________________ 9 \nTable 3-2  Maximum Number of Object Addresses for Each Instrument Type ____________________ 10 \nTable 3-3  Maximum Number of Registers Allowable per Request _____________________________ 12 \nTable 3-4  Request Delay Time* _______________________________________________________ 12 \nTable 3-5  DR4500 Digital Output Mapping ______________________________________________ 14 \nTable 3-6  UDC2300/UDC2500/UDC3200/UDC3300 DO Mapping ___________________________ 14 \nTable 3-7  Herculine Smart Actuators Digital Output Mapping ________________________________ 14"
+  },
+  {
+    "chunk_id": 15,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Table 3-5  DR4500 Digital Output Mapping ______________________________________________ 14 \nTable 3-6  UDC2300/UDC2500/UDC3200/UDC3300 DO Mapping ___________________________ 14 \nTable 3-7  Herculine Smart Actuators Digital Output Mapping ________________________________ 14 \nTable 3-8  UDC3500 Digital Output Mapping _____________________________________________ 14 \nTable 4-1  Modbus RTU Data Layer Status Exception Codes _________________________________ 26 \nTable A-1  Global Register Map ________________________________________________________ 27 \n \nFigures \nFigure 2-1 IEEE Floating-Point Data format _______________________________________________ 4 \nFigure 2-2 IEEE Floating Point Formats __________________________________________________ 8"
+  },
+  {
+    "chunk_id": 16,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Introduction \n02/13 \nModbus® RTU Serial Communications User Manual \n1 \n1. Introduction \n1.1 \nModbus RTU Implementation \nThis implementation is designed to provide a popular data exchange format connecting these instruments \nto both Honeywell and foreign master devices. The Modbus RTU allows the instrument to be a citizen on a \ndata link shared with other devices that subscribe to the Modbus RTU RS-485 specification. \nThese instruments DO NOT emulate any MODICON type device. The Modbus RTU specification is \nrespected in the physical and data link layers. The message structure of the Modbus RTU function codes is \nemployed and standard IEEE 32-bit floating point and integer formats are used. Data register mapping is \nunique to these instruments. The definition in Table 2-1 is the register mapping for many Honeywell \ninstruments and the corresponding parameter value within those instruments. \n1.2 \nModbus RTU Configuration Interface"
+  },
+  {
+    "chunk_id": 17,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "unique to these instruments. The definition in Table 2-1 is the register mapping for many Honeywell \ninstruments and the corresponding parameter value within those instruments. \n1.2 \nModbus RTU Configuration Interface \nThis user manual does not include the configuration interfaces for the instruments supporting the Modbus \nRTU Protocol. The following table describes the references to the specific instrument’s communication \nand configuration user manuals. \nTable 1-1  Communication and Configuration User Manuals \nInstrument Model \nUser Manual Part Number \nRSX, VPR, VRX, UDC5300 \n51-52-25-68 \nMinitrend V5, Multitrend Plus \nV5 \n43-TV-25-08 Communications Manual \neZtrend V5 \n43-TV-25-08 Communications Manual V5 (Modbus TCP/IP only) \nQX and SX (X Series) \n43-TV-25-30 \nDR4300 \n51-52-25-71 \nDR4500 \n51-52-25-69 \nUDC2300 \n51-52-25-75 \nUDC3300 \n51-52-25-70 \n51-52-25-38  UDC3000A Modbus 485 RTU Communications Manual \nDPR100 \nUS1I-6149 DPR100C-DPR100D Communication Option Manual \nDPR180/DPR250"
+  },
+  {
+    "chunk_id": 18,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "QX and SX (X Series) \n43-TV-25-30 \nDR4300 \n51-52-25-71 \nDR4500 \n51-52-25-69 \nUDC2300 \n51-52-25-75 \nUDC3300 \n51-52-25-70 \n51-52-25-38  UDC3000A Modbus 485 RTU Communications Manual \nDPR100 \nUS1I-6149 DPR100C-DPR100D Communication Option Manual \nDPR180/DPR250 \nEN1I-6189 DPR180/DPR250 Communication Option Manual \n10260S/11280S/ \nSA201/SA2002 \n51-52-25-103 Modbus Configuration Interface for Herculine Actuators \nUDC2500 \n51-52-25-127 \nUDC2500 Limit Controller \n51-52-25-118 \nUDC3200 \n51-52-25-119 \nUDC3500 \n51-52-25-120"
+  },
+  {
+    "chunk_id": 19,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Message Format \n2 \nModbus® RTU Serial Communications User Manual \n02/13 \n2. Modbus RTU Message Format \nTable 2-1  Modbus RTU Message Formats \nCoding system \n8 bit binary \nNumber of data bits per \ncharacter \n10 Bits \n \nstart bits - 1 \n \ndata bits - 8 \n \nparity bits - 0 \n \nstop bits - 1 \nParity \nNot used \nBit transfer rate \n300, 600, 1200, 2400, 4800, 9600, 19200, 38400 Selectable \nNOTE: Not all instruments support all Baud Rates. \nDuplex \nHalf duplex Transceiver or TX/RX \nError checking \nCRC (cyclic redundancy check) \nPolynomial \n(CRC-16 10100000000001) \nBit transfer order \nLSB first \nEnd of message  \nIdle line for 3.5 or more characters (>1.82 msec for 19200). \n \n2.1 \nModbus RTU Link Layer \nThe link layer includes the following properties/behaviors: \n \nSlave address recognition, \n \nStart / End of Frame detection, \n \nCRC-16 generation / checking, \n \nTransmit / receive message time-out, \n \nBuffer overflow detection, \n \nFraming error detection, \n \nIdle line detection."
+  },
+  {
+    "chunk_id": 20,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "The link layer includes the following properties/behaviors: \n \nSlave address recognition, \n \nStart / End of Frame detection, \n \nCRC-16 generation / checking, \n \nTransmit / receive message time-out, \n \nBuffer overflow detection, \n \nFraming error detection, \n \nIdle line detection. \nErrors detected by the physical layer in messages received by the slave are ignored and the physical layer \nautomatically restarts by initiating a new receive on the next idle line detection."
+  },
+  {
+    "chunk_id": 21,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Message Format \n02/13 \nModbus® RTU Serial Communications User Manual \n3 \nGeneral Modbus RTU message format \nQuery message format \n[Slave Address, Function Code, Function code dependent data, CRC 16] \nResponse message format \n[Slave Address, Function Code*, Function code dependent data, CRC 16] \n* If an error is detected in a valid message the response function code is modified by adding 80 (hex) and the \nfunction code dependent data is replaced by an exception response code as described in Section 4 - Modbus RTU \nException Codes. \nBetween messages, the RS-485 link is in a high impedance state. During this time receiving devices are \nmore susceptible to noise generated false start of messages. Although noise-generated messages are \nrejected due to address, framing, and CRC checking, they can cause the loss of a good message when they \nare included in the message stream. In the slave, the transmitting device enables its transmitter line driver"
+  },
+  {
+    "chunk_id": 22,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "rejected due to address, framing, and CRC checking, they can cause the loss of a good message when they \nare included in the message stream. In the slave, the transmitting device enables its transmitter line driver \nand forces an idle line state onto the link for three character time slots prior to transmitting. This action \nforces termination of any noise generated messages and improves message frame synchronization. \n2.2 \nModbus RTU Data Layer \nThe data layer includes: \n• \nDiagnostic loopback, \n• \nFunction code recognition / rejection, \n• \nBusy / repoll, \n• \nData error code generation \nErrors detected by the data layer are rejected and the slave responds to the polling device with a Modbus-\ntype status exception error. A summary of the Modbus status exception codes is listed in \nSection 4 - Modbus RTU Exception Codes"
+  },
+  {
+    "chunk_id": 23,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Message Format \n4 \nModbus® RTU Serial Communications User Manual \n02/13 \n \n2.3 \n IEEE 32-bit Floating-Point Register Information \nThe Modbus applications support IEEE 32-bit floating-point information for several of the function codes. \n \nIEEE Floating-Point Data Format \nThe formula for calculating the floating-point number is:  \n \n \nmantissa x 2\n(exponent -127)\n \n   byte 4          byte 3            byte 2           byte 1\n3            2    2             1     1           \n1            4    3             6     5            8     7          0\nxxxxxxxx    x.xxxxxxx     xxxxxxxx     xxxxxxx\n                               \n                                   mantissa (23 bits)\n                      \n                          implied binary point for mantissa\n             exponent (8 bit unsigned value)\n   sign of the mantissa 0 = positive, 1 = negative\n   (23 bit signed binary with 8 bit biased binary exponent)\n \nFigure 2-1 IEEE Floating-Point Data format \nMantissa and Sign"
+  },
+  {
+    "chunk_id": 24,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "implied binary point for mantissa\n             exponent (8 bit unsigned value)\n   sign of the mantissa 0 = positive, 1 = negative\n   (23 bit signed binary with 8 bit biased binary exponent)\n \nFigure 2-1 IEEE Floating-Point Data format \nMantissa and Sign \nThe mantissa is defined by a sign bit (31), and a 23-bit binary fraction. This binary fraction is combined \nwith an “implied” value of 1 to create a mantissa value, which is greater than or equal to 1.0 and less than \n2.0. \nThe mantissa is positive if the sign bit is zero (reset), and negative if the sign bit is one (set). For example: \nDECIMAL \nHEXADECIMAL \nBINARY \n100 \n42C80000 \n01000010 11001000 00000000 00000000 \nThe sign bit (31) is zero, indicating a positive mantissa. Removing the sign bits and exponent bits, the \nmantissa becomes: \nHEXADECIMAL \nBINARY \n480000 \nxxxxxxxx x1001000 00000000 00000000 \nAdd an “implied” value of one to the left of the binary point: \nBINARY \n1.1001000 00000000 00000000"
+  },
+  {
+    "chunk_id": 25,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "The sign bit (31) is zero, indicating a positive mantissa. Removing the sign bits and exponent bits, the \nmantissa becomes: \nHEXADECIMAL \nBINARY \n480000 \nxxxxxxxx x1001000 00000000 00000000 \nAdd an “implied” value of one to the left of the binary point: \nBINARY \n1.1001000 00000000 00000000 \nUsing positioned notation, this binary number is equal to: \n10\n1\n0\n0\n1\n10\n05\n0 0\n0 0\n0 0625\n15625\n.\n(\n)\n(\n)\n(\n)\n(\n)\n.\n.\n.\n.\n.\n.\n+\n+\n+\n+\n=\n+\n+\n+\n+\n=\nx2\nx2\nx2\nx2\n-1\n-2\n-3\n-4"
+  },
+  {
+    "chunk_id": 26,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Message Format \n02/13 \nModbus® RTU Serial Communications User Manual \n5 \nExponent \nThe exponent is defined by an unsigned 8-bit binary value (bits 23 through 30). The value of the exponent \nis derived by performing a signed subtraction of 127 (decimal) from the 8-bit exponent value. \nDECIMAL \nHEXADECIMAL \nBINARY \n100 \n42C80000 \n01000010 11001000 00000000 00000000 \n \nremoving the sign and mantissa bits, the exponent becomes: \nDECIMAL \nHEXADECIMAL \nBINARY \n133 \n85 \nx1000010 1xxxxxxx xxxxxxxx xxxxxxxx \nor:  \n1x2\nx\nx2\nx2\nx2\nx2\nx2\nx2\n7\n5\n4\n3\n2\n1\n0\n+\n+\n+\n+\n+\n+\n+\n0 2\n0\n0\n0\n1\n0\n1\n6\n \nSubtract a bias of 127 (decimal) from the exponent to determine its value: 133 – 127 = 6. \n \nMantissa and Exponent Combination \nCombining the mantissa and exponent from the two previous examples: \n \nfloat number = mantissa x 2\nfloat number = 1.5625 x 2\n x 64 = 100.0\nexponent\n6 = 15625\n.\n \n \nBelow is a list of sample float values in IEEE format: \n \nDECIMAL \nHEXADECIMAL \n100.0 \n42C80000 \n-100.0 \nC2C80000"
+  },
+  {
+    "chunk_id": 27,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Combining the mantissa and exponent from the two previous examples: \n \nfloat number = mantissa x 2\nfloat number = 1.5625 x 2\n x 64 = 100.0\nexponent\n6 = 15625\n.\n \n \nBelow is a list of sample float values in IEEE format: \n \nDECIMAL \nHEXADECIMAL \n100.0 \n42C80000 \n-100.0 \nC2C80000 \n0.5 \n3F000000 \n-1.75 \nBFE00000 \n0.0625 \n3D800000 \n1.0 \n3F800000 \n0.0 \n00000000 \n2.0 \n40000000 \n55.32 \n425047AE"
+  },
+  {
+    "chunk_id": 28,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Message Format \n6 \nModbus® RTU Serial Communications User Manual \n02/13 \n \nReserved Operands \nPer the Standard certain exceptional forms of floating-point operands are excluded from the numbering \nsystem. These are as follows: \n \nEXCEPTION \nEXPONENT \nMANTISSA \n+/- Infinity \nAll 1’s \nAll 0’s \nNot-a-Number (NAN) \nAll 1’s \nOther than 0’s \nDenormalized Number \nAll 0’s \nOther than 0’s \nZero \nAll 0’s \nAll 0’s \n \n \nModbus Double Register Format \nEach IEEE 32-bit floating point number requires two consecutive registers (four bytes) starting with the \nregister defined as the starting register for the information. The stuffing order of the bytes into the two \nregisters differs among Modbus hosts. The selections are: \nSelection \nDescription \nByte order  \n(See Figure \n2-1) \nNotes \nFP B \nFloating Point Big Endian Format \n4, 3, 2, 1 \n \nFP BB \nFloating Point Big Endian with \nbyte-swapped \n3, 4, 1, 2 \n \nFP L \nFloating Point Little Endian Format \n1, 2, 3, 4 \n \nFP LB"
+  },
+  {
+    "chunk_id": 29,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Selection \nDescription \nByte order  \n(See Figure \n2-1) \nNotes \nFP B \nFloating Point Big Endian Format \n4, 3, 2, 1 \n \nFP BB \nFloating Point Big Endian with \nbyte-swapped \n3, 4, 1, 2 \n \nFP L \nFloating Point Little Endian Format \n1, 2, 3, 4 \n \nFP LB \nFloating Point Little Endian with \nbyte-swapped \n2, 1, 4, 3 \nModicon and \nWonderware \nstandard \n \nSee IEEE Formats starting on next page."
+  },
+  {
+    "chunk_id": 30,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Message Format \n02/13 \nModbus® RTU Serial Communications User Manual \n7 \nIEEE Floating Point Formats \nS E7 E6 E5 E4 E3 E2 E1\nE0 M22 M21M20 M19 M18 M17 M16\nREGISTER N\n     (High)\nREGISTER N+1\n        (Low)\nM15 M14 M13 M12 M11 M10 M9 M8\nM7 M6 M5 M4 M3 M2 M1 M0\nHigh\nLow\nHigh\nLow\nBit 0\nBit 31\nFP B -  Floating Point Big Endian Format:\nS=Sign   E=Exponent   M=Mantissa\n \n \n \nS E7 E6 E5 E4 E3 E2 E1\nE0 M22 M21M20 M19 M18 M17 M16\nREGISTER N\n     (High)\nREGISTER N+1\n        (Low)\nM15 M14 M13 M12 M11 M10 M9 M8\nM7 M6 M5 M4 M3 M2 M1 M0\nHigh\nLow\nHigh\nLow\nBit 8\n FP BB -  Floating Point Big Endian with Byte Swapped Format:\nS=Sign   E=Exponent   M=Mantissa\nBit 31\nBit 24\nBit 23\nBit 16\nBit 7\nBit 0\nBit 15\n \n \n \ncontinued next page"
+  },
+  {
+    "chunk_id": 31,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Message Format \n8 \nModbus® RTU Serial Communications User Manual \n02/13 \n \nREGISTER N\n     (High)\nREGISTER N+1\n        (Low)\nHigh\nLow\nHigh\nLow\nFP L - Floating Point Little Endian Format:\nS=Sign   E=Exponent   M=Mantissa\nE0 M22 M21M20 M19 M18 M17 M16\nBit 23\nBit 16\nS E7 E6 E5 E4 E3 E2 E1\nBit 31\nBit 24\nM7 M6 M5 M4 M3 M2 M1 M0\nBit 7\nBit 0\nM15 M14 M13 M12 M11 M10 M9 M8\nBit 8\nBit 15\n \n \nREGISTER N\n     (High)\nREGISTER N+1\n        (Low)\nHigh\nLow\nHigh\nLow\nFP LB - Floating Point Little Endian with Byte Swapped Format:\nS=Sign   E=Exponent   M=Mantissa\nE0 M22 M21M20 M19 M18 M17 M16\nBit 23\nBit 16\nS E7 E6 E5 E4 E3 E2 E1\nBit 31\nBit 24\nM7 M6 M5 M4 M3 M2 M1 M0\nBit 7\nBit 0\nM15 M14 M13 M12 M11 M10 M9 M8\nBit 8\nBit 15\n \nFigure 2-2 IEEE Floating Point Formats \n \nTable 2-2  IEEE Floating Point Number Examples in FP B Format \nValue \n(decimal) \n IEEE FP B \nMSB   LSB \nRegister N \nRegister N+1 \nhigh \nlow \nhigh \nlow \n100.0 \n42C80000h \n42h \nC8h \n00h \n00h \n55.32 \n425D47AEh \n42h \n5Dh \n47h \nAEh \n 2.0"
+  },
+  {
+    "chunk_id": 32,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Bit 8\nBit 15\n \nFigure 2-2 IEEE Floating Point Formats \n \nTable 2-2  IEEE Floating Point Number Examples in FP B Format \nValue \n(decimal) \n IEEE FP B \nMSB   LSB \nRegister N \nRegister N+1 \nhigh \nlow \nhigh \nlow \n100.0 \n42C80000h \n42h \nC8h \n00h \n00h \n55.32 \n425D47AEh \n42h \n5Dh \n47h \nAEh \n 2.0 \n40000000h \n40h \n00h \n00h \n00h \n 1.0 \n3F800000h \n3Fh \n80h \n00h \n00h \n-1.0 \nBF800000h \nBFh \n80h \n00h \n00h"
+  },
+  {
+    "chunk_id": 33,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n02/13 \nModbus® RTU Serial Communications User Manual \n9 \n3. Modbus RTU Function Codes \nThe Honeywell Universal Modbus RTU protocol uses a subset of the standard Modbus RTU function codes \nto provide access to process-related information. Several MODICON function codes are employed. It is \nappropriate to define instrument-specific \"user-defined\" function codes. Several standard Modbus RTU \nfunction codes are supported. These standard function codes provide basic support for IEEE 32-bit floating \npoint numbers and 16-bit integer register representation of instrument’s process data. \nRepolling of data is not supported by these instruments. \nTable 3-1  Modbus RTU Function Codes Definitions \nFunction Code \nName \nUsage \n01 \nRead Coil Status \nRead the State of a Digital Output \n02 \nRead Input Status \nRead the State of a Digital Input \n03 \n04 \nRead Holding Registers / \nRead Input Registers \nRead Data in 16 bit Register Format (high/low). Used to"
+  },
+  {
+    "chunk_id": 34,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Function Code \nName \nUsage \n01 \nRead Coil Status \nRead the State of a Digital Output \n02 \nRead Input Status \nRead the State of a Digital Input \n03 \n04 \nRead Holding Registers / \nRead Input Registers \nRead Data in 16 bit Register Format (high/low). Used to \nread integer or floating point process data. Registers \nare consecutive and are imaged from the instrument to \nthe host. \n05 \nForce Single Coil \nWrite data to force Digital Output ON/OFF \nValues of FF 00 forces DO ON \nValues of 00 00 forces DO OFF \nValues of FF FF releases the force of the DO \nAll other values are illegal and will not affect the DO. \nRSX, VPR, VRX, UDC5300 ONLY \n06 \nPreset Single Register \nWrite Data in 16-bit Integer Format (high/low) ONLY. \n08 \nLoopback Test \nUsed for diagnostic testing of the communications port. \n16 (10h) \nPreset Multiple Registers \nWrite Data in 16-bit Format (high/low). Used to write \ninteger and floating point override data. Registers \nare consecutive and are imaged from the host to the"
+  },
+  {
+    "chunk_id": 35,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "08 \nLoopback Test \nUsed for diagnostic testing of the communications port. \n16 (10h) \nPreset Multiple Registers \nWrite Data in 16-bit Format (high/low). Used to write \ninteger and floating point override data. Registers \nare consecutive and are imaged from the host to the \ninstrument.  \nNote: UDC will write floating point data using this \nFunction Code \n17 (11h) \nReport Device ID \nRead instrument ID and connection information, ROM \nversion, etc. \n20 (14h) \nRead General Reference \nUsed to Read or upload the instrument’s configuration \ninto the host device. See Section 1.2 - Modbus RTU \nConfiguration Interface for a reference to the User \nManual for the specific instrument. \n21 (15h) \nWrite General Reference \nUsed to Write or download an instrument’s \nconfiguration into the instrument from a host device. \nSee Section 1.2 - Modbus RTU Configuration Interface \nfor a reference to the User Manual for the specific \ninstrument."
+  },
+  {
+    "chunk_id": 36,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n10 \nModbus® RTU Serial Communications User Manual \n02/13 \nTable 3-2  Maximum Number of Object Addresses for Each Instrument Type  \nPart 1 \nObject Name \nRSX \nVRX100 \nVRX150 \nVPR100 \nVRX180 \nDR \n4300 \nDR \n4500 \nDPR\n100 \nDPR\n180 \nDPR\n250 \nHerculine\nSmart\nActuators\nSee Sub \nsection \nAlarms Status \n12 \n16 \n96 \n2 \n6 \n12 \n48 \n64 \n4 \nA.15 \nAlarm Set Point \nValue \n12 \n16 \n96 \n2 \n6 \n12 \n48 \n64 \n8 \nA.16 \nAnalog Inputs \n6 \n12 \n48 \n1 \n4 \n6 \n24 \n64 \n1 \nA.6 \nAnalog Output \n6 \n8 \n16 \n1 \n2 \n4 \n8 \n8 \n1 \nN/A \nComm. or \nConstant \nValues \n10 \n16 \n32 \n0 \n0 \n6 \n24 \n32 \n0 \nA.7 \nDiscrete Input \n6 \n24 \n36 \n2 \n2 \n4 \n36 \n48 \n1 \nN/A \nDiscrete \nOutput/Coil \n6 \n24 \n36 \n2 \n6 \n12 \n36 \n48 \n4 \nN/A \nLoop \n2 \n4 \n8 \n1 \n2 \n0 \n0 \n0 \n0 \nA.5 \nMath, \nCalculated, or \nVariable Value \n24 \n32 \n64 \n0 \n1 \n6 \n24 \n32 \n2 \nA.8 \nMath or \nCalculated \nValue Status \n24 \n32 \n64 \n0 \n1 \n6 \n24 \n32 \n0 \nA.9 \nSet Point \nProgrammer \nValue \n0 \n4 \n4 \n1 \n2 \n0 \n0 \n0 \n0 \nA.17 \nSegments per \nSet Point \nProgrammer \n0 \n63 \n63 \n24"
+  },
+  {
+    "chunk_id": 37,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "2 \n4 \n8 \n1 \n2 \n0 \n0 \n0 \n0 \nA.5 \nMath, \nCalculated, or \nVariable Value \n24 \n32 \n64 \n0 \n1 \n6 \n24 \n32 \n2 \nA.8 \nMath or \nCalculated \nValue Status \n24 \n32 \n64 \n0 \n1 \n6 \n24 \n32 \n0 \nA.9 \nSet Point \nProgrammer \nValue \n0 \n4 \n4 \n1 \n2 \n0 \n0 \n0 \n0 \nA.17 \nSegments per \nSet Point \nProgrammer \n0 \n63 \n63 \n24 \n12 \n0 \n0 \n0 \n0 \nA.19 \nTotalizer \n6 \n12 \n48 \n1 \n4 \n0 \n0 \n0 \n0 \nA.11 \n \nTable 3-2 Maximum Number of Object Addresses for Each instrument Type \nPart 2 \nObject Name \nQX \nMinitrend \nSX \nMultitrend \nMinitrend \nV5 \nMultirend \nPlus V5 \nUDC\n2300\nUDC\n2500\nUDC\n3200\nUDC\n3300 \nUDC \n3500 \nUDC \n5300 \nSee Sub\nsection \nAlarms Status \n16 \n48 \n16 \n32 \n2 \n2 \n2 \n2 \n4 \n4 \nA.15 \nAlarm Set \nPoint Value \nN/A \nN/A \nN/A \nN/A \n4 \n4 \n4 \n4 \n8 \n4 \nA.16 \nExended \nComms \nvariables \n64  \n(32 std \nplus 32) \n64 \n(32 std \nplus 32) \n \n \n \n \n \n \n \n \n \nAnalog Inputs \n16 \n48 \n16 \n32 \n2 \n2 \n2 \n3 \n5 \n3 \nA.6 \nAnalog Output \n4 \n8 \nN/A \nN/A \n1 \n2 \n2 \n2 \n3 \n4 \nN/A"
+  },
+  {
+    "chunk_id": 38,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n02/13 \nModbus® RTU Serial Communications User Manual \n11 \nObject Name \nQX \nMinitrend \nSX \nMultitrend \nMinitrend \nV5 \nMultirend \nPlus V5 \nUDC\n2300\nUDC\n2500\nUDC\n3200\nUDC \n3300 \nUDC \n3500 \nUDC\n5300\nSee Sub\nsection \nComm. or \nConstant \nValues \n32 \n32 \n32 \n32 \n0 \n0 \n0 \n0 \n0 \n9 \nA.7 \nDiscrete Input \n16 \n48 \n16 \n32 \n0 \n2 \n2 \n2 \n4 \n3 \nN/A \nDiscrete \nOutput/Coil \n16 \n48 \n16 \n32 \n3 \n4 \n4 \n3 \n5 \n4 \nN/A \nLoop \nN/A \nN/A \nN/A \nN/A \n1 \n1 \n1 \n2 \n2 \n2 \nA.5 \nMath, \nCalculated, or \nVariable Value \n96 \n96 \n64 \n64 \n0 \n0 \n1 \n2 \n2 \n16 \nA.8 \nMath or \nCalculated \nValue Status \nN/A \nN/A \nN/A \nN/A \n0 \n0 \n1 \n2 \n2 \n16 \nA.9 \n \n \n \n \n \n \n \n \n \n \n \n \nSet Point \nProgrammer \nValue \nN/A \nN/A \nN/A \nN/A \n1 \n1 \n1 \n1 \n1 \n1 \nA.17 \nSegments per \nSet Point \nProgrammer \nN/A \nN/A \nN/A \nN/A \n12 \n12 \n12 \n12 \n20 \n63 \nA.19 \nTotalizer \n96 \n96 \n64 \n64 \n0 \n0 \n0 \n1 \n1 \n0 \nA.11 \n \n \nATTENTION \n• \nValues depend on each instrument’s model number. \n•"
+  },
+  {
+    "chunk_id": 39,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Set Point \nProgrammer \nValue \nN/A \nN/A \nN/A \nN/A \n1 \n1 \n1 \n1 \n1 \n1 \nA.17 \nSegments per \nSet Point \nProgrammer \nN/A \nN/A \nN/A \nN/A \n12 \n12 \n12 \n12 \n20 \n63 \nA.19 \nTotalizer \n96 \n96 \n64 \n64 \n0 \n0 \n0 \n1 \n1 \n0 \nA.11 \n \n \nATTENTION \n• \nValues depend on each instrument’s model number. \n• \nDPR products only support Analog Inputs, Communication Values, and Math Values per this \ndocument at this time. Please reference US1I-6149 DPR100C-DPR100D Communication Option \nManual and EN1I-6189 DPR180/DPR250 Communication Option Manual for details pertaining to \nAlarms, Digital Inputs, and Digital Outputs."
+  },
+  {
+    "chunk_id": 40,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n12 \nModbus® RTU Serial Communications User Manual \n02/13 \nTable 3-3  Maximum Number of Registers Allowable per Request \nFunction \nCode \nX Series  \nRecorders \nQX and SX \nMinitrend V5, \nMultitrend \nPlus V5 \nRSX, VPR, \nVRX, \nUDC5300 \nDPR100, \nDPR180, \nDPR250 \nDR4300, \nDR4500 \nUDC3300, \nUDC2300, \nUDC2500, \nUDC3200, \nUDC3500 \nHerculine \nSmart \nActuators \n1, 2 \nSee \nTable 3-2 \nSee \nTable 3-2 \nSee \nTable 3-2 \nSee \nTable 3-2 \nSee \nTable 3-2 \nSee \nTable 3-2 \nSee \nTable 3-2 \n3, 4 \n192 Registers \n96 Floats \n128 Registers \n64 Floats \n127 \nRegisters \n63 Floats \n64 Registers\n32 Floats \n82 Registers\n41 Floats \n22 Registers \n11 Floats \n32 Registers \n16 Floats \n5 \n1 \n1 \n1 Coil \nNot \nSupported \nNot \nSupported \nNot \nSupported \nNot Supported \n6 \n1 \n1 \n1 Register \n1 Register \n1 Register \n1 Register \n1 Register \n10h \n128 Registers \n64 Floats \n64 Registers \n32 Float \n127 \nRegisters \n63 Floats \n64 Registers\n32 Floats \n42 Floats \nFLOATS \nONLY – \nCAN NOT \nWRITE \nINTEGER \nREGISTERS"
+  },
+  {
+    "chunk_id": 41,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Supported \nNot \nSupported \nNot \nSupported \nNot Supported \n6 \n1 \n1 \n1 Register \n1 Register \n1 Register \n1 Register \n1 Register \n10h \n128 Registers \n64 Floats \n64 Registers \n32 Float \n127 \nRegisters \n63 Floats \n64 Registers\n32 Floats \n42 Floats \nFLOATS \nONLY – \nCAN NOT \nWRITE \nINTEGER \nREGISTERS \n1 Float \nFLOAT \nONLY – \nCAN NOT \nWRITE \nINTEGER \nREGISTERS \n16 Floats \nFLOATS ONLY \n– CAN NOT \nWRITE \nINTEGER \nREGISTERS \n \nTable 3-4  Request Delay Time* \nHerculine \nSmart \nActuators \nX Series \nRecorders \nQX and SX \nMinitrend \nV5, \nMultitrend \nPlus V5 \nRSX, \nVPR, \nUDC5300 \nDPR100, \nDPR180, \nDPR250 \nDR4300 \nDR4500 \nUDC2300, \nUDC2500, \nUDC3200  \nUDC3300,\nUDC3500  \n3.5 \ncharacters \n+ 6 - 12 ms \n3.5 \nCharacters \n3.5 \nCharacters \n3.5 \nCharacter\ns \n3.5 \nCharacters \nVersion 4: \n20 ms \nVersion 5 \nor greater: \n3.5 \ncharacters \n+ 2 ms \nVersion 57 \nand 58: 20 \nms \nVersion 59 \nor greater:  \n3.5 \ncharacters \n+ 2 ms \nUDC2300 \nVersion 6 or \ngreater: 3.5 \ncharacters,ot\nherwise \n20 ms \nUDC3300 \nVersion 9 or"
+  },
+  {
+    "chunk_id": 42,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "3.5 \nCharacters \n3.5 \nCharacter\ns \n3.5 \nCharacters \nVersion 4: \n20 ms \nVersion 5 \nor greater: \n3.5 \ncharacters \n+ 2 ms \nVersion 57 \nand 58: 20 \nms \nVersion 59 \nor greater:  \n3.5 \ncharacters \n+ 2 ms \nUDC2300 \nVersion 6 or \ngreater: 3.5 \ncharacters,ot\nherwise \n20 ms \nUDC3300 \nVersion 9 or \ngreater: 3.5 \ncharacters \notherwise \n20 ms \n*The link’s time delay will be the worse case for the units connected. For example, if a link has a DPR180 and a UDC3300 \nconnected, the link must observe a request delay of 20 ms."
+  },
+  {
+    "chunk_id": 43,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n02/13 \nModbus® RTU Serial Communications User Manual \n13 \n3.1 \nFunction Code 01 – Read Digital Output Status \nDescription \nFunction code 01 (0X references) is used to read a Digital Output’s (DO) ON/OFF status of the slave device \nin a binary data format. All binary data transferred using function code 01 is mapped into bytes. \nThe specific number of Dos available in an instrument or available via one Function Code 01 message is \ninstrument-model specific. \nBroadcast is not supported. \nQuery \nThe query message specifies the starting DO and the quantity of coils to read. Dos are addressed starting at \nzero: DO 1 through 16 are addressed as 0 through 15 respectively. \nQuery message format for function code 01 \nSlave \nAddress \nFunction \nCode \nStarting \nAddress\nHigh \nStarting \nAddress\nLow \nNumber \nDO \nHigh \nNumber \nDO \nLow \nCRC \nCRC \n \nExample: Read Dos number 1 to 7 from slave at address 02. \n \n 02 01 00 00 00 07 CRC CRC \n \nResponse"
+  },
+  {
+    "chunk_id": 44,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Query message format for function code 01 \nSlave \nAddress \nFunction \nCode \nStarting \nAddress\nHigh \nStarting \nAddress\nLow \nNumber \nDO \nHigh \nNumber \nDO \nLow \nCRC \nCRC \n \nExample: Read Dos number 1 to 7 from slave at address 02. \n \n 02 01 00 00 00 07 CRC CRC \n \nResponse \nThe DO status in the response message is packed as one DO per bit of the data field. Status is indicated as: 1 \n= ON; 0 = OFF. The LSB of the first data byte contains the DO addressed in the query. The other Dos \nfollow toward the high order end of this byte, and from low order to high order in subsequent bytes. \nIf the returned DO quantity is not a multiple of eight, the remaining bits in the final data byte will be padded \nwith zeros (toward the high order end of the byte). The byte count field specifies the quantity of data bytes \nreturned. \nResponse message format for function code 01 \nSlave \nAddress \nFunction \nCode \nByte \nCount \nData \nData \n … \nCRC \nCRC \n \nExample: Dos number 2 and 7 are on, all others are off."
+  },
+  {
+    "chunk_id": 45,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "with zeros (toward the high order end of the byte). The byte count field specifies the quantity of data bytes \nreturned. \nResponse message format for function code 01 \nSlave \nAddress \nFunction \nCode \nByte \nCount \nData \nData \n … \nCRC \nCRC \n \nExample: Dos number 2 and 7 are on, all others are off. \n \n 02 01 01 42 CRC CRC \nIn the response the status of Dos 1 – 7 is shown as the byte value 42 hex, or 0100 0010 binary. DO 8 is the \nMSB of this byte, and DO 1 is the LSB. Left to right, the status of DO 7 through 1 is: ON-OFF-OFF-OFF-\nOFF-ON-OFF. DO #8 was not requested and so bit #7 or the MSB was padded with a 0."
+  },
+  {
+    "chunk_id": 46,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n14 \nModbus® RTU Serial Communications User Manual \n02/13 \n \nTable 3-5  DR4500 Digital Output Mapping \nCoil Number \nInstrument Function \n1 \nAlarm Relay #1 \n2 \nAlarm Relay #1 \n3 \nControl Relay #1 \n4 \nControl Relay #2 \n5 \nControl Relay #3 \n6 \nControl Relay #4 \n \nTable 3-6  UDC2300/UDC2500/UDC3200/UDC3300 DO Mapping \nCoil Number \nInstrument Function \n1 \nControl Relay Note 1.\n2 \nAlarm Relay #2 \n3 \nAlarm Relay #1 \nNote 1. The reading of this bit is valid only for \nRelay Output Type configurations. Not valid for \ncurrent outputs \n \nTable 3-7  Herculine Smart Actuators Digital Output Mapping \nCoil Number \nInstrument Function \n1 \nAlarm Relay #1 \n2 \nAlarm Relay #2 \n3 \nAlarm Relay #3 \n4 \nAlarm Relay #4 \n \nTable 3-8    UDC3500 Digital Output Mapping \nCoil Number \nInstrument Function \n1 \nRelay #1 \n2 \nRelay #2 \n3 \nRelay #3 \n4 \nRelay #4 \n5 \nRealy # 5"
+  },
+  {
+    "chunk_id": 47,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n02/13 \nModbus® RTU Serial Communications User Manual \n15 \n3.2 \nFunction Code 02 – Read Digital Input Status \nDescription \nFunction code 02 (1X references) is used to read a Digital Input’s (DI) ON/OFF status of the slave device in \na binary data format. All binary data transferred using function code 02 is mapped into bytes. \nThe specific number of inputs available in an instrument or available via one Function Code 02 message is \ninstrument-model specific. \nBroadcast is not supported. \nQuery \nThe query message specifies the starting input and the quantity of inputs to read. Inputs are addressed \nstarting at zero: Input 1 through 16 are addressed as 0 through 15 respectively \nQuery message format for function code 02 \nSlave \nAddress \nFunction \nCode \nStarting \nAddress\nHigh \nStarting \nAddress\nLow \nNumber \nInputs \nHigh \nNumber \nInputs \nLow \nCRC \nCRC \n \nExample: Read inputs number 1 to 7 from slave at address 02. \n \n 02 02 00 00 00 07 CRC CRC \nResponse"
+  },
+  {
+    "chunk_id": 48,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Query message format for function code 02 \nSlave \nAddress \nFunction \nCode \nStarting \nAddress\nHigh \nStarting \nAddress\nLow \nNumber \nInputs \nHigh \nNumber \nInputs \nLow \nCRC \nCRC \n \nExample: Read inputs number 1 to 7 from slave at address 02. \n \n 02 02 00 00 00 07 CRC CRC \nResponse \nThe input status in the response message is packed as one input per bit of the data field. Status is indicated \nas: 1 = ON; 0 = OFF. The LSB of the first data byte contains the input addressed in the query. The other \ninputs follow toward the high order end of this byte, and from low order to high order in subsequent bytes. \nIf the returned input quantity is not a multiple of eight, the remaining bits in the final data byte will be \npadded with zeros (toward the high order end of the byte). The byte count field specifies the quantity of data \nbytes returned. \nResponse message format for function code 02 \nSlave \nAddress \nFunction \nCode \nByte \nCount \nData \nData \n … \nCRC \nCRC"
+  },
+  {
+    "chunk_id": 49,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "padded with zeros (toward the high order end of the byte). The byte count field specifies the quantity of data \nbytes returned. \nResponse message format for function code 02 \nSlave \nAddress \nFunction \nCode \nByte \nCount \nData \nData \n … \nCRC \nCRC \n \nExample: Inputs number 2 and 7 are on, all others are off. \n \n 02 02 01 42 CRC CRC \nIn the response the status of inputs 1 – 7 is shown as the byte value 42 hex, or 0100 0010 binary. Input 8 is \nthe MSB of this byte, and input 1 is the LSB. Left to right, the status of input 7 through 1 is: ON-OFF-OFF-\nOFF-OFF-ON-OFF. Input #8 was not requested and so bit #7 or the MSB was padded with a 0."
+  },
+  {
+    "chunk_id": 50,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n16 \nModbus® RTU Serial Communications User Manual \n02/13 \n3.3 \nFunction Codes 03/04 – Read Input Registers \nDescription \nFunction code 03 (4X references) or Function code 04 (3X references) is used to read the binary contents of \ninput registers in the slave referenced in Appendix A. Function codes 3 and 4 are not restricted to inputs. \nThey may transmit alarm status, control parameters, etc. \nThe specific supported registers available in an instrument or available via one Function Code 03/04 \nmessage is instrument-model specific. When a master station requests a register that is not supported by the \nspecific device the slave will respond with zeros for that register. \nIf a request is made to an address that does not exist in the map in Appendix A, the instrument is to honor \nthat request and return zeros. This behavior will greatly enhance the bandwidth on the link vs. making"
+  },
+  {
+    "chunk_id": 51,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "specific device the slave will respond with zeros for that register. \nIf a request is made to an address that does not exist in the map in Appendix A, the instrument is to honor \nthat request and return zeros. This behavior will greatly enhance the bandwidth on the link vs. making \nseveral different requests for non-contiguous data elements. (i.e. Consider a device that contains AI #1 and \nAI #3 and for some reason AI #2 is an invalid request.) The contiguous method would allow the read of AI \n#1 through AI #3 and the data location for AI #2 would be zeros. \nBroadcast is not supported. \nQuery \nThe query message specifies the starting register and quantity of registers to be read. Registers are addressed \nstarting at zero: registers 1-16 are addressed as 0-15. \nQuery message format for function code 03/04 \nSlave \nAddress \nFunction\nCode \nStarting \nAddress \nHigh \nStarting \nAddress\nLow \nNumber \nAddresses \nHigh \nNumber \nAddresses \nLow \nCRC \nCRC"
+  },
+  {
+    "chunk_id": 52,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "starting at zero: registers 1-16 are addressed as 0-15. \nQuery message format for function code 03/04 \nSlave \nAddress \nFunction\nCode \nStarting \nAddress \nHigh \nStarting \nAddress\nLow \nNumber \nAddresses \nHigh \nNumber \nAddresses \nLow \nCRC \nCRC \n \nExample: Read analog inputs #1 and #2 in addresses 1800-1803 as floating point values from a slave at \naddress 02. \n \n 02 04 18 00 00 04 CRC CRC"
+  },
+  {
+    "chunk_id": 53,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n02/13 \nModbus® RTU Serial Communications User Manual \n17 \nResponse \nThe register data in the response message are packed as two bytes per register. For each register, the first \nbyte contains the high order bits and the second contains the low order bits. \nThe floating point values require two consecutive registers. A request for a single floating point value must \nbe for two registers. The first 16 bits of the response contain the IEEE MSB of the float value. The second \n16 bits of the response contain the IEEE LSB of the float value. (See Section 2.3.) If the master station \nrequests only one register at an address of a floating point value, the slave may respond with an exception \nwith illegal data address code. \nThe Modbus RTU protocol has a single byte count for function codes 03 and 04, therefore the Modbus RTU \nprotocol can only process up to 64 floating point and 127 integer values in a single request."
+  },
+  {
+    "chunk_id": 54,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "with illegal data address code. \nThe Modbus RTU protocol has a single byte count for function codes 03 and 04, therefore the Modbus RTU \nprotocol can only process up to 64 floating point and 127 integer values in a single request. \nResponse message format for function codes 03/04 \nSlave \nAddress \nFunction \nCode \nByte \nCount \nData \nData \n … \nCRC \nCRC \n \nExample: Analog inputs #1 and #2 as floating point values where AI #1 = 100.0 and AI #2 = 55.32 \n \n 02 04 08 42 C8 00 00 47 AE 42 5D CRC CRC"
+  },
+  {
+    "chunk_id": 55,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n18 \nModbus® RTU Serial Communications User Manual \n02/13 \n3.4 \nFunction Code 05 – Force Single Digital Output \nDescription \nForce a single Digital Output (DO) (0X reference) to either ON or OFF. These are the same Dos used in \nFunction Code 01. \nWhen broadcast, the same function forces the same DO in all attached slave devices. \nOnly supported by RSX, VPR, VRX, and UDC5300 instruments.  These instruments do not support \nbroadcast, and forcing can only be done in the Run mode. \nQuery \nThe query message specifies the DO to be forced. Registers are addressed starting at zero:  \nDO 1 is address 0. \nThe requested ON/OFF state is specified by a constant in the query data field. A value of FF 00 hex requests \nit to be ON. A value of 00 00 hex requests it to be OFF. \nRSX, VPR, VRX, and UDC5300 products support a value of FF FF to release the force. \nQuery message format for function code 05 \nSlave \nAddress \nFunction\nCode \nDO \nAddress \nHigh \nDO \nAddress\nLow \nForce"
+  },
+  {
+    "chunk_id": 56,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "it to be ON. A value of 00 00 hex requests it to be OFF. \nRSX, VPR, VRX, and UDC5300 products support a value of FF FF to release the force. \nQuery message format for function code 05 \nSlave \nAddress \nFunction\nCode \nDO \nAddress \nHigh \nDO \nAddress\nLow \nForce \nData \nHigh \nForce \nData \nLow \nCRC \nCRC \n \nExample: Force DO 6 ON in a slave at address 02. \n \n 02 05 00 06 FF 00 CRC CRC \nResponse \nThe normal response is an echo of the query, returned after the DO state has been forced. \nResponse message format for function code 05 \nSlave \nAddress \nFunction\nCode \nDO \nAddress \nHigh \nDO \nAddress\nLow \nForce \nData \nHigh \nForce \nData \nLow \nCRC \nCRC \n \nExample: Force DO 6 ON in a slave at address 02. \n \n 02 05 00 06 FF 00 CRC CRC"
+  },
+  {
+    "chunk_id": 57,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n02/13 \nModbus® RTU Serial Communications User Manual \n19 \n3.5 \nFunction Codes 06 – Preset Single Register \nDescription \nPresets an integer value into a single register (4X references). When broadcasted, the function presets the \nsame register references in all attached slaves. \nThe specific supported registers available in an instrument via a Function Code 06 message may be \ninstrument-model specific. However, every instrument that supports the register assignments specified in \nAppendix A with an access type “W” and integer and bit packed data types, supports writing to those \nspecified registers via Function Code 06. \nQuery \nThe query message specifies the register references to be preset. Registers are addressed starting at zero: \nRegister 1 is addressed as 0. \nQuery message format for function code 06 \nSlave \nAddress \nFunction \nCode \nAddress\nHigh \nAddress\nLow \nPreset \nData \nHigh \nPreset \nData \nLow \nCRC \nCRC"
+  },
+  {
+    "chunk_id": 58,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Query \nThe query message specifies the register references to be preset. Registers are addressed starting at zero: \nRegister 1 is addressed as 0. \nQuery message format for function code 06 \nSlave \nAddress \nFunction \nCode \nAddress\nHigh \nAddress\nLow \nPreset \nData \nHigh \nPreset \nData \nLow \nCRC \nCRC \n \nExample: Set Loop #1 to Auto (address 00Fah) to a slave at address 02. \n \n 02 06 00 FA 00 01 CRC CRC \nResponse \nThe normal response is an echo of the query returned after the register contents have been preset. \nResponse message format for function code 06 \nSlave \nAddress \nFunction \nCode \nAddress\nHigh \nAddress\nLow \nPreset \nData \nHigh \nPreset \nData \nLow \nCRC \nCRC \n \nExample: Set Loop #1 to Auto (address 00Fah) to a slave at address 02. \n \n 02 06 00 FA 00 01 CRC CRC"
+  },
+  {
+    "chunk_id": 59,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n20 \nModbus® RTU Serial Communications User Manual \n02/13 \n3.6 \nFunction Code 08 – Loopback Message \nDescription \nEchoes received query message.  \nQuery \nMessage can be any length up to half the length of the data buffer minus 8 bytes. \nQuery message format for function code 08 \nSlave \nAddress \nFunction\nCode \nAny data, length limited to approximately half \nthe length of the data buffer \nCRC \nCRC \n \nExample: \n \n 02 08 01 02 03 04 CRC CRC \nResponse \nResponse message format for function code 08 \nSlave \nAddress \nFunction\nCode \nData bytes received \nCRC \nCRC \n \nExample: \n \n 02 08 01 02 03 04 CRC CRC"
+  },
+  {
+    "chunk_id": 60,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n02/13 \nModbus® RTU Serial Communications User Manual \n21 \n3.7 \nFunction Codes 16 (10h) – Preset Multiple Registers \nDescription \nPresets values into a sequence of holding registers (4X references). When broadcasted, the function presets \nthe same register references in all attached slaves. \nThe specific supported registers available in an instrument via a Function Code 16 (10h) message may be \ninstrument-model specific. However, every instrument that supports the register assignments specified in \nAppendix A with an access type “W”, supports writing to those specified registers via Function Code 16 \n(10h). \nQuery \nThe query message specifies the register references to be preset. Registers are addressed starting at zero: \nRegister 1 is addressed as 0. \nQuery message format for function code 16 (10h) \nSlave \nAddress \nFunction \nCode \nStarting \nAddress\nHigh \nStart \nAddress\nLow \nNumber \nAddresses \nHigh \nNumber \nAddresses \nLow \nByte \nCount \nData \nCRC \nCRC"
+  },
+  {
+    "chunk_id": 61,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Register 1 is addressed as 0. \nQuery message format for function code 16 (10h) \nSlave \nAddress \nFunction \nCode \nStarting \nAddress\nHigh \nStart \nAddress\nLow \nNumber \nAddresses \nHigh \nNumber \nAddresses \nLow \nByte \nCount \nData \nCRC \nCRC \n \nExample: Preset Variable#1 (address 1880h) to 100.0 from a slave at address 02. \n \n 02 10 18 80 00 02 04 42 C8 00 00 CRC CRC \nResponse \nThe normal response returns the slave address, function code, starting address and the quantity of registers \npreset. \nThe floating-point values require two consecutive addresses. A request to preset a single floating-point \nvalue must be for two addresses. The byte order of the floating-point number is determined by the setting of \nthe byte swap configuration value. In this example the byte swap order is FP B. Refer to subsection 2.3. The \nfirst 16 bits of the response contain the IEEE MSB of the float value. The second 16 bits of the response"
+  },
+  {
+    "chunk_id": 62,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "the byte swap configuration value. In this example the byte swap order is FP B. Refer to subsection 2.3. The \nfirst 16 bits of the response contain the IEEE MSB of the float value. The second 16 bits of the response \ncontain the IEEE LSB of the float value.  The Byte order is configurable See Subsection 0. If the master \nstation requests only one address at an address of a floating-point value the slave will respond with an illegal \ndata address exception (See Section 4) code. \nResponse message format for function code 16 (10h) \nSlave \nAddress \nFunction \nCode \nStarting \nAddress\nHigh \nStart \nAddress\nLow \nNumber \nAddresses \nHigh \nNumber \nAddresses \nLow \nCRC \nCRC \n \nExample: Response from preset Constant #1 (address 1880h) to 100.0 from a slave at address 02. \n \n 02 10 18 80 00 02 CRC CRC"
+  },
+  {
+    "chunk_id": 63,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n22 \nModbus® RTU Serial Communications User Manual \n02/13 \n3.8 \nFunction Code 17 (11h) – Report Device ID \nDescription \nFunction code 17 (11h) is used to report the Device Information that includes information like: Slave ID, \ndevice description, and firmware version. \nQuery \nThe query message specifies the function code only. \nQuery message format for function code 17 (11h) \nSlave \nAddress \nFunction\nCode \nCRC \nCRC \n \nExample: Read Device ID from a slave at address 02. \n \n 02 11 CRC CRC \nResponse \nThe response is a record format describing the instrument. \nResponse message format for function code 17 (11h) \nSlave \nAddress \nFunction \nCode \nByte \nCount \nSlave \nID \nRun \nIndicator \nStatus \nDevice \nSpecific \nData \nCRC \nCRC \nSlave ID – The number associated with the device. \n(one byte) (byte 3) \nSlave ID \n(hex) \nDevice Type \n \nSlave ID \n(hex) \nDevice Type \nN/A \nDPR100 (Does not support \n11h) \n \n33 \nUDC3300 \n18 \nDPR180  \n \n35 \nUDC3500 \n25 \nDPR250  \n \n53"
+  },
+  {
+    "chunk_id": 64,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "ID \nRun \nIndicator \nStatus \nDevice \nSpecific \nData \nCRC \nCRC \nSlave ID – The number associated with the device. \n(one byte) (byte 3) \nSlave ID \n(hex) \nDevice Type \n \nSlave ID \n(hex) \nDevice Type \nN/A \nDPR100 (Does not support \n11h) \n \n33 \nUDC3300 \n18 \nDPR180  \n \n35 \nUDC3500 \n25 \nDPR250  \n \n53 \nUDC5300, RSX, VPR, VRX \n43 \nDR4300 \n \n02 \nUDC6000 \n45 \nDR4500 \n \n63 \nUDC6300 \n23 \nUDC2300 \n \n10 \n10260S \n26 \nUDC2500 \n \n11 \n11280S \n32 \nUDC3200 \n \n20 \nSA2001, SA2002 \n \n \n \n05 \nMinitrend V5, Multitrend \nPlus V5 \nQX and SX Recorders \nRun Indicator Status:  \n(one byte) (byte 4) \n00=OFF; FF=ON"
+  },
+  {
+    "chunk_id": 65,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n02/13 \nModbus® RTU Serial Communications User Manual \n23 \n+Device Specific Data: \nDevice \nDescription \nModel \nID \nDevice \nClass \nID \nDevice \nMapping \nDevice Description: \n16 Character ASCII Message (zero filled) (bytes 5-20). \nDevice Specific. Usually contains Device Tag + Version Number \nDevice Type \nDevice Description \nDPR100 \nN/A \nDPR180 \nDPR180 xxx.yy \nDPR250 \nDPR250 xxx.yy \nDR4300 \nDR4300 x.y \nDR4500 \nDR4500 x.y \nRSX \nRSX x.y \nVPR100/VRX100 \nVersion 5.0 – 7.0 VPR/VRX x.y \nVersion ≥ 8.0 VRX100 x.y \nVRX150 \nVRX150 x.y \nVRX180 \nVRX180/250 x.y \nUDC2300 \nUDC2300 x.y \nUDC2500 \nUDC2500 x.y \nUDC3200 \nUDC3200 x.y \nUDC3300 \nUDC3300 x.y \nUDC3500 \nUDC3500 x.y \nUDC5300 \nUDC5300 x.y \nUDC6000 \nUDC6000 x.y \nUDC6300 \nUDC6300 x.y \n10260S \n10260S x.y \n11280S \n11280S x.y \nSA2001, SA2002 \nSA200n x.y \nMinitrend V5 \nMinitrend nn.v v \nMultitrend Plus V5 \nMultitrend Plus nn.v v \nQX and SX  \nOEM Series name + OEM device \nname (truncated to 16 characters)"
+  },
+  {
+    "chunk_id": 66,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "UDC3500 x.y \nUDC5300 \nUDC5300 x.y \nUDC6000 \nUDC6000 x.y \nUDC6300 \nUDC6300 x.y \n10260S \n10260S x.y \n11280S \n11280S x.y \nSA2001, SA2002 \nSA200n x.y \nMinitrend V5 \nMinitrend nn.v v \nMultitrend Plus V5 \nMultitrend Plus nn.v v \nQX and SX  \nOEM Series name + OEM device \nname (truncated to 16 characters) \nx.y = version of instrument, nn.v v = software version and revision \nModel ID: \nThe Model Identification (Device type specific). (one byte) (byte 21) \nModel ID \nDescription \n00 \nNone"
+  },
+  {
+    "chunk_id": 67,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Function Codes \n24 \nModbus® RTU Serial Communications User Manual \n02/13 \nDevice Class ID:  \nThe Device Classification. (one byte) (byte 22) \nClass ID \nClass \n00 \nGeneric Class (Fixed Address Mapable) \n01-FF \nFuture \n \nGeneric Class (00) Device Mapping: \nDescribes the I/O and feature mapping. \nNumber of \nRecords \nRecord \n#1 \nRecord \n#2 \nRecord \n... \nRecord \n#n \nNumber of records is always 5 for the Minitrend V5 and Multitrend Plus V5. \nNumber of Records: \n1 Byte unsigned value 00-FFh (byte 23) \nRecord Description: \nByte \nDescription \n00 \nType of Data Element \n(See Data Element Values Table Below) \n01 \nStarting Address of Data Element Record (High) \n02 \nStarting Address of Data Element Record (Low) \n03 \nNumber of Data Elements (High) \n04 \nNumber of Data Elements (Low) \nData Element Values Table: \nValue \nDescription \n00* \nAnalog Inputs \n01 \nAnalog Outputs \n02* \nDiscrete Inputs \n03* \nDiscrete Outputs \n04 \nControl Loops \n05 \nSet Point Programmers \n06*"
+  },
+  {
+    "chunk_id": 68,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "03 \nNumber of Data Elements (High) \n04 \nNumber of Data Elements (Low) \nData Element Values Table: \nValue \nDescription \n00* \nAnalog Inputs \n01 \nAnalog Outputs \n02* \nDiscrete Inputs \n03* \nDiscrete Outputs \n04 \nControl Loops \n05 \nSet Point Programmers \n06* \nMath, Calculated Values, or Variables \n07 \nConstants \n08 \nAlarms \n09* \nTotalizers \n* These data elements are the 5 data records sent from the Minitrend and the  \nMultitrend Plus V5 recorders."
+  },
+  {
+    "chunk_id": 69,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Exception Codes \n02/13 \nModbus® RTU Serial Communications User Manual \n25 \n4. Modbus RTU Exception Codes \nIntroduction \nWhen a master device sends a query to a slave device it expects a normal response. One of four possible \nevents can occur from the master’s query: \n• \nSlave device receives the query without a communication error and can handle the query normally. \nIt returns a normal response. \n• \nSlave does not receive the query due to a communication error. \nNo response is returned. The master program will eventually process a time-out condition for the \nquery. \n• \nSlave receives the query but detects a communication error (parity, LRC or CRC). \nNo response is returned. The master program will eventually process a time-out condition for the \nquery. \n• \nSlave receives the query without a communication error but cannot handle it (i.e., request is to a non-\nexistent coil or register)."
+  },
+  {
+    "chunk_id": 70,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "No response is returned. The master program will eventually process a time-out condition for the \nquery. \n• \nSlave receives the query without a communication error but cannot handle it (i.e., request is to a non-\nexistent coil or register). \nThe slave will return with an exception response informing the master of the nature of the error (Illegal \nData Address.) \nThe exception response message has two fields that differentiate it from a normal response: \nFunction Code Field: \nIn a normal response, the slave echoes the function code of the original query in the function code \nfield of the response. All function codes have a most-significant bit (MSB) of 0 (their values are below \n80 hex). In an exception response, the slave sets the MSB of the function code to 1. This makes the \nfunction code value in an exception response exactly 80 hex higher than the value would be for a \nnormal response. \nWith the function code’s MSB set, the master’s application program can recognize the exception"
+  },
+  {
+    "chunk_id": 71,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "function code value in an exception response exactly 80 hex higher than the value would be for a \nnormal response. \nWith the function code’s MSB set, the master’s application program can recognize the exception \nresponse and can examine the data field for the exception code. \nData Field: \nIn a normal response, the slave may return data or statistics in the data field. In an exception response, \nthe slave returns an exception code in the data field. This defines the slave condition that caused the \nexception. \nQuery \nExample: Internal slave error reading 2 registers starting at address 1820h from slave at slave address 02. \n \n 02 03 18 20 00 02 CRC CRC \nResponse \nExample: Return MSB in Function Code byte set with Slave Device Failure (04) in the data field. \n \n 83 04 CRC CRC"
+  },
+  {
+    "chunk_id": 72,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Modbus RTU Exception Codes \n26 \nModbus® RTU Serial Communications User Manual \n02/13 \nTable 4-1  Modbus RTU Data Layer Status Exception Codes \nException \nCode \nDefinition \nDescription \n01 \nIllegal Function  \nThe message received is not an allowable action for \nthe addressed device. \n02 \nIllegal Data Address \nThe address referenced in the function-dependent data \nsection of the message is not valid in the addressed \ndevice. \n03 \nIllegal Data Value \nThe value referenced at the addressed device location \nis no within range. \n04 \nSlave Device Failure \nThe addressed device has not been able to process a \nvalid message due to a bad device state. \n06 \nSlave Device Busy \nThe addressed device has ejected a message due to a \nbusy state. Retry later. \n07 \nNAK, \nNegative Acknowledge \nThe addressed device cannot process the current \nmessage. Issue a PROGRAM POLL to obtain device-\ndependent error data. \n09 \nBuffer Overflow \nThe data to be returned for the requested number of"
+  },
+  {
+    "chunk_id": 73,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "busy state. Retry later. \n07 \nNAK, \nNegative Acknowledge \nThe addressed device cannot process the current \nmessage. Issue a PROGRAM POLL to obtain device-\ndependent error data. \n09 \nBuffer Overflow \nThe data to be returned for the requested number of \nregisters is greater than the available buffer space. \nFunction Code 20 only."
+  },
+  {
+    "chunk_id": 74,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n27 \nA. Appendix: Register Map \nWhat’s in this appendix? \nThis appendix describes all paramters accessible by Function Code 03, 04, 06 and 10h.  Section A.1 gives \na global overview of each function and its addresses/registers.  Sections A.2 through A.21 contain the \ndetails on each function and each of its parameters.   \nYour particular instrument may not contain all parameters shown.  If you see a function that is not on your \ninstrument, either it is not available for that instrument model or it is an option you did not purchase.  If a \nfunction is not available for your instrument, that will be indicated. \nA.1 Register Map Overview \nTable A-1describes the global register map for Function Code 03, 04, 06 and 10h.  Details on each address \nare in sections A.2 through A.21.  Your particular instrument may not contain all functions or parameters"
+  },
+  {
+    "chunk_id": 75,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "A.1 Register Map Overview \nTable A-1describes the global register map for Function Code 03, 04, 06 and 10h.  Details on each address \nare in sections A.2 through A.21.  Your particular instrument may not contain all functions or parameters \nshown.  For example, some instruments contain only one or two loops, do not contain calculated values, \nsetpoint programmers, etc. \nConversion of address (hex) number to register (decimal) number. \nTo convert the address number to the register number, convert the address from hexidecimal to decimal \nand add 40001. Registers are addressed starting at zero: registers 1 – 16 are addressed as 0 – 15. \nTo convert the register number to the address number, subtract 40001 from the register and convert to hex. \nTable A-1  Global Register Map \nStart Address \n(hex) \nEnd Address \n(hex) \nDescription \nSee \nSubsection \n0000 \n< 0040 \nMiscellaneous Parameters or Loop #1 Integer  \nA.2 or A.3 \n0100  \n013F \nLoop 2 and Extended Values – UDC3500 \n0 \n0040 \n00FF"
+  },
+  {
+    "chunk_id": 76,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Table A-1  Global Register Map \nStart Address \n(hex) \nEnd Address \n(hex) \nDescription \nSee \nSubsection \n0000 \n< 0040 \nMiscellaneous Parameters or Loop #1 Integer  \nA.2 or A.3 \n0100  \n013F \nLoop 2 and Extended Values – UDC3500 \n0 \n0040 \n00FF \nLoop #1 (floating point & bit packed)  \nA.5 \n0100 \n013F \nLoop #2 Integer  \n0140 \n01FF \nLoop #2 (floating point & bit packed) \n0240 \n02FF \nLoop #3 (floating point & bit packed) \n0340 \n03FF \nLoop #4 (floating point & bit packed) \n0440 \n04FF \nLoop #5 (floating point & bit packed) \n0540 \n05FF \nLoop #6 (floating point & bit packed) \n0640 \n06FF \nLoop #7 (floating point & bit packed) \n0740 \n07FF \nLoop #8 (floating point & bit packed) \n0800 \n081C \nDR4300, DR4500 Chart  \nA.2.2 \n0840 \n08FF \nLoop #9 (floating point & bit packed) \nA.5 \n0940 \n09FF \nLoop #10 (floating point & bit packed) \n0A40 \n0AFF \nLoop #11 (floating point & bit packed) \n0B40 \n0BFF \nLoop #12 (floating point & bit packed) \n0C40 \n0CFF \nLoop #13 (floating point & bit packed) \n0D40 \n0DFF"
+  },
+  {
+    "chunk_id": 77,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "A.2.2 \n0840 \n08FF \nLoop #9 (floating point & bit packed) \nA.5 \n0940 \n09FF \nLoop #10 (floating point & bit packed) \n0A40 \n0AFF \nLoop #11 (floating point & bit packed) \n0B40 \n0BFF \nLoop #12 (floating point & bit packed) \n0C40 \n0CFF \nLoop #13 (floating point & bit packed) \n0D40 \n0DFF \nLoop #14 (floating point & bit packed) \n0E40 \n0EFF \nLoop #15 (floating point & bit packed) \n0F40 \n0FFF \nLoop #16 (floating point & bit packed)"
+  },
+  {
+    "chunk_id": 78,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n28 \nModbus® RTU Serial Communications User Manual \n02/13 \nStart Address \n(hex) \nEnd Address \n(hex) \nDescription \nSee \nSubsection \n1040 \n10FF \nLoop #17 (floating point & bit packed) \n1140 \n11FF \nLoop #18 (floating point & bit packed) \n1240 \n12FF \nLoop #19 (floating point & bit packed) \n1340 \n13FF \nLoop #20 (floating point & bit packed) \n1440 \n14FF \nLoop #21 (floating point & bit packed) \n1540 \n15FF \nLoop #22 (floating point & bit packed) \n1640 \n16FF \nLoop #23 (floating point & bit packed) \n1740 \n17FF \nLoop #24 (floating point & bit packed) \n1800 \n187F \nAnalog Input Value (#1-#64)  \nA.6 \n1880 \n18BF \nCommunication or Constant Value (#1 - #32)  \nA.7 \n18C0 \n1ABF \nMath or Calculated Value  (#1 - #256) \nA.8 \n1AC0 \n1ACF \nMath or Calculated Value Status (#1 - #256)  \nA.9 \n1AD0 \n1AFF \nHerculine Smart Actuator Values Register Map \nA.20 \n1B00 \n1B7F \nTotalizer Value (#1 - #64) \nA.10 \n1B80 \n1B83 \nTotalizer Status (Bit Packed) (#1 - #64)  \nA.11 \n1B90 \n1B91"
+  },
+  {
+    "chunk_id": 79,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "1ABF \nMath or Calculated Value  (#1 - #256) \nA.8 \n1AC0 \n1ACF \nMath or Calculated Value Status (#1 - #256)  \nA.9 \n1AD0 \n1AFF \nHerculine Smart Actuator Values Register Map \nA.20 \n1B00 \n1B7F \nTotalizer Value (#1 - #64) \nA.10 \n1B80 \n1B83 \nTotalizer Status (Bit Packed) (#1 - #64)  \nA.11 \n1B90 \n1B91 \nShed Timer Reset \nA.12 \n1B99 \n1BAB \nMaintenance (HealthWatch) Values  \nA.13 \n1BE0 \n1BE6 \nTime  \nA.14 \n1BF0 \n1BFF \nAlarm Status (Bit Packed) (#1 - #256)  \nA.15 \n1C00 \n1DFF \nAlarm Set Point Value (#1 - #256)  \nA.16 \n1E00 \n1E0F \nSet Point Programmer #1  \nA.17 \n1E10 \n1E1F \nSet Point Programmer #2 \n1E20 \n1E2F \nSet Point Programmer #3 \n1E30 \n1E3F \nSet Point Programmer #4 \n1E40 \n1E67 \nSmart Actuator Maintenance Data \nA.22 \n1F00 \n1F3F \nSet Point Programmer #1 Additional Values  \nA.18 \n1F40 \n1F7F \nSet Point Programmer #2 Additional Values  \n1F80 \n1FBF \nSet Point Programmer #3 Additional Values  \n1FC0 \n1FFF \nSet Point Programmer #4 Additional Values  \n27D0 \n2806"
+  },
+  {
+    "chunk_id": 80,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "1E40 \n1E67 \nSmart Actuator Maintenance Data \nA.22 \n1F00 \n1F3F \nSet Point Programmer #1 Additional Values  \nA.18 \n1F40 \n1F7F \nSet Point Programmer #2 Additional Values  \n1F80 \n1FBF \nSet Point Programmer #3 Additional Values  \n1FC0 \n1FFF \nSet Point Programmer #4 Additional Values  \n27D0 \n2806 \nHerculine Smart Actuator Factory Data Register \nMap \nA.21 \n2800 \n29FF \nSet Point Programmer #1 Segments  \nA.19 \n2A00 \n2BFF \nSet Point Programmer #2 Segments \n2C00 \n2DFF \nSet Point Programmer #3 Segments \n2E00 \n2FFF \nSet Point Programmer #4 Segments"
+  },
+  {
+    "chunk_id": 81,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n29 \nA.2 Miscellaneous Register Map \nA.2.1 RSX, VPR, VRX, UDC5300  Miscellaneous Register Map \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n0000 \n40001 \nInstrument Mode \nR/W \nBit Packed \nIndicators: \nBit 0: 1:Diagnostic \nBit 1: 1:Calibration  \nBit 2: 1:Maintenance/Offline mode \nBit 3: 1:Program mode \nBit 4: 1:Reset Unit/Force Cold Start \n(Write Only) \nBit 5: 1:On-Line/Run mode \nBit 6…15: Unused \n0001 \n40002 \nConfiguration Select \nW \nSigned 16 bit integer \n0: Clear Configuration \n \n \n(Preserves Calibration) \n \n0002 \n40003 \nLoad Recipe or \nProgram Number \nR/W \nFloating Point  \nVRX/VPR \nRead: Active program number \nWrite: Load program (write is allowed \nonly when SPP is in Ready or At End)"
+  },
+  {
+    "chunk_id": 82,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n30 \nModbus® RTU Serial Communications User Manual \n02/13 \nA.2.2 DR4300, DR4500 Chart Record Map \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n0800 \n42049 \nChart Speed (Hours/rev) \nR \nFloating Point in Engineering Units. \nNote 1 \n0802 \n42051 \n# Chart Divisions \nR \nFloating Point in Engineering Units. \n0804 \n42053 \nChart Status \nR \nFloating Point \n0.0 = hold; 1.0 = running. \n0806 \n42055 \nPen 1  \nR \nFloating Point \n0.0 = disabled; 1.0 = enabled \n0808 \n42057 \nPen 1 High Value \nR \nFloating Point in Engineering Units. \nNote 1 \n080A \n42059 \nPen 1 Low Value \nR \nFloating Point in Engineering Units. \nNote 1 \n080C \n42061 \nPen 2  \nR \nFloating Point \n0.0 = disabled; 1.0 = enabled \n080E \n42063 \nPen 2 High Value \nR \nFloating Point in Engineering Units. \n0810 \n42065 \nPen 2 Low Value \nR \nFloating Point in Engineering Units. \n0812 \n42067 \nPen 3  \nR \nFloating Point \n0.0 = disabled; 1.0 = enabled \n0814 \n42069 \nPen 3 High Value \nR"
+  },
+  {
+    "chunk_id": 83,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "R \nFloating Point \n0.0 = disabled; 1.0 = enabled \n080E \n42063 \nPen 2 High Value \nR \nFloating Point in Engineering Units. \n0810 \n42065 \nPen 2 Low Value \nR \nFloating Point in Engineering Units. \n0812 \n42067 \nPen 3  \nR \nFloating Point \n0.0 = disabled; 1.0 = enabled \n0814 \n42069 \nPen 3 High Value \nR \nFloating Point in Engineering Units. \n0816 \n42071 \nPen 3 Low Value \nR \nFloating Point in Engineering Units. \n0818 \n42073 \nPen 4  \nR \nFloating Point \n0.0 = disabled; 1.0 = enabled \n081A \n42075 \nPen 4 High Value \nR \nFloating Point in Engineering Units. \n081C \n42077 \nPen 4 Low Value \nR \nFloating Point in Engineering Units. \nNOTE 1: The DR4300 only supports the noted registers. All registers are supported by the DR4500."
+  },
+  {
+    "chunk_id": 84,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n31 \nA.3 Loop Value Integer Register Map \nThe following table applies to the following instruments: UDC2300, UDC2500, UDC3200, UDC3300, UDC3500, \nDR4300 and DR4500.  This table applies to Loops 1-24 except Loops 2-24 use the addresses shown in Table A-1  \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n0000 \n40001 \nPV \nR \nSigned 16 bit integer  Prescale * 10 Note 5 \n0001 \n40002 \nRV; Remote Set Point; SP2 \nR \nSigned 16 bit integer  Prescale * 10 \n0002 \n40003 \nWorking Set Point \nR/W \nSigned 16 bit integer  Prescale * 10 Note 5 \nOn a write the instrument will update the \nproper set point according to the loop’s \ncurrently selected set point. \n0003 \n40004 \nOutput \nR/W \nSigned 16 bit integer  Prescale * 10 Note 11 \n0004 \n40005 \nInput #1 \nR \nSigned 16 bit integer  Prescale * 10  \n0005 \n40006 \nInput #2 \nR \nSigned 16 bit integer  Prescale * 10  \n0006 \n40007"
+  },
+  {
+    "chunk_id": 85,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "proper set point according to the loop’s \ncurrently selected set point. \n0003 \n40004 \nOutput \nR/W \nSigned 16 bit integer  Prescale * 10 Note 11 \n0004 \n40005 \nInput #1 \nR \nSigned 16 bit integer  Prescale * 10  \n0005 \n40006 \nInput #2 \nR \nSigned 16 bit integer  Prescale * 10  \n0006 \n40007 \nGain #1 (Prop Band #1 if active) \nR/W \nSigned 16 bit integer  Prescale * 10 \n0007 \n40008 \nDirection \nR \nSigned 16 bit integer  Prescale * 10 \n0008 \n40009 \nReset #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 1 \n0009 \n40010 \nRate #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 1 \n000A \n40011 \nCycle Time #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 2 \n000B \n40012 \nPV Low Range \nR \nSigned 16 bit integer  Prescale * 10 \n000C \n40013 \nPV High Range \nR \nSigned 16 bit integer  Prescale * 10 \n000D \n40014 \nAlarm #1 SP #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7 \n000E \n40015 \nAlarm #1 SP #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7 \n000F    \n40016 \nAlarm #1 Action \nR"
+  },
+  {
+    "chunk_id": 86,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "000C \n40013 \nPV High Range \nR \nSigned 16 bit integer  Prescale * 10 \n000D \n40014 \nAlarm #1 SP #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7 \n000E \n40015 \nAlarm #1 SP #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7 \n000F    \n40016 \nAlarm #1 Action \nR \nSigned 16 bit integer  Prescale * 10  Note 6 \n0010 \n40017 \nGain #2 (Prop Band #2 if active) \nR/W \nSigned 16 bit integer  Prescale * 10 \n0011 \n40018 \nDeadband \nR/W \nSigned 16 bit integer  Prescale * 10 \n0012 \n40019 \nReset #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 1 \n0013 \n40020 \nRate #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 1 \n0014 \n40021 \nCycle Time #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 2 \n0015 \n40022 \nSP1; LSP #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0016 \n40023 \nLSP #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0017 \n40024 \nAlarm #2 SP #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7 \n0018 \n40025 \nAlarm #2 SP #2 \nR/W"
+  },
+  {
+    "chunk_id": 87,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "0015 \n40022 \nSP1; LSP #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0016 \n40023 \nLSP #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0017 \n40024 \nAlarm #2 SP #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7 \n0018 \n40025 \nAlarm #2 SP #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7 \n0019 \n40026 \nAlarm #2 Action \nR \nSigned 16 bit integer  Prescale * 10  Note 6 \n001A \n40027 \nSP Low Limit \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n001B \n40028 \nSP High Limit \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5"
+  },
+  {
+    "chunk_id": 88,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n32 \nModbus® RTU Serial Communications User Manual \n02/13 \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n001C \n40029 \nWorking Set Point \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \nOn a write to this register the instrument \nwill update the proper set point according to \nthe loop’s currently selected set point. \nUse this register for operator set point value \nchanges ONLY. Use SP Override for \ncomputer-generated set point values. \n001D \n40030 \nOutput Low Limit \nR/W \nSigned 16 bit integer  Prescale * 10 \n001E \n40031 \nOutput High Limit \nR/W \nSigned 16 bit integer  Prescale * 10 \n001F \n40032 \nOutput Working Value \nR/W \nSigned 16 bit integer  Prescale * 10 \n0020 \n40033 \nPV Override Value \nR/W \nSigned 16 bit integer  Prescale * 10 \n0021 \n40034 \nSP Override Value \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0022 \n40035 \nOutput Override Value \nR/W \nSigned 16 bit integer  Prescale * 10 \n0023 \n40036 \nRatio \nR/W"
+  },
+  {
+    "chunk_id": 89,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Signed 16 bit integer  Prescale * 10 \n0020 \n40033 \nPV Override Value \nR/W \nSigned 16 bit integer  Prescale * 10 \n0021 \n40034 \nSP Override Value \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0022 \n40035 \nOutput Override Value \nR/W \nSigned 16 bit integer  Prescale * 10 \n0023 \n40036 \nRatio \nR/W \nSigned 16 bit integer  Prescale * 10  Note 4 \n0024 \n40037 \nBias \nR/W \nSigned 16 bit integer  Prescale * 10  Note 4 \n0025 \n40038 \nDeviation \nR \nSigned 16 bit integer  Prescale * 10 \n0026 \n40039 \nLSP #3 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0027 \n40040 \nPercent Carbon Monoxide - CO \nR/W \nSigned 16 bit integer  Prescale*1000 Note 3 \n0028 \n40041 \nDecimal Point \nR/W \nSigned 16 bit integer  Prescale* 1    Note 3 \n0029 \n40042 \nAlg1 Bias \nR/W \nSigned 16 bit integer  Prescale * 10  Note 8 \n002A \n40043 \nAlg2 Bias \nR/W \nSigned 16 bit integer  Prescale * 10  Note 9 \n002B \n40044 \nLSP #4 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n002C \n40045 \nCurrent Output #2 \nR"
+  },
+  {
+    "chunk_id": 90,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "0029 \n40042 \nAlg1 Bias \nR/W \nSigned 16 bit integer  Prescale * 10  Note 8 \n002A \n40043 \nAlg2 Bias \nR/W \nSigned 16 bit integer  Prescale * 10  Note 9 \n002B \n40044 \nLSP #4 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n002C \n40045 \nCurrent Output #2 \nR \nSigned 16 bit integer  Prescale * 10  Note 5 \n002d \n40046 \nCurrent Output #3 \nR \nSigned 16 bit integer  Prescale * 10  Note 5 \n0038 \n40057 \nFuzzy Enable \nR/W \nUnsigned 16 bit integer  \n0=Disable       2= Enable2 \n1=Enable        3=Enable12              Note 6   \n0039 \n40058 \nShed Enable \nR/W \nBit Packed \nBit 0: 0:Disable 1:Enable                Note 6 \n003A \n40059 \nAuto/Manual State \nR/W \nBit Packed \nBit 0: 0:Manual; 1:Auto \nBit 1-15: Unused                              Note 12 \n003B \n40060 \nSet Point State \nR/W \nUnsigned 16 bit Integer   \n0=LSP1      3=CSP  \n1=LSP2      4=LSP4 \n2=LSP3      5=RSP                          Note 12"
+  },
+  {
+    "chunk_id": 91,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n33 \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n003C \n40061 \nRemote/Local Set Point State \nR/W \nBit Packed \nBit 0: 0:LSP; 1:RSP \nBit 1-15: Unused                              Note 12 \n003D \n40062 \nTune Set State \nR/W \nUnsigned 16 bit integer   \n0=Tune Set #1         1=Tune Set #2  \n2=Tune Set #3         3=Tune Set #4   Note 3  \n003E \n40063 \nLoop Status \nR \nBit Packed \nBit 0: Mode: 0:Manual; 1:Auto \nBit 1: Set Point: 0:SP1; 1:SP2 \nBit 2: Remote/Local: 0:LSP; 1:RSP \nBit 3: Tune Set: 0:Set #1; 1:Set #2 \nBit 4: LSP#3   \nBit 5:  LSP#4   \nBit 6: CSP  \nBit 7: UDC3500 set for Tune Set #1 \nBit 8: UDC3500 set for Tune Set #3 \nBit 9: UDC3500 set for Tune Set #4 \nBit 10: Unused \nBit 11: UDC3500 Run/Hold Status \nBit 12: UDC3500 set for Any Digital Input \nActive \nBit 13: UDC3500 set for Any Alarm Active\nBit 14: UDC3500 set for Cascade Operation\nBit 15: UDC3500 set for Guaranteed Soak"
+  },
+  {
+    "chunk_id": 92,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Bit 8: UDC3500 set for Tune Set #3 \nBit 9: UDC3500 set for Tune Set #4 \nBit 10: Unused \nBit 11: UDC3500 Run/Hold Status \nBit 12: UDC3500 set for Any Digital Input \nActive \nBit 13: UDC3500 set for Any Alarm Active\nBit 14: UDC3500 set for Cascade Operation\nBit 15: UDC3500 set for Guaranteed Soak \nDeviation  (Out of Limit) \n                                         Note 10, Note 12 \n003F \n40064 \nDevice Status \nR/W \nBit 0: Emergency Manual \nBit 1: Failsafe \nBit 2: Working Calibration Checksum Error\nBit 3: Configuration Checksum Error \nBit 4: Factory Calibration Error \nBit 5: Hardware Failure \nBit 6:Restart After Shed \nBit 7:Configuration/ Calibration Memory \nChanged \n                                         Note 13 \nNote 1: UDC3200, UDC3300, UDC3500 uses a prescale of 100 for this parameter.  \nNote 2: UDC3200, UDC3300, UDC3500 uses a prescale of 1 for this parameter.  \nNote 3: UDC3200, UDC3300, UDC3500 only.  \nNote 4: UDC3200, UDC3300, UDC3500 Ratio and Bias are CSP parameters."
+  },
+  {
+    "chunk_id": 93,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Note 1: UDC3200, UDC3300, UDC3500 uses a prescale of 100 for this parameter.  \nNote 2: UDC3200, UDC3300, UDC3500 uses a prescale of 1 for this parameter.  \nNote 3: UDC3200, UDC3300, UDC3500 only.  \nNote 4: UDC3200, UDC3300, UDC3500 Ratio and Bias are CSP parameters. \nNote 5: In the UDC3200, UDC3300, or UDC3500, if the input type is configured as Carbon and the input algorithm is \nconfigured for one of the carbon selections, the prescale value is derived from the configured decimal point. \nNote 6: Not supported by UDC2300 or UDC3300 \nNote 7: UDC2300, UDC2500, UDC3300, UDC3200 Loop 1 Address only. \nNote 8: In the UDC3200, UDC3300, or UDC3500, if the Algorithm 1 type is configured for weighted average, RH, Summer, Sq. \nRoot Mult-Div, Sq Root Mult, Mult-Div, Mult, Carbon A-D, FCC, Dew Point, or Oxygen, the prescale value is derived \nfrom the configured decimal point."
+  },
+  {
+    "chunk_id": 94,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Note 8: In the UDC3200, UDC3300, or UDC3500, if the Algorithm 1 type is configured for weighted average, RH, Summer, Sq. \nRoot Mult-Div, Sq Root Mult, Mult-Div, Mult, Carbon A-D, FCC, Dew Point, or Oxygen, the prescale value is derived \nfrom the configured decimal point. \nNote 9: In the UDC3300, or UDC3500 if the Algorithm 2 type is configured for weighted average, A-B/C, Sq Root Mult-Div, Sq \nRoot Mult, Mult-Div, Mult, or Dew Point, the prescale value is derived from the configured decimal point. \nNote 10:  If bits 2, 4, 5 and 6 are set, then disregard bit 1."
+  },
+  {
+    "chunk_id": 95,
+    "page": 39,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n34 \nModbus® RTU Serial Communications User Manual \n02/13 \nNote 11: UDC3500/UDC3200: Positional Proportional Control slidewire input or Three Position Step Control slidewire feedback \nNote 12: UDC2300, UDC2500, UDC3200, UDC3300, UDC3500 only.  \nNote 13: UDC2500, UDC3200,  UDC3500 only. Writing any value to this register via Function Code 6 clears bits 6 and 7 only. \nUDC3500 writing to 013F clears bits 6 and 7 for loop2."
+  },
+  {
+    "chunk_id": 96,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n35 \nA.4 Loop 2 and Extended Value Integer Register Map – UDC3500  \nThe following table applies to the following instrument: UDC3500 – Loop2 and Exended range.   \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n0100 \n40257 \nPV \nR \nSigned 16 bit integer  Prescale * 10 Note 5 \n0101 \n40258 \nRV \nR \nSigned 16 bit integer  Prescale * 10 \n0102 \n40259 \nWorking Set Point \nR/W \nSigned 16 bit integer  Prescale * 10 Note 5 \nOn a write the instrument will update the \nproper set point according to the loop’s \ncurrently selected set point. \n0103 \n40260 \nOutput \nR/W \nSigned 16 bit integer  Prescale * 10 Note 11 \n0104 \n40261 \nInput #3 \nR \nSigned 16 bit integer  Prescale * 10  \n0105 \n40262 \nInput #4 \nR \nSigned 16 bit integer  Prescale * 10 \n0106 \n40263 \nGain #5 (Prop Band #5 if active) \nR/W \nSigned 16 bit integer  Prescale * 10 \n0107 \n40264 \nDirection \nR \nSigned 16 bit integer  Prescale * 10 \n0108"
+  },
+  {
+    "chunk_id": 97,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "0104 \n40261 \nInput #3 \nR \nSigned 16 bit integer  Prescale * 10  \n0105 \n40262 \nInput #4 \nR \nSigned 16 bit integer  Prescale * 10 \n0106 \n40263 \nGain #5 (Prop Band #5 if active) \nR/W \nSigned 16 bit integer  Prescale * 10 \n0107 \n40264 \nDirection \nR \nSigned 16 bit integer  Prescale * 10 \n0108 \n40265 \nReset #5 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 1 \n0109 \n40266 \nRate #5 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 1 \n010A \n40267 \nCycle Time #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 2 \n010B \n40268 \nPV Low Range \nR \nSigned 16 bit integer  Prescale * 10 \n010C \n40269 \nPV High Range \nR \nSigned 16 bit integer  Prescale * 10 \n010D \n40270 \nAlarm #3 SP #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7 \n010E \n40271 \nAlarm #3 SP #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7 \n010F    \n40272 \nAlarm #3 Action \nBit 0 – AL3SP1 \n \n0=Low or Begin \n \n1=High or End \nBit 1 – AL3SP2 \n \n0=Low or Begin \n \n1=High or End \nR \nSigned 16 bit integer  Prescale * 10  Note 6 \n0110"
+  },
+  {
+    "chunk_id": 98,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "010E \n40271 \nAlarm #3 SP #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7 \n010F    \n40272 \nAlarm #3 Action \nBit 0 – AL3SP1 \n \n0=Low or Begin \n \n1=High or End \nBit 1 – AL3SP2 \n \n0=Low or Begin \n \n1=High or End \nR \nSigned 16 bit integer  Prescale * 10  Note 6 \n0110 \n40273 \nGain #6 (Prop Band #6 if active) \nR/W \nSigned 16 bit integer  Prescale * 10 \n0111 \n40274 \nDeadband \nR/W \nSigned 16 bit integer  Prescale * 10 \n0112 \n40275 \nReset #6 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 1 \n0113 \n40276 \nRate #6 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 1 \n0114 \n40277 \nCycle Time #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 2 \n0115 \n40278 \nLSP #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0116 \n40279 \nLSP #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0117 \n40280 \nAlarm #4 SP #1 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7 \n0118 \n40281 \nAlarm #4 SP #2 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 7"
+  },
+  {
+    "chunk_id": 99,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n36 \nModbus® RTU Serial Communications User Manual \n02/13 \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n0119 \n40282 \nAlarm #4 Action \nBit 0 – AL4SP1 \n \n0=Low or Begin \n \n1=High or End \nBit 1 – AL4SP2 \n \n0=Low or Begin \n \n1=High or End \nR \nSigned 16 bit integer  Prescale * 10  Note 6 \n011A \n40283 \nSP Low Limit \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n011B \n40284 \nSP High Limit \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n011C \n40285 \nWorking Set Point \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \nOn a write to this register the instrument \nwill update the proper set point according to \nthe loop’s currently selected set point. \nUse this register for operator set point value \nchanges ONLY. Use SP Override for \ncomputer-generated set point values. \n011D \n40286 \nOutput Low Limit \nR/W \nSigned 16 bit integer  Prescale * 10 \n011E \n40287 \nOutput High Limit \nR/W \nSigned 16 bit integer  Prescale * 10 \n011F \n40288"
+  },
+  {
+    "chunk_id": 100,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Use this register for operator set point value \nchanges ONLY. Use SP Override for \ncomputer-generated set point values. \n011D \n40286 \nOutput Low Limit \nR/W \nSigned 16 bit integer  Prescale * 10 \n011E \n40287 \nOutput High Limit \nR/W \nSigned 16 bit integer  Prescale * 10 \n011F \n40288 \nOutput Working Value \nR/W \nSigned 16 bit integer  Prescale * 10 \n0120 \n40289 \nPV Override Value \nR/W \nSigned 16 bit integer  Prescale * 10 \n0121 \n40290 \nSP Override Value \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0122 \n40291 \nOutput Override Value \nR/W \nSigned 16 bit integer  Prescale * 10 \n0123 \n40292 \nRatio \nR/W \nSigned 16 bit integer  Prescale * 10  Note 4 \n0124 \n40293 \nBias \nR/W \nSigned 16 bit integer  Prescale * 10  Note 4 \n0125 \n40294 \nDeviation \nR \nSigned 16 bit integer  Prescale * 10 \n0126 \n40295 \nLSP #3 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0127 \n40296 \nInput 5 \nR/W \nSigned 16 bit integer  Prescale*1000 Note 3 \n0128 \n40297 \nLoop #2 Decimal Point \nR/W"
+  },
+  {
+    "chunk_id": 101,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Signed 16 bit integer  Prescale * 10  Note 4 \n0125 \n40294 \nDeviation \nR \nSigned 16 bit integer  Prescale * 10 \n0126 \n40295 \nLSP #3 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0127 \n40296 \nInput 5 \nR/W \nSigned 16 bit integer  Prescale*1000 Note 3 \n0128 \n40297 \nLoop #2 Decimal Point \nR/W \nSigned 16 bit integer  Prescale* 1    Note 3 \n0129 \n40298 \nAlg1 Bias \nR/W \nSigned 16 bit integer  Prescale * 10  Note 8 \n012A \n40299 \nAlg2 Bias \nR/W \nSigned 16 bit integer  Prescale * 10  Note 9 \n012B \n40300 \nLSP #4 \nR/W \nSigned 16 bit integer  Prescale * 10  Note 5 \n0138 \n40313 \nFuzzy Enable \nR/W \nUnsigned 16 bit integer  \n0=Disable       2= Enable2 \n1=Enable        3=Enable12              Note 6   \n0139 \n40314 \nShed Enable \nR/W \nBit Packed \nBit 0: 0:Disable 1:Enable                Note 6"
+  },
+  {
+    "chunk_id": 102,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n37 \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n013A \n40315 \nAuto/Manual State \nR/W \nBit Packed \nBit 0: 0:Manual; 1:Auto \nBit 1-15: Unused                              Note 12 \n013B \n40316 \nSet Point State \nR/W \nUnsigned 16 bit integer   \n0=SP1      2=SP3 \n1=SP2      3=SP4                              Note 12 \n013C \n40317 \nRemote/Local Set Point State \nR/W \nBit Packed \nBit 0: 0:LSP; 1:RSP \nBit 1-15: Unused                              Note 12 \n013D \n40318 \nTune Set State \nR/W \nUnsigned 16 bit integer   \n0=Tune Set #1         1=Tune Set #2        \n2=Tune Set #3         3=Tune Set #4   \n013E \n40319 \nLoop Status \nR \nBit Packed \nBit 0: Mode: 0:Manual; 1:Auto \nBit 1: Set Point: 0:SP1; 1:SP2 \nBit 2: Remote/Local: 0:LSP; 1:RSP \nBit 3: Tune Set: 0:Set #1; 1:Set #2 \nBit 4: LSP3   \nBit 5:  LSP4   \nBit 6: CSP  \nBit 7: UDC3500 set for Tune Set #1 \nBit 8: UDC3500 set for Tune Set #3"
+  },
+  {
+    "chunk_id": 103,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "013E \n40319 \nLoop Status \nR \nBit Packed \nBit 0: Mode: 0:Manual; 1:Auto \nBit 1: Set Point: 0:SP1; 1:SP2 \nBit 2: Remote/Local: 0:LSP; 1:RSP \nBit 3: Tune Set: 0:Set #1; 1:Set #2 \nBit 4: LSP3   \nBit 5:  LSP4   \nBit 6: CSP  \nBit 7: UDC3500 set for Tune Set #1 \nBit 8: UDC3500 set for Tune Set #3 \nBit 9: UDC3500 set for Tune Set #4 \nBit 10: Unused \nBit 11: UDC3500 Run/Hold Status \nBit 12: UDC3500 set for Any Digital Input \nActive \nBit 13: UDC3500 set for Any Alarm Active\nBit 14: UDC3500 set for Cascade \nBit 15: UDC3500 set for Guaranteed Soak \nDeviation (Out of Limit)   \n    Note 10, Note 12 \nNote 1 :UDC3200, UDC3300, UDC3500 uses a prescale of 100 for this parameter.  \nNote 2: UDC3200, UDC3300, UDC3500 uses a prescale of 1 for this parameter.  \nNote 3: UDC3200, UDC3300, UDC3500 only.  \nNote 4: UDC3200, UDC3300, UDC3500 Ratio and Bias are CSP parameters. \nNote 5: In the UDC3500, if the input type is configured as Carbon and the input algorithm is configured for one of the carbon"
+  },
+  {
+    "chunk_id": 104,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Note 3: UDC3200, UDC3300, UDC3500 only.  \nNote 4: UDC3200, UDC3300, UDC3500 Ratio and Bias are CSP parameters. \nNote 5: In the UDC3500, if the input type is configured as Carbon and the input algorithm is configured for one of the carbon \nselections, the prescale value is derived from the configured decimal point. \nNote 6: Not supported by UDC2300 or UDC3300 \nNote 7: UDC2300, UDC2500, UDC3300, UDC3200 Loop 1 Address only. \nNote 8: In the UDC3200, UDC3300, or UDC3500, if the Algorithm 1 type is configured for weighted average, RH, Summer, Sq. \nRoot Mult-Div, Sq Root Mult, Mult-Div, Mult, Carbon A-D, FCC, Dew Point, or Oxygen, the prescale value is derived \nfrom the configured decimal point. \nNote 9: In the UDC3300, or UDC3500 if the Algorithm 2 type is configured for weighted average, A-B/C, Sq Root Mult-Div, Sq \nRoot Mult, Mult-Div, Mult, or Dew Point, the prescale value is derived from the configured decimal point. \nNote 10:  If bits 2, 4, 5 and 6 are set, then disregard bit 1."
+  },
+  {
+    "chunk_id": 105,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Note 9: In the UDC3300, or UDC3500 if the Algorithm 2 type is configured for weighted average, A-B/C, Sq Root Mult-Div, Sq \nRoot Mult, Mult-Div, Mult, or Dew Point, the prescale value is derived from the configured decimal point. \nNote 10:  If bits 2, 4, 5 and 6 are set, then disregard bit 1. \nNote 11: UDC3500: Positional Proportional Control slidewire input or Three Position Step Control slidewire feedback \nNote 12: UDC2300, UDC2500, UDC3200, UDC3300, UDC3500 only."
+  },
+  {
+    "chunk_id": 106,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n38 \nModbus® RTU Serial Communications User Manual \n02/13 \nA.5 Loop Value Register Map \nThis table contains addresses of Loop #1; see Table A-1 on page 27 for addresses of other loops. \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n0040 \n40065 \nPV \nR \nFloating Point in Engineering Units. \n0042 \n40067 \nRV; Remote Set Point; SP2 \nR \nFloating Point in Engineering Units. \nRSX, VPR, VRX, UDC5300 allow writing \nthis value when SP2 is local (not connected) \n0044 \n40069 \nWorking Set Point \nR \nFloating Point in Engineering Units. \nRSX, VRX, VPR, UDC5300,: R/W \nOn a write to this register the instrument \nwill update the proper set point according to \nthe loop’s currently selected set point. \n0046 \n40071 \nOutput \nR/W \nFloating Point in Engineering Units. \nUDC2500, UDC3200, UDC3500  \nRead Only \n \n0048 \n40073 \nInput #1 \nR \nFloating Point in Engineering  \n004A \n40075 \nInput #2 \nR \nFloating Point in Engineering Units. \n004C \n40077"
+  },
+  {
+    "chunk_id": 107,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "the loop’s currently selected set point. \n0046 \n40071 \nOutput \nR/W \nFloating Point in Engineering Units. \nUDC2500, UDC3200, UDC3500  \nRead Only \n \n0048 \n40073 \nInput #1 \nR \nFloating Point in Engineering  \n004A \n40075 \nInput #2 \nR \nFloating Point in Engineering Units. \n004C \n40077 \nGain #1 (Prop Band #1 if active) \nR/W \nFloating Point \nFor loop #2 this cell is UDC330 Gain #3 or \nUDC3500 Gain #5 \n004E \n40079 \nDirection \nR \nFloating Point  \n0.0=Direct; 1.0=Reverse \n0050 \n40081 \nReset #1 \nR/W \nFloating Point in Repeats/Minute or \nMinutes/Repeat. \nFor loop #2 this cell is UDC3300 Reset #3 or \nUDC3500 Reset #5 \n0052 \n40083 \nRate #1 \nR/W \nFloating Point in Minutes \nFor loop #2, this cell is UDC3300 rate #3 or \nUDC3500 rate #5 \n0054 \n40085 \nCycle Time #1 \nR/W \nFloating Point in Seconds.   \nRead-only for UDC2300, UDC3300. \nFor loop #2 this cell is UDC3300 Cycle Time #3 \nor UDC3500 Cycle Time #5 \n0056 \n40087 \nPV Low Range \nR \nFloating Point in Engineering Units. \n0058 \n40089 \nPV High Range \nR"
+  },
+  {
+    "chunk_id": 108,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "UDC3500 rate #5 \n0054 \n40085 \nCycle Time #1 \nR/W \nFloating Point in Seconds.   \nRead-only for UDC2300, UDC3300. \nFor loop #2 this cell is UDC3300 Cycle Time #3 \nor UDC3500 Cycle Time #5 \n0056 \n40087 \nPV Low Range \nR \nFloating Point in Engineering Units. \n0058 \n40089 \nPV High Range \nR \nFloating Point in Engineering Units. \n005A \n40091 \nAlarm #1 SP #1 \nR/W \nFloating Point in Engineering Units.  Note 2 \n005C \n40093 \nAlarm #1 SP #2 \nR/W \nFloating Point in Engineering Units.  Note 2 \n005E \n40095 \nunused \n \n \n0060 \n40097 \nGain #2 (Prop Band #2 if active) \nR/W \nFloating Point \nFor loop #2 this cell is UDC3300 Gain #4 or \nUDC3500 Gain #6"
+  },
+  {
+    "chunk_id": 109,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n39 \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n0062 \n40099 \nDeadband \nR/W \nFloating Point  \n0064 \n40101 \nReset #2 \nR/W \nFloating Point in Repeats/Minute or \nMinutes/Repeat. For loop #2 this cell is \nUDC3300 Reset #4 or UDC3500 Reset #6 \n0066 \n40103 \nRate #2 \nR/W \nFloating Point in Minutes \nFor loop #2 this cell is UDC3300 rate #4 or \nUDC3500 rate #6 \n0068 \n40105 \nCycle Time #2 \nR/W \nFloating Point in Seconds.   \n Read-only UDC2300, UDC3300. \nFor loop #2 this cell is UDC3300 Cycle Time #4 \nor UDC3500 Cycle Time #6 \n006A \n40107 \nLSP #1 \nR/W \nFloating Point in Engineering Units. \n006C \n40109 \nLSP #2 \nR/W \nFloating Point in Engineering Units. \n006E \n40111 \nAlarm #2 SP #1 \nR/W \nFloating Point in Engineering Units.  Note 2 \n0070 \n40113 \nAlarm #2 SP #2 \nR/W \nFloating Point in Engineering Units.  Note 2 \n0072 \n40115 \nunused \n \n \n0074 \n40117 \nSP Low Limit \nR/W"
+  },
+  {
+    "chunk_id": 110,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "006C \n40109 \nLSP #2 \nR/W \nFloating Point in Engineering Units. \n006E \n40111 \nAlarm #2 SP #1 \nR/W \nFloating Point in Engineering Units.  Note 2 \n0070 \n40113 \nAlarm #2 SP #2 \nR/W \nFloating Point in Engineering Units.  Note 2 \n0072 \n40115 \nunused \n \n \n0074 \n40117 \nSP Low Limit \nR/W \nFloating Point in Engineering Units. \n0076 \n40119 \nSP High Limit \nR/W \nFloating Point in Engineering Units. \n0078 \n40121 \nWorking Set Point \nR/W \nFloating Point in Engineering Units. \nOn a write to this register the instrument \nwill update the proper set point according to \nthe loop’s currently selected set point. \nNOTE: Use this register for operator set \npoint value changes ONLY. Use SP \nOverride for computer-generated set point \nvalues. \nDR4300, DR4500: READ ONLY \n007A \n40123 \nOutput Low Limit \nR/W \nFloating Point in Engineering Units. \n007C \n40125 \nOutput High Limit \nR/W \nFloating Point in Engineering Units. \n007E \n40127 \nOutput Working Value \nR/W \nFloating Point in Engineering Units. \n0080 \n40129"
+  },
+  {
+    "chunk_id": 111,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "values. \nDR4300, DR4500: READ ONLY \n007A \n40123 \nOutput Low Limit \nR/W \nFloating Point in Engineering Units. \n007C \n40125 \nOutput High Limit \nR/W \nFloating Point in Engineering Units. \n007E \n40127 \nOutput Working Value \nR/W \nFloating Point in Engineering Units. \n0080 \n40129 \nPV Override Value \nR/W \nFloating Point in Engineering Units. \nUDC2300, UDC2500, UDC3200, \nUDC3300, UDC3500 ONLY \n0082 \n40131 \nSP Override Value \nR/W \nFloating Point in Engineering Units.  \nUDC2300, UDC2500, UDC3200, \nUDC3300, UDC3500 ONLY \n0084 \n40133 \nOutput Override Value \nR/W \nFloating Point in Engineering Units. \nUDC2300, UDC2500, UDC3200, \nUDC3300, UDC3500 ONLY"
+  },
+  {
+    "chunk_id": 112,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n40 \nModbus® RTU Serial Communications User Manual \n02/13 \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n0086 \n40135 \nRatio \nR/W \nFloating Point in Engineering Units. \nNote 1. \n0088 \n40137 \nBias \nR/W \nFloating Point in Engineering Units. \nNote 1. \n008A \n40139 \nDeviation \nR \nFloating Point in Engineering Units. \n008C \n40141 \nLSP #3 \nR/W \nFloating Point in Engineering Units. \n008E \n40143 \nLSP #4 \nR/W \nFloating Point in Engineering Units. \n0090 \n40145 \nGain #3 \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n For loop #2 this cell is Gain #7 \n0092 \n40147 \nReset #3 \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \nFor loop #2 this cell is Reset #7 \n0094 \n40149 \nRate #3 \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \nFor loop #2 this cell is Rate #7 \n0096 \n40151 \nGain #4 \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \nFor loop #2 this cell is Gain #8 \n0098 \n40153 \nReset #4 \nR/W"
+  },
+  {
+    "chunk_id": 113,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "For loop #2 this cell is Reset #7 \n0094 \n40149 \nRate #3 \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \nFor loop #2 this cell is Rate #7 \n0096 \n40151 \nGain #4 \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \nFor loop #2 this cell is Gain #8 \n0098 \n40153 \nReset #4 \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \nFor loop #2 this cell is Reset #8 \n009A \n40155 \nRate #4 \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \nFor loop #2 this cell is Rate #8 \n009C \n40157 \nPV/SP Switch 3 to 4 \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n009E \n40159 \nALG1 Bias \nR/W \nFloating Point in Engineering Units \nUDC3200,  UDC3300, UDC3500 ONLY \n00A0 \n40161 \nALG2 Bias \nR/W \nFloating Point in Engineering Units \nUDC3200, UDC3300, UDC3500 ONLY \n00A2 \n40163 \nAux Output \nR \nFloating Point in Engineering Units \nUDC2500, UDC3200, UDC3500 ONLY \nUDC3500: Current Output 2 \n00A4 \n40165 \nSetpoint Ramp Time \nR/W \nFloating Point in Engineering Units"
+  },
+  {
+    "chunk_id": 114,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "00A0 \n40161 \nALG2 Bias \nR/W \nFloating Point in Engineering Units \nUDC3200, UDC3300, UDC3500 ONLY \n00A2 \n40163 \nAux Output \nR \nFloating Point in Engineering Units \nUDC2500, UDC3200, UDC3500 ONLY \nUDC3500: Current Output 2 \n00A4 \n40165 \nSetpoint Ramp Time \nR/W \nFloating Point in Engineering Units \nUDC2500, UDC3200, UDC3500 ONLY \n00A6 \n40167 \nSetpoint Ramp Setpoint \nR/W \nFloating Point in Engineering Units \nUDC2500, UDC3200, UDC3500 ONLY \n00A8 \n40169 \nInput 1 Ratio \nR/W \nFloating Point in Engineering Units. \nUDC2500, UDC3200, UDC3500 ONLY"
+  },
+  {
+    "chunk_id": 115,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n41 \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n00AA \n40171 \nInput 1 Bias \nR/W \nFloating Point in Engineering Units. \nUDC2500, UDC3200, UDC3500 ONLY \n00AC \n40173 \nInput 2 Ratio \nR/W \nFloating Point in Engineering Units. \nUDC2500, UDC3200, UDC3500 ONLY \n00AE \n40175 \nInput 2 Bias \nR/W \nFloating Point in Engineering Units. \nUDC2500, UDC3200, UDC3500 ONLY \n00B0 \n40177 \nSP/PV Switch 1 to 2 \nR/W \nFloating Point in Engineering Units. \nUDC2500, UDC3200, UDC3500 ONLY \n00B2 \n40179 \nSP/PV Switch 2 to 3 \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n00B4 \n40181 \nInput 3 Ratio \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n00B6 \n40183 \nInput 3 Bias \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n00B8 \n40185 \nInput 4 Ratio \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n00BA \n40187 \nInput 4 Bias \nR/W \nFloating Point in Engineering Units."
+  },
+  {
+    "chunk_id": 116,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "R/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n00B6 \n40183 \nInput 3 Bias \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n00B8 \n40185 \nInput 4 Ratio \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n00BA \n40187 \nInput 4 Bias \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n00BC \n40189 \nInput 5 Ratio \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n00BE \n40191 \nInput 5 Bias \nR/W \nFloating Point in Engineering Units. \nUDC3500 ONLY \n00C0 \n40193 \nCurrent 1 Output \nR \nFloating Point in Engineering Units. \nUDC2500, UDC3200, UDC3500 ONLY \n00C2 \n40195 \nCurrent 3 Output \nR \nFloating Point in Engineering Units. \nUDC3500 ONLY \n00F6 \n40247 \nFuzzy Enable \nR/W \nUnsigned 16 bit integer   \n0=Disable \n1=Enable \n2=Enable2 – UDC3500 ONLY \n3=Enable12 – UDC3500 ONLY \n \n00F8 \n40249 \nShed Enable \nR/W \nBit Packed \nBit 0: 0:Disable 1:Enable \n \n00FA \n40251 \nAuto/Manual State \nR/W \nBit Packed \nBit 0: 0:Manual; 1:Auto \nBit 1-15: Unused"
+  },
+  {
+    "chunk_id": 117,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n42 \nModbus® RTU Serial Communications User Manual \n02/13 \nAddress \n(hex) \nRegister \n(decimal) \nParameter Name \nAccess \nNotes \n00FB \n40252 \nSet Point State \nR/W \nUnsigned 16 bit integer   \n0=SP1 \n1=SP2 \n2=SP3   \n3=SP4  \n00FC \n40253 \nRemote/Local Set Point State \nR/W \nBit Packed \nBit 0: 0:LSP; 1:RSP \nBit 1-15: Unused \n00FD \n40254 \nTune Set State \nR/W \nUnsigned 16 bit integer   \n0=Tune Set #1 \n1=Tune Set #2 \n2=Tune Set #3 \n3=Tune Set #4 – UDC3500 Only \n00FE \n40255 \nLoop Status \nR \nBit Packed \nBit 0: Mode: 0:Manual; 1:Auto \nBit 1: Set Point: 0:SP1; 1:SP2 \nBit 2: Remote/Local: 0:LSP; 1:RSP \nBit 3: Tune Set: 0:Set #1; 1:Set #2 \nBit 4: LSP3   \nBit 5: LSP4   \nBit 6: CSP  \nBit 7: UDC3500 set for Tune Set #1 \nBit 8: UDC3500 set for Tune Set #3 \nBit 9: UDC3500 set for Tune Set #4 \nBit 10: Unused \nBit 11: UDC3500 Run/Hold Status \nBit 12: UDC3500 set for Any Digital Input \nActive \nBit 13: UDC3500 set for Any Alarm Active   \nBit 14: UDC3500 set for Cascade"
+  },
+  {
+    "chunk_id": 118,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Bit 7: UDC3500 set for Tune Set #1 \nBit 8: UDC3500 set for Tune Set #3 \nBit 9: UDC3500 set for Tune Set #4 \nBit 10: Unused \nBit 11: UDC3500 Run/Hold Status \nBit 12: UDC3500 set for Any Digital Input \nActive \nBit 13: UDC3500 set for Any Alarm Active   \nBit 14: UDC3500 set for Cascade    \nBit 15: UDC3500 set for Guaranteed Soak \nDeviation (Out of Limit) \n                                             Note 3 \nNote 1: UDC2300/UDC2500/UDC3200/UDC3300/UDC3500 Ratio and Bias are CSP parameters. \nNote 2: UDC3300 Loop 1 Addresses only. \nNote 3:  If bits 2, 4, 5 and 6 are set; then disregard bit 1. \nNote4: UDC3500/UDC3200: Positional Proportional Control Slidewire input or Three Position Step Control  \n \n \nSlidewire feedback"
+  },
+  {
+    "chunk_id": 119,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n43 \nA.6 Analog Input Value Register Map \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1800 \n46145 \nAnalog Input #1 \nR \n \n \n \n \n \nFloating Point in Engineering Units. \n \nNumber of Inputs vary according to \nmodel numbers \n \n1802 \n46147 \nAnalog Input #2 \nR \n1804 \n46149 \nAnalog Input #3 \nR \n1806 \n46151 \nAnalog Input #4 \nR \n1808 \n46153 \nAnalog Input #5 \nR \n180A \n46155 \nAnalog Input #6 \nR \n180C \n46157 \nAnalog Input #7 \nR \n180E \n46159 \nAnalog Input #8 \nR \n1810 \n46161 \nAnalog Input #9 \nR \n1812 \n46163 \nAnalog Input #10 \nR \n1814 \n46165 \nAnalog Input #11 \nR \n1816 \n46167 \nAnalog Input #12 \nR \n: \n: \n: \n \n187E \n46271 \nAnalog Input #64 \nR"
+  },
+  {
+    "chunk_id": 120,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n44 \nModbus® RTU Serial Communications User Manual \n02/13 \nA.7 Communication or Constant Value Register Map \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1880 \n46273 \nCommunication Value #1 \nR/W \nFloating Point in Engineering Units. \nDR4500: Input 1 Bias \n1882 \n46275 \nCommunication Value #2 \nR/W \nFloating Point in Engineering Units. \nDR4500: Input 2 Bias \n1884 \n46277 \nCommunication Value #3 \nR/W \nFloating Point in Engineering Units. \nDR4500: Input 3 Bias \n1886 \n46279 \nCommunication Value #4 \nR/W \nFloating Point in Engineering Units. \nDR4500: Input 4 Bias \n1888 \n46281 \nCommunication Value #5 \nR/W \nFloating Point in Engineering Units. \n188A \n46283 \nCommunication Value #6 \nR/W \n: \n188C \n46285 \nCommunication Value #7 \nR/W \n: \n188E \n46287 \nCommunication Value #8 \nR/W \n: \n1890 \n46289 \nCommunication Value #9 \nR/W \n: \n1892 \n46291 \nCommunication Value #10 \nR/W \n: \n1894 \n46293 \nCommunication Value #11 \nR/W \n: \n1896 \n46295"
+  },
+  {
+    "chunk_id": 121,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "188A \n46283 \nCommunication Value #6 \nR/W \n: \n188C \n46285 \nCommunication Value #7 \nR/W \n: \n188E \n46287 \nCommunication Value #8 \nR/W \n: \n1890 \n46289 \nCommunication Value #9 \nR/W \n: \n1892 \n46291 \nCommunication Value #10 \nR/W \n: \n1894 \n46293 \nCommunication Value #11 \nR/W \n: \n1896 \n46295 \nCommunication Value #12 \nR/W \n: \n1898 \n46297 \nCommunication Value #13 \nR/W \n: \n189A \n46299 \nCommunication Value #14 \nR/W \n: \n189C \n46301 \nCommunication Value #15 \nR/W \n: \n189D \n46303 \nCommunication Value #16 \nR/W \n: \n: \n: \n: \n \n: \n18BE \n46335 \nCommunication Value #32 \nR/W \n:"
+  },
+  {
+    "chunk_id": 122,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n45 \nA.7.1 Extended Comms for X Series recorders \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n2440 \n49281 \nCommunication Value #33 \nR/W \nFloating Point in Engineering Units. \n2442 \n49283 \nCommunication Value #34 \nR/W \n: \n2444 \n49285 \nCommunication Value #35 \nR/W \n: \n2446 \n49287 \nCommunication Value #36 \nR/W \n: \n2448 \n49289 \nCommunication Value #37 \nR/W \n: \n244A \n49291 \nCommunication Value #38 \nR/W \n: \n244C \n49293 \nCommunication Value #39 \nR/W \n: \n244E \n49295 \nCommunication Value #40 \nR/W \n: \n2450 \n49297 \nCommunication Value #41 \nR/W \n: \n2452 \n49299 \nCommunication Value #42 \nR/W \n: \n2454 \n49301 \nCommunication Value #43 \nR/W \n: \n2456 \n49303 \nCommunication Value #44 \nR/W \n: \n2458 \n49305 \nCommunication Value #45 \nR/W \n: \n245A \n49307 \nCommunication Value #46 \nR/W \n: \n245C \n49309 \nCommunication Value #47 \nR/W \n: \n245E \n49311 \nCommunication Value #48 \nR/W \n: \n: \n: \n: \n: \n: \n24BE"
+  },
+  {
+    "chunk_id": 123,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": ": \n2454 \n49301 \nCommunication Value #43 \nR/W \n: \n2456 \n49303 \nCommunication Value #44 \nR/W \n: \n2458 \n49305 \nCommunication Value #45 \nR/W \n: \n245A \n49307 \nCommunication Value #46 \nR/W \n: \n245C \n49309 \nCommunication Value #47 \nR/W \n: \n245E \n49311 \nCommunication Value #48 \nR/W \n: \n: \n: \n: \n: \n: \n24BE \n49407 \nCommunication Value #96 \nR/W \n:"
+  },
+  {
+    "chunk_id": 124,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n46 \nModbus® RTU Serial Communications User Manual \n02/13 \nA.8 Math, Calculated Value, or Variable Register Map \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n18C0 \n46337 \nMath Value #1 \nR \nFloating Point in Engineering Units. \nSmart Actuator: Position \n18C2 \n46339 \nMath Value #2 \nR \nFloating Point in Engineering Units. \nSmart Actuator: NCS Calibration Voltage \n18C4 \n46341 \nMath Value #3 \nR \nFloating Point in Engineering Units. \n18C6 \n46343 \nMath Value #4 \nR \n: \n18C8 \n46345 \nMath Value #5 \nR \n: \n18CA \n46347 \nMath Value #6 \nR \n: \n18CC \n46349 \nMath Value #7 \nR \n: \n18CE \n46351 \nMath Value #8 \nR \n: \n18D0 \n46353 \nMath Value #9 \nR \n: \n18D2 \n46355 \nMath Value #10 \nR \n: \n18D4 \n46357 \nMath Value #11 \nR \n: \n18D6 \n46359 \nMath Value #12 \nR \n: \n18D8 \n46361 \nMath Value #13 \nR \n: \n18DA \n46363 \nMath Value #14 \nR \n: \n18DC \n46365 \nMath Value #15 \nR \n: \n18DE \n46367 \nMath Value #16 \nR \n: \n18E0 \n46369 \nMath Value #17 \nR \n: \n18E2 \n46371 \nMath Value #18"
+  },
+  {
+    "chunk_id": 125,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Math Value #10 \nR \n: \n18D4 \n46357 \nMath Value #11 \nR \n: \n18D6 \n46359 \nMath Value #12 \nR \n: \n18D8 \n46361 \nMath Value #13 \nR \n: \n18DA \n46363 \nMath Value #14 \nR \n: \n18DC \n46365 \nMath Value #15 \nR \n: \n18DE \n46367 \nMath Value #16 \nR \n: \n18E0 \n46369 \nMath Value #17 \nR \n: \n18E2 \n46371 \nMath Value #18 \nR \n: \n18E4 \n46373 \nMath Value #19 \nR \n: \n18E6 \n46375 \nMath Value #20 \nR \n: \n18E8 \n46377 \nMath Value #21 \nR \n: \n18EA \n46379 \nMath Value #22 \nR \n: \n18EC \n46381 \nMath Value #23 \nR \n: \n18EE \n46383 \nMath Value #24 \nR \n: \n18F0 \n46385 \nMath Value #25 \nR \n: \n18F2 \n46387 \nMath Value #26 \nR \n: \n18F4 \n46389 \nMath Value #27 \nR \n: \n18F6 \n46391 \nMath Value #28 \nR \n: \n18F8 \n46393 \nMath Value #29 \nR \n: \n18FA \n46395 \nMath Value #30 \nR \n: \n18FC \n46397 \nMath Value #31 \nR \n: \n18FE \n46399 \nMath Value #32 \nR \n: \n: \n: \n: \n: \n: \n1ABE \n46847 \nMath Value #256 \nR \n:"
+  },
+  {
+    "chunk_id": 126,
+    "page": 52,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n47 \nA.9 Math or Calculated Value Status Register Map \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1AC0 \n46849 \nMath Status #1-#16 \nR \nBit Packed: \nBit 0: Math #1 Status \n \n  : \nBit 15: Math #16 Status \n0: Math OFF \n1: Math ON \n1AC1 \n46850 \nMath Status #17-#32 \nR \nBit Packed \nBit 0: Math #17 Status \n \n  : \nBit 15: Math #32 Status \n0: Math OFF \n1: Math ON \n: \n: \n: \n: \n: \n1ACF \n46864 \nMath Status #240 - #256 \nR \n:"
+  },
+  {
+    "chunk_id": 127,
+    "page": 53,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n48 \nModbus® RTU Serial Communications User Manual \n02/13 \nA.10 Totalizer Value Register Map \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1B00 \n46913 \nTotalizer Value #1 \nR \nFloating Point in Engineering Units. \n1B02 \n46915 \nTotalizer Value #2 \nR \n: \n1B04 \n46917 \nTotalizer Value #3 \nR \n: \n1B06 \n46919 \nTotalizer Value #4 \nR \n: \n1B08 \n46921 \nTotalizer Value #5 \nR \n: \n1B0A \n46923 \nTotalizer Value #6 \nR \n: \n: \n: \n: \n \n: \n1B7E \n47039 \nTotalizer Value #64 \nR \n: \n \nATTENTION \nTo reset totalizer to a specific value, write that value to these registers (i.e., to reset totalizer #1 to zero write 0.0 to \nregister 46913)."
+  },
+  {
+    "chunk_id": 128,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n49 \nA.11 Totalizer Status Register Map \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1B80 \n47041 \nTotalizer Status #1 - #16 \nR \nBit Packed \nBit 0: Totalizer #1 Status \nBit 1: Totalizer #2 Status \n \n \n \n: \nBit 15: Totalizer #16 Status \n0: Totalizer OFF \n1: Totalizer ON \n1B81 \n47042 \nTotalizer Status #17 - #32 \nR \nBit Packed \nBit 0: Totalizer #17 Status \nBit 1: Totalizer #18 Status \n \n \n \n: \nBit 15: Totalizer #32 Status \n0: Totalizer OFF \n1: Totalizer ON \n1B82 \n47043 \nTotalizer Status #33 - #48 \nR \n: \n1B83 \n47044 \nTotalizer Status #49 - #64 \nR \n:"
+  },
+  {
+    "chunk_id": 129,
+    "page": 55,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n50 \nModbus® RTU Serial Communications User Manual \n02/13 \nA.12 Shed Timer Reset Register \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1B90 \n47057 \nReset Shed Timer Loop 1 \nW \nSigned 16 bit integer \nWrite this address to clear an infinite shed \ncondition. (Shedtime = 0)  Data is \nignored. \nNOTE: \nUDC3300/UDC2300/UDC2500/UDC3200/ \nUDC3500 ONLY \n1B91 \n47058 \nReset Shed Timer Loop 2 \nW \nSigned 16 bit integer \nWrite this address to clear an infinite shed \ncondition. (Shedtime = 0)  Data is \nignored. \nNOTE: UDC3300, UDC3500 ONLY"
+  },
+  {
+    "chunk_id": 130,
+    "page": 56,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n51 \nA.13 Maintenance (HealthWatch) Value Register Map \nThis table applies to the UDC3300 Expanded and UDC3500 models only. \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAcces\ns \nNotes \n1B99 \n47064 \nMaintenance Reset Type \nW \nUnsigned 16-bit Integer \n0: None \n6: Counter 2 \n1: Timer 1 \n7: Counter 3 \n2: Timer 2 \n8: All Counters \n3: Timer 3 \n9: All Timers & Counters \n4: All Timers \n10: Ambient Temp \n5: Counter 1 \n1B9A \n47065 \nTimer 1 Configuration \nUDC3300 only \nR/W \nUnsigned 16-bit Integer \n0: Disable \n6: Manual Loop 1 \n1: Last Reset \n7: Guaranteed soak \n2: Alarm 1 SP1 8: Sooting \n3: Alarm 1 SP2 9: DI1 Closed \n4: Alarm 2 SP1 10:DI2 Closed \n5: Alarm 2 SP2 11: Manual Loop 2 \n1B9A \n47065 \nTimer 1 Configuration \nUDC3500 only \nR/W \nUnsigned 16-bit Integer \n0: Disable \n  9: Alarm 4 SP2 \n1: Last Reset \n10: Manual Loop 1 \n2: Alarm 1 SP1 11: Guaranteed soak \n3: Alarm 1 SP2 12: Sooting"
+  },
+  {
+    "chunk_id": 131,
+    "page": 56,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "4: Alarm 2 SP1 10:DI2 Closed \n5: Alarm 2 SP2 11: Manual Loop 2 \n1B9A \n47065 \nTimer 1 Configuration \nUDC3500 only \nR/W \nUnsigned 16-bit Integer \n0: Disable \n  9: Alarm 4 SP2 \n1: Last Reset \n10: Manual Loop 1 \n2: Alarm 1 SP1 11: Guaranteed soak \n3: Alarm 1 SP2 12: Sooting \n4: Alarm 2 SP1 13: DI1 Closed \n5: Alarm 2 SP2 14: DI2 Closed \n6: Alarm 3 SP1  15: DI2 Closed \n7: Alarm 3 SP2   16: DI2 Closed \n8: Alarm 4 SP1   17: Manual Loop 2 \n1B9B \n47066 \nTimer 2 Configuration \nR/W \nSame as Timer 1 Configuration \n1B9C \n47067 \nTimer 3 Configuration \nR/W \nSame as Timer 1 Configuration \n1B9D \n47068 \nCounter 1 Configuration \nUDC3300 only \nR/W \nUnsigned 16-bit Integer \n0: Disable \n6: DI1 \n1: Manual Loop 1 7: DI2 \n2: Alarm 1 SP1 \n8: Output1 Relay x 1K \n3: Alarm 1 SP2 \n9: Output2 Relay x 1K \n4: Alarm 2 SP1 \n10:Guaranteed soak \n5: Alarm 2 SP2 \n11: Power cycle"
+  },
+  {
+    "chunk_id": 132,
+    "page": 57,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n52 \nModbus® RTU Serial Communications User Manual \n02/13 \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAcces\ns \nNotes \n1B9D \n47068 \nCounter 1 Configuration \nUDC3500 only \nR/W \nUnsigned 16-bit Integer \n0: Disable           14: Output1 Relay x 1K   \n1: Manual Loop 1 15: Output2 Relay x 1K\n2: Alarm 1 SP1 \n16: Output3 Relay x 1K\n3: Alarm 1 SP2 \n17: Output4 Relay x 1K\n4: Alarm 2 SP1 \n18: Output4 Relay x 1K\n5: Alarm 2 SP2 \n19:Guaranteed soak \n6: Alarm 3 SP1    20: Power cycle \n7: Alarm 3 SP2 \n21: PV Range Loop 1 \n8: Alarm 4 SP1 \n22: Failsafe Loop 1 \n9: Alarm 4 SP2 \n23: Tune Loop 1 \n10: DI1 Closed  \n24: Manual Loop 2 \n11: DI2 Closed \n25: PV Range Loop 2 \n12: DI3 Closed \n26: Failsafe Loop 2 \n13: DI4 Closed  \n27: Tune Loop2 \n1B9E \n47069 \nCounter 2 Configuration \nR/W \nSame as Counter 1 Configuration \n1B9F \n47070 \nCounter 3 Configuration \nR/W \nSame as Counter 1 Configuration \n1BA0 \n47071 \nTimer 1 Days \nR \nSigned 16 bit integer \n1BA1 \n47072 \nTimer 1 Hours"
+  },
+  {
+    "chunk_id": 133,
+    "page": 57,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "26: Failsafe Loop 2 \n13: DI4 Closed  \n27: Tune Loop2 \n1B9E \n47069 \nCounter 2 Configuration \nR/W \nSame as Counter 1 Configuration \n1B9F \n47070 \nCounter 3 Configuration \nR/W \nSame as Counter 1 Configuration \n1BA0 \n47071 \nTimer 1 Days \nR \nSigned 16 bit integer \n1BA1 \n47072 \nTimer 1 Hours \nR \nSigned 16 bit integer \n1BA2 \n47073 \nTimer 1 Minutes \nR \nSigned 16 bit integer \n1BA3 \n47074 \nTimer 2 Days \nR \nSigned 16 bit integer \n1BA4 \n47075 \nTimer 2 Hours \nR \nSigned 16 bit integer \n1BA5 \n47076 \nTimer 2 Minutes \nR \nSigned 16 bit integer \n1BA6 \n47077 \nTimer 3 Days \nR \nSigned 16 bit integer \n1BA7 \n47078 \nTimer 3 Hours \nR \nSigned 16 bit integer \n1BA8 \n47079 \nTimer 3 Minutes \nR \nSigned 16 bit integer \n1BA9 \n47080 \nCounter 1 \nR \nSigned 16 bit integer \n1BAA \n47081 \nCounter 2 \nR \nSigned 16 bit integer \n1BAB \n47082 \nCounter 3 \nR \nSigned 16 bit integer"
+  },
+  {
+    "chunk_id": 134,
+    "page": 58,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n53 \nA.14 Time Register Map \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1BE0 \n47137 \nHours \nR/W \n0 to 23 \n1BE1 \n47138 \nMinutes \nR/W \n0 to 60 \n1BE2 \n47139 \nSeconds \nR/W \n0 to 60 \n1BE3 \n47140 \nMonth \nR/W \n1 to 12 \n1BE4 \n47141 \nDay \nR/W \n1 to 31 \n1BE5 \n47142 \nYear \nR/W \n00 to 99 \nVPR, VRX: accepts the values 0 – 37, 70 \n– 99, and 1970 – 2037. The values read \nare always in the range of 1970 to 2037.  \n0 – 37 represents 2000 – 2037, 70 – 99 \nrepresents 1970 – 1999 \nDR4500: accepts 0-99 or 1970 – 2037 \nand ignores the century. \nUDC3500: accepts 05-99 \n1BE6 \n47143 \nWeek Day \nR/W \n0 to 6 (0 = Sunday) \nDR4500: R/W \n VPR/VRX, UDC3500: ignored \n \nATTENTION \nClock registers must be written in a single transaction. They can be written in one transaction of registers 47137 \nthrough 47142 or one transaction of registers 47137 through 47143."
+  },
+  {
+    "chunk_id": 135,
+    "page": 59,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n54 \nModbus® RTU Serial Communications User Manual \n02/13 \nA.15 Alarm Status Register Map \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1BF0 \n47153 \nAlarm Status #1 - #16 \nR \nBit Packed \nBit 0: Alarm #1 Status \nBit 1: Alarm #2 Status \nBit 2: UDC3500 Alarm #3 Status \nBit 3: UDC3500 Alarm #4 Status \n \n \n \n: \nBit 15: Alarm #16 Status \n0: Alarm OFF \n1: Alarm ON \n1BF1 \n47154 \nAlarm Status #17 - #32 \nR \nBit Packed \nBit 0: Alarm #17 Status \nBit 1: Alarm #18 Status \n \n \n \n: \nBit 15: Alarm #32 Status \n0: Alarm OFF \n1: Alarm ON \n1BF2 \n47155 \nAlarm Status #33 - #48 \nR \nBit Packed \nBit 0: Alarm #33 Status \nBit 1: Alarm #34 Status \n \n \n \n: \nBit 15: Alarm #48 Status \n0: Alarm OFF \n1: Alarm ON \n1BF3 \n47156 \nAlarm Status #49 - #64 \nR \n: \n1BF4 \n47157 \nAlarm Status #65 - #80 \nR \n: \n1BF5 \n47158 \nAlarm Status #81 - #96 \nR \n: \n: \n: \n: \n: \n: \n1BFF \n47168 \nAlarm Status #240 - #256 \nR \n:"
+  },
+  {
+    "chunk_id": 136,
+    "page": 60,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n55 \nA.16  Alarm Set Point Value Register Map \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAcces\ns \nNotes \n1C00 \n47169 \nAlarm Set Point Value #1 \nR/W \nFloating Point in Engineering Units. \nDR4300, DR4500, UDC2300, UDC2500, \nUDC3200, UDC3300, UDC3500, 10260S, \n11280S: Alarm #1 SP1 \n1C02 \n47171 \nAlarm Set Point Value #2 \nR/W \nFloating Point in Engineering Units. \nDR4300, DR4500, UDC2300, UDC2500, \nUDC3200, UDC3300, UDC3500, 10260S, \n11280S: Alarm #1 SP2 \n1C04 \n47173 \nAlarm Set Point Value #3 \nR/W \nFloating Point in Engineering Units. \nDR4300, DR4500, UDC2300, UDC2500, \nUDC3200, UDC3300, UDC3500, 10260S, \n11280S: Alarm #2 SP1 \n1C06 \n47175 \nAlarm Set Point Value #4 \nR/W \nFloating Point in Engineering Units. \nDR4300, DR4500, UDC2300, UDC2500, \nUDC3200, UDC3300, UDC3500, 10260S, \n11280S: Alarm #2 SP2 \n1C08 \n47177 \nAlarm Set Point Value #5 \nR/W \nFloating Point in Engineering Units."
+  },
+  {
+    "chunk_id": 137,
+    "page": 60,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "11280S: Alarm #2 SP1 \n1C06 \n47175 \nAlarm Set Point Value #4 \nR/W \nFloating Point in Engineering Units. \nDR4300, DR4500, UDC2300, UDC2500, \nUDC3200, UDC3300, UDC3500, 10260S, \n11280S: Alarm #2 SP2 \n1C08 \n47177 \nAlarm Set Point Value #5 \nR/W \nFloating Point in Engineering Units. \n10260S, 11280S: Alarm #3 SP1 \n1C0A \n47179 \nAlarm Set Point Value #6 \nR/W \nFloating Point in Engineering Units. \n10260S, 11280S: Alarm #3 SP2 \n1C0C \n47181 \nAlarm Set Point Value #7 \nR/W \nFloating Point in Engineering Units. \n10260S, 11280S: Alarm #4 SP1 \n1C0E \n47183 \nAlarm Set Point Value #8 \nR/W \nFloating Point in Engineering Units. \n10260S, 11280S: Alarm #4 SP2 \n1C10 \n47185 \nAlarm Set Point Value #9 \nR/W \nFloating Point in Engineering Units. \n1C12 \n47187 \nAlarm Set Point Value #10 \nR/W \n: \n1C14 \n47189 \nAlarm Set Point Value #11 \nR/W \n: \n1C16 \n47191 \nAlarm Set Point Value #12 \nR/W \n: \n1C18 \n47193 \nAlarm Set Point Value #13 \nR/W \n: \n1C1A \n47195 \nAlarm Set Point Value #14 \nR/W \n: \n1C1C \n47197"
+  },
+  {
+    "chunk_id": 138,
+    "page": 60,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "R/W \nFloating Point in Engineering Units. \n1C12 \n47187 \nAlarm Set Point Value #10 \nR/W \n: \n1C14 \n47189 \nAlarm Set Point Value #11 \nR/W \n: \n1C16 \n47191 \nAlarm Set Point Value #12 \nR/W \n: \n1C18 \n47193 \nAlarm Set Point Value #13 \nR/W \n: \n1C1A \n47195 \nAlarm Set Point Value #14 \nR/W \n: \n1C1C \n47197 \nAlarm Set Point Value #15 \nR/W \n: \n1C1E \n47199 \nAlarm Set Point Value #16 \nR/W \n: \n: \n: \n: \n \n: \n1DFE \n47679 \nAlarm Set Point Value #256 \nR/W \nThis is the same as Alarm 3 Value Pen 64 \nfor X Series recorders. \n: \n: \n: \n \n: \n: \n: \n: \n \nRegister continues for X Series recorders: \n: \n: \n: \n \n: \n207E \n48319 \nAlarm Set Point Value #576 \nR/W \nThis is the same as Alarm 6 Value Pen 96 \nfor X Series recorders."
+  },
+  {
+    "chunk_id": 139,
+    "page": 61,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n56 \nModbus® RTU Serial Communications User Manual \n02/13 \nA.16.1 Alarm Status \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1980 \n6529 \nAlarm Status, Pen 1 (start address) \nR \n \n1981 \n6530 \nAlarm Status, Pen 2 \nR \n \n1982 \n6531 \nAlarm Status, Pen 3 \nR \n \n1983 \n6532 \nAlarm Status, Pen 4 \nR \n \n1984 \n6533 \nAlarm Status, Pen 5 \nR \n \n1985 \n6534 \nAlarm Status, Pen 6 \nR \n \n1986 \n6535 \nAlarm Status, Pen 7 \nR \n \n1987 \n6536 \nAlarm Status, Pen 8 \nR \n \n1988 \n6537 \nAlarm Status, Pen 9 \nR \n \n1989 \n6538 \nAlarm Status, Pen 10 \nR \n \n: \n: \n: \nR \n \n19DF \n6624 \nAlarm Status, Pen 96 (end address) \nR"
+  },
+  {
+    "chunk_id": 140,
+    "page": 62,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n57 \nA.17 Set Point Programmer Value Register Map \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1E00 \n47681 \nSet Point Programmer Output \nR \nFloating Point in Engineering Units. \n1E02 \n47683 \nCurrent Segment Number \nR \nFloating Point; 1...Max Segment # \nA write changes the segment number.  \n1E04 \n47685 \nProgram Elapsed Time \nR \nFloating Point in Seconds -or- Time Units\nIncludes or runs when in Hold \nNote 1, 2 \n1E06 \n47687 \nProgram Active Time \nR \nFloating Point in Seconds -or- Time Units\nExcludes or stops when in Hold \nNote 1, 2 \n1E08 \n47689 \nSegment Time Remaining \nR \nFloating Point in Seconds -or- Time Units \n1E0A \n47691 \nCurrent Segment Events (Bit \nPacked) \nR \nBit Packed \nBit 0: Event #1 \n \n \n \n: \nBit 15: Event #16 \n0: Event OFF \n1: Event ON \nNote 1, 2 \n1E0B \n47692 \nStatus \nR \nBit Packed \nBit 0: 1=Ready \n \n1: 1=Run \n \n2: 1=Hold  \n \n3: 1=End \n \n4: 1=Time Units in Seconds"
+  },
+  {
+    "chunk_id": 141,
+    "page": 62,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "1E0A \n47691 \nCurrent Segment Events (Bit \nPacked) \nR \nBit Packed \nBit 0: Event #1 \n \n \n \n: \nBit 15: Event #16 \n0: Event OFF \n1: Event ON \nNote 1, 2 \n1E0B \n47692 \nStatus \nR \nBit Packed \nBit 0: 1=Ready \n \n1: 1=Run \n \n2: 1=Hold  \n \n3: 1=End \n \n4: 1=Time Units in Seconds  \n \n5: 1=Time Units in Minutes \n \n6: 1=Time Units in Hours \nUDC2300, UDC2500, UDC3200, \nUDC3300, UDC3500, DR4300, \nDR4500,: \n \n7: Ramp Units \n \n \n0: Time \n \n \n1: Rate \nUDC2300, UDC2500, UDC3200, \nUDC3300, UDC3500, DR4300, \nDR4500,: \n \n8: If bit 7 Set \n \n \n0: EU/Hour \n \n \n1: EU/Minute \nBit 9: Guaranteed Soak State  \nBit 12-15: Program Selected \n \n \n \n#1 to #4 UDC3500 \n1E0C \n47693 \nStart \nW \nSigned 16 bit integer \nWrite to location Starts Profile; \nData ignored \nNote 3"
+  },
+  {
+    "chunk_id": 142,
+    "page": 63,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n58 \nModbus® RTU Serial Communications User Manual \n02/13 \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1E0D \n47694 \nHold \nW \nSigned 16 bit integer \nWrite to location Holds Profile; \nData ignored \nNote 4 \n1E0E \n47695 \nAdvance \nW \nSigned 16 bit integer \nWrite to location Advances Profile; \nData ignored \nNote 1, 2 \n1E0F \n47696 \nReset \nW \nSigned 16 bit integer \nWrite to location Resets Profile; \nData ignored \nNote 1 \nNOTE 1: Not implemented in DR4300, DR4500 \nNOTE 2: Not implemented in UDC2300, UDC2500, UDC3200, UDC3300, UDC3500 \nNOTE 3: UDC2300, UDC2500, UDC3200, UDC3300, UDC3500, require data to be a value of 1. \nNOTE 4: UDC2300, UDC2500, UDC3200, UDC3300, UDC3500, require data to be a value of 0."
+  },
+  {
+    "chunk_id": 143,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n59 \nA.18 Set Point Programmer Additional Values Register Map \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1F3A \n47995 \nTime Units \nR/W \nBit Packed \nBit 0: seconds \n      1: minutes \n \n2: hours \n \n3-15: Unused  \nNotes 2, 4 \n1F3B \n47996 \nRamp Units \nR/W \nBit Packed \nBit 0:   0:Time; 1:Rate \nBit 1-15: Unused \nNote 4 \n1F3D \n47998 \nProgram End Segment \n(Program 1 only) \nR/W \nBit Packed \nBit 0: 1: 2 \n \n1: 1: 4 \n \n2: 1: 6 \n \n3: 1: 8 \n \n4: 1: 10 \n \n5: 1: 12 \n \n6: 1: 14 \n \n7: 1: 16 \n \n8: 1: 18 \n \n9: 1: 20 \nNote 1 \n1F3E \n47999 \nProgram Termination State \nR/W \nBit Packed \nBit 0: 0: Last SP \n \n \n \n(Hold at last SP in program) \n \n \n1: F'SAFE \n \n \n \n(Manual mode, failsafe output)\n \n1-15: Unused \nNote 1 \n1F3F \n48000 \nProgram State at Program End \nR/W \nBit Packed \nBit 0: 0: Disabl; 1: Hold \n \n1-15: Unused \nNote 1 \n1F40 \n48001 \nEngineering Units for Ramp \nSegments \nR/W \nBit Packed"
+  },
+  {
+    "chunk_id": 144,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "(Hold at last SP in program) \n \n \n1: F'SAFE \n \n \n \n(Manual mode, failsafe output)\n \n1-15: Unused \nNote 1 \n1F3F \n48000 \nProgram State at Program End \nR/W \nBit Packed \nBit 0: 0: Disabl; 1: Hold \n \n1-15: Unused \nNote 1 \n1F40 \n48001 \nEngineering Units for Ramp \nSegments \nR/W \nBit Packed \nBit 0: 0: Hrs:Mins \n \n0: 1: Degrees/Min \n \n1: 1: Degrees/Hour \n \n2-15: Unused \nNote 1"
+  },
+  {
+    "chunk_id": 145,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n60 \nModbus® RTU Serial Communications User Manual \n02/13 \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1F41 \n48002 \nProgram Start Segment 1-16 \nW \nBit Packed \nBit 0: 1 = Start Segment 1 \n \n1: 1 = Start Segment 2 \n \n2: 1 = Start Segment 3 \n \n3: 1 = Start Segment 4 \n \n4: 1 = Start Segment 5 \n \n5: 1 = Start Segment 6 \n \n6: 1 = Start Segment 7 \n \n7: 1 = Start Segment 8 \n \n8: 1 = Start Segment 9 \n \n9: 1 = Start Segment 10 \n \n10: 1 = Start Segment 11 \n \n11: 1 = Start Segment 12 \n \n12: 1 = Start Segment 13 \n \n13: 1 = Start Segment 14 \n \n14: 1 = Start Segment 15 \n \n15: 1 = Start Segment 16 \nNote 1 \n1F43 \n48004 \nProgram Start Segment 17-20 \nW \nBit Packed \nBit 0: 1 = Start Segment 17 \n \n1: 1 = Start Segment 18 \n \n2: 1 = Start Segment 19 \n \n3: 1 = Start Segment 20 \nNote 1 \n1F41 \n1F43 \n48002 \n48004 \nProgram Start Segment 1-20 \n1F41- Write bits 1-16 \n1F43- Write bits 17-20 \n1F41 and 1F43- Read Integer \nvalue \nR \nUnsigned 16-bit Integer"
+  },
+  {
+    "chunk_id": 146,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "W \nBit Packed \nBit 0: 1 = Start Segment 17 \n \n1: 1 = Start Segment 18 \n \n2: 1 = Start Segment 19 \n \n3: 1 = Start Segment 20 \nNote 1 \n1F41 \n1F43 \n48002 \n48004 \nProgram Start Segment 1-20 \n1F41- Write bits 1-16 \n1F43- Write bits 17-20 \n1F41 and 1F43- Read Integer \nvalue \nR \nUnsigned 16-bit Integer  \n1 = Start Segment 1 \n2 = Start Segment 2 \n3 = Start Segment 3 \n4 = Start Segment 4 \n5 = Start Segment 5 \n6 = Start Segment 6 \n7 = Start Segment 7 \n8 = Start Segment 8 \n9 = Start Segment 9 \n10 = Start Segment 10 \n11 = Start Segment 11 \n12 = Start Segment 12 \n13 = Start Segment 13 \n14 = Start Segment 14 \n15 = Start Segment 15 \n16 = Start Segment 16 \n17 = Start Segment 17 \n18 = Start Segment 18 \n19 = Start Segment 19 \n20 = Start Segment 20 \nNote 1 \n1F42 \n48003 \nProgram Recycles \nR/W \nUnsigned 16-bit Integer \n0 to 99 \nNote 3"
+  },
+  {
+    "chunk_id": 147,
+    "page": 66,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n61 \nAddress \n(hex) \nRegister \n(decimal) \nChannel Number \nAccess \nNotes \n1F44 \n48005 \nProgram End Segment \nUDC3500 Only \nfor Program Number 1 - 4 \nR \n \nW \nUnsigned 16-bit Integer \nEnd segment 1 to End segment 20 \nBit Packed \n \n2 = Soak Segment 2 \n \n4 = Soak Segment 4 \n \n6 = Soak Segment 6 \n \n8 = Soak Segment 8 \n \n10 = Soak Segment 10 \n \n12 = Soak Segment 12 \n \n14 = Soak Segment 14 \n \n16 = Soak Segment 16 \n \n18 = Soak Segment 18 \n \n20 = Soak Segment 20 \n(Odd numbers are illegal) \n1F45 \n48006 \nProgram Number \nUDC3500 Only \nR/W \nUDC3500 Program #1 - #4 \nEnhanced Setpoint Program Only \nNote 1: UDC2300, UDC2500, UDC3200, UDC3300, UDC3500 Only \nNote 2: UDC2300, UDC2500, UDC3200, UDC3300, UDC3500 does not support seconds \nNote 3: UDC2300 does not permit writing to this register \nNote4:  UDC2300, UDC2500, UDC3200, UDC3300, UDC3500 read only"
+  },
+  {
+    "chunk_id": 148,
+    "page": 67,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n62 \nModbus® RTU Serial Communications User Manual \n02/13 \nA.19  Set Point Programmer Segment Map \nA profile can contain up to 64 segments depending on the instrument. Each segment is made up of 8 registers. The \nsegment mapping for setpoint programmer #1 is shown below.  \n \nStart Address \nEnd Address \nDescription \n2800 \n2807 \nSet Point Programmer #1 Segment 1 \n2808 \n280F \nSet Point Programmer #1 Segment 2 \n2810 \n2817 \nSet Point Programmer #1  Segment 3 \n: \n: \n: \n29F8 \n29FF \nSet Point Programmer #1 Segment 64"
+  },
+  {
+    "chunk_id": 149,
+    "page": 68,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n63 \nA.19.1 Segment Register Map \nThe table below describes the registers that are part of a setpoint programmer segment. To determine the actual \nregister address for a parameter within a segment, add the register offset to the start address of the segment.  \nRegister  \nOffset within \nSegment \nParameter Name \nAccess \nNotes \n0 \nRamp Segment \nR/W \nBit Packed \nBit 0: 1 = ramp segment; 0=soak segment  \nBit 1: 1 = guaranteed soak enabled \n          0 = guaranteed soak disabled \nBit 2: 1 = guaranteed soak enabled PV#2 \n          0 = guaranteed soak disabled PV#2 \nBit 0 is ignored in the hold mode. \nWriting to this register is not permissible in the run \nmode.  \nVPR, VRX ONLY \n1 \nEvents \nR/W \nBit Packed \nBit 0: Event #1 \n   :            : \nBit 15: Event #16 \n0: Event OFF \n1: Event ON \nWriting to this register is only permissible in reset or \nready mode. \nVPR, VRX ONLY \n2 \nTime or Rate \nR/W"
+  },
+  {
+    "chunk_id": 150,
+    "page": 68,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Writing to this register is not permissible in the run \nmode.  \nVPR, VRX ONLY \n1 \nEvents \nR/W \nBit Packed \nBit 0: Event #1 \n   :            : \nBit 15: Event #16 \n0: Event OFF \n1: Event ON \nWriting to this register is only permissible in reset or \nready mode. \nVPR, VRX ONLY \n2 \nTime or Rate \nR/W \nFloating Point in time units configured for the set point \nprogrammer \nWriting to this register is not permissible in the run \nmode.   \nVPR, VRX ONLY \n4 \nRamp or Soak value \nR/W \nFloating Point  \nWriting to this register is not permissible in the run \nmode. \nVPR, VRX ONLY \n6 \nSoak value for auxiliary \noutput (use “Time or \nRate” for duration) \nR/W \nFloating Point \nWriting to this register is not permissible in the run \nmode.  \nVPR, VRX ONLY"
+  },
+  {
+    "chunk_id": 151,
+    "page": 69,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n64 \nModbus® RTU Serial Communications User Manual \n02/13 \nA.19.2 Example For Determining a Segment Register \nTo change the ramp value in segment #8 of setpoint programmer #2, the register address is determined as follows.  \nStep 1: \nUse Table A-1 to determine the start address for setpoint program #2 profile. The value is 2A00 Hex.   \nStep 2: \nCalculate the offset address for segment 8 in a profile. This is calculated as:  \nSegment #8 offset address \n= \n(segment number – 1) * 8 \n \n= \n(8-1) * 8 \n \n= \n56 or 38 Hex \nStep 3: \nUse the table  \nabove to determine the register offset for the ramp value. \nThe value is 4. \nStep 4: \nCalculate the address by adding the results of steps 1, 2, and 3 to determine the register address. \nRegister address \n= \nSetpoint program #2 profile base address  \n+ Segment 8 offset address  \n+ Ramp value register offset \n \n=  2A00 + 38 + 4 \n \n=  2A3C"
+  },
+  {
+    "chunk_id": 152,
+    "page": 70,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n65 \nA.20 Herculine Smart Actuator Value Register Map \nAddress\n(hex) \n Register \n(decimal) \n           Parameter Name \n Access \n                         Notes \n1AD0 \n46865 \nPosition \nR \nFP 0-100% or 0-90 Degrees of Travel \n1AD2 \n46867 \nInput \nR \nFloating Point 0-100% \n1AD4 \n46869 \nOutput \nR \nFloating Point 0-100% \n1AD6 \n46871 \nRemote Setpoint \nR/W \nFloating Point 0-100% \n1AD8 \n46873 \nInput Low Range \nR/W \nFloating Point 0-100% \n1ADA \n46875 \nInput High Range \nR/W \nFloating Point 0-100% \n1ADC \n46877 \nRelay #1  SP1 \nR/W \nFloating Point 0-100% \n1ADE \n46879 \nRelay #1  SP2 \nR/W \nFloating Point 0-100% \n1AE0 \n46881 \nRelay #2  SP1 \nR/W \nFloating Point 0-100% \n1AE2 \n46883 \nRelay #2  SP2 \nR/W \nFloating Point 0-100% \n1AE4 \n46885 \nRelay #3  SP1 \nR/W \nFloating Point 0-100% \n1AE6 \n46887 \nRelay #3  SP2 \nR/W \nFloating Point 0-100% \n1AE8 \n46889 \nRelay #4  SP1 \nR/W \nFloating Point 0-100% \n1AEA \n46891 \nRelay #4  SP2 \nR/W"
+  },
+  {
+    "chunk_id": 153,
+    "page": 70,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Relay #2  SP1 \nR/W \nFloating Point 0-100% \n1AE2 \n46883 \nRelay #2  SP2 \nR/W \nFloating Point 0-100% \n1AE4 \n46885 \nRelay #3  SP1 \nR/W \nFloating Point 0-100% \n1AE6 \n46887 \nRelay #3  SP2 \nR/W \nFloating Point 0-100% \n1AE8 \n46889 \nRelay #4  SP1 \nR/W \nFloating Point 0-100% \n1AEA \n46891 \nRelay #4  SP2 \nR/W \nFloating Point 0-100% \n1AEC \n46893 \nDeadband \nR/W \nFloating Point 0.2-5.0% \n1AEE \n46895 \nDeviation \nR \nFloating Point 0-100% \n1AF0 \n46897 \nReserved for future \n \n \n1AF2 \n46899 \nReserved for future \n \n \n1AF4 \n46901 \nReserved for future \n \n \n1AF6 \n46903 \nReserved for future \n \n \n1AF8 \n46905 \nReserved for future \n \n \n1AFA \n46907 \nReserved for future \n \n \n1AFC \n46909 \nAlarm Status \nR \nBit Packed    Actuator Alarm / Relay Status \nBit 0 : Alarm / Relay 1 \nBit 1 : Alarm / Relay 2 \nBit 2 : Alarm / Relay 3 \nBit 3 : Alarm / Relay 4 \nBit 4 : Unused \nBit 5 : Stall Alarm \nBit 6 : Rivitz Failure \nBit 7 : Unused \n0 : Alarm Off;   1 : Alarm On \n1AFD \n46910 \nMode Status \nR/W"
+  },
+  {
+    "chunk_id": 154,
+    "page": 70,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "R \nBit Packed    Actuator Alarm / Relay Status \nBit 0 : Alarm / Relay 1 \nBit 1 : Alarm / Relay 2 \nBit 2 : Alarm / Relay 3 \nBit 3 : Alarm / Relay 4 \nBit 4 : Unused \nBit 5 : Stall Alarm \nBit 6 : Rivitz Failure \nBit 7 : Unused \n0 : Alarm Off;   1 : Alarm On \n1AFD \n46910 \nMode Status \nR/W \nBit Packed    Actuator Mode Status \nBit 0: Auto / Man  Mode   (0=Man; 1=Auto) \nBit 1 – 3 : Unused \nBit 4:  Man Front Panel     (0=Man; 1=Auto) \nBit 5:  Man Ext Switch      (0=Man; 1=Auto) \nBit 6 – 7 : Unused"
+  },
+  {
+    "chunk_id": 155,
+    "page": 71,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n66 \nModbus® RTU Serial Communications User Manual \n02/13 \n1AFE \n46911 \nSystem Status \nR \nBit Packed    System Status Failures \nBit 0 : FailSafe \nBit 1 : RamTest \nBit 2 : Config Checksum \nBit 3 : Working Calibration Checksum \nBit 4 : SeeTest \nBit 5 : EE Fail \n0 = OK;   1 = Failure \n1AFF \n46912 \nReserved for future"
+  },
+  {
+    "chunk_id": 156,
+    "page": 72,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n67 \nA.21 Herculine Smart Actuator Factory Data Register Map \nAddress\n(hex) \n Register \n(decimal) \n           Parameter Name \n Access \n                         Notes \n27D0 \n50193 \nTag Name \nR \nASCII string  (3 Registers) \n27D3 \n50196 \nDate of Manufacture  \nR \nASCII string  (3Registers) \n27D6 \n50199 \nDate Last Repaired \nR \nASCII string  (3 Registers) \n27D9 \n50202 \nDate Last Calibrated \nR \nASCII string  (3 Registers) \n27DC \n50205 \nActuator Serial Number \nR \nASCII string  (9 Registers) \n27ED \n50222 \nActuator Model Number \nR \nASCII string  (13 Registers) 10260S, \n11280S \nASCII string (14 Registers) SA2001, \nSA2002"
+  },
+  {
+    "chunk_id": 157,
+    "page": 73,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n68 \nModbus® RTU Serial Communications User Manual \n02/13 \nA.22 Herculine Smart Actuator Maintenance Data Register Map \nAddress\n(hex) \n Register \n(decimal) \n           Parameter Name \n Access \n                         Notes \n1E40 \n47745 \nTemperature \nR \nTemperature in degrees F \n1E42 \n47747 \nTemperature Hi \nR \nTemperature in degrees F \n1E44 \n47749 \nTemperature Lo \nR \nTemperature in degrees F \n1E46 \n47751 \nCycles \nR \nFloating Point  0 – 99,990,0000 counts \n1E48 \n47753 \nRelay1 Cycles \nR \nFloating Point  0 – 99,990,0000 counts \n1E4A \n47755 \nRelay2 Cycles \nR \nFloating Point  0 – 99,990,0000 counts \n1E4C \n47757 \nRelay3 Cycles \nR \nFloating Point  0 – 99,990,0000 counts \n1E4E \n47759 \nRelay4 Cycles \nR \nFloating Point  0 – 99,990,0000 counts \n1E50 \n47761 \nRegion0 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E52 \n47763 \nRegion1 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E54 \n47765 \nRegion2 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E56"
+  },
+  {
+    "chunk_id": 158,
+    "page": 73,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "1E4E \n47759 \nRelay4 Cycles \nR \nFloating Point  0 – 99,990,0000 counts \n1E50 \n47761 \nRegion0 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E52 \n47763 \nRegion1 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E54 \n47765 \nRegion2 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E56 \n47767 \nRegion3 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E58 \n47769 \nRegion4 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E5A \n47771 \nRegion5 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E5C \n47773 \nRegion6 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E5E \n47775 \nRegion7 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E60 \n47777 \nRegion8 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E62 \n47779 \nRegion9 Counts \nR \nFloating Point  0 – 99,990,0000 counts \n1E64 \n47781 \nTotal Degrees Travelled \nR \nFloating Point  0 – 99,990,0000 degrees \n1E66 \n47783 \nAccumulated Stall Time \nR \nFloating Point  0 – 6000 minutes"
+  },
+  {
+    "chunk_id": 159,
+    "page": 74,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Appendix B: CRC-16 Calculation \n02/13 \nModbus® RTU Serial Communications User Manual \n69 \nB.  Appendix: CRC-16 Calculation \nSee following function: \nextern void calculate_CRC(unsigned char *message, int length, unsigned char *CRC) \n{ \nunsigned char CRCHi, CRCLo, TempHi, TempLo; \nstatic const unsigned char table[512] = { \n0x00, 0x00, \n0xC0, 0xC1, 0xC1, 0x81, \n0x01, \n0x40, \n0xC3, 0x01, \n0x03, \n0xC0, 0x02, \n0x80, \n0xC2, 0x41, \n0xC6, 0x01, \n0x06, \n0xC0, 0x07, \n0x80, \n0xC7, 0x41, \n0x05, \n0x00, \n0xC5, 0xC1, 0xC4, 0x81, \n0x04, \n0x40, \n0xCC, 0x01, \n0x0C, 0xC0, 0x0D, 0x80, \n0xCD, 0x41, \n0x0F, \n0x00, \n0xCF, 0xC1, 0xCE, 0x81, \n0x0E, 0x40, \n0x0A, 0x00, \n0xCA, 0xC1, 0xCB, 0x81, \n0x0B, 0x40, \n0xC9, 0x01, \n0x09, \n0xC0, 0x08, \n0x80, \n0xC8, 0x41, \n0xD8, 0x01, \n0x18, \n0xC0, 0x19, \n0x80, \n0xD9, 0x41, \n0x1B, 0x00, \n0xDB, 0xC1, 0xDA, 0x81, \n0x1A, 0x40, \n0x1E, 0x00, \n0xDE, 0xC1, 0xDF, 0x81, \n0x1F, \n0x40, \n0xDD, 0x01, \n0x1D, 0xC0, 0x1C, 0x80, \n0xDC, 0x41, \n0x14, 0x00, \n0xD4, 0xC1, 0xD5, 0x81, \n0x15, \n0x40,"
+  },
+  {
+    "chunk_id": 160,
+    "page": 74,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "0x09, \n0xC0, 0x08, \n0x80, \n0xC8, 0x41, \n0xD8, 0x01, \n0x18, \n0xC0, 0x19, \n0x80, \n0xD9, 0x41, \n0x1B, 0x00, \n0xDB, 0xC1, 0xDA, 0x81, \n0x1A, 0x40, \n0x1E, 0x00, \n0xDE, 0xC1, 0xDF, 0x81, \n0x1F, \n0x40, \n0xDD, 0x01, \n0x1D, 0xC0, 0x1C, 0x80, \n0xDC, 0x41, \n0x14, 0x00, \n0xD4, 0xC1, 0xD5, 0x81, \n0x15, \n0x40, \n0xD7, 0x01, \n0x17, \n0xC0, 0x16, \n0x80, \n0xD6, 0x41, \n0xD2, 0x01, \n0x12, \n0xC0, 0x13, \n0x80, \n0xD3, 0x41, \n0x11, \n0x00, \n0xD1, 0xC1, 0xD0, 0x81, \n0x10, \n0x40, \n0xF0, 0x01, \n0x30, \n0xC0, 0x31, \n0x80, \n0xF1, \n0x41, \n0x33, \n0x00, \n0xF3, \n0xC1, 0xF2, \n0x81, \n0x32, \n0x40, \n0x36, 0x00, \n0xF6, \n0xC1, 0xF7, \n0x81, \n0x37, \n0x40, \n0xF5, \n0x01, \n0x35, \n0xC0, 0x34, \n0x80, \n0xF4, \n0x41, \n0x3C, 0x00, \n0xFC, 0xC1, 0xFD, 0x81, \n0x3D, 0x40, \n0xFF, 0x01, \n0x3F, \n0xC0, 0x3E, 0x80, \n0xFE, 0x41, \n0xFA, 0x01, \n0x3A, 0xC0, 0x3B, 0x80, \n0xFB, 0x41, \n0x39, \n0x00, \n0xF9, \n0xC1, 0xF8, \n0x81, \n0x38, \n0x40, \n0x28, 0x00, \n0xE8, 0xC1, 0xE9, 0x81, \n0x29, \n0x40, \n0xEB, 0x01, \n0x2B, 0xC0, 0x2A, 0x80, \n0xEA, 0x41,"
+  },
+  {
+    "chunk_id": 161,
+    "page": 74,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "0xFC, 0xC1, 0xFD, 0x81, \n0x3D, 0x40, \n0xFF, 0x01, \n0x3F, \n0xC0, 0x3E, 0x80, \n0xFE, 0x41, \n0xFA, 0x01, \n0x3A, 0xC0, 0x3B, 0x80, \n0xFB, 0x41, \n0x39, \n0x00, \n0xF9, \n0xC1, 0xF8, \n0x81, \n0x38, \n0x40, \n0x28, 0x00, \n0xE8, 0xC1, 0xE9, 0x81, \n0x29, \n0x40, \n0xEB, 0x01, \n0x2B, 0xC0, 0x2A, 0x80, \n0xEA, 0x41, \n0xEE, 0x01, \n0x2E, 0xC0, 0x2F, \n0x80, \n0xEF, 0x41, \n0x2D, 0x00, \n0xED, 0xC1, 0xEC, 0x81, \n0x2C, 0x40, \n0xE4, 0x01, \n0x24, \n0xC0, 0x25, \n0x80, \n0xE5, 0x41, \n0x27, \n0x00, \n0xE7, 0xC1, 0xE6, 0x81, \n0x26, \n0x40, \n0x22, 0x00, \n0xE2, 0xC1, 0xE3, 0x81, \n0x23, \n0x40, \n0xE1, 0x01, \n0x21, \n0xC0, 0x20, \n0x80, \n0xE0, 0x41, \n0xA0, 0x01, \n0x60, \n0xC0, 0x61, \n0x80, \n0xA1, 0x41, \n0x63, \n0x00, \n0xA3, 0xC1, 0xA2, 0x81, \n0x62, \n0x40, \n0x66, 0x00, \n0xA6, 0xC1, 0xA7, 0x81, \n0x67, \n0x40, \n0xA5, 0x01, \n0x65, \n0xC0, 0x64, \n0x80, \n0xA4, 0x41, \n0x6C, 0x00, \n0xAC, 0xC1, 0xAD, 0x81, \n0x6D, 0x40, \n0xAF, 0x01, \n0x6F, \n0xC0, 0x6E, 0x80, \n0xAE, 0x41, \n0xAA, 0x01, \n0x6A, 0xC0, 0x6B, 0x80, \n0xAB, 0x41, \n0x69, \n0x00,"
+  },
+  {
+    "chunk_id": 162,
+    "page": 74,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "0x62, \n0x40, \n0x66, 0x00, \n0xA6, 0xC1, 0xA7, 0x81, \n0x67, \n0x40, \n0xA5, 0x01, \n0x65, \n0xC0, 0x64, \n0x80, \n0xA4, 0x41, \n0x6C, 0x00, \n0xAC, 0xC1, 0xAD, 0x81, \n0x6D, 0x40, \n0xAF, 0x01, \n0x6F, \n0xC0, 0x6E, 0x80, \n0xAE, 0x41, \n0xAA, 0x01, \n0x6A, 0xC0, 0x6B, 0x80, \n0xAB, 0x41, \n0x69, \n0x00, \n0xA9, 0xC1, 0xA8, 0x81, \n0x68, \n0x40, \n0x78, 0x00, \n0xB8, 0xC1, 0xB9, 0x81, \n0x79, \n0x40, \n0xBB, 0x01, \n0x7B, 0xC0, 0x7A, 0x80, \n0xBA, 0x41, \n0xBE, 0x01, \n0x7E, 0xC0, 0x7F, \n0x80, \n0xBF, 0x41, \n0x7D, 0x00, \n0xBD, 0xC1, 0xBC, 0x81, \n0x7C, 0x40, \n0xB4, 0x01, \n0x74, \n0xC0, 0x75, \n0x80, \n0xB5, 0x41, \n0x77, \n0x00, \n0xB7, 0xC1, 0xB6, 0x81, \n0x76, \n0x40, \n0x72, 0x00, \n0xB2, 0xC1, 0xB3, 0x81, \n0x73, \n0x40, \n0xB1, 0x01, \n0x71, \n0xC0, 0x70, \n0x80, \n0xB0, 0x41, \n0x50, 0x00, \n0x90, \n0xC1, 0x91, \n0x81, \n0x51, \n0x40, \n0x93, \n0x01, \n0x53, \n0xC0, 0x52, \n0x80, \n0x92, \n0x41, \n0x96, 0x01, \n0x56, \n0xC0, 0x57, \n0x80, \n0x97, \n0x41, \n0x55, \n0x00, \n0x95, \n0xC1, 0x94, \n0x81, \n0x54, \n0x40, \n0x9C, 0x01, \n0x5C, 0xC0, 0x5D, 0x80,"
+  },
+  {
+    "chunk_id": 163,
+    "page": 74,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "0x71, \n0xC0, 0x70, \n0x80, \n0xB0, 0x41, \n0x50, 0x00, \n0x90, \n0xC1, 0x91, \n0x81, \n0x51, \n0x40, \n0x93, \n0x01, \n0x53, \n0xC0, 0x52, \n0x80, \n0x92, \n0x41, \n0x96, 0x01, \n0x56, \n0xC0, 0x57, \n0x80, \n0x97, \n0x41, \n0x55, \n0x00, \n0x95, \n0xC1, 0x94, \n0x81, \n0x54, \n0x40, \n0x9C, 0x01, \n0x5C, 0xC0, 0x5D, 0x80, \n0x9D, 0x41, \n0x5F, \n0x00, \n0x9F, \n0xC1, 0x9E, 0x81, \n0x5E, 0x40, \n0x5A, 0x00, \n0x9A, 0xC1, 0x9B, 0x81, \n0x5B, 0x40, \n0x99, \n0x01, \n0x59, \n0xC0, 0x58, \n0x80, \n0x98, \n0x41, \n0x88, 0x01, \n0x48, \n0xC0, 0x49, \n0x80, \n0x89, \n0x41, \n0x4B, 0x00, \n0x8B, 0xC1, 0x8A, 0x81, \n0x4A, 0x40, \n0x4E, 0x00, \n0x8E, 0xC1, 0x8F, \n0x81, \n0x4F, \n0x40, \n0x8D, 0x01, \n0x4D, 0xC0, 0x4C, 0x80, \n0x8C, 0x41, \n0x44, 0x00, \n0x84, \n0xC1, 0x85, \n0x81, \n0x45, \n0x40, \n0x87, \n0x01, \n0x47, \n0xC0, 0x46, \n0x80, \n0x86, \n0x41, \n0x82, 0x01, \n0x42, \n0xC0, 0x43, \n0x80, \n0x83, \n0x41, \n0x41, \n0x00, \n0x81, \n0xC1, 0x80, \n0x81, \n0x40, \n0x40, \n   }; \n \n \nCRCHi = 0xff; \n \n \nCRCLo = 0xff; \n \n \nwhile(length) \n \n \n{ \n \n \n \n \nTempHi = CRCHi;"
+  },
+  {
+    "chunk_id": 164,
+    "page": 74,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "0x81, \n0x45, \n0x40, \n0x87, \n0x01, \n0x47, \n0xC0, 0x46, \n0x80, \n0x86, \n0x41, \n0x82, 0x01, \n0x42, \n0xC0, 0x43, \n0x80, \n0x83, \n0x41, \n0x41, \n0x00, \n0x81, \n0xC1, 0x80, \n0x81, \n0x40, \n0x40, \n   }; \n \n \nCRCHi = 0xff; \n \n \nCRCLo = 0xff; \n \n \nwhile(length) \n \n \n{ \n \n \n \n \nTempHi = CRCHi; \n \n \n \n \nTempLo = CRCLo; \n \n \n \n \nCRCHi = table[2 * (*message ^ TempLo)]; \n \n \n \n \nCRCLo = TempHi ^ table[(2 * (*message ^ TempLo)) + 1]; \n \n \n \n \nmessage++; \n \n \n \n \nlength--; \n \n \n}; \n \n \nCRC [0] = CRCLo; \n \n \nCRC [1] = CRCHi; \n \n \nreturn; \n}"
+  },
+  {
+    "chunk_id": 165,
+    "page": 75,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "Honeywell Process Solutions \n1860 West Rose Garden Lane \n51-52-25-66  Rev.T \nPhoenix, Arizona 85027 \nFebruary 2013 \nwww.honeywellprocess.com \n2013 Honeywell International Inc. \nSales and Service \nFor application assistance, current specifications, pricing, or name of the nearest Authorized Distributor, contact one \nof the offices below.  \n \nASIA PACIFIC \n(TAC) hfs-tac-\nsupport@honeywell.com \n \nAustralia \nHoneywell Limited \nPhone: +(61) 7-3846 1255 \nFAX: +(61) 7-3840 6481 \nToll Free 1300-36-39-36 \nToll Free Fax: \n1300-36-04-70 \n \nChina – PRC - Shanghai \nHoneywell China Inc. \nPhone: (86-21) 5257-4568 \nFax: (86-21) 6237-2826 \n \nSingapore \nHoneywell Pte Ltd. \nPhone: +(65) 6580 3278 \nFax: +(65) 6445-3033 \n \nSouth Korea \nHoneywell Korea Co Ltd \nPhone: +(822) 799 6114 \nFax: +(822) 792 9015 \n \nEMEA \nPhone: + 80012026455 or +44 \n(0)1202645583 \nFAX: +44 (0) 1344 655554 \nEmail: (Sales) sc-cp-apps-\nsalespa62@honeywell.com \nor  \n(TAC) hfs-tac-\nsupport@honeywell.com"
+  },
+  {
+    "chunk_id": 166,
+    "page": 75,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\pmt-hps-51-52-25-66rt ....pdf",
+    "content": "South Korea \nHoneywell Korea Co Ltd \nPhone: +(822) 799 6114 \nFax: +(822) 792 9015 \n \nEMEA \nPhone: + 80012026455 or +44 \n(0)1202645583 \nFAX: +44 (0) 1344 655554 \nEmail: (Sales) sc-cp-apps-\nsalespa62@honeywell.com \nor  \n(TAC) hfs-tac-\nsupport@honeywell.com \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nNORTH AMERICA \nHoneywell Process Solutions, \nPhone: 1-800-423-9883 \nOr 1-800-343-0228 \nEmail: (Sales)  ask-\nssc@honeywell.com or  \n(TAC)  hfs-tac-\nsupport@honeywell.com \n \n \n \nSOUTH AMERICA \nHoneywell do Brazil & Cia \nPhone: +(55-11) 7266-1900 \nFAX: +(55-11) 7266-1905 \nEmail: (Sales)  ask-\nssc@honeywell.com or \n(TAC)  hfs-tac-\nsupport@honeywell.com"
+  }
+]

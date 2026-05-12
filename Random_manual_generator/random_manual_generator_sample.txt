@@ -1,0 +1,84 @@
+
+RANDOM MANUAL SELECTION — SIMPLE RANDOM SAMPLE
+
+Date/time (UTC): 2026-02-27 17:24:02
+Seed:            13501050861683456473
+Total manuals:   55
+Range:           1 to 55
+Selected:        10
+Method:          Simple random sample without replacement
+Randomness:      OS-level (random.SystemRandom)
+
+This script was designed to only run once.
+The existence of this file proves the selection was not re-rolled.
+
+ALL MANUALS:
+
+  [1] 1815243_C5 ....pdf
+  [2] 1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf
+  [3] 1SFC132367M0201_PSE_Internal_Modbus_RTU_SPECIALFALL.pdf .pdf
+  [4] 20231204_Userguide_ModbusRTU_EN.pdf ...pdf
+  [5] 3S_RH_AT_PS_User_Manual ...pdf
+  [6] 4104_mcm_100.pdf ...pdf
+  [7] 7500f_man_3.pdf
+  [8] 9202_mcm_100.pdf
+  [9] 9203_mcm_101.pdf
+  [10] a_emcion_homecontroller_modbus_lookup_table_en ....pdf
+  [11] a_si370010--_en.pdf     .pdf
+  [12] ABB_Terra_AC_Charger_ModbusCommunication_v1.7.pdf
+  [13] APM-MAX-Modbus-Communications.pdf
+  [14] Application_Note_Optidrive_E3_Modbus_register_map.pdf
+  [15] CMS Manual_web ...pdf
+  [16] Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf
+  [17] EAV15105-EN11.pdf
+  [18] EM330_EM340_ET330_ET340_CP.pdf
+  [19] EN_FANOX_MODBUS_SIABSTANDARD_MANUAL_Protocol_R010 ..pdf
+  [20] EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf
+  [21] gold-e-modbus-other-en.pdf     .pdf
+  [22] ifu-9033781en-us-en-us ....pdf
+  [23] IG_EF-N1000-T ...pdf
+  [24] IM_C250-MOD_3 ....pdf
+  [25] Instruction_Manual_VA_5xx_Modbus_RTU_Slave_Installation.pdf
+  [26] IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf
+  [27] janitza-mal-umg96rme-en.pdf
+  [28] LV_Podrecznik_PAC2200_EN_2017.pdf
+  [29] M3503.pdf Konstig .pdf
+  [30] magx1-modbus-manual-eng ....pdf
+  [31] magx2-modbus-manual-eng.pdf
+  [32] MAMODBUS-SU-EU-EN ....pdf
+  [33] man--thermoMETER-ct-ctlaser-modbus-rtu-commands--en.pdf
+  [34] MAN_24_4956731.pdf
+  [35] manual-rht-climate-wm-dm-transmitter-v14x-b-en.pdf
+  [36] mg10p222.pdf
+  [37] mi00485-5-en ...pdf
+  [38] MN040018_EN.pdf
+  [39] Modbus-RTU-ELR-3BN-IM190.5-U-M-v1.2.pdf     .pdf
+  [40] Modbus-RTU-Manual.2022.pdf
+  [41] Modbus_RTU_register_map_for_TRIO-20.0(27.6)-TL-OUTD_Revision_1.6 .....pdf
+  [42] ModbusManual_920-0072E ....pdf
+  [43] modbusprotokollkostalsmartenergymeter ....pdf
+  [44] PM5300 User Manual.pdf
+  [45] pmt-hps-51-52-25-66rt ....pdf
+  [46] rtvs1-35l22-modbus-registerlista ....pdf
+  [47] S111_Modbus-register-table_EN_V2025-2.pdf ...pdf
+  [48] s5gbm_modbus-installation-kep-x.pdf
+  [49] S6+Standard+MODBUS-RTU+Communication+Module++User+Manual ....pdf
+  [50] Schneider-Electric_Acti9-iEM3000-Energy-Meters_A9MEM3355-User-Manual.pdf
+  [51] SDM120-MODBUS_Protocol.pdf
+  [52] sdm230-modbus.pdf
+  [53] SDM630_MODBUS_Protocol.pdf
+  [54] silverc-modbus-other-en.pdf
+  [55] Sonic-Driver-MODBUS-WALL-UFM-RTU-Protocol-010724 ....pdf
+
+RANDOM PICKS: [2, 9, 11, 13, 38, 39, 40, 46, 47, 51]
+
+  #2 → 1SFC132089M0201_PSTX_Internal_Modbus_RTU.pdf
+  #9 → 9203_mcm_101.pdf
+  #11 → a_si370010--_en.pdf     .pdf
+  #13 → APM-MAX-Modbus-Communications.pdf
+  #38 → MN040018_EN.pdf
+  #39 → Modbus-RTU-ELR-3BN-IM190.5-U-M-v1.2.pdf     .pdf
+  #40 → Modbus-RTU-Manual.2022.pdf
+  #46 → rtvs1-35l22-modbus-registerlista ....pdf
+  #47 → S111_Modbus-register-table_EN_V2025-2.pdf ...pdf
+  #51 → SDM120-MODBUS_Protocol.pdf

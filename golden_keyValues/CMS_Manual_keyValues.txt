@@ -1,0 +1,15 @@
+subnetwork.properties.physicalStandard=1
+subnetwork.properties.baudRate=19200|2400|4800|9600|19200|38400|57600|115200
+subnetwork.properties.parity=2|0|1
+subnetwork.properties.stopBits=0
+subnetwork.properties.dataBits=1
+subnetwork.nodes[0].properties.nodeAddress=1|1-247
+subnetwork.nodes[0].properties.name=Show Sensor
+subnetwork.nodes[0].properties.modbusAddressingMode=0
+subnetwork.nodes[0].transactions[0].properties.name=Show Sensor
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=6
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=12305
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=None
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=6
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=12305
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=2

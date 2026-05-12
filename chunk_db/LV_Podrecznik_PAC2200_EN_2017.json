@@ -1,0 +1,824 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Product Manual\nPAC2200\nMeasuring Devices 7KM\n03/2017\nEdition\nSENTRON\nsiemens.com/lowvoltage"
+  },
+  {
+    "chunk_id": 1,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "___________________\n___________________\n___________________\n___________________\n___________________\n___________________\n___________________\n___________________\n___________________\n___________________\n \nSENTRON \n7KM measuring device\nPAC2200 \nManual \n \n  \n03/2017 \nL1V30415167B-01 \nIntroduction \n \n1\n \nDescription \n \n2\n \nMounting \n \n3\n \nConnection \n \n4\n \nOperation \n \n5\n \nCommissioning \n \n6\n \nService and maintenance\n \n7\n \nTechnical data \n \n8\n \nDimension drawings \n \n9\n \nAppendix \n \nA"
+  },
+  {
+    "chunk_id": 2,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Siemens AG \nDivision Energy Management \nPostfach 32 20 \n91050 ERLANGEN \nGERMANY \nDocument order number: 3ZW1012-7KM22-0AC1 \nⓅ 03/2017 Subject to change \nCopyright © Siemens AG 2017. \nAll rights reserved \nLegal information \nWarning notice system \nThis manual contains notices you have to observe in order to ensure your personal safety, as well as to prevent \ndamage to property. The notices referring to your personal safety are highlighted in the manual by a safety alert \nsymbol, notices referring only to property damage have no safety alert symbol. These notices shown below are \ngraded according to the degree of danger. \n \nDANGER \nindicates that death or severe personal injury will result if proper precautions are not taken. \n \nWARNING \nindicates that death or severe personal injury may result if proper precautions are not taken. \n \nCAUTION \nindicates that minor personal injury can result if proper precautions are not taken. \n \nNOTICE"
+  },
+  {
+    "chunk_id": 3,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "WARNING \nindicates that death or severe personal injury may result if proper precautions are not taken. \n \nCAUTION \nindicates that minor personal injury can result if proper precautions are not taken. \n \nNOTICE \nindicates that property damage can result if proper precautions are not taken. \nIf more than one degree of danger is present, the warning notice representing the highest degree of danger will \nbe used. A notice warning of injury to persons with a safety alert symbol may also include a warning relating to \nproperty damage. \nQualified Personnel \nThe product/system described in this documentation may be operated only by personnel qualified for the specific \ntask in accordance with the relevant documentation, in particular its warning notices and safety instructions. \nQualified personnel are those who, based on their training and experience, are capable of identifying risks and \navoiding potential hazards when working with these products/systems. \nProper use of Siemens products"
+  },
+  {
+    "chunk_id": 4,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Qualified personnel are those who, based on their training and experience, are capable of identifying risks and \navoiding potential hazards when working with these products/systems. \nProper use of Siemens products \nNote the following: \n \nWARNING \nSiemens products may only be used for the applications described in the catalog and in the relevant technical \ndocumentation. If products and components from other manufacturers are used, these must be recommended \nor approved by Siemens. Proper transport, storage, installation, assembly, commissioning, operation and \nmaintenance are required to ensure that the products operate safely and without any problems. The permissible \nambient conditions must be complied with. The information in the relevant documentation must be observed. \nTrademarks \nAll names identified by ® are registered trademarks of Siemens AG. The remaining trademarks in this publication"
+  },
+  {
+    "chunk_id": 5,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "ambient conditions must be complied with. The information in the relevant documentation must be observed. \nTrademarks \nAll names identified by ® are registered trademarks of Siemens AG. The remaining trademarks in this publication \nmay be trademarks whose use by third parties for their own purposes could violate the rights of the owner. \nDisclaimer of Liability \nWe have reviewed the contents of this publication to ensure consistency with the hardware and software \ndescribed. Since variance cannot be precluded entirely, we cannot guarantee full consistency. However, the \ninformation in this publication is reviewed regularly and any necessary corrections are included in subsequent \neditions."
+  },
+  {
+    "chunk_id": 6,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n5 \nTable of contents \n \n1 \nIntroduction ................................................................................................................................................ 7 \n1.1 \nComponents of the product ...................................................................................................... 7 \n1.2 \nLatest information ..................................................................................................................... 7 \n2 \nDescription ............................................................................................................................................... 11 \n2.1 \nFeatures .................................................................................................................................. 11 \n2.2 \nMeasuring inputs ..................................................................................................................... 13 \n2.3"
+  },
+  {
+    "chunk_id": 7,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "2.1 \nFeatures .................................................................................................................................. 11 \n2.2 \nMeasuring inputs ..................................................................................................................... 13 \n2.3 \nPower demands and counters ................................................................................................ 17 \n2.4 \nDigital inputs and outputs ....................................................................................................... 18 \n2.5 \nCommunication ....................................................................................................................... 20 \n3 \nMounting .................................................................................................................................................. 23 \n3.1"
+  },
+  {
+    "chunk_id": 8,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "3 \nMounting .................................................................................................................................................. 23 \n3.1 \nIntroduction ............................................................................................................................. 23 \n3.2 \nInstallation steps ..................................................................................................................... 24 \n3.3 \nDeinstallation .......................................................................................................................... 24 \n4 \nConnection .............................................................................................................................................. 25 \n4.1 \nSafety notes ............................................................................................................................ 25 \n4.2"
+  },
+  {
+    "chunk_id": 9,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "4.1 \nSafety notes ............................................................................................................................ 25 \n4.2 \nConnections ............................................................................................................................ 26 \n4.3 \nConnection examples ............................................................................................................. 28 \n4.4 \n65 A device ............................................................................................................................. 29 \n4.5 \nGrounding of the Ethernet / RS485 cable ............................................................................... 30 \n5 \nOperation ................................................................................................................................................. 33 \n5.1"
+  },
+  {
+    "chunk_id": 10,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "4.5 \nGrounding of the Ethernet / RS485 cable ............................................................................... 30 \n5 \nOperation ................................................................................................................................................. 33 \n5.1 \nDevice interface ...................................................................................................................... 33 \n5.1.1 \nDisplays and operator controls ............................................................................................... 33 \n5.1.2 \nControl keys ............................................................................................................................ 34 \n5.2 \nMenu navigation ...................................................................................................................... 35 \n5.2.1"
+  },
+  {
+    "chunk_id": 11,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "5.1.2 \nControl keys ............................................................................................................................ 34 \n5.2 \nMenu navigation ...................................................................................................................... 35 \n5.2.1 \nMeasured value level .............................................................................................................. 35 \n5.2.2 \nMain menu level ...................................................................................................................... 36 \n5.2.3 \nSetting level ............................................................................................................................ 36 \n5.2.4 \nEditing level ............................................................................................................................. 37 \n5.3"
+  },
+  {
+    "chunk_id": 12,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Setting level ............................................................................................................................ 36 \n5.2.4 \nEditing level ............................................................................................................................. 37 \n5.3 \nSentron powermanager .......................................................................................................... 38 \n6 \nCommissioning ........................................................................................................................................ 39 \n6.1 \nOverview ................................................................................................................................. 39 \n6.2 \nApplying the measuring voltage .............................................................................................. 40 \n6.3"
+  },
+  {
+    "chunk_id": 13,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "6.1 \nOverview ................................................................................................................................. 39 \n6.2 \nApplying the measuring voltage .............................................................................................. 40 \n6.3 \nParameterizing ........................................................................................................................ 41"
+  },
+  {
+    "chunk_id": 14,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Table of contents \n \n \n \nPAC2200 \n6 \nManual, 03/2017, L1V30415167B-01 \n6.3.1 \nProcedure for parameterizing ................................................................................................ 41 \n6.3.2 \n\"Language\" parameter ........................................................................................................... 41 \n6.3.3 \n\"Basic settings\" parameter ..................................................................................................... 41 \n6.3.4 \n\"Date/time\" parameter ............................................................................................................ 43 \n6.3.5 \n\"Integrated I/O\" parameter ..................................................................................................... 44 \n6.3.6 \n\"Communication\" parameter .................................................................................................. 46 \n6.3.7"
+  },
+  {
+    "chunk_id": 15,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "6.3.5 \n\"Integrated I/O\" parameter ..................................................................................................... 44 \n6.3.6 \n\"Communication\" parameter .................................................................................................. 46 \n6.3.7 \n\"Display\" parameter ............................................................................................................... 47 \n6.3.8 \n\"Extended\" parameter ............................................................................................................ 47 \n7 \nService and maintenance ........................................................................................................................ 49 \n7.1 \nCalibration .............................................................................................................................. 49 \n7.2"
+  },
+  {
+    "chunk_id": 16,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "7.1 \nCalibration .............................................................................................................................. 49 \n7.2 \nFirmware updates .................................................................................................................. 49 \n7.3 \nTroubleshooting guide ........................................................................................................... 49 \n7.4 \nWarranty ................................................................................................................................. 50 \n7.5 \nDisposal ................................................................................................................................. 50 \n8 \nTechnical data ......................................................................................................................................... 51 \n8.1"
+  },
+  {
+    "chunk_id": 17,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "8 \nTechnical data ......................................................................................................................................... 51 \n8.1 \nTechnical data ........................................................................................................................ 51 \n8.2 \nLabeling .................................................................................................................................. 58 \n9 \nDimension drawings ................................................................................................................................ 59 \n9.1 \nDimensional drawings ............................................................................................................ 59 \nA \nAppendix .................................................................................................................................................. 61 \nA.1"
+  },
+  {
+    "chunk_id": 18,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "A \nAppendix .................................................................................................................................................. 61 \nA.1 \nModbus TCP .......................................................................................................................... 61 \nA.1.1 \nFunction codes ....................................................................................................................... 61 \nA.1.2 \nModbus exception codes ....................................................................................................... 62 \nA.1.3 \nModbus measured variables with the function codes 0x03 and 0x04 ................................... 63 \nA.1.4 \nStructure - Digital input status and digital output status with the function codes 0x03 \nand 0x04 ................................................................................................................................ 66 \nA.1.5"
+  },
+  {
+    "chunk_id": 19,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "A.1.4 \nStructure - Digital input status and digital output status with the function codes 0x03 \nand 0x04 ................................................................................................................................ 66 \nA.1.5 \nStructure - Device diagnostics and device status with the function codes 0x03 and \n0x04 ....................................................................................................................................... 66 \nA.1.6 \nModbus status parameters with the function code 0x02 ....................................................... 67 \nA.1.7 \nModbus settings with the function codes 0x03, 0x04 and 0x10 ............................................ 67 \nA.1.8 \nModbus communication parameters with the function codes 0x03, 0x04 and 0x10 ............. 69 \nA.1.9 \nModbus device information with the function codes 0x03, 0x04 and 0x10............................ 71 \nA.1.10"
+  },
+  {
+    "chunk_id": 20,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "A.1.8 \nModbus communication parameters with the function codes 0x03, 0x04 and 0x10 ............. 69 \nA.1.9 \nModbus device information with the function codes 0x03, 0x04 and 0x10............................ 71 \nA.1.10 \nModbus command parameters .............................................................................................. 72 \nA.1.11 \nModbus standard device identification with the function code 0x2B ..................................... 73 \n \nIndex ........................................................................................................................................................ 75"
+  },
+  {
+    "chunk_id": 21,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n7 \nIntroduction \n1\n1.1 \nComponents of the product \nThe package includes: \n● 1 x PAC2200 measuring device \n● PAC2200 operating instructions: \nAvailable accessories \n● SENTRON powerconfig software \n(https://support.industry.siemens.com/cs/document/63452759/update-version-\npowerconfig-v3-7?dti=0&lc=en-WW) \n● SENTRON powermanager software \n(https://support.industry.siemens.com/cs/document/64850998/powermanager-v3-3-incl-\nhf1?dti=0&lc=en-WW) \n1.2 \nLatest information \nUp-to-the-minute information \nYou can find further assistance: \non the Internet: \nWebsite (https://support.industry.siemens.com/my/ww/en/requests) \nInformation about third-party software \nThis product, solution or service (\"product\") includes the third-party software components \nlisted below. This is either open source software that is licensed under a license approved by \nthe Open Source Initiative (www.opensource.org (www.opensource.org)) or under a license"
+  },
+  {
+    "chunk_id": 22,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "This product, solution or service (\"product\") includes the third-party software components \nlisted below. This is either open source software that is licensed under a license approved by \nthe Open Source Initiative (www.opensource.org (www.opensource.org)) or under a license \n(\"OSS\") defined as comparable by Siemens, and/or it is commercial software or freeware. \nWith regard to the OSS components, the relevant OSS license conditions take precedence \nover all other conditions applicable to this product. SIEMENS make the OSS components of \nthis product available to you at no extra cost.  \nInsofar as SIEMENS has combined or linked certain components of the product with OSS \ncomponents according to the definition of the applicable license, i.e. components that are \nlicensed under GNU LGPL Version 2 or a later version and insofar as use of the relevant \nobject file is subject to certain restrictions (\"LGPL-licensed module\", whereby the LGPL-"
+  },
+  {
+    "chunk_id": 23,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "components according to the definition of the applicable license, i.e. components that are \nlicensed under GNU LGPL Version 2 or a later version and insofar as use of the relevant \nobject file is subject to certain restrictions (\"LGPL-licensed module\", whereby the LGPL-\nlicensed module and the components to which the LGPL-licensed module is linked are \nreferred to hereafter as \"linked product\") and the relevant LGPL license criteria are met, you \nare also permitted to (i) modify the linked product for your own purposes and, in particular,"
+  },
+  {
+    "chunk_id": 24,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Introduction \n \n1.2 Latest information \n \nPAC2200 \n8 \nManual, 03/2017, L1V30415167B-01 \nyou have the right to modify the linked product in order to link it to a modified version of the \nLGPL-licensed module, and to (ii) reverse-engineer the linked product, but solely for the \npurpose of debugging your own modifications. The right to make modifications does not \ninclude the right to distribute them. All information that you obtain from reverse-engineering \nthe linked product must be treated confidentially.  \nCertain OSS licenses obligate SIEMENS to publish the source code, e.g. the GNU General \nPublic License, the GNU Lesser General Public License and the Mozilla Public License. \nWhere these licenses are used and the product has not already been shipped with the \nnecessary source code, a copy of the source code can be requested by anyone during the \nperiod specified in the applicable OSS License from the following address:  \n \nSiemens AG Energy Management, Low Voltage & Products"
+  },
+  {
+    "chunk_id": 25,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "necessary source code, a copy of the source code can be requested by anyone during the \nperiod specified in the applicable OSS License from the following address:  \n \nSiemens AG Energy Management, Low Voltage & Products  \nSiemensstrasse 10  \n93055 Regensburg  \nGermany  \n \nInternet: Technical Assistance (https://support.industry.siemens.com/My/ww/en/requests)  \nSubject: Open source request (please state product name and version, as applicable).  \nSIEMENS can charge a fee of up to 5 euros for processing the request.  \n \nWarranty with respect to use of open source software: \nThe warranty obligations of SIEMENS are governed by the terms of the contract with \nSIEMENS. Modification of the product or the OSS components or use of them for a purpose \nother than the purpose specified by SIEMENS shall exclude them from the warranty in which \ncase you will no longer have the right to technical support. The following license conditions"
+  },
+  {
+    "chunk_id": 26,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "SIEMENS. Modification of the product or the OSS components or use of them for a purpose \nother than the purpose specified by SIEMENS shall exclude them from the warranty in which \ncase you will no longer have the right to technical support. The following license conditions \nmay include limitations of liability that shall apply between you and the respective licensor. \nTo avoid any misunderstanding. we hereby emphasize that SIEMENS shall not enter into \nany warranty obligations in the name of or binding on a third-party licensor."
+  },
+  {
+    "chunk_id": 27,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Introduction \n \n1.2 Latest information \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n9 \nSafety information \nSiemens provides products and solutions with industrial security functions that support the \nsecure operation of plants, systems, machines, and networks.  \n \nIn order to protect plants, systems, machines and networks against cyber threats, it is \nnecessary to implement – and continuously maintain – a holistic, state-of-the-art industrial \nsecurity concept. Siemens’ products and solutions only form one element of such a concept.  \n \nThe customer is responsible for preventing unauthorized access to its plants, systems, \nmachines and networks. Systems, machines and components should only be connected to \nthe enterprise network or the Internet if necessary and only to the extent necessary and with \nappropriate protective measures (e.g. use of firewalls and network segmentation) in place.  \n \nAdditionally, Siemens' guidelines on appropriate security measures should be observed. For"
+  },
+  {
+    "chunk_id": 28,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "the enterprise network or the Internet if necessary and only to the extent necessary and with \nappropriate protective measures (e.g. use of firewalls and network segmentation) in place.  \n \nAdditionally, Siemens' guidelines on appropriate security measures should be observed. For \nmore information about industrial security, please visit \nIndustrial security (http://www.siemens.com/industrialsecurity) \n \nSiemens’ products and solutions undergo continuous development to make them more \nsecure. Siemens strongly recommends applying product updates as soon as they are \navailable and always using the latest product versions. Using versions that are obsolete or \nare no longer supported can increase the risk of cyber threats.  \n \nTo stay informed about product updates, subscribe to the Siemens Industrial Security RSS \nFeed at  \nTechnical Support (https://support.industry.siemens.com/cs/start?lc=en-WW) \n \n \n \nNote \nRisk of manipulation"
+  },
+  {
+    "chunk_id": 29,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "are no longer supported can increase the risk of cyber threats.  \n \nTo stay informed about product updates, subscribe to the Siemens Industrial Security RSS \nFeed at  \nTechnical Support (https://support.industry.siemens.com/cs/start?lc=en-WW) \n \n \n \nNote \nRisk of manipulation \nSeveral protective mechanisms can be activated in the device. \nIn order to reduce the risk of manipulation occurring on the device, it is recommended that \nthe protective mechanisms available in the device are activated. \nSee Section on \"Performance features\" (Page 11)"
+  },
+  {
+    "chunk_id": 30,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Introduction \n \n1.2 Latest information \n \nPAC2200 \n10 \nManual, 03/2017, L1V30415167B-01 \nGeneral safety instructions \n \n \nDANGER \nHazardous Voltage \nWill cause death or serious injury. \nTurn off and lock out all power supplying this device before working on it. \n \nSafety-related symbols on the device \n \n \nSymbol \nMeaning\n(1) \n \nRisk of electric shock \n(2) \n \nGeneral Warning Symbol \n(3) \n \nElectrical installation demands technical competence"
+  },
+  {
+    "chunk_id": 31,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n11 \nDescription \n2\n2.1 \nFeatures \nThe PAC2200 is a measuring device for measuring the basic electrical variables in low-\nvoltage power distribution. All measured variables are shown on the display of the PAC2200. \nThe device is capable of single-phase, two-phase, or three-phase measurement and can be \nused in three-wire or four-wire TN and TT networks. \nThe PAC2200 is mounted on a DIN rail. \n \nThe PAC2200 measuring device is available in several versions: \n● 5 A device: \nx / 1 A and x / 5 A current transformers can be used for current measuring.    \n \n● 65 A device: \nNo current transformers are required for current measuring. The device is connected directly \nto the low-voltage network. Current of up to 65 A can be measured directly.    \n \nDepending on the device version, the PAC2200 measuring device has an integrated \nEthernet, RS485 or M-BUS interface. \nThanks to its large measuring voltage range, the PAC2200 measuring device can be"
+  },
+  {
+    "chunk_id": 32,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "to the low-voltage network. Current of up to 65 A can be measured directly.    \n \nDepending on the device version, the PAC2200 measuring device has an integrated \nEthernet, RS485 or M-BUS interface. \nThanks to its large measuring voltage range, the PAC2200 measuring device can be \nconnected directly in any low-voltage system up to a voltage UL-L 480 V.    \n \nMeasurement \n● Measurement of all relevant electrical variables in an AC system. \nCounters and power demand  \n● Recording of active, reactive and apparent energy by means of several energy counters \n● Calculation and storage of the last measuring period demand for active power and \nreactive power for simple generation of load profiles using software (programmable \nmeasuring period of between 1 and 60 min.)."
+  },
+  {
+    "chunk_id": 33,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Description \n \n2.1 Features \n \nPAC2200 \n12 \nManual, 03/2017, L1V30415167B-01 \nDisplay and operator control \n● LC display \n● Four control keys with variable function assignment \n● LEDs for Ethernet, active energy \n● SENTRON powerconfig from Version 3.7. \n● SENTRON powermanager from Version 3.4. \nInterfaces  \n● Ethernet (optional) \n● RS485 interface (optional) \n● M-BUS (optional) \n● Digital Input \n● Digital output \nSecurity  \n● Hardware write protection \n● Password protection \n● Modbus TCP port, configurable \n● HTTP port, configurable \n● DHCP protocol included \n● SNTP protocol included \n● Attachment of lead seals possible \n \nUsing \"Password protection\" and \"Hardware write protection\", you can protect against write \naccess to the device settings of the PAC2200.  \nThe protection takes effect in case of the following actions: \n● Modify parameters in device \n● Reset maximum \n● Reset minimum \n● Reset counter \n● Reset device \n● Reset device to factory defaults \n● Reset password"
+  },
+  {
+    "chunk_id": 34,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "access to the device settings of the PAC2200.  \nThe protection takes effect in case of the following actions: \n● Modify parameters in device \n● Reset maximum \n● Reset minimum \n● Reset counter \n● Reset device \n● Reset device to factory defaults \n● Reset password \n● Update firmware on the device"
+  },
+  {
+    "chunk_id": 35,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Description \n \n2.2 Measuring inputs \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n13 \n \n \nNote \nActivate hardware write protection \nWhen connecting the measuring device to a network, it is recommended that the hardware \nwrite protection is activated. \n \n2.2 \nMeasuring inputs \nCurrent measurement \n \n \nNOTICE \nAC current measurement only \nThe device is not suitable for measuring DC current. \n \nThe 5 A device is designed for: \n● Measuring current of 5 A for connecting standard current transformers. Each current \nmeasuring input can take a continuous load of 10 A. A momentary overcurrent of up to \n100 A and a duration of 1 s is possible. \nThe current direction can be changed for each phase individually. It is not necessary to \nchange the terminal connections of the current transformers in the event of connection \nerrors. \n \nThe 65 A device is designed for: \n● Direct connection to the low-voltage network. \nVoltage measurement \n \n \nNOTICE \nAC voltage measurement only"
+  },
+  {
+    "chunk_id": 36,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "change the terminal connections of the current transformers in the event of connection \nerrors. \n \nThe 65 A device is designed for: \n● Direct connection to the low-voltage network. \nVoltage measurement \n \n \nNOTICE \nAC voltage measurement only \nThe device is not suitable for measuring DC voltage. \n \nPAC2200 is designed for: \n● Direct measurement on the network. \n● Measurement voltage up to 277 V / 480 V. The device is designed for measuring input \nvoltages up to 277 V to the neutral conductor and for measuring input voltages up to \n480 V to the external conductor."
+  },
+  {
+    "chunk_id": 37,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Description \n \n2.2 Measuring inputs \n \nPAC2200 \n14 \nManual, 03/2017, L1V30415167B-01 \nConnection types  \nTwo connection types have been provided. The device can be used in three-wire or four-\nwire, TN, TT and IT networks. \nTable 2- 1 \nAvailable connection types \nShort code \nConnection type\n3P4W (factory setting) \n3 phases, 4 conductors, unbalanced load \n1P2W \n1 phase, 2 conductors, unbalanced load \nThe input circuit of the device must correspond to one of the connection types listed. Select \nthe suitable connection type for the purpose.  \nConnection examples can be found in chapter Connection (Page 25) \n \n \nNOTICE \nThe wrong system connection can destroy the device. \nBefore connecting the PAC2200, you must ensure that the local power supply conditions \nagree with the specifications on the rating plate. \n \nThe short code of the connection type must be entered in the device settings at startup. You"
+  },
+  {
+    "chunk_id": 38,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "NOTICE \nThe wrong system connection can destroy the device. \nBefore connecting the PAC2200, you must ensure that the local power supply conditions \nagree with the specifications on the rating plate. \n \nThe short code of the connection type must be entered in the device settings at startup. You \ncan find the instructions for parameterizing the connection type in chapter Commissioning \n(Page 39). \nDisplay of the measured variables depending on the connection type  \nThe table below shows which measured values can be represented depending on the \nconnection type. \nThe availability of the measured variables depends on the type of readout. \nDepending on the device version, several different readout types are available: \n● Device display \n● ModbusTCP \n● ModbusRTU \n● M-Bus \n● Web server"
+  },
+  {
+    "chunk_id": 39,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Description \n \n2.2 Measuring inputs \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n15 \nTable 2- 2 \nDisplay of the measured variables depending on the connection type \nConnection type \nMeasured variable \n3P4W \n1P2W \nVoltage L1-N \n✓ \n✓ \nVoltage L2-N \n✓ \n— \nVoltage L3-N \n✓ \n— \nVoltage L1-2 \n✓ \n-— \nVoltage L2-3 \n✓ \n— \nVoltage L3-1 \n✓ \n-— \nCurrent L1 \n✓ \n✓ \nCurrent L2 \n✓ \n-— \nCurrent L3 \n✓ \n-— \nApparent power L1 \n✓ \n✓ \nApparent power L2 \n✓ \n— \nApparent power L3 \n✓ \n-— \nActive power L1 \n✓ \n✓ \nActive power L2 \n✓ \n-— \nActive power L3 \n✓ \n-— \nReactive power L1 \n✓ \n✓ \nReactive power L2 \n✓ \n-— \nReactive power L3 \n✓ \n-— \nTotal apparent power \n✓ \n✓ \nTotal active power \n✓ \n✓ \nTotal reactive power \n✓ \n✓ \nPower factor L1 \n✓ \n✓ \nPower factor L2 \n✓ \n— \nPower factor L3 \n✓ \n-— \nTotal power factor \n✓ \n✓ \nFrequency \n✓ \n✓ \nAverage voltage L - N \n✓ \n— \nAverage voltage L - L \n✓ \n— \nAverage current \n✓ \n— \nBinary outputs \n✓ \n✓ \nBinary inputs \n✓ \n✓ \nTariff \n✓ \n✓ \nOperating hours counter \n✓ \n✓"
+  },
+  {
+    "chunk_id": 40,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "✓ \n✓ \nPower factor L1 \n✓ \n✓ \nPower factor L2 \n✓ \n— \nPower factor L3 \n✓ \n-— \nTotal power factor \n✓ \n✓ \nFrequency \n✓ \n✓ \nAverage voltage L - N \n✓ \n— \nAverage voltage L - L \n✓ \n— \nAverage current \n✓ \n— \nBinary outputs \n✓ \n✓ \nBinary inputs \n✓ \n✓ \nTariff \n✓ \n✓ \nOperating hours counter \n✓ \n✓ \nCounter (configurable) \n✓ \n✓ \nActive power import \n✓ \n✓ \nActive power export (load profile) \n✓ \n✓ \nReactive power import (load profile) \n✓ \n✓ \nReactive power export (load profile) \n✓ \n✓ \nMax. active power (load profile) \n✓ \n✓ \nMin. active power (load profile) \n✓ \n✓"
+  },
+  {
+    "chunk_id": 41,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Description \n \n2.2 Measuring inputs \n \nPAC2200 \n16 \nManual, 03/2017, L1V30415167B-01 \nConnection type \nMeasured variable \n3P4W \n1P2W \nMax. reactive power (load profile) \n✓ \n✓ \nMin. reactive power (load profile) \n✓ \n✓ \nTotal active energy import tariff 1 \n✓ \n✓ \nTotal active energy import tariff 2 \n✓ \n✓ \nTotal active energy export tariff 1 \n✓ \n✓ \nTotal active energy export tariff 2 \n✓ \n✓ \nTotal reactive energy import tariff 1 \n✓ \n✓ \nTotal reactive energy import tariff 2 \n✓ \n✓ \nTotal reactive energy export tariff 1 \n✓ \n✓ \nTotal reactive energy export tariff 2 \n✓ \n✓ \nTotal apparent energy tariff 1 \n✓ \n✓ \nTotal apparent energy tariff 2 \n✓ \n✓ \nL1 active energy import tariff 1 \n✓ \n✓ \nL1 active energy import tariff 2 \n✓ \n✓ \nL1 active energy export tariff 1 \n✓ \n✓ \nL1 active energy export tariff 2 \n✓ \n✓ \nL1 reactive energy import tariff 1 \n✓ \n✓ \nL1 reactive energy import tariff 2 \n✓ \n✓ \nL1 reactive energy export tariff 1 \n✓ \n✓ \nL1 reactive energy export tariff 2 \n✓ \n✓"
+  },
+  {
+    "chunk_id": 42,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "✓ \n✓ \nL1 active energy import tariff 2 \n✓ \n✓ \nL1 active energy export tariff 1 \n✓ \n✓ \nL1 active energy export tariff 2 \n✓ \n✓ \nL1 reactive energy import tariff 1 \n✓ \n✓ \nL1 reactive energy import tariff 2 \n✓ \n✓ \nL1 reactive energy export tariff 1 \n✓ \n✓ \nL1 reactive energy export tariff 2 \n✓ \n✓ \nL1 apparent energy tariff 1 \n✓ \n✓ \nL1 apparent energy tariff 2 \n✓ \n✓ \nL2 active energy import tariff 1 \n✓ \n- \nL2 active energy import tariff 2 \n✓ \n- \nL2 active energy export tariff 1 \n✓ \n- \nL2 active energy export tariff 2 \n✓ \n- \nL2 reactive energy import tariff 1 \n✓ \n- \nL2 reactive energy import tariff 2 \n✓ \n- \nL2 reactive energy export tariff 1 \n✓ \n- \nL2 reactive energy export tariff 2 \n✓ \n- \nL2 apparent energy tariff 1 \n✓ \n- \nL2 apparent energy tariff 2 \n✓ \n- \nL3 active energy import tariff 1 \n✓ \n- \nL3 active energy import tariff 2 \n✓ \n- \nL3 active energy export tariff 1 \n✓ \n- \nL3 active energy export tariff 2 \n✓ \n- \nL3 reactive energy import tariff 1 \n✓ \n- \nL3 reactive energy import tariff 2"
+  },
+  {
+    "chunk_id": 43,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "✓ \n- \nL2 apparent energy tariff 2 \n✓ \n- \nL3 active energy import tariff 1 \n✓ \n- \nL3 active energy import tariff 2 \n✓ \n- \nL3 active energy export tariff 1 \n✓ \n- \nL3 active energy export tariff 2 \n✓ \n- \nL3 reactive energy import tariff 1 \n✓ \n- \nL3 reactive energy import tariff 2 \n✓ \n- \nL3 reactive energy export tariff 1 \n✓ \n- \nL3 reactive energy export tariff 2 \n✓ \n-"
+  },
+  {
+    "chunk_id": 44,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Description \n \n2.3 Power demands and counters \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n17 \nConnection type \nMeasured variable \n3P4W \n1P2W \nL3 apparent energy tariff 1 \n✓ \n- \nL3 apparent energy tariff 2 \n✓ \n- \nSee also \nIntroduction (Page 7) \n2.3 \nPower demands and counters \nAcquisition of power demand \nValues that can be read out \n● The PAC2200 measuring device supplies the power demand of the last completed \nmeasuring period: \n● Mean values for active and reactive power, separately for import and export. \n● Minimum and maximum active power and reactive power within the last measuring \nperiod. \n● Length of the measuring period in seconds. The period may be shorter for reasons of \nexternal synchronization. \n● Time in seconds since the last synchronization or since completion of the last period. \nExample: Period length and length of the measuring period: \nPeriod length: 15 minutes; time of day: 13:03; time in seconds: 180 s."
+  },
+  {
+    "chunk_id": 45,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "external synchronization. \n● Time in seconds since the last synchronization or since completion of the last period. \nExample: Period length and length of the measuring period: \nPeriod length: 15 minutes; time of day: 13:03; time in seconds: 180 s. \nThe following can be calculated from this: The last measuring period ended at 13:00. The \nactive measuring period will end at 13:15 or in 12 minutes. \n \n \n \nNote \nThe power demand of the last measuring period can only be fetched during the current \nmeasuring period. \n \n \nAdjustable parameters \n● Time interval in minutes: 1 to 60 min adjustable, default 15 min"
+  },
+  {
+    "chunk_id": 46,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Description \n \n2.4 Digital inputs and outputs \n \nPAC2200 \n18 \nManual, 03/2017, L1V30415167B-01 \nEnergy counters \nAvailable energy counters of the PAC2200 measuring device: \n● Active energy import and export  \nL1, L2, L3, Σ for each of two tariffs + total from both tariffs \n● Reactive energy import and export  \nL1, L2, L3, Σ for each of two tariffs + total from both tariffs \n● Apparent energy:  \nL1, L2, L3, Σ for each of two tariffs + total from both tariffs \n● Active energy Σ:  \nSecondary value (ignoring the transformer ratios), no tariff. \n2.4 \nDigital inputs and outputs \nThe PAC2200 has the following inputs/outputs: \n● 1 digital input \n● 1 digital output"
+  },
+  {
+    "chunk_id": 47,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Description \n \n2.4 Digital inputs and outputs \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n19 \nDigital Input \nThe following functions can be assigned to the digital input: \n● Status monitoring: Capturing statuses of connected signal encoders \n● Tariff switch for two-tariff counters. \n● Synchronization of the measuring period by means of the synchronization pulse of a \nsystem control center or other device. \n● Input for energy pulses (S0 interface) \n \n(1) \nExternal voltage power supply, max. 30 V, typically 24 V\n(2) \nInput electronics \nFigure 2-1 \nBlock diagram: Digital inputs \nDigital output \nThe following functions can be assigned to the digital output: \n \nFigure 2-2 \nBlock diagram: Digital outputs"
+  },
+  {
+    "chunk_id": 48,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Description \n \n2.5 Communication \n \nPAC2200 \n20 \nManual, 03/2017, L1V30415167B-01 \nWiring \nThe digital output is passive and implemented exclusively as a switch. \nImplementation of the pulse function corresponds to the IEC 62053-31 standard. \n \n(1) \nPulse length \n(2) \nTurn-off time \nFigure 2-3 \nPulse length and turn-off time \n \n● Pulse length:  \nTime for which the signal at the digital output is \"high\". The minimum pulse length is \n30 ms and the maximum 500 ms. \n● Turn-off time:  \nTime for which the signal at the digital output is \"low\". The turn-off time depends on the \nmeasured energy, for example, and can be days or months. \n● Minimum turn-off time:  \nThe minimum turn-off time corresponds to the programmed pulse length. 30 ms is the \nabsolute minimum. \n2.5 \nCommunication \nDepending on the device version, the devices may be fitted with the following \ncommunications interfaces: \n \n● Ethernet \n● RS 485 \n● M-BUS"
+  },
+  {
+    "chunk_id": 49,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "● Minimum turn-off time:  \nThe minimum turn-off time corresponds to the programmed pulse length. 30 ms is the \nabsolute minimum. \n2.5 \nCommunication \nDepending on the device version, the devices may be fitted with the following \ncommunications interfaces: \n \n● Ethernet \n● RS 485 \n● M-BUS \n \nThe selection of the measured variables available for selection can vary according to the \ncommunication mode selected."
+  },
+  {
+    "chunk_id": 50,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Description \n \n2.5 Communication \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n21 \nEthernet \nPermits communication via the following protocols: \n● Modbus TCP \nProtocol can be used for reading out the measured values and device configuration. \n● Web server (HTTP) \nProtocol can be used for reading out the measured values and device configuration. \n● SNTP \nProtocol is used for transmitting the time and for time synchronization. \n● DHCP \nProtocol can be used for reading out the measured values and device configuration. Network \nsettings are assigned automatically. \nRS 485 \nPermits communication via the MODBUS RTU protocol. \nThe data is transmitted differentially via two wires A and B. The third wire \"COM\" serves as \nthe common ground potential. \nM-BUS \nPermits the transmission of the consumption data. The data is transmitted over a two-wire \nline."
+  },
+  {
+    "chunk_id": 51,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n23 \nMounting \n3\n3.1 \nIntroduction \n \n \nWARNING \nUsing devices when they are damaged may result in death, serious injury, or property \ndamage! \nDo not install or start up damaged devices. \n \nInstallation location  \nThe PAC2200 device is mounted on a TH35 rail (complying with EN 60715) and is intended \nfor installation in permanently installed systems within closed rooms. \n \n \n \nNote \nAvoid condensation \nSudden fluctuations in temperature can lead to condensation. Condensation can affect the \nfunction of the device. Store the device in the operating room for at least 2 hours before \ncommencing installation."
+  },
+  {
+    "chunk_id": 52,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Mounting \n \n3.2 Installation steps \n \nPAC2200 \n24 \nManual, 03/2017, L1V30415167B-01 \n3.2 \nInstallation steps \nTo install the PAC PAC2200 you will need the following tools: \n● Slotted screwdriver \nProcedure  \n \n \n \n3.3 \nDeinstallation \nTools \nYou require the following tools to uninstall the device: \n● Slotted screwdriver \nProcedure"
+  },
+  {
+    "chunk_id": 53,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n25 \nConnection \n4\n4.1 \nSafety notes \nNotes \n \n \nDANGER \nHazardous Voltage \nFailure to observe this notice will cause death, serious injury or property damage. \nTurn off and lock out all power supplying this device before working on it. \n \n \nNote \nSome of the following tasks are carried out when hazardous voltage is present. For this \nreason, they must only be carried out by qualified personnel who are familiar with and follow \nthe safety regulations and precautions. \n• Wear the prescribed protective clothing. Observe the general equipment regulations and \nsafety regulations for working on high-voltage installations (e.g. DIN VDE, NFPA 70E as \nwell as national or international regulations). \n• The limits given in the technical data must not be exceeded even during commissioning \nor testing. \n• The secondary connections of intermediate current transformers must be short-circuited"
+  },
+  {
+    "chunk_id": 54,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "well as national or international regulations). \n• The limits given in the technical data must not be exceeded even during commissioning \nor testing. \n• The secondary connections of intermediate current transformers must be short-circuited \nat the transformers before the power supply lines to the device are interrupted. \n• The polarity and phase assignment of the instrument transformers must be tested. \n• Before connecting the device, you must check whether the system voltage matches the \nvoltage specified on the type plate. \n• Check that all connections are correctly made before startup. \n• Before power is applied to the device for the first time, it must have been located in the \noperating area for at least two hours in order to reach temperature balance and avoid \nhumidity and condensation. \n• Condensation on the device is not permissible during operation. \n \nSee also \nApplying the measuring voltage (Page 40) \nMeasuring inputs (Page 13)"
+  },
+  {
+    "chunk_id": 55,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Connection \n \n4.2 Connections \n \nPAC2200 \n26 \nManual, 03/2017, L1V30415167B-01 \n4.2 \nConnections \n \n \nFigure 4-1 \n5 A device \n \nNo. \nTerminal \nFunction\n(1) \nIL1 °↑k \nCurrent IL1, input \n(2) \nIL1   l↓ \nCurrent IL1, output \n(3) \nIL2 °↑k \nCurrent IL2, input \n(4) \nIL2   l↓ \nCurrent IL2, output \n(5) \nIL3 °↑k \nCurrent IL3, input \n(6) \nIL3   l↓ \nCurrent IL3, output \n(7) \nV1 \nVoltage VL1-N \n(8) \nV2 \nVoltage VL2-N \n(9) \nV3 \nVoltage VL3-N \n(10) \nVN \nNeutral conductor \n(11) \nLAN \nEthernet \n(12) \nDI \nDigital Input \n(13) \nDO \nDigital output \n(14) \nM-BUS \nM-BUS interface \n(15) \nRS485 \nRS485 interface"
+  },
+  {
+    "chunk_id": 56,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Connection \n \n4.3 Connection examples \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n27 \n \nFigure 4-2 \n65 A device \n \nNo.\nTerminal\nFunction\n(1) \nIL1 °↑k \nCurrent IL1, input \n(2) \nIL1   l↓ \nCurrent IL1, output \n(3) \nIL2 °↑k \nCurrent IL2, input \n(4) \nIL2   l↓ \nCurrent IL2, output \n(5) \nIL3 °↑k \nCurrent IL3, input \n(6) \nIL3   l↓ \nCurrent IL3, output \n(7) \nN↑ \nCurrent N, input \n(8) \nN↓ \nCurrent N, output \n(9) \nLAN \nEthernet \n(10) \nDI \nDigital Input \n(11) \nDO \nDigital output \n(12) \nM-BUS \nM-BUS interface \n(13) \nRS485 \nRS485 interface"
+  },
+  {
+    "chunk_id": 57,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Connection \n \n4.3 Connection examples \n \nPAC2200 \n28 \nManual, 03/2017, L1V30415167B-01 \n4.3 \nConnection examples \nSome connection examples for the following types of connection are listed below:  \n● 3P4W - 3 phases, 4 conductors \n● 1P2W - 1 phase, 2 conductors \n \nThe selection of the connection types in the device can differ according to the device \nversion.    \n \nFor the 5 A device it is only possible to measure the current with current transformers.  \nFor the 65 A device, no current transformers may be connected.    \n \nAll input or output terminals not required for measuring remain free.   \n \nIn the connection examples, the secondary side of the transformer can optionally be \ngrounded at the \"l\" terminal. It can be grounded at either the \"k\" or the \"l\" terminal.  \nThe grounding has no impact on the measurement. \n \nParameterization of the devices is described in section Parameterizing (Page 41). \nConnection examples for 5 A device"
+  },
+  {
+    "chunk_id": 58,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "grounded at the \"l\" terminal. It can be grounded at either the \"k\" or the \"l\" terminal.  \nThe grounding has no impact on the measurement. \n \nParameterization of the devices is described in section Parameterizing (Page 41). \nConnection examples for 5 A device \n(1) Three-phase measuring, four conductors, unbalanced load, with three current \ntransformers \nConnection type 3P4W \n \n* \nFuses must be provided by the customer: for V1, V2, V3: 10 A\n** \nGrounding optional \nFigure 4-3 \nConnection type 3P4W, with three current transformers"
+  },
+  {
+    "chunk_id": 59,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Connection \n \n4.4 65 A device \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n29 \n \n(2) Single-phase measuring, with one current transformer \nConnection type 1P2W \n \n* \nFuses must be provided by the customer: for V1: 10 A\n** \nGrounding optional \nFigure 4-4 \nConnection type 1P2W, with one current transformer \n4.4 \n65 A device \nConnection examples for 65 A device \n(1) Three-phase measurement, four conductors, direct connection to the low-voltage network \n \nFigure 4-5 \nDirect connection to the low-voltage network."
+  },
+  {
+    "chunk_id": 60,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Connection \n \n4.5 Grounding of the Ethernet / RS485 cable \n \nPAC2200 \n30 \nManual, 03/2017, L1V30415167B-01 \n4.5 \nGrounding of the Ethernet / RS485 cable \n \n \nNOTICE \nThe upper limit values will be violated if the cable is not grounded. \nCompliance with the technical limit values for noise radiation and noise immunity is only \nguaranteed if the cable is correctly grounded. The operator of the system is responsible for \nensuring compliance with the statutory limit values (CE mark).  \nMake a shield connection on both sides as described here. \n \n \nImplementation \nGround the Ethernet or RS485 cable at both ends. To do this, expose the foil shield of the \ncable. Connect the exposed shield to a suitable grounding point on the control cabinet, \npreferably a shielding bus. \n \n● Be careful not to damage the foil shield of the cable when removing the cable jacket. \n● Fasten the exposed shield with a metal cable clamp or alternatively with a hose tie. The"
+  },
+  {
+    "chunk_id": 61,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "preferably a shielding bus. \n \n● Be careful not to damage the foil shield of the cable when removing the cable jacket. \n● Fasten the exposed shield with a metal cable clamp or alternatively with a hose tie. The \nclamp must clasp around a large portion of the shield and provide good contact. \n● To allow good contact, a tin-plated or galvanically stabilized surface is ideal. With a \ngalvanized surface, the contact should be achieved using suitable screws. A painted \nsurface at the contact point is not suitable."
+  },
+  {
+    "chunk_id": 62,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Connection \n \n4.5 Grounding of the Ethernet / RS485 cable \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n31 \n \n \n \nNOTICE \nLoss of contact if the shield connection is incorrectly used for strain relief \nIf the shield connection is used for strain relief, the grounding contact can deteriorate or be \ncompletely lost. \nDo not use the contact point on the cable shield for strain relief."
+  },
+  {
+    "chunk_id": 63,
+    "page": 32,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n33 \nOperation \n5\n5.1 \nDevice interface \n5.1.1 \nDisplays and operator controls \nThe front of the PAC2200 contains the following displays and operator elements. \n \n \n(1) \nSoftware pushbutton\n(2) \nLED for Ethernet: Link / Activity \n• \nLED is illuminated: Data connection available \n• \nLED flashes: Data is being transferred \n• \nLED is off: No data connection available \n(3) \nActive energy pulse indicator\nFigure 5-1 \nDevice interface"
+  },
+  {
+    "chunk_id": 64,
+    "page": 33,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Operation \n \n5.1 Device interface \n \nPAC2200 \n34 \nManual, 03/2017, L1V30415167B-01 \n5.1.2 \nControl keys \nThe device can be operated by means of four keys. \nThe keys are assigned different functions.  \nThe functions of the keys depend on the menu level currently in use. \n \n \nKeys \nPossible assignment\nMeaning \n \n \nNo function \n \nScroll between extended measured values \n \nCancel the last action carried out \n \n \nScroll up \n \nIncrement selection \n \n \nScroll down \n \nSelect the editing location \n \nDecrement selection \n \n \nMain menu level \n \nON/OFF \n \nEdit selection \n \nConfirm selection"
+  },
+  {
+    "chunk_id": 65,
+    "page": 34,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Operation \n \n5.2 Menu navigation \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n35 \n5.2 \nMenu navigation \nThe device menu can be subdivided into four menu levels: \n● Measured value level \n● Main menu level \n● Setting level \n● Editing level \n \n \nDepending on the device version and firmware status, the availability of the measured values \nmay vary in the measured value and main menu levels. The selection of the parameters at \nthe setting and editing levels can also differ from the device version and firmware status. \n \n5.2.1 \nMeasured value level \nBy default, the device is at the measured value level.  \nAt this level, the available measured value can be read off. \nUsing the keys \n and \n you can scroll through the measured values. \n  \nWhen measured values are selected, additional information can be called up with the \n \nkey. \n \nThe \n key returns the device to the \"Main menu level\"."
+  },
+  {
+    "chunk_id": 66,
+    "page": 35,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Operation \n \n5.2 Menu navigation \n \nPAC2200 \n36 \nManual, 03/2017, L1V30415167B-01 \n5.2.2 \nMain menu level \nAt this level all available measured variables are listed.  \nThe \n key returns the device to the measured value menu level.  \nUsing the keys \n and \n you can scroll through the measured variables.  \nThe \n key confirms the required selection and takes the device to the measured value \nlevel. \n \nIn the \"SETTINGS\" menu option, the device is set to the \"Setting level\" by actuating the \n \nkey. \n \n5.2.3 \nSetting level \nAt the setting level the device can be configured. At this menu level all settable parameters \nare listed. \nThe \n key returns the device to the \"Main menu level\". \nUsing the keys \n and \n you can scroll through the setting parameters.  \nThe \n key confirms the required selection and takes the device to the editing level."
+  },
+  {
+    "chunk_id": 67,
+    "page": 36,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Operation \n \n5.2 Menu navigation \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n37 \n5.2.4 \nEditing level \nAt the editing level it is possible to modify the device parameters.  \nThe \n key returns the device to the setting level. \nThe required value is entered using the \n and\n keys. \nThe input is confirmed with the \n key. \nEach input must be confirmed with the \n key, otherwise the change that has been made is \nnot accepted by the device."
+  },
+  {
+    "chunk_id": 68,
+    "page": 37,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Operation \n \n5.3 Sentron powermanager \n \nPAC2200 \n38 \nManual, 03/2017, L1V30415167B-01 \n5.3 \nSentron powermanager \nUsing the SENTRON powermanager energy management software energy data of the \nPAC2200 measuring device can be acquired, monitored, evaluated, displayed and archived. \nSENTRON powermanager offers the following functions for this purpose: \n● Tree view of the customer's system (project tree) \n● Measured value display with pre-defined user views \n● Alarm management \n● Demand curve \n● Reporting, different report types (e.g. cost center report) \n● Load monitoring of reaction plans \n● Power peak analysis (available as of SENTRON powermanager V3.0 SP1) \n● Support of distributed plants (systems) \n● Archiving system \n● User administration"
+  },
+  {
+    "chunk_id": 69,
+    "page": 38,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n39 \nCommissioning \n6\n6.1 \nOverview \nPrerequisites  \n● The device has been installed. \n● The device has been connected in accordance with the possible connection methods. \nSteps for starting up the device  \n1. Apply the measuring voltage \n2. Parameterize the device \n3. Check measured values \n \n \nNote \nCheck the connections \nIncorrect connection can result in malfunctions and failure of the device. \nBefore starting up the PAC2200, check that all connections are correct. \n \n \n \n \nNote \nWhen performing an insulation test of the entire installation with AC or DC, the device should \nbe disconnected before starting the test."
+  },
+  {
+    "chunk_id": 70,
+    "page": 39,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Commissioning \n \n6.2 Applying the measuring voltage \n \nPAC2200 \n40 \nManual, 03/2017, L1V30415167B-01 \n6.2 \nApplying the measuring voltage \nA supply voltage is required to operate the device.  \nThe device is supplied with power via the measuring voltage. \nPlease consult the technical data or the type plate for the type and level of the possible \nsupply voltage. \nRefer also to the diagram Connections (Page 26) \n \n \nWARNING \nDo not apply voltage in excess of the rated voltage limit. \nFailure to observe this notice may result in death, serious injury, or property damage. \nThe limits given in the technical data and on the type plate must not be exceeded even at \nstartup or when testing the device. \n \nProtecting the current measuring inputs \n \n \n \nDANGER \nOpen transformer circuits will result in electric shock and arc flashover. \nFailure to observe this notice will cause death, serious injury or considerable damage to \nproperty."
+  },
+  {
+    "chunk_id": 71,
+    "page": 39,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "startup or when testing the device. \n \nProtecting the current measuring inputs \n \n \n \nDANGER \nOpen transformer circuits will result in electric shock and arc flashover. \nFailure to observe this notice will cause death, serious injury or considerable damage to \nproperty. \nFor the 5 A device it is only possible to measure the current via external current \ntransformers. When using the current transformers, the circuit is not protected by a fuse. Do \nnot open the secondary circuit under load. Short circuit the secondary current terminals of \nthe current transformer before removing this device. The safety information for the current \ntransformers used must be followed. \n \nProtecting the voltage measuring inputs \n \n \nCAUTION \nNon-fused voltage measuring inputs may lead to device and equipment damage. \nAlways protect the device with an IEC approved fuse or with an IEC approved miniature \ncircuit breaker. \n5 A device: 10 A \n65 A device: 63 A"
+  },
+  {
+    "chunk_id": 72,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Commissioning \n \n6.3 Parameterizing \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n41 \n6.3 \nParameterizing \n6.3.1 \nProcedure for parameterizing \nYou can download the SENTRON powerconfig configuration software from the Industry \nOnline Support Website \n(https://support.industry.siemens.com/cs/document/63452759/update-version-powerconfig-\nv3-7?dti=0&lc=en-WW). \nInformation and notes on how to use SENTRON powerconfig can be found in the Online \nHelp of the configuration software or by contacting Technical Support.  \nYou launch the Online Help in SENTRON powerconfig by pressing the \"F1\" key. \n \nIn order to be able to configure the PAC2200, the measuring voltage must be connected. \nThe device can be parameterized using the \"Settings\" menu option. \n6.3.2 \n\"Language\" parameter \nThe menu guidance language can be set in the \"Settings\" menu by selecting the \"Language\" \noption. \nThis enables you to select either English or German. English is the default setting. \n \n6.3.3 \n\"Basic settings\" parameter"
+  },
+  {
+    "chunk_id": 73,
+    "page": 40,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "6.3.2 \n\"Language\" parameter \nThe menu guidance language can be set in the \"Settings\" menu by selecting the \"Language\" \noption. \nThis enables you to select either English or German. English is the default setting. \n \n6.3.3 \n\"Basic settings\" parameter \nNot available for 65 A devices. \n \n\"Voltage Input\" parameter \nConnection types: \n● 3P4W: 3 phases, 4 wires \n● 1P2W: 1 phase, 2 wires \nDefault setting: 3P4W \n \nThe \"Connection type\" parameter limits the total number of measuring values. The input \ncircuit of the device must correspond to the parameterized connection type. \nInform the device of the connection type used by entering the connection type code in the \ndevice settings."
+  },
+  {
+    "chunk_id": 74,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Commissioning \n \n6.3 Parameterizing \n \nPAC2200 \n42 \nManual, 03/2017, L1V30415167B-01 \n\"Current input\" \nThe \"Current input\" parameter specifies the values for the current input. \nWhen measuring using current transformers, the device must know the current conversion \nratio. \nFor this purpose, the primary and secondary current must be specified in the fields \n\"PRIMARY CURRENT\" and \"SECONDARY CURRENT\". \n \nPRIMARY CURRENT \nRange: 1 A to 99999 A, freely adjustable \n \nDefault setting: 50 A \nSECONDARY CURRENT \nRange: 1 A, 5 A \n \nDefault setting: 5 A \nDISPLAY RANGE \n1 A ... 99999 A \n \nDefault setting: 1 A \nCURRENT DIRECTION L1 \nThe device interprets the current direction \nopposite to the wiring. \nCURRENT DIRECTION L2 \nSeparate setting direction for each phase. \nCURRENT DIRECTION L3 \nNo: The device interprets the current flow \ndirection corresponding to the wiring. \n \nYes: The direction of current flow is inverted. \nThe device interprets the current flow direction \nopposite to the wiring."
+  },
+  {
+    "chunk_id": 75,
+    "page": 41,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "CURRENT DIRECTION L2 \nSeparate setting direction for each phase. \nCURRENT DIRECTION L3 \nNo: The device interprets the current flow \ndirection corresponding to the wiring. \n \nYes: The direction of current flow is inverted. \nThe device interprets the current flow direction \nopposite to the wiring. \n \nDefault setting: No \n\"Write protection\" \nNo write access is possible. In order to gain write access, the hardware write protection on \nthe device must be deactivated. \n \nON: Hardware write protection is activated \nOFF: Hardware write protection is deactivated \n \nRequest message \"PRESS SW\" appears on the display. By pressing the SW key on the \ndevice within this phase, the protection function is activated or deactivated. \n \n \n \nNote \nActivate hardware write protection \nWhen connecting the device to a network, it is recommended that the hardware write \nprotection is activated."
+  },
+  {
+    "chunk_id": 76,
+    "page": 42,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Commissioning \n \n6.3 Parameterizing \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n43 \n6.3.4 \n\"Date/time\" parameter \nThe date and time can be set by using the \"Date/time\" option in the \"Settings\" menu. \n \n \nDate: \nDisplayed in accordance with the format \nFormat: \nDD.MM.YYYY (default setting) \n \nMM/DD/YY \n \nYYYY-MM-DD \nTime: \nHH:MM:SS \nTime zone: \n00:00 (12/ +14) \nDaylight saving: \nAuto EU (default setting) \n \nAuto US \n \nTable \n \nOFF \nSNTP (with Ethernet interface \nonly): \nOFF (default setting) \n \nActive \n \nTime synchronization via SNTP protocol \nIP (with Ethernet interface only):0.0.0.0 (for SNTP only) \nIf an SNTP IP address is configured, only data from this \naddress is accepted."
+  },
+  {
+    "chunk_id": 77,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Commissioning \n \n6.3 Parameterizing \n \nPAC2200 \n44 \nManual, 03/2017, L1V30415167B-01 \n6.3.5 \n\"Integrated I/O\" parameter \n\"Digital Input\" \nThe following functions can be assigned to the \"Digital input\" parameter: \n● Tariff switch for two-tariff, active energy, and reactive energy counters. \n● Synchronization of the measuring period by means of the synchronization pulse of a \nsystem control center or other device. \n \nACTION \nNot used: Digital input is deactivated. \n \nCount input pulses: Counting of input pulses \n \nHigh tariff / low tariff switching: Switching between tariffs. \nLow tariff if input active. \n \nDemand synchronization: Synchronization of power de-\nmand. \n \nDefault setting: Not used. \nUNIT \nThe \"UNIT\" property is only visible if \"Count input pulses\" \nis set for the \"TYPE OF USE\". \n \nCountable unit with pulse counting: \n \n• Active Energy (kWh) \n \n• Reactive Energy (kvarh) \nPULSES PER UNIT \nThe \"PULSES PER UNIT\" property is only visible if \"Count"
+  },
+  {
+    "chunk_id": 78,
+    "page": 43,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Default setting: Not used. \nUNIT \nThe \"UNIT\" property is only visible if \"Count input pulses\" \nis set for the \"TYPE OF USE\". \n \nCountable unit with pulse counting: \n \n• Active Energy (kWh) \n \n• Reactive Energy (kvarh) \nPULSES PER UNIT \nThe \"PULSES PER UNIT\" property is only visible if \"Count \ninput pulses\" is set for the \"TYPE OF USE\". \n \nRange: 1 to 4000 \n \nDefault setting: 1 \nPRO (input pulse divider) \nThe \"INPUT PULSE DIVIDER\" property is only visible if \n\"Count input pulses\" is set for the \"TYPE OF USE\". \n \nRange: 1; 10; 100; 1000 \n \nDefault setting: 1 \n \nFormula: \n \nExample: \nPulses per unit: 50 \nInput pulse divider: 100 \nUnit: kWh"
+  },
+  {
+    "chunk_id": 79,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Commissioning \n \n6.3 Parameterizing \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n45 \n\"Digital output\" \nThe following functions can be assigned to the \"Digital output\" parameter: \n● Energy pulse output; can be programmed for active or reactive energy pulses \n● Indication of the direction of rotation \n● Operating state display of the device \n● Switching output for remote control via the interface \n \nACTION \nNot used: Digital output is deactivated. \n \nDevice ready: Digital output is activated. \n \nRemote output: The digital output is controlled by remote \naccess. \n \nDirection of rotation: Digital output is switched on by an \nelectric counter-clockwise rotating field and remains active \nfor as long as the field is rotating in this direction. \n \nEnergy pulse: Digital output signals the number of pulses \nset for each energy unit (e.g. kWh). The energy counter \nspecified in the \"COUNTER SOURCE\" field is evaluated \nhere. \n \nDefault setting: Not used \nUNIT"
+  },
+  {
+    "chunk_id": 80,
+    "page": 44,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "for as long as the field is rotating in this direction. \n \nEnergy pulse: Digital output signals the number of pulses \nset for each energy unit (e.g. kWh). The energy counter \nspecified in the \"COUNTER SOURCE\" field is evaluated \nhere. \n \nDefault setting: Not used \nUNIT \nSelects the type of cumulative power and the import value \nthat triggers the pulse when that value is reached. \n \nRange: Counter import active energy (kWh), counter export \nactive energy (kWh), counter import reactive energy (kvarh), \ncounter export reactive energy (kvarh)  \nDefault setting: Counter Import Active Energy (kWh) \n \nThe \"COUNTER SOURCE\" property is only visible if \"Count \ninput pulses\" is set for the \"TYPE OF USE\". \nPULSE DURATION \nDuration of the energy pulses. \n \nRange: 30 ms to 500 ms \n \nDefault setting: 100 ms \n \nThe \"PULSE DURATION\" property is only visible if \"Count \ninput pulses\" is set for the \"TYPE OF USE\"."
+  },
+  {
+    "chunk_id": 81,
+    "page": 45,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Commissioning \n \n6.3 Parameterizing \n \nPAC2200 \n46 \nManual, 03/2017, L1V30415167B-01 \n6.3.6 \n\"Communication\" parameter \nThe number of available communications interfaces can vary depending on the version of \nthe device. \n\"MODBUS TCP\" \n \n \nDHCP \n(Dynamic Host Configuration Protocol) \n \nThe network configuration is assigned automatically. \nIP \n000.000.000.000 \n \nManual setting of the IP address is only possible when DHCP is deactivated \nSN \n000.000.000.000 \n \nManual setting of the subnet is only possible when DHCP is deactivated \nGW \n000.000.000.000 \n \nManual setting of the gateway is only possible when DHCP is deactivated \nPort \n502 (default setting) \nFirewall \nOFF: Subnet firewall deactivated \nON: Write access is rejected if the remote station is in another subnet. \n\"MODBUS RTU\" \n \n \nAddress \n1 - 247 \nBaud rate \n4800/9600/19200/38400 \nFormat \n8N1/8N2/8E1/8O1/ \nResponse time \n0 - 255 ms \n\"MODBUS RTU\" \n \n \nPrimary address \n0 - 250 \nBaud rate \n1200/2400/4800/9600"
+  },
+  {
+    "chunk_id": 82,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Commissioning \n \n6.3 Parameterizing \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n47 \n6.3.7 \n\"Display\" parameter \n \n \nContrast \nThe display contrast can be adjusted in steps. \n \n0 - 10 (default setting 5) \nBrightness \nThe intensity of the backlighting can be adjusted in steps. \n \n0 - 3 (default setting 3) \nDimming \nThe dimming setting of the display can be adjusted in steps. \n \n0 - 3 (default setting 3) \nDim after \nOn expiry of the set period, the backlighting is dimmed to the set intensity.\n \n0 - 99 (default setting 3) \nTest indicator \nDisplay test indicator \n6.3.8 \n\"Extended\" parameter \nPassword \nThe write access to the device settings can be protected by means of a password.  \nAs soon as the password has been entered once for the device, it is not requested again for \nas long as the device is connected to the SENTRON powerconfig configuration software or \nis still in the \"Settings\" menu. \n \nDisplay \nNo: Password protection deactivated"
+  },
+  {
+    "chunk_id": 83,
+    "page": 46,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "As soon as the password has been entered once for the device, it is not requested again for \nas long as the device is connected to the SENTRON powerconfig configuration software or \nis still in the \"Settings\" menu. \n \nDisplay \nNo: Password protection deactivated \n \nYes: Write access is password protected using keys on display \n \n(default setting: no) \nCommunication \nNo: Password protection deactivated \n \nYes: Write access is password protected by means of communication \n \n(default setting: no) \nPassword \nPassword policy: four-digit number between 0000 ... 9999 \n \n(default setting 0000 - no password) \n \n \n \nNote \nIf you have forgotten the password, please contact Technical Assistance, who will give you a \nnew password."
+  },
+  {
+    "chunk_id": 84,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Commissioning \n \n6.3 Parameterizing \n \nPAC2200 \n48 \nManual, 03/2017, L1V30415167B-01 \nReset \n \nFactory settings \nAll settings except the communication settings are reset to the \nas-delivered condition. \n \nNo: Not active \n \nYes: active \nCommunication settings \nAll communication settings are reset to the as-delivered con-\ndition. \n \nNo: Not active \n \nYes: active \nExecute \nConfirmation of the reset \n \n \n \nNote \nThe reset must be confirmed by selecting the \"Execute...\" field. Otherwise the device reset is \nnot executed. \n \n \nWrite protection \nNo write access is possible. In order to gain write access, the hardware write protection on \nthe device must be deactivated. \n \nNo: Hardware write protection is deactivated  \nYes: Hardware write protection is activated \n(default setting: no) \n \nRequest message \"PRESS SW\" appears on the display. By pressing the SW key on the \ndevice within this phase, the protection function is activated or deactivated."
+  },
+  {
+    "chunk_id": 85,
+    "page": 47,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "No: Hardware write protection is deactivated  \nYes: Hardware write protection is activated \n(default setting: no) \n \nRequest message \"PRESS SW\" appears on the display. By pressing the SW key on the \ndevice within this phase, the protection function is activated or deactivated. \n \nIf the write protection is activated, the same request is shown on the display before the \nparameters are changed. The protection is only lifted temporarily. After returning to the \nsetting level, the write protection is reactivated.  \n \n \n \nNote \nActivate hardware write protection \nOn connecting the device to a network, it is recommended that the hardware write protection \nis activated."
+  },
+  {
+    "chunk_id": 86,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n49 \nService and maintenance \n7\n7.1 \nCalibration \nThe device has been calibrated by the manufacturer before shipping. Recalibration is not \nrequired provided the environmental conditions are maintained. \n7.2 \nFirmware updates \nThe PAC2200 supports firmware updates.  \nWhen updating, always use the latest version of the powerconfig configuration software. For \nupdate instructions, please see the related documentation and the online help for the \nconfiguration software.  \nThe last devices settings made remain unchanged. \n7.3 \nTroubleshooting guide \nRemedies for the resolution of faults \n \nFault \nRemedies\nDevice is not working \n• \nCheck power supply \n• \nCheck fuse \nVoltage or current measured values are not displayed \n• \nCheck fuse \n• \nCheck configuration (see Parameterizing (Page 41)) \nVoltage values are not plausible \n• \nIf current transformer is available, check the settings and \nthe connection of the current transformer and correct if"
+  },
+  {
+    "chunk_id": 87,
+    "page": 48,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "• \nCheck fuse \nVoltage or current measured values are not displayed \n• \nCheck fuse \n• \nCheck configuration (see Parameterizing (Page 41)) \nVoltage values are not plausible \n• \nIf current transformer is available, check the settings and \nthe connection of the current transformer and correct if \nnecessary \nCurrent values are not plausible \n• \nCheck the settings and the wiring of the current trans-\nformer and correct if necessary \nNo communication \n• \nCheck the communication settings (incorrect IP address, \nincorrect subnet, incorrect Modbus TCP port or gate-\nway?) \n• \nCheck firewall, if present (possibly preventing communi-\ncation to the Modbus ports) \nPower values are incorrect, although voltage and current \nare correctly applied \n• \nCheck voltages and currents of the phases (not properly \nconnected to one another) \n• \nCheck current transformer (incorrect polarity?)"
+  },
+  {
+    "chunk_id": 88,
+    "page": 49,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Service and maintenance \n \n7.4 Warranty \n \nPAC2200 \n50 \nManual, 03/2017, L1V30415167B-01 \n7.4 \nWarranty \nProcedure  \n \n \nNote \nLoss of warranty  \nIf you open the device, you will invalidate the Siemens warranty. Only the manufacturer is \npermitted to carry out repairs to the devices. Return faulty or damaged devices to Siemens \nfor repair or replacement. \n \nIf the device is faulty or damaged, proceed as follows (only during the warranty period): \n1. Uninstall the device; refer to section Deinstallation (Page 24). \n2. Pack the device in a suitable manner to prevent it from being damaged during transport. \n3. Return the device to Siemens. You can obtain the address from: \n– Your Siemens sales partner \n– Technical Assistance \nSee also \nLatest information (Page 7) \n7.5 \nDisposal \nDisposal and recycling \nDispose of or recycle the module in accordance with the applicable laws and regulations in \nyour country."
+  },
+  {
+    "chunk_id": 89,
+    "page": 50,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n51 \nTechnical data \n8\n8.1 \nTechnical data \nDevice configuration \n● 1 optically isolated digital input \n● 1 optically isolated digital output \n● 1 Ethernet interface, for connecting and configuring to the PC or network (optional) \n● 1 M-Bus connection for reading out the measured values (optional) \n● 1 RS485 port for readout and configuration (optional) \nMeasurement \nOnly for connection to AC voltage systems \n \nMeasuring method \nFor voltage measurement \nTrue root-mean-square measurement (TRMS) \nFor current measurement \nTrue root-mean-square measurement (TRMS) \n \n \nMeasured value acquisition\nEnergy \nContiguous (zero blind measuring) \nCurrent, voltage \nContiguous (zero blind measuring) \nWaveform \nSinusoidal or distorted \nFrequency of the relative fundamental \n50/60 Hz  \nMeasured value acquisition mode \nAutomatic mains frequency acquisition"
+  },
+  {
+    "chunk_id": 90,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Technical data \n \n8.1 Technical data \n \nPAC2200 \n52 \nManual, 03/2017, L1V30415167B-01 \nMeasuring inputs for voltage (5 A device) \n \nMeasuring inputs \nVoltage Un \n220/230 VAC 50 / 60 Hz \nMin. measurable voltage \n \n \nVoltage L-N \nAC 3~ 230 V (+20%) \n \nVoltage L-L \nAC 3~ 400 V (+20 %) \nMin. measurable voltage \n \n \nVoltage L-N \nAC 3~ 230 V (-80%) \n \nVoltage L-L \nAC 3~ 400 V (-80%) \nZero point suppression level \n \n \nVoltage L-N \n7 V \n \nVoltage L-L \n10 V \nImpulse withstand voltage \n6.5 kV (1.2/50 μs) \nMeasuring category \n(acc. to IEC 61010-2-030) \n \nInput voltage VI \nCAT III \nInput resistance (L-N) \n1 MΩ \nMax. power consumption per phase \n80 mW \nMeasuring inputs for current (5 A device)  \nOnly for connection to AC power systems via external current transformers (5 A device) \n \nMeasuring inputs \nInput current II \n1 A / 5 A \nMax. permissible continuous current \n10 A \nCurrent impulse overload capability \n100 A for 1 s \nZero point suppression level \n1 mA / 5 mA \nMax. power consumption per phase"
+  },
+  {
+    "chunk_id": 91,
+    "page": 51,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Measuring inputs \nInput current II \n1 A / 5 A \nMax. permissible continuous current \n10 A \nCurrent impulse overload capability \n100 A for 1 s \nZero point suppression level \n1 mA / 5 mA \nMax. power consumption per phase \n500 mVA at 6 A \nMeasuring range \n1 ... 120% \nMeasuring inputs (65 A device)  \nFor direct connection to the AC system. \n \nMeasuring inputs \nInput current In \n10 A \nMax. input current Imax \n65 A \nMaximum power consumption \n0.4 VA / phase \nMeasuring range \n0.5 ... 65 A"
+  },
+  {
+    "chunk_id": 92,
+    "page": 52,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Technical data \n \n8.1 Technical data \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n53 \nMeasuring accuracy  \n \nMeasured variable \nAccuracy class acc. to IEC 61557-12 (K55)\nVoltage \nClass 0.5 \nCurrent \nClass 0.5 \nApparent power \nClass 1 \nActive power  \nClass 1 \nReactive power  \nClass 1 \nTotal apparent power over all phases  \nClass 1 \nTotal active power over all phases  \nClass 1 \nTotal reactive power VAR1 over all phases  \nClass 2 \nCumulated active power  \nClass 1 \nCumulated reactive power  \nClass 2 \nTotal power factor  \nClass 0.5 \nLine frequency  \nClass 0.05 \nActive energy  \nClass 1 \nReactive energy  \nClass 2 \nWhen measuring on external current transformers or voltage transformers, the accuracy of \nthe measurement depends on the quality of the transformer. \nDigital Input  \n \nDigital Input \nNumber \n1 \nType \nPassive \nMaximum switching voltage \n30 V \nInput current \n \n \n\"1\" signal detection \n2.5 … 10 mA \n \n\"0\" signal detection \n≤0.5 mA"
+  },
+  {
+    "chunk_id": 93,
+    "page": 53,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Technical data \n \n8.1 Technical data \n \nPAC2200 \n54 \nManual, 03/2017, L1V30415167B-01 \nDigital output  \n \nDigital output\nNumber \n1 \nType \nPassive \nDesign/function \nSwitching output or pulse output \nMaximum switching voltage \n30 V \nOutput current \n \nFor signal \"1\" \nDepends on the load and the external power \nsupply \n \n \nContinuous load \n≤50 mA (thermal overload protection) \n \n \nTransient overload \n≤130 mA for 100 ms \n \nFor signal \"0\" \n≤0.2 mA \nInternal resistance \n30 Ω \nOvervoltage category \nCAT I \nPulse output function \n \nStandard for pulse emitter \nSignal characteristics in accordance with \nIEC 62053-31 \n \nAdjustable pulse duration \n30 … 500 ms \n \nMin. settable time frame \n10 ms \nMax. switching frequency \n17 Hz \nShort-circuit protection \nYes \nCommunication  \n \nEthernet interface \nProtocols \nModbus TCP; web server (HTTP); SNTP; DHCP \nEthernet connection \nRJ-45 \nData rate \n10 / 100 Mbit/s \n \n \nM-BUS interface \nProtocol \nM-BUS \nConnection \n2-pole \nBaud rate:"
+  },
+  {
+    "chunk_id": 94,
+    "page": 53,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "10 ms \nMax. switching frequency \n17 Hz \nShort-circuit protection \nYes \nCommunication  \n \nEthernet interface \nProtocols \nModbus TCP; web server (HTTP); SNTP; DHCP \nEthernet connection \nRJ-45 \nData rate \n10 / 100 Mbit/s \n \n \nM-BUS interface \nProtocol \nM-BUS \nConnection \n2-pole \nBaud rate: \n300/600/1200/2400/4800/9600/19200 \n \n \nRS 485 interface \nProtocol \nMODBUS RTU \nConnection \n3-pole \nBaud rate \n4800/9600/19200/38400 \nFormat \n8N1/8N2/8E1/8O1/"
+  },
+  {
+    "chunk_id": 95,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Technical data \n \n8.1 Technical data \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n55 \nConnection elements  \n \nCurrent, voltage and supply connection\n5 A device\n65 A device\nConductor cross section  \n \n \n \nRigid \n0.2 ... 6 mm2 \n0.75 ... 35 mm2 \n \nFlexible \n0.2 ... 4 mm2 \n1 ... 35 mm2 \n \nFlexible with end sleeve, without plastic \nsleeve \n0.2 ... 4 mm2 \n0.75 ... 25 mm2 \n \nFlexible with end sleeve and plastic \nsleeve \n0.25 ... 4 mm2 \n0.75 ... 25 mm2 \n \nAWG \n24 ... 10 \n19 ... 2 \n2-wire, same cross-section \n \n \n \nRigid \n0.2 ... 1.5 mm2 \n0.75 ... 10 mm2 \n \nFlexible \n0.2 ... 1.5 mm2 \n1 ... 4 mm2 \n \nFlexible with end sleeve, without plastic \nsleeve \n0.25 ... 0.75 mm2 \n0.75 ... 4 mm2 \n \nFlexible with TWIN end sleeve and plastic \nsleeve \n0.5 ... 2.5 mm2 \n0.75 ... 4 mm2 \nAWG \n30 ... 10 \n19 ... 8 \nTightening torque \n0.5 ... 0.6 Nm \n3 Nm \n \n \nCommunication ports \nConductor cross section \n \n \nRigid \n0.14 ... 1.5 mm2 \n \nFlexible \n0.14 ... 1.5 mm2 \n \nFlexible with end sleeve, without plastic \nsleeve"
+  },
+  {
+    "chunk_id": 96,
+    "page": 54,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "sleeve \n0.5 ... 2.5 mm2 \n0.75 ... 4 mm2 \nAWG \n30 ... 10 \n19 ... 8 \nTightening torque \n0.5 ... 0.6 Nm \n3 Nm \n \n \nCommunication ports \nConductor cross section \n \n \nRigid \n0.14 ... 1.5 mm2 \n \nFlexible \n0.14 ... 1.5 mm2 \n \nFlexible with end sleeve, without plastic \nsleeve \n0.25 ... 1 mm2 \n \nFlexible with end sleeve and plastic \nsleeve \n0.25 ... 1.5 mm2 \n \nAWG \n26 ... 16 \n2-wire, same cross-section \n \n \nRigid \n0.14 ... 0.75 mm2 \n \nFlexible \n0.14 ... 0.75 mm2 \n \nFlexible with end sleeve, without plastic \nsleeve \n0.25 ... 0.5 mm2 \n \nFlexible with TWIN end sleeve and plas-\ntic sleeve \n0.5 ... 1 mm2 \nAWG \n30 ... 14 \nTightening torque \n0.5 ... 0.6 Nm"
+  },
+  {
+    "chunk_id": 97,
+    "page": 55,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Technical data \n \n8.1 Technical data \n \nPAC2200 \n56 \nManual, 03/2017, L1V30415167B-01 \nDimensions and weights \n \nDimensions and weights \nType of fixing \nStandard rail mounting TH35 to EN 60715 \nConstruction type \n6TE \nHousing dimensions W x H x D \n108 mm x 97 mm x 71 mm \nWeight \n \n5 A device without packaging \n310 g \n \n5 A device with packaging \n375 g \n \n65 A device without packaging \n415 g \n \n65 A device with packaging  \n480 g \nDegree of protection and protection class  \n \nDegree of protection and protection class\nProtection class \nSafety class II \nDegree of protection according to IEC 60529 \n \nFront area \nIP 40 \n \nTermination area \nIP 20 \n \nIf higher degree of protection requirements are placed on the application engineering, the \ncustomer must take suitable measures  \nEnvironmental conditions  \nOperation is only permissible inside an enclosed dry room. \n \nEnvironmental conditions \nTemperature range \n \nAmbient temperature during operating phase \n-25 °C … +55 °C \n(K55)"
+  },
+  {
+    "chunk_id": 98,
+    "page": 55,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "customer must take suitable measures  \nEnvironmental conditions  \nOperation is only permissible inside an enclosed dry room. \n \nEnvironmental conditions \nTemperature range \n \nAmbient temperature during operating phase \n-25 °C … +55 °C \n(K55) \n \nAmbient temperature during transport and storage \n-25 °C … +70 °C \nRelative humidity \n0 ... 75% RH \nInstallation altitude above sea level \nmax. 2000 m \nDegree of pollution \n2 \nEnvironmental tests \naccording to IEC \n60068"
+  },
+  {
+    "chunk_id": 99,
+    "page": 56,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Technical data \n \n8.1 Technical data \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n57 \nApprovals  \nThe PAC2200 complies with the requirements of the European Directives. \n \nCE conformity  \n \nThe SENTRON PAC2200 complies with the requirements of the \nfollowing European Directives: \nDIRECTIVE 2014/30/EU OF THE EUROPEAN PARLIAMENT \nAND COUNCIL of February 26, 2014, on the harmonization of the \nlaws of the Member States relating to electromagnetic compatibility \nand repealing the Directive 89/336/EEC \nDIRECTIVE 2014/35/EU OF THE EUROPEAN PARLIAMENT \nAND COUNCIL of February 26, 2014, on the harmonization of the \nlaws of the Member States relating to electrical equipment de-\nsigned for use within certain voltage limits \nDIRECTIVE 2011/65/EU OF THE EUROPEAN PARLIAMENT \nAND COUNCIL of June 8, 2011 on the restriction of the use of \ncertain hazardous substances in electrical and electronic equip-\nment. \nConformity with these Directives is verified by compliance with the \nfollowing standards:"
+  },
+  {
+    "chunk_id": 100,
+    "page": 56,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "DIRECTIVE 2011/65/EU OF THE EUROPEAN PARLIAMENT \nAND COUNCIL of June 8, 2011 on the restriction of the use of \ncertain hazardous substances in electrical and electronic equip-\nment. \nConformity with these Directives is verified by compliance with the \nfollowing standards: \nEN 61010-1: 2011 \nEN 61010-2-030: 2011  \nEN 61326-1: 2013 \nEN 61557-12: 2008 \nEN 50581: 2012 \n \nApprovals for Australia and New Zealand \n \n \nC-Tick Australian Radiocommunications Act, \ncompliant with AS/NZS CISPR 11; Industrial Emissions \n \nApproval for Eurasian customs union  \n(valid in Russia, Belarus, Kazakhstan, Kyrgyzstan and Armenia)"
+  },
+  {
+    "chunk_id": 101,
+    "page": 57,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Technical data \n \n8.2 Labeling \n \nPAC2200 \n58 \nManual, 03/2017, L1V30415167B-01 \n8.2 \nLabeling \nLabels on the housing of the PAC2200 \n \n \nSymbol, label \nExplanation\n(1) \nPAC2200 \nProduct designation \n(2) \nLQN/YYMMDDxxxxx\nx \nSerial number of the device \n(3) \n \nEAC certification \n(4) \n \nRisk of electric shock \n(5) \n \nGeneral Warning Symbol \n(6) \n \nOvervoltage category CAT III for current and voltage inputs \n(7) \n \nProtective insulation, device with protection class II \n(8) \n \nCE mark. Confirmation of conformity of the product with the applica-\nble EU directives and compliance with the essential requirements \ncontained in these directives \n(9) \n \nC-Tick certification \n(10) \n \nElectrical installation demands technical competence"
+  },
+  {
+    "chunk_id": 102,
+    "page": 58,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n59 \nDimension drawings \n9\n9.1 \nDimensional drawings \nNote: All dimensions in mm. \n \nFrame dimensions \n \nFigure 9-1 \nFrame dimensions"
+  },
+  {
+    "chunk_id": 103,
+    "page": 60,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n61 \nAppendix \nA\nA.1 \nModbus TCP \nDetailed information about Modbus TCP can be found at the Modbus Website \n(http://www.modbus.org)  \n \nA.1.1 \nFunction codes \nFunction codes control the data exchange. In doing so, a function code tells the slave which \naction it is to take. \nIf an error occurs, the most significant bit (MSB) is set in the FC byte of the response frame. \nSupported Modbus function codes \nTable A- 1 \nSupported Modbus function codes \nFC \nFunction in accordance with Modbus specification\n0 x 01 \nRead Coils \n0 x 02 \nRead Discrete Inputs \n0 x 03 \nRead Holding Registers \n0 x 04 \nRead Input Registers \n0 x 05 \nWrite Single Coil \n0 x 06 \nWrite Single Register \n0 x 0F \nWrite Multiple Coils \n0 x 10 \nWrite Multiple Registers \n0 x 2B \nRead Device Identification \n0 x 14 \nRead File Record (for mean values)"
+  },
+  {
+    "chunk_id": 104,
+    "page": 61,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \n \nPAC2200 \n62 \nManual, 03/2017, L1V30415167B-01 \nA.1.2 \nModbus exception codes \nOverview \nTable A- 2 \nModbus exception codes \nException codes \nName  \nMeaning\nRemedy \n01 \nIllegal Func-\ntion \nIllegal function: \n• \nThe function code in the re-\nquest is not a permissible ac-\ntion for the slave. \n• \nThe slave is in a status in which \nit cannot process a request of \nthis type. This is the case, for \nexample, if it has not yet been \nconfigured and is requested to \nreturn register values. \nCheck which function \ncodes are supported. \n02 \nIllegal Data \nAddress \nIllegal data address \nThis address is not permissible for \nthe slave. This is the case, for \nexample, if the combination of start \noffset and transfer length is invalid. \nCheck the offset and the \nnumber of registers. \n03 \nIllegal Data \nValue \nIllegal data value: \nThe request contains a data value \nthat is not permissible for the slave. \nThis indicates an error in the re-\nmaining structure of a complex"
+  },
+  {
+    "chunk_id": 105,
+    "page": 61,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "offset and transfer length is invalid. \nCheck the offset and the \nnumber of registers. \n03 \nIllegal Data \nValue \nIllegal data value: \nThe request contains a data value \nthat is not permissible for the slave. \nThis indicates an error in the re-\nmaining structure of a complex \nrequest, e.g. an incorrect data \nlength. \nCheck that the specified \noffset and the specified \ndata length in the com-\nmand are correct. \n04 \nSlave Device \nFailure \nError in processing the data: \nAn indefinite error occurred when \nthe slave attempted to execute the \nrequested action. \nCheck that the specified \noffset and the specified \ndata length are correct. \nF0 \nWrite Protec-\ntion ON \nThe action has been rejected be-\ncause the write protection is set. \nDeactivate write protection."
+  },
+  {
+    "chunk_id": 106,
+    "page": 62,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n63 \nA.1.3 \nModbus measured variables with the function codes 0x03 and 0x04 \nAddressing the measured variables \nYou can use the Modbus function codes 0x03 and 0x04 on all the measured variables listed \nbelow.  \n \n \nNote \nError in the case of inconsistent access to measured values \nPlease ensure the start offset of the register is correct when making read accesses. \nPlease ensure the start offset and the number of registers are correct when making write \naccesses. \nExample: If a value consists of two registers, a read command applied in the second register \nwill generate an error code. The PAC2200 will also output an error code if a write operation \nends in the middle of a multi-register value.  \n \n \nTable A- 3 \nAvailable measured variables \nAbbr. in the \"Access\" column \nAbbreviation \nR \nRead access \nW \nWrite access \nRW \nRead and write access \n \n \nOffset  \nNumber of \nregisters  \nName \nFormat \nUnit \nValue range"
+  },
+  {
+    "chunk_id": 107,
+    "page": 62,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "ends in the middle of a multi-register value.  \n \n \nTable A- 3 \nAvailable measured variables \nAbbr. in the \"Access\" column \nAbbreviation \nR \nRead access \nW \nWrite access \nRW \nRead and write access \n \n \nOffset  \nNumber of \nregisters  \nName \nFormat \nUnit \nValue range \nAccess \n1 \n2 \nVoltage VL1-N \nFloat \nV \n- \nR \n3 \n2 \nVoltage VL2-N \nFloat \nV \n- \nR \n5 \n2 \nVoltage VL3-N \nFloat \nV \n- \nR \n7 \n2 \nVoltage VL1-L2 \nFloat \nV \n- \nR \n9 \n2 \nVoltage VL2-L3 \nFloat \nV \n- \nR \n11 \n2 \nVoltage VL3-L1 \nFloat \nV \n- \nR \n13 \n2 \nCurrent L1 \nFloat \nA \n- \nR \n15 \n2 \nCurrent L2 \nFloat \nA \n- \nR \n17 \n2 \nCurrent L3 \nFloat \nA \n- \nR \n19 \n2 \nApparent power L1 \nFloat \nVA \n- \nR \n21 \n2 \nApparent power L2 \nFloat \nVA \n- \nR \n23 \n2 \nApparent power L3 \nFloat \nVA \n- \nR \n25 \n2 \nActive power L1 \nFloat \nW \n- \nR \n27 \n2 \nActive power L2 \nFloat \nW \n- \nR \n29 \n2 \nActive power L3 \nFloat \nW \n- \nR \n31 \n2 \nReactive power L1 \nFloat \nvar \n- \nR \n33 \n2 \nReactive power L2 \nFloat \nvar \n- \nR"
+  },
+  {
+    "chunk_id": 108,
+    "page": 63,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \n \nPAC2200 \n64 \nManual, 03/2017, L1V30415167B-01 \nOffset  \nNumber of \nregisters  \nName \nFormat \nUnit \nValue range \nAccess \n35 \n2 \nReactive power L3 \nFloat \nvar \n- \nR \n37 \n2 \nPower factor L1 \nFloat \n- \n0 ... 1 \nR \n39 \n2 \nPower factor L2 \nFloat \n- \n0 ... 1 \nR \n41 \n2 \nPower factor L3 \nFloat \n- \n0 ... 1 \nR \n55 \n2 \nFrequency \nFloat \nHz \n45 ... 65 \nR \n57 \n2 \nAverage voltage VL-N \nFloat \nV \n- \nR \n59 \n2 \nAverage voltage VL-L \nFloat \nV \n- \nR \n61 \n2 \nAverage Current \nFloat \nA \n- \nR \n63 \n2 \nTotal apparent power \nFloat \nVA \n- \nR \n65 \n2 \nTotal active power \nFloat \nW \n- \nR \n67 \n2 \nTotal reactive power \nFloat \nvar \n- \nR \n69 \n2 \nTotal power factor \nFloat \n- \n- \nR \n205 \n2 \nDevice diagnostics and device status * \nUnsigned long \n- \nByte 0 system \nstatus \nR \n207 \n2 \nStatus of the digital outputs * \nUnsigned long \n- \nByte \nBit 0 = Output 0 \nR \n209 \n2 \nStatus of the digital inputs * \nUnsigned long \n- \nByte 3 \nBit 0 = Input 0 \nR \n211 \n2 \nActive tariff \nUnsigned long \n-"
+  },
+  {
+    "chunk_id": 109,
+    "page": 63,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "2 \nDevice diagnostics and device status * \nUnsigned long \n- \nByte 0 system \nstatus \nR \n207 \n2 \nStatus of the digital outputs * \nUnsigned long \n- \nByte \nBit 0 = Output 0 \nR \n209 \n2 \nStatus of the digital inputs * \nUnsigned long \n- \nByte 3 \nBit 0 = Input 0 \nR \n211 \n2 \nActive tariff \nUnsigned long \n- \n0 = Tariff 1 \n1 = Tariff 2 \nR \n213 \n2 \nOperating hours counter \nUnsigned long \ns \n0 ... 999999999 \nRW \n215 \n2 \nUniversal counter \nUnsigned long \n- \n0 ... 999999999 \nRW \n217 \n2 \nRelevant parameter changes counter \nUnsigned long \n- \n- \nR \n219 \n2 \nCounter all parameter changes \nUnsigned long \n- \n- \nR \n501 \n2 \nCumulated active power import \nFloat \nW \n- \nR \n503 \n2 \nCumulated reactive power import \nFloat \nvar \n- \nR \n505 \n2 \nCumulated active power export \nFloat \nW \n- \nR \n507 \n2 \nCumulated reactive power export \nFloat \nvar \n- \nR \n509 \n2 \nMaximum active power reading during \nthe period \nFloat \nW \n- \nR \n511 \n2 \nMinimum active power reading during \nthe period \nFloat \nW \n- \nR \n513 \n2"
+  },
+  {
+    "chunk_id": 110,
+    "page": 63,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Float \nvar \n- \nR \n505 \n2 \nCumulated active power export \nFloat \nW \n- \nR \n507 \n2 \nCumulated reactive power export \nFloat \nvar \n- \nR \n509 \n2 \nMaximum active power reading during \nthe period \nFloat \nW \n- \nR \n511 \n2 \nMinimum active power reading during \nthe period \nFloat \nW \n- \nR \n513 \n2 \nMaximum reactive power reading dur-\ning the period \nFloat \nvar \n- \nR \n515 \n2 \nMinimum reactive power reading dur-\ning the period \nFloat \nvar \n- \nR \n517 \n2 \nLength of the current measuring period\nUnsigned long \ns \n- \nR \n519 \n2 \nTime Since Start of the active demand \nperiod \nUnsigned long \ns \n- \nR \n801 \n4 \nActive energy import tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n805 \n4 \nActive energy import tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n809 \n4 \nActive energy export tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n813 \n4 \nActive energy export tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW"
+  },
+  {
+    "chunk_id": 111,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n65 \nOffset  \nNumber of \nregisters  \nName \nFormat \nUnit \nValue range \nAccess \n817 \n4 \nReactive energy import tariff 1 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n821 \n4 \nReactive energy import tariff 2 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n825 \n4 \nReactive energy export tariff 1 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n829 \n4 \nReactive energy export tariff 2 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n833 \n4 \nApparent energy tariff 1 \nDouble \nVAh \nOverflow 1.0e+12 \nRW \n837 \n4 \nApparent energy tariff 2 \nDouble \nVAh \nOverflow 1.0e+12 \nRW \n841 \n4 \nL1 active energy import tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n845 \n4 \nL1 active energy import tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n849 \n4 \nL1 active energy export tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n853 \n4 \nL1 active energy export tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n857 \n4 \nL1 reactive energy import tariff 1 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n861 \n4"
+  },
+  {
+    "chunk_id": 112,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Double \nWh \nOverflow 1.0e+12 \nRW \n849 \n4 \nL1 active energy export tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n853 \n4 \nL1 active energy export tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n857 \n4 \nL1 reactive energy import tariff 1 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n861 \n4 \nL1 reactive energy import tariff 2 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n865 \n4 \nL1 reactive energy export tariff 1 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n869 \n4 \nL1 reactive energy export tariff 2 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n873 \n4 \nL1 apparent energy tariff 1 \nDouble \nVAh \nOverflow 1.0e+12 \nRW \n877 \n4 \nL1 apparent energy tariff 2 \nDouble \nVAh \nOverflow 1.0e+12 \nRW \n881 \n4 \nL2 active energy import tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n885 \n4 \nL2 active energy import tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n889 \n4 \nL2 active energy export tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n893 \n4 \nL2 active energy export tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n897 \n4 \nL2 reactive energy import tariff 1"
+  },
+  {
+    "chunk_id": 113,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Wh \nOverflow 1.0e+12 \nRW \n885 \n4 \nL2 active energy import tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n889 \n4 \nL2 active energy export tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n893 \n4 \nL2 active energy export tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n897 \n4 \nL2 reactive energy import tariff 1 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n901 \n4 \nL2 reactive energy import tariff 2 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n905 \n4 \nL2 reactive energy export tariff 1 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n909 \n4 \nL2 reactive energy export tariff 2 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n913 \n4 \nL2 apparent energy tariff 1 \nDouble \nVAh \nOverflow 1.0e+12 \nRW \n917 \n4 \nL2 apparent energy tariff 2 \nDouble \nVAh \nOverflow 1.0e+12 \nRW \n921 \n4 \nL3 active energy import tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n925 \n4 \nL3 active energy import tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n929 \n4 \nL3 active energy export tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n933 \n4 \nL3 active energy export tariff 2 \nDouble \nWh"
+  },
+  {
+    "chunk_id": 114,
+    "page": 64,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "RW \n921 \n4 \nL3 active energy import tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n925 \n4 \nL3 active energy import tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n929 \n4 \nL3 active energy export tariff 1 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n933 \n4 \nL3 active energy export tariff 2 \nDouble \nWh \nOverflow 1.0e+12 \nRW \n937 \n4 \nL3 reactive energy import tariff 1 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n941 \n4 \nL3 reactive energy import tariff 2 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n945 \n4 \nL3 reactive energy export tariff 1 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n949 \n4 \nL3 reactive energy export tariff 2 \nDouble \nvarh \nOverflow 1.0e+12 \nRW \n953 \n4 \nL3 apparent energy tariff 1 \nDouble \nVAh \nOverflow 1.0e+12 \nRW \n957 \n4 \nL3 apparent energy tariff 2 \nDouble \nVAh \nOverflow 1.0e+12 \nRW \nThe following tables contain further details of all measured variables indicated by a *."
+  },
+  {
+    "chunk_id": 115,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \n \nPAC2200 \n66 \nManual, 03/2017, L1V30415167B-01 \nA.1.4 \nStructure - Digital input status and digital output status with the function codes \n0x03 and 0x04 \nThe following are available via Modbus: \n● \"Status of the digital input\"  \n● \"Status of the digital output\"  \nInput status and output status of the PAC2200 \nTable A- 4 \nStructure - Status of the digital inputs and outputs, Modbus offset 207 and 209 \nName \nLength\nStatus\nByte\nBit\nBit mask  \nAccess\nStatus: Digital output \n32 bits \nDO \n3 \n0 \n0x00000001 \nR \nStatus: Digital input \n32 bits \nDI \n3 \n0 \n0x00000001 \nR \nA.1.5 \nStructure - Device diagnostics and device status with the function codes 0x03 \nand 0x04 \nStructure \nTable A- 5 \nModbus offset 205, register 2: Structure device status and device diagnostics \nByte \nBit \nDevice status \nType\nBit mask\nValue range \nAccess\n0 \n0 \nNo synchronization pulse \nStatus \n0x01000000 \n0 = \nnot active \n \n1 = \nactive \nR \n0 \n1 \nDevice configuration menu is active \nStatus"
+  },
+  {
+    "chunk_id": 116,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Structure \nTable A- 5 \nModbus offset 205, register 2: Structure device status and device diagnostics \nByte \nBit \nDevice status \nType\nBit mask\nValue range \nAccess\n0 \n0 \nNo synchronization pulse \nStatus \n0x01000000 \n0 = \nnot active \n \n1 = \nactive \nR \n0 \n1 \nDevice configuration menu is active \nStatus \n0x02000000 \nR \n0 \n2 \nVoltage overload \nStatus \n0x04000000 \nR \n0 \n3 \nCurrent overload \nStatus \n0x08000000 \nR \n0 \n5 \nUpdate status is active \nStatus \n0x20000000 \nR \n0 \n6 \nHardware write protection is active \nStatus \n0x40000000 \nR \n0 \n7 \nModbus communication is write-protected \nStatus \n0x80000000 \nR \n1 \n1 \nMaximum pulse rate exceeded \nStatus \n0x00020000 \nR \n1 \n7 \nWait for user interaction \nStatus \n0x00800000 \nR \n2 \n0 \nRelevant parameter changes1) \nsaving \n0x00000100 \nR \n2 \n2 \nMaximum pulse rate exceeded1) \nsaving \n0x00000400 \nR \n2 \n3 \nRestart of the device1) \nsaving \n0x00000800 \nR \n2 \n4 \nResetting of energy counter by user1) \nsaving \n0x00001000 \nR"
+  },
+  {
+    "chunk_id": 117,
+    "page": 65,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "R \n1 \n7 \nWait for user interaction \nStatus \n0x00800000 \nR \n2 \n0 \nRelevant parameter changes1) \nsaving \n0x00000100 \nR \n2 \n2 \nMaximum pulse rate exceeded1) \nsaving \n0x00000400 \nR \n2 \n3 \nRestart of the device1) \nsaving \n0x00000800 \nR \n2 \n4 \nResetting of energy counter by user1) \nsaving \n0x00001000 \nR \n1) Only these device statuses are to be acknowledged."
+  },
+  {
+    "chunk_id": 118,
+    "page": 66,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n67 \nA.1.6 \nModbus status parameters with the function code 0x02 \nStatus parameters \nYou can use the Modbus function code 0x02 on all the status parameters listed below.  \nTable A- 6 \nStatus parameters \nOffset  \nNumber of \nregisters  \nName \nFormat  \nValue range \nAccess \n108 \n0 \nRelevant parameter changes \nBit \n0 = \nnot active \n \n1 = \nactive \nR \n109 \n0 \nUpper or lower  \nlimit violation \nBit \nR \n110 \n0 \nMaximum pulse rate exceeded \nBit \nR \n111 \n0 \nRestart of the device \nBit \nR \n112 \n0 \nResetting of energy counter by user \nBit \nR \n117 \n0 \nMaximum pulse rate exceeded \nBit \nR \n124 \n0 \nNo synchronization pulse \nBit \nR \n125 \n0 \nDevice configuration menu is active \nBit \nR \n126 \n0 \nVoltage overload \nBit \nR \n127 \n0 \nCurrent overload \nBit \nR \n200 \n0 \nDigital input 0 \nBit \nR \n300 \n0 \nDigital output 0 \nBit \nR \nA.1.7 \nModbus settings with the function codes 0x03, 0x04 and 0x10 \nAddressing the settings"
+  },
+  {
+    "chunk_id": 119,
+    "page": 66,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Bit \nR \n125 \n0 \nDevice configuration menu is active \nBit \nR \n126 \n0 \nVoltage overload \nBit \nR \n127 \n0 \nCurrent overload \nBit \nR \n200 \n0 \nDigital input 0 \nBit \nR \n300 \n0 \nDigital output 0 \nBit \nR \nA.1.7 \nModbus settings with the function codes 0x03, 0x04 and 0x10 \nAddressing the settings \nYou can use the Modbus function codes 0x03, 0x04 for read accesses and 0x10 for write \naccesses on all the settings parameters listed below.  \nTable A- 7 \nSettings parameters \nOffset  \nNumber of \nregisters  \nName \nUnit \nFormat \nValue range \nAccess \n49999 \n2 \nRated current display \nrange \nA \nunsigned long \n1 - 99999 A \nRW \n50001 \n2 \nConnection type \n- \nunsigned long \n0 = \n3P4W \nRW \n4 = \n1P2W \n50011 \n2 \nPrimary current \nA \nunsigned long \n1 ... 99999 A (5 A device) \nRW \n \n65 A (65 A device) \nR \n50013 \n2 \nSecondary current \nA \nunsigned long \n1 A, 5 A (5 A device) \nRW \n \n65 A (65 A device) \nR \n50021 \n2 \nDemand period \nMin. \nunsigned long \n1 ... 60 \nRW"
+  },
+  {
+    "chunk_id": 120,
+    "page": 67,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \n \nPAC2200 \n68 \nManual, 03/2017, L1V30415167B-01 \nOffset  \nNumber of \nregisters  \nName \nUnit \nFormat \nValue range \nAccess \n50023 \n2 \nSynchronization \n- \nunsigned long \n0 = \nNo synchronization RW \n1 = \nSynchronization \nvia bus \n2 = \nSynchronization \nvia the digital input \n50243 \n2 \nModification to current \ndirection L1 \n- \nunsigned long \n0 = \nNo \nRW \n1 = \nYes \n50245 \n2 \nChange of current direc-\ntion L2 \n- \nunsigned long \n0 = \nNo \nRW \n1 = \nYes \n50247 \n2 \nChange of current direc-\ntion L3 \n- \nunsigned long \n0 = \nNo \nRW \n1 = \nYes \n \nTable A- 8 \nSettings parameter for the digital input \nOffset  \nNumber of \nregisters  \nName \nUnit \nFormat \nValue range \nAccess \n50025 \n2 \nDigital input \"Action\" \n- \nunsigned long \n0 = \nStatus only \nRW \n1 = \nPulse input \n2 = \nHigh tariff / low \ntariff switching \n3 = \nSynchronization \n50029 \n2 \n\"Pulse input\" mode \nkWh \nunsigned long \n0 = \n0 kWh \nRW \n1 = \nExport kWh \n50031 \n2 \nPulses per unit (pulses \nper 1000 Wh / VARh) \n- \nunsigned long"
+  },
+  {
+    "chunk_id": 121,
+    "page": 67,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "- \nunsigned long \n0 = \nStatus only \nRW \n1 = \nPulse input \n2 = \nHigh tariff / low \ntariff switching \n3 = \nSynchronization \n50029 \n2 \n\"Pulse input\" mode \nkWh \nunsigned long \n0 = \n0 kWh \nRW \n1 = \nExport kWh \n50031 \n2 \nPulses per unit (pulses \nper 1000 Wh / VARh) \n- \nunsigned long \n1 ... 4000 \nRW \n50239 \n2 \nInput pulse divider \nkWh \nunsigned long \n0 = \n1 kWh \nRW \n1 = \n10 kWh \n2 = \n100 kWh \n3 = \n1000 kWh \n \nTable A- 9 \nSettings parameter for the digital output \nOffset  \nNumber of \nregisters  \nName \nUnit \nFormat \nValue range \nAccess \n50033 \n2 \nSwitching function as-\nsignment to a vector \ngroup \n- \nunsigned long \n0 ... 99 \nRW \n50035 \n2 \nDigital output \"Action\" \n- \nunsigned long \n0 = \nOff \nRW \n1 = \nDevice ON \n2 = \nSwitching output \n3 = \nPhase sequence \n4 = \nLimit violation"
+  },
+  {
+    "chunk_id": 122,
+    "page": 68,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n69 \nOffset  \nNumber of \nregisters  \nName \nUnit \nFormat \nValue range \nAccess \n5 = \nEnergy pulse \n50041 \n2 \n\"Energy pulse\" mode \n- \nunsigned long \n0 = \nImport kWh \nRW \n1 = \nExport kWh \n2 = \nImport kVARh \n3 = \nExport kVARh \n50043 \n2 \nPulses per unit (pulses \nper 1000 Wh / VARh) \n- \nunsigned long \n1 ... 4000 \nRW \n50045 \n2 \nPulse length \nms \nunsigned long \n30 ... 500 \nRW \n50147 \n2 \nDigital output timeout \ns \nunsigned long \n0 = AUS \n0.1 ... 18000 = Output is \nreset after expiry of the \ntime, provided there is no \noperator input. \nRW \n50237 \n2 \nOutput pulse divider \nkWh \nunsigned long \n0 = \n1 kWh \nRW \n1 = \n10 kWh \n2 = \n100 kWh \n3 = \n1000 kWh \nA.1.8 \nModbus communication parameters with the function codes 0x03, 0x04 and \n0x10 \nAddressing the communication parameters  \nTable A- 10 \nCommunication parameters \nOffset  \nNumber of \nregisters  \nName \nUnit \nFormat \nApplicable \nModbus func-\ntion codes \nValue range \nAccess \n62993 \n2"
+  },
+  {
+    "chunk_id": 123,
+    "page": 68,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "1000 kWh \nA.1.8 \nModbus communication parameters with the function codes 0x03, 0x04 and \n0x10 \nAddressing the communication parameters  \nTable A- 10 \nCommunication parameters \nOffset  \nNumber of \nregisters  \nName \nUnit \nFormat \nApplicable \nModbus func-\ntion codes \nValue range \nAccess \n62993 \n2 \nSNTP server IP \naddress \n- \nunsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n0 ... FFFFFFFFh \nRW \n62995 \n2 \nSNTP client mode \n- \nunsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n0 = SNTP client \nOFF \n1 = SNTP active \nclient \n2 = SNTP broad-\ncast client \nRW \n62997 \n2 \nSubnet firewall \nON/OFF \n- \nunsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n- \nRW"
+  },
+  {
+    "chunk_id": 124,
+    "page": 69,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \n \nPAC2200 \n70 \nManual, 03/2017, L1V30415167B-01 \nOffset  \nNumber of \nregisters  \nName \nUnit \nFormat \nApplicable \nModbus func-\ntion codes \nValue range \nAccess \n63001 \n2 \nIP address \n- \nunsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n0 ... FFFFFFFFh \nRW \n63003 \n2 \nSubnet mask \n- \nunsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n0 ... FFFFFFFFh \nRW \n63005 \n2 \nGateway \n- \nunsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n0 ... FFFFFFFFh \nRW \n63007 \n2 \nBootloader version \n- \nunsigned long \n• \n0x03 \n• \n0x04 \nchar, uchar, uchar, \nuchar \nR \n63009 \n2 \nPassword protection \nON/OFF \n- \nunsigned long \n• \n0x03 \n• \n0x04 \n0; 1 \nR \n63135 \n2 \nModbus RTU ad-\ndress (if RS485 port \nis available) \n- \nunsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n1 - 247 \nRW \n63137 \n2 \nMODBUS RTU baud \nrate (if RS485 port is \navailable) \n- \nunsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n0 = 4800 baud \n1 = 9600 baud \n2 = 19200 baud \n3 = 38400 baud \nRW \n63139 \n2 \nMODBUS RTU data \nbits/ parity/ stop bits \n(if RS485 port is"
+  },
+  {
+    "chunk_id": 125,
+    "page": 69,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "unsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n1 - 247 \nRW \n63137 \n2 \nMODBUS RTU baud \nrate (if RS485 port is \navailable) \n- \nunsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n0 = 4800 baud \n1 = 9600 baud \n2 = 19200 baud \n3 = 38400 baud \nRW \n63139 \n2 \nMODBUS RTU data \nbits/ parity/ stop bits \n(if RS485 port is \navailable) \n- \nunsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n0 = 8N2 \n1 = 8E1 \n2 = 8O1 \n3 = 8N1 \nRW \n63141 \n2 \nMODBUS RTU \nresponse time (if \nRS485 port is avail-\nable) \nms \nunsigned long \n• \n0x03 \n• \n0x04 \n• \n0x10 \n1 - 255 \nRW \n64001 \n27 \nIM0 data \n- \nIM0STRUCT \n• \n0x03 \n• \n0x04 \n- \nR \n64028 \n89 \nIM1 – IM4 data \n- \nIM14STRUCT \n• \n0x03 \n• \n0x04 \n• \n0x10 \n- \nRW \n65290 \n2 \nHardware write \nprotection ON/OFF \n(requires pressing of \n\"SW\" key on device) \n- \nunsigned long \n• \n0x10 \n0 = \nON \nRW \n1 = \nOFF"
+  },
+  {
+    "chunk_id": 126,
+    "page": 70,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n71 \nA.1.9 \nModbus device information with the function codes 0x03, 0x04 and 0x10 \nAddressing the device information parameters \nYou access the following device information parameters block-by-block only, e.g. read from \nOffset 64001 27 Register. \n \n \nNote \nError in the case of inconsistent access to I&M data. \nPlease ensure the start offset and the number of registers are correct when making read \naccesses and write accesses. Always read or write the entire block. \nPlease ensure the start offset and the number of registers are correct when making write \naccesses. \nIf a value consists of several registers, a read command applied in the second register, for \nexample, will generate an error code. The PAC2200 will also output an error code if, for \nexample, a write operation ends in the middle of a multi-register value.  \n \n \nTable A- 11 \nI&M 0 parameters with the function codes 0x03 and 0x04 \nOffset \nTotal regis-"
+  },
+  {
+    "chunk_id": 127,
+    "page": 70,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "example, will generate an error code. The PAC2200 will also output an error code if, for \nexample, a write operation ends in the middle of a multi-register value.  \n \n \nTable A- 11 \nI&M 0 parameters with the function codes 0x03 and 0x04 \nOffset \nTotal regis-\nters  \nNumber of regis-\nters per parame-\nter \nName \nFormat \nValue range \nAccess \nStart offset  \n64001 \n27 \n[1] \nManufacturer's ID \nunsigned short \n42*) \nR \n[64002] \n[10] \nOrder No. \nChar 20 \nASCII \nR \n[64012] \n[8] \nSerial number \nChar 16 \nASCII \nR \n[64020] \n[1] \nHardware version \nunsigned short \n0 ... 65535 \nR \n[64021] \n[2] \nFirmware version \n1 char, 3 unsigned \nchar \nV 0.0.0 ... \nV 255.255.255 \nR \n[64023] \n[1] \nCounter for changes \nunsigned short \n1 ... 65535 \nR \n[64024] \n[1] \nProfile ID \nunsigned short \n3A00 ... F6FF \nR \n[64025] \n[1] \nSpecific Profile ID \nunsigned short \n- \nR \n[64026] \n[1] \nVersion of the I&M data\n2 unsigned char \n0.0 ... 255.255 \nR \n[64027] \n[1] \nSupported I&M data \nunsigned short \n00 ... FF \nR"
+  },
+  {
+    "chunk_id": 128,
+    "page": 70,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "unsigned short \n1 ... 65535 \nR \n[64024] \n[1] \nProfile ID \nunsigned short \n3A00 ... F6FF \nR \n[64025] \n[1] \nSpecific Profile ID \nunsigned short \n- \nR \n[64026] \n[1] \nVersion of the I&M data\n2 unsigned char \n0.0 ... 255.255 \nR \n[64027] \n[1] \nSupported I&M data \nunsigned short \n00 ... FF \nR \n*) 42 stands for Siemens AG"
+  },
+  {
+    "chunk_id": 129,
+    "page": 71,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \n \nPAC2200 \n72 \nManual, 03/2017, L1V30415167B-01 \nTable A- 12 \nI&M 1-4 parameters with the function codes 0x03, 0x04 and 0x10 \nOffset \nTotal regis-\nters \nNumber of reg-\nisters per pa-\nrameter \nName \nFormat \nValue range  \nAccess \nStart offset  \n64028 \n89 \n[16] \nPlant identifier \nChar 32 \nASCII \nRW \n[64044] \n[11] \nLocation identifier \nChar 22 \nASCII \nRW \n[64055] \n[8] \nInstallation date \nChar 16 \nASCII \nRW \n[64063] \n[27] \nComment \nChar 54 \nASCII \nRW \n[64090] \n[27] \nSignature \nChar 54 \n- \nRW \nA.1.10 \nModbus command parameters \nAddressing the command parameters \nYou can apply the Modbus function code 0x06 to the command parameters.  \nTable A- 13 \nCommand parameters \nOffset  \nNumber \nof regis-\nters  \nName \nUnit \nFormat \nValue range \nAccess \n60004 \n1 \nReset energy counter \n- \nunsigned short \n0 = \nall \nW \n1 = \nActive energy \nimport tariff 1 \n2 =  \nActive energy \nimport tariff 2 \n3 = \nActive energy \nexport tariff 1 \n4 = \nActive energy \nexport tariff 2 \n5 ="
+  },
+  {
+    "chunk_id": 130,
+    "page": 71,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Offset  \nNumber \nof regis-\nters  \nName \nUnit \nFormat \nValue range \nAccess \n60004 \n1 \nReset energy counter \n- \nunsigned short \n0 = \nall \nW \n1 = \nActive energy \nimport tariff 1 \n2 =  \nActive energy \nimport tariff 2 \n3 = \nActive energy \nexport tariff 1 \n4 = \nActive energy \nexport tariff 2 \n5 = \nReactive energy \nimport tariff 1 \n6 = \nReactive energy \nimport tariff 2 \n7 =  \nReactive energy \nexport tariff 1 \n8 = \nReactive energy \nexport tariff 2 \n9 = \nApparent energy \ntariff 1 \n10 = \nApparent energy \ntariff 2 \n60005 \n1 \nSynchronization of the de-\nmand period \nMin. \nunsigned short \n1 ... 60 \nW \n60006 \n1 \nSwitching tariff \n- \nunsigned short \n0 = \nMain tariff \nW"
+  },
+  {
+    "chunk_id": 131,
+    "page": 72,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Appendix \n \nA.1 Modbus TCP \nPAC2200 \nManual, 03/2017, L1V30415167B-01 \n73 \nOffset  \nNumber \nof regis-\nters  \nName \nUnit \nFormat \nValue range \nAccess \n1 = \nSecondary \ntariff \n60007 \n1 \nAcknowledge the diagnostics \nbit1) (cf. stored bits in un-\nsigned long beginning off-\nset 205) \n- \nunsigned short \n0 ... ffffh \nW \n60008 \n1 \nSwitching outputs (if parame-\nterized) \n- \nunsigned short \n0ffh ... 1ffh \nW \nByte 0  \n= 0 \nDigital output \n0.0 \nByte 1  \n= 0 \nOFF \nByte 1  \n= 1 \nON \n60009 \n1 \nSwitching command for vector \ngroup \n- \nunsigned short \nHigh 0 ... 99, Low 0 ... 1 \nHigh byte group assign-\nment \nLow byte 1 = ON, \n0 = OFF  \nW \n65300 \n1 \nActivation of IP / Ethernet \nconfiguration \n- \nunsigned short \n0 \nW \n1) The Modbus Master must acknowledge these diagnostics bits. \nA.1.11 \nModbus standard device identification with the function code 0x2B \nAddressing the Modbus standard device identification \nYou can use Modbus function code 0x2B on these device identification parameters. \nTable A- 14"
+  },
+  {
+    "chunk_id": 132,
+    "page": 72,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "0 \nW \n1) The Modbus Master must acknowledge these diagnostics bits. \nA.1.11 \nModbus standard device identification with the function code 0x2B \nAddressing the Modbus standard device identification \nYou can use Modbus function code 0x2B on these device identification parameters. \nTable A- 14 \nParameter for Modbus standard device identification \nObject ID \nName \nFormat \nAccess\nOID 0 \nManufacturer \nString \nR \nOID 1 \nManufacturer device name \nString \nR \nOID 2 \nFirmware version / bootloader version \nString \nR"
+  },
+  {
+    "chunk_id": 133,
+    "page": 74,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "PAC2200 \nManual, 03/2017, L1V30415167B-01 \n75 \nIndex \nA \nApprovals, 57 \nB \nBit mask, 66, 66 \nC \nCE conformity, 57, 57 \nCommand parameters, 72 \nCommunication, 54 \nCommunication parameters, 69 \nComponents of the product, 7 \nConnection elements, 55 \nConnection examples, 28 \nConnection type \nDependency of the measured variables, 14 \nConnection types, 14 \nCounters, 11 \nD \nDegree of protection, 56 \nDevice diagnostics, 66 \nDevice identification parameters, 73 \nDevice status, 66 \nDisassembly, 24 \nDisplay \nMeasured variables depending on the connection \ntype, 14 \nDisplay and operator control \nPerformance features, 12 \nDisposal, 50 \nE \nEnvironmental conditions, 56 \nError code, 63, 71 \nException code, 62 \nF \nFirmware updates, 49 \nFunction code, 61, 73 \nI \nInformation about third-party software \nLatest information, 7 \nInstallation location, 23 \nInterface \nPerformance features, 12 \nL \nLatest information \nInformation about third-party software, 7 \nM \nMeasured value acquisition, 51"
+  },
+  {
+    "chunk_id": 134,
+    "page": 74,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Exception code, 62 \nF \nFirmware updates, 49 \nFunction code, 61, 73 \nI \nInformation about third-party software \nLatest information, 7 \nInstallation location, 23 \nInterface \nPerformance features, 12 \nL \nLatest information \nInformation about third-party software, 7 \nM \nMeasured value acquisition, 51 \nMeasured variables \nDisplay, 14 \nMeasuring method, 51 \nModbus \nDigital input, status, 66 \nDigital output, status, 66 \nException codes, 62 \nModbus function code, 63, 67, 67, 69, 72, 73 \nModbus measured variables, 63 \nModbus RTU, 54 \nMounting \nProcedure, 24 \nO \nObject ID, 73 \nOffset, 62, 63, 66, 67, 67, 68, 68, 69, 72 \nP \nParameter \nCommand, 72 \nCommunication, 69"
+  },
+  {
+    "chunk_id": 135,
+    "page": 75,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "Index \n \n \nPAC2200 \n76 \nManual, 03/2017, L1V30415167B-01 \nDevice information, 73 \nStatus, 67 \nPower demand, 11 \nPrerequisites \nStartup, 39 \nProcedure \nMounting, 24 \nProtection class, 56 \nR \nRecycling, 50 \nRegister, 62, 63, 67, 67, 68, 68, 69, 72 \nRepairs, 50 \nLoss of warranty, 50 \nRS 485 interface, 54 \nS \nSafety instructions, 9 \nScrew terminal, 55 \nSecurity \nPerformance features, 12 \nStartup, 39 \nPrerequisites, 39 \nStatus parameters, 67 \nT \nTechnical specifications, 51 \nApprovals, 57 \nCommunication, 54 \nConnection elements, 55 \nDegree of protection, 56 \nDigital Input, 53 \nDigital output, 54 \nEnvironmental conditions, 56 \nMeasuring accuracy, 53 \nMeasuring inputs, 52, (5 A device), (65 A device) \nProtection class, 56 \nRS 485 interface, 54 \nScrew terminal, 55 \nU \nUpdating the firmware, 49"
+  },
+  {
+    "chunk_id": 136,
+    "page": 77,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\LV_Podrecznik_PAC2200_EN_2017.pdf",
+    "content": "EM LP\nOnline\nFurther Information\nAlways at your disposal: our extensive support\nwww.siemens.com/online-support\nSubject to change.\n3ZW1012-7KM22-0AC1\n© Siemens AG 2017\nGermany\nSiemens AG\nEnergy Management \nLow Voltage & Products\nPostfach 10 09 53\n93009 REGENSBURG"
+  }
+]

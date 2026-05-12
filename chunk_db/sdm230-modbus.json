@@ -1,0 +1,476 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n- 1 -\n \nSDM230-Modbus \nSingle-Phase Two Module DIN rail Meters \n \n \n \nMeasures kWh, Kvarh, KW, Kvar, KVA, PF, Hz, dmd, V, A, etc.  \n \nBi-directional measurement IMP & EXP \n \nTwo pulse outputs \n \nRS485 Modbus \n \nDin rail mounting 35mm \n \n100A direct connection \n \nBetter than Class 1 / B accuracy  \n \nUser Manual V1.4 \n2015"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n- 2 -\nApplication \nThe energy-meters “with a blue back-lighted LCD screen for prefect reading” are used to measure single-phase like \nresidential, Utility and Industrial application. The unit measures and displays various important electrical \nparameters, and provide a communication port for remote reading and monitoring. Bi-directional energy \nmeasurement makes the unit a good choice for solar PV energy metering. \nPART 1 Specification \n \nGeneral Specifications \nVoltage AC (Un)     \n \n \n230V \nVoltage Range       \n \n \n176~276V AC \nBase Current (Ib)     \n \n \n10A \nMax. Current (Imax)    \n \n100A \nMini Current (Imin)  \n \n \n0.5A \nStarting current     \n \n \n0.4% of Ib \nPower consumption    \n \n<2W/10VA \nFrequency            \n \n50/60Hz(±10%) \nAC voltage withstand    \n \n4KV for 1 minute \nImpulse voltage withstand    \n6KV-1.2uS wavform \nOvercurrent withstand  \n \n30Imax for 0.01s \nPulse output rate  \n \n \n1000imp/kWh (default)"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "0.4% of Ib \nPower consumption    \n \n<2W/10VA \nFrequency            \n \n50/60Hz(±10%) \nAC voltage withstand    \n \n4KV for 1 minute \nImpulse voltage withstand    \n6KV-1.2uS wavform \nOvercurrent withstand  \n \n30Imax for 0.01s \nPulse output rate  \n \n \n1000imp/kWh (default) \n \n \n \n \n \n \n    1000/100/10/1 imp/kWh/kVarh (configurable) \nDisplay \n \n \n \n \n \nLCD with blue backlit \nMax. Reading  \n \n \n \n999999.9kWh \n \nAccuracy \nVoltage      \n \n \n \n0.5% of range maximum \nCurrent    \n \n \n \n \n0.5% of nominal \nFrequency     \n \n \n \n0.2% of mid-frequency \nPower factor   \n \n \n \n1% of Unity \nActive power  \n \n \n \n1% of range maximum \nReactive power \n \n \n \n1% of range maximum \nApparent power \n \n \n \n1% of range maximum \nActive energy  \n \n \n    Class 1 IEC62053-21 \n                            Class B EN50470-3 \nReactive energy  \n \n \n \n1% of range maximum"
+  },
+  {
+    "chunk_id": 3,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n- 3 -\nEnvironment  \nOperating temperature   \n \n \n \n-25℃ to +55℃ \nStorage and transportation temperature  \n-40℃ to +70℃ \nReference temperature  \n \n \n \n23℃±2℃ \nRelative humidity   \n \n \n \n \n0 to 95%, non-condensing \nAltitude  \n \n \n \n \n \n \nup to 2500m \nWarm up time                     \n10s \nInstallation category \n \n \n \n \nCAT III \nMechanical Environment \n \n \n \nM1 \nElectromagnetic environment \n \n \nE2 \nDegree of pollution  \n \n \n \n \n2 \n \nOutput \nPulse Output \nThe meter provides two pulse outputs. Both pulse outputs are passive type. \nPulse output 1 is configurable. The pulse output can be set to generate pulses to represent total / import/export \nkWh or kVarh. \nThe pulse constant can be set to generate 1 pulse per: 0.001(default) /0.01/0.1/1kWh/kVarh. \nPulse width: 200/100/60ms \nPulse output 2 is non-configurable. It is fixed up with import kWh. The constant is 1000imp/kWh. \n \nRS485 output for Modbus RTU"
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "kWh or kVarh. \nThe pulse constant can be set to generate 1 pulse per: 0.001(default) /0.01/0.1/1kWh/kVarh. \nPulse width: 200/100/60ms \nPulse output 2 is non-configurable. It is fixed up with import kWh. The constant is 1000imp/kWh. \n \nRS485 output for Modbus RTU  \nThe meter provides a RS485 port for remote communication. Modbus RTU is the protocol applied. For Modbus \nRTU, the following RS485 communication parameters can be configured from the Set-up menu.  \nBaud rate: 1200, 2400, 4800, 9600 \nParity: NONE/EVEN/ODD \nStop bits: 1 or 2 \nModbus Address: 1 to 247 \n \nMechanics \nDin rail dimensions  \n \n \n \n \n36x99x63 (WxHxD) DIN 43880 \nMounting  \n \n \n \n \n \n \nDIN rail 35mm \nSealing \n \n \n \n \n \n \n \nIP51 (indoor) \nMaterial  \n \n \n \n \n \n \nself-extinguishing UL94V-0"
+  },
+  {
+    "chunk_id": 5,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n \n- 4 -\nLCD display \n \nItem Descriptions \n1 \n7 digits used to display measured values or RTC \n2 \nTotal value  \n4 \nImport information, Export information \n5 \nMax. Demand for Power or Current \n6 \nPulse output 1 and Pulse output 2 \n7 \nMeasurement units \n8 \nPF = power factor  Hz = frequency \n9 \nBar display of Power \n10 \nCommunication indicator \n11 \nTime information \n12 \nLow battery warning \n13 \nLock symbol \nPART 2 Operation \nInitialization Display \nWhen it is powered on, the meter will initialize and do self-checking. \n \n \n \n \n \nFull screen      software version     Modbus ID        Baud rate       total kWh \n \nScroll display by Button \nAfter initialization and self-checking program, the meter display the measured values. The default page is total \nkWh. If the user wants to check other information, he needs to press the scroll button on the front panel.  \n \nThe display order by scroll button \n:"
+  },
+  {
+    "chunk_id": 6,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Scroll display by Button \nAfter initialization and self-checking program, the meter display the measured values. The default page is total \nkWh. If the user wants to check other information, he needs to press the scroll button on the front panel.  \n \nThe display order by scroll button \n: \n \nTotal kWh import kWhexport kWh total kVarh import kVarh export kVarh \nMax. power demand voltage currentWVar VA power factor  \nfrequency pulse constant Modbus ID baudrate. \n \nThe display order by scroll button  \n:  \nTotal kWh import kWhexport kWh resettable KWh total kVarh import kVarh export kVarh \nresettable kVarhMax. power demand voltage currentWVar VA power factor  \nfrequency pulse constant Modbus ID  baud rate continuous running time."
+  },
+  {
+    "chunk_id": 7,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n- 5 -\nPage Display \nDescriptions \n1 \n \nTotal active energy  \nExample:70.00kWh \n2 \n \nImport active energy  \nExample: 50.00kWh \n3 \n \nExport active energy  \nExample: 20.00kWh \n4 \n \nTotal resettable energy \n \n \n5 \n \nTotal reactive energy \nExample: 10.00kVarh \n6 \n \nImport reactive energy  \nExample: 5.00kVarh \n7 \n \nExport reactive energy  \nExample: 5.00kVarh"
+  },
+  {
+    "chunk_id": 8,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n- 6 -\n8 \n \nTotal resettable reactive energy \n \n9 \n \nTotal max. demand \nExample: 6930W \n10 \n \nVoltage  \nExample: 229.8V \n11 \n \nCurrent \nExample: 30.156A \n12 \n \nActive Power \nExample: 4700W \n13 \n \nReactive Power \nExample: 1030Var \n14 \n \nApparent power \nExample: 4811VA"
+  },
+  {
+    "chunk_id": 9,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n \n- 7 -\n15 \n \nPower factor \nExample: 1.000 \n16 \n \nFrequency \nExample: 49.99Hz \n17 \n \nPulse Constant \nExample: 1000 \n18 \n \nModbus Address \nExample: 001 \n19 \n \nBaud rate \nExample: 9600 \n20 \n \nContinuous running time(In total)"
+  },
+  {
+    "chunk_id": 10,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n \n- 8 -\nSet-up Mode \nTo get into Set-up Mode, the user need press the “Enter” button \n for 3 second. \nPage Display \nDescriptions \n \n \nThe setting is done correctly \n \n \nThe entering information is wrong. The \noperation fails. \n1 \n \nPassword \nTo get into Set-up mode, it asks a password \nconfirmation.  \nDefault password: 1000 \n \n2 \n \nAddress ID \nDefault ID is 001 \nRange: 001~247 \n \n2-1 \n \nPress the “Enter” button, the first digit \nflash. \nPress the “Scroll” button to change the \nvalue. After choose the new address value, \nthe user need pressing the “Enter” button \nto confirm the setting.  \n3 \n \nBaud rate \nDefault value: 2400bps \nRange: 1200, 2400, 4800, 9600bps."
+  },
+  {
+    "chunk_id": 11,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n \n- 9 -\n3-1 \n \nPress the “Enter” button, the red digit flash. \nPress the “Scroll” button to change the \nvalue.  \nAfter choose the new baud rate, the user \nneed pressing the “Enter” button to confirm \nthe setting. \n4 \n \nParity  \nDefault: None \nOption：None, Even, Odd \n4-1 \n \nPress the “Enter” button, the red part flash. \nPress the “Scroll” button to change the \noption.  \nAfter choose the new Parity, the user need \npressing the “Enter” button to confirm the \nsetting. \n5 \n \nPulse Output  \nDefault: Export kWh \nOption：kWh / KVarh / Imp. Kwh /  \nExp.kWh / Imp.kVarh / Exp.kVarh \n5-1 \n \nPress the “Enter” button, the red part flash. \nPress the “Scroll” button to change the \noption.  \nAfter choose the new Pulse output option, \nthe user need pressing the “Enter” button \nto confirm the setting. \n6 \n \nPulse Constant \nDefault: 1000 \nOption: 1000 / 100 / 10 / 1 \n6-1 \n \nPress the “Enter” button, the red part flash. \nPress the “Scroll” button to change the \noption."
+  },
+  {
+    "chunk_id": 12,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "option.  \nAfter choose the new Pulse output option, \nthe user need pressing the “Enter” button \nto confirm the setting. \n6 \n \nPulse Constant \nDefault: 1000 \nOption: 1000 / 100 / 10 / 1 \n6-1 \n \nPress the “Enter” button, the red part flash. \nPress the “Scroll” button to change the \noption.  \nAfter choose the new Pulse constant option, \nthe user need pressing the “Enter” button \nto confirm the setting."
+  },
+  {
+    "chunk_id": 13,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n \n- 10 -\n7 \n \nPulse duration \nDefault: 100mS \nOption: 200 / 100 / 60ms \n \n7-1 \n \nPress the “Enter” button, the red part flash. \nPress the “Scroll” button to change the \noption.  \nAfter choose the new Pulse duration option, \nthe user need pressing the “Enter” button \nto confirm the setting. \n8 \n \nDemand Integration Time \nDefault: 15 minutes \nOption: 0 / 5 / 10 / 15 / 30 / 60 \n \n8-1 \n \nPress the “Enter” button, the red part flash. \nPress the “Scroll” button to change the \noption.  \nAfter choose the new DIT option, the user \nneed pressing the “Enter” button to confirm \nthe setting. \n9 \n \nAutomatic Scroll Time Interval \nDefault: 0 S \nOption: 0 ~ 30S \n \n9-1 \n \nPress the “Enter” button, the red part flash. \nPress the “Scroll” button to change the \noption.  \nAfter choose the new “Scrl” option, the user \nneed pressing the “Enter” button to confirm \nthe setting. \n10 \n \nBacklit lasting time set-up \nDefault: 60 min \nOption: 0（OFF）/ 5/ 10/ 20/ 30/ 60"
+  },
+  {
+    "chunk_id": 14,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "9-1 \n \nPress the “Enter” button, the red part flash. \nPress the “Scroll” button to change the \noption.  \nAfter choose the new “Scrl” option, the user \nneed pressing the “Enter” button to confirm \nthe setting. \n10 \n \nBacklit lasting time set-up \nDefault: 60 min \nOption: 0（OFF）/ 5/ 10/ 20/ 30/ 60 \nLong press “Enter” button to enter set-up \nmode."
+  },
+  {
+    "chunk_id": 15,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n- 11 -\n10-1 \n \nPress the “Scroll” button to change the \noption.  \nAfter choose the new “Scrl” option, the user \nneed pressing the “Enter” button to confirm \nthe setting. \n \n11 \n \nClear  \nLong press “Enter” to enter clear interface. \n11-1 \n \nClear Max demand of active power \nLong press “Enter” button to confirm the \noperation.  \n \n11-2 \n \nClear the resettable energy \nLong press the Enter button to confirm the \noperation. \n \n10 \n \nPassword \nDefault: 1000 \n \n10-1 \n \nPress the “Enter” button, the red part flash. \nPress the “Scroll” button to change the \nvalue.  \nAfter choose the new password, the user \nneed pressing the “Enter” button to confirm \nthe setting."
+  },
+  {
+    "chunk_id": 16,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n \n- 12 -\nWiring diagram \n \n \n \nDimensions"
+  },
+  {
+    "chunk_id": 17,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230-Modbus User Manual \n \n- 13 -\n \nInstallation"
+  },
+  {
+    "chunk_id": 18,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \n1.Eastron SDM230Modbus Smart Meter Modbus Protocol Implementation V1.2 \n \n1.1 Modbus Protocol Overview \n \nThis section provides basic information for interfacing the Eastron Smart meter to a \nModbus Protocol network. If background information or more details of the Eastron \nimplementation is required, please refer to section 2 and 3 of this document. \n \nEastron offers the option of an RS485 communication facility for direct connection to \nSCADA or other communications systems using the Modbus Protocol RTU salve protocol. \nThe Modbus Protocol establishes the format for the master’s query by placing into it the \ndevice address, a function code defining the requested action, any data to be sent, and an \nerror checking field. The slave’s response message is also constructed using Modbus \nProtocol. It contains fields confirming the action taken, any data to be returned, and an"
+  },
+  {
+    "chunk_id": 19,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "device address, a function code defining the requested action, any data to be sent, and an \nerror checking field. The slave’s response message is also constructed using Modbus \nProtocol. It contains fields confirming the action taken, any data to be returned, and an \nerror-checking field. If an error occurs in receipt of the message, SDM230Modbus will \nmake no response. If the SDM230Modbus is unable to perform the requested action, it will \nconstruct an error message and send it as the response. \n \nThe electrical interface is 2-wire RS485, via 2 screw terminals. Connection should be \nmade using twisted pair screened cable (Typically 22 gauge Belden 8761 or equivalent). \nAll \"A\" and \"B\" connections are daisy chained together. Line topology may or may not \nrequire terminating loads depending on the type and length of cable used. Loop (ring) \ntopology does not require any termination load. The impedance of the termination load"
+  },
+  {
+    "chunk_id": 20,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "All \"A\" and \"B\" connections are daisy chained together. Line topology may or may not \nrequire terminating loads depending on the type and length of cable used. Loop (ring) \ntopology does not require any termination load. The impedance of the termination load \nshould match the impedance of the cable and be at both ends of the line. The cable \nshould be terminated at each end with a 120 ohm (0.25 Watt min.) resistor. A total \nmaximum length of 1200 meters is allowed for the RS485 network. A maximum of 32 \nelectrical nodes can be connected, including the controller. The address of each Eastron \ncan be set to any value between 1 and 247. Broadcast mode (address 0) is supported. \n \nThe format for each byte in RTU mode is: \nCoding System:     8-bit per byte \nData Format:       4 bytes (2 registers) per parameter. \nFloating point format ( to IEEE 754) \nMost significant register first (Default). The default may be changed if \nrequired -See Holding Register \"Register Order\" parameter."
+  },
+  {
+    "chunk_id": 21,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Coding System:     8-bit per byte \nData Format:       4 bytes (2 registers) per parameter. \nFloating point format ( to IEEE 754) \nMost significant register first (Default). The default may be changed if \nrequired -See Holding Register \"Register Order\" parameter. \nError Check Field:   2 byte Cyclical Redundancy Check (CRC) \nFraming:           1 start bit \n8 data bits, least significant bit sent first \n1 bit for even/odd parity (or no parity) \n1 stop bit if parity is used; 1 or 2 bits if no parity \nData Coding \nAll data values in the SDM230Modbus smart meter are transferred as 32 bit IEEE754 \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 22,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \nfloating point numbers, (input and output) therefore each SDM230Modbus meter value is \ntransferred using two Modbus Protocol registers. All register read requests and data write \nrequests must specify an even number of registers. Attempts to read/write an odd number \nof registers prompt the SDM230Modbus smart meter to return a Modbus Protocol \nexception message. However, for compatibility with some SCADA systems, \nSDM230Modbus Smart meter will response to any single input or holding register read \nwith an instrument type specific value. \n \nThe SDM230Modbus can transfer a maximum of 40 values in a single transaction; \ntherefore the maximum number of registers requestable is 80. Exceeding this limit \nprompts the SDM230Modbus to generate an exception response.  \n \nData transmission speed is selectable between 1200，2400, 4800, 9600 \n \n1.2 Input register \nInput registers are used to indicate the present values of the measured and calculated"
+  },
+  {
+    "chunk_id": 23,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "prompts the SDM230Modbus to generate an exception response.  \n \nData transmission speed is selectable between 1200，2400, 4800, 9600 \n \n1.2 Input register \nInput registers are used to indicate the present values of the measured and calculated \nelectrical quantities. Each parameter is held in two consecutive16 bit register. The \nfollowing table details the 3X register address, and the values of the address bytes within \nthe message. A (*) in the column indicates that the parameter is valid for the particular \nwiring system. Any parameter with a cross(X) will return the value zero. Each parameter is \nheld in the 3X registers. Modbus Protocol function code 04 is used to access all \nparameters. \nFor example, to request:    Amps 1    Start address=0006 \n                                     No. of registers =0002 \n                          Amps 2    Start address=0008 \n                                     No. of registers=0002"
+  },
+  {
+    "chunk_id": 24,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "parameters. \nFor example, to request:    Amps 1    Start address=0006 \n                                     No. of registers =0002 \n                          Amps 2    Start address=0008 \n                                     No. of registers=0002 \nEach request for data must be restricted to 40 parameters or less. Exceeding the 40 \nparameter limit will cause a Modbus Protocol exception code to be returned. \n \n \n \nAddress \n(Register) \n      SDM230-Modbus Input Register \nParameter       \n  Modbus \n Protocol Start \n  Address Hex \n      Description \nUnits \nHi \nByte \nLo \nByte \n30001 \nLine to neutral volts. \nVolts \n00 \n00 \n30007 \nCurrent. \nAmps \n00 \n06 \n30013 \nActive power. \nWatts \n00 \n0C \n30019 \nApparent power \nVoltAmps \n00 \n12 \n30025 \nReactive power \nVAr \n00 \n18 \n30031 \nPower factor  \nNone \n00 \n1E \n30037 \nPhase angle. \nDegree \n00 \n24 \n30071 \nFrequency  \nHz \n00 \n46 \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519"
+  },
+  {
+    "chunk_id": 25,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "0C \n30019 \nApparent power \nVoltAmps \n00 \n12 \n30025 \nReactive power \nVAr \n00 \n18 \n30031 \nPower factor  \nNone \n00 \n1E \n30037 \nPhase angle. \nDegree \n00 \n24 \n30071 \nFrequency  \nHz \n00 \n46 \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 26,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \n30073 \nImport active energy \nkwh \n00 \n48 \n30075 \nExport active energy \nkwh \n00 \n4A \n30077 \nImport reactive energy \nkvarh \n00 \n4C \n30079 \nExport reactive energy \nkvarh \n00 \n4E \n30085 \nTotal system power demand \nW \n00 \n54 \n30087 \nMaximum total system power demand \nW \n00 \n56 \n30089 \nCurrent system positive power demand  \nW \n00 \n58 \n30091 \nMaximum system positive power demand  \nW \n00 \n5A \n30093 \nCurrent system reverse power demand \nW \n00 \n5C \n30095 \nMaximum system reverse power demand \nW \n00 \n5E \n30259 \nCurrent demand. \nAmps \n01 \n02 \n30265 \nMaximum current demand. \nAmps \n01 \n08 \n30343 \nTotal active energy \nkwh \n01 \n56 \n30345 \nTotal reactive energy \nkvarh \n01 \n58 \n30385 \nCurrent resettable total active energy \nkwh \n01 \n80 \n30387 \nCurrent resettable total reactive energy \nkvarh \n01 \n82 \n \n1.3 Modbus Protocol Holding Registers and Digital meter set up \n \nHolding registers are used to store and display instrument configuration settings. All holding"
+  },
+  {
+    "chunk_id": 27,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "01 \n58 \n30385 \nCurrent resettable total active energy \nkwh \n01 \n80 \n30387 \nCurrent resettable total reactive energy \nkvarh \n01 \n82 \n \n1.3 Modbus Protocol Holding Registers and Digital meter set up \n \nHolding registers are used to store and display instrument configuration settings. All holding \nregisters not listed in the table below should be considered as reserved for manufacturer use \nand no attempt should be made to modify their values. \nThe holding register parameters may be viewed or changed using the Modbus Protocol. Each \nparameter is held in two consecutive 4X registers. Modbus Protocol Function Code 03 is used \nto read the parameter and Function Code 16 is used to write. Write to only one parameter per \nmessage. \n  \n \nAddress \nRegister \n \n \nParameter \n  Modbus  \nProtocol \n Start \nAddress \nHex \n \n           \n \n         Valid range \n   \n   \n \nMode \nHigh \nByte \nLow \nByte \n40013 \nPulse \noutput 1 \nWidth \n00 \n0C \nWrite relay on period in \nMilliseconds: 60, 100 or 200,"
+  },
+  {
+    "chunk_id": 28,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "message. \n  \n \nAddress \nRegister \n \n \nParameter \n  Modbus  \nProtocol \n Start \nAddress \nHex \n \n           \n \n         Valid range \n   \n   \n \nMode \nHigh \nByte \nLow \nByte \n40013 \nPulse \noutput 1 \nWidth \n00 \n0C \nWrite relay on period in \nMilliseconds: 60, 100 or 200, \ndefault 100. \nData Format：float（length：4 \nbyte） \nr/w \n40019 \nNetwork \nParity  \n00 \n12 \nWrite the network port \nparity/stop bits for MODBUS \nProtocol, where: 0 = One stop bit \nr/w \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 29,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \nand no parity, default.1 = One \nstop bit and even parity. 2 = One \nstop bit and odd parity.3 = Two \nstop bits and no parity.  \nData Format：float（length：4 \nbyte） \n40021 \nNetwork \nport Node \n00 \n14 \nWrite the network port node \nAddress: 1 to 247 for MODBUS \nProtocol, default 1.  \nData Format：float（length：4 \nbyte） \nr/w \n40029 \nNetwork \nBaud Rate \n00 \n1C \nWrite the network port baud rate \nfor MODBUS Protocol, where: \n0 = 2400 bps（ default）. 1 = \n4800 bps. \n2 = 9600 bps. \n5=1200 bps  \nData Format：float（length：4 \nbyte） \nr/w \n40087 \nPulse1 \nEnergy \nType \n00 \n56 \nWrite MODBUS Protocol \ninput parameter for pulse \nrelay 1:  \n1=Import Wh; \n2=Import and ExportWh; \n4=Export Wh;(default) \n \n5=Import VArh; \n6=Import and Export VArh; \n8=Export VArh. \nData Format：float（length：4 \nbyte） \nr/w \n462721 \nDemand \ninterval , \nslide time, \nautomatic \nscroll \ndisplay \ninterval \n(scroll \nTime)，\nBacklight \ntime \nF5 \n00 \nmin-min-s-min \nscroll time=0：the display does"
+  },
+  {
+    "chunk_id": 30,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "4=Export Wh;(default) \n \n5=Import VArh; \n6=Import and Export VArh; \n8=Export VArh. \nData Format：float（length：4 \nbyte） \nr/w \n462721 \nDemand \ninterval , \nslide time, \nautomatic \nscroll \ndisplay \ninterval \n(scroll \nTime)，\nBacklight \ntime \nF5 \n00 \nmin-min-s-min \nscroll time=0：the display does \nnot scroll automatically. \nBacklight  time=0 Backlight \nalways on \n \nData Format: BCD（length：4 \nbyte） \nr/w \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 31,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \n \n463761 \nPulse 1 \nconstant \nF9 \n10 \n0000:  0.001kwh（kvarh）\n/imp（default） \n0001:  0.01kwh（kvarh）/imp \n0002:  0.1kwh（kvarh）/imp \n0003:  1kwh（kvarh）/imp \nData Format：Hex（length：2 \nbyte） \nr/w \n463776 \nMeasure\nment  \nmode \nF9 \n20 \n0001:mode 1(total = import) \n0002:mode 2(total = import \n+ export)  （default） \n0003:mode 3 (total = import - \nexport) \nData Format：Hex（length：2 \nbyte） \nr/w \n463792 \nRunning \ntime \nF9 \n30 \nContinuous working period--hour  \nData Format：float（length：4 \nbyte） \nr/w \n \nNote： \nMode 1: Measure imported energy, Total energy=Imported energy. \nMode 2: Measure imported energy and exported energy, Total energy=Import \nenergy + export energy(default). \nMode 3: Measure imported energy and exported energy, Total energy=Imported \nenergy- exported energy. \n \n2 RS485 General Information \nSome of the information in this section relates to other Eastron Digital meter product families,"
+  },
+  {
+    "chunk_id": 32,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "energy + export energy(default). \nMode 3: Measure imported energy and exported energy, Total energy=Imported \nenergy- exported energy. \n \n2 RS485 General Information \nSome of the information in this section relates to other Eastron Digital meter product families, \nand is included to assist where a mixed network is implemented.RS485 or EIA (Electronic \nIndustries Association) RS485 is a balanced line, half-duplex transmission system allowing \ntransmission distances of up to 1.2 km. The following table summarizes the RS-485 Standard: \n \nPARAMETER \n \nMode of Operation \nDifferential \nNumber of Drivers and Receivers \n32 Drivers, 32 Receivers \nMaximum Cable Length \n1200 m \nMaximum Data Rate \n10 M baud \nMaximum Common Mode Voltage \n12 V to –7 V \nMinimum Driver Output Levels (Loaded) \n+/– 1.5 V \nMinimum Driver Output Levels (Unloaded) \n+/– 6 V \nDrive Load \nMinimum 60 ohms \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519"
+  },
+  {
+    "chunk_id": 33,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "10 M baud \nMaximum Common Mode Voltage \n12 V to –7 V \nMinimum Driver Output Levels (Loaded) \n+/– 1.5 V \nMinimum Driver Output Levels (Unloaded) \n+/– 6 V \nDrive Load \nMinimum 60 ohms \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 34,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \nDriver Output Short Circuit Current Limit \n150 mA to Gnd, \n250 mA to 12 V \n250 mA to –7 V \nMinimum Receiver Input Resistance \n12 kohms \nReceiver Sensitivity \n+/– 200 mV \n \nFurther information relating to RS485 may be obtained from either the EIA or the various \nRS485 device manufacturers, for example Texas Instruments or Maxim Semiconductors. This \nlist is not exhaustive. \n \n2.1 Half Duplex \n \nHalf duplex is a system in which one or more transmitters (talkers) can communicate with one \nor more receivers (listeners) with only one transmitter being active at any one time. For \nexample, a “conversation” is started by asking a question, the person who has asked the \nquestion will then listen until he gets an answer or until he decides that the individual who was \nasked the question is not going to reply. \nIn a 485 network the “master” will start the “conversation” with a “query” addressed to a"
+  },
+  {
+    "chunk_id": 35,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "question will then listen until he gets an answer or until he decides that the individual who was \nasked the question is not going to reply. \nIn a 485 network the “master” will start the “conversation” with a “query” addressed to a \nspecific “slave”, the “master” will then listen for the “slave’s” response. If the “slave” does not \nrespond within a pre-defined period, (set by control software in the “master”), the “master” will \nabandon the “conversation”. \n \n2.2 Connecting the Instruments \n \nIf connecting an RS485 network to a PC use caution if contemplating the use of an RS232 to \n485 converter together with a USB to RS485 adapter. Consider either an RS232 to RS485 \nconverter, connected directly to a suitable RS232 jack on the PC, or use a USB to RS485 \nconverter or, for desktop PCs a suitable plug in RS485 card. (Many 232:485 converters draw \npower from the RS232 socket. If using a USB to RS232 adapter, the adapter may not have"
+  },
+  {
+    "chunk_id": 36,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "converter, connected directly to a suitable RS232 jack on the PC, or use a USB to RS485 \nconverter or, for desktop PCs a suitable plug in RS485 card. (Many 232:485 converters draw \npower from the RS232 socket. If using a USB to RS232 adapter, the adapter may not have \nenough power available to run the 232:485 converter.) \nScreened twisted pair cable should be used. For longer cable runs or noisier environments, \nuse of a cable specifically designed for RS485 may be necessary to achieve optimum \nperformance. All “A” terminals should be connected together using one conductor of the \ntwisted pair cable, all “B” terminals should be connected together using the other conductor in \nthe pair. The cable screen should be connected to the “Gnd” terminals. \nA Belden 9841 (Single pair) or 9842 (Two pair) or similar cable with a characteristic impedance \nof 120 ohms is recommended. The cable should be terminated at each end with a 120 ohm,"
+  },
+  {
+    "chunk_id": 37,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "the pair. The cable screen should be connected to the “Gnd” terminals. \nA Belden 9841 (Single pair) or 9842 (Two pair) or similar cable with a characteristic impedance \nof 120 ohms is recommended. The cable should be terminated at each end with a 120 ohm, \nquarter watt (or greater) resistor. Note: Diagram shows wiring topology only. Always follow \nterminal identification on Eastron Digital meter product label. \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 38,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \n \nThere must be no more than two wires connected to each terminal, this ensures that a “Daisy \nChain or “straight line” configuration is used. A “Star” or a network with “Stubs (Tees)” is not \nrecommended as reflections within the cable may result in data corruption. \n \n2.3 A and B terminals \n \nThe A and B connections to the Eastron Digital meter products can be identified by the signals \npresent on them whilst there is activity on the RS485 bus: \n \n2.4 Troubleshooting \n \n·Start with a simple network, one master and one slave. With Eastron Digital meter products \nthis is easily achieved as the network can be left intact whilst individual instruments are \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 39,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \ndisconnected by removing the RS485 connection from the rear of the instrument. \n·Check that the network is connected together correctly. That is all of the “A’s” are connected \ntogether, and all of the “B’s” are connected together, and also that all of the “Gnd’s” are \nconnected together. \n·Confirm that the data “transmitted” onto the RS485 is not echoed back to the PC on the \nRS232 lines.(This facility is sometimes a link option within the converter). Many PC based \npackages seem to not perform well when they receive an echo of the message they are \ntransmitting. SpecView and PCView (PC software) with a RS232 to RS485 converter are \nbelieved to include this feature. \n·Confirm that the Address of the instrument is the same as the “master” is expecting. \n·If the “network” operates with one instrument but not more than one check that each \ninstrument has a unique address."
+  },
+  {
+    "chunk_id": 40,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "believed to include this feature. \n·Confirm that the Address of the instrument is the same as the “master” is expecting. \n·If the “network” operates with one instrument but not more than one check that each \ninstrument has a unique address. \n· Each request for data must be restricted to 40 parameters or less. Violating this requirement \nwill impact the performance of the instrument and may result in a response time in excess of \nthe specification. \n·Check that the MODBUS Protocol mode (RTU or ASCII) and serial parameters (baud rate, \nnumber of data bits, number of stop bits and parity) are the same for all devices on the \nnetwork. \n·Check that the “master” is requesting floating-point variables (pairs of registers placed on \nfloating point boundaries) and is not “splitting” floating point variables. \n·Check that the floating-point byte order expected by the “master” is the same as that used by \nEastron Digital meter products."
+  },
+  {
+    "chunk_id": 41,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "floating point boundaries) and is not “splitting” floating point variables. \n·Check that the floating-point byte order expected by the “master” is the same as that used by \nEastron Digital meter products.  \n·If possible obtain a second RS232 to RS485 converter and connect it between the RS485 \nbus and an additional PC equipped with a software package, which can display the data on the \nbus. Check for the existence of valid requests. \n3 MODBUS Protocol General Information \nCommunication on a MODBUS Protocol Network is initiated (started) by a “Master” sending a \nquery to a “Slave”. The “Slave“, which is constantly monitoring the network for queries \naddressed to it, will respond by performing the requested action and sending a response back \nto the ”Master”. Only the “Master” can initiate a query. \n \nIn the MODBUS Protocol the master can address individual slaves, or, using a special \n“Broadcast” address, can initiate a broadcast message to all slaves. The Eastron Digital meter"
+  },
+  {
+    "chunk_id": 42,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "to the ”Master”. Only the “Master” can initiate a query. \n \nIn the MODBUS Protocol the master can address individual slaves, or, using a special \n“Broadcast” address, can initiate a broadcast message to all slaves. The Eastron Digital meter \ndo not support the broadcast address. \n \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 43,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \n \n3.1 MODBUS Protocol Message Format \nThe MODBUS Protocol defines the format for the master’s query and the slave’s response. \nThe query contains the device (or broadcast) address, a function code defining the requested \naction, any data to be sent, and an error-checking field. \nThe response contains fields confirming the action taken, any data to be returned, and an \nerror-checking field. If an error occurred in receipt of the message then the message is ignored, \nif the slave is unable to perform the requested action, then it will construct an error message \nand send it as its response. The MODBUS Protocol functions used by the Eastron Digital \nmeters copy 16 bit register values between master and slaves. However, the data used by the \nEastron Digital meter is in 32 bit IEEE 754 floating point format. Thus each instrument \nparameter is conceptually held in two adjacent MODBUS Protocol registers. Query"
+  },
+  {
+    "chunk_id": 44,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "meters copy 16 bit register values between master and slaves. However, the data used by the \nEastron Digital meter is in 32 bit IEEE 754 floating point format. Thus each instrument \nparameter is conceptually held in two adjacent MODBUS Protocol registers. Query \nThe following example illustrates a request for a single floating point parameter i.e. two 16-bit \nModbus Protocol Registers. \n \nFirst Byte                                                         Last Byte \n Slave \nAddress \nFunction \nCode \nStart \nAddress \n(Hi) \nStart \nAddress \n(Lo) \nNumber \nof \nPoints \n(Hi) \nNumber \nof \nPoints \n(Lo) \nError \nCheck \n(Lo) \nError \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the slave being addressed (1 to 247), 0 is reserved for \nthe broadcast address. The Eastron Digital meters do not support the broadcast address. \nFunction Code: 8-bit value telling the addressed slave what action is to be performed. (3, 4, 8 \nor 16 are valid for Eastron Digital meter)"
+  },
+  {
+    "chunk_id": 45,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "the broadcast address. The Eastron Digital meters do not support the broadcast address. \nFunction Code: 8-bit value telling the addressed slave what action is to be performed. (3, 4, 8 \nor 16 are valid for Eastron Digital meter) \nStart Address (Hi): The top (most significant) eight bits of a 16-bit number specifying the start \naddress of the data being requested. \nStart Address (Lo): The bottom (least significant) eight bits of a 16-bit number specifying the \nstart address of the data being requested. As registers are used in pairs and start at zero, then \nthis must be an even number. \nNumber of Points (Hi): The top (most significant) eight bits of a 16-bit number specifying the \nnumber of registers being requested. \nNumber of Points (Lo): The bottom (least significant) eight bits of a 16-bit number specifying \nthe number of registers being requested. As registers are used in pairs, then this must be an \neven number."
+  },
+  {
+    "chunk_id": 46,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "number of registers being requested. \nNumber of Points (Lo): The bottom (least significant) eight bits of a 16-bit number specifying \nthe number of registers being requested. As registers are used in pairs, then this must be an \neven number. \nError Check (Lo): The bottom (least significant) eight bits of a 16-bit number representing the \nerror check value. \nError Check (Hi): The top (most significant) eight bits of a 16-bit number representing the error \ncheck value. \n \nResponse \nThe example illustrates the normal response to a request for a single floating point parameter \ni.e. two 16-bit Modbus Protocol Registers. \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 47,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \n \nFirst Byte                                                              Last Byte                  \nSlave \nAddress \nFunction \nCode \nByte \nCount \nFirst \nRegister \n(Hi) \nFirst \nRegister \n(Lo) \nSecond \nRegister \n(Hi) \nSecond \nRegister \n(Lo) \nError \nCheck \n(Lo) \nError \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the address of slave that is responding. \nFunction Code: 8-bit value which, when a copy of the function code in the query, indicates that \nthe slave recognised the query and has responded. (See also Exception Response). \nByte Count: 8-bit value indicating the number of data bytes contained within this response \nFirst Register (Hi)*: The top (most significant) eight bits of a 16-bit number representing the \nfirst register requested in the query. \nFirst Register (Lo)*: The bottom (least significant) eight bits of a 16-bit number representing \nthe first register requested in the query."
+  },
+  {
+    "chunk_id": 48,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "First Register (Hi)*: The top (most significant) eight bits of a 16-bit number representing the \nfirst register requested in the query. \nFirst Register (Lo)*: The bottom (least significant) eight bits of a 16-bit number representing \nthe first register requested in the query. \nSecond Register (Hi)*: The top (most significant) eight bits of a 16-bit number representing the \nsecond register requested in the query. \nSecond Register (Lo)*: The bottom (least significant) eight bits of a 16-bit number representing \nthe second register requested in the query. \nError Check (Lo): The bottom (least significant) eight bits of a 16-bit number representing the \nerror check value. \nError Check (Hi): The top (most significant) eight bits of a 16-bit number representing the error \ncheck value. \n*These four bytes together give the value of the floating point parameter requested. \n \nException Response \nIf an error is detected in the content of the query (excluding parity errors and Error Check"
+  },
+  {
+    "chunk_id": 49,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "check value. \n*These four bytes together give the value of the floating point parameter requested. \n \nException Response \nIf an error is detected in the content of the query (excluding parity errors and Error Check \nmismatch), then an error response (called an exception response), will be sent to the master. \nThe exception response is identified by the function code being a copy of the query function \ncode but with the most-significant bit set. The data contained in an exception response is a \nsingle byte error code. \n \nFirst Byte                                                             Last Byte \nSlave \nAddress \nFunction \nCode \nError \nCode \nError \nCheck \n(Lo) \nError \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the address of slave that is responding. \nFunction Code: 8 bit value which is the function code in the query OR'ed with 80 hex, \nindicating that the slave either does not recognise the query or could not carry out the action \nrequested."
+  },
+  {
+    "chunk_id": 50,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Error \nCheck \n(Hi) \n \nSlave Address: 8-bit value representing the address of slave that is responding. \nFunction Code: 8 bit value which is the function code in the query OR'ed with 80 hex, \nindicating that the slave either does not recognise the query or could not carry out the action \nrequested. \nError Code: 8-bit value indicating the nature of the exception detected. (See “Table Of \nException Codes“ later). \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 51,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \nError Check (Lo): The bottom (least significant) eight bits of a 16-bit number representing the \nerror check value. \nError Check (Hi): The top (most significant) eight bits of a 16-bit number representing the error \ncheck value. \n \n3.2 Serial Transmission Modes \nThere are two MODBUS Protocol serial transmission modes, ASCII and RTU. Eastron Digital \nmeters do not support the ASCII mode. \nIn RTU (Remote Terminal Unit) mode, each 8-bit byte is used in the full binary range and is not \nlimited to ASCII characters as in ASCII Mode. The greater data density allows better data \nthroughput for the same baud rate, however each message must be transmitted in a \ncontinuous stream. This is very unlikely to be a problem for modern communications \nequipment. \n \nCoding System: Full 8-bit binary per byte. In this document, the value of each byte will be \nshown as two hexadecimal characters each in the range 0-9 or A-F."
+  },
+  {
+    "chunk_id": 52,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "continuous stream. This is very unlikely to be a problem for modern communications \nequipment. \n \nCoding System: Full 8-bit binary per byte. In this document, the value of each byte will be \nshown as two hexadecimal characters each in the range 0-9 or A-F. \nLine Protocol: 1 start bit, followed by the 8 data bits. The 8 data bits are sent with least \nsignificant bit first. \nUser Option Of Parity No Parity and 2 Stop Bits \nAnd Stop Bits: No Parity and 1 Stop Bit \nEven Parity and 1 Stop Bit \nOdd Parity and 1 Stop Bit. \nUser Option of Baud 1200，2400，4800 ，9600 \n \nThe baud rate, parity and stop bits must be selected to match the master’s settings. \n \n3.3 MODBUS Protocol Message Timing (RTU Mode) \nA MODBUS Protocol message has defined beginning and ending points. The receiving \ndevices recognizes the start of the message, reads the “Slave Address” to determine if they \nare being addressed and knowing when the message is completed they can use the Error"
+  },
+  {
+    "chunk_id": 53,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "A MODBUS Protocol message has defined beginning and ending points. The receiving \ndevices recognizes the start of the message, reads the “Slave Address” to determine if they \nare being addressed and knowing when the message is completed they can use the Error \nCheck bytes and parity bits to confirm the integrity of the message. If the Error Check or parity \nfails then the message is discarded. \nIn RTU mode, messages starts with a silent interval of at least 3.5 character times. \nThe first byte of a message is then transmitted, the device address. \nMaster and slave devices monitor the network continuously, including during the ‘silent’ \nintervals. When the first byte (the address byte) is received, each device checks it to find out if \nit is the addressed device. If the device determines that it is the one being addressed it records \nthe whole message and acts accordingly, if it is not being addressed it continues monitoring for \nthe next message."
+  },
+  {
+    "chunk_id": 54,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "it is the addressed device. If the device determines that it is the one being addressed it records \nthe whole message and acts accordingly, if it is not being addressed it continues monitoring for \nthe next message. \nFollowing the last transmitted byte, a silent interval of at least 3.5 character times marks the \nend of the message. A new message can begin after this interval. \nThe entire message must be transmitted as a continuous stream. If a silent interval of more \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 55,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \nthan 1.5 character times occurs before completion of the message, the receiving device \nflushes the incomplete message and assumes that the next byte will be the address byte of a \nnew message. \nSimilarly, if a new message begins earlier than 3.5 character times following a previous \nmessage, the receiving device may consider it a continuation of the previous message. This \nwill result in an error, as the value in the final CRC field will not be valid for the combined \nmessages. \n \n3.4 How Characters are Transmitted Serially \nWhen messages are transmitted on standard MODBUS Protocol serial networks each byte is \nsent in this order (left to right): \nTransmit Character = Start Bit + Data Byte + Parity Bit + 1 Stop Bit (11 bits total): \n       Least Significant Bit (LSB)                        Most Significant Bit (MSB) \n \n \nStart \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nParty \nStop \n \nTransmit Character = Start Bit + Data Byte + 2 Stop Bits (11 bits total): \nStart"
+  },
+  {
+    "chunk_id": 56,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Least Significant Bit (LSB)                        Most Significant Bit (MSB) \n \n \nStart \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nParty \nStop \n \nTransmit Character = Start Bit + Data Byte + 2 Stop Bits (11 bits total): \nStart \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nStop \nStop \n \n \nEastron Digital meters additionally support No parity, 1 stop bit. \nTransmit Character = Start Bit + Data Byte + 1 Stop Bit (10 bits total): \nStart \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \nStop \n \nThe master is configured by the user to wait for a predetermined timeout interval. The master \nwill wait for this period of time before deciding that the slave is not going to respond and that \nthe transaction should be aborted. Care must be taken when determining the timeout period \nfrom both the master and the slaves’ specifications. The slave may define the ‘response time’ \nas being the period from the receipt of the last bit of the query to the transmission of the first bit"
+  },
+  {
+    "chunk_id": 57,
+    "page": 24,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "the transaction should be aborted. Care must be taken when determining the timeout period \nfrom both the master and the slaves’ specifications. The slave may define the ‘response time’ \nas being the period from the receipt of the last bit of the query to the transmission of the first bit \nof the response. The master may define the ‘response time’ as period between transmitting the \nfirst bit of the query to the receipt of the last bit of the response. It can be seen that message \ntransmission time, which is a function of the baud rate, must be included in the timeout \ncalculation. \n \n3.5 Error Checking Methods \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 58,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \nStandard MODBUS Protocol serial networks use two error checking processes, the error \ncheck bytes mentioned above check message integrity whilst Parity checking (even or odd) \ncan be applied to each byte in the message. \n \n3.5.1 Parity Checking \nIf parity checking is enabled – by selecting either Even or Odd Parity - the quantity of “1’s” will \nbe counted in the data portion of each transmit character. The parity bit will then be set to a 0 \nor 1 to result in an Even or Odd total of “1’s”. \nNote that parity checking can only detect an error if an odd number of bits are picked up or \ndropped in a transmit character during transmission, if for example two 1’s are corrupted to 0’s \nthe parity check will not find the error. \nIf No Parity checking is specified, no parity bit is transmitted and no parity check can be made. \nAlso, if No Parity checking is specified and one stop bit is selected the transmit character is \neffectively shortened by one bit."
+  },
+  {
+    "chunk_id": 59,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "the parity check will not find the error. \nIf No Parity checking is specified, no parity bit is transmitted and no parity check can be made. \nAlso, if No Parity checking is specified and one stop bit is selected the transmit character is \neffectively shortened by one bit. \n \n3.5.2 CRC Checking \nThe error check bytes of the MODBUS Protocol messages contain a Cyclical Redundancy \nCheck (CRC) value that is used to check the content of the entire message. The error check \nbytes must always be present to comply with the MODBUS Protocol, there is no option to \ndisable it. \nThe error check bytes represent a 16-bit binary value, calculated by the transmitting device. \nThe receiving device must recalculate the CRC during receipt of the message and compare \nthe calculated value to the value received in the error check bytes. If the two values are not \nequal, the message should be discarded. \nThe error check calculation is started by first pre-loading a 16-bit register to all 1’s (i.e. Hex"
+  },
+  {
+    "chunk_id": 60,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "the calculated value to the value received in the error check bytes. If the two values are not \nequal, the message should be discarded. \nThe error check calculation is started by first pre-loading a 16-bit register to all 1’s (i.e. Hex \n(FFFF)) each successive 8-bit byte of the message is applied to the current contents of the \nregister. Note: only the eight bits of data in each transmit character are used for generating the \nCRC, start bits, stop bits and the parity bit, if one is used, are not included in the error check \nbytes. \nDuring generation of the error check bytes, each 8-bit message byte is exclusive OR'ed with \nthe lower half of the 16 bit register. The register is then shifted eight times in the direction of \nthe least significant bit (LSB), with a zero filled into the most significant bit (MSB) position. After \neach shift the LSB prior to the shift is extracted and examined. If the LSB was a 1, the register"
+  },
+  {
+    "chunk_id": 61,
+    "page": 25,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "the least significant bit (LSB), with a zero filled into the most significant bit (MSB) position. After \neach shift the LSB prior to the shift is extracted and examined. If the LSB was a 1, the register \nis then exclusive OR'ed with a pre-set, fixed value. If the LSB was a 0, no exclusive OR takes \nplace. \nThis process is repeated until all eight shifts have been performed. After the last shift, the next \n8-bit message byte is exclusive OR'ed with the lower half of the 16 bit register, and the process \nrepeated. The final contents of the register, after all the bytes of the message have been \napplied, is the error check value. In the following pseudo code “Error Word” is a 16-bit value \nrepresenting the error check values. \n \nBEGIN \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 62,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \n      Error Word = Hex (FFFF) \n      FOR Each byte in message \n           Error Word = Error Word XOR byte in message \n           FOR Each bit in byte \n                 LSB = Error Word AND Hex (0001) \n                 IF LSB = 1 THEN Error Word = Error Word – 1 \n                 Error Word = Error Word / 2 \n                 IF LSB = 1 THEN Error Word = Error Word XOR Hex (A001) \n            NEXT bit in byte \nNEXT Byte in message \nEND \n \n3.6 Function Codes \nThe function code part of a MODBUS Protocol message defines the action to be taken by the \nslave. Eastron Digital meters support the following function codes: \nCode \nMODBUS Protocol \nname \nDescription \n03 \nRead Holding \nRegisters \nRead the contents of read/write \nlocation(4X references) \n04 \nRead Input Registers \nRead the contents of read only \nlocation(3X references) \n \n3.7 IEEE floating point format \nThe MODBUS Protocol defines 16 bit “Registers” for the data variables. A 16-bit number would"
+  },
+  {
+    "chunk_id": 63,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "03 \nRead Holding \nRegisters \nRead the contents of read/write \nlocation(4X references) \n04 \nRead Input Registers \nRead the contents of read only \nlocation(3X references) \n \n3.7 IEEE floating point format \nThe MODBUS Protocol defines 16 bit “Registers” for the data variables. A 16-bit number would \nprove too restrictive, for energy parameters for example, as the maximum range of a 16-bit \nnumber is 65535. \nHowever, there are a number of approaches that have been adopted to overcome this \nrestriction. Eastron Digital meters use two consecutive registers to represent a floating-point \nnumber, effectively expanding the range to +/- 1x1037. \nThe values produced by Eastron Digital meters can be used directly without any requirement \nto “scale” the values, for example, the units for the voltage parameters are volts, the units for \nthe power parameters are watts etc. \nWhat is a floating point Number?"
+  },
+  {
+    "chunk_id": 64,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "The values produced by Eastron Digital meters can be used directly without any requirement \nto “scale” the values, for example, the units for the voltage parameters are volts, the units for \nthe power parameters are watts etc. \nWhat is a floating point Number? \nA floating-point number is a number with two parts, a mantissa and an exponent and is written \nin the form 1.234 x 105. The mantissa (1.234 in this example) must have the decimal point \nmoved to the right with the number of places determined by the exponent (5 places in this \nexample) i.e. 1.234x 105 = 123400. If the exponent is negative the decimal point is moved to \nthe left. \nWhat is an IEEE 754 format floating-point number? \nAn IEEE 754 floating point number is the binary equivalent of the decimal floating-point \nnumber shown above. The major difference being that the most significant bit of the mantissa \nis always arranged to be 1 and is thus not needed in the representation of the number. The"
+  },
+  {
+    "chunk_id": 65,
+    "page": 26,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "An IEEE 754 floating point number is the binary equivalent of the decimal floating-point \nnumber shown above. The major difference being that the most significant bit of the mantissa \nis always arranged to be 1 and is thus not needed in the representation of the number. The \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 66,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \nprocess by which the most significant bit is arranged to be 1 is called normalization, the \nmantissa is thus referred to as a “normal mantissa”. During normalization the bits in the \nmantissa are shifted to the left whilst the exponent is decremented until the most significant bit \nof the mantissa is one. In the special case where the number is zero both mantissa and \nexponent are zero. \n \nThe bits in an IEEE 754 format have the following significance: \nData Hi Reg, \nHi Byte. \nData Hi Reg, \nLo Byte. \nData Lo Reg, \nHi Byte. \nData Lo Reg, \nLo Byte. \nSEEE \nEEEE \nEMMM \nMMMM \nMMMM \nMMMM \nMMMM \nMMMM \n \nWhere: \nS represents the sign bit where 1 is negative and 0 is positive \nE is the 8-bit exponent with an offset of 127 i.e. an exponent of zero is represented by 127, an \nexponent of 1 by 128 etc. \nM is the 23-bit normal mantissa. The 24th bit is always 1 and, therefore, is not stored."
+  },
+  {
+    "chunk_id": 67,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "MMMM \n \nWhere: \nS represents the sign bit where 1 is negative and 0 is positive \nE is the 8-bit exponent with an offset of 127 i.e. an exponent of zero is represented by 127, an \nexponent of 1 by 128 etc. \nM is the 23-bit normal mantissa. The 24th bit is always 1 and, therefore, is not stored. \n \nUsing the above format the floating point number 240.5 is represented as 43708000 hex: \nData Hi Reg, \nHi Byte \nData Hi Reg, \nLo Byte \nData Lo Reg, \nHi Byte \nData Lo Reg, \nLo Byte \n43 \n70 \n80 \n00 \n \nThe following example demonstrates how to convert IEEE 754 floating-point numbers from \ntheir hexadecimal form to decimal form. For this example, we will use the value for 240.5 \nshown above \nNote that the floating-point storage representation is not an intuitive format. To convert this \nvalue to decimal, the bits should be separated as specified in the floating-point number storage \nformat table shown above. \n \nFor example: \nData Hi Reg, \nHi Byte \nData Hi Reg, \nLo Byte \nData Lo Reg, \nHi Byte"
+  },
+  {
+    "chunk_id": 68,
+    "page": 27,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "value to decimal, the bits should be separated as specified in the floating-point number storage \nformat table shown above. \n \nFor example: \nData Hi Reg, \nHi Byte \nData Hi Reg, \nLo Byte \nData Lo Reg, \nHi Byte \nData Lo Reg, \nLo Byte \n0100 0011 \n0111 0000 \n1000 0000 \n0000 0000 \n \nFrom this you can determine the following information. \n·The sign bit is 0, indicating a positive number. \n·The exponent value is 10000110 binary or 134 decimal. Subtracting 127 from 134 leaves 7, \nwhich is the actual exponent. \n·The mantissa appears as the binary number 11100001000000000000000 \nThere is an implied binary point at the left of the mantissa that is always preceded by a 1. This \nbit is not stored in the hexadecimal representation of the floating-point number. Adding 1 and \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 69,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \nthe binary point to the beginning of the mantissa gives the following: \n1.11100001000000000000000 \nNow, we adjust the mantissa for the exponent. A negative exponent moves the binary point to \nthe left. A positive exponent moves the binary point to the right. Because the exponent is 7, the \nmantissa is adjusted as follows: \n11110000.1000000000000000 \nFinally, we have a binary floating-point number. Binary bits that are to the left of the binary \npoint represent \nthe power of two corresponding to their position. For example, 11110000 represents (1 x 27) + \n(1 x 26) + (1x 25) + (1 x 24) + (0 x 23)+ (0 x 22) + (0 x 21)+ (0 x 20) = 240. \nBinary bits that are to the right of the binary point also represent a power of 2 corresponding to \ntheir position. As the digits are to the right of the binary point the powers are negative. For \nexample: .100 represents (1 x 2-1) + (0 x 2-2)+ (0 x 2-3) + … which equals 0.5."
+  },
+  {
+    "chunk_id": 70,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Binary bits that are to the right of the binary point also represent a power of 2 corresponding to \ntheir position. As the digits are to the right of the binary point the powers are negative. For \nexample: .100 represents (1 x 2-1) + (0 x 2-2)+ (0 x 2-3) + … which equals 0.5. \nAdding these two numbers together and making reference to the sign bit produces the number \n+240.5. \n \nFor each floating point value requested two MODBUS Protocol registers (four bytes) must be \nrequested. The received order and significance of these four bytes for Eastron Digital meters is \nshown below: \nData Hi Reg, \nHi Byte \nData Hi Reg, \nLo Byte \nData Lo Reg, \nHi Byte \nData Lo Reg, \nLo Byte \n \n3.8 MODBUS Protocol Commands supported \nAll Eastron Digital meters support the “Read Input Register” (3X registers), the “Read Holding \nRegister” (4X registers) and the “Pre-set Multiple Registers” (write 4X registers) commands of"
+  },
+  {
+    "chunk_id": 71,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Lo Byte \nData Lo Reg, \nHi Byte \nData Lo Reg, \nLo Byte \n \n3.8 MODBUS Protocol Commands supported \nAll Eastron Digital meters support the “Read Input Register” (3X registers), the “Read Holding \nRegister” (4X registers) and the “Pre-set Multiple Registers” (write 4X registers) commands of \nthe MODBUS Protocol RTU protocol. All values stored and returned are in floating point format \nto IEEE 754 with the most significant register first. \n \n3.8.1 Read Input Registers \nMODBUS Protocol code 04 reads the contents of the 3X registers. \n \nExample \nThe following query will request ‘Volts 1’ from an instrument with node address 1: \nField Name \nExample(Hex) \nSlave Address \n01 \nFunction \n04 \nStarting Address High \n00 \nStarting Address Low \n00 \nNumber of Points High \n00 \nNumber of Points Low \n02 \nError Check Low \n71 \nError Check High \nCB \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519"
+  },
+  {
+    "chunk_id": 72,
+    "page": 28,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Slave Address \n01 \nFunction \n04 \nStarting Address High \n00 \nStarting Address Low \n00 \nNumber of Points High \n00 \nNumber of Points Low \n02 \nError Check Low \n71 \nError Check High \nCB \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 73,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \nNote: Data must be requested in register pairs i.e. the “Starting Address“ and the “Number of \nPoints” must be even numbers to request a floating point variable. If the “Starting Address” or \nthe “Number of points” is odd then the query will fall in the middle of a floating point variable \nthe product will return an error message. \nThe following response returns the contents of Volts 1 as 230.2. But see also “Exception \nResponse” later. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n04 \nByte Count \n04 \nData, High Reg, High Byte \n43 \nData, High Reg, Low Byte \n66 \nData, Low Reg, High Byte \n33 \nData, Low Reg, Low Byte \n34 \nError Check Low \n1B \nError Check High \n38 \n \n3.9 Holding Registers \n3.9.1 Read Holding Registers \nMODBUS Protocol code 03 reads the contents of the 4X registers. \nExample \nThe following query will request the prevailing ‘Pulse output 1 Width’: \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n03"
+  },
+  {
+    "chunk_id": 74,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "1B \nError Check High \n38 \n \n3.9 Holding Registers \n3.9.1 Read Holding Registers \nMODBUS Protocol code 03 reads the contents of the 4X registers. \nExample \nThe following query will request the prevailing ‘Pulse output 1 Width’: \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n03 \nStarting Address High \n00 \nStarting Address Low \n0C \nNumber of Points High \n00 \nNumber of Points Low \n02 \nError Check Low \n04 \nError Check High \n08 \nNote: Data must be requested in register pairs i.e. the “Starting Address“ and the “Number of \nPoints” must be even numbers to request a floating point variable. If the “Starting Address” or \nthe “Number of points” is odd then the query will fall in the middle of a floating point variable \nthe product will return an error message. \n \nThe following response returns the contents of Demand Time as 1, But see also “Exception \nResponse” later. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n03 \nByte Count \n04"
+  },
+  {
+    "chunk_id": 75,
+    "page": 29,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "the product will return an error message. \n \nThe following response returns the contents of Demand Time as 1, But see also “Exception \nResponse” later. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n03 \nByte Count \n04 \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 76,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \nData, High Reg, High Byte \n42 \nData, High Reg, Low Byte \nC8 \nData, Low Reg, High Byte \n00 \nData, Low Reg, Low Byte \n00 \nError Check Low \n6F \nError Check High \nB5 \n \n3.9.2 Write Holding Registers \nMODBUS Protocol code 10 (16 decimal) writes the contents of the 4X registers. \nExample \nThe following query will set the Pulse output 1 Width to 60 ms, which effectively resets the \nDemand Time: \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n10 \nStarting Address High \n00 \nStarting Address Low \n0C \nNumber of Registers High \n00 \nNumber of Registers Low \n02 \nByte Count \n04 \nData, High Reg, High Byte \n42 \nData, High Reg, Low Byte \n70 \nData, Low Reg, High Byte \n00 \nData, Low Reg, Low Byte \n00 \nError Check Low \nE6 \nError Check High \n59 \n \nNote: Data must be written in register pairs i.e. the “Starting Address“ and the “Number of \nPoints” must be even numbers to write a floating point variable. If the “Starting Address” or the"
+  },
+  {
+    "chunk_id": 77,
+    "page": 30,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "70 \nData, Low Reg, High Byte \n00 \nData, Low Reg, Low Byte \n00 \nError Check Low \nE6 \nError Check High \n59 \n \nNote: Data must be written in register pairs i.e. the “Starting Address“ and the “Number of \nPoints” must be even numbers to write a floating point variable. If the “Starting Address” or the \n“Number of points” is odd then the query will fall in the middle of a floating point variable the \nproduct will return an error message. In general only one floating point value can be written per \nquery \n \nThe following response indicates that the write has been successful. But see also “Exception \nResponse”later. \nField Name \nExample (Hex) \nSlave Address \n01 \nFunction \n10 \nStarting Address High \n00 \nStarting Address Low \n02 \nNumber of Registers High \n00 \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  },
+  {
+    "chunk_id": 78,
+    "page": 31,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\sdm230-modbus.pdf",
+    "content": "Eastron SDM230Modbus Protocol V1.2 \n \nNumber of Registers Low \n02 \nError Check Low \nE0 \nError Check High \n08 \n \nB+G e-tech GmbH - Fr.Mehring Str. 36 - DE 01979 Lauchhammer\nTel.: 0049 3574 467550          Fax: 0049 3574 4675519\nMail: info@bg-etech.de          Web: www.eastron-germany.de"
+  }
+]

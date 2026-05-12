@@ -1,0 +1,18 @@
+manual,ai_model,accuracy,accuracy_percent
+EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf,gpt-5.1,9/13,69.23%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=0),Predicted: 0 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=170),Predicted: 170 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=5),Predicted: 5 [default]
+,,Correct: Baud Rate (subnetwork.properties.baudRate=38400),Predicted: 38400 [default]
+,,Correct: Data Bits (subnetwork.properties.dataBits=1),Predicted: 1 [default]
+,,Correct: Parity (subnetwork.properties.parity=0),Predicted: 0 [default]
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Correct: Stop Bits (subnetwork.properties.stopBits=0),Predicted: 0 [default]
+,,Wrong: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3),Predicted: 16
+,,Wrong: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3),Predicted: 16
+,,Wrong: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=10),Predicted: 170
+,,Wrong: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=10),Predicted: NOT FOUND
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=Date and Time),Predicted: SIAB-STANDARD-CT [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Data and Time),Predicted: Date and Time [naming convention; not scored]
+AVERAGE,gpt-5.1,1 manuals,69.23%

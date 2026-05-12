@@ -1,0 +1,18 @@
+manual,ai_model,accuracy,accuracy_percent
+EM330_EM340_ET330_ET340_CP.pdf,gpt-5.1,11/13,84.62%
+,,Correct: Addressing Mode (subnetwork.nodes[0].properties.modbusAddressingMode=3),Predicted: 3 [default]
+,,Correct: Node Address (subnetwork.nodes[0].properties.nodeAddress=1),Predicted: 1 [default]
+,,Correct: Request Function Code (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Request Quantity (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=2),Predicted: 2 [default]
+,,Correct: Response Function Code (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=3),Predicted: 3 [default]
+,,Correct: Response Byte Count (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=4),Predicted: 4 [default]
+,,Correct: Response Data Length (subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=4),Predicted: 4 [default]
+,,Correct: Parity (subnetwork.properties.parity=0),Predicted: 0 [default]
+,,Correct: Physical Standard (subnetwork.properties.physicalStandard=1),Predicted: 1 [default]
+,,Correct: Stop Bits (subnetwork.properties.stopBits=0),Predicted: 0 [default]
+,,Non-default match: Baud Rate (subnetwork.properties.baudRate=9600),Predicted: 115200 [accepted alternate; default was 9600]
+,,Wrong: Request Starting Address (subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=40),Predicted: 262
+,,Wrong: Data Bits (subnetwork.properties.dataBits=1),Predicted: not found
+,,Excluded: Node Name (subnetwork.nodes[0].properties.name=Value weight: Watt*10),Predicted: Series 300 [naming convention; not scored]
+,,Excluded: Transaction Name (subnetwork.nodes[0].transactions[0].properties.name=Value weight:W sys (Watt*10)),Predicted: W sys [naming convention; not scored]
+AVERAGE,gpt-5.1,1 manuals,84.62%

@@ -1,0 +1,128 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "Figure 1\nModbus RTU\nSILVER C RX, PX, CX, SD, generation E/F\nIntroduction\nThis protocol contains the Modbus addresses and registers \nwhich are available in the fan motor control system.\nModbus can access single addresses or several addresses \nsimultaneously, either reading or writing 1-bit or 16-bit values. A \nModbus address contains either a 1-bit value or a 16-bit integer.\nModbus connection\nThe fan motor control system is equipped with four connectors \nfor Modbus communication: three RJ12 connectors and one set \nof spring terminals.\nOn the strip of spring terminals for control signals (A/D I/O), the \nterminals for Modbus connection are marked ”Bus A”, ”Bus B” \nand ”GND”. See figure 1.\nThe Modbus terminals are internally connected in parallel to \nthe Modbus pins in the RJ12 connectors marked ”A” and ”B”. \nThe RJ12 connector marked ”C” is solely for the connection of \nexternal sensing devices. \nThe three RJ12 connectors are marked ”A”, ”B” and ”C”:"
+  },
+  {
+    "chunk_id": 1,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "and ”GND”. See figure 1.\nThe Modbus terminals are internally connected in parallel to \nthe Modbus pins in the RJ12 connectors marked ”A” and ”B”. \nThe RJ12 connector marked ”C” is solely for the connection of \nexternal sensing devices. \nThe three RJ12 connectors are marked ”A”, ”B” and ”C”:\n\t\n”A”: \u0007Modbus connector, slave, +24VDC voltage supply in \nconnector, for connection of the hand-held terminal \n(TBLZ-4-75), etc. \n\t\n”B”: \u0007Modbus connector, slave, no voltage supply in \nconnector. \n\t\n”C”: \u0007Modbus connector, master, +24VDC voltage supply in \nconnector (V+), for connection of an external sensing \ndevice, e.g. PTH/VOC. \n-V+\n-Add. Pin1\n-Bus B\n-Bus A\n-Gnd\n-Add. Pin2\n-Add. Pin1\n-Bus B\n-Bus A\n-Gnd\n-Add. Pin2\n-V+\n-Gnd\n-Bus B\n-Bus A\n-Gnd\n-V+\nA\nC\nB\n+10Vdc\nGND\nBus A\nBus B\n-\nSpecifications are subject to alteration without notice\nwww.swegon.com  \n  1\nSILVERCModbus.210809"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "Modbus cable\nThe following can be used for the Modbus communication \ncable: \n\t\n•\t\n\u0007Round communication cable, which should be \nconnected to the fan motor control system terminals \nmarked ”Bus A” and ”Bus B”.\n\t\n•\t\n\u0007Ribbon/telecom cable, 6-core, unshielded, 30 AWG, \n0.066 mm² or similar ribbon cable. \nNote\nIf ribbon/telecom cable is used, RJ12 connectors must be \nattached to both ends of the cable using a special-purpose tool. \nNote\nIMPORTANT! The RJ12 connectors must be attached to both \nends in such a way that the two connectors follow the same \nsequence of wire colours in the cable. See figure 2\nModbus register types:\nModbus Type\nDescription\nReference\nCoil Status (R/W)\nDiscrete Output\n0x\nInput Status (R)\nDiscrete Input\n1x\nInput Register (R)\n16-bit Input Register\n3x\nHolding Register (R/W)\n16-bit Output Register\n4x\nR=Read only \nR/W = Read / Write\nFigure 2\nThe same colour sequence\nSILVERCModbus.210809\nSpecifications are subject to alteration without notice\n2  \n  www.swegon.com"
+  },
+  {
+    "chunk_id": 3,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "Supported Modbus commands\nFunction code\nDescription\n1\nRead Coil Status\n2\nRead Input Status\n3\nRead Holding Registers\n4\nRead Input Registers\n5\nForce Single Coil\n6\nPreset Single Registers\n8\nDiagnostics. Sub-function 00 Only - \nReturn Query Data (loop back).\n15\nForce Multiple Coils\n16\nPreset Multiple Registers\nModbus addressing\nModbus addressing of the fan motor controls can be \naccomplished in two different ways. \n \n•  Via the addressing pins of connector ”A” or ”B” (Add. \nPin 1 + Add. Pin 2) – see fi gure 1 for pin location. \nThe addressing pins can be used to assign the address \nrange of the fan motor controls: 0x36 (dec.54), 0x37 \n(dec.55), 0x38 (dec.56) and 0x39 (dec.57), see table 1. \nTable 1\nAdd.\nPin.no.\n0X36 \n(54 dec)\n0X37 \n(55 dec)\n0X38 \n(56 dec)\n0X39 \n(57 dec)\nAdd.Pin1\nAdd.Pin2\n \n \n \n= No connection between ”GND” and Add.Pin1/  \n \n \n \nAdd.Pin2\n \n \n \n= Connection between ”GND” and Add.Pin1/  \n \n \n \nAdd.Pin2\n• \nVia the menu in the hand-held terminal"
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "Table 1\nAdd.\nPin.no.\n0X36 \n(54 dec)\n0X37 \n(55 dec)\n0X38 \n(56 dec)\n0X39 \n(57 dec)\nAdd.Pin1\nAdd.Pin2\n \n \n \n= No connection between ”GND” and Add.Pin1/  \n \n \n \nAdd.Pin2\n \n \n \n= Connection between ”GND” and Add.Pin1/  \n \n \n \nAdd.Pin2\n• \nVia the menu in the hand-held terminal  \n \n \n \n(see instructions for the hand-held terminal, TBLZ-4-75). \n \n \n \n \nCommunication parameters\nCommunication parameters can be set using the hand-held \nterminal, TBLZ-4-75. \nFor factory settings and setting ranges, see table 2. \nTable 2\nRange\nUnit\nFactory \nsetting\nAlt. factory \nsettings:\nAddress\n1-247\nn/a\n54 dec.\n0 dec.\nBaud rate\n9.600, 19.200, 38.400, \n57.600, 115.200\nbps\n38.400\n115.200\nParity\nNone, even, odd\nn/a\nNone\nEven\nStop bit(s)\n0, 1, 2\nn/a\n1\n1\nComm. \ntimeout\n0-240\nSec.\n10\n10\nn/a=not applicable\nContact Swegon for additional information. \nSpecifi cations are subject to alteration without notice\nwww.swegon.com  \n  3\nSILVERCModbus.210809"
+  },
+  {
+    "chunk_id": 5,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "Values in this protocol is to be changed at your own risk.\nIt is your own responsibility that changes of  values and settings, \ndo not cause any overload or damage to the product, motor or \nfan. \nCoil Stat Bits – Available Coil Stat Bits are shown in table 3 \nbelow.\nStandard Modbus (RTU)\nCoil Stat Bits: 13 (R/W)\n0x01: Read\n0x05: Write Single Coil (NOTE: ON => output value = 0xFF00)\n0x0F: Write Multiple Coils\nTable 3\nRegister\nAddress\nFunction\nRange\nActive state\n0x0001\n0\nMotor ON/OFF\n0 - 1\n1 = ON\n0x0002\n1\nReset Alarms\n0 - 1\n1 = Reset\n0x0004\n3\nFireMode\n0 - 1\n1 = Active\n0x0006\n5\nRotation\n0 - 1\n1 = ClockWise\n0x0007\n6\nDisable V_Ripple protection\n0 - 1\n1 = Disable\n0x0008\n7\nControl\n0 - 1\n0 = Modbus \n1 = 0-10V\n0x0010\n9\nAutodetect communication\n0 - 1\n1 = Enable\n0x0011\n10\nAnalog start signal\n0 - 1\n1 = Enable\n0x0012\n11\nInvert analog speed input\n0 - 1\n1 = Invert\n0x0013\n12\nAllow using Field Weakening \n0 - 1\n1 = Allow FW\n0x0015\n14\nAllow using Cooling Fan\n0 - 1\n1 = Allow Fan\n0x0016\n15\n3 x 230V config"
+  },
+  {
+    "chunk_id": 6,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "1 = 0-10V\n0x0010\n9\nAutodetect communication\n0 - 1\n1 = Enable\n0x0011\n10\nAnalog start signal\n0 - 1\n1 = Enable\n0x0012\n11\nInvert analog speed input\n0 - 1\n1 = Invert\n0x0013\n12\nAllow using Field Weakening \n0 - 1\n1 = Allow FW\n0x0015\n14\nAllow using Cooling Fan\n0 - 1\n1 = Allow Fan\n0x0016\n15\n3 x 230V config\n0 - 1\n0 = UV value from CCF\n1 = Fixed value for 3x230V\n0x0017\n16\n1 V start voltage\n0 – 1\n0 = Start @ 2V\n1 = Start @ 1V\n0x0018\n17\nVery High Switch Frequency\n0 – 1\n0 = 8 kHz as “HI SF”\n1 = 10 kHz as “HI SF”\n0x0019\n18\nWrite protect config\n0 – 1\n0 = \u0007Allow change via Modbus\n1 = “Lock” configuration\n0x0020\n19\nClear PowerLog (Wh, kWh, MWh)\n0 – 1\n1 = Clear Power Log\nSILVERCModbus.210809\nSpecifications are subject to alteration without notice\n4  \n  www.swegon.com"
+  },
+  {
+    "chunk_id": 7,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "Input Stat Bits – Available Input Stat Bits are shown in table 4 \nbelow. \nInput Stat Bits: 27 (R) \n0x02: Read\nTable 4\nRegister\nAddress\nFunction\nRange\nActive state\n1x0001\n0\nV LO Alarm\n0 - 1\n1 = Alarm\n1x0002\n1\nV HI Alarm\n0 - 1\n1 = Alarm\n1x0003\n2\nI HI Alarm (Motor out short)\n0 - 1\n1 = Alarm\n1x0004\n3\nTemperature High\n0 - 1\n1 = Warning\n1x0005\n4\nInput Phase Error\n0 - 1\n1 = Error\n1x0006\n5\nRotor Blocked\n0 - 1\n1 = Error\n1x0007\n6\nLimit\n0 - 1\n1 = Warning\n1x0008\n7\nInternal HW Fault\n0 - 1\n1 = Alarm\n1x0009\n8\nRotor Direction\n0 - 1\n1 = Alarm\n1x0010\n9\nEEPROM Error\n0 - 1\n1 = Warning\n1x0011\n10\nInternal Stop\n0 - 1\n1 = Alarm (Stop)\n1x0014\n13\nMotor Phase Error\n0 - 1\n1 = Alarm\n1x0015\n14\nCommunication error MOC\n0 - 1\n1 = Alarm\n1x0016\n15\nV Ripple\n0 - 1\n1 = Warning\n1x0017\n16\nDigital Input 1\n0 - 1\n1 = HI\n1x0018\n17\nDigital Input 2\n0 - 1\n1 = HI\n1x0019\n18\nExt. 24V supply overload\n0 - 1\n1 = Overload\n1x0020\n19\nMOC in bootloader\n0 - 1\n1 = Alarm\n1x0021\n20\nDigital input 3 (IOM)\n0 - 1\n1 = HI\n1x0022\n21"
+  },
+  {
+    "chunk_id": 8,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "0 - 1\n1 = Alarm\n1x0016\n15\nV Ripple\n0 - 1\n1 = Warning\n1x0017\n16\nDigital Input 1\n0 - 1\n1 = HI\n1x0018\n17\nDigital Input 2\n0 - 1\n1 = HI\n1x0019\n18\nExt. 24V supply overload\n0 - 1\n1 = Overload\n1x0020\n19\nMOC in bootloader\n0 - 1\n1 = Alarm\n1x0021\n20\nDigital input 3 (IOM)\n0 - 1\n1 = HI\n1x0022\n21\nDigital input 4 (IOM) \n0 - 1\n1 = HI\n1x0023\n22\nCommucation error (IOM)\n0 - 1\n1 = Warning\n1x0024\n23\nMotor Overheat (IOM) \n0 - 1\n1 = Alarm\n1x0025\n24\nWindmilling\n0 - 1\n1 = Warning\n1x0026\n25\nRotation OK\n0 - 1\n1 = Rotation OK\n0x0027\n 26\nIO Config mismatch\n0 – 1\n1 = Warning\n0x0028\n 27\nConfig write attempt\n0 – 1\n1 = Detected\nSpecifications are subject to alteration without notice\nwww.swegon.com  \n  5\nSILVERCModbus.210809"
+  },
+  {
+    "chunk_id": 9,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "Input Registers – Available Input Registers are shown in table \n5 below. \n \nInput Registers: 32 (R) \n0x04: Read\nTable 5\nEC configuration\nFC configuration\nRegister\nAddress\nFunction\nRange\nResolution\nUnit\nResolution\nUnit\n3x0001\n0\nDrive Type\n1000 - ?\n1\nn/a\n1\nn/a\n3x0002\n1\nAOC SW Version\n0 - ?\n0.01\nn/a\n0.01\nn/a\n3x0003\n2\nMOC SW Version\n0 - ?\n0.01\nn/a\n0.01\nn/a\n3x0004\n3\nPrcOut\n0 - 10000\n0.01\n%\n0.01\n%\n3x0005\n4\nRPMOut\n0 - 3000\n1\nRPM\n0.01\nHz\n3x0006\n5\nIntern Temp\n-5000 - 15000\n0.01\nºC\n0.01\nºC\n3x0007\n6\nV In\n0 - 500\n1\nV\n1\nV\n3x0008\n7\nI Out\n0 - 30000\n1\nmA\n1\nmA\n3x0009\n8\nPower In\n0 - 6000\n1\nW\n1\nW\n3x0010\n9\nI Ripple\n0 - 32000\n1\nmA\n1\nmA\n3x0011\n10\nOperation Minutes\n0 - 1439\n1\nMin\n1\nMin\n3x0012\n11\nOperation Days\n0 - 9999\n1\nDays\n1\nDays\n3x0013\n12\nV Ripple\n0 - 500\n1\nV\n1\nV\n3x0014\n13\nConfig. File Variant\nAA - ZZ\n2 ASCII characters\n2 ASCII characters\n3x0015\n14\nConfig. File Version\n100 - 32000\n0.01\nn/a\n0.01\nn/a\n3x0016\n15\nExternSet\n0 - 10000\n1\nmV\n1\nmV\n3x0019\n18\nAOC SW Variant\nn/a\nn/a\nn/a\nn/a\nn/a\n3x0020\n19\nAOC Boot SW"
+  },
+  {
+    "chunk_id": 10,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "1\nDays\n1\nDays\n3x0013\n12\nV Ripple\n0 - 500\n1\nV\n1\nV\n3x0014\n13\nConfig. File Variant\nAA - ZZ\n2 ASCII characters\n2 ASCII characters\n3x0015\n14\nConfig. File Version\n100 - 32000\n0.01\nn/a\n0.01\nn/a\n3x0016\n15\nExternSet\n0 - 10000\n1\nmV\n1\nmV\n3x0019\n18\nAOC SW Variant\nn/a\nn/a\nn/a\nn/a\nn/a\n3x0020\n19\nAOC Boot SW \n0 - ?\n0.01\nn/a\n0.01\nn/a\n3x0021\n20\nMOC Boot SW \n0 - ?\n0.01\nn/a\n0.01\nn/a\n3x0022\n21\nMotor Config. Variant\n0 - 65535\n1\nn/a\n1\nn/a\n3x0023\n22\nMotor Config. Version\n0 - 65535\n0.01\nn/a\n0.01\nn/a\n3x0024\n23\nFan Config. Variant\n0 - 65535\n1\nn/a\n1\nn/a\n3x0025\n24\nFan Config. Version\n0 - 65535\n0.01\nn/a\n0.01\nn/a\n3x0026\n25\nUser Data Variant\n0 - 65535\n1\nn/a\n1\nn/a\n3x0027\n26\nUser Data Version\n0 - 65535\n0.01\nn/a\n0.01\nn/a\n3x0028\n27\nIOM SW version\n0 - ?\n0.01\nn/a\n0.01\nn/a\n3x0029\n28\nV DC Bus (Peak)\n0 - 800\n1\nV\n1\nV\n3x0030\n29\nV Motor (Peak)\n0 - 500\n1\nV\n1\nV\n3x0031\n30\nPower In (unfiltered)\n0 - 15000\n1\nW\n1\nW\n3x0032\n31\nPower Consumption\n0 - 999\n1\nWh\n1\nWh\n3x0033\n32\nPower Consumption\n0 - 999\n1\nkWh\n1\nkWh\n3x0034\n33\nPower Consumption"
+  },
+  {
+    "chunk_id": 11,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "27\nIOM SW version\n0 - ?\n0.01\nn/a\n0.01\nn/a\n3x0029\n28\nV DC Bus (Peak)\n0 - 800\n1\nV\n1\nV\n3x0030\n29\nV Motor (Peak)\n0 - 500\n1\nV\n1\nV\n3x0031\n30\nPower In (unfiltered)\n0 - 15000\n1\nW\n1\nW\n3x0032\n31\nPower Consumption\n0 - 999\n1\nWh\n1\nWh\n3x0033\n32\nPower Consumption\n0 - 999\n1\nkWh\n1\nkWh\n3x0034\n33\nPower Consumption\n0 - 65535\n1\nMWh\n1\nMWh\nn/a= not applicable\nSILVERCModbus.210809\nSpecifications are subject to alteration without notice\n6  \n  www.swegon.com"
+  },
+  {
+    "chunk_id": 12,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "Input Registers: 19\n0x04: Read\nTable 6\nEC configuration\nRegister\nAddress\nFunction\nResolution\nResolution\nUnit\n3x2000\n1999\nProduction week\n0100 – 5399\n1\nWWYY\n3x2001\n2000\nProduction order number LO\n0 – 9999\n1\n-\n3x2002\n2001\nProduction order number HI\n0 – 9999\n10000\n-\n3x2003\n2002\nSerial number of batch\n0 – 65535\n1\n-\n3x2004\n2003\nProduct name length + Char0\n0 – 65535\n-\n2 x Ascii char\n3x2005\n2004\nChar1 + Char2\n0 – 65535\n-\n2 x Ascii char\n3x2006\n2005\nChar3 + Char4\n0 – 65535\n-\n2 x Ascii char\n3x2007\n2006\nChar5 + Char6\n0 – 65535\n-\n2 x Ascii char\n3x2008\n2007\nChar7 + Char8\n0 – 65535\n-\n2 x Ascii char\n3x2009\n2008\nChar9 + Char10\n0 – 65535\n-\n2 x Ascii char\n3x200A\n2009\nChar11 + Char12\n0 – 65535\n-\n2 x Ascii char\n3x200B\n200A\nChar13 + Char14\n0 – 65535\n-\n2 x Ascii char\n3x200C\n200B\nChar15 + Char16\n0 – 65535\n-\n2 x Ascii char\n3x200D\n200C\nChar17 + Char18\n0 – 65535\n-\n2 x Ascii char\n3x200E\n200D\nChar19 + Char20\n0 – 65535\n-\n2 x Ascii char\n3x200F\n200E\nChar21 + Char22\n0 – 65535\n-\n2 x Ascii char\n3x2010\n200F"
+  },
+  {
+    "chunk_id": 13,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "3x200B\n200A\nChar13 + Char14\n0 – 65535\n-\n2 x Ascii char\n3x200C\n200B\nChar15 + Char16\n0 – 65535\n-\n2 x Ascii char\n3x200D\n200C\nChar17 + Char18\n0 – 65535\n-\n2 x Ascii char\n3x200E\n200D\nChar19 + Char20\n0 – 65535\n-\n2 x Ascii char\n3x200F\n200E\nChar21 + Char22\n0 – 65535\n-\n2 x Ascii char\n3x2010\n200F\nChar23 + Char24\n0 – 65535\n-\n2 x Ascii char\n3x2011\n2010\nChar25 + Char26\n0 – 65535\n-\n2 x Ascii char\n3x2012\n2011\nChar27 + “NULL”\n0 – 65535\n-\n2 x Ascii char\nSpecifications are subject to alteration without notice\nwww.swegon.com  \n  7\nSILVERCModbus.210809"
+  },
+  {
+    "chunk_id": 14,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "Holding Registers – Available Holding Registers are shown in \ntable 7 below. \nHolding Registers: 32 (R/W)\n0x03: Read\n0x06: Write Single\n0x10: Write Multiple\nTable 7\nEC-configuration\nFC-configuration\nRegister\nAddress\nFunction\nRange\nResolution\nUnit\nRange\nResolution\nUnit\n4x0001\n0\nSetpoint / PrcSet\n0 - 10000\n0.01\n%\n0 - 10000\n0.01\n%\n4x0002\n1\nMin. RPM\n0 - ?\n1\nRPM\n0 - ?\n0.01\nHz\n4x0003\n2\nMax. RPM\n0 - ?\n1\nRPM\n0 - ?\n0.01\nHz\n4x0004\n3\nUpRampTime\n15 - 300\n1\nSec.\n15 - 300\n1\nSec.\n4x0005\n4\nDownRampTime\n15 - 300\n1\nSec.\n15 - 300\n1\nSec.\n4x0008\n7\nMax I Out\n0 - ?\n1\nmA\n1000-65000\n1\nmA\n4x0009\n8\nI Out Alarm Limit\nn/a\nn/a\nn/a\n1000-30000\n1\nmA\n4x0011\n10\nSwitchMode\n0\nAuto\n0\nAuto\n1\n4\nkHz\n1\n4\nkHz\n2\n8\nkHz\n2\n8\nkHz\n4x0012\n11\nU minHz\nn/a\nn/a\nn/a\n0 - ?\n1\nV\n4x0013\n12\nFreq Umax\nn/a\nn/a\nn/a\n0 - ?\n0.01\nHz\n4x0014\n13\nAuto SF Change\n0 - 10000\n0.01 \n% \n 0 - 10000\n0.01\n%\n4x0015\n14\nExpSet\nn/a\nn/a\nn/a\n0-100\n1\nn/a\n4x0016\n15\nDrive Type\n1000 - ?\n1\nn/a\n1-99\n1\nn/a\n4x0017\n16\nModbus ID\n1-247\n1\nn/a\n1-247\n1\nn/a\n4x0020\n19\nNumber of retries"
+  },
+  {
+    "chunk_id": 15,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "U minHz\nn/a\nn/a\nn/a\n0 - ?\n1\nV\n4x0013\n12\nFreq Umax\nn/a\nn/a\nn/a\n0 - ?\n0.01\nHz\n4x0014\n13\nAuto SF Change\n0 - 10000\n0.01 \n% \n 0 - 10000\n0.01\n%\n4x0015\n14\nExpSet\nn/a\nn/a\nn/a\n0-100\n1\nn/a\n4x0016\n15\nDrive Type\n1000 - ?\n1\nn/a\n1-99\n1\nn/a\n4x0017\n16\nModbus ID\n1-247\n1\nn/a\n1-247\n1\nn/a\n4x0020\n19\nNumber of retries\n-1 - 100\n1\nn/a\n-1 - 100\n1\nn/a\n4x0022\n21\nCommTimeout\n0 – 240\n1\nSec.\n0 – 240\n1\nSec.\n4x0023\n22\nCommRate\n0\n9600\nbps\n0\n9600\nbps\n1\n19200\nbps\n1\n19200\nbps\n2\n38400\nbps\n2\n38400\nbps\n3\n115200\nbps\n3\n115200\nbps\n4x0024\n23\nParity\n0\nNone\nn/a\n0\nNone\nn/a\n1\nOdd\nn/a\n1\nn/a\nn/a\n2\nEven\nn/a\n2\nn/a\nn/a\n4x0025\n24\nStop Bits\nn/a\nINVALID\nn/a\nn/a\nINVALID\nn/a\n1\n1\nn/a\n1\nn/a\nn/a\n2\n2\nn/a\n2\nn/a\nn/a\n4x0026\n25\nDigIn1 config\nn/a\nDisabled\nn/a\nn/a\nDisabled\nn/a\n1\nStart/stop\nn/a\n1\nn/a\nn/a\n2\nAlarmReset\nn/a\n2\nn/a\nn/a\n3\nMB_IDs_2\nn/a\n3\nn/a\nn/a\n4\nInvert 10-0V\nn/a\n4\nn/a\nn/a\n5\nRotation\nn/a\n5\nn/a\nn/a\n6\nFiremode\nn/a\n6\nn/a\nn/a\n7\nMoter Overheat\nn/a\n7\nn/a\nn/a\n8\nInvert 0-10V\nn/a\n8\nn/a\nn/a\n9\nAll stop\nn/a\n9\nn/a\nn/a\nSILVERCModbus.210809"
+  },
+  {
+    "chunk_id": 16,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "n/a\nDisabled\nn/a\nn/a\nDisabled\nn/a\n1\nStart/stop\nn/a\n1\nn/a\nn/a\n2\nAlarmReset\nn/a\n2\nn/a\nn/a\n3\nMB_IDs_2\nn/a\n3\nn/a\nn/a\n4\nInvert 10-0V\nn/a\n4\nn/a\nn/a\n5\nRotation\nn/a\n5\nn/a\nn/a\n6\nFiremode\nn/a\n6\nn/a\nn/a\n7\nMoter Overheat\nn/a\n7\nn/a\nn/a\n8\nInvert 0-10V\nn/a\n8\nn/a\nn/a\n9\nAll stop\nn/a\n9\nn/a\nn/a\nSILVERCModbus.210809\nSpecifications are subject to alteration without notice\n8  \n  www.swegon.com"
+  },
+  {
+    "chunk_id": 17,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "Table 7\nEC-configuration\nFC-configuration\nRegister\nAddress\nFunction\nRange\nResolution\nUnit\nRange\nResolution\nUnit\n4x0027\n26\nDigIn2 config\nn/a\nDisabled\nn/a\nn/a\nDisabled\nn/a\n1\nTachoOut\nn/a\n1\nn/a\nn/a\n2\nRunning\nn/a\n2\nn/a\nn/a\n3\nAlarmOut\nn/a\n3\nn/a\nn/a\n4\nRunning spin\nn/a\n4\nn/a\nn/a\n4x0029\n28\nMotorConfigVar\n0 - 65535\n1\nn/a\n0 - 65535\n1\nn/a\n4x0030\n29\nFanConfigVar\n0 - 65535\n1\nn/a\n0 - 65535\n1\nn/a\n4x0031\n30\nDigIn3 config (IOM)\n0\nDisabled\nn/a\n0\nDisabled\nn/a\n1\nStart/Stop\nn/a\n1\nStart/Stop\nn/a\n2\nAlarm reset\nn/a\n2\nAlarm reset\nn/a\n3\nDisabled\nn/a\n3\nDisabled\nn/a\n4\nInvert 10-0V\nn/a\n4\nInvert 10-0V\nn/a\n5\nRotation\nn/a\n5\nRotation\nn/a\n6\nFiremode\nn/a\n6\nFiremode\nn/a\n7\nN/A\n8\nInvert 0-10V\nn/a\n8\nInvert 0-10V\nn/a\n9\nAll stop\nn/a\n9\nAll stop\nn/a\n4x0032\n31\nDigIn4 config (IOM)\n0\nDisabled\nn/a\n0\nDisabled\nn/a\n1\nStart/Stop\nn/a\n1\nStart/Stop\nn/a\n2\nAlarm reset\nn/a\n2\nAlarm reset\nn/a\n3\nDisabled\nn/a\n3\nDisabled\nn/a\n4\nInvert 10-0V\nn/a\n4\nInvert 10-0V\nn/a\n5\nRotation\nn/a\n5\nRotation\nn/a\n6\nFiremode\nn/a\n6\nFiremode\nn/a\n7\nN/A\n8\nInvert 0-10V\nn/a"
+  },
+  {
+    "chunk_id": 18,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "9\nAll stop\nn/a\n4x0032\n31\nDigIn4 config (IOM)\n0\nDisabled\nn/a\n0\nDisabled\nn/a\n1\nStart/Stop\nn/a\n1\nStart/Stop\nn/a\n2\nAlarm reset\nn/a\n2\nAlarm reset\nn/a\n3\nDisabled\nn/a\n3\nDisabled\nn/a\n4\nInvert 10-0V\nn/a\n4\nInvert 10-0V\nn/a\n5\nRotation\nn/a\n5\nRotation\nn/a\n6\nFiremode\nn/a\n6\nFiremode\nn/a\n7\nN/A\n8\nInvert 0-10V\nn/a\n8\nInvert 0-10V\nn/a\n9\nAll stop\nn/a\n9\nAll stop\nn/a\n4x0033\n32\nRelay1 config (IOM)\n0\nDisabled\nn/a\n0\nDisabled\nn/a\n1\nN/A\nn/a\n1\nN/A\nn/a\n2\nRunning start\nn/a\n2\nRunning start\nn/a\n3\nAlarm out\nn/a\n3\nAlarm out\nn/a\n4\nRunning spin\nn/a\n4\nRunning spin\nn/a\n100\nDisabled\nn/a\n100\nDisabled\nn/a\n101\nStart/Stop\nn/a\n101\nStart/Stop\nn/a\n102\nAlarm reset\nn/a\n102\nAlarm reset\nn/a\n103\nDisabled\nn/a\n103\nDisabled\nn/a\n104\nInvert 10-0V\nn/a\n104\nInvert 10-0V\nn/a\n105\nRotation\nn/a\n105\nRotation\nn/a\n106\nFiremode \nn/a\n106\nFiremode\nn/a\n107\nN/A\n108\nInvert 0-10V\nn/a\n108\nInvert 0-10V\nn/a\n109\nAll stop\nn/a\n109\nAll stop\nn/a\nSpecifications are subject to alteration without notice\nwww.swegon.com  \n  9\nSILVERCModbus.210809"
+  },
+  {
+    "chunk_id": 19,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "Table 7\nEC-configuration\nFC-configuration\nRegister\nAddress\nFunction\nRange\nResolution\nUnit\nRange\nResolution\nUnit\n4x0034\n33\nRelay2 config (IOM)\n0\nDisabled\nn/a\n0\nDisabled\nn/a\n1\nN/A\nn/a\n1\nN/A\nn/a\n2\nRunning start\nn/a\n2\nRunning start\nn/a\n3\nAlarm out\nn/a\n3\nAlarm out\nn/a\n4\nRunning spin\nn/a\n4\nRunning spin\nn/a\n100\nDisabled\nn/a\n100\nDisabled\nn/a\n101\nStart/Stop\nn/a\n101\nStart/Stop\nn/a\n102\nAlarm reset\nn/a\n102\nAlarm reset\nn/a\n103\nDisabled\nn/a\n103\nDisabled\nn/a\n104\nInvert 0-10V\nn/a\n104\nInvert 0-10V\nn/a\n105\nRotation\nn/a\n105\nRotation\nn/a\n106\nFiremode \nn/a\n106\nFiremode\nn/a\n107\nN/A\n108\nInvert 0-10V\nn/a\n108\nInvert 0-10V\nn/a\n109\nAll stop\nn/a\n109\nAll stop\nn/a\n4x0035\n34\nAnalogOut1 config (IOM)\n0\nDisabled\nn/a\n0\nDisabled\nn/a\n1\nActSpeed\nn/a\n1\nActSpeed\nn/a\n2\nTBD\nn/a\n2\nTDB\nn/a\n4x0036\n35\nThermistor config (IOM)\n0\nDisabled\nn/a\n0\nDisabled\nn/a\n1\nMotor Overheat PTC\nn/a\n1\nMotor Overheat PTC\nn/a\n2\nTBD\nn/a\n2\nTBD\nn/a\n4x0037\n36\nAnalogIn2 config (IOM)\n0\nDisabled\nn/a\n0\nDisabled\nn/a\n1\nTDB\nn/a\n1\nTDB\nn/a\n2\nTBD\nn/a\n2\nTBD\nn/a\n4x0038"
+  },
+  {
+    "chunk_id": 20,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\silverc-modbus-other-en.pdf",
+    "content": "n/a\n1\nActSpeed\nn/a\n1\nActSpeed\nn/a\n2\nTBD\nn/a\n2\nTDB\nn/a\n4x0036\n35\nThermistor config (IOM)\n0\nDisabled\nn/a\n0\nDisabled\nn/a\n1\nMotor Overheat PTC\nn/a\n1\nMotor Overheat PTC\nn/a\n2\nTBD\nn/a\n2\nTBD\nn/a\n4x0037\n36\nAnalogIn2 config (IOM)\n0\nDisabled\nn/a\n0\nDisabled\nn/a\n1\nTDB\nn/a\n1\nTDB\nn/a\n2\nTBD\nn/a\n2\nTBD\nn/a\n4x0038\n37\nThermistor threshold\n1-65000\n1\nΩ\n1-65000\n1\nΩ\n4x0039\n38\nMax Windmilling Time \n0-65000\n1\nSec\n0-65000\n1\nSec\n4x0040\n39\nAC notor boost current \n0- ?\n1\nmA\n1000-65000\n1\nmA\n”?”= Value depends on hardware variant\n”n/a”= not applicable\nSILVERCModbus.210809\nSpecifications are subject to alteration without notice\n10  \n  www.swegon.com"
+  }
+]

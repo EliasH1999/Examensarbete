@@ -1,0 +1,1138 @@
+[
+  {
+    "pass_name": "communication",
+    "parameters": [
+      "physicalStandard",
+      "baudRate",
+      "dataBits",
+      "parity",
+      "stopBits"
+    ],
+    "raw_top_k_per_query": {
+      "physical_standard": [
+        {
+          "rank": 1,
+          "chunk_id": 94,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 25 / 52 \nDevice info \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n$4000 \n16384 \n5 \nSERIAL NUMBER \nR \nExpressed in ASCII Code \n1°‐2°‐3° Bytes: Product Model \n8°‐9° Bytes: Progressive Number \n4°‐5° Bytes: Product Year \n10° Bytes: Not Used \n6°‐7° Bytes: Product Week \n$4005 \n16389 \n4 \nHW REVISION \nR\nExpressed in ASCII Code \n$4009 \n16393 \n4 \nHW CUSTOMIZATION \nR\nExpressed in ASCII Code \n$400D \n16397 \n32 \nCONFIGURATION \nR\nExpressed in ASCII Code (see below tables) \n \nBoot version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4060 \n16480 \n1 \nBOOT VERSION \nR\n \nFirmware version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4070 \n16496 \n1 \nFIRMWARE VERSION \nR\n \nCore version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4080 \n16512 \n1 \nCORE VERSION \nR\n \nDevice state \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4100 \n16640 \n2 \nSTATE \nR"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 156,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 38 / 52 \nCOM (option) \n \nCOM 1 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n6000 \n24576 \n2 \nOPERATION MODE * \nR/W\n0000h: Slave Mode [Default] \n0001h: Master Mode\n6002 \n24578 \n2 \nSLAVE CONNECTED \n(used only in Master Mode) \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Master Mode. \n6004 \n24580 \n2 \nMASTER TIMEOUT \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 800] \n6006 \n24582 \n2 \nMASTER SCAN RATE \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 1000] \nDelay between two master request (master mode). \nNote: this value must be greater than MASTER TIMEOUT. \n6008 \n24584 \n2 \nNODE ID* \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Slave Mode. \n600A \n24586 \n2 \nBAUD RATE* \nR/W \n0000h: 4800 Baud\n0002h: 9200 Baud \n0004h: 57600 Baud\n0001h: 9600 Baud \n0003h: 38400 Baud[Def.]  0005h:115200Baud \n600C \n24588 \n2 \nSTOP BITS* \nR/W"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 215,
+          "page": 50,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 51 / 52"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 216,
+          "page": 51,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 52 / 52"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 77,
+          "page": 19,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 20 / 52 \n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32D6 \n13014 \n2 \nTHD VOLTAGE L2 \nR\n0 ÷ 10000\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32DC \n13020 \n2 \nTHD VOLTAGE L3 \nR\n0 ÷ 10000\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32E2 \n13026 \n2 \nTHD CURRENT L1 \nR\n0 ÷ 10000\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32E8 \n13032 \n2 \nTHD CURRENT L2 \nR\n0 ÷ 10000\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32EE \n13038 \n2 \nTHD CURRENT L3 \nR\n0 ÷ 10000\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32F4 \n13044 \n2 \nANGLE1‐2 \nR\n0 ‐ 3600\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32FA \n13050 \n2 \nANGLE2‐3 \nR\n0 ‐ 3600\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n3300 \n13056 \n2 \nANGLE3‐1 \nR\n0 ‐ 3600\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n3306 \n13062 \n2 \nSYSTEM TANGENT φ \nR\n±100000\nSigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n330C \n13068 \n2 \nPHASE TANGENT φ1 \nR\n±100000"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 64,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 17 / 52 \nRelative minimums \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n3000 \n12288 \n2 \nSYSTEM VOLTAGE \nR\nmV\nUnsigned\n3002 \n12290 \n2 \nPHASE VOLTAGE L1 \nR\nmV\nUnsigned\n3004 \n12292 \n2 \nPHASE VOLTAGE L2 \nR\nmV\nUnsigned\n3006 \n12294 \n2 \nPHASE VOLTAGE L3 \nR\nmV\nUnsigned\n3008 \n12296 \n2 \nLINE TO LINE VOLTAGE L1‐2\nR\nmV\nSigned\n300A \n12298 \n2 \nLINE TO LINE VOLTAGE L2‐3\nR\nmV\nSigned\n300C \n12300 \n2 \nLINE TO LINE VOLTAGE L3‐1\nR\nmV\nSigned\n300E \n12302 \n2 \nSYSTEM CURRENT \nR\nmA\nUnsigned\n3010 \n12304 \n2 \nLINE CURRENT L1 \nR\nmA\nUnsigned\n3012 \n12306 \n2 \nLINE CURRENT L2 \nR\nmA\nUnsigned\n3014 \n12308 \n2 \nLINE CURRENT L3 \nR\nmA\nUnsigned\n3016 \n12310 \n2 \nSYSTEM POWER FACTOR [max negative value]\nR\n±1000 \nSigned\n3018 \n12312 \n2 \nPOWER FACTOR L1 [maximum negative value]\nR\n±1000\nSigned\n301A \n12314 \n2 \nPOWER FACTOR L2 [maximum negative value]\nR\n±1000\nSigned\n301C \n12316 \n2 \nPOWER FACTOR L3 [maximum negative value]\nR\n±1000\nSigned\n301E \n12318"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 161,
+          "page": 38,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 39 / 52 \nM‐BUS setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nW/R \nParameters\n6600 \n26112 \n2 \nPRIMARY ADDRESS \nW/R\n0000h ÷ 00FAh (000 ÷ 250 dec) [Default: 1]\n6602 \n26114 \n2 \nBAUDRATE \nW/R \n0000h: 300 Baud\n0003h: 2400 Baud \n0006h: 19200 Baud\n0001h: 600 Baud \n0004h: 4800 Baud \n0007h: 38400 Baud \n0002h: 1200 Baud \n0005h: 9600 Baud \n6604 \n26116 \n2 \nSTOP BITS \nW/R\n0000h: 1 Stop Bit [Default] \n0001h: 2 Stop Bits\n6606 \n26118 \n2 \nPARITY \nW/R\n0000h: None [Default] \n0001h: Parity Odd\n0002h: Parity Even\n6608 \n26120 \n2 \nACCESS NUMBER \nW/R\nWrite 0000h to reset \n \nM‐BUS readout data setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nW/R \nParameters\n6700 \n26368 \n2 \nFRAME SLOT 1 – GROUP \nW/R \n0: Measure not used \n7: TB Energy 4\n14: TB Energy 11\n1: Instantaneous \n8: TB Energy 5 \n15: TB Energy 12 \n2: Average \n9: TB Energy 6 \n16: TB Energy 13 \n3: Total Energy \n10: TB Energy 7 \n17: TB Energy 14 \n4: TB Energy 1"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 68,
+          "page": 17,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 18 / 52 \nRelative maximums \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n3100 \n12544 \n2 \nSYSTEM VOLTAGE \nR\nmV\nUnsigned\n3102 \n12546 \n2 \nPHASE VOLTAGE L1 \nR\nmV\nUnsigned\n3104 \n12548 \n2 \nPHASE VOLTAGE L2 \nR\nmV\nUnsigned\n3106 \n12550 \n2 \nPHASE VOLTAGE L3 \nR\nmV\nUnsigned\n3108 \n12552 \n2 \nLINE TO LINE VOLTAGE L1‐2\nR\nmV\nSigned\n310A \n12554 \n2 \nLINE TO LINE VOLTAGE L2‐3\nR\nmV\nSigned\n310C \n12556 \n2 \nLINE TO LINE VOLTAGE L3‐1\nR\nmV\nSigned\n310E \n12558 \n2 \nSYSTEM CURRENT \nR\nmA\nUnsigned\n3110 \n12560 \n2 \nLINE CURRENT L1 \nR\nmA\nUnsigned\n3112 \n12562 \n2 \nLINE CURRENT L2 \nR\nmA\nUnsigned\n3114 \n12564 \n2 \nLINE CURRENT L3 \nR\nmA\nUnsigned\n3116 \n12566 \n2 \nSYSTEM POWER FACTOR [max positive value]\nR\n±1000\nSigned\n3118 \n12568 \n2 \nPOWER FACTOR L1 [maximum positive value]\nR\n±1000\nSigned\n311A \n12570 \n2 \nPOWER FACTOR L2 [maximum positive value]\nR\n±1000\nSigned\n311C \n12572 \n2 \nPOWER FACTOR L3 [maximum positive value]\nR\n±1000\nSigned\n311E \n12574"
+        }
+      ],
+      "baud_rate": [
+        {
+          "rank": 1,
+          "chunk_id": 156,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 38 / 52 \nCOM (option) \n \nCOM 1 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n6000 \n24576 \n2 \nOPERATION MODE * \nR/W\n0000h: Slave Mode [Default] \n0001h: Master Mode\n6002 \n24578 \n2 \nSLAVE CONNECTED \n(used only in Master Mode) \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Master Mode. \n6004 \n24580 \n2 \nMASTER TIMEOUT \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 800] \n6006 \n24582 \n2 \nMASTER SCAN RATE \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 1000] \nDelay between two master request (master mode). \nNote: this value must be greater than MASTER TIMEOUT. \n6008 \n24584 \n2 \nNODE ID* \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Slave Mode. \n600A \n24586 \n2 \nBAUD RATE* \nR/W \n0000h: 4800 Baud\n0002h: 9200 Baud \n0004h: 57600 Baud\n0001h: 9600 Baud \n0003h: 38400 Baud[Def.]  0005h:115200Baud \n600C \n24588 \n2 \nSTOP BITS* \nR/W"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 158,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Note: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER \nR/W \nNumber of corrupted messages received \nNote: Write 0 to clear register \n6018 \n24600 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 1 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6050 \n24656 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 157,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "6008 \n24584 \n2 \nNODE ID* \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Slave Mode. \n600A \n24586 \n2 \nBAUD RATE* \nR/W \n0000h: 4800 Baud\n0002h: 9200 Baud \n0004h: 57600 Baud\n0001h: 9600 Baud \n0003h: 38400 Baud[Def.]  0005h:115200Baud \n600C \n24588 \n2 \nSTOP BITS* \nR/W\n0000h: 1 Stop Bit [Default] \n0001h: 2 Stop Bits\n600E \n24590 \n2 \nPARITY* \nR/W\n0000h: None [Default] \n0001h: Parity Odd \n0002h: Parity Even\n6010 \n24592 \n2 \nMINIMUM RESPONSE DELAY \nR/W \n5 ÷ 100 mSec [Default: 10] \nNote: valid only in Slave Mode. \n6012 \n24594 \n2 \nSTATE \nR/W \nDefault: All bit are “Low” (not error present)\nBit 00: Set if slave doesn’t response \nBit 01: Set if master received corrupted answer \nBit 02: Set if master received illegal answer \nNote: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 94,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 25 / 52 \nDevice info \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n$4000 \n16384 \n5 \nSERIAL NUMBER \nR \nExpressed in ASCII Code \n1°‐2°‐3° Bytes: Product Model \n8°‐9° Bytes: Progressive Number \n4°‐5° Bytes: Product Year \n10° Bytes: Not Used \n6°‐7° Bytes: Product Week \n$4005 \n16389 \n4 \nHW REVISION \nR\nExpressed in ASCII Code \n$4009 \n16393 \n4 \nHW CUSTOMIZATION \nR\nExpressed in ASCII Code \n$400D \n16397 \n32 \nCONFIGURATION \nR\nExpressed in ASCII Code (see below tables) \n \nBoot version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4060 \n16480 \n1 \nBOOT VERSION \nR\n \nFirmware version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4070 \n16496 \n1 \nFIRMWARE VERSION \nR\n \nCore version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4080 \n16512 \n1 \nCORE VERSION \nR\n \nDevice state \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4100 \n16640 \n2 \nSTATE \nR"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 168,
+          "page": 39,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 40 / 52 \nPreset timeband (option) \n \nDaily plan 01 \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n7000 \n28672 \n2 \nSTART TIME HOUR – PERIOD 01\nR/W\nHour: 0 ÷ 23 [Default: 0] \n7002 \n28674 \n2 \nSTART TIME MINUTE – PERIOD 01\nR/W\nMinute: 0 ÷ 59 [Default: 0] \n7004 \n28676 \n2 \nTIMEBAND USED – PERIOD 01\nR/W\nTimeband: 0 ÷ 16 [Default: 0  Timeband Not Used]\n7006 \n28678 \n2 \nSTART TIME HOUR – PERIOD 02\nR/W\nHour: 0 ÷ 23 [Default: 0] \n7008 \n28680 \n2 \nSTART TIME MINUTE – PERIOD 012\nR/W\nMinute: 0 ÷ 59 [Default: 0] \n700A \n28682 \n2 \nTIMEBAND USED – PERIOD 02\nR/W\nTimeband: 0 ÷ 16 [Default: 0  Timeband Not Used]\n700C \n28684 \n2 \nSTART TIME HOUR – PERIOD 03\nR/W\nHour: 0 ÷ 23 [Default: 0] \n700E \n28686 \n2 \nSTART TIME MINUTE – PERIOD 03\nR/W\nMinute: 0 ÷ 59 [Default: 0] \n7010 \n28688 \n2 \nTIMEBAND USED – PERIOD 03\nR/W\nTimeband: 0 ÷ 16 [Default: 0  Timeband Not Used]\n7012 \n28690 \n2 \nSTART TIME HOUR – PERIOD 04\nR/W"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 100,
+          "page": 25,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 26 / 52 \nDevice setup \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5050 \n20560 \n2 \nRESET \nW \n00000001h: Reset to Default \n00000002h: Reset Setup \n00000004h: Reset all Energies \n00000008h: Reset all Energies TB (no total energies) \n00000010h: Reset all Counters \n00000020h: Reset all Counters TB (no total energies) \n00000040h: Reset Minimums and Maximum \n00000080h: Reset Maximum Demand \n00000100h: Reset Energy Log \n00000200h: Reset Setpoint Log \n00000400h: Reset Generic and Smart Log \n5052 \n20562 \n2 \nHOUR \nR/W\n00 to 23 hours (00=Midnight) \n5054 \n20564 \n2 \nMINUTE \nR/W\n00 to 59 minutes\n5056 \n20566 \n2 \nSECOND \nR/W"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 144,
+          "page": 34,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 35 / 52 \nSetpoint 20 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBCF0 \n48368 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBCF2 \n48370 \n2 \nEVENTS \nR\nNumber of overcoming events \nBCF4 \n48372 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 20 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBD10 \n48400 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\nBD32 \n48434 \n2 \nDIGITAL OUTPUT USED \nR/W\nSee Setpoint 1 setup table \n \nSetpoint 21 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBD40 \n48448 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBD42 \n48450 \n2 \nEVENTS \nR\nNumber of overcoming events \nBD44 \n48452 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 21 setup"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 159,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2 \nSLAVE SELECTION \nR/W\n1 ÷ 20\n \nCOM 1 slave register (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n60B0 \n24752 \n2 \n1° SLAVE REGISTER \nR\n‐‐‐ \n \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n614E \n24910 \n2 \n80° SLAVE REGISTER \nR\n \nCOM 2 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n6300 \n25344 \n2 \nOPERATION MODE * \nR/W\n0000h: Slave Mode [Default] \n0001h: Master Mode\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6318 \n24680 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 2 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6350 \n25424 \n2 \n1° SLAVE"
+        }
+      ],
+      "data_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 157,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "6008 \n24584 \n2 \nNODE ID* \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Slave Mode. \n600A \n24586 \n2 \nBAUD RATE* \nR/W \n0000h: 4800 Baud\n0002h: 9200 Baud \n0004h: 57600 Baud\n0001h: 9600 Baud \n0003h: 38400 Baud[Def.]  0005h:115200Baud \n600C \n24588 \n2 \nSTOP BITS* \nR/W\n0000h: 1 Stop Bit [Default] \n0001h: 2 Stop Bits\n600E \n24590 \n2 \nPARITY* \nR/W\n0000h: None [Default] \n0001h: Parity Odd \n0002h: Parity Even\n6010 \n24592 \n2 \nMINIMUM RESPONSE DELAY \nR/W \n5 ÷ 100 mSec [Default: 10] \nNote: valid only in Slave Mode. \n6012 \n24594 \n2 \nSTATE \nR/W \nDefault: All bit are “Low” (not error present)\nBit 00: Set if slave doesn’t response \nBit 01: Set if master received corrupted answer \nBit 02: Set if master received illegal answer \nNote: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 158,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Note: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER \nR/W \nNumber of corrupted messages received \nNote: Write 0 to clear register \n6018 \n24600 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 1 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6050 \n24656 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 120,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "5266 \n21094 \n2 \nMAX VALUE \nR/W\nValue: ± 999999\n5268 \n21096 \n2 \nMAX UNIT \nR/W \nvoltage:\ncurrent: \ncos phi and PF: \npower: \n \n \n \nfrequency: \nTHD & Harmonics: \nangle degree: \ntan phi \nenergy: \n \n \n \n0: mV, 1: V, 2: kV, 3: MV\n0: mA, 1: A, 2: kA, 3: MA \n0, 1, 2, 3: no unit \n0: VA, W, Var \n1: kVA, kW, kVAr \n2 : MVA, MW, GVAr \n3: GVA, GW, GVAr \n0, 1, 2, 3: mHz \n0, 1, 2, 3: %*100 \n0, 1, 2, 3: degree*10 \n0, 1, 2, 3: no unit \n0: VAh*100, kWh*100, kVArh*100 \n1: kVAh, kWh, kVAr \n2 : MVAh, MWh, GVArh \n3: GVAh, GWh, GVArh\n526A \n21098 \n2 \nMIN VALUE \nR/W\nValue: ± 999999\n526C \n21100 \n2 \nMIN UNIT \nR/W\nSee Min value unit\n \nAnalog output 4 setup (option) \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 160,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "‐‐‐\n‐‐‐\n6318 \n24680 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 2 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6350 \n25424 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6376 \n25462 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 2 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n63A0 \n25504 \n2 \nSLAVE SELECTION \nR/W\n1 ÷ 20\n \nCOM 2 slave register (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n63B0 \n25520 \n2 \n1° SLAVE REGISTER \nR\n‐‐‐ \n \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n644E \n25678 \n2 \n80° SLAVE REGISTER \nR"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 159,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2 \nSLAVE SELECTION \nR/W\n1 ÷ 20\n \nCOM 1 slave register (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n60B0 \n24752 \n2 \n1° SLAVE REGISTER \nR\n‐‐‐ \n \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n614E \n24910 \n2 \n80° SLAVE REGISTER \nR\n \nCOM 2 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n6300 \n25344 \n2 \nOPERATION MODE * \nR/W\n0000h: Slave Mode [Default] \n0001h: Master Mode\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6318 \n24680 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 2 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6350 \n25424 \n2 \n1° SLAVE"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 16,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "RESPONSE: \n \n0° Byte \n1° Byte \n2° Byte\nn° Byte\nn+1 ‐ n+2° Byte\nStart of Frame \nAddress Field \nFunction Code \nNumber of Bytes\nData\nCheck Sum\nEnd of Frame \n \nSTART OF FRAME \n= \nStarting message marker. \nADDRESS FIELD \n= \nEMT device address (0x01... 0xF7) \n(1byte). \nFUNCTION CODE \n= \nOperation code (0x03) \n(1 Byte). \nNo. OF SEND BYTES   \n= \nNumber of data bytes (0x00...??) \n(1 byte). 1 register requires 2 data bytes. \nD0, D1, .., Dn \n= \ndata bytes (0x00...??) \n(Nr. of register x 2 = n. byte). \nCHECK SUM \n= \nCheck sum. \nEND OF FRAME \n= \nEnd message marker. \n \nSee the TABLE OF EMS REGISTERS and the EXAMPLE."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 13,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Error check\nEnd of frame\n \nSTART OF FRAME \n=  Starting message marker \nADDRESS FIELD \n=  Includes  device  address  in  which  you  need  to  communicate  in  Query‐Response  mode.  In  case  the \nmessage is a Broadcast type it includes 00. \nFUNCTION CODE \n=  Includes the operation code that you need to perform. \nDATA FIELD \n=  Includes the data field. \nERROR CHECK \n=  Field for the error correction code. \nEND OF FRAME \n=  End message marker. \n \nMode RTU communication frame structure: \nSTART OF FRAME \n=  silence on line for time >=4 characters \nADDRES FIELD \n=  1 character \nFUNCTION CODE \n=  1 character \nDATA FIELD \n=  N characters \nERROR CHECK \n=  16 bit CRC \nEND OF FRAME \n=  silence on line for time >=4 characters \n \nWait time for response: \n \n \n \nRequest length \n16 Register (64 bytes) \n64 Register (128 bytes) \nTypical \n15 mSec \n15 mSec \nWorst case \n30 mSec \n50 mSec"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 110,
+          "page": 26,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Digital output 6 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5160 \n20832 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5162 \n20834 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5164 \n20836 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n \nDigital output 7 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5170 \n20848 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5172 \n20850 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5174 \n20852 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n \nDigital output 8 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5180 \n20864 \n2 \nSTATUS"
+        }
+      ],
+      "parity": [
+        {
+          "rank": 1,
+          "chunk_id": 158,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Note: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER \nR/W \nNumber of corrupted messages received \nNote: Write 0 to clear register \n6018 \n24600 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 1 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6050 \n24656 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 105,
+          "page": 25,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "507E \n20606 \n2 \nNEUTRAL CURRENT \nR/W \n0000h: computed\n0001h: measured (if Neutral CT is present). [Default] \n5080 \n20608 \n2 \nPOWER FACTOR CONVENTION \nR/W \n0000h: Sign convention \n0001h: IEC convention \n0002h: IEEE/DIN convention \nNote: see the user manual (IM1200) for details\n \nRTC setup \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n50A0 \n20640 \n2 \nENABLE RTC CLOCK OUT\nR/W\n0: Disable output frequency \n1: Enabled output frequency\n50A2 \n20642 \n2 \nRTC COMPENSATION \nR/W\n0: Default (fabric value) \nRange: ±31"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 160,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "‐‐‐\n‐‐‐\n6318 \n24680 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 2 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6350 \n25424 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6376 \n25462 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 2 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n63A0 \n25504 \n2 \nSLAVE SELECTION \nR/W\n1 ÷ 20\n \nCOM 2 slave register (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n63B0 \n25520 \n2 \n1° SLAVE REGISTER \nR\n‐‐‐ \n \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n644E \n25678 \n2 \n80° SLAVE REGISTER \nR"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 159,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2 \nSLAVE SELECTION \nR/W\n1 ÷ 20\n \nCOM 1 slave register (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n60B0 \n24752 \n2 \n1° SLAVE REGISTER \nR\n‐‐‐ \n \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n614E \n24910 \n2 \n80° SLAVE REGISTER \nR\n \nCOM 2 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n6300 \n25344 \n2 \nOPERATION MODE * \nR/W\n0000h: Slave Mode [Default] \n0001h: Master Mode\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6318 \n24680 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 2 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6350 \n25424 \n2 \n1° SLAVE"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 120,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "5266 \n21094 \n2 \nMAX VALUE \nR/W\nValue: ± 999999\n5268 \n21096 \n2 \nMAX UNIT \nR/W \nvoltage:\ncurrent: \ncos phi and PF: \npower: \n \n \n \nfrequency: \nTHD & Harmonics: \nangle degree: \ntan phi \nenergy: \n \n \n \n0: mV, 1: V, 2: kV, 3: MV\n0: mA, 1: A, 2: kA, 3: MA \n0, 1, 2, 3: no unit \n0: VA, W, Var \n1: kVA, kW, kVAr \n2 : MVA, MW, GVAr \n3: GVA, GW, GVAr \n0, 1, 2, 3: mHz \n0, 1, 2, 3: %*100 \n0, 1, 2, 3: degree*10 \n0, 1, 2, 3: no unit \n0: VAh*100, kWh*100, kVArh*100 \n1: kVAh, kWh, kVAr \n2 : MVAh, MWh, GVArh \n3: GVAh, GWh, GVArh\n526A \n21098 \n2 \nMIN VALUE \nR/W\nValue: ± 999999\n526C \n21100 \n2 \nMIN UNIT \nR/W\nSee Min value unit\n \nAnalog output 4 setup (option) \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 157,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "6008 \n24584 \n2 \nNODE ID* \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Slave Mode. \n600A \n24586 \n2 \nBAUD RATE* \nR/W \n0000h: 4800 Baud\n0002h: 9200 Baud \n0004h: 57600 Baud\n0001h: 9600 Baud \n0003h: 38400 Baud[Def.]  0005h:115200Baud \n600C \n24588 \n2 \nSTOP BITS* \nR/W\n0000h: 1 Stop Bit [Default] \n0001h: 2 Stop Bits\n600E \n24590 \n2 \nPARITY* \nR/W\n0000h: None [Default] \n0001h: Parity Odd \n0002h: Parity Even\n6010 \n24592 \n2 \nMINIMUM RESPONSE DELAY \nR/W \n5 ÷ 100 mSec [Default: 10] \nNote: valid only in Slave Mode. \n6012 \n24594 \n2 \nSTATE \nR/W \nDefault: All bit are “Low” (not error present)\nBit 00: Set if slave doesn’t response \nBit 01: Set if master received corrupted answer \nBit 02: Set if master received illegal answer \nNote: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 108,
+          "page": 26,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "R/W \nTotal Energy Group [Default: S‐Wh‐I] \n510C \n20748 \n \nSTATUS DO‐2 \nR/W\n0 or 1\n510E \n20750 \n2 \nMEASURE ASSOCIATED WITH DO‐2\n(used only in Pulse Mode) \nR/W \nTotal Energy Group [Default: S‐Wh‐O] \n5110 \n20752 \n \nSTATUS DO‐3 \nR/W\n0 or 1\n5112 \n20754 \n2 \nMEASURE ASSOCIATED WITH DO‐3\n(used only in Pulse Mode) (option) \nR/W \nTotal Energy Group [Default: S‐VARh‐I] \n5114 \n20756 \n \nSTATUS DO‐4 \nR/W\n0 or 1\n5116 \n20758 \n2 \nMEASURE ASSOCIATED WITH DO‐4\n(used only in Pulse Mode) (option) \nR/W \nTotal Energy Group [Default: S‐VARh‐O] \n(**): Read the OPTIONS register for hardware EMS configuration. Bits don’t used (not input or output present) are fixed to 0. \n \nDigital output 5 setup (option) \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 109,
+          "page": 26,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Warning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5150 \n20816 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5152 \n20818 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5154 \n20820 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n(**):Read the Ordering Code register for hardware EMS configuration. Bits don’t used (not input or output present) are fixed to 0. \n \nDigital output 6 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5160 \n20832 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5162 \n20834 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default]"
+        }
+      ],
+      "stop_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 157,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "6008 \n24584 \n2 \nNODE ID* \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Slave Mode. \n600A \n24586 \n2 \nBAUD RATE* \nR/W \n0000h: 4800 Baud\n0002h: 9200 Baud \n0004h: 57600 Baud\n0001h: 9600 Baud \n0003h: 38400 Baud[Def.]  0005h:115200Baud \n600C \n24588 \n2 \nSTOP BITS* \nR/W\n0000h: 1 Stop Bit [Default] \n0001h: 2 Stop Bits\n600E \n24590 \n2 \nPARITY* \nR/W\n0000h: None [Default] \n0001h: Parity Odd \n0002h: Parity Even\n6010 \n24592 \n2 \nMINIMUM RESPONSE DELAY \nR/W \n5 ÷ 100 mSec [Default: 10] \nNote: valid only in Slave Mode. \n6012 \n24594 \n2 \nSTATE \nR/W \nDefault: All bit are “Low” (not error present)\nBit 00: Set if slave doesn’t response \nBit 01: Set if master received corrupted answer \nBit 02: Set if master received illegal answer \nNote: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 158,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Note: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER \nR/W \nNumber of corrupted messages received \nNote: Write 0 to clear register \n6018 \n24600 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 1 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6050 \n24656 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 156,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 38 / 52 \nCOM (option) \n \nCOM 1 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n6000 \n24576 \n2 \nOPERATION MODE * \nR/W\n0000h: Slave Mode [Default] \n0001h: Master Mode\n6002 \n24578 \n2 \nSLAVE CONNECTED \n(used only in Master Mode) \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Master Mode. \n6004 \n24580 \n2 \nMASTER TIMEOUT \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 800] \n6006 \n24582 \n2 \nMASTER SCAN RATE \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 1000] \nDelay between two master request (master mode). \nNote: this value must be greater than MASTER TIMEOUT. \n6008 \n24584 \n2 \nNODE ID* \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Slave Mode. \n600A \n24586 \n2 \nBAUD RATE* \nR/W \n0000h: 4800 Baud\n0002h: 9200 Baud \n0004h: 57600 Baud\n0001h: 9600 Baud \n0003h: 38400 Baud[Def.]  0005h:115200Baud \n600C \n24588 \n2 \nSTOP BITS* \nR/W"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 160,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "‐‐‐\n‐‐‐\n6318 \n24680 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 2 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6350 \n25424 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6376 \n25462 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 2 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n63A0 \n25504 \n2 \nSLAVE SELECTION \nR/W\n1 ÷ 20\n \nCOM 2 slave register (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n63B0 \n25520 \n2 \n1° SLAVE REGISTER \nR\n‐‐‐ \n \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n644E \n25678 \n2 \n80° SLAVE REGISTER \nR"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 147,
+          "page": 34,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "48612 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 23 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBE00 \n48640 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\nBE22 \n48674 \n2 \nDIGITAL OUTPUT USED \nR/W\nSee Setpoint 1 setup table \n \nSetpoint 24 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBE30 \n48688 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBE32 \n48690 \n2 \nEVENTS \nR\nNumber of overcoming events \nBE34 \n48692 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 24 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBE50 \n48720 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\nBE72 \n48754 \n2 \nDIGITAL OUTPUT USED \nR/W\nSee Setpoint 1 setup table \n \nSetpoint 25 status \nRegister HEX"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 9,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Setpoint ............................................................................................................................................................................................... 31 \nCOM (option) ........................................................................................................................................................................................... 38 \nM‐BUS setup (option) .............................................................................................................................................................................. 39 \nPreset timeband (option) ......................................................................................................................................................................... 40"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 150,
+          "page": 35,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Setpoint 27 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBF20 \n48928 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBF22 \n48930 \n2 \nEVENTS \nR\nNumber of overcoming events \nBF24 \n48932 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 27 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBF40 \n48960 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\nBF62 \n48994 \n2 \nDIGITAL OUTPUT USED \nR/W\nSee Setpoint 1 setup table \n \nSetpoint 28 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBF70 \n49008 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBF72 \n49010 \n2 \nEVENTS \nR\nNumber of overcoming events \nBF74 \n49012 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 28 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 149,
+          "page": 35,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 36 / 52 \nSetpoint 26 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBED0 \n48848 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBED2 \n48850 \n2 \nEVENTS \nR\nNumber of overcoming events \nBED4 \n48852 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 26 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBEF0 \n48880 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\nBF12 \n48914 \n2 \nDIGITAL OUTPUT USED \nR/W\nSee Setpoint 1 setup table \n \nSetpoint 27 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBF20 \n48928 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBF22 \n48930 \n2 \nEVENTS \nR\nNumber of overcoming events \nBF24 \n48932 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 27 setup"
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 158,
+        "page": 37,
+        "score": 11,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "Note: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER \nR/W \nNumber of corrupted messages received \nNote: Write 0 to clear register \n6018 \n24600 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 1 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6050 \n24656 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2"
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 159,
+        "page": 37,
+        "score": 11,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits",
+          "parity"
+        ],
+        "content": "7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2 \nSLAVE SELECTION \nR/W\n1 ÷ 20\n \nCOM 1 slave register (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n60B0 \n24752 \n2 \n1° SLAVE REGISTER \nR\n‐‐‐ \n \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n614E \n24910 \n2 \n80° SLAVE REGISTER \nR\n \nCOM 2 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n6300 \n25344 \n2 \nOPERATION MODE * \nR/W\n0000h: Slave Mode [Default] \n0001h: Master Mode\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6318 \n24680 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 2 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6350 \n25424 \n2 \n1° SLAVE"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 156,
+        "page": 37,
+        "score": 10,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "stop_bits"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 38 / 52 \nCOM (option) \n \nCOM 1 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n6000 \n24576 \n2 \nOPERATION MODE * \nR/W\n0000h: Slave Mode [Default] \n0001h: Master Mode\n6002 \n24578 \n2 \nSLAVE CONNECTED \n(used only in Master Mode) \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Master Mode. \n6004 \n24580 \n2 \nMASTER TIMEOUT \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 800] \n6006 \n24582 \n2 \nMASTER SCAN RATE \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 1000] \nDelay between two master request (master mode). \nNote: this value must be greater than MASTER TIMEOUT. \n6008 \n24584 \n2 \nNODE ID* \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Slave Mode. \n600A \n24586 \n2 \nBAUD RATE* \nR/W \n0000h: 4800 Baud\n0002h: 9200 Baud \n0004h: 57600 Baud\n0001h: 9600 Baud \n0003h: 38400 Baud[Def.]  0005h:115200Baud \n600C \n24588 \n2 \nSTOP BITS* \nR/W"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 157,
+        "page": 37,
+        "score": 10,
+        "bucket": "communication",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "6008 \n24584 \n2 \nNODE ID* \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Slave Mode. \n600A \n24586 \n2 \nBAUD RATE* \nR/W \n0000h: 4800 Baud\n0002h: 9200 Baud \n0004h: 57600 Baud\n0001h: 9600 Baud \n0003h: 38400 Baud[Def.]  0005h:115200Baud \n600C \n24588 \n2 \nSTOP BITS* \nR/W\n0000h: 1 Stop Bit [Default] \n0001h: 2 Stop Bits\n600E \n24590 \n2 \nPARITY* \nR/W\n0000h: None [Default] \n0001h: Parity Odd \n0002h: Parity Even\n6010 \n24592 \n2 \nMINIMUM RESPONSE DELAY \nR/W \n5 ÷ 100 mSec [Default: 10] \nNote: valid only in Slave Mode. \n6012 \n24594 \n2 \nSTATE \nR/W \nDefault: All bit are “Low” (not error present)\nBit 00: Set if slave doesn’t response \nBit 01: Set if master received corrupted answer \nBit 02: Set if master received illegal answer \nNote: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 160,
+        "page": 37,
+        "score": 10,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "‐‐‐\n‐‐‐\n6318 \n24680 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 2 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6350 \n25424 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6376 \n25462 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 2 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n63A0 \n25504 \n2 \nSLAVE SELECTION \nR/W\n1 ÷ 20\n \nCOM 2 slave register (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n63B0 \n25520 \n2 \n1° SLAVE REGISTER \nR\n‐‐‐ \n \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n644E \n25678 \n2 \n80° SLAVE REGISTER \nR"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 64,
+        "page": 16,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 17 / 52 \nRelative minimums \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n3000 \n12288 \n2 \nSYSTEM VOLTAGE \nR\nmV\nUnsigned\n3002 \n12290 \n2 \nPHASE VOLTAGE L1 \nR\nmV\nUnsigned\n3004 \n12292 \n2 \nPHASE VOLTAGE L2 \nR\nmV\nUnsigned\n3006 \n12294 \n2 \nPHASE VOLTAGE L3 \nR\nmV\nUnsigned\n3008 \n12296 \n2 \nLINE TO LINE VOLTAGE L1‐2\nR\nmV\nSigned\n300A \n12298 \n2 \nLINE TO LINE VOLTAGE L2‐3\nR\nmV\nSigned\n300C \n12300 \n2 \nLINE TO LINE VOLTAGE L3‐1\nR\nmV\nSigned\n300E \n12302 \n2 \nSYSTEM CURRENT \nR\nmA\nUnsigned\n3010 \n12304 \n2 \nLINE CURRENT L1 \nR\nmA\nUnsigned\n3012 \n12306 \n2 \nLINE CURRENT L2 \nR\nmA\nUnsigned\n3014 \n12308 \n2 \nLINE CURRENT L3 \nR\nmA\nUnsigned\n3016 \n12310 \n2 \nSYSTEM POWER FACTOR [max negative value]\nR\n±1000 \nSigned\n3018 \n12312 \n2 \nPOWER FACTOR L1 [maximum negative value]\nR\n±1000\nSigned\n301A \n12314 \n2 \nPOWER FACTOR L2 [maximum negative value]\nR\n±1000\nSigned\n301C \n12316 \n2 \nPOWER FACTOR L3 [maximum negative value]\nR\n±1000\nSigned\n301E \n12318"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 68,
+        "page": 17,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 18 / 52 \nRelative maximums \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n3100 \n12544 \n2 \nSYSTEM VOLTAGE \nR\nmV\nUnsigned\n3102 \n12546 \n2 \nPHASE VOLTAGE L1 \nR\nmV\nUnsigned\n3104 \n12548 \n2 \nPHASE VOLTAGE L2 \nR\nmV\nUnsigned\n3106 \n12550 \n2 \nPHASE VOLTAGE L3 \nR\nmV\nUnsigned\n3108 \n12552 \n2 \nLINE TO LINE VOLTAGE L1‐2\nR\nmV\nSigned\n310A \n12554 \n2 \nLINE TO LINE VOLTAGE L2‐3\nR\nmV\nSigned\n310C \n12556 \n2 \nLINE TO LINE VOLTAGE L3‐1\nR\nmV\nSigned\n310E \n12558 \n2 \nSYSTEM CURRENT \nR\nmA\nUnsigned\n3110 \n12560 \n2 \nLINE CURRENT L1 \nR\nmA\nUnsigned\n3112 \n12562 \n2 \nLINE CURRENT L2 \nR\nmA\nUnsigned\n3114 \n12564 \n2 \nLINE CURRENT L3 \nR\nmA\nUnsigned\n3116 \n12566 \n2 \nSYSTEM POWER FACTOR [max positive value]\nR\n±1000\nSigned\n3118 \n12568 \n2 \nPOWER FACTOR L1 [maximum positive value]\nR\n±1000\nSigned\n311A \n12570 \n2 \nPOWER FACTOR L2 [maximum positive value]\nR\n±1000\nSigned\n311C \n12572 \n2 \nPOWER FACTOR L3 [maximum positive value]\nR\n±1000\nSigned\n311E \n12574"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 120,
+        "page": 29,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits",
+          "parity"
+        ],
+        "content": "5266 \n21094 \n2 \nMAX VALUE \nR/W\nValue: ± 999999\n5268 \n21096 \n2 \nMAX UNIT \nR/W \nvoltage:\ncurrent: \ncos phi and PF: \npower: \n \n \n \nfrequency: \nTHD & Harmonics: \nangle degree: \ntan phi \nenergy: \n \n \n \n0: mV, 1: V, 2: kV, 3: MV\n0: mA, 1: A, 2: kA, 3: MA \n0, 1, 2, 3: no unit \n0: VA, W, Var \n1: kVA, kW, kVAr \n2 : MVA, MW, GVAr \n3: GVA, GW, GVAr \n0, 1, 2, 3: mHz \n0, 1, 2, 3: %*100 \n0, 1, 2, 3: degree*10 \n0, 1, 2, 3: no unit \n0: VAh*100, kWh*100, kVArh*100 \n1: kVAh, kWh, kVAr \n2 : MVAh, MWh, GVArh \n3: GVAh, GWh, GVArh\n526A \n21098 \n2 \nMIN VALUE \nR/W\nValue: ± 999999\n526C \n21100 \n2 \nMIN UNIT \nR/W\nSee Min value unit\n \nAnalog output 4 setup (option) \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 105,
+        "page": 25,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "parity"
+        ],
+        "content": "507E \n20606 \n2 \nNEUTRAL CURRENT \nR/W \n0000h: computed\n0001h: measured (if Neutral CT is present). [Default] \n5080 \n20608 \n2 \nPOWER FACTOR CONVENTION \nR/W \n0000h: Sign convention \n0001h: IEC convention \n0002h: IEEE/DIN convention \nNote: see the user manual (IM1200) for details\n \nRTC setup \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n50A0 \n20640 \n2 \nENABLE RTC CLOCK OUT\nR/W\n0: Disable output frequency \n1: Enabled output frequency\n50A2 \n20642 \n2 \nRTC COMPENSATION \nR/W\n0: Default (fabric value) \nRange: ±31"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 161,
+        "page": 38,
+        "score": 7,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 39 / 52 \nM‐BUS setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nW/R \nParameters\n6600 \n26112 \n2 \nPRIMARY ADDRESS \nW/R\n0000h ÷ 00FAh (000 ÷ 250 dec) [Default: 1]\n6602 \n26114 \n2 \nBAUDRATE \nW/R \n0000h: 300 Baud\n0003h: 2400 Baud \n0006h: 19200 Baud\n0001h: 600 Baud \n0004h: 4800 Baud \n0007h: 38400 Baud \n0002h: 1200 Baud \n0005h: 9600 Baud \n6604 \n26116 \n2 \nSTOP BITS \nW/R\n0000h: 1 Stop Bit [Default] \n0001h: 2 Stop Bits\n6606 \n26118 \n2 \nPARITY \nW/R\n0000h: None [Default] \n0001h: Parity Odd\n0002h: Parity Even\n6608 \n26120 \n2 \nACCESS NUMBER \nW/R\nWrite 0000h to reset \n \nM‐BUS readout data setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nW/R \nParameters\n6700 \n26368 \n2 \nFRAME SLOT 1 – GROUP \nW/R \n0: Measure not used \n7: TB Energy 4\n14: TB Energy 11\n1: Instantaneous \n8: TB Energy 5 \n15: TB Energy 12 \n2: Average \n9: TB Energy 6 \n16: TB Energy 13 \n3: Total Energy \n10: TB Energy 7 \n17: TB Energy 14 \n4: TB Energy 1"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 168,
+        "page": 39,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 40 / 52 \nPreset timeband (option) \n \nDaily plan 01 \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n7000 \n28672 \n2 \nSTART TIME HOUR – PERIOD 01\nR/W\nHour: 0 ÷ 23 [Default: 0] \n7002 \n28674 \n2 \nSTART TIME MINUTE – PERIOD 01\nR/W\nMinute: 0 ÷ 59 [Default: 0] \n7004 \n28676 \n2 \nTIMEBAND USED – PERIOD 01\nR/W\nTimeband: 0 ÷ 16 [Default: 0  Timeband Not Used]\n7006 \n28678 \n2 \nSTART TIME HOUR – PERIOD 02\nR/W\nHour: 0 ÷ 23 [Default: 0] \n7008 \n28680 \n2 \nSTART TIME MINUTE – PERIOD 012\nR/W\nMinute: 0 ÷ 59 [Default: 0] \n700A \n28682 \n2 \nTIMEBAND USED – PERIOD 02\nR/W\nTimeband: 0 ÷ 16 [Default: 0  Timeband Not Used]\n700C \n28684 \n2 \nSTART TIME HOUR – PERIOD 03\nR/W\nHour: 0 ÷ 23 [Default: 0] \n700E \n28686 \n2 \nSTART TIME MINUTE – PERIOD 03\nR/W\nMinute: 0 ÷ 59 [Default: 0] \n7010 \n28688 \n2 \nTIMEBAND USED – PERIOD 03\nR/W\nTimeband: 0 ÷ 16 [Default: 0  Timeband Not Used]\n7012 \n28690 \n2 \nSTART TIME HOUR – PERIOD 04\nR/W"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 100,
+        "page": 25,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 26 / 52 \nDevice setup \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5050 \n20560 \n2 \nRESET \nW \n00000001h: Reset to Default \n00000002h: Reset Setup \n00000004h: Reset all Energies \n00000008h: Reset all Energies TB (no total energies) \n00000010h: Reset all Counters \n00000020h: Reset all Counters TB (no total energies) \n00000040h: Reset Minimums and Maximum \n00000080h: Reset Maximum Demand \n00000100h: Reset Energy Log \n00000200h: Reset Setpoint Log \n00000400h: Reset Generic and Smart Log \n5052 \n20562 \n2 \nHOUR \nR/W\n00 to 23 hours (00=Midnight) \n5054 \n20564 \n2 \nMINUTE \nR/W\n00 to 59 minutes\n5056 \n20566 \n2 \nSECOND \nR/W"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 144,
+        "page": 34,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 35 / 52 \nSetpoint 20 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBCF0 \n48368 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBCF2 \n48370 \n2 \nEVENTS \nR\nNumber of overcoming events \nBCF4 \n48372 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 20 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBD10 \n48400 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\nBD32 \n48434 \n2 \nDIGITAL OUTPUT USED \nR/W\nSee Setpoint 1 setup table \n \nSetpoint 21 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBD40 \n48448 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBD42 \n48450 \n2 \nEVENTS \nR\nNumber of overcoming events \nBD44 \n48452 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 21 setup"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 110,
+        "page": 26,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "Digital output 6 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5160 \n20832 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5162 \n20834 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5164 \n20836 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n \nDigital output 7 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5170 \n20848 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5172 \n20850 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5174 \n20852 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n \nDigital output 8 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5180 \n20864 \n2 \nSTATUS"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 108,
+        "page": 26,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "parity"
+        ],
+        "content": "R/W \nTotal Energy Group [Default: S‐Wh‐I] \n510C \n20748 \n \nSTATUS DO‐2 \nR/W\n0 or 1\n510E \n20750 \n2 \nMEASURE ASSOCIATED WITH DO‐2\n(used only in Pulse Mode) \nR/W \nTotal Energy Group [Default: S‐Wh‐O] \n5110 \n20752 \n \nSTATUS DO‐3 \nR/W\n0 or 1\n5112 \n20754 \n2 \nMEASURE ASSOCIATED WITH DO‐3\n(used only in Pulse Mode) (option) \nR/W \nTotal Energy Group [Default: S‐VARh‐I] \n5114 \n20756 \n \nSTATUS DO‐4 \nR/W\n0 or 1\n5116 \n20758 \n2 \nMEASURE ASSOCIATED WITH DO‐4\n(used only in Pulse Mode) (option) \nR/W \nTotal Energy Group [Default: S‐VARh‐O] \n(**): Read the OPTIONS register for hardware EMS configuration. Bits don’t used (not input or output present) are fixed to 0. \n \nDigital output 5 setup (option) \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 109,
+        "page": 26,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "parity"
+        ],
+        "content": "Warning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5150 \n20816 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5152 \n20818 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5154 \n20820 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n(**):Read the Ordering Code register for hardware EMS configuration. Bits don’t used (not input or output present) are fixed to 0. \n \nDigital output 6 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5160 \n20832 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5162 \n20834 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default]"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 147,
+        "page": 34,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "stop_bits"
+        ],
+        "content": "48612 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 23 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBE00 \n48640 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\nBE22 \n48674 \n2 \nDIGITAL OUTPUT USED \nR/W\nSee Setpoint 1 setup table \n \nSetpoint 24 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBE30 \n48688 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBE32 \n48690 \n2 \nEVENTS \nR\nNumber of overcoming events \nBE34 \n48692 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 24 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBE50 \n48720 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\nBE72 \n48754 \n2 \nDIGITAL OUTPUT USED \nR/W\nSee Setpoint 1 setup table \n \nSetpoint 25 status \nRegister HEX"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 150,
+        "page": 35,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "stop_bits"
+        ],
+        "content": "Setpoint 27 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBF20 \n48928 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBF22 \n48930 \n2 \nEVENTS \nR\nNumber of overcoming events \nBF24 \n48932 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 27 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBF40 \n48960 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\nBF62 \n48994 \n2 \nDIGITAL OUTPUT USED \nR/W\nSee Setpoint 1 setup table \n \nSetpoint 28 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBF70 \n49008 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBF72 \n49010 \n2 \nEVENTS \nR\nNumber of overcoming events \nBF74 \n49012 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 28 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 149,
+        "page": 35,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "stop_bits"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 36 / 52 \nSetpoint 26 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBED0 \n48848 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBED2 \n48850 \n2 \nEVENTS \nR\nNumber of overcoming events \nBED4 \n48852 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 26 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBEF0 \n48880 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\nBF12 \n48914 \n2 \nDIGITAL OUTPUT USED \nR/W\nSee Setpoint 1 setup table \n \nSetpoint 27 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBF20 \n48928 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBF22 \n48930 \n2 \nEVENTS \nR\nNumber of overcoming events \nBF24 \n48932 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 27 setup"
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 94,
+        "page": 24,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 25 / 52 \nDevice info \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n$4000 \n16384 \n5 \nSERIAL NUMBER \nR \nExpressed in ASCII Code \n1°‐2°‐3° Bytes: Product Model \n8°‐9° Bytes: Progressive Number \n4°‐5° Bytes: Product Year \n10° Bytes: Not Used \n6°‐7° Bytes: Product Week \n$4005 \n16389 \n4 \nHW REVISION \nR\nExpressed in ASCII Code \n$4009 \n16393 \n4 \nHW CUSTOMIZATION \nR\nExpressed in ASCII Code \n$400D \n16397 \n32 \nCONFIGURATION \nR\nExpressed in ASCII Code (see below tables) \n \nBoot version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4060 \n16480 \n1 \nBOOT VERSION \nR\n \nFirmware version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4070 \n16496 \n1 \nFIRMWARE VERSION \nR\n \nCore version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4080 \n16512 \n1 \nCORE VERSION \nR\n \nDevice state \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4100 \n16640 \n2 \nSTATE \nR"
+      }
+    ]
+  },
+  {
+    "pass_name": "transaction",
+    "parameters": [
+      "nodeAddress",
+      "name",
+      "modbusAddressingMode",
+      "transactionName",
+      "requestFC",
+      "startAddr",
+      "quantity",
+      "responseFC",
+      "byteCount",
+      "dataLength"
+    ],
+    "raw_top_k_per_query": {
+      "node_address": [
+        {
+          "rank": 1,
+          "chunk_id": 156,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 38 / 52 \nCOM (option) \n \nCOM 1 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n6000 \n24576 \n2 \nOPERATION MODE * \nR/W\n0000h: Slave Mode [Default] \n0001h: Master Mode\n6002 \n24578 \n2 \nSLAVE CONNECTED \n(used only in Master Mode) \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Master Mode. \n6004 \n24580 \n2 \nMASTER TIMEOUT \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 800] \n6006 \n24582 \n2 \nMASTER SCAN RATE \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 1000] \nDelay between two master request (master mode). \nNote: this value must be greater than MASTER TIMEOUT. \n6008 \n24584 \n2 \nNODE ID* \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Slave Mode. \n600A \n24586 \n2 \nBAUD RATE* \nR/W \n0000h: 4800 Baud\n0002h: 9200 Baud \n0004h: 57600 Baud\n0001h: 9600 Baud \n0003h: 38400 Baud[Def.]  0005h:115200Baud \n600C \n24588 \n2 \nSTOP BITS* \nR/W"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 94,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 25 / 52 \nDevice info \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n$4000 \n16384 \n5 \nSERIAL NUMBER \nR \nExpressed in ASCII Code \n1°‐2°‐3° Bytes: Product Model \n8°‐9° Bytes: Progressive Number \n4°‐5° Bytes: Product Year \n10° Bytes: Not Used \n6°‐7° Bytes: Product Week \n$4005 \n16389 \n4 \nHW REVISION \nR\nExpressed in ASCII Code \n$4009 \n16393 \n4 \nHW CUSTOMIZATION \nR\nExpressed in ASCII Code \n$400D \n16397 \n32 \nCONFIGURATION \nR\nExpressed in ASCII Code (see below tables) \n \nBoot version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4060 \n16480 \n1 \nBOOT VERSION \nR\n \nFirmware version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4070 \n16496 \n1 \nFIRMWARE VERSION \nR\n \nCore version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4080 \n16512 \n1 \nCORE VERSION \nR\n \nDevice state \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4100 \n16640 \n2 \nSTATE \nR"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 123,
+          "page": 30,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 31 / 52 \nSetpoint \n \nSetpoint 1 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5300 \n21248 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\n5302 \n21250 \n2 \nEVENTS \nR\nNumber of overcoming events \n5304 \n21252 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 1 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5320 \n21280 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n5322 \n21282 \n2 \nSOURCE \nR/W\n0: Internal Measure\n1 to 20: Measure node XX\n5324 \n21284 \n2 \nGROUP \nR/W \nWith SOURCE = Internal Measure: \n0: Not used [Default] \n2: Total energy \n1: Instantaneous measure \n3: Last average \nWith SOURCE = Measure node XX: \n0: Not used [Default] \n1: External Measure \n5326 \n21286 \n2 \nMEASURE CONTROLLED \nR/W \nIf GROUP is 1: See Instantaneous group \nIf GROUP is 2: See Aveerage group"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 161,
+          "page": 38,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 39 / 52 \nM‐BUS setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nW/R \nParameters\n6600 \n26112 \n2 \nPRIMARY ADDRESS \nW/R\n0000h ÷ 00FAh (000 ÷ 250 dec) [Default: 1]\n6602 \n26114 \n2 \nBAUDRATE \nW/R \n0000h: 300 Baud\n0003h: 2400 Baud \n0006h: 19200 Baud\n0001h: 600 Baud \n0004h: 4800 Baud \n0007h: 38400 Baud \n0002h: 1200 Baud \n0005h: 9600 Baud \n6604 \n26116 \n2 \nSTOP BITS \nW/R\n0000h: 1 Stop Bit [Default] \n0001h: 2 Stop Bits\n6606 \n26118 \n2 \nPARITY \nW/R\n0000h: None [Default] \n0001h: Parity Odd\n0002h: Parity Even\n6608 \n26120 \n2 \nACCESS NUMBER \nW/R\nWrite 0000h to reset \n \nM‐BUS readout data setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nW/R \nParameters\n6700 \n26368 \n2 \nFRAME SLOT 1 – GROUP \nW/R \n0: Measure not used \n7: TB Energy 4\n14: TB Energy 11\n1: Instantaneous \n8: TB Energy 5 \n15: TB Energy 12 \n2: Average \n9: TB Energy 6 \n16: TB Energy 13 \n3: Total Energy \n10: TB Energy 7 \n17: TB Energy 14 \n4: TB Energy 1"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 98,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "41D8 \n16856 \n2 \n31\nth SWITCH ON/OFF DETECTED\nR\n1: Instrument switched on \n0: Instrument switched off\n41DA \n16858 \n2 \nTIME* \nR\nbyte order/meaning: EMPTY, HOUR, MINUTE, SECOND\n41DC \n16860 \n2 \nDATE** \nR\nbyte order/meaning: DAY, MONYH, YEAR,YEAR\n41DE \n16862 \n2 \n32\nth SWITCH ON/OFF DETECTED\nR\n1: Instrument switched on \n0: Instrument switched off\n \nPassword setup \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5000 \n20480 \n2 \nACCESS KEY VALUE \nW\n0 ÷ 999’999’999 [Default 0: Password disabled]\n5002 \n20482 \n2 \nACCESS KEY VALID PERIOD\nR/W\n1 ÷ 60 min [Default: 5 min] \n5004 \n20484 \n2 \nKEYS PROTECTION \nR/W\n0: Not protected [Default]  1: Protected by password\n5006 \n20486 \n2"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 198,
+          "page": 46,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 47 / 52 \nSmart log setup (option) \nWarning: any changes to the register values DELETES all generic, smart and trigger logs saved (except LOG TO READ register). \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nB200 \n45568 \n2 \nLOG TO READ \nR/W \nLog number that must be read. \nFrom 1 to n. \nB202 \n45570 \n2 \nENABLE \nR/W \n0: Disabled [Default] \n1: Enabled \nWarning: it’s possible to enable max 2 log type at the same time \nB204 \n45572 \n2 \nWINDOW UPDATE TIME \nR/W \n00: 1 min\n05: 10 min \n10: 60 min\n01: 2 min \n06: 12 min \n11: end of day \n02: 3 min \n07: 15 min [Default] \n12: end of week \n03: 5 min \n08: 20 min \n13: end of month \n04: 6 min \n09: 30 min \n14: end of year \nB206 \n45574 \n2 \nSTORAGE TYPE \nR/W \n0: Stop at the end of log space [Default] \n1: FIFO (after 10 consecutive cycles is automatically disabled) \nB208 \n45576 \n2 \n01\nst\nGROUP \nR/W\n0: Measure not used \n1: Instantaneous\n2: Average\nB20A \n45578 \n2 \n01\nst  \nMEASURE \nR/W"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 105,
+          "page": 25,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "507E \n20606 \n2 \nNEUTRAL CURRENT \nR/W \n0000h: computed\n0001h: measured (if Neutral CT is present). [Default] \n5080 \n20608 \n2 \nPOWER FACTOR CONVENTION \nR/W \n0000h: Sign convention \n0001h: IEC convention \n0002h: IEEE/DIN convention \nNote: see the user manual (IM1200) for details\n \nRTC setup \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n50A0 \n20640 \n2 \nENABLE RTC CLOCK OUT\nR/W\n0: Disable output frequency \n1: Enabled output frequency\n50A2 \n20642 \n2 \nRTC COMPENSATION \nR/W\n0: Default (fabric value) \nRange: ±31"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 149,
+          "page": 35,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 36 / 52 \nSetpoint 26 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBED0 \n48848 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBED2 \n48850 \n2 \nEVENTS \nR\nNumber of overcoming events \nBED4 \n48852 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 26 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBEF0 \n48880 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\nBF12 \n48914 \n2 \nDIGITAL OUTPUT USED \nR/W\nSee Setpoint 1 setup table \n \nSetpoint 27 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nBF20 \n48928 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\nBF22 \n48930 \n2 \nEVENTS \nR\nNumber of overcoming events \nBF24 \n48932 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 27 setup"
+        }
+      ],
+      "node_name": [
+        {
+          "rank": 1,
+          "chunk_id": 6,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Boot version ........................................................................................................................................................................................ 25 \nFirmware version................................................................................................................................................................................. 25 \nCore version......................................................................................................................................................................................... 25 \nDevice state ......................................................................................................................................................................................... 25"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 94,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 25 / 52 \nDevice info \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n$4000 \n16384 \n5 \nSERIAL NUMBER \nR \nExpressed in ASCII Code \n1°‐2°‐3° Bytes: Product Model \n8°‐9° Bytes: Progressive Number \n4°‐5° Bytes: Product Year \n10° Bytes: Not Used \n6°‐7° Bytes: Product Week \n$4005 \n16389 \n4 \nHW REVISION \nR\nExpressed in ASCII Code \n$4009 \n16393 \n4 \nHW CUSTOMIZATION \nR\nExpressed in ASCII Code \n$400D \n16397 \n32 \nCONFIGURATION \nR\nExpressed in ASCII Code (see below tables) \n \nBoot version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4060 \n16480 \n1 \nBOOT VERSION \nR\n \nFirmware version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4070 \n16496 \n1 \nFIRMWARE VERSION \nR\n \nCore version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4080 \n16512 \n1 \nCORE VERSION \nR\n \nDevice state \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4100 \n16640 \n2 \nSTATE \nR"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 7,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Device state ......................................................................................................................................................................................... 25 \nPassword setup ................................................................................................................................................................................... 25 \nDevice setup ........................................................................................................................................................................................ 26 \nDigital Outputs .................................................................................................................................................................................... 27"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 54,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "R\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1E3A \n7738 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1E3C \n7740 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1E3E \n7742 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 14 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1E60 \n7776 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1E62 \n7778 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1E64 \n7780 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1E8A \n7818 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1E8C \n7820 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1E8E \n7822 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 15 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1EB0 \n7856 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1EB2 \n7858 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1EB4 \n7860 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1EDA \n7898 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1EDC \n7900 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1EDE \n7902 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 50,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "R\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1C0A \n7178 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C0C \n7180 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C0E \n7182 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 7 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1C30 \n7216 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C32 \n7218 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C34 \n7220 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1C5A \n7258 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C5C \n7260 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C5E \n7262 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 8 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1C80 \n7296 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C82 \n7298 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C84 \n7300 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1CAA \n7338 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CAC \n7340 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CAE \n7342 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 51,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "R/W\nMeasure Unit \nType\n1C80 \n7296 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C82 \n7298 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C84 \n7300 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1CAA \n7338 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CAC \n7340 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CAE \n7342 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 9 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1CD0 \n7376 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CD2 \n7378 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CD4 \n7380 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1CFA \n7418 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CFC \n7420 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CFE \n7422 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 10 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1D20 \n7456 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1D22 \n7458 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1D24 \n7460 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1D2A \n7466 \n2"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 76,
+          "page": 18,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "--- \nTIME ‐ DATE \n--- \n--- \n--- \n32A0 \n12960 \n2 \nACTIVE POWER L3 \nR\nW\nSigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32A6 \n12966 \n2 \nSYSTEM REACTIVE POWER\nR\nVAR\nSigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32AC \n12972 \n2 \nREACTIVE POWER L1 \nR\nVAR\nSigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32B2 \n12978 \n2 \nREACTIVE POWER L2 \nR\nVAR\nSigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32B8 \n12984 \n2 \nREACTIVE POWER L3 \nR\nVAR\nSigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32BE \n12990 \n2 \nNEUTRAL CURRENT \nR\nmA\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32C4 \n12996 \n2 \nFREQUENCY \nR\nmHz\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32CA \n13002 \n2 \nTEMPERATURE \nR\nd °C\nSigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n32D0 \n13008 \n2 \nTHD VOLTAGE L1 \nR\n0 ÷ 10000\nUnsigned"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 40,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Description \nR/W\nMeasure Unit \nType\n14A0 \n5280 \n2 \nSYSTEM ACTIVE ENERGY IN\nR\n100*Wh\nUnsigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n14C6 \n5318 \n2 \nAPPARENT ENERGY L3\nR\n100*Vah\nUnsigned\n \nTimeband 3 – energies (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n14F0 \n5360 \n2 \nSYSTEM ACTIVE ENERGY IN\nR\n100*Wh\nUnsigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1516 \n5398 \n2 \nAPPARENT ENERGY L3\nR\n100*Vah\nUnsigned\n \nTimeband 4 – energies (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1540 \n5440 \n2 \nSYSTEM ACTIVE ENERGY IN\nR\n100*Wh\nUnsigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1566 \n5478 \n2 \nAPPARENT ENERGY L3\nR\n100*Vah\nUnsigned\n \nTimeband 5 – energies (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1590 \n5520 \n2 \nSYSTEM ACTIVE ENERGY IN\nR\n100*Wh\nUnsigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n15B6 \n5558 \n2 \nAPPARENT ENERGY L3\nR\n100*Vah\nUnsigned"
+        }
+      ],
+      "addressing_mode": [
+        {
+          "rank": 1,
+          "chunk_id": 161,
+          "page": 38,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 39 / 52 \nM‐BUS setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nW/R \nParameters\n6600 \n26112 \n2 \nPRIMARY ADDRESS \nW/R\n0000h ÷ 00FAh (000 ÷ 250 dec) [Default: 1]\n6602 \n26114 \n2 \nBAUDRATE \nW/R \n0000h: 300 Baud\n0003h: 2400 Baud \n0006h: 19200 Baud\n0001h: 600 Baud \n0004h: 4800 Baud \n0007h: 38400 Baud \n0002h: 1200 Baud \n0005h: 9600 Baud \n6604 \n26116 \n2 \nSTOP BITS \nW/R\n0000h: 1 Stop Bit [Default] \n0001h: 2 Stop Bits\n6606 \n26118 \n2 \nPARITY \nW/R\n0000h: None [Default] \n0001h: Parity Odd\n0002h: Parity Even\n6608 \n26120 \n2 \nACCESS NUMBER \nW/R\nWrite 0000h to reset \n \nM‐BUS readout data setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nW/R \nParameters\n6700 \n26368 \n2 \nFRAME SLOT 1 – GROUP \nW/R \n0: Measure not used \n7: TB Energy 4\n14: TB Energy 11\n1: Instantaneous \n8: TB Energy 5 \n15: TB Energy 12 \n2: Average \n9: TB Energy 6 \n16: TB Energy 13 \n3: Total Energy \n10: TB Energy 7 \n17: TB Energy 14 \n4: TB Energy 1"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 94,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 25 / 52 \nDevice info \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n$4000 \n16384 \n5 \nSERIAL NUMBER \nR \nExpressed in ASCII Code \n1°‐2°‐3° Bytes: Product Model \n8°‐9° Bytes: Progressive Number \n4°‐5° Bytes: Product Year \n10° Bytes: Not Used \n6°‐7° Bytes: Product Week \n$4005 \n16389 \n4 \nHW REVISION \nR\nExpressed in ASCII Code \n$4009 \n16393 \n4 \nHW CUSTOMIZATION \nR\nExpressed in ASCII Code \n$400D \n16397 \n32 \nCONFIGURATION \nR\nExpressed in ASCII Code (see below tables) \n \nBoot version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4060 \n16480 \n1 \nBOOT VERSION \nR\n \nFirmware version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4070 \n16496 \n1 \nFIRMWARE VERSION \nR\n \nCore version \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4080 \n16512 \n1 \nCORE VERSION \nR\n \nDevice state \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nNote:\n4100 \n16640 \n2 \nSTATE \nR"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 72,
+          "page": 18,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 19 / 52 \nAbsolute minimums \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n3200 \n12800 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n3202 \n12802 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n3204 \n12804 \n2 \nSYSTEM VOLTAGE \nR\nmV\nUnsigned\n3206 \n12806 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n3208 \n12808 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n320A \n12810 \n2 \nPHASE VOLTAGE L1 \nR\nmV\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n3210 \n12816 \n2 \nPHASE VOLTAGE L2 \nR\nmV\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n3216 \n12822 \n2 \nPHASE VOLTAGE L3 \nR\nmV\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n321C \n12828 \n2 \nLINE TO LINE VOLTAGE L1‐2\nR\nmV\nSigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n3222 \n12834 \n2 \nLINE TO LINE VOLTAGE L2‐3\nR\nmV\nSigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n3228 \n12840 \n2 \nLINE TO LINE VOLTAGE L3‐1\nR\nmV\nSigned\n--- \n--- \n--- \nTIME ‐ DATE \n--- \n--- \n--- \n322E \n12846 \n2 \nSYSTEM CURRENT \nR\nmA\nUnsigned\n--- \n--- \n--- \nTIME ‐ DATE"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 120,
+          "page": 29,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "5266 \n21094 \n2 \nMAX VALUE \nR/W\nValue: ± 999999\n5268 \n21096 \n2 \nMAX UNIT \nR/W \nvoltage:\ncurrent: \ncos phi and PF: \npower: \n \n \n \nfrequency: \nTHD & Harmonics: \nangle degree: \ntan phi \nenergy: \n \n \n \n0: mV, 1: V, 2: kV, 3: MV\n0: mA, 1: A, 2: kA, 3: MA \n0, 1, 2, 3: no unit \n0: VA, W, Var \n1: kVA, kW, kVAr \n2 : MVA, MW, GVAr \n3: GVA, GW, GVAr \n0, 1, 2, 3: mHz \n0, 1, 2, 3: %*100 \n0, 1, 2, 3: degree*10 \n0, 1, 2, 3: no unit \n0: VAh*100, kWh*100, kVArh*100 \n1: kVAh, kWh, kVAr \n2 : MVAh, MWh, GVArh \n3: GVAh, GWh, GVArh\n526A \n21098 \n2 \nMIN VALUE \nR/W\nValue: ± 999999\n526C \n21100 \n2 \nMIN UNIT \nR/W\nSee Min value unit\n \nAnalog output 4 setup (option) \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 64,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 17 / 52 \nRelative minimums \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n3000 \n12288 \n2 \nSYSTEM VOLTAGE \nR\nmV\nUnsigned\n3002 \n12290 \n2 \nPHASE VOLTAGE L1 \nR\nmV\nUnsigned\n3004 \n12292 \n2 \nPHASE VOLTAGE L2 \nR\nmV\nUnsigned\n3006 \n12294 \n2 \nPHASE VOLTAGE L3 \nR\nmV\nUnsigned\n3008 \n12296 \n2 \nLINE TO LINE VOLTAGE L1‐2\nR\nmV\nSigned\n300A \n12298 \n2 \nLINE TO LINE VOLTAGE L2‐3\nR\nmV\nSigned\n300C \n12300 \n2 \nLINE TO LINE VOLTAGE L3‐1\nR\nmV\nSigned\n300E \n12302 \n2 \nSYSTEM CURRENT \nR\nmA\nUnsigned\n3010 \n12304 \n2 \nLINE CURRENT L1 \nR\nmA\nUnsigned\n3012 \n12306 \n2 \nLINE CURRENT L2 \nR\nmA\nUnsigned\n3014 \n12308 \n2 \nLINE CURRENT L3 \nR\nmA\nUnsigned\n3016 \n12310 \n2 \nSYSTEM POWER FACTOR [max negative value]\nR\n±1000 \nSigned\n3018 \n12312 \n2 \nPOWER FACTOR L1 [maximum negative value]\nR\n±1000\nSigned\n301A \n12314 \n2 \nPOWER FACTOR L2 [maximum negative value]\nR\n±1000\nSigned\n301C \n12316 \n2 \nPOWER FACTOR L3 [maximum negative value]\nR\n±1000\nSigned\n301E \n12318"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 198,
+          "page": 46,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 47 / 52 \nSmart log setup (option) \nWarning: any changes to the register values DELETES all generic, smart and trigger logs saved (except LOG TO READ register). \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nB200 \n45568 \n2 \nLOG TO READ \nR/W \nLog number that must be read. \nFrom 1 to n. \nB202 \n45570 \n2 \nENABLE \nR/W \n0: Disabled [Default] \n1: Enabled \nWarning: it’s possible to enable max 2 log type at the same time \nB204 \n45572 \n2 \nWINDOW UPDATE TIME \nR/W \n00: 1 min\n05: 10 min \n10: 60 min\n01: 2 min \n06: 12 min \n11: end of day \n02: 3 min \n07: 15 min [Default] \n12: end of week \n03: 5 min \n08: 20 min \n13: end of month \n04: 6 min \n09: 30 min \n14: end of year \nB206 \n45574 \n2 \nSTORAGE TYPE \nR/W \n0: Stop at the end of log space [Default] \n1: FIFO (after 10 consecutive cycles is automatically disabled) \nB208 \n45576 \n2 \n01\nst\nGROUP \nR/W\n0: Measure not used \n1: Instantaneous\n2: Average\nB20A \n45578 \n2 \n01\nst  \nMEASURE \nR/W"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 60,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 16 / 52 \nTimeband 9 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2120 \n8480 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2122 \n8482 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2124 \n8484 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2126 \n8486 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 10 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2140 \n8512 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2142 \n8514 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2144 \n8516 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2146 \n8518 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 11 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2160 \n8544 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2162 \n8546 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2164 \n8548 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2166 \n8550 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 86,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 23 / 52 \n \nLast average (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription\nR/W\nMeasure Unit \nType\n3600 \n13824 \n2 \nSYSTEM VOLTAGE\nR\nmV\nUnsigned\n3602 \n13826 \n2 \nPHASE VOLTAGE L1‐N\nR\nmV\nUnsigned\n3604 \n13828 \n2 \nPHASE VOLTAGE L2‐N\nR\nmV\nUnsigned\n3606 \n13830 \n2 \nPHASE VOLTAGE L3‐N\nR\nmV\nUnsigned\n3608 \n13832 \n2 \nSYSTEM CURRENT\nR\nmA\nUnsigned\n360A \n13834 \n2 \nLINE CURRENT L1\nR\nmA\nUnsigned\n360C \n13836 \n2 \nLINE CURRENT L2\nR\nmA\nUnsigned\n360E \n13838 \n2 \nLINE CURRENT L3\nR\nmA\nUnsigned\n3610 \n13840 \n2 \nSYSTEM POWER FACTOR\nR\n±1000\nSigned\n3612 \n13842 \n2 \nPOWER FACTOR L1\nR\n±1000\nSigned\n3614 \n13844 \n2 \nPOWER FACTOR L2\nR\n±1000\nSigned\n3616 \n13846 \n2 \nPOWER FACTOR L3\nR\n±1000\nSigned\n3618 \n13848 \n2 \nSYSTEM COS φ\nR\n±1000\nSigned\n361A \n13850 \n2 \nPHASE COS φ1\nR\n±1000\nSigned\n361C \n13852 \n2 \nPHASE COS φ2\nR\n±1000\nSigned\n361E \n13854 \n2 \nPHASE COS φ3\nR\n±1000\nSigned\n3620 \n13856 \n2 \nSYSTEM APPARENT POWER\nR\nVA\nUnsigned\n3622 \n13858 \n2"
+        }
+      ],
+      "register": [
+        {
+          "rank": 1,
+          "chunk_id": 46,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "TIME* \nR\n‐‐‐\nUnsigned\n1A1A \n6682 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A1C \n6684 \n2 \nSYSTEM REACTIVE POWER\nR\nVAr\nSigned\n1A1E \n6686 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A20 \n6688 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A22 \n6690 \n2 \nREACTIVE POWER L1 \nR\nVAr\nSigned\n1A24 \n6692 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A26 \n6694 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A28 \n6696 \n2 \nREACTIVE POWER L2 \nR\nVAr\nSigned\n1A2A \n6698 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A2C \n6700 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A2E \n6702 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n*: byte order/meaning: EMPTY, HOUR, MINUTE, SECOND \n**: byte order/meaning: DAY, MONTH, YEAR,YEAR \n \nTimeband 1 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure unit \nType\n1A50 \n6736 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A52 \n6738 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A54 \n6740 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1A7A \n6778 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A7C \n6780 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A7E \n6782 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 55,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "R/W\nMeasure Unit \nType\n1EB0 \n7856 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1EB2 \n7858 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1EB4 \n7860 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1EDA \n7898 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1EDC \n7900 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1EDE \n7902 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 16 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1F00 \n7936 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1F02 \n7938 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1F04 \n7940 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1F2A \n7978 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1F2C \n7980 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1F2E \n7982 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n*: byte order/meaning: EMPTY, HOUR, MINUTE, SECOND \n**: byte order/meaning: DAY, MONTH, YEAR, YEAR"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 51,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "R/W\nMeasure Unit \nType\n1C80 \n7296 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C82 \n7298 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C84 \n7300 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1CAA \n7338 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CAC \n7340 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CAE \n7342 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 9 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1CD0 \n7376 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CD2 \n7378 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CD4 \n7380 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1CFA \n7418 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CFC \n7420 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CFE \n7422 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 10 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1D20 \n7456 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1D22 \n7458 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1D24 \n7460 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1D2A \n7466 \n2"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 48,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Timeband 3 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure unit \nType\n1AF0 \n6896 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1AF2 \n6898 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1AF4 \n6900 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1B1A \n6938 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1B1C \n6940 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1B1E \n6942 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 4 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure unit \nType\n1B40 \n6976 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1B42 \n6978 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1B44 \n6980 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1B6A \n7018 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1B6C \n7020 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1B6E \n7022 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 52,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Timeband 10 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1D20 \n7456 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1D22 \n7458 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1D24 \n7460 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1D2A \n7466 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1D2C \n7468 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1D2E \n7470 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 11 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1D70 \n7536 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1D72 \n7538 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1D74 \n7540 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1D9A \n7578 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1D9C \n7580 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1D9E \n7582 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 54,
+          "page": 13,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "R\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1E3A \n7738 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1E3C \n7740 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1E3E \n7742 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 14 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1E60 \n7776 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1E62 \n7778 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1E64 \n7780 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1E8A \n7818 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1E8C \n7820 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1E8E \n7822 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 15 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1EB0 \n7856 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1EB2 \n7858 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1EB4 \n7860 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1EDA \n7898 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1EDC \n7900 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1EDE \n7902 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 50,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "R\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1C0A \n7178 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C0C \n7180 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C0E \n7182 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 7 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1C30 \n7216 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C32 \n7218 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C34 \n7220 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1C5A \n7258 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C5C \n7260 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C5E \n7262 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 8 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1C80 \n7296 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C82 \n7298 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C84 \n7300 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1CAA \n7338 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CAC \n7340 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CAE \n7342 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 47,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "R/W\nMeasure unit \nType\n1A50 \n6736 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A52 \n6738 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A54 \n6740 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1A7A \n6778 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A7C \n6780 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A7E \n6782 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 2 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure unit \nType\n1AA0 \n6816 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1AA2 \n6818 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1AA4 \n6820 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1ACA \n6878 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1ACC \n6860 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1ACE \n6862 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 3 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure unit \nType\n1AF0 \n6896 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1AF2 \n6898 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1AF4 \n6900 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1B1A \n6938 \n2"
+        }
+      ],
+      "function_code": [
+        {
+          "rank": 1,
+          "chunk_id": 158,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Note: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER \nR/W \nNumber of corrupted messages received \nNote: Write 0 to clear register \n6018 \n24600 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 1 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6050 \n24656 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 63,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "‐‐‐\nUnsigned\n21E4 \n8676 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n21E6 \n8678 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 16 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2200 \n8704 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2202 \n8706 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2204 \n8708 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2206 \n8710 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 114,
+          "page": 27,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Description \nR/W\nParameters\n51C0 \n20928 \n2 \nSTATE \n(**) \nR\nState\n51C2 \n208930 \n2 \nMODE \nR/W \n0000h: Status [Default] \n0001h: Counter \n0002h: Select Energy Timeband Used (DI bit logic) \n0003h: Select Counter Timeband Used (DI bit logic) \n0004h: Select Energy and Counter Timeband Used (DI bit logic) \n51C4 \n20932 \n2 \nMULTIPLIER \nR/W\n1 ÷ 1000 [Default: 1]\n \nDigital input 4 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n51D0 \n20944 \n2 \nSTATE \n(**) \nR\nState\n51D2 \n208946 \n2 \nMODE \nR/W \n0000h: Status [Default] \n0001h: Counter \n0002h: Select Energy Timeband Used (DI bit logic) \n0003h: Select Counter Timeband Used (DI bit logic) \n0004h: Select Energy and Counter Timeband Used (DI bit logic) \n51D4 \n20948 \n2 \nMULTIPLIER \nR/W\n1 ÷ 1000 [Default: 1]\n(**):Read the Ordering Code register for hardware EMS configuration. Bits don’t used (not input or output present) are fixed to 0."
+        },
+        {
+          "rank": 4,
+          "chunk_id": 57,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "2026 \n8230 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\nTonmin Input Signal: 30 mS \nToffmin Input Signal: 30 mS \n \nTimeband 2 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2040 \n8256 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2042 \n8258 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2044 \n8260 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2046 \n8262 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 3 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2060 \n8288 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2062 \n8290 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2064 \n8292 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2066 \n8294 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 4 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2080 \n8320 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2082 \n8322 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2084 \n8324 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2086 \n8326 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 160,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "‐‐‐\n‐‐‐\n6318 \n24680 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 2 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6350 \n25424 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6376 \n25462 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 2 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n63A0 \n25504 \n2 \nSLAVE SELECTION \nR/W\n1 ÷ 20\n \nCOM 2 slave register (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n63B0 \n25520 \n2 \n1° SLAVE REGISTER \nR\n‐‐‐ \n \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n644E \n25678 \n2 \n80° SLAVE REGISTER \nR"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 59,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Type\n20C0 \n8384 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n20C2 \n8386 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n20C4 \n8388 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n20C6 \n8390 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 7 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n20E0 \n8416 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n20E2 \n8418 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n20E4 \n8420 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n20E6 \n8422 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 8 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2100 \n8448 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2102 \n8450 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2104 \n8452 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2106 \n8454 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 110,
+          "page": 26,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Digital output 6 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5160 \n20832 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5162 \n20834 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5164 \n20836 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n \nDigital output 7 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5170 \n20848 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5172 \n20850 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5174 \n20852 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n \nDigital output 8 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5180 \n20864 \n2 \nSTATUS"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 61,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Timeband 11 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2160 \n8544 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2162 \n8546 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2164 \n8548 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2166 \n8550 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 12 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2180 \n8576 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2182 \n8578 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2184 \n8580 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2186 \n8582 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 13 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n21A0 \n8608 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n21A2 \n8610 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n21A4 \n8612 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n21A6 \n8614 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 14 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W"
+        }
+      ],
+      "coils_discrete": [
+        {
+          "rank": 1,
+          "chunk_id": 160,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "‐‐‐\n‐‐‐\n6318 \n24680 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 2 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6350 \n25424 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6376 \n25462 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 2 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n63A0 \n25504 \n2 \nSLAVE SELECTION \nR/W\n1 ÷ 20\n \nCOM 2 slave register (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n63B0 \n25520 \n2 \n1° SLAVE REGISTER \nR\n‐‐‐ \n \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n644E \n25678 \n2 \n80° SLAVE REGISTER \nR"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 114,
+          "page": 27,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Description \nR/W\nParameters\n51C0 \n20928 \n2 \nSTATE \n(**) \nR\nState\n51C2 \n208930 \n2 \nMODE \nR/W \n0000h: Status [Default] \n0001h: Counter \n0002h: Select Energy Timeband Used (DI bit logic) \n0003h: Select Counter Timeband Used (DI bit logic) \n0004h: Select Energy and Counter Timeband Used (DI bit logic) \n51C4 \n20932 \n2 \nMULTIPLIER \nR/W\n1 ÷ 1000 [Default: 1]\n \nDigital input 4 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n51D0 \n20944 \n2 \nSTATE \n(**) \nR\nState\n51D2 \n208946 \n2 \nMODE \nR/W \n0000h: Status [Default] \n0001h: Counter \n0002h: Select Energy Timeband Used (DI bit logic) \n0003h: Select Counter Timeband Used (DI bit logic) \n0004h: Select Energy and Counter Timeband Used (DI bit logic) \n51D4 \n20948 \n2 \nMULTIPLIER \nR/W\n1 ÷ 1000 [Default: 1]\n(**):Read the Ordering Code register for hardware EMS configuration. Bits don’t used (not input or output present) are fixed to 0."
+        },
+        {
+          "rank": 3,
+          "chunk_id": 158,
+          "page": 37,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Note: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER \nR/W \nNumber of corrupted messages received \nNote: Write 0 to clear register \n6018 \n24600 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 1 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6050 \n24656 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 63,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "‐‐‐\nUnsigned\n21E4 \n8676 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n21E6 \n8678 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 16 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2200 \n8704 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2202 \n8706 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2204 \n8708 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2206 \n8710 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 110,
+          "page": 26,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Digital output 6 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5160 \n20832 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5162 \n20834 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5164 \n20836 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n \nDigital output 7 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5170 \n20848 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5172 \n20850 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5174 \n20852 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n \nDigital output 8 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5180 \n20864 \n2 \nSTATUS"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 57,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "2026 \n8230 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\nTonmin Input Signal: 30 mS \nToffmin Input Signal: 30 mS \n \nTimeband 2 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2040 \n8256 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2042 \n8258 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2044 \n8260 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2046 \n8262 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 3 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2060 \n8288 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2062 \n8290 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2064 \n8292 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2066 \n8294 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 4 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2080 \n8320 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2082 \n8322 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2084 \n8324 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2086 \n8326 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 62,
+          "page": 15,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Measure Unit \nType\n21A0 \n8608 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n21A2 \n8610 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n21A4 \n8612 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n21A6 \n8614 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 14 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n21C0 \n8624 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n21C2 \n8626 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n21C4 \n8628 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n21C6 \n8630 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 15 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n21E0 \n8672 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n21E2 \n8674 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n21E4 \n8676 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n21E6 \n8678 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 16 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2200 \n8704 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2202 \n8706 \n2 \nINPUT COUNTER 2 \nR"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 59,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\Communication-Protocol-Modbus-EMS-96-IM166-U-v0.4-eng.pdf",
+          "content": "Type\n20C0 \n8384 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n20C2 \n8386 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n20C4 \n8388 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n20C6 \n8390 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 7 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n20E0 \n8416 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n20E2 \n8418 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n20E4 \n8420 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n20E6 \n8422 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned\n \nTimeband 8 ‐ input counters (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n2100 \n8448 \n2 \nINPUT COUNTER 1 \nR\n‐‐‐\nUnsigned\n2102 \n8450 \n2 \nINPUT COUNTER 2 \nR\n‐‐‐\nUnsigned\n2104 \n8452 \n2 \nINPUT COUNTER 3 \nR\n‐‐‐\nUnsigned\n2106 \n8454 \n2 \nINPUT COUNTER 4 \nR\n‐‐‐\nUnsigned"
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 198,
+        "page": 46,
+        "score": 12,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 47 / 52 \nSmart log setup (option) \nWarning: any changes to the register values DELETES all generic, smart and trigger logs saved (except LOG TO READ register). \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\nB200 \n45568 \n2 \nLOG TO READ \nR/W \nLog number that must be read. \nFrom 1 to n. \nB202 \n45570 \n2 \nENABLE \nR/W \n0: Disabled [Default] \n1: Enabled \nWarning: it’s possible to enable max 2 log type at the same time \nB204 \n45572 \n2 \nWINDOW UPDATE TIME \nR/W \n00: 1 min\n05: 10 min \n10: 60 min\n01: 2 min \n06: 12 min \n11: end of day \n02: 3 min \n07: 15 min [Default] \n12: end of week \n03: 5 min \n08: 20 min \n13: end of month \n04: 6 min \n09: 30 min \n14: end of year \nB206 \n45574 \n2 \nSTORAGE TYPE \nR/W \n0: Stop at the end of log space [Default] \n1: FIFO (after 10 consecutive cycles is automatically disabled) \nB208 \n45576 \n2 \n01\nst\nGROUP \nR/W\n0: Measure not used \n1: Instantaneous\n2: Average\nB20A \n45578 \n2 \n01\nst  \nMEASURE \nR/W"
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 54,
+        "page": 13,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "register"
+        ],
+        "content": "R\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1E3A \n7738 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1E3C \n7740 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1E3E \n7742 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 14 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1E60 \n7776 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1E62 \n7778 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1E64 \n7780 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1E8A \n7818 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1E8C \n7820 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1E8E \n7822 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 15 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1EB0 \n7856 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1EB2 \n7858 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1EB4 \n7860 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1EDA \n7898 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1EDC \n7900 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1EDE \n7902 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 50,
+        "page": 12,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "register"
+        ],
+        "content": "R\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1C0A \n7178 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C0C \n7180 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C0E \n7182 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 7 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1C30 \n7216 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C32 \n7218 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C34 \n7220 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1C5A \n7258 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C5C \n7260 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C5E \n7262 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 8 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1C80 \n7296 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C82 \n7298 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C84 \n7300 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1CAA \n7338 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CAC \n7340 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CAE \n7342 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 51,
+        "page": 12,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "register"
+        ],
+        "content": "R/W\nMeasure Unit \nType\n1C80 \n7296 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1C82 \n7298 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1C84 \n7300 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1CAA \n7338 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CAC \n7340 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CAE \n7342 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 9 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1CD0 \n7376 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CD2 \n7378 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CD4 \n7380 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1CFA \n7418 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1CFC \n7420 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1CFE \n7422 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 10 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1D20 \n7456 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1D22 \n7458 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1D24 \n7460 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1D2A \n7466 \n2"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 86,
+        "page": 22,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "addressing_mode"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 23 / 52 \n \nLast average (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription\nR/W\nMeasure Unit \nType\n3600 \n13824 \n2 \nSYSTEM VOLTAGE\nR\nmV\nUnsigned\n3602 \n13826 \n2 \nPHASE VOLTAGE L1‐N\nR\nmV\nUnsigned\n3604 \n13828 \n2 \nPHASE VOLTAGE L2‐N\nR\nmV\nUnsigned\n3606 \n13830 \n2 \nPHASE VOLTAGE L3‐N\nR\nmV\nUnsigned\n3608 \n13832 \n2 \nSYSTEM CURRENT\nR\nmA\nUnsigned\n360A \n13834 \n2 \nLINE CURRENT L1\nR\nmA\nUnsigned\n360C \n13836 \n2 \nLINE CURRENT L2\nR\nmA\nUnsigned\n360E \n13838 \n2 \nLINE CURRENT L3\nR\nmA\nUnsigned\n3610 \n13840 \n2 \nSYSTEM POWER FACTOR\nR\n±1000\nSigned\n3612 \n13842 \n2 \nPOWER FACTOR L1\nR\n±1000\nSigned\n3614 \n13844 \n2 \nPOWER FACTOR L2\nR\n±1000\nSigned\n3616 \n13846 \n2 \nPOWER FACTOR L3\nR\n±1000\nSigned\n3618 \n13848 \n2 \nSYSTEM COS φ\nR\n±1000\nSigned\n361A \n13850 \n2 \nPHASE COS φ1\nR\n±1000\nSigned\n361C \n13852 \n2 \nPHASE COS φ2\nR\n±1000\nSigned\n361E \n13854 \n2 \nPHASE COS φ3\nR\n±1000\nSigned\n3620 \n13856 \n2 \nSYSTEM APPARENT POWER\nR\nVA\nUnsigned\n3622 \n13858 \n2"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 158,
+        "page": 37,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "Note: Write 0 to clear register \n6014 \n24596 \n2 \nILLEGAL MESSAGES COUNTER \nR/W \nIt is the sum of: ‐ illegal function \n‐ illegal address  ‐ illegal data \nreceived from instrument \nNote: Write 0 to clear register \n6016 \n24598 \n2 \nCORRUPTED MESSAGES COUNTER \nR/W \nNumber of corrupted messages received \nNote: Write 0 to clear register \n6018 \n24600 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 1 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6050 \n24656 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6076 \n24694 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 1 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n60A0 \n24736 \n2"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 160,
+        "page": 37,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "‐‐‐\n‐‐‐\n6318 \n24680 \n2 \nNO RESPONSE COUNTER \nR/W \nNumber of answer doesn’t received \nNote: Write 0 to clear register \n* The Serial setting will be changed after the command response. \n \nCOM 2 slaves type (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n6350 \n25424 \n2 \n1° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n6376 \n25462 \n2 \n20° SLAVE \nR/W \n0: Not selected\n1: TTC‐V \n2: CTT‐4 \n3: CTT‐8\n4: HRI\n5: EMM‐h \n6: EMT‐4s \n7: EMS‐96 \n8: RI‐SM \n \nCOM 2 selection slave to read (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n63A0 \n25504 \n2 \nSLAVE SELECTION \nR/W\n1 ÷ 20\n \nCOM 2 slave register (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W \nType\n63B0 \n25520 \n2 \n1° SLAVE REGISTER \nR\n‐‐‐ \n \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n644E \n25678 \n2 \n80° SLAVE REGISTER \nR"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 156,
+        "page": 37,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 38 / 52 \nCOM (option) \n \nCOM 1 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n6000 \n24576 \n2 \nOPERATION MODE * \nR/W\n0000h: Slave Mode [Default] \n0001h: Master Mode\n6002 \n24578 \n2 \nSLAVE CONNECTED \n(used only in Master Mode) \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Master Mode. \n6004 \n24580 \n2 \nMASTER TIMEOUT \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 800] \n6006 \n24582 \n2 \nMASTER SCAN RATE \n(used only in Master Mode) \nR/W \n0 ÷ 10000 mSec [Default: 1000] \nDelay between two master request (master mode). \nNote: this value must be greater than MASTER TIMEOUT. \n6008 \n24584 \n2 \nNODE ID* \nR/W \n0001h ÷ 00F7h (001 ÷ 247 dec) [Default: 1] \nNote: valid only in Slave Mode. \n600A \n24586 \n2 \nBAUD RATE* \nR/W \n0000h: 4800 Baud\n0002h: 9200 Baud \n0004h: 57600 Baud\n0001h: 9600 Baud \n0003h: 38400 Baud[Def.]  0005h:115200Baud \n600C \n24588 \n2 \nSTOP BITS* \nR/W"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 161,
+        "page": 38,
+        "score": 8,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 39 / 52 \nM‐BUS setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nW/R \nParameters\n6600 \n26112 \n2 \nPRIMARY ADDRESS \nW/R\n0000h ÷ 00FAh (000 ÷ 250 dec) [Default: 1]\n6602 \n26114 \n2 \nBAUDRATE \nW/R \n0000h: 300 Baud\n0003h: 2400 Baud \n0006h: 19200 Baud\n0001h: 600 Baud \n0004h: 4800 Baud \n0007h: 38400 Baud \n0002h: 1200 Baud \n0005h: 9600 Baud \n6604 \n26116 \n2 \nSTOP BITS \nW/R\n0000h: 1 Stop Bit [Default] \n0001h: 2 Stop Bits\n6606 \n26118 \n2 \nPARITY \nW/R\n0000h: None [Default] \n0001h: Parity Odd\n0002h: Parity Even\n6608 \n26120 \n2 \nACCESS NUMBER \nW/R\nWrite 0000h to reset \n \nM‐BUS readout data setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nW/R \nParameters\n6700 \n26368 \n2 \nFRAME SLOT 1 – GROUP \nW/R \n0: Measure not used \n7: TB Energy 4\n14: TB Energy 11\n1: Instantaneous \n8: TB Energy 5 \n15: TB Energy 12 \n2: Average \n9: TB Energy 6 \n16: TB Energy 13 \n3: Total Energy \n10: TB Energy 7 \n17: TB Energy 14 \n4: TB Energy 1"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 105,
+        "page": 25,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "507E \n20606 \n2 \nNEUTRAL CURRENT \nR/W \n0000h: computed\n0001h: measured (if Neutral CT is present). [Default] \n5080 \n20608 \n2 \nPOWER FACTOR CONVENTION \nR/W \n0000h: Sign convention \n0001h: IEC convention \n0002h: IEEE/DIN convention \nNote: see the user manual (IM1200) for details\n \nRTC setup \nWarning: Must be send the entire parameter length (2 words or 1 word – see the long of each parameter) for a correct command setting. \nWarning: All Write command could be send in Broadcast Mode (Node ID 0) but if the Modbus Register or Modbus Parameters is wrong anything messages are returned. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n50A0 \n20640 \n2 \nENABLE RTC CLOCK OUT\nR/W\n0: Disable output frequency \n1: Enabled output frequency\n50A2 \n20642 \n2 \nRTC COMPENSATION \nR/W\n0: Default (fabric value) \nRange: ±31"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 40,
+        "page": 9,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "Description \nR/W\nMeasure Unit \nType\n14A0 \n5280 \n2 \nSYSTEM ACTIVE ENERGY IN\nR\n100*Wh\nUnsigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n14C6 \n5318 \n2 \nAPPARENT ENERGY L3\nR\n100*Vah\nUnsigned\n \nTimeband 3 – energies (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n14F0 \n5360 \n2 \nSYSTEM ACTIVE ENERGY IN\nR\n100*Wh\nUnsigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1516 \n5398 \n2 \nAPPARENT ENERGY L3\nR\n100*Vah\nUnsigned\n \nTimeband 4 – energies (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1540 \n5440 \n2 \nSYSTEM ACTIVE ENERGY IN\nR\n100*Wh\nUnsigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1566 \n5478 \n2 \nAPPARENT ENERGY L3\nR\n100*Vah\nUnsigned\n \nTimeband 5 – energies (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1590 \n5520 \n2 \nSYSTEM ACTIVE ENERGY IN\nR\n100*Wh\nUnsigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n15B6 \n5558 \n2 \nAPPARENT ENERGY L3\nR\n100*Vah\nUnsigned"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 64,
+        "page": 16,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "addressing_mode"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 17 / 52 \nRelative minimums \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n3000 \n12288 \n2 \nSYSTEM VOLTAGE \nR\nmV\nUnsigned\n3002 \n12290 \n2 \nPHASE VOLTAGE L1 \nR\nmV\nUnsigned\n3004 \n12292 \n2 \nPHASE VOLTAGE L2 \nR\nmV\nUnsigned\n3006 \n12294 \n2 \nPHASE VOLTAGE L3 \nR\nmV\nUnsigned\n3008 \n12296 \n2 \nLINE TO LINE VOLTAGE L1‐2\nR\nmV\nSigned\n300A \n12298 \n2 \nLINE TO LINE VOLTAGE L2‐3\nR\nmV\nSigned\n300C \n12300 \n2 \nLINE TO LINE VOLTAGE L3‐1\nR\nmV\nSigned\n300E \n12302 \n2 \nSYSTEM CURRENT \nR\nmA\nUnsigned\n3010 \n12304 \n2 \nLINE CURRENT L1 \nR\nmA\nUnsigned\n3012 \n12306 \n2 \nLINE CURRENT L2 \nR\nmA\nUnsigned\n3014 \n12308 \n2 \nLINE CURRENT L3 \nR\nmA\nUnsigned\n3016 \n12310 \n2 \nSYSTEM POWER FACTOR [max negative value]\nR\n±1000 \nSigned\n3018 \n12312 \n2 \nPOWER FACTOR L1 [maximum negative value]\nR\n±1000\nSigned\n301A \n12314 \n2 \nPOWER FACTOR L2 [maximum negative value]\nR\n±1000\nSigned\n301C \n12316 \n2 \nPOWER FACTOR L3 [maximum negative value]\nR\n±1000\nSigned\n301E \n12318"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 46,
+        "page": 11,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "TIME* \nR\n‐‐‐\nUnsigned\n1A1A \n6682 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A1C \n6684 \n2 \nSYSTEM REACTIVE POWER\nR\nVAr\nSigned\n1A1E \n6686 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A20 \n6688 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A22 \n6690 \n2 \nREACTIVE POWER L1 \nR\nVAr\nSigned\n1A24 \n6692 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A26 \n6694 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A28 \n6696 \n2 \nREACTIVE POWER L2 \nR\nVAr\nSigned\n1A2A \n6698 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A2C \n6700 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A2E \n6702 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n*: byte order/meaning: EMPTY, HOUR, MINUTE, SECOND \n**: byte order/meaning: DAY, MONTH, YEAR,YEAR \n \nTimeband 1 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure unit \nType\n1A50 \n6736 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A52 \n6738 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A54 \n6740 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1A7A \n6778 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A7C \n6780 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A7E \n6782 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 55,
+        "page": 13,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "R/W\nMeasure Unit \nType\n1EB0 \n7856 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1EB2 \n7858 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1EB4 \n7860 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1EDA \n7898 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1EDC \n7900 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1EDE \n7902 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 16 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1F00 \n7936 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1F02 \n7938 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1F04 \n7940 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1F2A \n7978 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1F2C \n7980 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1F2E \n7982 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n*: byte order/meaning: EMPTY, HOUR, MINUTE, SECOND \n**: byte order/meaning: DAY, MONTH, YEAR, YEAR"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 48,
+        "page": 11,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "Timeband 3 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure unit \nType\n1AF0 \n6896 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1AF2 \n6898 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1AF4 \n6900 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1B1A \n6938 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1B1C \n6940 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1B1E \n6942 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 4 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure unit \nType\n1B40 \n6976 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1B42 \n6978 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1B44 \n6980 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1B6A \n7018 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1B6C \n7020 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1B6E \n7022 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 52,
+        "page": 12,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "Timeband 10 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1D20 \n7456 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1D22 \n7458 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1D24 \n7460 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1D2A \n7466 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1D2C \n7468 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1D2E \n7470 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 11 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure Unit \nType\n1D70 \n7536 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1D72 \n7538 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1D74 \n7540 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1D9A \n7578 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1D9C \n7580 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1D9E \n7582 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 47,
+        "page": 11,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "R/W\nMeasure unit \nType\n1A50 \n6736 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A52 \n6738 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A54 \n6740 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1A7A \n6778 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1A7C \n6780 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1A7E \n6782 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 2 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure unit \nType\n1AA0 \n6816 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1AA2 \n6818 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1AA4 \n6820 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1ACA \n6878 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1ACC \n6860 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1ACE \n6862 \n2 \nREACTIVE POWER L3 \nR\nVAr\nSigned\n \nTimeband 3 – Power Max demand (mobile or fixed window) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nMeasure unit \nType\n1AF0 \n6896 \n2 \nTIME* \nR\n‐‐‐\nUnsigned\n1AF2 \n6898 \n2 \nDATE** \nR\n‐‐‐\nUnsigned\n1AF4 \n6900 \n2 \nSYSTEM ACTIVE POWER\nR\nW\nSigned\n‐‐‐ \n‐‐‐ \n‐‐‐ \n‐‐‐\n‐‐‐\n‐‐‐\n‐‐‐\n1B1A \n6938 \n2"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 114,
+        "page": 27,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "Description \nR/W\nParameters\n51C0 \n20928 \n2 \nSTATE \n(**) \nR\nState\n51C2 \n208930 \n2 \nMODE \nR/W \n0000h: Status [Default] \n0001h: Counter \n0002h: Select Energy Timeband Used (DI bit logic) \n0003h: Select Counter Timeband Used (DI bit logic) \n0004h: Select Energy and Counter Timeband Used (DI bit logic) \n51C4 \n20932 \n2 \nMULTIPLIER \nR/W\n1 ÷ 1000 [Default: 1]\n \nDigital input 4 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n51D0 \n20944 \n2 \nSTATE \n(**) \nR\nState\n51D2 \n208946 \n2 \nMODE \nR/W \n0000h: Status [Default] \n0001h: Counter \n0002h: Select Energy Timeband Used (DI bit logic) \n0003h: Select Counter Timeband Used (DI bit logic) \n0004h: Select Energy and Counter Timeband Used (DI bit logic) \n51D4 \n20948 \n2 \nMULTIPLIER \nR/W\n1 ÷ 1000 [Default: 1]\n(**):Read the Ordering Code register for hardware EMS configuration. Bits don’t used (not input or output present) are fixed to 0."
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 110,
+        "page": 26,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "Digital output 6 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5160 \n20832 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5162 \n20834 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5164 \n20836 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n \nDigital output 7 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5170 \n20848 \n2 \nSTATUS \nR/W\nState [Default: 0]\n5172 \n20850 \n2 \nLEVEL \nR/W \n0000h: Active Low (Initial State: High Level)\n0001h: Active High (Initial State: Low Level) [Default] \nWARNING: when it changes, the STATUS come back to default. \n5174 \n20852 \n2 \nMODE \nR/W \n0000h: State [Default] (see STATE command)\n0001h: Not used \n0002h: Setpoint \n \nDigital output 8 setup (option) \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5180 \n20864 \n2 \nSTATUS"
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 123,
+        "page": 30,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "Modbus-RTU for EMS-96 \ninstruction manual \nIM166-U v0.4 \npag. 31 / 52 \nSetpoint \n \nSetpoint 1 status \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5300 \n21248 \n2 \nSTATUS \nR\n0: Between the limits set \n1: Over the limits set\n5302 \n21250 \n2 \nEVENTS \nR\nNumber of overcoming events \n5304 \n21252 \n2 \nTIMER \nR\nTime over the limit (seconds) \n \nSetpoint 1 setup \nWarning: must be completed all setpoint setting before change the ENABLE register to 1. \nRegister HEX \nRegister DEC \nWord \nDescription \nR/W\nParameters\n5320 \n21280 \n2 \nENABLE \nR/W\n0: No [Default]\n1: Yes \n5322 \n21282 \n2 \nSOURCE \nR/W\n0: Internal Measure\n1 to 20: Measure node XX\n5324 \n21284 \n2 \nGROUP \nR/W \nWith SOURCE = Internal Measure: \n0: Not used [Default] \n2: Total energy \n1: Instantaneous measure \n3: Last average \nWith SOURCE = Measure node XX: \n0: Not used [Default] \n1: External Measure \n5326 \n21286 \n2 \nMEASURE CONTROLLED \nR/W \nIf GROUP is 1: See Instantaneous group \nIf GROUP is 2: See Aveerage group"
+      }
+    ]
+  }
+]

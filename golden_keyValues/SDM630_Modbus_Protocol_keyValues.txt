@@ -1,0 +1,16 @@
+subnetwork.properties.physicalStandard=1
+subnetwork.properties.baudRate=38400|2400|4800|9600|19200
+subnetwork.properties.parity=0
+subnetwork.properties.stopBits=0
+@combo:parity,stopBits=0,1|0,0|2,0|1,0
+subnetwork.properties.dataBits=1
+subnetwork.nodes[0].properties.nodeAddress=1|1-247
+subnetwork.nodes[0].properties.name=Total VAh
+subnetwork.nodes[0].properties.modbusAddressingMode=2
+subnetwork.nodes[0].transactions[0].properties.name=Total VAh
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[1].properties.data=4|3
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[2].properties.data=80
+subnetwork.nodes[0].transactions[0].frames[0].frameObjects[3].properties.data=2
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[1].properties.data=4|3
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[2].properties.data=4
+subnetwork.nodes[0].transactions[0].frames[1].frameObjects[3].properties.dataLength=4

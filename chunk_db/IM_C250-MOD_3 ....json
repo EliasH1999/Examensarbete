@@ -1,0 +1,260 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "Modbus (RTU) Communications Option\nC250 and V250\nUser Guide\nIM/C250–MOD_3"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "Health and Safety\nTo ensure that our products are safe and without risk to health, the following points\nmust be noted:\n1. The relevant sections of these instructions must be read carefully  before\nproceeding.\n2. Warning labels on containers and packages must be observed.\n3. Installation, operation, maintenance and servicing must only be carried out by\nsuitably trained personnel and in accordance with the information given.\n4. Normal safety precautions must be taken to avoid the possibility of an accident\noccurring when operating in conditions of high pressure and/or temperature.\n5. Chemicals must be stored away from heat, protected from temperature extremes\nand powders kept dry. Normal safe handling procedures must be used.\n6. When disposing of chemicals ensure that no two chemicals are mixed.\nSafety advice concerning the use of the equipment described in this manual or any\nrelevant hazard data sheets (where applicable) may be obtained from the Company"
+  },
+  {
+    "chunk_id": 2,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "6. When disposing of chemicals ensure that no two chemicals are mixed.\nSafety advice concerning the use of the equipment described in this manual or any\nrelevant hazard data sheets (where applicable) may be obtained from the Company\naddress on the back cover, together with servicing and spares information.\nElectrical Safety\nThis instrument complies with the requirements of CEI/IEC 61010-1:2001-2 \"Safety\nrequirements for electrical equipment for measurement, control, and laboratory use\". If the\ninstrument is used in a manner NOT specified by the Company, the protection provided\nby the instrument may be impaired.\nSymbols\nOne or more of the following symbols may appear on the instrument labelling:\nInformation in this manual is intended only to assist our customers in the efficient operation\nof our equipment. Use of this manual for any other purpose is specifically prohibited and\nits contents are not to be reproduced in full or part without prior approval of the Technical"
+  },
+  {
+    "chunk_id": 3,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "Information in this manual is intended only to assist our customers in the efficient operation\nof our equipment. Use of this manual for any other purpose is specifically prohibited and\nits contents are not to be reproduced in full or part without prior approval of the Technical\nPublications Department.\nWarning – Refer to the manual\nfor instructions\nCaution – Risk of electric shock\nProtective earth (ground) terminal\nEarth (ground) terminal\nDirect current supply only\nAlternating current supply only\nBoth direct and alternating\ncurrent supply\nThe equipment is protected\nthrough double insulation"
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "1\nCONTENTS\n1\nINTRODUCTION ........................................................................................... 2\n2\nELECTRICAL INSTALLATION ...................................................................... 3\n2.1\nHost Computer Serial Communications ................................................ 3\n2.2\nOPTO22 Boards for use with Personal Computers ............................... 3\n2.3\nTwo-wire and Four-wire Connection ..................................................... 3\n2.4\nPull-up and Pull-down Resistors............................................................ 4\n2.5\nTermination Resistor .............................................................................. 5\n2.6\nSerial Connections ................................................................................. 5\n3\nCONFIGURATION ......................................................................................... 6\n3.1"
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "2.6\nSerial Connections ................................................................................. 5\n3\nCONFIGURATION ......................................................................................... 6\n3.1\nAccessing the Configuration Mode ........................................................ 6\n3.2\nSetting the Serial Transmission Parameters .......................................... 6\n3.3\nSetting the Modbus Address ................................................................. 6\n4\nMODBUS PROTOCOL .................................................................................. 7\n4.1\nIntroduction ............................................................................................ 7\n4.2\nModbus Function Codes ....................................................................... 8\n5\nModbus FUNCTIONS ................................................................................... 9\n5.1"
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "4.2\nModbus Function Codes ....................................................................... 8\n5\nModbus FUNCTIONS ................................................................................... 9\n5.1\nRead Coil Status – Function Code 01 ................................................... 9\n5.2\nRead Holding Register – Function Code 03 ........................................ 10\n5.3\nForce Single Coil – Function Code 05 ................................................. 11\n5.4\nPreset Single Register – Function Code 06 ......................................... 12\n5.5\nLoopback Test – Function Code 08 .................................................... 13\n5.6\nWrite Multiple Registers – Function Code 16 ....................................... 14\n6\nEXCEPTION RESPONSES ......................................................................... 15\n6.1\nExamples ............................................................................................. 15\n7"
+  },
+  {
+    "chunk_id": 7,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "Write Multiple Registers – Function Code 16 ....................................... 14\n6\nEXCEPTION RESPONSES ......................................................................... 15\n6.1\nExamples ............................................................................................. 15\n7\nADDRESSABLE PARAMETERS ................................................................ 16\n7.1\nCOMMANDER 250/V250 – Coils ......................................................... 16\n7.2\nCOMMANDER 250/V250 – Registers .................................................. 16\n7.2.1\nAnalog Inputs ......................................................................... 16\n7.2.2\nControl Settings ..................................................................... 17\n7.2.3\nSet Points .............................................................................. 17\n7.2.4\nAlarm Settings........................................................................ 18\n7.2.5"
+  },
+  {
+    "chunk_id": 8,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "7.2.2\nControl Settings ..................................................................... 17\n7.2.3\nSet Points .............................................................................. 17\n7.2.4\nAlarm Settings........................................................................ 18\n7.2.5\nRamp/Soak Settings .............................................................. 18"
+  },
+  {
+    "chunk_id": 9,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "2\nThis Operating Guide describes the COMMANDER 250/V250 Modbus serial data\ncommunications option and must be used in conjunction with the standard User\nGuide (part no. IM/C250 or IM/V250) supplied with the instrument.\n1\nINTRODUCTION\nWarnings.\n•\nIf the equipment is used in a manner not specified by the Company, the\nprotection provided by the equipment may be impaired.\n•\nAll equipment connected to the instrument's terminals must comply\nwith local safety standards (CEI/IEC 61010-1:2001-2).\nNotes.\nThe Modbus option provides the following facilities:\n•\nStandard RS422/485 communications.\n•\nModbus RTU protocol – for master (host computer) to slave\n(COMMANDER 250/V250) system.\n•\n500V d.c isolation from external connections to the instrument.\n•\nTwo-wire or four-wire communication.\n•\n2400 or 9600 baud transmission rate.\n•\nParity-checking – odd, even or none."
+  },
+  {
+    "chunk_id": 10,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "3\nThis section describes the connection of serial data transmission cables between the\nmaster (host computer) and slave COMMANDER 250/V250 instruments on a\nModbus serial link. All connections other than those used for serial communication\nare shown in Section 5 of the relevant User Guide.\n2.1\nHost Computer Serial Communications\nAn RS422/485 communications driver must be fitted to the host computer. It is\nstrongly recommended that the interface has galvanic isolation to protect the\ncomputer from lightning damage and increase signal immunity to noise pick-up.\n2.2\nOPTO22 Boards for use with Personal Computers\nWhere a personal computer is used as the host computer, the following OPTO22\nboards are recommended for use with the COMMANDER 250/V250 Series of\ninstruments:\nPart No.\nComputer Type\nAC24 AT\nAT Bus IBM PC compatible\nAC34\nMicrochannel IBM PC\n2.3\nTwo-wire and Four-wire Connection – Figs. 2.1 and 2.2\nModbus serial communications must be configured as either two-wire or four-wire"
+  },
+  {
+    "chunk_id": 11,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "instruments:\nPart No.\nComputer Type\nAC24 AT\nAT Bus IBM PC compatible\nAC34\nMicrochannel IBM PC\n2.3\nTwo-wire and Four-wire Connection – Figs. 2.1 and 2.2\nModbus serial communications must be configured as either two-wire or four-wire\nserial links – see Figs. 2.1 and 2.2. Two-/four-wire operation must also be selected in\nthe Configuration Mode – see Section 3.1.\n2\nELECTRICAL INSTALLATION\nFig. 2.1 Pull-up and Pull-down Resistors (Two-wire Operation)\n+5V\n0V\n1.8kΩ Pull-up\nResistor\n1.8kΩ Pull-down\nResistor\nHost Computer\nRx–\nRx+\nTx–\nTx+\n'A'\n'A'\n'B'\n'B'\nGND\n32\n33\n34\n35\n36\nC250\nV250\nTx+/Rx+\nTx–/Rx–\nGND\nRefer to\npage 2"
+  },
+  {
+    "chunk_id": 12,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "4\n2.4\nPull-up and Pull-down Resistors – Figs. 2.1 and 2.2\nTo prevent false triggering of slaves when the master (host computer) is inactive, pull-\nup and pull-down resistors must be fitted to the RS422/485 interface in the host\ncomputer – see Figs. 2.1 and 2.2.\n…2\nElectrical installation\nFig. 2.2 Pull-up and Pull-down Resistors (Four-wire Operation)\nFig. 2.3 Connecting Multiple Slaves\nHost Computer\n+5V\n0V\n'A'\n'B'\n1.8kΩ\nPull-down\nResistor\n1.8kΩ Pull-up\nResistor\n0V\n+5V\n0V\n'A'\n'B'\n1.8kΩ\nPull-down Resistor\n1.8kΩ\nPull-up\nResistor\n32\n33\n34\n35\n36\nRx+\nRx–\nTx–\nC250\nV250\nTx+\nGND\nRefer to\npage 2\nFirst Slave\nLast Slave\nTx+\nTx-\nRx+\nRx-\nGND\n120Ω\nTermination Resistor\n(External)\nMaster\nRx+\nRx–\nTx+\nTx–\nGND\nTx+\nTx–\nRx+\nRx–\nGND\n32\n33\n34\n35\n36\nC250 / V250\nHost\nComputer\n32\n33\n34\n35\n36\nRefer to\npage 2"
+  },
+  {
+    "chunk_id": 13,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "5\n2.5\nTermination Resistor – Fig. 2.3\nFor long transmission lines, a 120Ω termination resistor must be fitted to the last slave\nin the chain – see Fig. 2.3.\n2.6\nSerial Connections – Figs. 2.1 to 2.4\nNotes.\n•\nUp to 10 slaves can be connected to a single RS422 adaptor card on\na PC.\n•\nUp to 32 slaves can be connected to a single RS485 adaptor card on\na PC.\nThe number of slaves can be increased if the driver’s serial port permits.\nConnections to the Modbus serial board must be made as shown in Figs. 2.1, 2.2 or\n2.4. Connections on links with multiple slaves must be made in parallel, as shown in\nFig. 2.3. When connecting cable screens, ensure that no ‘ground loops’ are\nintroduced.\nThe maximum serial data transmission line length for both RS422 and RS485 systems is\n1200m. The types of cable that can be used are determined by the total line length:\nUp to 6m\n–\nstandard screened or twisted pair cable.\nUp to 300m\n–\ntwin twisted pair with overall foil screen and an integral drain wire,"
+  },
+  {
+    "chunk_id": 14,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "1200m. The types of cable that can be used are determined by the total line length:\nUp to 6m\n–\nstandard screened or twisted pair cable.\nUp to 300m\n–\ntwin twisted pair with overall foil screen and an integral drain wire,\ne.g. Belden 9502 or equivalent.\nUp to 1200m\n–\ntwin twisted pair with separate foil screens and integral drain\nwires, e.g. Belden 9729 or equivalent.\n2\nElectrical installation…\nFig. 2.4 OPTO22 Board Connections\n32\n33\n34\n35\n36\nRx+\nRx–\nC250\nV250\nTx+\nGND\nRx+\nRx–\nTx+\nTx–\nGND\nOPTO22 Adaptor\nBoard Connections\nScreen\nTx–\n8\n9\n4\n5\n3\nRefer to\npage 2"
+  },
+  {
+    "chunk_id": 15,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "6\nNotes.\n•\nProgrammable baud rate – 2400 or 9600 baud.\n•\nSelectable parity – odd, even or none.\n•\nAddress range – 1 to 99.\nFor Modbus communications to operate correctly, each COMMANDER 250/V250\nmust be configured with the correct serial transmission parameters and assigned a\nunique address.\n3.1\nAccessing the Configuration Mode\nTo access the Configuration Mode, set the security switch to the ‘Configure’ position,\nas shown in Fig. 4.1 of the relevant User Guide. When all parameters have been\nprogrammed, reset the switch to the ‘Normal’ position.\n3.2\nSetting the Serial Transmission Parameters – Fig. 3.1\nFig. 3.1 shows the display readouts and options available when defining the serial\ntransmission rate and bit parity for COMMANDER 250 and V250 instruments. Further\ndetail on the procedure required to set each parameter are shown in Section 4.3.4 of\nthe relevant User Guide.\n3.3\nSetting the Modbus Address\nTo allow the master to differentiate between more than one slave in a system, each"
+  },
+  {
+    "chunk_id": 16,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "detail on the procedure required to set each parameter are shown in Section 4.3.4 of\nthe relevant User Guide.\n3.3\nSetting the Modbus Address\nTo allow the master to differentiate between more than one slave in a system, each\nslave on a Modbus link must be assigned a unique address in the range 1 to 99. See\nsection 4.4 of the relevant User Guide (Modbus Address Frame, Addr).\n3\nCONFIGURATION\nFig. 3.1 Setting Serial Transmission Parameters\nPrSt\n2100\nS – Serial Communication Configuration\nT – Serial Communications Parity\nC250/V250\nC250/V250\nDisplay\nBaud Rate, 2/4-wire\n0\nOff\n1\n2400, 2-wire\n2\n2400, 4-wire\n3\n9600, 2-wire\n4\n9600, 4-wire\nPrSt\n2100\nDisplay\nParity\n0\nNone\n1\nOdd\n2\nEven"
+  },
+  {
+    "chunk_id": 17,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "7\nNotes.\n•\nThe COMMANDER 250/V250 operates as a Modbus, Remote\nTerminal Unit (RTU) slave.\n•\nParity checking – detects transmission errors in individual characters.\n•\nCyclic redundancy checking – detects errors in the master messages\nand slave responses.\n•\nNegative numbers are represented in ‘two’s complement’ format, e.g.:\n1000\n=\n0x03E8\n–1000\n=\n0xFC18\n4.1\nIntroduction\nModbus communication uses the master/slave principle to send messages to one or\nmore slaves. Each slave is given a unique identity address (between 1 and 99).\nA broadcast address (address zero) can be used to write to all slave devices\nsimultaneously, using one command. In this instance there is no slave\nacknowledgment.\nSlaves cannot accept new messages until the current message has been processed\nand a reply sent to the master (maximum response time 250ms). The slave monitors\nthe elapsed time between receipt of characters. If the elapsed time without a new"
+  },
+  {
+    "chunk_id": 18,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "acknowledgment.\nSlaves cannot accept new messages until the current message has been processed\nand a reply sent to the master (maximum response time 250ms). The slave monitors\nthe elapsed time between receipt of characters. If the elapsed time without a new\ncharacter is 31/2 character times, the slave assumes the next character received is the\nstart of a new message.\nNote. Modbus RTU requires 1 start bit, 8 data bits, 1 parity bit (optional)\nand 1 or 2 stop bits.\n4\nModbus PROTOCOL"
+  },
+  {
+    "chunk_id": 19,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "8\n4.2\nModbus Function Codes\nThe function code instructs the addressed slave which function to perform. Table 4.1\nshows the function codes, and describes the action they initiate.\n…4\nModbus Protocol\nTable 4.1 Modbus Function Codes\n*NAK = Negative Acknowledgment\nFunction\nCode\nFunction\nTitle\nDescription\n01\nRead\nCoil Status\nRead up to 16 consecutive discrete (Boolean) points\nfrom a specific starting point. The COMMANDER\n250/V250 returns zeros for points which do not\ncontain defined data and NAKs* any request for point\nnumbers greater than 60.\nRead up to 8 consecutive registers from a specific\nstarting register. The COMMANDER 250/V250 returns\nzeros for points which do not contain defined data\nand NAKs* any request for point numbers greater\nthan 90.\nWrite one discrete (Boolean) point. The COMMANDER\n250/V250 NAKs* this if the point is not currently\nwriteable.\nWrite one register. This code also applies any existing\nlimits to the register before storage in the instrument."
+  },
+  {
+    "chunk_id": 20,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "and NAKs* any request for point numbers greater\nthan 90.\nWrite one discrete (Boolean) point. The COMMANDER\n250/V250 NAKs* this if the point is not currently\nwriteable.\nWrite one register. This code also applies any existing\nlimits to the register before storage in the instrument.\nThe COMMANDER 250/V250 NAKs* if the register\nis not currently writeable.\nEcho the message. Only ‘Return of Query’ is\nsupported.\nWrite up to eight consecutive registers from a specified\nstarting register. The COMMANDER 250/V250 NAKs*\nif any of the registers are not currently writeable, but\ncarries out all the writes which are valid, applying any\nexisting limits to the value before storage in the\ninstrument.\n03\nRead\nHolding Register\n05\nForce\nSingle Coil\n06\nPreset\nSingle Register\n08\nLoop Back\n16\nPreset\nMultiple\nRegisters"
+  },
+  {
+    "chunk_id": 21,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "9\nThis section shows typical examples of Modbus function codes 01, 03, 05, 06, 08\nand 16. Not all addressable parameters used in the examples which follow are valid\nfor both instrument types – see Sections 7.1 to 7.4.\n5.1\nRead Coil Status – Function Code 01\n5.1.1\nRead Coil Status Query\nThis function obtains the ON/OFF status of logic coils used to control discrete outputs\nfrom the addressed slave. Broadcast mode is not supported with this function code.\nIn addition to the slave address and function fields, the information field must contain\nthe initial coil offset address (starting address) and the number of each location to be\ninterrogated.\nNote. The coil offset address is one less than the coil number, e.g. to start\nat coil 06 the start address must be set to 05 (05H).\nExample. Read 16 coils from slave (01) starting at coil 6 (alarm state 1).\nAddress\nFunction\nCoil Start\nCoil Start\nNo. of\nNo. of\nError Check (CRC-16)\nOffset High\nOffset Low\nCoils High Coils Low\nField\n01\n01\n00\n05\n00\n10"
+  },
+  {
+    "chunk_id": 22,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "at coil 06 the start address must be set to 05 (05H).\nExample. Read 16 coils from slave (01) starting at coil 6 (alarm state 1).\nAddress\nFunction\nCoil Start\nCoil Start\nNo. of\nNo. of\nError Check (CRC-16)\nOffset High\nOffset Low\nCoils High Coils Low\nField\n01\n01\n00\n05\n00\n10\n2D\nC7\n5.1.2\nRead Coil Status Response\nThe data is packed one bit for each coil (1 = ON, 0 = OFF). The response includes the\nslave address, function code, quantity of data characters, the data characters and\nerror checking. The low order bit of the first character contains the first addressed coil\nand the remainder follow. For coil quantities that are not multiples of eight, the last\ncharacters are packed with zeros at the high order end.\nExample\nAlarms 1, 2 and 3 inactive\nDigital input inactive\nDigital output inactive\nRelays 1 and 2 active\nON/OFF status 1 and 2 active\nData Coil\nData Coil\nError Check\n(CRC-16)\nAddress\nFunction\nByte Count\nStatus\n Status\nField\n6 to 13\n 14 to 21\n01\n01\n02\n00\n3E\n38\n2C\n5\nModbus FUNCTIONS"
+  },
+  {
+    "chunk_id": 23,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "10\n5.2\nRead Holding Register – Function Code 03\n5.2.1\nRead Holding Register Query\nThe Read Holding Register Query obtains the contents of up to eight holding registers\nin the addressed slave.\nNote. The data start register must contain the offset address of the first\nregister to be accessed, e.g. to start at register 1 the data start register\nmust contain 00 (00H).\nBroadcast mode is not supported by Function Code 03.\nExample. Read three holding registers from slave (01) starting at holding address 01\n(process variable input).\nRegister\nRegister\nData No. of\nData No. of\nError\nAddress Function\nStart\nStart\nRegisters\nRegisters\nCheck (CRC-16)\nOffset High Offset Low\nHigh\nLow\nField\n01\n03\n00\n00\n00\n03\n05\nCB\n5.2.2\nRead Holding Register Response\nThe addressed slave responds with its address and function code, followed by the\ninformation field. The information field contains one byte describing the quantity of\ndata bytes to be returned. Two bytes are used to return each register requested, the"
+  },
+  {
+    "chunk_id": 24,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "03\n05\nCB\n5.2.2\nRead Holding Register Response\nThe addressed slave responds with its address and function code, followed by the\ninformation field. The information field contains one byte describing the quantity of\ndata bytes to be returned. Two bytes are used to return each register requested, the\nfirst byte containing the high order bits and the second the low order bits.\nExample\nPV input (two registers)\n–\n270\nPV decimal places\n–\n  1\nByte\nHolding\nHolding\nHolding\nError\nAddress\nFunction\nCount\nRegister 01\nRegister 02\nRegister 03\nCheck ( C R C - 1 6 )\nHigh\nLow\nHigh\nLow\nHigh\nLow\nField\n01\n03\n00\n00\n  00\n01\n  09\n00\n  01\n49\n75\n…5\nModbus Functions"
+  },
+  {
+    "chunk_id": 25,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "11\n5.3\nForce Single Coil – Function Code 05\n5.3.1\nForce Single Coil Query\nThis message forces a single coil either ON or OFF. The data value 65,280 (FF00 HEX)\nsets the coil ON and the value zero turns it OFF. All other values are illegal and have\nno effect on coil status.\nNote. To write to a coil its offset address (one less than the coil number)\nmust be used, e.g. to write to coil 30, the coil address 29 (1CH) is\ntransmitted.\nThe use of slave address zero (broadcast mode) forces all attached slaves to modify\nthe desired coil.\nExample. Switch ON coil address 30 (auto/manual state) in slave 01.\nCoil\nCoil\nData\nData\nError\nAddress\nFunction\nOffset\nOffset\nValue\nValue\nCheck\n(CRC-16)\nHigh\nLow\nHigh\nLow\nField\n01\n05\n00\n1D\nFF\n00\n80\nFF\n5.3.2\nForce Single Coil Response\nThe response is confirmation of the query after the coil state has been altered.\nExample\nCoil\nCoil\nData\nData\nError\nAddress\nFunction\nOffset\nOffset\nValue\nValue\nCheck\n(CRC-16)\nHigh\nLow\nHigh\nLow\nField\n01\n05\n00\n1D\nFF\n00\n28\n60\n5"
+  },
+  {
+    "chunk_id": 26,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "Low\nHigh\nLow\nField\n01\n05\n00\n1D\nFF\n00\n80\nFF\n5.3.2\nForce Single Coil Response\nThe response is confirmation of the query after the coil state has been altered.\nExample\nCoil\nCoil\nData\nData\nError\nAddress\nFunction\nOffset\nOffset\nValue\nValue\nCheck\n(CRC-16)\nHigh\nLow\nHigh\nLow\nField\n01\n05\n00\n1D\nFF\n00\n28\n60\n5\nModbus Functions…"
+  },
+  {
+    "chunk_id": 27,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "12\n5.4\n Preset Single Register – Function Code 06\n5.4.1\n Preset Single Register Query\nThe Preset Single Register Query modifies the contents of a holding register.\nNote. Function codes 05, 06 and 16 are the only messages that are\nrecognized as valid for broadcast.\nExample. Write the value 500 to holding register address 25 (proportional band 1 –\nheat) in slave 01.\nNote. To write to a register, its offset address (one less than the register\nnumber) must be used, e.g. to write to register 25, the offset address 24\n(18H) is transmitted.\nRegister Register\nData\nData\nError\nAddress\nFunction\nOffset\nOffset\nValue\nValue\nCheck\n(CRC-16)\nHigh\nLow\nHigh\nLow\nField\n01\n06\n00\n18\n01\nF4\n09\nDA\n5.4.2\nPreset Single Register Response\nThe response to a Preset Single Register Response requests is to retransmit the\nquery message after the register has been altered.\nExample\nRegister Register\nData\nData\nError\nAddress\nFunction\nOffset\nOffset\nValue\nValue\nCheck\n(CRC-16)\nHigh\nLow\nHigh\nLow\nField\n01\n06\n00\n18\n01\nF4\n09\nDA\n…5"
+  },
+  {
+    "chunk_id": 28,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "The response to a Preset Single Register Response requests is to retransmit the\nquery message after the register has been altered.\nExample\nRegister Register\nData\nData\nError\nAddress\nFunction\nOffset\nOffset\nValue\nValue\nCheck\n(CRC-16)\nHigh\nLow\nHigh\nLow\nField\n01\n06\n00\n18\n01\nF4\n09\nDA\n…5\nModbus Functions"
+  },
+  {
+    "chunk_id": 29,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "13\n5.5\n Loopback Test – Function Code 08\n5.5.1\n Loopback Test Query\nThe Loopback Test Query tests the Modbus system and does not affect the operation\nof the slave. Variations in the response may indicate faults in the Modbus system. The\ninformation field contains two bytes for the designation of the diagnostic code\nfollowed by two bytes to designate the action to be taken.\nExample\nData\nData\nError\nAddress\nFunction\nDiagnostic\nDiagnostic\nData*\nData*\nCheck\n(CRC-16)\nCode High\nCode Low\nField\n01\n08\n00\n00\nA5\n37\nDA\n8D\n*These are considered to be the information fields for the diagnostic mode.\n5.5.2\n Loopback Test Response\nThe Loopback Test Response always echoes the query, only diagnostic code 0\n(bytes 3 and 4) can be used.\nExample\nData\nData\nError\nAddress\nFunction\nDiagnostic\nDiagnostic\nData\nData\nCheck\n(CRC-16)\nCode High\nCode Low\nField\n01\n08\n00\n00\nA5\n37\nDA\n8D\n5\nModbus Functions…"
+  },
+  {
+    "chunk_id": 30,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "14\n5.6\n Write Multiple Registers – Function Code 16\n5.6.1\n Write Multiple Registers Query\nThis message is used to change the contents of up to eight holding registers at a time.\nWhen used with slave address zero (broadcast mode) all slave controllers load the\nselected registers with the contents specified.\nNote. To write to a register, its offset address (one less than the register\nnumber) must be used, e.g. to write to register 25, the offset address 24\n(18H) is transmitted.\nExample. Write the value 500 to the register address 25 (proportional band 1 – heat)\nand the value 100 to the register address 26 (integral action time) in slave 01.\nRegister\nRegister\nNumber of\nByte\nAddress\nFunction\nStart\nStart\nRegisters\nCount\nOffset High\nOffset Low\n01\n10\n00\n18\n00 \n  02\n04\nHolding\nHolding\nHolding\nHolding\nError Check\nRegister 24\nRegister 24\nRegister 25\nRegister 25\nField\n(CRC16)\nHigh\nLow\nHigh\nLow\n01\nF4\n00\n64\nB2\nE0\n5.6.2\n Write Multiple Registers Response"
+  },
+  {
+    "chunk_id": 31,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "Register\nNumber of\nByte\nAddress\nFunction\nStart\nStart\nRegisters\nCount\nOffset High\nOffset Low\n01\n10\n00\n18\n00 \n  02\n04\nHolding\nHolding\nHolding\nHolding\nError Check\nRegister 24\nRegister 24\nRegister 25\nRegister 25\nField\n(CRC16)\nHigh\nLow\nHigh\nLow\n01\nF4\n00\n64\nB2\nE0\n5.6.2\n Write Multiple Registers Response\nThe Write Multiple Registers Response confirms slave identification, function code,\nstarting register address and quantity only.\nExample\nRegister\nRegister\nNumber of\nError\nAddress\nFunction\nStart Offset\nStart Offset\nRegisters\nCheck\n(CRC-16)\nHigh\nLow\nField\n01\n10\n00\n18\n00\n02\nC1\nCF\n…5\nModbus Functions"
+  },
+  {
+    "chunk_id": 32,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "15\nThe exception response codes sent by the slave are shown in Table 6.1. When a slave\ndetects one of these errors, it sends a response message to the master consisting of\nslave address, function code, error code and error check fields.\n6\nEXCEPTION RESPONSES\n6.1\nExamples\nA Read Register Request to read holding register address 100 of Slave 01 (undefined\naddress for Slave, beyond address limit).\nRegister\nRegister\nNumber\nNumber\nError\nStart\nStart\nof\nof\nCheck\nAddress\nFunction\nOffset\nOffset\nRegisters\nRegisters\nField\n(CRC-16)\nHigh\nLow\nHigh\nLow\n01\n03\n00\nFA\n00\n06\nE5\nF9\nThe slave replies with an exception response signifying an ‘illegal data address’. To\nindicate that the response is a notification of an error, the most significant bit of the\nfunction code is set to 1.\nSlave Address\nFunction\nException\nError Check\n(CRC-16)\n01\n83\n02\nC0\nF1\nTable 6.1 Exception Response Codes\nException\nResponse\nCode\nException Response\nName\nException Response\nDefinition\nIllegal\nFunction\nIllegal\nData Address\nIllegal"
+  },
+  {
+    "chunk_id": 33,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "function code is set to 1.\nSlave Address\nFunction\nException\nError Check\n(CRC-16)\n01\n83\n02\nC0\nF1\nTable 6.1 Exception Response Codes\nException\nResponse\nCode\nException Response\nName\nException Response\nDefinition\nIllegal\nFunction\nIllegal\nData Address\nIllegal\nData Value\nNegative\nAcknowledgement\nMemory\nParity Error\nThe message function received is not  an allowable\nfunction on the COMMANDER 250/V250.\nThe address reference in the data field is not an\nallowable address for the COMMANDER 250/V250.\nThe value referenced in the data field is not allowable\nin the addressed slave location.\nThe function just requested cannot be performed.\nParity check indicates an error in one or more of the\ncharacters received.\n01\n02\n03\n07\n08"
+  },
+  {
+    "chunk_id": 34,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "16\n7\nADDRESSABLE PARAMETERS\n7.1\nCOMMANDER 250/V250 – Coils\nCoil No.\nVariable Label\nRead/Write\nLimits/Values\n01\nProcess Variable Fail State\nR\n1 = Failed\n02\nRemote Set Point Fail State\nR\n1 = Failed\n03\nA/D Converter Fail State\nR\n1 = Failed\n06\nAlarm State 1\nR\n1 = Active\n07\nAlarm Indicator 1\nR\n1 = On\n08\nAlarm State 2\nR\n1 = Active\n09\nAlarm Indicator 2\nR\n1 = On\n14\nDigital Input State\nR\n1 = On\n15\nDigital Output State\nR\n1 = On\n16\nRelay 1 State\nR\n1 = On\n17\nRelay 2 State\nR\n1 = On\n19\nOn/Off Output 1 (Heat)\nR\n1 = On\n20\nOn/Off Output 2 (Cool)\nR\n1 = On\n30\nAuto/Manual State\nRW\n0 = Auto; 1 = Manual\n31\nControl Action\nW\n0 = Reverse; 1 = Direct\n32\nSelect Local Set Point\nW\n1 = Local\n33\nSelect Remote Set Point\nW\n1 = Remote\n34\nSelect Fixed Set Point 1\nW\n1 = Selected\n35\nSelect Fixed Set Point 2\nW\n1 = Selected\n36\nSelect Fixed Set Point 3\nW\n1 = Selected\n37\nSelect Fixed Set Point 4\nW\n1 = Selected\n7.2\nCOMMANDER 250/V250 – Registers\n7.2.1\nAnalog Inputs\nRegister\nVariable Label\nRead/Write\nLimits/Values\n1"
+  },
+  {
+    "chunk_id": 35,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "W\n1 = Remote\n34\nSelect Fixed Set Point 1\nW\n1 = Selected\n35\nSelect Fixed Set Point 2\nW\n1 = Selected\n36\nSelect Fixed Set Point 3\nW\n1 = Selected\n37\nSelect Fixed Set Point 4\nW\n1 = Selected\n7.2\nCOMMANDER 250/V250 – Registers\n7.2.1\nAnalog Inputs\nRegister\nVariable Label\nRead/Write\nLimits/Values\n1\nProcess Variable Input\nR\n–999 to 9999\n3\nPV Decimal Places\nR\n0 to 3"
+  },
+  {
+    "chunk_id": 36,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "17\n7\nADDRESSABLE PARAMETERS…\n…7.2\nCOMMANDER 250/V250 – Registers\n7.2.2\nControl Settings\nRegister\nVariable Label\nRead/Write\nLimits/Values\n11\nProcess Variable Input\nR\n–999 to 9999\n13\nControl Set Point\nR\n–999 to 9999\n14\nOutput 1\nRW*\n–80 to 1100\n15\nAuto/Manual State\nRW\n0 = Auto; 1 = Manual\n0 = Local\n1 = Remote\n2 = Fixed Set Point 1\n16\nSet Point Select\nRW\n3 = Fixed Set Point 2\n4 = Fixed Set Point 3\n5 = Fixed Set Point 4\n6 = Ramp/Soak\n17\nOutput 2\nRW*\n–80 to 1100\n18\nFixed Set Point 1\nRW\n–999 to 9999\n19\nFixed Set Point 2\nRW\n–999 to 9999\n20\nFixed Set Point 3\nRW\n–999 to 9999\n21\nFixed Set Point 4\nRW\n–999 to 9999\n22**\nValve Deadband\nRW\n–999 to 9999\n23**\nValve Travel Time\nRW\n1 to 5000\n24**\nValve Drive\nRW\n0 = Close,\n1 = Stop,\n2 = Open\n25\nProportional Band 1\nRW\n1 to 9999\n26\nIntegral Action Time\nRW\n0 to 7200\n27\nDerivative Action Time\nRW\n0 to 9999\n28\nManual Reset\nRW\n0 to 1000\n29\nCycle Time 1\nRW\n9 to 3000\n30\nCycle Time 2\nRW\n9 to 3000\n31\nProportional Band 2\nRW\n1 to 9999\n32\nOverlap\nRW\n100 to –100\n33"
+  },
+  {
+    "chunk_id": 37,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "RW\n0 = Close,\n1 = Stop,\n2 = Open\n25\nProportional Band 1\nRW\n1 to 9999\n26\nIntegral Action Time\nRW\n0 to 7200\n27\nDerivative Action Time\nRW\n0 to 9999\n28\nManual Reset\nRW\n0 to 1000\n29\nCycle Time 1\nRW\n9 to 3000\n30\nCycle Time 2\nRW\n9 to 3000\n31\nProportional Band 2\nRW\n1 to 9999\n32\nOverlap\nRW\n100 to –100\n33\nControl Mode 1\nR\n0 = Off\n34\nControl Mode 2\nR\n1 = Analog Control\n2 = Time Proportioning\n35\nControl Output 1 Action\nRW\n0 = Reverse; 1 = Direct\n36\nAuto/Manual State\nRW\n0 = Auto; 1 = Manual\n* These parameters can only be written to while the Controller is in Manual Mode\n** V250 instruments only"
+  },
+  {
+    "chunk_id": 38,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "18\n…7\nADDRESSABLE PARAMETERS\n…7.2\nCOMMANDER 250/V250 – Registers\n7.2.3\nSet Points\nRegister\nVariable Label\nRead/Write\nLimits/Values\n40\nSet Point High\nRW\n–999 to 9999\n41\nSet Point Low\nRW\n–999 to 9999\n42\nLocal Set Point\nRW\n–999 to 9999\n43\nRemote Set Point Input\nR\n–999 to 9999\n45\nFixed Set Point 1\nRW\n–999 to 9999\n46\nFixed Set Point 2\nRW\n–999 to 9999\n47\nFixed Set Point 3\nRW\n–999 to 9999\n48\nFixed Set Point 4\nRW\n–999 to 9999\n7.2.4\nAlarm Settings\nRegister\nVariable Label\nRead/Write\nLimits/Values\n50\nAlarm Trip 1\nRW\n–9999 to 9999\n52\nAlarm Trip 2\nRW\n–9999 to 9999\n56\nAlarm Hysteresis Value\nRW\n0 to 100\n0 = None\n1 = High Process\n2 = Low Process\n57\nAlarm Type 1\nR\n3 = Not Valid\n58\nAlarm Type 2\nR\n4 = Not Valid\n5 = High Deviation\n6 = Low Deviation\n7 = Loop Break\n7.2.5\nRamp/Soak Settings\nRegister\nVariable Label\nRead/Write\nLimits/Values\n65\nRamp/Soak Run\nW\n1 = Run\n66\nRamp/Soak Hold\nW\n1 = Hold\n67\nRamp/Soak Skip\nW\n1 = Skip\n68\nRamp/Soak Stop\nW\n1 = Stop\n0 = Stop\n69\nProgram Status\nR\n1 = Run\n2 = Hold"
+  },
+  {
+    "chunk_id": 39,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "19\nNOTES"
+  },
+  {
+    "chunk_id": 40,
+    "page": 21,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "20\nNOTES"
+  },
+  {
+    "chunk_id": 41,
+    "page": 22,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "Customer Support\nWe provide a comprehensive after sales service via a Worldwide Service Organization.\nContact one of the following offices for details on your nearest Service and Repair Centre.\nUnited Kingdom\nABB Limited\nTel: +44 (0)1480 475 321\nFax: +44 (0)1480 217 948\nUnited States of America\nABB Inc.\nTel: +1 215 674 6000\nFax: +1 215 674 7183\nClient Warranty\nPrior to installation, the equipment referred to in this manual must be stored in a\nclean, dry environment, in accordance with the Company's published specification.\nPeriodic checks must be made on the equipment's condition.\nIn the event of a failure under warranty, the following documentation must be\nprovided as substantiation:\n1. A listing evidencing process operation and alarm logs at time of failure.\n2. Copies of all storage, installation, operating and maintenance records relating to\nthe alleged faulty unit."
+  },
+  {
+    "chunk_id": 42,
+    "page": 23,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IM_C250-MOD_3 ....pdf",
+    "content": "IM/C250–MOD\nIssue 3\nThe Company’s policy is one of continuous product\nimprovement and the right is reserved to modify the\ninformation contained herein without notice.\nPrinted in UK (02.07)\n© ABB 2007\nABB Limited\nHoward Road, St. Neots\nCambridegshire, PE19 8EU\nUK\nTel: +44 (0)1480 475 321\nFax:+44 (0)1480 217 948\nABB Inc.\n125 E. County Line Road\nWarminster, PA 18974\nUSA\nTel: +1 215 674 6000\nFax:+1 215-674 7183\nABB has Sales & Customer Support expertise\nin over 100 countries worldwide\nwww.abb.com\nModbus™ is a registered trademark of the Modbus-IDA organization"
+  }
+]

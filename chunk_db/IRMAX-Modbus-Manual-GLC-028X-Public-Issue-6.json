@@ -1,0 +1,344 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Approvals \n1: \n \n \nDate: \n \n2: \n \n \nDate: \n \n3: \n \n \nDate: \n \n4: \n \n \nDate: \n© \nCrowcon  2020 \nfile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outl\nook\\ivjiwue3\\glc-028x public modbus interface (002).docx \n \n \nEngineering Report \n \n \nDoc No : \nGLC-028X \nIssue No : \n6 \n \n \nDate : \n28/01/2020 \nPage  1  of  20 \n \n \nAuthor : \nDennis Culver \nProduct Family : \nFixed \nPart No : \nIRmax \nSecurity Classification : \n \n \nReport Title : \nIRmax Public Modbus Interface"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 2 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n \nChange History \n \nIssue \nChange \nAuthor \nDate \n1 \nFirst release \nDennis Culver \n24/04/2009 \n2 \nRelease to coincide with release V1 i1.02 B02 (Host) \nDennis Culver \n11/11/2009 \n3 \nRelease to coincide with release V1 i1.03 B02 \nDennis Culver \n19/01/2010 \n4 \nRelease to coincide with V2 i1.03/V5 i2.06 \nDennis Culver \n20/08/2010 \n5 \nClarify header page \nDennis Culver \n28/02/2012 \n6 \nCorrect and expand examples in section 7. Add missing status \ncodes for STATUS_ID_TEMP_ERR and \nSTATUS_ID_AOUT_FEEDBACK \nDennis Culver \n28/01/2020"
+  },
+  {
+    "chunk_id": 2,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 3 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \nContents \n \n1. \nIntroduction _______________________________________________________________ 5 \n2. \nModbus Interface ___________________________________________________________ 6 \n2.1 \nSlave Address __________________________________________________________________6 \n2.2 \nData Format ___________________________________________________________________6 \n2.3 \nImplemented Function Codes _____________________________________________________6 \n2.4 \nData Timing ___________________________________________________________________6 \n2.5 \nModbus Data Types _____________________________________________________________6 \n2.6 \nRegister Permissions ____________________________________________________________7 \n2.7"
+  },
+  {
+    "chunk_id": 3,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "2.4 \nData Timing ___________________________________________________________________6 \n2.5 \nModbus Data Types _____________________________________________________________6 \n2.6 \nRegister Permissions ____________________________________________________________7 \n2.7 \nNote on Message Processing ______________________________________________________7 \n2.8 \nModbus Start-up Response _______________________________________________________7 \n3. \nModbus Data Model ________________________________________________________ 8 \n3.1 \nIdentification Data ______________________________________________________________8 \n3.1.1 \nRuntime Data ______________________________________________________________________ 8 \n3.1.2 \nGas Configuration ___________________________________________________________________ 9 \n3.1.3 \nAnalogue Output ___________________________________________________________________ 10 \n3.1.3.1 \nAnalogue Adjustment Notes ________________________________________________________ 10"
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "3.1.2 \nGas Configuration ___________________________________________________________________ 9 \n3.1.3 \nAnalogue Output ___________________________________________________________________ 10 \n3.1.3.1 \nAnalogue Adjustment Notes ________________________________________________________ 10 \n3.1.3.2 \nInhibit and Ramp Mode Notes ______________________________________________________ 11 \n3.1.4 \nAlarm Configuration ________________________________________________________________ 11 \n4. \nException Codes __________________________________________________________ 12 \n5. \nZero and Calibration Status Codes ____________________________________________ 13 \n6. \nStatus Bits _______________________________________________________________ 14 \n6.1 \nStatus Bits ____________________________________________________________________14 \n6.2 \nExplanation ___________________________________________________________________15 \n6.3 \nSeverity Levels ________________________________________________________________16"
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "6.1 \nStatus Bits ____________________________________________________________________14 \n6.2 \nExplanation ___________________________________________________________________15 \n6.3 \nSeverity Levels ________________________________________________________________16 \n6.3.1 \nOk ______________________________________________________________________________ 16 \n6.3.2 \nWarning__________________________________________________________________________ 16 \n6.3.3 \nFatal ____________________________________________________________________________ 16 \n6.3.4 \nLow-Power Status __________________________________________________________________ 16 \n6.3.5 \nAssert ___________________________________________________________________________ 16 \n7. \nExample Modbus Messages _________________________________________________ 17 \n7.1 \nRead Gas Level ________________________________________________________________17 \n7.2 \nSet Inhibit Mode _______________________________________________________________17 \n7.3"
+  },
+  {
+    "chunk_id": 6,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "7. \nExample Modbus Messages _________________________________________________ 17 \n7.1 \nRead Gas Level ________________________________________________________________17 \n7.2 \nSet Inhibit Mode _______________________________________________________________17 \n7.3 \nRead Inhibit State ______________________________________________________________17 \n7.4 \nRead Status ___________________________________________________________________17 \n8. \nReferences _______________________________________________________________ 18 \n9. \nChange History ___________________________________________________________ 19 \n9.1 \nIssue 1 _______________________________________________________________________19 \n9.2 \nIssue 2 _______________________________________________________________________19"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 4 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n9.3 \nIssue 3 _______________________________________________________________________19 \n9.4 \nIssue 4X ______________________________________________________________________19 \n9.5 \nIssue 5X ______________________________________________________________________19 \n9.6 \nIssue 6X ______________________________________________________________________19 \n10. \nAppendix 1 – Physical Interface Details ________________________________________ 20"
+  },
+  {
+    "chunk_id": 8,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 5 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n1. Introduction \nThis document describes the public modbus interface for the IRmax product. This document is suitable for distribution \nto customers."
+  },
+  {
+    "chunk_id": 9,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 6 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n2. Modbus Interface \nRefer to [1] and [2] listed in the Reference section for details of the Modbus protocol. This document does assume \nbasic knowledge of the Modbus protocol. \nThe IRmax has a standard implementation of modbus. The section describes specific details of the implementation for \nIRmax. \nThe IRmax is always addressed as a slave device. \n2.1 Slave Address \nAt power-on the IRmax will always initialise itself to respond on modbus address 1. This can be changed using the IR \n2009.Net software available from Crowcon. \n2.2 Data Format \nThe IRmax will always initialise (at power-on) to the data format described below: \nData format: \n \n \n1 start bit \n \n \n \n \n8 data bits, least significant bit first \n \n \n \n \nno parity bit"
+  },
+  {
+    "chunk_id": 10,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "2009.Net software available from Crowcon. \n2.2 Data Format \nThe IRmax will always initialise (at power-on) to the data format described below: \nData format: \n \n \n1 start bit \n \n \n \n \n8 data bits, least significant bit first \n \n \n \n \nno parity bit \n \n \n \n \n2 stop bits \nTransmission mode: \n \nRTU (Remote Terminal Unit) \nError check: \n \n \ncyclic redundancy check (CRC) \nBaud rate: \n9600 nominal, adjustable 1200 to 19200. \nMessage turn-around delay:  \n50mS turn around delay (guaranteed minimum) – this is an extension to standard \nmodbus. \nData encoding: \n‘big-Endian’ representation for addresses and data items. This means that when a \nnumerical quantity larger than a single byte is transmitted the most significant byte \nis sent first.  \n2.3 Implemented Function Codes \nIRmax only recognises a limited number of function codes, as elaborated in the table below: \nFunction Code \nFunction code Definition \n3 \nRead Holding Registers \n16 \nWrite Multiple Registers \n2.4 Data Timing"
+  },
+  {
+    "chunk_id": 11,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "is sent first.  \n2.3 Implemented Function Codes \nIRmax only recognises a limited number of function codes, as elaborated in the table below: \nFunction Code \nFunction code Definition \n3 \nRead Holding Registers \n16 \nWrite Multiple Registers \n2.4 Data Timing \nStandard MODBUS defines a silent interval of 3.5 characters times to delimit data packets. However, a silent interval \nof 5mS is used to define the termination of a data packet – this assists PC software in interpreting data packets. \nThe error condition described in [1] when there is a delay of 1.5 character times, but less than 3.5 character times \nbetween data, is not implemented – this can, apparently, cause problems with legacy systems and PC timings.  \nOn receipt of a message requiring a response, the instrument will pause for a guaranteed period of at least 50mS before \ntransmission will commence. Again, there may be timing problems on PC systems if this restriction is not applied.  \n2.5 Modbus Data Types"
+  },
+  {
+    "chunk_id": 12,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "On receipt of a message requiring a response, the instrument will pause for a guaranteed period of at least 50mS before \ntransmission will commence. Again, there may be timing problems on PC systems if this restriction is not applied.  \n2.5 Modbus Data Types \nThe following data types may be used: \nUINT16 \nTwo bytes, unsigned integer (16 bits), one word long, most significant byte first."
+  },
+  {
+    "chunk_id": 13,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 7 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \nUINT32 \nFour bytes, unsigned integer (32 bits), 2 words, most significant word first. \nBIT32 \nFour bytes, each bit signifying a different status or code. \nSTRING nn Text string, nn characters long, packed 2 characters per word, of length nn/2 words. Ordered with first \ncharacter in high byte of first word. Null padded in least significant byte of last word if needed. \nFLOAT \nFloating point number, in IEEE-754 format. \nENUM  \nData enumeration. A UINT16 where each number (counting from 0) refers to an option from a list of \npossibilities. In the Register map notes below, enumerations and their meanings are listed and may be \ndifferent for read and write operations on the same register. \n2.6 Register Permissions"
+  },
+  {
+    "chunk_id": 14,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "ENUM  \nData enumeration. A UINT16 where each number (counting from 0) refers to an option from a list of \npossibilities. In the Register map notes below, enumerations and their meanings are listed and may be \ndifferent for read and write operations on the same register. \n2.6 Register Permissions \nIt is not necessarily possible to read or write every register in the modbus register map. The permissions used in the \nmodus map are: \nR/W \n \nRead and write allowed. (Holding Registers) \nR \nRead only. The information cannot be modified via Modbus (Input Registers).  \n2.7 Note on Message Processing  \nIt is always guaranteed that registers in a message will be processed sequentially from message start to message end.  \nThe IREX Host has a 256 byte modbus buffer. This buffer is large enough to contain the largest valid modbus message. \n2.8 Modbus Start-up Response \nThe IRmax will respond to modbus as soon as it has reset. This allows for immediate polling of identification registers"
+  },
+  {
+    "chunk_id": 15,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "The IREX Host has a 256 byte modbus buffer. This buffer is large enough to contain the largest valid modbus message. \n2.8 Modbus Start-up Response \nThe IRmax will respond to modbus as soon as it has reset. This allows for immediate polling of identification registers \n1 to 6 (inclusive). \nThe IRmax will immediately enter an initialisation phase. During this phase other registers in the map will be \npopulated. Unpopulated data will read as 0. This phase can be detected by reading register 100. It will return 65535 (or \n0xffff in hexadecimal) whilst initialisation is in progress. \nThe next phase is warm-up. This is normally 30 seconds. During this phase the instrument will be in start-up inhibit \nmode. During the warm-up phase the instrument cannot be gas zeroed or calibrated (as the IRmax is waiting for the gas \nreadings to stabilise). Analogue output adjustment (zero trim, span adjustment) is still possible during the warm-up"
+  },
+  {
+    "chunk_id": 16,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "mode. During the warm-up phase the instrument cannot be gas zeroed or calibrated (as the IRmax is waiting for the gas \nreadings to stabilise). Analogue output adjustment (zero trim, span adjustment) is still possible during the warm-up \nphase. It is not possible to control inhibit mode whilst the IRmax is in start-up inhibit mode. \nOnce the warm-up phase is completed the instrument will operate normally. \nFor further information on inhibit see the note on inhibit in section 10, Analogue Output."
+  },
+  {
+    "chunk_id": 17,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 8 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n3. Modbus Data Model \nAs described by reference [1], elements in the modbus data model start from 1, whilst the data elements that are \nreferred to by this data model start from 0. Crowcon generally refers to the elements in the data model as registers.  \nThe standard Modbus specification [1] talks of 16 bit (one word) registers and numbers of data bytes. The interpretation \nof registers and words used in this document (and used by other Crowcon products using Modbus, but perhaps with \ndifferent terminology) is as follows: \nA register will refer to the address of a piece of data within the register map. A register may consist of one or more 16-\nbit words. Registers are uniquely identified by their register address."
+  },
+  {
+    "chunk_id": 18,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "different terminology) is as follows: \nA register will refer to the address of a piece of data within the register map. A register may consist of one or more 16-\nbit words. Registers are uniquely identified by their register address. \nThe size of a register (sometimes also confusingly referred to as the number of registers) - that is the amount of data at \na particular register address - is referred to by the number of words it contains.  \nRestated, we have uniquely addressed registers referring to one or more words of data. \nHolding registers and Input registers are often referred to in the range 4XXXX. In the terminology used in this \ndocument, register 1 would be referred to as 40001 and would be addressed as register 0000 in the data address field of \nthe modbus message. The ‘4XXXX’ reference is implicit in this modbus data model. \nThis will be made clear by the example messages and responses given in section 7, Example Modbus Messages. \n3.1 Identification Data"
+  },
+  {
+    "chunk_id": 19,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "the modbus message. The ‘4XXXX’ reference is implicit in this modbus data model. \nThis will be made clear by the example messages and responses given in section 7, Example Modbus Messages. \n3.1 Identification Data  \nBasic identification of instrument. \nRegister \nName \nWords \nR/W \nData Type \nNotes \n1 \nInstrument \nidentification \n8 \nR \nSTRING16 \n“IRmax ” \n2 \nManufacturer \n8 \nR \nSTRING16 \n“Crowcon\" \n3 \nSoftware version of \nHost (instrument) \n8 \nR \nSTRING16 \n“V1 i1.00” \n4 \nSerial number of Host \n(instrument) \n8 \nR \nSTRING16 \n  \n5 \nDate of manufacture \n4 \nR \nSTRING8 \nEnough characters for 24/10/02 or \n24-10-02 or 24102002 date format \n6 \nIdentification \nstring/Tag number \n16 \nR \nSTRING16 \n \n7 \nSoftware version of \niModule \n8 \nR \nSTRING16 \n“V4 i2.00” \n8 \nSerial number of \niModule \n8 \nR \nSTRING16 \n \n \nThe Identification string/Tag number can be updated using IR 2009.Net software available from Crowcon. \n3.1.1 Runtime Data \nLive instrument data. Data is updated 1/second. \nRegister \nName"
+  },
+  {
+    "chunk_id": 20,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "7 \nSoftware version of \niModule \n8 \nR \nSTRING16 \n“V4 i2.00” \n8 \nSerial number of \niModule \n8 \nR \nSTRING16 \n \n \nThe Identification string/Tag number can be updated using IR 2009.Net software available from Crowcon. \n3.1.1 Runtime Data \nLive instrument data. Data is updated 1/second. \nRegister \nName \nWords \nR/W \nData Type \nNotes \n100 \nWarm-up/initialisation \nstate \n1 \nR \nUINT16 \n0=operational; n=seconds or warm-\nphase remaining; 0xffff=initialisation \nphase \n101 \nGas level \n2 \nR \nFLOAT \nGas level in measurement units. The \nstatus flags should always be polled"
+  },
+  {
+    "chunk_id": 21,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 9 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \nwith the gas level to check the \nvalidity of the gas level. \n102 \nObscuration level \n2 \nR \nFLOAT \nAs percentage (-999.9 when in warm-\nup) \n103 \nSupply voltage \n2 \nR \nFLOAT \nIn mV \n104 \nStatus flags 1 \n2 \nR \nBIT32 \nSee later section, Status Flags \n105 \nStatus flags 2 \n2 \nR \nBIT32 \nSee later section, Status Flags \n106 \nAnalogue output \nfeedback \n2 \nR \nFLOAT \nIn mV/mA by instrument type \n107 \nInhibit status \n1 \nR \nENUM 2 \n0=operational;1=inhibited (See note \non inhibit in section 3.1.3, Analogue \nOutput). \n108 \nRaw signal level  \n1 \nR \nUINT16 \n(un-calibrated) \n \nRegister 101, gas level, represents the level actually output by the instrument (on the analogue output). Normally this"
+  },
+  {
+    "chunk_id": 22,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "107 \nInhibit status \n1 \nR \nENUM 2 \n0=operational;1=inhibited (See note \non inhibit in section 3.1.3, Analogue \nOutput). \n108 \nRaw signal level  \n1 \nR \nUINT16 \n(un-calibrated) \n \nRegister 101, gas level, represents the level actually output by the instrument (on the analogue output). Normally this \nwill be the gas level. When the instrument is some alternate mode (e.g. inhibit, warning due to obscuration) then this \nregister will give the gas level that corresponds to the analogue output. For example, for a 0 to 100% LEL instrument \nwith the obscuration warning level set to -12.5% (of output range, or 2mA) then when the unit is obscured the analogue \noutput will give 2mA and register 101 will respond with -12.5.  For a 0 to 20% LEL instrument with the obscuration \nwarning level set to -12.5% (of output range, or 2mA) then when the unit is obscured the analogue output will give \n2mA and register 101 will respond with -2.5%."
+  },
+  {
+    "chunk_id": 23,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "output will give 2mA and register 101 will respond with -12.5.  For a 0 to 20% LEL instrument with the obscuration \nwarning level set to -12.5% (of output range, or 2mA) then when the unit is obscured the analogue output will give \n2mA and register 101 will respond with -2.5%. \nThe status of the instrument should always be polled along with the measured gas level. See the section on Status Bits \nand Severity Level later in this document. If there are status bits with severity level other than OK then the gas level \nread in register 101 may not be reliable. \n3.1.2 Gas Configuration \nInformation on gas (and range), and zero and calibration control and information. \nRegister \nName \nWords \nR/W \nData Type \nNotes \n200 \nGas name  \n8 \nR \nSTRING8 \n \n201 \nGas units \n8 \nR \nSTRING8 \n \n202 \nGas range  \n2 \nR \nFLOAT \n \n203 \nGas zero control \n1 \nR/W \nENUM \nWrite: 0=do nothing;1=zero module \nRead: 0=ok;1=busy;2=warm \nup;3=signal error; 4=gain \nwarning;5=lamp failure;6=detector"
+  },
+  {
+    "chunk_id": 24,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Name \nWords \nR/W \nData Type \nNotes \n200 \nGas name  \n8 \nR \nSTRING8 \n \n201 \nGas units \n8 \nR \nSTRING8 \n \n202 \nGas range  \n2 \nR \nFLOAT \n \n203 \nGas zero control \n1 \nR/W \nENUM \nWrite: 0=do nothing;1=zero module \nRead: 0=ok;1=busy;2=warm \nup;3=signal error; 4=gain \nwarning;5=lamp failure;6=detector \nfailure;7=optics obscured;8,9=not \nimplmented;10=error in iModule \nresponse; 11=generic failure \n204 \nTime of last zero \n2 \nR/W \nUINT32 \nRecommended data: seconds from \n1/1/1970 \n205 \nLast zero performed by \n8 \nR/W \nSTRING8 \n \n206 \nGas calibration level \n2 \nR/W \nFLOAT \nIn measurement units \n207 \nGas calibration control \n1 \nR//W \nENUM \nWrite: 0=do nothing;1=calibrate \nmodule \nRead: 0=ok;1=busy;2=warm \nup;3=signal error;4=obscured;"
+  },
+  {
+    "chunk_id": 25,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 10 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n5=insufficient gas;6=gain \nerror;7=gain low;8=gain \nhigh;9=prod. cal. not performed yet; \n10=lamp failure;11=detector failure \n12=error in iModule response; \n13=generic failure \n208 \nTime of last calibration \n2 \nR/W \nUINT32 \nRecommended data: seconds from \n1/1/1970 \n209 \nLast calibration \nperformed by \n8 \nR/W \nSTRING8 \n \n210 \nZero/calibration \noperation complete \ntimer \n1 \nR \nUINT16 \nIn seconds, time to zero/calibration \ncompletion \nThe Gas name and Gas units will have a sensible default name. These fields can be updated using the IR 2009.Net \nsoftware available from Crowcon. \nTo perform a zero write 1 to the Gas Zero register. Poll the register to check the result of the zero operation. The last"
+  },
+  {
+    "chunk_id": 26,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "completion \nThe Gas name and Gas units will have a sensible default name. These fields can be updated using the IR 2009.Net \nsoftware available from Crowcon. \nTo perform a zero write 1 to the Gas Zero register. Poll the register to check the result of the zero operation. The last \nzero time and last zero operator registers are for information only and can be written with any compatible information \ndesired. A successful zero will always set the last zero time to 0 and the last zero operator data to all 0’s \nTo perform a calibration write the desired calibration level to the Gas calibration level register then write 1 to the Gas \ncalibration control register. Poll the register to check the result of the calibration operation. The last calibration time \nand last calibration operator registers are for information only and can be written with any compatible information"
+  },
+  {
+    "chunk_id": 27,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "calibration control register. Poll the register to check the result of the calibration operation. The last calibration time \nand last calibration operator registers are for information only and can be written with any compatible information \ndesired. A successful calibrate will always set the last calibration time to 0 and the last calibration operator data to all \n0’s. \nIt would be usual to place the instrument into inhibit mode before applying gas to calibrate an IRmax and to remove \ninhibit mode once the calibration gas has been purged from the instrument. \nThe Zero/calibration operation complete timer register gives the number of seconds until the zero/calibration operation \nis complete. If an error that invalidates the zero/calibration operation occurs whilst the operation is in progress then this \nregister will immediately revert to 0 to indicate the operation has completed. No matter what this register does, always"
+  },
+  {
+    "chunk_id": 28,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "is complete. If an error that invalidates the zero/calibration operation occurs whilst the operation is in progress then this \nregister will immediately revert to 0 to indicate the operation has completed. No matter what this register does, always \npoll the Gas zero control or Gas calibrate control (as appropriate) to determine the result of the zero/calibration \noperation. \n3.1.3 Analogue Output \nRegister \nName \nWords \nR/W \nData Type \nNotes \n300 \nZero (trim) adjust \n2 \nR/W \nFLOAT \nIn mV/mA by instrument type \n301 \nSpan (range) adjust \n2 \nR/W \nFLOAT \nIn mV/mA by instrument type \n302 \nInhibit mode \n1 \nR/W \nENUM 2 \nRead: 0=operational;1=in inhibit \nmode \nWrite: 0=normal operational mode; \n1=enter inhibit mode \n303 \nRamp output \n2 \nR/W \nFLOAT \nRamp (manual test mode) output, % \nLEL to output \n \n3.1.3.1 Analogue Adjustment Notes \nZero adjustment shifts the whole output up or down by the specified amount. So, if, for example, the instrument reads"
+  },
+  {
+    "chunk_id": 29,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Write: 0=normal operational mode; \n1=enter inhibit mode \n303 \nRamp output \n2 \nR/W \nFLOAT \nRamp (manual test mode) output, % \nLEL to output \n \n3.1.3.1 Analogue Adjustment Notes \nZero adjustment shifts the whole output up or down by the specified amount. So, if, for example, the instrument reads \n3.9 (0% gas) to 20.3mA (100% gas) then a positive adjustment of 0.1mA will make the instrument now read 4.0 to \n20.4mA. \nThe span adjustment alters the gain of the analogue output. The output is linear, so continuing the above example: at \n50% scale the output would read 12.2mA. Adjusting the span down by 0.2mA will mean the instrument will now read \n4.0 to 20.2mA, and 12.1mA at 50% scale."
+  },
+  {
+    "chunk_id": 30,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 11 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \nA maximum adjustment of 3mA is allowed on both of these parameters. Attempting to adjust either parameter by more \nthan this amount will result in a modbus error, with the written data being rejected. \n3.1.3.2 Inhibit and Ramp Mode Notes \nInhibit mode cannot be set or cleared until the IRmax has completed its warm-up phase. See section 2.8, Modbus Start-\nup Response for details of the warm-up phase. \nOperational inhibit has an automatic timeout of 300 seconds (5 minutes). This means that once inhibit mode is set using \nregister 302 the IRmax will automatically revert to operational mode after 300 seconds. If there is a need to terminate"
+  },
+  {
+    "chunk_id": 31,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "up Response for details of the warm-up phase. \nOperational inhibit has an automatic timeout of 300 seconds (5 minutes). This means that once inhibit mode is set using \nregister 302 the IRmax will automatically revert to operational mode after 300 seconds. If there is a need to terminate \noperational mode quicker than this then use register 302 to set the IRmax back to operational mode. If there is a need \nfor the IRmax to remain in inhibit mode longer than 300 seconds then setting register 302 to inhibit mode again will \nreset the 300 second timeout. \nThe start-up and operation inhibit level and operational inhibit timeout level can be configured using the IR 2009.Net \nsoftware available from Crowcon. \nRamp output, register 303, allows manual ramping of the analogue output, set in percentage of scale (i.e. normally \n%LEL). Like inhibit mode there is an automatic timeout of 300 seconds (5 minutes). A write to register 303 will re-"
+  },
+  {
+    "chunk_id": 32,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "software available from Crowcon. \nRamp output, register 303, allows manual ramping of the analogue output, set in percentage of scale (i.e. normally \n%LEL). Like inhibit mode there is an automatic timeout of 300 seconds (5 minutes). A write to register 303 will re-\ntrigger this timeout. To cancel ramp mode before the timeout expires write 0 to register 302 (inhibit control) to set the \ninstrument back to normal operating mode. A read of register 302 (inhibit mode) will return 1 to indicate that the output \ndoes not represent the gas level. \n3.1.4 Alarm Configuration \nRegister \nName \nWords \nR/W \nData Type \nNotes \n400 \nAlarm 1 \n2 \nR/W \nFLOAT \n>0.0, in measurement units \n401 \nAlarm 2 \n2 \nR/W \nFLOAT \n>0.0, in measurement units \n402 \nAlarm 3 \n2 \nR/W \nFLOAT \n>0.0, in measurement units \n \nAlarms should be configured so that alarm 3 > alarm 2 > alarm 1. If new alarm levels are set then the changed alarm \nlevel will be saved automatically by the instrument."
+  },
+  {
+    "chunk_id": 33,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "401 \nAlarm 2 \n2 \nR/W \nFLOAT \n>0.0, in measurement units \n402 \nAlarm 3 \n2 \nR/W \nFLOAT \n>0.0, in measurement units \n \nAlarms should be configured so that alarm 3 > alarm 2 > alarm 1. If new alarm levels are set then the changed alarm \nlevel will be saved automatically by the instrument. \nAlarms only set status bits when triggered. Alarms will be triggered at the configured alarm level, and will clear at 1 \nmeasurement unit below the configured alarm level."
+  },
+  {
+    "chunk_id": 34,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 12 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n4. Exception Codes \nThis section gives a general description of the Modbus error codes as they relate to the IRmax: \nCode \nName \nMeaning \n1 \nIllegal function \nFunction code not supported (i.e. not 3 or 16), see section 2.3, Implemented \nFunction Codes \n2 \nIllegal data \naddress \ninvalid/unknown register address, invalid number of registers, invalid \nnumber of words for the specified registers, write to read only register \n3 \nIllegal data value \nNumber out of range – the registers are valid, but an attempt is being made \nto put invalid data into the register. \n4 \nSlave device \nfailure \nNot implemented. \n5 \nAcknowledge \nNot implemented. \n6 \nSlave device busy \nAttempt to perform at action that cannot be performed at this time – e.g."
+  },
+  {
+    "chunk_id": 35,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Number out of range – the registers are valid, but an attempt is being made \nto put invalid data into the register. \n4 \nSlave device \nfailure \nNot implemented. \n5 \nAcknowledge \nNot implemented. \n6 \nSlave device busy \nAttempt to perform at action that cannot be performed at this time – e.g. \nattempt to adjust inhibit mode whilst still in start-up inhibit. \n7 \nNegative \nacknowledge \nNot implemented. \n \n."
+  },
+  {
+    "chunk_id": 36,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 13 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n5. Zero and Calibration Status Codes \nExplanation of zero and calibration status codes: \nCode \nExplanation \nOK \nOperation completed successfully. \nBusy \nStill busy from pervious zero or calibration request – try again in few seconds. \nWarm-up \nInstrument still in start-up warm-up phase – check Warm-up/initialisation state and try \nagain when completed. \nSignal error \nRaw detector reading under/over range – instrument is in fault, return to Crowcon for \nservicing. \nGain warning \nNot implemented in IRmax. \nLamp failure \nFailure of gas or reference lamp detected at lamp start-up or during lamp calibration \nprocess – instrument is in fault, return to Crowcon for servicing. \nDetector failure"
+  },
+  {
+    "chunk_id": 37,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "servicing. \nGain warning \nNot implemented in IRmax. \nLamp failure \nFailure of gas or reference lamp detected at lamp start-up or during lamp calibration \nprocess – instrument is in fault, return to Crowcon for servicing. \nDetector failure \nNo measurable output from the detector. Check that the gas chamber is not completely \nblocked. If it is clear it, otherwise the instrument is in fault, return to Crowcon for \nservicing. \nObscured \nObscuration level exceeds defined error level. Refer to Operating Instructions for \ncorrective action. \nInsufficient gas \nIt does not look like sufficient gas has been applied to instrument. Check applied gas \nand configured calibration level is correct. Try re-zeroing instrument before \ncalibration. \nGain error \nNot implemented in IRmax. \nGain low \nApplied gas level is too high. Check applied gas and configured calibration level is \ncorrect. Try re-zeroing instrument before calibration. \nGain high"
+  },
+  {
+    "chunk_id": 38,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "and configured calibration level is correct. Try re-zeroing instrument before \ncalibration. \nGain error \nNot implemented in IRmax. \nGain low \nApplied gas level is too high. Check applied gas and configured calibration level is \ncorrect. Try re-zeroing instrument before calibration. \nGain high \nApplied gas level is too low. Check applied gas and configured calibration level is \ncorrect. Try re-zeroing instrument before calibration. \nProd. cal. error \nInstrument requires servicing. Please return to Crowcon with a full explanation of the \nproblem. \nError in iModule \nresponse \nInternal fault in IRmax – instrument is in fault, return to Crowcon for servicing. \nGeneric failure \nBackwards compatibility error. Will never occur in IRmax."
+  },
+  {
+    "chunk_id": 39,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 14 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n6. Status Bits \nEach status bit has its own individual meaning. In addition each status bit is given a severity that indicates the overall \nstatus of the instrument. Severity levels are, in order, from a good state to most severe: OK, Warning, Fatal, Low-\nPower or Assert.  \nThe overall status of the instrument is the most severe status of the status bits that are set.  \nIf the overall status of the instrument is OK then the instrument will be measuring and reporting gas levels correctly on \nits analogue output (excepting use of the RAMP or INHIBIT feature). \nIf the overall status of the instrument is Warning then the instrument will give an analogue output indicating the"
+  },
+  {
+    "chunk_id": 40,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "its analogue output (excepting use of the RAMP or INHIBIT feature). \nIf the overall status of the instrument is Warning then the instrument will give an analogue output indicating the \ninstrument is in a Warning state. Check for obscuration error and if this is the case clear the error and check the \ninstrument readings (in clean air and with gas). Zero and calibrate as necessary. If the error persists try power-cycling \nthe instrument and verify the instrument’s configuration. \nIf the overall status of the instrument Fatal, Low-Power or Assert then perform checks as per Warning status as \ndescribed above. Check the instrument supply is correct.  \nNote that alarm status bits do not affect the overall status of the instrument. \n6.1 Status Bits \nBit \nID \nSeverity \n0x00 00 00 01 \nSTATUS_ID_IMODULE_OLD_VERSION \nFATAL \n0x00 00 00 02 \nSTATUS_ID_IMODULE_CHANGED \nWARNING \n0x00 00 00 04 \nSTATUS_ID_IMODULE_MISSING \nFATAL \n0x00 00 00 08 \nSTATUS_ID_IMODULE_RESPONSE \nFATAL \n0x00 00 00 10"
+  },
+  {
+    "chunk_id": 41,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "6.1 Status Bits \nBit \nID \nSeverity \n0x00 00 00 01 \nSTATUS_ID_IMODULE_OLD_VERSION \nFATAL \n0x00 00 00 02 \nSTATUS_ID_IMODULE_CHANGED \nWARNING \n0x00 00 00 04 \nSTATUS_ID_IMODULE_MISSING \nFATAL \n0x00 00 00 08 \nSTATUS_ID_IMODULE_RESPONSE \nFATAL \n0x00 00 00 10 \nSTATUS_ID_IMODULE_SENSOR \nFATAL \n0x00 00 00 20 \nSTATUS_ID_OPTICS_OBSCURED \nWARNING \n0x00 00 00 40 \nSTATUS_ID_IMODULE_ERROR \nFATAL \n0x00 00 00 80 \nSTATUS_ID_CFG_CHARACTER \nFATAL \n0x00 00 01 00 \nSTATUS_ID_CFG_IMODULE \nFATAL \n0x00 00 02 00 \nSTATUS_ID_CFG_PRODUCTION \nFATAL \n0x00 00 04 00 \nSTATUS_ID_CFG_RAMCFG_INIT \nFATAL \n0x00 00 08 00 \nSTATUS_ID_NVM_VERIFY \nFATAL \n0x00 00 10 00 \nSTATUS_ID_RAMCFG_NVM \nFATAL \n0x00 00 20 00 \nSTATUS_ID_RAMCFG_RAM \nFATAL \n0x00 00 40 00 \nSTATUS_ID_RAM_CHECK \nFATAL \n0x00 00 80 00 \nSTATUS_ID_ROM_CHECK \nFATAL \n0x00 01 00 00 \nSTATUS_ID_VCCLOW \nFATAL \n0x00 02 00 00 \nSTATUS_ID_VCCHIGH \nFATAL \n0x00 04 00 00 \nSTATUS_ID_BRIDGELOW \nFATAL \n0x00 08 00 00 \nSTATUS_ID_BRIDGEHIGH \nFATAL \n0x00 10 00 00 \nSTATUS_ID_LOW_POWER"
+  },
+  {
+    "chunk_id": 42,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "FATAL \n0x00 00 40 00 \nSTATUS_ID_RAM_CHECK \nFATAL \n0x00 00 80 00 \nSTATUS_ID_ROM_CHECK \nFATAL \n0x00 01 00 00 \nSTATUS_ID_VCCLOW \nFATAL \n0x00 02 00 00 \nSTATUS_ID_VCCHIGH \nFATAL \n0x00 04 00 00 \nSTATUS_ID_BRIDGELOW \nFATAL \n0x00 08 00 00 \nSTATUS_ID_BRIDGEHIGH \nFATAL \n0x00 10 00 00 \nSTATUS_ID_LOW_POWER \nLOW_POWER \n0x00 20 00 00 \nSTATUS_ID_WARMUP \nOK"
+  },
+  {
+    "chunk_id": 43,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 15 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n0x00 40 00 00 \nSTATUS_ID_ASSERT \nASSERT \n0x00 80 00 00  \nSTATUS_ID_IMODULE_ASSERT \nASSERT \n0x01 00 00 00 \nSTATUS_ID_ALARM_1 \nOK \n0x02 00 00 00 \nSTATUS_ID_ALARM_2 \nOK \n0x04 00 00 00 \nSTATUS_ID_ALARM_3 \nOK \n0x08 00 00 00  \nSTATUS_ID_OPTICS_OBSCURED_WARN \nWARNING \n0x10 00 00 00  \nSTATUS_ID_TEMP_ERR \nFATAL \n0x20 00 00 00 \nSTATUS_ID_AOUT_FEEDBACK \nFATAL \n6.2 Explanation \nID \nMeaning \nSTATUS_ID_IMODULE_OLD_VERSION \nAttached iModule of config, version 3 or less \nSTATUS_ID_IMODULE_CHANGED \niModule type changed from last switch on (different UID) \nSTATUS_ID_IMODULE_MISSING \nNo iModule detected at switch on (no response or invalid \nresponse to initial poll) \nSTATUS_ID_IMODULE_RESPONSE \niModule communications error after initial successful poll of"
+  },
+  {
+    "chunk_id": 44,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "STATUS_ID_IMODULE_CHANGED \niModule type changed from last switch on (different UID) \nSTATUS_ID_IMODULE_MISSING \nNo iModule detected at switch on (no response or invalid \nresponse to initial poll) \nSTATUS_ID_IMODULE_RESPONSE \niModule communications error after initial successful poll of \niModule. If the iModule asserts then it will stop responding. \nSTATUS_ID_IMODULE_SENSOR \niModule sensor error. This can include readings under/over \nrange on the gas or reference channel, zero (e.g. reading less \nthan -10% of range) or span limit errors, or lamp failure \nSTATUS_ID_OPTICS_OBSCURED_ERR \niModule obscuration error \nSTATUS_ID_IMODULE_ERROR \nOther iModule error. Some internal fault in the iModule, \nincluding configuration, power supply or internal memory faults \nSTATUS_ID_CFG_CHARACTER \nCharacterisation configuration error \nSTATUS_ID_CFG_IMODULE \niModule configuration error in Host – this will trigger a re-load \nof information from the iModule to the Host. \nSTATUS_ID_CFG_PRODUCTION"
+  },
+  {
+    "chunk_id": 45,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "including configuration, power supply or internal memory faults \nSTATUS_ID_CFG_CHARACTER \nCharacterisation configuration error \nSTATUS_ID_CFG_IMODULE \niModule configuration error in Host – this will trigger a re-load \nof information from the iModule to the Host. \nSTATUS_ID_CFG_PRODUCTION \nProduction configuration error \nSTATUS_ID_CFG_RAMCFG_INIT \nError in RAM copy of standard configuration/calibration data at \ninitialisation \nSTATUS_ID_NVM_VERIFY \nNVM write/read back verification fail \nSTATUS_ID_RAMCFG_NVM \nError in NVM copy of standard configuration/calibration data \nwhilst operational  \nSTATUS_ID_RAMCFG_RAM \nError in RAM copy of standard configuration/calibration data \nwhilst operational \nSTATUS_ID_RAM_CHECK \nRAM write/read-back check failed \nSTATUS_ID_ROM_CHECK \nROM checksum self-test fail \nSTATUS_ID_VCCLOW \nSelf-test measurement of processor Vcc low \nSTATUS_ID_VCCHIGH \nSelf-test measurement of processor Vcc high \nSTATUS_ID_BRIDGELOW \nBridge supply voltage high"
+  },
+  {
+    "chunk_id": 46,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "whilst operational \nSTATUS_ID_RAM_CHECK \nRAM write/read-back check failed \nSTATUS_ID_ROM_CHECK \nROM checksum self-test fail \nSTATUS_ID_VCCLOW \nSelf-test measurement of processor Vcc low \nSTATUS_ID_VCCHIGH \nSelf-test measurement of processor Vcc high \nSTATUS_ID_BRIDGELOW \nBridge supply voltage high \nSTATUS_ID_BRIDGEHIGH \nBridge supply voltage low"
+  },
+  {
+    "chunk_id": 47,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 16 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \nSTATUS_ID_LOW_POWER \nLow supply voltage (stabilisation current low) \nSTATUS_ID_WARMUP \niModule in warm-up phase \nSTATUS_ID_ASSERT \nSoftware assert failure \nSTATUS_ID_IMODULE_ASSERT \niModule has asserted \nSTATUS_ID_ALARM_1 \nAlarm 1 active \nSTATUS_ID_ALARM_2 \nAlarm 2 active \nSTATUS_ID_ALARM_3 \nAlarm 3 active \nSTATUS_ID_OPTICS_OBSCURED_WARN \nOptics obscured warning (obscuration level greater than \nobscuration warning threshold and gas level below warning \noutput threshold) \nSTATUS_ID_TEMP_ERR \nTemperature limits exceeded (top or bottom scale). \nSTATUS_ID_AOUT_FEEDBACK \nAnalogue output feedback does not match the set output. Note: \nThis error only clears by power cycling the unit. \n6.3 Severity Levels"
+  },
+  {
+    "chunk_id": 48,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "output threshold) \nSTATUS_ID_TEMP_ERR \nTemperature limits exceeded (top or bottom scale). \nSTATUS_ID_AOUT_FEEDBACK \nAnalogue output feedback does not match the set output. Note: \nThis error only clears by power cycling the unit. \n6.3 Severity Levels \nThe various severity levels indicate the instrument state by the application of a special output on the output signal. This \nspecial level can be changed, except for the Assert severity, using the IR 2009.Net software available from Crowcon. \n6.3.1 Ok \nInstrument is functioning correctly. Status bits simply indicate state of instrument. The output signal represents the gas \nmeasured level. \n6.3.2 Warning \nInstrument is in a state that can be simply corrected by operator action. Refer to the instrument operating manual for \ncorrective action. The warning state will be indicated by application of < -10% level of the gas range on the output"
+  },
+  {
+    "chunk_id": 49,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "measured level. \n6.3.2 Warning \nInstrument is in a state that can be simply corrected by operator action. Refer to the instrument operating manual for \ncorrective action. The warning state will be indicated by application of < -10% level of the gas range on the output \nsignal. If the warning is iModule changed then power-cycling the instrument will correct the status. If the warning is \noptics obscured then the gas reading may not be reliable. \n6.3.3 Fatal \nInstrument is in fault. Refer to the instrument operating manual for corrective action. The fatal state will be indicated by \napplication of < -10% level of the gas range on the output signal. The gas reading could be unreliable. \n6.3.4 Low-Power Status \nThis fault does not occur in IRmax – it is an IREX fault only and is left here for completeness. The fatal state will be \nindicated by application of < -10% level of the gas range on the output signal. The gas reading is unreliable. \n6.3.5 Assert"
+  },
+  {
+    "chunk_id": 50,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "6.3.4 Low-Power Status \nThis fault does not occur in IRmax – it is an IREX fault only and is left here for completeness. The fatal state will be \nindicated by application of < -10% level of the gas range on the output signal. The gas reading is unreliable. \n6.3.5 Assert \nUndefined instrument fault. Try power cycling instrument. If problem persists note the situation in which the error \noccurs and contact Crowcon with the details. This state is indicated by application of the minimum output level the \ninstrument is capable of on the analogue output. This output level cannot be configured."
+  },
+  {
+    "chunk_id": 51,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 17 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n7. Example Modbus Messages \n7.1 Read Gas Level \nRead register 100, 2 words. \nSent message: \n01 03 00 64 00 02 85 D4  \nResponse: \n01 03 04 42 2D AB BF 40 C2 \nThis equates to a gas level of 43.42 %LEL \n7.2 Set Inhibit Mode \nWrite 1 to register 302. \nSent message: \n01 10 01 2D 00 01 02 00 01 71 2D \nResponse: \n01 10 01 2D 00 01 90 3C \n7.3 Read Inhibit State \nRead register 302, 1 word. \nSent message: \n01 03 01 2D 00 01 15 FF  \nResponse: \n01 03 02 00 01 79 84 \nThe gives the response data of 00 01. \n7.4 Read Status \nRed register 104, 2 words: \nSent message: \n01 03 00 67 00 02 75 D4 \nResponse: \n01 03 04 00 20 00 40 FA 09 \nThis gives the data as 00 20 00 00, giving STATUS_ID_WARMUP."
+  },
+  {
+    "chunk_id": 52,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 18 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n8. References \n[1] Modbus_Application_Protocol_V1_1b.pdf, available from http://www.modbus-IDA.org \n[2] Modbus_over_serial_line_V1_02.pdf, available from http://www.modbus-IDA.org"
+  },
+  {
+    "chunk_id": 53,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 19 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n9. Change History \n9.1 Issue 1 \nFirst release. \n9.2 Issue 2 \nSection 3.1.3: Add register 303, Ramp output. \nSection 3.1.3.2: Expand with detail on ramp mode. \n9.3 Issue 3 \nSection 3.1.1: Add note on status bits and reliability of gas readings. \nAdd section 3.1.4, Alarm Configuration. \nSection 6: Add explanation of Severity levels. Add alarm status bits and explanation. \n9.4 Issue 4X \nSection 3.1.1, Runtime data: Add not on the meaning of gas level, register 101. \nSection 3.1.2, gas configuration: Add Zero/calibration operation complete timer register. \nSection 6, Status Bits: Add obscuration warning. Simplify the status bits explanation. \n9.5 Issue 5X \nUpdate header page. \n9.6 Issue 6X"
+  },
+  {
+    "chunk_id": 54,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Section 3.1.2, gas configuration: Add Zero/calibration operation complete timer register. \nSection 6, Status Bits: Add obscuration warning. Simplify the status bits explanation. \n9.5 Issue 5X \nUpdate header page. \n9.6 Issue 6X \nCorrect examples in section 7.1. Add new example for reading status.  \nAdd missing status codes for STATUS_ID_TEMP_ERR and STATUS_ID_AOUT_FEEDBACK."
+  },
+  {
+    "chunk_id": 55,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "Engineering Report \n \nDoc No: \nGLC-028X \nIssue No: \n6 \nDate: \n28/01/2020 \nPage 20 of 20 \n \n© Crowcon  2020 \nFile : \nc:\\users\\davew\\appdata\\local\\microsoft\\windows\\inetcache\\content.outlook\\ivjiwue3\\glc-028x public modbus \ninterface (002).docx \n10. Appendix 1 – Physical Interface Details \nThe electrical interface to the IRmax uses an RS485 transceiver, with the ‘B’ signal on pin 1 and the ‘A’ signal on pin \n2. The bus is referenced the IRmax negative supply, which means that the common mode voltage on the bus signals \nmust be within -7V to +12V of the IRmax negative supply. The data format is described in section 2.2.  Wiring for the \nRS485 bus should conform to standard practice, with all devices connected in a linear chain. The wires for the ‘A’ and \n‘B’ pair must be a twisted pair, which should have a characteristic impedance of 100 to 130 ohms. The bus should be \nterminated at each end with a terminating resistor of no less than 110 ohms. The IRmax presents a load of 1/8 unit (one"
+  },
+  {
+    "chunk_id": 56,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\IRMAX-Modbus-Manual-GLC-028X-Public-Issue-6.pdf",
+    "content": "‘B’ pair must be a twisted pair, which should have a characteristic impedance of 100 to 130 ohms. The bus should be \nterminated at each end with a terminating resistor of no less than 110 ohms. The IRmax presents a load of 1/8 unit (one \neighth), allowing a maximum of 255 devices on the bus. The maximum length of the bus is nominally 1km, although \nthe actual length is dependent on the number of devices on the bus."
+  }
+]

@@ -1,0 +1,14 @@
+# Vectorstore databases (ephemeral, rebuilt per-run)
+chroma_db*/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary prediction outputs
+pred.txt
+test_pred.txt
+
+# IDE plugins
+.qodo/

@@ -1,0 +1,206 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nMODBUS RTU COMMUNICATION\nMass flow meter / Mass flow controller\nSupplement to Operating Instructions"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "We reserve the right to make technical changes without notice.\n© Bürkert SAS, 2024\nOperating Instructions 2411/01_GBen_00815471 / Original EN"
+  },
+  {
+    "chunk_id": 2,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Table of contents\n1\nAbout this document\n 4\n1.1\nHistory\n 4\n1.2\nTerms and abbreviations\n 4\n2\nProduct description\n 5\n2.1\nPin assignment (Sub-D 9)\n 5\n2.2\nStarting up the Modbus\n 6\n2.3\nModbus in general\n 6\n3\nModbus register and communication objects\n 9\n3.1\nModbus register list 1\n 9\n3.1.1\nSupported commands\n 9\n3.1.2\nHolding register\n 9\n3.2\nModbus register list 0\n 13\n3.2.1\nSupported commands (holding register)\n 13\n3.2.2\nSupported commands (Input register)\n 13\n3.2.3\nHolding register\n 13\n3.2.4\nInput register\n 15\n4\nAppendix\n 17\n4.1\nASCII_2\n 17\n4.2\nVersions of the hardware and the software\n 17\n4.3\nDescription of Bit fields\n 18\n4.3.1\nBit field errors\n 18\n4.3.2\nBit field limits\n 19\n4.4\nSamples for Modbus commands\n 19\n4.4.1\n0x03 Read holding register\n 19\n4.4.2\n0x04 Read input register\n 20\n4.4.3\n0x06 Write single register\n 20\n4.4.4\n0x10 Write multiple register\n 21\nType 8741 - 8743 - 8745\nTable of contents\n3 | 21"
+  },
+  {
+    "chunk_id": 3,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nAbout this document\n4 | 21\n1\nAbout this document\nThis document is a supplement to the operating instructions. It gives a complete overview of the\ncommunication interface.\nThe operating instructions for the device must be followed to ensure safe use of the device for its\nintended purpose. All related information to the product is available at country.burkert.com.\n1.1\nHistory\nDocument version\nDevice version\nChanges\n01\nA.28.02\n• Added chapter \"Samples for Modbus commands\"\n• Modbus register list 1, holding register extended by:\n– Resister address 40-41 Device ident number\n– Register address 42-43 Device temperature [°C]\n• Modbus register list 0, input register extended by:\n– Register address 31-32 Device temperature [°C]\n00\nA.25.00\nModbus register list 0 is supported\n1.2\nTerms and abbreviations\nThe terms and abbreviations are used in this document to refer to following definitions.\nAccess type\nGeneral access rights\nRO = Read only\nRW = Read and write"
+  },
+  {
+    "chunk_id": 4,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "– Register address 31-32 Device temperature [°C]\n00\nA.25.00\nModbus register list 0 is supported\n1.2\nTerms and abbreviations\nThe terms and abbreviations are used in this document to refer to following definitions.\nAccess type\nGeneral access rights\nRO = Read only\nRW = Read and write\nRWR = Cyclic read\nRWW = Cyclic write"
+  },
+  {
+    "chunk_id": 5,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nProduct description\n5 | 21\n2\nProduct description\n2.1\nPin assignment (Sub-D 9)\nD-sub DE-9 male connector\nPin\nAssignment\n1\n2\n3\n4\n5\n9\n8\n7\n6\n1\nNot used\n2\nGND\n3\n+24  V \n4\nNot used\n5\nNot used\n6\nTX+ (RS485-Y) * bridge with Pin 9 for Half-Duplex\n7\nTX− (RS485-Z) *bridge with Pin 8 for Half-Duplex\n8\nRX- (RS485-B)\n9\nRX+ (RS485-A)\nHousing\nFE\nTab. 1: Pin assignment of the D-sub DE-9 male of the device\nFull-Duplex\nHalf-Duplex\nFig. 1: Difference in wiring between Full-Duplex and Half-Duplex"
+  },
+  {
+    "chunk_id": 6,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nProduct description\n6 | 21\n2.2\nStarting up the Modbus\nThe Modbus operates according to a master-slave method. In this case the MFC is designed as the\nslave.\nAdjustable addresses are 1 to 247.\nThe BUS address of the devices can be set either with the “Bürkert Communicator Type 8920” or\ndirectly via the Modbus master. If an address change is set via the Modbus master, the new address\nis not valid until the next commands are issued.\nThe communication is monitored by a timeout detection. If a timeout occurs, the device is set to a\nsafe state (set-point value is set to 0, causing the valve to close).\nThe timeout can be specified via the holding register Timeout Detection Time, the default value is 60\n(seconds). The timeout detection can be deactivated by a value of 0.\nCommunication is via Modbus RTU. The preset communication parameters are:\n• Transfer rate: 57600 baud\n• Start bit: 1\n• Data bits: 8\n• Stop bits: 2\n• Parity: Even\n2.3\nModbus in general"
+  },
+  {
+    "chunk_id": 7,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "(seconds). The timeout detection can be deactivated by a value of 0.\nCommunication is via Modbus RTU. The preset communication parameters are:\n• Transfer rate: 57600 baud\n• Start bit: 1\n• Data bits: 8\n• Stop bits: 2\n• Parity: Even\n2.3\nModbus in general\nThe Modbus protocol was developed by Modicon for programmable controllers and has evolved into\na widely used communication protocol in the industry.\nA Modbus master can address individual slaves. The slaves send back a telegram (reply) on request\nwhich was individually addressed to them. The Modbus protocol defines the format for the request\nfrom the master by entering in the protocol the device address, a function code for specifying the\nrequested action, all data to be transmitted and a checksum. The reply telegram of the slaves is also\nspecified with the aid of the Modbus protocol. It includes fields for acknowledgement of the\nimplemented action, for all data to be sent back and for a checksum. If an error occurs on receipt of"
+  },
+  {
+    "chunk_id": 8,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "requested action, all data to be transmitted and a checksum. The reply telegram of the slaves is also\nspecified with the aid of the Modbus protocol. It includes fields for acknowledgement of the\nimplemented action, for all data to be sent back and for a checksum. If an error occurs on receipt of\nthe telegram or if the slave cannot execute the requested action, the slave sends back an error\ntelegram.\nThe following diagram shows the structure of a command:\nRequest from master\nReply telegram from slave\nDevice address\nDevice address\nFunction code\nFunction code\nData\nData\nChecksum\nChecksum\nThe request:\nThe function code in the request informs the addressed slave which action is to be executed. The\ndata bytes include all additional information that the slave requires to execute the action e.g. if the\nfunction code 03 requests the slave to read out the holding register and to send back its contents."
+  },
+  {
+    "chunk_id": 9,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "data bytes include all additional information that the slave requires to execute the action e.g. if the\nfunction code 03 requests the slave to read out the holding register and to send back its contents.\nThe data field must include the following information: Start register and the number of registers to be\nread."
+  },
+  {
+    "chunk_id": 10,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nProduct description\n7 | 21\nIn this case one register corresponds to one WORD (2 bytes). The slave can use the checksum to\ndetermine the validity of the telegram contents.\nThe reply:\nThe structure of the reply corresponds to the request telegram one. If an error occurs, an error code\nis sent instead of the function code. In this case the data includes a code which describes the error.\nThe master can use the checksum to determine the validity of the telegram contents.\nExceptional reply\n• If the slave device receives the request without a data transfer error and the request can be\nprocessed normally, a normal reply is sent back.\n• If the slave device does not receive the request due to a data transfer error, no reply is sent back.\n• If the slave device determines a data transfer error, no reply is sent back. The master device\nprogram determines a timeout for the request."
+  },
+  {
+    "chunk_id": 11,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "processed normally, a normal reply is sent back.\n• If the slave device does not receive the request due to a data transfer error, no reply is sent back.\n• If the slave device determines a data transfer error, no reply is sent back. The master device\nprogram determines a timeout for the request.\n• If the slave device receives the request without a data transfer error, but the request cannot be\nprocessed (e.g. to read out a non-existent register), an exceptional reply is sent back which\ninforms the master device about the type of error. The exceptional reply has two fields that\ndistinguishes it from a normal reply.\nFunction code field\nIf the answer is normal, the slave sends back a copy of the function code included in the original\nrequest in the appropriate field of the reply. If the reply is an exception, the value of the function code\nis exactly 0x80 hexadecimal numbers higher than it would be in a normal reply.\nData field"
+  },
+  {
+    "chunk_id": 12,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "If the answer is normal, the slave sends back a copy of the function code included in the original\nrequest in the appropriate field of the reply. If the reply is an exception, the value of the function code\nis exactly 0x80 hexadecimal numbers higher than it would be in a normal reply.\nData field\nIf the reply is an exception, the slave sends an exception code in the data field that defines the\noperating status of the slave, which caused the exception.\nExample of Error Code\nField name\nValue\nSlave address\n0x01\nFunction\n0x83\nException code\nData field\n0x02\nIllegal data address\nError check\nCRC\n(high byte)\nError check\nCRC\n(low byte)\nIn this example the master addresses a request (“Read Holding Register” 0x03) to slave device 01.\nThe register address in the device is outside the address validity range and this is why the slave\nsends an exceptional reply with the indicated exception code 02 (Illegal Data Address)."
+  },
+  {
+    "chunk_id": 13,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nProduct description\n8 | 21\nImplemented exceptional replies\nCode\nName\nDescription\n01\nILLEGAL FUNCTION\nFunction code is not supported\n02\nILLEGAL DATA ADDRESS\nThe data address is not permitted in\nthe device\n03\nILLEGAL DATA VALUE\nA value included in the request field is\nincorrect for the device\n04\nSLAVE DEVICE FAILURE\nInternal device error\nNumber formats\nData type\nDescription\nLength (bytes)\nUI16\nUnsigned integer, 16 bit\n2\nUI32\nUnsigned integer, 32 bit\n4\nFL32\nFloating-point number in accordance with IEEE-754. The\nFloat32 value is saved in two successive addresses, the\nfirst address includes the most significant word (sign, ex-\nponent, and upper part of the mantissa), and the second\naddress the least significant word (lower part of the man-\ntissa).\n4\nHigh byte is send at first.\nMore technical information can be found at www.modbus.org."
+  },
+  {
+    "chunk_id": 14,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nModbus register and communication objects\n9 | 21\n3\nModbus register and communication objects\n3.1\nModbus register list 1\n3.1.1\nSupported commands\nCode\nName\nBroadcast\n0x03\nRead Holding Register\nNo\n0x06\nWrite Single Register\nNo\n0x10\nWrite Multiple Register\nNo\nValid addresses, refer to Holding register [} 9].\n3.1.2\nHolding register\nRegister\nAddress\nNumber\nof Re-\ngister\nName / Description\nAccess\ntype\nData\ntype\n0000…\n0001\n2\nActual Flow\nValue is based on the calibrated device unit.\nRefer to Holding Register → “Unit Flow Value” (0022…\n0025)\nRO\nFL32\n0002…\n0003\n2\nMedium temperature [ °C]\nRO\nFL32\n0004…\n0005\n2\nTotalizer [Nl]\n(0 °C / 1013 mbar)\nRO\nFL32\n0006…\n0007\n2\nSet-Point \nValue is based on the calibrated device unit.\nRefer to Holding Register → “Unit Flow Value” (0022…\n0025)\nSince Mb_Slave version A.01.00.01 the value of set-point is\nused for the actuators dutycycle in range of 0…100% if the\ndevice is in open-loop-control\nRW\nFL32\n0008…\n0009\n2\nNot supported\nRO\nFL32\n0010…"
+  },
+  {
+    "chunk_id": 15,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Refer to Holding Register → “Unit Flow Value” (0022…\n0025)\nSince Mb_Slave version A.01.00.01 the value of set-point is\nused for the actuators dutycycle in range of 0…100% if the\ndevice is in open-loop-control\nRW\nFL32\n0008…\n0009\n2\nNot supported\nRO\nFL32\n0010…\n0011\n2\nControl Output to Valve (y2)\nFor MFC only. Control output y2 of controller in % (0 –\n100.0 %)\nRO\nFL32"
+  },
+  {
+    "chunk_id": 16,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nModbus register and communication objects\n10 | 21\nRegister\nAddress\nNumber\nof Re-\ngister\nName / Description\nAccess\ntype\nData\ntype\n0012\n1\nStatus Limits \nStatus limits/Bit field for the status of device-internal\nthreshold value.\nRefer to Bit field limits [} 19]\nmin. value 0, max. value 65535\nRO\nUI16\n0013\n1\nStatus Errors\nRefer to Bit field errors [} 18]\nmin. value 0, max. value 65535\nRO\nUI16\n0014\n1\nController Function \nDefines the behavior of the set-point setting\nRW\nUI16\n0\nNormal operation of the controller\n3\nHold function active for control output to the\nvalve\n22\noff/closed\n23\non/open –flow is restricted by the pressure and\norifice of the valve\n64\nOpen loop control active (RO)\n66\nCalibration mode active (RO)\n67\nAutotune mode active (RO)\n0015\n1\nBaudrate \nDefines the baudrate for Modbus Communication.\nRW\nUI16\nValue\nBaudrate\nsupported\n3\n2400\nYes\n4\n4800\nYes\n5\n9600\nYes\n6\n19200\nYes\n7\n38400\nYes\n8\n57600\nYes\n9\n115200\nYes"
+  },
+  {
+    "chunk_id": 17,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "orifice of the valve\n64\nOpen loop control active (RO)\n66\nCalibration mode active (RO)\n67\nAutotune mode active (RO)\n0015\n1\nBaudrate \nDefines the baudrate for Modbus Communication.\nRW\nUI16\nValue\nBaudrate\nsupported\n3\n2400\nYes\n4\n4800\nYes\n5\n9600\nYes\n6\n19200\nYes\n7\n38400\nYes\n8\n57600\nYes\n9\n115200\nYes\nCAUTION! A changed value will be active after a device\nreset."
+  },
+  {
+    "chunk_id": 18,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nModbus register and communication objects\n11 | 21\nRegister\nAddress\nNumber\nof Re-\ngister\nName / Description\nAccess\ntype\nData\ntype\n0016\n1\nParity \nDefines the parity bit of the Modbus communication.\nRW\nUI16\nValue\nParity\n0\nNONE\n1\nODD\n2\nEVEN\nCAUTION! A changed value will be active after a device\nreset.\n0017\n1\nStopbit \nDefines the number of stop bits of the Modbus communic-\nation.\nRW\nUI16\nValue\nNumber of Stop bit\n1\n1 Stop bit\n2\n2 Stop bits\nCAUTION! A changed value will be active after a device\nreset.\n0018\n1\nTimeout Detection Time [s] \nTimeout detection is implemented in the MFC device. The\ndetection time can be specified by this register. The de-\nfault value is 60 (seconds)\nIf the time between two pollings is longer than the spe-\ncified time, a timeout will be detected. After timeout detec-\ntion the device will be set into a safety mode. In this case\nthe set point will be set to 0 and the valve will be closed.\nThe timeout detection can be disabled by a value of 0."
+  },
+  {
+    "chunk_id": 19,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "If the time between two pollings is longer than the spe-\ncified time, a timeout will be detected. After timeout detec-\ntion the device will be set into a safety mode. In this case\nthe set point will be set to 0 and the valve will be closed.\nThe timeout detection can be disabled by a value of 0.\nRange: 0 – 60\nRW\nUI16\n0019\n1\nModbus Device Address \nAddress by which the Modbus master communicates with\nthe device\n1 – 247\nRW\nUI16\nUINT16\n0020…\n0021\n2\nFlow Full Scale\nRefer to Holding Register → “Unit Flow Value” (0022…\n0025)\nRO\nFL32\n0022…\n0025\n4\nUnit Flow Value \nUnit of the flow value\nRO\nUI16\nASCII_2\n0026…\n0029\n4\nOperating medium\nRO\nUI16\nASCII_2"
+  },
+  {
+    "chunk_id": 20,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nModbus register and communication objects\n12 | 21\nRegister\nAddress\nNumber\nof Re-\ngister\nName / Description\nAccess\ntype\nData\ntype\n0030…\n0031\n2\nDevice Serial Number \nBürkert serial number of the device min. value 0, max.\nvalue 4294967295\nRO\nUI32\n0032\n1\nVersion number hardware\nRefer to Versions of the hardware and the software\n[} 17]\nRO\nUI16\n0033\n1\nVersion number software\nRefer to Versions of the hardware and the software\n[} 17]\nRO\nUI16\n0034\n1\nActive Gas \nActive Gas / calibration of this gas is used for control.\nRW\nUI16\nValue\nGas\n0\nGas 1\n1\nGas 2\n0035…\n0036\n2\nDevice Type \nBürkert type number of the device\nRO\nUI16\nASCII_2\n0037\n1\nModusMFC \nMFC Mode / Activation of the Autotune function.\nThe controller must be in normal mode. (ModusMFC = 0)\nAutotune can be activated by writing a value of 2\nW\nUI16\n0038\n1\nReset Totalizer \nA value of 1 will reset the Totalizer value of the actual gas.\nClearing the value is needless.\nW\nUI16\n0039\n1\nReset Device"
+  },
+  {
+    "chunk_id": 21,
+    "page": 11,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "The controller must be in normal mode. (ModusMFC = 0)\nAutotune can be activated by writing a value of 2\nW\nUI16\n0038\n1\nReset Totalizer \nA value of 1 will reset the Totalizer value of the actual gas.\nClearing the value is needless.\nW\nUI16\n0039\n1\nReset Device \nA value of 1 restarts the device. Clearing the value is need-\nless.\nW\nUI16\n0040…\n0041\n2\nDevice ident number \nsupported since Modbus version A.03.00.00\nRO\nUI32\n0042…\n0043\n2\nDevice temperature [°C] \nsupported since Modbus version A.03.00.00\nRO\nFL32"
+  },
+  {
+    "chunk_id": 22,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nModbus register and communication objects\n13 | 21\n3.2\nModbus register list 0\n3.2.1\nSupported commands (holding register)\nCode\nName\nBroadcast\n0x03\nRead Holding Register\nNo\n0x06\nWrite Single Register\nNo\n0x10\nWrite Multiple Register\nNo\n3.2.2\nSupported commands (Input register)\nCode\nName\nBroadcast\n0x04\nRead Input register\nNo\n3.2.3\nHolding register\nRegister\nAddress\nNumber\nof Re-\ngister\nName / Description\nAccess\ntype\nData\ntype\n0001\n1\nReset Device \nA value of 1 restarts the device\nW\nUI16\n0002\n1\nReset totalizer \nA value of 1 resets the totalizer from active gas\nW\nUI16\n0003\n1\nSet-point (in units per mille) \nA set-point of 2000 activates the flash-mode (valve will be\nopened completely)\nThe value of set-point is used for the actuators dutycycle\nin range of 0…100% if the device is in open-loop-control\nRW\nUI16\n0004\n1\nActive gas\nRW\nUI16\n0\nGas 1\n0005\n1\nController function (details see Appendix)\nRW\nUI16\n0006\n1\nModbusMFC \nAutotune can be activated by a value of 2\nRW\nUI16\n0007\n1"
+  },
+  {
+    "chunk_id": 23,
+    "page": 12,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "The value of set-point is used for the actuators dutycycle\nin range of 0…100% if the device is in open-loop-control\nRW\nUI16\n0004\n1\nActive gas\nRW\nUI16\n0\nGas 1\n0005\n1\nController function (details see Appendix)\nRW\nUI16\n0006\n1\nModbusMFC \nAutotune can be activated by a value of 2\nRW\nUI16\n0007\n1\nModbus device address\nRW\nUI16\n0008…\n0009\n2\nSet-point \nUnit depends on calibrated unit (see also input register:\nData Unit(register address 1)\nA double value of “Flow Full Scale” activates the flash-\nmode (valve will be opened completely)\nThe value of set-point is used for the actuators dutycycle\nin range of 0…100% if the device is in open-loop-control\nRW\nFL32"
+  },
+  {
+    "chunk_id": 24,
+    "page": 13,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nModbus register and communication objects\n14 | 21\nRegister\nAddress\nNumber\nof Re-\ngister\nName / Description\nAccess\ntype\nData\ntype\n0010\n1\nTimeout detection time [s] \nA value of 0 deactivates the timeout detection\nRW\nUI16\n0011\n1\nBaudrate \nDefines the baudrate for Modbus Communication.\nRW\nUI16\nValue\nBaudrate\nsupported\n3\n2400\nYes\n4\n4800\nYes\n5\n9600\nYes\n6\n19200\nYes\n7\n38400\nYes\n8\n57600\nYes\n9\n115200\nYes\nCAUTION! A changed value will be active after a device\nreset.\n0012\n1\nParity \nDefines the parity bit of the Modbus communication.\nRW\nUI16\nValue\nParity\n0\nNONE\n1\nODD\n2\nEVEN\nCAUTION! A changed value will be active after a device\nreset.\n0013\n1\nStopbit \nDefines the number of stop bits of the Modbus communic-\nation.\nRW\nUI16\nValue\nNumber of Stop bit\n1\n1 Stop bit\n2\n2 Stop bits\nCAUTION! A changed value will be active after a device\nreset."
+  },
+  {
+    "chunk_id": 25,
+    "page": 14,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nModbus register and communication objects\n15 | 21\n3.2.4\nInput register\nRegister\nAddress\nNumber\nof Re-\ngister\nName / Description\nAccess\ntype\nData\ntype\n0001\n1\nData unit\nCalibrated device unit\nsupported units:\nRO\nUI16\nValue\nUnit\n0x801\nNl/sec\n0x802\nNl/min\n0x803\nNl/h\n0x804\nSl/sec\n0x805\nSl/min\n0x806\nSl/h\n0x807\nNm³/sec\n0x808\nNm³/min\n0x809\nNm³/h\n0x80A\nSm³/sec\n0x80B\nSm³/min\n0x80C\nSm³/h\n0x80D\nNcm³/sec\n0x80E\nNcm³/min\n0x80F\nNcm³/h\n0x810\nScm³/sec\n0x811\nScm³/min\n0x812\nScm³/h\n0x813\nkg/sec\n0x814\nkg/min\n0x815\nkg/h\n0x816\nSCF/sec\n0x817\nSCF/min\n0x818\nSCF/h\n0x81F\nNml/sec\n0x820\nNml/min\n0002\n1\nActual Flow (as per mille)\n-2000…2000\nRO\nSINT16"
+  },
+  {
+    "chunk_id": 26,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nModbus register and communication objects\n16 | 21\nRegister\nAddress\nNumber\nof Re-\ngister\nName / Description\nAccess\ntype\nData\ntype\n0003…\n0004\n2\nActual Flow\nUnit depends on calibrated unit\nRefer to Input register: Data unit (register address 1)\nRO\nFL32\n0005\n1\nStatus errors\nRefer to Appendix [} 17]\nRO\nUI16\n0006\n1\nStatus Limits\nRefer to Appendix [} 17]\nRO\nUI16\n0007\n1\nControl output to valve y2 (as per mille)\nRO\nUI16\n0008…\n0009\n2\nFlow full scale\nRefer to Input register: Data unit (register address 1)\nRO\nFL32\n0010…\n0011\n2\nTotalizer [Nl]\n0°C/1013mbar\nRO\nFL32\n0012…\n0019\n8\nOperation medium\nOnly low bytes are used as ASCII\nRO\nUI16\n0020\n1\nDevice type\nRO\nUI16\n0021…\n0022\n2\nDevice ident number\nRO\nUI32\n0023…\n0024\n2\nDevice serial number\nR\nUI32\n0025…\n0028\n4\nVersion number software low byte as ASCII\nRO\nUI16\n0025\nversion number software (X)\n0026\nversion number software (y)\n0027\nversion number software (z)\n0028\nversion number software (cc)\n0029\n1\nMODBUS baudrate"
+  },
+  {
+    "chunk_id": 27,
+    "page": 15,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "0022\n2\nDevice ident number\nRO\nUI32\n0023…\n0024\n2\nDevice serial number\nR\nUI32\n0025…\n0028\n4\nVersion number software low byte as ASCII\nRO\nUI16\n0025\nversion number software (X)\n0026\nversion number software (y)\n0027\nversion number software (z)\n0028\nversion number software (cc)\n0029\n1\nMODBUS baudrate\nRefer to Appendix [} 17]\nRO\nUI16\n0030\n1\nMedium temperature\nTemperature in 1/10°C (231=23,1°C)\nRO\nSINT16\n0031…\n0032\n2\nDevice temperature [°C]\nsupported since Modbus version A.03.00.00\nRO\nFL32"
+  },
+  {
+    "chunk_id": 28,
+    "page": 16,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nAppendix\n17 | 21\n4\nAppendix\n4.1\nASCII_2\nAn UI16 value is interpreted as two characters. The high byte shows the first character.\ne.g.\n0x4142 → „AB“\ne.g.\nOperating Medium “Luft” as 4 x UI16\n0x4C75\n0x6674\n0x0000\n0x0000\ne.g.\nDevice Type“8713” as 2 x UI16\n0x3837\n0x3133\n4.2\nVersions of the hardware and the software\nReturns 2 bytes, which are constructed as follows\nX.YY\nRange:\nX\n‚A‘ – ‚Z‘\nYY\n0 – 99\ne.g.\n0x4101 → A.01"
+  },
+  {
+    "chunk_id": 29,
+    "page": 17,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nAppendix\n18 | 21\n4.3\nDescription of Bit fields\n4.3.1\nBit field errors\nBit field ERRORS\nBit 0\nNot used\nBit 1\nNot used\nBit 2\nNot used\nBit 3\nNot used\nBit 4\nNot used\nBit 5\nNot used\nBit 6\nNot used\nBit 7\nError internal supply voltage\nObject 0xXX020587\nBit 8\nNot used\nBit 9\nError data storage\nObject 0xXX230508 / 0xXX230507\nBit 10\nNot used\nBit 11\nNot used\nBit 12\nError sensor fault\nObject 0xXX1F0583\nBit 13\nError after autotune\nObject 0xXX3F0586\nBit 14\nNot used\nBit 15\nNot used"
+  },
+  {
+    "chunk_id": 30,
+    "page": 18,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nAppendix\n19 | 21\n4.3.2\nBit field limits\nBit field LIMITS\nBit 0\nNot used\nBit 1\nNot used\nBit 2\nNot used\nBit 3\nNot used\nBit 4\nNot used\nBit 5\nNot used\nBit 6\nNot used\nBit 7\nNot used\nBit 8\ny2 > 95% Hysterese 2%\nBit 9\nNot used\nBit 10\nNot used\nBit 11\nNot used\nBit 12\nNot used\nBit 13\nNot used\nBit 14\nNot used\nBit 15\nNot used\n4.4\nSamples for Modbus commands\n4.4.1\n0x03 Read holding register\nCommand structure\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nByte 7\nAddress\nCommand\nRegister address\nNo of register to read\nCRC\nSample for reading the medium temperature [°C] from list 1 located at register address 2-3\n0x01\n0x03\n0x00 0x02\n0x00 0x02\n0x65 0xCB\nReceive structure\nByte 0\nByte 1\nByte 2\nData bytes\nByte\nByte\nAddress\nCommand\nAmount of\ndata byte\nCRC\nSample for reading the medium temperature [°C] from list 1 located at register address 2-3\n0x01\n0x03\n0x04\n0x41 0xCA 0x40 0xDD (25.28672)\n0x37 0xA8"
+  },
+  {
+    "chunk_id": 31,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nAppendix\n20 | 21\n4.4.2\n0x04 Read input register\nCommand structure\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nByte 7\nAddress\nCommand\nRegister address\nNo of register to read\nCRC\nSample for reading the flow full scale from list 0 located at register address 8-9\n0x01\n0x04\n0x00 0x08\n0x00 0x02\n0xF0 0x09\nReceive structure\nByte 0\nByte 1\nByte 2\nData bytes\nByte\nByte\nAddress\nCommand\nAmount of\ndata byte\nCRC\nSample for reading the flow full scale from list 0 located at register address 8-9\n0x01\n0x04\n0x04\n0x41 0x20 0x00 0x00 (10.0)\n0xEE 0x72\n4.4.3\n0x06 Write single register\nCommand structure\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nByte 7\nAddress\nCommand\nRegister address\nValue to write\nCRC\nSample for writing the active gas to gas 2 (written value 1) by using list 1 located at register address\n34\n0x01\n0x06\n0x00 0x22\n0x00 0x01\n0xE8 0x00\nReceive structure\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte\nByte\nAddress\nCommand\nRegister address\nWritten value\nCRC"
+  },
+  {
+    "chunk_id": 32,
+    "page": 19,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Value to write\nCRC\nSample for writing the active gas to gas 2 (written value 1) by using list 1 located at register address\n34\n0x01\n0x06\n0x00 0x22\n0x00 0x01\n0xE8 0x00\nReceive structure\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte\nByte\nAddress\nCommand\nRegister address\nWritten value\nCRC\nSample for writing the active gas to gas 2 (written value 1) by using list 1 located at register address\n34\n0x01\n0x06\n0x00 0x22\n0x00 0x01\n0xE8 0x00"
+  },
+  {
+    "chunk_id": 33,
+    "page": 20,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\MAMODBUS-SU-EU-EN ....pdf",
+    "content": "Type 8741 - 8743 - 8745\nAppendix\n21 | 21\n4.4.4\n0x10 Write multiple register\nCommand structure\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nData\nbytes\nAddress\nCom-\nmand\nRegister address\nNo of register to\nwrite\nAmount\nof data\nbytes\nCRC\nSample for writing the active gas to gas 2 (written value 1) by using list 1 located at register address\n34\n0x01\n0x10\n0x00 0x022\n0x00 0x01\n0x02\n0x00\n0x01\n0x61 0x12\nReceive structure\nByte 0\nByte 1\nByte 2\nByte 3\nByte 4\nByte 5\nByte 6\nByte 7\nAddress\nCommand\nRegister address\nNo of registers\nCRC\nSample for writing the active gas to gas 2 (written value 1) by using list 1 located at register address\n34\n0x01\n0x10\n0x00 0x22\n0x00 0x01\n0xA1 0xC3"
+  }
+]

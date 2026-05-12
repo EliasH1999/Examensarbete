@@ -1,0 +1,1132 @@
+[
+  {
+    "pass_name": "communication",
+    "parameters": [
+      "physicalStandard",
+      "baudRate",
+      "dataBits",
+      "parity",
+      "stopBits"
+    ],
+    "raw_top_k_per_query": {
+      "physical_standard": [
+        {
+          "rank": 1,
+          "chunk_id": 5,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "equipment. \nThe SIA-B always acts as a slave, which means that it never initiates communications. The master is \nalways responsible for initiating communications. \nOnly a subset of the Modbus functions is implemented: \n• \nReading function 3. \n• \nWriting function 16. \nThe MODBUS/RTU protocol is independent from the hardware. Therefore, the physical layer can exist in \ndifferent hardware configurations: RS232, RS485, fibre optic or Ethernet. \nSpecifically, the relay has a front USB port and, as an option, a rear RS485 port. The data stream in any \nof the configurations is “half-duplex”.er \nEach byte of data is transmitted asynchronously and is made up of: 1 start bit, 8 data bits, 1 stop bit and \n1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of \nthe parameters are fixed and equal to: baudrate 19200, No parity and stop bit 1. \nIf the relay offers RS485 Modbus protocol: \nFW version 4.05 onwards:  all the parameters are configurable address (1 to 247), the baudrate (4800, \n9600, 19200 or 38400) and parity (8-N-1, 8-N-2, 8-E-1, 8-E-2, 8-O-1, 8-O-2, 9-N-1, 9-N-2) \nFW 4.04 and below: The configurable parameters are:  address (1 to 247) and the baudrate (4800, 9600 \nor 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address,"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 4,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n3/30 \n \n \n1. \nMODBUS RTU PROTOCOL \n \nCommunication parameters are: \nModbus RTU: \n \n• Address and Baudrate \n• 8 data bits \n• No parity \n• 1 stop bit \n \nThis document describes the steps to follow to read and write data on the SIA-B relay, as per the \nModbus protocol. This memory map is only valid for one piece of equipment and one version of the \nmemory. The positions of existing objects in the memory remain fixed from one version to the next, but \nnew objects will naturally have new addresses which will, in turn, remain fixed in future versions. The \nmemory map is described further on. \nThe standard Modbus protocol is used, so any program or PC can communicate easily with the \nequipment. \nThe SIA-B always acts as a slave, which means that it never initiates communications. The master is \nalways responsible for initiating communications. \nOnly a subset of the Modbus functions is implemented: \n• \nReading function 3. \n• \nWriting function 16."
+        },
+        {
+          "rank": 4,
+          "chunk_id": 40,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "LONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2 \n2 → 8-E-1 \n3 → 8-E-2 \n4 → 8-O-1 \n5 → 8-O-2 \n6 → 9-N-1 \n7 → 9-N-2 \n932 (**) \n734 (*) \nDNP3.0 IA Deadband \nLONG \n- \n934 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 0,
+          "page": 0,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.Doc \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n              MODBUS RTU PROTOCOL MANUAL \n \n \n \nSIA B \nSelf and Dual Powered Overcurrent & Earth Fault Protection Relay with \nStandard Current Transformers."
+        },
+        {
+          "rank": 6,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "sent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master. \nThe management of the CRC is LSB-MSB.  \nDEAD TIME  \nNecessary time \nto transmit 3,5 \nBytes \nA frame is terminated when nothing is received for a period of 3,5 bytes. It means:  \n15 ms at 2400 bps  \n2 ms at 19200 bps  \n...etc. \n \n \n1.2. \nFunction Codes \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x03 \n3 \nRead Holding \nRegisters \nReading of Any Value  \nThis function allows the master to read 1 or \nmore consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 26,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n12/30 \n \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n524 \nRemote Modbus  \n00 \n \nRemote communication \nNone \nBIT32 \n17 \n2 \nOpen Breaker \nNone \n18 \n3 \nClose Breaker \nNone \n25 \n8 \nReset thermal image \nNone \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n528 \n50-2 (*) \n00 \n01 \n50-2 Phase A Pickup \nIA (A) \nBIT32 \n01 \n02 \n50-2 Phase B Pickup \nIB (A) \n02 \n03 \n50-2 Phase C Pickup \nIC (A) \n03 \n04 \n50-2 Pickup \nImax (A) \n08 \n05 \n50-2 Phase A Trip \nIA (A) \n09 \n06 \n50-2 Phase B Trip \nIB (A) \n10 \n07 \n50-2 Phase C Trip \nIC (A) \n11 \n08 \n50-2 Trip \nImax (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n530 \n50G-2 (*) \n04 \n01 \n50G-2 Pickup \nIN (A) \nBIT32 \n12 \n02 \n50G-2 Trip \nIN (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n532 \n46 (*) \n04 \n01 \n46 Pickup \nI2 (A) \nBIT32 \n12 \n02 \n46 Trip \nI2 (A) \n \nAddress \nDescription \nBit"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 1,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n2/30 \n \n1. \nMODBUS RTU PROTOCOL ............................................................................................ 3 \n1.1. \nModbus RTU pachage format ........................................................................................ 4 \n1.2. \nFunction Codes............................................................................................................... 4 \n1.3. \nExceptions Responses .................................................................................................. 5 \n1.4. \nData type .......................................................................................................................... 5 \n1.5. \nGeneral Memory Map ..................................................................................................... 7 \n1.5.1. \nStates Map ................................................................................................................... 8 \n1.5.2."
+        }
+      ],
+      "baud_rate": [
+        {
+          "rank": 1,
+          "chunk_id": 40,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "LONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2 \n2 → 8-E-1 \n3 → 8-E-2 \n4 → 8-O-1 \n5 → 8-O-2 \n6 → 9-N-1 \n7 → 9-N-2 \n932 (**) \n734 (*) \nDNP3.0 IA Deadband \nLONG \n- \n934 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 39,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n23/30 \n \n1.5.4. Settings Map \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n600 (*) \nIdentification \nASCII20 \n- \n800 (**) \n610 (*) \nFrequency \nDENUM \n0 → 60 Hz \n1 → 50 Hz \n810 (**) \n612 (*) \nSerial Number \nLONG \n- \n812 (**) \n614 (*) \nLanguage \nDENUM \n0 → English \n1 → Spanish \n2 → Depends on Relay model \n814 (**) \n616 (*) \nActive Setting Group \nLONG \n- \n816 (**) \n618 (*) \nTrip Voltage Level \nDENUM \n0 → 12 VDC \n1 → 17 VDC \n2 → 22 VDC \n3 → 24 VDC \n818 (**) \n620 (*) \nCT Phase Ratio \nFLOAT INVERSE  \n- \n820 (**) \n622 (*) \nCT Neutral Ratio \nFLOAT INVERSE \n- \n822 (**) \n624 (*) \nLocal COM Address \nLONG \n- \n824 (**) \n626 (*) \nRemote COM Address \nLONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of \nthe parameters are fixed and equal to: baudrate 19200, No parity and stop bit 1. \nIf the relay offers RS485 Modbus protocol: \nFW version 4.05 onwards:  all the parameters are configurable address (1 to 247), the baudrate (4800, \n9600, 19200 or 38400) and parity (8-N-1, 8-N-2, 8-E-1, 8-E-2, 8-O-1, 8-O-2, 9-N-1, 9-N-2) \nFW 4.04 and below: The configurable parameters are:  address (1 to 247) and the baudrate (4800, 9600 \nor 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address,"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "or 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address, \nor “broadcast” address, is used, in which case the relay will act but will not send an answer of any type. \nCommunications are made in packages or frames, which are groups of data that are sent \nasynchronously. The master transmits a frame to the slave, and the slave then replies with another \nframe (except in the case of “broadcast” messages). The end of the frame is marked by a dead time or \nsilence time in the communication medium. The length of this time of silence varies depending on the \ntransmission speed, as it is equivalent to 3 characters. The following table shows the generic package"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 9,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n4/30 \n \n \n1.1. \nModbus RTU pachage format \nCUSTOMER \nADDRESS \n1 byte  \nEach device on a communication bus must have a unique address, otherwise two \ndifferent units could reply simultaneously to the same request. All ports of the \nrelay will use this address which can be set a value between 1 and 247. When the \nmaster transmits a frame with the slave address to 0 indicates a Broadcast. All \nthe slaves in the communications bus will carry out the requested action, but no \none will reply to the master. The Broadcast will only be accepted to write, as it \nmakes no sense to make a read request in the Broadcast, as no one will reply this \nrequest.  \nFUNCTION \nCODE \n1 byte  \nThis is one of the function codes supported by the equipment. In this case, the \nonly function codes supported are 3 to read and 16 to write. When the slave has \nto reply with an exception one of these frames, it is indicated by putting 1 in the"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 41,
+          "page": 23,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n24/30 \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n736 (*) \nDNP3.0 IB Deadband \nLONG \n- \n936 (**) \n738 (*) \nDNP3.0 IC Deadband \nLONG \n- \n938 (**) \n740 (*) \nDNP3.0 IN Deadband \nLONG \n- \n940 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50-1 \n630 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n830 (**) \n632 (*) \nTap \nFLOAT INVERSE \n- \n832 (**) \n634 (*) \nTime Delay \nFLOAT INVERSE \n- \n834 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n51 \n636 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n 836 (**) \n638 (*) \nCurve Type \nDENUM \n0 → IEC Inverse \n1 → IEC Very Inverse \n2 → IEC Extremely Inverse \n3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n838 (**) \n640 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n840 (**) \n642 (*) \nTap \nFLOAT INVERSE \n- \n842 (**) \n644 (*) \nTime Delay \nFLOAT INVERSE \n- \n844 (**) \n \nSettings"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "sent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master. \nThe management of the CRC is LSB-MSB.  \nDEAD TIME  \nNecessary time \nto transmit 3,5 \nBytes \nA frame is terminated when nothing is received for a period of 3,5 bytes. It means:  \n15 ms at 2400 bps  \n2 ms at 19200 bps  \n...etc. \n \n \n1.2. \nFunction Codes \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x03 \n3 \nRead Holding \nRegisters \nReading of Any Value  \nThis function allows the master to read 1 or \nmore consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 45,
+          "page": 25,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n26/30 \n \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50-2 \n676 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n876 (**) \n678 (*) \nTap \nFLOAT INVERSE \n- \n878 (**) \n680 (*) \nTime Delay \nFLOAT INVERSE \n- \n880 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50G-2 \n682 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n882 (**) \n684 (*) \nTap \nFLOAT INVERSE \n- \n884 (**) \n686 (*) \nTime Delay \nFLOAT INVERSE \n- \n886 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n46 \n688 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n888 (**) \n690 (*) \nCurve Type \nDENUM \n0 → IEC Inverse \n1 → IEC Very Inverse \n2 → IEC Extremely Inverse \n3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n890 (**) \n692 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n892 (**) \n694 (*) \nTap \nFLOAT INVERSE \n- \n894 (**) \n696 (*) \nTime Delay \nFLOAT INVERSE \n-"
+        }
+      ],
+      "data_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 40,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "LONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2 \n2 → 8-E-1 \n3 → 8-E-2 \n4 → 8-O-1 \n5 → 8-O-2 \n6 → 9-N-1 \n7 → 9-N-2 \n932 (**) \n734 (*) \nDNP3.0 IA Deadband \nLONG \n- \n934 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of \nthe parameters are fixed and equal to: baudrate 19200, No parity and stop bit 1. \nIf the relay offers RS485 Modbus protocol: \nFW version 4.05 onwards:  all the parameters are configurable address (1 to 247), the baudrate (4800, \n9600, 19200 or 38400) and parity (8-N-1, 8-N-2, 8-E-1, 8-E-2, 8-O-1, 8-O-2, 9-N-1, 9-N-2) \nFW 4.04 and below: The configurable parameters are:  address (1 to 247) and the baudrate (4800, 9600 \nor 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address,"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 14,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "Generic non-recognition. \n \nWhen the data format takes up more than one BYTE, the most important BYTE is sent through the \ncommunications first, and the least important BYTE is sent last. \n \n \n1.4. \nData type \nTYPE \nLENGTH \nDESCRIPTION \nUCHAR \n1/2 \nInteger without sign of 1 byte \nBYTE \n1/2 \nInteger with sign of 1 byte \nBIT16 \n1 \nGathered bits type, groups of 16.  \nE. g.: 0x1A41 = 0001101001000001b \nBIT32 \n2 \nGathered bits type, groups of 32. \nENUM \n1 \nInteger without sign of 16 bits. Each of the possible values of the integer will have \na correspondence in the auxiliary list of the database. This list is the \ncorrespondence chain which must be shown for each of the values. Memory will \nonly receive an integer value. \nE. g.: 0, 1 Correspondence to “CLOSED”, “OPEN” \nDENUM \n2 \nInteger without sign of 32 bits \nUINT \n1 \nInteger without sign of 2 bytes \nINT \n1 \nInteger with sign of 2 bytes"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 10,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "request.  \nFUNCTION \nCODE \n1 byte  \nThis is one of the function codes supported by the equipment. In this case, the \nonly function codes supported are 3 to read and 16 to write. When the slave has \nto reply with an exception one of these frames, it is indicated by putting 1 in the \nmost important bit of the correspondent function. Thus, an exception for the \nfunction 3, will be indicated with a 83 as a function code; and an exception for the \nfunction code 16 or 0x10 in hexadecimal, will be indicated with an 0x90. \nDATA \nN bytes  \nThis part consists of a variable number of bytes, depending on the function code. \nIt may include: addresses, data lengths, settings, commands or exception codes \nsent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master."
+        },
+        {
+          "rank": 5,
+          "chunk_id": 12,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "more consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript  \nThis function allows to write one or more \nregisters that represent one or more settings. \nThe registers are values of 2 bytes of length, \ntransmitted with the most important byte at \nfirst. The maximum number of registers to be \nwritten in a package is 60."
+        },
+        {
+          "rank": 6,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "sent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master. \nThe management of the CRC is LSB-MSB.  \nDEAD TIME  \nNecessary time \nto transmit 3,5 \nBytes \nA frame is terminated when nothing is received for a period of 3,5 bytes. It means:  \n15 ms at 2400 bps  \n2 ms at 19200 bps  \n...etc. \n \n \n1.2. \nFunction Codes \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x03 \n3 \nRead Holding \nRegisters \nReading of Any Value  \nThis function allows the master to read 1 or \nmore consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "or 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address, \nor “broadcast” address, is used, in which case the relay will act but will not send an answer of any type. \nCommunications are made in packages or frames, which are groups of data that are sent \nasynchronously. The master transmits a frame to the slave, and the slave then replies with another \nframe (except in the case of “broadcast” messages). The end of the frame is marked by a dead time or \nsilence time in the communication medium. The length of this time of silence varies depending on the \ntransmission speed, as it is equivalent to 3 characters. The following table shows the generic package"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 29,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n07 \n23 \nReset \n- \n08 \n- \nLogic Signal 1 \n- \n09 \n- \nLogic Signal 2 \n- \n10 \n- \nLogic Signal 3 \n- \n11 \n- \nLogic Signal 4 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n542 \nRemote DNP3  \n00 \n- \nRemote communication \n- \nBIT32 \n17 \n2 \nOpen Breaker \n- \n18 \n3 \nClose Breaker \n- \n25 \n8 \nReset thermal image \n-"
+        }
+      ],
+      "parity": [
+        {
+          "rank": 1,
+          "chunk_id": 40,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "LONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2 \n2 → 8-E-1 \n3 → 8-E-2 \n4 → 8-O-1 \n5 → 8-O-2 \n6 → 9-N-1 \n7 → 9-N-2 \n932 (**) \n734 (*) \nDNP3.0 IA Deadband \nLONG \n- \n934 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of \nthe parameters are fixed and equal to: baudrate 19200, No parity and stop bit 1. \nIf the relay offers RS485 Modbus protocol: \nFW version 4.05 onwards:  all the parameters are configurable address (1 to 247), the baudrate (4800, \n9600, 19200 or 38400) and parity (8-N-1, 8-N-2, 8-E-1, 8-E-2, 8-O-1, 8-O-2, 9-N-1, 9-N-2) \nFW 4.04 and below: The configurable parameters are:  address (1 to 247) and the baudrate (4800, 9600 \nor 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address,"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 39,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n23/30 \n \n1.5.4. Settings Map \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n600 (*) \nIdentification \nASCII20 \n- \n800 (**) \n610 (*) \nFrequency \nDENUM \n0 → 60 Hz \n1 → 50 Hz \n810 (**) \n612 (*) \nSerial Number \nLONG \n- \n812 (**) \n614 (*) \nLanguage \nDENUM \n0 → English \n1 → Spanish \n2 → Depends on Relay model \n814 (**) \n616 (*) \nActive Setting Group \nLONG \n- \n816 (**) \n618 (*) \nTrip Voltage Level \nDENUM \n0 → 12 VDC \n1 → 17 VDC \n2 → 22 VDC \n3 → 24 VDC \n818 (**) \n620 (*) \nCT Phase Ratio \nFLOAT INVERSE  \n- \n820 (**) \n622 (*) \nCT Neutral Ratio \nFLOAT INVERSE \n- \n822 (**) \n624 (*) \nLocal COM Address \nLONG \n- \n824 (**) \n626 (*) \nRemote COM Address \nLONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "or 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address, \nor “broadcast” address, is used, in which case the relay will act but will not send an answer of any type. \nCommunications are made in packages or frames, which are groups of data that are sent \nasynchronously. The master transmits a frame to the slave, and the slave then replies with another \nframe (except in the case of “broadcast” messages). The end of the frame is marked by a dead time or \nsilence time in the communication medium. The length of this time of silence varies depending on the \ntransmission speed, as it is equivalent to 3 characters. The following table shows the generic package"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 44,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n864 (**) \n666 (*) \nHeating Constant  \nLONG \n- \n866 (**) \n668 (*) \nCooling Constant \nLONG \n- \n868 (**) \n670 (*) \nAlarm Level \nLONG \n- \n870 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nTrip Block \n672 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n872 (**) \n674 (*) \nTap \nFLOAT INVERSE \n- \n874 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 29,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n07 \n23 \nReset \n- \n08 \n- \nLogic Signal 1 \n- \n09 \n- \nLogic Signal 2 \n- \n10 \n- \nLogic Signal 3 \n- \n11 \n- \nLogic Signal 4 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n542 \nRemote DNP3  \n00 \n- \nRemote communication \n- \nBIT32 \n17 \n2 \nOpen Breaker \n- \n18 \n3 \nClose Breaker \n- \n25 \n8 \nReset thermal image \n-"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 41,
+          "page": 23,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n24/30 \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n736 (*) \nDNP3.0 IB Deadband \nLONG \n- \n936 (**) \n738 (*) \nDNP3.0 IC Deadband \nLONG \n- \n938 (**) \n740 (*) \nDNP3.0 IN Deadband \nLONG \n- \n940 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50-1 \n630 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n830 (**) \n632 (*) \nTap \nFLOAT INVERSE \n- \n832 (**) \n634 (*) \nTime Delay \nFLOAT INVERSE \n- \n834 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n51 \n636 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n 836 (**) \n638 (*) \nCurve Type \nDENUM \n0 → IEC Inverse \n1 → IEC Very Inverse \n2 → IEC Extremely Inverse \n3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n838 (**) \n640 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n840 (**) \n642 (*) \nTap \nFLOAT INVERSE \n- \n842 (**) \n644 (*) \nTime Delay \nFLOAT INVERSE \n- \n844 (**) \n \nSettings"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 9,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n4/30 \n \n \n1.1. \nModbus RTU pachage format \nCUSTOMER \nADDRESS \n1 byte  \nEach device on a communication bus must have a unique address, otherwise two \ndifferent units could reply simultaneously to the same request. All ports of the \nrelay will use this address which can be set a value between 1 and 247. When the \nmaster transmits a frame with the slave address to 0 indicates a Broadcast. All \nthe slaves in the communications bus will carry out the requested action, but no \none will reply to the master. The Broadcast will only be accepted to write, as it \nmakes no sense to make a read request in the Broadcast, as no one will reply this \nrequest.  \nFUNCTION \nCODE \n1 byte  \nThis is one of the function codes supported by the equipment. In this case, the \nonly function codes supported are 3 to read and 16 to write. When the slave has \nto reply with an exception one of these frames, it is indicated by putting 1 in the"
+        }
+      ],
+      "stop_bits": [
+        {
+          "rank": 1,
+          "chunk_id": 40,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "LONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2 \n2 → 8-E-1 \n3 → 8-E-2 \n4 → 8-O-1 \n5 → 8-O-2 \n6 → 9-N-1 \n7 → 9-N-2 \n932 (**) \n734 (*) \nDNP3.0 IA Deadband \nLONG \n- \n934 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of \nthe parameters are fixed and equal to: baudrate 19200, No parity and stop bit 1. \nIf the relay offers RS485 Modbus protocol: \nFW version 4.05 onwards:  all the parameters are configurable address (1 to 247), the baudrate (4800, \n9600, 19200 or 38400) and parity (8-N-1, 8-N-2, 8-E-1, 8-E-2, 8-O-1, 8-O-2, 9-N-1, 9-N-2) \nFW 4.04 and below: The configurable parameters are:  address (1 to 247) and the baudrate (4800, 9600 \nor 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address,"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 39,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n23/30 \n \n1.5.4. Settings Map \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n600 (*) \nIdentification \nASCII20 \n- \n800 (**) \n610 (*) \nFrequency \nDENUM \n0 → 60 Hz \n1 → 50 Hz \n810 (**) \n612 (*) \nSerial Number \nLONG \n- \n812 (**) \n614 (*) \nLanguage \nDENUM \n0 → English \n1 → Spanish \n2 → Depends on Relay model \n814 (**) \n616 (*) \nActive Setting Group \nLONG \n- \n816 (**) \n618 (*) \nTrip Voltage Level \nDENUM \n0 → 12 VDC \n1 → 17 VDC \n2 → 22 VDC \n3 → 24 VDC \n818 (**) \n620 (*) \nCT Phase Ratio \nFLOAT INVERSE  \n- \n820 (**) \n622 (*) \nCT Neutral Ratio \nFLOAT INVERSE \n- \n822 (**) \n624 (*) \nLocal COM Address \nLONG \n- \n824 (**) \n626 (*) \nRemote COM Address \nLONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 7,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "or 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address, \nor “broadcast” address, is used, in which case the relay will act but will not send an answer of any type. \nCommunications are made in packages or frames, which are groups of data that are sent \nasynchronously. The master transmits a frame to the slave, and the slave then replies with another \nframe (except in the case of “broadcast” messages). The end of the frame is marked by a dead time or \nsilence time in the communication medium. The length of this time of silence varies depending on the \ntransmission speed, as it is equivalent to 3 characters. The following table shows the generic package"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 9,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n4/30 \n \n \n1.1. \nModbus RTU pachage format \nCUSTOMER \nADDRESS \n1 byte  \nEach device on a communication bus must have a unique address, otherwise two \ndifferent units could reply simultaneously to the same request. All ports of the \nrelay will use this address which can be set a value between 1 and 247. When the \nmaster transmits a frame with the slave address to 0 indicates a Broadcast. All \nthe slaves in the communications bus will carry out the requested action, but no \none will reply to the master. The Broadcast will only be accepted to write, as it \nmakes no sense to make a read request in the Broadcast, as no one will reply this \nrequest.  \nFUNCTION \nCODE \n1 byte  \nThis is one of the function codes supported by the equipment. In this case, the \nonly function codes supported are 3 to read and 16 to write. When the slave has \nto reply with an exception one of these frames, it is indicated by putting 1 in the"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 29,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n07 \n23 \nReset \n- \n08 \n- \nLogic Signal 1 \n- \n09 \n- \nLogic Signal 2 \n- \n10 \n- \nLogic Signal 3 \n- \n11 \n- \nLogic Signal 4 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n542 \nRemote DNP3  \n00 \n- \nRemote communication \n- \nBIT32 \n17 \n2 \nOpen Breaker \n- \n18 \n3 \nClose Breaker \n- \n25 \n8 \nReset thermal image \n-"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 41,
+          "page": 23,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n24/30 \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n736 (*) \nDNP3.0 IB Deadband \nLONG \n- \n936 (**) \n738 (*) \nDNP3.0 IC Deadband \nLONG \n- \n938 (**) \n740 (*) \nDNP3.0 IN Deadband \nLONG \n- \n940 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50-1 \n630 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n830 (**) \n632 (*) \nTap \nFLOAT INVERSE \n- \n832 (**) \n634 (*) \nTime Delay \nFLOAT INVERSE \n- \n834 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n51 \n636 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n 836 (**) \n638 (*) \nCurve Type \nDENUM \n0 → IEC Inverse \n1 → IEC Very Inverse \n2 → IEC Extremely Inverse \n3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n838 (**) \n640 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n840 (**) \n642 (*) \nTap \nFLOAT INVERSE \n- \n842 (**) \n644 (*) \nTime Delay \nFLOAT INVERSE \n- \n844 (**) \n \nSettings"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "sent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master. \nThe management of the CRC is LSB-MSB.  \nDEAD TIME  \nNecessary time \nto transmit 3,5 \nBytes \nA frame is terminated when nothing is received for a period of 3,5 bytes. It means:  \n15 ms at 2400 bps  \n2 ms at 19200 bps  \n...etc. \n \n \n1.2. \nFunction Codes \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x03 \n3 \nRead Holding \nRegisters \nReading of Any Value  \nThis function allows the master to read 1 or \nmore consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript"
+        }
+      ]
+    },
+    "num_chunks_sent": 18,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 7,
+        "page": 2,
+        "score": 12,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "or 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address, \nor “broadcast” address, is used, in which case the relay will act but will not send an answer of any type. \nCommunications are made in packages or frames, which are groups of data that are sent \nasynchronously. The master transmits a frame to the slave, and the slave then replies with another \nframe (except in the case of “broadcast” messages). The end of the frame is marked by a dead time or \nsilence time in the communication medium. The length of this time of silence varies depending on the \ntransmission speed, as it is equivalent to 3 characters. The following table shows the generic package"
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 6,
+        "page": 2,
+        "score": 10,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of \nthe parameters are fixed and equal to: baudrate 19200, No parity and stop bit 1. \nIf the relay offers RS485 Modbus protocol: \nFW version 4.05 onwards:  all the parameters are configurable address (1 to 247), the baudrate (4800, \n9600, 19200 or 38400) and parity (8-N-1, 8-N-2, 8-E-1, 8-E-2, 8-O-1, 8-O-2, 9-N-1, 9-N-2) \nFW 4.04 and below: The configurable parameters are:  address (1 to 247) and the baudrate (4800, 9600 \nor 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address,"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 40,
+        "page": 22,
+        "score": 9,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "LONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2 \n2 → 8-E-1 \n3 → 8-E-2 \n4 → 8-O-1 \n5 → 8-O-2 \n6 → 9-N-1 \n7 → 9-N-2 \n932 (**) \n734 (*) \nDNP3.0 IA Deadband \nLONG \n- \n934 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 4,
+        "page": 2,
+        "score": 8,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n3/30 \n \n \n1. \nMODBUS RTU PROTOCOL \n \nCommunication parameters are: \nModbus RTU: \n \n• Address and Baudrate \n• 8 data bits \n• No parity \n• 1 stop bit \n \nThis document describes the steps to follow to read and write data on the SIA-B relay, as per the \nModbus protocol. This memory map is only valid for one piece of equipment and one version of the \nmemory. The positions of existing objects in the memory remain fixed from one version to the next, but \nnew objects will naturally have new addresses which will, in turn, remain fixed in future versions. The \nmemory map is described further on. \nThe standard Modbus protocol is used, so any program or PC can communicate easily with the \nequipment. \nThe SIA-B always acts as a slave, which means that it never initiates communications. The master is \nalways responsible for initiating communications. \nOnly a subset of the Modbus functions is implemented: \n• \nReading function 3. \n• \nWriting function 16."
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 11,
+        "page": 3,
+        "score": 7,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard",
+          "baud_rate",
+          "data_bits",
+          "stop_bits"
+        ],
+        "content": "sent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master. \nThe management of the CRC is LSB-MSB.  \nDEAD TIME  \nNecessary time \nto transmit 3,5 \nBytes \nA frame is terminated when nothing is received for a period of 3,5 bytes. It means:  \n15 ms at 2400 bps  \n2 ms at 19200 bps  \n...etc. \n \n \n1.2. \nFunction Codes \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x03 \n3 \nRead Holding \nRegisters \nReading of Any Value  \nThis function allows the master to read 1 or \nmore consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 41,
+        "page": 23,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n24/30 \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n736 (*) \nDNP3.0 IB Deadband \nLONG \n- \n936 (**) \n738 (*) \nDNP3.0 IC Deadband \nLONG \n- \n938 (**) \n740 (*) \nDNP3.0 IN Deadband \nLONG \n- \n940 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50-1 \n630 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n830 (**) \n632 (*) \nTap \nFLOAT INVERSE \n- \n832 (**) \n634 (*) \nTime Delay \nFLOAT INVERSE \n- \n834 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n51 \n636 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n 836 (**) \n638 (*) \nCurve Type \nDENUM \n0 → IEC Inverse \n1 → IEC Very Inverse \n2 → IEC Extremely Inverse \n3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n838 (**) \n640 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n840 (**) \n642 (*) \nTap \nFLOAT INVERSE \n- \n842 (**) \n644 (*) \nTime Delay \nFLOAT INVERSE \n- \n844 (**) \n \nSettings"
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 14,
+        "page": 4,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "Generic non-recognition. \n \nWhen the data format takes up more than one BYTE, the most important BYTE is sent through the \ncommunications first, and the least important BYTE is sent last. \n \n \n1.4. \nData type \nTYPE \nLENGTH \nDESCRIPTION \nUCHAR \n1/2 \nInteger without sign of 1 byte \nBYTE \n1/2 \nInteger with sign of 1 byte \nBIT16 \n1 \nGathered bits type, groups of 16.  \nE. g.: 0x1A41 = 0001101001000001b \nBIT32 \n2 \nGathered bits type, groups of 32. \nENUM \n1 \nInteger without sign of 16 bits. Each of the possible values of the integer will have \na correspondence in the auxiliary list of the database. This list is the \ncorrespondence chain which must be shown for each of the values. Memory will \nonly receive an integer value. \nE. g.: 0, 1 Correspondence to “CLOSED”, “OPEN” \nDENUM \n2 \nInteger without sign of 32 bits \nUINT \n1 \nInteger without sign of 2 bytes \nINT \n1 \nInteger with sign of 2 bytes"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 9,
+        "page": 3,
+        "score": 6,
+        "bucket": "communication",
+        "retrieved_by": [
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n4/30 \n \n \n1.1. \nModbus RTU pachage format \nCUSTOMER \nADDRESS \n1 byte  \nEach device on a communication bus must have a unique address, otherwise two \ndifferent units could reply simultaneously to the same request. All ports of the \nrelay will use this address which can be set a value between 1 and 247. When the \nmaster transmits a frame with the slave address to 0 indicates a Broadcast. All \nthe slaves in the communications bus will carry out the requested action, but no \none will reply to the master. The Broadcast will only be accepted to write, as it \nmakes no sense to make a read request in the Broadcast, as no one will reply this \nrequest.  \nFUNCTION \nCODE \n1 byte  \nThis is one of the function codes supported by the equipment. In this case, the \nonly function codes supported are 3 to read and 16 to write. When the slave has \nto reply with an exception one of these frames, it is indicated by putting 1 in the"
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 5,
+        "page": 2,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "equipment. \nThe SIA-B always acts as a slave, which means that it never initiates communications. The master is \nalways responsible for initiating communications. \nOnly a subset of the Modbus functions is implemented: \n• \nReading function 3. \n• \nWriting function 16. \nThe MODBUS/RTU protocol is independent from the hardware. Therefore, the physical layer can exist in \ndifferent hardware configurations: RS232, RS485, fibre optic or Ethernet. \nSpecifically, the relay has a front USB port and, as an option, a rear RS485 port. The data stream in any \nof the configurations is “half-duplex”.er \nEach byte of data is transmitted asynchronously and is made up of: 1 start bit, 8 data bits, 1 stop bit and \n1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 1,
+        "page": 1,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n2/30 \n \n1. \nMODBUS RTU PROTOCOL ............................................................................................ 3 \n1.1. \nModbus RTU pachage format ........................................................................................ 4 \n1.2. \nFunction Codes............................................................................................................... 4 \n1.3. \nExceptions Responses .................................................................................................. 5 \n1.4. \nData type .......................................................................................................................... 5 \n1.5. \nGeneral Memory Map ..................................................................................................... 7 \n1.5.1. \nStates Map ................................................................................................................... 8 \n1.5.2."
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 39,
+        "page": 22,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "baud_rate",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n23/30 \n \n1.5.4. Settings Map \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n600 (*) \nIdentification \nASCII20 \n- \n800 (**) \n610 (*) \nFrequency \nDENUM \n0 → 60 Hz \n1 → 50 Hz \n810 (**) \n612 (*) \nSerial Number \nLONG \n- \n812 (**) \n614 (*) \nLanguage \nDENUM \n0 → English \n1 → Spanish \n2 → Depends on Relay model \n814 (**) \n616 (*) \nActive Setting Group \nLONG \n- \n816 (**) \n618 (*) \nTrip Voltage Level \nDENUM \n0 → 12 VDC \n1 → 17 VDC \n2 → 22 VDC \n3 → 24 VDC \n818 (**) \n620 (*) \nCT Phase Ratio \nFLOAT INVERSE  \n- \n820 (**) \n622 (*) \nCT Neutral Ratio \nFLOAT INVERSE \n- \n822 (**) \n624 (*) \nLocal COM Address \nLONG \n- \n824 (**) \n626 (*) \nRemote COM Address \nLONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 45,
+        "page": 25,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "baud_rate"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n26/30 \n \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50-2 \n676 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n876 (**) \n678 (*) \nTap \nFLOAT INVERSE \n- \n878 (**) \n680 (*) \nTime Delay \nFLOAT INVERSE \n- \n880 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50G-2 \n682 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n882 (**) \n684 (*) \nTap \nFLOAT INVERSE \n- \n884 (**) \n686 (*) \nTime Delay \nFLOAT INVERSE \n- \n886 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n46 \n688 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n888 (**) \n690 (*) \nCurve Type \nDENUM \n0 → IEC Inverse \n1 → IEC Very Inverse \n2 → IEC Extremely Inverse \n3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n890 (**) \n692 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n892 (**) \n694 (*) \nTap \nFLOAT INVERSE \n- \n894 (**) \n696 (*) \nTime Delay \nFLOAT INVERSE \n-"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 12,
+        "page": 3,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "more consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript  \nThis function allows to write one or more \nregisters that represent one or more settings. \nThe registers are values of 2 bytes of length, \ntransmitted with the most important byte at \nfirst. The maximum number of registers to be \nwritten in a package is 60."
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 10,
+        "page": 3,
+        "score": 4,
+        "bucket": "communication",
+        "retrieved_by": [
+          "data_bits"
+        ],
+        "content": "request.  \nFUNCTION \nCODE \n1 byte  \nThis is one of the function codes supported by the equipment. In this case, the \nonly function codes supported are 3 to read and 16 to write. When the slave has \nto reply with an exception one of these frames, it is indicated by putting 1 in the \nmost important bit of the correspondent function. Thus, an exception for the \nfunction 3, will be indicated with a 83 as a function code; and an exception for the \nfunction code 16 or 0x10 in hexadecimal, will be indicated with an 0x90. \nDATA \nN bytes  \nThis part consists of a variable number of bytes, depending on the function code. \nIt may include: addresses, data lengths, settings, commands or exception codes \nsent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master."
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 29,
+        "page": 12,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "data_bits",
+          "parity",
+          "stop_bits"
+        ],
+        "content": "- \n07 \n23 \nReset \n- \n08 \n- \nLogic Signal 1 \n- \n09 \n- \nLogic Signal 2 \n- \n10 \n- \nLogic Signal 3 \n- \n11 \n- \nLogic Signal 4 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n542 \nRemote DNP3  \n00 \n- \nRemote communication \n- \nBIT32 \n17 \n2 \nOpen Breaker \n- \n18 \n3 \nClose Breaker \n- \n25 \n8 \nReset thermal image \n-"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 44,
+        "page": 24,
+        "score": 4,
+        "bucket": "register",
+        "retrieved_by": [
+          "parity"
+        ],
+        "content": "- \n864 (**) \n666 (*) \nHeating Constant  \nLONG \n- \n866 (**) \n668 (*) \nCooling Constant \nLONG \n- \n868 (**) \n670 (*) \nAlarm Level \nLONG \n- \n870 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nTrip Block \n672 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n872 (**) \n674 (*) \nTap \nFLOAT INVERSE \n- \n874 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 26,
+        "page": 11,
+        "score": 2,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n12/30 \n \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n524 \nRemote Modbus  \n00 \n \nRemote communication \nNone \nBIT32 \n17 \n2 \nOpen Breaker \nNone \n18 \n3 \nClose Breaker \nNone \n25 \n8 \nReset thermal image \nNone \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n528 \n50-2 (*) \n00 \n01 \n50-2 Phase A Pickup \nIA (A) \nBIT32 \n01 \n02 \n50-2 Phase B Pickup \nIB (A) \n02 \n03 \n50-2 Phase C Pickup \nIC (A) \n03 \n04 \n50-2 Pickup \nImax (A) \n08 \n05 \n50-2 Phase A Trip \nIA (A) \n09 \n06 \n50-2 Phase B Trip \nIB (A) \n10 \n07 \n50-2 Phase C Trip \nIC (A) \n11 \n08 \n50-2 Trip \nImax (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n530 \n50G-2 (*) \n04 \n01 \n50G-2 Pickup \nIN (A) \nBIT32 \n12 \n02 \n50G-2 Trip \nIN (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n532 \n46 (*) \n04 \n01 \n46 Pickup \nI2 (A) \nBIT32 \n12 \n02 \n46 Trip \nI2 (A) \n \nAddress \nDescription \nBit"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 0,
+        "page": 0,
+        "score": 1,
+        "bucket": "other",
+        "retrieved_by": [
+          "physical_standard"
+        ],
+        "content": "EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.Doc \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n              MODBUS RTU PROTOCOL MANUAL \n \n \n \nSIA B \nSelf and Dual Powered Overcurrent & Earth Fault Protection Relay with \nStandard Current Transformers."
+      }
+    ]
+  },
+  {
+    "pass_name": "transaction",
+    "parameters": [
+      "nodeAddress",
+      "name",
+      "modbusAddressingMode",
+      "transactionName",
+      "requestFC",
+      "startAddr",
+      "quantity",
+      "responseFC",
+      "byteCount",
+      "dataLength"
+    ],
+    "raw_top_k_per_query": {
+      "node_address": [
+        {
+          "rank": 1,
+          "chunk_id": 9,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n4/30 \n \n \n1.1. \nModbus RTU pachage format \nCUSTOMER \nADDRESS \n1 byte  \nEach device on a communication bus must have a unique address, otherwise two \ndifferent units could reply simultaneously to the same request. All ports of the \nrelay will use this address which can be set a value between 1 and 247. When the \nmaster transmits a frame with the slave address to 0 indicates a Broadcast. All \nthe slaves in the communications bus will carry out the requested action, but no \none will reply to the master. The Broadcast will only be accepted to write, as it \nmakes no sense to make a read request in the Broadcast, as no one will reply this \nrequest.  \nFUNCTION \nCODE \n1 byte  \nThis is one of the function codes supported by the equipment. In this case, the \nonly function codes supported are 3 to read and 16 to write. When the slave has \nto reply with an exception one of these frames, it is indicated by putting 1 in the"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 40,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "LONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2 \n2 → 8-E-1 \n3 → 8-E-2 \n4 → 8-O-1 \n5 → 8-O-2 \n6 → 9-N-1 \n7 → 9-N-2 \n932 (**) \n734 (*) \nDNP3.0 IA Deadband \nLONG \n- \n934 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 39,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n23/30 \n \n1.5.4. Settings Map \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n600 (*) \nIdentification \nASCII20 \n- \n800 (**) \n610 (*) \nFrequency \nDENUM \n0 → 60 Hz \n1 → 50 Hz \n810 (**) \n612 (*) \nSerial Number \nLONG \n- \n812 (**) \n614 (*) \nLanguage \nDENUM \n0 → English \n1 → Spanish \n2 → Depends on Relay model \n814 (**) \n616 (*) \nActive Setting Group \nLONG \n- \n816 (**) \n618 (*) \nTrip Voltage Level \nDENUM \n0 → 12 VDC \n1 → 17 VDC \n2 → 22 VDC \n3 → 24 VDC \n818 (**) \n620 (*) \nCT Phase Ratio \nFLOAT INVERSE  \n- \n820 (**) \n622 (*) \nCT Neutral Ratio \nFLOAT INVERSE \n- \n822 (**) \n624 (*) \nLocal COM Address \nLONG \n- \n824 (**) \n626 (*) \nRemote COM Address \nLONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 4,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n3/30 \n \n \n1. \nMODBUS RTU PROTOCOL \n \nCommunication parameters are: \nModbus RTU: \n \n• Address and Baudrate \n• 8 data bits \n• No parity \n• 1 stop bit \n \nThis document describes the steps to follow to read and write data on the SIA-B relay, as per the \nModbus protocol. This memory map is only valid for one piece of equipment and one version of the \nmemory. The positions of existing objects in the memory remain fixed from one version to the next, but \nnew objects will naturally have new addresses which will, in turn, remain fixed in future versions. The \nmemory map is described further on. \nThe standard Modbus protocol is used, so any program or PC can communicate easily with the \nequipment. \nThe SIA-B always acts as a slave, which means that it never initiates communications. The master is \nalways responsible for initiating communications. \nOnly a subset of the Modbus functions is implemented: \n• \nReading function 3. \n• \nWriting function 16."
+        },
+        {
+          "rank": 5,
+          "chunk_id": 6,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of \nthe parameters are fixed and equal to: baudrate 19200, No parity and stop bit 1. \nIf the relay offers RS485 Modbus protocol: \nFW version 4.05 onwards:  all the parameters are configurable address (1 to 247), the baudrate (4800, \n9600, 19200 or 38400) and parity (8-N-1, 8-N-2, 8-E-1, 8-E-2, 8-O-1, 8-O-2, 9-N-1, 9-N-2) \nFW 4.04 and below: The configurable parameters are:  address (1 to 247) and the baudrate (4800, 9600 \nor 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address,"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 5,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "equipment. \nThe SIA-B always acts as a slave, which means that it never initiates communications. The master is \nalways responsible for initiating communications. \nOnly a subset of the Modbus functions is implemented: \n• \nReading function 3. \n• \nWriting function 16. \nThe MODBUS/RTU protocol is independent from the hardware. Therefore, the physical layer can exist in \ndifferent hardware configurations: RS232, RS485, fibre optic or Ethernet. \nSpecifically, the relay has a front USB port and, as an option, a rear RS485 port. The data stream in any \nof the configurations is “half-duplex”.er \nEach byte of data is transmitted asynchronously and is made up of: 1 start bit, 8 data bits, 1 stop bit and \n1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 1,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n2/30 \n \n1. \nMODBUS RTU PROTOCOL ............................................................................................ 3 \n1.1. \nModbus RTU pachage format ........................................................................................ 4 \n1.2. \nFunction Codes............................................................................................................... 4 \n1.3. \nExceptions Responses .................................................................................................. 5 \n1.4. \nData type .......................................................................................................................... 5 \n1.5. \nGeneral Memory Map ..................................................................................................... 7 \n1.5.1. \nStates Map ................................................................................................................... 8 \n1.5.2."
+        },
+        {
+          "rank": 8,
+          "chunk_id": 44,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n864 (**) \n666 (*) \nHeating Constant  \nLONG \n- \n866 (**) \n668 (*) \nCooling Constant \nLONG \n- \n868 (**) \n670 (*) \nAlarm Level \nLONG \n- \n870 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nTrip Block \n672 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n872 (**) \n674 (*) \nTap \nFLOAT INVERSE \n- \n874 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        }
+      ],
+      "node_name": [
+        {
+          "rank": 1,
+          "chunk_id": 40,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "LONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2 \n2 → 8-E-1 \n3 → 8-E-2 \n4 → 8-O-1 \n5 → 8-O-2 \n6 → 9-N-1 \n7 → 9-N-2 \n932 (**) \n734 (*) \nDNP3.0 IA Deadband \nLONG \n- \n934 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 39,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n23/30 \n \n1.5.4. Settings Map \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n600 (*) \nIdentification \nASCII20 \n- \n800 (**) \n610 (*) \nFrequency \nDENUM \n0 → 60 Hz \n1 → 50 Hz \n810 (**) \n612 (*) \nSerial Number \nLONG \n- \n812 (**) \n614 (*) \nLanguage \nDENUM \n0 → English \n1 → Spanish \n2 → Depends on Relay model \n814 (**) \n616 (*) \nActive Setting Group \nLONG \n- \n816 (**) \n618 (*) \nTrip Voltage Level \nDENUM \n0 → 12 VDC \n1 → 17 VDC \n2 → 22 VDC \n3 → 24 VDC \n818 (**) \n620 (*) \nCT Phase Ratio \nFLOAT INVERSE  \n- \n820 (**) \n622 (*) \nCT Neutral Ratio \nFLOAT INVERSE \n- \n822 (**) \n624 (*) \nLocal COM Address \nLONG \n- \n824 (**) \n626 (*) \nRemote COM Address \nLONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 44,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n864 (**) \n666 (*) \nHeating Constant  \nLONG \n- \n866 (**) \n668 (*) \nCooling Constant \nLONG \n- \n868 (**) \n670 (*) \nAlarm Level \nLONG \n- \n870 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nTrip Block \n672 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n872 (**) \n674 (*) \nTap \nFLOAT INVERSE \n- \n874 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 43,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n25/30 \n \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n51G \n652 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n852 (**) \n654 (*) \nCurve Type \nDENUM \n0 → IEC Inverse \n1 → IEC Very Inverse \n2 → IEC Extremely Inverse \n3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n854 (**) \n656 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n856 (**) \n658 (*) \nTap \nFLOAT INVERSE \n- \n858 (**) \n660 (*) \nTime Delay \nFLOAT INVERSE \n- \n860 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n49 \n662 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n862 (**) \n664 (*) \nTap \nFLOAT INVERSE \n- \n864 (**) \n666 (*) \nHeating Constant  \nLONG \n- \n866 (**) \n668 (*) \nCooling Constant \nLONG \n- \n868 (**) \n670 (*) \nAlarm Level \nLONG \n- \n870 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nTrip Block \n672 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n872 (**) \n674 (*) \nTap"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 41,
+          "page": 23,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n24/30 \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n736 (*) \nDNP3.0 IB Deadband \nLONG \n- \n936 (**) \n738 (*) \nDNP3.0 IC Deadband \nLONG \n- \n938 (**) \n740 (*) \nDNP3.0 IN Deadband \nLONG \n- \n940 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50-1 \n630 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n830 (**) \n632 (*) \nTap \nFLOAT INVERSE \n- \n832 (**) \n634 (*) \nTime Delay \nFLOAT INVERSE \n- \n834 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n51 \n636 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n 836 (**) \n638 (*) \nCurve Type \nDENUM \n0 → IEC Inverse \n1 → IEC Very Inverse \n2 → IEC Extremely Inverse \n3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n838 (**) \n640 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n840 (**) \n642 (*) \nTap \nFLOAT INVERSE \n- \n842 (**) \n644 (*) \nTime Delay \nFLOAT INVERSE \n- \n844 (**) \n \nSettings"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 29,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n07 \n23 \nReset \n- \n08 \n- \nLogic Signal 1 \n- \n09 \n- \nLogic Signal 2 \n- \n10 \n- \nLogic Signal 3 \n- \n11 \n- \nLogic Signal 4 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n542 \nRemote DNP3  \n00 \n- \nRemote communication \n- \nBIT32 \n17 \n2 \nOpen Breaker \n- \n18 \n3 \nClose Breaker \n- \n25 \n8 \nReset thermal image \n-"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 20,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n9/30 \n \n27 \n \nPhase Trip \n- \n28 \n3 \nAuxiliary Power \n- \n29 \n4 \nSelf-powering \n- \n30 \n- \nUSB Power \n- \n31 \n5 \nBattery \n- \n- \n30 \nNew DFR \n \n- \n45 \nDate/Time Error \n- \n- \n46 \nNew DFR \nDFR number \n- \n47 \nIdentification \n- \n- \n48 \nEvents Erased \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n8200 \nOscilo \n- \n16 \nDFR Erased \n \nBIT32 \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n502 \nLocal COM \n00 \n \nLocal communication \n \nBIT32 \n01 \n \nHMI Activity \n \n17 \n2 \nOpen Breaker \n \n18 \n3 \nClose Breaker \n \n25 \n8 \nReset thermal image \n \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n504 \n50-1 \n00 \n01 \n50-1 Phase A Pickup \nIA (A) \nBIT32 \n01 \n02 \n50-1 Phase B Pickup \nIB (A) \n02 \n03 \n50-1 Phase C Pickup \nIC (A) \n03 \n04 \n50-1 Pickup \nImax (A) \n08 \n05 \n50-1 Phase A Trip \nIA (A) \n09 \n06 \n50-1 Phase B Trip \nIB (A) \n10 \n07 \n50-1 Phase C Trip \nIC (A) \n11 \n08"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 48,
+          "page": 26,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "DENUM \n0 → Disable \n1 → Enable \n914 (**) \n716 (*) \nCurrent Tap \nLONG \n- \n916 (**) \n718 (*) \nReset Time \nFLOAT INVERSE \n- \n918 (**) \n742 (*) \nBlock Threshold \nFLOAT INVERSE \n- \n942 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nCLP \n720 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n920 (**) \n722 (*) \nActive Settings Group \nLONG \n- \n922 (**) \n724 (*) \nNo Load Time \nFLOAT INVERSE \n- \n924 (**) \n726 (*) \nCold Load Time \nFLOAT INVERSE \n- \n926 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        }
+      ],
+      "addressing_mode": [
+        {
+          "rank": 1,
+          "chunk_id": 1,
+          "page": 1,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n2/30 \n \n1. \nMODBUS RTU PROTOCOL ............................................................................................ 3 \n1.1. \nModbus RTU pachage format ........................................................................................ 4 \n1.2. \nFunction Codes............................................................................................................... 4 \n1.3. \nExceptions Responses .................................................................................................. 5 \n1.4. \nData type .......................................................................................................................... 5 \n1.5. \nGeneral Memory Map ..................................................................................................... 7 \n1.5.1. \nStates Map ................................................................................................................... 8 \n1.5.2."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 9,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n4/30 \n \n \n1.1. \nModbus RTU pachage format \nCUSTOMER \nADDRESS \n1 byte  \nEach device on a communication bus must have a unique address, otherwise two \ndifferent units could reply simultaneously to the same request. All ports of the \nrelay will use this address which can be set a value between 1 and 247. When the \nmaster transmits a frame with the slave address to 0 indicates a Broadcast. All \nthe slaves in the communications bus will carry out the requested action, but no \none will reply to the master. The Broadcast will only be accepted to write, as it \nmakes no sense to make a read request in the Broadcast, as no one will reply this \nrequest.  \nFUNCTION \nCODE \n1 byte  \nThis is one of the function codes supported by the equipment. In this case, the \nonly function codes supported are 3 to read and 16 to write. When the slave has \nto reply with an exception one of these frames, it is indicated by putting 1 in the"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "sent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master. \nThe management of the CRC is LSB-MSB.  \nDEAD TIME  \nNecessary time \nto transmit 3,5 \nBytes \nA frame is terminated when nothing is received for a period of 3,5 bytes. It means:  \n15 ms at 2400 bps  \n2 ms at 19200 bps  \n...etc. \n \n \n1.2. \nFunction Codes \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x03 \n3 \nRead Holding \nRegisters \nReading of Any Value  \nThis function allows the master to read 1 or \nmore consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 40,
+          "page": 22,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "LONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2 \n2 → 8-E-1 \n3 → 8-E-2 \n4 → 8-O-1 \n5 → 8-O-2 \n6 → 9-N-1 \n7 → 9-N-2 \n932 (**) \n734 (*) \nDNP3.0 IA Deadband \nLONG \n- \n934 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 44,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n864 (**) \n666 (*) \nHeating Constant  \nLONG \n- \n866 (**) \n668 (*) \nCooling Constant \nLONG \n- \n868 (**) \n670 (*) \nAlarm Level \nLONG \n- \n870 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nTrip Block \n672 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n872 (**) \n674 (*) \nTap \nFLOAT INVERSE \n- \n874 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 4,
+          "page": 2,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n3/30 \n \n \n1. \nMODBUS RTU PROTOCOL \n \nCommunication parameters are: \nModbus RTU: \n \n• Address and Baudrate \n• 8 data bits \n• No parity \n• 1 stop bit \n \nThis document describes the steps to follow to read and write data on the SIA-B relay, as per the \nModbus protocol. This memory map is only valid for one piece of equipment and one version of the \nmemory. The positions of existing objects in the memory remain fixed from one version to the next, but \nnew objects will naturally have new addresses which will, in turn, remain fixed in future versions. The \nmemory map is described further on. \nThe standard Modbus protocol is used, so any program or PC can communicate easily with the \nequipment. \nThe SIA-B always acts as a slave, which means that it never initiates communications. The master is \nalways responsible for initiating communications. \nOnly a subset of the Modbus functions is implemented: \n• \nReading function 3. \n• \nWriting function 16."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 51,
+          "page": 28,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n29/30 \n \n \n1.8. \nExample of Modbus Frames \nWriting the access password “5555” to equipment no. 1 \n \nAddress \nFunction H Pickup \nAddress \nL Pickup \nAddress \nNumber of \nH Registers \nNumber of \nL Registers \nNumber \nof \nBytes \nPassword \nChecksum \nH \nChecksum L \n0x01 \n0x10 \n0x00 \n0xA8 \n0x00 \n0x02 \n0x04 \n0x35        \n0x35 \n0x35        \n0x35 \n0x30 \n0xF4 \n \nAnd the SIA-B will reply OK: \nAddress \nFunction \nH Pickup \nAddress \nL Pickup \nAddress \nNumber \nof H \nRegisters \nNumber of L \nRegisters \nChecksum \nH \nChecksum \nL \n0x01 \n0x10 \n0x00 \n0xA8 \n0x00 \n0x02 \n0xC0 \n0x28 \n \n \n1.9. \nExample of Time and Date synchronization \nUnix time is a system for describing a point in time. It is the number of miliseconds that have elapsed \nsince 00:00:00 Thursday, 1 January 1970. \n \nExample of date: \n07/15/2019 @ 08:58:35 am (UTC) \n \nIs equivalent to: \n1563173915 in seconds → 1563173915000 in miliseconds → 016B F46D 0978 in HEX \n \nThis can be sent as follows: \nAddress \nValue"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 26,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n12/30 \n \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n524 \nRemote Modbus  \n00 \n \nRemote communication \nNone \nBIT32 \n17 \n2 \nOpen Breaker \nNone \n18 \n3 \nClose Breaker \nNone \n25 \n8 \nReset thermal image \nNone \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n528 \n50-2 (*) \n00 \n01 \n50-2 Phase A Pickup \nIA (A) \nBIT32 \n01 \n02 \n50-2 Phase B Pickup \nIB (A) \n02 \n03 \n50-2 Phase C Pickup \nIC (A) \n03 \n04 \n50-2 Pickup \nImax (A) \n08 \n05 \n50-2 Phase A Trip \nIA (A) \n09 \n06 \n50-2 Phase B Trip \nIB (A) \n10 \n07 \n50-2 Phase C Trip \nIC (A) \n11 \n08 \n50-2 Trip \nImax (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n530 \n50G-2 (*) \n04 \n01 \n50G-2 Pickup \nIN (A) \nBIT32 \n12 \n02 \n50G-2 Trip \nIN (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n532 \n46 (*) \n04 \n01 \n46 Pickup \nI2 (A) \nBIT32 \n12 \n02 \n46 Trip \nI2 (A) \n \nAddress \nDescription \nBit"
+        }
+      ],
+      "register": [
+        {
+          "rank": 1,
+          "chunk_id": 12,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "more consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript  \nThis function allows to write one or more \nregisters that represent one or more settings. \nThe registers are values of 2 bytes of length, \ntransmitted with the most important byte at \nfirst. The maximum number of registers to be \nwritten in a package is 60."
+        },
+        {
+          "rank": 2,
+          "chunk_id": 42,
+          "page": 23,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n838 (**) \n640 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n840 (**) \n642 (*) \nTap \nFLOAT INVERSE \n- \n842 (**) \n644 (*) \nTime Delay \nFLOAT INVERSE \n- \n844 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50G-1 \n646 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n846 (**) \n648 (*) \nTap \nFLOAT INVERSE \n- \n848 (**) \n650 (*) \nTime Delay \nFLOAT INVERSE \n- \n850 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 17,
+          "page": 6,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n7/30 \n \n1.5. \nGeneral Memory Map \nFunction \nDescription \nStart \naddress \nNumber of \nregistries \nFormat \nReference \n16 \nWrite the Directory of Event \n1 \n1 \nUINT \n \n16 \nLoad data Profiling \n2 \n1 \n \n \n16 \nWrite the number of the Setting List \n6 \n1 \nUINT \n \n03 \nRead of Model and Version \n100 \n44 \nASCII88 \n \n16 \nWrite access code \n168 \n2 \nUCHAR4 \nSee Passwords and \nAccess Levels \n03 & 16 \nDate and Time \n170 \n5 \nFH \n \n16 \nDirect Operate of Command \n182 \n1 \nUINT \nSee Commands map \n16 \nSelection of Command \n200 \n2 \nUINT \nSee Commands map \n16 \nConfirmation of Command \n201 \n1 \nUINT \nSee Commands map  \n03 & 16 \nCounters \n202 \n2 \nCONT \nOpennings Number \n03 & 16 \nCounters \n204 \n2 \nCONT \nAccumulated \nAmperes \n16 \nDate and Time Syncronization \n233 \n4 \nDOUBLE INVERSE \nUNIX Time (also \nknown as POSIX or \nUNIX Epoch time) \n03 \nSerial number \n252 \n2 \nLONG \n \n03 \nEquipment identifier \n254 \n44 \nASCII88 \n \n03 \nRead and Delete the oldest Event \n400 \n11 \nEVENTO2"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 15,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n6/30 \n \nLONG \n2 \nInteger without sign of 4 bytes \nDWORD \n2 \nInteger with sign of 4 bytes \nFLOAT \nINVERSE \n2 \nNumber in FLOAT INVERSEing decimal point “FLOAT INVERSE” of 4 bytes \nASCIIxx \nxx/2 \nString: In length variable character chain. Final of String marked with ‘\\0’. \nE. g.: “ABC” 0x41x42x43x00.... \nMILIS \n3 \nMinutes (passed since 00:00 of 1/1/2000) (LONG). milliseconds (UINT) \nFH \n5 \nYear(UINT).month(UCHAR).day(UCHAR).hour(UCHAR).minutes(UCHAR).second\ns(UCHAR).hundredth(UCHAR).thousandth(UINT) \nCONT \n13 \nDirectory (UINT).Value(DWORD).Description(ASCII20) \nEVENT \n9 \nCriteria Directory (UINT).Event Identifier(UINT).Value(UINT).Associated \nMeasure(UINT).Date and Time(FH) \nEVENTO \n10 \nAntiquity (UINT).Event (EVENT) \nCCRIT \n6 \nCriteria Number (UINT). Criteria Directory(UINT).Descriptive text(ASCII8) \nPEST \n61 \nNumber of States (UINT). Protection State-1(BIT16). … Protection State-60(BIT16) \nPCRIT \n61"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 16,
+          "page": 5,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "Measure(UINT).Date and Time(FH) \nEVENTO \n10 \nAntiquity (UINT).Event (EVENT) \nCCRIT \n6 \nCriteria Number (UINT). Criteria Directory(UINT).Descriptive text(ASCII8) \nPEST \n61 \nNumber of States (UINT). Protection State-1(BIT16). … Protection State-60(BIT16) \nPCRIT \n61 \nNumber of Criteria (UINT). Index of Criteria-1(UINT). … Index of Criteria-60(UINT). \nCMED \n8 \nNumber of Measure (UINT). Descriptive text(ASCII7).Unit(ASCII3).Primary \nUnit(ASCII5).Number of decimals(UCHAR) \nGAJU \n61 \nNumber of Groups (UINT). Index of the Criteria-1(UINT).Index of the first setting of \nthe Criteria-1(UINT). … Index of the Criterion-30(UINT). Index of the first setting of \nthe Criteria-30(UINT). \nENUM TRIP \nVOLT \n1 \nInteger without sign of 16 bits.  \nE. g.: 0, 1, 2 Correspondence to “12V”, “17V”, “22V” \nWhen the data format takes up more than one BYTE, the most important BYTE is sent through the \ncommunications first, and the least important BYTE is sent last."
+        },
+        {
+          "rank": 6,
+          "chunk_id": 31,
+          "page": 14,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n15/30 \n \n1.5.1.1. \nExamples \nEach state is made up of 32 bits. The bits from 00 to 15 will be shown in the odd adrees and the bits \nfrom 16 to 32 in the even address.  \nThe criterion is to show from the MSB to the LSB (BIGENDIAN criterion)-   \n \nGENERAL STATES→Address 500: BIT32 (2 registers): \n \nAddress 501 will show the firt 16 bits:"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 14,
+          "page": 4,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "Generic non-recognition. \n \nWhen the data format takes up more than one BYTE, the most important BYTE is sent through the \ncommunications first, and the least important BYTE is sent last. \n \n \n1.4. \nData type \nTYPE \nLENGTH \nDESCRIPTION \nUCHAR \n1/2 \nInteger without sign of 1 byte \nBYTE \n1/2 \nInteger with sign of 1 byte \nBIT16 \n1 \nGathered bits type, groups of 16.  \nE. g.: 0x1A41 = 0001101001000001b \nBIT32 \n2 \nGathered bits type, groups of 32. \nENUM \n1 \nInteger without sign of 16 bits. Each of the possible values of the integer will have \na correspondence in the auxiliary list of the database. This list is the \ncorrespondence chain which must be shown for each of the values. Memory will \nonly receive an integer value. \nE. g.: 0, 1 Correspondence to “CLOSED”, “OPEN” \nDENUM \n2 \nInteger without sign of 32 bits \nUINT \n1 \nInteger without sign of 2 bytes \nINT \n1 \nInteger with sign of 2 bytes"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 33,
+          "page": 16,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n17/30 \n \n \nINPUTS STATES→Address 512 (BIT32- 2 registers):  \n \nAddress 513 will show the first 16 bits: \n \n \nAddress 512 will show the last 16 bits: there are not bit numbers higher than 16, so this \naddress will be empty"
+        }
+      ],
+      "function_code": [
+        {
+          "rank": 1,
+          "chunk_id": 37,
+          "page": 20,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n21/30 \n \n- \nRead the event you have selected in the previous step with function 3 (read holding register), \naddress 8123 and 11 registers: \n \n \n \n \no \nRequest: \n \n \n1F BB in HEX translated to DEC is 8123. \n \no \nResponse: \n \n \n \n \n*To check which value refers to event nº 1 inside the 51P, check the data in states map:"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 19,
+          "page": 7,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n8/30 \n \n1.5.1. States Map \nThe function code implemented to State reading is is 0x03 (Read Holding Registers) \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n500 \nGeneral \n00 \n1 \nTrip \nImax (A) \nBIT32 \n01 \n2 \nExternal Trip \n- \n02 \n6 \nNo Trip Power \n- \n03 \n7 \n50 Hz \n- \n04 \n8 \nTrip Block Enable \n- \n05 \n16 \nMeasure Error \n- \n06 \n17 \nReady \n1: Vaux power \n2: Self-powering \n4: USB power \n07 \n19 \nSettings Changed \n- \n08 \n21 \nSet Date/Time \n- \n09 \n22 \nLocal Activity \n- \n10 \n23 \nFactory Settings \n- \n11 \n24 \nEEPROM Error \n- \n12 \n28 \nEEPROM Changed \n- \n13 \n32 \nEvents Error \n- \n15 \n15 \nReset \n- \n16 \n49 \nPickup \nImax (A) \n17 \n50 \nPhase A Pickup \nIA (A) \n18 \n51 \nPhase B Pickup \nIB (A) \n19 \n52 \nPhase C Pickup \nIC (A) \n20 \n53 \nNeutral Pickup \nIN (A) \n21 \n54 \nPhase A Trip \nIA (A) \n22 \n55 \nPhase B Trip \nIB (A) \n23 \n56 \nPhase C Trip \nIC (A) \n24 \n57 \nNeutral Trip \nIN (A) \n25 \n58 \n50 Trip \n- \n26 \n59 \n50G Trip \n-"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 44,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n864 (**) \n666 (*) \nHeating Constant  \nLONG \n- \n866 (**) \n668 (*) \nCooling Constant \nLONG \n- \n868 (**) \n670 (*) \nAlarm Level \nLONG \n- \n870 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nTrip Block \n672 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n872 (**) \n674 (*) \nTap \nFLOAT INVERSE \n- \n874 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 11,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "sent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master. \nThe management of the CRC is LSB-MSB.  \nDEAD TIME  \nNecessary time \nto transmit 3,5 \nBytes \nA frame is terminated when nothing is received for a period of 3,5 bytes. It means:  \n15 ms at 2400 bps  \n2 ms at 19200 bps  \n...etc. \n \n \n1.2. \nFunction Codes \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x03 \n3 \nRead Holding \nRegisters \nReading of Any Value  \nThis function allows the master to read 1 or \nmore consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 29,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n07 \n23 \nReset \n- \n08 \n- \nLogic Signal 1 \n- \n09 \n- \nLogic Signal 2 \n- \n10 \n- \nLogic Signal 3 \n- \n11 \n- \nLogic Signal 4 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n542 \nRemote DNP3  \n00 \n- \nRemote communication \n- \nBIT32 \n17 \n2 \nOpen Breaker \n- \n18 \n3 \nClose Breaker \n- \n25 \n8 \nReset thermal image \n-"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 12,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "more consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript  \nThis function allows to write one or more \nregisters that represent one or more settings. \nThe registers are values of 2 bytes of length, \ntransmitted with the most important byte at \nfirst. The maximum number of registers to be \nwritten in a package is 60."
+        },
+        {
+          "rank": 7,
+          "chunk_id": 10,
+          "page": 3,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "request.  \nFUNCTION \nCODE \n1 byte  \nThis is one of the function codes supported by the equipment. In this case, the \nonly function codes supported are 3 to read and 16 to write. When the slave has \nto reply with an exception one of these frames, it is indicated by putting 1 in the \nmost important bit of the correspondent function. Thus, an exception for the \nfunction 3, will be indicated with a 83 as a function code; and an exception for the \nfunction code 16 or 0x10 in hexadecimal, will be indicated with an 0x90. \nDATA \nN bytes  \nThis part consists of a variable number of bytes, depending on the function code. \nIt may include: addresses, data lengths, settings, commands or exception codes \nsent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master."
+        },
+        {
+          "rank": 8,
+          "chunk_id": 48,
+          "page": 26,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "DENUM \n0 → Disable \n1 → Enable \n914 (**) \n716 (*) \nCurrent Tap \nLONG \n- \n916 (**) \n718 (*) \nReset Time \nFLOAT INVERSE \n- \n918 (**) \n742 (*) \nBlock Threshold \nFLOAT INVERSE \n- \n942 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nCLP \n720 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n920 (**) \n722 (*) \nActive Settings Group \nLONG \n- \n922 (**) \n724 (*) \nNo Load Time \nFLOAT INVERSE \n- \n924 (**) \n726 (*) \nCold Load Time \nFLOAT INVERSE \n- \n926 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        }
+      ],
+      "coils_discrete": [
+        {
+          "rank": 1,
+          "chunk_id": 29,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n07 \n23 \nReset \n- \n08 \n- \nLogic Signal 1 \n- \n09 \n- \nLogic Signal 2 \n- \n10 \n- \nLogic Signal 3 \n- \n11 \n- \nLogic Signal 4 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n542 \nRemote DNP3  \n00 \n- \nRemote communication \n- \nBIT32 \n17 \n2 \nOpen Breaker \n- \n18 \n3 \nClose Breaker \n- \n25 \n8 \nReset thermal image \n-"
+        },
+        {
+          "rank": 2,
+          "chunk_id": 23,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "IN (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n512 \nInputs \n00 \n17 \nInput 1 \n- \nBIT32 \n01 \n18 \nInput 2 \n- \n02 \n19 \nInput 3 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n514 \nOutputs \n00 \n01 \nOutput 1 \n- \nBIT32 \n01 \n02 \nOutput 2 \n- \n02 \n03 \nOutput 3 \n- \n03 \n04 \nTrip Output \n-"
+        },
+        {
+          "rank": 3,
+          "chunk_id": 22,
+          "page": 9,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n10/30 \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n506 \n51 \n00 \n01 \n51 Phase A Pickup \nIA (A) \nBIT32 \n01 \n02 \n51 Phase B Pickup \nIB (A) \n02 \n03 \n51 Phase C PIckup \nIC (A) \n03 \n04 \n51 Pickup \nImax (A) \n08 \n05 \n51 Phase A Trip \nIA (A) \n09 \n06 \n51 Phase B Trip \nIB (A \n10 \n07 \n51 Phase C Trip \nIC (A) \n11 \n08 \n51 Trip \nImax (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n508 \n50G-1 \n04 \n01 \n50G-1 Pickup \nIN (A) \nBIT32 \n12 \n02 \n50G-1 Trip \nIN (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n510 \n51G \n04 \n01 \n51G Pickup \nIN (A) \nBIT32 \n12 \n02 \n51G Trip \nIN (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n512 \nInputs \n00 \n17 \nInput 1 \n- \nBIT32 \n01 \n18 \nInput 2 \n- \n02 \n19 \nInput 3 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n514 \nOutputs \n00 \n01 \nOutput 1 \n- \nBIT32 \n01"
+        },
+        {
+          "rank": 4,
+          "chunk_id": 44,
+          "page": 24,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "- \n864 (**) \n666 (*) \nHeating Constant  \nLONG \n- \n866 (**) \n668 (*) \nCooling Constant \nLONG \n- \n868 (**) \n670 (*) \nAlarm Level \nLONG \n- \n870 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nTrip Block \n672 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n872 (**) \n674 (*) \nTap \nFLOAT INVERSE \n- \n874 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+        },
+        {
+          "rank": 5,
+          "chunk_id": 19,
+          "page": 7,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n8/30 \n \n1.5.1. States Map \nThe function code implemented to State reading is is 0x03 (Read Holding Registers) \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n500 \nGeneral \n00 \n1 \nTrip \nImax (A) \nBIT32 \n01 \n2 \nExternal Trip \n- \n02 \n6 \nNo Trip Power \n- \n03 \n7 \n50 Hz \n- \n04 \n8 \nTrip Block Enable \n- \n05 \n16 \nMeasure Error \n- \n06 \n17 \nReady \n1: Vaux power \n2: Self-powering \n4: USB power \n07 \n19 \nSettings Changed \n- \n08 \n21 \nSet Date/Time \n- \n09 \n22 \nLocal Activity \n- \n10 \n23 \nFactory Settings \n- \n11 \n24 \nEEPROM Error \n- \n12 \n28 \nEEPROM Changed \n- \n13 \n32 \nEvents Error \n- \n15 \n15 \nReset \n- \n16 \n49 \nPickup \nImax (A) \n17 \n50 \nPhase A Pickup \nIA (A) \n18 \n51 \nPhase B Pickup \nIB (A) \n19 \n52 \nPhase C Pickup \nIC (A) \n20 \n53 \nNeutral Pickup \nIN (A) \n21 \n54 \nPhase A Trip \nIA (A) \n22 \n55 \nPhase B Trip \nIB (A) \n23 \n56 \nPhase C Trip \nIC (A) \n24 \n57 \nNeutral Trip \nIN (A) \n25 \n58 \n50 Trip \n- \n26 \n59 \n50G Trip \n-"
+        },
+        {
+          "rank": 6,
+          "chunk_id": 28,
+          "page": 12,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n13/30 \n \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n536 \nSHB \n08 \n01 \nPhase A Block \nIA-2H (A) \nBIT32 \n09 \n02 \nPhase B Block \nIB-2H (A) \n10 \n03 \nPhase C Block \nIC-2H (A) \n11 \n04 \nPhase Block \nImax-2H (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n538 \nLeds \n00 \n- \nLed 1 \n- \nBIT32 \n01 \n- \nLed 2 \n- \n02 \n- \nLed 3 \n- \n03 \n- \nLed 4 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n540 \nLogic \n00 \n18 \n52 A \n- \nBIT32 \n01 \n19 \n52 B \n- \n02 \n22 \nExternal Trip \n- \n03 \n20 \nBlock 50/51 \n- \n04 \n21 \nBlock 50/51G \n- \n05 \n24 \nSettings Group 1 \n- \n06 \n25 \nSettings Group 2 \n- \n07 \n23 \nReset \n- \n08 \n- \nLogic Signal 1 \n- \n09 \n- \nLogic Signal 2 \n- \n10 \n- \nLogic Signal 3 \n- \n11 \n- \nLogic Signal 4 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n542 \nRemote DNP3  \n00 \n- \nRemote communication \n- \nBIT32 \n17 \n2 \nOpen Breaker \n-"
+        },
+        {
+          "rank": 7,
+          "chunk_id": 20,
+          "page": 8,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n9/30 \n \n27 \n \nPhase Trip \n- \n28 \n3 \nAuxiliary Power \n- \n29 \n4 \nSelf-powering \n- \n30 \n- \nUSB Power \n- \n31 \n5 \nBattery \n- \n- \n30 \nNew DFR \n \n- \n45 \nDate/Time Error \n- \n- \n46 \nNew DFR \nDFR number \n- \n47 \nIdentification \n- \n- \n48 \nEvents Erased \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n8200 \nOscilo \n- \n16 \nDFR Erased \n \nBIT32 \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n502 \nLocal COM \n00 \n \nLocal communication \n \nBIT32 \n01 \n \nHMI Activity \n \n17 \n2 \nOpen Breaker \n \n18 \n3 \nClose Breaker \n \n25 \n8 \nReset thermal image \n \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n504 \n50-1 \n00 \n01 \n50-1 Phase A Pickup \nIA (A) \nBIT32 \n01 \n02 \n50-1 Phase B Pickup \nIB (A) \n02 \n03 \n50-1 Phase C Pickup \nIC (A) \n03 \n04 \n50-1 Pickup \nImax (A) \n08 \n05 \n50-1 Phase A Trip \nIA (A) \n09 \n06 \n50-1 Phase B Trip \nIB (A) \n10 \n07 \n50-1 Phase C Trip \nIC (A) \n11 \n08"
+        },
+        {
+          "rank": 8,
+          "chunk_id": 27,
+          "page": 11,
+          "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\EN_FANOXTD_MANU_SIA_MODBUS_SIAB-STANDARD-CT_R008.pdf",
+          "content": "Associated \nMeasurement \nFormat \n530 \n50G-2 (*) \n04 \n01 \n50G-2 Pickup \nIN (A) \nBIT32 \n12 \n02 \n50G-2 Trip \nIN (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n532 \n46 (*) \n04 \n01 \n46 Pickup \nI2 (A) \nBIT32 \n12 \n02 \n46 Trip \nI2 (A) \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n534 \nCLP (*) \n00 \n \nCLP Disable \n \nBIT32 \n01 \n \n52 Closed \n \n02 \n \n52 Open \n \n03 \n \n52 definitive Opening \n \n04 \n \nClose Cold Load \n \n05 \n \nOpen Cold Load \n \n11 \n02 \nCold Load Pickup \nImax (A)"
+        }
+      ]
+    },
+    "num_chunks_sent": 20,
+    "final_chunks_sent_to_llm": [
+      {
+        "context_position": 1,
+        "chunk_id": 4,
+        "page": 2,
+        "score": 9,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n3/30 \n \n \n1. \nMODBUS RTU PROTOCOL \n \nCommunication parameters are: \nModbus RTU: \n \n• Address and Baudrate \n• 8 data bits \n• No parity \n• 1 stop bit \n \nThis document describes the steps to follow to read and write data on the SIA-B relay, as per the \nModbus protocol. This memory map is only valid for one piece of equipment and one version of the \nmemory. The positions of existing objects in the memory remain fixed from one version to the next, but \nnew objects will naturally have new addresses which will, in turn, remain fixed in future versions. The \nmemory map is described further on. \nThe standard Modbus protocol is used, so any program or PC can communicate easily with the \nequipment. \nThe SIA-B always acts as a slave, which means that it never initiates communications. The master is \nalways responsible for initiating communications. \nOnly a subset of the Modbus functions is implemented: \n• \nReading function 3. \n• \nWriting function 16."
+      },
+      {
+        "context_position": 2,
+        "chunk_id": 44,
+        "page": 24,
+        "score": 8,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "node_name",
+          "addressing_mode",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "- \n864 (**) \n666 (*) \nHeating Constant  \nLONG \n- \n866 (**) \n668 (*) \nCooling Constant \nLONG \n- \n868 (**) \n670 (*) \nAlarm Level \nLONG \n- \n870 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nTrip Block \n672 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n872 (**) \n674 (*) \nTap \nFLOAT INVERSE \n- \n874 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+      },
+      {
+        "context_position": 3,
+        "chunk_id": 40,
+        "page": 22,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "node_name",
+          "addressing_mode"
+        ],
+        "content": "LONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2 \n2 → 8-E-1 \n3 → 8-E-2 \n4 → 8-O-1 \n5 → 8-O-2 \n6 → 9-N-1 \n7 → 9-N-2 \n932 (**) \n734 (*) \nDNP3.0 IA Deadband \nLONG \n- \n934 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+      },
+      {
+        "context_position": 4,
+        "chunk_id": 14,
+        "page": 4,
+        "score": 7,
+        "bucket": "register",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "Generic non-recognition. \n \nWhen the data format takes up more than one BYTE, the most important BYTE is sent through the \ncommunications first, and the least important BYTE is sent last. \n \n \n1.4. \nData type \nTYPE \nLENGTH \nDESCRIPTION \nUCHAR \n1/2 \nInteger without sign of 1 byte \nBYTE \n1/2 \nInteger with sign of 1 byte \nBIT16 \n1 \nGathered bits type, groups of 16.  \nE. g.: 0x1A41 = 0001101001000001b \nBIT32 \n2 \nGathered bits type, groups of 32. \nENUM \n1 \nInteger without sign of 16 bits. Each of the possible values of the integer will have \na correspondence in the auxiliary list of the database. This list is the \ncorrespondence chain which must be shown for each of the values. Memory will \nonly receive an integer value. \nE. g.: 0, 1 Correspondence to “CLOSED”, “OPEN” \nDENUM \n2 \nInteger without sign of 32 bits \nUINT \n1 \nInteger without sign of 2 bytes \nINT \n1 \nInteger with sign of 2 bytes"
+      },
+      {
+        "context_position": 5,
+        "chunk_id": 6,
+        "page": 2,
+        "score": 6,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of \nthe parameters are fixed and equal to: baudrate 19200, No parity and stop bit 1. \nIf the relay offers RS485 Modbus protocol: \nFW version 4.05 onwards:  all the parameters are configurable address (1 to 247), the baudrate (4800, \n9600, 19200 or 38400) and parity (8-N-1, 8-N-2, 8-E-1, 8-E-2, 8-O-1, 8-O-2, 9-N-1, 9-N-2) \nFW 4.04 and below: The configurable parameters are:  address (1 to 247) and the baudrate (4800, 9600 \nor 19200). The rest of the parameters are fixed: without parity and with 1 stop bit. \nThe master must know the address of the slave that it is going to communicate with. No unit will act on \nrequests from the master if the message is not addressed to them. The exception is when the 0 address,"
+      },
+      {
+        "context_position": 6,
+        "chunk_id": 1,
+        "page": 1,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n2/30 \n \n1. \nMODBUS RTU PROTOCOL ............................................................................................ 3 \n1.1. \nModbus RTU pachage format ........................................................................................ 4 \n1.2. \nFunction Codes............................................................................................................... 4 \n1.3. \nExceptions Responses .................................................................................................. 5 \n1.4. \nData type .......................................................................................................................... 5 \n1.5. \nGeneral Memory Map ..................................................................................................... 7 \n1.5.1. \nStates Map ................................................................................................................... 8 \n1.5.2."
+      },
+      {
+        "context_position": 7,
+        "chunk_id": 48,
+        "page": 26,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name",
+          "function_code"
+        ],
+        "content": "DENUM \n0 → Disable \n1 → Enable \n914 (**) \n716 (*) \nCurrent Tap \nLONG \n- \n916 (**) \n718 (*) \nReset Time \nFLOAT INVERSE \n- \n918 (**) \n742 (*) \nBlock Threshold \nFLOAT INVERSE \n- \n942 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nCLP \n720 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n920 (**) \n722 (*) \nActive Settings Group \nLONG \n- \n922 (**) \n724 (*) \nNo Load Time \nFLOAT INVERSE \n- \n924 (**) \n726 (*) \nCold Load Time \nFLOAT INVERSE \n- \n926 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+      },
+      {
+        "context_position": 8,
+        "chunk_id": 12,
+        "page": 3,
+        "score": 6,
+        "bucket": "register",
+        "retrieved_by": [
+          "register",
+          "function_code"
+        ],
+        "content": "more consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript  \nThis function allows to write one or more \nregisters that represent one or more settings. \nThe registers are values of 2 bytes of length, \ntransmitted with the most important byte at \nfirst. The maximum number of registers to be \nwritten in a package is 60."
+      },
+      {
+        "context_position": 9,
+        "chunk_id": 19,
+        "page": 7,
+        "score": 6,
+        "bucket": "communication",
+        "retrieved_by": [
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n8/30 \n \n1.5.1. States Map \nThe function code implemented to State reading is is 0x03 (Read Holding Registers) \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n500 \nGeneral \n00 \n1 \nTrip \nImax (A) \nBIT32 \n01 \n2 \nExternal Trip \n- \n02 \n6 \nNo Trip Power \n- \n03 \n7 \n50 Hz \n- \n04 \n8 \nTrip Block Enable \n- \n05 \n16 \nMeasure Error \n- \n06 \n17 \nReady \n1: Vaux power \n2: Self-powering \n4: USB power \n07 \n19 \nSettings Changed \n- \n08 \n21 \nSet Date/Time \n- \n09 \n22 \nLocal Activity \n- \n10 \n23 \nFactory Settings \n- \n11 \n24 \nEEPROM Error \n- \n12 \n28 \nEEPROM Changed \n- \n13 \n32 \nEvents Error \n- \n15 \n15 \nReset \n- \n16 \n49 \nPickup \nImax (A) \n17 \n50 \nPhase A Pickup \nIA (A) \n18 \n51 \nPhase B Pickup \nIB (A) \n19 \n52 \nPhase C Pickup \nIC (A) \n20 \n53 \nNeutral Pickup \nIN (A) \n21 \n54 \nPhase A Trip \nIA (A) \n22 \n55 \nPhase B Trip \nIB (A) \n23 \n56 \nPhase C Trip \nIC (A) \n24 \n57 \nNeutral Trip \nIN (A) \n25 \n58 \n50 Trip \n- \n26 \n59 \n50G Trip \n-"
+      },
+      {
+        "context_position": 10,
+        "chunk_id": 9,
+        "page": 3,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address",
+          "addressing_mode"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n4/30 \n \n \n1.1. \nModbus RTU pachage format \nCUSTOMER \nADDRESS \n1 byte  \nEach device on a communication bus must have a unique address, otherwise two \ndifferent units could reply simultaneously to the same request. All ports of the \nrelay will use this address which can be set a value between 1 and 247. When the \nmaster transmits a frame with the slave address to 0 indicates a Broadcast. All \nthe slaves in the communications bus will carry out the requested action, but no \none will reply to the master. The Broadcast will only be accepted to write, as it \nmakes no sense to make a read request in the Broadcast, as no one will reply this \nrequest.  \nFUNCTION \nCODE \n1 byte  \nThis is one of the function codes supported by the equipment. In this case, the \nonly function codes supported are 3 to read and 16 to write. When the slave has \nto reply with an exception one of these frames, it is indicated by putting 1 in the"
+      },
+      {
+        "context_position": 11,
+        "chunk_id": 5,
+        "page": 2,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address"
+        ],
+        "content": "equipment. \nThe SIA-B always acts as a slave, which means that it never initiates communications. The master is \nalways responsible for initiating communications. \nOnly a subset of the Modbus functions is implemented: \n• \nReading function 3. \n• \nWriting function 16. \nThe MODBUS/RTU protocol is independent from the hardware. Therefore, the physical layer can exist in \ndifferent hardware configurations: RS232, RS485, fibre optic or Ethernet. \nSpecifically, the relay has a front USB port and, as an option, a rear RS485 port. The data stream in any \nof the configurations is “half-duplex”.er \nEach byte of data is transmitted asynchronously and is made up of: 1 start bit, 8 data bits, 1 stop bit and \n1 parity bit, if this is how it is programmed. Therefore, the data has 10 or 11 bits, depending on whether it \nincludes parity. \nIf the relay only offers with Modbus on the front port, the address (1 to 247) is configurable but the rest of"
+      },
+      {
+        "context_position": 12,
+        "chunk_id": 43,
+        "page": 24,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n25/30 \n \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n51G \n652 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n852 (**) \n654 (*) \nCurve Type \nDENUM \n0 → IEC Inverse \n1 → IEC Very Inverse \n2 → IEC Extremely Inverse \n3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n854 (**) \n656 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n856 (**) \n658 (*) \nTap \nFLOAT INVERSE \n- \n858 (**) \n660 (*) \nTime Delay \nFLOAT INVERSE \n- \n860 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n49 \n662 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n862 (**) \n664 (*) \nTap \nFLOAT INVERSE \n- \n864 (**) \n666 (*) \nHeating Constant  \nLONG \n- \n866 (**) \n668 (*) \nCooling Constant \nLONG \n- \n868 (**) \n670 (*) \nAlarm Level \nLONG \n- \n870 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nTrip Block \n672 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n872 (**) \n674 (*) \nTap"
+      },
+      {
+        "context_position": 13,
+        "chunk_id": 41,
+        "page": 23,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "node_name"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n24/30 \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n736 (*) \nDNP3.0 IB Deadband \nLONG \n- \n936 (**) \n738 (*) \nDNP3.0 IC Deadband \nLONG \n- \n938 (**) \n740 (*) \nDNP3.0 IN Deadband \nLONG \n- \n940 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50-1 \n630 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n830 (**) \n632 (*) \nTap \nFLOAT INVERSE \n- \n832 (**) \n634 (*) \nTime Delay \nFLOAT INVERSE \n- \n834 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n51 \n636 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n 836 (**) \n638 (*) \nCurve Type \nDENUM \n0 → IEC Inverse \n1 → IEC Very Inverse \n2 → IEC Extremely Inverse \n3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n838 (**) \n640 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n840 (**) \n642 (*) \nTap \nFLOAT INVERSE \n- \n842 (**) \n644 (*) \nTime Delay \nFLOAT INVERSE \n- \n844 (**) \n \nSettings"
+      },
+      {
+        "context_position": 14,
+        "chunk_id": 11,
+        "page": 3,
+        "score": 5,
+        "bucket": "communication",
+        "retrieved_by": [
+          "addressing_mode",
+          "function_code"
+        ],
+        "content": "sent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master. \nThe management of the CRC is LSB-MSB.  \nDEAD TIME  \nNecessary time \nto transmit 3,5 \nBytes \nA frame is terminated when nothing is received for a period of 3,5 bytes. It means:  \n15 ms at 2400 bps  \n2 ms at 19200 bps  \n...etc. \n \n \n1.2. \nFunction Codes \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x03 \n3 \nRead Holding \nRegisters \nReading of Any Value  \nThis function allows the master to read 1 or \nmore consecutive addresses of a relay. The \nregisters always are of 16 bits, with the most \nimportant byte at first. The maximum number \nof registers to be read in a package are 60. \nHEX \nDEC \nCODE \nMODBUS NAME \nDEFINITION \nCOMMENT \n0x10 \n16 \nPreset Multiple \nRegisters \nScript"
+      },
+      {
+        "context_position": 15,
+        "chunk_id": 42,
+        "page": 23,
+        "score": 5,
+        "bucket": "register",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "3 → Defined Time \n4 → IEEE Inverse \n5 → IEEE Very Inverse \n6 → IEEE Extremely Inverse \n7 → IEC Long Time Inverse \n838 (**) \n640 (*) \nTime Dial (TMS) \nFLOAT INVERSE \n- \n840 (**) \n642 (*) \nTap \nFLOAT INVERSE \n- \n842 (**) \n644 (*) \nTime Delay \nFLOAT INVERSE \n- \n844 (**) \n \nSettings \nAddress \nDescription \nFormat \nEnumeration \n50G-1 \n646 (*) \nFunction Enable \nDENUM \n0 → Disable \n1 → Enable \n2 → SHB \n846 (**) \n648 (*) \nTap \nFLOAT INVERSE \n- \n848 (**) \n650 (*) \nTime Delay \nFLOAT INVERSE \n- \n850 (**) \n(*) Read/Write Address (FC = 03 / 16). \n(**) Address for Confirmation (FC = 16)"
+      },
+      {
+        "context_position": 16,
+        "chunk_id": 39,
+        "page": 22,
+        "score": 4,
+        "bucket": "communication",
+        "retrieved_by": [
+          "node_address",
+          "node_name"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n23/30 \n \n1.5.4. Settings Map \nSettings \nAddress \nDescription \nFormat \nEnumeration \nGeneral \n600 (*) \nIdentification \nASCII20 \n- \n800 (**) \n610 (*) \nFrequency \nDENUM \n0 → 60 Hz \n1 → 50 Hz \n810 (**) \n612 (*) \nSerial Number \nLONG \n- \n812 (**) \n614 (*) \nLanguage \nDENUM \n0 → English \n1 → Spanish \n2 → Depends on Relay model \n814 (**) \n616 (*) \nActive Setting Group \nLONG \n- \n816 (**) \n618 (*) \nTrip Voltage Level \nDENUM \n0 → 12 VDC \n1 → 17 VDC \n2 → 22 VDC \n3 → 24 VDC \n818 (**) \n620 (*) \nCT Phase Ratio \nFLOAT INVERSE  \n- \n820 (**) \n622 (*) \nCT Neutral Ratio \nFLOAT INVERSE \n- \n822 (**) \n624 (*) \nLocal COM Address \nLONG \n- \n824 (**) \n626 (*) \nRemote COM Address \nLONG \n- \n826 (**) \n628 (*) \nRemote Baud Rate \nDENUM \n0 → 4800 Bd \n1 → 9600 Bd \n2 → 19200 Bd \n3 → 38400 Bd \n828 (**) \n728 (*) \nRemote Protocol \nDENUM \n0 → ModBus \n1 → DPN3.0 \n928 (**) \n730 (*) \nDNP3.0 Master Address \nLONG \n- \n930 (**) \n732 (*) \nDNP3.0 Serial Settings \nDENUM \n0 → 8-N-1 \n1 → 8-N-2"
+      },
+      {
+        "context_position": 17,
+        "chunk_id": 29,
+        "page": 12,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_name",
+          "function_code",
+          "coils_discrete"
+        ],
+        "content": "- \n07 \n23 \nReset \n- \n08 \n- \nLogic Signal 1 \n- \n09 \n- \nLogic Signal 2 \n- \n10 \n- \nLogic Signal 3 \n- \n11 \n- \nLogic Signal 4 \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n542 \nRemote DNP3  \n00 \n- \nRemote communication \n- \nBIT32 \n17 \n2 \nOpen Breaker \n- \n18 \n3 \nClose Breaker \n- \n25 \n8 \nReset thermal image \n-"
+      },
+      {
+        "context_position": 18,
+        "chunk_id": 20,
+        "page": 8,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "node_name",
+          "coils_discrete"
+        ],
+        "content": "www.fanox.com \n \n \n \nRev. 08  \n \n \n \n9/30 \n \n27 \n \nPhase Trip \n- \n28 \n3 \nAuxiliary Power \n- \n29 \n4 \nSelf-powering \n- \n30 \n- \nUSB Power \n- \n31 \n5 \nBattery \n- \n- \n30 \nNew DFR \n \n- \n45 \nDate/Time Error \n- \n- \n46 \nNew DFR \nDFR number \n- \n47 \nIdentification \n- \n- \n48 \nEvents Erased \n- \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n8200 \nOscilo \n- \n16 \nDFR Erased \n \nBIT32 \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n502 \nLocal COM \n00 \n \nLocal communication \n \nBIT32 \n01 \n \nHMI Activity \n \n17 \n2 \nOpen Breaker \n \n18 \n3 \nClose Breaker \n \n25 \n8 \nReset thermal image \n \n \nAddress \nDescription \nBit \nEvent \nNO \nStatus \nAssociated \nMeasurement \nFormat \n504 \n50-1 \n00 \n01 \n50-1 Phase A Pickup \nIA (A) \nBIT32 \n01 \n02 \n50-1 Phase B Pickup \nIB (A) \n02 \n03 \n50-1 Phase C Pickup \nIC (A) \n03 \n04 \n50-1 Pickup \nImax (A) \n08 \n05 \n50-1 Phase A Trip \nIA (A) \n09 \n06 \n50-1 Phase B Trip \nIB (A) \n10 \n07 \n50-1 Phase C Trip \nIC (A) \n11 \n08"
+      },
+      {
+        "context_position": 19,
+        "chunk_id": 16,
+        "page": 5,
+        "score": 4,
+        "bucket": "other",
+        "retrieved_by": [
+          "register"
+        ],
+        "content": "Measure(UINT).Date and Time(FH) \nEVENTO \n10 \nAntiquity (UINT).Event (EVENT) \nCCRIT \n6 \nCriteria Number (UINT). Criteria Directory(UINT).Descriptive text(ASCII8) \nPEST \n61 \nNumber of States (UINT). Protection State-1(BIT16). … Protection State-60(BIT16) \nPCRIT \n61 \nNumber of Criteria (UINT). Index of Criteria-1(UINT). … Index of Criteria-60(UINT). \nCMED \n8 \nNumber of Measure (UINT). Descriptive text(ASCII7).Unit(ASCII3).Primary \nUnit(ASCII5).Number of decimals(UCHAR) \nGAJU \n61 \nNumber of Groups (UINT). Index of the Criteria-1(UINT).Index of the first setting of \nthe Criteria-1(UINT). … Index of the Criterion-30(UINT). Index of the first setting of \nthe Criteria-30(UINT). \nENUM TRIP \nVOLT \n1 \nInteger without sign of 16 bits.  \nE. g.: 0, 1, 2 Correspondence to “12V”, “17V”, “22V” \nWhen the data format takes up more than one BYTE, the most important BYTE is sent through the \ncommunications first, and the least important BYTE is sent last."
+      },
+      {
+        "context_position": 20,
+        "chunk_id": 10,
+        "page": 3,
+        "score": 4,
+        "bucket": "communication",
+        "retrieved_by": [
+          "function_code"
+        ],
+        "content": "request.  \nFUNCTION \nCODE \n1 byte  \nThis is one of the function codes supported by the equipment. In this case, the \nonly function codes supported are 3 to read and 16 to write. When the slave has \nto reply with an exception one of these frames, it is indicated by putting 1 in the \nmost important bit of the correspondent function. Thus, an exception for the \nfunction 3, will be indicated with a 83 as a function code; and an exception for the \nfunction code 16 or 0x10 in hexadecimal, will be indicated with an 0x90. \nDATA \nN bytes  \nThis part consists of a variable number of bytes, depending on the function code. \nIt may include: addresses, data lengths, settings, commands or exception codes \nsent by the user.  \nCRC \n2 bytes  \nControl code of two bytes. The ModBus/RTU includes a 16-bit CRC in each \nframe, to detect errors. If the slave detects an erroneous frame, based on a CRC \nthat is not correct, it won’t take any action, nor will reply anything to the master."
+      }
+    ]
+  }
+]

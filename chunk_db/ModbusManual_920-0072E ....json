@@ -1,0 +1,158 @@
+[
+  {
+    "chunk_id": 0,
+    "page": 0,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "920-0072 Rev E\n9/9/2014\nAPPLIED MOTION PRODUCTS, INC. \nModbus® is a registered trademark of Schneider Electric, licensed to the Modbus Organization, Inc.\nModbus User Manual"
+  },
+  {
+    "chunk_id": 1,
+    "page": 1,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "2\n920-0072 Rev E\n9/9/2014\nModbus User Manual\nCovers the following Modbus® RTU enabled drives:\nST5-Q-RN\nST5-Q-RE\nST5-Q-NN\nST5-Q-NE\nST10-Q-RN\nST10-Q-RE\nST10-Q-NN\nST10-Q-NE\nSTM17Q-3AN\nSTM17Q-3AE\nSTM17Q-3RN\nSTM17Q-3RE\nSTM23Q-2AN\nSTM23Q-2AE\nSTM23Q-2RN\nSTM23Q-2RE\nSTM23Q-3AN\nSTM23Q-3AE\nSTM23Q-3RN\nSTM23Q-3RE\nSTM24QF-3AN\nSTM24QF-3AE\nSTM24QF-3RN\nSTM24QF-3RE\nSWM24QF-3AN\nSWM24QF-3AE\nCovers the following Modbus® TCP enabled drives:\nST5-Q-EN\nST5-Q-EE\nST10-Q-EN\nST10-Q-EE"
+  },
+  {
+    "chunk_id": 2,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "3\n920-0072 Rev E \n9/9/2014\nModbus User Manual\nWhat is Modbus?\nModbus, originally created by Modicon, is a fieldbus that allows a master and one or more slave devices to \nshare data.  These data are organized into 16-bit registers, which can also be used to share information single-bit \nI/O points.  \nIt is a popular protocol with PLC vendors due to its simplicity and the inherent ease of sending PLC register \ndata (often 16-bits in width) over a fieldbus protocol optimized for 16-bit data.  \nThe master may initiate read and write operations on single registers or blocks of registers.  While there is \nno rule to this effect, it is common for the master to read and write on a periodic time base (polling), rather than \nsending and requesting data only when it is needed.  In this manner, PLC register data is ensured to be valid and \nconsistent as a representation of the slave device’s status.\nModbus TCP data is transmitted over Ethernet TCP/IP port 502.\nWiring\nModbus/RTU:"
+  },
+  {
+    "chunk_id": 3,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "sending and requesting data only when it is needed.  In this manner, PLC register data is ensured to be valid and \nconsistent as a representation of the slave device’s status.\nModbus TCP data is transmitted over Ethernet TCP/IP port 502.\nWiring\nModbus/RTU:\nModbus RTU uses the standard RS-232 or RS-485 physical layer.  \nRS-232 is a point-to-point communications scheme, and as such the largest possible network would consist \nof a single slave drive.  Please note that even though it will be the only device on the “network”, it will still require \nan address.  This address may be an integer value from 1-32, and is set through the ST Configurator™ software \nduring initial configuration.\nFor drives with RS-485 communications, there are a few things to consider.  \nIt is possible to use 2-wire RS-485 for operational communication over Modbus, however 4-wire RS-485 is \nrequired for use with all Applied Motion configuration and programming software (i.e., ST Configurator™ and Q"
+  },
+  {
+    "chunk_id": 4,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "For drives with RS-485 communications, there are a few things to consider.  \nIt is possible to use 2-wire RS-485 for operational communication over Modbus, however 4-wire RS-485 is \nrequired for use with all Applied Motion configuration and programming software (i.e., ST Configurator™ and Q \nProgrammer™).  As such, we recommend that all RS-485 networks be constructed using the 4-wire method.\nBe sure to consult your drive’s hardware manual for specific wiring details.\nModbus/TCP:\nModbus TCP uses the standard Ethernet physical layer and a TCP/IP connection.  Connect your drive \nto the PC, PLC or LAN using standard CAT5 cabling. \nConsult your drive’s manual for wiring and detailed communication instructions.\nDrive configuration\nModbus/RTU Drive Configuration:\nFirst, download and install the most recent version of the ST Configurator™ software from the Applied \nMotion Products website (www.applied-motion.com).  For RS-485 drives you will also need a USB-to-RS-485"
+  },
+  {
+    "chunk_id": 5,
+    "page": 2,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "Drive configuration\nModbus/RTU Drive Configuration:\nFirst, download and install the most recent version of the ST Configurator™ software from the Applied \nMotion Products website (www.applied-motion.com).  For RS-485 drives you will also need a USB-to-RS-485 \nconverter, such as the USB-COMi-M module available from AMP.  Consult your drive’s manual for wiring and \ngeneral communication instructions.\n1. Launch ST Configurator™ software and select the appropriate COM port.\n2. Apply power to the drive.  Note, perform this step with only a single drive on the network.  Each drive \nmust be configured individually before it may be used on a network.\n3. ST Configurator™ will automatically identify the drive, but will not upload all parameters.  Click \n“Upload from Drive”.  This will ensure that the software accurately reflects the current state of the drive’s"
+  },
+  {
+    "chunk_id": 6,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "4\n920-0072 Rev E\n9/9/2014\nModbus User Manual\nconfiguration parameters.\n4. Click “Motion & I/O”\n5. Specify the drive’s node address and baud rate.  \n6. For drives with Flex/IO, confirm the desired I/O settings.  Click OK to return to the main screen.\n7. Set any desired motor and encoder configurations your application may require.\n8. Click Download to Drive to save the settings.\n9. Optionally, launch Q Programmer™ to write and download a program for this axis.  The drive may \nbe configured to launch the program automatically upon powerup, or to wait for the QX command to be \nsent from the Modbus master.\n10. Remove power from the drive and install into the main machine network.  \n11. Repeat for all other slave nodes, taking care to ensure each has a unique node address.\nNote, the drive must be rebooted to switch between Modbus and configuration modes.\nModbus/TCP Drive Configuration:\nThe IP address is your Modbus address.  Applied Motion Ethernet drives include a 16 position rotary"
+  },
+  {
+    "chunk_id": 7,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "Note, the drive must be rebooted to switch between Modbus and configuration modes.\nModbus/TCP Drive Configuration:\nThe IP address is your Modbus address.  Applied Motion Ethernet drives include a 16 position rotary \nswitch that includes 15 predefined IP addresses plus a DHCP setting.  These addresses can be \nchanged using the ST Configurator™ software.  You will also need to choose your motor, set the drive \nfor Modbus communication mode and configure other parameters such as I/O functionality.  First, \ndownload and install the most recent version of the ST Configurator™ software from the Applied Motion \nProducts website (www.applied-motion.com).\n1.\tLaunch ST Configurator™ software, select “Ethernet” and enter the drive’s IP address.\n2.\tApply power to the drive. \n3.\tClick “Upload from Drive” to identify the drive and upload the current configuration. This will ensure that \nthe software accurately reflects the current state of the drive’s configuration parameters."
+  },
+  {
+    "chunk_id": 8,
+    "page": 3,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "2.\tApply power to the drive. \n3.\tClick “Upload from Drive” to identify the drive and upload the current configuration. This will ensure that \nthe software accurately reflects the current state of the drive’s configuration parameters.\n4.\tClick “Motion & I/O”\n5.\tSet any desired motor and encoder configurations your application may require.\n6.\tClick “Download to Drive” to save the settings.\n7.\tOptionally, launch Q Programmer™ to write and download a program for this axis. The drive may be \nconfigured to launch the program automatically upon power up, or to wait for the QX command to be sent from the \nModbus master.\n8.\tRemove power from the drive and install into the main machine network. \n9.\tRepeat for all other slave nodes, taking care to ensure each has a unique node address.\nNote, the drive must be rebooted to switch between Modbus and configuration modes."
+  },
+  {
+    "chunk_id": 9,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "5\n920-0072 Rev E \n9/9/2014\nModbus User Manual\nDrive Behavior\nAn extensive list of registers has been made available, allowing the user to monitor or change every detail \nof the drive’s status  It is also possible to send commands to a specific register, mimicking the behavior of our \nproprietary SCL command set.  The capability allows a PLC to have unparalleled control over the drive’s behavior \nat runtime.\nThe drive will respond to the following Modbus function codes:\n3\t\nRead Holding Registers\t\n4\t\nRead Input Registers\n6\t\nWrite Single Register\n16\t\nWrite Multiple Registers\nMonitoring\nSee the Register Map table for details on specific data that can be monitored and written in this manner.\nSending Commands\nThe Command Opcode register, 40125, is designated to receive encoded SCL commands via Modbus.  \nMany SCL commands have been made available in this manner, and will allow the user full control over the \nmotion capabilities of the drive."
+  },
+  {
+    "chunk_id": 10,
+    "page": 4,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "Sending Commands\nThe Command Opcode register, 40125, is designated to receive encoded SCL commands via Modbus.  \nMany SCL commands have been made available in this manner, and will allow the user full control over the \nmotion capabilities of the drive.  \nSCL command encoding details can be found in the Modbus Register Table.\nPlease refer to the Host Command Reference for details of the functionality of these registers and \ncommands."
+  },
+  {
+    "chunk_id": 11,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "6\n920-0072 Rev E\n9/9/2014\nModbus User Manual\nExamples\nPoint-to-Point Moves\nFour pieces of data are required to fully define a point-to-point move.  Acceleration, Deceleration, Distance, \nand Velocity.  Followed of course by the move command itself.  To command such a move over Modbus, we must \nfirst write to the aforementioned control registers, then send the command.\nNow it’s time for the command itself.  The most common point-to-point move is the Feed to Length which \nuses the SCL command FL.  In Modbus we do the following:\nThe drive will execute the move command immediately, pulling the relevant parameter data from the above \nregisters.  It is immediately ready to accept another command.  Note, it is not necessary to send parameter data \nwith each command, unless this data changes between moves.  For example, to repeat a move simply send the \ncommand again, leaving the relevant paramter data unchanged.\nLaunch a Q Program"
+  },
+  {
+    "chunk_id": 12,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "with each command, unless this data changes between moves.  For example, to repeat a move simply send the \ncommand again, leaving the relevant paramter data unchanged.\nLaunch a Q Program\nIt is possible to execute a stored Q program over Modbus using the QX command (opcode 0x78).  This \ncommand requires a value to be written to Parameter 1, the first of 5 registers set aside for command-dependant \nparameter data.\nTo launch the program at segment 1, we would use the SCL command QX1.  Over Modbus, the following \nprocedure applies.  \nFirst, configure the parameter data (only Parameter 1 is used by this command).\nNow we can send the QX command itself.\nNote, to stop a command or interrupt a Q program, either the SK or SKD commands may be used.\nFunction\nRegister\nValue\nNotes\nAcceleration\n40028\n100\nUnits: 10 RPM/sec\nDeceleration\n40029\n100\nUnits: 10 RPM/sec\nVelocity\n40030\n240\nUnits: 0.25 RPM\nDistance\n40031..32\n20000\nThis register is affected by Endianness setting\nFunction\nRegister\nValue\nNotes"
+  },
+  {
+    "chunk_id": 13,
+    "page": 5,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "Function\nRegister\nValue\nNotes\nAcceleration\n40028\n100\nUnits: 10 RPM/sec\nDeceleration\n40029\n100\nUnits: 10 RPM/sec\nVelocity\n40030\n240\nUnits: 0.25 RPM\nDistance\n40031..32\n20000\nThis register is affected by Endianness setting\nFunction\nRegister\nValue\nNotes\nFL Command\n40125\n102\n0x66 (Hexadecimal) is equal to 102\nFunction\nRegister\nValue\nNotes\nParameter 1\n40126\n1\nQ segment to execute.  Integer: 1..12\nFunction\nRegister\nValue\nNotes\nQX Command\n40125\n120\n0x78 (Hexadecimal) is equal to 102\nFunction\nRegister\nValue\nNotes\nSK Command\n40125\n225\n0xE1 (Hexadecimal) is equal to 225\nFunction\nRegister\nValue\nNotes\nSKD Command\n40125\n226\n0xE2 (Hexadecimal) is equal to 226"
+  },
+  {
+    "chunk_id": 14,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "7\n920-0072 Rev E \n9/9/2014\nModbus User Manual\nModbus Register Table\nRegister\nAccess\nData Type\nDescription\nSCL Register\n40001\nRead\nSHORT\nAlarm Code (AL)\nf\n40002\nRead\nSHORT\nStatus Code (SC)\ns\n40003\nRead\nSHORT\nImmediate Expanded Inputs (IS)\ny\n40004\nRead\nSHORT\nDriver Board Inputs (ISX)\ni\n40005..6\nRead\nLONG\nEncoder Position (IE, EP)\ne\n40007..8\nRead\nLONG\nImmediate Absolute Position\nl\n40009..10\nWrite\nLONG\nAbsolute Position Command\nP\n40011\nRead\nSHORT\nImmediate Actual Velocity (IV0)\nv\n40012\nRead\nSHORT \nImmediate Target Velocity (IV1)\nw\n40013\nRead\nSHORT\nImmediate Drive Temperature (IT)\nt\n40014\nRead\nSHORT\nImmediate Bus Voltage (IU)\nu\n40015..16\nRead\nLONG\nImmediate Position Error (IX)\nx\n40017\nRead\nSHORT\nImmediate Analog Input Value (IA)\na\n40018\nRead\nSHORT\nQ Program Line Number\nb\n40019\nRead\nSHORT\nImmediate Current Command (IC)\nc\n40020..21\nRead\nLONG\nRelative Distance (ID)\nd\n40022..23\nRead\nLONG\nSensor Position\ng\n40024\nRead\nSHORT\nCondition Code\nh\n40025\nRead\nSHORT\nAnalog Input 1 (IA1)\nj\n40026\nRead\nSHORT"
+  },
+  {
+    "chunk_id": 15,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "a\n40018\nRead\nSHORT\nQ Program Line Number\nb\n40019\nRead\nSHORT\nImmediate Current Command (IC)\nc\n40020..21\nRead\nLONG\nRelative Distance (ID)\nd\n40022..23\nRead\nLONG\nSensor Position\ng\n40024\nRead\nSHORT\nCondition Code\nh\n40025\nRead\nSHORT\nAnalog Input 1 (IA1)\nj\n40026\nRead\nSHORT\nAnalog Input 2 (IA2)\nk\n40027\nRead\nSHORT\nCommand Mode (CM)\nm\n40028\nR/W\nSHORT\nPoint-to-Point Acceleration (AC)\nA\n40029\nR/W\nSHORT\nPoint-to-Point Deceleration (DE)\nB\n40030\nR/W\nSHORT\nVelocity (VE)\nV\n40031..32\nR/W\nLONG\nPoint-to-Point Distance (DI)\nD\n40033..34\nR/W\nLONG\nChange Distance (DC)\nC\n40035\nR/W\nSHORT\nChange Velocity (VC)\nU\n40036\nRead\nSHORT\nVelocity Move State\nn\n40037\nRead\nSHORT\nPoint-to-Point Move State\no\n40038\nRead\nSHORT\nQ Program Segment Number\np\n40039\nRead\nSHORT\nAverage Clamp Power (regen)\nr\n40040\nRead\nSHORT\nPhase Error\nz\n40041..42\nR/W\nLONG\nPosition Offset\nE\n40043\nR/W\nSHORT\nMiscellaneous Flags\nF\n40044\nR/W\nSHORT\nCurrent Command (GC)\nG\n40045..46\nR/W\nLONG\nInput Counter\nI\n40047\nR/W\nSHORT\nJog Accel (JA)\n40048\nR/W\nSHORT"
+  },
+  {
+    "chunk_id": 16,
+    "page": 6,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "p\n40039\nRead\nSHORT\nAverage Clamp Power (regen)\nr\n40040\nRead\nSHORT\nPhase Error\nz\n40041..42\nR/W\nLONG\nPosition Offset\nE\n40043\nR/W\nSHORT\nMiscellaneous Flags\nF\n40044\nR/W\nSHORT\nCurrent Command (GC)\nG\n40045..46\nR/W\nLONG\nInput Counter\nI\n40047\nR/W\nSHORT\nJog Accel (JA)\n40048\nR/W\nSHORT\nJog Decel (JL)\n40049\nR/W\nSHORT\nJog Velocity (JS)\nJ\n40050\nR/W\nSHORT\nAccel/Decel Current (CA)\n40051\nR/W\nSHORT\nRunning Current (CC)\nN\n40052\nR/W\nSHORT\nIdle Current (CI)"
+  },
+  {
+    "chunk_id": 17,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "8\n920-0072 Rev E\n9/9/2014\nModbus User Manual\n40053\nR/W\nSHORT\nSteps per Revolution\nR\n40054..55\nR/W\nLONG\nPulse Counter\nS\n40056\nR/W\nSHORT\nAnalog Position Gain (AP)\nX\n40057\nR/W\nSHORT\nAnalog Threshold (AT)\nY\n40058\nR/W\nSHORT\nAnalog Offset (AV\nZ\n40059..60\nR/W\nLONG\nAccumulator\n0\n40061..62\nR/W\nLONG\nUser Defined\n1\n40063..64\nR/W\nLONG\nUser Defined\n2\n40065..66\nR/W\nLONG\nUser Defined\n3\n40067..68\nR/W\nLONG\nUser Defined\n4\n40069..70\nR/W\nLONG\nUser Defined\n5\n40071..72\nR/W\nLONG\nUser Defined\n6\n40073..74\nR/W\nLONG\nUser Defined\n7\n40075..76\nR/W\nLONG\nUser Defined\n8\n40077..78\nR/W\nLONG\nUser Defined\n9\n40079..80\nR/W\nLONG\nUser Defined\n:\n40081..82\nR/W\nLONG\nUser Defined\n;\n40083..84\nR/W\nLONG\nUser Defined\n<\n40085..86\nR/W\nLONG\nUser Defined\n=\n40087..88\nR/W\nLONG\nUser Defined\n>\n40089..90\nR/W\nLONG\nUser Defined\n?\n40091..92\nR/W\nLONG\nUser Defined\n@\n40093..94\nR/W\nLONG\nUser Defined\n[\n40095..96\nR/W\nLONG\nUser Defined\n\\\n40097..98\nR/W\nLONG\nUser Defined\n]\n40099..100\nR/W\nLONG\nUser Defined\n^\n40101..102\nR/W\nLONG\nUser Defined\n_\n400103..104"
+  },
+  {
+    "chunk_id": 18,
+    "page": 7,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "=\n40087..88\nR/W\nLONG\nUser Defined\n>\n40089..90\nR/W\nLONG\nUser Defined\n?\n40091..92\nR/W\nLONG\nUser Defined\n@\n40093..94\nR/W\nLONG\nUser Defined\n[\n40095..96\nR/W\nLONG\nUser Defined\n\\\n40097..98\nR/W\nLONG\nUser Defined\n]\n40099..100\nR/W\nLONG\nUser Defined\n^\n40101..102\nR/W\nLONG\nUser Defined\n_\n400103..104\nR/W\nLONG\nUser Defined\n`\n40105\nR/W\nSHORT\nBrake Release Delay\n40106\nR/W\nSHORT\nBrake Engage Delay\n40107\nR/W\nSHORT\nIdle Current Delay\n40108\nR/W\nSHORT\nHyperbolic Smoothing Gain\n40109\nR/W\nSHORT\nHyperbolic Smoothing Phase\n40110\nR/W\nSHORT\nAnalog Filter Gain\n40111..124\n(reserved)\n40125\nR/W\nSHORT\nCommand Opcode\n40126\nR/W\nSHORT\nParameter 1\n40127\nR/W\nSHORT\nParameter 2\n40128\nR/W\nSHORT\nParameter 3\n40129\nR/W\nSHORT\nParameter 4\n40130\nR/W\nSHORT\nParameter 5"
+  },
+  {
+    "chunk_id": 19,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "9\n920-0072 Rev E \n9/9/2014\nModbus User Manual\nSCL Command Encoding Table\nFunction\nSCL\nOpcode\nParameter 1\nParameter 2\nParameter 3\nParameter 4\nParameter 5\nAlarm Reset\nAX\n0xBA\nN/A\nN/A\nN/A\nN/A\nN/A\nStart Jogging\nCJ\n0x96\nN/A\nN/A\nN/A\nN/A\nN/A\nStop Jogging\nSJ\n0xD8\nN/A\nN/A\nN/A\nN/A\nN/A\nEncoder Function\nEF\n0xD6\n0,1,2 or 6\nN/A\nN/A\nN/A\nN/A\nEncoder Position\nEP\n0x98\nPosition\nN/A\nN/A\nN/A\nN/A\nFeed to Double Sensor\nFD\n0x69\nI/O Point 1\nCondition 1\nI/O Point 2\nCondition 2\nN/A\nFollow Encoder\nFE\n0xCC\nI/O Point\nCondition\nN/A\nN/A\nN/A\nFeed to Length\nFL\n0x66\nN/A\nN/A\nN/A\nN/A\nN/A\nFeed to Sensor with Mask \nDistance\nFM\n0x6A\nI/O Point\nCondition\nN/A\nN/A\nN/A\nFeed and Set Output\nFO\n0x68\nI/O Point\nCondition\nN/A\nN/A\nN/A\nFeed to Position\nFP\n0x67\nN/A\nN/A\nN/A\nN/A\nN/A\nFeed to Sensor\nFS\n0x6B\nI/O Point\nCondition\nN/A\nN/A\nN/A\nFeed to Sensor with Safety \nDistance\nFY\n0x6C\nI/O Point\nCondition\nN/A\nN/A\nN/A\nJog Disable\nJD\n0xA3\nN/A\nN/A\nN/A\nN/A\nN/A\nJog Enable\nJE\n0xA2\nN/A\nN/A\nN/A\nN/A\nN/A\nMotor Disable\nMD\n0x9E\nN/A\nN/A\nN/A\nN/A\nN/A"
+  },
+  {
+    "chunk_id": 20,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "Feed to Position\nFP\n0x67\nN/A\nN/A\nN/A\nN/A\nN/A\nFeed to Sensor\nFS\n0x6B\nI/O Point\nCondition\nN/A\nN/A\nN/A\nFeed to Sensor with Safety \nDistance\nFY\n0x6C\nI/O Point\nCondition\nN/A\nN/A\nN/A\nJog Disable\nJD\n0xA3\nN/A\nN/A\nN/A\nN/A\nN/A\nJog Enable\nJE\n0xA2\nN/A\nN/A\nN/A\nN/A\nN/A\nMotor Disable\nMD\n0x9E\nN/A\nN/A\nN/A\nN/A\nN/A\nMotor Enable\nME\n0x9F\nN/A\nN/A\nN/A\nN/A\nN/A\nSeek Home\nSH\n0x6E\nI/O Point\nCondition\nN/A\nN/A\nN/A\nSet Position\nSP\n0xA5\nPosition\nN/A\nN/A\nN/A\nN/A\nFilter Input\nFI\n0xC0\nI/O Point\nFilter Time\nN/A\nN/A\nN/A\nFilter Select Inputs\nFX\n0xD3\nN/A\nN/A\nN/A\nN/A\nN/A\nStep Filter Freq\nSF\n0x06\nFreq\nN/A\nN/A\nN/A\nN/A\nAnalog Deadband\nAD\n0xD2\n0.001 V\nN/A\nN/A\nN/A\nN/A\nAlarm Reset Input\nAI\n0x46\nFunction ('1'..'3')\nI/O Point\nN/A\nN/A\nN/A\nAlarm Output\nAO\n0x47\nFunction ('1'..'3')\nI/O Point\nN/A\nN/A\nN/A\nAnalog Scaling\nAS\n0xD1\nN/A\nN/A\nN/A\nN/A\nN/A\nDefine Limits\nDL\n0x42\n1..3\nN/A\nN/A\nN/A\nN/A\nSet Output\nSO\n0x8B\nI/O Point\nCondition\nN/A\nN/A\nN/A\nWait for Input\nWI\n0x70\nN/A\nN/A\nN/A\nN/A\nN/A\nQueue Load & Execute\nQX\n0x78\n1..12\nN/A\nN/A\nN/A\nN/A"
+  },
+  {
+    "chunk_id": 21,
+    "page": 8,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "N/A\nAlarm Output\nAO\n0x47\nFunction ('1'..'3')\nI/O Point\nN/A\nN/A\nN/A\nAnalog Scaling\nAS\n0xD1\nN/A\nN/A\nN/A\nN/A\nN/A\nDefine Limits\nDL\n0x42\n1..3\nN/A\nN/A\nN/A\nN/A\nSet Output\nSO\n0x8B\nI/O Point\nCondition\nN/A\nN/A\nN/A\nWait for Input\nWI\n0x70\nN/A\nN/A\nN/A\nN/A\nN/A\nQueue Load & Execute\nQX\n0x78\n1..12\nN/A\nN/A\nN/A\nN/A\nWait Time\nWT\n0x6F\n0.01 sec\nN/A\nN/A\nN/A\nN/A\nStop Move, Kill Buffer\nSK\n0xE1\nN/A\nN/A\nN/A\nN/A\nN/A\nStop Move, Kill Buffer,      \nNormal Decel\nSKD\n0xE2\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A = Not Applicable\nNotes:\n• \n32-bit values may be either big-endian or little-endian.  Endianness is determined by Bit 6 of the PR \ncommand word.  It is recommended that this setting be configured with the ST ConfiguratorTM software.\n• \nConsult the I/O Encoding Table for details on parameter data for commands referencing I/O."
+  },
+  {
+    "chunk_id": 22,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "10\n920-0072 Rev E\n9/9/2014\nModbus User Manual\nIO Encoding Table\nUseful ASCII values for IO commands.  Character values shown are taken from standard SCL command \nnomenclature.  For example, a Feed to Sensor command example may utilize the falling edge of input 1 and \nappear as FS1F.  To encode this command the user would select 0x31 for the character ‘1’ and 0x46 for the \ncharacter ‘F’.   \n\t\nCharacter\nhex code\n‘1’\n0x31\ninput 1 or output 1\n‘2’\n0x32\ninput 2 or output 2\n‘3’\n0x33\ninput 3 or output 3\n‘4’\n0x34\ninput 4 or output 4\n‘L’\n0x4C\nlow state (closed)\n‘H’\n0x48\nhigh state (open)\n‘R’\n0x52\nrising edge\n‘F’\n0x46\nfalling edge\nModbus/TCP Protocol\n- Provides a Client/Server communication between devices connected on an Ethernet TCP/IP network.\n- Communication via TCP to port 502.\n- Headers are encoded in Big-endian.\n- Application Data Unit (ADU) Header is 7 bytes long:\n• \nTransaction Identifier (2 bytes): Identification of a Modbus Request/Response transaction.\n•"
+  },
+  {
+    "chunk_id": 23,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "- Communication via TCP to port 502.\n- Headers are encoded in Big-endian.\n- Application Data Unit (ADU) Header is 7 bytes long:\n• \nTransaction Identifier (2 bytes): Identification of a Modbus Request/Response transaction.\n• \nProtocol Identifier (2 bytes): 0 = Modbus protocol.\n• \nLength (2 bytes): Number of following bytes directly after this length field.\n• \nUnit Identifier (1 byte): Identification of a remote slave connected on a serial line.\n- Protocol Data Unit (PDU) is the Modbus/TCP equivalent of the Modbus/RTU message payload described \nabove.\n- Note: Too much polling on port 7775 (UDP Port) may cause sluggish behavior (Q Programmer™ polls).\n- TCP connection will timeout by default after 60 seconds of inactivity. This can be modified by a command \nsent via UDP to port 7775. Command is 3 bytes with the third byte equal to the TCP timeout in seconds.  A value \nof 0 will disable the timeout. Changes to the TCP timeout will take place once the drive is reset."
+  },
+  {
+    "chunk_id": 24,
+    "page": 9,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "sent via UDP to port 7775. Command is 3 bytes with the third byte equal to the TCP timeout in seconds.  A value \nof 0 will disable the timeout. Changes to the TCP timeout will take place once the drive is reset.\n\t\nCommand Example (3 bytes): 0x00 0x1F 0x0A - sets TCP timeout to 10 seconds.\n- Modbus register 40054-40055 is now Pulse Counter. Time Stamp has been deprecated."
+  },
+  {
+    "chunk_id": 25,
+    "page": 10,
+    "source": "C:\\Users\\william\\OneDrive - Högskolan i Halmstad\\UNIVERSITET\\VT26 Examensarbete\\GITHUB\\Promtbased_test\\examensarbete_test\\all_manuals\\ModbusManual_920-0072E ....pdf",
+    "content": "920-0072 Rev E\n9/9/2014\nApplied Motion Products\n404 Westridge Drive\nWatsonville, CA 95076\nUSA\ntel / 831-761-6555\nfax / 831-761-6544\nwww.applied-motion.com"
+  }
+]
