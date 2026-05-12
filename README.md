@@ -46,11 +46,11 @@ Our dataset repository contains:
 - `golden_keyValues/` (ground truth key=value files)
 
 ## Dataset
-Pdf manuals are not redistributed in this repository or in the dataset repository
+PDF manuals are not redistributed in this repository or in the dataset repository
 
 The accompanying dataset repository contains the manually curated reference data used for evaluation:
 - `manual_inventory.csv` with `manual_id`, `source_url`, `access_date`, and `golden_file`
 - `golden_keyValues` containing the ground-truth `key=value` files
- 
+
 The original manuals must be obtained from their respective source URLs listed in `manual_inventory.csv`
 Dataset repo: https://github.com/EliasH1999/dataset_contribution
